@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-[#FAFAFA]">
+    <div className="bg-[#fff]">
       <Navbar />
       {isMobile ? <MobileHome /> : <Home />}
       <Footer />

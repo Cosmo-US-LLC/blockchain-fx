@@ -39,7 +39,7 @@ function OneAppSec() {
   };
 
   return (
-    <div className="pt-[40px] pb-[50px] ">
+    <div className="pt-[40px] pb-[50px] bg-[#FBFBFB]">
      <div className="max-w-[1400px] w-[100%] mx-auto relative">
      <div className="max-w-[1220px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[581px] space-y-[32px]">

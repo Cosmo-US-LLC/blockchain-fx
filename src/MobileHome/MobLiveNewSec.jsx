@@ -1,6 +1,6 @@
 import React from "react";
 
-import liveming from "../assets/LiveNews/liveimgmob.png";
+import liveming from "../assets/LiveNews/liveimgmob.webp";
 
 function MobLiveNewSec() {
   return (
@@ -14,8 +14,8 @@ function MobLiveNewSec() {
             Stay ahead of the markets with our lightning-fast live news feature. Get real-time updates on market developments and make smarter trading decisions based on the latest news.
             </p>
           </div>
-          <div>
-            <img className="" src={liveming} alt="" />
+          <div className="min-h-[1000px] pt-1 flex relative justify-center">
+            <img className="absolute" src={liveming} alt="" />
           </div>
       </div>
     </div>

@@ -25,7 +25,7 @@ function Footer() {
   };
 
     return (
-     <div>
+     <div className='bg-[#FAFAFA]'>
       {/* desktop verion */}
 
       <div className="w-[100%] 2xl:block xl:block lg:block md:block sm:hidden hidden space-y-[40px] max-w-[1220px]  pt-[73px] mx-auto pb-[85px] ">
@@ -91,15 +91,15 @@ function Footer() {
 
       {/* mobile version */}
 
-      <div className="w-[90%] 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-[18px] py-[24px] mx-auto ">
-      <div className=' space-y-[15px] w-[100%]'>
+      <div className="w-[90%] 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-[35px] py-[24px] mx-auto ">
+      <div className=' space-y-[10px] w-[100%]'>
             <img src={logo} alt="" />
             <p className='text-[#000] text-[14px] font-[400] leading-[200%]'>Experience all-in-one trading with BlockchainFX: Trade Crypto, Forex, ETFs, Stocks, Indices, CFDs, and more with access to over 500 assets.</p>
           </div>
         <div className='flex justify-between'>
         <div className='max-w-[150px] w-[100%] '>
             <ul>
-              <li className='text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc'>
+              <li className='text-[#000] text-[16px] font-[600] leading-[108.333%] '>
               Quick links
                 <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "how-to-buy", 90)} >How to Buy</a>
                 <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx", 90)}>What is BFX</a>
@@ -110,7 +110,7 @@ function Footer() {
           </div>
           <div className='max-w-[200px] w-[100%] '>
           <ul className=' w-[100%]'>
-              <li className='text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]'>
+              <li className='text-[#000] text-[16px] font-[600] leading-[108.333%]'>
               Docs
                 <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Terms of Service </a>
                 <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Privacy  Policy </a>
@@ -120,14 +120,14 @@ function Footer() {
           </div>
         </div>
         <div className='flex justify-between'>
-        <div className='max-w-[285px] space-y-[12px] pt-[3px] w-[100%] '>
+        <div className='max-w-[285px] space-y-[15px] pt-[3px] w-[100%] '>
           <h4 className='text-[#000] text-[16px] font-[600] leading-[108.333%]'>Join Our Socials</h4>
           <div className='flex space-x-6'>
             <img src={socil1} alt="" />
             <img src={socil2} alt="" />
             <img src={socil3} alt="" />
           </div>
-          <div className='space-y-[5px]'>
+          <div className='space-y-[10px]'>
             <h4 className='text-[#949494] text-[12px] font-[400] leading-[108.333%]'>Contact E-Mail: </h4>
             <h3 className='text-[#949494] text-[15px] font-[400] leading-[108.333%]'>Hello@blockchainfx.com</h3>
           </div>
@@ -139,7 +139,7 @@ function Footer() {
           Trading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. Dreamcars does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.
           </p>
         </div>
-        <div className='flex justify-between'>
+        <div className='flex justify-center'>
           <div className='space-x-4'>
             <a href="" className='text-[12px] text-[#000] leading-[100%]'>Legal Documents</a>
             <a href="" className='text-[12px] text-[#000] leading-[100%]'>Privacy Policy</a>

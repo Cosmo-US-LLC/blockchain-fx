@@ -28,8 +28,8 @@ function MobRoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[11.039px] pt-[5px]">
-            <img src={vector1} className="border border-[#000]" alt="" />
+        <div className="w-[15px] h-[15px] !mt-[3px] relative border border-[#858585]">
+            <img src={vector1} className="" alt="" />
         </div>
         <div className="w-[92%] space-y-[8px]">
             <h3 className="text-[13.084px] font-[500] leading-[138%]">Preparation</h3>
@@ -56,8 +56,8 @@ function MobRoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[11.039px] pt-[5px]">
-            <img src={vector1} className="border border-[#000]" alt="" />
+        <div className="w-[15px] h-[15px] !mt-[3px] relative border border-[#858585]">
+            <img src={vector1} className="" alt="" />
         </div>
         <div className="w-[92%] space-y-[8px]">
             <h3 className="text-[13.084px] font-[500] leading-[138%]">Execution</h3>
@@ -169,8 +169,8 @@ function MobRoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[11.039px] pt-[5px]">
-            <img src={vector1} className="border border-[#000]" alt="" />
+        <div className="w-[15px] h-[15px] !mt-[3px] relative border border-[#858585]">
+            <img src={vector1} className="" alt="" />
         </div>
         <div className="w-[92%] space-y-[8px]">
             <h3 className="text-[13.084px] font-[500] leading-[138%]">Global Reach</h3>

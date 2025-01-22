@@ -47,7 +47,7 @@ function TradeOverSec() {
             }}
             >
                 <div className="">
-                    <img src={item.img} alt="" />
+                    <img src={item.img} className="rounded-[8px]" alt="" />
                 </div>
                 <div className="space-y-[13px]">
                     <h3 className="text-[20px] text-[#181A20] font-[600] leading-[140%] tracking-[-0.32px]">{item.title}</h3>

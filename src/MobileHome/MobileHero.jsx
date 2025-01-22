@@ -39,12 +39,12 @@ function MobileHero() {
           </div>
           <div className="border rounded-[6px] py-[12px] px-[13px]">
             <h3 className="text-center text-[15px] font-[600]">Featured In:</h3>
-           <div className="flex justify-center items-center space-x-[10px]">
+           <div className="flex justify-center items-center space-x-[15px]">
            {/* <img className="h-[12px]" src={herobnr1} alt="" /> */}
-            <img className="h-[18px]" src={herobnr2} alt="" />
+            <img className="h-[14px]" src={herobnr2} alt="" />
             <img className="" src={fobicn} alt="" />
-            <img className="h-[18px]" src={herobnr4} alt="" />
-            <img className="max-w-[92.355px]" src={herobnr5} alt="" />
+            <img className="h-[16px]" src={herobnr4} alt="" />
+            <img className="max-w-[110.355px]" src={herobnr5} alt="" />
            </div>
           </div>
         </div>

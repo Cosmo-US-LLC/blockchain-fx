@@ -1,6 +1,6 @@
 import React from "react";
 
-import eranimg from "../assets/EarnOnSec/mobearnimg.png";
+import eranimg from "../assets/EarnOnSec/earnimg.gif";
 
 
 function MobileEarnOnSec() {
@@ -20,7 +20,9 @@ function MobileEarnOnSec() {
           <img src={eranimg} className="" alt="" />
         </div>
         <div className="flex justify-center">
-         <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[40px]">
+         <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[40px]"
+         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+         >
           Buy $BFX
             </button>
          </div>

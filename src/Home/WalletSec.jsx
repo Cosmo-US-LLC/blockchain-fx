@@ -40,23 +40,23 @@ function WalletSec() {
     setDropdownOpen(false);
   };
   return (
-    <div className="pt-[2rem] pb-[61px] space-y-[28px]">
+    <div className="pt-[2rem] pb-[61px] space-y-[15px] bg-[#FFF]">
       <div
         style={{
           background: "rgba(247, 247, 247, 0.70)",
         }}
-        className="max-w-[838px] space-y-[20px] rounded-[13px] px-[68px] pt-[46px] pb-[20px] min-h-[700px] border border-[#B0B0B0]   w-[100%] mx-auto "
+        className="max-w-[838px] space-y-[14px] rounded-[13px] px-[68px] pt-[46px] pb-[20px] min-h-[700px] border border-[#B0B0B0]   w-[100%] mx-auto "
       >
         <div
-          className="px-[24px] py-[10px] space-y-[10px] border border-[#D3D3D3]"
+          className="px-[24px] py-[10px] space-y-[5px] border border-[#D3D3D3]"
           style={{
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h3 className="text-center text-[45px] font-[700]">$210,992 SOLD</h3>
+          <h3 className="text-center text-[42px] font-[700]">$210,992 SOLD</h3>
           <div>
             <div className="flex justify-between items-center">
-              <span className="text-[#444] text-[16px] font-[400] leading-[150%]">
+              <span className="text-[#444] text-[14px] font-[400] leading-[150%]">
                 78.92% of softcap raised
               </span>
               <img src={info} alt="" />
@@ -65,68 +65,68 @@ function WalletSec() {
               <div className="bg-[#E5AE00] w-[75%] h-[10px] rounded-[20px]"></div>
             </div>
             <div>
-              <p className="text-[#444] text-end text-[16px] font-[400] leading-[150%]">
+              <p className="text-[#444] text-end text-[14px] font-[400] leading-[150%]">
                 $300,000
               </p>
             </div>
           </div>
         </div >
         <div
-          className="px-[24px] py-[10px] space-y-[10px] border border-[#D3D3D3]"
+          className="px-[24px] py-[10px] space-y-[5px] border border-[#D3D3D3]"
           style={{
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h4 className="text-center text-[#444] text-[18px] font-[700]">
+          <h4 className="text-center text-[#444] text-[16px] font-[700]">
             Price Increase In
           </h4>
           <div className="flex justify-center space-x-[46px]">
-            <div className=" space-y-[8px]">
-              <p className="leading-[100%] text-center text-[#444] text-[58.784px] font-[700]">
+            <div className=" space-y-[2px]">
+              <p className="leading-[100%] text-center text-[#444] text-[46px] font-[700]">
                 00
               </p>
-              <p className="text-center text-[#444] text-[16px] font-[700]">
+              <p className="text-center text-[#444] text-[14px] font-[700]">
                 DAYS
               </p>
             </div>
-            <div className=" space-y-[8px]">
-              <p className="leading-[100%] text-center text-[#444] text-[58.784px] font-[700]">
+            <div className=" space-y-[2px]">
+              <p className="leading-[100%] text-center text-[#444] text-[46px] font-[700]">
                 20
               </p>
-              <p className="text-center text-[#444] text-[16px] font-[700]">
+              <p className="text-center text-[#444] text-[14px] font-[700]">
                 HOURS
               </p>
             </div>
-            <div className=" space-y-[8px]">
-              <p className="leading-[100%] text-center text-[#444] text-[58.784px] font-[700]">
+            <div className=" space-y-[2px]">
+              <p className="leading-[100%] text-center text-[#444] text-[46px] font-[700]">
                 37
               </p>
-              <p className="text-center text-[#444] text-[16px] font-[700]">
+              <p className="text-center text-[#444] text-[14px] font-[700]">
                 MINS
               </p>
             </div>
-            <div className=" space-y-[8px]">
-              <p className="leading-[100%] text-center text-[#444] text-[58.784px] font-[700]">
+            <div className=" space-y-[2px]">
+              <p className="leading-[100%] text-center text-[#444] text-[46px] font-[700]">
                 38
               </p>
-              <p className="text-center text-[#444] text-[16px] font-[700]">
+              <p className="text-center text-[#444] text-[14px] font-[700]">
                 SECS
               </p>
             </div>
           </div>
         </div>
         <div
-          className="px-[24px] py-[20px] space-y-[10px] border border-[#D3D3D3]"
+          className="px-[24px] py-[12px] border border-[#D3D3D3]"
           style={{
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h4 className="text-center text-[#636363] text-[20px] leading-[75%] font-[700]">
+          <h4 className="text-center text-[#636363] text-[18px] leading-[75%] font-[700]">
             $BFX Listing Price = $0.01
           </h4>
         </div>
         <div
-          className="px-[24px] flex justify-center py-[20px] space-x-[20px]"
+          className="px-[24px] flex justify-center py-[12px] space-x-[28px]"
           style={{
             background: "rgba(237, 237, 237, 0.40)",
           }}
@@ -144,35 +144,35 @@ function WalletSec() {
               className={`flex justify-center items-center p-[10px] space-x-1 cursor-pointer transition-all`}
             >
               <img
-                className="w-[30px] h-[30px]"
+                className="w-[25px] h-[25px]"
                 src={coin.icon}
                 alt={coin.name}
               />
-              <span className="text-[#545454] font-[700] leading-[30px]">
+              <span className="text-[#545454] text-[14px] font-[700] leading-[30px]">
                 {coin.name}
               </span>
             </div>
           ))}
         </div>
-        <div className="flex justify-center items-center py-[20px] space-x-[15px]">
+        <div className="flex justify-center items-center py-[5px] space-x-[15px]">
           <hr className="h-[1px] w-[35%]" />
-          <span className="text-[#636363] text-end text-[20px] font-[700] leading-[75%]">
+          <span className="text-[#636363] text-end text-[16px] font-[700] leading-[75%]">
             1 BFX = $0.002
           </span>
           <hr className="h-[1px] w-[35%]" />
         </div>
         <div className="space-y-[5px]">
-          <label className="text-[#2F2F2F] text-[18px] font-[700] leading-[100%]">
+          <label className="text-[#2F2F2F] text-[16px] font-[700] leading-[100%]">
             You Pay in USDT:
           </label>
-          <div className="border-[2px] border-[#454545] p-2 flex justify-between items-center">
+          <div className="border h-[50px] border-[#454545] p-1 flex justify-between items-center">
             <div className="relative max-w-[75px] ">
               <div
                 className="bg-[#EFEFEF] justify-center flex items-center space-x-1 p-2 cursor-pointer"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
                 <img
-                  className="w-[30px] h-[30px]"
+                  className="w-[25px] h-[25px]"
                   src={selectedCoin.icon}
                   alt={selectedCoin.name}
                 />
@@ -204,7 +204,7 @@ function WalletSec() {
               )}
             </div>
             <div className="w-[80%] flex items-center justify-end space-x-2">
-              <input type="text" className="h-[50px] w-[80%] text-[24px] font-[700] outline-none text-end bg-[transparent] placeholder:text-[#000]" placeholder="1000" />
+              <input type="text" className="h-[45px] w-[80%] text-[20px] font-[700] outline-none text-end bg-[transparent] placeholder:text-[#000]" placeholder="1000" />
               <span className="text-[#545454] text-[18px] font-[700] leading-[50px]">
                 USDT
               </span>
@@ -212,16 +212,16 @@ function WalletSec() {
           </div>
         </div>
         <div className="space-y-[5px]">
-          <label className="text-[#2F2F2F] text-[18px] font-[700] leading-[100%]">
-          You Receive $BFX + <span className="text-[#299A00]">Novice Trading NFT</span>
+          <label className="text-[#2F2F2F] text-[16px] font-[700] leading-[100%]">
+          You Receive $BFX + <span className="text-[#299A00] underline">Novice Trading NFT</span>
           </label>
-          <div className="border-[2px] border-[#454545] p-2 flex justify-between items-center">
+          <div className="border h-[50px] border-[#454545] p-1 flex justify-between items-center">
             <div className="relative max-w-[75px] ">
               <div
-                className="bg-[#EFEFEF] justify-center flex items-center space-x-1 p-2 cursor-pointer"
+                className="bg-[#EFEFEF] justify-center flex items-center space-x-1 p-1 px-3 cursor-pointer"
               >
                 <img
-                  className="w-[30px] h-[30px]"
+                  className="w-[25px] h-[25px]"
                   src={bfxicn}
                   alt=""
                 />
@@ -229,7 +229,7 @@ function WalletSec() {
               </div>
             </div>
             <div className="w-[80%] flex items-center justify-end space-x-2">
-              <input type="text" className="h-[50px] w-[80%] text-[24px] font-[700] outline-none text-end bg-[transparent] placeholder:text-[#000]" placeholder="26039.75" />
+              <input type="text" className="h-[45px] w-[80%] text-[20px] font-[700] outline-none text-end bg-[transparent] placeholder:text-[#000]" placeholder="26039.75" />
               <span className="text-[#545454] text-[18px] font-[700] leading-[50px]">
               BFX
               </span>
@@ -237,27 +237,27 @@ function WalletSec() {
           </div>
         </div>
         <div>
-          <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[24px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%] h-[65px]">
+          <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[20px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%] h-[50px]">
           Buy Now
           </button>
         </div>
         <div
-          className="px-[24px] py-[20px] space-y-[15px] border border-[#939393]"
+          className="px-[24px] py-[12px] space-y-[10px] border border-[#939393]"
           style={{
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h4 className="text-center text-[#636363] text-[18px] leading-[75%] font-[700]">
+          <h4 className="text-center text-[#636363] text-[16px] leading-[70%] font-[700]">
           You get 10% more tokens!
           </h4>
-          <h4 className="text-center text-[#636363] text-[18px] leading-[75%] font-[700]">
+          <h4 className="text-center text-[#636363] text-[16px] leading-[70%] font-[700]">
           Buy $1,500 more to unlock 20% bonus tokens
           </h4>
         </div>
         <div className="flex justify-center items-center space-x-[24px]">
-          <p className="text-[18px] font-[700] underline cursor-pointer">Bonus Code</p>
-          <p className="text-[18px] font-[700] underline cursor-pointer">Full Bonus Chart</p>
-          <p className="text-[18px] font-[700] underline cursor-pointer"> 5% Referral Link</p>
+          <p className="text-[16px] font-[700] underline cursor-pointer">Bonus Code</p>
+          <p className="text-[16px] font-[700] underline cursor-pointer">Full Bonus Chart</p>
+          <p className="text-[16px] font-[700] underline cursor-pointer"> 5% Referral Link</p>
         </div>
       </div>
       <div  className="max-w-[838px] space-y-[25px] rounded-[13px] px-[68px] pt-[20px] pb-[30px] border border-[#B0B0B0] w-[100%] mx-auto "
@@ -265,66 +265,66 @@ function WalletSec() {
         background: "rgba(237, 237, 237, 0.40)",
       }}>
       <div
-          className=" space-y-[25px]"
+          className=" space-y-[20px]"
          
         >
-          <h4 className="text-center text-[#808080] text-[20px] leading-[75%] font-[600]">
+          <h4 className="text-center text-[#808080] text-[18px] leading-[75%] font-[600]">
           $BFX launches on Multiple Top-Tier Exchanges
           </h4>
           <div className="flex justify-center space-x-[20px]">
-            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-ccenter space-x-[8px] border border-[#ABABAB]"
+            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
             style={{
               background:"rgba(176, 176, 176, 0.17)"
             }}
             >
-              <img src={swpicon} className="w-[30px] h-[30px]" alt="" />
-              <h4 className="text-[14px] text-[#545454] font-[700] leading-[214.286%]">UNISWAP</h4>
+              <img src={swpicon} className="w-[25px] h-[25px]" alt="" />
+              <h4 className="text-[14px] text-[#545454] font-[700] leading-[120.286%]">UNISWAP</h4>
             </div>
-            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-ccenter space-x-[8px] border border-[#ABABAB]" 
+            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]" 
             style={{
               background:"rgba(176, 176, 176, 0.17)",
               filter:"blur(6.5px",
               opacity: "0.73"
             }}
             >
-             <div className="w-[30px] h-[30px] bg-[#F0B90B] rounded-full"></div>
-              <h4 className="text-[14px] text-[#545454] font-[700] leading-[214.286%]">UNISWAP</h4>
+             <div className="w-[25px] h-[25px] bg-[#F0B90B] rounded-full"></div>
+              <h4 className="text-[14px] text-[#545454] font-[700] leading-[120.286%]">UNISWAP</h4>
             </div>
-            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-ccenter space-x-[8px] border border-[#ABABAB]"
+            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
           style={{
             background:"rgba(176, 176, 176, 0.17)",
             filter:"blur(6.5px",
             opacity: "0.73"
           }}
           >
-           <div className="w-[30px] h-[30px] bg-[#0052FE] rounded-full"></div>
-              <h4 className="text-[14px] text-[#545454] font-[700] leading-[214.286%]">UNISWAP</h4>
+           <div className="w-[25px] h-[25px] bg-[#0052FE] rounded-full"></div>
+              <h4 className="text-[14px] text-[#545454] font-[700] leading-[120.286%]">UNISWAP</h4>
             </div>
-            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-ccenter space-x-[8px] border border-[#ABABAB]"
+            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
             style={{
               background:"rgba(176, 176, 176, 0.17)",
               filter:"blur(6.5px",
               opacity: "0.73"
             }}
             >
-             <div className="w-[30px] h-[30px] bg-[#00F0FF] rounded-full"></div>
-              <h4 className="text-[14px] text-[#545454] font-[700] leading-[214.286%]">UNISWAP</h4>
+             <div className="w-[25px] h-[25px] bg-[#00F0FF] rounded-full"></div>
+              <h4 className="text-[14px] text-[#545454] font-[700] leading-[120.286%]">UNISWAP</h4>
             </div>
-            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-ccenter space-x-[8px] border border-[#ABABAB]"
+            <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
             style={{
               background:"rgba(176, 176, 176, 0.17)",
               filter:"blur(6.5px",
               opacity: "0.73"
             }}
             >
-             <div className="w-[30px] h-[30px] bg-[#7635F5] rounded-full"></div>
-              <h4 className="text-[14px] text-[#545454] font-[700] leading-[214.286%]">UNISWAP</h4>
+             <div className="w-[25px] h-[25px] bg-[#7635F5] rounded-full"></div>
+              <h4 className="text-[14px] text-[#545454] font-[700] leading-[120.286%]">UNISWAP</h4>
             </div>
             
           </div>
         </div>
       </div>
-      <div  className="max-w-[838px] space-y-[25px] rounded-[13px] px-[38px] pt-[20px] pb-[25px] border border-[#B0B0B0] w-[100%] mx-auto "
+      <div  className="max-w-[838px] rounded-[13px] px-[38px] pt-[12px] pb-[14px] border border-[#B0B0B0] w-[100%] mx-auto "
        style={{
         background: "rgba(237, 237, 237, 0.40)",
       }}>
@@ -332,7 +332,7 @@ function WalletSec() {
           className="flex justify-center items-center space-x-[20px]"
          
         >
-          <h4 className="text-center text-[#808080] text-[20px] leading-[75%] font-[600]">
+          <h4 className="text-center text-[#808080] text-[18px] leading-[75%] font-[600]">
           Audited by the Leading Blockchain Security Company  
           </h4>
           <div>

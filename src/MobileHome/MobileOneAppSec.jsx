@@ -5,7 +5,7 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2).svg";
-import oneimg from "../assets/OneAppSec/imgonemob.png";
+import oneimg from "../assets/OneAppSec/imgonemob.webp";
 
 const items = [
   {
@@ -103,8 +103,8 @@ function MobileOneAppSec() {
             ))}
           </div>
         </div>
-        <div className="w-[100%] flex justify-end">
-          <img src={oneimg} className="w-[96%]" alt="" />
+        <div className="w-[100%] flex justify-center">
+          <img src={oneimg} className="w-[100%] h-[100%]" alt="" />
         </div>
       </div>
      </div>

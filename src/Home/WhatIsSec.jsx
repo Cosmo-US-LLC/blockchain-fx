@@ -1,6 +1,6 @@
 import React from "react";
 
-import whatisimg from "../assets/WhatIsSec/whatisimg.png";
+import whatisimg from "../assets/WhatIsSec/whatisimg.gif";
 
 function WhatIsSec() {
  

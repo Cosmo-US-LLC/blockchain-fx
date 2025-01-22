@@ -56,16 +56,16 @@ function MobHowDoesItSec() {
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
           <h3 className="text-[32px] leading-[100%] text-[#181A20] text-center font-[700]">
-            How does it work?
+            How Does It Work?
           </h3>
         </div>
         <div className=" pt-[30px] w-[90%] mx-auto ">
           <div className="w-[100%]">
             <div className="relative px-[28px]">
-              <button className="swiper-button-prev rotate-[182deg] absolute z-10 !left-[-3%] top-[50%] transform -translate-y-1/2 !w-[37.545px] !h-[37.545px]">
+              <button className="swiper-button-prev-how rotate-[182deg] absolute z-10 !left-[-3%] top-[46%] transform -translate-y-1/2 !w-[37.545px] !h-[37.545px]">
                 <img className="" src={arw} alt="" />
               </button>
-              <button className="swiper-button-next !w-[37.545px] !h-[37.545px] absolute z-10 !right-[-3%] top-[50%] transform -translate-y-1/2">
+              <button className="swiper-button-next-how  !w-[37.545px] !h-[37.545px] absolute z-10 !right-[-3%] top-[46%] transform -translate-y-1/2">
                 <img className="" src={arw} alt="" />
               </button>
 
@@ -73,8 +73,8 @@ function MobHowDoesItSec() {
                 slidesPerView={1}
                 spaceBetween={20}
                 navigation={{
-                  nextEl: ".swiper-button-next",
-                  prevEl: ".swiper-button-prev",
+                  nextEl: ".swiper-button-next-how ",
+                  prevEl: ".swiper-button-prev-how ",
                 }}
                 modules={[Navigation]}
                 loop={false}

@@ -30,6 +30,11 @@ display: none !important;
   }
   .bgtheylt{
     background-image: url(../src/assets/TheUltimateSec/bg.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
   }
+  .swiper-button-prev-how.swiper-button-disabled, .swiper-button-next-how.swiper-button-disabled {
+    opacity: 0.35 !important;
+    cursor: auto !important;
+    pointer-events: none !important;
+}

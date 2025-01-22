@@ -28,8 +28,8 @@ function OurAwardSec() {
                 <p className="text-[20px] text-center leading-[115%] uppercase text-[#181A20] font-[400]">Best Trading <br /> Platform <br /> 2025 </p>
                 <img src={rwdimg1} className="absolute top-[-3%]"  alt="" />
             </div>
-            <div className="flex justify-center">
-                <img src={rwdimg2} alt="" />
+            <div className="flex justify-center w-[100%]">
+                <img className="" src={rwdimg2} alt="" />
             </div>
          </div>
          <div className="max-w-[486px] space-y-[10px] px-[60px] max-h-[673px] pt-[35px] rounded-[20px] w-[100%] border border-[#9D9D9D]"

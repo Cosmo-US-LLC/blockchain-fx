@@ -133,6 +133,7 @@ const Bundles = [
 ];
 
 function PremiumSec() {
+  const [activeIndex, setActiveIndex] = useState(0);
   const [openBundles, setOpenBundles] = useState(0);
   const toggleBundles = (id) => {
     setOpenBundles(id === openBundles ? null : id);
@@ -153,31 +154,35 @@ function PremiumSec() {
         </div>
         <div className="max-w-[1109px] w-[100%] mx-auto ">
           <div className="relative">
-            <button className="swiper-button-prev rotate-[182deg] absolute z-10 !left-[-5%] top-[50%] transform -translate-y-1/2">
+            <button className="swiper-button-prev-swp rotate-[182deg] absolute z-10 !left-[-5%] top-[50%] transform -translate-y-1/2">
               <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
             </button>
-            <button className="swiper-button-next  absolute z-10 !right-[-5%] top-[50%] transform -translate-y-1/2">
+            <button className="swiper-button-next-swp  absolute z-10 !right-[-5%] top-[50%] transform -translate-y-1/2">
               <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
             </button>
 
             <Swiper
               slidesPerView={3}
               spaceBetween={20}
+              loop={true}
               navigation={{
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next-swp",
+                prevEl: ".swiper-button-prev-swp",
+                enabled: true,
               }}
+              onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
               modules={[Navigation]}
-              loop={false}
               className="mySwiper"
             >
-              {cards.map((card) => (
+              {cards.map((card, index) => (
                 <SwiperSlide key={card.id}>
                   <div
                     style={{
                       background: "rgba(241, 241, 241, 0.36)",
                     }}
-                    className="p-[20px] rounded-[8px] flex flex-col justify-between border border-[#9D9D9D] !min-h-[680px] max-h-[680px] h-[100%]"
+                    className={`p-[20px] rounded-[8px] flex flex-col justify-between ${
+                      activeIndex === index ? "border-black" : "border-[#9D9D9D]"
+                    } border !min-h-[680px] max-h-[680px] h-[100%]`}
                   >
                     <div>
                       <img
@@ -233,9 +238,22 @@ function PremiumSec() {
           </div>
         </div>
         <div className="max-w-[1109px] ] w-[100%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[26px] py-[34px] space-y-[20px]">
-          <div className="flex justify-center">
-            <img src={line} alt="" />
-          </div>
+        <div className="flex justify-center relative mt-4">
+        <div className="flex justify-between absolute w-[96%] top-[-45%]">
+          {cards.map((_, index) => (
+            <div
+              key={index}
+              className={`w-[27px] h-[27px] rounded-full border-[2px] ${
+                activeIndex === index ? "border-black" : "border-[#727272]"
+              }`}
+              style={{
+                background: "#E5AE00",
+              }}
+            ></div>
+          ))}
+        </div>
+        <img src={line} alt="line" />
+      </div>
           <div className="flex justify-between pl-2">
             <div className="w-[100%] max-w-[70px]">
               <h4 className="text-[20px] text-[#000] font-[600] leading-[115%] text-center">
@@ -250,7 +268,7 @@ function PremiumSec() {
                 Advanced
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
-                $$2500+
+                $2500+
               </p>
             </div>
             <div className="w-[100%] max-w-[60px]">
@@ -266,7 +284,7 @@ function PremiumSec() {
                 Expert
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
-                $$10,000+
+                $10,000+
               </p>
             </div>
             <div className="w-[100%] max-w-[100px]">

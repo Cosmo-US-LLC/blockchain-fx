@@ -154,19 +154,20 @@ function MobilePremiumSec() {
         </div>
         <div className="w-[100%] mx-auto ">
           <div className="relative">
-            <button className="swiper-button-prev rotate-[182deg] absolute z-10 !left-[-1%] top-[50%] transform -translate-y-1/2">
+            <button className="swiper-button-prev-1 rotate-[182deg] absolute z-10 !left-[0%] top-[50%] transform -translate-y-1/2">
               <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
             </button>
-            <button className="swiper-button-next  absolute z-10 !right-[-1%] top-[50%] transform -translate-y-1/2">
+            <button className="swiper-button-next-1  absolute z-10 !right-[0%] top-[50%] transform -translate-y-1/2">
               <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
             </button>
 
             <Swiper
+            speed={800}
               slidesPerView={1}
               spaceBetween={20}
               navigation={{
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next-1",
+                prevEl: ".swiper-button-prev-1",
               }}
               modules={[Navigation]}
               loop={false}
@@ -227,7 +228,9 @@ function MobilePremiumSec() {
                       </ul>
                     </div>
                     <div className="flex justify-start">
-                      <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[100px] w-[100%] h-[40px]">
+                      <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[100px] w-[100%] h-[40px]"
+                      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                      >
                         Buy $BFX
                       </button>
                     </div>
@@ -248,6 +251,7 @@ function MobilePremiumSec() {
 
             <Swiper
               slidesPerView={4}
+              speed={500}
               spaceBetween={20}
               navigation={{
                 nextEl: ".swiper-button-next2",
@@ -273,7 +277,7 @@ function MobilePremiumSec() {
                 Advanced
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $$2500+
+                $2500+
               </p>
             </div>
               </SwiperSlide>
@@ -293,7 +297,7 @@ function MobilePremiumSec() {
                 Expert
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $$10,000+
+                $10,000+
               </p>
             </div>
               </SwiperSlide>
@@ -330,69 +334,11 @@ function MobilePremiumSec() {
               
             </Swiper>
           </div>
-          {/* <div className="flex justify-between pl-2">
-            <div className="w-[100%] max-w-[70px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Novice
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $1000+
-              </p>
-            </div>
-            <div className="w-[100%] max-w-[120px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Advanced
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $$2500+
-              </p>
-            </div>
-            <div className="w-[100%] max-w-[60px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Pro
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $5000+
-              </p>
-            </div>
-            <div className="w-[100%] max-w-[120px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Expert
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $$10,000+
-              </p>
-            </div>
-            <div className="w-[100%] max-w-[100px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Master
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $25,000+
-              </p>
-            </div>
-            <div className="w-[100%] max-w-[70px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Elite
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $50,000+
-              </p>
-            </div>
-            <div className="w-[100%] max-w-[98px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Legend
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $100,000+
-              </p>
-            </div>
-          </div> */}
         </div>
         <div className="w-[90%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[12px]  py-[20px] space-y-[20px]">
           <div>
             <h3 className="text-[24px] text-center font-[700] text-[#181A20] tracking-[-1px]">
-              Questions About The Trading Bundles
+              Questions About <br /> The Trading Bundles
             </h3>
           </div>
 

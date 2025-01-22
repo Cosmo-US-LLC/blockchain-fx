@@ -28,8 +28,8 @@ function MobOurAwardSec() {
                 <p className="text-[9.902px] text-center leading-[115%] uppercase text-[#181A20] font-[400]">Best Trading <br /> Platform <br /> 2025 </p>
                 <img src={rwdimg1} className="absolute top-[-3%]"  alt="" />
             </div>
-            <div className="flex justify-center">
-                <img src={rwdimg2} alt="" />
+            <div className="flex justify-center ">
+                <img src={rwdimg2} className="max-h-[240px] " alt="" />
             </div>
          </div>
          <div className="space-y-[10px] px-[60px] max-h-[673px] pt-[15px] rounded-[12.839px] w-[100%] border border-[#9D9D9D]"

@@ -1,6 +1,6 @@
 import React from "react";
 
-import eranimg from "../assets/EarnOnSec/earnimg.png";
+import eranimg from "../assets/EarnOnSec/earnimg.gif";
 
 
 function EarnOnSec() {
@@ -9,8 +9,8 @@ function EarnOnSec() {
     <div className="pt-[56px] pb-[45px] bg-[#FBFBFB]">
      <div className="max-w-[1400px] w-[100%] mx-auto relative">
      <div className="max-w-[1220px] py-[90px] px-[46px] border border-[#B0B0B0] rounded-[13px] space-x-[3rem] flex justify-between w-[100%] mx-auto bg-[#fff]">
-        <div className="w-[50%]">
-          <img src={eranimg} className="absolute top-[-1%] left-[8%]" alt="" />
+        <div className="w-[50%] relative">
+          <img src={eranimg} className="absolute top-[-30%] left-[0%]" alt="" />
         </div>
         <div className="w-[50%] max-w-[521px] space-y-[40px]">
           <h3 className="text-[50px] font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">

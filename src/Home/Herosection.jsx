@@ -8,7 +8,7 @@ import herobnr5 from "../assets/herosection/bnrhero (1).svg"
 
 function Herosection() {
   return (
-    <div className="pt-[9rem] pb-[2rem] bg-[#FFFFFF]">
+    <div className="pt-[9rem] pb-[2rem] bg-[#FFF]">
       <div className="max-w-[1220px]  w-[100%] mx-auto ">
         <div className="space-y-[35px]">
           <div>

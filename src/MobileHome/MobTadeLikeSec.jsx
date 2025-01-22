@@ -14,7 +14,7 @@ function MobTadeLikeSec() {
         <div className="space-y-[32px]">
           <div className="space-y-[20px]">
             <h3 className="text-[32px] text-center font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
-              Trade Like a Prol
+              Trade Like a Pro
             </h3>
             <p className="text-[15px] text-center  font-[400] leading-[130%] text-[#181A20] tracking-[-0.32px]">
               Master the markets with state-of-the-art trading and risk
@@ -128,7 +128,9 @@ function MobTadeLikeSec() {
             </div>
           </div>
           <div className="flex justify-center items-center ">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[102px] w-[100%] h-[40px]">
+            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[102px] w-[100%] h-[40px]"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
               Buy $BFX
             </button>
           </div>

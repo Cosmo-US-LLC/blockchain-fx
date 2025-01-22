@@ -35,6 +35,18 @@ function MobPressMediaSec() {
             loop={false}
             className="mySwiper"
           >
+                <SwiperSlide>
+              <div className="bg-[#FBFBFB] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
+            <div className="space-y-[32px]">
+              <div className="flex items-center justify-center h-[30px]">
+                <img src={medai2} className="h-[50px]" alt="" />
+              </div>
+              <p className="text-[15px] text-center leading-[144.529%] font-[400]">
+              BFX is pioneering a new era of cryptocurrency by seamlessly connecting it to global markets such as Forex, Commodities, and ETFs. This unprecedented integration creates endless trading opportunities for traders.
+              </p>
+            </div>
+          </div>
+              </SwiperSlide>
              <SwiperSlide>
                 <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
             <div className="space-y-[32px]">
@@ -43,18 +55,6 @@ function MobPressMediaSec() {
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
               BlockchainFX can be described as a hybrid of Binance and Robinhood, delivering a seamless trading experience with exceptional speed and simplicity, powered by instant crypto deposits and trading.
-              </p>
-            </div>
-          </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className="bg-[#FBFBFB] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
-            <div className="space-y-[32px]">
-              <div className="flex items-center justify-center h-[30px]">
-                <img src={medai2} className="h-[50px]" alt="" />
-              </div>
-              <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BFX is pioneering a new era of cryptocurrency by seamlessly connecting it to global markets such as Forex, Commodities, and ETFs. This unprecedented integration creates endless trading opportunities for traders.
               </p>
             </div>
           </div>

@@ -16,7 +16,7 @@ function MobileGatewaySec() {
       <div className=" space-y-[33px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-            The Gateway to Global Markets
+            The Gateway <br /> To Global Markets
           </h3>
           <p className="text-[15px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
             Launching a new international multi-asset trading platform can take
@@ -52,7 +52,18 @@ function MobileGatewaySec() {
               <div className="w-[50%] py-[3px] border-r border-[#C2C2C2]">
                 <div className="flex justify-center space-x-2 items-center">
                   <h4 className="text-[#181A20] font-[500] text-[15px] tracking-[-1px] leading-[200%]">Up to $5 Million</h4>
-                  <img src={Iicon} alt="" />
+                  <div
+                  className="relative"
+                  onMouseEnter={() => setShowTooltip(true)}
+                  onMouseLeave={() => setShowTooltip(false)}
+                >
+                  <img className="pt-1" src={Iicon} alt="Info Icon" />
+                  {showTooltip && (
+                    <div className="absolute -left-8 top-6 bg-[#808080] w-[210px] text-center leading-[110%] text-[#fff] text-[10px] font-[400] rounded-md p-[6px] shadow-lg">
+                      This is the budget needed only to launch the platform in certain jurisdictions, excluding staff and marketing.
+                    </div>
+                  )}
+                </div>
                 </div>
               </div>
               <div className="w-[50%] py-[3px]">
@@ -120,7 +131,9 @@ function MobileGatewaySec() {
          </div>
         </div>
          <div className="flex justify-center items-center ">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[102px] w-[100%] h-[40px]">
+            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[102px] w-[100%] h-[40px]"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
               Buy $BFX
             </button>
           </div>

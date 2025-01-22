@@ -5,7 +5,7 @@ import graph from "../assets/HyperGrowth/Graph.png";
 function MobHyperGrowthSec() {
  
   return (
-    <div className="pt-[24px] pb-[24px] bg-[#FAFAFA]">
+    <div className="pt-[24px] pb-[50px] bg-[#FAFAFA]">
       <div className="space-y-[30px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
@@ -15,7 +15,7 @@ function MobHyperGrowthSec() {
           BlockchainFX is the first community-driven trading platform with a staking revenue redistribution model that continuously rewards users and its community. This drives rapid organic growth through network effects. As the platform grows, so will the token, and vice versa. Studies show that incentivized communities grow up to 10 times faster on average than others.
           </p>
         </div>
-        <div className="space-y-[20px] bg-[#fff] rounded-[5.712px] p-[28.32px]" 
+        <div className="space-y-[30px] bg-[#fff] rounded-[5.712px] px-[28.32px] py-[50px]" 
         style={{
             boxShadow:"0px 7.032px 35.16px 0px rgba(169, 169, 169, 0.30)"
         }}

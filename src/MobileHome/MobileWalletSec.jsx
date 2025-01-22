@@ -53,7 +53,7 @@ function MobileWalletSec() {
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h3 className="text-center text-[18px] font-[700]">$210,992 SOLD</h3>
+          <h3 className="text-center text-[30px] font-[700]">$210,992 SOLD</h3>
           <div>
             <div className="flex justify-between items-center">
               <span className="text-[#444] text-[10px] font-[400] leading-[150%]">
@@ -80,7 +80,7 @@ function MobileWalletSec() {
           <h4 className="text-center text-[#444] text-[10px] font-[700]">
             Price Increase In
           </h4>
-          <div className="flex justify-center space-x-[46px]">
+          <div className="flex justify-center space-x-[30px]">
             <div className=" space-y-[8px]">
               <p className="leading-[100%] text-center text-[#444] text-[30px] font-[700]">
                 00
@@ -152,7 +152,7 @@ function MobileWalletSec() {
             </div>
           ))}
         </div>
-        <div className="flex justify-between items-center py-[0px] space-x-[15px]">
+        <div className="flex justify-between items-center pt-3 space-x-[15px]">
           <hr className="h-[1px] w-[30%]" />
           <span className="text-[#636363] text-end text-[11px] font-[700] leading-[75%]">
             1 BFX = $0.002
@@ -211,7 +211,7 @@ function MobileWalletSec() {
         </div>
         <div className="space-y-[5px]">
           <label className="text-[#2F2F2F] text-[11px] font-[700] leading-[100%]">
-          You Receive $BFX + <span className="text-[#299A00]">Novice Trading NFT</span>
+          You Receive $BFX + <span className="text-[#299A00] underline">Novice Trading NFT</span>
           </label>
           <div className="border-[1px] border-[#454545] p-1 flex justify-between items-center">
             <div className="relative max-w-[75px] h-[34px]">

@@ -7,11 +7,11 @@ import lines from "../assets/StreamlinedSec/linesmob.png";
 
 function MobStreamlinedSec() {
   return (
-    <div className="pt-[24px]  pb-[24px] overflow-hidden">
-      <div className="space-y-[30px] w-[90%] mx-auto ">
+    <div className="pt-[30px]  pb-[60px] overflow-hidden">
+      <div className="space-y-[35px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <h3 className="text-[32px] text-center font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
-            Streamlined Backend System
+            Streamlined <br /> Backend System
           </h3>
           <p className="text-[15px] font-[400] max-w-[793px] text-center mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">
             BlockchainFX leverages advanced technology to build a reliable
@@ -19,9 +19,9 @@ function MobStreamlinedSec() {
             user-friendly experience for traders.
           </p>
         </div>
-        <div className="flex justify-between relative items-center">
-            <div className=" absolute left-[14.5%] top-[5.4%] w-[100%] mx-auto">
-                <img src={lines} className="" alt="" />
+        <div className="flex justify-between relative items-center max-w-[350px] mx-auto w-[100%]">
+            <div className=" absolute left-[16.7%] top-[5.4%] w-[281px] mx-auto">
+                <img src={lines} className="w-[230px] h-[255px]" alt="" />
             </div>
           <div className="max-w-[106px] w-[100%] space-y-[9px] relative z-1">
             <div className="flex bg-[#F0F0F0] !mb-[31px] rounded-[11px] px-[9px] py-[12px] justify-end space-x-2">
@@ -44,8 +44,8 @@ function MobStreamlinedSec() {
                 <h3 className="text-[8px] font-[600] text-right text-[#000] tracking-[-0.32px]">24/7 Live Chat</h3>
             </div>
           </div>
-          <div className="max-w-[106px] mt-[80px] relative z-1 flex items-end w-[100%] ">
-            <div className="bg-[#F0F0F0] w-[100%] flex flex-col items-center rounded-[21.052px] px-[20px] spacy-y-[18px] py-[22px]">
+          <div className="max-w-[90px] mt-[80px] relative z-1 flex items-end w-[100%] ">
+            <div className="bg-[#F0F0F0] w-[100%] flex flex-col items-center rounded-[21.052px] px-[15px] spacy-y-[18px] py-[15px]">
                 <img className="h-[30.424px] w-[30.424px]" src={icon2} alt="" />
                 <h3 className="text-[8px] font-[600] text-center text-[#000] tracking-[-0.32px]">BlockchainFX <br /> Software</h3>
             </div>
