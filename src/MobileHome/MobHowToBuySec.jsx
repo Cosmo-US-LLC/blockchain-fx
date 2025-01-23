@@ -49,9 +49,7 @@ function MobHowToBuySec() {
             {items.map((item, index) => (
               <div
                 key={index}
-                className={`py-[14px] px-4 border-b last:border-none  transition-all duration-300 ${
-                  index === activeIndex ? "bg-" : "bg-"
-                }`}
+                className={`py-[14px] px-4 border-b last:border-none  transition-all duration-300 `}
               >
                 <div
                   className="flex justify-between cursor-pointer"
@@ -61,7 +59,10 @@ function MobHowToBuySec() {
                     
                     <div className="w-[100%]">
                       <div className="flex justify-between items-center">
-                        <h3 className="text-[15px] font-[600] text-[#181A20]">
+                        <h3 className={`text-[15px] font-[600]  ${
+                          index === activeIndex ? "text-[#E5AE00]" : "text-[#181A20] "
+                        }`}
+                        >
                           {item.title}
                         </h3>
                         <div>

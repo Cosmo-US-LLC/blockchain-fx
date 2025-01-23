@@ -8,7 +8,7 @@ function MobileLessThanSec() {
     <div className="pt-[24px] pb-[24px] bg-[#e8e8e885]">
       <div className="space-y-[32px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[32px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Less than 1% of Global trading is crypto
           </h3>
           <p className="text-[15px] font-[400]  w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">

@@ -8,7 +8,7 @@ function LessThanSec() {
     <div className="pt-[98px] space-y-[35px] pb-[92px] bg-[#e8e8e885]">
       <div className="max-w-[1220px] space-y-[60px] w-[100%] mx-auto ">
         <div className="space-y-[30px]">
-          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[50px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Less than 1% of Global trading is crypto
           </h3>
           <p className="text-[20px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">

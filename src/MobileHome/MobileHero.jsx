@@ -4,7 +4,7 @@ import fobicn from "../assets/herosection/forbes-ar21 1.svg"
 import herobnr2 from "../assets/herosection/bnrhero (4).svg"
 import herobnr3 from "../assets/herosection/bnrhero (3).svg"
 import herobnr4 from "../assets/herosection/bnrhero (2).svg"
-import herobnr5 from "../assets/herosection/bnrhero (1).svg"
+import herobnr5 from "../assets/herosection/bnrhero (1).webp"
 
 function MobileHero() {
   return (
@@ -39,12 +39,12 @@ function MobileHero() {
           </div>
           <div className="border rounded-[6px] py-[12px] px-[13px]">
             <h3 className="text-center text-[15px] font-[600]">Featured In:</h3>
-           <div className="flex justify-center items-center space-x-[15px]">
+           <div className="flex justify-center items-center space-x-[10px]">
            {/* <img className="h-[12px]" src={herobnr1} alt="" /> */}
             <img className="h-[14px]" src={herobnr2} alt="" />
             <img className="" src={fobicn} alt="" />
             <img className="h-[16px]" src={herobnr4} alt="" />
-            <img className="max-w-[110.355px]" src={herobnr5} alt="" />
+            <img className="max-w-[92.25px] h-[10.7px]" src={herobnr5} alt="" />
            </div>
           </div>
         </div>

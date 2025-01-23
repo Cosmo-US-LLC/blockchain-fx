@@ -9,7 +9,7 @@ function MobileEarnOnSec() {
     <div className="pt-[24px] pb-[24px] bg-[#FBFBFB]">
      <div className="pt-[14px] pb-[31px] px-[15px] border border-[#B0B0B0] rounded-[13px] space-y-[20px]  w-[90%] mx-auto bg-[#fff]">
         <div className="w-[100%] max-w-[521px] space-y-[20px]">
-          <h3 className="text-[32px] font-[700] leading-[114%] text-[#181A20] tracking-[-1px] text-center">
+          <h3 className="text-[32px] capitalize font-[700] leading-[114%] text-[#181A20] tracking-[-1px] text-center">
           Earn on every <br /> trade with $BFX
           </h3>
           <p className="text-[15px] max-w-[330px] mx-auto text-[#181A20] font-[400] leading-[153.333%] tracking-[-0.32px] text-center">

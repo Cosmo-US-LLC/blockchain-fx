@@ -39,12 +39,12 @@ function OneAppSec() {
   };
 
   return (
-    <div className="pt-[40px] pb-[50px] bg-[#FBFBFB]">
+    <div className="pt-[40px] pb-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx">
      <div className="max-w-[1400px] w-[100%] mx-auto relative">
      <div className="max-w-[1220px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[581px] space-y-[32px]">
-          <h3 className="text-[50px] font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">
-            Everything In One Apps
+          <h3 className="text-[50px] capitalize font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">
+            Everything In One App
           </h3>
           <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] leading-[-0.32px] text-start">
             An innovative, modern and intuitive trading platform
@@ -53,9 +53,7 @@ function OneAppSec() {
             {items.map((item, index) => (
               <div
                 key={index}
-                className={`py-[30px] pr-5 border-b last:border-none   transition-all duration-300 ${
-                  index === activeIndex ? "bg-white" : "bg-white"
-                }`}
+                className={`py-[30px] pr-5 border-b last:border-none   transition-all duration-300 `}
               >
                 <div
                   className="flex justify-between cursor-pointer"
@@ -101,8 +99,14 @@ function OneAppSec() {
             ))}
           </div>
         </div>
-        <div className="w-[48%]">
-          <img src={oneimg} className="absolute right-0" alt="" />
+        <div className="w-[50%] overflow-visible">
+          <div className="w-[200%] h-full" style={{
+            backgroundImage:`url(${oneimg})`,
+            backgroundPosition: 'left',
+            backgroundSize: '100% 100%',
+            backgroundRepeat: 'no-repeat'
+          }}>
+          </div>
         </div>
       </div>
      </div>

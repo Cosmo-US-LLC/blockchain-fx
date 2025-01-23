@@ -23,7 +23,7 @@ const cardItems = [
     icon:cardicn2,
     title: "02. Fee Distribution",
     description:
-      "Our wallet ensures your assets are stored securely with state-of-the-art encryption.",
+      "70% of trading fees are used to incentivize the BFX community and drive the ecosystem’s growth",
   },
   {
     icon:cardicn3,
@@ -35,18 +35,18 @@ const cardItems = [
     icon:cardicn4,
     title: "04. Buybacks (20%)",
     description:
-      "Our team is available around the clock to assist with any issues or questions.",
+      "20% of fees will be used for daily BFX buybacks, increasing demand and boosting the $BFX price.",
   },
   {
     icon:cardicn5,
     title: "05. Burn",
     description:
-      "50% of buybacks will be automatically burned, continuously reducing the supply of $BFX..",
+      "50% of buybacks will be automatically burned, continuously reducing the supply of $BFX.",
   },
   {
     icon:cardicn6,
     title: "06. Hyper Growth",
-    description: "Enjoy competitive fees that help you maximize your returns.",
+    description: "The deflationary model and automatic buyback system fuel the potential for exponential growth of $BFX.",
   },
 ];
 
@@ -55,7 +55,7 @@ function MobHowDoesItSec() {
     <div className="pt-[24px] pb-[24px]">
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
-          <h3 className="text-[32px] leading-[100%] text-[#181A20] text-center font-[700]">
+          <h3 className="text-[32px] capitalize leading-[100%] text-[#181A20] text-center font-[700]">
             How Does It Work?
           </h3>
         </div>

@@ -13,7 +13,7 @@ function EarnOnSec() {
           <img src={eranimg} className="absolute top-[-30%] left-[0%]" alt="" />
         </div>
         <div className="w-[50%] max-w-[521px] space-y-[40px]">
-          <h3 className="text-[50px] font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">
+          <h3 className="text-[50px] capitalize font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">
           Earn on every <br /> trade with $BFX
           </h3>
           <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] leading-[-0.32px] text-start">

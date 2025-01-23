@@ -15,7 +15,7 @@ function GatewaySec() {
     <div className="pt-[76px] space-y-[35px] pb-[86px]">
       <div className="max-w-[1230px] space-y-[45px] w-[100%] mx-auto ">
         <div className="space-y-[30px]">
-          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[50px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             The Gateway to Global Markets
           </h3>
           <p className="text-[20px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">

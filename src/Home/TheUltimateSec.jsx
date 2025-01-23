@@ -4,9 +4,9 @@ import logo from "../assets/TheUltimateSec/logo.svg";
 
 function TheUltimateSec() {
   return (
-    <div className="bgtheylt  flex">
-      <div className="max-w-[717px] min-h-[767px] flex items-center justify-center w-[100%] mx-auto  ">
-      <div className=" pt-[3rem]">
+    <div className="bgtheylt flex">
+      <div className="max-w-[717px] min-h-[690px] flex items-center justify-center w-[100%] mx-auto  ">
+      <div className=" pt-[1rem]">
             <div className="flex justify-center pb-[20px]">
             <img src={logo} className="h-[63.77px]" alt="" />
             </div>

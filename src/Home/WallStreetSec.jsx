@@ -13,7 +13,7 @@ function WallStreetSec() {
     <div className="pt-[77px] space-y-[35px] pb-[85px] bg-[#FAFAFA]">
       <div className="max-w-[866px] space-y-[60px] w-[100%] mx-auto ">
         <div className="space-y-[30px]">
-          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[50px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Wall Street at your finger tips
           </h3>
           <p className="text-[20px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">

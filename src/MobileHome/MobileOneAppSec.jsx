@@ -39,12 +39,12 @@ function MobileOneAppSec() {
   };
 
   return (
-    <div className="pt-[24px] pb-[24px] ">
+    <div className="pt-[24px] pb-[24px] " id="what-is-bfx">
      <div className="w-[90%] mx-auto relative">
      <div className="space-y-[30px]">
         <div className="space-y-[15px]">
         <h3 className="text-[32px] font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">
-            Everything In One Apps
+            Everything In One App
           </h3>
           <p className="text-[15px] text-[#181A20] font-[400] leading-[127.778%] leading-[-0.32px] text-start">
             An innovative, modern and intuitive trading platform

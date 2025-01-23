@@ -32,7 +32,7 @@ function ExpertsworkingSec() {
           <h4 className="text-[35px] font-[400] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           25 Years of Experience
           </h4>
-          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[50px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Experts working on BlockchainFX
           </h3>
         </div>

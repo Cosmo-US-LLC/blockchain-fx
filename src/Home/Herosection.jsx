@@ -4,7 +4,7 @@ import herobnr1 from "../assets/herosection/bnrhero (5).svg"
 import herobnr2 from "../assets/herosection/bnrhero (4).svg"
 import herobnr3 from "../assets/herosection/bnrhero (3).svg"
 import herobnr4 from "../assets/herosection/bnrhero (2).svg"
-import herobnr5 from "../assets/herosection/bnrhero (1).svg"
+import herobnr5 from "../assets/herosection/bnrhero (1).webp"
 
 function Herosection() {
   return (
@@ -37,12 +37,12 @@ function Herosection() {
           <div className="flex justify-center pt-[20px]">
             <img src={heroimg} alt="" />
           </div>
-          <div className="flex justify-center space-x-[52px] border rounded-[20px] pt-[30px] pb-[35px]">
+          <div className="flex justify-center items-center space-x-[52px] border rounded-[20px] pt-[30px] pb-[35px]">
             <img src={herobnr1} alt="" />
             <img src={herobnr2} alt="" />
             <img src={herobnr3} alt="" />
             <img src={herobnr4} alt="" />
-            <img src={herobnr5} alt="" />
+            <img src={herobnr5} className="max-w-[225px] h-[25.82px]" alt="" />
           </div>
         </div>
       </div>

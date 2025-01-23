@@ -5,10 +5,10 @@ import whatisimg from "../assets/WhatIsSec/whatisimg.gif";
 function WhatIsSec() {
  
   return (
-    <div className="pt-[77px] space-y-[35px] pb-[45px] bgwhat" id="what-is-bfx">
+    <div className="pt-[77px] space-y-[35px] pb-[45px] bgwhat">
       <div className="max-w-[866px] relative -space-y-[30px] w-[100%] mx-auto ">
         <div className="space-y-[30px]">
-          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[50px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           What is $BFX?
           </h3>
           <p className="text-[20px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">

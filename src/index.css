@@ -23,6 +23,11 @@ display: none !important;
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
+  .bgwhatmob{
+    background-image: url(../src/assets/WhatIsSec/bgmob.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
   .cardimg{
     background-image: url(../src/assets/ExpertsworkingSec/expert.png);
     background-size: 100% 100%;
@@ -31,6 +36,12 @@ display: none !important;
   .bgtheylt{
     background-image: url(../src/assets/TheUltimateSec/bg.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bgtheyltmob{
+    background-image: url(../src/assets/TheUltimateSec/bgmob.webp);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
   }
   .swiper-button-prev-how.swiper-button-disabled, .swiper-button-next-how.swiper-button-disabled {

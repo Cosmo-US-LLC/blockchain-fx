@@ -13,7 +13,7 @@ function SecurityBuiltSec() {
     <div className="pt-[73px] space-y-[35px] pb-[65px] bg-[#FAFAFA]">
       <div className="max-w-[985px] space-y-[90px] w-[100%] mx-auto ">
         <div className="">
-          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[50px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Security Built into the Core
           </h3>
         </div>

@@ -170,7 +170,7 @@ function RoadmapSec() {
       }}
       >
         <div className="w-[27px] pt-[10px]">
-            <img src={vector1} className="border border-[#000]" alt="" />
+            <img src={vector5} className="" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
             <h3 className="text-[32px] font-[500] leading-[138%]">Global Reach</h3>

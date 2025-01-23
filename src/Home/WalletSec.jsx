@@ -40,13 +40,18 @@ function WalletSec() {
     setDropdownOpen(false);
   };
   return (
-    <div className="pt-[2rem] pb-[61px] space-y-[15px] bg-[#FFF]">
+    <div className="pt-[3rem] pb-[61px] space-y-[15px] bg-[#FFF]">
       <div
         style={{
           background: "rgba(247, 247, 247, 0.70)",
         }}
-        className="max-w-[838px] space-y-[14px] rounded-[13px] px-[68px] pt-[46px] pb-[20px] min-h-[700px] border border-[#B0B0B0]   w-[100%] mx-auto "
+        className="max-w-[838px] space-y-[14px] relative rounded-[13px] px-[68px] pt-[46px] pb-[20px] min-h-[700px] border border-[#B0B0B0] w-[100%] mx-auto "
       >
+        <div className="absolute w-[100%] top-[-5%] left-0"
+        >
+          <h3 className="text-[20px] text-[#444] py-[20px] px-[30px] rounded-[13px] w-[207.856px] mx-auto font-[700] bg-[#f9f9f9] border border-[#454545]"
+          >$BFX Pre-Sale</h3>
+        </div>
         <div
           className="px-[24px] py-[10px] space-y-[5px] border border-[#D3D3D3]"
           style={{
@@ -186,11 +191,11 @@ function WalletSec() {
               </div>
 
               {dropdownOpen && (
-                <div className="absolute top-[50px] left-0 bg-white rounded-md shadow-lg w-[75px] z-10">
+                <div className="absolute top-[50px] space-y-[5px] p-2  left-0 bg-white rounded-md shadow-lg  z-10">
                   {Dropcoins.map((coin, index) => (
                     <div
                       key={index}
-                      className="flex justify-center items-center space-x-2 p-2 cursor-pointer hover:bg-gray-200"
+                      className="flex justify-start items-center space-x-2 p-2 w-[100px] cursor-pointer hover:bg-gray-100"
                       onClick={() => handleSelectCoin(coin)}
                     >
                       <img
@@ -198,6 +203,7 @@ function WalletSec() {
                         src={coin.icon}
                         alt="coin"
                       />
+                      <h4 className="text-[14px] font-[700] text-[#545454]">{coin.name}</h4>
                     </div>
                   ))}
                 </div>

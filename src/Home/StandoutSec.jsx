@@ -136,7 +136,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                        BlockchainFX
+                        Bitget
                       </p>
                     </div>
                   </th>
@@ -150,7 +150,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                        BlockchainFX
+                      Hyperliquid 
                       </p>
                     </div>
                   </th>
@@ -164,7 +164,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                        BlockchainFX
+                      Uniswap
                       </p>
                     </div>
                   </th>
@@ -176,18 +176,22 @@ function StandoutSec() {
                     {Object.entries(row).map(([key, value], colIndex) => (
                       <td
                         key={key}
-                        className={`border border-[#A6A6A6] px-4 py-4 text-center ${
+                        className={`border border-[#A6A6A6] px-4 py-4  ${
                           colIndex === 1 ? "bg-[#FFF8DC]" : ""
                         } ${
                           rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
-                            ? "text-[20px] font-[600]"
+                            ? "text-[20px] font-[600] text-center"
                             : "text-[15.988px] font-[500]"
+                        } ${
+                          colIndex === 0 ? "border-l-0" : ""
+                        } ${
+                          colIndex === tableData[0].length - 1 ? "border-r-0 border-l-0 !text-start" : "border-r-0"
                         } ${
                           rowIndex === tableData.length - 1
                             ? colIndex === 0
                               ? "border-l-0 border-b-0"
                               : colIndex === tableData[0].length - 1
-                              ? "!border-r-0 border-b-0"
+                              ? "!border-r-0 border-b-0 border-l-0"
                               : "border-b-0 border-r-0"
                             : ""
                         }`}

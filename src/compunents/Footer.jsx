@@ -76,7 +76,7 @@ function Footer() {
           Trading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. Dreamcars does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.
           </p>
         </div>
-        <div className='flex justify-between'>
+        <div className='flex justify-between items-center'>
           <p className='text-[14px] text-[#000] leading-[100%]'>Copyright 2024. All Rights Reserved.</p>
           <div className='
           space-x-5'>
@@ -123,9 +123,9 @@ function Footer() {
         <div className='max-w-[285px] space-y-[15px] pt-[3px] w-[100%] '>
           <h4 className='text-[#000] text-[16px] font-[600] leading-[108.333%]'>Join Our Socials</h4>
           <div className='flex space-x-6'>
-            <img src={socil1} alt="" />
-            <img src={socil2} alt="" />
-            <img src={socil3} alt="" />
+            <img className='w-[24px] h-[24px]' src={socil1} alt="" />
+            <img className='w-[24px] h-[24px]' src={socil2} alt="" />
+            <img className='w-[24px] h-[24px]' src={socil3} alt="" />
           </div>
           <div className='space-y-[10px]'>
             <h4 className='text-[#949494] text-[12px] font-[400] leading-[108.333%]'>Contact E-Mail: </h4>
@@ -139,7 +139,7 @@ function Footer() {
           Trading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. Dreamcars does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.
           </p>
         </div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center items-center'>
           <div className='space-x-4'>
             <a href="" className='text-[12px] text-[#000] leading-[100%]'>Legal Documents</a>
             <a href="" className='text-[12px] text-[#000] leading-[100%]'>Privacy Policy</a>

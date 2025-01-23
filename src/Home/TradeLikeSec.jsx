@@ -13,8 +13,8 @@ function TradeLikeSec() {
       <div className="max-w-[1220px] space-y-[60px] w-[100%] mx-auto ">
         <div className="flex justify-between items-center">
           <div className="space-y-[40px] max-w-[453px]">
-            <h3 className="text-[50px] font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
-              Trade Like a Prol
+            <h3 className="text-[50px] capitalize font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
+              Trade Like a Pro
             </h3>
             <p className="text-[20px] font-[400] max-w-[832px] mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">
               Master the markets with state-of-the-art trading and risk
