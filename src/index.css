@@ -29,7 +29,7 @@ display: none !important;
     background-repeat: no-repeat;
   }
   .cardimg{
-    background-image: url(../src/assets/ExpertsworkingSec/expert.png);
+    background-image: url(../src/assets/ExpertsworkingSec/expert.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -48,4 +48,14 @@ display: none !important;
     opacity: 0.35 !important;
     cursor: auto !important;
     pointer-events: none !important;
+}
+.swiper-button-prev-3.swiper-button-disabled, .swiper-button-next-3.swiper-button-disabled {
+  opacity: 0.35 !important;
+  cursor: auto !important;
+  pointer-events: none !important;
+}
+.swiper-button-prev-press.swiper-button-disabled, .swiper-button-next-press.swiper-button-disabled {
+  opacity: 0.35 !important;
+  cursor: auto !important;
+  pointer-events: none !important;
 }

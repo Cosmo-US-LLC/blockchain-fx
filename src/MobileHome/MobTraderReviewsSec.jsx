@@ -10,6 +10,7 @@ import swpbtn from "../assets/PremiumSec/arw.svg";
 import tradimg from "../assets/TraderReviewsSec/tradimg.png";
 import user from "../assets/TraderReviewsSec/image.png";
 import fram from "../assets/TraderReviewsSec/fram.png";
+import usern from "../assets/TraderReviewsSec/user.png";
 import user1 from "../assets/TraderReviewsSec/Imager.png";
 import user2 from "../assets/TraderReviewsSec/Image2.png";
 import user3 from "../assets/TraderReviewsSec/image3.png";
@@ -99,13 +100,13 @@ function MobTraderReviewsSec() {
                     <img src={fram} className="absolute left-[-20%] top-[-7%] min-w-[325px] min-h-[300px] z-[-1]" alt="" />
                     <p className="h-[100px] text-[10px] font-[400] leading-[175%] text-[#fff]">Finally, a platform that gets it right! I traded CFDs, bought APPLE stocks, sold them for GBY, and grabbed some $PEPE, all within 30 minutes. Highly recommend it for both beginners and pros!</p>
                     <div className="flex items-center space-x-2">
-                        <img src={user1} className="h-[26px] w-[26px]" alt="" />
+                        <img src={usern} className="h-[26px] w-[26px]" alt="" />
                         <div>
                             <div className="flex items-center space-x-2">
-                            <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">Janet Onagah</h3>
+                            <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">PrimeNic.eth</h3>
                             <img src={tick} alt="" />
                             </div>
-                            <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">@Janet_Oganah</h4>
+                            <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">@primenic_eth</h4>
                         </div>
                     </div>
                    

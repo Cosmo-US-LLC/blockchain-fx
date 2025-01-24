@@ -1,5 +1,5 @@
 import React from "react";
-import heroimg from "../assets/herosection/heroimg.png"
+import heroimg from "../assets/herosection/heroimg.webp"
 import fobicn from "../assets/herosection/forbes-ar21 1.svg"
 import herobnr2 from "../assets/herosection/bnrhero (4).svg"
 import herobnr3 from "../assets/herosection/bnrhero (3).svg"
@@ -27,17 +27,17 @@ function MobileHero() {
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[14px] font-[500] border border-[#E5AE00] hover:border-[#000] rounded-[8px]  h-[48px]">
+            <button className="text-white bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px]  h-[48px]">
               Buy $BFX
             </button>
             <button className="hover:text-white hover:bg-[#E5AE00] px-[14px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px]  h-[48px]">
               Beta Trading
             </button>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center pt-[26px] pr-[34px] pl-[70px] pb-[70px] bg-[#F5F5F5]">
             <img src={heroimg} alt="" />
           </div>
-          <div className="border rounded-[6px] py-[12px] px-[13px]">
+          <div className="border rounded-[6px] py-[20px] px-[13px]">
             <h3 className="text-center text-[15px] font-[600]">Featured In:</h3>
            <div className="flex justify-center items-center space-x-[10px]">
            {/* <img className="h-[12px]" src={herobnr1} alt="" /> */}

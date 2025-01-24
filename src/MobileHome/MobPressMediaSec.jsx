@@ -28,8 +28,8 @@ function MobPressMediaSec() {
             slidesPerView={1}
             spaceBetween={20}
             navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
+              nextEl: ".swiper-button-next-press",
+              prevEl: ".swiper-button-prev-press",
             }}
             modules={[Navigation]}
             loop={false}
@@ -72,10 +72,10 @@ function MobPressMediaSec() {
           </div>
               </SwiperSlide>
           </Swiper>
-          <button className="swiper-button-prev rotate-[180deg]  absolute z-10 !left-[0%] !top-[53%] transform -translate-y-1/2">
+          <button className="swiper-button-prev-press rotate-[180deg]  absolute z-10 !left-[0%] !top-[53%] transform -translate-y-1/2">
             <img className="w-[50.545px] h-[30.545px] " src={swpbtn} alt="" />
           </button>
-          <button className="swiper-button-next  absolute z-10 !right-[0%] !top-[53%] transform -translate-y-1/2">
+          <button className="swiper-button-next-press  absolute z-10 !right-[0%] !top-[53%] transform -translate-y-1/2">
             <img className="w-[50.545px] h-[30.545px]" src={swpbtn} alt="" />
           </button>
         </div>

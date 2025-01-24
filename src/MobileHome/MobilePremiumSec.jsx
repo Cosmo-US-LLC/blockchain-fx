@@ -142,8 +142,8 @@ function MobilePremiumSec() {
     <div className="pt-[24px] pb-[24px]">
       <div className="w-[90%] space-y-[20px] mx-auto relative">
         <div className="space-y-[12px]">
-          <h3 className="text-[32px] leading-[100%] text-[#000] text-center font-[700]">
-            Premium Trading Bundles
+          <h3 className="text-[32px] leading-[100%] text-[#000] text-center font-bold">
+            Premium <br /> Trading Bundles
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
             Buy $BFX during the pre-sale to receive Limited Trading Bundle NFTs

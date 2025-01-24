@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -133,8 +133,16 @@ const Bundles = [
 ];
 
 function PremiumSec() {
-  const [activeIndex, setActiveIndex] = useState(0);
   const [openBundles, setOpenBundles] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0); 
+  const swiperRef = useRef(null); 
+
+  const handleDotClick = (index) => {
+    if (swiperRef.current) {
+      swiperRef.current.slideToLoop(index); 
+      setActiveIndex(index);
+    }
+  };
   const toggleBundles = (id) => {
     setOpenBundles(id === openBundles ? null : id);
   };
@@ -170,7 +178,8 @@ function PremiumSec() {
                 prevEl: ".swiper-button-prev-swp",
                 enabled: true,
               }}
-              onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+              onSwiper={(swiper) => (swiperRef.current = swiper)}
+              onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)} 
               modules={[Navigation]}
               className="mySwiper"
             >
@@ -243,12 +252,13 @@ function PremiumSec() {
           {cards.map((_, index) => (
             <div
               key={index}
-              className={`w-[27px] h-[27px] rounded-full border-[2px] ${
+              className={`w-[27px] h-[27px] cursor-pointer rounded-full border-[2px] ${
                 activeIndex === index ? "border-black" : "border-[#727272]"
               }`}
               style={{
                 background: "#E5AE00",
               }}
+              onClick={() => handleDotClick(index)}
             ></div>
           ))}
         </div>

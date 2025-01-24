@@ -389,10 +389,10 @@ function MobStandoutSec() {
                   </div>
             </SwiperSlide>
             </Swiper>
-            <button className="swiper-button-prev rotate-[180deg] !absolute z-10 !left-[40%] !top-[102%] transform -translate-y-1/2">
+            <button className="swiper-button-prev rotate-[180deg] !absolute z-10 !left-[-51%] !top-[102%] transform -translate-y-1/2 !w-[40px] !h-[40px]">
               <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
             </button>
-            <button className="swiper-button-next  !absolute z-10 !right-[11%] !top-[102%] transform -translate-y-1/2">
+            <button className="swiper-button-next  !absolute z-10 !right-[30%] !top-[102%] transform -translate-y-1/2 !w-[40px] !h-[40px]">
               <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
             </button>
 

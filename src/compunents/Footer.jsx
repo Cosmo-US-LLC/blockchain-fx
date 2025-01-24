@@ -80,7 +80,6 @@ function Footer() {
           <p className='text-[14px] text-[#000] leading-[100%]'>Copyright 2024. All Rights Reserved.</p>
           <div className='
           space-x-5'>
-            <a href="" className='text-[14px] text-[#000] leading-[100%]'>Legal Documents</a>
             <a href="" className='text-[14px] text-[#000] leading-[100%]'>Privacy Policy</a>
             <a href="" className='text-[14px] text-[#000] leading-[100%]'>Cookie Management</a>
           </div>
@@ -120,7 +119,7 @@ function Footer() {
           </div>
         </div>
         <div className='flex justify-between'>
-        <div className='max-w-[285px] space-y-[15px] pt-[3px] w-[100%] '>
+        <div className='max-w-[285px] space-y-[25px] pt-[3px] w-[100%] '>
           <h4 className='text-[#000] text-[16px] font-[600] leading-[108.333%]'>Join Our Socials</h4>
           <div className='flex space-x-6'>
             <img className='w-[24px] h-[24px]' src={socil1} alt="" />
@@ -141,7 +140,6 @@ function Footer() {
         </div>
         <div className='flex justify-center items-center'>
           <div className='space-x-4'>
-            <a href="" className='text-[12px] text-[#000] leading-[100%]'>Legal Documents</a>
             <a href="" className='text-[12px] text-[#000] leading-[100%]'>Privacy Policy</a>
             <a href="" className='text-[12px] text-[#000] leading-[100%]'>Cookie Management</a>
           </div>

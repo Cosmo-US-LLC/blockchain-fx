@@ -8,6 +8,7 @@ import nexticn6 from "../assets/NextGen/nwxticon (4).svg"
 import nexticn7 from "../assets/NextGen/nwxticon (3).svg"
 import nexticn8 from "../assets/NextGen/nwxticon (2).svg"
 import nexticn9 from "../assets/NextGen/nwxticon (1).svg"
+import nexticn10 from "../assets/NextGen/nwxticon.svg"
 
 function NextGenerationSec() {
   return (
@@ -30,7 +31,7 @@ function NextGenerationSec() {
             </div>
             <div className="flex flex-col min-w-[137px] items-center space-y-[20px]">
                 <div className="min-h-[60px]">
-                <img src={nexticn3} alt="" />
+                <img src={nexticn10} className="h-[49px]" alt="" />
                 </div>
                 <p className="text-[20px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">Ultra <br /> Tight Spreads</p>
             </div>

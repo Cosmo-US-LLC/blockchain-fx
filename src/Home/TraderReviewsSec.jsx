@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 
 import tradimg from "../assets/TraderReviewsSec/framdes.png";
 import user from "../assets/TraderReviewsSec/image.png";
+import usern from "../assets/TraderReviewsSec/user.png";
 import user2 from "../assets/TraderReviewsSec/Image2.png";
 import user3 from "../assets/TraderReviewsSec/image3.png";
 import user4 from "../assets/TraderReviewsSec/image4.png";
@@ -115,22 +116,19 @@ function TraderReviewsSec() {
                   <SwiperSlide>
                     <div className="py-[45px] relative z-[9] pb-[51px] min-h-[338px] flex flex-col justify-between pl-[40px] pr-[16px]  bg-[#181A20] rounded-[4px] w-[353.45px] space-y-[30px]">
                       <p className="text-[16px] font-[400] leading-[175%] text-[#fff]">
-                        BlockchainFX has completely leveled up my trading game.
-                        It's super intuitive, lets you access multiple markets
-                        simultaneously, and offers lightning-fast transactions.
-                        A huge win for crypto!
+                      Finally, a platform that gets it right! I traded CFDs, bought APPLE stocks, sold them for GBY, and grabbed some $PEPE, all within 30 minutes. Highly recommend it for both beginners and pros!
                       </p>
                       <div className="flex items-center space-x-2">
-                        <img src={user} alt="" />
+                        <img src={usern} alt="" />
                         <div>
                           <div className="flex items-center space-x-2">
                             <h3 className="text-[18px] text-[#fff] font-[600] leading-[140%]">
-                              Blacik.ko
+                            PrimeNic.eth
                             </h3>
                             <img src={tick} alt="" />
                           </div>
                           <h4 className="text-[#6A6A6A] text-[14px] font-[600] leading-[140%]">
-                            @blakieko
+                          @primenic_eth
                           </h4>
                         </div>
                       </div>

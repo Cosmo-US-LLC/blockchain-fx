@@ -1,5 +1,5 @@
 import React from "react";
-import heroimg from "../assets/herosection/heroimg.png"
+import heroimg from "../assets/herosection/heroimg.webp"
 import herobnr1 from "../assets/herosection/bnrhero (5).svg"
 import herobnr2 from "../assets/herosection/bnrhero (4).svg"
 import herobnr3 from "../assets/herosection/bnrhero (3).svg"
@@ -34,7 +34,7 @@ function Herosection() {
               Beta Trading
             </button>
           </div>
-          <div className="flex justify-center pt-[20px]">
+          <div className="flex justify-center pt-[26px] pr-[34px] pl-[70px] pb-[70px] bg-[#F5F5F5] max-w-[619px] mx-auto">
             <img src={heroimg} alt="" />
           </div>
           <div className="flex justify-center items-center space-x-[52px] border rounded-[20px] pt-[30px] pb-[35px]">

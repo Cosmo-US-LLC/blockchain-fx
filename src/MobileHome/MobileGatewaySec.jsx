@@ -27,7 +27,7 @@ function MobileGatewaySec() {
             international financial market.
           </p>
         </div>
-        <div className="p-[20px] space-y-[32px] max-w-[366px] rounded-[13px] border border-[#9D9D9D]" 
+        <div className="p-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] border border-[#9D9D9D]" 
         style={{
           background:"rgba(241, 241, 241, 0.36)"
         }}

@@ -19,7 +19,7 @@ function TheUltimateSec() {
               Buy $BFX
             </button>
             <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-[#FFF] bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#fff] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
-            Need Help?
+            Beta Trading
             </button>
           </div>
           </div>
