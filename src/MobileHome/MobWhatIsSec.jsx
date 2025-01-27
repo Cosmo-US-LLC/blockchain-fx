@@ -5,7 +5,7 @@ import whatisimg from "../assets/WhatIsSec/whatisimg.gif";
 function MobWhatIsSec() {
  
   return (
-    <div className="pt-[24px] pb-[24px] bgwhatmob">
+    <div className="pt-[24px] pb-[24px] bgwhatmob" id="what-is-bfx-coin">
       <div className="relative -space-y-[30px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <h3 className="text-[32px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">

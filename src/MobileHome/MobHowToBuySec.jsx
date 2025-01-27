@@ -5,7 +5,7 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/HowToBuySec/ei_arrow-up.svg";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
-import imghow from "../assets/HowToBuySec/Frame 1410125732.png";
+import imghow from "../assets/HowToBuySec/Frame 1410125732.webp";
 
 const items = [
   {
@@ -22,7 +22,7 @@ const items = [
   {
     icon: oneicon3,
     title: "3. Confirm Transaction",
-    description: "Click on Buy Now and Confirm Transaction",
+    description: "Click on the BUY BFX button and confirm transaction",
   },
   {
     icon: oneicon4,

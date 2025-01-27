@@ -20,29 +20,29 @@ function WallStreetSec() {
           Elevate your trading experience with a cutting-edge platform <br /> that lets you access global markets in seconds.
           </p>
         </div>
-        <div className=" grid grid-cols-3 gap-y-[4rem]  " 
+        <div className=" grid grid-cols-3 gap-y-[4rem] gap-x-[5rem] " 
         >
-          <div className="w-[228px] flex flex-col space-y-[1rem] justyfy-center items-center w-[100%]">
+          <div className="w-[228px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon1} alt="" />
             <h4 className="text-[20px] font-[600] tracking-[-0.32px] text-center">6 <br />Markets</h4>
           </div>
-          <div className="w-[185px] flex flex-col space-y-[1rem] justyfy-center items-center w-[100%]">
+          <div className="w-[185px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon2} alt="" />
             <h4 className="text-[20px] font-[600] tracking-[-0.32px] text-center">800 <br />Instruments</h4>
           </div>
-          <div className="w-[265px] flex flex-col space-y-[1rem] justyfy-center items-center w-[100%]">
+          <div className="w-[265px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon3} alt="" />
-            <h4 className="text-[20px] font-[600] tracking-[-0.32px] text-center">All global  <br />markets in one place</h4>
+            <h4 className="text-[20px] font-[600] tracking-[-0.32px] text-center">All Global  <br />Markets In One Place</h4>
           </div>
-          <div className="w-[228px] flex flex-col space-y-[1rem] justyfy-center items-center w-[100%]">
+          <div className="w-[228px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon4} alt="" />
             <h4 className="text-[20px] font-[600] tracking-[-0.32px] text-center">Ultra-Fast <br />Trading Execution</h4>
           </div>
-          <div className="w-[185px] flex flex-col space-y-[1rem] justyfy-center items-center w-[100%]">
+          <div className="w-[185px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon5} alt="" />
             <h4 className="text-[20px] font-[600] tracking-[-0.32px] text-center">Deep <br />Liquidity</h4>
           </div>
-          <div className="w-[265px] flex flex-col space-y-[1rem] justyfy-center items-center w-[100%]">
+          <div className="w-[265px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon6} alt="" />
             <h4 className="text-[20px] font-[600] tracking-[-0.32px] text-center">Fast <br /> Withdrawals</h4>
           </div>

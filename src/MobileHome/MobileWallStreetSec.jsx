@@ -32,7 +32,7 @@ function MobileWallStreetSec() {
           </div>
           <div className=" flex flex-col space-y-[10px] justify-center items-center w-[100%]">
             <img src={cardicon3} className="max-h-[40px]" alt="" />
-            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">All global  <br />markets in one place</h4>
+            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">All Global  <br />Markets In One Place</h4>
           </div>
           <div className=" flex flex-col space-y-[10px] justify-center items-center w-[100%]">
             <img src={cardicon4} className="max-h-[40px]" alt="" />

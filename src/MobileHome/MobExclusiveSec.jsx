@@ -19,7 +19,7 @@ const cardItems = [
     img: excixn2,
     title: "Receive Bonus<br/> $BFX Tokens",
     description:
-      "Get more $BFX during the pre-sale with bonus levels based on how much you spend.",
+      "Get more $BFX during the pre-sale with bonuses that increase as you spend more.",
   },
   {
     id: "03",

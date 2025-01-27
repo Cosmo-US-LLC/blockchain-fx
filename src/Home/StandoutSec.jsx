@@ -96,14 +96,7 @@ function StandoutSec() {
             Standout Features
           </h3>
           <p className="text-[20px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            Cryptocurrencies from exchanges and trading platforms have
-            historically performed well, fueled by a growing user base, an
-            active trading community driving organic trading volume, and
-            platform revenue reinvested into new features, continuous updates,
-            and consistent marketing. $BFX, the latest cryptocurrency in this
-            segment, stands out as the first token from a multi-asset trading
-            platform, offering innovative features that deliver significant
-            value to the market.
+          Cryptocurrencies from exchanges have historically performed well due to their user base, active traders, platform revenue, and ongoing marketing. $BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.
           </p>
         </div>
         <div className="">

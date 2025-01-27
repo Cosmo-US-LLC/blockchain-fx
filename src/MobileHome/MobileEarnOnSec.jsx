@@ -8,15 +8,14 @@ function MobileEarnOnSec() {
     const video = videoRef.current;
 
     if (video) {
-      video.muted = true; 
-      video.setAttribute("playsinline", ""); 
-      video.setAttribute("muted", ""); 
+      video.muted = true;
+      video.setAttribute("playsinline", "");
+      video.setAttribute("muted", "");
       video.play().catch((error) => {
         console.log("Autoplay failed. Error:", error);
       });
     }
   }, []);
-
 
   return (
     <div className="pt-[24px] pb-[24px] bg-[#FBFBFB]">
@@ -33,19 +32,28 @@ function MobileEarnOnSec() {
           </p>
         </div>
         <div className="w-[100%] !mt-[-4px] flex justify-center">
-          {/* <img src={eranimg} className="" alt="" /> */}
           <video
-          ref={videoRef}
             width={350}
             height={300}
             className=""
             muted
+            autoPlay
             preLoad="auto"
-            playsinline
+            playsInline
             loop
           >
             <source src={eranvideo} type="video/mp4" />
           </video>
+          {/* <iframe
+            width="300"
+            height="300"
+            src={eranvideo}
+            title="Embedded Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            
+            className=""
+          ></iframe> */}
         </div>
         <div className="flex justify-center">
           <button

@@ -147,17 +147,14 @@ function PremiumSec() {
     setOpenBundles(id === openBundles ? null : id);
   };
   return (
-    <div className="pt-[53px] pb-[51px]">
+    <div className="pt-[53px] pb-[51px]" id="premium">
       <div className="max-w-[1400px] w-[100%] space-y-[50px] mx-auto relative">
         <div className="space-y-[40px]">
           <h3 className="text-[50px] leading-[100%] text-[#000] text-center font-[700]">
-            Premium Trading Bundles
+            Limited Trading Bundles
           </h3>
           <p className="text-[18px] leading-[166.667%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-            Buy $BFX during the pre-sale to receive Limited Trading Bundle NFTs
-            starting at $1,000.  Enjoy bonus $BFX, daily USDT rewards, early
-            access, and extra trading funds <br /> to jumpstart your
-            BlockchainFX journey. Available only during the pre-sale!
+          Buy $BFX in the pre-sale and get exclusive Trading Bundle NFTs starting at $1,000! Enjoy early access, bonus $BFX, daily USDT rewards, and extra trading funds <br /> to jumpstart your BlockchainFX journey. Only available during the pre-sale!
           </p>
         </div>
         <div className="max-w-[1109px] w-[100%] mx-auto ">
@@ -236,7 +233,9 @@ function PremiumSec() {
                       </ul>
                     </div>
                     <div className="flex justify-start">
-                      <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
+                      <button 
+                      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})} 
+                      className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
                         Buy $BFX
                       </button>
                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import heroimg from "../assets/herosection/heroimg.webp"
+import herogif from "../assets/herosection/herogif.gif"
 import herobnr1 from "../assets/herosection/bnrhero (5).svg"
 import herobnr2 from "../assets/herosection/bnrhero (4).svg"
 import herobnr3 from "../assets/herosection/bnrhero (3).svg"
@@ -12,11 +12,11 @@ function Herosection() {
       <div className="max-w-[1220px]  w-[100%] mx-auto ">
         <div className="space-y-[35px]">
           <div>
-            <h4 className="text-[18px]  leading-[100%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
+            <h4 className="text-[18px]  leading-[100%] pb-[10px] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
               Access all Global financial markets in one place
             </h4>
-            <h2 className="pt-6 pb-8 text-[64px] font-[700] leading-[100.375%] tracking-[-1px] text-[#000] text-center">
-              The Ultimate <br /> Trading Platform
+            <h2 className="pt-6 pb-8 text-[52px] font-[700] leading-[70%] tracking-[-1px] text-[#000] text-center">
+              The Ultimate Trading Platform
             </h2>
             <p className="text-[18px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[166.667%] text-center text-[#000] tracking-[-0.32px] ">
               Trade Crypto, Forex, ETFs, Stocks, Futures, Options, Bonds,
@@ -34,8 +34,8 @@ function Herosection() {
               Beta Trading
             </button>
           </div>
-          <div className="flex justify-center pt-[26px] pr-[34px] pl-[70px] pb-[70px] bg-[#F5F5F5] max-w-[619px] mx-auto">
-            <img src={heroimg} alt="" />
+          <div className="flex justify-center  max-w-[619px] mx-auto">
+            <img src={herogif} className="max-h-[550px]" alt="" />
           </div>
           <div className="flex justify-center items-center space-x-[52px] border rounded-[20px] pt-[30px] pb-[35px]">
             <img src={herobnr1} alt="" />

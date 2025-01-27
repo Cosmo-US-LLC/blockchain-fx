@@ -40,7 +40,7 @@ function Footer() {
               <li className='text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc'>
               Quick links
                 <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "how-to-buy", 90)} >How to Buy</a>
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx", 90)}>What is BFX</a>
+                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}>What is BFX</a>
                 <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "roadmap", 90)} >Roadmap</a>
                 <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a>
               </li>
@@ -101,7 +101,7 @@ function Footer() {
               <li className='text-[#000] text-[16px] font-[600] leading-[108.333%] '>
               Quick links
                 <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "how-to-buy", 90)} >How to Buy</a>
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx", 90)}>What is BFX</a>
+                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}>What is BFX</a>
                 <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "roadmap", 90)} >Roadmap</a>
                 <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a>
               </li>

@@ -15,7 +15,9 @@ function TheUltimateSec() {
               Trading Experience
             </h3>
             <div className="flex justify-center items-center px-[2rem] pt-[35px] space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-[#FFF] hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#fff] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
+            <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
+            className="text-white bg-[#E5AE00] px-[12px] hover:text-[#FFF] hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#fff] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
               Buy $BFX
             </button>
             <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-[#FFF] bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#fff] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">

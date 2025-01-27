@@ -9,7 +9,7 @@ const cardData = [
     {
         img:takeimg1,
         title:"Crypto",
-        subtitle:"Trade BTC, ETH, SOL, PEPE, DOGE, and more with leverage and advanced trading tools."
+        subtitle:"Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more with leverage and advanced trading tools."
     },
     {
         img:takeimg2,
@@ -29,7 +29,7 @@ const cardData = [
     {
         img:takeimg5,
         title:"Indices",
-        subtitle:"Dow Jones, S&P500, Nasdaq, DAX, CAC, Trade the most popular indices."
+        subtitle:"Dow Jones, S&P500, Nasdaq, DAX, CAC, and more. Trade the most popular indices."
     },
 ]
 

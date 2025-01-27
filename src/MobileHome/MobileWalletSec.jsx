@@ -39,6 +39,21 @@ function MobileWalletSec() {
     setSelectedCoin(coin);
     setDropdownOpen(false);
   };
+  const handleScroll = (event, targetId, offset) => {
+    event.preventDefault();
+
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      const elementPosition = targetElement.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <div className="pt-[2rem] pb-[24px] space-y-[28px]">
       <div
@@ -217,7 +232,7 @@ function MobileWalletSec() {
         </div>
         <div className="space-y-[5px]">
           <label className="text-[#2F2F2F] text-[11px] font-[700] leading-[100%]">
-          You Receive $BFX + <span className="text-[#299A00] underline">Novice Trading NFT</span>
+          You Receive $BFX + <span onClick={(e) => handleScroll(e, "premium", 90)} className="cursor-pointer text-[#299A00] underline">Novice Trading NFT</span>
           </label>
           <div className="border-[1px] border-[#454545] p-1 flex justify-between items-center">
             <div className="relative max-w-[75px] h-[34px]">

@@ -25,7 +25,7 @@ function TopAssetsSec() {
   };
 
   return (
-    <div className="pt-[51px] space-y-[35px] pb-[51px] bg-[#FAFAFA] ">
+    <div className="pt-[80px] space-y-[35px] pb-[100px] bg-[#FAFAFA] ">
     <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] leading-[-1px]">
     Top Assets
           </h3>

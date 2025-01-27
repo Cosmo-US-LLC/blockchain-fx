@@ -19,12 +19,7 @@ function MobileGatewaySec() {
             The Gateway <br /> To Global Markets
           </h3>
           <p className="text-[15px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            Launching a new international multi-asset trading platform can take
-            up to three years and cost as much as $5 million, depending on the
-            jurisdiction. With BFX, however, accessing the world’s largest
-            markets has never been easier. In just 2 clicks, you can acquire
-            BFX, the native token of BlockchainFX, and participate in the
-            international financial market.
+          Starting an international multi-asset trading platform can take up to 3 years and cost 5 million. With BFX, it’s easier than ever. In just two clicks, get BFX, the native BlockchainFX token, and access the world’s largest financial markets.
           </p>
         </div>
         <div className="p-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] border border-[#9D9D9D]" 
@@ -76,7 +71,7 @@ function MobileGatewaySec() {
           <div className="rounded-[16px] border border-[#C2C2C2]">
             <div className="flex justify-center py-[10px] items-center flex-col">
               <img className="w-[23px] h-[20.815px]" src={icon2} alt="" />
-              <h4 className="text-[#181A20] font-[700] text-[20px] leading-[105%]">time </h4>
+              <h4 className="text-[#181A20] font-[700] text-[20px] leading-[105%]">Time </h4>
             </div>
             <div className="flex border-t border-[#C2C2C2]">
               <div className="w-[50%] py-[3px] border-r border-[#C2C2C2]">

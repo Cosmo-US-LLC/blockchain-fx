@@ -5,7 +5,7 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/HowToBuySec/ei_arrow-up.svg";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
-import imghow from "../assets/HowToBuySec/Frame 1410125732.png";
+import imghow from "../assets/HowToBuySec/Frame 1410125732.webp";
 
 const items = [
   {
@@ -22,7 +22,7 @@ const items = [
   {
     icon: oneicon3,
     title: "3. Confirm Transaction",
-    description: "Click on Buy Now and Confirm Transaction",
+    description: "Click on the BUY BFX button and confirm transaction",
   },
   {
     icon: oneicon4,
@@ -91,7 +91,9 @@ function HowToBuySec() {
             ))}
           </div>
           <div className="flex justify-start items-center px-[2rem] space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
+            <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
+            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
               Buy $BFX
             </button>
             <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">

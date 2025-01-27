@@ -21,7 +21,9 @@ function TradeLikeSec() {
               management tools. Trade with the precision of a professional Wall
               Street trader.
             </p>
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
+            <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
+            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
           Buy $BFX
             </button>
           </div>

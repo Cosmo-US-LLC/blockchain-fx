@@ -1,5 +1,5 @@
 import React from "react";
-import heroimg from "../assets/herosection/heroimg.webp"
+import heroimg from "../assets/herosection/herogif.gif"
 import fobicn from "../assets/herosection/forbes-ar21 1.svg"
 import herobnr2 from "../assets/herosection/bnrhero (4).svg"
 import herobnr3 from "../assets/herosection/bnrhero (3).svg"
@@ -34,7 +34,7 @@ function MobileHero() {
               Beta Trading
             </button>
           </div>
-          <div className="flex justify-center pt-[26px] pr-[34px] pl-[70px] pb-[70px] bg-[#F5F5F5]">
+          <div className="flex justify-center pb-[10px] bg-[#F5F5F5]">
             <img src={heroimg} alt="" />
           </div>
           <div className="border rounded-[6px] py-[20px] px-[13px]">

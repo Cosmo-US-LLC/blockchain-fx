@@ -12,7 +12,7 @@ function HyperGrowthSec() {
           Hyper Growth Model
           </h3>
           <p className="text-[20px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-          BlockchainFX is the first community-driven trading platform with a staking revenue redistribution model that continuously rewards users and its community. This drives rapid organic growth through network effects. As the platform grows, so will the token, and vice versa. Studies show that incentivized communities grow up to 10 times faster on average than others.
+          BlockchainFX is the first community-driven trading platform with a staking revenue model that rewards users and the community, fueling rapid growth through network effects. As the platform grows, so does the token, and vice versa. Studies show that Incentivized communities grow up to 10 times faster than others.
           </p>
         </div>
         <div className="space-y-[70px] bg-[#fff] rounded-[14px] p-[70.32px]" 
@@ -37,7 +37,9 @@ function HyperGrowthSec() {
          
         </div>
         <div className="flex justify-center items-center">
-        <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
+        <button 
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
+        className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
               Buy $BFX
             </button>
         </div>

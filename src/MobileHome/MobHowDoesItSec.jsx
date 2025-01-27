@@ -23,7 +23,7 @@ const cardItems = [
     icon:cardicn2,
     title: "02. Fee Distribution",
     description:
-      "70% of trading fees are used to incentivize the BFX community and drive the ecosystem’s growth",
+      "70% of trading fees are used to incentivize the BFX community and drive the ecosystem’s growth.",
   },
   {
     icon:cardicn3,
@@ -84,7 +84,7 @@ function MobHowDoesItSec() {
                   <SwiperSlide key={item.id}>
                     <div
                       key={item.id}
-                      className="px-[20px] max-h-[340px] flex space-y-[20px] flex-col justify-centetr py-[32px] min-h-[284px] bg-[#F9FAFB] rounded-[8px] border "
+                      className="px-[20px] max-h-[340px] flex space-y-[20px] flex-col justify-centetr py-[32px] min-h-[284px] bg-[#F2F2F2] rounded-[8px] border "
                     >
                       <div className="flex justify-center">
                         <img src={item.icon} alt="" />

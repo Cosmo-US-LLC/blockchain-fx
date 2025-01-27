@@ -139,17 +139,14 @@ function MobilePremiumSec() {
     setOpenBundles(id === openBundles ? null : id);
   };
   return (
-    <div className="pt-[24px] pb-[24px]">
+    <div className="pt-[24px] pb-[24px]" id="premium">
       <div className="w-[90%] space-y-[20px] mx-auto relative">
         <div className="space-y-[12px]">
           <h3 className="text-[32px] leading-[100%] text-[#000] text-center font-bold">
-            Premium <br /> Trading Bundles
+          Limited <br /> Trading Bundles
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-            Buy $BFX during the pre-sale to receive Limited Trading Bundle NFTs
-            starting at $1,000. Enjoy bonus $BFX, daily USDT rewards, early
-            access, and extra trading funds to jumpstart your BlockchainFX
-            journey. Available only during the pre-sale!
+          Buy $BFX in the pre-sale and get exclusive Trading Bundle NFTs starting at $1,000! Enjoy early access, bonus $BFX, daily USDT rewards, and extra trading funds to jumpstart your BlockchainFX journey. Only available during the pre-sale!
           </p>
         </div>
         <div className="w-[100%] mx-auto ">

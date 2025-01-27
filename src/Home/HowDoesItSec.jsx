@@ -12,7 +12,7 @@ const cardItems = [
     {
       id: "02",
       title: "Fee Distribution",
-      description: "70% of trading fees are used to incentivize the BFX community and drive the ecosystem’s growth",
+      description: "70% of trading fees are used to incentivize the BFX community and drive the ecosystem’s growth.",
     },
     {
       id: "03",
@@ -54,7 +54,7 @@ function HowDoesItSec() {
               {cardItems.map((item) => (
         <div
           key={item.id}
-          className="max-w-[289px] px-[24px] flex flex-col justify-centetr pt-[24px] pb-[34px] min-h-[284px] bg-[#F9FAFB] rounded-[8px] border border-[#F9FAFB] "
+          className="max-w-[289px] px-[24px] flex flex-col justify-centetr pt-[24px] pb-[34px] min-h-[284px] bg-[#F2F2F2] rounded-[8px] border border-[#F9FAFB] "
         >
           <p className="text-[20px]  text-[#000] font-[700]">{item.id}.</p>
          <div className="min-h-[100px] flex justify-center items-center">
