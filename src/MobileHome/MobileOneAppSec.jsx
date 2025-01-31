@@ -43,11 +43,11 @@ function MobileOneAppSec() {
      <div className="w-[90%] mx-auto relative">
      <div className="space-y-[30px]">
         <div className="space-y-[15px]">
-        <h3 className="text-[32px] font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">
+        <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] leading-[-1px] ">
             Everything In One App
           </h3>
-          <p className="text-[15px] text-[#181A20] font-[400] leading-[127.778%] leading-[-0.32px] text-start">
-            An innovative, modern and intuitive trading platform
+          <p className="text-[15px] text-[#181A20] text-center font-[400] leading-[127.778%] leading-[-0.32px] ">
+          An innovative, lightning-fast, and intuitive trading platform
           </p>
         </div>
         <div className="w-[100%] space-y-[32px]">

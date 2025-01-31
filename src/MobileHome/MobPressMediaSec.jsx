@@ -42,7 +42,7 @@ function MobPressMediaSec() {
                 <img src={medai2} className="h-[50px]" alt="" />
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BFX is pioneering a new era of cryptocurrency by seamlessly connecting it to global markets such as Forex, Commodities, and ETFs. This unprecedented integration creates endless trading opportunities for traders.
+              BFX is pioneering a new era of cryptocurrency by connecting blockchains to global markets such as Forex, Commodities, and ETFs. This unprecedented integration creates endless trading opportunities for traders.
               </p>
             </div>
           </div>

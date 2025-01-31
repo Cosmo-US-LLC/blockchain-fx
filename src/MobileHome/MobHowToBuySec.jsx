@@ -22,12 +22,12 @@ const items = [
   {
     icon: oneicon3,
     title: "3. Confirm Transaction",
-    description: "Click on the BUY BFX button and confirm transaction",
+    description: "Click on the \"Buy BFX\" button and confirm the transaction",
   },
   {
     icon: oneicon4,
     title: "4. Claim $BFX",
-    description: "You can claim your $BFX once the Pre-Sale is done",
+    description: "You can claim your $BFX once the pre-sale is done",
   },
 ];
 
@@ -44,7 +44,10 @@ function MobHowToBuySec() {
     How To Buy $BFX
           </h3>
      <div className="w-[90%] mx-auto ">
-        <div className="w-[100%] space-y-[20px]">
+        <div className="w-[100%]">
+          <img src={imghow} className="" alt="" />
+        </div>
+          <div className="w-[100%] space-y-[20px]">
           <div className="">
             {items.map((item, index) => (
               <div
@@ -92,10 +95,7 @@ function MobHowToBuySec() {
             ))}
           </div>
         </div>
-        <div className="w-[100%]">
-          <img src={imghow} className="" alt="" />
-        </div>
-        <div className="flex justify-center pt-[24px] items-center px-[2rem] space-x-[17px]">
+        <div className="flex justify-center py-[24px] items-center px-[2rem] space-x-[17px]">
             <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[102px] w-[100%] h-[40px]"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >

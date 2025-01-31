@@ -22,12 +22,12 @@ const items = [
   {
     icon: oneicon3,
     title: "3. Confirm Transaction",
-    description: "Click on the BUY BFX button and confirm transaction",
+    description: "Click on the \"Buy BFX\" button and confirm the transaction",
   },
   {
     icon: oneicon4,
     title: "4. Claim $BFX",
-    description: "You can claim your $BFX once the Pre-Sale is done",
+    description: "You can claim your $BFX once the pre-sale is done",
   },
 ];
 

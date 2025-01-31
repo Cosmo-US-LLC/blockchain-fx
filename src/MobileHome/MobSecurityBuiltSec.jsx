@@ -12,16 +12,21 @@ function MobSecurityBuiltSec() {
   return (
     <div className="pt-[24px] space-y-[35px] pb-[24px] bg-[#fff]">
       <div className="space-y-[30px] w-[90%] mx-auto ">
-        <div className="">
-          <h3 className="text-[32px] font-[700] capitalize text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+        <div className="space-y-[20px]">
+        <h3 className="text-[32px] font-[700] capitalize text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Security Built <br /> into the Core
           </h3>
+          <p className="text-[15px] font-[400] max-w-[793px] text-center mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">
+            BlockchainFX leverages advanced technology to build a reliable
+            infrastructure and seamless ecosystem, delivering a secure and
+            user-friendly experience for traders.
+          </p>
         </div>
         <div className=" grid grid-cols-2 gap-y-[3rem]  " 
         >
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon1} className="max-h-[40px]" alt="" />
-            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">PCI DSS</h4>
+            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">PCI  <br /> DSS</h4>
           </div>
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon2} className="max-h-[40px]" alt="" />

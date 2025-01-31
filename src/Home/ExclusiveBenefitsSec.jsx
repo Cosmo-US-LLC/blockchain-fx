@@ -26,7 +26,7 @@ const cardItems = [
     img: excixn3,
     title: "Exclusive Pre-Sale <br/> Trading Bundles",
     description:
-      "Obtain exclusive trading bundles packed with multiple perks during the pre-sale.",
+      "Receive exclusive trading bundles packed with multiple perks during the pre-sale.",
   },
   {
     id: "04",

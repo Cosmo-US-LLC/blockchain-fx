@@ -12,10 +12,15 @@ function SecurityBuiltSec() {
   return (
     <div className="pt-[73px] space-y-[35px] pb-[65px] bg-[#FAFAFA]">
       <div className="max-w-[985px] space-y-[90px] w-[100%] mx-auto ">
-        <div className="">
-          <h3 className="text-[50px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+        <div className="space-y-[20px]">
+        <h3 className="text-[50px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Security Built into the Core
           </h3>
+          <p className="text-[20px] font-[400] max-w-[793px] text-center mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">
+            BlockchainFX leverages advanced technology to build a reliable
+            infrastructure and seamless ecosystem, delivering a secure and
+            user-friendly experience for traders.
+          </p>
         </div>
         <div className=" grid grid-cols-3 gap-y-[4rem]  " 
         >

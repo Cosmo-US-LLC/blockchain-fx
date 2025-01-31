@@ -47,7 +47,7 @@ function OneAppSec() {
             Everything In One App
           </h3>
           <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] leading-[-0.32px] text-start">
-            An innovative, modern and intuitive trading platform
+          An innovative, lightning-fast, and intuitive trading platform
           </p>
           <div className="">
             {items.map((item, index) => (

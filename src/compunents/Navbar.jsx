@@ -106,7 +106,7 @@ function Navbar() {
         <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
           <a
             className="text-[16px] font-[500] text-[#000]"
-            onClick={(e) => handleScroll(e, "what-is-bfx", 90)}
+            onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}
             href=""
           >
             What is BlockchainFX?
@@ -196,7 +196,7 @@ function Navbar() {
           <a
             className="block text-[16px] font-[500] text-[#000] mb-4"
             href=""
-            onClick={(e) => handleScroll(e, "what-is-bfx", 90)}
+            onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}
           >
             What is BlockchainFX?
           </a>

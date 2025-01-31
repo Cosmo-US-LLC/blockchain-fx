@@ -1,6 +1,6 @@
 import React from "react";
 import takeimg1 from "../assets/TradeOver/takeimg (5).webp"
-import takeimg2 from "../assets/TradeOver/takeimg (1).webp"
+import takeimg2 from "../assets/TradeOver/takeimg (1).png"
 import takeimg3 from "../assets/TradeOver/takeimg (2).webp"
 import takeimg4 from "../assets/TradeOver/takeimg (3).webp"
 import takeimg5 from "../assets/TradeOver/takeimg (4).webp"
@@ -19,7 +19,7 @@ const cardData = [
     {
         img:takeimg3,
         title:"Forex",
-        subtitle:"Over 60 currency pairs to trade, including USD, EUR, JPY, GBP, and many more."
+        subtitle:"Over 60 currency pairs to trade, including USD, EUR, JPY, GBP, <br /> and many more."
     },
     {
         img:takeimg4,
@@ -51,7 +51,9 @@ function MobileTradeOverSec() {
                 </div>
                 <div className="space-y-[13px]">
                     <h3 className="text-[20px] text-[#181A20] font-[600] leading-[140%] tracking-[-0.32px]">{item.title}</h3>
-                    <p className="text-[15px] font-[400] text-[#181A20] leading-[127.778%] tracking-[-0.32px]">{item.subtitle}</p>
+                    <p className="text-[15px] font-[400] text-[#181A20] leading-[127.778%] tracking-[-0.32px]"
+                    dangerouslySetInnerHTML={{ __html: item.subtitle }}
+                    ></p>
                 </div>
             </div>
         ))

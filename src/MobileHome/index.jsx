@@ -52,7 +52,7 @@ function MobileHome() {
         <MobTopAssetsSec />
         <MobLiveNewSec />
         <MobSecurityBuiltSec />
-        <MobStreamlinedSec />
+        {/* <MobStreamlinedSec /> */}
         <MobWhatIsSec />
         <MobTokenAllocationSec />
         <MobTokenDetailsSec />

@@ -11,8 +11,8 @@ function MobTheUltimateSec() {
             <img src={logo} className="h-[45.77px]" alt="" />
             </div>
             <h3 className="text-[33.358px] text-[#fff] font-[700] text-center leading-[117.143%] text-[#181A20] tracking-[-1px]">
-              The Ultimate <br />
-              Trading Experience
+            The Most Rewarding <br />
+            Trading Experience
             </h3>
             <div className="flex justify-center pt-[10px] items-center  space-x-[17px]">
             <button className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"

@@ -121,7 +121,7 @@ const Bundles = [
   },
   {
     id: 3,
-    question: "Can I get a Trading Bundle with multiple purchases?",
+    question: "Can I get an NFT with multiple purchases?",
     answer:
       "Yes, you can purchase $BFX in smaller amounts to reach the total required. For example, if you buy $200 worth of $BFX five times, you'll earn the Novice NFT (worth $1,000). You can also upgrade your NFT by purchasing more tokens to reach the next tier.",
   },
@@ -225,7 +225,7 @@ function MobilePremiumSec() {
                       </ul>
                     </div>
                     <div className="flex justify-start">
-                      <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[100px] w-[100%] h-[40px]"
+                      <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[40px]"
                       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                       >
                         Buy $BFX

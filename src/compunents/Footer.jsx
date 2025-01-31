@@ -66,7 +66,7 @@ function Footer() {
           </div>
           <div className='space-y-[5px]'>
             <h4 className='text-[#949494] text-[13px] font-[400] leading-[108.333%]'>Contact E-Mail: </h4>
-            <h3 className='text-[#949494] text-[18px] font-[400] leading-[108.333%]'>Hello@blockchainfx.com</h3>
+            <h3 className='text-[#949494] text-[18px] font-[400] leading-[108.333%]'>Support@blockchainfx.com</h3>
           </div>
         </div>
         </div>
@@ -77,7 +77,7 @@ function Footer() {
           </p>
         </div>
         <div className='flex justify-between items-center'>
-          <p className='text-[14px] text-[#000] leading-[100%]'>Copyright 2024. All Rights Reserved.</p>
+          <p className='text-[14px] text-[#000] leading-[100%]'>Copyright 2025. All Rights Reserved.</p>
           <div className='
           space-x-5'>
             <a href="" className='text-[14px] text-[#000] leading-[100%]'>Privacy Policy</a>
@@ -128,7 +128,7 @@ function Footer() {
           </div>
           <div className='space-y-[10px]'>
             <h4 className='text-[#949494] text-[12px] font-[400] leading-[108.333%]'>Contact E-Mail: </h4>
-            <h3 className='text-[#949494] text-[15px] font-[400] leading-[108.333%]'>Hello@blockchainfx.com</h3>
+            <h3 className='text-[#949494] text-[15px] font-[400] leading-[108.333%]'>Support@blockchainfx.com</h3>
           </div>
         </div>
         </div>
@@ -145,7 +145,7 @@ function Footer() {
           </div>
         </div>
         <div>
-        <p className='text-[10px] text-center text-[#000] leading-[100%]'>Copyright 2024. All Rights Reserved.</p>
+        <p className='text-[10px] text-center text-[#000] leading-[100%]'>Copyright 2025. All Rights Reserved.</p>
         </div>
     </div>
 

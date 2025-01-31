@@ -52,7 +52,7 @@ function Home() {
         <TopAssetsSec />
         <LiveNewSec />
         <SecurityBuiltSec />
-        <StreamlinedSec />
+        {/* <StreamlinedSec /> */}
         <WhatIsSec />
         <TokenAllocationSec />
         <TokenDetailsSec />

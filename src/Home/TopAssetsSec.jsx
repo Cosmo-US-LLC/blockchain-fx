@@ -37,8 +37,8 @@ function TopAssetsSec() {
               slidesPerView={4}
               spaceBetween={20}
               navigation={{
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next-top",
+                prevEl: ".swiper-button-prev-top",
               }}
               modules={[Navigation]}
               loop={false}
@@ -94,25 +94,6 @@ function TopAssetsSec() {
                     <div className="">
                         <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">$2,618.83 <span className="text-[#FF0900]">-0.49%</span></h4>
                         <img src={graph3} className="h-[59.483px]" alt="" />
-                    </div>
-                    <div className="pt-2">
-                        <h3 className="text-[30px] text-center font-[400] text-[#000]">1:20</h3>
-                        <h4 className="text-[18px] text-[#000] text-center font-[400] ">Leverages up to</h4>
-                    </div>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className="border pt-[26px] pb-[51px] px-[26px] border-[#9D9D9D] bg-[#fff] rounded-[8px] w-[284px] space-y-[13px]">
-                    <div className="flex items-center flex-col space-y-[10px]">
-                        <img src={cardicn4} alt="" />
-                        <div className="flex items-center space-x-4">
-                            <h3 className="text-[#000] text-[18px] font-[600]">Microsoft</h3>
-                            <img className="w-[10.622px] h-[10px] -rotate-[182deg]" src={arw1} alt="" />
-                        </div>
-                    </div>
-                    <div className="">
-                        <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">$2,618.83 <span className="text-[#FF0900]">-0.49%</span></h4>
-                        <img src={graph4} className="h-[59.483px]" alt="" />
                     </div>
                     <div className="pt-2">
                         <h3 className="text-[30px] text-center font-[400] text-[#000]">1:20</h3>

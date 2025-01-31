@@ -59,3 +59,8 @@ display: none !important;
   cursor: auto !important;
   pointer-events: none !important;
 }
+.swiper-button-prev-top.swiper-button-disabled, .swiper-button-next-top.swiper-button-disabled {
+  opacity: 0.35 !important;
+  cursor: auto !important;
+  pointer-events: none !important;
+}

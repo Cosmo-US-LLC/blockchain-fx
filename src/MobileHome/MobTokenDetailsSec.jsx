@@ -12,7 +12,7 @@ function MobTokenDetailsSec() {
           Token Details
           </h3>
           <p className="text-[15px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-          Use the contract information below to add the $BFX token to your wallet.
+          Use the contract information below  <br /> to add the $BFX token to your wallet.
           </p>
         </div>
       <div className="space-y-[20px]">

@@ -120,7 +120,7 @@ const Bundles = [
   },
   {
     id: 3,
-    question: "Can I get a Trading Bundle with multiple purchases?",
+    question: "Can I get an NFT with multiple purchases?",
     answer:
       "Yes, you can purchase $BFX in smaller amounts to reach the total required. For example, if you buy $200 worth of $BFX five times, you'll earn the Novice NFT (worth $1,000). You can also upgrade your NFT by purchasing more tokens to reach the next tier.",
   },

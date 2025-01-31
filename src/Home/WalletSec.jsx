@@ -291,7 +291,7 @@ function WalletSec() {
          
         >
           <h4 className="text-center text-[#808080] text-[18px] leading-[75%] font-[600]">
-          $BFX launches on Multiple Top-Tier Exchanges
+          $BFX Launches On Multiple Top-Tier Exchanges
           </h4>
           <div className="flex justify-center space-x-[20px]">
             <div className="p-2 flex max-w-[129px] h-[50px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
@@ -355,7 +355,7 @@ function WalletSec() {
          
         >
           <h4 className="text-center text-[#808080] text-[18px] leading-[75%] font-[600]">
-          Audited by the Leading Blockchain Security Company  
+          Audited By The Leading Blockchain Security Company 
           </h4>
           <div>
             <img src={cer} className="w-[174px]"  alt="" />

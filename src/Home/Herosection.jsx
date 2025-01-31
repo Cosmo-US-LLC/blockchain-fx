@@ -1,10 +1,10 @@
 import React from "react";
-import herogif from "../assets/herosection/herogif.gif"
-import herobnr1 from "../assets/herosection/bnrhero (5).svg"
-import herobnr2 from "../assets/herosection/bnrhero (4).svg"
-import herobnr3 from "../assets/herosection/bnrhero (3).svg"
-import herobnr4 from "../assets/herosection/bnrhero (2).svg"
-import herobnr5 from "../assets/herosection/bnrhero (1).webp"
+import herogif from "../assets/herosection/herogif.gif";
+import herobnr1 from "../assets/herosection/bnrhero (5).svg";
+import herobnr2 from "../assets/herosection/bnrhero (4).svg";
+import herobnr3 from "../assets/herosection/bnrhero (3).svg";
+import herobnr4 from "../assets/herosection/bnrhero (2).svg";
+import herobnr5 from "../assets/herosection/bnrhero (1).webp";
 
 function Herosection() {
   return (
@@ -13,17 +13,13 @@ function Herosection() {
         <div className="space-y-[35px]">
           <div>
             <h4 className="text-[18px]  leading-[100%] pb-[10px] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
-              Access all Global financial markets in one place
+            Blockchain Meets Global Financial Markets
             </h4>
             <h2 className="pt-6 pb-8 text-[52px] font-[700] leading-[70%] tracking-[-1px] text-[#000] text-center">
-              The Ultimate Trading Platform
+            The Ultimate Trading Platform
             </h2>
             <p className="text-[18px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[166.667%] text-center text-[#000] tracking-[-0.32px] ">
-              Trade Crypto, Forex, ETFs, Stocks, Futures, Options, Bonds,
-              Indices, CFDs, and more with BlockchainFX, featuring over 500
-              assets. Secure early access to this all-in-one trading platform by
-              holding $BFX  and earn up to 25,000 USDT daily staking rewards
-              from collected trading fees. 
+            BlockchainFX is the first crypto-native platform providing access to the world’s largest financial markets. Trade Crypto, Forex, ETFs, Stocks, Futures, Options, Bonds, Indices, CFDs, and more—all in one place. Secure early access by holding $BFX and earn up to 25,000 USDT in daily staking rewards from collected trading fees. 
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
@@ -34,7 +30,7 @@ function Herosection() {
               Beta Trading
             </button>
           </div>
-          <div className="flex justify-center  max-w-[619px] mx-auto">
+          <div className="flex justify-center max-w-[619px] mx-auto">
             <img src={herogif} className="max-h-[550px]" alt="" />
           </div>
           <div className="flex justify-center items-center space-x-[52px] border rounded-[20px] pt-[30px] pb-[35px]">
