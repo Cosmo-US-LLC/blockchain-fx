@@ -121,13 +121,13 @@ function GatewaySec() {
               </h4>
             </div>
             <ul>
-              <li className="text-[#181A20] text-[16.6px] font-[500] py-[27px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] text-[16.6px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
                 Up to you
               </li>
-              <li className="text-[#181A20] text-[16.6px] font-[500] py-[27px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] text-[16.6px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
                 Buy $BFX in 2 clicks
               </li>
-              <li className="text-[#181A20] text-[16.6px] font-[500] py-[23px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] text-[16.6px] font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
                 No Team required
               </li>
               <li className="text-[#181A20] text-[16.6px] font-[500] py-[27px]">
