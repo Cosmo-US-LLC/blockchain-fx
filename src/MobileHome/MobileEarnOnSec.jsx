@@ -25,10 +25,7 @@ function MobileEarnOnSec() {
             Earn on every <br /> trade with $BFX
           </h3>
           <p className="text-[15px] max-w-[330px] mx-auto text-[#181A20] font-[400] leading-[153.333%] tracking-[-0.32px] text-center">
-            $BFX is the first cryptocurrency to offer daily USDT staking rewards
-            from every trade made on an international multi-asset trading
-            platform. $BFX holders earn returns based on their holdings. The
-            more $BFX you hold, the more USDT you earn.
+          $BFX is the first cryptocurrency with a daily staking revenue-sharing model, giving you BFX and USDT from every trade made on a global multi-asset trading platform. The more $BFX you hold, the more USDT you earn.
           </p>
         </div>
         <div className="w-[100%] !mt-[-4px] flex justify-center">

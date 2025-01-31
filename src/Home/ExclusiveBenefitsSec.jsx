@@ -39,19 +39,19 @@ const cardItems = [
 
 function ExclusiveBenefitsSec() {
   return (
-    <div className="pt-[53px] pb-[51px]">
+    <div className="py-[50px]">
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
-          <h3 className="text-[50px] capitalize leading-[100%] text-[#181A20] text-center font-[700]">
+          <h3 className="text-[45px] capitalize leading-[155.556%] text-[#181A20] text-center font-[700]">
           Exclusive Benefits During the Pre-Sale
           </h3>
         </div>
-        <div className="max-w-[1220px] pt-[60px] w-[100%] mx-auto ">
+        <div className="max-w-[1100px] pt-[30px] w-[100%] mx-auto ">
           <div className=" grid grid-cols-4 gap-x-[21px]">
             {cardItems.map((item) => (
               <div
                 key={item.id}
-                className="max-w-[289px] px-[24px] flex flex-col justify-centetr pt-[37px] pb-[34px] min-h-[372px] bg-[#F9FAFB] rounded-[8px] border border-[#F9FAFB] space-y-[20px] "
+                className="max-w-[255px] mx-auto px-[15px] flex flex-col justify-centetr pt-[10px] pb-[34px] min-h-[310px] max-h-[310px] bg-[#F9FAFB] rounded-[8px] border border-[#F9FAFB] space-y-[20px] "
               >
                 <div className="max-h-[116px] h-[100%] flex justify-center items-center">
                   <img src={item.img} className="max-h-[116px] h-[100%]" alt="" />
@@ -60,7 +60,7 @@ function ExclusiveBenefitsSec() {
                   className="text-[20px] text-center text-[#000] font-[700] leading-[115%]"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
-                <h4 className="text-[18px]  text-center text-[#000] font-[400] leading-[111.111%]">
+                <h4 className="text-[14px]  text-center text-[#000] font-[400] leading-[111.111%]">
                   {item.description}
                 </h4>
               </div>

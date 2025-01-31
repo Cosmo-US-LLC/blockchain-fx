@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import Home from './Home';
 import Navbar from './compunents/Navbar';
 import Footer from './compunents/Footer';
@@ -22,6 +25,7 @@ function App() {
 
   return (
     <div className="bg-[#fff]">
+      <ToastContainer />
       <Navbar />
       {isMobile ? <MobileHome /> : <Home />}
       <Footer />

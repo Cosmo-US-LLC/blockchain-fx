@@ -157,7 +157,7 @@ function MobRoadmapSec() {
                     <p className="text-[8px] tracking-[-0.4px]">Achieving 100’000 BFX Holders</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[1px] w-[100%] h-[18px] bg-[#DDD]">
-                    <p className="text-[8px] tracking-[-0.4px]">Add Leaderboard & VIP accounts</p>
+                    <p className="text-[8px] tracking-[-0.4px]">Add Leaderboards & VIP accounts</p>
                 </div>
             </div>
         </div>

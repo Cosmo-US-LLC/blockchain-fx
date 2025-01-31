@@ -39,17 +39,17 @@ function HowToBuySec() {
   };
 
   return (
-    <div className="pt-[40px] space-y-[35px] pb-[50px] bg-[#FAFAFA] " id="how-to-buy">
-    <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] leading-[-1px]">
+    <div className="py-[50px] space-y-[27px] bg-[#FAFAFA] " id="how-to-buy">
+    <h3 className="text-[45px] font-[700] text-center leading-[155.556%] text-[#181A20] leading-[-1px]">
     How To Buy $BFX
           </h3>
-     <div className="max-w-[1220px] flex justify-between items-center w-[100%] mx-auto ">
-        <div className="w-[50%] max-w-[581px] space-y-[32px]">
+     <div className="max-w-[1000px] flex justify-between items-center w-[100%] mx-auto ">
+        <div className="w-[50%] max-w-[581px] space-y-[20px]">
           <div className="">
             {items.map((item, index) => (
               <div
                 key={index}
-                className={`py-[30px] px-4 border-b last:border-none  transition-all duration-300`}
+                className={`py-[25px] px-4 border-b last:border-none  transition-all duration-300`}
               >
                 <div
                   className="flex justify-between cursor-pointer"
@@ -59,7 +59,7 @@ function HowToBuySec() {
                     
                     <div className="px-3 w-[100%]">
                       <div className="flex justify-between items-center">
-                        <h3 className={`text-[30px] font-[600] ${
+                        <h3 className={`text-[24px] font-[600] ${
                   index === activeIndex ? "text-[#E5AE00]" : "text-[#181A20] "
                 }`}>
                           {item.title}
@@ -73,7 +73,7 @@ function HowToBuySec() {
                         </div>
                       </div>
                       <p
-                        className={`mt-[16px] text-[20px] font-[400] text-[#000] overflow-hidden transition-all duration-300 ${
+                        className={`mt-[14px] text-[20px] font-[400] text-[#000] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"
@@ -93,16 +93,16 @@ function HowToBuySec() {
           <div className="flex justify-start items-center px-[2rem] space-x-[17px]">
             <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
-            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
+            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
               Buy $BFX
             </button>
-            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
+            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
             Need Help?
             </button>
           </div>
         </div>
-        <div className="w-[50%]">
-          <img src={imghow} className="" alt="" />
+        <div className="w-[50%] flex justify-end">
+          <img src={imghow} className="h-[542px] object-cover" alt="" />
         </div>
      </div>
     </div>

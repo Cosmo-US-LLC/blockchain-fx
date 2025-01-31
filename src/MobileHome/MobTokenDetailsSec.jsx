@@ -1,8 +1,25 @@
 import React from "react";
-
+import { useState } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import copy from "../assets/TokenAllocationSec/fa-solid_copy.svg";
 
 function MobTokenDetailsSec() {
+
+    const address = "0xCa1e5c23E3eEB1CB5dd1257FbB304FaB1227e094";
+  
+    const copyToClipboard = () => {
+      navigator.clipboard.writeText(address);
+      toast.success("Address copied to clipboard!", {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        theme: "light",
+      });
+    };
  
   return (
     <div className="pt-[24px]  bg-[#FAFAFA] pb-[24px]">
@@ -49,7 +66,12 @@ function MobTokenDetailsSec() {
        <div className="w-[100%] mx-auto space-x-[2rem] flex justify-between items-center ">
         <div className="border px-[12px] rounded-[6px] w-[100%] pt-[12px] pb-[12px] border-[#000]">
             <h4 className="text-[#444] text-[12px] font-[400]">Token Contract Address</h4>
-            <h3 className="text-[#444] flex items-center text-[12px] font-[700]">0xfe588f4cfaf1126446d421cf00ec50cbe19b70cf <img src={copy} className="h-[18px] ml-2" alt="" /></h3>
+            <h3 className="text-[#444] flex break-all items-center text-[12px] font-[700]">
+              {address}{" "}
+              <img src={copy} className="h-[18px] ml-2 cursor-pointer"
+              alt="Copy Icon"
+              onClick={copyToClipboard}
+               /></h3>
         </div>
        </div>
       </div>

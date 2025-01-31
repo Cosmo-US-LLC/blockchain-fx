@@ -88,8 +88,9 @@ function Navbar() {
   };
 
   return (
-    <div className="fixed w-[100%] bg-[#F2F2F2] z-[999]">
-      <div className="2xl:h-[109px] xl:h-[109px] lg:h-[109px] md:h-[109px] sm:h-[64px] h-[64px] max-w-[1220px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
+   <div className="!mb-[64px] relative">
+     <div className="fixed w-[100%] bg-[#F2F2F2] z-[999] top-0">
+      <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
         <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
           <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
             <img
@@ -99,7 +100,7 @@ function Navbar() {
               alt=""
             />
           </div>
-          <div className="2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[145px] max-w-[145px]">
+          <div className="2xl:max-w-[174px] xl:max-w-[174px] lg:max-w-[174px] md:max-w-[174px] sm:max-w-[145px] max-w-[145px]">
             <img onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})} className="cursor-pointer" src={logo} alt="" />
           </div>
         </div>
@@ -170,15 +171,15 @@ function Navbar() {
                   {flags.map((lang, index) => (
                     <div
                       key={index}
-                      className="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 mb-[15px] rounded"
+                      className="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 p-2 mb-[12px] rounded"
                       onClick={() => handleSelectLanguage(lang)}
                     >
                       <img
                         src={lang.flag}
                         alt={lang.name}
-                        className="w-[33px] h-[33px]"
+                        className="w-[28px] h-[28px]"
                       />
-                      <span className="text-[17.599px] font-[500] text-[#444]">
+                      <span className="text-[16px] font-[500] text-[#444]">
                         {lang.name}
                       </span>
                     </div>
@@ -282,12 +283,13 @@ function Navbar() {
  {/* menu end */}
 
         <div>
-          <button className="text-white bg-[#E5AE00] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:text-black hover:bg-transparent 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] w-[100%] 2xl:h-[58px] xl:h-[58px] lg:h-[58px] md:h-[58px] sm:h-[40px] h-[40px]">
+          <button className="text-white bg-[#E5AE00] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:text-black hover:bg-transparent 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] w-[100%] 2xl:h-[43px] xl:h-[43px] lg:h-[43px] md:h-[43px] sm:h-[40px] h-[40px]">
             Connect Wallet{" "}
           </button>
         </div>
       </div>
     </div>
+   </div>
   );
 }
 

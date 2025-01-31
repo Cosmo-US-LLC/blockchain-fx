@@ -39,21 +39,21 @@ function OneAppSec() {
   };
 
   return (
-    <div className="pt-[40px] pb-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx">
-     <div className="max-w-[1400px] w-[100%] mx-auto relative">
-     <div className="max-w-[1220px] flex justify-between w-[100%] mx-auto space-y-[56px]">
-        <div className="w-[50%] max-w-[581px] space-y-[32px]">
-          <h3 className="text-[50px] capitalize font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">
+    <div className="py-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx">
+     <div className="max-w-[1300px] w-[100%] mx-auto relative">
+     <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
+        <div className="w-[50%] max-w-[473px] space-y-[20px]">
+          <h3 className="text-[45px] capitalize font-[700] leading-normal text-[#181A20] tracking-[-1px] text-start">
             Everything In One App
           </h3>
-          <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] leading-[-0.32px] text-start">
+          <p className="text-[14px] text-[#181A20] font-[400] leading-[150%] leading-[-0.32px] text-start">
           An innovative, lightning-fast, and intuitive trading platform
           </p>
           <div className="">
             {items.map((item, index) => (
               <div
                 key={index}
-                className={`py-[30px] pr-5 border-b last:border-none   transition-all duration-300 `}
+                className={`py-[24px] pr-5 border-b last:border-none   transition-all duration-300 `}
               >
                 <div
                   className="flex justify-between cursor-pointer"
@@ -64,24 +64,24 @@ function OneAppSec() {
                       <img
                         src={item.icon}
                         alt={item.title}
-                        className="w-[100px] h-[100px]"
+                        className="w-[75.387px] h-[75.387px]"
                       />
                     </div>
                     <div className="w-[80%]">
                       <div className="flex justify-between items-center">
-                        <h3 className="text-[20px] font-[600] text-[#000]">
+                        <h3 className="text-[18px] leading-[142.44%] font-[600] text-[#000]">
                           {item.title}
                         </h3>
                         <div>
                           <img
                             src={index === activeIndex ? iconcls : iconapon}
                             alt={index === activeIndex ? "Collapse" : "Expand"}
-                            className="w-6 h-6"
+                            className="w-[18px] h-[18px]"
                           />
                         </div>
                       </div>
                       <p
-                        className={`mt-[16px] text-[18px] font-[400] text-[#000] max-w-[400px] overflow-hidden transition-all duration-300 ${
+                        className={`mt-[12px] text-[14px] leading-[161.598%] font-[400] text-[#000] max-w-[248px] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"
@@ -99,12 +99,12 @@ function OneAppSec() {
             ))}
           </div>
         </div>
-        <div className="w-[50%] overflow-visible">
-          <div className="w-[200%] h-full" style={{
+        <div className="w-[55%] overflow-visible">
+          <div className="w-[136%] h-[100%]" style={{
             backgroundImage:`url(${oneimg})`,
             backgroundPosition: 'left',
             backgroundSize: '100% 100%',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
           }}>
           </div>
         </div>
