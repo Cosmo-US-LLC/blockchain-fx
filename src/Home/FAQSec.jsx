@@ -106,12 +106,12 @@ const FaqSec = () => {
   return (
     <>
       <div className="bg-[#FAFAFA]" id="faq">
-        <div className=" w-[100%] max-w-[1220px] space-y-[55px] pt-[73px] mx-auto pb-[85px]">
+        <div className=" w-[100%] max-w-[990px] space-y-[35px] py-[50px] mx-auto px-[105px]">
           <div className="text-center space-y-[40px]">
-            <h2 className="text-[#000] leading-[100%] text-[50px] font-[600]">
+            <h2 className="text-[#000] leading-[100%] text-[45px] font-[600]">
               FAQs
             </h2>
-            <p className="text-[20px] font-[400] text-[#000] text-center">
+            <p className="text-[14px] font-[400] text-[#000] text-center">
             Find answers to some of the most common questions.
             </p>
           </div>

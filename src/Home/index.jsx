@@ -29,6 +29,7 @@ import PressMediaSec from './PressMediaSec';
 import TraderReviewsSec from './TraderReviewsSec';
 import FaqSec from './FAQSec';
 import TheUltimateSec from './TheUltimateSec';
+import Whitepaper from './Whitepaper';
 
 function Home() {
     return (
@@ -54,11 +55,12 @@ function Home() {
         <SecurityBuiltSec />
         {/* <StreamlinedSec /> */}
         <WhatIsSec />
+        <Whitepaper/>
         <TokenAllocationSec />
         <TokenDetailsSec />
         <RoadmapSec />
         <OurAwardSec />
-        <ExpertsworkingSec />
+        {/* <ExpertsworkingSec /> */}
         <PressMediaSec />
         <TraderReviewsSec />
         <FaqSec />
