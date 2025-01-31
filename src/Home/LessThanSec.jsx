@@ -13,9 +13,10 @@ function LessThanSec() {
           </h3>
           <p className="text-[14px] font-[400] w-[832px] mx-auto text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
             Crypto makes up only 0.87% of global trading volume in 2024,
-            averaging $84.3 billion daily, while the Forex market alone handles
-            $7.5 trillion daily. This creates an opportunity for $BFX to bridge
-            crypto users with the world’s largest markets.
+            averaging $84.3 billion daily. Meanwhile, the Forex market alone
+            handles $7.5 trillion per day. This gap presents a major opportunity
+            for $BFX to connect crypto users with the world’s largest financial
+            markets.
           </p>
         </div>
         <div className="space-y-[60px]">
