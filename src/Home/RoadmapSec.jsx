@@ -157,7 +157,7 @@ function RoadmapSec() {
                     <p>Achieving 100’000 BFX Holders</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Add Leaderboard & VIP accounts</p>
+                    <p>Add Leaderboards & VIP accounts</p>
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@ function TokenAllocationSec() {
           Token Allocation
           </h3>
           <p className="text-[20px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-          Our token allocation is designed to give back the most to our early supporters.
+          The token allocation is structured to reward early supporters the most.
           </p>
         </div>
        <div className="w-[100%] mx-auto ">

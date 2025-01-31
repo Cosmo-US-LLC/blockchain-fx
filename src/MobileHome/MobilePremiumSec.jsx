@@ -146,7 +146,7 @@ function MobilePremiumSec() {
           Limited <br /> Trading Bundles
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-          Buy $BFX in the pre-sale and get exclusive Trading Bundle NFTs starting at $1,000! Enjoy early access, bonus $BFX, daily USDT rewards, and extra trading funds to jumpstart your BlockchainFX journey. Only available during the pre-sale!
+          Buy $BFX in the pre-sale and get exclusive Trading Bundle NFTs starting at $1,000! Enjoy early access, membership NFTs, bonus $BFX, daily USDT rewards, and extra trading funds to jumpstart your BlockchainFX journey. Only available during the pre-sale!
           </p>
         </div>
         <div className="w-[100%] mx-auto ">

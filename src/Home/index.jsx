@@ -29,11 +29,13 @@ import PressMediaSec from './PressMediaSec';
 import TraderReviewsSec from './TraderReviewsSec';
 import FaqSec from './FAQSec';
 import TheUltimateSec from './TheUltimateSec';
+import FeaturedSec from './FeaturedSec';
 
 function Home() {
     return (
       <div className="">
         <Herosection />
+        <FeaturedSec />
         <WalletSec />
         <NextGenerationSec />
         <TradeOverSec/>

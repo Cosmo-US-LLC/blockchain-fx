@@ -35,23 +35,23 @@ const cardData = [
 
 function TradeOverSec() {
   return (
-    <div className="pt-[40px] pb-[50px]">
-      <div className="max-w-[1220px]  w-[100%] mx-auto space-y-[56px]">
-        <h3 className="text-[50px] font-[700] capitalize leading-[114%] leading-[-1px] text-center">Trade over 500 different assets</h3>
+    <div className="py-[50px]">
+      <div className="max-w-[1200px]  w-[100%] mx-auto space-y-[30px]">
+        <h3 className="text-[45px] font-[700] capitalize leading-[155%] leading-[-1px] text-center">Trade over 500 different assets</h3>
        <div className="flex justify-center space-x-[14px]">
       {
         cardData.map((item) => (
-            <div className="border rounded-[8px] border-[#9D9D9D] px-[14px] pt-[14px] pb-[37px] max-w-[233px] w-[100%] space-y-[13px]"
+            <div className="border rounded-[8px] border-[#9D9D9D] min-h-[310px] overflow-hidden pb-[14px] max-w-[200px] w-[100%] space-y-[13px]"
             style={{
                 background:"rgba(241, 241, 241, 0.36)"
             }}
             >
                 <div className="">
-                    <img src={item.img} className="rounded-[8px] max-h-[146px] w-[100%]" alt="" />
+                    <img src={item.img} className="min-h-[167px] w-[100%] object-cover" alt="" />
                 </div>
-                <div className="space-y-[13px]">
-                    <h3 className="text-[20px] text-[#181A20] font-[600] leading-[140%] tracking-[-0.32px]">{item.title}</h3>
-                    <p className="text-[18px] font-[400] text-[#181A20] leading-[127.778%] tracking-[-0.32px]">{item.subtitle}</p>
+                <div className="space-y-[4px] px-[14px]">
+                    <h3 className="text-[16px] text-[#181A20] font-[600] leading-[140%] tracking-[-0.32px]">{item.title}</h3>
+                    <p className="text-[14px] font-[400] text-[#181A20] leading-[157.143%] tracking-[-0.32px]">{item.subtitle}</p>
                 </div>
             </div>
         ))

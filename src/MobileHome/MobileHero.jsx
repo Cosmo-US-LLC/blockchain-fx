@@ -8,7 +8,7 @@ import herobnr5 from "../assets/herosection/bnrhero (1).webp"
 
 function MobileHero() {
   return (
-    <div className="pt-[6rem] pb-[2rem] bg-[#FFFFFF]">
+    <div className="pt-[22px] pb-[2rem] bg-[#FFFFFF]">
       <div className="w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <div>
