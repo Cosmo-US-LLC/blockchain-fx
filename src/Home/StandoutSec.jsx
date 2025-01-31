@@ -89,75 +89,66 @@ const tableData = [
 
 function StandoutSec() {
   return (
-    <div className="pt-[72px] space-y-[35px] pb-[71px]">
-      <div className="max-w-[1220px] space-y-[60px] w-[100%] mx-auto ">
-        <div className="space-y-[40px]">
-          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+    <div className="py-[50px] px-[60px]">
+      <div className="max-w-[1200px] space-y-[26px] w-[100%] flex flex-col mx-auto">
+        <div className="space-y-[14px]">
+          <h3 className="text-[45px] font-[700] text-center leading-[48px] text-[#181A20] tracking-[-1px]">
             Standout Features
           </h3>
-          <p className="text-[20px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-          Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. $BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.
+          <p className="text-[14px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#181A20] tracking-[-0.32px]">
+            Cryptocurrencies from exchanges and trading platforms have
+            historically performed well, fueled by a growing user base, an
+            active trading community driving organic trading volume, and
+            platform revenue reinvested into new features, continuous updates,
+            and consistent marketing. $BFX, the latest cryptocurrency in this
+            segment, stands out as the first token from a multi-asset trading
+            platform, offering innovative features that deliver significant
+            value to the market.
           </p>
         </div>
-        <div className="">
-          <div className="overflow-x-auto">
-            <table className="w-full  ">
+        <div className="max-w-[1080px] w-full mx-auto">
+          <div className="overflow-x-auto mx-auto">
+            <table className="w-full border mx-auto border-[#A6A6A6]">
               <thead>
-                <tr>
-                  <th className="border-b  border-r border-b border-black px-4 py-4"></th>
-                  <th className="border-b bg-[#FFF8DC] border-l border-r border-b border-black px-4 py-4">
+                <tr className="h-[123px]">
+                  <th className="border-b  border-r border-[#A6A6A6] px-4 py-4"></th>
+                  <th className="border-b bg-[#FFF8DC] border-l border-r border-[#A6A6A6] px-4 py-4">
                     <div className="flex  flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img
-                          className="w-[64.431px] h-[64.431px]"
-                          src={coin1}
-                          alt=""
-                        />
+                        <img className="w-[58px] h-[58px]" src={coin1} alt="" />
                       </div>
-                      <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
+                      <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
                         BlockchainFX
                       </p>
                     </div>
                   </th>
-                  <th className="border-b border-l border-r border-b border-black px-4 py-4">
+                  <th className="border-b border-l border-r border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img
-                          className="w-[64.431px] h-[64.431px]"
-                          src={coin2}
-                          alt=""
-                        />
+                        <img className="w-[58px] h-[58px]" src={coin2} alt="" />
                       </div>
-                      <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
+                      <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
                         Bitget
                       </p>
                     </div>
                   </th>
-                  <th className="border-b border-l border-r border-b border-black px-4 py-4">
+                  <th className="border-b border-l border-r border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img
-                          className="w-[64.431px] h-[64.431px]"
-                          src={coin3}
-                          alt=""
-                        />
+                        <img className="w-[58px] h-[58px]" src={coin3} alt="" />
                       </div>
-                      <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                      Hyperliquid 
+                      <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
+                        Hyperliquid
                       </p>
                     </div>
                   </th>
-                  <th className="border-b border-l border-b border-black px-4 py-4">
+                  <th className="border-b border-l border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img
-                          className="w-[64.431px] h-[64.431px]"
-                          src={coin4}
-                          alt=""
-                        />
+                        <img className="w-[58px] h-[58px]" src={coin4} alt="" />
                       </div>
-                      <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                      Uniswap
+                      <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
+                        Uniswap
                       </p>
                     </div>
                   </th>
@@ -165,20 +156,20 @@ function StandoutSec() {
               </thead>
               <tbody>
                 {tableData.map((row, rowIndex) => (
-                  <tr key={rowIndex}>
+                  <tr key={rowIndex} className="!h-[51px]">
                     {Object.entries(row).map(([key, value], colIndex) => (
                       <td
                         key={key}
-                        className={`border border-[#A6A6A6] px-4 py-4  ${
-                          colIndex === 1 ? "bg-[#FFF8DC]" : ""
+                        className={`border border-[#A6A6A6] px-4 py-[13px] !h-[51px]  ${
+                          colIndex === 1 ? "bg-[#FFF8DC] text-[17.7px] " : ""
                         } ${
                           rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
-                            ? "text-[20px] font-[600] text-center"
-                            : "text-[15.988px] font-[500]"
-                        } ${
-                          colIndex === 0 ? "border-l-0" : ""
-                        } ${
-                          colIndex === tableData[0].length - 1 ? "border-r-0 border-l-0 !text-start" : "border-r-0"
+                            ? "text-[17.7px] font-[600] text-center !w-[225px]"
+                            : "font-[500] text-[14.177px] !w-[183px]"
+                        } ${colIndex === 0 ? "border-l-5" : ""} ${
+                          colIndex === tableData[0].length - 1
+                            ? "border-r-0 border-l-0 !text-start "
+                            : "border-r-0"
                         } ${
                           rowIndex === tableData.length - 1
                             ? colIndex === 0
@@ -193,7 +184,7 @@ function StandoutSec() {
                           <img
                             src={value}
                             alt={`Row ${rowIndex + 1} Col ${colIndex + 1}`}
-                            className="mx-auto"
+                            className="mx-auto w-[22.6px] h-[22.6px]"
                           />
                         ) : (
                           value
