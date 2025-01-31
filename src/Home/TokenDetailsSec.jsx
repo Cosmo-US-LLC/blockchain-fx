@@ -20,8 +20,8 @@ function TokenDetailsSec() {
   };
 
   return (
-    <div className="pt-[77px] space-y-[35px] bg-[#FAFAFA] pb-[80px]">
-      <div className="max-w-[1220px] relative space-y-[40px] w-[100%] mx-auto ">
+    <div className="pt-[50px] space-y-[35px] bg-[#FAFAFA] pb-[50px] px-[152px]">
+      <div className="max-w-[896px] relative space-y-[40px] w-[100%] mx-auto ">
         <div className="space-y-[30px]">
           <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Token Details
