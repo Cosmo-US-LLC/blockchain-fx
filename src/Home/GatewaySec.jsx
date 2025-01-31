@@ -19,12 +19,9 @@ function GatewaySec() {
             The Gateway to Global Markets
           </h3>
           <p className="text-[14px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            Launching a new international multi-asset trading platform can take
-            up to three years and cost as much as $5 million, depending on the
-            jurisdiction. With BFX, however, accessing the world’s largest
-            markets has never been easier. In just 2 clicks, you can acquire
-            BFX, the native token of BlockchainFX, and participate in the
-            international financial market.
+            Starting a global multi-asset trading platform takes years and
+            significant capital, but with BFX, you’re in with just two clicks.
+            Get BFX and access the international financial market instantly.
           </p>
         </div>
         <div className="max-w-[1025px] mx-auto flex justify-between itees-center ">

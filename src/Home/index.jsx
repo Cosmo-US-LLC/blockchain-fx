@@ -31,6 +31,7 @@ import FaqSec from './FAQSec';
 import TheUltimateSec from './TheUltimateSec';
 import FeaturedSec from './FeaturedSec';
 import Whitepaper from './Whitepaper';
+import SwapSection from './SwapSection';
 
 function Home() {
     return (
@@ -52,6 +53,7 @@ function Home() {
         <GatewaySec />
         <WallStreetSec />
         <TradeLikeSec />
+        <SwapSection />
         <TopAssetsSec />
         <LiveNewSec />
         <SecurityBuiltSec />

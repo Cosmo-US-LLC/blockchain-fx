@@ -37,7 +37,7 @@ function Footer() {
           </div>
           <div className='max-w-[83.276px] w-[100%] pt-[15px]'>
             <ul>
-              <li className='text-[#000] text-[13.3px] font-[600] leading-[108.333%]  list-disc'>
+              <li className='text-[#000] text-[13.3px] font-[600] leading-[108.333%]  list-disc  min-w-[100px]'>
               Quick links
                 <a className='text-[#949494] block text-[10.8px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "how-to-buy", 90)} >How to Buy</a>
                 <a className='text-[#949494] block text-[10.8px] pt-[10px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}>What is BFX</a>
@@ -48,7 +48,7 @@ function Footer() {
           </div>
           <div className='max-w-[114px] w-[100%] pt-[15px]'>
           <ul className=' w-[100%]'>
-              <li className='text-[#000] text-[13.3px] list-disc font-[600] leading-[108.333%]'>
+              <li className='text-[#000] text-[13.3px] list-disc font-[600] leading-[108.333%] min-w-[140px]'>
               Docs
                 <a className='text-[#949494] text-[10.8px] pt-[20px] block font-[400] leading-[108.333%]' href="">Terms of Service </a>
                 <a className='text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]' href="">Privacy  Policy </a>
