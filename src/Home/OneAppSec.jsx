@@ -99,11 +99,11 @@ function OneAppSec() {
             ))}
           </div>
         </div>
-        <div className="w-[55%] overflow-visible">
-          <div className="w-[136%] h-[100%]" style={{
+        <div className="w-[58%] overflow-visible">
+          <div className="w-[150%] h-[100%]" style={{
             backgroundImage:`url(${oneimg})`,
             backgroundPosition: 'left',
-            backgroundSize: '100% 100%',
+            backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}>
           </div>
