@@ -1,10 +1,6 @@
 import React from "react";
-import herogif from "../assets/herosection/herogif.gif";
-import herobnr1 from "../assets/herosection/bnrhero (5).svg";
-import herobnr2 from "../assets/herosection/bnrhero (4).svg";
-import herobnr3 from "../assets/herosection/bnrhero (3).svg";
-import herobnr4 from "../assets/herosection/bnrhero (2).svg";
-import herobnr5 from "../assets/herosection/bnrhero (1).webp";
+// import herogif from "../assets/herosection/herogif.gif";
+import heroVideo from "../assets/herosection/heroVideo.mp4";
 
 function Herosection() {
   return (
@@ -13,13 +9,17 @@ function Herosection() {
         <div className="">
           <div className="space-y-[19.5px]">
             <h4 className="text-[18px]  leading-[144.444%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
-            Blockchain Meets Global Financial Markets
+              Blockchain Meets Global Financial Markets
             </h4>
             <h2 className=" text-[45px] font-[700] leading-[155.556%] tracking-[-1px] text-[#000] text-center">
-            The Ultimate Trading Platform
+              The Ultimate Trading Platform
             </h2>
             <p className="text-[14px] max-w-[840px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
-            BlockchainFX is the first crypto-native platform providing access to the world’s largest financial markets. Trade Crypto, Forex, ETFs, Stocks, Futures, Options, Bonds, Indices, CFDs, and more—all in one place. Secure early access by holding $BFX and earn up to 25,000 USDT in daily staking rewards from collected trading fees. 
+              BlockchainFX is the first crypto-native platform providing access
+              to the world’s largest financial markets. Trade Crypto, Forex,
+              ETFs, Stocks, Futures, Options, Bonds, Indices, CFDs, and more—all
+              in one place. Secure early access by holding $BFX and earn up to
+              25,000 USDT in daily staking rewards from collected trading fees.
             </p>
           </div>
           <div className="flex justify-center pt-[28px] pb-[37px] items-center space-x-[17px]">
@@ -31,7 +31,18 @@ function Herosection() {
             </button>
           </div>
           <div className="flex justify-center max-w-[619px] mx-auto">
-            <img src={herogif} className="max-h-[550px]" alt="" />
+            {/* <img src={herogif} className="max-h-[550px]" alt="" /> */}
+            <video
+              width={500}
+              height={410}
+              className="max-h-[550px]"
+              muted
+              autoPlay={"autoplay"}
+              preLoad="auto"
+              loop
+            >
+              <source src={heroVideo} type="video/mp4" />
+            </video>
           </div>
           {/* <div className="flex justify-center items-center h-[73.47] space-x-[52px] border rounded-[20px] py-[20px]">
             <img src={herobnr1} alt="" />

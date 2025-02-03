@@ -1,5 +1,4 @@
 import React from "react";
-import herogif from "../assets/herosection/herogif.gif";
 import herobnr1 from "../assets/herosection/bnrhero (5).svg";
 import herobnr2 from "../assets/herosection/bnrhero (4).svg";
 import herobnr3 from "../assets/herosection/bnrhero (3).svg";
