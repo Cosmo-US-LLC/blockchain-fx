@@ -10,7 +10,7 @@ function MobStreamlinedSec() {
     <div className="pt-[30px]  pb-[60px] overflow-hidden">
       <div className="space-y-[35px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
-          <h3 className="text-[32px] text-center font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] text-center font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
             Streamlined <br /> Backend System
           </h3>
           <p className="text-[15px] font-[400] max-w-[793px] text-center mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">

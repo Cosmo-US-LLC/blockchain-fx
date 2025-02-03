@@ -56,7 +56,7 @@ function WalletSec() {
     }
   };
   return (
-    <div className="pt-[42px] pb-[29px] space-y-[14px] bg-[#FFF]">
+    <div className="pt-[42px] pb-[29px] space-y-[14px] bg-[#FFF]" id="Wallet">
       <div
         style={{
           background: "rgba(247, 247, 247, 0.70)",

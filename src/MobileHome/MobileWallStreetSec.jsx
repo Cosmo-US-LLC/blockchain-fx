@@ -13,7 +13,7 @@ function MobileWallStreetSec() {
     <div className="pt-[24px] pb-[50px] bg-[#FAFAFA]">
       <div className="space-y-[40px] w-[90%] mx-auto ">
         <div className="space-y-[30px]">
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Wall Street <br /> At Your Finger Tips
           </h3>
           <p className="text-[15px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">

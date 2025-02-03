@@ -37,7 +37,7 @@ function MobileTradeOverSec() {
   return (
     <div className="pt-[24px] pb-[24px]">
       <div className="w-[90%] mx-auto space-y-[24px]">
-        <h3 className="text-[32px] font-[700] leading-[114%] leading-[-1px] text-center">Trade Over 500 <br />Different Assets</h3>
+        <h3 className="text-[30px] font-[700] leading-[114%] leading-[-1px] text-center">Trade Over 500 <br />Different Assets</h3>
        <div className="space-y-[20px]">
       {
         cardData.map((item) => (

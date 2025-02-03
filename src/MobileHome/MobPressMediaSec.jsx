@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import swpbtn from "../assets/PremiumSec/arw.svg";
 
-import medai1 from "../assets/Press&Media/media (1).svg";
+import medai1 from "../assets/Press&Media/media.png";
 import medai2 from "../assets/Press&Media/media (2).svg";
 import medai3 from "../assets/Press&Media/media (3).svg";
 
@@ -19,7 +19,7 @@ function MobPressMediaSec() {
     >
       <div className=" relative space-y-[20px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Press & Media
           </h3>
         </div>
@@ -51,7 +51,7 @@ function MobPressMediaSec() {
                 <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
             <div className="space-y-[32px]">
               <div className="flex items-center justify-center h-[30px]">
-                <img src={medai1} className="h-[20px]" alt="" />
+                <img src={medai1} className="h-[23px] object-cover" alt="" />
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
               BlockchainFX can be described as a hybrid of Binance and Robinhood, delivering a seamless trading experience with exceptional speed and simplicity, powered by instant crypto deposits and trading.

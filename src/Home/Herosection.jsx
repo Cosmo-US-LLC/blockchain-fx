@@ -8,7 +8,7 @@ import herobnr5 from "../assets/herosection/bnrhero (1).webp";
 
 function Herosection() {
   return (
-    <div className="py-[55px] bg-[#FFF]">
+    <div className="pt-[55px] pb-[20px] bg-[#FFF]">
       <div className="max-w-[1200px]  w-[100%] mx-auto ">
         <div className="">
           <div className="space-y-[19.5px]">
@@ -18,7 +18,7 @@ function Herosection() {
             <h2 className=" text-[45px] font-[700] leading-[155.556%] tracking-[-1px] text-[#000] text-center">
             The Ultimate Trading Platform
             </h2>
-            <p className="text-[14px] max-w-[940px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
+            <p className="text-[14px] max-w-[840px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
             BlockchainFX is the first crypto-native platform providing access to the world’s largest financial markets. Trade Crypto, Forex, ETFs, Stocks, Futures, Options, Bonds, Indices, CFDs, and more—all in one place. Secure early access by holding $BFX and earn up to 25,000 USDT in daily staking rewards from collected trading fees. 
             </p>
           </div>
@@ -31,7 +31,7 @@ function Herosection() {
             </button>
           </div>
           <div className="flex justify-center max-w-[619px] mx-auto">
-            <img src={herogif} className="max-h-[338.998px]" alt="" />
+            <img src={herogif} className="max-h-[550px]" alt="" />
           </div>
           {/* <div className="flex justify-center items-center h-[73.47] space-x-[52px] border rounded-[20px] py-[20px]">
             <img src={herobnr1} alt="" />

@@ -18,7 +18,7 @@ function MobRoadmapSec() {
     <div className="pt-[24px] pb-[24px]" id="roadmap">
       <div className=" relative space-y-[40px] w-[90%] mx-auto ">
         <div className="">
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Roadmap
           </h3>
         </div>

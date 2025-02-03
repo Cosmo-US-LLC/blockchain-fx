@@ -7,7 +7,7 @@ function LessThanSec() {
     <div className="pt-[50px] pb-[50px] bg-[#fff]">
       <div className="max-w-[1200px] space-y-[50px] w-[100%] mx-auto ">
         <div className="space-y-[18px]">
-          <h3 className="text-[45px] capitalize font-[700] text-center leading-[58px] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] capitalize font-[700] text-center leading-[58px] text-[#181A20] tracking-[-1px]">
             The Bridge Between <br />
             Blockchain and Global Finance
           </h3>

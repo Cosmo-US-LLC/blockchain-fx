@@ -7,7 +7,7 @@ function MobileLessThanSec() {
     <div className="pt-[24px] pb-[24px] bg-[#e8e8e885]">
       <div className="space-y-[32px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
-          <h3 className="text-[32px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             The Bridge Between <br />
             Blockchain and Global Finance
           </h3>

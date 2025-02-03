@@ -15,10 +15,10 @@ function GatewaySec() {
     <div className="py-[50px]">
       <div className="max-w-[1200px] space-y-[40px] w-[100%] mx-auto ">
         <div className="space-y-[14px]">
-          <h3 className="text-[45px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             The Gateway to Global Markets
           </h3>
-          <p className="text-[14px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
+          <p className="text-[14px] font-[400] max-w-[790px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
             Starting a global multi-asset trading platform takes years and
             significant capital, but with BFX, you’re in with just two clicks.
             Get BFX and access the international financial market instantly.
@@ -70,13 +70,13 @@ function GatewaySec() {
           >
             <div className="flex justify-start pl-[19px] space-x-4 items-center">
               <img src={cardicon1} alt="" className="w-[56.7px] h-[56.7px]" />
-              <h4 className="text-[20.8px] text-[#181A20] font-[700] tacking-[-1px] leading-[100%]">
+              <h4 className="text-[16px] text-[#181A20] font-[700] tacking-[-1px] leading-[100%]">
                 New Trading Platform
               </h4>
             </div>
             <ul>
               <li className="py-[20px] flex items-center space-x-2 border-b border-[#C2C2C2]">
-                <span className="text-[#181A20] text-[16.6px] font-[500] ">
+                <span className="text-[#181A20] text-[14px] font-[500] ">
                   Up to $5 Million
                 </span>
                 <div
@@ -93,14 +93,14 @@ function GatewaySec() {
                   )}
                 </div>
               </li>
-              <li className="text-[#181A20] text-[16.6px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] text-[14px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
                 Up to 3 years
               </li>
-              <li className="text-[#181A20] text-[16.6px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] text-[14px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
                 Experienced multilingual team working in shifts, 24/7, 365 days
                 a year.
               </li>
-              <li className="text-[#181A20] text-[16.6px] font-[500] py-[18px] tracking-[-0.8px]">
+              <li className="text-[#181A20] text-[14px] font-[500] py-[18px] tracking-[-0.8px]">
                 Capital Requirements, Marketing & Branding, Liquidity Providers,
                 Risk Management Team, Customer Support, Technology
                 Infrastructure, Partnerships, Development, Hiring and Managing
@@ -116,21 +116,21 @@ function GatewaySec() {
           >
             <div className="flex justify-start space-x-4 items-center">
               <img src={cardicon2} alt="" className="w-[56.7px] h-[56.7px]" />
-              <h4 className="text-[20.8px] text-[#181A20] font-[700] tacking-[-1px] leading-[100%]">
+              <h4 className="text-[16px] text-[#181A20] font-[700] tacking-[-1px] leading-[100%]">
                 BlockchainFX
               </h4>
             </div>
             <ul>
-              <li className="text-[#181A20] text-[16.6px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] text-[14px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
                 Up to you
               </li>
-              <li className="text-[#181A20] text-[16.6px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] text-[14px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
                 Buy $BFX in 2 clicks
               </li>
-              <li className="text-[#181A20] text-[16.6px] font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] text-[14px] font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
                 No Team required
               </li>
-              <li className="text-[#181A20] text-[16.6px] font-[500] py-[27px]">
+              <li className="text-[#181A20] text-[14px] font-[500] py-[27px]">
                 No Work Required
               </li>
             </ul>

@@ -3,10 +3,24 @@ import React from "react";
 import logo from "../assets/TheUltimateSec/logo.svg";
 
 function MobTheUltimateSec() {
+
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 80;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth"
+        });
+      }
+    }, 200); 
+  };
   return (
     <div className="bgtheyltmob !bg-cover !bg-center">
-      <div className="flex items-center min-h-[400px]  justify-center w-[90%] mx-auto  ">
-      <div className=" py-[50px] space-y-[15px]">
+      <div className="flex items-center min-h-[510px]  justify-center w-[90%] mx-auto  ">
+      <div className=" pb-[50px] pt-[30px] space-y-[15px]">
             <div className="flex justify-center ">
             <img src={logo} className="h-[45.77px]" alt="" />
             </div>
@@ -16,7 +30,7 @@ function MobTheUltimateSec() {
             </h3>
             <div className="flex justify-center pt-[10px] items-center  space-x-[17px]">
             <button className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={handleScroll}
             >
               Buy $BFX
             </button>

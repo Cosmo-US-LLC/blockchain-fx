@@ -30,8 +30,8 @@ function MobileHero() {
               Beta Trading
             </button>
           </div>
-          <div className="flex justify-center">
-            <img src={heroimg} alt="" />
+          <div className="flex justify-center pb-[15px]">
+            <img src={heroimg} className="bg-[#c1c1c129]" alt="" />
           </div>
           
           <div className="border rounded-[6px] py-[20px] !mt-[20px] px-[13px]">

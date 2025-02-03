@@ -37,7 +37,7 @@ function TradeOverSec() {
   return (
     <div className="py-[50px]">
       <div className="max-w-[1200px]  w-[100%] mx-auto space-y-[30px]">
-        <h3 className="text-[45px] font-[700] capitalize leading-[155%] leading-[-1px] text-center">Trade over 500 different assets</h3>
+        <h3 className="text-[30px] font-[700] capitalize leading-[155%] leading-[-1px] text-center">Trade over 500 different assets</h3>
        <div className="flex justify-center space-x-[14px]">
       {
         cardData.map((item) => (

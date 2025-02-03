@@ -146,11 +146,26 @@ function PremiumSec() {
   const toggleBundles = (id) => {
     setOpenBundles(id === openBundles ? null : id);
   };
+
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth"
+        });
+      }
+    }, 200); 
+  };
+
   return (
     <div className="py-[50px] bg-[#FAFAFA]" id="premium">
       <div className="max-w-[1400px] w-[100%] space-y-[30px] mx-auto relative">
         <div className="space-y-[10px]">
-          <h3 className="text-[45px] leading-[155.556%] text-[#000] text-center font-[700]">
+          <h3 className="text-[30px] leading-[155.556%] text-[#000] text-center font-[700]">
             Limited Trading Bundles
           </h3>
           <p className="text-[14px] leading-[150%] max-w-[572px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
@@ -236,9 +251,7 @@ function PremiumSec() {
                     </div>
                     <div className="flex justify-start">
                       <button
-                        onClick={() =>
-                          window.scrollTo({ top: 0, behavior: "smooth" })
-                        }
+                        onClick={handleScroll}
                         className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[15.27px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[128.945px] w-[100%] h-[49px]"
                       >
                         Buy $BFX
@@ -329,7 +342,7 @@ function PremiumSec() {
         </div>
         <div className="max-w-[1109px]  w-[100%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[30px]  pt-[33px] pb-[10px] ">
           <div>
-            <h3 className="text-[29.188px] text-center font-[700] leading-[166.667%] text-[#181A20] tracking-[ -0.973px]">
+            <h3 className="text-[24.188px] text-center font-[700] leading-[166.667%] text-[#181A20] tracking-[ -0.973px]">
               Questions About The Trading Bundles
             </h3>
           </div>
@@ -347,7 +360,7 @@ function PremiumSec() {
                   onClick={() => toggleBundles(item.id)}
                 >
                   <h3
-                    className={`text-[20px] font-[600] leading-[170.05% ] ${
+                    className={`text-[16px] font-[600] leading-[170.05% ] ${
                       openBundles === item.id ? "text-[#E5AE00]" : "text-black"
                     }`}
                   >
@@ -362,7 +375,7 @@ function PremiumSec() {
                   </span>
                 </div>
                 {openBundles === item.id && (
-                  <p className="mt-2 text-[16px] text-[#181A20] font-[400] tracking-[-0.32px]">
+                  <p className="mt-2 text-[14px] text-[#181A20] font-[400] tracking-[-0.32px]">
                     {item.answer}
                   </p>
                 )}

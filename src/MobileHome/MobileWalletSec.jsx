@@ -55,7 +55,7 @@ function MobileWalletSec() {
     }
   };
   return (
-    <div className="pt-[20px] pb-[24px] space-y-[28px]">
+    <div className="pt-[20px] pb-[24px] space-y-[28px]" id="Wallet">
       <div
         style={{
           background: "rgba(247, 247, 247, 0.70)",
@@ -288,7 +288,7 @@ function MobileWalletSec() {
          
         >
           <h4 className="text-center text-[#808080] text-[15px] leading-[100%] font-[600]">
-          - $BFX Launches On Multiple <br /> Top-Tier Exchanges
+          $BFX Launches On Multiple <br /> Top-Tier Exchanges
           </h4>
           <div className="grid grid-cols-3 gap-3">
             <div className="p-2 flex max-w-[129px] h-[36px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"

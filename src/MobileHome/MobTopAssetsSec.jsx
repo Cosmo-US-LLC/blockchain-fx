@@ -26,7 +26,7 @@ function MobTopAssetsSec() {
 
   return (
     <div className="pt-[24px] space-y-[20px] pb-[24px] bg-[#FAFAFA] ">
-    <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] leading-[-1px]">
+    <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] leading-[-1px]">
     Top Assets
           </h3>
           <p className="text-[15px] font-[400]  leading-[130%] text-[#181A20] tracking-[-0.32px] text-center">Get a chance to trade the world's most <br /> popular financial assets.</p>
@@ -54,7 +54,7 @@ function MobTopAssetsSec() {
                         </div>
                     </div>
                     <div className="">
-                        <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">$0.9648 <span className="text-[#1DBA78]">+1.51%</span></h4>
+                        <h4 className="text-[#687086]  pb-[10px] text-center text-[16.995px] font-[400]">$0.9648 <span className="text-[#1DBA78]">+1.51%</span></h4>
                         <img src={graph1} className="h-[59.483px]" alt="" />
                     </div>
                     <div className="pt-2">
@@ -73,7 +73,7 @@ function MobTopAssetsSec() {
                         </div>
                     </div>
                     <div className="">
-                        <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">$255.23 <span className="text-[#1DBA78]">+0.32%</span></h4>
+                        <h4 className="text-[#687086]  pb-[10px] text-center text-[16.995px] font-[400]">$255.23 <span className="text-[#1DBA78]">+0.32%</span></h4>
                         <img src={graph2} className="h-[59.483px]" alt="" />
                     </div>
                     <div className="pt-2">
@@ -92,7 +92,7 @@ function MobTopAssetsSec() {
                         </div>
                     </div>
                     <div className="">
-                        <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">$2,618.83 <span className="text-[#FF0900]">-0.49%</span></h4>
+                        <h4 className="text-[#687086]  pb-[10px] text-center text-[16.995px] font-[400]">$2,618.83 <span className="text-[#FF0900]">-0.49%</span></h4>
                         <img src={graph3} className="h-[59.483px]" alt="" />
                     </div>
                     <div className="pt-2">
@@ -111,7 +111,7 @@ function MobTopAssetsSec() {
                         </div>
                     </div>
                     <div className="">
-                        <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">$2,618.83 <span className="text-[#FF0900]">-0.49%</span></h4>
+                        <h4 className="text-[#687086]  pb-[10px] text-center text-[16.995px] font-[400]">$2,618.83 <span className="text-[#FF0900]">-0.49%</span></h4>
                         <img src={graph4} className="h-[59.483px]" alt="" />
                     </div>
                     <div className="pt-2">

@@ -37,7 +37,7 @@ function MobExpertsworkingSec() {
           <h4 className="text-[20px] font-[400] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             25 Years of Experience
           </h4>
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Experts Working  <br /> On BlockchainFX
           </h3>
         </div>

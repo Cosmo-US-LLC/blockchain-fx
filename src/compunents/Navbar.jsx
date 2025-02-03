@@ -106,35 +106,35 @@ function Navbar() {
         </div>
         <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
           <a
-            className="text-[16px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}
             href=""
           >
             What is BlockchainFX?
           </a>
           <a
-            className="text-[16px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "how-to-buy", 90)}
             href=""
           >
             How to Buy
           </a>
           <a
-            className="text-[16px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "roadmap", 90)}
             href=""
           >
             Roadmap
           </a>
           <a
-            className="text-[16px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "reviews", 90)}
             href=""
           >
             Reviews
           </a>
           <a
-            className="text-[16px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "win", 90)}
             href=""
           >
@@ -149,7 +149,7 @@ function Navbar() {
               src={selectedLang.flag}
               alt={selectedLang.name}
             />
-            <span className="text-[#000] text-[16px] font-[600]">
+            <span className="text-[#000] text-[14px] font-[600]">
               {selectedLang.abbreviation}
             </span>
 
@@ -179,7 +179,7 @@ function Navbar() {
                         alt={lang.name}
                         className="w-[28px] h-[28px]"
                       />
-                      <span className="text-[16px] font-[500] text-[#444]">
+                      <span className="text-[14px] font-[500] text-[#444]">
                         {lang.name}
                       </span>
                     </div>

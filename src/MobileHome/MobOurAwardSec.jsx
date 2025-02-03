@@ -12,7 +12,7 @@ function MobOurAwardSec() {
           <h4 className="text-[20px] font-[400] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Multi-Awarded Trading Platform
           </h4>
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Our Awards Speak <br /> For Themselves
           </h3>
         </div>
