@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-import eranvideo from "../assets/EarnOnSec/video.mp4";
+import eranvideo from "../assets/EarnOnSec/video.webm";
 
 function MobileEarnOnSec() {
   const videoRef = useRef(null);

@@ -1,6 +1,6 @@
 import React from "react";
 
-import eranimg from "../assets/EarnOnSec/video.mp4";
+import eranimg from "../assets/EarnOnSec/video.webm";
 
 function EarnOnSec() {
   const handleScroll = () => {

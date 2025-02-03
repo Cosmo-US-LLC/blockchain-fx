@@ -1,10 +1,9 @@
 import React from "react";
-// import heroimg from "../assets/herosection/herogif.gif"
 import fobicn from "../assets/herosection/forbes-ar21 1.svg";
 import herobnr2 from "../assets/herosection/bnrhero (4).svg";
 import herobnr4 from "../assets/herosection/bnrhero (2).svg";
 import herobnr5 from "../assets/herosection/bnrhero (1).webp";
-import heroVideo from "../assets/herosection/heroVideo.mp4";
+import heroVideo from "../assets/herosection/heroVideo.webm";
 
 function MobileHero() {
   return (

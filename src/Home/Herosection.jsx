@@ -1,6 +1,7 @@
 import React from "react";
 // import herogif from "../assets/herosection/herogif.gif";
-import heroVideo from "../assets/herosection/heroVideo.mp4";
+// import heroVideo from "../assets/herosection/heroVideo.mp4";
+import heroVideo from "../assets/herosection/heroVideo.webm";
 
 function Herosection() {
   return (
