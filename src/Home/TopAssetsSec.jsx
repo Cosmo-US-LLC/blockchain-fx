@@ -26,7 +26,7 @@ function TopAssetsSec() {
     <div className="py-[50px] px-[60px] bg-[#FAFAFA] ">
       <div className="max-w-[1080px] w-full mx-auto space-y-[30px]">
         <div className="space-y-[14px]">
-          <h3 className="text-[45px] font-[700] text-center leading-[114%] text-[#181A20]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20]">
             Top Assets
           </h3>
           <p className="text-[14px] font-[400] max-w-[832px] mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px] text-center">
@@ -63,7 +63,7 @@ function TopAssetsSec() {
                       </div>
                     </div>
                     <div className="">
-                      <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">
+                      <h4 className="text-[#687086]  pb-[10px] text-center text-[16.995px] font-[400]">
                         $0.9648 <span className="text-[#1DBA78]">+1.51%</span>
                       </h4>
                       <img src={graph1} className="h-[59.483px]" alt="" />
@@ -94,7 +94,7 @@ function TopAssetsSec() {
                       </div>
                     </div>
                     <div className="">
-                      <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">
+                      <h4 className="text-[#687086]  pb-[10px] text-center text-[16.995px] font-[400]">
                         $255.23 <span className="text-[#1DBA78]">+0.32%</span>
                       </h4>
                       <img src={graph2} className="h-[59.483px]" alt="" />
@@ -125,7 +125,7 @@ function TopAssetsSec() {
                       </div>
                     </div>
                     <div className="">
-                      <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">
+                      <h4 className="text-[#687086]  pb-[10px] text-center text-[16.995px] font-[400]">
                         $2,618.83 <span className="text-[#FF0900]">-0.49%</span>
                       </h4>
                       <img src={graph3} className="h-[59.483px]" alt="" />
@@ -156,7 +156,7 @@ function TopAssetsSec() {
                       </div>
                     </div>
                     <div className="">
-                      <h4 className="text-[#687086] pr-[3rem] pb-[10px] text-center text-[16.995px] font-[400]">
+                      <h4 className="text-[#687086]  pb-[10px] text-center text-[16.995px] font-[400]">
                         $2,618.83 <span className="text-[#FF0900]">-0.49%</span>
                       </h4>
                       <img src={graph4} className="h-[59.483px]" alt="" />

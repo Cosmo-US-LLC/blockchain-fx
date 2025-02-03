@@ -42,7 +42,7 @@ function HowDoesItSec() {
     <div className="py-[50px]">
      <div className="max-w-[1200px] w-[100%] mx-auto relative">
         <div>
-            <h3 className="text-[45px] capitalize leading-normal tracking-[-1px] text-[#181A20] text-center font-[700]">How does it work?</h3>
+            <h3 className="text-[30px] capitalize leading-normal tracking-[-1px] text-[#181A20] text-center font-[700]">How does it work?</h3>
         </div>
      <div className="max-w-[900px] pt-[34px]  space-x-[3rem] flex justify-between w-[100%] mx-auto ">
         <div className="w-[57%] grid grid-cols-2 gap-x-[19px] gap-y-[19px]">
@@ -58,7 +58,7 @@ function HowDoesItSec() {
         >
           <p className="text-[19.011px] pb-[23px] text-[#000] font-[700]">{item.id}.</p>
          <div className="min-h-[30px] flex justify-center items-center">
-         <h3 className="text-[20px] text-center text-[#000] font-[700] leading-[109.316%]">{item.title}</h3>
+         <h3 className="text-[16px] text-center text-[#000] font-[700] leading-[109.316%]">{item.title}</h3>
          </div>
           <h4 className="text-[14px]  text-center text-[#000] font-[400] leading-[135.796%]">{item.description}</h4>
         </div>

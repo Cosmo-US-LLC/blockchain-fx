@@ -43,11 +43,11 @@ function OneAppSec() {
      <div className="max-w-[1300px] w-[100%] mx-auto relative">
      <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[473px] space-y-[20px]">
-          <h3 className="text-[45px] capitalize font-[700] leading-normal text-[#181A20] tracking-[-1px] text-start">
+          <h3 className="text-[30px] capitalize font-[700] leading-normal text-[#181A20] tracking-[-1px] text-start">
             Everything In One App
           </h3>
           <p className="text-[14px] text-[#181A20] font-[400] leading-[150%] leading-[-0.32px] text-start">
-          An innovative, lightning-fast, and intuitive trading platform
+          An innovative, modern, and intuitive trading platform
           </p>
           <div className="">
             {items.map((item, index) => (

@@ -18,7 +18,7 @@ function RoadmapSec() {
     <div className="pt-[50px] space-y-[35px] pb-[50px] px-[73px]" id="roadmap">
       <div className="max-w-[1054px] relative space-y-[120px] w-[100%] mx-auto ">
         <div className="">
-          <h3 className="text-[45px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Roadmap
           </h3>
         </div>
@@ -28,23 +28,23 @@ function RoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[27px] pt-[10px]">
+        <div className="w-[27px]">
             <img src={vector1} className="border border-[#000]" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[27px] font-[500] leading-[138%]">Preparation</h3>
+            <h3 className="text-[22px] font-[500] leading-[138%]">Preparation</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px] text-[14px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Idea + Concept</p>
+                    <p className="text-[12px]">Idea + Concept</p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Raise Seed Funds</p>
+                    <p className="text-[12px]">Raise Seed Funds</p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Onboard Team & Advisors</p>
+                    <p className="text-[12px]">Onboard Team & Advisors</p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Trading Platform Beta Preparation </p>
+                    <p className="text-[12px]">Trading Platform Beta Preparation </p>
                 </div>
             </div>
         </div>
@@ -56,23 +56,23 @@ function RoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[27px] pt-[10px]">
+        <div className="w-[27px]">
             <img src={vector1} className="border border-[#000]" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[27px] font-[500] leading-[138%]">Execution</h3>
+            <h3 className="text-[22px] font-[500] leading-[138%]">Execution</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px] text-[14px]">
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Website, Tokenomics etc.</p>
+                    <p className="text-[12px]">Website, Tokenomics etc.</p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Create $BFX Token</p>
+                    <p className="text-[12px]">Create $BFX Token</p>
                 </div>
                 <div className="max-w-[324px] flex items-center text-[14px] px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Launch $BFX Pre-Sale </p>
+                    <p className="text-[12px]">Launch $BFX Pre-Sale </p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>CertiK Token Audit </p>
+                    <p className="text-[12px]">CertiK Token Audit </p>
                 </div>
             </div>
         </div>
@@ -84,23 +84,23 @@ function RoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[27px] pt-[10px]">
+        <div className="w-[27px]">
             <img src={vector5} className="" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[27px] font-[500] leading-[138%]">Launch</h3>
+            <h3 className="text-[22px] font-[500] leading-[138%]">Launch</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px] text-[14px]">
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Launch our Affiliate Program </p>
+                    <p className="text-[12px]">Launch our Affiliate Program </p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Sell Out the Pre-Sale</p>
+                    <p className="text-[12px]">Sell Out the Pre-Sale</p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Launch $BFX on Uniswap and CEX</p>
+                    <p className="text-[12px]">Launch $BFX on Uniswap and CEX</p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Achieving 10’000 BFX Holders  </p>
+                    <p className="text-[12px]">Achieving 10’000 BFX Holders  </p>
                 </div>
             </div>
         </div>
@@ -112,23 +112,23 @@ function RoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[27px] pt-[10px]">
+        <div className="w-[27px]">
             <img src={vector5} className="" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[27px] font-[500] leading-[138%]">Performance</h3>
+            <h3 className="text-[22px] font-[500] leading-[138%]">Performance</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px] text-[14px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Cashback System for Traders</p>
+                    <p className="text-[12px]">Cashback System for Traders</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Public Chats for Trading Platform</p>
+                    <p className="text-[12px]">Public Chats for Trading Platform</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Add Copy Trading Feature</p>
+                    <p className="text-[12px]">Add Copy Trading Feature</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Launch iOS and Android App </p>
+                    <p className="text-[12px]">Launch iOS and Android App </p>
                 </div>
             </div>
         </div>
@@ -141,23 +141,23 @@ function RoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[27px] pt-[10px]">
+        <div className="w-[27px]">
             <img src={vector5} className="" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[27px] font-[500] leading-[138%]">Expansion</h3>
+            <h3 className="text-[22px] font-[500] leading-[138%]">Expansion</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px] text-[14px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Multiple CEX Listing</p>
+                    <p className="text-[12px]">Multiple CEX Listing</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Reach $100M Daily Trading Volume</p>
+                    <p className="text-[12px]">Reach $100M Daily Trading Volume</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Achieving 100’000 BFX Holders</p>
+                    <p className="text-[12px]">Achieving 100’000 BFX Holders</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Add Leaderboards & VIP accounts</p>
+                    <p className="text-[12px]">Add Leaderboards & VIP accounts</p>
                 </div>
             </div>
         </div>
@@ -169,23 +169,23 @@ function RoadmapSec() {
         background:"rgb(250 250 250)"
       }}
       >
-        <div className="w-[27px] pt-[10px]">
+        <div className="w-[27px]">
             <img src={vector5} className="" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[27px] font-[500] leading-[138%]">Global Reach</h3>
+            <h3 className="text-[22px] font-[500] leading-[138%]">Global Reach</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px] text-[14px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>US License </p>
+                    <p className="text-[12px]">US License </p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Global Marketing Campaigns </p>
+                    <p className="text-[12px]">Global Marketing Campaigns </p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Achieving 1’000’000 BFX Holders </p>
+                    <p className="text-[12px]">Achieving 1’000’000 BFX Holders </p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Major Partnerships </p>
+                    <p className="text-[12px]">Major Partnerships </p>
                 </div>
             </div>
         </div>

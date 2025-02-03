@@ -42,7 +42,7 @@ function ExclusiveBenefitsSec() {
     <div className="py-[50px]">
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
-          <h3 className="text-[45px] capitalize leading-[155.556%] text-[#181A20] text-center font-[700]">
+          <h3 className="text-[30px] capitalize leading-[155.556%] text-[#181A20] text-center font-[700]">
           Exclusive Benefits During the Pre-Sale
           </h3>
         </div>
@@ -57,7 +57,7 @@ function ExclusiveBenefitsSec() {
                   <img src={item.img} className="max-h-[116px] h-[100%]" alt="" />
                 </div>
                 <h3
-                  className="text-[20px] text-center text-[#000] font-[700] leading-[115%]"
+                  className="text-[16px] text-center text-[#000] font-[700] leading-[115%]"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
                 <h4 className="text-[14px]  text-center text-[#000] font-[400] leading-[111.111%]">

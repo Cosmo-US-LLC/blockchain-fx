@@ -24,7 +24,7 @@ function MobTraderReviewsSec() {
     <div className="pt-[24px] space-y-[20px] bg-[#FAFAFA]" id="reviews">
       <div className=" relative space-y-[20px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Trader Reviews
           </h3>
         </div>

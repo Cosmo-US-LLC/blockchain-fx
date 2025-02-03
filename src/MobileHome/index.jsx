@@ -29,6 +29,9 @@ import MobPressMediaSec from './MobPressMediaSec';
 import MobTraderReviewsSec from './MobTraderReviewsSec';
 import MobFaqSec from './MobFaqSec';
 import MobTheUltimateSec from './MobTheUltimateSec';
+import SwapSectionMob from './SwapSectionMob';
+import Whitepaper from '../Home/Whitepaper';
+import WhitepaperMob from './WhitepaperMob';
 
 function MobileHome() {
     return (
@@ -49,11 +52,13 @@ function MobileHome() {
         <MobileGatewaySec />
         <MobileWallStreetSec />
         <MobTadeLikeSec />
+        <SwapSectionMob />
         <MobTopAssetsSec />
         <MobLiveNewSec />
         <MobSecurityBuiltSec />
         {/* <MobStreamlinedSec /> */}
         <MobWhatIsSec />
+        <WhitepaperMob />
         <MobTokenAllocationSec />
         <MobTokenDetailsSec />
         <MobRoadmapSec />

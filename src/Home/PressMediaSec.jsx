@@ -9,7 +9,7 @@ function PressMediaSec() {
     <div className="py-[50px] bg-[#fff] space-y-[35px] bg-[#FAFAFA] px-[62px]">
       <div className="max-w-[1076px] relative space-y-[40px] w-[100%] mx-auto ">
         <div className="space-y-[30px]">
-          <h3 className="text-[45px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Press & Media
           </h3>
         </div>

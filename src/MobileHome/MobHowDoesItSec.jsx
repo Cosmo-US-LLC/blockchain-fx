@@ -55,7 +55,7 @@ function MobHowDoesItSec() {
     <div className="pt-[24px] pb-[24px]">
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
-          <h3 className="text-[32px] capitalize leading-[100%] text-[#181A20] text-center font-[700]">
+          <h3 className="text-[30px] capitalize leading-[100%] text-[#181A20] text-center font-[700]">
             How Does It Work?
           </h3>
         </div>

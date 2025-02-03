@@ -19,7 +19,7 @@ function MobStandoutSec() {
     <div className="pt-[24px] pb-[24px]">
       <div className="space-y-[40px] w-[90%] mx-auto ">
         <div className="space-y-[15px]">
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Standout Features
           </h3>
           <p className="text-[15px] font-[400]  text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">

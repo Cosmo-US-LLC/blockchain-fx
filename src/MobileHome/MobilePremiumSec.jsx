@@ -138,11 +138,25 @@ function MobilePremiumSec() {
   const toggleBundles = (id) => {
     setOpenBundles(id === openBundles ? null : id);
   };
+
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 80;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth"
+        });
+      }
+    }, 200); 
+  };
   return (
     <div className="pt-[24px] pb-[24px]" id="premium">
       <div className="w-[90%] space-y-[20px] mx-auto relative">
         <div className="space-y-[12px]">
-          <h3 className="text-[32px] leading-[100%] text-[#000] text-center font-bold">
+          <h3 className="text-[30px] leading-[100%] text-[#000] text-center font-bold">
           Limited <br /> Trading Bundles
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
@@ -226,7 +240,7 @@ function MobilePremiumSec() {
                     </div>
                     <div className="flex justify-start">
                       <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[40px]"
-                      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                      onClick={handleScroll}
                       >
                         Buy $BFX
                       </button>

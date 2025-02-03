@@ -108,7 +108,7 @@ const MobFaqSec = () => {
       <div className="bg-[#FAFAFA]" id="faq">
         <div className=" w-[90%]  space-y-[30px] pt-[24px] mx-auto pb-[24px]">
           <div className="text-center space-y-[20px]">
-            <h2 className="text-[#000] leading-[100%] text-[32px] font-[600]">
+            <h2 className="text-[#000] leading-[100%] text-[30px] font-[600]">
               FAQs
             </h2>
             <p className="text-[15px] font-[400] text-[#000] text-center">

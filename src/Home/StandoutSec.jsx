@@ -92,7 +92,7 @@ function StandoutSec() {
     <div className="py-[50px] px-[60px]">
       <div className="max-w-[1200px] space-y-[26px] w-[100%] flex flex-col mx-auto">
         <div className="space-y-[14px]">
-          <h3 className="text-[45px] font-[700] text-center leading-[48px] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[48px] text-[#181A20] tracking-[-1px]">
             Standout Features
           </h3>
           <p className="text-[14px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#181A20] tracking-[-0.32px]">
@@ -157,10 +157,10 @@ function StandoutSec() {
                       <td
                         key={key}
                         className={`border border-[#A6A6A6] px-4 py-[13px] !h-[51px]  ${
-                          colIndex === 1 ? "bg-[#FFF8DC] text-[17.7px] " : ""
+                          colIndex === 1 ? "bg-[#FFF8DC] text-[14.7px] " : ""
                         } ${
                           rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
-                            ? "text-[17.7px] font-[600] text-center !w-[225px]"
+                            ? "text-[14.7px] font-[600] text-center !w-[225px]"
                             : "font-[500] text-[14.177px] !w-[183px]"
                         } ${colIndex === 0 ? "border-l-5" : ""} ${
                           colIndex === tableData[0].length - 1

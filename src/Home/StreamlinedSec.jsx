@@ -10,7 +10,7 @@ function StreamlinedSec() {
     <div className="pt-[98px]  pb-[92px]">
       <div className="max-w-[1220px] space-y-[61px] w-[100%] mx-auto ">
         <div className="space-y-[20px]">
-          <h3 className="text-[50px] text-center font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] text-center font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
             Streamlined Backend System
           </h3>
           <p className="text-[20px] font-[400] max-w-[793px] text-center mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">

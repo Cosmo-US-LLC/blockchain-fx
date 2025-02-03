@@ -23,7 +23,7 @@ function TraderReviewsSec() {
       >
         <div className=" relative space-y-[40px] w-[100%]  ">
           <div className="space-y-[30px]">
-            <h3 className="text-[45px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+            <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
               Trader Reviews
             </h3>
           </div>

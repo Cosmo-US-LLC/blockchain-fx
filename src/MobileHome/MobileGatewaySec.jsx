@@ -11,11 +11,26 @@ import cardicon2 from "../assets/Gateway/tblicn (1).svg";
 function MobileGatewaySec() {
   const [showTooltip, setShowTooltip] = useState(false);
 
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 80;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth"
+        });
+      }
+    }, 200); 
+  };
+
+
   return (
     <div className="pt-[24px] pb-[37px] bg-[#FFF]">
       <div className=" space-y-[33px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
-          <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             The Gateway <br /> To Global Markets
           </h3>
           <p className="text-[15px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
@@ -164,7 +179,7 @@ function MobileGatewaySec() {
         <div className="flex justify-center items-center ">
           <button
             className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[102px] w-[100%] h-[40px]"
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            onClick={handleScroll}
           >
             Buy $BFX
           </button>

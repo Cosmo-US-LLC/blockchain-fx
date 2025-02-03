@@ -8,7 +8,7 @@ import herobnr5 from "../assets/herosection/bnrhero (1).webp";
 
 function FeaturedSec() {
   return (
-    <div className="bg-[#FBFBFB] h-[113px] flex items-center">
+    <div className="h-[113px] flex items-center">
       <div className="max-w-[940px]  w-[100%] mx-auto ">
         <div className="">
           <div className="flex justify-center items-center h-[73.47] space-x-[44px] border rounded-[20px] py-[20px]">
