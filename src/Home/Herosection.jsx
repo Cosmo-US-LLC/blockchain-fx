@@ -4,6 +4,21 @@ import React from "react";
 import heroVideo from "../assets/herosection/heroVideo.webm";
 
 function Herosection() {
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth"
+        });
+      }
+    }, 200); 
+  };
+
+
   return (
     <div className="pt-[55px] pb-[20px] bg-[#FFF]">
       <div className="max-w-[1200px]  w-[100%] mx-auto ">
@@ -23,7 +38,9 @@ function Herosection() {
               25,000 USDT in daily staking rewards from collected trading fees.
             </p>
           </div>
-          <div className="flex justify-center pt-[28px] pb-[37px] items-center space-x-[17px]">
+          <div
+           onClick={handleScroll}
+          className="flex justify-center pt-[28px] pb-[37px] items-center space-x-[17px]">
             <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
               Buy $BFX
             </button>

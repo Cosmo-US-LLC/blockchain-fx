@@ -7,6 +7,21 @@ import herobnr5 from "../assets/herosection/bnrhero (1).webp";
 import heroVideo from "../assets/herosection/heroVideo.webm";
 
 function MobileHero() {
+
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth"
+        });
+      }
+    }, 200); 
+  };
+
   return (
     <div className="pt-[22px] pb-[2rem] bg-[#FFFFFF]">
       <div className="w-[90%] mx-auto ">
@@ -27,7 +42,9 @@ function MobileHero() {
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px]  h-[48px]">
+            <button 
+             onClick={handleScroll}
+            className="text-white bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px]  h-[48px]">
               Buy $BFX
             </button>
             <button className="hover:text-white hover:bg-[#E5AE00] px-[14px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px]  h-[48px]">
