@@ -28,10 +28,11 @@ function EarnOnSec() {
               className="absolute top-[-5%] h-[410px]"
               muted 
               autoPlay={"autoplay"}
-              preLoad="auto"
+              preload="auto"
+              playsInline
               loop
             >
-              <source src={eranimg} type="video/mp4" />
+              <source src={eranimg} type="video/webm" />
             </video>
           </div>
           <div className="max-w-[420px] w-[50%] !mr-auto space-y-[20px]">

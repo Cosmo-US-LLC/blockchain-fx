@@ -38,11 +38,12 @@ function Herosection() {
               height={410}
               className="max-h-[550px]"
               muted
-              autoPlay={"autoplay"}
-              preLoad="auto"
+              autoPlay="autoplay"
+              preload="auto"
+              playsInline
               loop
             >
-              <source src={heroVideo} type="video/mp4" />
+              <source src={heroVideo} type="video/webm" />
             </video>
           </div>
           {/* <div className="flex justify-center items-center h-[73.47] space-x-[52px] border rounded-[20px] py-[20px]">

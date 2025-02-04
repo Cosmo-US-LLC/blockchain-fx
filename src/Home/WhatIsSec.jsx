@@ -40,6 +40,19 @@ function WhatIsSec() {
             className="!ml-[110px] max-w-[519px] h-[454px] pt-[-15px]"
             alt=""
           />
+          {/* <video
+            width={500}
+            height={410}
+            className="!ml-[110px] max-w-[519px] h-[454px] pt-[-15px] bg-transparent"
+            muted
+            autoPlay="autoplay"
+            preload="auto"
+            playsInline
+            loop
+            style={{ backgroundColor: "transparent" }}
+          >
+            <source src={whatisimgMP4} type="video/mp4" />
+          </video> */}
         </div>
         <div className="flex justify-center">
           <button

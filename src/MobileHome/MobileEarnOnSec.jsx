@@ -50,11 +50,11 @@ function MobileEarnOnSec() {
             className=""
             muted
             autoPlay
-            preLoad="auto"
+            preload="auto"
             playsInline
             loop
           >
-            <source src={eranvideo} type="video/mp4" />
+            <source src={eranvideo} type="video/webm" />
           </video>
           {/* <iframe
             width="300"

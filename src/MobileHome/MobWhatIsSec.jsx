@@ -33,6 +33,18 @@ function MobWhatIsSec() {
         </div>
         <div className="max-w-[664px] w-[100%] mx-auto pt-[2rem] pb-[4rem]">
           <img src={whatisimg} className="" alt="" />
+          {/* <video
+            width={500}
+            height={410}
+            className=""
+            muted
+            autoPlay={"autoplay"}
+            preload="auto"
+            playsInline
+            loop
+          >
+            <source src={whatisimg} type="video/webm" />
+          </video> */}
         </div>
         <div className="flex justify-center items-center ">
           <button

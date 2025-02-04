@@ -3,6 +3,7 @@ import fobicn from "../assets/herosection/forbes-ar21 1.svg";
 import herobnr2 from "../assets/herosection/bnrhero (4).svg";
 import herobnr4 from "../assets/herosection/bnrhero (2).svg";
 import herobnr5 from "../assets/herosection/bnrhero (1).webp";
+// import heroVideo from "../assets/herosection/heroVideo.webm";
 import heroVideo from "../assets/herosection/heroVideo.webm";
 
 function MobileHero() {
@@ -38,13 +39,14 @@ function MobileHero() {
             <video
               width={500}
               height={410}
-              className="bg-[#c1c1c129]"
+              className="max-h-[550px]"
               muted
-              autoPlay={"autoplay"}
-              preLoad="auto"
+              autoPlay="autoplay"
+              preload="auto"
+              playsInline
               loop
             >
-              <source src={heroVideo} type="video/mp4" />
+              <source src={heroVideo} type="video/webm" />
             </video>
           </div>
 
