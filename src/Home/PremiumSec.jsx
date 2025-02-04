@@ -342,7 +342,7 @@ function PremiumSec() {
         </div>
         <div className="max-w-[1109px]  w-[100%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[30px]  pt-[33px] pb-[10px] ">
           <div>
-            <h3 className="text-[24.188px] text-center font-[700] leading-[166.667%] text-[#181A20] tracking-[ -0.973px]">
+            <h3 className="text-[30px] text-center font-[700] leading-[166.667%] text-[#181A20] tracking-[ -0.973px]">
               Questions About The Trading Bundles
             </h3>
           </div>

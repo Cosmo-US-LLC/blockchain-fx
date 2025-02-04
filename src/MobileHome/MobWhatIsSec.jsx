@@ -30,7 +30,7 @@ function MobWhatIsSec() {
           </p>
         </div>
        <div className="max-w-[664px] w-[100%] mx-auto pt-[2rem] pb-[4rem]">
-        <img src={whatisimg} className="" alt="" />
+        <img src={'https://updone.nyc3.digitaloceanspaces.com/doge-vs-pepe/what%20is%20bfx.gif'} className="" alt="" />
        </div>
        <div className="flex justify-center items-center ">
             <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[102px] w-[100%] h-[40px]"

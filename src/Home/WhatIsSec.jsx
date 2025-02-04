@@ -28,7 +28,7 @@ function WhatIsSec() {
           </p>
         </div>
        <div className="max-w-[664px] w-[100%] mx-auto pt-[0rem] pb-[7rem]">
-        <img src={whatisimg} className="!ml-[110px] max-w-[519px] h-[454px] pt-[-15px]" alt="" />
+        <img src={'https://updone.nyc3.digitaloceanspaces.com/doge-vs-pepe/what%20is%20bfx.gif'} className="!ml-[110px] max-w-[519px] h-[454px] pt-[-15px]" alt="" />
        </div>
           <div className="flex justify-center">
           <button 

@@ -96,11 +96,11 @@ function GatewaySec() {
               <li className="text-[#181A20] text-[14px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
                 Up to 3 years
               </li>
-              <li className="text-[#181A20] text-[14px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20]   text-[14px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
                 Experienced multilingual team working in shifts, 24/7, 365 days
                 a year.
               </li>
-              <li className="text-[#181A20] text-[14px] font-[500] py-[18px] tracking-[-0.8px]">
+              <li className="text-[#181A20]  text-[14px] font-[500] py-[18px] tracking-[-0.8px]">
                 Capital Requirements, Marketing & Branding, Liquidity Providers,
                 Risk Management Team, Customer Support, Technology
                 Infrastructure, Partnerships, Development, Hiring and Managing
@@ -121,16 +121,16 @@ function GatewaySec() {
               </h4>
             </div>
             <ul>
-              <li className="text-[#181A20] text-[14px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20]  h-[61.5px] text-[14px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
                 Up to you
               </li>
-              <li className="text-[#181A20] text-[14px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20] h-[65.5px] text-[14px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
                 Buy $BFX in 2 clicks
               </li>
-              <li className="text-[#181A20] text-[14px] font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[#181A20]  text-[14px] font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
                 No Team required
               </li>
-              <li className="text-[#181A20] text-[14px] font-[500] py-[27px]">
+              <li className="text-[#181A20]  text-[14px] font-[500] py-[27px]">
                 No Work Required
               </li>
             </ul>
