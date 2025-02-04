@@ -1,6 +1,6 @@
 import React from "react";
 
-import whatisimg from "../assets/WhatIsSec/whatisimg.webm";
+import whatisimg from "../assets/WhatIsSec/whatisimg.gif";
 
 function WhatIsSec() {
   const handleScroll = () => {
@@ -35,22 +35,11 @@ function WhatIsSec() {
           </p>
         </div>
         <div className="max-w-[664px] w-[100%] mx-auto pt-[0rem] pb-[7rem]">
-          {/* <img
+          <img
             src={whatisimg}
             className="!ml-[110px] max-w-[519px] h-[454px] pt-[-15px]"
             alt=""
-          /> */}
-          <video
-            width={500}
-            height={410}
-            className="!ml-[110px] max-w-[519px] h-[454px] pt-[-15px]"
-            muted
-            autoPlay={"autoplay"}
-            preLoad="auto"
-            loop
-          >
-            <source src={whatisimg} type="video/mp4" />
-          </video>
+          />
         </div>
         <div className="flex justify-center">
           <button
