@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import info from "../assets/wallet/i.svg";
 import arw from "../assets/navbar/arw.svg";
-import wltcoin1 from "../assets/wallet/wltcoin (6).svg";
+import wltcoin1 from "../assets/wallet/wltcoin (6).png";
 import wltcoin2 from "../assets/wallet/wltcoin (5).svg";
 import wltcoin3 from "../assets/wallet/wltcoin (4).svg";
 import wltcoin4 from "../assets/wallet/wltcoin (3).svg";
@@ -167,7 +167,7 @@ function WalletSec() {
               className={`flex justify-center items-center px-[12px] py-[5px] space-x-1 cursor-pointer transition-all`}
             >
               <img
-                className="w-[14.813px] h-[14.813px]"
+                className="w-[15.813px] h-[15.813px] object-cover"
                 src={coin.icon}
                 alt={coin.name}
               />
@@ -195,7 +195,7 @@ function WalletSec() {
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
                 <img
-                  className="w-[14.813px] h-[14.813px]"
+                  className="w-[15.813px] h-[15.813px] object-cover"
                   src={selectedCoin.icon}
                   alt={selectedCoin.name}
                 />
@@ -217,7 +217,7 @@ function WalletSec() {
                       onClick={() => handleSelectCoin(coin)}
                     >
                       <img
-                        className="w-[14.813px] h-[14.813px]"
+                        className="w-[15.813px] h-[15.813px] object-cover"
                         src={coin.icon}
                         alt="coin"
                       />

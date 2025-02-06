@@ -8,8 +8,7 @@ function MobileLessThanSec() {
       <div className="space-y-[32px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-            The Bridge Between <br />
-            Blockchain and Global Finance
+          Bridging Crypto and Finance
           </h3>
           <p className="text-[15px] font-[400]  w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
             Crypto makes up only 0.87% of global trading volume in 2024,

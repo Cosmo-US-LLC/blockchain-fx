@@ -34,13 +34,7 @@ export default function SwapSection() {
                 Swap Between Assets{" "}
               </h3>
               <p className="text-[14px]">
-                Enjoy limitless trading opportunities, like
-                exchanging gold for BTC or swapping ETH for Nvidia
-                stock instantly without multiple brokers. Traditionally,
-                converting crypto into other assets required separate exchanges,
-                extra fees, and long wait times. BlockchainFX
-                streamlines everything in one place, making trading faster,
-                easier, and more convenient than ever.
+              Experience limitless trading opportunities, like swapping gold for BTC or ETH for Nvidia stock, all in one place. Traditionally, converting crypto into other assets required separate exchanges, extra fees, and long wait times. BlockchainFX streamlines it, making trading faster and easier than ever.
               </p>
             </div>
 

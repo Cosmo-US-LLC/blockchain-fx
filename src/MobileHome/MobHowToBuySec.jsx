@@ -75,7 +75,7 @@ function MobHowToBuySec() {
                     
                     <div className="w-[100%]">
                       <div className="flex justify-between items-center">
-                        <h3 className={`text-[15px] font-[600]  ${
+                        <h3 className={`text-[15px] capitalize font-[600]  ${
                           index === activeIndex ? "text-[#E5AE00]" : "text-[#181A20] "
                         }`}
                         >

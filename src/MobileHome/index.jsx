@@ -58,9 +58,9 @@ function MobileHome() {
         <MobSecurityBuiltSec />
         {/* <MobStreamlinedSec /> */}
         <MobWhatIsSec />
-        <WhitepaperMob />
         <MobTokenAllocationSec />
         <MobTokenDetailsSec />
+        <WhitepaperMob />
         <MobRoadmapSec />
         <MobOurAwardSec />
         {/* <MobExpertsworkingSec /> */}

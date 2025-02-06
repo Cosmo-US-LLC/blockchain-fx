@@ -17,7 +17,7 @@ export default function WhitepaperMob() {
   };
   return (
     <>
-      <div className="w-full py-[24px] px-[24px]">
+      <div className="w-full py-[24px] px-[24px]" id="whitepaper">
         <div className="py-6 px-4  space-y-[20px] border border-1 border-[#B0B0B0] rounded-[13px]">
         <div className="w-[100%] space-y-4 ">
             <div className="w-full p-2 flex flex-col justify-start">
@@ -25,11 +25,7 @@ export default function WhitepaperMob() {
                 BlockchainFX <br /> Whitepaper
               </h3>
               <p className="text-[14px] text-center">
-                Explore the BlockchainFX whitepaper to see how the $BFX token
-                powers a next-generation trading ecosystem. Discover its key
-                features, benefits, and how BlockchainFX is bridging the gap
-                between crypto and traditional finance while creating the first
-                super app in the industry.
+              Explore the BlockchainFX whitepaper to learn how the $BFX token powers a next-gen trading ecosystem. Discover its key features, benefits, and how BlockchainFX is bridging the gap between blockchain and traditional finance by creating the crypto industry's first trading super app.
               </p>
             </div>
           </div>
@@ -38,13 +34,16 @@ export default function WhitepaperMob() {
               <img src={whitepaper} className="w-[453px] h-auto" alt="whitepaper" />
             </div>
           </div>
-            <div className="w-full p-2 flex justify-center">
+            <div className="w-full p-2 space-x-2 flex justify-center">
               <button
                 onClick={handleScroll}
-                className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
+                className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[110px] w-[100%] h-[39px]"
               >
                 Buy $BFX
               </button>
+              <button className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-black bg-transparent text-[14px] font-[800] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[146px] w-[100%] h-[39px]">
+              Read White Paper
+            </button>
             </div>
         </div>
       </div>

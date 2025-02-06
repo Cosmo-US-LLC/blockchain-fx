@@ -18,21 +18,15 @@ export default function SwapSectionMob() {
   return (
     <>
       <div className="w-full py-[24px] px-[20px]">
-        <div className="py-6 px-4 space-y-[20px] border border-1 border-[#B0B0B0]  rounded-[13px]">
+        <div className="py-6 px-3 space-y-[20px] border border-1 border-[#B0B0B0]  rounded-[13px]">
          
           <div className="w-[100%] space-y-4 ">
             <div className="w-full p-2 flex flex-col justify-start">
               <h3 className="text-[30px] font-bold leading-[114%]  text-center mb-4">
                 Swap Between Assets{" "}
               </h3>
-              <p className="text-[14px] text-center">
-                Enjoy limitless trading opportunities, like
-                exchanging gold for BTC or swapping ETH for Nvidia
-                stock instantly without multiple brokers. Traditionally,
-                converting crypto into other assets required separate exchanges,
-                extra fees, and long wait times. BlockchainFX
-                streamlines everything in one place, making trading faster,
-                easier, and more convenient than ever.
+              <p className="text-[14px] text-center max-w-[350px] mx-auto">
+              Experience limitless trading opportunities, like swapping gold for BTC or ETH for Nvidia stock, all in one place. Traditionally, converting crypto into other assets required separate exchanges, extra fees, and long wait times. BlockchainFX streamlines it, making trading faster and easier than ever.
               </p>
             </div>
           </div>

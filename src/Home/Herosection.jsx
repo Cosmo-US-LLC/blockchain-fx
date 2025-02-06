@@ -20,14 +20,14 @@ function Herosection() {
 
 
   return (
-    <div className="pt-[55px] pb-[20px] bg-[#FFF]">
+    <div className="pt-[40px] pb-[20px] bg-[#FFF]">
       <div className="max-w-[1200px]  w-[100%] mx-auto ">
         <div className="">
-          <div className="space-y-[19.5px]">
+          <div className="space-y-[10px]">
             <h4 className="text-[18px]  leading-[144.444%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
               Blockchain Meets Global Financial Markets
             </h4>
-            <h2 className=" text-[45px] font-[700] leading-[155.556%] tracking-[-1px] text-[#000] text-center">
+            <h2 className=" text-[45px] font-[700] leading-[130%] tracking-[-1px] text-[#000] text-center">
               The Ultimate Trading Platform
             </h2>
             <p className="text-[14px] max-w-[840px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
@@ -40,7 +40,7 @@ function Herosection() {
           </div>
           <div
            onClick={handleScroll}
-          className="flex justify-center pt-[28px] pb-[37px] items-center space-x-[17px]">
+          className="flex justify-center pt-[20px] pb-[0px] items-center space-x-[17px]">
             <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
               Buy $BFX
             </button>
@@ -53,7 +53,7 @@ function Herosection() {
             <video
               width={500}
               height={410}
-              className="max-h-[550px]"
+              className="max-h-[410px]"
               muted
               autoPlay="autoplay"
               preload="auto"

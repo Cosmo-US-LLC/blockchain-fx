@@ -12,7 +12,7 @@ const cardItems = [
     img: excixn1,
     title: "Lowest Price <br/>Before Launch",
     description:
-      "Buying during the pre-sale allows you you to secure a much lower price compared to the $BFX launch price.",
+      "Buying during the pre-sale allows you to secure a much lower price compared to the $BFX launch price.",
   },
   {
     id: "02",

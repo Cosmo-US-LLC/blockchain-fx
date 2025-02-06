@@ -35,7 +35,7 @@ function EarnOnSec() {
               <source src={eranimg} type="video/webm" />
             </video>
           </div>
-          <div className="max-w-[420px] w-[50%] !mr-auto space-y-[20px]">
+          <div className="max-w-[410px] w-[50%] !mr-auto space-y-[20px]">
             <h3 className="text-[30px] capitalize font-[700] leading-[128%] text-[#181A20] tracking-[-1px] text-start">
               Earn on every <br /> trade with $BFX
             </h3>

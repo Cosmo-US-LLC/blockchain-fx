@@ -41,7 +41,7 @@ const cardItems = [
     icon:cardicn5,
     title: "05. Burn",
     description:
-      "50% of buybacks will be automatically burned, continuously reducing the supply of $BFX.",
+      "Half of all buybacks will be automatically burned, gradually reducing the supply of $BFX.",
   },
   {
     icon:cardicn6,
