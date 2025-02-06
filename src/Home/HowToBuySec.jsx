@@ -73,7 +73,7 @@ function HowToBuySec() {
                     
                     <div className="px-3 w-[100%]">
                       <div className="flex justify-between items-center">
-                        <h3 className={`text-[24px] font-[600] ${
+                        <h3 className={`text-[24px] capitalize font-[600] ${
                   index === activeIndex ? "text-[#E5AE00]" : "text-[#181A20] "
                 }`}>
                           {item.title}
@@ -87,7 +87,7 @@ function HowToBuySec() {
                         </div>
                       </div>
                       <p
-                        className={`mt-[14px] text-[16px] font-[400] text-[#000] overflow-hidden transition-all duration-300 ${
+                        className={` mt-[14px] text-[16px] font-[400] text-[#000] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"

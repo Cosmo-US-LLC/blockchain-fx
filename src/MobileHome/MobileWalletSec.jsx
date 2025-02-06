@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import info from "../assets/wallet/i.svg";
 import arw from "../assets/navbar/arw.svg";
-import wltcoin1 from "../assets/wallet/wltcoin (6).svg";
+import wltcoin1 from "../assets/wallet/wltcoin (6).png";
 import wltcoin2 from "../assets/wallet/wltcoin (5).svg";
 import wltcoin3 from "../assets/wallet/wltcoin (4).svg";
 import wltcoin4 from "../assets/wallet/wltcoin (3).svg";
@@ -162,7 +162,7 @@ function MobileWalletSec() {
               className={`flex justify-center items-center px-2  space-x-1 cursor-pointer transition-all`}
             >
               <img
-                className="w-[13px] h-[13px]"
+                className="w-[13px] h-[13px] object-cover"
                 src={coin.icon}
                 alt={coin.name}
               />
@@ -190,7 +190,7 @@ function MobileWalletSec() {
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
                 <img
-                  className="w-[19px] h-[19px]"
+                  className="w-[19px] h-[19px] object-cover"
                   src={selectedCoin.icon}
                   alt={selectedCoin.name}
                 />
@@ -212,7 +212,7 @@ function MobileWalletSec() {
                       onClick={() => handleSelectCoin(coin)}
                     >
                       <img
-                        className="w-[18px] h-[18px]"
+                        className="w-[18px] h-[18px] object-cover"
                         src={coin.icon}
                         alt="coin"
                       />

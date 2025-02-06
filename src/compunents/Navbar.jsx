@@ -121,6 +121,13 @@ function Navbar() {
           </a>
           <a
             className="text-[14px] font-[500] text-[#000]"
+            onClick={(e) => handleScroll(e, "whitepaper", 40)}
+            href=""
+          >
+           Whitepaper
+          </a>
+          <a
+            className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "roadmap", 90)}
             href=""
           >
@@ -207,6 +214,13 @@ function Navbar() {
             onClick={(e) => handleScroll(e, "how-to-buy", 90)}
           >
             How to Buy
+          </a>
+          <a
+            className="block text-[16px] font-[500] text-[#000] mb-4"
+            href=""
+            onClick={(e) => handleScroll(e, "whitepaper", 90)}
+          >
+           Whitepaper
           </a>
           <a
             className="block text-[16px] font-[500] text-[#000] mb-4"

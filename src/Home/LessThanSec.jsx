@@ -8,8 +8,7 @@ function LessThanSec() {
       <div className="max-w-[1200px] space-y-[50px] w-[100%] mx-auto ">
         <div className="space-y-[18px]">
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[58px] text-[#181A20] tracking-[-1px]">
-            The Bridge Between <br />
-            Blockchain and Global Finance
+          Bridging Crypto and Finance
           </h3>
           <p className="text-[14px] font-[400] w-[832px] mx-auto text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
             Crypto makes up only 0.87% of global trading volume in 2024,

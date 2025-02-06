@@ -31,7 +31,7 @@ function NextGenerationSec() {
         <h3 className="text-[30px] font-[700] leading-[155.556%] leading-[-1px] text-center">
           Next Generation Trading Experience
         </h3>
-        <div className="space-y-[30px]">
+        <div className="space-y-[45px]">
           <div className="flex justify-center items-center space-x-[5rem]">
             <div className="flex flex-col min-w-[185px] items-center space-y-[9px]">
               <div className="min-h-[40px] max-h-[40px]">
@@ -116,7 +116,7 @@ function NextGenerationSec() {
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center pt-[40px] space-x-[17px]">
+          <div className="flex justify-center items-center pt-[30px] space-x-[17px]">
             <button
               onClick={handleScroll}
               className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"

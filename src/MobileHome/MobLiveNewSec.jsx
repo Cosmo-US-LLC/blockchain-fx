@@ -11,7 +11,7 @@ function MobLiveNewSec() {
             Live News <br /> Trading Feature
             </h3>
             <p className="text-[15px] font-[400] max-w-[330px] mx-auto text-center leading-[130%] text-[#181A20] ">
-            Stay ahead of the markets with our lightning-fast live news feature. Get real-time updates on market developments and make smarter trading decisions based on the latest news.
+            Stay ahead of the markets with lightning-fast live news. Get real-time updates on market developments and make smarter trading decisions based on the latest news.
             </p>
           </div>
           <div className="min-h-[1000px] pt-1 flex relative justify-center">

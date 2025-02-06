@@ -11,7 +11,7 @@ function LiveNewSec() {
             Live News Trading Feature
           </h3>
           <p className="text-[14px] font-[400] text-center max-w-[660px] mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            Stay ahead of the markets with our lightning-fast live news feature.
+            Stay ahead of the markets with lightning-fast live news.
             Get real-time updates on market developments and make smarter
             trading decisions based on the latest news.
           </p>

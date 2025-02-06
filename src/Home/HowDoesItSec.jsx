@@ -27,7 +27,7 @@ const cardItems = [
     {
       id: "05",
       title: "Burn",
-      description: "50% of buybacks will be automatically burned, continuously reducing the supply of $BFX.",
+      description: "Half of all buybacks will be automatically burned, gradually reducing the supply of $BFX.",
     },
     {
       id: "06",

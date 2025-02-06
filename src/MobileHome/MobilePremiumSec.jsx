@@ -32,7 +32,7 @@ const cardsmob = [
     title: "Advanced",
     price: "$2500",
     reviews: [true, true, false, false, false],
-    points: ["Early Access", "20% BFX Bonus", "$200 Trading Account"],
+    points: ["Early Access", "20% BFX Bonus", "$500 Trading Account"],
     buttonLabel: "Buy $BFX",
   },
   {
@@ -41,7 +41,7 @@ const cardsmob = [
     title: "Pro",
     price: "$5000",
     reviews: [true, true, true, false, false],
-    points: ["Early Access", "30% BFX Bonus", "$500 Trading Account"],
+    points: ["Early Access", "30% BFX Bonus", "$1000 Trading Account"],
     buttonLabel: "Buy $BFX",
   },
   {
@@ -55,7 +55,7 @@ const cardsmob = [
       "Early Access",
       "40% BFX Bonus",
       "Daily USDT Rewards",
-      "$1200 Bonus Trading Account",
+      "$2000 Bonus Trading Account",
     ],
     buttonLabel: "Buy $BFX",
   },
@@ -70,7 +70,7 @@ const cardsmob = [
       "Early Access",
       "50% BFX Bonus",
       "Daily USDT Rewards",
-      "$3000 Bonus Trading Account",
+      "$5000 Bonus Trading Account",
     ],
     buttonLabel: "Buy $BFX",
   },
@@ -117,13 +117,13 @@ const Bundles = [
     id: 2,
     question: "When will I get my Bonuses?",
     answer:
-      "Your BFX bonus will be added to your account immediately. Some of the other features will be available when you claim your NFT after the pre-sale ends. These bonuses are exclusive to the pre-sale and will not be available afterward.",
+      "Your BFX bonuses will appear on your dashboard instantly. These bonuses are only available during the pre-sale and won’t be available afterward.",
   },
   {
     id: 3,
     question: "Can I get an NFT with multiple purchases?",
     answer:
-      "Yes, you can purchase $BFX in smaller amounts to reach the total required. For example, if you buy $200 worth of $BFX five times, you'll earn the Novice NFT (worth $1,000). You can also upgrade your NFT by purchasing more tokens to reach the next tier.",
+      "Yes, you can buy $BFX in smaller amounts to reach the total required.For example, buying $200 worth of $BFX five times will earn you the Novice NFT (valued at $1,000).",
   },
   {
     id: 4,
@@ -157,7 +157,7 @@ function MobilePremiumSec() {
       <div className="w-[90%] space-y-[20px] mx-auto relative">
         <div className="space-y-[12px]">
           <h3 className="text-[30px] leading-[100%] text-[#000] text-center font-bold">
-          Limited <br /> Trading Bundles
+          Trading <br /> Account Credits
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
           Buy $BFX in the pre-sale and get exclusive Trading Bundle NFTs starting at $1,000! Enjoy early access, membership NFTs, bonus $BFX, daily USDT rewards, and extra trading funds to jumpstart your BlockchainFX journey. Only available during the pre-sale!
