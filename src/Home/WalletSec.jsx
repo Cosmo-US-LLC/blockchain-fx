@@ -56,7 +56,7 @@ function WalletSec() {
     }
   };
   return (
-    <div className="pt-[42px] pb-[29px] space-y-[14px] bg-[#FFF]" id="Wallet">
+    <div className="pt-[42px] pb-[35px] space-y-[14px] bg-[#FFF]" id="Wallet">
       <div
         style={{
           background: "rgba(247, 247, 247, 0.70)",
@@ -149,7 +149,7 @@ function WalletSec() {
           </h4>
         </div>
         <div
-          className="px-[24px] flex justify-center py-[12px] space-x-[12px]"
+          className="px-[24px] flex justify-center py-[10px] space-x-[12px]"
           style={{
             background: "rgba(237, 237, 237, 0.40)",
           }}
@@ -177,7 +177,7 @@ function WalletSec() {
             </div>
           ))}
         </div>
-        <div className="flex justify-center items-center py-[5px] space-x-[15px]">
+        <div className="flex justify-center items-center py-[0px] space-x-[15px]">
           <hr className="h-[1px] w-[35%]" />
           <span className="text-[#636363] text-end text-[9.875px] font-[700] leading-[75%]">
             1 BFX = $0.002
