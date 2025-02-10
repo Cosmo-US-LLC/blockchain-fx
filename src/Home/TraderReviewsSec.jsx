@@ -41,37 +41,37 @@ function TraderReviewsSec() {
                 <div className="flex justify-between space-x-4 items-center">
                   <span className="text-[19.3px] font-[400] w-[30px]">5</span>
                   <div className="h-[14px] w-[205px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[79%]"></div>
+                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[86%]"></div>
                   </div>
-                  <span className="text-[19.3px] font-[400] w-[50px]">79%</span>
+                  <span className="text-[19.3px] font-[400] w-[50px]">86%</span>
                 </div>
                 <div className="flex justify-between space-x-4 items-center">
                   <span className="text-[19.3px] font-[400] w-[30px]">4</span>
                   <div className="h-[14px] w-[205px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[30%]"></div>
+                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[12%]"></div>
                   </div>
-                  <span className="text-[19.3px] font-[400] w-[50px]">30%</span>
+                  <span className="text-[19.3px] font-[400] w-[50px]">8%</span>
                 </div>
                 <div className="flex justify-between space-x-4 items-center">
                   <span className="text-[19.3px] font-[400] w-[30px]">3</span>
                   <div className="h-[14px] w-[205px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[13%]"></div>
+                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[9%]"></div>
                   </div>
-                  <span className="text-[19.3px] font-[400] w-[50px]">13%</span>
+                  <span className="text-[19.3px] font-[400] w-[50px]">3%</span>
                 </div>
                 <div className="flex justify-between space-x-4 items-center">
                   <span className="text-[19.3px] font-[400] w-[30px]">2</span>
                   <div className="h-[14px] w-[205px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[6%]"></div>
+                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[8%]"></div>
                   </div>
-                  <span className="text-[19.3px] font-[400] w-[50px]">6%</span>
+                  <span className="text-[19.3px] font-[400] w-[50px]">2%</span>
                 </div>
                 <div className="flex justify-between space-x-4 items-center">
                   <span className="text-[19.3px] font-[400] w-[30px]">1</span>
                   <div className="h-[14px] w-[205px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                    <div className="bg-[#E5AE00] h-[14px] rounded-[16.955px] w-[4%]"></div>
+                    <div className="bg-[#E5AE00] h-[14px] rounded-[100%] w-[6%]"></div>
                   </div>
-                  <span className="text-[19.3px] font-[400] w-[50px]">2%</span>
+                  <span className="text-[19.3px] font-[400] w-[50px]">1%</span>
                 </div>
               </div>
             </div>

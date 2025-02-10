@@ -12,10 +12,10 @@ function OurAwardSec() {
     >
       <div className="max-w-[1032.65px] relative space-y-[40px] w-[100%] mx-auto ">
         <div className="space-y-[10px]">
-          <h4 className="text-[35px] capitalize font-[400] text-center leading-[30px] text-[#181A20] tracking-[-1px]">
+          <h4 className="text-[20px] capitalize font-[400] text-center leading-[30px] text-[#181A20] tracking-[-1px]">
             Multi-Awarded Trading Platform
           </h4>
-          <h3 className="text-[30px] font-[700] capitalize text-center leading-[58px] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] capitalize text-center leading-[128.889%] text-[#181A20] tracking-[-1px]">
             Our Awards speak for themselves
           </h3>
         </div>

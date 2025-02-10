@@ -46,15 +46,15 @@ function Home() {
         <HowDoesItSec />
         <ExclusiveBenefitsSec/>
         <PremiumSec />
-        <HowToBuySec />
+        {/* <HowToBuySec /> */}
         <LessThanSec />
         <StandoutSec/>
         <HyperGrowthSec />
         <GatewaySec />
         <WallStreetSec />
         <TradeLikeSec />
-        <SwapSection />
         <TopAssetsSec />
+        <SwapSection />
         <LiveNewSec />
         <SecurityBuiltSec />
         {/* <StreamlinedSec /> */}

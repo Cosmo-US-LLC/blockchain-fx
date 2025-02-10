@@ -53,6 +53,7 @@ function Footer() {
                 <a className='text-[#949494] text-[10.8px] pt-[20px] block font-[400] leading-[108.333%]' href="">Terms of Service </a>
                 <a className='text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]' href="">Privacy  Policy </a>
                 <a className='text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]' href="">Token Sale Agreement</a>
+                <a className='text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]' href="">Contact us</a>
               </li>
             </ul>
           </div>
@@ -80,7 +81,6 @@ function Footer() {
           <p className=' text-[12px] text-[#000] leading-[100%]'>Copyright 2025. All Rights Reserved.</p>
           <div className='
           space-x-5'>
-            <a href="" className=' text-[12px] text-[#000] leading-[100%]'>Privacy Policy</a>
             <a href="" className=' text-[12px] text-[#000] leading-[100%]'>Cookie Management</a>
           </div>
         </div>
@@ -114,6 +114,7 @@ function Footer() {
                 <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Terms of Service </a>
                 <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Privacy  Policy </a>
                 <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Token Sale Agreement</a>
+                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Contact us</a>
               </li>
             </ul>
           </div>
@@ -140,7 +141,6 @@ function Footer() {
         </div>
         <div className='flex justify-center items-center'>
           <div className='space-x-4'>
-            <a href="" className='text-[12px] text-[#000] leading-[100%]'>Privacy Policy</a>
             <a href="" className='text-[12px] text-[#000] leading-[100%]'>Cookie Management</a>
           </div>
         </div>

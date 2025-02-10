@@ -91,7 +91,7 @@ function MobRoadmapSec() {
             <h3 className="text-[13.084px] font-[500] leading-[138%]">Launch</h3>
             <div className="grid grid-cols-2 gap-x-[5px] gap-y-[8px]">
                 <div className="max-w-[324px] flex items-center px-[1px] w-[100%] h-[18px] bg-[#DDD]">
-                    <p className="text-[8px] tracking-[-0.4px]">Launch our Affiliate Program </p>
+                    <p className="text-[8px] tracking-[-0.4px]">Launch an Affiliate Program </p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[1px] w-[100%] h-[18px] bg-[#DDD]">
                     <p className="text-[8px] tracking-[-0.4px]">Sell Out the Pre-Sale</p>

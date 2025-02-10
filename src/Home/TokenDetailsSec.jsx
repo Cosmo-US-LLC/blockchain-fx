@@ -32,52 +32,52 @@ function TokenDetailsSec() {
           </p>
         </div>
         <div className="space-y-[17px]">
-          <div className="w-[100%] mx-auto flex justify-between items-center ">
-            <div className="max-w-[363px] w-[100%] border px-[24px] pt-[17px] pb-[16px] border-[#000]">
+          <div className="w-[100%] space-x-[20px] mx-auto flex justify-between items-center ">
+            <div className="max-w-[363px] w-[100%] border px-[17px] pt-[14px] bg-[#fff] space-y-[7px] rounded-[6px] pb-[16px] border-[#000]">
               <h4 className="text-[#444] text-[16px] font-[400]">Token Name</h4>
-              <h3 className="text-[#444] text-[23px] font-[700]">
+              <h3 className="text-[#444] text-[16px] font-[700]">
                 BlockchainFX
               </h3>
             </div>
-            <div className="max-w-[363px] w-[100%] border px-[24px] pt-[17px] pb-[16px] border-[#000]">
+            <div className="max-w-[363px] w-[100%] border px-[17px] pt-[14px] bg-[#fff] space-y-[7px] rounded-[6px] pb-[16px] border-[#000]">
               <h4 className="text-[#444] text-[16px] font-[400]">Launch on</h4>
-              <h3 className="text-[#444] text-[23px] font-[700]">
+              <h3 className="text-[#444] text-[16px] font-[700]">
                 Uniswap and CEX
               </h3>
             </div>
-            <div className="max-w-[363px] w-[100%] border px-[24px] pt-[17px] pb-[16px] border-[#000]">
+            <div className="max-w-[363px] w-[100%] border px-[17px] pt-[14px] bg-[#fff] space-y-[7px] rounded-[6px] pb-[16px] border-[#000]">
               <h4 className="text-[#444] text-[16px] font-[400]">Token Type</h4>
-              <h3 className="text-[#444] text-[23px] font-[700]">Ethereum</h3>
+              <h3 className="text-[#444] text-[16px] font-[700]">Ethereum</h3>
             </div>
           </div>
-          <div className="w-[100%] mx-auto flex justify-between items-center ">
-            <div className="max-w-[363px] w-[100%] border px-[24px] pt-[17px] pb-[16px] border-[#000]">
+          <div className="w-[100%] mx-auto space-x-[20px] flex justify-between items-center ">
+            <div className="max-w-[363px] w-[100%] border px-[17px] pt-[14px] bg-[#fff] space-y-[7px] rounded-[6px] pb-[16px] border-[#000]">
               <h4 className="text-[#444] text-[16px] font-[400]">
                 Token Symbol
               </h4>
-              <h3 className="text-[#444] text-[23px] font-[700]">$BFX</h3>
+              <h3 className="text-[#444] text-[16px] font-[700]">$BFX</h3>
             </div>
-            <div className="max-w-[363px] w-[100%] border px-[24px] pt-[17px] pb-[16px] border-[#000]">
+            <div className="max-w-[363px] w-[100%] border px-[17px] pt-[14px] bg-[#fff] space-y-[7px] rounded-[6px] pb-[16px] border-[#000]">
               <h4 className="text-[#444] text-[16px] font-[400]">Decimal</h4>
-              <h3 className="text-[#444] text-[23px] font-[700]">18</h3>
+              <h3 className="text-[#444] text-[16px] font-[700]">18</h3>
             </div>
-            <div className="max-w-[363px] w-[100%] border px-[24px] pt-[17px] pb-[16px] border-[#000]">
+            <div className="max-w-[363px] w-[100%] border px-[17px] pt-[14px] bg-[#fff] space-y-[7px] rounded-[6px] pb-[16px] border-[#000]">
               <h4 className="text-[#444] text-[16px] font-[400]">
                 Total Supply
               </h4>
-              <h3 className="text-[#444] text-[23px] font-[700]">3.5B</h3>
+              <h3 className="text-[#444] text-[16px] font-[700]">3.5B</h3>
             </div>
           </div>
           <div className="w-[100%] mx-auto flex justify-between items-center ">
-            <div className="border px-[24px] w-[100%] pt-[17px] pb-[16px] border-[#000]">
+            <div className="border px-[17px] space-y-[7px] rounded-[6px] w-[100%] pt-[14px] bg-[#fff] pb-[16px] border-[#000]">
               <h4 className="text-[#444] text-[16px] font-[400]">
                 Token Contract Address
               </h4>
-              <h3 className="text-[#444] flex text-[23px] font-[700]">
+              <h3 className="text-[#444] flex text-[16px] font-[700]">
                 {address}{" "}
                 <img
                   src={copy}
-                  className="pl-2 cursor-pointer"
+                  className="pl-2 w-[24px] cursor-pointer"
                   alt="Copy Icon"
                   onClick={copyToClipboard}
                 />

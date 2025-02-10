@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import Iicon from "../assets/Gateway/i.svg";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import starticn from "../assets/PremiumSec/start.svg";
@@ -8,20 +10,20 @@ import arw from "../assets/PremiumSec/arw.svg";
 import faq1 from "../assets/PremiumSec/faq (1).svg";
 import faq2 from "../assets/PremiumSec/faq (2).svg";
 import line from "../assets/PremiumSec/line.png";
-import cardimg1 from "../assets/PremiumSec/cardimg (3).png";
-import cardimg2 from "../assets/PremiumSec/cardimg (2).png";
-import cardimg3 from "../assets/PremiumSec/cardimg (1).png";
-import cardimg4 from "../assets/PremiumSec/cardimg (4).png";
-import cardimg5 from "../assets/PremiumSec/cardimg (5).png";
-import cardimg6 from "../assets/PremiumSec/cardimg (6).png";
-import cardimg7 from "../assets/PremiumSec/cardimg (7).png";
+import cardimg1 from "../assets/PremiumSec/cardimg (1).webp";
+import cardimg2 from "../assets/PremiumSec/cardimg (2).webp";
+import cardimg3 from "../assets/PremiumSec/cardimg (3).webp";
+import cardimg4 from "../assets/PremiumSec/cardimg (4).webp";
+import cardimg5 from "../assets/PremiumSec/cardimg (5).webp";
+import cardimg6 from "../assets/PremiumSec/cardimg (6).webp";
+import cardimg7 from "../assets/PremiumSec/cardimg (7).webp";
 
 const cardsmob = [
   {
     id: 1,
     img: cardimg1,
     title: "Novice",
-    price: "$1000",
+    price: "$1,000",
     reviews: [true, false, false, false, false],
     points: ["Early Access", "10% BFX Bonus"],
     buttonLabel: "Buy $BFX",
@@ -30,18 +32,18 @@ const cardsmob = [
     id: 2,
     img: cardimg2,
     title: "Advanced",
-    price: "$2500",
+    price: "$2,500",
     reviews: [true, true, false, false, false],
-    points: ["Early Access", "20% BFX Bonus", "$500 Trading Account"],
+    points: ["Early Access", "20% BFX Bonus", "$500 Trading Credits"],
     buttonLabel: "Buy $BFX",
   },
   {
     id: 3,
     img: cardimg3,
     title: "Pro",
-    price: "$5000",
+    price: "$5,000",
     reviews: [true, true, true, false, false],
-    points: ["Early Access", "30% BFX Bonus", "$1000 Trading Account"],
+    points: ["Early Access", "30% BFX Bonus", "$1000 Trading Credits"],
     buttonLabel: "Buy $BFX",
   },
   {
@@ -55,7 +57,7 @@ const cardsmob = [
       "Early Access",
       "40% BFX Bonus",
       "Daily USDT Rewards",
-      "$2000 Bonus Trading Account",
+      "$2000 Bonus Trading Credits",
     ],
     buttonLabel: "Buy $BFX",
   },
@@ -63,14 +65,14 @@ const cardsmob = [
     id: 5,
     img: cardimg5,
     title: "Master",
-    price: "$25000+",
+    price: "$25,000+",
 
     reviews: [true, true, true, true, true],
     points: [
       "Early Access",
       "50% BFX Bonus",
       "Daily USDT Rewards",
-      "$5000 Bonus Trading Account",
+      "$5000 Bonus Trading Credits",
     ],
     buttonLabel: "Buy $BFX",
   },
@@ -85,7 +87,7 @@ const cardsmob = [
       "Early Access",
       "60% BFX Bonus",
       "Daily USDT Rewards",
-      "$10,000 Bonus Trading Account",
+      "$10,000 Bonus Trading Credits",
     ],
     buttonLabel: "Buy $BFX",
   },
@@ -100,7 +102,7 @@ const cardsmob = [
       "Early Access",
       "80% BFX Bonus",
       "Daily USDT Rewards",
-      "$25,000 Bonus Trading Account",
+      "$25,000 Bonus Trading Credits",
       "Personalised Portfolio Management",
     ],
     buttonLabel: "Buy $BFX",
@@ -117,7 +119,7 @@ const Bundles = [
     id: 2,
     question: "When will I get my Bonuses?",
     answer:
-      "Your BFX bonuses will appear on your dashboard instantly. These bonuses are only available during the pre-sale and won’t be available afterward.",
+      "Your BFX bonuses will be instantly added to your dashboard. To access your dashboard, click the 'Connect Wallet' button",
   },
   {
     id: 3,
@@ -128,13 +130,19 @@ const Bundles = [
   {
     id: 4,
     question: "Can I upgrade my NFT?",
+    tooltip: true,
     answer:
-      "Yes, you can upgrade your NFT while the pre-sale is still ongoing. For example, if you spend $1,000 on $BFX, you’ll receive the Novice NFT. To upgrade to the Advanced NFT, you’ll need to purchase an additional $1,500 worth of $BFX. You'll receive the rewards and NFT for the highest level you reach. After the pre-sale ends, upgrades will no longer be possible.",
+      "Yes, you can upgrade multiple times during the presale. <br/> You'll receive rewards and the NFT for the highest level you achieve. <br/> After the presale ends, upgrades will no longer be possible.",
   },
 ];
 
 function MobilePremiumSec() {
   const [openBundles, setOpenBundles] = useState(0);
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  const [mainSwiper, setMainSwiper] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
   const toggleBundles = (id) => {
     setOpenBundles(id === openBundles ? null : id);
   };
@@ -143,24 +151,28 @@ function MobilePremiumSec() {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
       if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
         const offset = 80;
         window.scrollTo({
           top: elementPosition - offset,
-          behavior: "smooth"
+          behavior: "smooth",
         });
       }
-    }, 200); 
+    }, 200);
   };
   return (
     <div className="pt-[24px] pb-[24px]" id="premium">
       <div className="w-[90%] space-y-[20px] mx-auto relative">
         <div className="space-y-[12px]">
           <h3 className="text-[30px] leading-[100%] text-[#000] text-center font-bold">
-          Trading <br /> Account Credits
+            Limited <br /> Founder's Club NFTs
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-          Buy $BFX in the pre-sale and get exclusive Trading Bundle NFTs starting at $1,000! Enjoy early access, membership NFTs, bonus $BFX, daily USDT rewards, and extra trading funds to jumpstart your BlockchainFX journey. Only available during the pre-sale!
+            Buy $BFX during the pre-sale and get Founder's Club NFTs starting at
+            $1,000! Enjoy early access, exclusive memberships, bonus $BFX, daily
+            staking rewards in BFX and USDT, plus extra trading credits.
+            Available only during the pre-sale!
           </p>
         </div>
         <div className="w-[100%] mx-auto ">
@@ -173,9 +185,11 @@ function MobilePremiumSec() {
             </button>
 
             <Swiper
-            speed={800}
+              speed={800}
               slidesPerView={1}
               spaceBetween={20}
+              onSwiper={setMainSwiper}
+              onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
               navigation={{
                 nextEl: ".swiper-button-next-1",
                 prevEl: ".swiper-button-prev-1",
@@ -239,8 +253,9 @@ function MobilePremiumSec() {
                       </ul>
                     </div>
                     <div className="flex justify-start">
-                      <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[40px]"
-                      onClick={handleScroll}
+                      <button
+                        className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[40px]"
+                        onClick={handleScroll}
                       >
                         Buy $BFX
                       </button>
@@ -272,77 +287,46 @@ function MobilePremiumSec() {
               loop={false}
               className="mySwiper"
             >
-              <SwiperSlide>
-              <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Novice
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $1000+
-              </p>
-            </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Advanced
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $2500+
-              </p>
-            </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px] ">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Pro
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $5000+
-              </p>
-            </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Expert
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $10,000+
-              </p>
-            </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Master
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $25,000+
-              </p>
-            </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Elite
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $50,000+
-              </p>
-            </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
-              <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Legend
-              </h4>
-              <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $100,000+
-              </p>
-            </div>
-              </SwiperSlide>
-              
+              {[
+                "Novice",
+                "Advanced",
+                "Pro",
+                "Expert",
+                "Master",
+                "Elite",
+                "Legend",
+              ].map((tier, index) => (
+                <SwiperSlide key={index}>
+                  <div
+                    onClick={() => {
+                      if (mainSwiper) {
+                        mainSwiper.slideTo(index);
+                      } else {
+                      }
+                    }}
+                    className={`w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px] relative z-[90] cursor-pointer ${
+                      activeIndex === index ? "border" : "border border-[#F5F5F5]"
+                    }`}
+                  >
+                    <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
+                      {tier}
+                    </h4>
+                    <p className="text-[#7C7C7C] font-[400] text-[9px] text-center">
+                      {
+                        [
+                          "$1,000+",
+                          "$2,500+",
+                          "$5,000+",
+                          "$10,000+",
+                          "$25,000+",
+                          "$50,000+",
+                          "$100,000+",
+                        ][index]
+                      }
+                    </p>
+                  </div>
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>
@@ -355,10 +339,11 @@ function MobilePremiumSec() {
 
           <div>
             {Bundles.map((item, index) => (
-              <div key={item.id} className={`py-[14px] ${
-                index !== Bundles.length - 1 ? "border-b border-[#000]" : ""
-              }`}
-              
+              <div
+                key={item.id}
+                className={`py-[14px] ${
+                  index !== Bundles.length - 1 ? "border-b border-[#000]" : ""
+                }`}
               >
                 <div
                   className="flex justify-between items-center cursor-pointer"
@@ -384,9 +369,45 @@ function MobilePremiumSec() {
                   </span>
                 </div>
                 {openBundles === item.id && (
-                  <p className="mt-2 text-[15px] text-[#181A20] font-[400] tracking-[-0.32px]">
-                    {item.answer}
-                  </p>
+                  <div className="relative">
+                    <p
+                      className="mt-2 text-[15px] text-[#181A20] font-[400] tracking-[-0.32px]"
+                      dangerouslySetInnerHTML={{ __html: item.answer }}
+                    ></p>
+                    {item.tooltip && (
+                      <div className="absolute top-[21%] z-[9] left-[30%]">
+                        <div
+                          className="relative"
+                          onMouseEnter={() => setShowTooltip(true)}
+                          onMouseLeave={() => setShowTooltip(false)}
+                        >
+                          <img
+                            className="w-[11.7px]"
+                            src={Iicon}
+                            alt="Info Icon"
+                          />
+                          {showTooltip && (
+                            <div className="absolute top-[100%] left-[-500%] z-[99] bg-[#808080] w-[260px] text-start leading-[110%] text-[#fff] text-[10px] font-[400] rounded-md p-[10px] shadow-lg">
+                              <span className="absolute top-[8px] left-[4px]">
+                                .
+                              </span>{" "}
+                              For example, buying $1,000 of $BFX gives you the
+                              Novice NFT. <br />{" "}
+                              <span className="absolute top-[28px] left-[4px]">
+                                .
+                              </span>{" "}
+                              Spend $1,500 more to upgrade to Advanced. <br />{" "}
+                              <span className="absolute top-[40px] left-[4px]">
+                                .
+                              </span>{" "}
+                              You can keep upgrading until you reach the final
+                              Legend NFT.
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 )}
               </div>
             ))}

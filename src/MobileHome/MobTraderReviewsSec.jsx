@@ -38,37 +38,37 @@ function MobTraderReviewsSec() {
                 <div className="flex justify-between space-x-4 items-center">
                     <span className="text-[15px] font-[400] w-[20px]">5</span>
                     <div className="h-[17px] w-[360px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                        <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[79%]"></div>
+                        <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[86%]"></div>
                     </div>
-                    <span className="text-[15px] font-[400] w-[50px]">79%</span>
+                    <span className="text-[15px] font-[400] w-[50px]">86%</span>
                 </div>
                 <div className="flex justify-between space-x-4 items-center">
                     <span className="text-[15px] font-[400] w-[20px]">4</span>
                     <div className="h-[17px] w-[360px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                        <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[30%]"></div>
+                        <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[12%]"></div>
                     </div>
-                    <span className="text-[15px] font-[400] w-[50px]">30%</span>
+                    <span className="text-[15px] font-[400] w-[50px]">8%</span>
                 </div>
                 <div className="flex justify-between space-x-4 items-center">
                     <span className="text-[15px] font-[400] w-[20px]">3</span>
                     <div className="h-[17px] w-[360px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                        <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[13%]"></div>
+                        <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[7%]"></div>
                     </div>
-                    <span className="text-[15px] font-[400] w-[50px]">13%</span>
+                    <span className="text-[15px] font-[400] w-[50px]">3%</span>
                 </div>
                 <div className="flex justify-between space-x-4 items-center">
                     <span className="text-[15px] font-[400] w-[20px]">2</span>
                     <div className="h-[17px] w-[360px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
                         <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[6%]"></div>
                     </div>
-                    <span className="text-[15px] font-[400] w-[50px]">6%</span>
+                    <span className="text-[15px] font-[400] w-[50px]">2%</span>
                 </div>
                 <div className="flex justify-between space-x-4 items-center">
                     <span className="text-[15px] font-[400] w-[20px]">1</span>
                     <div className="h-[17px] w-[360px] w-[100%] bg-[#D9D9D9] rounded-[16.955px]">
-                        <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[4%]"></div>
+                        <div className="bg-[#E5AE00] h-[17px] rounded-[16.955px] w-[5%]"></div>
                     </div>
-                    <span className="text-[15px] font-[400] w-[50px]">2%</span>
+                    <span className="text-[15px] font-[400] w-[50px]">1%</span>
                 </div>
             </div>
          </div>

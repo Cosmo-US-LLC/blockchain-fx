@@ -39,7 +39,7 @@ function OneAppSec() {
   };
 
   return (
-    <div className="py-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx">
+    <div className="py-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx-coin">
      <div className="max-w-[1300px] w-[100%] mx-auto relative">
      <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[473px] space-y-[20px]">
