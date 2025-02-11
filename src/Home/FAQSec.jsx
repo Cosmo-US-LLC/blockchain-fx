@@ -94,7 +94,7 @@ const FaqSec = () => {
     {
       question: "How to claim your BFX?",
       answer:
-        "Once the pre-sale ends, you will be able to claim your BFX tokens in your dashboard wallet on presale.blockchainfx.com.",
+        "Once the pre-sale ends, you will be able to claim your BFX tokens in your dashboard wallet on blockchainfx.com.",
     },
   ];
   const [openItems, setOpenItems] = useState([]);

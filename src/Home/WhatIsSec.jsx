@@ -1,6 +1,7 @@
 import React from "react";
 
-import whatisimg from "../assets/WhatIsSec/whatisimg.gif";
+import whatisimg from "../assets/WhatIsSec/whatisimg.webp"
+import check from "../assets/WhatIsSec/check_02.webp"
 
 function WhatIsSec() {
   const handleScroll = () => {
@@ -20,10 +21,9 @@ function WhatIsSec() {
   return (
     <div
       className="pt-[50px] pb-[50px] bgwhat"
-      id="what-is-bfx-coin"
-      style={{ height: "750px" }}
+      style={{ height: "auto" }}
     >
-      <div className="max-w-[866px] relative -space-y-[30px] w-[100%] mx-auto ">
+      <div className="max-w-[866px] relative  w-[100%] mx-auto ">
         <div className="space-y-[30px]">
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             What is $BFX?
@@ -34,25 +34,31 @@ function WhatIsSec() {
             up as it grows in popularity.
           </p>
         </div>
-        <div className="max-w-[664px] w-[100%] mx-auto pt-[0rem] pb-[7rem]">
+        <div className="max-w-[690px] pt-[30px] mx-auto flex justify-between items-center">
+          <div className="p-[10px] rounded-[4px] flex justify-between items-center border border-[#D2D2D2]">
+            <img src={check} className="w-[24px] h-[24px] " alt="" />
+            <p className="text-[14px] font-[500] tracking-[-0.32px]">Early Access</p>
+          </div>
+          <div className="p-[10px] rounded-[4px] flex justify-between items-center border border-[#D2D2D2]">
+            <img src={check} className="w-[24px] h-[24px] " alt="" />
+            <p className="text-[14px] font-[500] tracking-[-0.32px]">Daily Staking Rewards</p>
+          </div>
+          <div className="p-[10px] rounded-[4px] flex justify-between items-center border border-[#D2D2D2]">
+            <img src={check} className="w-[24px] h-[24px] " alt="" />
+            <p className="text-[14px] font-[500] tracking-[-0.32px]">70% Less Trading Fees</p>
+          </div>
+          <div className="p-[10px] rounded-[4px] flex justify-between items-center border border-[#D2D2D2]">
+            <img src={check} className="w-[24px] h-[24px] " alt="" />
+            <p className="text-[14px] font-[500] tracking-[-0.32px]">Trading Credits</p>
+          </div>
+          
+        </div>
+        <div className="max-w-[664px] w-[100%] mx-auto mt-[-1rem] pb-[7rem]">
           <img
             src={whatisimg}
-            className="!ml-[110px] max-w-[519px] h-[454px] pt-[-15px]"
+            className="!ml-[70px] max-w-[519px] h-[454px] pt-[40px]"
             alt=""
           />
-          {/* <video
-            width={500}
-            height={410}
-            className="!ml-[110px] max-w-[519px] h-[454px] pt-[-15px] bg-transparent"
-            muted
-            autoPlay="autoplay"
-            preload="auto"
-            playsInline
-            loop
-            style={{ backgroundColor: "transparent" }}
-          >
-            <source src={whatisimgMP4} type="video/mp4" />
-          </video> */}
         </div>
         <div className="flex justify-center">
           <button

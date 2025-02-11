@@ -1,5 +1,5 @@
 import React from "react";
-// import herogif from "../assets/herosection/herogif.gif";
+import stars from "../assets/herosection/stars.webp";
 // import heroVideo from "../assets/herosection/heroVideo.mp4";
 import heroVideo from "../assets/herosection/heroVideo.webm";
 
@@ -20,14 +20,14 @@ function Herosection() {
 
 
   return (
-    <div className="pt-[40px] pb-[20px] bg-[#FFF]">
+    <div className="pt-[50px] pb-[20px] bg-[#FFF]">
       <div className="max-w-[1200px]  w-[100%] mx-auto ">
         <div className="">
           <div className="space-y-[10px]">
             <h4 className="text-[18px]  leading-[144.444%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
               Blockchain Meets Global Financial Markets
             </h4>
-            <h2 className=" text-[45px] font-[700] leading-[130%] tracking-[-1px] text-[#000] text-center">
+            <h2 className=" text-[45px] font-[700] leading-[120%] tracking-[-1px] text-[#000] text-center">
               The Ultimate Trading Platform
             </h2>
             <p className="text-[14px] max-w-[840px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
@@ -39,14 +39,22 @@ function Herosection() {
             </p>
           </div>
           <div
-           onClick={handleScroll}
           className="flex justify-center pt-[20px] pb-[0px] items-center space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
+            <button 
+             onClick={handleScroll}
+            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
               Buy $BFX
             </button>
             <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
-              Beta Trading
+            Whitepaper
             </button>
+          </div>
+          <div className="flex items-center justify-center pt-[20px] space-x-3">
+            <div className="flex space-x-2 items-center">
+            <img className="w-[84px]" src={stars} alt="" />
+              <p className="text-[#3E3E3E] font-[400] text-[14px]">4.79/5 </p>
+            </div>
+            <p className="text-[#000] font-[400] text-[14px]">Rated by Users</p>
           </div>
           <div className="flex justify-center max-w-[619px] mx-auto">
             {/* <img src={herogif} className="max-h-[550px]" alt="" /> */}

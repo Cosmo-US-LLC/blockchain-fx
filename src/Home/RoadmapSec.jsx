@@ -91,7 +91,7 @@ function RoadmapSec() {
             <h3 className="text-[22px] font-[500] leading-[138%]">Launch</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px] text-[14px]">
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p className="text-[12px]">Launch our Affiliate Program </p>
+                    <p className="text-[12px]">Launch an Affiliate Program </p>
                 </div>
                 <div className="max-w-[324px] flex items-center  px-[12px] w-[100%] h-[44px] bg-[#DDD]">
                     <p className="text-[12px]">Sell Out the Pre-Sale</p>
