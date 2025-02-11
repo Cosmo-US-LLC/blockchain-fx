@@ -24,14 +24,14 @@ const cardItems = [
   {
     id: "03",
     img: excixn3,
-    title: "Exclusive Pre-Sale <br/> Trading Bundles",
+    title: "Unlock Bonus <br/> trading credits",
     description:
       "Receive exclusive trading bundles packed with multiple perks during the pre-sale.",
   },
   {
     id: "04",
     img: excixn4,
-    title: "Earn Daily <br/> USDT Rewards",
+    title: " Daily USDT <br/> Staking Income",
     description:
       "Earn daily USDT and $BFX rewards during the pre-sale. The earlier you buy, the more you get.",
   },

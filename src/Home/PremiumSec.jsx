@@ -109,7 +109,7 @@ const cards = [
 const Bundles = [
   {
     id: 1,
-    question: "When will I get my Trading Bundle NFT?",
+    question: "When will I get my Founder’s Club NFT?",
     answer:
       "You’ll receive your NFT automatically after purchasing the required amount of $BFX. It will appear in your personal dashboard and can be claimed once the pre-sale concludes.",
   },
@@ -128,7 +128,7 @@ const Bundles = [
   {
     id: 4,
     question: "Can I upgrade my NFT?",
-    tooltip:true,
+    tooltip: true,
     answer:
       "Yes, you can upgrade multiple times during the presale. <br/> You'll receive rewards and the NFT for the highest level you achieve. <br/> After the presale ends, upgrades will no longer be possible.",
   },
@@ -137,9 +137,9 @@ const Bundles = [
 function PremiumSec() {
   const [openBundles, setOpenBundles] = useState(0);
   const [activeIndex, setActiveIndex] = useState(0);
-  
+
   const [showTooltip, setShowTooltip] = useState(false);
-  
+
   const swiperRef = useRef(null);
 
   const handleDotClick = (index) => {
@@ -156,14 +156,15 @@ function PremiumSec() {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
       if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
         const offset = 50;
         window.scrollTo({
           top: elementPosition - offset,
-          behavior: "smooth"
+          behavior: "smooth",
         });
       }
-    }, 200); 
+    }, 200);
   };
 
   return (
@@ -171,10 +172,13 @@ function PremiumSec() {
       <div className="max-w-[1400px] w-[100%] space-y-[30px] mx-auto relative">
         <div className="space-y-[10px]">
           <h3 className="text-[30px] leading-[155.556%] text-[#000] text-center font-[700]">
-          Limited Founder's Club NFTs
+            Limited Founder's Club Membership
           </h3>
           <p className="text-[14px] leading-[150%] max-w-[572px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-          Buy $BFX during the pre-sale and get Founder's Club NFTs starting at $1,000! Enjoy early access, exclusive memberships, bonus $BFX, daily staking rewards in BFX and USDT, plus extra trading credits. Available only during the pre-sale!
+            Buy $BFX during the pre-sale and get Founder's Club NFTs starting at
+            only $1,000!  Enjoy early access, exclusive memberships, bonus $BFX,
+            daily staking rewards in BFX and USDT, plus extra trading credits.
+            Available only during the pre-sale!
           </p>
         </div>
         <div className="max-w-[1012px] w-[100%] mx-auto ">
@@ -265,10 +269,8 @@ function PremiumSec() {
                   </div>
                 </SwiperSlide>
               ))}
-              <SwiperSlide>
-              </SwiperSlide>
-              <SwiperSlide>
-              </SwiperSlide>
+              <SwiperSlide></SwiperSlide>
+              <SwiperSlide></SwiperSlide>
             </Swiper>
           </div>
         </div>
@@ -279,7 +281,9 @@ function PremiumSec() {
                 <div
                   key={index}
                   className={`w-[21.85px] h-[21.85px] cursor-pointer rounded-full  ${
-                    activeIndex === index ? "border-black border-[3px] -mt-[2px] w-[24.85px] h-[24.85px]" : ""
+                    activeIndex === index
+                      ? "border-black border-[3px] -mt-[2px] w-[24.85px] h-[24.85px]"
+                      : ""
                   }`}
                   style={{
                     background: "#E5AE00",
@@ -289,10 +293,13 @@ function PremiumSec() {
               ))}
             </div>
             <div className="h-[11px] w-[100%] rounded-[50px] bg-[#C0C0C0]">
-            <div className="bg-[#E5AE00] h-[11px] w-[80%] rounded-[50px]"
-            style={{ width: `${(activeIndex / (cards.length - 1)) * 100}%` }}
-            ></div>
-           </div>
+              <div
+                className="bg-[#E5AE00] h-[11px] w-[80%] rounded-[50px]"
+                style={{
+                  width: `${(activeIndex / (cards.length - 1)) * 100}%`,
+                }}
+              ></div>
+            </div>
           </div>
           <div className="flex justify-between pt-[8px] pl-2">
             <div className="w-[100%] max-w-[70px]">
@@ -389,36 +396,44 @@ function PremiumSec() {
                 </div>
                 {openBundles === item.id && (
                   <div className="relative">
-                  <p className="mt-2 text-[14px] text-[#181A20] font-[400] tracking-[-0.32px]"
-                  dangerouslySetInnerHTML={{ __html: item.answer }}
-                  
-                  >
-                  </p>
-                  {item.tooltip && (
-                          <div className="absolute top-[6px] z-[9] left-[360px]">
-                            <div
-                              className="relative"
-                              onMouseEnter={() => setShowTooltip(true)}
-                              onMouseLeave={() => setShowTooltip(false)}
-                            >
-                              <img
-                                className="w-[11.7px]"
-                                src={Iicon}
-                                alt="Info Icon"
-                              />
-                              {showTooltip && (
-                                <div className="absolute top-[13px] z-[99] bg-[#808080] w-[260px] text-start leading-[110%] text-[#fff] text-[10px] font-[400] rounded-md p-[10px] shadow-lg">
-                                  <span className="absolute top-[8px] left-[4px]">.</span> For example, buying $1,000 of $BFX gives you
-                                  the Novice NFT. <br /> <span className="absolute top-[28px] left-[4px]">.</span> Spend $1,500 more to upgrade
-                                  to Advanced. <br /> <span className="absolute top-[40px] left-[4px]">.</span> You can  keep upgrading until you
-                                  reach the final Legend NFT.
-                                </div>
-                              )}
+                    <p
+                      className="mt-2 text-[14px] text-[#181A20] font-[400] tracking-[-0.32px]"
+                      dangerouslySetInnerHTML={{ __html: item.answer }}
+                    ></p>
+                    {item.tooltip && (
+                      <div className="absolute top-[6px] z-[9] left-[360px]">
+                        <div
+                          className="relative"
+                          onMouseEnter={() => setShowTooltip(true)}
+                          onMouseLeave={() => setShowTooltip(false)}
+                        >
+                          <img
+                            className="w-[11.7px]"
+                            src={Iicon}
+                            alt="Info Icon"
+                          />
+                          {showTooltip && (
+                            <div className="absolute top-[13px] z-[99] bg-[#808080] w-[260px] text-start leading-[110%] text-[#fff] text-[10px] font-[400] rounded-md p-[10px] shadow-lg">
+                              <span className="absolute top-[8px] left-[4px]">
+                                .
+                              </span>{" "}
+                              For example, buying $1,000 of $BFX gives you the
+                              Novice NFT. <br />{" "}
+                              <span className="absolute top-[28px] left-[4px]">
+                                .
+                              </span>{" "}
+                              Spend $1,500 more to upgrade to Advanced. <br />{" "}
+                              <span className="absolute top-[40px] left-[4px]">
+                                .
+                              </span>{" "}
+                              You can keep upgrading until you reach the final
+                              Legend NFT.
                             </div>
-                          </div>
-                        )}
+                          )}
+                        </div>
+                      </div>
+                    )}
                   </div>
-                  
                 )}
               </div>
             ))}

@@ -17,6 +17,8 @@ import flag11 from "../assets/navbar/flg (11).svg";
 import flag12 from "../assets/navbar/flg (12).svg";
 import flag13 from "../assets/navbar/flg (13).svg";
 import flag14 from "../assets/navbar/flg (14).svg";
+import WalletPopup from "./ui/WalletPopup";
+import DashboardPopup from "./ui/DashboardPopup";
 
 const flags = [
   { flag: flag1, abbreviation: "EN", name: "English" },
@@ -39,6 +41,7 @@ function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const [currentPopup, setCurrentPopup] = useState(null);
   const [selectedLang, setSelectedLang] = useState({
     flag: flags[0].flag,
     abbreviation: flags[0].abbreviation,
@@ -297,9 +300,18 @@ function Navbar() {
  {/* menu end */}
 
         <div>
-          <button className="text-white bg-[#E5AE00] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:text-black hover:bg-transparent 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] w-[100%] 2xl:h-[43px] xl:h-[43px] lg:h-[43px] md:h-[43px] sm:h-[40px] h-[40px]">
+          <button
+             onClick={() => setCurrentPopup("wallet")}
+          className="text-white bg-[#E5AE00] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:text-black hover:bg-transparent 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] w-[100%] 2xl:h-[43px] xl:h-[43px] lg:h-[43px] md:h-[43px] sm:h-[40px] h-[40px]">
             Connect Wallet{" "}
           </button>
+          {currentPopup === "wallet" && (
+        <WalletPopup onConnect={() => setCurrentPopup("dashboard")} onClose={() => setCurrentPopup(null)} />
+      )}
+
+      {currentPopup === "dashboard" && (
+        <DashboardPopup onClose={() => setCurrentPopup(null)} />
+      )}
         </div>
       </div>
     </div>

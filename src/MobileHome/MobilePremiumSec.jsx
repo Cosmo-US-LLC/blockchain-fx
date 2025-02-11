@@ -111,7 +111,7 @@ const cardsmob = [
 const Bundles = [
   {
     id: 1,
-    question: "When will I get my Trading Bundle NFT?",
+    question: "When will I get my Founder’s Club NFT?",
     answer:
       "You’ll receive your NFT automatically after purchasing the required amount of $BFX. It will appear in your personal dashboard and can be claimed once the pre-sale concludes.",
   },
@@ -166,13 +166,11 @@ function MobilePremiumSec() {
       <div className="w-[90%] space-y-[20px] mx-auto relative">
         <div className="space-y-[12px]">
           <h3 className="text-[30px] leading-[100%] text-[#000] text-center font-bold">
-            Limited <br /> Founder's Club NFTs
+            Limited <br /> Founder's Club Membership
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-            Buy $BFX during the pre-sale and get Founder's Club NFTs starting at
-            $1,000! Enjoy early access, exclusive memberships, bonus $BFX, daily
-            staking rewards in BFX and USDT, plus extra trading credits.
-            Available only during the pre-sale!
+          Buy $BFX during the pre-sale and get Founder's Club NFTs starting at only $1,000!  Enjoy early access, exclusive memberships, bonus $BFX, daily staking rewards in BFX and USDT, plus extra trading credits. Available only during the pre-sale!
+
           </p>
         </div>
         <div className="w-[100%] mx-auto ">

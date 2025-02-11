@@ -31,27 +31,27 @@ const Dropcoins = [
 const items = [
   {
     icon: oneicon1,
-    title: "1. Choose a Payment Method",
+    title: "1. Select Payment Method",
     description:
-      "<li>Choose between ETH, BNB, or USDT (ERC-20 or BEP-20) </li><li>Enter your purchase amount</li>",
+      "<li>Choose between ETH, BNB, or USDT (ERC-20 or BEP-20) </li><li>Enter the amount you want to buy</li>",
   },
   {
     icon: oneicon2,
     title: "2. Confirm Transaction",
     description:
-      "<li>Use a decentralised wallet like Metamask or Trust Wallet</li><li>Click “Buy Now” and send the funds to the wallet listed</li><li>Your BFX will be linked to the same wallet address you used for payment and will show up on your dashboard instantly. </li><li>Connect your wallet using the “Connect Wallet” button in the top right corner to access the dashboard and check your BFX balance.</li>",
+      "<li>Click “Buy Now” and send the funds to the wallet listed</li><li>Important: Make sure to use a decentralised wallet like Metamask, Phantom, Coinbase or Trust Wallet </li><li>Your BFX will be linked to the same wallet address you used for payment and will show up on your dashboard instantly. </li><li>Connect your wallet using the “Connect Wallet” button in the top right corner to access the dashboard and check your BFX balance.</li>",
   },
   {
     icon: oneicon3,
-    title: "3. Start Earning",
+    title: "3. Start Earning Today",
     description:
-      "<p>Earn BFX and USDT rewards from day one!</p><li>Staking rewards are added to your dashboard daily</li><li>USDT (ERC-20) payouts are sent to your wallet every Monday </li>",
+      "<p>Earn BFX and USDT rewards from day one! </p><li>Staking rewards are added to your dashboard daily</li><li>USDT (ERC-20) payouts are sent to your wallet every Monday </li>",
   },
   {
     icon: oneicon4,
     title: "4. Claim",
     description:
-      "<p>Your tokens will be transferred to your wallet automatically after the presale ends. You don’t need to do anything. <br/><br/>Thank you for being part of the BFX journey!</p>",
+      "<p>Congratulations! Your tokens will be transferred to your wallet automatically after the presale ends. You don’t need to do anything. <br/><br/> Thank you for being part of the BFX journey!</p>",
   },
 ];
 

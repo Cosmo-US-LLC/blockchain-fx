@@ -19,17 +19,17 @@ const cardData = [
     {
         img:takeimg3,
         title:"Forex",
-        subtitle:"Over 60 currency pairs to trade, including USD, EUR, JPY, GBP, and many more."
+        subtitle:"USD, EUR, JPY, GBP, AUD, and more. Trade over 60 currency pairs in the dynamic forex market."
     },
     {
         img:takeimg4,
         title:"Commodities",
-        subtitle:"Gold, Silver, Oil, Sugar and more. Diversify your portfolio with raw materials."
+        subtitle:"Gold, Silver, Oil, Sugar, and many more. Diversify your portfolio with a wide range of valuable raw materials"
     },
     {
         img:takeimg5,
         title:"Indices",
-        subtitle:"Dow Jones, S&P500, Nasdaq, DAX, CAC, and more. Trade the most popular indices."
+        subtitle:"Dow Jones, S&P 500, Nasdaq, DAX, CAC, and many more. Trade the most popular indices."
     },
 ]
 
@@ -37,7 +37,7 @@ function TradeOverSec() {
   return (
     <div className="py-[50px]">
       <div className="max-w-[1200px]  w-[100%] mx-auto space-y-[30px]">
-        <h3 className="text-[30px] font-[700] capitalize leading-[155%] leading-[-1px] text-center">Trade over 500 different assets</h3>
+        <h3 className="text-[30px] font-[700] capitalize leading-[155%] leading-[-1px] text-center">More Than 500 Different Assets</h3>
        <div className="flex justify-center space-x-[14px]">
       {
         cardData.map((item) => (
