@@ -3,7 +3,7 @@ import React from "react";
 import coin1 from "../assets/StandoutSec/tblcoins (1).svg";
 import coin2 from "../assets/StandoutSec/tblcoins (2).svg";
 import coin3 from "../assets/StandoutSec/tblcoins (3).svg";
-import coin4 from "../assets/StandoutSec/tblcoins (4).svg";
+import coin4 from "../assets/StandoutSec/tblcoins (4).webp";
 import check1 from "../assets/StandoutSec/check (2).svg";
 import check2 from "../assets/StandoutSec/check (1).svg";
 
@@ -141,7 +141,7 @@ function StandoutSec() {
                   <th className="border-b border-l border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px]" src={coin4} alt="" />
+                        <img className="w-[58px] h-[58px] object-cover" src={coin4} alt="" />
                       </div>
                       <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
                         Uniswap

@@ -10,7 +10,7 @@ import arw from "../assets/PremiumSec/preawr (1).svg";
 import coin1 from "../assets/StandoutSec/tblcoins (1).svg";
 import coin2 from "../assets/StandoutSec/tblcoins (2).svg";
 import coin3 from "../assets/StandoutSec/tblcoins (3).svg";
-import coin4 from "../assets/StandoutSec/tblcoins (4).svg";
+import coin4 from "../assets/StandoutSec/tblcoins (4).webp";
 import check1 from "../assets/StandoutSec/check (2).svg";
 import check2 from "../assets/StandoutSec/check (1).svg";
 
@@ -359,7 +359,7 @@ function MobStandoutSec() {
                   <div className="flex">
                     <div className="h-[91px] justify-center flex flex-col items-center space-y-[6px] w-[100%] ">
                       <img
-                        className="h-[41.126px] w-[41.126px]"
+                        className="h-[41.126px] w-[41.126px] object-cover"
                         src={coin4}
                         alt=""
                       />

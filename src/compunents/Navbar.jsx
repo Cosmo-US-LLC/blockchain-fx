@@ -131,7 +131,7 @@ function Navbar() {
           </a>
           <a
             className="text-[14px] font-[500] text-[#000]"
-            onClick={(e) => handleScroll(e, "roadmap", 90)}
+            onClick={(e) => handleScroll(e, "roadmap", 60)}
             href=""
           >
             Roadmap
@@ -207,14 +207,14 @@ function Navbar() {
           <a
             className="block text-[16px] font-[500] text-[#000] mb-4"
             href=""
-            onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}
+            onClick={(e) => handleScroll(e, "what-is-bfx-coin", 60)}
           >
             What is BlockchainFX?
           </a>
           <a
             className="block text-[16px] font-[500] text-[#000] mb-4"
             href=""
-            onClick={(e) => handleScroll(e, "how-to-buy", 90)}
+            onClick={(e) => handleScroll(e, "Wallet", 60)}
           >
             How to Buy
           </a>

@@ -19,9 +19,7 @@ function GatewaySec() {
             The Gateway to Global Markets
           </h3>
           <p className="text-[14px] font-[400] max-w-[790px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            Starting a global multi-asset trading platform takes years and
-            significant capital, but with BFX, you’re in with just two clicks.
-            Get BFX and access the international financial market instantly.
+          Starting a global multi-asset trading platform takes years and significant capital, <br /> but by buying $BFX, you can be a part of the international financial market in just two clicks.
           </p>
         </div>
         <div className="max-w-[1025px] mx-auto flex justify-between itees-center ">

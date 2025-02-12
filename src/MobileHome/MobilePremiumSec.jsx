@@ -331,7 +331,7 @@ function MobilePremiumSec() {
         <div className="w-[90%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[12px]  py-[20px] space-y-[20px]">
           <div>
             <h3 className="text-[24px] text-center font-[700] text-[#181A20] tracking-[-1px]">
-              Questions About <br /> The Trading Bundles
+              Questions About <br /> The Founder’s Club
             </h3>
           </div>
 

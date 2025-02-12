@@ -111,26 +111,26 @@ const Bundles = [
     id: 1,
     question: "When will I get my Founder’s Club NFT?",
     answer:
-      "You’ll receive your NFT automatically after purchasing the required amount of $BFX. It will appear in your personal dashboard and can be claimed once the pre-sale concludes.",
+      "You’ll receive your NFT automatically after purchasing the required amount of $BFX. It will appear in your personal dashboard and can be claimed once the pre-sale ends.",
   },
   {
     id: 2,
     question: "When will I get my Bonuses?",
     answer:
-      "Your BFX bonuses will be instantly added to your dashboard. <br/> To access your dashboard, click the 'Connect Wallet' button",
+      "<li>Your BFX bonuses will be instantly added to your dashboard</li><li>To access your dashboard, click the 'Connect Wallet' button</li>",
   },
   {
     id: 3,
     question: "Can I get an NFT with multiple purchases?",
     answer:
-      "Yes, you can buy $BFX in smaller amounts to reach the total required. <br/>For example, buying $200 worth of $BFX five times will earn you the Novice NFT (valued at $1,000).",
+      "<li>Yes, you can buy $BFX in smaller amounts to reach the total required. </li><li>For example, buying $200 worth of $BFX five times will earn you the Novice NFT (valued at $1,000).</li>",
   },
   {
     id: 4,
     question: "Can I upgrade my NFT?",
     tooltip: true,
     answer:
-      "Yes, you can upgrade multiple times during the presale. <br/> You'll receive rewards and the NFT for the highest level you achieve. <br/> After the presale ends, upgrades will no longer be possible.",
+      "<li>Yes, you can upgrade multiple times during the presale.</li> <li>You'll receive rewards and the NFT for the highest level you achieve.</li> <li>After the presale ends, upgrades will no longer be possible.</li>",
   },
 ];
 
@@ -363,7 +363,7 @@ function PremiumSec() {
         <div className="max-w-[1000px]  w-[100%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[30px]  pt-[33px] pb-[10px] ">
           <div>
             <h3 className="text-[30px] text-center font-[700] leading-[166.667%] text-[#181A20] tracking-[ -0.973px]">
-              Questions About The Trading Bundles
+            Questions About The Founder’s Club
             </h3>
           </div>
 
@@ -397,7 +397,7 @@ function PremiumSec() {
                 {openBundles === item.id && (
                   <div className="relative">
                     <p
-                      className="mt-2 text-[14px] text-[#181A20] font-[400] tracking-[-0.32px]"
+                      className="mt-2 text-[14px] list-disc text-[#181A20] font-[400] tracking-[-0.32px]"
                       dangerouslySetInnerHTML={{ __html: item.answer }}
                     ></p>
                     {item.tooltip && (

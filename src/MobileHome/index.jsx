@@ -45,22 +45,22 @@ function MobileHome() {
         <MobHowDoesItSec />
         <MobExclusiveSec />
         <MobilePremiumSec />
-        <MobHowToBuySec />
+        {/* <MobHowToBuySec /> */}
         <MobileLessThanSec />
-        <MobStandoutSec />
-        <MobHyperGrowthSec />
         <MobileGatewaySec />
+        <MobHyperGrowthSec />
+        <MobStandoutSec />
         <MobileWallStreetSec />
         <MobTadeLikeSec />
+        {/* <MobTopAssetsSec /> */}
         <SwapSectionMob />
-        <MobTopAssetsSec />
         <MobLiveNewSec />
-        <MobSecurityBuiltSec />
         {/* <MobStreamlinedSec /> */}
+        <WhitepaperMob />
         <MobWhatIsSec />
         <MobTokenAllocationSec />
         <MobTokenDetailsSec />
-        <WhitepaperMob />
+        <MobSecurityBuiltSec />
         <MobRoadmapSec />
         <MobOurAwardSec />
         {/* <MobExpertsworkingSec /> */}

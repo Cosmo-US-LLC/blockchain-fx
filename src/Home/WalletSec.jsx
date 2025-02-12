@@ -176,7 +176,7 @@ function WalletSec() {
               }}
             >
               <h3 className="text-center text-[21.64px] leading-[100%] font-[700]">
-                $210,992 SOLD
+                $210,992
               </h3>
               <div className="pt-3">
                 <div className="flex justify-between items-center pb-1">
@@ -244,16 +244,16 @@ function WalletSec() {
                 You Pay in USDT:
               </label>
               <div className="border h-[30.612px] border-[#454545] p-1 flex justify-between items-center">
-                <div className="w-[88%] flex items-center space-x-2">
+                <div className="w-[80%] flex items-center space-x-2">
                   <input
                     type="text"
-                    className="h-[17.281px] w-[80%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000]"
+                    className="h-[17.281px] w-[100%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000]"
                     placeholder="1000"
                   />
                 </div>
-                <div className="relative border px-1 ">
+                <div className="relative border px-[4px] w-[74px]">
                   <div
-                    className="justify-center flex h-[24px] w-[70px] items-center space-x-[3px] px-1 cursor-pointer"
+                    className="justify-start flex h-[24px] items-center space-x-[3px] cursor-pointer"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                   >
                     <img
@@ -309,7 +309,7 @@ function WalletSec() {
                 </span>
               </label>
               <div className="border h-[30px] border-[#454545] p-1 flex justify-between items-center">
-                <div className="relative max-w-[75px] "></div>
+                {/* <div className="relative max-w-[75px] "></div> */}
                 <div className="w-[80%] flex items-center h-[17.281px] space-x-2">
                   <input
                     type="text"
@@ -317,8 +317,8 @@ function WalletSec() {
                     placeholder="26039.75"
                   />
                 </div>
-                <div className="relative w-[72px] border px-1 ">
-                  <div className="justify-center flex h-[24px]  items-center space-x-[5px] cursor-pointer">
+                <div className="relative w-[74px] border px-[4px] ">
+                  <div className="justify-start flex h-[24px]  items-center space-x-[5px] cursor-pointer">
                     <img
                       className="w-[15.8px] h-[15.8px] object-cover"
                       src={bfxicn}
@@ -521,16 +521,16 @@ function WalletSec() {
           </div>
         </div>
         <div
-          className="px-[28px] pt-[8px] pb-[12px] border border-[#B0B0B0] w-[100%] mx-auto "
+          className="px-[28px] pt-[10px] pb-[10px] border border-[#B0B0B0] w-[100%] mx-auto "
           style={{
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <div className="flex justify-center items-center space-x-[8px]">
-            <h4 className="text-center text-[#808080] text-[9.875px] leading-[85%] font-[600]">
+          <div className="flex justify-center items-center space-x-[10px]">
+            <h4 className="text-center text-[#808080] text-[13.1px] leading-[85%] font-[600]">
             Audited by the Leading Blockchain Security Company  
             </h4>
-            <div className="w-[85px]">
+            <div className="w-[113.97px]">
               <img src={cer} className="" alt="" />
             </div>
           </div>

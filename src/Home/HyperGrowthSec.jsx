@@ -24,7 +24,7 @@ function HyperGrowthSec() {
           <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Hyper Growth Model
           </h3>
-          <p className="text-[14px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#181A20] tracking-[-0.32px]">
+          <p className="text-[14px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[21px] text-[#181A20] tracking-[-0.32px]">
           BlockchainFX is a community-driven trading platform that rewards users with daily staking rewards, fostering a loyal and active community.  As the platform grows, so does the token, creating a cycle of rewards and engagement. Studies* show that incentivized communities can  grow significantly faster than others, and BFX is designed to maximize that potential.
           </p>
         </div>

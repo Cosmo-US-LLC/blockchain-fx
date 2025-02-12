@@ -41,9 +41,11 @@ function Herosection() {
             className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
               Buy $BFX
             </button>
-            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
+            <a href="https://blockchainfx.com/whitepaper.pdf" className="!w-[138px]" rel="noopener noreferrer">
+            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] !w-[100%] h-[39px]">
             Whitepaper
             </button>
+              </a>
           </div>
           <div className="flex items-center justify-center pt-[20px] space-x-3">
             <div className="flex space-x-2 items-center">
