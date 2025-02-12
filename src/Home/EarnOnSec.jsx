@@ -37,10 +37,10 @@ function EarnOnSec() {
           </div>
           <div className="max-w-[410px] w-[50%] !mr-auto space-y-[20px]">
             <h3 className="text-[30px] capitalize font-[700] leading-[128%] text-[#181A20] tracking-[-1px] text-start">
-              Earn on every <br /> trade with $BFX
+            Earn Daily With $BFX
             </h3>
             <p className="text-[14px] text-[#181A20] font-[400] leading-[161.598%] text-start">
-            $BFX is the first cryptocurrency with a daily staking revenue-sharing model, giving you BFX and USDT from every trade made on a global multi-asset trading platform. The more $BFX you hold, the more USDT you earn.
+            $BFX is the first cryptocurrency to offer USDT staking rewards on every transaction made within a global multi-asset trading platform. Whenever someone trades on BlockchainFX, you earn. The more $BFX you hold,  the more USDT you receive.
             </p>
             <button 
             onClick={handleScroll}

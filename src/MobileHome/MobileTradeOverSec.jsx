@@ -19,17 +19,17 @@ const cardData = [
     {
         img:takeimg3,
         title:"Forex",
-        subtitle:"Over 60 currency pairs to trade, including USD, EUR, JPY, GBP, <br /> and many more."
+        subtitle:"USD, EUR, JPY, GBP, AUD, and more. Trade over 60 currency pairs in the dynamic forex market."
     },
     {
         img:takeimg4,
         title:"Commodities",
-        subtitle:"Gold, Silver, Oil, Sugar and more. Diversify your portfolio with raw materials."
+        subtitle:"Gold, Silver, Oil, Sugar, and many more. Diversify your portfolio with a wide range of valuable raw materials"
     },
     {
         img:takeimg5,
         title:"Indices",
-        subtitle:"Dow Jones, S&P500, Nasdaq, DAX, CAC, and more. Trade the most popular indices."
+        subtitle:"Dow Jones, S&P 500, Nasdaq, DAX, CAC, and many more. Trade the most popular indices."
     },
 ]
 
@@ -37,7 +37,7 @@ function MobileTradeOverSec() {
   return (
     <div className="pt-[24px] pb-[24px]">
       <div className="w-[90%] mx-auto space-y-[24px]">
-        <h3 className="text-[30px] font-[700] leading-[114%] leading-[-1px] text-center">Trade Over 500 <br />Different Assets</h3>
+        <h3 className="text-[30px] font-[700] leading-[114%] leading-[-1px] text-center">More Than 500 <br /> Different Assets </h3>
        <div className="space-y-[20px]">
       {
         cardData.map((item) => (

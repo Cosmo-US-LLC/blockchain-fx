@@ -47,7 +47,7 @@ function MobileOneAppSec() {
             Everything In One App
           </h3>
           <p className="text-[15px] text-[#181A20] text-center font-[400] leading-[127.778%] leading-[-0.32px] ">
-          An innovative, modern, and intuitive trading platform
+          A Lightning-Fast and Innovative Trading Solution
           </p>
         </div>
         <div className="w-[100%] space-y-[32px]">

@@ -23,6 +23,61 @@ code {
 line-height: 185%;
 }
 
+.custom-range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.2s;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.custom-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  border-radius: 5px;
+}
+
+/* Thumb (Handle) */
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border: 2px solid gold;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-top: -4px;
+}
+
+.custom-range::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+/* Firefox */
+.custom-range::-moz-range-track {
+  width: 100%;
+  height: 6px;
+  border-radius: 5px;
+}
+
+.custom-range::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: white;
+  border: 2px solid gold;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.custom-range::-moz-range-thumb:hover {
+  transform: scale(1.2);
+}
+
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
 display: none !important;
