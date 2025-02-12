@@ -12,28 +12,28 @@ const cardItems = [
     img: excixn1,
     title: "Lowest Price <br/>Before Launch",
     description:
-      "Buying during the pre-sale allows you to secure a much lower price compared to the $BFX launch price.",
+     "Buying during the pre-sale allows you to secure a significant lower price compared to the $BFX launch price.",
   },
   {
     id: "02",
     img: excixn2,
     title: "Receive Bonus<br/> $BFX Tokens",
     description:
-      "Get more $BFX during the pre-sale with bonuses that increase as you spend more.",
+    "Get more $BFX during the pre-sale with bonus levels based on your spend. This gives you an even better deal.",
   },
   {
     id: "03",
     img: excixn3,
-    title: "Unlock Bonus <br/> trading credits",
+    title: "Unlock Bonus <br/> Trading Credits",
     description:
-      "Receive exclusive trading bundles packed with multiple perks during the pre-sale.",
+    "Get an exclusive membership packed with multiple perks and up to $25,000 to start trading with no conditions attached.",
   },
   {
     id: "04",
     img: excixn4,
     title: " Daily USDT <br/> Staking Income",
     description:
-      "Earn daily USDT and $BFX rewards during the pre-sale. The earlier you buy, the more you get.",
+      "Earn daily passive USDT and $BFX rewards—even during the pre-sale. The earlier you buy, the more you earn.",
   },
 ];
 

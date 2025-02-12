@@ -39,7 +39,7 @@ function OneAppSec() {
   };
 
   return (
-    <div className="py-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx-coin">
+    <div className="py-[50px] bg-[#FBFBFB] overflow-hidden">
      <div className="max-w-[1300px] w-[100%] mx-auto relative">
      <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[473px] space-y-[20px]">
@@ -47,7 +47,7 @@ function OneAppSec() {
             Everything In One App
           </h3>
           <p className="text-[14px] text-[#181A20] font-[400] leading-[150%] leading-[-0.32px] text-start">
-          A Lightning-Fast and Innovative Trading Solution
+          A lightning-fast and innovative trading solution
           </p>
           <div className="">
             {items.map((item, index) => (

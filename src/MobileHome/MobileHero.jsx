@@ -4,6 +4,8 @@ import herobnr2 from "../assets/herosection/bnrhero (4).svg";
 import herobnr4 from "../assets/herosection/bnrhero (2).svg";
 import herobnr5 from "../assets/herosection/bnrhero (1).webp";
 // import heroVideo from "../assets/herosection/heroVideo.webm";
+import stars from "../assets/herosection/stars.webp";
+
 import heroVideo from "../assets/herosection/heroVideo.webm";
 
 function MobileHero() {
@@ -43,9 +45,18 @@ function MobileHero() {
             className="text-white bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px]  h-[48px]">
               Buy $BFX
             </button>
+            <a href="https://blockchainfx.com/whitepaper.pdf" className="" rel="noopener noreferrer">
             <button className="hover:text-white hover:bg-[#E5AE00] px-[14px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px]  h-[48px]">
-              Beta Trading
+            Whitepaper
             </button>
+              </a>
+          </div>
+          <div className="flex items-center justify-center  space-x-3">
+            <div className="flex space-x-2 items-center">
+            <img className="w-[84px]" src={stars} alt="" />
+              <p className="text-[#3E3E3E] font-[400] text-[14px]">4.79/5 </p>
+            </div>
+            <p className="text-[#000] font-[400] text-[14px]">Rated by Users</p>
           </div>
           <div className="flex justify-center pb-[15px]">
             {/* <img src={heroimg} className="bg-[#c1c1c129]" alt="" /> */}

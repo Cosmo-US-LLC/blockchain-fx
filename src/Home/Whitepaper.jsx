@@ -27,23 +27,25 @@ export default function Whitepaper() {
           <div className="w-[50%] max-w-[460px] space-y-4 pl-4">
             <div className="w-full p-2 flex flex-col justify-start">
               <h3 className="text-[30px] font-bold leading-[48px] mb-4">
-                BlockchainFX <br /> Whitepaper
+                Whitepaper
               </h3>
               <p className="text-[14px]">
-              Explore the BlockchainFX whitepaper to learn how the $BFX token powers a next-gen trading ecosystem. Discover its key features, benefits, and how BlockchainFX is bridging the gap between blockchain and traditional finance by creating the crypto industry's first trading super app.
+              Explore the BlockchainFX whitepaper to learn how the $BFX token powers a next-gen trading ecosystem and how you will significantly benefit as an early holder. Discover its key features, advantages, and how BlockchainFX is bridging the gap between blockchain and traditional finance by creating the crypto industry's first trading super app.
               </p>
             </div>
 
             <div className="w-full p-2 flex space-x-3 justify-start">
-              <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[800] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[156px] w-[100%] h-[39px]">
-              Read White Paper
-            </button>
               <button
                 onClick={handleScroll}
                 className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
               >
                 Buy $BFX
               </button>
+              <a href="https://blockchainfx.com/whitepaper.pdf" rel="noopener noreferrer">
+              <button className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-black bg-transparent text-[14px] font-[800] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[165px] w-[100%] h-[39px]">
+              Access Whitepaper
+            </button>
+              </a>
             </div>
           </div>
         </div>

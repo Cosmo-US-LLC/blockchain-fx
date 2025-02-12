@@ -47,7 +47,7 @@ const CardList = ({ selectedCoin, onClose }) => {
       if (!selectedCard) return null;
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white space-y-[10px] p-6 rounded-[12px] shadow-lg w-[350px] relative">
+      <div className="bg-white space-y-[10px] 2xl:p-6 xl:p-6  lg:p-6 md:p-6 sm:p-6 p-4 rounded-[12px] shadow-lg w-[350px] relative">
         <div className="flex justify-center items-center">
           <h2 className="text-[14px] font-[600] tracking-[-0.28px] text-center">Buy Token</h2>
           <button

@@ -16,6 +16,7 @@ import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
 import bfxicn from "../assets/wallet/bfx.webp";
 import swpicon from "../assets/wallet/swp.svg";
 import cer from "../assets/wallet/cer.svg";
+import CardList from "../compunents/ui/CardList";
 
 const coins = [
   { name: "ETH", icon: wltcoin1 },
@@ -23,10 +24,12 @@ const coins = [
   { name: "USDT", icon: wltcoin5 },
 ];
 const Dropcoins = [
-  { name: "ETH", icon: wltcoin1 },
-  { name: "BNB", icon: wltcoin4 },
-  { name: "USDT", icon: wltcoin5 },
+  { name: "USDT", sub:"ERC-20",  icon: wltcoin5 },
+  { name: "USDT", sub:"BEP-20",  icon: wltcoin5 },
+  { name: "ETH", sub:"ERC-20", icon: wltcoin1 },
+  { name: "BNB", sub:"ERC-20", icon: wltcoin4 },
 ];
+
 
 const items = [
   {
@@ -60,17 +63,21 @@ function MobileWalletSec() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedCoin, setSelectedCoin] = useState({
     name: "ETH",
-    icon: wltcoin1,
+    icon: wltcoin5,
   });
+  const [showPopup, setShowPopup] = useState(false);
    const [activeIndexbuy, setActiveIndexbuy] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
   
     const handleToggle = (index) => {
       setActiveIndexbuy(index === activeIndexbuy ? -1 : index);
     };
-  const handleSelectCoin = (coin) => {
-    setSelectedCoin(coin);
-    setDropdownOpen(false);
-  };
+    const handleSelectCoin = (coin, index) => {
+      setSelectedCoin(coin);
+      setSelectedIndex(index);
+      setDropdownOpen(false);
+    };
   const handleScroll = (event, targetId, offset) => {
     event.preventDefault();
 
@@ -158,7 +165,7 @@ function MobileWalletSec() {
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h3 className="text-center text-[30px] font-[700]">$210,992 SOLD</h3>
+          <h3 className="text-center text-[30px] font-[700]">$210,992</h3>
           <div>
             <div className="flex justify-between items-center">
               <span className="text-[#444] text-[10px] font-[400] leading-[150%]">
@@ -206,11 +213,11 @@ function MobileWalletSec() {
               className={`flex justify-center items-center w-[100%] space-x-1 cursor-pointer transition-all`}
             >
               <img
-                className="w-[13px] h-[13px] object-cover"
+                className="w-[16px] h-[16px] object-cover"
                 src={coin.icon}
                 alt={coin.name}
               />
-              <span className="text-[#545454] text-[8px] font-[700] leading-[30px]">
+              <span className="text-[#545454] text-[10px] font-[700] leading-[30px]">
                 {coin.name}
               </span>
             </div>
@@ -238,7 +245,7 @@ function MobileWalletSec() {
                 </div>
                 <div className="relative w-[78px] border px-1 ">
                   <div
-                    className="justify-center flex h-[33px]  items-center space-x-[3px] px-1 cursor-pointer"
+                    className="justify-start flex h-[24px]  items-center space-x-[3px] cursor-pointer"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                   >
                     <img
@@ -259,12 +266,12 @@ function MobileWalletSec() {
                   </div>
 
                   {dropdownOpen && (
-                    <div className="absolute top-[32px] space-y-[5px] p-2  left-0 bg-white rounded-md shadow-lg  z-10">
+                    <div className="absolute top-[32px] space-y-[5px] p-2  -left-8 bg-white rounded-md shadow-lg  z-10">
                       {Dropcoins.map((coin, index) => (
                         <div
                           key={index}
-                          className="flex justify-start items-center space-x-2 px-2 py-1 w-[70px] cursor-pointer hover:bg-gray-100"
-                          onClick={() => handleSelectCoin(coin)}
+                          className="flex justify-start items-center space-x-2 px-2 py-1 w-[110px] cursor-pointer hover:bg-gray-100"
+                          onClick={() => handleSelectCoin(coin, index)}
                         >
                           <img
                             className="w-[15.813px] h-[15.813px] object-cover"
@@ -274,6 +281,7 @@ function MobileWalletSec() {
                           <h4 className="text-[9px] font-[700] text-[#545454]">
                             {coin.name}
                           </h4>
+                          <p className="text-[8px] text-[#545454]">{coin.sub}</p>
                         </div>
                       ))}
                     </div>
@@ -295,7 +303,7 @@ function MobileWalletSec() {
                   />
                 </div>
                 <div className="relative w-[72px] border px-1 ">
-                  <div className="justify-center flex h-[24px]  items-center space-x-[5px] cursor-pointer">
+                  <div className="justify-start flex h-[24px]  items-center space-x-[5px] cursor-pointer">
                     <img
                       className="w-[15.8px] h-[15.8px] object-cover"
                       src={bfxicn}
@@ -309,9 +317,12 @@ function MobileWalletSec() {
               </div>
         </div>
         <div>
-          <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%] h-[37px]">
+          <button 
+          onClick={() => setShowPopup(true)}
+          className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%] h-[37px]">
           Buy Now
           </button>
+          {showPopup && <CardList selectedCoin={selectedIndex} onClose={() => setShowPopup(false)} />}
         </div>
         <div
           className="px-[24px] py-[10px] space-y-[8px] border border-[#939393]"

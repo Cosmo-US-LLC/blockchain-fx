@@ -39,7 +39,7 @@ function MobileOneAppSec() {
   };
 
   return (
-    <div className="pt-[24px] pb-[24px] " id="what-is-bfx">
+    <div className="pt-[24px] pb-[24px] ">
      <div className="w-[90%] mx-auto relative">
      <div className="space-y-[30px]">
         <div className="space-y-[15px]">
@@ -47,7 +47,7 @@ function MobileOneAppSec() {
             Everything In One App
           </h3>
           <p className="text-[15px] text-[#181A20] text-center font-[400] leading-[127.778%] leading-[-0.32px] ">
-          A Lightning-Fast and Innovative Trading Solution
+          A lightning-fast and innovative trading solution
           </p>
         </div>
         <div className="w-[100%] space-y-[32px]">

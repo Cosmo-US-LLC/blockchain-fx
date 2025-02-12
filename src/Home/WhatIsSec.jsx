@@ -20,18 +20,17 @@ function WhatIsSec() {
   };
   return (
     <div
-      className="pt-[50px] pb-[50px] bgwhat"
+      className="pt-[50px] pb-[50px] bgwhat" 
+      id="what-is-bfx-coin"
       style={{ height: "auto" }}
     >
       <div className="max-w-[866px] relative  w-[100%] mx-auto ">
         <div className="space-y-[30px]">
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-            What is $BFX?
+            What is BFX?
           </h3>
           <p className="text-[14px] font-[400] max-w-[540px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            $BFX is BlockchainFX's native coin, offering exclusive early access
-            and the chance to be part of the platform’s journey from the ground
-            up as it grows in popularity.
+          $BFX is BlockchainFX's native coin, offering a unique opportunity to be part of a fast-growing global trading platform with the ambition to become one of the world’s leading trading networks.
           </p>
         </div>
         <div className="max-w-[690px] pt-[30px] mx-auto flex justify-between items-center">

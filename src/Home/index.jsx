@@ -48,20 +48,20 @@ function Home() {
         <PremiumSec />
         {/* <HowToBuySec /> */}
         <LessThanSec />
-        <StandoutSec/>
-        <HyperGrowthSec />
         <GatewaySec />
+        <HyperGrowthSec />
+        <StandoutSec/>
         <WallStreetSec />
         <TradeLikeSec />
-        <TopAssetsSec />
+        {/* <TopAssetsSec /> */}
         <SwapSection />
         <LiveNewSec />
-        <SecurityBuiltSec />
         {/* <StreamlinedSec /> */}
-        <WhatIsSec />
         <Whitepaper/>
+        <WhatIsSec />
         <TokenAllocationSec />
         <TokenDetailsSec />
+        <SecurityBuiltSec />
         <RoadmapSec />
         <OurAwardSec />
         {/* <ExpertsworkingSec /> */}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import chart from "../assets/TokenAllocationSec/chart.png";
+import chart from "../assets/TokenAllocationSec/chart.webp";
 
 function TokenAllocationSec() {
  
