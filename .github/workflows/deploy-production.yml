@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18  # Adjust if needed
+          node-version: 18
 
       - name: Install Dependencies
         run: |
@@ -44,7 +44,20 @@ jobs:
           echo "Verifying the zip file:"
           ls -lh build.zip
 
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.GODADDY_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.GODADDY_HOST }} >> ~/.ssh/known_hosts
+          echo "SSH Key setup complete."
+
+      - name: Test SSH Connection (Debugging Step)
+        run: |
+          echo "Testing SSH connection..."
+          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }} "echo SSH Connected Successfully!"
+
       - name: Deploy to GoDaddy via SCP
         run: |
           echo "Deploying to GoDaddy..."
-          scp -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no build.zip ${{ secrets.GODADDY_USERNAME }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USERNAME }}/public_html
+          scp -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no build.zip ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USER }}/public_html
