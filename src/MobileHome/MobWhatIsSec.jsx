@@ -30,22 +30,22 @@ function MobWhatIsSec() {
           $BFX is BlockchainFX's native coin, offering a unique opportunity to be part of a fast-growing global trading platform with the ambition to become one of the world’s leading trading networks.
           </p>
         </div>
-        <div className="max-w-[690px] pt-[20px] flex-wrap mx-auto flex justify-center gap-[1rem] items-center">
-          <div className="p-[8px] rounded-[4px] flex justify-between items-center border border-[#D2D2D2]">
+        <div className="max-w-[400px] pt-[20px] flex-wrap mx-auto flex justify-center gap-[0.8rem] items-center">
+          <div className="py-[8px] w-[164px] rounded-[4px] flex justify-center space-x-1 items-center border border-[#D2D2D2]">
             <img src={check} className="w-[19px] h-[19px] " alt="" />
-            <p className="text-[11.308px] font-[500] tracking-[-0.32px]">Early Access</p>
+            <p className="text-[10px] font-[500] tracking-[-0.32px]">Early Access</p>
           </div>
-          <div className="p-[8px] rounded-[4px] flex justify-between items-center border border-[#D2D2D2]">
+          <div className="py-[8px] w-[164px] rounded-[4px] flex justify-center space-x-1 items-center border border-[#D2D2D2]">
             <img src={check} className="w-[19px] h-[19px] " alt="" />
-            <p className="text-[11.308px] font-[500] tracking-[-0.32px]">Daily Staking Rewards</p>
+            <p className="text-[10px] font-[500] tracking-[-0.32px]">Daily Staking Rewards</p>
           </div>
-          <div className="p-[8px] rounded-[4px] flex justify-between items-center border border-[#D2D2D2]">
+          <div className="py-[8px] w-[164px] rounded-[4px] flex justify-center space-x-1 items-center border border-[#D2D2D2]">
             <img src={check} className="w-[19px] h-[19px] " alt="" />
-            <p className="text-[11.308px] font-[500] tracking-[-0.32px]">70% Less Trading Fees</p>
+            <p className="text-[10px] font-[500] tracking-[-0.32px]">70% Less Trading Fees</p>
           </div>
-          <div className="p-[8px] rounded-[4px] flex justify-between items-center border border-[#D2D2D2]">
+          <div className="py-[8px] w-[164px] rounded-[4px] flex justify-center space-x-1 items-center border border-[#D2D2D2]">
             <img src={check} className="w-[19px] h-[19px] " alt="" />
-            <p className="text-[11.308px] font-[500] tracking-[-0.32px]">Trading Credits</p>
+            <p className="text-[10px] font-[500] tracking-[-0.32px]">Trading Credits</p>
           </div>
           
         </div>

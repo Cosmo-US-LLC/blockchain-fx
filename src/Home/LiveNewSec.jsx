@@ -4,8 +4,8 @@ import liveming from "../assets/LiveNews/liveimg.png";
 
 function LiveNewSec() {
   return (
-    <div className="py-[50px] bg-[#FFF]">
-      <div className="max-w-[934px] w-[100%] mx-auto space-y-[37px]">
+    <div className="py-[50px] bg-[#FAFAFA]">
+      <div className="max-w-[934px] w-[100%] mx-auto space-y-[10px]">
         <div className="space-y-[14px]">
           <h3 className="text-[30px] text-center font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
             Live News Trading Feature

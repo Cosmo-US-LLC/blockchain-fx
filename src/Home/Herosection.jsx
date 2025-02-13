@@ -31,7 +31,7 @@ function Herosection() {
             The First Crypto Trading Super App
             </h2>
             <p className="text-[14px] max-w-[840px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
-            BlockchainFX is the only crypto-native trading platform that offers instant access to the world’s largest financial markets.  Users can trade crypto, forex, stocks, ETFs, futures, options, bonds, indices, CFDs and more, all in one place. This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
+            BlockchainFX is the only crypto-native trading platform that offers instant access to the world’s largest financial markets. Users can trade crypto, forex, stocks, ETFs, futures, options, bonds, indices, CFDs and more, all in one place. This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
             </p>
           </div>
           <div
@@ -41,7 +41,7 @@ function Herosection() {
             className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
               Buy $BFX
             </button>
-            <a href="https://blockchainfx.com/whitepaper.pdf" className="!w-[138px]" rel="noopener noreferrer">
+            <a href="https://blockchainfx.com/whitepaper.pdf" target="_blank" className="!w-[138px]" rel="noopener noreferrer">
             <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] !w-[100%] h-[39px]">
             Whitepaper
             </button>

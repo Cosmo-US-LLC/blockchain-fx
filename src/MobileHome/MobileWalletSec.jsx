@@ -156,8 +156,8 @@ function MobileWalletSec() {
       >
         <div className="absolute w-[100%] top-[-2%] left-0"
         >
-          <h3 className="text-[10px] text-[#444] py-[6px] px-[9px] rounded-[4px] w-[90.856px] mx-auto font-[700] bg-[#f9f9f9] border border-[#454545]"
-          >$BFX Pre-Sale</h3>
+          <h3 className="text-[10px] text-[#444] text-center py-[6px] px-[9px] rounded-[4px] w-[90.856px] mx-auto font-[700] bg-[#f9f9f9] border border-[#454545]"
+          >Buy $BFX</h3>
         </div>
         <div
           className="px-[24px] py-[10px] space-y-[10px] border border-[#D3D3D3]"
@@ -165,11 +165,11 @@ function MobileWalletSec() {
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h3 className="text-center text-[30px] font-[700]">$210,992</h3>
+          <h3 className="text-center text-[30px] font-[700]">$768,992.47</h3>
           <div>
             <div className="flex justify-between items-center">
               <span className="text-[#444] text-[10px] font-[400] leading-[150%]">
-                78.92% of softcap raised
+              78.92% of softcap raised
               </span>
               <img src={info} alt="" />
             </div>
@@ -178,12 +178,12 @@ function MobileWalletSec() {
             </div>
             <div>
               <p className="text-[#444] text-end text-[10px] font-[400] leading-[150%]">
-                $300,000
+              $800,000
               </p>
             </div>
           </div>
           <h5 className="text-[#444] text-[9.74px] text-center font-[400] leading-[100%]">
-                1259 Transactions
+          1259 Transactions
               </h5>
         </div >
         <div
@@ -226,7 +226,7 @@ function MobileWalletSec() {
         <div className="flex justify-between items-center pt-3 space-x-[15px]">
           <hr className="h-[1px] w-[30%]" />
           <span className="text-[#636363] text-end text-[9.618px] font-[700] leading-[75%]">
-            1 BFX = $0.002
+          1 $BFX  = $0.0021
           </span>
           <hr className="h-[1px] w-[30%]" />
         </div>
@@ -331,10 +331,10 @@ function MobileWalletSec() {
           }}
         >
           <h4 className="text-center text-[#636363] text-[12px] leading-[75%] font-[700]">
-          You get 10% more tokens!
+          You get 10% bonus tokens
           </h4>
           <h4 className="text-center text-[#636363] text-[12px] leading-[75%] font-[700]">
-          Buy $1,500 more to unlock 20% bonus tokens
+          Buy $1,500 more to unlock 20% bonus
           </h4>
         </div>
         <div className="flex justify-center items-center space-x-[24px]">

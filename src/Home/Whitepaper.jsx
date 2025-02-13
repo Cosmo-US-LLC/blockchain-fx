@@ -41,7 +41,7 @@ export default function Whitepaper() {
               >
                 Buy $BFX
               </button>
-              <a href="https://blockchainfx.com/whitepaper.pdf" rel="noopener noreferrer">
+              <a href="https://blockchainfx.com/whitepaper.pdf" target="_blank" rel="noopener noreferrer">
               <button className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-black bg-transparent text-[14px] font-[800] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[165px] w-[100%] h-[39px]">
               Access Whitepaper
             </button>
