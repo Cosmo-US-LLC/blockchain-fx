@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18  # Adjust the Node.js version if needed
+          node-version: 18  # Adjust if needed
 
       - name: Install Dependencies
         run: |
@@ -44,26 +44,7 @@ jobs:
           echo "Verifying the zip file:"
           ls -lh build.zip
 
-      - name: Deploy to GoDaddy
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ secrets.GODADDY_HOST }}
-          username: ${{ secrets.GODADDY_USERNAME }}
-          key: ${{ secrets.GODADDY_PRIVATE_KEY }}
-          port: 22
-          source: "build.zip"
-          target: "/home/${{ secrets.GODADDY_USERNAME }}/public_html"
-
-      - name: Extract and Deploy
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.GODADDY_HOST }}
-          username: ${{ secrets.GODADDY_USERNAME }}
-          key: ${{ secrets.GODADDY_PRIVATE_KEY }}
-          port: 22
-          script: |
-            export TERM=xterm  # ✅ Fix: Set TERM variable
-            cd /home/${{ secrets.GODADDY_USERNAME }}/public_html
-            rm -rf *
-            unzip build.zip
-            rm build.zip
+      - name: Deploy to GoDaddy via SCP
+        run: |
+          echo "Deploying to GoDaddy..."
+          scp -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no build.zip ${{ secrets.GODADDY_USERNAME }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USERNAME }}/public_html
