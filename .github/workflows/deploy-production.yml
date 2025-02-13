@@ -51,7 +51,7 @@ jobs:
           username: ${{ secrets.GODADDY_USERNAME }}
           key: ${{ secrets.GODADDY_PRIVATE_KEY }}
           port: 22
-          source: "build.tar.gz"
+          source: "build.zip"
           target: "/home/${{ secrets.GODADDY_USERNAME }}/public_html"
 
       - name: Extract and Deploy
@@ -65,5 +65,5 @@ jobs:
             export TERM=xterm  # ✅ Fix: Set TERM variable
             cd /home/${{ secrets.GODADDY_USERNAME }}/public_html
             rm -rf *
-            tar -xzvf build.tar.gz
-            rm build.tar.gz
+            unzip build.zip
+            rm build.zip
