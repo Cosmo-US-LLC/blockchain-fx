@@ -66,6 +66,8 @@ jobs:
             find . -type d -mindepth 1 -delete
             echo "Extracting build.zip..."
             unzip -o build.zip
+            mv build/* .
+            rmdir build
             rm -f build.zip
             echo "Deployment complete!"
           EOF
