@@ -1,0 +1,87 @@
+name: Deploy React App to GoDaddy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18  # Adjust the Node.js version if needed
+
+      - name: Install Dependencies
+        run: |
+          echo "Installing dependencies..."
+          npm install
+
+      - name: Build React App
+        run: |
+          echo "Building React app..."
+          npm run build
+
+      - name: List Build Directory
+        run: |
+          echo "Listing build directory:"
+          ls -la build/
+
+      - name: Compress Build Folder
+        run: |
+          echo "Compressing build folder..."
+          zip -r build.zip build/
+          echo "Zip file created successfully!"
+
+      - name: Verify Zip File
+        run: |
+          echo "Verifying the zip file:"
+          ls -lh build.zip
+
+      - name: Deploy to GoDaddy via SFTP
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.GODADDY_HOST }}
+          username: ${{ secrets.GODADDY_USER }}
+          key: ${{ secrets.GODADDY_PRIVATE_KEY }}
+          source: "build.zip"
+          target: ${{ secrets.GODADDY_PUBLIC_HTML }}
+
+      - name: SSH into GoDaddy and Deploy
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.GODADDY_HOST }}
+          username: ${{ secrets.GODADDY_USER }}
+          key: ${{ secrets.GODADDY_PRIVATE_KEY }}
+          script: |
+            echo "Connected to GoDaddy server."
+            cd ${{ secrets.GODADDY_PUBLIC_HTML }}
+            
+            echo "Before cleanup, listing directory contents:"
+            ls -la
+            
+            echo "Deleting old files (excluding .htaccess)..."
+            find . -mindepth 1 ! -name ".htaccess" -delete
+            
+            echo "After cleanup, listing directory contents:"
+            ls -la
+            
+            echo "Extracting new build..."
+            unzip build.zip
+            
+            echo "Moving build files to public_html root..."
+            mv build/* .
+            
+            echo "Cleaning up extracted build folder and zip file..."
+            rm -rf build build.zip
+            
+            echo "Final directory contents after deployment:"
+            ls -la
+            
+            echo "Deployment successful!"
