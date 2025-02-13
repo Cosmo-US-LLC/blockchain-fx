@@ -44,14 +44,21 @@ jobs:
           echo "Verifying the zip file:"
           ls -lh build.zip
 
-      - name: Deploy to GoDaddy via SFTP
-        uses: appleboy/scp-action@v0.1.4
+      - name: Deploy to GoDaddy via SCP
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.GODADDY_HOST }}
-          username: ${{ secrets.GODADDY_USER }}
+          username: ${{ secrets.GODADDY_USERNAME }}
           key: ${{ secrets.GODADDY_PRIVATE_KEY }}
-          source: "build.zip"
-          target: ${{ secrets.GODADDY_PUBLIC_HTML }}
+          port: 22
+          script: |
+            export TERM=xterm  # ✅ Fix the TERM issue
+            cd /home/${{ secrets.GODADDY_USERNAME }}
+            rm -rf public_html/*
+            scp -i ~/.ssh/id_rsa -P 22 build.tar.gz ${{ secrets.GODADDY_USERNAME }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USERNAME }}/public_html
+            cd /home/${{ secrets.GODADDY_USERNAME }}/public_html
+            tar -xzvf build.tar.gz
+            rm build.tar.gz
 
       - name: SSH into GoDaddy and Deploy
         uses: appleboy/ssh-action@v1.0.0
