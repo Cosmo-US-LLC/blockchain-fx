@@ -44,7 +44,17 @@ jobs:
           echo "Verifying the zip file:"
           ls -lh build.zip
 
-      - name: Deploy to GoDaddy via SCP
+      - name: Deploy to GoDaddy
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.GODADDY_HOST }}
+          username: ${{ secrets.GODADDY_USERNAME }}
+          key: ${{ secrets.GODADDY_PRIVATE_KEY }}
+          port: 22
+          source: "build.tar.gz"
+          target: "/home/${{ secrets.GODADDY_USERNAME }}/public_html"
+
+      - name: Extract and Deploy
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.GODADDY_HOST }}
@@ -52,43 +62,8 @@ jobs:
           key: ${{ secrets.GODADDY_PRIVATE_KEY }}
           port: 22
           script: |
-            export TERM=xterm  # ✅ Fix the TERM issue
-            cd /home/${{ secrets.GODADDY_USERNAME }}
-            rm -rf public_html/*
-            scp -i ~/.ssh/id_rsa -P 22 build.tar.gz ${{ secrets.GODADDY_USERNAME }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USERNAME }}/public_html
+            export TERM=xterm  # ✅ Fix: Set TERM variable
             cd /home/${{ secrets.GODADDY_USERNAME }}/public_html
+            rm -rf *
             tar -xzvf build.tar.gz
             rm build.tar.gz
-
-      - name: SSH into GoDaddy and Deploy
-        uses: appleboy/ssh-action@v1.0.0
-        with:
-          host: ${{ secrets.GODADDY_HOST }}
-          username: ${{ secrets.GODADDY_USER }}
-          key: ${{ secrets.GODADDY_PRIVATE_KEY }}
-          script: |
-            echo "Connected to GoDaddy server."
-            cd ${{ secrets.GODADDY_PUBLIC_HTML }}
-            
-            echo "Before cleanup, listing directory contents:"
-            ls -la
-            
-            echo "Deleting old files (excluding .htaccess)..."
-            find . -mindepth 1 ! -name ".htaccess" -delete
-            
-            echo "After cleanup, listing directory contents:"
-            ls -la
-            
-            echo "Extracting new build..."
-            unzip build.zip
-            
-            echo "Moving build files to public_html root..."
-            mv build/* .
-            
-            echo "Cleaning up extracted build folder and zip file..."
-            rm -rf build build.zip
-            
-            echo "Final directory contents after deployment:"
-            ls -la
-            
-            echo "Deployment successful!"
