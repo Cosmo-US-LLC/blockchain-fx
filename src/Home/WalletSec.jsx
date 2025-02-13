@@ -165,7 +165,7 @@ function WalletSec() {
             <div className="w-[100%] absolute top-[-2%] left-0">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#f9f9f9]">
                 <h3 className="text-[9.875px] text-[#444] text-center w-[100px] font-[700]  ">
-                  $BFX Pre-Sale
+                Buy $BFX
                 </h3>
               </div>
             </div>
@@ -176,12 +176,12 @@ function WalletSec() {
               }}
             >
               <h3 className="text-center text-[21.64px] leading-[100%] font-[700]">
-                $210,992
+              $768,992.47 
               </h3>
               <div className="pt-3">
                 <div className="flex justify-between items-center pb-1">
                   <span className="text-[#444] text-[9.74px] font-[400] leading-[100%]">
-                    78.92% of softcap raised
+                  78.92% of softcap raised
                   </span>
                   <img src={info} className="w-[6.912px] h-[6.912px]" alt="" />
                 </div>
@@ -190,12 +190,12 @@ function WalletSec() {
                 </div>
                 <div>
                   <p className="text-[#444] text-end text-[9.74px] font-[400] leading-[150%]">
-                    $300,000
+                  $800,000
                   </p>
                 </div>
               </div>
               <h5 className="text-[#444] text-[9.74px] text-center font-[400] leading-[100%]">
-                1259 Transactions
+              1259 Transactions
               </h5>
             </div>
             <div
@@ -205,7 +205,7 @@ function WalletSec() {
               }}
             >
               <h4 className="text-center text-[#636363] text-[9.875px] leading-[75%] font-[700]">
-                Listing Price: 1 $BFX = $0.01
+              Listing Price:  1 $BFX = $0.01
               </h4>
             </div>
             <div className="flex justify-center space-x-[12px]">
@@ -233,11 +233,11 @@ function WalletSec() {
               ))}
             </div>
             <div className="flex justify-center items-center py-[0px] space-x-[15px]">
-              <hr className="h-[1px] w-[34%]" />
+              <hr className="h-[1px] w-[33%]" />
               <span className="text-[#636363] text-end text-[9.618px] font-[700] leading-[75%]">
-                1 BFX = $0.002
+              1 $BFX  = $0.0021
               </span>
-              <hr className="h-[1px] w-[34%]" />
+              <hr className="h-[1px] w-[33%]" />
             </div>
             <div className="">
               <label className="text-[#2F2F2F] text-[8.888px] font-[700] leading-[8.888px]">
@@ -354,10 +354,10 @@ function WalletSec() {
               }}
             >
               <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
-                You get 10% more tokens!
+              You get 10% bonus tokens
               </h4>
               <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
-                Buy $1,500 more to unlock 20% bonus tokens
+              Buy $1,500 more to unlock 20% bonus
               </h4>
             </div>
             <div className="flex justify-center items-center space-x-[24px]">

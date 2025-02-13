@@ -4,7 +4,7 @@ import liveming from "../assets/LiveNews/liveimgmob.webp";
 
 function MobLiveNewSec() {
   return (
-    <div className="pt-[24px]  pb-[24px] bg-[#FFF]">
+    <div className="pt-[24px]  pb-[24px] bg-[#FAFAFA]">
       <div className=" w-[90%] mx-auto ">
           <div className="space-y-[20px]">
             <h3 className="text-[30px] text-center font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">

@@ -36,7 +36,7 @@ function MobileHero() {
               The First Crypto <br /> Trading Super App
             </h2>
             <p className="text-[15px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#000] tracking-[-0.32px] ">
-            BlockchainFX is the only crypto-native trading platform that offers instant access to the world’s largest financial markets.  Users can trade crypto, forex, stocks, ETFs, futures, options, bonds, indices, CFDs and more, all in one place. <br /><br /> This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
+            BlockchainFX is the only crypto-native trading platform that offers instant access to the world’s largest financial markets. Users can trade crypto, forex, stocks, ETFs and more, all in one place. <br /><br /> This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
@@ -45,7 +45,7 @@ function MobileHero() {
             className="text-white bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px]  h-[48px]">
               Buy $BFX
             </button>
-            <a href="https://blockchainfx.com/whitepaper.pdf" className="" rel="noopener noreferrer">
+            <a href="https://blockchainfx.com/whitepaper.pdf" target="_blank" className="" rel="noopener noreferrer">
             <button className="hover:text-white hover:bg-[#E5AE00] px-[14px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px]  h-[48px]">
             Whitepaper
             </button>
@@ -74,10 +74,9 @@ function MobileHero() {
             </video>
           </div>
 
-          <div className="border rounded-[6px] py-[20px] !mt-[20px] px-[13px]">
+          {/* <div className="border rounded-[6px] py-[20px] !mt-[20px] px-[13px]">
             <h3 className="text-center text-[15px] font-[600]">Featured In:</h3>
             <div className="flex justify-center items-center space-x-[9px]">
-              {/* <img className="h-[12px]" src={herobnr1} alt="" /> */}
               <img className="h-[14px] !mt-[2px]" src={herobnr2} alt="" />
               <img className="" src={fobicn} alt="" />
               <img className="h-[17px]" src={herobnr4} alt="" />
@@ -87,7 +86,7 @@ function MobileHero() {
                 alt=""
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

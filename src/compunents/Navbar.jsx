@@ -143,13 +143,13 @@ function Navbar() {
           >
             Reviews
           </a>
-          <a
+          {/* <a
             className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "win", 90)}
             href=""
           >
             Win $100k
-          </a>
+          </a> */}
           <div
             ref={dropdownRef}
             className="flex relative justify-center items-center space-x-2"
@@ -239,13 +239,13 @@ function Navbar() {
           >
             Reviews
           </a>
-          <a
+          {/* <a
             className="block text-[16px] font-[500] text-[#000] mb-4"
             href=""
             onClick={(e) => handleScroll(e, "win", 90)}
           >
             Win $100k
-          </a>
+          </a> */}
           <div
             ref={dropdownRef}
             className="flex relative  justify-start items-center space-x-2"
