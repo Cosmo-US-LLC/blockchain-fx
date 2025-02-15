@@ -7,8 +7,12 @@ import wlticn4 from "../../assets/navbar/wallet/popsvg (4).svg"
 
 const WalletPopup = ({ onConnect, onClose }) => {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-end items-start">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-[487px] px-[30px] py-[24px] rounded-[8px] mt-[4rem] 2xl:mr-10 xl:mr-10 lg:mr-10 md:mr-0 sm:mr-0 mr-0">
+    <div 
+    onClick={onClose}
+    className="fixed inset-0 bg-black bg-opacity-50 flex justify-end items-start">
+      <div 
+      onClick={(e) => e.stopPropagation()}
+      className="bg-white p-6 rounded-lg shadow-lg w-[487px] px-[30px] py-[24px] rounded-[8px] mt-[4rem] 2xl:mr-10 xl:mr-10 lg:mr-10 md:mr-0 sm:mr-0 mr-0">
        <div className="border border-[#E3E3E3] space-y-[20px] rounded-[8px] px-[30px] py-[14px]">
        <div className="flex justify-center ">
           <button
@@ -36,7 +40,7 @@ const WalletPopup = ({ onConnect, onClose }) => {
           <h3 className="text-[#444] text-[14px] font-[700] text-center leading-[normal]">Connect Wallet Manually</h3>
           <p className="text-[#8A8A8A] tracking-[-0.6px] text-[12px] font-[400] text-center leading-[normal]">Get access to your personal dashboard without connecting your wallet. Just copy and paste your wallet address in the field and see how many BFX tokens you have.</p>
         <div className="w-[100%] flex">
-          <input type="text" className="p-2 w-[100%] outline-none border border-r-0 h-[39px]" />
+          <input type="text" placeholder="0x...." className="placeholde:text-gray-300 p-2 w-[100%] outline-none border text-[14px] border-r-0 h-[39px]" />
           <button className="bg-[#E5AE00] text-[12px] text-white font-[700] h-[39px] w-[90px]">Access</button>
         </div>
         </div>

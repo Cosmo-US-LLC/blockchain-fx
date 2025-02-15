@@ -20,7 +20,7 @@ function MobWhatIsSec() {
   };
 
   return (
-    <div className="pt-[50px] pb-[50px] bgwhatmob" id="what-is-bfx-coin">
+    <div className="pt-[50px] pb-[50px] bgwhatmob">
       <div className="relative w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">

@@ -21,7 +21,6 @@ function WhatIsSec() {
   return (
     <div
       className="pt-[50px] pb-[50px] bgwhat" 
-      id="what-is-bfx-coin"
       style={{ height: "auto" }}
     >
       <div className="max-w-[866px] relative  w-[100%] mx-auto ">

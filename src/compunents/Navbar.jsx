@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+
 import logo from "../assets/navbar/logo.svg";
 import flag from "../assets/navbar/flg.svg";
 import menu from "../assets/navbar/menu.svg";
@@ -104,7 +106,9 @@ function Navbar() {
             />
           </div>
           <div className="2xl:max-w-[174px] xl:max-w-[174px] lg:max-w-[174px] md:max-w-[174px] sm:max-w-[145px] max-w-[145px]">
-            <img onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})} className="cursor-pointer" src={logo} alt="" />
+            <Link to="/">
+            <img className="cursor-pointer" src={logo} alt="" />
+            </Link>
           </div>
         </div>
         <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">

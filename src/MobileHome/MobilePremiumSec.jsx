@@ -26,7 +26,7 @@ const cardsmob = [
     price: "$1,000",
     reviews: [true, false, false, false, false],
     points: ["Early Access", "10% BFX Bonus"],
-    buttonLabel: "Buy $BFX",
+    buttonLabel: "Buy $BFX $1,000",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const cardsmob = [
     price: "$2,500",
     reviews: [true, true, false, false, false],
     points: ["Early Access", "20% BFX Bonus", "$500 Trading Credits"],
-    buttonLabel: "Buy $BFX",
+    buttonLabel: "Buy $BFX $2,500",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const cardsmob = [
     price: "$5,000",
     reviews: [true, true, true, false, false],
     points: ["Early Access", "30% BFX Bonus", "$1000 Trading Credits"],
-    buttonLabel: "Buy $BFX",
+    buttonLabel: "Buy $BFX $5,000",
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const cardsmob = [
       "Daily USDT Rewards",
       "$2000 Bonus Trading Credits",
     ],
-    buttonLabel: "Buy $BFX",
+    buttonLabel: "Buy $BFX $10,000",
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const cardsmob = [
       "Daily USDT Rewards",
       "$5000 Bonus Trading Credits",
     ],
-    buttonLabel: "Buy $BFX",
+    buttonLabel: "Buy $BFX $25,000",
   },
   {
     id: 6,
@@ -89,14 +89,13 @@ const cardsmob = [
       "Daily USDT Rewards",
       "$10,000 Bonus Trading Credits",
     ],
-    buttonLabel: "Buy $BFX",
+    buttonLabel: "Buy $BFX $50,000",
   },
   {
     id: 7,
     img: cardimg7,
     title: "Legend",
     price: "$100,000+",
-
     reviews: [true, true, true, true, true, true, true],
     points: [
       "Early Access",
@@ -105,7 +104,7 @@ const cardsmob = [
       "$25,000 Bonus Trading Credits",
       "Personalised Portfolio Management",
     ],
-    buttonLabel: "Buy $BFX",
+    buttonLabel: "Buy $BFX $100,000",
   },
 ];
 const Bundles = [
@@ -113,7 +112,7 @@ const Bundles = [
     id: 1,
     question: "When will I get my Founder’s Club NFT?",
     answer:
-      "You’ll receive your NFT automatically after purchasing the required amount of $BFX. It will appear in your personal dashboard and can be claimed once the pre-sale concludes.",
+    "<li>You’ll receive your Founder's Club NFT automatically after purchasing the required amount of $BFX.</li> <li>The NFT will appear in your personal dashboard and can be claimed once the presale ends.</li> <li>To access the dashboard, connect the same wallet by clicking 'Connect Walle' in the top right corner.</li>",
   },
   {
     id: 2,
@@ -255,7 +254,7 @@ function MobilePremiumSec() {
                         className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[40px]"
                         onClick={handleScroll}
                       >
-                        Buy $BFX
+                       {card.buttonLabel}
                       </button>
                     </div>
                   </div>
