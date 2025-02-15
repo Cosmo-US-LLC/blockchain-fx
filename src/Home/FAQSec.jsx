@@ -79,22 +79,22 @@ const FaqSec = () => {
     {
       question: "What is the goal of the presale?",
       answer:
-        "The goal of the pre-sale is to sell all tokens allocated for this phase while raising funds to enhance the platform and fuel its growth. These funds will be continuously reinvested into project development and marketing to attract more users. We aim to reach 25,000 daily traders and achieve multi-million dollar daily trading volume during the pre-sale. At the same time, we’re building a loyal and growing community, rewarding early participants with discounted tokens, and generating awareness ahead of the official launch.",
+        "The goal of the pre-sale is to sell all tokens allocated for this phase while raising funds to enhance the platform and fuel its growth. These funds will be continuously reinvested into project development and marketing to attract more users. We aim to reach 100,000 active daily traders and achieve multi-million dollar daily trading volume during the pre-sale. At the same time, we’re building a loyal and growing community, rewarding early participants with discounted tokens, and generating awareness ahead of the official launch.",
     },
     {
       question: "Where can I see my tokens?",
       answer:
-        "You can view your tokens in your dashboard wallet. Just connect with the wallet you used to purchase on presale.blockchainfx.com and click on the top right corner to see your holdings.",
+        "You can view your tokens in your dashboard wallet. Just connect with the wallet you used to purchase and click on the top right corner to see your BFX balance.",
     },
     {
       question: "Are my tokens safe?",
       answer:
-        "The safety of your tokens during the pre-sale is guaranteed through our smart contract. Additionally, the BFX token has been audited by CertiK, the leading Blockchain Security Enterprise.",
+        "The safety of your tokens during the pre-sale is 100% guaranteed through our smart contract.",
     },
     {
       question: "How to claim your BFX?",
       answer:
-        "Once the pre-sale ends, you will be able to claim your BFX tokens in your dashboard wallet on blockchainfx.com.",
+        "Your tokens will be transferred to your wallet automatically after the presale ends. You don’t need to do anything.",
     },
   ];
   const [openItems, setOpenItems] = useState([]);

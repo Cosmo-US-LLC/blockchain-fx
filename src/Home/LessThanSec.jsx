@@ -10,11 +10,11 @@ function LessThanSec() {
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[58px] text-[#181A20] tracking-[-1px]">
           Bridging Crypto and Finance
           </h3>
-          <p className="text-[14px] font-[400] w-[832px] mx-auto text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
+          <p className="text-[14px] font-[400] w-[890px] mx-auto text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
             Crypto makes up only 0.87% of global trading volume in 2024,
             averaging $84.3 billion daily. Meanwhile, the Forex market alone
             handles $7.5 trillion per day. This gap presents a major opportunity
-            for $BFX to connect crypto users <br /> with the world’s largest financial
+            for $BFX to connect crypto users with the world’s largest financial
             markets.
           </p>
         </div>

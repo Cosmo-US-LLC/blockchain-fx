@@ -10,7 +10,7 @@ import oneimg from "../assets/OneAppSec/imgonecec.png";
 const items = [
   {
     icon: oneicon1,
-    title: "Multiple Devices",
+    title: "Any Device",
     description:
       "Trade from whatever device you like — PC, Mac, iOS or Android.",
   },
@@ -27,7 +27,7 @@ const items = [
   {
     icon: oneicon4,
     title: "Multiple Charts",
-    description: "Trade using multiple charts simultaneously for better market insights.",
+    description: "Traders can use multiple charts at the same time for better market insights.",
   },
 ];
 
@@ -39,7 +39,7 @@ function MobileOneAppSec() {
   };
 
   return (
-    <div className="pt-[24px] pb-[24px] ">
+    <div className="pt-[24px] pb-[24px] " id="what-is-bfx-coin">
      <div className="w-[90%] mx-auto relative">
      <div className="space-y-[30px]">
         <div className="space-y-[15px]">
