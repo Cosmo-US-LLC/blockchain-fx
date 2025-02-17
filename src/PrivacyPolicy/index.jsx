@@ -12,7 +12,7 @@ function PrivacyPolicy() {
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto py-[50px]">
       <div className="space-y-[10px]">
         <h3 className="2xl:text-[30px] pb-[25px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
-          Blockchainfx Privacy Policy
+          Privacy Policy
         </h3>
         <h5 className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
           <span className="font-[600]">Effective Date:</span> January 1, 2025

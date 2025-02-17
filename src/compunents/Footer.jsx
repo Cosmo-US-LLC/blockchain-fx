@@ -99,11 +99,6 @@ function Footer() {
                     Token Sale Agreement
                   </p>
                   </Link>
-                  <p
-                    className="text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]"
-                  >
-                    Contact us
-                  </p>
                   <a 
                   className="text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]"
                   href="https://t.me/blockchainfx_chat" target="_blank" rel="noopener noreferrer">Live 24/7 Support</a>
@@ -124,7 +119,7 @@ function Footer() {
                 <img src={socil1} alt="" />
               </a>
               <a
-                href="https://t.me/blockchainfx_chat"
+                href="https://t.me/blockchainfx_news"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -265,12 +260,6 @@ function Footer() {
                      Token Sale Agreement
                   </p>
                   </Link>
-                <a
-                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href=""
-                >
-                  Contact us
-                </a>
                   <a 
                   className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
                   href="https://t.me/blockchainfx_chat" target="_blank" rel="noopener noreferrer">Live 24/7 Support</a>
@@ -292,7 +281,7 @@ function Footer() {
                 <img className="w-[24px] h-[24px]" src={socil1} alt="" />
               </a>
               <a
-                href="https://t.me/blockchainfx_chat"
+                href="https://t.me/blockchainfx_news"
                 target="_blank"
                 rel="noopener noreferrer"
               >
