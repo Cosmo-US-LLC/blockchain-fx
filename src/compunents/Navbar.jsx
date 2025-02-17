@@ -106,7 +106,7 @@ function Navbar() {
             />
           </div>
           <div className="2xl:max-w-[174px] xl:max-w-[174px] lg:max-w-[174px] md:max-w-[174px] sm:max-w-[145px] max-w-[145px]">
-            <Link to="/">
+            <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             <img className="cursor-pointer" src={logo} alt="" />
             </Link>
           </div>

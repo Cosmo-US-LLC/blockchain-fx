@@ -112,7 +112,7 @@ const Bundles = [
     id: 1,
     question: "When will I get my Founder’s Club NFT?",
     answer:
-    "<li>You’ll receive your Founder's Club NFT automatically after purchasing the required amount of $BFX.</li> <li>The NFT will appear in your personal dashboard and can be claimed once the presale ends.</li> <li>To access the dashboard, connect the same wallet by clicking 'Connect Walle' in the top right corner.</li>",
+      "<li>You’ll receive your Founder's Club NFT automatically after purchasing the required amount of $BFX.</li> <li>The NFT will appear in your personal dashboard and can be claimed once the presale ends.</li> <li>To access the dashboard, connect the same wallet by clicking 'Connect Wallet' in the top right corner.</li>",
   },
   {
     id: 2,
@@ -165,11 +165,13 @@ function MobilePremiumSec() {
       <div className="w-[90%] space-y-[20px] mx-auto relative">
         <div className="space-y-[12px]">
           <h3 className="text-[30px] leading-[100%] text-[#000] text-center font-bold">
-            Limited <br /> Founder's Club Membership
+            Limited Founder's <br /> Club Membership
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-          Buy $BFX during the pre-sale and get Founder's Club NFTs starting at only $1,000!  Enjoy early access, exclusive memberships, bonus $BFX, daily staking rewards in BFX and USDT, plus extra trading credits. Available only during the pre-sale!
-
+            Buy $BFX during the pre-sale and get Founder's Club NFTs starting at
+            only $1,000!  Enjoy early access, exclusive memberships, bonus $BFX,
+            daily staking rewards in BFX and USDT, plus extra trading credits.
+            Available only during the pre-sale!
           </p>
         </div>
         <div className="w-[100%] mx-auto ">
@@ -254,7 +256,7 @@ function MobilePremiumSec() {
                         className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[40px]"
                         onClick={handleScroll}
                       >
-                       {card.buttonLabel}
+                        {card.buttonLabel}
                       </button>
                     </div>
                   </div>
@@ -302,7 +304,9 @@ function MobilePremiumSec() {
                       }
                     }}
                     className={`w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px] relative z-[90] cursor-pointer ${
-                      activeIndex === index ? "border" : "border border-[#F5F5F5]"
+                      activeIndex === index
+                        ? "border"
+                        : "border border-[#F5F5F5]"
                     }`}
                   >
                     <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
@@ -367,43 +371,46 @@ function MobilePremiumSec() {
                 </div>
                 {openBundles === item.id && (
                   <div className="relative">
-                    <p
-                      className="mt-2 text-[15px] text-[#181A20] font-[400] tracking-[-0.32px]"
-                      dangerouslySetInnerHTML={{ __html: item.answer }}
-                    ></p>
-                    {item.tooltip && (
-                      <div className="absolute top-[21%] z-[9] left-[30%]">
-                        <div
-                          className="relative"
-                          onMouseEnter={() => setShowTooltip(true)}
-                          onMouseLeave={() => setShowTooltip(false)}
-                        >
-                          <img
-                            className="w-[11.7px]"
-                            src={Iicon}
-                            alt="Info Icon"
-                          />
-                          {showTooltip && (
-                            <div className="absolute top-[100%] left-[-500%] z-[99] bg-[#808080] w-[260px] text-start leading-[110%] text-[#fff] text-[10px] font-[400] rounded-md p-[10px] shadow-lg">
-                              <span className="absolute top-[8px] left-[4px]">
-                                .
-                              </span>{" "}
-                              For example, buying $1,000 of $BFX gives you the
-                              Novice NFT. <br />{" "}
-                              <span className="absolute top-[28px] left-[4px]">
-                                .
-                              </span>{" "}
-                              Spend $1,500 more to upgrade to Advanced. <br />{" "}
-                              <span className="absolute top-[40px] left-[4px]">
-                                .
-                              </span>{" "}
-                              You can keep upgrading until you reach the final
-                              Legend NFT.
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                    )}
+                    <p className="relative mt-2 text-[15px] text-[#181A20] font-[400] tracking-[-0.32px] inline-flex items-center">
+                      <span
+                      className="pr-3"
+                        dangerouslySetInnerHTML={{ __html: item.answer }}
+                      ></span>
+
+                      {item.tooltip && (
+                        <span className="absolute top-[5%] right-[0%]">
+                          <div
+                            className="cursor-pointer relative"
+                            onMouseEnter={() => setShowTooltip(true)}
+                            onMouseLeave={() => setShowTooltip(false)}
+                          >
+                            <img
+                              className="w-[11.7px]"
+                              src={Iicon}
+                              alt="Info Icon"
+                            />
+                            {showTooltip && (
+                              <div className="absolute top-full left-[-140px] transform -translate-x-1/2 mt-2 z-[99] bg-[#808080] w-[300px] text-start leading-[110%] text-[#fff] text-[10px] font-[400] rounded-md p-[10px] shadow-lg whitespace-nowrap">
+                                <span className="absolute top-[8px] left-[4px]">
+                                  .
+                                </span>{" "}
+                                For example, buying $1,000 of $BFX gives you the
+                                Novice NFT. <br />
+                                <span className="absolute top-[18px] left-[4px]">
+                                  .
+                                </span>{" "}
+                                Spend $1,500 more to upgrade to Advanced. <br />
+                                <span className="absolute top-[29px] left-[4px]">
+                                  .
+                                </span>{" "}
+                                You can keep upgrading until you reach the final
+                                Legend NFT.
+                              </div>
+                            )}
+                          </div>
+                        </span>
+                      )}
+                    </p>
                   </div>
                 )}
               </div>

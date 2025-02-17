@@ -16,7 +16,7 @@ function MobSecurityBuiltSec() {
         <h3 className="text-[30px] font-[700] capitalize text-center leading-[114%] text-[#181A20] tracking-[-1px]">
           Security Built <br /> into the Core
           </h3>
-          <p className="text-[15px] font-[400] max-w-[793px] text-center mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">
+          <p className="text-[15px] font-[400] max-w-[365px] text-center mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">
             BlockchainFX leverages advanced technology to build a reliable
             infrastructure and seamless ecosystem, delivering a secure and
             user-friendly experience for traders.

@@ -6,7 +6,7 @@ import herobnr5 from "../assets/herosection/bnrhero (1).webp";
 // import heroVideo from "../assets/herosection/heroVideo.webm";
 import stars from "../assets/herosection/stars.webp";
 
-import heroVideo from "../assets/herosection/heroVideo.webm";
+import heroVideo from "../assets/herosection/herogif.gif";
 
 function MobileHero() {
 
@@ -35,7 +35,7 @@ function MobileHero() {
             <h2 className="pt-6 pb-8 text-[36px] font-[700] leading-[111.375%] tracking-[-1px] text-[#000] text-center">
               The First Crypto <br /> Trading Super App
             </h2>
-            <p className="text-[15px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#000] tracking-[-0.32px] ">
+            <p className="text-[15px] max-w-[375px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#000] tracking-[-0.32px] ">
             BlockchainFX is the only crypto-native trading platform that offers instant access to the world’s largest financial markets. Users can trade crypto, forex, stocks, ETFs and more, all in one place. <br /><br /> This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
             </p>
           </div>
@@ -58,9 +58,9 @@ function MobileHero() {
             </div>
             <p className="text-[#000] font-[400] text-[14px]">Rated by Users</p>
           </div>
-          <div className="flex justify-center pb-[15px]">
-            {/* <img src={heroimg} className="bg-[#c1c1c129]" alt="" /> */}
-            <video
+          <div className="flex justify-center pt-[15px]">
+            <img src={heroVideo} className="" alt="" />
+            {/* <video
               width={500}
               height={410}
               className="max-h-[550px]"
@@ -71,7 +71,7 @@ function MobileHero() {
               loop
             >
               <source src={heroVideo} type="video/webm" />
-            </video>
+            </video> */}
           </div>
 
           {/* <div className="border rounded-[6px] py-[20px] !mt-[20px] px-[13px]">

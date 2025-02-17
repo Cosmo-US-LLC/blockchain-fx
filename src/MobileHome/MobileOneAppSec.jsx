@@ -12,7 +12,7 @@ const items = [
     icon: oneicon1,
     title: "Any Device",
     description:
-      "Trade from whatever device you like — PC, Mac, iOS or Android.",
+      "Users can trade from any device, whether it's a PC, Mac, iOS, or Android.",
   },
   {
     icon: oneicon2,
