@@ -24,10 +24,10 @@ const coins = [
   { name: "USDT", icon: wltcoin5 },
 ];
 const Dropcoins = [
-  { name: "USDT", sub:"ERC-20",  icon: wltcoin5 },
-  { name: "USDT", sub:"BEP-20",  icon: wltcoin5 },
-  { name: "ETH", sub:"ERC-20", icon: wltcoin1 },
-  { name: "BNB", sub:"ERC-20", icon: wltcoin4 },
+  { name: "USDT", sub: "ERC-20", icon: wltcoin5 },
+  { name: "USDT", sub: "BEP-20", icon: wltcoin5 },
+  { name: "ETH", sub: "ERC-20", icon: wltcoin1 },
+  { name: "BNB", sub: "ERC-20", icon: wltcoin4 },
 ];
 
 const items = [
@@ -60,16 +60,18 @@ const items = [
 function WalletSec() {
   const [activeIndex, setActiveIndex] = useState(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  
-  const [selectedCoin, setSelectedCoin] = useState({
-    name: "USDT",
-    icon: wltcoin5,
-  });
 
+  // const [selectedCoin, setSelectedCoin] = useState({
+  //   name: "USDT",
+  //   icon: wltcoin5,
+  // });
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [showPopup, setShowPopup] = useState(false);
-
   const [activeIndexbuy, setActiveIndexbuy] = useState(0);
+  const [selectedCoin, setSelectedCoin] = useState(Dropcoins[0]);
+  // const [activeIndex, setActiveIndex] = useState(null);
+  const [popupVisible, setPopupVisible] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("");
 
   const handleToggle = (index) => {
     setActiveIndexbuy(index === activeIndexbuy ? -1 : index);
@@ -79,6 +81,30 @@ function WalletSec() {
     setSelectedCoin(coin);
     setSelectedIndex(index);
     setDropdownOpen(false);
+  };
+
+  const handleCoinClick = (index) => {
+    setActiveIndex(index);
+
+    if (index === 2) {
+      setPopupVisible(true);
+    } else {
+      setPopupVisible(false);
+      if (index === 0) {
+        setSelectedCoin(Dropcoins[2]); // ETH ERC-20
+      } else if (index === 1) {
+        setSelectedCoin(Dropcoins[3]); // BNB ERC-20
+      }
+    }
+  };
+
+  const handlePopupSelection = (option) => {
+    if (option === "USDT ERC-20") {
+      setSelectedCoin(Dropcoins[0]); // USDT ERC-20
+    } else if (option === "USDT BEP-20") {
+      setSelectedCoin(Dropcoins[1]); // USDT BEP-20
+    }
+    setPopupVisible(false);
   };
 
   const handleScroll = (event, targetId, offset) => {
@@ -107,7 +133,9 @@ function WalletSec() {
             BFX Presale
           </h3>
           <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
-            <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">.</span>
+            <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
+              .
+            </span>
             Live
           </div>
         </div>
@@ -165,7 +193,7 @@ function WalletSec() {
             <div className="w-[100%] absolute top-[-2%] left-0">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#f9f9f9]">
                 <h3 className="text-[9.875px] text-[#444] text-center w-[100px] font-[700]  ">
-                Buy $BFX
+                  Buy $BFX
                 </h3>
               </div>
             </div>
@@ -176,12 +204,12 @@ function WalletSec() {
               }}
             >
               <h3 className="text-center text-[21.64px] leading-[100%] font-[700]">
-              $768,992.47 
+                $768,992.47
               </h3>
               <div className="pt-3">
                 <div className="flex justify-between items-center pb-1">
                   <span className="text-[#444] text-[9.74px] font-[400] leading-[100%]">
-                  78.92% of softcap raised
+                    78.92% of softcap raised
                   </span>
                   <img src={info} className="w-[6.912px] h-[6.912px]" alt="" />
                 </div>
@@ -190,12 +218,12 @@ function WalletSec() {
                 </div>
                 <div>
                   <p className="text-[#444] text-end text-[9.74px] font-[400] leading-[150%]">
-                  $800,000
+                    $800,000
                   </p>
                 </div>
               </div>
               <h5 className="text-[#444] text-[9.74px] text-center font-[400] leading-[100%]">
-              1259 Transactions
+                1259 Transactions
               </h5>
             </div>
             <div
@@ -205,10 +233,10 @@ function WalletSec() {
               }}
             >
               <h4 className="text-center text-[#636363] text-[9.875px] leading-[75%] font-[700]">
-              Listing Price:  1 $BFX = $0.01
+                Listing Price: 1 $BFX = $0.01
               </h4>
             </div>
-            <div className="flex justify-center space-x-[12px]">
+            {/* <div className="flex justify-center space-x-[12px]">
               {coins.map((coin, index) => (
                 <div
                   key={index}
@@ -231,11 +259,95 @@ function WalletSec() {
                   </span>
                 </div>
               ))}
+            </div> */}
+            <div className="flex justify-center space-x-[12px]">
+              {coins.map((coin, index) => (
+                <div
+                  key={index}
+                  onClick={() => handleCoinClick(index)}
+                  style={{
+                    background:
+                      activeIndex === index
+                        ? "rgba(176, 176, 176, 0.7)"
+                        : "rgba(176, 176, 176, 0.17)",
+                  }}
+                  className="flex justify-center items-center px-[30px] py-[5px] space-x-1 cursor-pointer transition-all"
+                >
+                  <img
+                    className="w-[15.813px] h-[15.813px] object-cover"
+                    src={coin.icon}
+                    alt={coin.name}
+                  />
+                  <span className="text-[#545454] text-[11.688px] font-[700]">
+                    {coin.name}
+                  </span>
+                </div>
+              ))}
             </div>
+            {popupVisible && (
+              <div className="fixed inset-0 flex items-center -top-10 justify-center bg-black bg-opacity-50 z-[999]">
+                <div className="bg-white p-5 rounded-md shadow-lg min-w-[300px]">
+                  <div
+                    className="h-[26px] w-[26px] mt-[-15px] tracking-[-1px] ml-[-15px] flex justify-center items-center rounded-full bg-gray-100 cursor-pointer"
+                    onClick={() => setPopupVisible(false)}
+                  >
+                    <h2 className="text-[16px] text-[#000] leading-[0px]">x</h2>
+                  </div>
+                  <h2 className="text-lg text-center font-semibold mb-2">
+                    Switch Network for USDT
+                  </h2>
+                  <div className="space-y-2">
+                    <button
+                      className={`flex items-center w-full p-2 text-[14px] rounded-md ${
+                        selectedCoin.name === "USDT" &&
+                        selectedCoin.sub === "ERC-20"
+                          ? "bg-[#E5AE00] text-white"
+                          : "bg-transparent"
+                      }`}
+                      onClick={() => handlePopupSelection("USDT ERC-20")}
+                    >
+                      <img src={wltcoin5} className="mr-2" alt="" />
+                      USDT ERC-20
+                      {selectedCoin.name === "USDT" &&
+                        selectedCoin.sub === "ERC-20" && (
+                          <span className="text-[#fff] pl-7 mt-[-10px]">
+                            connected{" "}
+                            <span className="text-[50px] leading-[10px] text-green-500">
+                              .
+                            </span>
+                          </span>
+                        )}
+                    </button>
+
+                    <button
+                      className={`flex items-center w-full p-2 text-[14px] rounded-md ${
+                        selectedCoin.name === "USDT" &&
+                        selectedCoin.sub === "BEP-20"
+                          ? "bg-[#E5AE00] text-white"
+                          : "bg-transparent"
+                      }`}
+                      onClick={() => handlePopupSelection("USDT BEP-20")}
+                    >
+                      <img src={wltcoin5} className="mr-2" alt="" />
+                      USDT BEP-20
+                      {selectedCoin.name === "USDT" &&
+                        selectedCoin.sub === "BEP-20" && (
+                          <span className="text-[#fff] pl-7 mt-[-10px]">
+                            connected{" "}
+                            <span className="text-[50px] leading-[10px] text-green-500">
+                              .
+                            </span>
+                          </span>
+                        )}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
             <div className="flex justify-center items-center py-[0px] space-x-[15px]">
               <hr className="h-[1px] w-[33%]" />
               <span className="text-[#636363] text-end text-[9.618px] font-[700] leading-[75%]">
-              1 $BFX  = $0.0021
+                1 $BFX = $0.0021
               </span>
               <hr className="h-[1px] w-[33%]" />
             </div>
@@ -262,20 +374,19 @@ function WalletSec() {
                       alt=""
                     />
                     <span className="text-[#545454] !overflow-hidden !text-clip text-[8.888px] font-[700]">
-                      {/* {selectedCoin?.name?.trim().split(/\s+/).slice(0, 1).join(" ")} */}
                       {selectedCoin.name}
                     </span>
                     <img
                       src={arw}
                       alt="Dropdown Arrow"
-                      className={`transform  h-[11.85px] transition-transform ${
+                      className={`transform h-[11.85px] transition-transform ${
                         dropdownOpen ? "rotate-180" : ""
                       }`}
                     />
                   </div>
 
                   {dropdownOpen && (
-                    <div className="absolute top-[32px] space-y-[5px] p-2  left-0 bg-white rounded-md shadow-lg  z-10">
+                    <div className="absolute top-[32px] space-y-[5px] p-2 left-0 bg-white rounded-md shadow-lg z-10">
                       {Dropcoins.map((coin, index) => (
                         <div
                           key={index}
@@ -290,7 +401,9 @@ function WalletSec() {
                           <h4 className="text-[9px] font-[700] text-[#545454]">
                             {coin.name}
                           </h4>
-                          <p className="text-[9px] text-[#545454]">{coin.sub}</p>
+                          <p className="text-[9px] text-[#545454]">
+                            {coin.sub}
+                          </p>
                         </div>
                       ))}
                     </div>
@@ -339,13 +452,18 @@ function WalletSec() {
               </div>
             </div>
             <div>
-              <button 
-              onClick={() => setShowPopup(true)}
-              className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]">
+              <button
+                onClick={() => setShowPopup(true)}
+                className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
+              >
                 Buy Now
               </button>
-              {showPopup && <CardList selectedCoin={selectedIndex} onClose={() => setShowPopup(false)} />}
-
+              {showPopup && (
+                <CardList
+                  selectedCoin={selectedIndex}
+                  onClose={() => setShowPopup(false)}
+                />
+              )}
             </div>
             <div
               className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
@@ -354,10 +472,10 @@ function WalletSec() {
               }}
             >
               <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
-              You get 10% bonus tokens
+                You get 10% bonus tokens
               </h4>
               <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
-              Buy $1,500 more to unlock 20% bonus
+                Buy $1,500 more to unlock 20% bonus
               </h4>
             </div>
             <div className="flex justify-center items-center space-x-[24px]">
@@ -434,90 +552,92 @@ function WalletSec() {
                 </div>
               ))}
             </div>
-           <div className="space-y-[14px]">
-            <h4 className="text-[#181A20] text-[14px] font-[600] px-1">5. Launch</h4>
-            <div
-              className="max-w-[414px] px-[10px] pt-[14px] pb-[16px] border border-[#B0B0B0] w-[100%] mx-auto "
-              style={{
-                background: "rgba(237, 237, 237, 0.40)",
-              }}
-            >
-              <div className=" space-y-[13px]">
-                <h4 className="text-start text-[#808080] text-[9.875px] leading-[75%] font-[600]">
-                  $BFX Launches On Multiple Top-Tier Exchanges
-                </h4>
-                <div className="flex justify-center space-x-[8px]">
-                  <div
-                    className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                    style={{
-                      background: "rgba(176, 176, 176, 0.17)",
-                    }}
-                  >
-                    <img
-                      src={swpicon}
-                      className="w-[14.813px] h-[14.813px]"
-                      alt=""
-                    />
-                    <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
-                      UNISWAP
-                    </h4>
-                  </div>
-                  <div
-                    className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                    style={{
-                      background: "rgba(176, 176, 176, 0.17)",
-                      filter: "blur(6.5px",
-                      opacity: "0.73",
-                    }}
-                  >
-                    <div className="w-[14.813px] h-[14.813px] bg-[#F0B90B] rounded-full"></div>
-                    <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
-                      UNISWAP
-                    </h4>
-                  </div>
-                  <div
-                    className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                    style={{
-                      background: "rgba(176, 176, 176, 0.17)",
-                      filter: "blur(6.5px",
-                      opacity: "0.73",
-                    }}
-                  >
-                    <div className="w-[14.813px] h-[14.813px] bg-[#0052FE] rounded-full"></div>
-                    <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
-                      UNISWAP
-                    </h4>
-                  </div>
-                  <div
-                    className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                    style={{
-                      background: "rgba(176, 176, 176, 0.17)",
-                      filter: "blur(6.5px",
-                      opacity: "0.73",
-                    }}
-                  >
-                    <div className="w-[14.813px] h-[14.813px] bg-[#00F0FF] rounded-full"></div>
-                    <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
-                      UNISWAP
-                    </h4>
-                  </div>
-                  <div
-                    className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                    style={{
-                      background: "rgba(176, 176, 176, 0.17)",
-                      filter: "blur(6.5px",
-                      opacity: "0.73",
-                    }}
-                  >
-                    <div className="w-[14.813px] h-[14.813px] bg-[#7635F5] rounded-full"></div>
-                    <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
-                      UNISWAP
-                    </h4>
+            <div className="space-y-[14px]">
+              <h4 className="text-[#181A20] text-[14px] font-[600] px-1">
+                5. Launch
+              </h4>
+              <div
+                className="max-w-[414px] px-[10px] pt-[14px] pb-[16px] border border-[#B0B0B0] w-[100%] mx-auto "
+                style={{
+                  background: "rgba(237, 237, 237, 0.40)",
+                }}
+              >
+                <div className=" space-y-[13px]">
+                  <h4 className="text-start text-[#808080] text-[9.875px] leading-[75%] font-[600]">
+                    $BFX Launches On Multiple Top-Tier Exchanges
+                  </h4>
+                  <div className="flex justify-center space-x-[8px]">
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                      }}
+                    >
+                      <img
+                        src={swpicon}
+                        className="w-[14.813px] h-[14.813px]"
+                        alt=""
+                      />
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                        filter: "blur(6.5px",
+                        opacity: "0.73",
+                      }}
+                    >
+                      <div className="w-[14.813px] h-[14.813px] bg-[#F0B90B] rounded-full"></div>
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                        filter: "blur(6.5px",
+                        opacity: "0.73",
+                      }}
+                    >
+                      <div className="w-[14.813px] h-[14.813px] bg-[#0052FE] rounded-full"></div>
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                        filter: "blur(6.5px",
+                        opacity: "0.73",
+                      }}
+                    >
+                      <div className="w-[14.813px] h-[14.813px] bg-[#00F0FF] rounded-full"></div>
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                        filter: "blur(6.5px",
+                        opacity: "0.73",
+                      }}
+                    >
+                      <div className="w-[14.813px] h-[14.813px] bg-[#7635F5] rounded-full"></div>
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-           </div>
           </div>
         </div>
         <div
@@ -528,7 +648,7 @@ function WalletSec() {
         >
           <div className="flex justify-center items-center space-x-[10px]">
             <h4 className="text-center text-[#808080] text-[13.1px] leading-[85%] font-[600]">
-            Audited by the Leading Blockchain Security Company  
+              Audited by the Leading Blockchain Security Company
             </h4>
             <div className="w-[113.97px]">
               <img src={cer} className="" alt="" />
