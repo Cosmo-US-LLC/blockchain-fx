@@ -25,7 +25,7 @@ function TheUltimateSec() {
             <img src={logo} className="h-[44.54px]" alt="" />
             </div>
             <h3 className="text-[45px] text-[#fff] font-[700] text-center leading-[117.143%] text-[#181A20] tracking-[-1px]">
-            The Ultimate <br/> Trading Experience
+            Blockchain Meets <br/>  Global Financial Markets
             </h3>
             <div className="flex justify-center items-center pt-[35px] space-x-[17px]">
             <button 

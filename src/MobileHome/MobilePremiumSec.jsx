@@ -118,20 +118,20 @@ const Bundles = [
     id: 2,
     question: "When will I get my Bonuses?",
     answer:
-      "Your BFX bonuses will be instantly added to your dashboard. To access your dashboard, click the 'Connect Wallet' button",
+      "<li>Your BFX bonuses will be instantly added to your dashboard.</li> <li>To access your dashboard, click the 'Connect Wallet' button</li>",
   },
   {
     id: 3,
     question: "Can I get an NFT with multiple purchases?",
     answer:
-      "Yes, you can buy $BFX in smaller amounts to reach the total required.For example, buying $200 worth of $BFX five times will earn you the Novice NFT (valued at $1,000).",
+      "<li>Yes, you can buy $BFX in smaller amounts to reach the total required.</li> <li>For example, buying $200 worth of $BFX five times will earn you the Novice NFT (valued at $1,000).</li>",
   },
   {
     id: 4,
     question: "Can I upgrade my NFT?",
     tooltip: true,
     answer:
-      "Yes, you can upgrade multiple times during the presale. <br/> You'll receive rewards and the NFT for the highest level you achieve. <br/> After the presale ends, upgrades will no longer be possible.",
+      "<li>Yes, you can upgrade multiple times during the presale.</li><li>You'll receive rewards and the NFT for the highest level you achieve.</li> <li> After the presale ends, upgrades will no longer be possible.</li>",
   },
 ];
 
@@ -373,7 +373,7 @@ function MobilePremiumSec() {
                   <div className="relative">
                     <p className="relative mt-2 text-[15px] text-[#181A20] font-[400] tracking-[-0.32px] inline-flex items-center">
                       <span
-                      className="pr-3"
+                      className="pr-3 leading-[130%] space-y-[10px]"
                         dangerouslySetInnerHTML={{ __html: item.answer }}
                       ></span>
 
