@@ -79,12 +79,12 @@ const MobFaqSec = () => {
     {
       question: "What is the goal of the presale?",
       answer:
-        "The goal of the pre-sale is to sell all tokens allocated for this phase while raising funds to enhance the platform and fuel its growth. These funds will be continuously reinvested into project development and marketing to attract more users. We aim to reach 100,000 active daily traders and achieve multi-million dollar daily trading volume during the pre-sale. At the same time, we’re building a loyal and growing community, rewarding early participants with discounted tokens, and generating awareness ahead of the official launch.",
+        "The goal of the pre-sale is to sell all tokens allocated for this phase while raising funds to enhance the platform and fuel its growth. These funds will be continuously reinvested into project development and marketing to attract more users. <br/><br/> We aim to reach 100,000 active daily traders and achieve multi-million dollar daily trading volume during the pre-sale. At the same time, we’re building a loyal and growing community, rewarding early participants with discounted tokens, and generating awareness ahead of the official launch.",
     },
     {
       question: "Where can I see my tokens?",
       answer:
-        "You can view your tokens in your dashboard wallet. Just connect with the wallet you used to purchase and click on the top right corner to see your BFX balance",
+        "You can view your tokens in your dashboard wallet. Just connect with the wallet you used to purchase and click on the top right corner to see your BFX balance.",
     },
     {
       question: "Are my tokens safe?",
