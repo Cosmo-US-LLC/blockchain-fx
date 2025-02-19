@@ -60,18 +60,11 @@ const items = [
 function WalletSec() {
   const [activeIndex, setActiveIndex] = useState(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  // const [selectedCoin, setSelectedCoin] = useState({
-  //   name: "USDT",
-  //   icon: wltcoin5,
-  // });
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [showPopup, setShowPopup] = useState(false);
   const [activeIndexbuy, setActiveIndexbuy] = useState(0);
   const [selectedCoin, setSelectedCoin] = useState(Dropcoins[0]);
-  // const [activeIndex, setActiveIndex] = useState(null);
   const [popupVisible, setPopupVisible] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("");
 
   const handleToggle = (index) => {
     setActiveIndexbuy(index === activeIndexbuy ? -1 : index);
@@ -85,24 +78,24 @@ function WalletSec() {
 
   const handleCoinClick = (index) => {
     setActiveIndex(index);
-
+    setSelectedIndex(index);
     if (index === 2) {
       setPopupVisible(true);
     } else {
       setPopupVisible(false);
       if (index === 0) {
-        setSelectedCoin(Dropcoins[2]); // ETH ERC-20
+        setSelectedCoin(Dropcoins[2]);
       } else if (index === 1) {
-        setSelectedCoin(Dropcoins[3]); // BNB ERC-20
+        setSelectedCoin(Dropcoins[3]);
       }
     }
   };
 
   const handlePopupSelection = (option) => {
     if (option === "USDT ERC-20") {
-      setSelectedCoin(Dropcoins[0]); // USDT ERC-20
+      setSelectedCoin(Dropcoins[0]);
     } else if (option === "USDT BEP-20") {
-      setSelectedCoin(Dropcoins[1]); // USDT BEP-20
+      setSelectedCoin(Dropcoins[1]);
     }
     setPopupVisible(false);
   };
@@ -236,30 +229,6 @@ function WalletSec() {
                 Listing Price: 1 $BFX = $0.01
               </h4>
             </div>
-            {/* <div className="flex justify-center space-x-[12px]">
-              {coins.map((coin, index) => (
-                <div
-                  key={index}
-                  onClick={() => setActiveIndex(index)}
-                  style={{
-                    background:
-                      activeIndex === index
-                        ? "rgba(176, 176, 176, 0.7)"
-                        : "rgba(176, 176, 176, 0.17)",
-                  }}
-                  className={`flex justify-center items-center px-[30px] py-[5px] space-x-1 cursor-pointer transition-all`}
-                >
-                  <img
-                    className="w-[15.813px] h-[15.813px] object-cover"
-                    src={coin.icon}
-                    alt={coin.name}
-                  />
-                  <span className="text-[#545454] text-[11.688px] font-[700]">
-                    {coin.name}
-                  </span>
-                </div>
-              ))}
-            </div> */}
             <div className="flex justify-center space-x-[12px]">
               {coins.map((coin, index) => (
                 <div
@@ -440,13 +409,6 @@ function WalletSec() {
                     <span className="text-[#545454] text-[8.888px] font-[700] leading-[50px]">
                       BFX
                     </span>
-                    {/* <img
-                      src={arw}
-                      alt="Dropdown Arrow"
-                      className={`transform  h-[11.85px] transition-transform ${
-                        dropdownOpen ? "rotate-180" : ""
-                      }`}
-                    /> */}
                   </div>
                 </div>
               </div>
@@ -460,7 +422,7 @@ function WalletSec() {
               </button>
               {showPopup && (
                 <CardList
-                  selectedCoin={selectedIndex}
+                  selectedCoin={selectedCoin}
                   onClose={() => setShowPopup(false)}
                 />
               )}

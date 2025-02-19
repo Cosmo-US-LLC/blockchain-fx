@@ -61,14 +61,11 @@ const items = [
 function MobileWalletSec() {
   const [activeIndex, setActiveIndex] = useState(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [selectedCoin, setSelectedCoin] = useState({
-    name: "ETH",
-    icon: wltcoin5,
-  });
+  const [selectedCoin, setSelectedCoin] = useState(Dropcoins[0]);
   const [showPopup, setShowPopup] = useState(false);
    const [activeIndexbuy, setActiveIndexbuy] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState(0);
-
+  const [popupVisible, setPopupVisible] = useState(false);
   
     const handleToggle = (index) => {
       setActiveIndexbuy(index === activeIndexbuy ? -1 : index);
@@ -78,6 +75,31 @@ function MobileWalletSec() {
       setSelectedIndex(index);
       setDropdownOpen(false);
     };
+
+    const handleCoinClick = (index) => {
+      setActiveIndex(index);
+      setSelectedIndex(index);
+      if (index === 2) {
+        setPopupVisible(true);
+      } else {
+        setPopupVisible(false);
+        if (index === 0) {
+          setSelectedCoin(Dropcoins[2]); 
+        } else if (index === 1) {
+          setSelectedCoin(Dropcoins[3]); 
+        }
+      }
+    };
+  
+    const handlePopupSelection = (option) => {
+      if (option === "USDT ERC-20") {
+        setSelectedCoin(Dropcoins[0]); 
+      } else if (option === "USDT BEP-20") {
+        setSelectedCoin(Dropcoins[1]); 
+      }
+      setPopupVisible(false);
+    };
+
   const handleScroll = (event, targetId, offset) => {
     event.preventDefault();
 
@@ -203,7 +225,7 @@ function MobileWalletSec() {
           {coins.map((coin, index) => (
             <div
               key={index}
-              onClick={() => setActiveIndex(index)}
+              onClick={() => handleCoinClick(index)}
               style={{
                 background:
                   activeIndex === index
@@ -223,6 +245,66 @@ function MobileWalletSec() {
             </div>
           ))}
         </div>
+        {popupVisible && (
+              <div className="fixed inset-0 flex items-center -top-10 justify-center bg-black bg-opacity-50 z-[999]">
+                <div className="bg-white p-5 rounded-md shadow-lg min-w-[300px]">
+                  <div
+                    className="h-[26px] w-[26px] mt-[-15px] tracking-[-1px] ml-[-15px] flex justify-center items-center rounded-full bg-gray-100 cursor-pointer"
+                    onClick={() => setPopupVisible(false)}
+                  >
+                    <h2 className="text-[16px] text-[#000] leading-[0px]">x</h2>
+                  </div>
+                  <h2 className="text-lg text-center font-semibold mb-2">
+                    Switch Network for USDT
+                  </h2>
+                  <div className="space-y-2">
+                    <button
+                      className={`flex items-center w-full p-2 text-[14px] rounded-md ${
+                        selectedCoin.name === "USDT" &&
+                        selectedCoin.sub === "ERC-20"
+                          ? "bg-[#E5AE00] text-white"
+                          : "bg-transparent"
+                      }`}
+                      onClick={() => handlePopupSelection("USDT ERC-20")}
+                    >
+                      <img src={wltcoin5} className="mr-2" alt="" />
+                      USDT ERC-20
+                      {selectedCoin.name === "USDT" &&
+                        selectedCoin.sub === "ERC-20" && (
+                          <span className="text-[#fff] pl-7 mt-[-10px]">
+                            connected{" "}
+                            <span className="text-[50px] leading-[10px] text-green-500">
+                              .
+                            </span>
+                          </span>
+                        )}
+                    </button>
+
+                    <button
+                      className={`flex items-center w-full p-2 text-[14px] rounded-md ${
+                        selectedCoin.name === "USDT" &&
+                        selectedCoin.sub === "BEP-20"
+                          ? "bg-[#E5AE00] text-white"
+                          : "bg-transparent"
+                      }`}
+                      onClick={() => handlePopupSelection("USDT BEP-20")}
+                    >
+                      <img src={wltcoin5} className="mr-2" alt="" />
+                      USDT BEP-20
+                      {selectedCoin.name === "USDT" &&
+                        selectedCoin.sub === "BEP-20" && (
+                          <span className="text-[#fff] pl-7 mt-[-10px]">
+                            connected{" "}
+                            <span className="text-[50px] leading-[10px] text-green-500">
+                              .
+                            </span>
+                          </span>
+                        )}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
         <div className="flex justify-between items-center pt-3 space-x-[15px]">
           <hr className="h-[1px] w-[30%]" />
           <span className="text-[#636363] text-end text-[9.618px] font-[700] leading-[75%]">
@@ -322,7 +404,7 @@ function MobileWalletSec() {
           className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%] h-[37px]">
           Buy Now
           </button>
-          {showPopup && <CardList selectedCoin={selectedIndex} onClose={() => setShowPopup(false)} />}
+          {showPopup && <CardList selectedCoin={selectedCoin} onClose={() => setShowPopup(false)} />}
         </div>
         <div
           className="px-[24px] py-[10px] space-y-[8px] border border-[#939393]"
