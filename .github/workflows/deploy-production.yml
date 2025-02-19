@@ -55,13 +55,13 @@ jobs:
       - name: Deploy to GoDaddy via SCP
         run: |
           echo "Deploying to GoDaddy..."
-          scp -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no build.zip ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USER }}/public_html
+          scp -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no build.zip ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
 
       - name: Cleanup and Extract Build on Server
         run: |
-          echo "Cleaning up public_html except .htaccess and whitepaper.pdf..."
+          echo "Cleaning up vip.blockchainfx.com except .htaccess and whitepaper.pdf..."
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }} << 'EOF'
-            cd /home/${{ secrets.GODADDY_USER }}/public_html
+            cd /home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
             find . -type f ! -name ".htaccess" ! -name "whitepaper.pdf" ! -name "build.zip" -delete
             find . -type d -mindepth 1 -delete
             echo "Extracting build.zip..."
