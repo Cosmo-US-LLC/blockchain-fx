@@ -122,58 +122,58 @@ agree as follows:
         <ul className="space-y-[20px] pl-5 list-decimal">
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
          Definitions and Interpretation<br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">BFX Token:</span> The token created and issued by Digital Smart Marketing Ltd
+            <ul className="pl-0 space-y-[10px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]"> 
+              1.1.  <span className="font-[600]">BFX Token:</span> The token created and issued by Digital Smart Marketing Ltd
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Platform:</span> TA Crypto-native platform owned and operated by the Company.
+              1.2. <span className="font-[600]">Platform:</span> TA Crypto-native platform owned and operated by the Company.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Dissolution Event:</span> An event requiring Company dissolution or liquidation.
+              1.3.  <span className="font-[600]">Dissolution Event:</span> An event requiring Company dissolution or liquidation.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Exchange Rate:</span> The conversion rate applied to contributions, determined using multiple
+              1.4. <span className="font-[600]">Exchange Rate:</span> The conversion rate applied to contributions, determined using multiple
               independent sources.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Maximum Token Amount:</span> The total number of Tokens available during the Distribution
+              1.5.  <span className="font-[600]">Maximum Token Amount:</span> The total number of Tokens available during the Distribution
               Event, not exceeding 2,275,000,000 BFX.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Minimum Contribution:</span> There is no minimum contribution requirement, though the
+              1.6.  <span className="font-[600]">Minimum Contribution:</span> There is no minimum contribution requirement, though the
               Company may introduce one at a later stage.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Participant:</span> Any natural or juridical person participating in the Token Distribution Event.
+              1.7.  <span className="font-[600]">Participant:</span> Any natural or juridical person participating in the Token Distribution Event.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Participation Amount:</span> The amount contributed in USDT, ETH, BNB or other accepted
+              1.8.  <span className="font-[600]">Participation Amount:</span> The amount contributed in USDT, ETH, BNB or other accepted
               currency.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Price:</span> The Token Distribution Event price ranges between 0.002 and 0.01 USD per BFX,
+              1.9. <span className="font-[600]">Price:</span> The Token Distribution Event price ranges between 0.002 and 0.01 USD per BFX,
 depending on the stage of the event. The final launch price of BFX is set at 0.01 USD per
 token.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Prohibited Participant:</span>  A person or entity from a jurisdiction where participation or the use
+              1.10. <span className="font-[600]">Prohibited Participant:</span>  A person or entity from a jurisdiction where participation or the use
               of Tokens is prohibited.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Project:</span> The initiative driving the Token Distribution Event to develop and expand the
+              1.11.  <span className="font-[600]">Project:</span> The initiative driving the Token Distribution Event to develop and expand the
               Platform.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Token Distribution Event:</span> A decentralized, reward-based marketing and fundraising
+              1.12. <span className="font-[600]">Token Distribution Event:</span> A decentralized, reward-based marketing and fundraising
               campaign designed to further the development of the Project and enhance brand awareness.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Total Token Supply:</span> 3,500,000,000 BFX Tokens, with 1,750,000,000, including up to
+              1.13.  <span className="font-[600]">Total Token Supply:</span> 3,500,000,000 BFX Tokens, with 1,750,000,000, including up to
               525,000,000 additional bonus tokens, available for sale in the Community Event.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[600]">Wallet:</span> A digital Ethereum-based decentralized wallet required for holding and transacting
+              1.14.  <span className="font-[600]">Wallet:</span> A digital Ethereum-based decentralized wallet required for holding and transacting
               BFX Tokens.
               </li>
             </ul>
@@ -212,72 +212,72 @@ and/or as set forth in Clause 4 of this Agreement. The Company reserves the righ
 cancel the acquisition of Tokens at any time at its sole discretion.
           </span>
          </div>
-            <ul className="list-decimal pl-5 space-y-[5px]">
+            <ul className="pl-0 space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              Tokens will be distributed only after completion of the Token Distribution Event.
+              3.1. Tokens will be distributed only after completion of the Token Distribution Event.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              Participants must provide a valid Ethereum-compatible wallet address.
+              3.2. Participants must provide a valid Ethereum-compatible wallet address.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Company is not responsible for lost or misdirected Tokens due to incorrect wallet
+              3.3. The Company is not responsible for lost or misdirected Tokens due to incorrect wallet
 addresses.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              Tokens will not be transferable until the official Token Distribution Event concludes.
+              3.4. Tokens will not be transferable until the official Token Distribution Event concludes.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Dissolution Event <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
+            <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              In the event of company dissolution, Participants may receive refunds subject to the
+              4.1. In the event of company dissolution, Participants may receive refunds subject to the
               Company’s discretion and obligations.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              Any refunds will be proportionate to available assets and subject to legal regulations.
+              4.2. Any refunds will be proportionate to available assets and subject to legal regulations.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Termination<br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
+            <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              This Agreement terminates when Tokens are distributed or if the Company refunds
+              5.1. This Agreement terminates when Tokens are distributed or if the Company refunds
               the Participant.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Company reserves the right to terminate the Agreement in case of legal or
+              5.2. The Company reserves the right to terminate the Agreement in case of legal or
               regulatory complications.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Company Representations and Warranties <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
+            <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Company is a legally registered entity.
+              6.1. The Company is a legally registered entity.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Company has full authority to execute this Agreement.
+              6.2. The Company has full authority to execute this Agreement.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Agreement does not violate any applicable laws or regulations.
+              6.3. The Agreement does not violate any applicable laws or regulations.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Participant Representations and Warranties <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
+            <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Participant confirms they are not a Prohibited Participant.
+              7.1. The Participant confirms they are not a Prohibited Participant.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Participant understands Tokens are not investments.
+              7.2. The Participant understands Tokens are not investments.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Participant has the necessary experience to evaluate risks associated with
+              7.3. The Participant has the necessary experience to evaluate risks associated with
               blockchain-based assets.
               </li>
             </ul>
@@ -285,32 +285,37 @@ addresses.
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Taxes and Indemnity
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
+            <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              The Participant is responsible for any taxes associated with Token acquisition.
+              8.1. The Participant is responsible for any taxes associated with Token acquisition.
               </li>
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">The Company is not liable for any tax obligations incurred by the Participant.
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              8.2.  The Company is not liable for any tax obligations incurred by the Participant.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Limitation of Liability
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">The Company is not liable for any loss of Tokens due to technical issues or
+            <ul className="space-y-[5px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              9.1.  The Company is not liable for any loss of Tokens due to technical issues or
               Participant errors.
               </li>
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">The Platform is provided "as is" without warranties of any kind.
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              9.2.  The Platform is provided "as is" without warranties of any kind.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Privacy Policy
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">The Company will not collect unnecessary personal information.
+            <ul className="space-y-[5px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              10.1. The Company will not collect unnecessary personal information.
               </li>
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">The Company may request additional documentation to comply with legal
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              10.2.  The Company may request additional documentation to comply with legal
               obligations.
               </li>
             </ul>
@@ -318,11 +323,13 @@ addresses.
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Security Risks
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">Participants acknowledge risks associated with blockchain technology, including
+            <ul className="space-y-[5px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              11.1.  Participants acknowledge risks associated with blockchain technology, including
               potential hacks and technical failures.
               </li>
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">The Company is not responsible for security vulnerabilities inherent to blockchain
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              11.2. The Company is not responsible for security vulnerabilities inherent to blockchain
               technology.
               </li>
             </ul>
@@ -330,26 +337,30 @@ addresses.
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Miscellaneous
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">The Company reserves the right to amend this Agreement.
+            <ul className="space-y-[5px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              12.1.  The Company reserves the right to amend this Agreement.
               </li>
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">Notices shall be sent via email or published on the official website.
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              12.2. Notices shall be sent via email or published on the official website.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Amendments
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">Any amendments must be documented and agreed upon by both Parties.
+            <ul className="space-y-[5px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              13.1. Any amendments must be documented and agreed upon by both Parties.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Validity
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">If any provision of this Agreement is deemed invalid, the remaining provisions will
+            <ul className=" space-y-[5px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              14.1. If any provision of this Agreement is deemed invalid, the remaining provisions will
               remain in force.
               </li>
             </ul>
@@ -357,16 +368,18 @@ addresses.
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Applicable Law and Jurisdiction
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">This Agreement is governed by applicable blockchain-related laws and regulations.
+            <ul className="space-y-[5px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              15.1. This Agreement is governed by applicable blockchain-related laws and regulations.
               </li>
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
           Entire Agreement
             <br />
-            <ul className="list-decimal pl-5 space-y-[5px]">
-              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">This Agreement constitutes the entire understanding between the Parties and
+            <ul className="space-y-[5px]">
+              <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
+              16.1.  This Agreement constitutes the entire understanding between the Parties and
               supersedes all prior agreements.
               </li>
             </ul>
