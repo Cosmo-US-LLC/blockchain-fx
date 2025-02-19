@@ -56,9 +56,9 @@ const DashboardPopup = ({ onClose }) => {
     };
 
   return (
-   <div className="fixed flex items-center inset-0 bg-black bg-opacity-50">
+   <div className="fixed flex items-center inset-0 bg-black bg-opacity-50 h-[100vh] !z-[999]">
    {/* desktop version */}
-   <div className=" 2xl:flex xl:flex w-[100%] lg:flex md:flex sm:hidden hidden justify-center items-center">
+   <div className=" 2xl:flex xl:flex w-[100%] pt-[20px] lg:flex md:flex sm:hidden hidden justify-center items-center">
       <div className="w-[790px] overflow-y-auto overflow-x-hidden rounded-lg h-[98vh]  flex justify-center relative pt-[15px]">
         <div className="w-[700px] bg-white h-[710px] rounded-lg  ">
         <div className="flex justify-center">
@@ -335,7 +335,7 @@ const DashboardPopup = ({ onClose }) => {
 
    {/* mobile version */}
    <div className=" 2xl:hidden xl:hidden w-[100%] lg:hidden md:hidden sm:flex flex justify-center items-center">
-      <div className="overflow-y-scroll h-[750px] w-[98%] flex justify-center rounded-[8px]">
+      <div className="overflow-y-scroll h-[750px] pt-[35px] w-[98%] flex justify-center rounded-[8px]">
         <div className="w-[90%] rounded-lg relative h-[1050px] bg-[#fff] ">
         <div className="flex justify-center pt-[24px]">
           <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[1%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
