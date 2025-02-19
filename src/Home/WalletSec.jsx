@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import info from "../assets/wallet/i.svg";
 import arw from "../assets/navbar/arw.svg";
 import wltcoin1 from "../assets/wallet/wltcoin (6).png";
@@ -65,6 +65,7 @@ function WalletSec() {
   const [activeIndexbuy, setActiveIndexbuy] = useState(0);
   const [selectedCoin, setSelectedCoin] = useState(Dropcoins[0]);
   const [popupVisible, setPopupVisible] = useState(false);
+  const dropdownRef = useRef(null);
 
   const handleToggle = (index) => {
     setActiveIndexbuy(index === activeIndexbuy ? -1 : index);
@@ -115,6 +116,16 @@ function WalletSec() {
       });
     }
   };
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
   return (
     <div className="pt-[42px] pb-[35px] " id="how-to-buy">
       <div
@@ -332,8 +343,11 @@ function WalletSec() {
                     placeholder="1000"
                   />
                 </div>
-                <div className="relative border px-[4px] w-[74px]">
+                <div
+                ref={dropdownRef}
+                className="relative border px-[4px] w-[74px]">
                   <div
+                  
                     className="justify-start flex h-[24px] items-center space-x-[3px] cursor-pointer"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                   >
