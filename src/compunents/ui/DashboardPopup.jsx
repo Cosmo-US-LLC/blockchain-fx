@@ -335,15 +335,15 @@ const DashboardPopup = ({ onClose }) => {
 
    {/* mobile version */}
    <div className=" 2xl:hidden xl:hidden w-[100%] lg:hidden md:hidden sm:flex flex justify-center items-center">
-      <div className="overflow-y-scroll h-[750px] pt-[35px] w-[98%] flex justify-center rounded-[8px]">
-        <div className="w-[90%] rounded-lg relative h-[1050px] bg-[#fff] ">
+      <div className="overflow-y-scroll h-[670px] pt-[35px] w-[98%] flex justify-center rounded-[8px]">
+        <div className="w-[90%] rounded-lg relative h-[1040px] bg-[#fff] ">
         <div className="flex justify-center pt-[24px]">
           <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[1%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
             <p className="text-[14px] font-[700] text-center">
               Personal Dashboard
             </p>
           </div>
-          <div className="absolute top-[0px] right-[-5px]">
+          <div className="absolute top-[-15px] right-[-15px]">
            <img src={cross} alt=""  onClick={onClose} className="cursor-pointer" />
           </div>
         </div>

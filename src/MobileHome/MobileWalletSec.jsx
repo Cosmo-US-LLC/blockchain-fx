@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import info from "../assets/wallet/i.svg";
 import arw from "../assets/navbar/arw.svg";
 import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
@@ -66,6 +66,7 @@ function MobileWalletSec() {
    const [activeIndexbuy, setActiveIndexbuy] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [popupVisible, setPopupVisible] = useState(false);
+  const dropdownRef = useRef(null);
   
     const handleToggle = (index) => {
       setActiveIndexbuy(index === activeIndexbuy ? -1 : index);
@@ -115,6 +116,18 @@ function MobileWalletSec() {
       });
     }
   };
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   return (
     <div className="pt-[20px] pb-[24px] space-y-[28px] w-[90%] mx-auto " id="Wallet">
        <div className="flex justify-center space-x-3 items-center">
@@ -235,7 +248,7 @@ function MobileWalletSec() {
               className={`flex justify-center items-center w-[100%] space-x-1 cursor-pointer transition-all`}
             >
               <img
-                className="w-[16px] h-[16px] object-cover"
+                className="w-[18px] h-[18px] object-cover"
                 src={coin.icon}
                 alt={coin.name}
               />
@@ -325,7 +338,9 @@ function MobileWalletSec() {
                     placeholder="1000"
                   />
                 </div>
-                <div className="relative w-[78px] border px-1 ">
+                <div
+                ref={dropdownRef}
+                className="relative w-[78px] border px-1 ">
                   <div
                     className="justify-start flex h-[24px]  items-center space-x-[3px] cursor-pointer"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
