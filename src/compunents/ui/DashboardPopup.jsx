@@ -75,7 +75,7 @@ const DashboardPopup = ({ onClose }) => {
    {/* desktop version */}
    <div className=" 2xl:flex xl:flex w-[100%] max-w-[1240px] mx-auto pt-[20px] lg:flex md:flex sm:hidden hidden justify-end items-center">
       <div className="w-[790px] flex items-center pr-5 overflow-y-auto overflow-x-hidden rounded-lg  flex justify-end  pt-[15px]  ">
-       <div className="h-[100vh] mt-[100px] ">
+       <div className="h-[86vh] mt-[10px] ">
        <div className="w-[700px] bg-white rounded-lg relative">
         <div className="flex justify-center">
           <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[-2.5%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
@@ -279,10 +279,10 @@ const DashboardPopup = ({ onClose }) => {
                       </div>
                       <div className="flex justify-between items-center pt-[10px] space-x-2">
                         <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[12px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px]">
-                         {card.Bonus}
+                         {card.Access}
                         </button>
                         <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[12px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px]">
-                          {card.Access}
+                        {card.Bonus} 
                         </button>
                       </div>
                     </div>
@@ -335,7 +335,7 @@ const DashboardPopup = ({ onClose }) => {
           }}
         >
           <div className="flex justify-center space-x-[10px] items-center">
-            <h4 className="text-center text-[#808080] text-[14px] leading-[85%] font-[500]">
+            <h4 className="text-center text-[#808080] text-[12px] leading-[85%] font-[500]">
             Audited by the Leading Blockchain Security Company  
             </h4>
             <div className="w-[88px]">
