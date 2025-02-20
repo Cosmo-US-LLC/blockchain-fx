@@ -84,7 +84,7 @@ const FaqSec = () => {
     {
       question: "Where can I see my tokens?",
       answer:
-        "You can view your tokens in your dashboard wallet. Simply click 'Connect Walle' in the top right corner and connect the wallet you used for the purchase to see your BFX balance.",
+        "You can view your tokens in your dashboard wallet. Simply click 'Connect Wallet' in the top right corner and connect the wallet you used for the purchase to see your BFX balance.",
     },
     {
       question: "Are my tokens safe?",
