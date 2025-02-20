@@ -31,7 +31,7 @@ export default function WhitepaperMob() {
           </div>
           <div className="w-[100%]">
             <div className="w-full p-2">
-              <img src={whitepaper} className="w-[453px] h-auto" alt="whitepaper" />
+              <img src={whitepaper} className="w-[453px] h-auto object-cover" alt="whitepaper" />
             </div>
           </div>
             <div className="w-full p-2 space-x-2 flex justify-center">

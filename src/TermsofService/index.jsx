@@ -163,7 +163,7 @@ you should discontinue use of our services.</p>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
             Governing Law and Dispute Resolution<br />
-                <ul className='list-decimal pl-5 space-y-[5px]'>
+                <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     11.1.   These Terms are governed by applicable blockchain-related laws and regulations.</li>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
