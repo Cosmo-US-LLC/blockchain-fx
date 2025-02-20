@@ -41,7 +41,7 @@ export default function WhitepaperMob() {
               >
                 Buy $BFX
               </button>
-              <a href="https://blockchainfx.com/whitepaper.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://vip.blockchainfx.com/whitepaper.pdf" target="_blank" rel="noopener noreferrer">
               <button className="hover:text-white hover:bg-[#E5AE00] px-[8px] text-black bg-transparent text-[14px] font-[800] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[160px] w-[100%] h-[39px]">
               Access Whitepaper
             </button>
