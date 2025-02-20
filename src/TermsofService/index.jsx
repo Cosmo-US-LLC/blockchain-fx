@@ -20,9 +20,9 @@ accessing or using our services, you agree to be bound by these Terms. If you do
 you should discontinue use of our services.</p>
         </div>
         <div className=''>
-          <ul className='list-decimal pl-5 space-y-[20px]'>
+          <ul className=' pl-5 space-y-[20px]'>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Eligibility <br />
+            1. Eligibility <br />
                 <ul className=' space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     1.1.  You must be at least 18 years old to use the platform.</li>
@@ -35,7 +35,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Use of Services <br />
+            2. Use of Services <br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     2.1.  You may use the BlockchainFX platform solely for lawful purposes.</li>
@@ -50,7 +50,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Token Distribution Event <br />
+            3. Token Distribution Event <br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     3.1.  Participation in the BFX Token Distribution Event does not grant ownership,
@@ -65,7 +65,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Account Registration and Security <br />
+            4. Account Registration and Security <br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     4.1.   You may need to create an account to access certain services.</li>
@@ -78,7 +78,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Transactions and Payments <br />
+            5. Transactions and Payments <br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     5.1.  You acknowledge that cryptocurrency transactions are irreversible.</li>
@@ -93,7 +93,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Risks and Disclaimers <br />
+            6. Risks and Disclaimers <br />
                 <ul className=' space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     6.1.   The value of BFX Tokens and other cryptocurrencies is highly volatile and may result
@@ -109,7 +109,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
              <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-             Compliance and Legal Obligations <br />
+             7. Compliance and Legal Obligations <br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     7.1.  You agree to comply with all applicable laws, regulations, and tax requirements.</li>
@@ -124,7 +124,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
              <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-             Termination <br />
+             8. Termination <br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     8.1.  The Company may suspend or terminate your access to services at any time for
@@ -137,7 +137,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Limitation of Liability <br />
+            9. Limitation of Liability <br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     9.1.  BlockchainFX shall not be liable for any direct, indirect, incidental, or consequential
@@ -152,7 +152,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Amendments to Terms<br />
+            10. Amendments to Terms<br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     10.1.  BlockchainFX reserves the right to modify these Terms at any time.</li>
@@ -162,7 +162,7 @@ you should discontinue use of our services.</p>
                 </ul>
             </li>
             <li className='2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]'>
-            Governing Law and Dispute Resolution<br />
+            11.  Governing Law and Dispute Resolution<br />
                 <ul className='space-y-[5px]'>
                     <li className='text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]'>
                     11.1.   These Terms are governed by applicable blockchain-related laws and regulations.</li>
