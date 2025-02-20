@@ -10,7 +10,7 @@ function TokenSale() {
 
 
   return (
-    <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto py-[50px]">
+    <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[84%] w-[84%] space-y-[30px] mx-auto py-[50px]">
       <div className="space-y-[10px]">
         <h3 className="2xl:text-[30px] pb-[10px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
          Token Sale Agreement
@@ -119,9 +119,9 @@ agree as follows:
             </ul>
           </li>
           </ul>
-        <ul className="space-y-[20px] pl-5 list-decimal">
+        <ul className="space-y-[20px] pl-5">
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-         Definitions and Interpretation<br />
+          1. Definitions and Interpretation<br />
             <ul className="pl-0 space-y-[10px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]"> 
               1.1.  <span className="font-[600]">BFX Token:</span> The token created and issued by Digital Smart Marketing Ltd
@@ -179,7 +179,7 @@ token.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Participation Terms <br />
+         2. Participation Terms <br />
             <ul className="space-y-[5px]">
             <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
               Participation in the Token Distribution Event does not grant ownership, dividends, or
@@ -203,7 +203,7 @@ functionality based on market and regulatory requirements.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] leading-[130%] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Token Distribution and Transfer <br />
+          3. Token Distribution and Transfer <br />
          <div>
              <span className="text-[14px] font-[400] !leading-[110%]">
           All Tokens allocated from the Company are final, and there are no refunds or cancellations
@@ -229,7 +229,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Dissolution Event <br />
+          4. Dissolution Event <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
               4.1. In the event of company dissolution, Participants may receive refunds subject to the
@@ -241,7 +241,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Termination<br />
+          5. Termination<br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
               5.1. This Agreement terminates when Tokens are distributed or if the Company refunds
@@ -254,7 +254,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Company Representations and Warranties <br />
+          6. Company Representations and Warranties <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
               6.1. The Company is a legally registered entity.
@@ -268,7 +268,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Participant Representations and Warranties <br />
+          7. Participant Representations and Warranties <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
               7.1. The Participant confirms they are not a Prohibited Participant.
@@ -283,7 +283,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Taxes and Indemnity
+          8. Taxes and Indemnity
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
@@ -295,7 +295,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Limitation of Liability
+          9. Limitation of Liability
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
@@ -308,7 +308,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Privacy Policy
+          10. Privacy Policy
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
@@ -321,7 +321,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Security Risks
+          11. Security Risks
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
@@ -335,7 +335,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Miscellaneous
+          12. Miscellaneous
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
@@ -347,7 +347,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Amendments
+          13. Amendments
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
@@ -356,7 +356,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Validity
+          14. Validity
             <br />
             <ul className=" space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
@@ -366,7 +366,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Applicable Law and Jurisdiction
+          15. Applicable Law and Jurisdiction
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
@@ -375,7 +375,7 @@ addresses.
             </ul>
           </li>
           <li className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] space-y-[15px]">
-          Entire Agreement
+          16. Entire Agreement
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
