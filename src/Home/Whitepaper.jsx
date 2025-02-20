@@ -21,7 +21,7 @@ export default function Whitepaper() {
         <div className="p-6 max-w-[1080px] space-x-[3rem] min-h-[454px] border border-1 border-[#B0B0B0] flex flex-row items-center rounded-[13px]">
           <div className="w-[50%]">
             <div className="w-full p-2">
-              <img src={whitepaper} className="w-[453px] h-auto" alt="whitepaper" />
+              <img src={whitepaper} className="w-[453px] h-auto object-cover" alt="whitepaper" />
             </div>
           </div>
           <div className="w-[50%] max-w-[460px] space-y-4 pl-4">

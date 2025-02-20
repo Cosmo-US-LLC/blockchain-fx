@@ -50,24 +50,24 @@ your visit to enhance user experience.
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
         We use the following types of cookies:
         </p>
-        <ul className="list-decimal pl-8  space-y-[15px]">
+        <ul className=" space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            <span className="font-[600]">Essential Cookies:</span>
+          3.1. <span className="font-[600]">Essential Cookies:</span>
             These are necessary for the website to function properly and
             cannot be disabled. They include security and authentication cookies.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            <span className="font-[600]">TPerformance Cookies:</span>
+          3.2. <span className="font-[600]">TPerformance Cookies:</span>
             These help us analyze website traffic and improve
 performance.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            <span className="font-[600]">Functional Cookies:</span>
+          3.3. <span className="font-[600]">Functional Cookies:</span>
             These enhance user experience by remembering preferences
             and settings.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            <span className="font-[600]">Marketing Cookies:</span>
+          3.4.  <span className="font-[600]">Marketing Cookies:</span>
             These are used to personalize ads and track user interactions for
 targeted advertising.
           </li>

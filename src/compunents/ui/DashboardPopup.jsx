@@ -22,29 +22,44 @@ import cardimg6 from "../../assets/PremiumSec/cardimg (6).webp";
 import cardimg7 from "../../assets/PremiumSec/cardimg (7).webp";
 
 import cer from "../../assets/wallet/cer.svg";
+import { Bounce } from "react-toastify";
 
 
 const cards = [
   {
     img: cardimg1,
+    Access:"Early Access",
+    Bonus:"10% BFX Bonus",
   },
   {
     img: cardimg2,
+    Access:"20% BFX Bonus",
+    Bonus:"$500 Trading Credits",
   },
   {
     img: cardimg3,
+    Access:"30% BFX Bonus",
+    Bonus:"$1,000 Trading Credits",
   },
   {
     img: cardimg4,
+    Access:"40% BFX Bonus",
+    Bonus:"$2,000 Trading Credits",
   },
   {
     img: cardimg5,
+    Access:"50% BFX Bonus",
+    Bonus:"$5,000 Trading Credits",
   },
   {
     img: cardimg6,
+    Access:"60% BFX Bonus",
+    Bonus:"$10,000 Trading Credits",
   },
   {
     img: cardimg7,
+    Access:"80% BFX Bonus",
+    Bonus:"$25,000 Trading Credits",
   },
 ];
 
@@ -56,18 +71,19 @@ const DashboardPopup = ({ onClose }) => {
     };
 
   return (
-   <div className="fixed flex items-center inset-0 bg-black bg-opacity-50">
+   <div className="fixed flex items-center inset-0 bg-black bg-opacity-50 h-[100vh] !z-[999]">
    {/* desktop version */}
-   <div className=" 2xl:flex xl:flex w-[100%] lg:flex md:flex sm:hidden hidden justify-center items-center">
-      <div className="w-[790px] overflow-y-auto overflow-x-hidden rounded-lg h-[98vh]  flex justify-center relative pt-[15px]">
-        <div className="w-[700px] bg-white h-[710px] rounded-lg  ">
+   <div className=" 2xl:flex xl:flex w-[100%] max-w-[1240px] mx-auto pt-[20px] lg:flex md:flex sm:hidden hidden justify-end items-center">
+      <div className="w-[790px] flex items-center pr-5 overflow-y-auto overflow-x-hidden rounded-lg  flex justify-end  pt-[15px]  ">
+       <div className="h-[86vh] mt-[10px] ">
+       <div className="w-[700px] bg-white rounded-lg relative">
         <div className="flex justify-center">
-          <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[0%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
+          <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[-2.5%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
             <p className="text-[16px] font-[700] text-center">
               Personal Dashboard
             </p>
           </div>
-          <div className="absolute top-[0.5%] right-[30px]">
+          <div className="absolute top-[-1.5%] right-[-13px]">
            <img src={cross} alt=""  onClick={onClose} className="cursor-pointer" />
           </div>
         </div>
@@ -120,7 +136,7 @@ const DashboardPopup = ({ onClose }) => {
           </div>
          <div className="flex justify-between space-x-[10px]">
           <div className="w-[50%] space-y-[10px]">
-          <div className="bg-[#F5F5F5] space-y-[10px] p-[10px]">
+          <div className="bg-[#F5F5F5] space-y-[10px] p-[10px] h-[230px]">
             <div
             className="py-[3px] px-[5px]  flex justify-between border border-[#D3D3D3]"
             style={{
@@ -203,7 +219,7 @@ const DashboardPopup = ({ onClose }) => {
           </div>
             </div>
           <div
-            className="py-[16px] px-[16px]  flex justify-between border border-[#D3D3D3]"
+            className="py-[18.7px] px-[16px]  flex justify-between border border-[#D3D3D3]"
             style={{
               background: "rgba(237, 237, 237, 0.40)",
             }}
@@ -227,16 +243,16 @@ const DashboardPopup = ({ onClose }) => {
           </div>
             <div className="w-[50%] space-y-[10px]">
             <div
-            className="pb-[10px] pt-[8px] px-[5px]  flex justify-between"
+            className="pb-[10px] h-[230px] pt-[5px] px-[5px]  flex justify-between"
             style={{
               background: "rgba(237, 237, 237, 0.40)",
             }}
           >
-            <div className="relative w-[279.822px] mx-auto">
-              <button className="swiper-button-prev-swp rotate-[182deg] absolute z-10 !left-[-3%] top-[50%] transform -translate-y-1/2">
+            <div className="relative w-[304px] mx-auto">
+              <button className="swiper-button-prev-swp rotate-[182deg] absolute z-10 !left-[-2%] top-[50%] transform -translate-y-1/2">
                 <img className="w-[16px] h-[16px]" src={arw} alt="" />
               </button>
-              <button className="swiper-button-next-swp  absolute z-20 !right-[-3%] top-[50%] transform -translate-y-1/2">
+              <button className="swiper-button-next-swp  absolute z-20 !right-[-2%] top-[50%] transform -translate-y-1/2">
                 <img className="w-[16px] h-[16px]" src={arw} alt="" />
               </button>
 
@@ -261,12 +277,12 @@ const DashboardPopup = ({ onClose }) => {
                       <div className="flex w-[80%] mx-auto justify-center">
                         <img className="" src={card.img} alt="" />
                       </div>
-                      <div className="flex justify-between items-center pt-[17px] space-x-2">
-                        <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[14px] font-[500] text-[#403E3E] px-[8px] w-[100%] py-[3px]">
-                          Early Access
+                      <div className="flex justify-between items-center pt-[10px] space-x-2">
+                        <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[12px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px]">
+                         {card.Access}
                         </button>
-                        <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[14px] font-[500] text-[#403E3E] px-[8px] w-[100%] py-[3px]">
-                          10% BFX Bonus
+                        <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[12px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px]">
+                        {card.Bonus} 
                         </button>
                       </div>
                     </div>
@@ -281,8 +297,8 @@ const DashboardPopup = ({ onClose }) => {
               background: "rgba(237, 237, 237, 0.40)",
             }}
           >
-            <div className="flex justify-between space-x-1 itmes-center">
-              <p className="text-[9.187px] text-[#636363] font-[700] text-center">
+            <div className="flex justify-between space-x-1 items-center">
+              <p className="text-[12.187px] text-[#636363] font-[700] text-center">
                 $ 1,200 left to reach the next NFT level
               </p>
               <p className="text-[14px] leading-[100%] text-[#E5AE00] font-[700] text-center">
@@ -319,31 +335,32 @@ const DashboardPopup = ({ onClose }) => {
           }}
         >
           <div className="flex justify-center space-x-[10px] items-center">
-            <h4 className="text-center text-[#808080] text-[14px] leading-[85%] font-[500]">
+            <h4 className="text-center text-[#808080] text-[12px] leading-[85%] font-[500]">
             Audited by the Leading Blockchain Security Company  
             </h4>
-            <div className="w-[106px]">
+            <div className="w-[88px]">
               <img src={cer} className="" alt="" />
             </div>
           </div>
         </div>
         </div>
         </div>
+       </div>
       </div>
     </div>
    {/* desktop version end */}
 
    {/* mobile version */}
    <div className=" 2xl:hidden xl:hidden w-[100%] lg:hidden md:hidden sm:flex flex justify-center items-center">
-      <div className="overflow-y-scroll h-[750px] w-[98%] flex justify-center rounded-[8px]">
-        <div className="w-[90%] rounded-lg relative h-[1050px] bg-[#fff] ">
+      <div className="overflow-y-scroll h-[670px] pt-[35px] w-[98%] flex justify-center rounded-[8px]">
+        <div className="w-[90%] rounded-lg relative h-[1040px] bg-[#fff] ">
         <div className="flex justify-center pt-[24px]">
           <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[1%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
             <p className="text-[14px] font-[700] text-center">
               Personal Dashboard
             </p>
           </div>
-          <div className="absolute top-[0px] right-[-5px]">
+          <div className="absolute top-[-15px] right-[-15px]">
            <img src={cross} alt=""  onClick={onClose} className="cursor-pointer" />
           </div>
         </div>
@@ -486,7 +503,7 @@ const DashboardPopup = ({ onClose }) => {
               background: "rgba(237, 237, 237, 0.40)",
             }}
           >
-            <div className="relative w-[279.822px] mx-auto">
+            <div className="relative w-[100%] mx-auto">
               <button className="swiper-button-prev-swp rotate-[182deg] absolute z-10 !left-[-3%] top-[50%] transform -translate-y-1/2">
                 <img className="w-[16px] h-[16px]" src={arw} alt="" />
               </button>
@@ -516,11 +533,11 @@ const DashboardPopup = ({ onClose }) => {
                         <img className="" src={card.img} alt="" />
                       </div>
                       <div className="flex justify-between items-center pt-[17px] space-x-2">
-                        <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[10px] font-[500] text-[#403E3E] px-[8px] w-[100%] py-[3px]">
-                          Early Access
+                        <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[10px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px]">
+                          {card.Access}
                         </button>
-                        <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[10px] font-[500] text-[#403E3E] px-[8px] w-[100%] py-[3px]">
-                          10% BFX Bonus
+                        <button className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[10px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px]">
+                          {card.Bonus}
                         </button>
                       </div>
                     </div>
