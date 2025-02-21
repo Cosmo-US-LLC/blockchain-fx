@@ -8,7 +8,7 @@ function TokenDetailsSec() {
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(address);
-    toast.success("Address copied to clipboard!", {
+    toast.success("Address Copied!", {
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: false,

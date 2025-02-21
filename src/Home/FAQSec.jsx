@@ -72,7 +72,7 @@ const FaqSec = () => {
         "BFX is the native token of the BlockchainFX platform, enabling early access, staking rewards in BFX and USDT, and providing access to premium features, as well as participation in the platform's ecosystem.",
     },
     {
-      question: "What is crypto presale?",
+      question: "What is a crypto presale?",
       answer:
         "A crypto pre-sale is an early opportunity to purchase a new cryptocurrency or token before it becomes publicly available, typically at a significantly lower price than the official launch price on exchanges.",
     },
