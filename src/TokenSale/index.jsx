@@ -351,7 +351,7 @@ addresses.
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              13.1. Any amendments must be documented and agreed upon by both Parties.
+              Any amendments must be documented and agreed upon by both Parties.
               </li>
             </ul>
           </li>
@@ -360,7 +360,7 @@ addresses.
             <br />
             <ul className=" space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              14.1. If any provision of this Agreement is deemed invalid, the remaining provisions will
+              If any provision of this Agreement is deemed invalid, the remaining provisions will
               remain in force.
               </li>
             </ul>
@@ -370,7 +370,7 @@ addresses.
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              15.1. This Agreement is governed by applicable blockchain-related laws and regulations.
+              This Agreement is governed by applicable blockchain-related laws and regulations.
               </li>
             </ul>
           </li>
@@ -379,7 +379,7 @@ addresses.
             <br />
             <ul className="space-y-[5px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              16.1.  This Agreement constitutes the entire understanding between the Parties and
+             This Agreement constitutes the entire understanding between the Parties and
               supersedes all prior agreements.
               </li>
             </ul>
