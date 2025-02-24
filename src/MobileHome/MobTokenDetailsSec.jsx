@@ -46,7 +46,7 @@ function MobTokenDetailsSec() {
        <div className="w-[100%] mx-auto space-x-[2rem] flex justify-between items-center ">
         <div className=" w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-[#000]">
             <h4 className="text-[#444] text-[12px] font-[400]">Token Symbol</h4>
-            <h3 className="text-[#444] text-[15px] font-[700]">$BFX</h3>
+            <h3 className="text-[#444] text-[15px] font-[700]">BFX</h3>
         </div>
         <div className=" w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-[#000]">
             <h4 className="text-[#444] text-[12px] font-[400]">Token Type</h4>
