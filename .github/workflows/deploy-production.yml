@@ -63,10 +63,9 @@ jobs:
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }} << 'EOF'
             cd /home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
             find . -type f ! -name ".htaccess" ! -name "whitepaper.pdf" ! -name "build.zip" -delete
-            echo "Extracting build.zip..."
-            unzip -o build.zip
-            mv build/* .
-            rmdir build
-            rm -f build.zip
-            echo "Deployment complete without deleting the vip and vip.blockchainfx.com folders!"
+            mkdir -p temp_build
+            unzip -o build.zip -d temp_build
+            mv temp_build/build/* .
+            rm -rf temp_build build.zip
+            echo "Deployment complete!"
           EOF
