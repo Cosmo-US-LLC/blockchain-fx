@@ -3,7 +3,7 @@ name: Deploy React App to GoDaddy
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -59,12 +59,14 @@ jobs:
 
       - name: Cleanup and Extract Build on Server
         run: |
-          echo "Cleaning up vip.blockchainfx.com except .htaccess and whitepaper.pdf..."
+          echo "Cleaning up /public_html/vip.blockchainfx.com except .htaccess, whitepaper.pdf and build.zip"
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }} << 'EOF'
             cd /home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
             find . -type f ! -name ".htaccess" ! -name "whitepaper.pdf" ! -name "build.zip" -delete
+            echo "Extracting build.zip..."
             unzip -o build.zip
             mv build/* .
-            rm -rf build build.zip
-            echo "Deployment complete!"
+            rmdir build
+            rm -f build.zip
+            echo "Deployment complete without deleting the vip and vip.blockchainfx.com folders!"
           EOF
