@@ -65,6 +65,6 @@ jobs:
             find . -type f ! -name ".htaccess" ! -name "whitepaper.pdf" ! -name "build.zip" -delete
             unzip -o build.zip
             mv build/* .
-            rm -rf build build.zip  # Ensuring 'build' is removed only after moving files
+            rm -rf build build.zip
             echo "Deployment complete!"
           EOF
