@@ -65,7 +65,7 @@ jobs:
             find . -type f ! -name ".htaccess" ! -name "whitepaper.pdf" ! -name "build.zip" -delete
             mkdir -p temp_build
             unzip -o build.zip -d temp_build
-            mv temp_build/build/* .
+            rsync -av temp_build/build/ .   # Replaces mv to avoid conflicts
             rm -rf temp_build build.zip
             echo "Deployment complete!"
           EOF
