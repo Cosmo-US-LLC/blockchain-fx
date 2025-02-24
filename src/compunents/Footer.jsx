@@ -31,7 +31,12 @@ function Footer() {
         <div className="flex justify-between">
           <div className="flex justify-between w-[60%]">
             <div className="max-w-[177px] space-y-[10px] w-[100%]">
-              <img src={logo} alt="" />
+              <Link
+                to="/"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                <img src={logo} alt="" />
+              </Link>
               <p className="text-[#000] text-[12px] font-[400] leading-[166.667%]">
                 Experience all-in-one trading with BlockchainFX: Trade Crypto,
                 Forex, ETFs, Stocks, Indices, CFDs, and more with access to over
@@ -43,28 +48,28 @@ function Footer() {
                 <li className="text-[#000] text-[13.3px] font-[600] leading-[108.333%]  list-disc  min-w-[100px]">
                   Quick Links
                   <a
-                    className="text-[#949494] block text-[10.8px] pt-[20px] font-[400] leading-[108.333%]"
+                    className="text-[#949494] block text-[10.8px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "how-to-buy", 90)}
                   >
                     How to Buy
                   </a>
                   <a
-                    className="text-[#949494] block text-[10.8px] pt-[10px] font-[400] leading-[108.333%]"
+                    className="text-[#949494] block text-[10.8px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}
                   >
                     What is BFX
                   </a>
                   <a
-                    className="text-[#949494] block text-[10.8px] pt-[10px] font-[400] leading-[108.333%]"
+                    className="text-[#949494] block text-[10.8px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "roadmap", 90)}
                   >
                     Roadmap
                   </a>
                   <a
-                    className="text-[#949494] block text-[10.8px] pt-[10px] font-[400] leading-[108.333%]"
+                    className="text-[#949494] block text-[10.8px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "tokenomics", 90)}
                   >
@@ -77,31 +82,30 @@ function Footer() {
               <ul className=" w-[100%]">
                 <li className="text-[#000] text-[13.3px] list-disc font-[600] leading-[108.333%] min-w-[140px]">
                   Docs
-                 
+                  <br />
                   <Link to="/terms-of-service" className="text-blue-600 ">
-                  <p
-                    className="text-[#949494] text-[10.8px] pt-[20px] block font-[400] leading-[108.333%]"
-                  >
-                    Terms of Service
-                  </p>
+                    <p className="text-[#949494] text-[10.8px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+                      Terms of Service
+                    </p>
                   </Link>
                   <Link to="/privacy-policy" className="text-blue-600 ">
-                  <p
-                    className="text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]"
-                  >
-                    Privacy Policy{" "}
-                  </p>
+                    <p className="text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+                      Privacy Policy{" "}
+                    </p>
                   </Link>
                   <Link to="/token-sale" className="text-blue-600 ">
-                  <p
-                    className="text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]"
-                  >
-                    Token Sale Agreement
-                  </p>
+                    <p className="text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+                      Token Sale Agreement
+                    </p>
                   </Link>
-                  <a 
-                  className="text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%]"
-                  href="https://t.me/blockchainfx_chat" target="_blank" rel="noopener noreferrer">Live 24/7 Support</a>
+                  <a
+                    className="text-[#949494] text-[10.8px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                    href="https://t.me/blockchainfx_chat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live 24/7 Support
+                  </a>
                 </li>
               </ul>
             </div>
@@ -115,6 +119,7 @@ function Footer() {
                 href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
               >
                 <img src={socil1} alt="" />
               </a>
@@ -122,6 +127,7 @@ function Footer() {
                 href="https://t.me/blockchainfx_news"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
               >
                 <img src={socil2} alt="" />
               </a>
@@ -129,6 +135,7 @@ function Footer() {
                 href="https://x.com/Blockchainfx1"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
               >
                 <img src={socil3} alt="" />
               </a>
@@ -158,11 +165,11 @@ function Footer() {
             <br />
             Trading cryptocurrencies carries significant risks, including the
             potential for partial or total loss of your funds. Thorough research
-            is crucial. BlockchainFX does not guarantee any performance, outcome,
-            or return of capital for any cryptocurrency mentioned on this
-            platform. By using this platform, you agree to our Terms of Service,
-            Privacy Policy, Cookie Policy, and any applicable token sale
-            agreements. The platform's content is not intended for use in
+            is crucial. BlockchainFX does not guarantee any performance,
+            outcome, or return of capital for any cryptocurrency mentioned on
+            this platform. By using this platform, you agree to our Terms of
+            Service, Privacy Policy, Cookie Policy, and any applicable token
+            sale agreements. The platform's content is not intended for use in
             jurisdictions where its distribution or use would violate local laws
             or regulations.
           </p>
@@ -175,13 +182,11 @@ function Footer() {
             className="
           space-x-5"
           >
-             <Link to="/cookie-management" className="text-blue-600 ">
-                  <p
-                    className="text-[#949494] text-[10.8px] pt-[20px] block font-[400] leading-[108.333%]"
-                  >
-                      Cookie Management
-                  </p>
-                  </Link>
+            <Link to="/cookie-management" className="text-blue-600 ">
+              <p className="text-[#949494] text-[10.8px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+                Cookie Management
+              </p>
+            </Link>
           </div>
         </div>
       </div>
@@ -192,7 +197,12 @@ function Footer() {
 
       <div className="w-[90%] 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-[35px] py-[24px] mx-auto ">
         <div className=" space-y-[10px] w-[100%]">
-          <img src={logo} alt="" />
+          <Link
+            to="/"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
+            <img src={logo} alt="" />
+          </Link>
           <p className="text-[#000] text-[14px] font-[400] leading-[200%]">
             Experience all-in-one trading with BlockchainFX: Trade Crypto,
             Forex, ETFs, Stocks, Indices, CFDs, and more with access to over 500
@@ -205,28 +215,28 @@ function Footer() {
               <li className="text-[#000] text-[16px] font-[600] leading-[108.333%] ">
                 Quick Links
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "how-to-buy", 90)}
                 >
                   How to Buy
-                </a>
+                </a>   <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}
                 >
                   What is BFX
-                </a>
+                </a>   <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "roadmap", 90)}
                 >
                   Roadmap
-                </a>
+                </a>   <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "tokenomics", 90)}
                 >
@@ -239,30 +249,33 @@ function Footer() {
             <ul className=" w-[100%]">
               <li className="text-[#000] text-[16px] font-[600] leading-[108.333%]">
                 Docs
+                <br />
                 <Link to="/terms-of-service" className="text-blue-600 ">
-                  <p
-                    className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  >
+                  <p className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Terms of Service
                   </p>
-                  </Link>
-                  <Link to="/privacy-policy" className="text-blue-600 ">
-                  <p
-                    className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  >
+                </Link>
+                <br />
+                <Link to="/privacy-policy" className="text-blue-600 ">
+                  <p className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Privacy Policy{" "}
                   </p>
-                  </Link>
-                  <Link to="/token-sale" className="text-blue-600 ">
-                  <p
-                    className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  >
-                     Token Sale Agreement
+                </Link>
+                <br />
+                <Link to="/token-sale" className="text-blue-600 ">
+                  <p className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+                    Token Sale Agreement
                   </p>
-                  </Link>
-                  <a 
-                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href="https://t.me/blockchainfx_chat" target="_blank" rel="noopener noreferrer">Live 24/7 Support</a>
+                </Link>
+                <br />
+                <a
+                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                  href="https://t.me/blockchainfx_chat"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live 24/7 Support
+                </a>
               </li>
             </ul>
           </div>
@@ -277,6 +290,7 @@ function Footer() {
                 href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
               >
                 <img className="w-[24px] h-[24px]" src={socil1} alt="" />
               </a>
@@ -284,6 +298,7 @@ function Footer() {
                 href="https://t.me/blockchainfx_news"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
               >
                 <img className="w-[24px] h-[24px]" src={socil2} alt="" />
               </a>
@@ -291,6 +306,7 @@ function Footer() {
                 href="https://x.com/Blockchainfx1"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
               >
                 <img className="w-[24px] h-[24px]" src={socil3} alt="" />
               </a>
@@ -320,11 +336,11 @@ function Footer() {
             <br />
             Trading cryptocurrencies carries significant risks, including the
             potential for partial or total loss of your funds. Thorough research
-            is crucial. BlockchainFX does not guarantee any performance, outcome,
-            or return of capital for any cryptocurrency mentioned on this
-            platform. By using this platform, you agree to our Terms of Service,
-            Privacy Policy, Cookie Policy, and any applicable token sale
-            agreements. The platform's content is not intended for use in
+            is crucial. BlockchainFX does not guarantee any performance,
+            outcome, or return of capital for any cryptocurrency mentioned on
+            this platform. By using this platform, you agree to our Terms of
+            Service, Privacy Policy, Cookie Policy, and any applicable token
+            sale agreements. The platform's content is not intended for use in
             jurisdictions where its distribution or use would violate local laws
             or regulations.
           </p>

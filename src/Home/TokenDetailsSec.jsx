@@ -55,7 +55,7 @@ function TokenDetailsSec() {
               <h4 className="text-[#444] text-[16px] font-[400]">
                 Token Symbol
               </h4>
-              <h3 className="text-[#444] text-[16px] font-[700]">$BFX</h3>
+              <h3 className="text-[#444] text-[16px] font-[700]">BFX</h3>
             </div>
             <div className="max-w-[363px] w-[100%] border px-[17px] pt-[14px] bg-[#fff] space-y-[7px] rounded-[6px] pb-[16px] border-[#000]">
               <h4 className="text-[#444] text-[16px] font-[400]">Decimal</h4>

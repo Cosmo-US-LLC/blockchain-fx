@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {  useState, useEffect, useRef } from "react";
 import crs from "../../assets/navbar/wallet/crs.png";
 import copy from "../../assets/navbar/wallet/copy-left.png";
 import qrcode1 from "../../assets/navbar/wallet/qrcode (3).png";
@@ -41,6 +41,21 @@ const cardData = [
 
 
 const CardList = ({ selectedCoin, onClose }) => {
+  const modalRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        onClose();
+      }
+    };
+    
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [onClose]);
+
   if (!selectedCoin) return null;
 
   const coinMapping = {
@@ -51,13 +66,15 @@ const CardList = ({ selectedCoin, onClose }) => {
   };
 
   const selectedId = coinMapping[`${selectedCoin.name}_${selectedCoin.sub}`];
-
   const selectedCard = cardData.find(card => card.id === selectedId);
 
   if (!selectedCard) return null;
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white space-y-[10px] 2xl:p-6 xl:p-6  lg:p-6 md:p-6 sm:p-6 p-4 rounded-[12px] shadow-lg w-[350px] relative">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50"
+    >
+      <div className="bg-white space-y-[10px] 2xl:p-6 xl:p-6  lg:p-6 md:p-6 sm:p-6 p-4 rounded-[12px] shadow-lg w-[350px] relative"
+       ref={modalRef}
+      >
         <div className="flex justify-center items-center">
           <h2 className="text-[14px] font-[600] tracking-[-0.28px] text-center">Buy Token</h2>
           <button
