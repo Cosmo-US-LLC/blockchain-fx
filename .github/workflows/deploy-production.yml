@@ -3,7 +3,7 @@ name: Deploy React App to GoDaddy
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
