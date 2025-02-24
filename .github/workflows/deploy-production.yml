@@ -63,11 +63,8 @@ jobs:
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }} << 'EOF'
             cd /home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
             find . -type f ! -name ".htaccess" ! -name "whitepaper.pdf" ! -name "build.zip" -delete
-            find . -type d -mindepth 1 -delete
-            echo "Extracting build.zip..."
             unzip -o build.zip
             mv build/* .
-            rmdir build
-            rm -f build.zip
+            rm -rf build build.zip  # Ensuring 'build' is removed only after moving files
             echo "Deployment complete!"
           EOF
