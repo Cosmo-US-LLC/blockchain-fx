@@ -1,6 +1,6 @@
 import React from "react";
 
-import howimg from "../assets/HowDoesItSec/hiwimg.png";
+import howimg from "../assets/HowDoesItSec/hiwimg.webp";
 
 
 const cardItems = [
@@ -45,7 +45,7 @@ function HowDoesItSec() {
             <h3 className="text-[30px] capitalize leading-normal tracking-[-1px] text-[#181A20] text-center font-[700]">How does it work?</h3>
         </div>
      <div className="max-w-[900px] pt-[34px]  space-x-[3rem] flex justify-between w-[100%] mx-auto ">
-        <div className="w-[57%] grid grid-cols-2 gap-x-[19px] gap-y-[19px]">
+        <div className="w-[54%] grid grid-cols-2 gap-x-[19px] gap-y-[19px]">
             {/* <div className="max-w-[289px] px-[24px] pt-[24px] pb-[34px] min-h-[284px] bg-[#F9FAFB] rounded-[8px] border border-[#F9FAFB]">
                 <p className="text-[20px] text-[#000] font-[700]">01.</p>
                 <h3 className="text-[20px] text-[#000] font-[700] leading-[115%]">Trading Platform</h3>
@@ -64,8 +64,8 @@ function HowDoesItSec() {
         </div>
       ))}
         </div>
-        <div className="w-[50%] max-w-[303px] flex justify-end max-w-[521px]">
-        <img src={howimg} alt="" />
+        <div className="w-[50%] flex justify-end max-w-[310px]">
+        <img src={howimg} className="object-cover" alt="" />
         </div>
       </div>
      </div>
