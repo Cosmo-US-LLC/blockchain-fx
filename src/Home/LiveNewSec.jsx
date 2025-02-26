@@ -1,6 +1,6 @@
 import React from "react";
 
-import liveming from "../assets/LiveNews/liveimg.png";
+import liveming from "../assets/LiveNews/liveimg.webp";
 
 function LiveNewSec() {
   return (
@@ -17,7 +17,7 @@ function LiveNewSec() {
           </p>
         </div>
         <div>
-          <img className="" src={liveming} alt="" />
+          <img className="object-cover" src={liveming} alt="" />
         </div>
       </div>
     </div>

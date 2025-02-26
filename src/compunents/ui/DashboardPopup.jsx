@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect, useRef} from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -65,15 +65,31 @@ const cards = [
 
 const DashboardPopup = ({ onClose }) => {
     const [value, setValue] = useState(50);
+    const modalRef = useRef(null);
 
     const handleChange = (e) => {
       setValue(e.target.value);
     };
 
+      useEffect(() => {
+        const handleClickOutside = (event) => {
+          if (modalRef.current && !modalRef.current.contains(event.target)) {
+            onClose();
+          }
+        };
+        
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+          document.removeEventListener("mousedown", handleClickOutside);
+        };
+      }, [onClose]);
+
   return (
    <div className="fixed flex items-center inset-0 bg-black bg-opacity-50 h-[100vh] !z-[999]">
    {/* desktop version */}
-   <div className=" 2xl:flex xl:flex w-[100%] max-w-[1240px] mx-auto pt-[20px] lg:flex md:flex sm:hidden hidden justify-end items-center">
+   <div className=" 2xl:flex xl:flex w-[100%] max-w-[1240px] mx-auto pt-[20px] lg:flex md:flex sm:hidden hidden justify-end items-center"
+    ref={modalRef}
+   >
       <div className="w-[790px] flex items-center pr-5 overflow-y-auto overflow-x-hidden rounded-lg  flex justify-end  pt-[15px]  ">
        <div className="h-[86vh] mt-[10px] ">
        <div className="w-[700px] bg-white rounded-lg relative">
@@ -352,7 +368,9 @@ const DashboardPopup = ({ onClose }) => {
 
    {/* mobile version */}
    <div className=" 2xl:hidden xl:hidden w-[100%] lg:hidden md:hidden sm:flex flex justify-center items-center">
-      <div className="overflow-y-scroll h-[670px] pt-[35px] w-[98%] flex justify-center rounded-[8px]">
+      <div className="overflow-y-scroll h-[670px] pt-[35px] w-[98%] flex justify-center rounded-[8px]"
+       ref={modalRef}
+      >
         <div className="w-[90%] rounded-lg relative h-[1040px] bg-[#fff] ">
         <div className="flex justify-center pt-[24px]">
           <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[1%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
