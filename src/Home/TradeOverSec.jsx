@@ -1,9 +1,9 @@
 import React from "react";
-import takeimg1 from "../assets/TradeOver/takeimg (5).png"
+import takeimg1 from "../assets/TradeOver/takeimg (5).webp"
 import takeimg2 from "../assets/TradeOver/takeimg (1).png"
-import takeimg3 from "../assets/TradeOver/takeimg (2).png"
-import takeimg4 from "../assets/TradeOver/takeimg (3).png"
-import takeimg5 from "../assets/TradeOver/takeimg (4).png"
+import takeimg3 from "../assets/TradeOver/takeimg (2).webp"
+import takeimg4 from "../assets/TradeOver/takeimg (3).webp"
+import takeimg5 from "../assets/TradeOver/takeimg (4).webp"
 
 const cardData = [
     {

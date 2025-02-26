@@ -36,7 +36,7 @@ function MobileHero() {
               The First Crypto <br /> Trading Super App
             </h2>
             <p className="text-[15px] max-w-[375px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#000] tracking-[-0.32px] ">
-            BlockchainFX is the only crypto-native trading platform that offers instant access to the world’s largest financial markets. Users can trade crypto, forex, stocks, ETFs and more, all in one place. <br /><br /> This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
+            BlockchainFX is the only crypto native trading platform that offers instant access to the world’s largest financial markets. Users can trade crypto, forex, stocks, and more, all in one place without having to switch brokers.<br /><br /> This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
