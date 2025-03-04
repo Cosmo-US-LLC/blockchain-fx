@@ -67,6 +67,8 @@ function MobileWalletSec() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [popupVisible, setPopupVisible] = useState(false);
   const dropdownRef = useRef(null);
+  const popupRef = useRef(null);
+
   
     const handleToggle = (index) => {
       setActiveIndexbuy(index === activeIndexbuy ? -1 : index);
@@ -127,6 +129,20 @@ function MobileWalletSec() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+    useEffect(() => {
+      function handleClickOutside(event) {
+        if (popupRef.current && !popupRef.current.contains(event.target)) {
+          setPopupVisible(false);
+        }
+      }
+  
+      if (popupVisible) {
+        document.addEventListener("mousedown", handleClickOutside);
+      }
+      return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, [popupVisible]);
+  
 
   return (
     <div className="pt-[20px] pb-[24px] space-y-[28px] w-[90%] mx-auto " id="Wallet">
@@ -260,7 +276,9 @@ function MobileWalletSec() {
         </div>
         {popupVisible && (
               <div className="fixed inset-0 flex items-center -top-10 justify-center bg-black bg-opacity-50 z-[999]">
-                <div className="bg-white p-5 rounded-md shadow-lg min-w-[300px]">
+                <div className="bg-white p-5 rounded-md shadow-lg min-w-[300px]"
+                 ref={popupRef}
+                >
                   <div
                     className="h-[26px] w-[26px] mt-[-15px] tracking-[-1px] ml-[-15px] flex justify-center items-center rounded-full bg-gray-100 cursor-pointer"
                     onClick={() => setPopupVisible(false)}
