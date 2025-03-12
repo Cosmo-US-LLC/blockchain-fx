@@ -1,71 +1,71 @@
-name: Deploy React App to GoDaddy
+# name: Deploy React App to GoDaddy
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
 
-      - name: Install Dependencies
-        run: |
-          echo "Installing dependencies..."
-          npm install
+#       - name: Install Dependencies
+#         run: |
+#           echo "Installing dependencies..."
+#           npm install
 
-      - name: Build React App
-        run: |
-          echo "Building React app..."
-          npm run build
+#       - name: Build React App
+#         run: |
+#           echo "Building React app..."
+#           npm run build
 
-      - name: List Build Directory
-        run: |
-          echo "Listing build directory:"
-          ls -la build/
+#       - name: List Build Directory
+#         run: |
+#           echo "Listing build directory:"
+#           ls -la build/
 
-      - name: Compress Build Folder
-        run: |
-          echo "Compressing build folder..."
-          zip -r build.zip build/
-          echo "Zip file created successfully!"
+#       - name: Compress Build Folder
+#         run: |
+#           echo "Compressing build folder..."
+#           zip -r build.zip build/
+#           echo "Zip file created successfully!"
 
-      - name: Verify Zip File
-        run: |
-          echo "Verifying the zip file:"
-          ls -lh build.zip
+#       - name: Verify Zip File
+#         run: |
+#           echo "Verifying the zip file:"
+#           ls -lh build.zip
 
-      - name: Setup SSH Key
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.GODADDY_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H ${{ secrets.GODADDY_HOST }} >> ~/.ssh/known_hosts
-          echo "SSH Key setup complete."
+#       - name: Setup SSH Key
+#         run: |
+#           mkdir -p ~/.ssh
+#           echo "${{ secrets.GODADDY_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_rsa
+#           chmod 600 ~/.ssh/id_rsa
+#           ssh-keyscan -H ${{ secrets.GODADDY_HOST }} >> ~/.ssh/known_hosts
+#           echo "SSH Key setup complete."
 
-      - name: Deploy to GoDaddy via SCP
-        run: |
-          echo "Deploying to GoDaddy..."
-          scp -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no build.zip ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
+#       - name: Deploy to GoDaddy via SCP
+#         run: |
+#           echo "Deploying to GoDaddy..."
+#           scp -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no build.zip ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
 
-      - name: Cleanup and Extract Build on Server
-        run: |
-          echo "Cleaning up /public_html/vip.blockchainfx.com except .htaccess, whitepaper.pdf and build.zip"
-          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }} << 'EOF'
-            cd /home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
-            find . -type f ! -name ".htaccess" ! -name "whitepaper.pdf" ! -name "build.zip" -delete
-            mkdir -p temp_build
-            unzip -o build.zip -d temp_build
-            rsync -av temp_build/build/ .   # Replaces mv to avoid conflicts
-            rm -rf temp_build build.zip
-            echo "Deployment complete!"
-          EOF
+#       - name: Cleanup and Extract Build on Server
+#         run: |
+#           echo "Cleaning up /public_html/vip.blockchainfx.com except .htaccess, whitepaper.pdf and build.zip"
+#           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.GODADDY_USER }}@${{ secrets.GODADDY_HOST }} << 'EOF'
+#             cd /home/${{ secrets.GODADDY_USER }}/public_html/vip.blockchainfx.com
+#             find . -type f ! -name ".htaccess" ! -name "whitepaper.pdf" ! -name "build.zip" -delete
+#             mkdir -p temp_build
+#             unzip -o build.zip -d temp_build
+#             rsync -av temp_build/build/ .   # Replaces mv to avoid conflicts
+#             rm -rf temp_build build.zip
+#             echo "Deployment complete!"
+#           EOF
