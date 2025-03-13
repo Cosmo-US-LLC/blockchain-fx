@@ -1,0 +1,1 @@
+export const WALLET_CONNECT_PROJECT_ID = "beaf54a517a11a4f99a8f9f36442a470";

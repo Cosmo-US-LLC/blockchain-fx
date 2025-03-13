@@ -23,6 +23,8 @@ import cardimg7 from "../../assets/PremiumSec/cardimg (7).webp";
 
 import cer from "../../assets/wallet/cer.svg";
 import { Bounce } from "react-toastify";
+import { useAccount } from "../../presale-gg/web3/hooks";
+import { useUserState } from "../../presale-gg/stores/user.store";
 
 
 const cards = [
@@ -64,8 +66,11 @@ const cards = [
 ];
 
 const DashboardPopup = ({ onClose }) => {
+    const accountData = useAccount()
+    const userData = useUserState()
     const [value, setValue] = useState(50);
     const modalRef = useRef(null);
+    const mobileModalRef = useRef(null);
 
     const handleChange = (e) => {
       setValue(e.target.value);
@@ -73,9 +78,11 @@ const DashboardPopup = ({ onClose }) => {
 
       useEffect(() => {
         const handleClickOutside = (event) => {
-          if (modalRef.current && !modalRef.current.contains(event.target)) {
-            onClose();
-          }
+          if (!modalRef.current && !mobileModalRef.current) return
+          if (modalRef.current.contains(event.target) || modalRef.current.isEqualNode(event.target)) return
+          if (mobileModalRef.current.contains(event.target) || mobileModalRef.current.isEqualNode(event.target)) return
+
+          onClose();
         };
         
         document.addEventListener("mousedown", handleClickOutside);
@@ -88,7 +95,6 @@ const DashboardPopup = ({ onClose }) => {
    <div className="fixed flex items-center inset-0 bg-black bg-opacity-50 h-[100vh] !z-[999]">
    {/* desktop version */}
    <div className=" 2xl:flex xl:flex w-[100%] max-w-[1240px] mx-auto pt-[20px] lg:flex md:flex sm:hidden hidden justify-end items-center"
-    ref={modalRef}
    >
       <div className="w-[790px] flex items-center pr-5 overflow-y-auto overflow-x-hidden rounded-lg  flex justify-end  pt-[15px]  ">
        <div className="h-[86vh] mt-[10px] ">
@@ -103,7 +109,7 @@ const DashboardPopup = ({ onClose }) => {
            <img src={cross} alt=""  onClick={onClose} className="cursor-pointer" />
           </div>
         </div>
-        <div className="p-[20px] space-y-[7px] rounded-[4.913px]">
+        <div className="p-[20px] space-y-[7px] rounded-[4.913px]" ref={modalRef}>
           <div
             className="border border-[#E3E3E3] space-y-[3px] p-[7px]"
             style={{
@@ -114,7 +120,7 @@ const DashboardPopup = ({ onClose }) => {
               Wallet Address
             </h2>
             <p className="text-[14px] font-[500] text-[#636363] text-center">
-              0x7bb9Ed8Df7656b...870840d214e!
+              {accountData.address}
             </p>
           </div>
           <div className="border bg-[FFFBF2] bg-[#FFFBF2] border-[#E3E3E3] space-y-[7px] p-[7px]">
@@ -369,7 +375,7 @@ const DashboardPopup = ({ onClose }) => {
    {/* mobile version */}
    <div className=" 2xl:hidden xl:hidden w-[100%] lg:hidden md:hidden sm:flex flex justify-center items-center">
       <div className="overflow-y-scroll h-[670px] pt-[35px] w-[98%] flex justify-center rounded-[8px]"
-       ref={modalRef}
+       ref={mobileModalRef}
       >
         <div className="w-[90%] rounded-lg relative h-[1040px] bg-[#fff] ">
         <div className="flex justify-center pt-[24px]">
