@@ -6,9 +6,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import swpbtn from "../assets/PremiumSec/arw.svg";
 
-import medai1 from "../assets/Press&Media/media.png";
-import medai2 from "../assets/Press&Media/media (2).svg";
-import medai3 from "../assets/Press&Media/media (3).svg";
+import medai1 from "../assets/Press&Media/medicn (3).svg";
+import medai2 from "../assets/Press&Media/medicn (2).svg";
+import medai3 from "../assets/Press&Media/medicn (1).svg";
 
 function MobPressMediaSec() {
   return (
@@ -36,37 +36,37 @@ function MobPressMediaSec() {
             className="mySwiper"
           >
                 <SwiperSlide>
-              <div className="bg-[#FBFBFB] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
+              <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] ">
             <div className="space-y-[32px]">
               <div className="flex items-center justify-center h-[30px]">
-                <img src={medai2} className="h-[50px]" alt="" />
+                <img src={medai1} className="h-[30px]" alt="" />
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BFX is pioneering a new era of cryptocurrency by connecting blockchains to global markets such as Forex, Commodities, and ETFs. This unprecedented integration creates endless trading opportunities for traders.
+              BlockchainFX is quickly becoming the go-to trading platform in 2025
               </p>
             </div>
           </div>
               </SwiperSlide>
              <SwiperSlide>
-                <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
+                <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] ">
             <div className="space-y-[32px]">
               <div className="flex items-center justify-center h-[30px]">
-                <img src={medai1} className="h-[23px] object-cover" alt="" />
+                <img src={medai2} className="h-[23px] object-cover" alt="" />
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BlockchainFX can be described as a hybrid of Binance and Robinhood, delivering a seamless trading experience with exceptional speed and simplicity, powered by instant crypto deposits and trading.
+              BlockchainFX revolutionises the financial trading landscape.
               </p>
             </div>
           </div>
               </SwiperSlide>
               <SwiperSlide>
-              <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
+              <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] ">
             <div className="space-y-[32px]">
               <div className="flex items-center justify-center h-[30px]">
                 <img src={medai3} className="h-[30px]" alt="" />
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BlockchainFX gives 560 million crypto users direct access to global financial markets, enabling seamless transitions across asset classes like Silver and BTC in seconds with advanced trading tools.
+              BlockchainFX puts Wall Street in your pocket
               </p>
             </div>
           </div>
