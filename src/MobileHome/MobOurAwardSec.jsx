@@ -1,8 +1,8 @@
 import React from "react";
 
 import rwdimg1 from "../assets/OurAwardSec/rwdimg (1).png";
-import rwdimg2 from "../assets/OurAwardSec/rwdimg (2).png";
-import rwdimg3 from "../assets/OurAwardSec/rwdimg (3).png";
+import rwdimg2 from "../assets/OurAwardSec/rwdimg (2).webp";
+import rwdimg3 from "../assets/OurAwardSec/rwdimg (3).webp";
 
 function MobOurAwardSec() {
   return (
@@ -29,7 +29,7 @@ function MobOurAwardSec() {
                 <img src={rwdimg1} className="max-w-[194px] w-[100%] absolute top-[-3%]"  alt="" />
             </div>
             <div className="flex justify-center ">
-                <img src={rwdimg2} className="max-h-[240px] " alt="" />
+                <img src={rwdimg2} className="max-h-[240px] object-cover" alt="" />
             </div>
          </div>
          <div className="space-y-[10px] px-[60px] max-h-[673px] pt-[15px] rounded-[12.839px] w-[100%] border border-[#9D9D9D]"
@@ -44,7 +44,7 @@ function MobOurAwardSec() {
                 <img src={rwdimg1} className="max-w-[194px] w-[100%] absolute top-[-3%]"  alt="" />
             </div>
             <div className="">
-                <img src={rwdimg3} className="w-[100%]"  alt="" />
+                <img src={rwdimg3} className="w-[100%] object-cover"  alt="" />
             </div>
          </div>
 
