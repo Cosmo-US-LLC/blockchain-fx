@@ -41,7 +41,7 @@ export const TransactionModal = ({ transaction, ...others }) => {
           <div className="border flex justify-between items-center border-[#DFDFDF] rounded-[4px] p-[8px]">
             <input
               type="text"
-              className="text-[12px] text-[#989898] outline-none"
+              className="text-[12px] text-[#000] font-bold outline-none"
               value={transaction.pay_amount}
               readOnly
             />
@@ -60,8 +60,8 @@ export const TransactionModal = ({ transaction, ...others }) => {
                 <div className="border flex justify-between items-center border-[#DFDFDF] rounded-[4px] p-[8px]">
                   <input
                     type="text"
-                    className="text-[12px] text-[#989898] outline-none"
-                    value={transaction.pay_amount}
+                    className="text-[12px] text-[#000] font-bold outline-none"
+                    value={transaction.payin_extra_id}
                     readOnly
                   />
                   <button onClick={() => copyText(transaction.pay_amount)}>
@@ -85,7 +85,7 @@ export const TransactionModal = ({ transaction, ...others }) => {
           <div className="border flex justify-between items-center border-[#DFDFDF] rounded-[4px] p-[8px]">
             <input
               type="text"
-              className="text-[12px] text-[#989898] outline-none"
+              className="text-[12px] text-[#000] font-bold outline-none"
               value={transaction.pay_address}
               readOnly
             />
