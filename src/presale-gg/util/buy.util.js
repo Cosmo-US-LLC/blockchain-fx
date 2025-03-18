@@ -145,7 +145,7 @@ export const buyWithCard = async (args) => {
     });
     const isSandbox = process.env.REACT_APP_CARD_IS_SANDBOX === "true";
 
-    let isPending = true;
+    let isPending = false;
     let checkInterval = null;
     let successCalled = false;
     let errorCalled = false;

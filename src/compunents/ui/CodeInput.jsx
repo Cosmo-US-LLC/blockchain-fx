@@ -42,7 +42,7 @@ export const CodeInput = (props) => {
         />
       )}
       <button
-        className="!outline-none bg-[#e5ae00] text-[#fff] p-1 border-l border-[#454545] font-bold w-14"
+        className="!outline-none bg-[#e5ae00] text-[#fff] p-1 border-l border-[#454545] font-bold w-14 hover:text-black hover:bg-transparent"
         onClick={() => {
           if (props.appliedText) props.onReset()
           else apply()

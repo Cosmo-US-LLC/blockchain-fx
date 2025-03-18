@@ -30,6 +30,7 @@ import { TransactionModal } from "../compunents/ui/modals/TransactionModal";
 import { BonusCodeInput, ReferralCodeInput } from "../compunents/ui/CodeInput";
 import DisclaimerModal from "../compunents/ui/modals/DisclaimerModal";
 import Modal from "../compunents/ui/modals/Modal";
+import ContactModal from "../compunents/ui/modals/ContactModal";
 
 /**
  * @typedef {import("../presale-gg/api/api.types").API.PaymentToken} PaymentToken
@@ -113,12 +114,21 @@ function WalletSec() {
   const [createdTransaction, setCreatedTransaction] = useState(null);
   const [transactionModalOpen, setTransactionModalOpen] = useState(false);
 
+  const [ contactModalOpen, setContactModalOpen ] = useState(false)
   const [ disclaimerModalOpen, setDisclaimerModalOpen ] = useState(false)
   const [ successModalOpen, setSuccessModalOpen ] = useState(false)
   const [ erroredModalOpen, setErroredModalOpen ] = useState(false)
   const [ pendingModalOpen, setPendingModalOpen ] = useState(false)
   const [ successBoughtModalOpen, setSuccessBoughtModalOpen ] = useState(false)
   const [ successBoughtTokens, setSuccessBoughtTokens ] = useState(0)
+  const [ openContactOnTransactionClose, setOpenContactOnTransactionClose ] = useState(false)
+
+  useEffect(() => {
+    if (!transactionModalOpen && openContactOnTransactionClose) {
+      setOpenContactOnTransactionClose(false)
+      setContactModalOpen(true)
+    }
+  }, [openContactOnTransactionClose, transactionModalOpen])
 
   const accountData = useAccount();
   const buy = async () => {
@@ -138,7 +148,12 @@ function WalletSec() {
         });
         if (res.type === "created") {
           setCreatedTransaction(res.transaction);
-          setTimeout(() => setTransactionModalOpen(true), 30);
+          setTimeout(() => {
+            setTransactionModalOpen(true)
+            setOpenContactOnTransactionClose(true)
+          }, 30);
+        } else {
+          setContactModalOpen(true)
         }
       }
     } catch (err) {}
@@ -153,7 +168,10 @@ function WalletSec() {
       await buyWithCard({
         usd: parseNum(paymentTokenNumStr),
         walletAddress: account,
-        onClosedEarly: () => setPendingModalOpen(true),
+        onClosedEarly: () => {
+          setPendingModalOpen(true)
+          setContactModalOpen(true)
+        },
         onError: () => setErroredModalOpen(true),
         onSuccess: (tokens) => {
           if (tokens !== undefined) {
@@ -162,6 +180,7 @@ function WalletSec() {
           } else {
             setSuccessModalOpen(true)
           }
+          setContactModalOpen(true)
         }
       });
     } catch (err) {}
@@ -363,7 +382,7 @@ function WalletSec() {
             </div>
             <div className="">
               <label className="text-[#2F2F2F] text-[8.888px] font-[700] leading-[8.888px]">
-                You Pay in {selectedToken?.symbol.toUpperCase()}:
+                You Pay in {selectedToken?.symbol.toUpperCase() === "CARD" ? "USD" : selectedToken?.symbol.toUpperCase()}:
               </label>
               <div className="border h-[30.612px] border-[#454545] p-1 flex justify-between items-center">
                 <div className="w-[80%] flex items-center space-x-2">
@@ -399,7 +418,7 @@ function WalletSec() {
                   />
                 </div>
                 <div className="relative border px-[4px] w-[74px]">
-                  <div className="justify-start flex h-[24px] items-center space-x-[3px] cursor-pointer">
+                  <div className="justify-start flex h-[24px] items-center space-x-[3px]">
                     {selectedToken && (
                       <>
                         <img
@@ -411,7 +430,7 @@ function WalletSec() {
                         />
                         <div className="flex flex-col">
                           <span className="text-[#545454] !overflow-hidden !text-clip text-[8.888px] font-[700]">
-                            {selectedToken.symbol.toUpperCase()}
+                            {selectedToken?.symbol.toUpperCase() === "CARD" ? "USD" : selectedToken?.symbol.toUpperCase()}
                           </span>
                           <span
                             className={clsx(
@@ -755,6 +774,10 @@ function WalletSec() {
           tokens.
         </p>
       </Modal>
+      <ContactModal
+        open={contactModalOpen}
+        onClose={() => setContactModalOpen(false)}
+      />
     </div>
   );
 }

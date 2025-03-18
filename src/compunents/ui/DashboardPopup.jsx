@@ -25,7 +25,7 @@ import cer from "../../assets/wallet/cer.svg";
 import { Bounce } from "react-toastify";
 import { useAccount } from "../../presale-gg/web3/hooks";
 import { useUserState } from "../../presale-gg/stores/user.store";
-import { formatDollar, formatNumber, parseNum } from "../../presale-gg/util";
+import { copyText, formatDollar, formatNumber, parseNum } from "../../presale-gg/util";
 import { LISTING_PRICE } from "../../presale-gg/constants";
 import { useApiState } from "../../presale-gg/stores/api.store";
 
@@ -95,6 +95,10 @@ const DashboardPopup = ({ onClose }) => {
         };
       }, [onClose]);
 
+  const copyReferralLink = () => {
+    copyText(window.location.origin + "?referral_code=" + userData.user?.referral_code)
+  }
+
   // TODO: Figure out what Bonus BFX, BFX Rewards, USDT Rewards and Trading Account Credits are supposed to be
 
   return (
@@ -147,9 +151,6 @@ const DashboardPopup = ({ onClose }) => {
               >
                 +%{formatNumber((LISTING_PRICE / parseNum(apiData.stage?.token_price) - 1) * 100, 0, 2)}
               </span>
-            </p>
-            <p className="text-[14px] font-[500] text-[#272626] text-center">
-              February 5, 2025
             </p>
           </div>
           <div
@@ -264,7 +265,9 @@ const DashboardPopup = ({ onClose }) => {
           </div>
           <div>
           <button
-          className="text-white bg-[#E5AE00] flex items-center justify-center px-[10px] hover:text-black hover:bg-transparent  text-[10.886px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%]  h-[31px]">
+            className="text-white bg-[#E5AE00] flex items-center justify-center px-[10px] hover:text-black hover:bg-transparent  text-[10.886px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%]  h-[31px]"
+            onClick={copyReferralLink}
+          >
             Copy 10% Referral Link <img src={copy} className="ml-2" alt="" />
           </button>
           </div>
@@ -426,9 +429,6 @@ const DashboardPopup = ({ onClose }) => {
               >
                 +%{formatNumber((LISTING_PRICE / parseNum(apiData.stage?.token_price) - 1) * 100, 0, 2)}
               </span>
-            </p>
-            <p className="text-[14px] font-[500] text-[#272626] text-center">
-              February 5, 2025
             </p>
           </div>
           <div
@@ -638,9 +638,11 @@ const DashboardPopup = ({ onClose }) => {
           
          <div
             className="w-[100%] flex items-center space-x-3 justify-between"
+         >
+          <button
+            className="text-white bg-[#E5AE00] flex items-center justify-center px-[10px] hover:text-black hover:bg-transparent  text-[7.886px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%]  h-[31px]"
+            onClick={copyReferralLink}
           >
-             <button
-          className="text-white bg-[#E5AE00] flex items-center justify-center px-[10px] hover:text-black hover:bg-transparent  text-[7.886px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%]  h-[31px]">
             Copy 10% Referral Link <img src={copy} className="ml-1" alt="" />
           </button>
           <button
