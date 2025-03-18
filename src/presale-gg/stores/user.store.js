@@ -46,6 +46,9 @@ document.addEventListener("wagmi-loaded", async () => {
       const address = account.address;
       if (!address) return $userState.set({ ...defaultUserState });
       api.getUser(address).then((res) => $userState.setKey("user", res.data));
+      // api
+      //   .getUserRanks(address)
+      //   .then((res) => $userState.setKey("rankData", res.data));
     },
   });
 });
@@ -70,7 +73,7 @@ export const getUserToken = async (options) => {
     message: messageRes.data.message,
   });
   let signedMessage;
-  if (options.noToast) {
+  if (options?.noToast) {
     signedMessage = await promise;
   } else {
     signedMessage = await toast

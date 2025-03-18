@@ -1,12 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo } from "react";
 import info from "../assets/wallet/i.svg";
-import arw from "../assets/navbar/arw.svg";
-import wltcoin1 from "../assets/wallet/wltcoin (6).png";
-import wltcoin2 from "../assets/wallet/wltcoin (5).svg";
-import wltcoin3 from "../assets/wallet/wltcoin (4).svg";
-import wltcoin4 from "../assets/wallet/wltcoin (3).svg";
-import wltcoin5 from "../assets/wallet/wltcoin (2).svg";
-import wltcoin6 from "../assets/wallet/wltcoin (1).svg";
 import bfxicn from "../assets/wallet/bfx.webp";
 import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
 import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
@@ -16,19 +9,31 @@ import iconapon from "../assets/HowToBuySec/ei_arrow-up.svg";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
 import swpicon from "../assets/wallet/swp.svg";
 import cer from "../assets/wallet/cer.svg";
-import CardList from "../compunents/ui/CardList";
+import clsx from "clsx";
+import { useApiState } from "../presale-gg/stores/api.store";
+import {
+  buyWithCard,
+  buyWithCrypto,
+  formatDollar,
+  formatNumber,
+  groupTokens,
+  parseNum,
+  roundToDP,
+} from "../presale-gg/util";
+import { tokenImageMap } from "../presale-gg/assets/img/tokens";
 
-const coins = [
-  { name: "ETH", icon: wltcoin1 },
-  { name: "BNB", icon: wltcoin4 },
-  { name: "USDT", icon: wltcoin5 },
-];
-const Dropcoins = [
-  { name: "USDT", sub: "ERC-20", icon: wltcoin5 },
-  { name: "USDT", sub: "BEP-20", icon: wltcoin5 },
-  { name: "ETH", sub: "ERC-20", icon: wltcoin1 },
-  { name: "BNB", sub: "ERC-20", icon: wltcoin4 },
-];
+import { LISTING_PRICE } from "../presale-gg/constants";
+import TokenSelectDropdown from "../compunents/ui/TokenSelectDropdown";
+import { useAccount, useDebounce } from "../presale-gg/web3";
+import toast from "react-hot-toast";
+import { TransactionModal } from "../compunents/ui/modals/TransactionModal";
+import { BonusCodeInput, ReferralCodeInput } from "../compunents/ui/CodeInput";
+import DisclaimerModal from "../compunents/ui/modals/DisclaimerModal";
+import Modal from "../compunents/ui/modals/Modal";
+
+/**
+ * @typedef {import("../presale-gg/api/api.types").API.PaymentToken} PaymentToken
+ */
 
 const items = [
   {
@@ -58,49 +63,22 @@ const items = [
 ];
 
 function WalletSec() {
-  const [activeIndex, setActiveIndex] = useState(null);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(0);
-  const [showPopup, setShowPopup] = useState(false);
-  const [activeIndexbuy, setActiveIndexbuy] = useState(0);
-  const [selectedCoin, setSelectedCoin] = useState(Dropcoins[0]);
-  const [popupVisible, setPopupVisible] = useState(false);
-  const dropdownRef = useRef(null);
-  const popupRef = useRef(null);
+  const apiData = useApiState();
 
-  const handleToggle = (index) => {
-    setActiveIndexbuy(index === activeIndexbuy ? -1 : index);
-  };
+  const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(null);
+  /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
+  const [selectedToken, setSelectedToken] = useState(null);
 
-  const handleSelectCoin = (coin, index) => {
-    setSelectedCoin(coin);
-    setSelectedIndex(index);
-    setDropdownOpen(false);
-  };
-
-  const handleCoinClick = (index) => {
-    setActiveIndex(index);
-    setSelectedIndex(index);
-    if (index === 2) {
-      setPopupVisible(true);
-    } else {
-      setPopupVisible(false);
-      if (index === 0) {
-        setSelectedCoin(Dropcoins[2]);
-      } else if (index === 1) {
-        setSelectedCoin(Dropcoins[3]);
-      }
-    }
-  };
-
-  const handlePopupSelection = (option) => {
-    if (option === "USDT ERC-20") {
-      setSelectedCoin(Dropcoins[0]);
-    } else if (option === "USDT BEP-20") {
-      setSelectedCoin(Dropcoins[1]);
-    }
-    setPopupVisible(false);
-  };
+  useEffect(() => {
+    if (selectedToken || !apiData.paymentTokens?.length) return;
+    setSelectedToken(
+      apiData.paymentTokens.find(
+        (token) =>
+          token.symbol.toUpperCase() === "ETH" &&
+          token.chain.toUpperCase() === "ERC-20",
+      ) ?? apiData.paymentTokens[0],
+    );
+  }, [apiData.paymentTokens]);
 
   const handleScroll = (event, targetId, offset) => {
     event.preventDefault();
@@ -117,29 +95,108 @@ function WalletSec() {
       });
     }
   };
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setDropdownOpen(false);
+
+  const stageFrac =
+    (apiData.stage?.cumulative_usd_raised ?? 0) /
+    (apiData.stage?.next_stage_target_usd ?? 1);
+
+  const groupedTokens = useMemo(
+    () => (apiData.paymentTokens ? groupTokens(apiData.paymentTokens) : []),
+    [apiData.paymentTokens],
+  );
+
+  const partialNumRegexp = /^(\d*|(\d+\.?\d*))$/;
+  const [paymentTokenNumStr, setPaymentTokenNumStr] = useState("0");
+  const [receiveTokenNumStr, setReceiveTokenNumStr] = useState("0");
+
+  const [transactionLoading, setTransactionLoading] = useState(false);
+  const [createdTransaction, setCreatedTransaction] = useState(null);
+  const [transactionModalOpen, setTransactionModalOpen] = useState(false);
+
+  const [ disclaimerModalOpen, setDisclaimerModalOpen ] = useState(false)
+  const [ successModalOpen, setSuccessModalOpen ] = useState(false)
+  const [ erroredModalOpen, setErroredModalOpen ] = useState(false)
+  const [ pendingModalOpen, setPendingModalOpen ] = useState(false)
+  const [ successBoughtModalOpen, setSuccessBoughtModalOpen ] = useState(false)
+  const [ successBoughtTokens, setSuccessBoughtTokens ] = useState(0)
+
+  const accountData = useAccount();
+  const buy = async () => {
+    const account = accountData.address;
+    if (!account) return toast.error("You must connect your wallet first");
+    if (transactionLoading) return;
+    setTransactionLoading(true);
+    if (!selectedToken) return;
+    try {
+      if (selectedToken.symbol.toLowerCase() === "card") {
+        setDisclaimerModalOpen(true)
+      } else {
+        const res = await buyWithCrypto({
+          paymentToken: selectedToken,
+          paymentTokenNum: parseNum(paymentTokenNumStr),
+          walletAddress: account,
+        });
+        if (res.type === "created") {
+          setCreatedTransaction(res.transaction);
+          setTimeout(() => setTransactionModalOpen(true), 30);
+        }
       }
-    }
+    } catch (err) {}
+    setTransactionLoading(false);
+  };
 
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  const buyCard = async () => {
+    setTransactionLoading(true)
+    try {
+      const account = accountData.address;
+      if (!account) return toast.error("You must connect your wallet first");
+      await buyWithCard({
+        usd: parseNum(paymentTokenNumStr),
+        walletAddress: account,
+        onClosedEarly: () => setPendingModalOpen(true),
+        onError: () => setErroredModalOpen(true),
+        onSuccess: (tokens) => {
+          if (tokens !== undefined) {
+            setSuccessBoughtModalOpen(true)
+            setSuccessBoughtTokens(tokens)
+          } else {
+            setSuccessModalOpen(true)
+          }
+        }
+      });
+    } catch (err) {}
+    setTransactionLoading(false)
+  }
 
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (popupRef.current && !popupRef.current.contains(event.target)) {
-        setPopupVisible(false);
-      }
+  const [ codeInputVisible, setCodeInputVisible ] = useState(null)
+  const [ defaultReferralCode, setDefaultReferralCode ] = useState(undefined)
+  const [ defaultBonusCode, setDefaultBonusCode ] = useState(undefined)
+  const [codesContainerRef, setCodesContainerRef] = useState(null)
+  const handledCodesRef = useRef(false)
+  
+  const handleCodes = useDebounce(() => {
+    if (handledCodesRef.current) return true
+    const params = new URL(window.location.href).searchParams
+    const bonusCode = params.get("bonus_code")
+    if (bonusCode) {
+      setDefaultBonusCode(bonusCode)
+      setCodeInputVisible("bonus")
     }
+    const referralCode = params.get("referral_code")
+    if (referralCode) {
+      setDefaultReferralCode(referralCode)
+      setCodeInputVisible("referral")
+    }
+    const codesContainer = codesContainerRef
+    if (!codesContainer) return
+    if (referralCode || bonusCode) {
+      handledCodesRef.current = true
+      codesContainer.scrollIntoView({block: "center", behavior: "smooth"})
+    }
+  }, 200, [codesContainerRef])
 
-    if (popupVisible) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [popupVisible]);
+  useEffect(() => handleCodes, [handleCodes])
+  
 
   return (
     <div className="pt-[42px] pb-[35px] " id="how-to-buy">
@@ -148,13 +205,9 @@ function WalletSec() {
         id="Wallet"
       >
         <div className="flex justify-center space-x-3 items-center">
-          <h3 className="text-[30px] font-[700] tracking-[-1px]">
-            BFX Presale
-          </h3>
+          <h3 className="text-[30px] font-[700] tracking-[-1px]">BFX Presale</h3>
           <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
-            <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
-              .
-            </span>
+            <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">.</span>
             Live
           </div>
         </div>
@@ -164,50 +217,58 @@ function WalletSec() {
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h4 className="text-center text-[#444] text-[12px] font-[700]">
-            Price Increases In
-          </h4>
-          <div className="flex justify-center space-x-[22px]">
-            <div className=" space-y-[2px]">
-              <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
-                00
-              </p>
-              <p className="text-center text-[#444] text-[7.9px] font-[700]">
-                DAYS
-              </p>
-            </div>
-            <div className=" space-y-[2px]">
-              <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
-                20
-              </p>
-              <p className="text-center text-[#444] text-[7.9px] font-[700]">
-                HOURS
-              </p>
-            </div>
-            <div className=" space-y-[2px]">
-              <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
-                37
-              </p>
-              <p className="text-center text-[#444] text-[7.9px] font-[700]">
-                MINS
-              </p>
-            </div>
-            <div className=" space-y-[2px]">
-              <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
-                38
-              </p>
-              <p className="text-center text-[#444] text-[7.9px] font-[700]">
-                SECS
-              </p>
-            </div>
-          </div>
+          {apiData.presaleEnded ? (
+            <h4 className="text-center text-[#444] text-[24px] font-[700]">
+              Presale Ended
+            </h4>
+          ) : (
+            <>
+              <h4 className="text-center text-[#444] text-[12px] font-[700]">
+                Price Increases In
+              </h4>
+              <div className="flex justify-center space-x-[22px]">
+                <div className=" space-y-[2px]">
+                  <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
+                    00
+                  </p>
+                  <p className="text-center text-[#444] text-[7.9px] font-[700]">
+                    DAYS
+                  </p>
+                </div>
+                <div className=" space-y-[2px]">
+                  <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
+                    20
+                  </p>
+                  <p className="text-center text-[#444] text-[7.9px] font-[700]">
+                    HOURS
+                  </p>
+                </div>
+                <div className=" space-y-[2px]">
+                  <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
+                    37
+                  </p>
+                  <p className="text-center text-[#444] text-[7.9px] font-[700]">
+                    MINS
+                  </p>
+                </div>
+                <div className=" space-y-[2px]">
+                  <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
+                    38
+                  </p>
+                  <p className="text-center text-[#444] text-[7.9px] font-[700]">
+                    SECS
+                  </p>
+                </div>
+              </div>
+            </>
+          )}
         </div>
         <div className="flex justify-between space-x-[2rem]">
           <div
             style={{
               background: "rgba(247, 247, 247, 0.70)",
             }}
-            className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[33px] pt-[22px] pb-[11px] max-h-[554.944px] border border-[#B0B0B0] w-[100%] mx-auto "
+            className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[33px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
           >
             <div className="w-[100%] absolute top-[-2%] left-0">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#f9f9f9]">
@@ -223,26 +284,34 @@ function WalletSec() {
               }}
             >
               <h3 className="text-center text-[21.64px] leading-[100%] font-[700]">
-                $768,992.47
+                {formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
               </h3>
               <div className="pt-3">
                 <div className="flex justify-between items-center pb-1">
                   <span className="text-[#444] text-[9.74px] font-[400] leading-[100%]">
-                    78.92% of softcap raised
+                    {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
                   </span>
                   <img src={info} className="w-[6.912px] h-[6.912px]" alt="" />
                 </div>
                 <div className="bg-[#E5E7EB] w-[100%] h-[4.938px] rounded-[20px]">
-                  <div className="bg-[#E5AE00] w-[75%] h-[4.938px] rounded-[20px]"></div>
+                  <div
+                    className="bg-[#E5AE00] h-[4.938px] rounded-[20px]"
+                    style={{ width: `${stageFrac * 100}%` }}
+                  />
                 </div>
                 <div>
                   <p className="text-[#444] text-end text-[9.74px] font-[400] leading-[150%]">
-                    $800,000
+                    {formatDollar(
+                      apiData.stage?.next_stage_target_usd,
+                      true,
+                      0,
+                      0,
+                    )}
                   </p>
                 </div>
               </div>
               <h5 className="text-[#444] text-[9.74px] text-center font-[400] leading-[100%]">
-                1259 Transactions
+                {formatNumber(apiData.info?.transactions, 0, 0)} Transactions
               </h5>
             </div>
             <div
@@ -252,162 +321,109 @@ function WalletSec() {
               }}
             >
               <h4 className="text-center text-[#636363] text-[9.875px] leading-[75%] font-[700]">
-                Listing Price: 1 $BFX = $0.01
+                Listing Price: 1 $BFX = ${formatNumber(LISTING_PRICE)}
               </h4>
             </div>
-            <div className="flex justify-center space-x-[12px]">
-              {coins.map((coin, index) => (
-                <div
-                  key={index}
-                  onClick={() => handleCoinClick(index)}
-                  style={{
-                    background:
-                      activeIndex === index
-                        ? "rgba(176, 176, 176, 0.7)"
-                        : "rgba(176, 176, 176, 0.17)",
-                  }}
-                  className="flex justify-center items-center px-[30px] py-[5px] space-x-1 cursor-pointer transition-all"
-                >
-                  <img
-                    className="w-[15.813px] h-[15.813px] object-cover"
-                    src={coin.icon}
-                    alt={coin.name}
-                  />
-                  <span className="text-[#545454] text-[11.688px] font-[700]">
-                    {coin.name}
-                  </span>
-                </div>
+            <div>
+              <TokenSelectDropdown
+                tokenList={{
+                  currencies: apiData.paymentTokens?.filter((token) => token.symbol.toLowerCase() === "card").map((token) => ({...token, chain: ""})) ?? [],
+                  defaultLabel: "Card",
+                  placeholder: "Card",
+                  defaultToken: {
+                    chain: "",
+                    id: 0,
+                    name: "Card",
+                    symbol: "Card",
+                    nowpayments_id: null,
+                    nowpayments_minimum: null,
+                    price: 1
+                  }
+                }}
+                onChange={(token) => setSelectedToken(token)}
+                selectedTokenId={selectedToken?.id}
+              />
+            </div>
+            <div className="grid grid-cols-3 justify-center gap-[8px] flex-wrap">
+              {groupedTokens.map((tokenGroup, i) => (
+                <TokenSelectDropdown
+                  key={i}
+                  tokenList={tokenGroup}
+                  onChange={(newToken) => setSelectedToken(newToken)}
+                  selectedTokenId={selectedToken?.id ?? null}
+                />
               ))}
             </div>
-            {popupVisible && (
-              <div className="fixed inset-0 flex items-center -top-10 justify-center bg-black bg-opacity-50 z-[999]">
-                <div className="bg-white p-5 rounded-md shadow-lg min-w-[300px]"
-                ref={popupRef}
-                >
-                  <div
-                    className="h-[26px] w-[26px] mt-[-15px] tracking-[-1px] ml-[-15px] flex justify-center items-center rounded-full bg-gray-100 cursor-pointer"
-                    onClick={() => setPopupVisible(false)}
-                  >
-                    <h2 className="text-[16px] text-[#000] leading-[0px]">x</h2>
-                  </div>
-                  <h2 className="text-lg text-center font-semibold mb-2">
-                    Switch Network for USDT
-                  </h2>
-                  <div className="space-y-2">
-                    <button
-                      className={`flex items-center w-full p-2 text-[14px] rounded-md ${
-                        selectedCoin.name === "USDT" &&
-                        selectedCoin.sub === "ERC-20"
-                          ? "bg-[#E5AE00] text-white"
-                          : "bg-transparent"
-                      }`}
-                      onClick={() => handlePopupSelection("USDT ERC-20")}
-                    >
-                      <img src={wltcoin5} className="mr-2" alt="" />
-                      USDT ERC-20
-                      {selectedCoin.name === "USDT" &&
-                        selectedCoin.sub === "ERC-20" && (
-                          <span className="text-[#fff] pl-7 mt-[-10px]">
-                            connected{" "}
-                            <span className="text-[50px] leading-[10px] text-green-500">
-                              .
-                            </span>
-                          </span>
-                        )}
-                    </button>
-
-                    <button
-                      className={`flex items-center w-full p-2 text-[14px] rounded-md ${
-                        selectedCoin.name === "USDT" &&
-                        selectedCoin.sub === "BEP-20"
-                          ? "bg-[#E5AE00] text-white"
-                          : "bg-transparent"
-                      }`}
-                      onClick={() => handlePopupSelection("USDT BEP-20")}
-                    >
-                      <img src={wltcoin5} className="mr-2" alt="" />
-                      USDT BEP-20
-                      {selectedCoin.name === "USDT" &&
-                        selectedCoin.sub === "BEP-20" && (
-                          <span className="text-[#fff] pl-7 mt-[-10px]">
-                            connected{" "}
-                            <span className="text-[50px] leading-[10px] text-green-500">
-                              .
-                            </span>
-                          </span>
-                        )}
-                    </button>
-                  </div>
-                </div>
-              </div>
-            )}
             <div className="flex justify-center items-center py-[0px] space-x-[15px]">
               <hr className="h-[1px] w-[33%]" />
               <span className="text-[#636363] text-end text-[9.618px] font-[700] leading-[75%]">
-                1 $BFX = $0.0021
+                1 $BFX = ${formatNumber(parseNum(apiData.stage?.token_price))}
               </span>
               <hr className="h-[1px] w-[33%]" />
             </div>
             <div className="">
               <label className="text-[#2F2F2F] text-[8.888px] font-[700] leading-[8.888px]">
-                You Pay in USDT:
+                You Pay in {selectedToken?.symbol.toUpperCase()}:
               </label>
               <div className="border h-[30.612px] border-[#454545] p-1 flex justify-between items-center">
                 <div className="w-[80%] flex items-center space-x-2">
                   <input
                     type="text"
-                    className="h-[17.281px] w-[100%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000]"
-                    placeholder="1000"
+                    className="h-[17.281px] w-[100%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
+                    placeholder="0"
+                    value={paymentTokenNumStr}
+                    onFocus={(e) => {
+                      if (paymentTokenNumStr === "0") setPaymentTokenNumStr("");
+                    }}
+                    onBlur={(e) => {
+                      if (paymentTokenNumStr === "") setPaymentTokenNumStr("0");
+                    }}
+                    onChange={(e) => {
+                      let val = e.target.value;
+                      if (!partialNumRegexp.test(val)) {
+                        val = paymentTokenNumStr;
+                      }
+                      if (parseNum(val) > 999999999) {
+                        val = "999999999";
+                      }
+                      setPaymentTokenNumStr(val);
+                      e.target.value = val;
+                      const numVal = parseNum(val);
+                      const receiveNum = roundToDP(
+                        (numVal * parseNum(selectedToken?.price)) /
+                          parseNum(apiData.stage?.token_price),
+                        4,
+                      );
+                      setReceiveTokenNumStr(receiveNum);
+                    }}
                   />
                 </div>
-                <div
-                  ref={dropdownRef}
-                  className="relative border px-[4px] w-[74px]"
-                >
-                  <div
-                    className="justify-start flex h-[24px] items-center space-x-[3px] cursor-pointer"
-                    onClick={() => setDropdownOpen(!dropdownOpen)}
-                  >
-                    <img
-                      className="w-[15.813px] h-[15.813px] object-cover"
-                      src={selectedCoin.icon}
-                      alt=""
-                    />
-                    <span className="text-[#545454] !overflow-hidden !text-clip text-[8.888px] font-[700]">
-                      {selectedCoin.name}
-                    </span>
-                    <img
-                      src={arw}
-                      alt="Dropdown Arrow"
-                      className={`transform h-[11.85px] transition-transform ${
-                        dropdownOpen ? "rotate-180" : ""
-                      }`}
-                    />
-                  </div>
-
-                  {dropdownOpen && (
-                    <div className="absolute top-[32px] space-y-[5px] p-2 left-0 bg-white rounded-md shadow-lg z-10">
-                      {Dropcoins.map((coin, index) => (
-                        <div
-                          key={index}
-                          className="flex justify-start items-center space-x-2 px-2 py-1 w-[110px] cursor-pointer hover:bg-gray-100"
-                          onClick={() => handleSelectCoin(coin, index)}
-                        >
-                          <img
-                            className="w-[15.813px] h-[15.813px] object-cover"
-                            src={coin.icon}
-                            alt="coin"
-                          />
-                          <h4 className="text-[9px] font-[700] text-[#545454]">
-                            {coin.name}
-                          </h4>
-                          <p className="text-[9px] text-[#545454]">
-                            {coin.sub}
-                          </p>
+                <div className="relative border px-[4px] w-[74px]">
+                  <div className="justify-start flex h-[24px] items-center space-x-[3px] cursor-pointer">
+                    {selectedToken && (
+                      <>
+                        <img
+                          className="w-[15.813px] h-[15.813px] object-cover"
+                          src={
+                            tokenImageMap[selectedToken.symbol.toLowerCase()]
+                          }
+                          alt=""
+                        />
+                        <div className="flex flex-col">
+                          <span className="text-[#545454] !overflow-hidden !text-clip text-[8.888px] font-[700]">
+                            {selectedToken.symbol.toUpperCase()}
+                          </span>
+                          <span
+                            className={clsx(
+                              "text-[#777] text-[6.688px] font-[900] leading-[1] whitespace-nowrap transition-colors",
+                            )}
+                          >
+                            {selectedToken.chain.toUpperCase()}
+                          </span>
                         </div>
-                      ))}
-                    </div>
-                  )}
+                      </>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
@@ -426,8 +442,33 @@ function WalletSec() {
                 <div className="w-[80%] flex items-center h-[17.281px] space-x-2">
                   <input
                     type="text"
-                    className="h-[17.281px] w-[80%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000]"
-                    placeholder="26039.75"
+                    className="h-[17.281px] w-[80%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
+                    placeholder="0"
+                    value={receiveTokenNumStr}
+                    onFocus={(e) => {
+                      if (receiveTokenNumStr === "0") setReceiveTokenNumStr("");
+                    }}
+                    onBlur={(e) => {
+                      if (receiveTokenNumStr === "") setReceiveTokenNumStr("0");
+                    }}
+                    onChange={(e) => {
+                      let val = e.target.value;
+                      if (!partialNumRegexp.test(val)) {
+                        val = receiveTokenNumStr;
+                      }
+                      if (parseNum(val) > 99999999999) {
+                        val = "99999999999";
+                      }
+                      setReceiveTokenNumStr(val);
+                      e.target.value = val;
+                      const numVal = parseNum(val);
+                      const paymentNum = roundToDP(
+                        (numVal * parseNum(apiData.stage?.token_price)) /
+                          parseNum(selectedToken?.price),
+                        6,
+                      );
+                      setPaymentTokenNumStr(paymentNum.toString());
+                    }}
                   />
                 </div>
                 <div className="relative w-[74px] border px-[4px] ">
@@ -446,17 +487,17 @@ function WalletSec() {
             </div>
             <div>
               <button
-                onClick={() => setShowPopup(true)}
+                onClick={buy}
                 className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
               >
-                Buy Now
+                {transactionLoading ? "Loading..." : "Buy Now"}
               </button>
-              {showPopup && (
+              {/* {showPopup && (
                 <CardList
                   selectedCoin={selectedCoin}
                   onClose={() => setShowPopup(false)}
                 />
-              )}
+              )} */}
             </div>
             <div
               className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
@@ -471,20 +512,22 @@ function WalletSec() {
                 Buy $1,500 more to unlock 20% bonus
               </h4>
             </div>
-            <div className="flex justify-center items-center space-x-[24px]">
-              <p className="text-[8.888px] font-[700] underline cursor-pointer">
+            <div className="flex justify-center items-center space-x-[24px]" ref={(el) => setCodesContainerRef(el)}>
+              <button className="text-[8.888px] font-[700] underline cursor-pointer" onClick={() => setCodeInputVisible((code) => code === "bonus" ? null : "bonus")}>
                 Bonus Code
-              </p>
-              <p className="text-[8.888px] font-[700] underline cursor-pointer">
-                5% Referral Link
-              </p>
+              </button>
+              <button className="text-[8.888px] font-[700] underline cursor-pointer" onClick={() => setCodeInputVisible((code) => code === "referral" ? null : "referral")}>
+                Referral Code
+              </button>
             </div>
+            {codeInputVisible === "bonus" && <BonusCodeInput defaultValue={defaultBonusCode} />}
+            {codeInputVisible === "referral" && <ReferralCodeInput defaultValue={defaultReferralCode} />}
           </div>
           <div
             style={{
               background: "rgba(247, 247, 247, 0.70)",
             }}
-            className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[10px] pt-[22px] pb-[11px] max-h-[554.944px] border border-[#B0B0B0] w-[100%] mx-auto "
+            className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[10px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
           >
             <div className="w-[100%] absolute top-[-2%] left-0">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#f9f9f9]">
@@ -501,14 +544,14 @@ function WalletSec() {
                 >
                   <div
                     className="flex justify-between items-center cursor-pointer"
-                    onClick={() => handleToggle(index)}
+                    onClick={() => setSelectedHowToBuyStep(index)}
                   >
                     <div className="flex w-[100%]  justify-between items-center space-x-4 space-y-[15px]">
                       <div className=" w-[100%] flex flex-col justify-center">
                         <div className="flex justify-between items-center">
                           <h3
                             className={`text-[14px] capitalize font-[600] ${
-                              index === activeIndexbuy
+                              index === selectedHowToBuyStep
                                 ? "text-[#E5AE00]"
                                 : "text-[#181A20] "
                             }`}
@@ -518,10 +561,14 @@ function WalletSec() {
                           <div>
                             <img
                               src={
-                                index === activeIndexbuy ? iconcls : iconapon
+                                index === selectedHowToBuyStep
+                                  ? iconcls
+                                  : iconapon
                               }
                               alt={
-                                index === activeIndexbuy ? "Collapse" : "Expand"
+                                index === selectedHowToBuyStep
+                                  ? "Collapse"
+                                  : "Expand"
                               }
                               className="w-[24px] h-[24px]"
                             />
@@ -529,7 +576,7 @@ function WalletSec() {
                         </div>
                         <div
                           className={` transition-all duration-300 desc  ${
-                            index === activeIndexbuy
+                            index === selectedHowToBuyStep
                               ? "max-h-[200px] opacity-100 mt-[8px]  text-[11.688px] font-[400] text-[#000] overflow-hidden block"
                               : "max-h-0 hidden opacity-0 text-[11.688px]"
                           }`}
@@ -649,6 +696,65 @@ function WalletSec() {
           </div>
         </div>
       </div>
+      {createdTransaction && (
+        <TransactionModal
+          transaction={createdTransaction}
+          open={transactionModalOpen}
+          onClose={() => setTransactionModalOpen(false)}
+        />
+      )}
+      <DisclaimerModal
+        open={disclaimerModalOpen}
+        onClose={() => setDisclaimerModalOpen(false)}
+        onContinue={() => {
+          buyCard()
+          setDisclaimerModalOpen(false)
+        }}
+      />
+      <Modal
+        title="Transaction Successful"
+        open={successModalOpen}
+        onClose={() => setSuccessModalOpen(false)}
+        className="max-w-[18rem]"
+      >
+        <p className="leading-[1.4] text-[14px]">
+          The transaction was successful. Please wait a minute and refresh the transactions tab to see
+          your tokens.
+        </p>
+      </Modal>
+      <Modal
+        title="Transaction Successful"
+        open={successBoughtModalOpen}
+        onClose={() => setSuccessBoughtModalOpen(false)}
+        className="max-w-[18rem]"
+      >
+        <p className="leading-[1.4] text-[14px]">
+          The transaction was successful. You bought{' '}
+          <span className="font-bold">{formatNumber(successBoughtTokens, 0, 4)} BFX</span>. Check
+          your transaction tab for more details
+        </p>
+      </Modal>
+      <Modal
+        title="Transaction Errored"
+        open={erroredModalOpen}
+        onClose={() => setErroredModalOpen(false)}
+        className="max-w-[18rem]"
+      >
+        <p className="leading-[1.4] text-[14px]">
+          The transaction was not successful. Please try again.
+        </p>
+      </Modal>
+      <Modal
+        title="Transaction Pending"
+        open={pendingModalOpen}
+        onClose={() => setPendingModalOpen(false)}
+        className="max-w-[18rem]"
+      >
+        <p className="leading-[1.4] text-[14px]">
+          The transaction is pending. Please wait a minute and refresh the transactions tab to see your
+          tokens.
+        </p>
+      </Modal>
     </div>
   );
 }

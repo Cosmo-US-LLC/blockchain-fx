@@ -25,6 +25,9 @@ import cer from "../../assets/wallet/cer.svg";
 import { Bounce } from "react-toastify";
 import { useAccount } from "../../presale-gg/web3/hooks";
 import { useUserState } from "../../presale-gg/stores/user.store";
+import { formatDollar, formatNumber, parseNum } from "../../presale-gg/util";
+import { LISTING_PRICE } from "../../presale-gg/constants";
+import { useApiState } from "../../presale-gg/stores/api.store";
 
 
 const cards = [
@@ -68,6 +71,7 @@ const cards = [
 const DashboardPopup = ({ onClose }) => {
     const accountData = useAccount()
     const userData = useUserState()
+    const apiData = useApiState()
     const [value, setValue] = useState(50);
     const modalRef = useRef(null);
     const mobileModalRef = useRef(null);
@@ -90,6 +94,8 @@ const DashboardPopup = ({ onClose }) => {
           document.removeEventListener("mousedown", handleClickOutside);
         };
       }, [onClose]);
+
+  // TODO: Figure out what Bonus BFX, BFX Rewards, USDT Rewards and Trading Account Credits are supposed to be
 
   return (
    <div className="fixed flex items-center inset-0 bg-black bg-opacity-50 h-[100vh] !z-[999]">
@@ -129,17 +135,17 @@ const DashboardPopup = ({ onClose }) => {
               Total Portfolio on BFX Launch
             </h4>
             <h3 className="text-center text-[#FA0] text-[30px] leading-[100%] font-[700]">
-              $5,233.32
+              {formatDollar(parseNum(userData.user?.total_tokens) * LISTING_PRICE)}
             </h3>
             <p className="text-center text-[#02953B] text-[14px]">
-              +$1785{" "}
+              +{formatDollar(parseNum(userData.user?.total_tokens) * (LISTING_PRICE - parseNum(apiData.stage?.token_price)))}{" "}
               <span
                 className="p-[2px] rounded-[1px]"
                 style={{
                   background: "rgba(124, 241, 177, 0.42)",
                 }}
               >
-                +%289
+                +%{formatNumber((LISTING_PRICE / parseNum(apiData.stage?.token_price) - 1) * 100, 0, 2)}
               </span>
             </p>
             <p className="text-[14px] font-[500] text-[#272626] text-center">
@@ -153,7 +159,7 @@ const DashboardPopup = ({ onClose }) => {
             }}
           >
             <p className="text-[14px] font-[700] text-[#636363] text-center">
-              BFX Listing Price = $0.01
+              BFX Listing Price = {formatDollar(LISTING_PRICE)}
             </p>
           </div>
          <div className="flex justify-between space-x-[10px]">
@@ -172,7 +178,7 @@ const DashboardPopup = ({ onClose }) => {
               </p>
             </div>
             <p className="text-[14px] text-[#272626] font-[700] text-center">
-              12,254.35{" "}
+              {formatNumber(parseNum(userData.user?.total_tokens))}
             </p>
           </div>
           <div
@@ -398,8 +404,8 @@ const DashboardPopup = ({ onClose }) => {
             <h2 className="text-[14px] text-[#444] font-[600] text-center">
               Wallet Address
             </h2>
-            <p className="text-[14px] font-[500] text-[#636363] text-center">
-              0x7bb9Ed8Df7656b...870840d214e!
+            <p className="text-[14px] font-[500] text-[#636363] text-center break-words">
+              {accountData.address}
             </p>
           </div>
           <div className="border bg-[FFFBF2] bg-[#FFFBF2] border-[#E3E3E3] space-y-[7px] p-[7px]">
@@ -408,17 +414,17 @@ const DashboardPopup = ({ onClose }) => {
               Total Portfolio on BFX Launch
             </h4>
             <h3 className="text-center text-[#FA0] text-[30px] leading-[100%] font-[700]">
-              $5,233.32
+              {formatDollar(parseNum(userData.user?.total_tokens) * LISTING_PRICE)}
             </h3>
             <p className="text-center text-[#02953B] text-[14px]">
-              +$1785{" "}
+            +{formatDollar(parseNum(userData.user?.total_tokens) * (LISTING_PRICE - parseNum(apiData.stage?.token_price)))}{" "}
               <span
                 className="p-[2px] rounded-[1px]"
                 style={{
                   background: "rgba(124, 241, 177, 0.42)",
                 }}
               >
-                +%289
+                +%{formatNumber((LISTING_PRICE / parseNum(apiData.stage?.token_price) - 1) * 100, 0, 2)}
               </span>
             </p>
             <p className="text-[14px] font-[500] text-[#272626] text-center">
@@ -432,7 +438,7 @@ const DashboardPopup = ({ onClose }) => {
             }}
           >
             <p className="text-[14px] font-[700] text-[#636363] text-center">
-              BFX Listing Price = $0.01
+              BFX Listing Price = {formatDollar(LISTING_PRICE)}
             </p>
           </div>
          <div className="block justify-between space-y-[10px]">

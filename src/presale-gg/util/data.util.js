@@ -2,10 +2,13 @@
  * @typedef {import("../../presale-gg/api/api.types").API.PaymentToken} PaymentToken
  */
 
+import toast from "react-hot-toast";
+
 /**
  * @typedef {object} PaymentTokenList
  * @property {PaymentToken[]} PaymentTokenList.currencies
  * @property {PaymentToken} [PaymentTokenList.defaultToken]
+ * @property {string} [PaymentTokenList.defaultLabel]
  * @property {string} [PaymentTokenList.placeholder]
  * @property {string} [PaymentTokenList.network]
  */
@@ -18,28 +21,29 @@ export const groupTokens = (tokens) => {
   let grouped = {
     "ERC-20": {
       tokens: [],
+      defaultLabel: "ETH Tokens",
       defaultTokenSymbol: "ETH",
-      network: "Ethereum",
+      order: ["ETH", "USDT", "USDC", "PEPE", "SHIB"],
     },
     "BEP-20": {
       tokens: [],
+      defaultLabel: "BSC Tokens",
       defaultTokenSymbol: "BNB",
-      network: "BNB",
     },
     "TRC-20": {
       tokens: [],
+      defaultLabel: "TRC Tokens",
       defaultTokenSymbol: "TRX",
-      network: "TRON",
     },
     BITCOIN: {
       tokens: [],
+      defaultLabel: "BTC",
       defaultTokenSymbol: "BTC",
-      network: "Bitcoin",
     },
-    "TON CHAIN": {
+    SOLANA: {
       tokens: [],
-      defaultTokenSymbol: "TON",
-      network: "TON",
+      defaultLabel: "SOLANA Tokens",
+      defaultTokenSymbol: "SOL",
     },
     MORE: {
       tokens: [],
@@ -47,6 +51,7 @@ export const groupTokens = (tokens) => {
   };
 
   tokens.forEach((token) => {
+    if (token.symbol.toLowerCase() === "card") return;
     if (grouped[token.chain.toUpperCase()])
       grouped[token.chain.toUpperCase()].tokens.push(token);
     else grouped["MORE"].tokens.push(token);
@@ -66,6 +71,7 @@ export const groupTokens = (tokens) => {
       defaultToken: value.tokens.find(
         (token) => token.symbol.toUpperCase() === value.defaultTokenSymbol
       ),
+      defaultLabel: value.defaultLabel,
       network: value.network,
     };
   });
@@ -123,4 +129,15 @@ export const getIsMobile = () => {
   )
     return true;
   return false;
+};
+
+export const copyText = (text) => {
+  try {
+    navigator.clipboard.writeText(text);
+    console.log("COPIED TEXT", text);
+    toast("Copied text");
+  } catch (err) {
+    console.log("ERROR COPYING TEXT", text);
+    toast("Error copying text, copy manually");
+  }
 };

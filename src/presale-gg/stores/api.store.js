@@ -64,18 +64,16 @@ export const setApiInfo = (info) => {
   $apiState.setKey("info", info);
 };
 
-document.addEventListener("DOMContentLoaded", () => {
-  api
-    .getActiveStage()
-    .then((res) => {
-      if (res.data === null) return setPresaleEnded(true);
-      setStage(res.data);
-    })
-    .catch(() => {});
-  api.getPrices().then((res) => setPaymentTokens(res.data));
-  api
-    .getLeaderboard()
-    .then((res) => setLeaderboard(res.data))
-    .catch(() => {});
-  api.getProjectInfo().then((res) => setApiInfo(res.data));
-});
+api
+  .getActiveStage()
+  .then((res) => {
+    if (res.data === null) return setPresaleEnded(true);
+    setStage(res.data);
+  })
+  .catch(() => {});
+api.getPrices().then((res) => setPaymentTokens(res.data));
+api
+  .getLeaderboard()
+  .then((res) => setLeaderboard(res.data))
+  .catch(() => {});
+api.getProjectInfo().then((res) => setApiInfo(res.data));

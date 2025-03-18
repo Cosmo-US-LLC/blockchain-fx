@@ -1,6 +1,6 @@
 import { getAccount, watchAccount } from "@wagmi/core";
 import { getConfig, configRef } from "./config";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 /**
  * @typedef {object} GetAccountReturnType
@@ -64,4 +64,50 @@ export const useWindowSize = () => {
   }, [getSize]);
 
   return size;
+};
+
+/**
+ * @param {import("react").RefObject<HTMLElement | null>} ref
+ * @param {(e: MouseEvent) => void} callback
+ * @param {import("react").RefObject<HTMLElement | null>[]} ignoreRefs
+ */
+export const useClickAway = (ref, callback, ignoreRefs) => {
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const abortController = new AbortController();
+    window.addEventListener(
+      "click",
+      (e) => {
+        if (!el.contains(e.target) && !el.isEqualNode(e.target)) {
+          if (
+            ignoreRefs?.some(
+              (ref) => ref?.contains(e.target) || ref?.isEqualNode(e.target)
+            )
+          )
+            return;
+          callback(e);
+        }
+      },
+      { signal: abortController.signal }
+    );
+
+    return () => abortController.abort();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [callback]);
+};
+
+/**
+ * @param {() => void} callback
+ * @param {number} timeoutMs
+ * @param {unknown[]} [dependencies]
+ */
+export const useDebounce = (callback, timeoutMs, dependencies) => {
+  const lastCalledRef = useRef(null);
+
+  return useCallback(() => {
+    if (lastCalledRef.current) clearTimeout(lastCalledRef.current);
+    lastCalledRef.current = setTimeout(callback, timeoutMs);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [callback, timeoutMs, ...dependencies]);
 };

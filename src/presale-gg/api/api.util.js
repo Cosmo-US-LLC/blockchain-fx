@@ -1,7 +1,7 @@
 import axios, { AxiosError } from "axios";
 
 const baseUrl = "https://api.presale.gg/v1";
-const project = "pump-memes";
+const project = "blockchainfx";
 
 /**
  * @typedef {import("./api.types.d.ts").API} API
@@ -152,6 +152,29 @@ export const createTransaction = (args) => {
         payment_token_id: args.payment_token_id,
         usd_amount: args.usd_amount,
         token_amount: args.token_amount,
+        ...getUtmArgs(),
+      },
+    }
+  );
+};
+
+/**
+ *
+ * @param {object} args
+ * @param {string} args.wallet_address
+ * @param {number} args.payment_token_id
+ * @param {string} args.usd_amount
+ * @param {string} args.token_amount
+ *
+ * @returns {Promise<AxiosResponse<API.Transaction>>}
+ */
+export const createCardTransaction = (args) => {
+  return apiFetch(
+    `/projects/${project}/wallet/${args.wallet_address}/transactions/card`,
+    {
+      method: "POST",
+      data: {
+        usd_amount: args.usd_amount,
         ...getUtmArgs(),
       },
     }
