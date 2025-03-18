@@ -27,8 +27,10 @@ export const apiFetch = async (url, data) => {
  *
  * @param {object} args
  * @param {string} args.email
+ * @param {string} args.name
  * @param {string} [args.wallet_address]
  * @param {string} [args.mobile]
+ * @param
  * @returns {Promise<AxiosResponse<void>>}
  */
 export const postLeads = async (args) => {
