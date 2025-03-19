@@ -453,7 +453,7 @@ const DashboardPopup = ({ onClose }) => {
                         <SwiperSlide key={card.name}>
                           <div className="space-y-[8px]">
                             <h3 className="text-[14px] text-[#525252] text-center font-[600]">
-                              {card.name}{currentRank?.rank === card.name.split(" ")[0] ? "(You Level)" : ""}
+                              {card.name}{currentRank?.rank === card.name.split(" ")[0] ? "(Your Level)" : ""}
                             </h3>
                             <div className="flex w-[80%] mx-auto justify-center">
                               <img className="" src={card.img} alt="" />
@@ -478,7 +478,7 @@ const DashboardPopup = ({ onClose }) => {
                     background: "rgba(237, 237, 237, 0.40)",
                   }}
                 >
-                  <div className="flex justify-between space-x-1 items-center">
+                  <div className="flex gap-1 justify-between items-center">
                     <p className="text-[12.187px] text-[#636363] font-[700] text-center leading-[1]">
                       {nextRank
                         ? `${formatDollar(
@@ -489,11 +489,11 @@ const DashboardPopup = ({ onClose }) => {
                           )} left to reach the next NFT level`
                         : "You have reached the highest level"}
                     </p>
-                    {nextRank && (
-                      <p className="text-[14px] leading-[100%] text-[#E5AE00] font-[700] text-center">
-                        {formatDollar(nextRank.level * usdPerLevel, true, 0, 0)}
-                      </p>
-                    )}
+                    <p className="text-[14px] leading-[100%] text-[#E5AE00] font-[700] text-center">
+                      {nextRank ? (
+                        formatDollar(nextRank.level * usdPerLevel, true, 0, 0)
+                      ) : currentRank.rank}
+                    </p>
                   </div>
                   {usdToNextRank > 0 || nextRank === null ? (
                     <input

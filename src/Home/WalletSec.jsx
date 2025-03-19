@@ -57,12 +57,14 @@ const WalletSec = () => {
           <h3 className="text-[30px] font-[700] tracking-[-1px]">
             BFX Presale
           </h3>
-          <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
-            <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
-              .
-            </span>
-            Live
-          </div>
+          {!apiData.presaleEnded && (
+            <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
+              <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
+                .
+              </span>
+              Live
+            </div>
+          )}
         </div>
         <div
           className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3] <md:max-w-[413.763px] <md:mx-auto"

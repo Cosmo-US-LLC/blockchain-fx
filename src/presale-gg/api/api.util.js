@@ -345,7 +345,7 @@ export const applyBonusCode = (address, code, accessToken) => {
  * @param {string} address
  * @returns {Promise<AxiosResponse<API.UserRankData>>}
  */
-export const getUserRanks = async (address) => {
+export const getUserRanks = (address) => {
   return apiFetch(`/projects/${project}/wallet/${address}/levels`);
 };
 

@@ -105,6 +105,7 @@ const BuyTab = () => {
   const buy = async () => {
     const account = accountData.address;
     if (!account) return toast.error("You must connect your wallet first");
+    if (apiData.presaleEnded) return toast.error("Presale has ended")
     if (transactionLoading) return;
     setTransactionLoading(true);
     if (!selectedToken) return;
@@ -197,7 +198,9 @@ const BuyTab = () => {
     const paymentUsd = parseNum(paymentTokenNumStr) * parseNum(selectedToken?.price)
     const levelIncrease = (paymentUsd + (usdPerLevel - usdToNextLevel)) / usdPerLevel
     const wouldBeLevel = currentLevel + levelIncrease
-    return [...ranks].sort((a, b) => b.level - a.level).find((rank) => wouldBeLevel >= rank.level) ?? null
+    const wouldReceiveRank = [...ranks].sort((a, b) => b.level - a.level).find((rank) => wouldBeLevel >= rank.level) ?? null
+    if (wouldReceiveRank === currentRank) return null
+    return wouldReceiveRank
   }, [currentLevel, usdPerLevel, paymentTokenNumStr, selectedToken?.price, ranks, usdToNextLevel])
 
   const [levelUpLoading, setLevelUpLoading] = useState(false);
@@ -436,7 +439,7 @@ const BuyTab = () => {
             onClick={buy}
             className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
           >
-            {transactionLoading ? "Loading..." : "Buy Now"}
+            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : "Buy Now")}
           </button>
         </div>
         {(usdToNextRank > 0 || !nextRank) ? (
