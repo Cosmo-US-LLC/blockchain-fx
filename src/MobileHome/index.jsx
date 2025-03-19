@@ -1,6 +1,5 @@
 import React from 'react';
 import MobileHero from './MobileHero';
-import MobileWalletSec from './MobileWalletSec';
 import MobileTradeOverSec from './MobileTradeOverSec';
 import MobNextGenerationSec from './MobNextGenerationSec';
 import MobileOneAppSec from './MobileOneAppSec';
@@ -32,12 +31,13 @@ import MobTheUltimateSec from './MobTheUltimateSec';
 import SwapSectionMob from './SwapSectionMob';
 import Whitepaper from '../Home/Whitepaper';
 import WhitepaperMob from './WhitepaperMob';
+import WalletSec from '../Home/WalletSec';
 
 function MobileHome() {
     return (
       <div className="">
         <MobileHero />
-        <MobileWalletSec />
+        <WalletSec />
         <MobNextGenerationSec />
         <MobileTradeOverSec />
         <MobileOneAppSec />

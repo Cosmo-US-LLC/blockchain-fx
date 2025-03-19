@@ -46,9 +46,12 @@ document.addEventListener("wagmi-loaded", async () => {
       const address = account.address;
       if (!address) return $userState.set({ ...defaultUserState });
       api.getUser(address).then((res) => $userState.setKey("user", res.data));
-      // api
-      //   .getUserRanks(address)
-      //   .then((res) => $userState.setKey("rankData", res.data));
+      api
+        .getUserRanks(address)
+        .then((res) => $userState.setKey("rankData", res.data));
+      api
+        .getUserStakeData(address)
+        .then((res) => $userState.setKey("userStakeData", res.data));
     },
   });
 });
@@ -103,6 +106,36 @@ export const refetchUserStakeData = async () => {
   if (!address || !isConnected) throw new Error("Please connect your wallet");
   const res = await api.getUserStakeData(address);
   $userState.setKey("userStakeData", res.data);
+};
+
+/**
+ * @param {string | number} tokens
+ * @param {object} [options]
+ * @param {boolean} [options.noToast]
+ * @returns {Promise<void>}
+ */
+export const userStakeTokens = async (tokens, options) => {
+  const { config } = await getConfig();
+  const { address, isConnected } = getAccount(config);
+  if (!address || !isConnected) throw new Error("Please connect your wallet");
+  const token = await getUserToken(options);
+  await api.stakeTokens(address, tokens.toString(), token.token);
+  await refetchUserStakeData();
+};
+
+/**
+ * @param {string | number} tokens
+ * @param {object} [options]
+ * @param {boolean} [options.noToast]
+ * @returns {Promise<void>}
+ */
+export const userUnstakeTokens = async (tokens, options) => {
+  const { config } = await getConfig();
+  const { address, isConnected } = getAccount(config);
+  if (!address || !isConnected) throw new Error("Please connect your wallet");
+  const token = await getUserToken(options);
+  await api.unstakeTokens(address, tokens.toString(), token.token);
+  await refetchUserStakeData();
 };
 
 /**
