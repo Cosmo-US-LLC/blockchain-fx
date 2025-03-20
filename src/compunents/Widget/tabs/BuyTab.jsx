@@ -51,6 +51,12 @@ const BuyTab = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [apiData.paymentTokens]);
 
+  useEffect(() => {
+    if (!selectedToken) return
+    setReceiveTokenNumStr(roundToDP(parseNum(paymentTokenNumStr) * parseNum(selectedToken.price), 2))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedToken])
+
   const handleScroll = (event, targetId, offset) => {
     event.preventDefault();
 
