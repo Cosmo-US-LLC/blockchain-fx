@@ -45,7 +45,7 @@ function MobileHero() {
             className="text-white bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px]  h-[48px]">
               Buy $BFX
             </button>
-            <a href="https://vip.blockchainfx.com/whitepaper.pdf" target="_blank" className="" rel="noopener noreferrer">
+            <a href="https://vip.blockchainfx.com/BFX-Whitepaper.pdf" target="_blank" className="" rel="noopener noreferrer">
             <button className="hover:text-white hover:bg-[#E5AE00] px-[14px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px]  h-[48px]">
             Whitepaper
             </button>
