@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: "Inter", serif;
+  width: 100%;
+  overflow-x: clip;
 }
 
 code {
@@ -12,15 +14,21 @@ code {
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 .animate-blink {
   animation: blink 2s infinite;
 }
-.desc li,p{
-line-height: 185%;
+.desc li,
+p {
+  line-height: 185%;
 }
 
 .custom-range {
@@ -78,56 +86,61 @@ line-height: 185%;
   transform: scale(1.2);
 }
 
-
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-display: none !important;
-}
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
   display: none !important;
-  }
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  display: none !important;
+}
 
-  .bgwhat{
-    background-image: url(../src/assets/WhatIsSec/bg.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .bgwhatmob{
-    background-image: url(../src/assets/WhatIsSec/bgmob.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .cardimg{
-    background-image: url(../src/assets/ExpertsworkingSec/expert.webp);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .bgtheylt{
-    background-image: url(../src/assets/TheUltimateSec/bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .bgtheyltmob{
-    background-image: url(../src/assets/TheUltimateSec/bgmob.webp);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .swiper-button-prev-how.swiper-button-disabled, .swiper-button-next-how.swiper-button-disabled {
-    opacity: 0.35 !important;
-    cursor: auto !important;
-    pointer-events: none !important;
+.bgwhat {
+  background-image: url(../src/assets/WhatIsSec/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
-.swiper-button-prev-3.swiper-button-disabled, .swiper-button-next-3.swiper-button-disabled {
+.bgwhatmob {
+  background-image: url(../src/assets/WhatIsSec/bgmob.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.cardimg {
+  background-image: url(../src/assets/ExpertsworkingSec/expert.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bgtheylt {
+  background-image: url(../src/assets/TheUltimateSec/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bgtheyltmob {
+  background-image: url(../src/assets/TheUltimateSec/bgmob.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.swiper-button-prev-how.swiper-button-disabled,
+.swiper-button-next-how.swiper-button-disabled {
   opacity: 0.35 !important;
   cursor: auto !important;
   pointer-events: none !important;
 }
-.swiper-button-prev-press.swiper-button-disabled, .swiper-button-next-press.swiper-button-disabled {
+.swiper-button-prev-3.swiper-button-disabled,
+.swiper-button-next-3.swiper-button-disabled {
   opacity: 0.35 !important;
   cursor: auto !important;
   pointer-events: none !important;
 }
-.swiper-button-prev-top.swiper-button-disabled, .swiper-button-next-top.swiper-button-disabled {
+.swiper-button-prev-press.swiper-button-disabled,
+.swiper-button-next-press.swiper-button-disabled {
+  opacity: 0.35 !important;
+  cursor: auto !important;
+  pointer-events: none !important;
+}
+.swiper-button-prev-top.swiper-button-disabled,
+.swiper-button-next-top.swiper-button-disabled {
   opacity: 0.35 !important;
   cursor: auto !important;
   pointer-events: none !important;

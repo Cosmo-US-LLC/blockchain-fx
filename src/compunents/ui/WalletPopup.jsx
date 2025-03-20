@@ -18,8 +18,10 @@ const WalletPopup = ({ onClose }) => {
               key={conn.key}
               className="w-[52px] h-[52px] border-[1px] bg-[#F6F6F6] flex justify-center items-center border-[#E3E3E3] cursor-pointer"
               onClick={async () => {
-                const { config } = await getConfig()
-                if (conn.onClick) {
+                const { config, walletConnectModal } = await getConfig()
+                if (conn.key === "walletconnect") {
+                  walletConnectModal.open()
+                } else if (conn.onClick) {
                   await conn.onClick();
                 } else {
                   connect(config, {connector: config.connectors[conn.connectorIndex]})

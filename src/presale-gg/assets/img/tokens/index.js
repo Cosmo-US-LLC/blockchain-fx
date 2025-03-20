@@ -68,7 +68,11 @@ export const tokenNameMap = {
   pepe,
   cardano: ada,
   bitcoin: btc,
-  busd: busd,
+  busd,
+  usdc,
+  fil,
+  matic,
+  xlm,
 };
 
 /** @type {Record<string, string | undefined>} */

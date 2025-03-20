@@ -182,13 +182,10 @@ export const useUserRankData = () => {
   const fractionToNextRank = useMemo(() => {
     if (!userData.rankData) return 0;
     if (nextRank === null) return 1;
-    const levelsIntoRank =
-      userData.rankData.current_level -
-      (userData.rankData.current_rank?.level ?? 0) +
-      userData.rankData.usd_to_next_level / USD_PER_LEVEL;
     const rankLevelDiff =
       nextRank.level - (userData.rankData.current_rank?.level ?? 0);
-    return levelsIntoRank / rankLevelDiff;
+    const rankUsdDiff = rankLevelDiff * USD_PER_LEVEL;
+    return (rankUsdDiff - userData.rankData.usd_to_next_rank) / rankUsdDiff;
   }, [userData.rankData, nextRank]);
 
   return {

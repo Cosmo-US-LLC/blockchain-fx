@@ -24,14 +24,14 @@ const Widget = () => {
       style={{
         background: "rgba(247, 247, 247, 0.70)",
       }}
-      className="max-w-[413.763px] gap-[10px] relative rounded-[6.419px] px-[33px] pt-[28px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto min-h-[600px]"
+      className="flex flex-col max-w-[413.763px] gap-[10px] relative rounded-[6.419px] px-[33px] pt-[28px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto min-h-[600px] <md:px-[20px] <md:min-h-[400px]"
     >
       <div className="w-[100%] absolute top-0 -translate-y-1/2 left-0 flex justify-evenly">
         {tabs.map((tab) => (
           <button
             key={tab.key}
             className={clsx(
-              "text-[9.875px] text-center w-[100px] font-[700] h-[30.612px] border border-[#454545] flex items-center justify-center rounded-[6px]",
+              "text-[9.875px] text-center w-[100px] <md:w-[80px] font-[700] h-[30.612px] border border-[#454545] flex items-center justify-center rounded-[6px]",
               {
                 "bg-[#f9f9f9] text-[#444]": selectedTab !== tab
               },

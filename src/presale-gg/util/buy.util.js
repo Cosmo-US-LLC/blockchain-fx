@@ -100,6 +100,10 @@ export const buyWithCrypto = async (args) => {
           args.walletAddress ?? "",
           transactionHash
         );
+        window.fbq?.("track", "Purchase", {
+          value: paymentTokenNum * parseNum(args.paymentToken.price),
+          currency: "USD",
+        });
         return {
           type: "sent",
         };

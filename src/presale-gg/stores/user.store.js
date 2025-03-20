@@ -13,6 +13,7 @@ import { useStore } from "@nanostores/react";
  * @typedef {import("../api/api.types").API.BonusCode} BonusCode
  * @typedef {import("../api/api.types").API.UserRankData} UserRankData
  * @typedef {import("../api/api.types").API.ReferralBonuses} ReferralBonuses
+ * @typedef {import("../api/api.types").API.BonusTransactionHistoryItem} BonusTransactionHistoryItem
  *
  * @typedef {object} UserStoreValue
  * @property {User | null} UserStoreValue.user
@@ -22,6 +23,7 @@ import { useStore } from "@nanostores/react";
  * @property {BonusCode | null} UserStoreValue.appliedBonusCode
  * @property {UserRankData | null} UserStoreValue.rankData
  * @property {ReferralBonuses | null} UserStoreValue.referralBonuses
+ * @property {BonusTransactionHistoryItem[] | null} UserStoreValue.bonusTransactions
  */
 
 /** @type {UserStoreValue} */
@@ -33,6 +35,7 @@ export const defaultUserState = {
   appliedBonusCode: null,
   rankData: null,
   referralBonuses: null,
+  bonusTransactions: null,
 };
 
 /** @type {import("nanostores").PreinitializedMapStore<UserStoreValue>} */
@@ -52,9 +55,27 @@ document.addEventListener("wagmi-loaded", async () => {
       api
         .getUserStakeData(address)
         .then((res) => $userState.setKey("userStakeData", res.data));
+      getAllBonusTransactions().then((data) =>
+        $userState.setKey("bonusTransactions", data)
+      );
     },
   });
 });
+
+/**
+ * @returns {BonusTransactionHistoryItem[]}
+ */
+export const getAllBonusTransactions = async () => {
+  const { config } = await getConfig();
+  const { address } = getAccount(config);
+  let pages = [];
+  for (let i = 0; i < 5; i++) {
+    const res = await api.getBonusTransactionHistory(address, i, 100);
+    pages = pages.concat(res.data);
+    if (res.data.length < 100) return pages;
+  }
+  return pages;
+};
 
 /**
  * @param {object} [options]

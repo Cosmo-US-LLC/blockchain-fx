@@ -211,12 +211,14 @@ const DashboardPopup = ({ onClose }) => {
     swiper.slideTo(currentRankIndex)
   }, [swiper, currentRankIndex])
 
-  // TODO: Figure out what BFX Rewards are supposed to be
+  const bfxRewards = useMemo(() => {
+    return userData.bonusTransactions?.reduce((acc, curr) => acc + parseNum(curr.bonus_token_amount), 0) ?? 0
+  }, [userData.bonusTransactions])
 
   return (
     <div className="fixed flex items-center inset-0 bg-black bg-opacity-50 h-[100vh] !z-[999]">
       <div className=" 2xl:flex xl:flex w-[100%] max-w-[1240px] mx-auto pt-[20px] flex justify-end items-center]">
-        <div className="w-[700px] mx-auto bg-white rounded-lg relative <md:w-[500px] max-w-[calc(100vw-2rem)]">
+        <div className="w-[700px] mx-auto bg-white rounded-lg relative <md:w-[500px] max-w-[calc(100vw-1rem)]">
           <div className="flex justify-center">
             <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[-2.5%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
               <p className="text-[16px] font-[700] text-center">
@@ -292,7 +294,7 @@ const DashboardPopup = ({ onClose }) => {
               </p>
             </div>
             <div className="flex justify-between gap-[10px] <md:flex-col">
-              <div className="flex-1 space-y-[10px]">
+              <div className="flex-1 gap-[10px] w-0 <md:w-auto">
                 <div className="bg-[#F5F5F5] space-y-[10px] p-[10px] h-[230px]">
                   <div
                     className="py-[3px] px-[5px]  flex justify-between border border-[#D3D3D3]"
@@ -351,7 +353,7 @@ const DashboardPopup = ({ onClose }) => {
                       </p>
                     </div>
                     <p className="text-[14px] text-[#272626] font-[700] text-center">
-                      8900
+                      {formatNumber(bfxRewards, 0, 2)}
                     </p>
                   </div>
                   <div
@@ -408,7 +410,7 @@ const DashboardPopup = ({ onClose }) => {
                     </p>
                   </div>
                   <p className="text-[14px] text-[#272626] font-[700] text-center">
-                    -
+                    10%
                   </p>
                 </div>
                 <div>
@@ -421,14 +423,14 @@ const DashboardPopup = ({ onClose }) => {
                   </button>
                 </div>
               </div>
-              <div className="flex-1 space-y-[10px]">
+              <div className="flex-1 gap-[10px] w-0 <md:w-auto">
                 <div
                   className="pb-[10px] h-[230px] pt-[5px] px-[5px]  flex justify-between"
                   style={{
                     background: "rgba(237, 237, 237, 0.40)",
                   }}
                 >
-                  <div className="relative w-[304px] mx-auto">
+                  <div className="relative w-[min(304px,calc(100%-1rem))] mx-auto">
                     <button className="swiper-button-prev-swp rotate-[182deg] absolute z-10 !left-[-2%] top-[50%] transform -translate-y-1/2">
                       <img className="w-[16px] h-[16px]" src={arw} alt="" />
                     </button>
@@ -459,10 +461,10 @@ const DashboardPopup = ({ onClose }) => {
                               <img className="" src={card.img} alt="" />
                             </div>
                             <div className="flex justify-between items-center pt-[10px] space-x-2">
-                              <div className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[12px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px]">
+                              <div className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[12px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px] <md:text-[10px]">
                                 {card.left}
                               </div>
-                              <div className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[12px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px]">
+                              <div className="rounded-[2.964px] bg-[#fff] border border-[#E9E9E9] text-[12px] font-[500] text-[#403E3E] px-[2px] w-[100%] py-[3px] <md:text-[10px]">
                                 {card.right}
                               </div>
                             </div>
@@ -492,7 +494,7 @@ const DashboardPopup = ({ onClose }) => {
                     <p className="text-[14px] leading-[100%] text-[#E5AE00] font-[700] text-center">
                       {nextRank ? (
                         formatDollar(nextRank.level * usdPerLevel, true, 0, 0)
-                      ) : currentRank.rank}
+                      ) : currentRank?.rank}
                     </p>
                   </div>
                   {usdToNextRank > 0 || nextRank === null ? (
@@ -540,7 +542,7 @@ const DashboardPopup = ({ onClose }) => {
                 background: "rgba(237, 237, 237, 0.40)",
               }}
             >
-              <div className="flex justify-center space-x-[10px] items-center">
+              <div className="flex flex-wrap gap-2 justify-center space-x-[10px] items-center">
                 <h4 className="text-center text-[#808080] text-[12px] leading-[85%] font-[500]">
                   Audited by the Leading Blockchain Security Company
                 </h4>

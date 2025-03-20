@@ -43,10 +43,10 @@ const StakeTab = () => {
   }
 
 	return (
-    <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full">
+    <div className="gap-[10px] flex-1 justify-between flex flex-col relative w-full min-h-full">
       <p className="text-center text-[16px] font-bold">Staking</p>
       <div className="flex flex-col gap-[inherit]">
-        <div className="flex gap-4">
+        <div className="flex gap-4 <md:flex-col">
           <div
             className="flex-1 px-[11px] py-[12px] space-y-[5px] border border-[#D3D3D3] text-[12px] flex flex-col items-center"
             style={{

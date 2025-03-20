@@ -286,7 +286,7 @@ const BuyTab = () => {
             selectedTokenId={selectedToken?.id}
           />
         </div>
-        <div className="grid grid-cols-3 justify-center gap-[8px] flex-wrap">
+        <div className="grid grid-cols-3 justify-center gap-[8px] flex-wrap <md:grid-cols-2">
           {groupedTokens.map((tokenGroup, i) => (
             <TokenSelectDropdown
               key={i}
@@ -297,11 +297,11 @@ const BuyTab = () => {
           ))}
         </div>
         <div className="flex justify-center items-center py-[0px] space-x-[15px]">
-          <hr className="h-[1px] w-[33%]" />
-          <span className="text-[#636363] text-end text-[9.618px] font-[700] leading-[75%]">
+          <hr className="h-[1px] flex-1" />
+          <span className="text-[#636363] mx-4 text-[9.618px] font-[700] leading-[75%]">
             1 $BFX = ${formatNumber(parseNum(apiData.stage?.token_price))}
           </span>
-          <hr className="h-[1px] w-[33%]" />
+          <hr className="h-[1px] flex-1" />
         </div>
         <div className="">
           <label className="text-[#2F2F2F] text-[8.888px] font-[700] leading-[8.888px]">

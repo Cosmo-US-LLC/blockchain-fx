@@ -50,7 +50,7 @@ const WalletSec = () => {
   return (
     <div className="pt-[42px] pb-[35px]" id="how-to-buy">
       <div
-        className="space-y-[30px] px-[67px]  py-[20px] bg-[#FFF] max-w-[955px] w-[100%] mx-auto border border-[#D4D4D4] rounded-[8px] <md:px-6"
+        className="space-y-[30px] px-[67px]  py-[20px] bg-[#FFF] max-w-[955px] w-[100%] mx-auto border border-[#D4D4D4] rounded-[8px] <md:px-6 <sm:px-4"
         id="Wallet"
       >
         <div className="flex justify-center space-x-3 items-center">
@@ -66,58 +66,19 @@ const WalletSec = () => {
             </div>
           )}
         </div>
-        <div
-          className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3] <md:max-w-[413.763px] <md:mx-auto"
-          style={{
-            background: "rgba(237, 237, 237, 0.40)",
-          }}
-        >
-          {apiData.presaleEnded ? (
+
+        {apiData.presaleEnded && (
+          <div
+            className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3] <md:max-w-[413.763px] <md:mx-auto"
+            style={{
+              background: "rgba(237, 237, 237, 0.40)",
+            }}
+          >
             <h4 className="text-center text-[#444] text-[24px] font-[700]">
               Presale Ended
             </h4>
-          ) : (
-            <>
-              <h4 className="text-center text-[#444] text-[12px] font-[700]">
-                Price Increases In
-              </h4>
-              <div className="flex justify-center space-x-[22px]">
-                <div className=" space-y-[2px]">
-                  <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
-                    00
-                  </p>
-                  <p className="text-center text-[#444] text-[7.9px] font-[700]">
-                    DAYS
-                  </p>
-                </div>
-                <div className=" space-y-[2px]">
-                  <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
-                    20
-                  </p>
-                  <p className="text-center text-[#444] text-[7.9px] font-[700]">
-                    HOURS
-                  </p>
-                </div>
-                <div className=" space-y-[2px]">
-                  <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
-                    37
-                  </p>
-                  <p className="text-center text-[#444] text-[7.9px] font-[700]">
-                    MINS
-                  </p>
-                </div>
-                <div className=" space-y-[2px]">
-                  <p className="leading-[100%] text-center text-[#E5AE00] text-[26px] font-[700]">
-                    38
-                  </p>
-                  <p className="text-center text-[#444] text-[7.9px] font-[700]">
-                    SECS
-                  </p>
-                </div>
-              </div>
-            </>
-          )}
-        </div>
+          </div>
+        )}
         <div className="flex justify-between gap-8 <md:flex-col">
           <Widget />
           <div
@@ -199,11 +160,11 @@ const WalletSec = () => {
                   background: "rgba(237, 237, 237, 0.40)",
                 }}
               >
-                <div className=" space-y-[13px]">
+                <div className="flex flex-col gap-[12px]">
                   <h4 className="text-start text-[#808080] text-[9.875px] leading-[75%] font-[600]">
                     $BFX Launches On Multiple Top-Tier Exchanges
                   </h4>
-                  <div className="flex justify-center space-x-[8px]">
+                  <div className="flex justify-center gap-[8px] flex-wrap">
                     <div
                       className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
                       style={{
@@ -284,7 +245,7 @@ const WalletSec = () => {
           }}
         >
           <div className="flex justify-center items-center gap-[10px] flex-wrap">
-            <h4 className="text-center text-[#808080] text-[13.1px] leading-[85%] font-[600]">
+            <h4 className="text-center text-[#808080] text-[13.1px] leading-[1.2] font-[600]">
               Audited by the Leading Blockchain Security Company
             </h4>
             <div className="w-[113.97px]">

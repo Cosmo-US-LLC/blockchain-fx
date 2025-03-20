@@ -48,6 +48,11 @@ const TransactionHistoryTab = () => {
 		"bonus_code": ["#142e23", "#13a868"]
 	}
 
+  console.log("Transactions", transactions)
+  console.log("Bonus Transactions", bonusTransactions)
+  console.log("Show Bonus", showBonus)
+  console.log("Loading", loading)
+
   return (
     <div className="gap-[10px] flex-1 h-0 justify-between flex flex-col relative w-full min-h-full">
       <p className="text-center text-[16px] font-bold">Transaction History</p>
@@ -62,24 +67,24 @@ const TransactionHistoryTab = () => {
           </p>
         )}
         {!showBonus && transactions.map((trx) => (
-          <div className="flex items-center text-[12px] gap-2 min-h-8 px-2 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
-            <div className="min-w-[7rem] flex gap-1 flex-[1.5]">
-              <p className="leading-[1.2] w-8 flex-none text-end">{formatNumber(parseNum(trx.payment_token_amount), 0, 3)}</p>
+          <div className="flex items-center text-[12px] <sm:text-[10px] gap-2 min-h-8 px-2 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
+            <div className="min-w-[7rem] flex gap-1 flex-[1.5] items-center">
+              <p className="leading-[1.2] w-10 flex-none text-end">{formatNumber(parseNum(trx.payment_token_amount), 0, 3)}</p>
               <img className="w-4 h-4" src={tokenNameMap[trx.payment_token_name.toLowerCase()]} alt="" />
               <p className="leading-[1.2]">{trx.payment_token_name}</p>
             </div>
             <p className="leading-[1.2] flex-1">{trx.tokens_bought === null ? "Pending" : `+${formatNumber(parseNum(trx.tokens_bought), 0, 2)} BFX`}</p>
             <p
-              className="leading-[1.2] bg-[red] flex justify-center w-16 text-[10px] rounded-[6px] font-bold py-1 text-[#fff]"
+              className="leading-[1.2] bg-[red] flex justify-center w-16 text-[10px] <sm:text-[8px] <sm:w-[3.125rem] rounded-[6px] font-bold py-1 text-[#fff]"
               style={{backgroundColor: statusColMap[trx.status][1]}}
             >{capitalize(trx.status)}</p>
           </div>
         ))}
         {showBonus && bonusTransactions.map((trx) => (
-          <div className="flex items-center text-[12px] gap-2 min-h-8 px-2 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
-            <p className="leading-[1.2] flex-1">+${formatNumber(parseNum(trx.bonus_token_amount), 0, 2)} BFX</p>
+          <div className="flex items-center text-[12px] <sm:text-[10px] gap-2 min-h-8 px-12 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
+            <p className="leading-[1.2] flex-1">+{formatNumber(parseNum(trx.bonus_token_amount), 0, 2)} BFX</p>
             <p
-              className="leading-[1.2] bg-[red] flex justify-center w-16 text-[10px] rounded-[6px] font-bold py-1 text-[#fff]"
+              className="leading-[1.2] bg-[red] flex justify-center w-16 text-[10px] <sm:text-[8px] <sm:w-[3.125rem] rounded-[6px] font-bold py-1 text-[#fff]"
               style={{backgroundColor: statusColMap[trx.type][1]}}
             >{capitalize(trx.type)}</p>
           </div>
