@@ -18,6 +18,7 @@ import { $apiState } from "../stores/api.store";
 import { api } from "../api";
 
 import logo from "../../assets/TheUltimateSec/logo.svg";
+import { CARD_IS_SANDBOX, CARD_PARTNER_ID } from "../constants";
 
 export const walletBuyTokens = new Set([
   "ETH-ERC-20",
@@ -155,7 +156,7 @@ export const buyWithCard = async (args) => {
       usd_amount: args.usd,
       wallet_address: args.walletAddress,
     });
-    const isSandbox = process.env.REACT_APP_CARD_IS_SANDBOX === "true";
+    const isSandbox = CARD_IS_SANDBOX;
 
     let isPending = false;
     let checkInterval = null;
@@ -197,7 +198,7 @@ export const buyWithCard = async (args) => {
 
     const widget = new WertWidget({
       click_id: transactionRes.data.clickId,
-      partner_id: process.env.REACT_APP_CARD_PARTNER_ID,
+      partner_id: CARD_PARTNER_ID,
       origin: isSandbox ? "https://sandbox.wert.io" : undefined,
       theme: "dark",
       ...transactionRes.data.signedData,
