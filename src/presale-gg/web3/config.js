@@ -6,7 +6,7 @@ import { getIsMobile } from "../util";
 
 /**
  * @typedef {"metamask" | "walletconnect" | "coinbase"} SupportedConnection
- * @typedef {1 | 56} SupportedChainId
+ * @typedef {1 | 56 | 8453} SupportedChainId
  *
  * @typedef {object} Connection
  * @property {string} Connection.label

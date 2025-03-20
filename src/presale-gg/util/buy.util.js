@@ -25,6 +25,9 @@ export const walletBuyTokens = new Set([
   "BNB-BEP-20",
   "BUSD-BEP-20",
   "USDT-BEP-20",
+  "ETH-BASE",
+  "USDC-BASE",
+  "USDC-BEP-20",
 ]);
 
 /**
@@ -115,18 +118,23 @@ export const buyWithCrypto = async (args) => {
       }
     );
   } else {
-    const res = await api.createTransaction({
-      payment_token_id: args.paymentToken.id,
-      usd_amount: (
-        paymentTokenNum * parseNum(args.paymentToken.price)
-      ).toString(),
-      wallet_address: args.walletAddress,
-      token_amount: paymentTokenNum.toString(),
-    });
-    return {
-      type: "created",
-      transaction: res.data,
-    };
+    try {
+      const res = await api.createTransaction({
+        payment_token_id: args.paymentToken.id,
+        usd_amount: (
+          paymentTokenNum * parseNum(args.paymentToken.price)
+        ).toString(),
+        wallet_address: args.walletAddress,
+        token_amount: paymentTokenNum.toString(),
+      });
+      return {
+        type: "created",
+        transaction: res.data,
+      };
+    } catch (err) {
+      toast.error(api.getApiErrorMessage(err, "Error creating transaction"));
+      throw err;
+    }
   }
 };
 

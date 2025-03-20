@@ -66,14 +66,25 @@ const StakeTab = () => {
             <p className="leading-[1.2]">Daily Interest</p>
           </div>
         </div>
-        <div
-          className="self-stretch px-[11px] py-[12px] space-y-[5px] border border-[#D3D3D3] text-[12px] flex flex-col items-center"
-          style={{
-            background: "rgba(237, 237, 237, 0.40)",
-          }}
-        >
-          <p className="leading-[1.2] font-bold text-[14px]">{formatNumber(parseNum(userData.userStakeData?.total_earnings), 0, 4)} BFX</p>
-          <p className="leading-[1.2]">Total Earnings</p>
+        <div className="flex gap-4 <md:flex-col">
+          <div
+            className="flex-1 self-stretch px-[11px] py-[12px] space-y-[5px] border border-[#D3D3D3] text-[12px] flex flex-col items-center"
+            style={{
+              background: "rgba(237, 237, 237, 0.40)",
+            }}
+          >
+            <p className="leading-[1.2] font-bold text-[14px]">{formatNumber(parseNum(userData.userStakeData?.total_earnings), 0, 4)} BFX</p>
+            <p className="leading-[1.2]">Total Earnings</p>
+          </div>
+          <div
+            className="flex-1 self-stretch px-[11px] py-[12px] space-y-[5px] border border-[#D3D3D3] text-[12px] flex flex-col items-center"
+            style={{
+              background: "rgba(237, 237, 237, 0.40)",
+            }}
+          >
+            <p className="leading-[1.2] font-bold text-[14px]">286%</p>
+            <p className="leading-[1.2]">APY</p>
+          </div>
         </div>
       </div>
       <div className="flex flex-col gap-1">

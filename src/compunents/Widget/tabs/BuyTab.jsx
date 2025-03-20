@@ -33,6 +33,7 @@ import ContactModal from "../../../compunents/ui/modals/ContactModal";
 import { userLevelUp } from "../../../presale-gg/stores/user.store";
 import { api } from "../../../presale-gg/api";
 import confetti from "canvas-confetti";
+import { showConnectWalletModal } from "../../../presale-gg/stores/modal.store";
 
 const BuyTab = () => {
   const apiData = useApiState();
@@ -134,7 +135,9 @@ const BuyTab = () => {
           setContactModalOpen(true);
         }
       }
-    } catch (err) {}
+    } catch (err) {
+      console.error(err)
+    }
     setTransactionLoading(false);
   };
 
@@ -442,10 +445,13 @@ const BuyTab = () => {
         </div>
         <div>
           <button
-            onClick={buy}
+            onClick={() => {
+              if (accountData.isConnected) buy()
+              else showConnectWalletModal()
+            }}
             className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
           >
-            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : "Buy Now")}
+            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Connect Wallet" : "Buy Now"))}
           </button>
         </div>
         {(usdToNextRank > 0 || !nextRank) ? (
