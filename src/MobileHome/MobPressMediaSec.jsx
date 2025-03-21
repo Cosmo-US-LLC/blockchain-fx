@@ -42,7 +42,7 @@ function MobPressMediaSec() {
                 <img src={medai1} className="h-[30px]" alt="" />
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BlockchainFX is quickly becoming the go-to trading platform in 2025
+              BlockchainFX is quickly becoming the go-to trading platform in 2025, offering access to 500+ assets and rewarding benefits for users.
               </p>
             </div>
           </div>
@@ -54,7 +54,7 @@ function MobPressMediaSec() {
                 <img src={medai2} className="h-[23px] object-cover" alt="" />
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BlockchainFX revolutionises the financial trading landscape.
+              BlockchainFX is set to revolutionise the trading landscape as the first all-in-one crypto trading platform.
               </p>
             </div>
           </div>
@@ -66,7 +66,7 @@ function MobPressMediaSec() {
                 <img src={medai3} className="h-[30px]" alt="" />
               </div>
               <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BlockchainFX puts Wall Street in your pocket
+              BlockchainFX is the first trading app that lets users earn daily USDT passive income directly from trading fees.
               </p>
             </div>
           </div>
