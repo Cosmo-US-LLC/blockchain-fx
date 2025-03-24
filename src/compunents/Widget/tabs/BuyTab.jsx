@@ -52,9 +52,19 @@ const BuyTab = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [apiData.paymentTokens]);
 
+  const prevTokenRef = useRef(selectedToken)
   useEffect(() => {
     if (!selectedToken) return
-    setReceiveTokenNumStr(roundToDP(parseNum(paymentTokenNumStr) * parseNum(selectedToken.price), 2))
+    let paymentTokenNum = parseNum(paymentTokenNumStr)
+    if (paymentTokenNum === 1 && selectedToken.symbol.toLowerCase() === "card") {
+      paymentTokenNum = 100
+      setPaymentTokenNumStr("100")
+    } else if (paymentTokenNum === 100 && prevTokenRef.current?.symbol?.toLowerCase() === "card") {
+      paymentTokenNum = 1
+      setPaymentTokenNumStr("1")
+    }
+    setReceiveTokenNumStr(roundToDP(paymentTokenNum * parseNum(selectedToken.price), 2))
+    prevTokenRef.current = selectedToken
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedToken])
 
