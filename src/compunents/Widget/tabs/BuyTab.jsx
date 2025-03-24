@@ -84,7 +84,7 @@ const BuyTab = () => {
   );
 
   const partialNumRegexp = /^(\d*|(\d+\.?\d*))$/;
-  const [paymentTokenNumStr, setPaymentTokenNumStr] = useState("0");
+  const [paymentTokenNumStr, setPaymentTokenNumStr] = useState("1");
   const [receiveTokenNumStr, setReceiveTokenNumStr] = useState("0");
 
   const [transactionLoading, setTransactionLoading] = useState(false);
@@ -201,7 +201,7 @@ const BuyTab = () => {
 
   useEffect(() => handleCodes, [handleCodes]);
 
-  const { usdToNextRank, currentRank, currentLevel, nextRank, usdPerLevel, usdToNextLevel, ranks } = useUserRankData();
+  const { usdToNextRank, currentRank, currentLevel, nextRank, usdPerLevel, usdToNextLevel, ranks, ranksLoaded } = useUserRankData();
 
   const wouldReceiveRank = useMemo(() => {
     const paymentUsd = parseNum(paymentTokenNumStr) * parseNum(selectedToken?.price)
@@ -210,7 +210,7 @@ const BuyTab = () => {
     const wouldReceiveRank = [...ranks].sort((a, b) => b.level - a.level).find((rank) => wouldBeLevel >= rank.level) ?? null
     if (wouldReceiveRank === currentRank) return null
     return wouldReceiveRank
-  }, [currentLevel, usdPerLevel, paymentTokenNumStr, selectedToken?.price, ranks, usdToNextLevel])
+  }, [currentLevel, usdPerLevel, paymentTokenNumStr, selectedToken?.price, ranks, usdToNextLevel, currentRank])
 
   const [levelUpLoading, setLevelUpLoading] = useState(false);
   const levelUp = async () => {
@@ -454,7 +454,8 @@ const BuyTab = () => {
             {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Connect Wallet" : "Buy Now"))}
           </button>
         </div>
-        {(usdToNextRank > 0 || !nextRank) ? (
+        {ranksLoaded && (
+        (usdToNextRank > 0 || !nextRank) ? (
         <div
           className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
           style={{
@@ -479,7 +480,8 @@ const BuyTab = () => {
         >
           Unlock {nextRank.rank} NFT
         </button>
-      )}
+      )
+    )}
         <div
           className="flex justify-center items-center space-x-[24px]"
           ref={(el) => setCodesContainerRef(el)}

@@ -118,41 +118,49 @@ export const bonusRankData = {
     tradingCreditsUSD: 0,
     usdtRewardPercentage: 0,
     bfxBonusPercentage: 0,
+    level: 0,
   },
   Novice: {
     tradingCreditsUSD: 0,
     usdtRewardPercentage: 0,
     bfxBonusPercentage: 10,
+    level: 10,
   },
   Advanced: {
     tradingCreditsUSD: 500,
     usdtRewardPercentage: 0,
     bfxBonusPercentage: 20,
+    level: 25,
   },
   Pro: {
     tradingCreditsUSD: 1000,
     usdtRewardPercentage: 0,
     bfxBonusPercentage: 30,
+    level: 50,
   },
   Expert: {
     tradingCreditsUSD: 2000,
-    usdtRewardPercentage: 40,
-    bfxBonusPercentage: 10,
+    usdtRewardPercentage: 10,
+    bfxBonusPercentage: 40,
+    level: 100,
   },
   Master: {
     tradingCreditsUSD: 5000,
     usdtRewardPercentage: 15,
     bfxBonusPercentage: 50,
+    level: 250,
   },
   Elite: {
     tradingCreditsUSD: 10000,
     usdtRewardPercentage: 20,
     bfxBonusPercentage: 60,
+    level: 500,
   },
   Legend: {
     tradingCreditsUSD: 25000,
     usdtRewardPercentage: 30,
     bfxBonusPercentage: 80,
+    level: 1000,
   },
 };
 
@@ -188,6 +196,20 @@ export const useUserRankData = () => {
     return (rankUsdDiff - userData.rankData.usd_to_next_rank) / rankUsdDiff;
   }, [userData.rankData, nextRank]);
 
+  const ranks = useMemo(() => {
+    return (
+      userData.rankData?.ranks ??
+      Object.entries(bonusRankData)
+        .slice(1)
+        .map(([key, val]) => ({
+          level: val.level,
+          bonus_percentage: val.bfxBonusPercentage,
+          rank: key,
+          reward: "bonus",
+        }))
+    );
+  }, [userData.rankData]);
+
   return {
     currentLevel: userData.rankData?.current_level ?? 0,
     currentRank: userData.rankData?.current_rank,
@@ -198,10 +220,11 @@ export const useUserRankData = () => {
     usdPerLevel: USD_PER_LEVEL,
     usdToNextRank: userData.rankData?.usd_to_next_rank ?? 0,
     usdToNextLevel: userData.rankData?.usd_to_next_level ?? 0,
-    ranks: userData.rankData?.ranks ?? [],
+    ranks: ranks,
     /** @type {{tradingCreditsUSD: number, usdtRewardPercentage: number, bfxBonusPercentage: number}} */
     bonusData: userData.rankData?.current_rank
       ? bonusRankData[userData.rankData.current_rank.rank]
       : bonusRankData["Default"],
+    ranksLoaded: !!userData.rankData?.ranks,
   };
 };
