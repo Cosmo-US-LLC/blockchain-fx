@@ -166,11 +166,13 @@ export const buyWithCard = async (args) => {
 
     const onSuccess = (tokensBought) => {
       if (successCalled || errorCalled || cancelledCalled) return;
+      successCalled = true;
       args.onSuccess?.(tokensBought);
     };
 
     const onError = () => {
       if (successCalled || errorCalled || cancelledCalled) return;
+      errorCalled = true;
       args.onError?.();
     };
 
@@ -240,6 +242,7 @@ export const buyWithCard = async (args) => {
         document.body.removeChild(overlay);
         if (isPending && !successCalled && !errorCalled && !cancelledCalled) {
           args.onClosedEarly?.();
+          cancelledCalled = true;
         }
         if (checkInterval) clearInterval(checkInterval);
       },
