@@ -25,17 +25,17 @@ function MobileHero() {
   };
 
   return (
-    <div className="pt-[22px] pb-[2rem] bg-[#FFFFFF]">
+    <div className="pt-[22px] pb-[2rem] bg-[#17181D]">
       <div className="w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <div>
-            <h4 className="text-[16px]  leading-[100%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
+            <h4 className="text-[16px]  leading-[100%] font-[400] text-center text-[#fff] tracking-[-1px] capitalize">
               Blockchain Meets Global Financial Markets
             </h4>
-            <h2 className="pt-6 pb-8 text-[36px] font-[700] leading-[111.375%] tracking-[-1px] text-[#000] text-center">
+            <h2 className="pt-6 pb-8 text-[36px] font-[700] leading-[111.375%] tracking-[-1px] text-[#fff] text-center">
               The First Crypto <br /> Trading Super App
             </h2>
-            <p className="text-[15px] max-w-[375px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#000] tracking-[-0.32px] ">
+            <p className="text-[15px] max-w-[375px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#fff] tracking-[-0.32px] ">
             BlockchainFX is the only crypto native trading platform that offers instant access to the world’s largest financial markets. Users can trade crypto, forex, stocks, and more, all in one place without having to switch brokers.<br /><br /> This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
             </p>
           </div>
@@ -56,7 +56,7 @@ function MobileHero() {
             <img className="w-[84px]" src={stars} alt="" />
               <p className="text-[#3E3E3E] font-[400] text-[14px]">4.79/5 </p>
             </div>
-            <p className="text-[#000] font-[400] text-[14px]">Rated by Users</p>
+            <p className="text-[#fff] font-[400] text-[14px]">Rated by Users</p>
           </div>
           <div className="flex justify-center pt-[15px]">
             <img src={heroVideo} className="" alt="" />

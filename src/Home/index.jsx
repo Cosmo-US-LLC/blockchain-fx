@@ -32,14 +32,18 @@ import TheUltimateSec from './TheUltimateSec';
 import FeaturedSec from './FeaturedSec';
 import Whitepaper from './Whitepaper';
 import SwapSection from './SwapSection';
+import ExpertSaysSec from './ExpertSaysSec';
+import BlockchainFXDemo from './BlockchainFXDemo';
 
 function Home() {
     return (
       <div className="">
         <Herosection />
-        {/* <FeaturedSec /> */}
+        <FeaturedSec />
         <WalletSec />
+        <ExpertSaysSec />
         <NextGenerationSec />
+        <BlockchainFXDemo />
         <TradeOverSec/>
         <OneAppSec />
         <EarnOnSec />
