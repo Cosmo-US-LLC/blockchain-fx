@@ -18,27 +18,29 @@ function MobTheUltimateSec() {
     }, 200); 
   };
   return (
-    <div className="bgtheyltmob !bg-cover !bg-center">
-      <div className="flex items-center min-h-[510px]  justify-center w-[90%] mx-auto  ">
-      <div className=" pb-[50px] pt-[30px] space-y-[15px]">
-            <div className="flex justify-center ">
-            <img src={logo} className="h-[45.77px]" alt="" />
+    <div className="bg-black p-5">
+      <div className="bgtheyltmob h-[410px] w-full !bg-cover !bg-center rounded-xl">
+        <div className="flex items-center h-[410px]  justify-center w-full">
+        <div className=" pb-[50px] pt-[30px] space-y-[15px]">
+              <div className="flex justify-center ">
+              <img src={logo} className="h-[30px]" alt="" />
+              </div>
+              <h3 className="text-[33.358px] text-[#fff] font-[500] text-center leading-[117.143%]">
+              The Ultimate <br />
+              Trading Platform
+              </h3>
+              <div className="flex justify-center pt-[10px] items-center  space-x-[17px]">
+              <button className="text-black bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[12px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[88px] h-[31px]"
+              onClick={handleScroll}
+              >
+                Buy $BFX
+              </button>
+              <button className="hover:text-[#E6B005] text-[#E6B005] font-[400] px-[12px] hover:bg-[#E5AE00]  bg-transparent text-[12px] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-[107px] h-[31px]">
+                Need Support
+              </button>
             </div>
-            <h3 className="text-[33.358px] text-[#fff] font-[700] text-center leading-[117.143%] text-[#181A20] tracking-[-1px]">
-            Blockchain Meets <br />
-            Global Financial Markets
-            </h3>
-            <div className="flex justify-center pt-[10px] items-center  space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
-            onClick={handleScroll}
-            >
-              Buy $BFX
-            </button>
-            <button className="hover:text-white text-[#fff] px-[12px] hover:bg-[#E5AE00]  bg-transparent text-[14px] font-[1000] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]">
-            Beta Traiding
-            </button>
-          </div>
-          </div>
+            </div>
+        </div>
       </div>
     </div>
   );
