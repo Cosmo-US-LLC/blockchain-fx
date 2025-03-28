@@ -13,6 +13,8 @@ import TermsofService from "./TermsofService";
 import TokenSale from "./TokenSale";
 import PrivacyPolicy from "./PrivacyPolicy";
 import CookieManagement from "./CookieManagement";
+import NavbarMobile from "./compunents/NavbarMobile";
+import LivePresale from "./compunents/LivePresale";
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
@@ -33,7 +35,14 @@ function App() {
     <div className="bg-[#fff]">
       <ToastContainer />
       <Toaster position="bottom-center" />
-      <Navbar />
+      {isMobile ? (
+        <div className="flex flex-col">
+          <LivePresale />
+          <NavbarMobile />
+        </div>
+      ) : (
+        <Navbar />
+      )}
       <Routes>
         <Route path="/" element={isMobile ? <MobileHome /> : <Home />} />
         <Route path="/terms-of-service" element={<TermsofService />} />
