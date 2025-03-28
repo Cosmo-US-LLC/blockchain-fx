@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../assets/navbar/logo.svg";
+import logo from "../assets/presale-v3/nav_icon.svg";
 import flag from "../assets/navbar/flg.svg";
 import menu from "../assets/presale-v3/menu.svg";
 import arwdwn from "../assets/navbar/arw.svg";
@@ -114,13 +114,17 @@ function NavbarMobile() {
                 alt=""
               />
             </div>
-            <div className="flex flex-row">
+            <div className="">
               <Link
                 to="/"
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
-                <img className="cursor-pointer" src={logo} alt="" />
-                <p className="text-600 text-[17px] text-[white]">Bl</p>
+                <div className="flex flex-row gap-2 items-center">
+                  <img className="cursor-pointer" src={logo} alt="" />
+                  <p className="text-600 text-[17px] text-[white]">
+                    BlockchainFX
+                  </p>
+                </div>
               </Link>
             </div>
           </div>
@@ -238,7 +242,10 @@ function NavbarMobile() {
                 if (accountData.isConnected) setDashboardOpen(true);
                 else showConnectWalletModal();
               }}
-              className="text-white bg-[#E5AE00] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:text-black hover:bg-transparent 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] w-[100%] 2xl:h-[43px] xl:h-[43px] lg:h-[43px] md:h-[43px] sm:h-[40px] h-[40px]"
+              style={{
+                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
+              className="h-[32px] w-[108px] font-[700] text-[12px] rounded-[6px]"
             >
               {accountData.isConnected ? "Dashboard" : "Connect Wallet"}
             </button>
