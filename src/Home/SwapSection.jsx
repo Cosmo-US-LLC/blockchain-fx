@@ -1,5 +1,5 @@
 import whitepaper from "../assets/Whitepaper/instantSwap.gif";
-
+import swapbg from "../assets/Swap/swapbg2.png"
 export default function SwapSection() {
   const handleScroll = () => {
     setTimeout(() => {
@@ -17,8 +17,11 @@ export default function SwapSection() {
 
   return (
     <>
-      <div className="w-full flex items-center justify-center py-[50px] px-[60px]">
-        <div className="p-6 max-w-[1080px] min-h-[454px] border border-1 border-[#B0B0B0] flex flex-row items-center rounded-[13px]">
+      <div className=" bg-[#020B10] flex items-center justify-center pt-[30px] pb-[60px] px-[80px] ">
+        <div className="p-6 max-w-[1280px] min-h-[454px] w-full flex flex-row items-center rounded-[13px] bg-no-repeat bg-cover bg-center"
+              style={{ backgroundImage: `url(${swapbg})` }}>
+        
+        
           <div className="w-[50%]">
             <div className="w-full p-2">
               <img
@@ -29,19 +32,18 @@ export default function SwapSection() {
             </div>
           </div>
           <div className="w-[50%] space-y-4 pl-4">
-            <div className="w-full p-2 flex flex-col justify-start">
-              <h3 className="text-[30px] font-bold leading-[48px] mb-4">
-                Swap Between Assets{" "}
-              </h3>
-              <p className="text-[14px]">
-              Experience limitless trading opportunities, like swapping gold for BTC or ETH for Nvidia stock, all in one place. Traditionally, converting crypto into other assets required separate exchanges, extra fees, and long wait times. BlockchainFX streamlines it, making trading faster and easier than ever.
-              </p>
+            <div className="w-full p-2 flex flex-col justify-start text-white">
+            <h3 className="text-[40px] font-[800] leading-[52px] mb-4 bg-gradient-to-r from-white to-[#E5AE00] bg-clip-text text-transparent">
+            Swap Assets Instantly
+            </h3>
+              <p className="text-[18px] text-[#ACC4D1] font-[400] leading-[27px]">
+              Trade anything in one place, like swapping Gold for BTC or ETH for Nvidia stock in seconds. No more juggling platforms, dealing with deposits, delays, or extra fees. BlockchainFX makes trading faster and easier than ever.              </p>
             </div>
 
             <div className="w-full p-2 flex justify-start">
               <button
                 onClick={handleScroll}
-                className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
+                className="text-white bg-[#E5AE00] px-[13px]  hover:text-white hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-white rounded-[8px] max-w-[143px] w-[100%] h-[50px]"
               >
                 Buy $BFX
               </button>

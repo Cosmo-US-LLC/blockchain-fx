@@ -1,4 +1,7 @@
 import whitepaper from "../assets/Whitepaper/whitepaper.webp";
+import whitepaperbg from "../assets/Whitepaper/whitepaperbg.png";
+import whitepaperbook from "../assets/Whitepaper/whitepaperbook.png";
+
 
 export default function Whitepaper() {
 
@@ -17,32 +20,34 @@ export default function Whitepaper() {
   };
   return (
     <>
-      <div className="w-full flex items-center justify-center py-[50px] px-[60px]" id="whitepaper">
-        <div className="p-6 max-w-[1080px] space-x-[3rem] min-h-[454px] border border-1 border-[#B0B0B0] flex flex-row items-center rounded-[13px]">
+      <div className=" flex items-center justify-center bg-[#020B10] pt-[50px] pb-[50px] px-[80px]">
+        <div className="p-6 w-full max-w-[1280px] min-h-[454px] bg-no-repeat bg-cover bg-center flex flex-row items-center rounded-[16px]"
+                    style={{ backgroundImage: `url(${whitepaperbg})` }}>
+        
+        
           <div className="w-[50%]">
             <div className="w-full p-2">
-              <img src={whitepaper} className="w-[453px] h-auto object-cover" alt="whitepaper" />
+              <img src={whitepaperbook} className="w-[453px] h-auto object-cover" alt="whitepaper" />
             </div>
           </div>
           <div className="w-[50%] max-w-[460px] space-y-4 pl-4">
             <div className="w-full p-2 flex flex-col justify-start">
-              <h3 className="text-[30px] font-bold leading-[48px] mb-4">
-                Whitepaper
+              <h3 className="text-[40px] font-[800] leading-[52px] mb-4 bg-gradient-to-r from-white to-[#E5AE00] bg-clip-text text-transparent">
+              BFX Whitepaper
               </h3>
-              <p className="text-[14px]">
-              Explore the BlockchainFX whitepaper to learn how the $BFX token powers a next-gen trading ecosystem and how you will significantly benefit as an early holder. Discover its key features, advantages, and how BlockchainFX is bridging the gap between blockchain and traditional finance by creating the crypto industry's first trading super app.
-              </p>
+              <p className="text-[18px] text-[#ACC4D1] font-[400] leading-[155.5%] tracking-[-0.36px]">
+              Explore the whitepaper to learn how BFX powers a next-gen trading ecosystem. Discover its key features and advantages, and see how BlockchainFX is bridging the gap between blockchain and traditional finance by creating the crypto industry's first trading super app.              </p>
             </div>
 
             <div className="w-full p-2 flex space-x-3 justify-start">
               <button
                 onClick={handleScroll}
-                className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
+                className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[16px] font-[700] border border-[#E5AE00] hover:border-white rounded-[8px] max-w-[143px] w-[100%] h-[50px]"
               >
                 Buy $BFX
               </button>
               <a href="https://vip.blockchainfx.com/BFX-Whitepaper.pdf" target="_blank" rel="noopener noreferrer">
-              <button className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-black bg-transparent text-[14px] font-[800] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[165px] w-[100%] h-[39px]">
+              <button className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-[#E5AE00] bg-transparent text-[16px] font-[700] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[193px] w-[100%] h-[50px]">
               Access Whitepaper
             </button>
               </a>
