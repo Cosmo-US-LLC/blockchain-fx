@@ -10,6 +10,7 @@ import { coinbaseWallet, walletConnect, metaMask } from "@wagmi/connectors";
 import { mainnet, bsc, base } from "@reown/appkit/networks";
 import { createAppKit } from "@reown/appkit";
 import { rpcMap } from "./util";
+import { WALLET_CONNECT_PROJECT_ID } from "../constants";
 
 const metadata = {
   name: "BlockchainFX",
@@ -20,7 +21,7 @@ const metadata = {
 
 export const metaMaskConnector = metaMask();
 export const walletConnectConnector = walletConnect({
-  projectId: process.env.REACT_APP_WALLET_CONNECT_PROJECT_ID,
+  projectId: WALLET_CONNECT_PROJECT_ID,
   name: "BlockchainFX",
   metadata,
   qrModalOptions: {
@@ -56,12 +57,12 @@ export const wagmiAdapter = new WagmiAdapter({
   connectors,
   networks: [mainnet, bsc, base],
   chains: [mainnet, bsc, base],
-  projectId: process.env.REACT_APP_WALLET_CONNECT_PROJECT_ID,
+  projectId: WALLET_CONNECT_PROJECT_ID,
 });
 
 export const walletConnectModal = createAppKit({
   adapters: [wagmiAdapter],
-  projectId: process.env.REACT_APP_WALLET_CONNECT_PROJECT_ID,
+  projectId: WALLET_CONNECT_PROJECT_ID,
   networks: [mainnet, bsc, base],
   metadata,
   themeMode: "light",
