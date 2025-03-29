@@ -32,6 +32,7 @@ import SwapSectionMob from './SwapSectionMob';
 import Whitepaper from '../Home/Whitepaper';
 import WhitepaperMob from './WhitepaperMob';
 import WalletSec from '../Home/WalletSec';
+import CreditCardMob from './CreditCardMob';
 
 function MobileHome() {
     return (
@@ -44,6 +45,7 @@ function MobileHome() {
         <MobileEarnOnSec />
         <MobHowDoesItSec />
         <MobExclusiveSec />
+        <CreditCardMob/>
         <MobilePremiumSec />
         {/* <MobHowToBuySec /> */}
         <MobileLessThanSec />

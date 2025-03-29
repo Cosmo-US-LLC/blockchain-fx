@@ -27,48 +27,46 @@ function MobileGatewaySec() {
 
 
   return (
-    <div className="pt-[24px] pb-[37px] bg-[#FFF]">
+    <div className="pt-[34px] pb-[37px] bg-[#030B10]">
       <div className=" space-y-[33px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
-          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-            The Gateway <br /> To Global Markets
+          <h3 className="text-[36px] font-[600] text-center leading-[120%] text-[#FFF] tracking-[-2.548px]">
+            Earn, Don’t Build
           </h3>
-          <p className="text-[15px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-          Starting a global multi-asset trading platform takes years and significant capital, but by buying $BFX, you can be a part of the international financial market in just two clicks.
-          </p>
+          <p className="text-[15px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[175%] text-[#8497A2] tracking-[-0.32px]">
+          Launching a new trading platform takes a lot of time and resources. Meanwhile, buying $BFX takes seconds and lets you earn every time someone trades.       </p>
         </div>
         <div
-          className="p-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] border border-[#9D9D9D]"
-          style={{
-            background: "rgba(241, 241, 241, 0.36)",
-          }}
+          className="p-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] bg-[#030F16] border border-[#2B2B2B]"
+           
         >
           <div className="flex items-start space-x-[3rem] justify-center">
             <div className="flex space-y-[14px] flex-col items-center justify-start">
               <img className="w-[54px] h-[54px]" src={cardicon1} alt="" />
-              <h3 className="text-[#181A20] text-center text-[20px] font-[700] leading-[105%] tracking-[-1.219] ">
-                New Trading <br /> Platform
+              <h3 className="text-[#A8A8A8] text-center text-[18px] font-[600] leading-[105%] tracking-[-1.219] ">
+                 
+                New Trading <br/> Platform
               </h3>
             </div>
             <div className="flex space-y-[20px] flex-col items-center justify-start">
               <img className="w-[54px] h-[54px]" src={cardicon2} alt="" />
-              <h3 className="text-[#181A20] text-center text-[20px] font-[700] leading-[105%] tracking-[-1.219] ">
+              <h3 className="text-[#A8A8A8] text-center text-[18px] font-[600] leading-[105%] tracking-[-1.219] ">
                 BlockchainFX
               </h3>
             </div>
           </div>
           <div className="space-y-[20px]">
-            <div className="rounded-[16px] border border-[#C2C2C2]">
+            <div className="rounded-[16px] border border-[#2B2B2B]">
               <div className="flex justify-center py-[10px] items-center flex-col">
                 <img className="w-[23px] h-[20.815px]" src={icon1} alt="" />
-                <h4 className="text-[#181A20] font-[700] text-[20px] leading-[105%]">
+                <h4 className="text-[#FFF] font-[700] text-[20px] leading-[105%]">
                   Cost
                 </h4>
               </div>
-              <div className="flex border-t border-[#C2C2C2]">
-                <div className="w-[50%] py-[3px] border-r border-[#C2C2C2]">
-                  <div className="flex justify-center space-x-2 items-center">
-                    <h4 className="text-[#181A20] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+              <div className="flex border-t border-[#2B2B2B]">
+                <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
+                  <div className="flex items-center justify-center space-x-2">
+                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       Up to $5 Million
                     </h4>
                     <div
@@ -88,74 +86,74 @@ function MobileGatewaySec() {
                   </div>
                 </div>
                 <div className="w-[50%] py-[3px]">
-                  <div className="flex justify-center items-center">
-                    <h4 className="text-[#181A20] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                  <div className="flex items-center justify-center">
+                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       Up to you
                     </h4>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="rounded-[16px] border border-[#C2C2C2]">
+            <div className="rounded-[16px] border border-[#2B2B2B]">
               <div className="flex justify-center py-[10px] items-center flex-col">
                 <img className="w-[23px] h-[20.815px]" src={icon2} alt="" />
-                <h4 className="text-[#181A20] font-[700] text-[20px] leading-[105%]">
+                <h4 className="text-[#FFF] font-[700] text-[20px] leading-[105%]">
                   Time{" "}
                 </h4>
               </div>
-              <div className="flex border-t border-[#C2C2C2]">
-                <div className="w-[50%] py-[3px] border-r border-[#C2C2C2]">
-                  <div className="flex justify-center space-x-2 items-center">
-                    <h4 className="text-[#181A20] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+              <div className="flex border-t border-[#2B2B2B]">
+                <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
+                  <div className="flex items-center justify-center space-x-2">
+                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       Up to 3 years
                     </h4>
                   </div>
                 </div>
                 <div className="w-[50%] py-[3px]">
-                  <div className="flex justify-center items-center">
-                    <h4 className="text-[#181A20] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                  <div className="flex items-center justify-center">
+                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       Buy $BFX in 2 clicks
                     </h4>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="rounded-[16px] border border-[#C2C2C2]">
+            <div className="rounded-[16px] border border-[#2B2B2B]">
               <div className="flex justify-center py-[10px] items-center flex-col">
                 <img className="w-[23px] h-[20.815px]" src={icon3} alt="" />
-                <h4 className="text-[#181A20] font-[700] text-[20px] leading-[105%]">
+                <h4 className="text-[#FFF] font-[700] text-[20px] leading-[105%]">
                   Team{" "}
                 </h4>
               </div>
-              <div className="flex border-t border-[#C2C2C2]">
-                <div className="w-[50%] py-[3px] border-r border-[#C2C2C2]">
+              <div className="flex border-t border-[#2B2B2B]">
+                <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
                   <div className="flex justify-center space-x-2 px-[2px] py-[5px] items-center">
-                    <h4 className="text-[#181A20] font-[500] text-center text-[15px] tracking-[-1px] leading-[120%]">
+                    <h4 className="text-[#686868] font-[500] text-center text-[15px] tracking-[-1px] leading-[120%]">
                       Experienced multilingual team working in shifts, 24/7, 365
                       days a year.
                     </h4>
                   </div>
                 </div>
                 <div className="w-[50%] flex items-center justify-center py-[3px]">
-                  <div className="flex justify-center items-center">
-                    <h4 className="text-[#181A20] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                  <div className="flex items-center justify-center">
+                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       No Team required
                     </h4>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="rounded-[16px] border border-[#C2C2C2]">
+            <div className="rounded-[16px] border border-[#2B2B2B]">
               <div className="flex justify-center py-[10px] items-center flex-col">
                 <img className="w-[23px] h-[20.815px]" src={icon4} alt="" />
-                <h4 className="text-[#181A20] font-[700] text-[20px] leading-[105%]">
+                <h4 className="text-[#686868] font-[700] text-[20px] leading-[105%]">
                   Work Scope{" "}
                 </h4>
               </div>
-              <div className="flex border-t border-[#C2C2C2]">
-                <div className="w-[50%] py-[3px] border-r border-[#C2C2C2]">
+              <div className="flex border-t border-[#2B2B2B]">
+                <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
                   <div className="flex justify-center space-x-2 px-[2px] py-[5px] items-center">
-                    <h4 className="text-[#181A20] font-[500] text-start text-[15px] tracking-[-1px] leading-[120%]">
+                    <h4 className="text-[#686868] font-[500] text-start text-[15px] tracking-[-1px] leading-[120%]">
                       Capital Requirements, Marketing & Branding, Liquidity
                       Providers, Risk Management Team, Customer Support,
                       Technology Infrastructure, Partnerships, Development,
@@ -164,8 +162,8 @@ function MobileGatewaySec() {
                   </div>
                 </div>
                 <div className="w-[50%] flex items-center justify-center py-[3px]">
-                  <div className="flex justify-center items-center">
-                    <h4 className="text-[#181A20] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                  <div className="flex items-center justify-center">
+                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       No Work Required
                     </h4>
                   </div>
@@ -174,14 +172,14 @@ function MobileGatewaySec() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center ">
+        {/* <div className="flex items-center justify-center ">
           <button
             className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[102px] w-[100%] h-[40px]"
             onClick={handleScroll}
           >
             Buy $BFX
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

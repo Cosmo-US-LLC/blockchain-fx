@@ -17,15 +17,15 @@ export default function SwapSectionMob() {
 
   return (
     <>
-      <div className="w-full py-[24px] px-[20px]">
+      <div className="w-full py-[24px] px-[20px] bg-[#030B10]">
         <div className="py-6 px-3 space-y-[20px] border border-1 border-[#B0B0B0]  rounded-[13px]">
          
           <div className="w-[100%] space-y-4 ">
-            <div className="w-full p-2 flex flex-col justify-start">
-              <h3 className="text-[30px] font-bold leading-[114%]  text-center mb-4">
+            <div className="flex flex-col justify-start w-full p-2">
+              <h3 className="text-[30px] text-[#FFF] font-bold leading-[114%]  text-center mb-4">
                 Swap Between Assets{" "}
               </h3>
-              <p className="text-[14px] text-center max-w-[350px] mx-auto">
+              <p className="text-[14px] text-[#8497A2] text-center max-w-[350px] mx-auto">
               Experience limitless trading opportunities, like swapping gold for BTC or ETH for Nvidia stock, all in one place. Traditionally, converting crypto into other assets required separate exchanges, extra fees, and long wait times. BlockchainFX streamlines it, making trading faster and easier than ever.
               </p>
             </div>
@@ -39,7 +39,7 @@ export default function SwapSectionMob() {
               />
             </div>
           </div>
-          <div className="w-full p-2 flex justify-center">
+          <div className="flex justify-center w-full p-2">
               <button
                 onClick={handleScroll}
                 className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
