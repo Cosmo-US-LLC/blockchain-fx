@@ -27,6 +27,7 @@ import SwapSectionMob from "./SwapSectionMob";
 import WhitepaperMob from "./WhitepaperMob";
 import MobileWalletSec from "./MobileWalletSec";
 import YoutubeSec from "./YoutubeSec";
+import DemoSec from "./DemoSec";
 
 function MobileHome() {
   return (
@@ -35,6 +36,7 @@ function MobileHome() {
       <MobileWalletSec />
       <YoutubeSec />
       <MobNextGenerationSec />
+      <DemoSec/>
       <MobileTradeOverSec />
       <MobileOneAppSec />
       <MobileEarnOnSec />
