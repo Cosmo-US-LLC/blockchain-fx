@@ -32,6 +32,11 @@ import TheUltimateSec from './TheUltimateSec';
 import FeaturedSec from './FeaturedSec';
 import Whitepaper from './Whitepaper';
 import SwapSection from './SwapSection';
+import Roadmap from './Roadmap';
+import MultiAward from './MultiAward';
+
+
+
 
 function Home() {
     return (
@@ -51,21 +56,17 @@ function Home() {
         <GatewaySec />
         <HyperGrowthSec />
         <StandoutSec/>
-        <WallStreetSec />
-        <TradeLikeSec />
-        {/* <TopAssetsSec /> */}
-        <SwapSection />
+
+
         <LiveNewSec />
-        {/* <StreamlinedSec /> */}
-        <Whitepaper/>
+        <SwapSection />
         <WhatIsSec />
-        <TokenAllocationSec />
-        <TokenDetailsSec />
         <SecurityBuiltSec />
-        <RoadmapSec />
-        {/* <OurAwardSec /> */}
-        {/* <ExpertsworkingSec /> */}
-        {/* <PressMediaSec /> */}
+        <Whitepaper/>
+        <TokenAllocationSec />
+        <Roadmap/>
+        <MultiAward/>
+        <PressMediaSec />
         <TraderReviewsSec />
         <FaqSec />
         <TheUltimateSec />

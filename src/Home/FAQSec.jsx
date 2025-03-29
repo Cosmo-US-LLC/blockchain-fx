@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 import faqicn1 from "../assets/faqs/image (3).svg";
-import faqicn2 from "../assets/faqs/image (4).svg";
+import faqicn2 from "../assets/faqs/down.png";
+import up from "../assets/faqs/arrow-circle-right.png";
 const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   const createMarkup = () => ({ __html: answer });
   const contentStyles = {
@@ -12,48 +13,31 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   };
 
   return (
-    <div className="mb-[20px]">
+    <div className="mb-[20px] overflow-hidden rounded-[16px] border border-[#000] bg-[#030F16]">
       <div
-       className={`border flex justify-between py-[10px] px-[10px] bg-[#FFF] rounded-[4px] items-center cursor-pointer ${
-        isOpen ? "border-[#000]" : "border-[#000]"
-      }  border-solid`}
+        className={`flex cursor-pointer items-center justify-between px-[21px] py-[28px]`}
         onClick={handleClick}
       >
-        <div
-        
-        className="flex items-center justify-center">
-          <div className={`text-[16px] text-[#000] font-[600]`}>{question}</div>
-        </div>
-
-        <h4
-          className={`text-[18px] xs:text-[10px] rounded-full w-[26px] h-[26px] xs:h-[16px] xs:w-[16px]  flex items-center justify-center plusIcon  ${
-            !isOpen
-              ? "text-[#C3BABA] border-none rotate-0"
-              : " border-none text-[#c3baba]"
-          }`}
-        >
+        <div className="text-[24px] font-[600] text-white">{question}</div>
+        <div className="h-[26px] w-[26px]">
           {isOpen ? (
-            <>
-              <div>
-                <img src={faqicn1} alt="" />
-              </div>
-            </>
+            <img src={up} alt="Close" />
           ) : (
-            <>
-              <div>
-                <img src={faqicn2} alt="" />
-              </div>
-            </>
+            <img src={faqicn2} alt="Open" />
           )}
-        </h4>
-      </div>
-      <div style={contentStyles}>
-        <div className="w-[100%]  px-[25px] py-[20px]">
-          <p
-            className="pb-[10px]  text-[16px] text-[#000] leading-[150%] font-[400]"
-            dangerouslySetInnerHTML={createMarkup()}
-          />
         </div>
+      </div>
+      <div
+        className={`px-[25px] transition-all duration-300 ease-in-out ${
+          isOpen
+            ? "max-h-[1000px] pb-[20px] opacity-100"
+            : "max-h-0 py-0 opacity-0"
+        }`}
+      >
+        <p
+          className="text-[16px] max-w-[880px] font-[400] leading-[150%] text-[#8497A2]"
+          dangerouslySetInnerHTML={createMarkup()}
+        />
       </div>
     </div>
   );
@@ -105,13 +89,13 @@ const FaqSec = () => {
 
   return (
     <>
-      <div className="bg-[#FAFAFA]" id="faq">
-        <div className=" w-[100%] max-w-[990px] space-y-[35px] py-[50px] mx-auto px-[105px]">
-          <div className="text-center space-y-[40px]">
-            <h2 className="text-[#000] leading-[100%] text-[30px] font-[600]">
+      <div className="bg-[#020B10]" id="faq">
+        <div className=" w-[100%] max-w-[1280px] space-y-[35px] pt-[30px] pb-[60px] mx-auto ">
+          <div className="text-center space-y-[10px]">
+            <h2 className="text-white leading-[120%] text-[48px] font-[600]">
               FAQs
             </h2>
-            <p className="text-[14px] font-[400] text-[#000] text-center">
+            <p className="text-[18px] font-[400] text-[#ACC4D1] text-center">
             Find answers to some of the most common questions.
             </p>
           </div>

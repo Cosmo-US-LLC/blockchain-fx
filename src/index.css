@@ -115,6 +115,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1280px; /* Or your desired maximum width */
+  margin: auto
 }
 .bgtheyltmob {
   background-image: url(../src/assets/TheUltimateSec/bgmob.webp);
