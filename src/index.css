@@ -147,3 +147,12 @@ p {
   cursor: auto !important;
   pointer-events: none !important;
 }
+
+/* Custom slider spacing */
+.roadmap-slider .slick-list {
+  margin: 0 -7px;
+}
+.roadmap-slider .slick-slide > div {
+  padding: 0 7px;
+  height: 100%; /* Ensures equal height */
+}
