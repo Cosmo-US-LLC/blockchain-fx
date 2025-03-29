@@ -63,7 +63,7 @@ const BuyTab = () => {
       paymentTokenNum = 1
       setPaymentTokenNumStr("1")
     }
-    setReceiveTokenNumStr(roundToDP(paymentTokenNum * parseNum(selectedToken.price), 2))
+    setReceiveTokenNumStr(roundToDP(paymentTokenNum * parseNum(selectedToken.price) / parseNum(apiData.stage?.token_price ?? 1), 2))
     prevTokenRef.current = selectedToken
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedToken])
