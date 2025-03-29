@@ -56,11 +56,11 @@ function MobileHome() {
         <SwapSectionMob />
         <MobLiveNewSec />
         {/* <MobStreamlinedSec /> */}
-        <WhitepaperMob />
         <MobWhatIsSec />
         <MobTokenAllocationSec />
-        <MobTokenDetailsSec />
         <MobSecurityBuiltSec />
+        <WhitepaperMob />
+        <MobTokenDetailsSec />
         <MobRoadmapSec />
         <MobOurAwardSec />
         {/* <MobExpertsworkingSec /> */}
