@@ -35,14 +35,7 @@ function App() {
     <div className="bg-[#fff]">
       <ToastContainer />
       <Toaster position="bottom-center" />
-      {isMobile ? (
-        <div className="flex flex-col">
-          <LivePresale />
-          <NavbarMobile />
-        </div>
-      ) : (
-        <Navbar />
-      )}
+      {isMobile ? <NavbarMobile /> : <Navbar />}
       <Routes>
         <Route path="/" element={isMobile ? <MobileHome /> : <Home />} />
         <Route path="/terms-of-service" element={<TermsofService />} />
