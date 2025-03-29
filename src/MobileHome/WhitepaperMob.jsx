@@ -1,4 +1,4 @@
-import whitepaper from "../assets/Whitepaper/whitepaperBook.png";
+import whitepaper from "../assets/Whitepaper/whitepaperbook.png";
 import whitepaperBg from "../assets/Whitepaper/whitepaper_bg.png";
 // import whitepaper from "../assets/Whitepaper/whitepaper.webp";
 
