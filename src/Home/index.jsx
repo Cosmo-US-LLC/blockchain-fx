@@ -37,19 +37,26 @@ import MultiAward from './MultiAward';
 
 
 
+import ExpertSaysSec from './ExpertSaysSec';
+import BlockchainFXDemo from './BlockchainFXDemo';
+import CreditCard from './CreditCard';
+
 
 function Home() {
     return (
       <div className="">
         <Herosection />
-        {/* <FeaturedSec /> */}
+        <FeaturedSec />
         <WalletSec />
+        <ExpertSaysSec />
         <NextGenerationSec />
+        <BlockchainFXDemo />
         <TradeOverSec/>
         <OneAppSec />
         <EarnOnSec />
         <HowDoesItSec />
         <ExclusiveBenefitsSec/>
+        <CreditCard />
         <PremiumSec />
         {/* <HowToBuySec /> */}
         <LessThanSec />

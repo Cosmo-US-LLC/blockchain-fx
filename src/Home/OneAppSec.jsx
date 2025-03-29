@@ -39,14 +39,14 @@ function OneAppSec() {
   };
 
   return (
-    <div className="py-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx-coin">
+    <div className="py-[50px] bg-[#020B10] overflow-hidden" id="what-is-bfx-coin">
      <div className="max-w-[1300px] w-[100%] mx-auto relative">
      <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[473px] space-y-[20px]">
-          <h3 className="text-[30px] capitalize font-[700] leading-normal text-[#181A20] tracking-[-1px] text-start">
+          <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
             Everything In One App
           </h3>
-          <p className="text-[14px] text-[#181A20] font-[400] leading-[150%] leading-[-0.32px] text-start">
+          <p className="text-[20px] text-[#ACC4D1] font-[400] leading-[150%] leading-[-0.32px] text-start">
           A lightning-fast and innovative trading solution
           </p>
           <div className="">
@@ -69,7 +69,7 @@ function OneAppSec() {
                     </div>
                     <div className="w-[80%]">
                       <div className="flex justify-between items-center">
-                        <h3 className="text-[18px] leading-[142.44%] font-[600] text-[#000]">
+                        <h3 className="text-[22px] leading-[142.44%] font-[600] text-[#fff]">
                           {item.title}
                         </h3>
                         <div>
@@ -81,7 +81,7 @@ function OneAppSec() {
                         </div>
                       </div>
                       <p
-                        className={`mt-[12px] text-[14px] leading-[161.598%] font-[400] text-[#000] max-w-[248px] overflow-hidden transition-all duration-300 ${
+                        className={`mt-[12px] text-[18px] leading-[161.598%] font-[400] text-[#8497A2] max-w-[248px] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"

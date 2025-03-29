@@ -48,13 +48,14 @@ const WalletSec = () => {
   const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(null);
 
   return (
-    <div className="pt-[42px] pb-[35px]" id="how-to-buy">
+    <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="how-to-buy">
       <div
-        className="space-y-[30px] px-[67px]  py-[20px] bg-[#FFF] max-w-[955px] w-[100%] mx-auto border border-[#D4D4D4] rounded-[8px] <md:px-6 <sm:px-4"
+        className="space-y-[30px] px-[67px]  py-[26px]  max-w-[1200px] w-[100%] mx-auto border border-[#575757] rounded-[8px] <md:px-6 <sm:px-4"
         id="Wallet"
       >
+        <div className="pb-[20px]">
         <div className="flex justify-center space-x-3 items-center">
-          <h3 className="text-[30px] font-[700] tracking-[-1px]">
+          <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
             BFX Presale
           </h3>
           {!apiData.presaleEnded && (
@@ -65,6 +66,10 @@ const WalletSec = () => {
               Live
             </div>
           )}
+        </div>
+        <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]"> 
+        BFX is the world’s first cryptocurrency backed by a global multi-asset trading platform, where holders earn real USDT rewards anytime someone trades — even during the presale.
+        </p>
         </div>
 
         {apiData.presaleEnded && (
@@ -79,17 +84,20 @@ const WalletSec = () => {
             </h4>
           </div>
         )}
-        <div className="flex justify-between gap-8 <md:flex-col">
+        <div className="flex justify-center gap-6 <md:flex-col">
           <Widget />
           <div
             style={{
-              background: "rgba(247, 247, 247, 0.70)",
+              background: "linear-gradient(212deg, rgb(207 207 207 / 25%) 0.66%, rgba(23, 23, 23, 0.68) 49.48%, rgb(30 30 30 / 22%) 103.45%)",
+              borderRadius: "26.227px",
+      border:" 0.663px solid #FFF",
+      backdropFilter: "blur(13.031462669372559px)"
             }}
-            className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[10px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
+            className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[25px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
           >
             <div className="w-[100%] absolute top-0 left-0 -translate-y-1/2">
-              <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#f9f9f9]">
-                <h3 className="text-[9.875px] text-[#444] text-center w-[100px] font-[700]  ">
+              <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#000]">
+                <h3 className="text-[9.875px] text-[#fff] text-center w-[100px] font-[700]  ">
                   How To Buy
                 </h3>
               </div>
@@ -98,7 +106,7 @@ const WalletSec = () => {
               {items.map((item, index) => (
                 <div
                   key={index}
-                  className={`py-[15px] px-1 border-b last:border-none  transition-all duration-300`}
+                  className={`py-[15px] px-1 border-b border-[#545454] last:border-none  transition-all duration-300`}
                 >
                   <div
                     className="flex justify-between items-center cursor-pointer"
@@ -111,7 +119,7 @@ const WalletSec = () => {
                             className={`text-[14px] capitalize font-[600] ${
                               index === selectedHowToBuyStep
                                 ? "text-[#E5AE00]"
-                                : "text-[#181A20] "
+                                : "text-[#fff] "
                             }`}
                           >
                             {item.title}
@@ -135,7 +143,7 @@ const WalletSec = () => {
                         <div
                           className={` transition-all duration-300 desc  ${
                             index === selectedHowToBuyStep
-                              ? "max-h-[200px] opacity-100 mt-[8px]  text-[11.688px] font-[400] text-[#000] overflow-hidden block"
+                              ? "max-h-[200px] opacity-100 mt-[8px]  text-[11.688px] font-[400] text-[#D0D0D0] overflow-hidden block"
                               : "max-h-0 hidden opacity-0 text-[11.688px]"
                           }`}
                           style={{
@@ -150,17 +158,14 @@ const WalletSec = () => {
                 </div>
               ))}
             </div>
-            <div className="space-y-[14px]">
-              <h4 className="text-[#181A20] text-[14px] font-[600] px-1">
+            <div className="space-y-[14px] border-t border-[#545454] pt-2">
+              <h4 className="text-[#fff] text-[14px] font-[600] px-1">
                 5. Launch
               </h4>
               <div
-                className="max-w-[414px] px-[10px] pt-[14px] pb-[16px] border border-[#B0B0B0] w-[100%] mx-auto "
-                style={{
-                  background: "rgba(237, 237, 237, 0.40)",
-                }}
+                className="max-w-[414px] px-[6px] pt-[14px] pb-[16px] border border-[#545454] w-[100%] mx-auto "
               >
-                <div className="flex flex-col gap-[12px]">
+                <div className="flex flex-col gap-[10px]">
                   <h4 className="text-start text-[#808080] text-[9.875px] leading-[75%] font-[600]">
                     $BFX Launches On Multiple Top-Tier Exchanges
                   </h4>
@@ -176,7 +181,7 @@ const WalletSec = () => {
                         className="w-[14.813px] h-[14.813px]"
                         alt=""
                       />
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>
@@ -189,7 +194,7 @@ const WalletSec = () => {
                       }}
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#F0B90B] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>
@@ -202,7 +207,7 @@ const WalletSec = () => {
                       }}
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#0052FE] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>
@@ -215,7 +220,7 @@ const WalletSec = () => {
                       }}
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#00F0FF] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>
@@ -228,7 +233,7 @@ const WalletSec = () => {
                       }}
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#7635F5] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>
@@ -238,7 +243,7 @@ const WalletSec = () => {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           className="px-[28px] pt-[10px] pb-[10px] border border-[#B0B0B0] w-[100%] mx-auto "
           style={{
             background: "rgba(237, 237, 237, 0.40)",
@@ -252,7 +257,7 @@ const WalletSec = () => {
               <img src={cer} className="" alt="" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
