@@ -241,48 +241,49 @@ const BuyTab = () => {
     <>
       <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full">
         <div
-          className="px-[11px] py-[9px] space-y-[5px] border border-[#D3D3D3]"
+          className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
           style={{
-            background: "rgba(237, 237, 237, 0.40)",
+            background: "#000",
           }}
         >
-          <h3 className="text-center text-[21.64px] leading-[100%] font-[700]">
+          <h3 className="text-center text-[#fff] text-[32.476px] leading-[100%] font-[700]">
             {formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
           </h3>
           <div className="pt-3">
             <div className="flex justify-between items-center pb-1">
-              <span className="text-[#444] text-[9.74px] font-[400] leading-[100%]">
+              <span className="text-[#fff] text-[9.74px] font-[400] leading-[100%]">
                 {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
               </span>
               <img src={info} className="w-[6.912px] h-[6.912px]" alt="" />
             </div>
-            <div className="bg-[#E5E7EB] w-[100%] h-[4.938px] rounded-[20px]">
+            <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
               <div
-                className="bg-[#E5AE00] h-[4.938px] rounded-[20px]"
+                className="bg-[#E5AE00] h-[10px] rounded-[20px]"
                 style={{ width: `${stageFrac * 100}%` }}
               />
             </div>
             <div>
-              <p className="text-[#444] text-end text-[9.74px] font-[400] leading-[150%]">
+              <p className="text-[#fff] text-end text-[9.74px] font-[400] leading-[150%]">
                 {formatDollar(apiData.stage?.next_stage_target_usd, true, 0, 0)}
               </p>
             </div>
           </div>
-          <h5 className="text-[#444] text-[9.74px] text-center font-[400] leading-[100%]">
+          <h5 className="text-[#fff] text-[9.74px] text-center font-[400] leading-[100%]">
             {formatNumber(apiData.info?.transactions, 0, 0)} Transactions
           </h5>
         </div>
         <div
-          className="px-[24px] py-[7px] border border-[#D3D3D3]"
+          className="px-[24px] py-[7px] rounded-[14.596px]"
           style={{
-            background: "rgba(237, 237, 237, 0.40)",
+            background: "rgba(255, 255, 255, 0.09)",
+            backdropFilter:"blur(12.145808219909668px)"
           }}
         >
-          <h4 className="text-center text-[#636363] text-[9.875px] leading-[75%] font-[700]">
-            Listing Price: 1 $BFX = ${formatNumber(LISTING_PRICE)}
+          <h4 className="text-center text-[#fff] text-[9.875px] leading-[75%] font-[700]">
+            Listing Price: <span className="text-[#FBD914]"> 1 $BFX = ${formatNumber(LISTING_PRICE)}</span>
           </h4>
         </div>
-        <div>
+        <div className="text-[#fff] rounded-[8px] overflow-hidden">
           <TokenSelectDropdown
             tokenList={{
               currencies:
@@ -317,24 +318,29 @@ const BuyTab = () => {
         </div>
         <div className="flex justify-center items-center py-[0px] space-x-[15px]">
           <hr className="h-[1px] flex-1" />
-          <span className="text-[#636363] mx-4 text-[9.618px] font-[700] leading-[75%]">
+          <span className="text-[#fff] mx-4 text-[9.618px] font-[700] leading-[75%]">
             1 $BFX = ${formatNumber(parseNum(apiData.stage?.token_price))}
           </span>
           <hr className="h-[1px] flex-1" />
         </div>
-        <div className="">
-          <label className="text-[#2F2F2F] text-[8.888px] font-[700] leading-[8.888px]">
+        <div className="px-2 pb-2 rounded-[8px]"
+         style={{
+          background: "rgba(255, 255, 255, 0.09)",
+          backdropFilter:"blur(12.145808219909668px)"
+        }}
+        >
+          <div className="  px-1 flex justify-between items-center">
+            <div className="w-[80%]">
+          <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
             You Pay in{" "}
             {selectedToken?.symbol.toUpperCase() === "CARD"
               ? "USD"
               : selectedToken?.symbol.toUpperCase()}
             :
           </label>
-          <div className="border h-[30.612px] border-[#454545] p-1 flex justify-between items-center">
-            <div className="w-[80%] flex items-center space-x-2">
               <input
                 type="text"
-                className="h-[17.281px] w-[100%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
+                className="h-[17.281px] w-[100%] text-[#fff] text-[14.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
                 placeholder="0"
                 value={paymentTokenNumStr}
                 onFocus={(e) => {
@@ -363,7 +369,7 @@ const BuyTab = () => {
                 }}
               />
             </div>
-            <div className="relative border px-[4px] w-[74px]">
+            <div className="relative border px-[4px] rounded-[8px] w-[74px]">
               <div className="justify-start flex h-[24px] items-center space-x-[3px]">
                 {selectedToken && (
                   <>
@@ -373,7 +379,7 @@ const BuyTab = () => {
                       alt=""
                     />
                     <div className="flex flex-col">
-                      <span className="text-[#545454] !overflow-hidden !text-clip text-[8.888px] font-[700]">
+                      <span className="text-[#fff] !overflow-hidden !text-clip text-[8.888px] font-[700]">
                         {selectedToken?.symbol.toUpperCase() === "CARD"
                           ? "USD"
                           : selectedToken?.symbol.toUpperCase()}
@@ -392,8 +398,16 @@ const BuyTab = () => {
             </div>
           </div>
         </div>
-        <div className="">
-          <label className="text-[#2F2F2F] text-[8.888px] font-[700] leading-[8.888px]">
+        <div className="px-2 pb-2 rounded-[8px]"
+         style={{
+          background: "rgba(255, 255, 255, 0.09)",
+          backdropFilter:"blur(12.145808219909668px)"
+        }}>
+         
+          <div className=" px-1 flex justify-between items-center">
+            {/* <div className="relative max-w-[75px] "></div> */}
+            <div className="w-[80%] ">
+            <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
             You Receive $BFX
             {wouldReceiveRank && <>
               {" "}+{" "}
@@ -405,12 +419,9 @@ const BuyTab = () => {
               </span>
             </>}
           </label>
-          <div className="border h-[30px] border-[#454545] p-1 flex justify-between items-center">
-            {/* <div className="relative max-w-[75px] "></div> */}
-            <div className="w-[80%] flex items-center h-[17.281px] space-x-2">
               <input
                 type="text"
-                className="h-[17.281px] w-[80%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
+                className="h-[17.281px] w-[80%] text-[14.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] text-[#fff] placeholder:opacity-50"
                 placeholder="0"
                 value={receiveTokenNumStr}
                 onFocus={(e) => {
@@ -439,14 +450,14 @@ const BuyTab = () => {
                 }}
               />
             </div>
-            <div className="relative w-[74px] border px-[4px] ">
+            <div className="relative w-[74px] border rounded-[8px] px-[4px] ">
               <div className="justify-start flex h-[24px]  items-center space-x-[5px] cursor-pointer">
                 <img
                   className="w-[15.8px] h-[15.8px] object-cover"
                   src={bfxicn}
                   alt=""
                 />
-                <span className="text-[#545454] text-[8.888px] font-[700] leading-[50px]">
+                <span className="text-[#fff] text-[8.888px] font-[700] leading-[50px]">
                   BFX
                 </span>
               </div>
@@ -459,7 +470,7 @@ const BuyTab = () => {
               if (accountData.isConnected) buy()
               else showConnectWalletModal()
             }}
-            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
+            className="text-[#000] bg-[#E5AE00] px-[12px] rounded-[8px] hover:text-[#E5AE00] hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#E5AE00] w-[100%] h-[32.094px]"
           >
             {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Connect Wallet" : "Buy Now"))}
           </button>
@@ -497,7 +508,7 @@ const BuyTab = () => {
           ref={(el) => setCodesContainerRef(el)}
         >
           <button
-            className="text-[8.888px] font-[700] underline cursor-pointer"
+            className="text-[8.888px] text-[#fff] font-[700] underline cursor-pointer"
             onClick={() =>
               setCodeInputVisible((code) => (code === "bonus" ? null : "bonus"))
             }
@@ -505,7 +516,7 @@ const BuyTab = () => {
             Bonus Code
           </button>
           <button
-            className="text-[8.888px] font-[700] underline cursor-pointer"
+            className="text-[8.888px] text-[#fff] font-[700] underline cursor-pointer"
             onClick={() =>
               setCodeInputVisible((code) =>
                 code === "referral" ? null : "referral"

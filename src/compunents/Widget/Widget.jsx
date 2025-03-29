@@ -22,7 +22,10 @@ const Widget = () => {
   return (
     <div
       style={{
-        background: "rgba(247, 247, 247, 0.70)",
+        background: "linear-gradient(212deg, rgb(207 207 207 / 25%) 0.66%, rgba(23, 23, 23, 0.68) 49.48%, rgb(30 30 30 / 22%) 103.45%)",
+        borderRadius: "26.227px",
+border:" 0.663px solid #FFF",
+backdropFilter: "blur(13.031462669372559px)"
       }}
       className="flex flex-col max-w-[413.763px] gap-[10px] relative rounded-[6.419px] px-[33px] pt-[28px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto min-h-[600px] <md:px-[20px] <md:min-h-[400px]"
     >
@@ -33,10 +36,10 @@ const Widget = () => {
             className={clsx(
               "text-[9.875px] text-center w-[100px] <md:w-[80px] font-[700] h-[30.612px] border border-[#454545] flex items-center justify-center rounded-[6px]",
               {
-                "bg-[#f9f9f9] text-[#444]": selectedTab !== tab
+                "bg-[#020B10] text-[#fff]": selectedTab !== tab
               },
               {
-                "!bg-[#e5ae00] !text-[#fff]": selectedTab === tab,
+                "!bg-[#e5ae00] !text-[#000]": selectedTab === tab,
               },
               {
                 "cursor-not-allowed": !accountData?.address && needsWalletConnected.has(tab.key)
