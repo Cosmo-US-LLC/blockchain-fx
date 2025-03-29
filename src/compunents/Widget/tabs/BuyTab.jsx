@@ -218,7 +218,7 @@ const BuyTab = () => {
     const levelIncrease = (paymentUsd + (usdPerLevel - usdToNextLevel)) / usdPerLevel
     const wouldBeLevel = currentLevel + levelIncrease
     const wouldReceiveRank = [...ranks].sort((a, b) => b.level - a.level).find((rank) => wouldBeLevel >= rank.level) ?? null
-    if (wouldReceiveRank === currentRank) return null
+    if (wouldReceiveRank?.rank === currentRank?.rank) return null
     return wouldReceiveRank
   }, [currentLevel, usdPerLevel, paymentTokenNumStr, selectedToken?.price, ranks, usdToNextLevel, currentRank])
 
