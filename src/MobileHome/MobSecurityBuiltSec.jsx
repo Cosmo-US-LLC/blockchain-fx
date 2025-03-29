@@ -22,8 +22,7 @@ function MobSecurityBuiltSec() {
             user-friendly experience for traders.
           </p>
         </div>
-        <div className=" grid grid-cols-2 gap-y-[3rem]  " 
-        >
+        <div className=" grid grid-cols-2 gap-y-[3rem]">
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon1} className="max-h-[40px]" alt="" />
             <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-white text-center"><br /> DSS</h4>
