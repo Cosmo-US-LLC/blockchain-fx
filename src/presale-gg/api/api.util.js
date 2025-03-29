@@ -351,7 +351,7 @@ export const getUserRanks = (address) => {
 
 /**
  * @param {string} address
- * @returns {Promise<AxiosResponse<null>>}
+ * @returns {Promise<AxiosResponse<API.UserRankData>>}
  */
 export const levelUpUser = (address) => {
   return apiFetch(`/projects/${project}/wallet/${address}/levels`, {

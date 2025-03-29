@@ -204,8 +204,7 @@ export const userLevelUp = async () => {
   const { config } = await getConfig();
   const { address, isConnected } = getAccount(config);
   if (!address || !isConnected) return;
-  await api.levelUpUser(address);
-  const res = await api.getUserRanks(address);
+  const res = await api.levelUpUser(address);
   $userState.setKey("rankData", res.data);
 };
 
