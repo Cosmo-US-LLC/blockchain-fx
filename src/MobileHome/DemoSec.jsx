@@ -5,6 +5,7 @@ import demo from "../assets/presale-v3/demo.webp";
 function DemoSec() {
   return (
     <div
+      id="MobileDemo"
       style={{
         border: "1.5px solid",
         borderRadius: "24px",

@@ -19,6 +19,21 @@ function MobileHero() {
     }, 200);
   };
 
+  const handleScrollToDemo = () => {
+    setTimeout(() => {
+      const element = document.getElementById("MobileDemo");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
+
   return (
     <div className="pt-[22px] pb-[2rem] bg-[#020B10]">
       <div className="w-[90%] mx-auto ">
@@ -86,23 +101,32 @@ function MobileHero() {
               Buy $BFX
             </button>
 
-            <a
+            {/* <a
               href="https://vip.blockchainfx.com/whitepaper.pdf"
               target="_blank"
               className=""
               rel="noopener noreferrer"
+            > */}
+            <button
+              onClick={handleScrollToDemo}
+              className="w-[144px] hover:text-white hover:bg-[#E5AE00] px-[14px] text-[#E6B005] bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px]  h-[48px]"
             >
-              <button className="w-[144px] hover:text-white hover:bg-[#E5AE00] px-[14px] text-[#E6B005] bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px]  h-[48px]">
-                Watch Demo
-              </button>
-            </a>
+              Watch Demo
+            </button>
+            {/* </a> */}
           </div>
           <div className="flex justify-center pt-[15px]">
             <img src={stats_1} className="h-auto w-[390px]" alt="stats_1" />
           </div>
           <div className="gap-2 border border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 mt-4">
-            <p className="font-[600] text-[15px] text-center text-[white]">Featured In:</p>
-            <img src={featured_in} className="h-auto w-[390px]" alt="featured_in" />
+            <p className="font-[600] text-[15px] text-center text-[white]">
+              Featured In:
+            </p>
+            <img
+              src={featured_in}
+              className="h-auto w-[390px]"
+              alt="featured_in"
+            />
           </div>
         </div>
       </div>
