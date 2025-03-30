@@ -157,6 +157,7 @@ function ExpertSaysSec() {
         <div className="absolute bottom-[0%] right-[0%]">
           <img src={ernvet1} className="" alt="" />
         </div>
+
       </div>
     </div>
   );
