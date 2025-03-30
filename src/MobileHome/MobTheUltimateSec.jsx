@@ -18,7 +18,7 @@ function MobTheUltimateSec() {
     }, 200); 
   };
   return (
-    <div className="bg-black p-5">
+    <div className="p-5 bg-black">
       <div className="bgtheyltmob h-[410px] w-full !bg-cover !bg-center rounded-xl">
         <div className="flex items-center h-[410px]  justify-center w-full">
         <div className=" pb-[50px] pt-[30px] space-y-[15px]">
@@ -30,7 +30,7 @@ function MobTheUltimateSec() {
               Trading Platform
               </h3>
               <div className="flex justify-center pt-[10px] items-center  space-x-[17px]">
-              <button className="text-black bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[12px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[88px] h-[31px]"
+              <button className="text-black bg-[#E5AE00]   px-[14px] hover:text-black hover:bg-transparent text-[12px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[88px] h-[31px]"
               onClick={handleScroll}
               >
                 Buy $BFX

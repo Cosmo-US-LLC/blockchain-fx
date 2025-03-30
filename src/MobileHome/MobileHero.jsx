@@ -92,7 +92,7 @@ function MobileHero() {
               className=""
               rel="noopener noreferrer"
             >
-              <button className="w-[144px] hover:text-white hover:bg-[#E5AE00] px-[14px] text-[#E6B005] bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px]  h-[48px]">
+              <button  className="w-[144px] hover:text-white hover:bg-[#E5AE00] px-[14px] text-[#E6B005] bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px]  h-[48px]">
                 Watch Demo
               </button>
             </a>

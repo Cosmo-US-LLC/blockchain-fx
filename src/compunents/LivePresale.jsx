@@ -2,6 +2,20 @@ import React from "react";
 import live_cards from "../assets/presale-v3/live_cards.svg";
 
 function LivePresale() {
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 80;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
   return (
     <div
       className="h-[38px] flex flex-row justify-between items-center p-2"
@@ -12,7 +26,7 @@ function LivePresale() {
     >
       <p className="font-[600] text-[11px]">BFX Presale is Live</p>
       <img src={live_cards} alt="live_cards" className="" />
-      <button className="text-[10px] font-[700] border border-1 border-[black] rounded-[3px] h-[22px] w-[64px]">
+      <button onClick={handleScroll} className="text-[10px] font-[700] border border-1 border-[black] rounded-[3px] h-[22px] w-[64px]">
         Buy BFX
       </button>
     </div>
