@@ -5,12 +5,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
-import cardicn1 from "../assets/HowDoesItSec/icns (1).svg";
-import cardicn2 from "../assets/HowDoesItSec/icns (2).svg";
-import cardicn3 from "../assets/HowDoesItSec/icns (3).svg";
-import cardicn4 from "../assets/HowDoesItSec/icns (4).svg";
-import cardicn5 from "../assets/HowDoesItSec/icns (5).svg";
-import cardicn6 from "../assets/HowDoesItSec/icns (6).svg";
+import cardicn1 from "../assets/HowDoesItSec/icns (1) copy.svg";
+import cardicn2 from "../assets/HowDoesItSec/icns (2) copy.svg";
+import cardicn3 from "../assets/HowDoesItSec/icns (3) copy.svg";
+import cardicn4 from "../assets/HowDoesItSec/icns (4) copy.svg";
+import cardicn5 from "../assets/HowDoesItSec/icns (5) copy.svg";
+import cardicn6 from "../assets/HowDoesItSec/icns (6) copy.svg";
 
 const cardItems = [
   {
