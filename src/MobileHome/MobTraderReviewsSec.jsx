@@ -134,6 +134,14 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
                           35.2K Followers
                         </h4>
+                        <a
+                          href="https://x.com/LacosteBtc/status/1899365804845548013"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#E5AE00] text-[14px] font-[600]"
+                        >
+                          View X Review →
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -166,6 +174,14 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
                           472K followers
                         </h4>
+                        <a
+                          href="https://x.com/MrX_Crypto/status/1900845071240515647"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-3 text-[#E5AE00] text-[14px] font-[600]"
+                        >
+                          View X Review →
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -198,6 +214,14 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
                           863K followers
                         </h4>
+                        <a
+                          href="https://x.com/silvinaescudero/status/1900845896302027108"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-3 text-[#E5AE00] text-[14px] font-[600]"
+                        >
+                          View X Review →
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -230,6 +254,14 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
                           30.3K followers
                         </h4>
+                        <a
+                          href="https://x.com/defi_avaxx/status/1900847259874627732"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-3 text-[#E5AE00] text-[14px] font-[600]"
+                        >
+                          View X Review →
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -263,6 +295,14 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
                           121.8K followers
                         </h4>
+                        <a
+                          href="https://x.com/HoneyEth_/status/1900870121477820837"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-3 text-[#E5AE00] text-[14px] font-[600]"
+                        >
+                          View X Review →
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -295,6 +335,14 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
                           79.6K followers
                         </h4>
+                        <a
+                          href="https://x.com/cryptobri_/status/1901419367289512075"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#E5AE00] text-[14px] font-[600]"
+                        >
+                          View X Review →
+                        </a>
                       </div>
                     </div>
                   </div>
