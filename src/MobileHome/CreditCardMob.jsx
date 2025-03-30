@@ -35,11 +35,11 @@ function CreditCardMob() {
   return (
     <div className="pt-[34px] pb-[34px] px-6 bg-[#030B10]">
       <div className="relative flex flex-col gap-8 rounded-[16px] px-6 py-6 border border-[#E7B2092B] overflow-hidden">
-        <img
+        {/* <img
           src={ellipse}
-          className="max-w-[400px] h-[450px]  absolute top-[-15%] left-[-20%]  "
+          className="absolute"
           alt=""
-        />
+        /> */}
         <h3 className="text-[32px] text-left capitalize font-[600] leading-[128%] tracking-[-2.52px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">
           BFX Visa Card
         </h3>

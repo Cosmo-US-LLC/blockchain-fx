@@ -7,15 +7,15 @@ import "swiper/css/navigation";
 import swpbtn from "../assets/PremiumSec/arw.svg";
 import swpbtn2 from "../assets/PremiumSec/arw2.svg";
 
-
 import tradimg from "../assets/TraderReviewsSec/tradimg.png";
 import user from "../assets/TraderReviewsSec/image.png";
 import fram from "../assets/TraderReviewsSec/fram.png";
+import user1 from "../assets/TraderReviewsSec/rew (5).png";
+import user2 from "../assets/TraderReviewsSec/rew (4).png";
+import user3 from "../assets/TraderReviewsSec/rew (3).png";
+import user4 from "../assets/TraderReviewsSec/rew (2).png";
+import user5 from "../assets/TraderReviewsSec/rew (1).png";
 import usern from "../assets/TraderReviewsSec/user.png";
-import user1 from "../assets/TraderReviewsSec/Imager.png";
-import user2 from "../assets/TraderReviewsSec/Image2.png";
-import user3 from "../assets/TraderReviewsSec/image3.png";
-import user4 from "../assets/TraderReviewsSec/image4.png";
 import tick from "../assets/TraderReviewsSec/teenyicons_tick-circle-solid.svg";
 import swpbtnl from "../assets/TraderReviewsSec/arwr.svg";
 import swpbtnr from "../assets/TraderReviewsSec/arw.svg";
@@ -115,21 +115,21 @@ function MobTraderReviewsSec() {
                     /> */}
                     <p className="h-[100px] text-[10px] font-[400] leading-[175%] text-[#fff]">
                       Finally, a platform that gets it right! I traded CFDs,
-                      bought APPLE stocks, sold them for GBY, and grabbed some
-                      $PEPE, all within 30 minutes. Highly recommend it for both
-                      beginners and pros!
+                      bought Apple stocks, sold them for GBP, and grabbed some
+                      $PEPE, all within five minutes. Highly recommended for
+                      beginners and pros alike.
                     </p>
                     <div className="flex items-center space-x-2">
                       <img src={usern} className="h-[26px] w-[26px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
-                            PrimeNic.eth
+                            LacosteBtc
                           </h3>
                           <img src={tick} alt="" />
                         </div>
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
-                          @primenic_eth
+                          @LacosteBtc
                         </h4>
                       </div>
                     </div>
@@ -143,21 +143,22 @@ function MobTraderReviewsSec() {
                       alt=""
                     /> */}
                     <p className="h-[100px] text-[10px] font-[400] leading-[175%] text-[#fff]">
-                      That’s exactly what we needed. A trading broker designed
-                      to bridge crypto with Forex, ETFs, and stocks, giving you
-                      real access to the markets with deep liquidity.
+                      Trading on 9 different windows and having access to dozens
+                      of trading analytic tools and risk management is giving me
+                      a long-term edge over the competition trading on other
+                      platforms.
                     </p>
                     <div className="flex items-center space-x-2">
-                      <img src={user2} className="w-[26px] h-[26px]" alt="" />
+                      <img src={user1} className="w-[26px] h-[26px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
-                            winny.eth
+                            Mr 𝕏
                           </h3>
                           <img src={tick} alt="" />
                         </div>
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
-                          @winnyeth
+                          @MrX_Crypto
                         </h4>
                       </div>
                     </div>
@@ -171,22 +172,22 @@ function MobTraderReviewsSec() {
                       alt=""
                     /> */}
                     <p className="text-[10px] h-[100px] font-[400] leading-[175%] text-[#fff]">
-                      BlockchainFX has completely leveled up my trading game.
-                      It's super intuitive, lets you access multiple markets
-                      simultaneously, and offers lightning-fast transactions. A
-                      huge win for crypto!
+                      BlockchainFX gives you endless trading opportunities. This
+                      just makes sense since markets are interconnected.
+                      Finally, there’s no need to waste time switching between
+                      brokers.
                     </p>
                     <div className="flex items-center space-x-2">
-                      <img src={user} className="w-[25px] h-[25px]" alt="" />
+                      <img src={user2} className="w-[25px] h-[25px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
-                            Blacik.ko
+                            Silvina Escudero
                           </h3>
                           <img src={tick} alt="" />
                         </div>
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
-                          @blakieko
+                          @silvinaescudero
                         </h4>
                       </div>
                     </div>
@@ -229,21 +230,52 @@ function MobTraderReviewsSec() {
                       alt=""
                     /> */}
                     <p className="text-[10px] h-[100px] font-[400] leading-[175%] text-[#fff]">
-                      BlockchainFX gives you endless trading opportunities. This
-                      just makes sense since markets are interconnected. Finally
-                      there’s no need to waste time switching between brokers.
+                      The best part about BlockchainFX? The deep liquidity
+                      across all assets. I’ve never had an issue filling large
+                      orders, even with niche crypto pairs. This is exactly what
+                      serious traders need—speed, reliability, and a wide range
+                      of markets all in one place.
                     </p>
                     <div className="flex items-center space-x-2">
                       <img src={user4} className="w-[26px] h-[26px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
-                            Gohan.ox
+                            DefiAva🦋
                           </h3>
                           <img src={tick} alt="" />
                         </div>
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
-                          @Gohanox
+                          @defi_avaxx
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <div className="bg-[#181A20] border border-[#525252]  py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] relative rounded-[4px] max-w-[233.388px] mx-auto space-y-[30px]">
+                    {/* <img
+                      src={fram}
+                      className="absolute left-[-20%] top-[-7%] min-w-[325px] min-h-[300px] z-[-1]"
+                      alt=""
+                    /> */}
+                    <p className="text-[10px] h-[100px] font-[400] leading-[175%] text-[#fff]">
+                      That’s exactly what we needed. A trading broker designed
+                      to bridge Crypto with Forex, ETFs, and stocks, giving you
+                      real access to the markets with deep liquidity.
+                    </p>
+                    <div className="flex items-center space-x-2">
+                      <img src={user5} className="w-[26px] h-[26px]" alt="" />
+                      <div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
+                            Crypto Bri
+                          </h3>
+                          <img src={tick} alt="" />
+                        </div>
+                        <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
+                          @cryptobri_
                         </h4>
                       </div>
                     </div>
