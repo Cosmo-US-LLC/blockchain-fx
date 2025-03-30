@@ -42,10 +42,21 @@ export default function WhitepaperMob() {
           </div>
 
           <div className="flex items-center justify-center gap-3">
-            <button onClick={handleScroll} className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]">
+            <button
+              onClick={handleScroll}
+              className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]"
+            >
               Buy BFX
             </button>
-            <button className="rounded-[10px] bg-black border border-[#E6B005] text-[#E6B005] w-[178px] h-[50px] py-1">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://vip.blockchainfx.com/BFX-Whitepaper.pdf",
+                  "_blank"
+                )
+              }
+              className="rounded-[10px] bg-black border border-[#E6B005] text-[#E6B005] w-[178px] h-[50px] py-1"
+            >
               Access Whitepaper
             </button>
           </div>

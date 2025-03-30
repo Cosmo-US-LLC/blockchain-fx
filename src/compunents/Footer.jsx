@@ -116,14 +116,14 @@ function Footer() {
               Join Our Socials
             </h4>
             <div className="flex space-x-6 pt-[10px] pb-[20px]">
-            <a
+            {/* <a
                 href="https://www.facebook.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-110"
               >
                 <img src={socil0} alt="" />
-              </a>
+              </a> */}
               <a
                 href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D"
                 target="_blank"
@@ -296,14 +296,14 @@ function Footer() {
               Join Our Socials
             </h4>
             <div className="flex space-x-6">
-              <a
+              {/* <a
                 href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-110"
               >
                 <img className="w-[24px] h-[24px]" src={socil0} alt="" />
-              </a>
+              </a> */}
               <a
                 href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D"
                 target="_blank"
@@ -369,7 +369,7 @@ function Footer() {
           </div>
         </div> */}
         <div>
-          <p className="text-[10px] text-center text-[#8497A2] leading-[100%]">
+          <p className="text-[10px] text-center text-[#8497A2] leading-[100%] mb-8">
             Copyright 2025. All Rights Reserved.
           </p>
         </div>

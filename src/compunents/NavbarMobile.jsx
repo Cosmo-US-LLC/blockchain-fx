@@ -103,9 +103,8 @@ function NavbarMobile() {
   const modalData = useModalState();
 
   return (
-    <div className="relative h-[100px]">
+    <div className="relative h-[64px]">
       <div className="fixed w-[100%] bg-[#020B10] z-[999]">
-        <LivePresale />
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
           <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
             <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">

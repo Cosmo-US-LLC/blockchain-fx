@@ -116,7 +116,7 @@ function NextGenerationSec() {
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center pt-[30px] space-x-[17px]">
+          {/* <div className="flex justify-center items-center pt-[30px] space-x-[17px]">
             <button
               onClick={handleScroll}
               className="text-[#000] bg-[#E5AE00] px-[12px] hover:text-[#E5AE00] hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
@@ -126,7 +126,7 @@ function NextGenerationSec() {
             <button className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E5AE00] bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
               Beta Trading
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
