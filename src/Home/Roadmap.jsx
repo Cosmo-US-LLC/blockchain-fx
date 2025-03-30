@@ -156,7 +156,7 @@ function RoadmapSection() {
   ];
 
   return (
-    <div className="bg-[#020B10] pt-[30px] pb-[60px]">
+    <div className="bg-[#020B10] pt-[30px] pb-[60px]" id="roadmap">
       <h3 className="text-center text-[48px] font-[600] leading-[120%] text-white tracking-[-1.5px] mb-28">
         Roadmap <br />
         <span className="text-[#E5AE00] text-xl">

@@ -54,7 +54,7 @@ function CreditCard() {
           </div>
           </div>
           <div className="w-[54%] flex items-center flex-col justify-center  min-h-[460px] space-y-[20px]  rounded-[11px]">
-            <video width="500" className="!rounded-[11px]" height="260" playsinline  controls={false} autoPlay muted loop>
+            <video width="500" className="!rounded-[11px]" height="260" playsInline  controls={false} autoPlay muted loop>
              <source src={creditVideo} type="video/mp4" />
            </video>
            <div className="">

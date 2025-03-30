@@ -10,7 +10,7 @@ function MobileEarnOnSec() {
 
     if (video) {
       video.muted = true;
-      video.setAttribute("playsinline", "");
+      video.setAttribute("playsInline", "");
       video.setAttribute("muted", "");
       video.play().catch((error) => {
         console.log("Autoplay failed. Error:", error);

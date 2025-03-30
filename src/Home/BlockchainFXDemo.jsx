@@ -47,7 +47,7 @@ function BlockchainFXDemo() {
               width="920"
               height=""
               controls={false}
-              playsinline
+              playsInline
               autoPlay
               muted
               loop
