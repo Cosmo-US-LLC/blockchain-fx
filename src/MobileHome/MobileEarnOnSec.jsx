@@ -58,7 +58,7 @@ function MobileEarnOnSec() {
             BFX holders earn daily staking rewards in BFX and USDT, powered by
             BlockchainFX trading fees. Every time someone trades on the app,
             holders get rewarded. The more BFX a person holds, the more they
-            earn — up to a  maximum of 25,000 USDT per day.{" "}
+            earn — up to a maximum of 25,000 USDT per day.{" "}
           </p>
         </div>
 

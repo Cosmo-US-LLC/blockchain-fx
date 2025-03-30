@@ -27,7 +27,7 @@ export default function WhitepaperMob() {
           // }}
         >
           <div className="w-[100%] space-y-4 ">
-            <div className="w-full p-2 flex flex-col justify-start">
+            <div className="flex flex-col justify-start w-full p-2">
               <h3 className="text-[30px] text-center font-[500] leading-[115%] mb-4 text-white tracking-tighter">
                 BFX Whitepaper
               </h3>
@@ -41,8 +41,8 @@ export default function WhitepaperMob() {
             </div>
           </div>
 
-          <div className="flex justify-center items-center gap-3">
-            <button className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]">
+          <div className="flex items-center justify-center gap-3">
+            <button onClick={handleScroll} className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]">
               Buy BFX
             </button>
             <button className="rounded-[10px] bg-black border border-[#E6B005] text-[#E6B005] w-[178px] h-[50px] py-1">
@@ -59,7 +59,7 @@ export default function WhitepaperMob() {
               />
             </div>
           </div>
-          {/* <div className="w-full p-2 space-x-2 flex justify-center">
+          {/* <div className="flex justify-center w-full p-2 space-x-2">
             <button
               onClick={handleScroll}
               className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[110px] w-[100%] h-[39px]"

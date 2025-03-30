@@ -52,16 +52,16 @@ function MobileHome() {
         <MobileGatewaySec />
         <MobHyperGrowthSec />
         <MobStandoutSec />
-        <MobileWallStreetSec />
-        <MobTadeLikeSec />
+        {/* <MobileWallStreetSec /> */}
+        {/* <MobTadeLikeSec /> */}
         {/* <MobTopAssetsSec /> */}
         <SwapSectionMob />
         <MobLiveNewSec />
         {/* <MobStreamlinedSec /> */}
         <WhitepaperMob />
         <MobWhatIsSec />
-        <MobTokenAllocationSec />
-        <MobTokenDetailsSec />
+        {/* <MobTokenAllocationSec /> */}
+        {/* <MobTokenDetailsSec /> */}
         <MobSecurityBuiltSec />
         <WhitepaperMob />
         <MobTokenDetailsSec />

@@ -1,10 +1,27 @@
 import React from "react";
 import ellipse2 from "../assets/presale-v3/ellipse2.svg";
 import demo from "../assets/presale-v3/demo.webp";
+import liveVideo from "../assets/BlockchainFXDemo/live.mp4";
+
 
 function DemoSec() {
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
   return (
     <div
+      id="MobileDemo"
       style={{
         border: "1.5px solid",
         borderRadius: "24px",
@@ -24,10 +41,14 @@ function DemoSec() {
           ETFs, CFDs, and more — all streamlined on one platform with no need to
           switch brokers.
         </p>
-        <img src={demo} className="w-[404px] h-auto" alt="demo" />
+        {/* <img src={demo} className="w-[404px] h-auto" alt="demo" /> */}
+                      <video width="920" height="" controls={false} playsinline  autoPlay muted loop>
+          <source src={liveVideo} type="video/mp4" />
+        </video>
       </div>
-      <div className="flex w-full items-center justify-center  mb-[30px]">
+      <div className="flex w-full items-center justify-center mt-8  mb-[30px]">
         <button
+        onClick={handleScroll}
           style={{
             background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
           }}

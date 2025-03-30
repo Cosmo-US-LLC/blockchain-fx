@@ -11,13 +11,13 @@ import qArw from "../assets/PremiumSec/qArw.webp";
 import faq1 from "../assets/PremiumSec/faq (1).svg";
 import faq2 from "../assets/PremiumSec/faq (2).svg";
 import line from "../assets/PremiumSec/line.png";
-import cardimg1 from "../assets/PremiumSec/cardimg (1).webp";
-import cardimg2 from "../assets/PremiumSec/cardimg (2).webp";
-import cardimg3 from "../assets/PremiumSec/cardimg (3).webp";
-import cardimg4 from "../assets/PremiumSec/cardimg (4).webp";
-import cardimg5 from "../assets/PremiumSec/cardimg (5).webp";
-import cardimg6 from "../assets/PremiumSec/cardimg (6).webp";
-import cardimg7 from "../assets/PremiumSec/cardimg (7).webp";
+import cardimg1 from "../assets/PremiumSec/card1.webp";
+import cardimg2 from "../assets/PremiumSec/card2.webp";
+import cardimg3 from "../assets/PremiumSec/card3.webp";
+import cardimg4 from "../assets/PremiumSec/card4.webp";
+import cardimg5 from "../assets/PremiumSec/card5.webp";
+import cardimg6 from "../assets/PremiumSec/card6.webp";
+import cardimg7 from "../assets/PremiumSec/card7.webp";
 
 const cardsmob = [
   {
@@ -338,18 +338,18 @@ function MobilePremiumSec() {
                       </ul>
                     </div>
                     <div className="flex justify-start">
-                      <a
+                      {/* <a
                         href="https://forms.gle/MqeUsLeJPwxt4gfC7"
                         target="_blank"
                         rel="noopener noreferrer"
-                      >
+                      > */}
                         <button
                           className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[40px]"
                           onClick={handleScroll}
                         >
                           {card.buttonLabel}
                         </button>
-                      </a>
+                      {/* </a> */}
                     </div>
                   </div>
                 </SwiperSlide>
