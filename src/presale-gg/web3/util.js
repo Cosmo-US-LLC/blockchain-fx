@@ -56,7 +56,7 @@ export const getBalanceOfWalletAddress = async (
 
   if (tokenContractAddress) {
     const abi = getAbi(chainId);
-    if (!abi) throw "Invalid abi";
+    if (!abi) throw new Error ("Invalid abi");
 
     const tokens = await client.readContract({
       abi,

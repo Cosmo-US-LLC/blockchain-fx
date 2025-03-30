@@ -1,21 +1,18 @@
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import starticn from "../assets/PremiumSec/start.svg";
-import arw from "../assets/PremiumSec/preawr (1).svg";
-import faq1 from "../assets/PremiumSec/faq (1).svg";
-import faq2 from "../assets/PremiumSec/faq (2).svg";
-import line from "../assets/PremiumSec/line.png";
+import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import Iicon from "../assets/Gateway/i.svg";
 import cardimg1 from "../assets/PremiumSec/cardimg (1).webp";
 import cardimg2 from "../assets/PremiumSec/cardimg (2).webp";
 import cardimg3 from "../assets/PremiumSec/cardimg (3).webp";
 import cardimg4 from "../assets/PremiumSec/cardimg (4).webp";
 import cardimg5 from "../assets/PremiumSec/cardimg (5).webp";
 import cardimg6 from "../assets/PremiumSec/cardimg (6).webp";
-import Iicon from "../assets/Gateway/i.svg";
 import cardimg7 from "../assets/PremiumSec/cardimg (7).webp";
+import faq1 from "../assets/PremiumSec/faq (1).svg";
+import arw from "../assets/PremiumSec/preawr (1).svg";
 
 const cards = [
   {

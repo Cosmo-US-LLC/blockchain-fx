@@ -8,7 +8,7 @@ import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 function BlockchainFXDemo() {
   
   return (
-    <div className="flex items-center bg-[#020B10] py-[50px]">
+    <div className="flex items-center bg-[#020B10] py-[50px]" id="desktopDemo">
       <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border border-[#E6AF03] bg-[#030F16] relative rounded-[24px]">
         
             <div className="flex justify-end items-center gap-5 relative z-[99]">
