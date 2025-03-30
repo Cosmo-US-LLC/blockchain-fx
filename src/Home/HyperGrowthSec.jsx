@@ -8,14 +8,15 @@ function HyperGrowthSec() {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
       if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
         const offset = 50;
         window.scrollTo({
           top: elementPosition - offset,
-          behavior: "smooth"
+          behavior: "smooth",
         });
       }
-    }, 200); 
+    }, 200);
   };
 
   return (
@@ -23,16 +24,20 @@ function HyperGrowthSec() {
       <div className="max-w-[1200px] relative overflow-hidden bg-[#030F16] py-[50px] rounded-[16px] space-y-[35px] w-[100%] mx-auto ">
         <div className="space-y-[14px]">
           <h3 className="text-[40px] font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
-            Hyper Growth Model
+            Designed for Exponential Growth
           </h3>
           <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
-          BlockchainFX is a community-driven trading platform that rewards users with daily staking rewards, fostering a loyal and active community.  As the platform grows, so does the token, creating a cycle of rewards and engagement. Studies* show that incentivized communities can  grow significantly faster than others, and BFX is designed to maximize that potential.
+            BlockchainFX is a community-powered trading platform that rewards
+            BFX holders daily. As the platform grows, so does the token —
+            creating a powerful cycle of growth and engagement. Studies* show
+            that incentivized communities can grow significantly faster than
+            others, and BFX is designed to maximize that potential.
           </p>
         </div>
         <div
           className="space-y-[53px] bg-[#030F16] rounded-[10.672px] p-[53.32px] w-[667px] h-[413px] mx-auto"
           style={{
-            border: "1px solid #2B2B2B"
+            border: "1px solid #2B2B2B",
             // box-shadow: 0px 5.336px 26.68px 0px rgba(169, 169, 169, 0.30);
           }}
         >
@@ -58,8 +63,9 @@ function HyperGrowthSec() {
           </div>
         </div>
         <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
-        (*Source: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)
-          </p>
+          (*Source: Harvard Business Review, When Community Becomes Your
+          Competitive Advantage, 2020)
+        </p>
         {/* <div className="flex justify-center items-center">
           <button
             onClick={handleScroll}
@@ -68,12 +74,12 @@ function HyperGrowthSec() {
             Buy $BFX
           </button>
         </div> */}
-         <div className="absolute top-[-8%] left-[-5%]">
-                            <img src={ernvet2} className=" " alt="" />
-                          </div>
-                          <div className="absolute bottom-[0%] right-[0%]">
-                            <img src={ernvet1} className="" alt="" />
-                          </div>
+        <div className="absolute top-[-8%] left-[-5%]">
+          <img src={ernvet2} className=" " alt="" />
+        </div>
+        <div className="absolute bottom-[0%] right-[0%]">
+          <img src={ernvet1} className="" alt="" />
+        </div>
       </div>
     </div>
   );
