@@ -29,6 +29,8 @@ import MobileWalletSec from "./MobileWalletSec";
 import YoutubeSec from "./YoutubeSec";
 import DemoSec from "./DemoSec";
 import CreditCardMob from './CreditCardMob';
+import MobPressMediaSec from './MobPressMediaSec';
+import MobOurAwardSec from './MobOurAwardSec';
 
 function MobileHome() {
     return (
