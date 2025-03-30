@@ -24,7 +24,7 @@ function TokenAllocationSec() {
   };
  
   return (
-    <div className="bg-[#020B10] pt-[50px] pb-[50px] px-[80px]">
+    <div className="bg-[#020B10] pt-[50px] pb-[50px] px-[80px]" id="allocation">
       <div className="space-y-[10px] pb-[50px]">
           <h3 className="text-[48px] font-[600] text-center leading-[120%] text-white tracking-[-3.36px]">
           Token Details

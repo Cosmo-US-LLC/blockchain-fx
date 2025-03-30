@@ -54,6 +54,7 @@ function EarnOnSec() {
             $BFX is the first cryptocurrency to offer USDT staking rewards on every transaction made within a global multi-asset trading platform. Whenever someone trades on BlockchainFX, you earn. The more $BFX you hold, <br /> the more USDT you receive.
             </p>
             <button
+             onClick={handleScroll}
               className="text-[#000] bg-[#E5AE00] px-[12px] hover:text-[#E5AE00] hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
             >
               Buy $BFX
