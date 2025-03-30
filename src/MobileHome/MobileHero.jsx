@@ -1,7 +1,7 @@
 import React from "react";
 import hero_reviews from "../assets/presale-v3/hero_reviews.png";
-import stars from "../assets/herosection/stars.webp";
-import heroVideo from "../assets/herosection/herogif.gif";
+import stats_1 from "../assets/presale-v3/stats_1.webp";
+import featured_in from "../assets/presale-v3/featured_in.svg";
 
 function MobileHero() {
   const handleScroll = () => {
@@ -98,34 +98,12 @@ function MobileHero() {
             </a>
           </div>
           <div className="flex justify-center pt-[15px]">
-            <img src={heroVideo} className="" alt="" />
-            {/* <video
-              width={500}
-              height={410}
-              className="max-h-[550px]"
-              muted
-              autoPlay="autoplay"
-              preload="auto"
-              playsInline
-              loop
-            >
-              <source src={heroVideo} type="video/webm" />
-            </video> */}
+            <img src={stats_1} className="h-auto w-[390px]" alt="stats_1" />
           </div>
-
-          {/* <div className="border rounded-[6px] py-[20px] !mt-[20px] px-[13px]">
-            <h3 className="text-center text-[15px] font-[600]">Featured In:</h3>
-            <div className="flex justify-center items-center space-x-[9px]">
-              <img className="h-[14px] !mt-[2px]" src={herobnr2} alt="" />
-              <img className="" src={fobicn} alt="" />
-              <img className="h-[17px]" src={herobnr4} alt="" />
-              <img
-                className="max-w-[100.25px] h-[11.7px]"
-                src={herobnr5}
-                alt=""
-              />
-            </div>
-          </div> */}
+          <div className="gap-2 border border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 mt-4">
+            <p className="font-[600] text-[15px] text-center text-[white]">Featured In:</p>
+            <img src={featured_in} className="h-auto w-[390px]" alt="featured_in" />
+          </div>
         </div>
       </div>
     </div>

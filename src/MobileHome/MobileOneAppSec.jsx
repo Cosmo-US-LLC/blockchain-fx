@@ -22,7 +22,7 @@ const items = [
   {
     icon: oneicon3,
     title: "Risk Management",
-    description: "Comprehensive risk management features to minimize risks.",
+    description: "Downside risk can be easily managed with stop-losses, limit orders, and customizable settings.",
   },
   {
     icon: oneicon4,
@@ -43,10 +43,10 @@ function MobileOneAppSec() {
      <div className="w-[90%] mx-auto relative">
      <div className="space-y-[30px]">
         <div className="space-y-[15px]">
-        <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] leading-[-1px] ">
+        <h3 className="text-[34px] font-[600] text-left leading-[114%] text-[white] leading-[-1px] ">
             Everything In One App
           </h3>
-          <p className="text-[15px] text-[#181A20] text-center font-[400] leading-[127.778%] leading-[-0.32px] ">
+          <p className="text-[15px] text-[#8497A2] text-left font-[400] leading-[127.778%] leading-[-0.32px] ">
           A lightning-fast and innovative trading solution
           </p>
         </div>
@@ -68,24 +68,24 @@ function MobileOneAppSec() {
                       <img
                         src={item.icon}
                         alt={item.title}
-                        className="w-[61.446px] h-[61.446px]"
+                        className="w-[35] h-[35px]"
                       />
                     </div>
                     <div className="w-[80%]">
                       <div className="flex justify-between items-center">
-                        <h3 className="text-[15px] font-[600] text-[#000]">
+                        <h3 className="text-[20px] font-[700] text-[white]">
                           {item.title}
                         </h3>
                         <div>
                           <img
                             src={index === activeIndex ? iconcls : iconapon}
                             alt={index === activeIndex ? "Collapse" : "Expand"}
-                            className="w-4 h-4"
+                            className="w-[37] h-[37px]"
                           />
                         </div>
                       </div>
                       <p
-                        className={`mt-[8px] text-[15px] font-[400] text-[#000] max-w-[400px] overflow-hidden transition-all duration-300 ${
+                        className={`mt-[8px] text-[15px] font-[400] text-[#8497A2] max-w-[400px] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"

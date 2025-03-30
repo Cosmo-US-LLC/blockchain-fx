@@ -1,0 +1,110 @@
+import { useState } from "react";
+import stars from "../assets/presale-v3/Stars.svg";
+import eclipse from "../assets/presale-v3/eclipse.svg";
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+
+export default function YoutubeSec() {
+  const [videoIndex, setVideoIndex] = useState(0);
+
+  const videoData = [
+    {
+      description:
+        "“Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”",
+      link: "https://www.youtube.com/watch?v=WyfOYLbvCf8",
+      id: "big_pottential",
+      dealer: "— Crypto Volt",
+      meta: "Crypto Youtuber, 178K Followers",
+    },
+    {
+      description:
+        "“Forex, indices, stocks, ETFs, even options — you can trade them all in one place. It’s the first platform of its kind.”",
+      link: "https://www.youtube.com/watch?v=p2WCv5vBL-Q",
+      id: "hidden_gem",
+      dealer: "— Crypto Dealer",
+      meta: "Youtuber, 102K Followers",
+    },
+  ];
+
+  const handleNextVideo = () => {
+    if (videoIndex < videoData.length - 1) {
+      setVideoIndex(videoIndex + 1);
+    }
+  };
+
+  const handlePrevVideo = () => {
+    if (videoIndex > 0) {
+      setVideoIndex(videoIndex - 1);
+    }
+  };
+
+  return (
+    <div className="relative p-2">
+      <img className="absolute" src={eclipse} alt="eclipse" />
+      <div
+        style={{
+          border: "1.5px solid",
+          borderRadius: "24px",
+          borderImageSource:
+            "linear-gradient(95.63deg, rgba(230, 175, 3, 0.3) 1.76%, rgba(29, 111, 66, 0) 99.42%)",
+          borderImageSlice: 1,
+        }}
+        className="max-w-[413.763px] pb-[11px] w-[100%] h-[520px] px-4"
+      >
+        <div className="flex flex-row items-center p-2 justify-between mt-4">
+          <img className="" src={stars} alt="stars" />
+          {/* Arrow Buttons Container */}
+          <div className="flex justify-between gap-2">
+            {/* Previous Button */}
+            <div
+              onClick={handlePrevVideo}
+              className={`w-[28px] h-[28px] flex justify-center items-center rounded-[6px] cursor-pointer ${
+                videoIndex > 0 ? "bg-[#E5AE00]" : "bg-[#616161]"
+              }`}
+            >
+              <MdKeyboardArrowLeft
+                className={`text-${videoIndex > 0 ? "black" : "white"} text-2xl`}
+              />
+            </div>
+
+            {/* Next Button */}
+            <div
+              onClick={handleNextVideo}
+              className={`w-[28px] h-[28px] flex justify-center items-center rounded-[6px] cursor-pointer ${
+                videoIndex < videoData.length - 1
+                  ? "bg-[#E5AE00]"
+                  : "bg-[#616161]"
+              }`}
+            >
+              <MdKeyboardArrowRight
+                className={`text-${videoIndex < videoData.length - 1 ? "black" : "white"} text-2xl`}
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className="text-[white] font-[500] text-[20px] text-left">
+            {videoData[videoIndex].description}
+          </p>
+          <p className="text-[#D8D8D8] font-[600] text-[15px] mt-2">
+            {videoData[videoIndex].dealer}
+          </p>
+          <p className="text-[#898989] font-[400] text-[13px]">
+            {videoData[videoIndex].meta}
+          </p>
+          <div className="mt-2">
+            <iframe
+              width="100%"
+              height="200px"
+              src={videoData[videoIndex].link.replace("watch?v=", "embed/")}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="YouTube video"
+              style={{ borderRadius: "12px" }}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
