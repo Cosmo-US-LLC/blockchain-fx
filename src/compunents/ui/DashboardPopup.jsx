@@ -218,7 +218,7 @@ const DashboardPopup = ({ onClose }) => {
   return (
     <div className="fixed flex items-center inset-0 bg-black bg-opacity-50 h-[100vh] !z-[999]">
       <div className=" 2xl:flex xl:flex w-[100%] max-w-[1240px] mx-auto pt-[20px] flex justify-end items-center]">
-        <div className="w-[700px] mx-auto bg-white rounded-lg relative <md:w-[500px] max-w-[calc(100vw-1rem)]">
+        <div className="w-[700px] mx-auto bg-white rounded-lg relative md:w-[500px] max-w-[calc(100vw-1rem)]">
           <div className="flex justify-center">
             <div className="border-[#B0B0B0] bg-[#F5F5F5] absolute top-[-2.5%] border rounded-[5.725px] py-[0px] mx-auto w-[190px]">
               <p className="text-[16px] font-[700] text-center">
