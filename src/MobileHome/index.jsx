@@ -28,6 +28,7 @@ import WhitepaperMob from "./WhitepaperMob";
 import MobileWalletSec from "./MobileWalletSec";
 import YoutubeSec from "./YoutubeSec";
 import DemoSec from "./DemoSec";
+import CreditCardMob from './CreditCardMob';
 
 function MobileHome() {
     return (
@@ -42,6 +43,7 @@ function MobileHome() {
         <MobileEarnOnSec />
         <MobHowDoesItSec />
         <MobExclusiveSec />
+        <CreditCardMob/>
         <MobilePremiumSec />
         {/* <MobHowToBuySec /> */}
         <MobileLessThanSec />
