@@ -131,6 +131,9 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
                           @LacosteBtc
                         </h4>
+                        <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
+                          35.2K Followers
+                        </h4>
                       </div>
                     </div>
                   </div>
@@ -159,6 +162,9 @@ function MobTraderReviewsSec() {
                         </div>
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
                           @MrX_Crypto
+                        </h4>
+                        <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
+                          472K followers
                         </h4>
                       </div>
                     </div>
@@ -189,6 +195,9 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
                           @silvinaescudero
                         </h4>
+                        <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
+                          863K followers
+                        </h4>
                       </div>
                     </div>
                   </div>
@@ -217,6 +226,9 @@ function MobTraderReviewsSec() {
                         </div>
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
                           @shinymo
+                        </h4>
+                        <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
+                          30.3K followers
                         </h4>
                       </div>
                     </div>
@@ -248,6 +260,9 @@ function MobTraderReviewsSec() {
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
                           @defi_avaxx
                         </h4>
+                        <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
+                          121.8K followers
+                        </h4>
                       </div>
                     </div>
                   </div>
@@ -276,6 +291,9 @@ function MobTraderReviewsSec() {
                         </div>
                         <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
                           @cryptobri_
+                        </h4>
+                        <h4 className="text-[#CFCFCF] text-[11px] font-[400] italic">
+                          79.6K followers
                         </h4>
                       </div>
                     </div>
