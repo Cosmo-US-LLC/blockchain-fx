@@ -6,6 +6,21 @@ import liveVideo from "../assets/BlockchainFXDemo/live.mp4";
 import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 function BlockchainFXDemo() {
+
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth"
+        });
+      }
+    }, 200); 
+  };
+
   return (
     <div className="flex items-center bg-[#020B10] py-[50px]" id="desktopDemo">
       <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border border-[#E6AF03] bg-[#030F16] relative rounded-[24px]">
@@ -28,7 +43,9 @@ function BlockchainFXDemo() {
               need to switch brokers.
             </p>
             <div className="flex justify-start pt-[20px] pb-[0px] items-center space-x-[17px]">
-              <button className="text-[#000] bg-[#E5AE00] px-[12px] hover:text-[#E6B005] hover:bg-transparent text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]">
+              <button
+               onClick={handleScroll}
+              className="text-[#000] bg-[#E5AE00] px-[12px] hover:text-[#E6B005] hover:bg-transparent text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]">
                 Buy $BFX
               </button>
 
