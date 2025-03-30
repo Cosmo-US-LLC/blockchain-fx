@@ -3,7 +3,6 @@ import ellipse2 from "../assets/presale-v3/ellipse2.svg";
 import demo from "../assets/presale-v3/demo.webp";
 import liveVideo from "../assets/BlockchainFXDemo/live.mp4";
 
-
 function DemoSec() {
   const handleScroll = () => {
     setTimeout(() => {
@@ -42,13 +41,13 @@ function DemoSec() {
           switch brokers.
         </p>
         {/* <img src={demo} className="w-[404px] h-auto" alt="demo" /> */}
-                      <video width="920" height="" controls={false} playsinline  autoPlay muted loop>
+        <video width="640" height="660" autoPlay playsInline muted loop>
           <source src={liveVideo} type="video/mp4" />
         </video>
       </div>
       <div className="flex w-full items-center justify-center mt-8  mb-[30px]">
         <button
-        onClick={handleScroll}
+          onClick={handleScroll}
           style={{
             background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
           }}

@@ -65,8 +65,8 @@ function Home() {
         <StandoutSec/>
 
 
-        <LiveNewSec />
-        <SwapSection />
+        {/* <LiveNewSec /> */}
+        {/* <SwapSection /> */}
         <WhatIsSec />
         <SecurityBuiltSec />
         <Whitepaper/>

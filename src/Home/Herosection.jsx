@@ -85,7 +85,7 @@ function Herosection() {
               >
                 <img className="" src={stars} alt="" />
                 <p className="text-[#fff] font-[400] text-[17.702px]">
-                  4.79/5{" "}
+                  4.87/5{" "}
                 </p>
               </div>
             </div>

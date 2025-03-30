@@ -28,53 +28,54 @@ import WhitepaperMob from "./WhitepaperMob";
 import MobileWalletSec from "./MobileWalletSec";
 import YoutubeSec from "./YoutubeSec";
 import DemoSec from "./DemoSec";
-import CreditCardMob from './CreditCardMob';
-import MobPressMediaSec from './MobPressMediaSec';
-import MobOurAwardSec from './MobOurAwardSec';
+import CreditCardMob from "./CreditCardMob";
+import MobPressMediaSec from "./MobPressMediaSec";
+import MobOurAwardSec from "./MobOurAwardSec";
+import LivePresale from "../compunents/LivePresale";
 
 function MobileHome() {
-    return (
-      <div className="bg-[#020B10]">
-        <MobileHero />
-        <MobileWalletSec />
-        <YoutubeSec />
-        <MobNextGenerationSec />
-        <DemoSec/>
-        <MobileTradeOverSec />
-        <MobileOneAppSec />
-        <MobileEarnOnSec />
-        <MobHowDoesItSec />
-        <MobExclusiveSec />
-        <CreditCardMob/>
-        <MobilePremiumSec />
-        {/* <MobHowToBuySec /> */}
-        <MobileLessThanSec />
-        <MobileGatewaySec />
-        <MobHyperGrowthSec />
-        <MobStandoutSec />
-        {/* <MobileWallStreetSec /> */}
-        {/* <MobTadeLikeSec /> */}
-        {/* <MobTopAssetsSec /> */}
-        <SwapSectionMob />
-        <MobLiveNewSec />
-        {/* <MobStreamlinedSec /> */}
-        <WhitepaperMob />
-        <MobWhatIsSec />
-        {/* <MobTokenAllocationSec /> */}
-        {/* <MobTokenDetailsSec /> */}
-        <MobSecurityBuiltSec />
-        <WhitepaperMob />
-        <MobTokenDetailsSec />
-        <MobRoadmapSec />
-        <MobOurAwardSec />
-        {/* <MobExpertsworkingSec /> */}
-        <MobPressMediaSec />
-        <MobTraderReviewsSec />
-        <MobFaqSec />
-        <MobTheUltimateSec />
-      </div>
-    );
-  }
-  
-  export default MobileHome;
-  
+  return (
+    <div className="bg-[#020B10]">
+      <MobileHero />
+      <MobileWalletSec />
+      <YoutubeSec />
+      <MobNextGenerationSec />
+      <DemoSec />
+      <MobileTradeOverSec />
+      <MobileOneAppSec />
+      <MobileEarnOnSec />
+      <MobHowDoesItSec />
+      <MobExclusiveSec />
+      <CreditCardMob />
+      <MobilePremiumSec />
+      {/* <MobHowToBuySec /> */}
+      <MobileLessThanSec />
+      <MobileGatewaySec />
+      <MobHyperGrowthSec />
+      <MobStandoutSec />
+      {/* <MobileWallStreetSec /> */}
+      {/* <MobTadeLikeSec /> */}
+      {/* <MobTopAssetsSec /> */}
+      {/* <SwapSectionMob /> */}
+      {/* <MobLiveNewSec /> */}
+      {/* <MobStreamlinedSec /> */}
+      <WhitepaperMob />
+      <MobWhatIsSec />
+      {/* <MobTokenAllocationSec /> */}
+      {/* <MobTokenDetailsSec /> */}
+      <MobSecurityBuiltSec />
+      <WhitepaperMob />
+      <MobTokenDetailsSec />
+      <MobRoadmapSec />
+      <MobOurAwardSec />
+      {/* <MobExpertsworkingSec /> */}
+      <MobPressMediaSec />
+      <MobTraderReviewsSec />
+      <MobFaqSec />
+      <MobTheUltimateSec />
+      <LivePresale />
+    </div>
+  );
+}
+
+export default MobileHome;
