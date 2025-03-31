@@ -222,6 +222,22 @@ const BuyTab = () => {
     return wouldReceiveRank
   }, [currentLevel, usdPerLevel, paymentTokenNumStr, selectedToken?.price, ranks, usdToNextLevel, currentRank])
 
+  const wouldReceiveOrCurrentRank = useMemo(() => {
+    return wouldReceiveRank ?? currentRank
+  }, [wouldReceiveRank, currentRank])
+
+  const wouldReceiveNextRank = useMemo(() => {
+    const index = ranks.findIndex((rank) => rank.rank === wouldReceiveOrCurrentRank?.rank)
+    if (index === ranks.length - 1) return null
+    return ranks[index + 1]
+  }, [wouldReceiveOrCurrentRank, ranks])
+
+  const usdToNextWouldReceiveRank = useMemo(() => {
+    const currentUsd = currentLevel * usdPerLevel + (usdPerLevel - usdToNextLevel)
+    const wouldBeUsd = currentUsd + parseNum(paymentTokenNumStr) * parseNum(selectedToken?.price)
+    return ((wouldReceiveNextRank?.level ?? 0) * usdPerLevel) - wouldBeUsd
+  }, [wouldReceiveNextRank, currentLevel, usdPerLevel, paymentTokenNumStr, selectedToken, usdToNextLevel])
+
   const [levelUpLoading, setLevelUpLoading] = useState(false);
   const levelUp = async () => {
     if (levelUpLoading) return;
@@ -464,34 +480,33 @@ const BuyTab = () => {
             {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Connect Wallet" : "Buy Now"))}
           </button>
         </div>
-        {ranksLoaded && (
-        (usdToNextRank > 0 || !nextRank) ? (
-        <div
-          className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
-          style={{
-            background: "rgba(237, 237, 237, 0.40)",
-          }}
-        >
-          <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
-            You get {currentRank?.bonus_percentage ?? 0}% bonus tokens
-          </h4>
-          <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
-            {nextRank
-              ? `Buy ${formatDollar(usdToNextRank)} more to unlock ${
-                  nextRank.bonus_percentage
-                }% bonus`
-              : "That is the highest bonus level"}
-          </h4>
-        </div>
-      ) : (
-        <button
-          onClick={levelUp}
-          className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
-        >
-          Unlock {nextRank.rank} NFT
-        </button>
-      )
-    )}
+        {
+          (usdToNextRank > 0 || !nextRank) ? (
+            <div
+              className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
+              style={{
+                background: "rgba(237, 237, 237, 0.40)",
+              }}
+            >
+              <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
+                You get {wouldReceiveOrCurrentRank?.bonus_percentage ?? 0}% bonus tokens
+              </h4>
+              <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
+                {(wouldReceiveNextRank)
+                  ? `Buy ${formatDollar(usdToNextWouldReceiveRank)} more to unlock ${
+                      wouldReceiveNextRank?.bonus_percentage ?? 0
+                    }% bonus`
+                  : "That is the highest bonus level"}
+              </h4>
+            </div>
+          ) : (
+            <button
+              onClick={levelUp}
+              className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
+            >
+              Unlock {nextRank.rank} NFT
+            </button>
+          )}
         <div
           className="flex justify-center items-center space-x-[24px]"
           ref={(el) => setCodesContainerRef(el)}

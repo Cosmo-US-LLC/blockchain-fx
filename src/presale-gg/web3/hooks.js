@@ -218,8 +218,8 @@ export const useUserRankData = () => {
     nextRank,
     fractionToNextRank,
     usdPerLevel: USD_PER_LEVEL,
-    usdToNextRank: userData.rankData?.usd_to_next_rank ?? 0,
-    usdToNextLevel: userData.rankData?.usd_to_next_level ?? 0,
+    usdToNextRank: userData.rankData?.usd_to_next_rank ?? 1000,
+    usdToNextLevel: userData.rankData?.usd_to_next_level ?? 100,
     ranks: ranks,
     /** @type {{tradingCreditsUSD: number, usdtRewardPercentage: number, bfxBonusPercentage: number}} */
     bonusData: userData.rankData?.current_rank
