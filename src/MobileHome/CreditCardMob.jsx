@@ -39,7 +39,7 @@ function CreditCardMob() {
       <div className="relative flex flex-col gap-8 rounded-[16px] px-6 py-6 border border-[#E7B2092B] overflow-hidden">
         <img
           src={ellipse}
-          className="absolute top-[0%] left-[0%]"
+          className="absolute top-[0%] w-[500px] h-[520px] left-[0%]"
           alt=""
         />
         <h3 className="text-[32px] text-left capitalize font-[600] leading-[128%] tracking-[-2.52px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">

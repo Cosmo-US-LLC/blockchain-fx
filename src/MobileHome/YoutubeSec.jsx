@@ -23,6 +23,14 @@ export default function YoutubeSec() {
       dealer: "— Crypto Dealer",
       meta: "Youtuber, 102K Followers",
     },
+    {
+      description:
+        "“Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be”",
+      link: "https://www.youtube.com/watch?v=DYPM0MmCOHE",
+      id: "hidden_trades",
+      dealer: "— Crypto Pandas",
+      meta: "Youtuber, 22.7K Followers",
+    },
   ];
 
   const handleNextVideo = () => {

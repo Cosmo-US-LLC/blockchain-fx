@@ -14,7 +14,7 @@ function LessThanSec() {
     }}
       >
         <div className="space-y-[18px]">
-          <h3 className="text-[30px] capitalize font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
+          <h3 className="text-[40px] capitalize font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
           Bridging Crypto and Finance
           </h3>
           <p className="text-[16px] font-[400] w-[890px] mx-auto text-center leading-[130%] text-[#ACC4D1] tracking-[-0.32px]">

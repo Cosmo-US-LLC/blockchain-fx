@@ -1,7 +1,10 @@
 import React from "react";
 import hero_reviews from "../assets/presale-v3/hero_reviews.png";
 import stats_1 from "../assets/presale-v3/stats_1.webp";
-import featured_in from "../assets/presale-v3/featured_in.svg";
+import herobnr1 from "../assets/herosection/bnrhero (4).svg";
+import herobnr2 from "../assets/herosection/bnrhero (3).svg";
+import herobnr3 from "../assets/herosection/bnrhero (2).svg";
+import herobnr4 from "../assets/herosection/bnrhero (1).svg";
 
 function MobileHero() {
   const handleScroll = () => {
@@ -80,7 +83,7 @@ function MobileHero() {
               </span>
             </h2>
             <img
-              className="w-[250px] h-auto mx-auto"
+              className="w-[150px] h-auto mx-auto"
               src={hero_reviews}
               alt="hero_reviews"
             />
@@ -116,17 +119,26 @@ function MobileHero() {
             {/* </a> */}
           </div>
           <div className="flex justify-center pt-[15px]">
-            <img src={stats_1} className="h-auto w-[390px]" alt="stats_1" />
+            <img src={stats_1} className="h-auto mb-[-30px] mr-[-25px]" alt="stats_1" />
           </div>
           <div className="gap-2 border border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 mt-4">
             <p className="font-[600] text-[15px] text-center text-[white]">
               Featured In:
             </p>
-            <img
-              src={featured_in}
-              className="h-auto w-[390px]"
-              alt="featured_in"
-            />
+            <div className="flex justify-center items-center space-x-2">
+            <a href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/" target="_blank" rel="noopener noreferrer">
+                        <img src={herobnr1}  alt="Featured" />
+                        </a>
+                        <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" rel="noopener noreferrer">
+                        <img src={herobnr2}  alt="Featured" />
+                        </a>
+                       <a href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/" target="_blank" rel="noopener noreferrer">
+                       <img src={herobnr3}  alt="Featured" />
+                       </a>
+                       <a href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/" target="_blank" rel="noopener noreferrer">
+                       <img src={herobnr4}  alt="Featured" />
+                       </a>
+            </div>
           </div>
         </div>
       </div>

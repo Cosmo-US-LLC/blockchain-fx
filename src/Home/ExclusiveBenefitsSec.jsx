@@ -10,30 +10,30 @@ const cardItems = [
   {
     id: "01",
     img: excixn1,
-    title: "Lowest Price <br/>Before Launch",
+    title: "Lowest Token Price <br/>Before Launch",
     description:
-     "Buying during the pre-sale allows you to secure a significant lower price compared to the $BFX launch price.",
+     "Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price.",
   },
   {
     id: "02",
     img: excixn2,
-    title: "Receive Bonus<br/> $BFX Tokens",
+    title: "Limited Edition <br/>BFX Visa Cards",
     description:
-    "Get more $BFX during the pre-sale with bonus levels based on your spend. This gives you an even better deal.",
+    "Get a metal or 18 karat gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide.",
   },
   {
     id: "03",
     img: excixn3,
-    title: "Unlock Bonus <br/> Trading Credits",
+    title: "Exclusive Bonus <br/>trading credits ",
     description:
-    "Get an exclusive membership packed with multiple perks and up to $25,000 to start trading with no conditions attached.",
+    "Get up to $25,000 in free trading credits to kickstart trading on BlockchainFX with no conditions attached.",
   },
   {
     id: "04",
     img: excixn4,
-    title: " Daily USDT <br/> Staking Income",
+    title: " Daily USDT <br/>Staking Rewards",
     description:
-      "Earn daily passive USDT and $BFX rewards—even during the pre-sale. The earlier you buy, the more you earn.",
+      "Start earning USDT and BFX rewards today by joining the BFX presale. The earlier you buy, the more you can earn over time.",
   },
 ];
 
@@ -43,7 +43,7 @@ function ExclusiveBenefitsSec() {
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
           <h3 className="text-[40px] capitalize leading-[155.556%] text-[#fff] text-center font-[700]">
-          Exclusive Benefits During the Pre-Sale
+          Benefits Of Buying BFX During The Presale
           </h3>
         </div>
         <div className="max-w-[1200px] pt-[30px] w-[100%] mx-auto ">
@@ -60,10 +60,10 @@ function ExclusiveBenefitsSec() {
                   <img src={item.img} className="max-h-[116px] h-[100%]" alt="" />
                 </div>
                 <h3
-                  className="text-[22px] text-center text-[#fff] font-[600] leading-[115%]"
+                  className="text-[22px] text-center italic text-[#fff] font-[600] leading-[115%]"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
-                <h4 className="text-[15px]  text-center text-[#fff] font-[400] leading-[111.111%]">
+                <h4 className="text-[15px]  text-center italic text-[#fff] font-[400] leading-[111.111%]">
                   {item.description}
                 </h4>
               </div>

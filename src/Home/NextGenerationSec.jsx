@@ -28,7 +28,7 @@ function NextGenerationSec() {
   return (
     <div className="pt-[50px] pb-[50px] bg-[#020B10]">
       <div className="max-w-[1200px] py-[50px] border border-[#E6AF03] bg-[#020B10] rounded-[24px]  w-[100%] mx-auto space-y-[60px]">
-        <h3 className="text-[30px] text-[#fff] font-[700] leading-[155.556%] leading-[-1px] text-center">
+        <h3 className="text-[40px] text-[#fff] font-[700] leading-[155.556%] leading-[-1px] text-center">
           Next Generation Trading Experience
         </h3>
         <div className="space-y-[45px]">

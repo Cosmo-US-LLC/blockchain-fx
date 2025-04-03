@@ -9,7 +9,7 @@ function TradeOverSec() {
   return (
     <div className="py-[50px] bg-[#020B10]">
       <div className="max-w-[1200px] w-[100%] mx-auto space-y-[30px]">
-        <h3 className="text-[30px] text-[#fff] font-[700] capitalize leading-[155%] text-center">
+        <h3 className="text-[40px] text-[#fff] font-[700] capitalize leading-[155%] text-center">
           More Than 500 Different Assets
         </h3>
 
