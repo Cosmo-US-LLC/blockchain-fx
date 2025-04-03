@@ -47,15 +47,18 @@ function EarnOnSec() {
               WebkitBackgroundClip:"text",
               WebkitTextFillColor:"transparent"
             }}
-            className="text-[30px] capitalize font-[700] leading-[128%]  tracking-[-1px] text-start">
+            className="text-[40px] capitalize font-[700] leading-[128%]  tracking-[-1px] text-start">
             Earn Daily With $BFX
             </h3>
             <p className="text-[14px] text-[#ACC4D1] font-[400] leading-[161.598%] text-start">
-            $BFX is the first cryptocurrency to offer USDT staking rewards on every transaction made within a global multi-asset trading platform. Whenever someone trades on BlockchainFX, you earn. The more $BFX you hold, <br /> the more USDT you receive.
+            BFX holders earn daily staking rewards in USDT and BFX, powered by BlockchainFX trading fees. Every time someone trades on the app, holders get rewarded. The more BFX a person holds, the more they earn — up to a maximum of 25,000 USDT per day.
             </p>
             <button
              onClick={handleScroll}
-              className="text-[#000] bg-[#E5AE00] px-[12px] hover:text-[#E5AE00] hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
+             style={{
+              background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+            }}
+              className="text-[#000] px-[12px] text-[14px] font-[800] hover:opacity-[0.8] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
             >
               Buy $BFX
             </button>

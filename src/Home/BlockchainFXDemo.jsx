@@ -45,7 +45,10 @@ function BlockchainFXDemo() {
             <div className="flex justify-start pt-[20px] pb-[0px] items-center space-x-[17px]">
               <button
                onClick={handleScroll}
-              className="text-[#000] bg-[#E5AE00] px-[12px] hover:text-[#E6B005] hover:bg-transparent text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]">
+               style={{
+                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
+              className="text-[#000]  px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]">
                 Buy $BFX
               </button>
 
@@ -61,8 +64,9 @@ function BlockchainFXDemo() {
           </div>
           <div className="w-[50%]">
             <video
+            className="rounded-[14px] h-[320px]"
               width="920"
-              height=""
+              height="320"
               controls={false}
               playsInline
               autoPlay

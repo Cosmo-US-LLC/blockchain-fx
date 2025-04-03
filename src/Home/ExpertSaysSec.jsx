@@ -123,6 +123,45 @@ function ExpertSaysSec() {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex items-center gap-5">
+              <div className="w-[50%] space-y-[20px]">
+                <div
+                  className="rounded-[16px] py-2 px-3 max-w-[266px]"
+                  style={{
+                    background: "",
+                    border: "1px solid rgba(255, 255, 255, 0.10)",
+                  }}
+                >
+                  <h4 className="text-[#898989] text-[16px] font-[400]">
+                    What Experts Say About BFX
+                  </h4>
+                </div>
+                <p className="text-[#fff] text-[24px] font-[500]">
+                “Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be"
+                </p>
+                <img src={stars} alt="" />
+                <div>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">
+                    — Crypto Pandas
+                  </h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">
+                    Youtuber, 22.7K Followers
+                  </p>
+                </div>
+              </div>
+              <div className="w-[50%]">
+                {/* <img src={expimg2} alt="Expert 2" /> */}
+                <iframe
+                  className="w-full aspect-video"
+                  src="https://www.youtube.com/embed/DYPM0MmCOHE"
+                  title="YouTube video player"
+                  allow="encrypted-media"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
         {/* <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
                   <button ref={prevRef} className="">
@@ -135,22 +174,44 @@ function ExpertSaysSec() {
                   <img className="h-[34px] w-[34px]" src={expawr2} alt="" />
                   </button>
                 </div> */}
-        <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
+        {/* <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
           <button ref={prevRef} className="">
-            {activeSlide === 0 ? (
+            {activeSlide === 2 ? (
               <img className="h-[34px] w-[34px]" src={expawr2} alt="" />
             ) : (
               <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr1} alt="" />
             )}
           </button>
           <button ref={nextRef} className="">
-            {activeSlide === 0 ? (
+            {activeSlide === 2 ? (
               <img className="h-[34px] w-[34px]" src={expawr1} alt="" />
             ) : (
               <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr2} alt="" />
             )}
           </button>
-        </div>
+        </div> */}
+
+<div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
+  {/* Previous Button */}
+  <button ref={prevRef} className="">
+    {activeSlide === 0 ? ( // First item, left button inactive
+      <img className="h-[34px] w-[34px] " src={expawr2} alt="inactive" />
+    ) : (
+      <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr1} alt="active" />
+    )}
+  </button>
+
+  {/* Next Button */}
+  <button ref={nextRef} className="">
+    {activeSlide === 2 ? ( // Third item, right button inactive
+      <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr2} alt="inactive" />
+    ) : (
+      <img className="h-[34px] w-[34px]" src={expawr1} alt="active" />
+    )}
+  </button>
+</div>
+
+        
         <div className="absolute top-[-8%] left-[-5%]">
           <img src={ernvet2} className=" " alt="" />
         </div>

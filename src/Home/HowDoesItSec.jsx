@@ -19,31 +19,31 @@ const cardItems = [
       id: "02.",
       img:icn2,
       title: "Fee Distribution",
-      description: "70% of trading fees are used to incentivize the BFX community and drive the ecosystem’s growth.",
+      description: "70% of trading fees are used to reward the BFX community and drive the ecosystem’s growth.",
     },
     {
       id: "03.",
       img:icn3,
       title: " Daily Revenue (50%)",
-      description: "50% of all fees collected will be shared with BFX holders and automatically airdropped every 24 hours.",
+      description: "50% of all fees collected will be distributed to BFX holders and automatically added to their wallets.",
     },
     {
       id: "04.",
       img:icn4,
       title: "Buybacks (20%)",
-      description: "20% of fees will be used for daily BFX buybacks, increasing demand and boosting the $BFX price.",
+      description: "20% of the fees are used to buy back $BFX daily, helping boost demand and support the price.",
     },
     {
       id: "05.",
       img:icn5,
       title: "Burn",
-      description: "Half of all buybacks will be automatically burned, gradually reducing the supply of $BFX.",
+      description: "Half of the bought-back tokens are permanently burned, gradually reducing the supply of $BFX.",
     },
     {
       id: "06.",
       img:icn6,
-      title: "Hyper Growth",
-      description: "The deflationary model and automatic buyback system fuel the potential for exponential growth of $BFX.",
+      title: "Fueling the Growth Engine",
+      description: "The deflationary model and automatic buybacks drive the potential for exponential growth in $BFX.",
     },
   ];
 
