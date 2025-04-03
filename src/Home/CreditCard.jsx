@@ -23,11 +23,15 @@ function CreditCard() {
 
   return (
     <div className="pt-[20px] pb-[50px] bg-[#020B10]">
-      <div className="max-w-[1200px] reative overflow-hidden relative overfloe-hidden bg-[#030F16] min-h-[480px] p-[30px] border border-[#B0B0B0] w-[100%] space-y-[25px] mx-auto rounded-[13px]">
-      <div className=" space-x-[2rem] flex justify-between  items-center  ">
+      <div className="max-w-[1200px] reative overflow-hidden relative overfloe-hidden bg-[#030F16] min-h-[480px] p-[30px] w-[100%] space-y-[25px] mx-auto rounded-[13px]"
+         style={{
+          border: "1px solid #2B2B2B"
+        }}
+      >
+      <div className="relative z-[9] space-x-[2rem] flex justify-between  items-center  ">
         
           <div className="w-[45%] p-[40px]  min-h-[460px]  rounded-[11px] space-y-[20px]">
-            <h3 className="text-[20.86px]  capitalize font-[700] leading-[128%]  tracking-[-1px]"
+            <h3 className="text-[40px]  capitalize font-[700] leading-[128%]  tracking-[-1px]"
             style={{
               background:"linear-gradient(90deg, #FFF 0%, #FACD42 100%)",
               backgroundClip:"text",
