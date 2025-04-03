@@ -17,7 +17,8 @@ import {
 import { $apiState } from "../stores/api.store";
 import { api } from "../api";
 
-import logo from "../../assets/TheUltimateSec/logo.svg";
+import logo from "../../assets/wallet/logo-small.png";
+import logoFilled from "../../assets/wallet/logo-small-filled.png";
 import { CARD_IS_SANDBOX, CARD_PARTNER_ID } from "../constants";
 
 export const walletBuyTokens = new Set([
@@ -209,6 +210,7 @@ export const buyWithCard = async (args) => {
           name: `$BFX`,
           author_image_url: `${window.location.origin}${logo}`,
           author: "BlockchainFX",
+          image_url: `${window.location.origin}${logo}`,
         },
       },
       listeners: {

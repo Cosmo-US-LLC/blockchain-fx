@@ -198,7 +198,7 @@ const DashboardPopup = ({ onClose }) => {
         error: (err) => api.getApiErrorMessage(err, "Error ranking up"),
         success: `Successfully unlocked ${nextRank.rank}`,
       });
-      confetti({ gravity: 1, origin: { x: 0.5, y: 0.75 } });
+      confetti({ gravity: 1, origin: { x: 0.5, y: 0.75 }, zIndex: 999999 });
     } catch (_) {}
     setLevelUpLoading(false);
   };

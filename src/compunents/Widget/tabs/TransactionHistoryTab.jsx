@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { api } from "../../../presale-gg/api";
 import { useAccount } from "../../../presale-gg/web3";
 import { tokenNameMap } from "../../../presale-gg/assets/img/tokens";
-import { capitalize, formatNumber, parseNum } from "../../../presale-gg/util";
+import { capitalize, formatLargeNumber, formatNumber, parseNum } from "../../../presale-gg/util";
 import Toggle from "../../ui/Toggle";
 
 /**
@@ -37,10 +37,13 @@ const TransactionHistoryTab = () => {
 
   const statusColMap = {
 		"pending": ["#4f2e1a", "#de7223"],
+		"unpaid": ["#4f2e1a", "#de7223"],
 		"processing": ["#4f2e1a", "#de7223"],
 		"completed": ["#142e23", "#13a868"],
 		"failed": ["#731a14", "#de5950"],
 		"expired": ["#731a14", "#de5950"],
+		"error": ["#731a14", "#de5950"],
+		"finalizing": ["#4f2e1a", "#de7223"],
 		"refunded": ["#731a14", "#de5950"],
 		"rank": ["#0b3661", "#66aaed"],
 		"referral": ["#4f2e1a", "#de7223"],
@@ -48,10 +51,7 @@ const TransactionHistoryTab = () => {
 		"bonus_code": ["#142e23", "#13a868"]
 	}
 
-  console.log("Transactions", transactions)
-  console.log("Bonus Transactions", bonusTransactions)
-  console.log("Show Bonus", showBonus)
-  console.log("Loading", loading)
+  const getStatus = (trx) => trx.status === "pending" ? "unpaid" : trx.status
 
   return (
     <div className="gap-[10px] flex-1 h-0 justify-between flex flex-col relative w-full min-h-full">
@@ -67,22 +67,22 @@ const TransactionHistoryTab = () => {
           </p>
         )}
         {!showBonus && transactions.map((trx) => (
-          <div className="flex items-center text-[12px] <sm:text-[10px] gap-2 min-h-8 px-2 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
-            <div className="min-w-[7rem] flex gap-1 flex-[1.5] items-center">
-              <p className="leading-[1.2] w-10 flex-none text-end">{formatNumber(parseNum(trx.payment_token_amount), 0, 3)}</p>
+          <div className="flex items-center text-[10px] <sm:text-[9px] gap-2 min-h-8 px-2 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
+            <div className="min-w-[8rem] flex gap-1 flex-[1.5] items-center">
+              <p className="leading-[1.2] w-12 flex-none text-end">{formatLargeNumber(parseNum(trx.payment_token_amount))}</p>
               <img className="w-4 h-4" src={tokenNameMap[trx.payment_token_name.toLowerCase()]} alt="" />
               <p className="leading-[1.2]">{trx.payment_token_name}</p>
             </div>
-            <p className="leading-[1.2] flex-1">{trx.tokens_bought === null ? "Pending" : `+${formatNumber(parseNum(trx.tokens_bought), 0, 2)} BFX`}</p>
+            <p className="leading-[1.2] flex-1">{trx.tokens_bought === null ? capitalize(getStatus(trx)) : `+${formatLargeNumber(parseNum(trx.tokens_bought))} BFX`}</p>
             <p
               className="leading-[1.2] bg-[red] flex justify-center w-16 text-[10px] <sm:text-[8px] <sm:w-[3.125rem] rounded-[6px] font-bold py-1 text-[#fff]"
-              style={{backgroundColor: statusColMap[trx.status][1]}}
-            >{capitalize(trx.status)}</p>
+              style={{backgroundColor: statusColMap[getStatus(trx)]?.[1] ?? statusColMap["processing"][0]}}
+            >{capitalize(getStatus(trx))}</p>
           </div>
         ))}
         {showBonus && bonusTransactions.map((trx) => (
-          <div className="flex items-center text-[12px] <sm:text-[10px] gap-2 min-h-8 px-12 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
-            <p className="leading-[1.2] flex-1">+{formatNumber(parseNum(trx.bonus_token_amount), 0, 2)} BFX</p>
+          <div className="flex items-center text-[10px] <sm:text-[9px] gap-2 min-h-8 px-12 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
+            <p className="leading-[1.2] flex-1">+{formatLargeNumber(parseNum(trx.bonus_token_amount))} BFX</p>
             <p
               className="leading-[1.2] bg-[red] flex justify-center w-16 text-[10px] <sm:text-[8px] <sm:w-[3.125rem] rounded-[6px] font-bold py-1 text-[#fff]"
               style={{backgroundColor: statusColMap[trx.type][1]}}
