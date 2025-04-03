@@ -1,7 +1,7 @@
 import React from "react";
 
 import graph from "../assets/LessThanSec/Frame 1410125779 (1).png";
-import ellipse from "../assets/LessThanSec/ellipse_3.webp";
+import ellipse from "../assets/EarnOnSec/Ellipse 3.png";
 
 function MobileLessThanSec() {
   return (
@@ -9,7 +9,7 @@ function MobileLessThanSec() {
       <div className="space-y-[32px] py-4 px-2 w-[90%] mx-auto border-[1px] border-[#2B2B2B] relative overflow-hidden">
         <img
           src={ellipse}
-          className="max-w-[400px] h-[450px]  absolute top-[-15%] left-[-20%]  "
+          className="max-w-[400px] h-[450px]  absolute top-[0%] left-[0%]  "
           alt=""
         />
 

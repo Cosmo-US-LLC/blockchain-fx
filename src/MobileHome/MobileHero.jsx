@@ -35,7 +35,7 @@ function MobileHero() {
   };
 
   return (
-    <div className="pt-[22px] pb-[2rem] bg-[#020B10]">
+    <div className="pt-[22px] bg-[#020B10]">
       <div className="w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <div className="">

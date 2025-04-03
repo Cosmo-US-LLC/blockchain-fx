@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/presale-v3/nav_icon.svg";
 import flag from "../assets/navbar/flg.svg";
 import menu from "../assets/presale-v3/menu.svg";
-import arwdwn from "../assets/navbar/arw.svg";
+import arwdwn from "../assets/navbar/arw.png";
 import flag1 from "../assets/navbar/flg (1).svg";
 import flag2 from "../assets/navbar/flg (2).svg";
 import flag3 from "../assets/navbar/flg (3).svg";
@@ -132,51 +132,46 @@ function NavbarMobile() {
 
           {/* mobile menu */}
           {isMobileMenuOpen && (
-            <div className="absolute top-[100%] min-h-[100vh] left-0 w-full bg-white shadow-md z-50 p-6">
+            <div className="absolute top-[100%] min-h-[100vh] left-0 w-full bg-[#020B10] shadow-md z-50 p-6">
               <a
-                className="block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                 href=""
                 onClick={(e) => handleScroll(e, "what-is-bfx-coin", 60)}
               >
                 What is BlockchainFX?
               </a>{" "}
               <br />
-              <br />
               <a
-                className="block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                 href=""
                 onClick={(e) => handleScroll(e, "Wallet", 60)}
               >
                 How to Buy
               </a>{" "}
               <br />
-              <br />
               <a
-                className="block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                 href=""
                 onClick={(e) => handleScroll(e, "whitepaper", 90)}
               >
                 Whitepaper
               </a>{" "}
               <br />
-              <br />
               <a
-                className="block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                 href=""
                 onClick={(e) => handleScroll(e, "roadmap", 90)}
               >
                 Roadmap
               </a>{" "}
               <br />
-              <br />
               <a
-                className="block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                 href="#"
                 onClick={(e) => handleScroll(e, "reviews", 90)}
               >
                 Reviews
               </a>{" "}
-              <br />
               <br />
               {/* <a
             className="block text-[16px] font-[500] text-[#000] mb-4"
@@ -194,7 +189,7 @@ function NavbarMobile() {
                   src={selectedLang.flag}
                   alt={selectedLang.name}
                 />
-                <span className="text-[#000] text-[16px] font-[600]">
+                <span className="text-[#fff] text-[16px] font-[600]">
                   {selectedLang.abbreviation}
                 </span>
 
@@ -208,15 +203,15 @@ function NavbarMobile() {
                 />
 
                 {isOpen && (
-                  <div className="absolute !top-[30px] w-[300px] pb-2 rounded-[8px] px-[10px] bg-white shadow-lg">
-                    <h3 className="text-[14px] text-[#444] font-[700] mb-1">
+                  <div className="absolute border !top-[30px] w-[300px] pb-2 rounded-[8px] px-[10px] bg-[#020B10] shadow-lg">
+                    <h3 className="text-[14px] text-[#fff] font-[700] mb-1">
                       Languages
                     </h3>
                     <div className="grid grid-cols-2">
                       {flags.map((lang, index) => (
                         <div
                           key={index}
-                          className="flex items-center space-x-1 cursor-pointer hover:bg-gray-100 p-1 rounded"
+                          className="flex items-center space-x-1 cursor-pointer hover:bg-gray-900 p-1 rounded"
                           onClick={() => handleSelectLanguage(lang)}
                         >
                           <img
@@ -224,7 +219,7 @@ function NavbarMobile() {
                             alt={lang.name}
                             className="w-[14px] h-[14px]"
                           />
-                          <span className="text-[12.599px] font-[500] text-[#444]">
+                          <span className="text-[12.599px] font-[500] text-[#fff]">
                             {lang.name}
                           </span>
                         </div>
