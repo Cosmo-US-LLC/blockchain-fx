@@ -191,6 +191,7 @@ function MobilePremiumSec() {
 
         <div className="w-[90%] mx-auto">
           <div className="relative">
+            <div className="w-[100%] left-1 h-[1px] border border-[#E5AE00] absolute top-[50%]"></div>
             <button className="swiper-button-prev2   rotate-[182deg] absolute z-10 !left-[-10%] !top-[50%] transform -translate-y-1/2">
               <img className="w-[22.545px] h-[22.545px]" src={arw} alt="" />
             </button>
