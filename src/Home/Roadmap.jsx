@@ -41,7 +41,7 @@ function RoadmapSection() {
         className="absolute left-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
         onClick={onClick}
       >
-        <img src={leftArrow} alt="previous" className="h-10 w-10" />
+        <img src={leftArrow} alt="previous" className="h-10 w-10 rotate-[180deg]" />
       </div>
     );
   };
