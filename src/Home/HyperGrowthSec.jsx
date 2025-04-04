@@ -62,7 +62,7 @@ function HyperGrowthSec() {
             <img src={graph} alt="" className="" />
           </div>
         </div>
-        <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
+        <p className="text-[18px] italic font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
           (*Source: Harvard Business Review, When Community Becomes Your
           Competitive Advantage, 2020)
         </p>

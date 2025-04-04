@@ -52,7 +52,7 @@ function CreditCard() {
               </li>
             </ul>
             <div className="flex justify-start items-center space-x-3">
-            <h4 className="text-[16px] text-[#fff]  font-[400] ">Compatible with</h4>
+            <h4 className="text-[16px] text-[#fff] italic font-[400] ">Compatible with</h4>
           <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]"><img src={applepay} className="h-[36px]" alt="" /></button>
           <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]"><img src={googlelepay} className="h-[36px]" alt="" /></button>
           </div>
@@ -62,7 +62,7 @@ function CreditCard() {
              <source src={creditVideo} type="video/mp4" />
            </video>
            <div className="">
-            <p className="text-[10px] text-center max-w-[816px] text-[#fff] mx-auto tracking-[-0.32px] leading-[230%] font-[400] ">Shipping will begin once the BFX presale ends, as all cards will be sent out simultaneously. Every BFX Founder’s Club member will receive a secure form after the presale to submit their shipping details. Cards will be delivered worldwide via DHL or FedEx Express. </p>
+            <p className="text-[10px] text-center italic max-w-[816px] text-[#fff] mx-auto tracking-[-0.32px] leading-[230%] font-[400] ">Shipping will begin once the BFX presale ends, as all cards will be sent out simultaneously. Every BFX Founder’s Club member will receive a secure form after the presale to submit their shipping details. Cards will be delivered worldwide via DHL or FedEx Express. </p>
            </div>
           </div>
         </div>

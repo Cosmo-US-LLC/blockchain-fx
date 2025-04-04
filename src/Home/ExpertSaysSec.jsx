@@ -54,17 +54,17 @@ function ExpertSaysSec() {
                     What Experts Say About BFX
                   </h4>
                 </div>
-                <p className="text-[#fff] text-[24px] font-[500]">
+                <p className="text-[#fff] text-[24px] italic font-[500]">
                   “Hold BFX and earn daily USDT rewards from trading fees, even
                   when you're not trading. It’s not just a token, it’s your key
                   to passive staking income.”
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">
+                  <h3 className="text-[#D8D8D8] italic text-[18px] font-[600]">
                     — Crypto Volt
                   </h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">
+                  <p className="text-[#898989] italic text-[16px] font-[400]">
                     Crypto Youtuber, 178K Followers
                   </p>
                 </div>
@@ -97,16 +97,16 @@ function ExpertSaysSec() {
                     What Experts Say About BFX
                   </h4>
                 </div>
-                <p className="text-[#fff] text-[24px] font-[500]">
+                <p className="text-[#fff] text-[24px] italic font-[500]">
                   “Forex, indices, stocks, ETFs, even options — you can trade
                   them all in one place. It’s the first platform of its kind.”
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">
+                  <h3 className="text-[#D8D8D8] italic text-[18px] font-[600]">
                     — Crypto Dealer
                   </h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">
+                  <p className="text-[#898989] italic text-[16px] font-[400]">
                     Youtuber, 102K Followers
                   </p>
                 </div>
@@ -137,15 +137,15 @@ function ExpertSaysSec() {
                     What Experts Say About BFX
                   </h4>
                 </div>
-                <p className="text-[#fff] text-[24px] font-[500]">
+                <p className="text-[#fff] text-[24px] italic font-[500]">
                 “Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be"
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">
+                  <h3 className="text-[#D8D8D8] italic text-[18px] font-[600]">
                     — Crypto Pandas
                   </h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">
+                  <p className="text-[#898989] italic text-[16px] font-[400]">
                     Youtuber, 22.7K Followers
                   </p>
                 </div>

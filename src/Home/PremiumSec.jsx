@@ -436,7 +436,7 @@ function PremiumSec() {
                 {openBundles === item.id && (
                   <div className="relative">
                     <p
-                      className="mt-2 text-[16px] list-disc text-[#8497A2] font-[400] tracking-[-0.32px]"
+                      className="mt-2 text-[16px] italic list-disc text-[#8497A2] font-[400] tracking-[-0.32px]"
                       dangerouslySetInnerHTML={{ __html: item.answer }}
                     ></p>
                     {item.tooltip && (
