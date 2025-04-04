@@ -46,7 +46,7 @@ function OneAppSec() {
           <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
             Everything In One App
           </h3>
-          <p className="text-[20px] text-[#ACC4D1] font-[400] leading-[150%] leading-[-0.32px] text-start">
+          <p className="text-[20px] italic text-[#ACC4D1] font-[400] leading-[150%] leading-[-0.32px] text-start">
           A lightning-fast and innovative trading solution
           </p>
           <div className="">

@@ -41,14 +41,14 @@ function CreditCard() {
             BFX Visa Card
             </h3>
             <ul className="list-disc">
-              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Unlimited Spending</li>
-              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Metal or 18 Karat Gold Card </li>
-              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Up to $100,000 per Transaction</li>
-              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Up to $10K Monthly ATM Withdrawals </li>
-              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Use BFX and USDT Rewards for Payments</li>
-              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Accepted Worldwide (Online & In-Stores) </li>
-              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Top Up with BFX and 20+ Crypto</li>
-              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">BFX Visa Card Only Available in Presale
+              <li className="italic text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Unlimited Spending</li>
+              <li className="italic text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Metal or 18 Karat Gold Card </li>
+              <li className="italic text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Up to $100,000 per Transaction</li>
+              <li className="italic text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Up to $10K Monthly ATM Withdrawals </li>
+              <li className="italic text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Use BFX and USDT Rewards for Payments</li>
+              <li className="italic text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Accepted Worldwide (Online & In-Stores) </li>
+              <li className="italic text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">Top Up with BFX and 20+ Crypto</li>
+              <li className="italic text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500] ">BFX Visa Card Only Available in Presale
               </li>
             </ul>
             <div className="flex justify-start items-center space-x-3">

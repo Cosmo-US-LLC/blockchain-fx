@@ -42,10 +42,10 @@ function MobPressMediaSec() {
                   <div className="flex items-center justify-center h-[30px]">
                     <img src={medai1} className="h-[30px]" alt="" />
                   </div>
-                  <p className="text-[#ACC4D1] text-[15px] text-center leading-[144.529%] font-[400]">
+                  <p className="text-[#ACC4D1] text-[15px] italic text-center leading-[144.529%] font-[400]">
                   BlockchainFX is quickly becoming the go-to trading platform in 2025, offering access to 500+ assets and rewarding benefits for users.
                   </p>
-                  <a href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/" target="_blank" className="text-[15px] flex justify-center underline text-[#ACC4D1]" rel="noopener noreferrer">Read the article</a>
+                  <a href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/" target="_blank" className="text-[15px] flex justify-center underline text-[#E5AE00]" rel="noopener noreferrer">Read Article</a>
                 </div>
               </div>
             </>
@@ -59,10 +59,10 @@ function MobPressMediaSec() {
                       alt=""
                     />
                   </div>
-                  <p className="text-[#ACC4D1] text-[15px] text-center leading-[144.529%] font-[400]">
+                  <p className="text-[#ACC4D1] text-[15px] italic text-center leading-[144.529%] font-[400]">
                   BlockchainFX is set to revolutionise the trading landscape as the first all-in-one crypto trading platform.
                   </p>
-                  <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" className="text-[15px] flex justify-center underline text-[#ACC4D1]" rel="noopener noreferrer">Read the article</a>
+                  <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" className="text-[15px] flex justify-center underline text-[#E5AE00]" rel="noopener noreferrer">Read Article</a>
                 </div>
               </div>
             </>
@@ -72,10 +72,10 @@ function MobPressMediaSec() {
                   <div className="flex items-center justify-center h-[30px]">
                     <img src={medai3} className="h-[30px]" alt="" />
                   </div>
-                  <p className="text-[#ACC4D1] text-[15px] text-center leading-[144.529%] font-[400]">
+                  <p className="text-[#ACC4D1] text-[15px] italic text-center leading-[144.529%] font-[400]">
                   BlockchainFX is the first trading app that lets users earn daily USDT passive income directly from trading fees.
                   </p>
-                  <a href="https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/" target="_blank" className="text-[15px] flex justify-center underline text-[#ACC4D1]" rel="noopener noreferrer">Read the article</a>
+                  <a href="https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/" target="_blank" className="text-[15px] flex justify-center underline text-[#E5AE00]" rel="noopener noreferrer">Read Article</a>
                 </div>
               </div>
             </>

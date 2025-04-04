@@ -25,27 +25,27 @@ function MobSecurityBuiltSec() {
         <div className=" grid grid-cols-2 gap-y-[3rem] pt-3">
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon1} className="max-h-[80px]" alt="" />
-            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-white text-center">Third-Party<br />Audited</h4>
+            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-white text-center"> Third-Party <br /> Audited</h4>
           </div>
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon2} className="max-h-[80px]" alt="" />
-            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-white text-center">BFX Team has been<br />KYC Verified</h4>
+            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-white text-center">BFX Team has been <br />KYC verified</h4>
           </div>
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon3} className="max-h-[80px]" alt="" />
-            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-white text-center">Comprehensive<br />Risk Management </h4>
+            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-white text-center">Live Monitoring and <br /> Threat Detection</h4>
           </div>
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon4} className="max-h-[80px]" alt="" />
-            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-white text-center">Live Monitoring and<br />Threat Detection</h4>
+            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-white text-center">Comprehensive<br />Risk Management</h4>
           </div>
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon5} className="max-h-[80px]" alt="" />
-            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-white text-center">Enhanced Data<br />Privacy</h4>
+            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-white text-center"> Enhanced Data <br /> Privacy</h4>
           </div>
           <div className=" flex flex-col mx-auto space-y-[10px] justyfy-center items-center w-[100%]">
             <img src={cardicon6} className="max-h-[80px]" alt="" />
-            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-white text-center">GDPR<br />compliant</h4>
+            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-white text-center"> GDPR <br />compliant</h4>
           </div>
         </div>
       </div>

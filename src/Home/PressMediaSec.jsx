@@ -22,10 +22,10 @@ function PressMediaSec() {
               <div className="flex items-center justify-center h-[30px]">
                 <img src={medai1} className="h-[44px]" alt="" />
               </div>
-              <p className="text-[16px] text-[#ACC4D1] text-center leading-[187.5%] font-[400]">
+              <p className="text-[15px] text-[#ACC4D1] italic text-center leading-[187.5%] font-[400]">
               BlockchainFX is quickly becoming the go-to trading platform in 2025, offering access to 500+ assets and rewarding benefits for users
               </p>
-              <a href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/" target="_blank" className="text-[16px] flex justify-center underline text-[#ACC4D1]" rel="noopener noreferrer">Read the article</a>
+              <a href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/" target="_blank" className="text-[15px] flex justify-center underline text-[#E5AE00]" rel="noopener noreferrer">Read Article</a>
             </div>
           </div>
           <div className="bg-[#030F16] max-w-[400px] rounded-[8px]  px-[17px] py-[37px] w-[100%] "
@@ -36,9 +36,9 @@ function PressMediaSec() {
               <div className="flex items-center justify-center h-[30px]">
                 <img src={media2} className="h-[44px]" alt="" />
               </div>
-              <p className="text-[16px] text-[#ACC4D1] text-center leading-[187.5%] font-[400]">
+              <p className="text-[15px] text-[#ACC4D1] italic text-center leading-[187.5%] font-[400]">
               BlockchainFX is set to revolutionise the trading landscape as the first all-in-one crypto trading platform.              </p>
-              <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" className="text-[16px] flex justify-center underline text-[#ACC4D1]" rel="noopener noreferrer">Read the article</a>
+              <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" className="text-[15px] flex justify-center underline text-[#E5AE00]" rel="noopener noreferrer">Read Article</a>
             </div>
           </div>
           <div className="bg-[#030F16] max-w-[400px] rounded-[8px]  px-[17.6px] pt-[37px] pb-[29px] w-[100%] "
@@ -49,9 +49,9 @@ function PressMediaSec() {
               <div className="flex items-center justify-center h-[30px]">
                 <img src={media3} className="h-[44px]" alt="" />
               </div>
-              <p className="text-[16px] text-[#ACC4D1] text-center leading-[187.5%] font-[400]">
+              <p className="text-[15px] text-[#ACC4D1] italic text-center leading-[187.5%] font-[400]">
               BlockchainFX is the first trading app that lets users earn daily USDT passive income directly from trading fees.              </p>
-              <a href="https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/" target="_blank" className="text-[16px] flex justify-center underline text-[#ACC4D1]" rel="noopener noreferrer">Read the article</a>
+              <a href="https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/" target="_blank" className="text-[15px] flex justify-center underline text-[#E5AE00]" rel="noopener noreferrer">Read Article</a>
             </div>
           </div>
         </div>

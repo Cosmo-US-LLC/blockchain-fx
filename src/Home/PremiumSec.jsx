@@ -21,7 +21,7 @@ const cards = [
     title: "Novice",
     price: "$1,000",
     reviews: [true, false, false, false, false],
-    points: ["Early Access", "10% BFX Bonus"],
+    points: ["Early Access", "10% BFX Bonus", "BFX Visa Card"],
     buttonLabel: "Buy $BFX • $1,000",
   },
   {
@@ -30,7 +30,7 @@ const cards = [
     title: "Advanced",
     price: "$2,500",
     reviews: [true, true, false, false, false],
-    points: ["Early Access", "20% BFX Bonus", "$500 Trading Credits"],
+    points: ["Early Access", "20% BFX Bonus", "Metal BFX Visa Card", "$500 Trading Credits"],
     buttonLabel: "Buy $BFX • $2,500",
   },
   {
@@ -39,7 +39,7 @@ const cards = [
     title: "Pro",
     price: "$5,000",
     reviews: [true, true, true, false, false],
-    points: ["Early Access", "30% BFX Bonus", "$1000 Trading Credits"],
+    points: ["Early Access", "30% BFX Bonus", "Metal BFX Visa Card", "$1000 Trading Credits"],
     buttonLabel: "Buy $BFX • $5,000",
   },
   {
@@ -52,8 +52,9 @@ const cards = [
     points: [
       "Early Access",
       "40% BFX Bonus",
-      "Daily USDT Rewards",
-      "$2000 Bonus Trading Credits",
+      "10% USDT Rewards",
+      "Metal BFX Visa Card",
+      "$2000 Trading Credits",
     ],
     buttonLabel: "Buy $BFX • $10,000",
   },
@@ -67,8 +68,9 @@ const cards = [
     points: [
       "Early Access",
       "50% BFX Bonus",
-      "Daily USDT Rewards",
-      "$5000 Bonus Trading Credits",
+      "15% USDT Rewards",
+      "Metal BFX Visa Card",
+      "$5000 Trading Credits",
     ],
     buttonLabel: "Buy $BFX • $25,000",
   },
@@ -82,8 +84,9 @@ const cards = [
     points: [
       "Early Access",
       "60% BFX Bonus",
-      "Daily USDT Rewards",
-      "$10,000 Bonus Trading Credits",
+      "20% USDT Rewards",
+      "Metal BFX Visa Card",
+      "$10,000 Trading Credits",
     ],
     buttonLabel: "Buy $BFX • $50,000",
   },
@@ -96,9 +99,9 @@ const cards = [
     points: [
       "Early Access",
       "80% BFX Bonus",
-      "Daily USDT Rewards",
-      "$25,000 Bonus Trading Credits",
-      "Personalised Portfolio Management",
+      "30% USDT Rewards",
+      "18 Karat BFX Visa Card",
+      "$25,000 Trading Credits",
     ],
     buttonLabel: "Buy $BFX • $100,000",
   },
@@ -172,7 +175,7 @@ function PremiumSec() {
             <h3 className="text-[40px] leading-[155.556%] text-[#fff] text-start font-[700]">
               Limited Founder's Club Membership
             </h3>
-            <p className="text-[18px] leading-[150%] text-[#ACC4D1] font-[400] tracking-[-0.32px]">
+            <p className="text-[18px] italic leading-[150%] text-[#ACC4D1] font-[400] tracking-[-0.32px]">
               Buy $BFX during the pre-sale and get Founder's Club NFTs starting
               at only $1,000!  Enjoy early access, exclusive memberships, bonus
               $BFX, daily staking rewards in BFX and USDT, plus extra trading
@@ -437,7 +440,7 @@ function PremiumSec() {
                       dangerouslySetInnerHTML={{ __html: item.answer }}
                     ></p>
                     {item.tooltip && (
-                      <div className="absolute top-[6px] z-[9] left-[375px]">
+                      <div className="absolute top-[10px] z-[9] right-[60%]">
                         <div
                           className="relative"
                           onMouseEnter={() => setShowTooltip(true)}

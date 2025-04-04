@@ -24,7 +24,7 @@ const cardItems = [
   {
     id: "03",
     img: excixn3,
-    title: "Exclusive Bonus <br/>trading credits ",
+    title: "Exclusive Bonus <br/>Trading Credits ",
     description:
     "Get up to $25,000 in free trading credits to kickstart trading on BlockchainFX with no conditions attached.",
   },
