@@ -82,7 +82,7 @@ function HowDoesItSec() {
          <div className="min-h-[30px] flex justify-start pb-[10px] items-center">
          <h3 className="text-[24px] text-[#fff] font-[600] leading-[109.316%]">{item.title}</h3>
          </div>
-          <h4 className="text-[14px]  text-[#8497A2] font-[400] leading-[135.796%]">{item.description}</h4>
+          <h4 className="text-[14px]  text-[#8497A2] italic font-[400] leading-[135.796%]">{item.description}</h4>
         </div>
       ))}
         </div>

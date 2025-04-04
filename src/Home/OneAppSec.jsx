@@ -76,12 +76,12 @@ function OneAppSec() {
                           <img
                             src={index === activeIndex ? iconcls : iconapon}
                             alt={index === activeIndex ? "Collapse" : "Expand"}
-                            className="w-[18px] h-[18px]"
+                            className=""
                           />
                         </div>
                       </div>
                       <p
-                        className={`mt-[12px] text-[18px] leading-[161.598%] font-[400] text-[#8497A2] max-w-[248px] overflow-hidden transition-all duration-300 ${
+                        className={`mt-[12px] italic text-[18px] leading-[161.598%] font-[400] text-[#8497A2] max-w-[248px] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"

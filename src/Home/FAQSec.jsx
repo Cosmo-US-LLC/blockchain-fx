@@ -35,7 +35,7 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
         }`}
       >
         <p
-          className="text-[16px] max-w-[880px] font-[400] leading-[150%] text-[#8497A2]"
+          className="text-[16px] max-w-[880px] italic font-[400] leading-[150%] text-[#8497A2]"
           dangerouslySetInnerHTML={createMarkup()}
         />
       </div>
@@ -95,7 +95,7 @@ const FaqSec = () => {
             <h2 className="text-white leading-[120%] text-[48px] font-[600]">
               FAQs
             </h2>
-            <p className="text-[18px] font-[400] text-[#ACC4D1] text-center">
+            <p className="text-[18px] italic font-[400] text-[#ACC4D1] text-center">
             Find answers to some of the most common questions.
             </p>
           </div>
