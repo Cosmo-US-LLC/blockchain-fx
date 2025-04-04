@@ -122,7 +122,7 @@ function NavbarMobile() {
               >
                 <div className="flex flex-row gap-2 items-center">
                   <img className="cursor-pointer" src={logo} alt="" />
-                  <p className="text-600 text-[17px] text-[white]">
+                  <p className="font-[700] text-[17px] text-[white]">
                     BlockchainFX
                   </p>
                 </div>
