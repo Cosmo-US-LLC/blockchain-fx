@@ -24,8 +24,8 @@ function GatewaySec() {
           <h3 className="text-[40px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
             The Gateway to Global Markets
           </h3>
-          <p className="text-[18] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#ACC4D1] tracking-[-0.32px]">
-          Starting a global multi-asset trading platform takes years and significant capital, <br /> but by buying $BFX, you can be a part of the international financial market in just two clicks.
+          <p className="text-[18] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#ACC4D1] tracking-[-0.32px] italic">
+          Launching a new trading platform takes a lot of time and resources. On the other hand, <br /> buying $BFX takes seconds and lets you earn every time someone trades.
           </p>
         </div>
         <div className="max-w-[1025px] relative z-[99] mx-auto flex justify-between itees-center ">
@@ -82,7 +82,7 @@ function GatewaySec() {
             <ul>
               <li className="py-[20px] flex items-center space-x-2 border-b border-[#C2C2C2]">
                 <span className="text-[#939393] text-[16px] font-[500] ">
-                  Up to $5 Million
+                  Up to $2 Million
                 </span>
                 <div
                   className="relative"
@@ -91,8 +91,8 @@ function GatewaySec() {
                 >
                   <img className="w-[11.7px]" src={Iicon} alt="Info Icon" />
                   {showTooltip && (
-                    <div className="absolute left-0 top-6 bg-[#808080] w-[210px] text-center leading-[110%] text-[#939393] text-[10px] font-[400] rounded-md p-[6px] shadow-lg">
-                      This is the budget needed only to launch the platform in
+                    <div className="absolute left-0 top-6 bg-[#808080] w-[210px] text-center leading-[110%] text-[#ffff] text-[10px] font-[400] rounded-md p-[6px] shadow-lg">
+                      This is thxe budget needed only to launch the platform in
                       certain jurisdictions, excluding staff and marketing.
                     </div>
                   )}

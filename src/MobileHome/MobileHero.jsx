@@ -119,7 +119,7 @@ function MobileHero() {
             {/* </a> */}
           </div>
           <div className="flex justify-center pt-[15px]">
-            <img src={stats_1} className="h-auto mb-[-30px] mr-[-25px]" alt="stats_1" />
+            <img src={stats_1} className="h-auto " alt="stats_1" />
           </div>
           <div className="gap-2 border border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 mt-4">
             <p className="font-[600] text-[15px] text-center text-[white]">

@@ -34,7 +34,7 @@ function MobileGatewaySec() {
             Earn, Don’t Build
           </h3>
           <p className="text-[15px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[175%] text-[#8497A2] tracking-[-0.32px]">
-          Launching a new trading platform takes a lot of time and resources. Meanwhile, buying $BFX takes seconds and lets you earn every time someone trades.       </p>
+          Launching a new trading platform takes a lot of time and resources. On the other hand, <br /> buying $BFX takes seconds and lets you earn every time someone trades. </p>
         </div>
         <div
           className="p-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] bg-[#030F16] border border-[#2B2B2B]"
@@ -67,7 +67,7 @@ function MobileGatewaySec() {
                 <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
                   <div className="flex items-center justify-center space-x-2">
                     <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
-                      Up to $5 Million
+                    Up to $2 Million
                     </h4>
                     <div
                       className="relative"

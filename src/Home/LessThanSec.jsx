@@ -13,16 +13,12 @@ function LessThanSec() {
       borderColor: "rgba(230, 175, 3, 0.12)",
     }}
       >
-        <div className="space-y-[18px]">
-          <h3 className="text-[40px] capitalize font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
+        <div className="space-y-[18px] relative z-[99]">
+          <h3 className="text-[40px] font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
           Bridging Crypto and Finance
           </h3>
-          <p className="text-[16px] font-[400] w-[890px] mx-auto text-center leading-[130%] text-[#ACC4D1] tracking-[-0.32px]">
-            Crypto makes up only 0.87% of global trading volume in 2024,
-            averaging $84.3 billion daily. Meanwhile, the Forex market alone
-            handles $7.5 trillion per day. This gap presents a major opportunity
-            for $BFX to connect crypto users with the world’s largest financial
-            markets.
+          <p className="text-[16px] font-[400] w-[690px] mx-auto text-center leading-[130%] text-[#ACC4D1] tracking-[-0.32px] italic">
+          Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily. <br /> Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major <br /> opportunity for BFX to connect crypto users with the world’s largest financial markets.
           </p>
         </div>
         <div className="space-y-[60px] relative z-[99]">

@@ -23,10 +23,7 @@ function MobStandoutSec() {
             Standout Features
           </h3>
           <p className="text-[15px] font-[400]  text-center leading-[130%] text-[#8497A2] tracking-[-0.32px]">
-            Cryptocurrencies from exchanges have historically performed well due
-            to their active user base, platform revenue, and ongoing marketing.
-            $BFX, the first token from a multi-asset trading platform, offers
-            unique features that bring real value to the market.{" "}
+          Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.
           </p>
         </div>
         <div className="w-[100%] mx-auto flex">

@@ -50,7 +50,7 @@ function EarnOnSec() {
             className="text-[40px] capitalize font-[700] leading-[128%]  tracking-[-1px] text-start">
             Earn Daily With $BFX
             </h3>
-            <p className="text-[14px] text-[#ACC4D1] font-[400] leading-[161.598%] text-start">
+            <p className="text-[14px] italic text-[#ACC4D1] font-[400] leading-[161.598%] text-start">
             BFX holders earn daily staking rewards in USDT and BFX, powered by BlockchainFX trading fees. Every time someone trades on the app, holders get rewarded. The more BFX a person holds, the more they earn — up to a maximum of 25,000 USDT per day.
             </p>
             <button
