@@ -229,7 +229,7 @@ function Footer() {
                   href=""
                   onClick={(e) => handleScroll(e, "how-to-buy", 90)}
                 >
-                  Whitelist
+                 How to Buy
                 </a>   <br />
                 <a
                   className="text-[#8497A2] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"

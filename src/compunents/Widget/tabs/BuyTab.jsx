@@ -525,23 +525,23 @@ const BuyTab = () => {
         {
           (usdToNextRank > 0 || !nextRank) ? (
            <>
-            {/* <div
+            <div
               className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
               style={{
-                background: "rgba(237, 237, 237, 0.40)",
+                background: "rgb(128 128 128)",
               }}
             >
-              <h4 className="text-center text-[#ffff] text-[8.888px] leading-[70%] font-[700]">
+              <h4 className="text-center text-[#000] text-[9.888px] leading-[70%] font-[700]">
                 You get {wouldReceiveOrCurrentRank?.bonus_percentage ?? 0}% bonus tokens
               </h4>
-              <h4 className="text-center text-[#fff] text-[8.888px] leading-[70%] font-[700]">
+              <h4 className="text-center text-[#000] text-[9.888px] leading-[70%] font-[700]">
                 {(wouldReceiveNextRank)
                   ? `Buy ${formatDollar(usdToNextWouldReceiveRank)} more to unlock ${
                       wouldReceiveNextRank?.bonus_percentage ?? 0
                     }% bonus`
                   : "That is the highest bonus level"}
               </h4>
-            </div> */}
+            </div>
            </>
           ) : (
             <button

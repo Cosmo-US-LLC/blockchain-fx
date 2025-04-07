@@ -158,7 +158,7 @@ const WalletSec = () => {
                 </div>
               ))}
             </div>
-            <div className="space-y-[14px] border-t border-[#545454] pt-2">
+            <div className="space-y-[14px] border-t border-[#545454] pt-3 !mt-0">
               <h4 className="text-[#fff] text-[14px] font-[600] px-1">
                 5. Launch
               </h4>
