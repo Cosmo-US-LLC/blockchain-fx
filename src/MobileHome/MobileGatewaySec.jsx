@@ -5,6 +5,7 @@ import icon2 from "../assets/Gateway/gticons (3).svg";
 import icon3 from "../assets/Gateway/gticons (2).svg";
 import icon4 from "../assets/Gateway/gticons (1).svg";
 import cardicon1 from "../assets/Gateway/tblicn (2).svg";
+import ellipse from "../assets/Gateway/Ellipse 3 (2).png";
 import Iicon from "../assets/Gateway/i.svg";
 import cardicon2 from "../assets/Gateway/tblicn (1).svg";
 
@@ -28,8 +29,18 @@ function MobileGatewaySec() {
 
   return (
     <div className="pt-[34px] pb-[37px] bg-[#030B10]">
-      <div className=" space-y-[33px] w-[90%] mx-auto ">
-        <div className="space-y-[20px]">
+      <div className="relative space-y-[33px] rounded-[16px] py-[30px] px-[20px] overflow-hidden w-[90%] mx-auto "
+      style={{
+        border:"0.319px solid var(--stroke, rgba(230, 175, 3, 0.12))",
+        background:"#030F16"
+      }}
+      >
+          <img
+                  src={ellipse}
+                  className="absolute top-[0%] left-[0%]  "
+                  alt=""
+                />
+        <div className="space-y-[20px] relative z-[9]">
           <h3 className="text-[36px] font-[600] text-center leading-[120%] text-[#FFF] tracking-[-2.548px]">
             Earn, Don’t Build
           </h3>
@@ -37,7 +48,7 @@ function MobileGatewaySec() {
           Launching a new trading platform takes a lot of time and resources. On the other hand, <br /> buying $BFX takes seconds and lets you earn every time someone trades. </p>
         </div>
         <div
-          className="p-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] bg-[#030F16] border border-[#2B2B2B]"
+          className="px-[15px] py-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] bg-[#030F16] border border-[#2B2B2B] relative z-[9]"
            
         >
           <div className="flex items-start space-x-[3rem] justify-center">

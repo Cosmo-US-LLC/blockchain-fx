@@ -13,7 +13,7 @@ function MobSecurityBuiltSec() {
     <div className="pt-[24px] space-y-[35px] pb-[24px] bg-[#000]">
       <div className="space-y-[30px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
-        <h3 className="text-[30px] font-[500] capitalize text-center leading-[114%] text-[#FFF] tracking-[-1px]">
+        <h3 className="text-[30px] font-[600] capitalize text-center leading-[114%] text-[#FFF] tracking-[-1px]">
           Security Built <br /> into the Core
           </h3>
           <p className="text-[15px] font-[400] max-w-[365px] text-center mx-auto w-[100%] leading-[28px] text-[#8497A2] tracking-[-0.32px]">
