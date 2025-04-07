@@ -43,7 +43,7 @@ const items = [
 
 const MobileWalletSec = () => {
   const apiData = useApiState();
-  const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(null);
+  const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
 
   return (
     <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="how-to-buy">
@@ -108,11 +108,15 @@ const MobileWalletSec = () => {
               {items.map((item, index) => (
                 <div
                   key={index}
-                  className={`py-[15px] px-1 border-b last:border-none  transition-all duration-300`}
+                  className={`py-[15px] px-1 border-b  transition-all duration-300`}
                 >
                   <div
                     className="flex justify-between items-center cursor-pointer"
-                    onClick={() => setSelectedHowToBuyStep(index)}
+                    onClick={() =>
+                      setSelectedHowToBuyStep(
+                        selectedHowToBuyStep === index ? null : index
+                      )
+                    }
                   >
                     <div className="flex w-[100%]  justify-between items-center space-x-4 space-y-[15px]">
                       <div className=" w-[100%] flex flex-col justify-center">
@@ -161,7 +165,7 @@ const MobileWalletSec = () => {
               ))}
             </div>
             <div className="space-y-[14px]">
-              <h4 className="text-[white] text-[14px] font-[600] px-1">
+              <h4 className="text-[white] text-[14px] py-[5px] font-[600] px-1">
                 5. Launch
               </h4>
               <div
