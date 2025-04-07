@@ -49,7 +49,7 @@ function MobileHero() {
               }}
               className="h-[29px] rounded-full flex flex-row items-center justify-center border-1 border-[1px] border-[#FFFFFF33]"
             >
-              <h4 className="text-[16px] font-[400] text-[12px] text-[white]">
+              <h4 className="text-[12px] font-[400] italic text-[12px] text-[white]">
                 Connecting Blockchain and Global Financial
               </h4>
             </div>
@@ -87,7 +87,7 @@ function MobileHero() {
               src={hero_reviews}
               alt="hero_reviews"
             />
-            <p className="text-[16px] text-[#8497A2] font-[400] text-center pt-4">
+            <p className="text-[16px] italic text-[#8497A2] font-[400] text-center pt-4">
               BlockchainFX is the only crypto native trading platform that
               provides instant access to the world’s largest financial markets
               across 500+ different assets.

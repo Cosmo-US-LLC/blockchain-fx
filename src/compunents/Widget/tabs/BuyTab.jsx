@@ -295,9 +295,14 @@ const BuyTab = () => {
               </p>
             </div>
           </div>
-          <h5 className="text-[#fff] text-[9.74px] text-center font-[400] leading-[100%]">
+        <div className="space-y-[10px]">
+        <h5 className="text-[#fff] text-[13px] text-center font-[400] leading-[100%]">
             {formatNumber(apiData.info?.transactions, 0, 0)} Transactions
           </h5>
+          <h4 className="text-center text-[#A9A7A7] text-[9.875px] leading-[75%] font-[700]">
+          Launch Price = $0.05
+          </h4>
+        </div>
         </div>
         <div
           className="px-[24px] py-[10px] rounded-[14.596px]"
@@ -306,7 +311,7 @@ const BuyTab = () => {
             backdropFilter:"blur(12.145808219909668px)"
           }}
         >
-          <h4 className="text-center text-[#fff] text-[9.875px] leading-[75%] font-[700]">
+          <h4 className="text-center text-[#fff] text-[12px] leading-[75%] font-[700]">
             You Own = <span className="text-[#FBD914]">1,500,000 BFX </span>
           </h4>
         </div>
@@ -361,7 +366,7 @@ const BuyTab = () => {
             backdropFilter:"blur(12.145808219909668px)"
           }}
         >
-          <h4 className="text-center text-[#fff] text-[9.875px] leading-[75%] font-[700]">
+          <h4 className="text-center text-[#fff] text-[12px] leading-[75%] font-[700]">
           Presale Price = <span className="text-[#FBD914]"> ${formatNumber(LISTING_PRICE)}</span>
           </h4>
         </div>
@@ -463,7 +468,7 @@ const BuyTab = () => {
           </label>
               <input
                 type="text"
-                className="h-[17.281px] w-[80%] text-[14.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] text-[#fff] placeholder:opacity-50"
+                className="h-[17.281px] w-[80%] text-[14.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#FBD914] text-[#fff] placeholder:opacity-50"
                 placeholder="0"
                 value={receiveTokenNumStr}
                 onFocus={(e) => {
@@ -514,28 +519,30 @@ const BuyTab = () => {
             }}
             className="text-[#000] bg-[#FBD914] px-[12px] rounded-[33px] hover:text-[#E5AE00] hover:bg-transparent text-[11.85px] font-[800] border border-[#FBD914]  hover:border-[#FBD914] w-[100%] h-[39.094px]"
           >
-            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Connect Wallet" : "Buy Now"))}
+            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Buy BFX" : "Buy Now"))}
           </button>
         </div>
         {
           (usdToNextRank > 0 || !nextRank) ? (
-            <div
+           <>
+            {/* <div
               className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
               style={{
                 background: "rgba(237, 237, 237, 0.40)",
               }}
             >
-              <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
+              <h4 className="text-center text-[#ffff] text-[8.888px] leading-[70%] font-[700]">
                 You get {wouldReceiveOrCurrentRank?.bonus_percentage ?? 0}% bonus tokens
               </h4>
-              <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
+              <h4 className="text-center text-[#fff] text-[8.888px] leading-[70%] font-[700]">
                 {(wouldReceiveNextRank)
                   ? `Buy ${formatDollar(usdToNextWouldReceiveRank)} more to unlock ${
                       wouldReceiveNextRank?.bonus_percentage ?? 0
                     }% bonus`
                   : "That is the highest bonus level"}
               </h4>
-            </div>
+            </div> */}
+           </>
           ) : (
             <button
               onClick={levelUp}

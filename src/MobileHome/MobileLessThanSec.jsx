@@ -5,7 +5,7 @@ import ellipse from "../assets/EarnOnSec/Ellipse 3.png";
 
 function MobileLessThanSec() {
   return (
-    <div className="pt-[24px] pb-[24px] bg-[#030F16]">
+    <div className="pt-[24px] pb-[24px] bg-[#030F16] overflow-hidden">
       <div className="space-y-[32px] py-4 px-2 w-[90%] mx-auto border-[1px] border-[#2B2B2B] relative overflow-hidden">
         <img
           src={ellipse}

@@ -19,9 +19,9 @@ import Widget from "../compunents/Widget";
 const items = [
   {
     icon: oneicon1,
-    title: "1. Select Payment Method",
+    title: "1. Choose a Payment Method",
     description:
-      "<li>Choose between ETH, BNB, or USDT (ERC-20 or BEP-20) </li><li>Enter the amount you want to buy</li>",
+      "<li>Connect your crypto wallet  </li><li>Choose between card and 10+ cryptocurrencies  </li><li>Enter the amount of BFX you want to buy</li>",
   },
   {
     icon: oneicon2,
