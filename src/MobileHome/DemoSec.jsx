@@ -41,7 +41,7 @@ function DemoSec() {
           switch brokers.
         </p>
         {/* <img src={demo} className="w-[404px] h-auto" alt="demo" /> */}
-        <video width="640" height="660" playsInline muted loop controls>
+        <video width="640" height="660" playsInline muted loop autoPlay controls>
           <source src={liveVideo} type="video/mp4" />
         </video>
       </div>
