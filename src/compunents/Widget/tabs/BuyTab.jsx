@@ -1,6 +1,12 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import info from "../../../assets/wallet/i.svg";
 import bfxicn from "../../../assets/wallet/bfx.webp";
+import bonus from "../../../assets/wallet/bonus.png";
+import Ref from "../../../assets/wallet/ref.png";
+import comcoin from "../../../assets/wallet/comcoin.png";
+import tabicn1 from "../../../assets/wallet/tabicn (1).png";
+import tabicn2 from "../../../assets/wallet/tabicn (2).png";
+import tabicn3 from "../../../assets/wallet/tabicn (3).png";
 import clsx from "clsx";
 import { useApiState } from "../../../presale-gg/stores/api.store";
 import {
@@ -256,6 +262,11 @@ const BuyTab = () => {
   return (
     <>
       <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full">
+        <div className="flex justify-center space-x-2 items-center p-2 rounded-[50px] border">
+          <button className="px-5 py-1 text-[10px] text-[#fff] bg-[#5C5C5C] rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn1} alt="" />Buy</button>
+          <button className="px-5 py-1 text-[10px] text-[#fff] cursor-not-allowed rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn2} alt="" />Stake</button>
+          <button className="px-5 py-1 text-[10px] text-[#fff] cursor-not-allowed rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn3} alt="" />History</button>
+        </div>
         <div
           className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
           style={{
@@ -270,7 +281,7 @@ const BuyTab = () => {
               <span className="text-[#fff] text-[9.74px] font-[400] leading-[100%]">
                 {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
               </span>
-              <img src={info} className="w-[6.912px] h-[6.912px]" alt="" />
+              <img src={info} className="w-[9.912px] h-[9.912px]" alt="" />
             </div>
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
               <div
@@ -289,14 +300,14 @@ const BuyTab = () => {
           </h5>
         </div>
         <div
-          className="px-[24px] py-[7px] rounded-[14.596px]"
+          className="px-[24px] py-[10px] rounded-[14.596px]"
           style={{
             background: "rgba(255, 255, 255, 0.09)",
             backdropFilter:"blur(12.145808219909668px)"
           }}
         >
           <h4 className="text-center text-[#fff] text-[9.875px] leading-[75%] font-[700]">
-            Listing Price: <span className="text-[#FBD914]"> 1 $BFX = ${formatNumber(LISTING_PRICE)}</span>
+            You Own = <span className="text-[#FBD914]">1,500,000 BFX </span>
           </h4>
         </div>
         <div className="text-[#fff] rounded-[8px] overflow-hidden">
@@ -332,12 +343,27 @@ const BuyTab = () => {
             />
           ))}
         </div>
-        <div className="flex justify-center items-center py-[0px] space-x-[15px]">
+        <div className="flex space-x-1 justify-center items-center">
+          <img src={comcoin} alt="" />
+          <p className="text-[9.673px] text-[#fff] font-[400]">+ Other Cryptos</p>
+        </div>
+        {/* <div className="flex justify-center items-center py-[0px] space-x-[15px]">
           <hr className="h-[1px] flex-1" />
           <span className="text-[#fff] mx-4 text-[9.618px] font-[700] leading-[75%]">
             1 $BFX = ${formatNumber(parseNum(apiData.stage?.token_price))}
           </span>
           <hr className="h-[1px] flex-1" />
+        </div> */}
+        <div
+          className="px-[24px] py-[10px] rounded-[14.596px]"
+          style={{
+            background: "rgba(255, 255, 255, 0.09)",
+            backdropFilter:"blur(12.145808219909668px)"
+          }}
+        >
+          <h4 className="text-center text-[#fff] text-[9.875px] leading-[75%] font-[700]">
+          Presale Price = <span className="text-[#FBD914]"> ${formatNumber(LISTING_PRICE)}</span>
+          </h4>
         </div>
         <div className="px-2 pb-2 rounded-[8px]"
          style={{
@@ -486,7 +512,7 @@ const BuyTab = () => {
               if (accountData.isConnected) buy()
               else showConnectWalletModal()
             }}
-            className="text-[#000] bg-[#E5AE00] px-[12px] rounded-[8px] hover:text-[#E5AE00] hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#E5AE00] w-[100%] h-[32.094px]"
+            className="text-[#000] bg-[#FBD914] px-[12px] rounded-[33px] hover:text-[#E5AE00] hover:bg-transparent text-[11.85px] font-[800] border border-[#FBD914]  hover:border-[#FBD914] w-[100%] h-[39.094px]"
           >
             {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Connect Wallet" : "Buy Now"))}
           </button>
@@ -523,21 +549,33 @@ const BuyTab = () => {
           ref={(el) => setCodesContainerRef(el)}
         >
           <button
-            className="text-[8.888px] text-[#fff] font-[700] underline cursor-pointer"
+            className="text-[8.888px] px-3 py-1 flex items-center justify-center text-[#fff] font-[700] cursor-pointer"
+            style={{
+              borderRadius:"75.392px",
+              background:"#414141",
+              boxShadow:"0px 3.016px 3.016px 0px rgba(0, 0, 0, 0.25)"
+            }}
             onClick={() =>
               setCodeInputVisible((code) => (code === "bonus" ? null : "bonus"))
             }
           >
+            <img className="mr-1" src={bonus} alt="" />
             Bonus Code
           </button>
           <button
-            className="text-[8.888px] text-[#fff] font-[700] underline cursor-pointer"
+            className="text-[8.888px] px-3 py-1 flex items-center justify-center text-[#fff] font-[700] cursor-pointer"
+            style={{
+              borderRadius:"75.392px",
+              background:"#414141",
+              boxShadow:"0px 3.016px 3.016px 0px rgba(0, 0, 0, 0.25)"
+            }}
             onClick={() =>
               setCodeInputVisible((code) =>
                 code === "referral" ? null : "referral"
               )
             }
           >
+            <img className="mr-1" src={Ref} alt="" />
             Referral Code
           </button>
         </div>
@@ -619,7 +657,7 @@ const BuyTab = () => {
 
 const buyTabData = {
   component: BuyTab,
-  label: "Buy",
+  label: "Buy BFX",
   key: "buy",
 };
 
