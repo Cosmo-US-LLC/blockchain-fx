@@ -2,6 +2,8 @@ import React from "react";
 
 import whatisimg from "../assets/WhatIsSec/whatisimg.webp"
 import check from "../assets/WhatIsSec/check_02.webp"
+import vecticn1 from "../assets/WhatIsSec/Ellipse 3 (1).png"
+import vecticn2 from "../assets/WhatIsSec/Ellipse 4 (1).png"
 
 function MobWhatIsSec() {
   const handleScroll = () => {
@@ -21,8 +23,15 @@ function MobWhatIsSec() {
 
   return (
     <div className="pt-[50px] pb-[50px]  bg-[#030B10]">
-      <div className="relative w-[90%] mx-auto ">
-        <div className="space-y-[20px]">
+      <div className="relative overflow-hidden w-[90%] pt-[30px] mx-auto rounded-[8px]"
+      style={{
+        border:"0.319px solid var(--stroke, rgba(230, 175, 3, 0.12))",
+        background:"#030F16"
+      }}
+      >
+        <img className="absolute left-0 top-0" src={vecticn1} alt="" />
+        <img className="absolute right-0 top-10" src={vecticn2} alt="" />
+        <div className="space-y-[20px] relative z-[9]">
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[120%] text-[#FFF] tracking-[-1px]">
           What Makes BFX Different?
           </h3>
