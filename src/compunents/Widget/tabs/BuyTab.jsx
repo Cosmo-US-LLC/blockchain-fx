@@ -317,7 +317,7 @@ const BuyTab = () => {
           }}
         >
           <h4 className="text-center text-[#fff] text-[12px] leading-[75%] font-[700]">
-            You Own = <span className="text-[#FBD914]">1,500,000 BFX </span>
+            You Own = <span className="text-[#FBD914]">0 BFX </span>
           </h4>
         </div>
         <div className="text-[#fff] rounded-[8px] overflow-hidden">

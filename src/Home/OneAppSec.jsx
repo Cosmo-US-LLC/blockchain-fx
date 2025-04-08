@@ -46,7 +46,7 @@ function OneAppSec() {
           <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
             Everything In One App
           </h3>
-          <p className="text-[20px] italic text-[#ACC4D1] font-[400] leading-[150%] leading-[-0.32px] text-start">
+          <p className="text-[20px] text-[#ACC4D1] font-[400] leading-[150%] leading-[-0.32px] text-start">
           A lightning-fast and innovative trading solution
           </p>
           <div className="">
@@ -81,7 +81,7 @@ function OneAppSec() {
                         </div>
                       </div>
                       <p
-                        className={`mt-[12px] italic text-[18px] leading-[161.598%] font-[400] text-[#8497A2] max-w-[248px] overflow-hidden transition-all duration-300 ${
+                        className={`mt-[12px] text-[18px] leading-[161.598%] font-[400] text-[#8497A2] max-w-[248px] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"

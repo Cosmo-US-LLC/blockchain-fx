@@ -25,7 +25,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Crypto
               </h3>
-              <p className="text-[16px] font-[400] italic text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
                 Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more with leverage and advanced trading tools.
               </p>
             </div>
@@ -41,7 +41,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Stocks
               </h3>
-              <p className="text-[16px] italic font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
                 Apple, Tesla, Nvidia, Netflix, Coca Cola and more. Buy your favorite stock in seconds.
               </p>
             </div>
@@ -60,7 +60,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Forex
               </h3>
-              <p className="text-[16px] italic font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
                 USD, EUR, JPY, GBP, AUD, and more. Trade over 60 currency pairs in the dynamic forex market.
               </p>
             </div>
@@ -76,7 +76,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Commodities
               </h3>
-              <p className="text-[16px] italic font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
                 Gold, Silver, Oil, Sugar, and many more. Diversify your portfolio with valuable raw materials.
               </p>
             </div>
@@ -92,7 +92,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Indices
               </h3>
-              <p className="text-[16px] italic font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
                 Dow Jones, S&P 500, Nasdaq, DAX, CAC, and many more. Trade the most popular indices.
               </p>
             </div>

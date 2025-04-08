@@ -140,21 +140,14 @@ function Navbar() {
             </a>
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => {
-                e.preventDefault(); // Prevent the default scroll behavior
-                window.open(
-                  "https://vip.blockchainfx.com/BFX-Whitepaper.pdf",
-                  "_blank"
-                ); // Open the PDF in a new tab
-              }}
+              onClick={(e) => handleScroll(e, "whitepaper", 60)}
               href=""
             >
               Whitepaper
             </a>
-
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "roadmap", 60)} // Target the 'roadmap' section and apply offset of 60
+              onClick={(e) => handleScroll(e, "roadmap", 60)}
               href=""
             >
               Roadmap

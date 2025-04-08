@@ -12,7 +12,7 @@ function FeaturedSec() {
         <div className="">
           <img src={ftimg} className="" alt="" />
           <div className="flex mt-[0px] justify-center items-center h-[73.47] space-x-[20px] border border-[#262626] rounded-[13.357px] py-[25px] max-w-[1200px] w-[100%] mx-auto">
-            <h3 className="text-[16.697px] font-[600] italic pr-3 text-[#fff] tracking-[-0.267px]">Featured In:</h3>
+            <h3 className="text-[16.697px] font-[600] pr-3 text-[#fff] tracking-[-0.267px]">Featured In:</h3>
            <div className="flex flex-col items-center space-y-2">
            <a href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/" target="_blank" rel="noopener noreferrer"
            className=""

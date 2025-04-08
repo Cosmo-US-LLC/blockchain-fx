@@ -157,7 +157,7 @@ function MobileGatewaySec() {
             <div className="rounded-[16px] border border-[#2B2B2B]">
               <div className="flex justify-center py-[10px] items-center flex-col">
                 <img className="w-[23px] h-[20.815px]" src={icon4} alt="" />
-                <h4 className="text-[#686868] font-[700] text-[20px] leading-[105%]">
+                <h4 className="text-[#FFF] font-[700] text-[20px] leading-[105%]">
                   Work Scope{" "}
                 </h4>
               </div>

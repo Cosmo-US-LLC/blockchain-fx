@@ -20,44 +20,44 @@ function SecurityBuiltSec() {
           <h3 className="text-[48px] capitalize font-[600] text-center leading-[120%] text-white tracking-[-3.36px]">
           Security Built Into the Core
           </h3>
-          <p className="text-[18px] font-[400] italic max-w-[751px] text-center mx-auto w-[100%] leading-[155.5%] text-[#ACC4D1] tracking-[-0.36px]">
+          <p className="text-[18px] font-[400] max-w-[751px] text-center mx-auto w-[100%] leading-[155.5%] text-[#ACC4D1] tracking-[-0.36px]">
           BlockchainFX leverages advanced technology to build a reliable infrastructure and seamless ecosystem, providing a secure and user-friendly experience for BFX holders and traders.
           </p>
         </div>
         <div className="max-w-[694px] mx-auto grid grid-cols-3 gap-y-[30px]  text-white">
           <div className="w-[179px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon1} alt="" className="w-[80px]" />
-            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-center">
+            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">
             Third-Party <br /> Audited
             </h4>
           </div>
           <div className="w-[179px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon2} alt="" className="w-[80px]" />
-            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-center">
+            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">
             BFX Team has been <br />KYC verified
             </h4>
           </div>
           <div className="w-[189px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon3} alt="" className="w-[80px]" />
-            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-center">
+            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">
             Live Monitoring and <br /> Threat Detection
             </h4>
           </div>
           <div className="w-[179px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon4} alt="" className="w-[80px]" />
-            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-center">
+            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">
             Comprehensive<br />Risk Management
             </h4>
           </div>
           <div className="w-[179px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon5} alt="" className="w-[80px]" />
-            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-center">
+            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">
             Enhanced Data <br /> Privacy
             </h4>
           </div>
           <div className="w-[189px] flex flex-col mx-auto space-y-[1rem] justyfy-center items-center w-[100%]">
             <img src={cardicon6} alt="" className="w-[80px]" />
-            <h4 className="text-[14px] font-[400] italic tracking-[-0.32px] text-center">
+            <h4 className="text-[14px] font-[400] tracking-[-0.32px] text-center">
             GDPR <br />compliant
             </h4>
           </div>
