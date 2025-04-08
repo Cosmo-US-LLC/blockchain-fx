@@ -20,13 +20,13 @@ function FeaturedSec() {
             </a>
            </div>
            <div className="flex flex-col items-center space-y-2">
-           <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" rel="noopener noreferrer"
+           <a href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/" target="_blank" rel="noopener noreferrer"
            className=""
            > <img src={herobnr2} className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="" />
             </a>
            </div>
            <div className="flex flex-col items-center space-y-2">
-           <a href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/" target="_blank" rel="noopener noreferrer"
+           <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" rel="noopener noreferrer"
            className=""
            > <img src={herobnr3} className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="" />
             </a>
