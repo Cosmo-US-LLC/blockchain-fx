@@ -16,25 +16,25 @@ function FeaturedSec() {
            <div className="flex flex-col items-center space-y-2">
            <a href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/" target="_blank" rel="noopener noreferrer"
            className=""
-           ><img src={herobnr1}  alt="" />
+           ><img src={herobnr1} className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="" />
             </a>
            </div>
            <div className="flex flex-col items-center space-y-2">
            <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" rel="noopener noreferrer"
            className=""
-           > <img src={herobnr2}  alt="" />
+           > <img src={herobnr2} className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="" />
             </a>
            </div>
            <div className="flex flex-col items-center space-y-2">
            <a href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/" target="_blank" rel="noopener noreferrer"
            className=""
-           > <img src={herobnr3}  alt="" />
+           > <img src={herobnr3} className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="" />
             </a>
            </div>
            <div className="flex flex-col items-center space-y-2">
            <a href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/" target="_blank" rel="noopener noreferrer"
            className=""
-           ><img src={herobnr4}  alt="" />
+           ><img src={herobnr4} className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="" />
             </a>
            </div>
           

@@ -95,7 +95,7 @@ const WalletSec = () => {
             }}
             className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[25px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
           >
-            <div className="w-[100%] absolute top-0 left-0 -translate-y-1/2">
+            <div className="w-[100%] absoolute top-0 left-0 -translate-y-1/2">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#000]">
                 <h3 className="text-[9.875px] text-[#fff] text-center w-[100px] font-[700]  ">
                   How To Buy
@@ -110,7 +110,11 @@ const WalletSec = () => {
                 >
                   <div
                     className="flex justify-between items-center cursor-pointer"
-                    onClick={() => setSelectedHowToBuyStep(index)}
+                    onClick={() =>
+                      setSelectedHowToBuyStep(
+                        selectedHowToBuyStep === index ? null : index
+                      )
+                    }
                   >
                     <div className="flex w-[100%]  justify-between items-center space-x-4 space-y-[15px]">
                       <div className=" w-[100%] flex flex-col justify-center">
