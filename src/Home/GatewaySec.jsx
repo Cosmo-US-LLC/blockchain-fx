@@ -92,8 +92,7 @@ function GatewaySec() {
                   <img className="w-[11.7px]" src={Iicon} alt="Info Icon" />
                   {showTooltip && (
                     <div className="absolute left-0 top-6 bg-[#808080] w-[210px] text-center leading-[110%] text-[#ffff] text-[10px] font-[400] rounded-md p-[6px] shadow-lg">
-                      This is the budget needed only to launch the platform in
-                      certain jurisdictions, excluding staff and marketing.
+                      This is the budget needed only to launch the platform in certain jurisdictions, excluding staff and marketing.
                     </div>
                   )}
                 </div>

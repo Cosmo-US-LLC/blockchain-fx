@@ -121,7 +121,7 @@ function MobileHero() {
           <div className="flex justify-center pt-[15px]">
             <img src={stats_1} className="h-auto " alt="stats_1" />
           </div>
-          <div className="gap-2 border border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 mt-4">
+          <div className="gap-2 border relative !border-t-0  !mt-[-30px] border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 ">
             <p className="font-[600] text-[15px] text-center text-[white]">
               Featured In:
             </p>

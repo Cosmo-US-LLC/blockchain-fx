@@ -286,7 +286,6 @@ const BuyTab = () => {
               <span className="text-[#fff] text-[9.74px] font-[400] leading-[100%]">
                 {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
               </span>
-              <img src={info} className="w-[9.912px] h-[9.912px]" alt="" />
             </div>
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
               <div
@@ -522,7 +521,7 @@ const BuyTab = () => {
               if (accountData.isConnected) buy()
               else showConnectWalletModal()
             }}
-            className="text-[#000] bg-[#FBD914] px-[12px] rounded-[33px] hover:text-[#E5AE00] hover:bg-transparent text-[11.85px] font-[800] border border-[#FBD914]  hover:border-[#FBD914] w-[100%] h-[39.094px]"
+            className="text-[#000] bg-[#E5AE00] px-[12px] rounded-[33px] hover:text-[#E5AE00] hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#E5AE00] w-[100%] h-[39.094px]"
           >
             {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Buy BFX" : "Buy Now"))}
           </button>
