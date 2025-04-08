@@ -262,7 +262,7 @@ const BuyTab = () => {
   return (
     <>
       <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full">
-        <div className="flex justify-center space-x-2 items-center p-2 rounded-[50px] border">
+        {/* <div className="flex justify-center space-x-2 items-center p-2 rounded-[50px] border">
           <button className="px-5 py-1 text-[10px] text-[#fff] bg-[#5C5C5C] rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn1} alt="" />Buy</button>
           <button
            onClick={() => {
@@ -271,7 +271,7 @@ const BuyTab = () => {
           }}
           className="px-5 py-1 text-[10px] text-[#fff] rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn2} alt="" />Dashboard</button>
           <button className="px-5 py-1 text-[10px] text-[#fff] cursor-not-allowed rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn3} alt="" />History</button>
-        </div>
+        </div> */}
         <div
           className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
           style={{
@@ -309,7 +309,7 @@ const BuyTab = () => {
           </h4>
         </div>
         </div>
-        <div
+        {/* <div
           className="px-[24px] py-[10px] rounded-[14.596px]"
           style={{
             background: "rgba(255, 255, 255, 0.09)",
@@ -319,7 +319,7 @@ const BuyTab = () => {
           <h4 className="text-center text-[#fff] text-[12px] leading-[75%] font-[700]">
             You Own = <span className="text-[#FBD914]">0 BFX </span>
           </h4>
-        </div>
+        </div> */}
         <div className="text-[#fff] rounded-[8px] overflow-hidden">
           <TokenSelectDropdown
             tokenList={{
