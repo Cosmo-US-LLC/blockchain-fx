@@ -66,50 +66,50 @@ const tableData = [
 
 function TopBFXReferral() {
   return (
-    <div className="pt-[55px] pb-[20px] bg-[#020B10]">
-      <div className="max-w-[1300px] w-[100%] mx-auto ">
-        <div className="flex justify-center items-center space-x-[90px]">
-          <div>
-            <img src={ProgramReferral} alt="Referral Image" />
+    <div className="pt-[55px] pb-[20px] bg-[#020B10] h-full">
+      <div className="max-w-[1200px] relative w-[100%] mx-auto">
+        <div className="flex flex-col sm:flex-row justify-center items-stretch space-x-[0%] sm:space-x-[4%]">
+          <div className="w-[100%] px-[4%] sm:px-[0%] sm:w-[50%] grow">
+            <img src={ProgramReferral} alt="Referral Image" className="h-full object-cover" />
           </div>
-          <div>
-            <div className="pt-[25px] pb-[20px] bg-[#020B10]">
+          <div className="w-[100%] sm:w-[50%] px-[4%] 2xl:px-[8%] lg:px-[3%] md:px-[0%] h-full min-h-full" >
+            <div className="pt-[25px] pb-[10px] sm:pb-[20px] bg-[#020B10]">
               <div className="space-y-[10px]">
-                <h1 className=" text-[40px] pt-[15px] font-[600] leading-[120%] tracking-[-1px] text-[#fff] text-center">
+                <h1 className=" text-[28px] sm:text-[40px] pt-[15px] font-[600] leading-[120%] tracking-[-1px] text-[#fff] text-center">
                   TOP BFX REFERRERS
                 </h1>
               </div>
             </div>
             <div>
-              <div className="max-w-[540px] mx-auto">
+              <div className="mx-auto">
                 <div className="overflow-x-auto mx-auto">
                   <table className="w-full mx-auto ">
                     <thead>
                       <tr className="">
                         <th className="py-4">
-                          <div className="flex  flex-col itens-center justify-center space-y-2">
-                            <p className="text-[16px] text-[#fff] text-center font-[700] leading-[100%]">
+                          <div className="flex flex-col justify-center space-y-2">
+                            <p className="text-[12px] sm:text-[16px] text-[#fff] text-start font-[500] sm:font-[700] leading-[100%]">
                               Rank
                             </p>
                           </div>
                         </th>
                         <th className="py-4">
-                          <div className="flex flex-col itens-center justify-center space-y-2">
-                            <p className="text-[16px] text-[#fff] text-center font-[700] leading-[100%]">
+                          <div className="flex flex-col justify-center space-y-2">
+                            <p className="text-[12px] sm:text-[16px] text-[#fff] text-start font-[500] sm:font-[700] leading-[100%]">
                               Wallet
                             </p>
                           </div>
                         </th>
                         <th className="py-4">
-                          <div className="flex flex-col itens-center justify-center space-y-2">
-                            <p className="text-[16px] text-[#fff] text-center font-[700] leading-[100%]">
+                          <div className="flex flex-col justify-center space-y-2">
+                            <p className="text-[12px] sm:text-[16px] text-[#fff] text-end font-[500] sm:font-[700] leading-[100%]">
                               Referred Total
                             </p>
                           </div>
                         </th>
                         <th className="py-4">
-                          <div className="flex flex-col itens-center justify-center space-y-2">
-                            <p className="text-[16px] text-[#fff] text-center font-[700] leading-[100%]">
+                          <div className="flex flex-col justify-center space-y-2">
+                            <p className="text-[12px] sm:text-[16px] text-[#fff] text-end font-[500] sm:font-[700] leading-[100%]">
                               Referrals
                             </p>
                           </div>
@@ -120,8 +120,7 @@ function TopBFXReferral() {
                     <tbody
                       className="overflow-hidden bg-[#030F16] rounded-[16px] space-y-[26px] w-[100%] mx-auto"
                       style={{
-                        border: "1px solid #2B2B2B",
-                        // box-shadow: 0px 5.336px 26.68px 0px rgba(169, 169, 169, 0.30);
+                        border: "1px solid #ffffff",
                       }}
                     >
                       {tableData.map((row, rowIndex) => (
@@ -129,27 +128,50 @@ function TopBFXReferral() {
                           {Object.entries(row).map(([key, value], colIndex) => (
                             <td
                               key={key}
-                              className={` px-4 py-[13px] !h-[57px] border-b border-[#a6a6a638] ${
+                              className={`px-2 sm:px-4 py-[13px] !h-[57px] border-b border-[#a6a6a638] ${
                                 colIndex === 1
-                                  ? "text-[14.7px] border-b border-[#a6a6a638]"
+                                  ? " text-[12px] sm:text-[14.7px] border-b border-[#a6a6a638] "
                                   : ""
                               } ${
-                                rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
-                                  ? "text-[16px] text-[#ACC4D1] font-[600] text-center !w-[225px]"
-                                  : "font-[500] text-[#fff] text-[16px] !w-[183px]"
-                              } ${colIndex === 0 ? "border-l-5" : ""} ${
+                                colIndex === 1
+                                  ? rowIndex <= 2
+                                    ? "text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[600] !text-start !w-[20%] !px-0 bg-[#959DA533]"
+                                    : "font-[400] sm:font-[500] text-[#fff] text-[12px] sm:text-[16px] !w-[20%] !text-start !px-0 !bg-transparent"
+                                  : ""
+                              } ${
+                                colIndex === 2
+                                  ? rowIndex <= 2
+                                    ? "text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[600] !text-end !w-[30%] !px-0 bg-[#959DA533]"
+                                    : "font-[400] sm:font-[500] text-[#fff] text-[12px] sm:text-[16px] !w-[30%] !text-end !px-0"
+                                  : ""
+                              } ${
+                                colIndex >= 3
+                                  ? rowIndex <= 2
+                                    ? "text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[600] !text-end bg-[#959DA533] !w-[20%]"
+                                    : "font-[400] sm:font-[500] text-[#fff] text-[12px] sm:text-[16px] !text-end bg-transparent !w-[20%]"
+                                  : ""
+                              }} 
+                              ${
+                                colIndex === 0
+                                  ? rowIndex <= 2
+                                    ? "border-l-5 bg-[#959DA533] text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[600]"
+                                    : "text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[500]"
+                                  : ""
+                              } ${
                                 colIndex === tableData[0].length - 1
                                   ? "border-r-0 border-l-0 !text-start "
                                   : "border-r-0"
-                              } ${
-                                rowIndex === tableData.length - 1
-                                  ? colIndex === 0
-                                    ? "border-l-0 border-b-0"
-                                    : colIndex === tableData[0].length - 1
-                                    ? "!border-r-0 border-b-0 border-l-0"
-                                    : "border-b-0 border-r-0"
-                                  : ""
-                              }`}
+                              }
+                               ${
+                                 rowIndex === tableData.length - 1
+                                   ? colIndex === 0
+                                     ? "border-l-0 border-b-0"
+                                     : colIndex === tableData[0].length - 1
+                                     ? "!border-r-0 border-b-0 border-l-0"
+                                     : "border-b-0 border-r-0"
+                                   : ""
+                               }
+                              `}
                             >
                               {value.startsWith("/") ? (
                                 <img
@@ -157,7 +179,7 @@ function TopBFXReferral() {
                                   alt={`Row ${rowIndex + 1} Col ${
                                     colIndex + 1
                                   }`}
-                                  className="mx-auto w-[22.6px] h-[22.6px]"
+                                  className="mx-auto w-[6%] h-[22.6px]"
                                 />
                               ) : (
                                 value
@@ -169,8 +191,8 @@ function TopBFXReferral() {
                     </tbody>
                   </table>
                 </div>
-                <div className="max-w-[500px] mx-auto bg-[#020B10]">
-                  <p className=" text-[16px] pt-[15px] font-[400] leading-[120%] tracking-[-1px] text-[#fff] text-center">
+                <div className="max-w-[95%] mx-auto bg-[#020B10]">
+                  <p className=" text-[15px] sm:text-[16px] pt-[15px] font-[400] leading-[120%] tracking-[-1px] text-[#fff] text-center">
                     Got a strong crypto community? Let’s build something big
                     together. Earn cashback on every purchase your members make.
                     If your group has 1,000+ members, contact @BFXMAX on
