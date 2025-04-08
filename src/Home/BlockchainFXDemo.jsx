@@ -37,7 +37,7 @@ function BlockchainFXDemo() {
             >
               BlockchainFX Demo
             </h4>
-            <p className="text-[#ACC4D1] italic text-[18px] font-[500]">
+            <p className="text-[#ACC4D1] text-[18px] font-[500]">
               Within less than 2 minutes, we’re trading BTC, Tesla, Gold, Pepe,
               ETFs, CFDs, and more — all streamlined on one platform with no
               need to switch brokers.

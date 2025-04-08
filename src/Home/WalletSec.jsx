@@ -55,19 +55,19 @@ const WalletSec = () => {
       >
         <div className="pb-[20px]">
         <div className="flex justify-center space-x-3 items-center">
-          <h3 className="text-[40px] italic font-[700] text-[#fff] tracking-[-1px]">
+          <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
             BFX Presale
           </h3>
           {!apiData.presaleEnded && (
             <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
-              <span className="text-[38px] italic leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
+              <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
                 .
               </span>
               Live
             </div>
           )}
         </div>
-        <p className="text-[18px] italic font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]"> 
+        <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]"> 
         BFX is the world’s first cryptocurrency backed by a global multi-asset trading platform, where holders earn real USDT rewards anytime someone trades — even during the presale.
         </p>
         </div>

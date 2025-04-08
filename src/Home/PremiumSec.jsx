@@ -175,7 +175,7 @@ function PremiumSec() {
             <h3 className="text-[40px] leading-[155.556%] text-[#fff] text-start font-[700]">
               Limited Founder's Club Membership
             </h3>
-            <p className="text-[18px] italic leading-[150%] text-[#ACC4D1] font-[400] tracking-[-0.32px]">
+            <p className="text-[18px] leading-[150%] text-[#ACC4D1] font-[400] tracking-[-0.32px]">
               Buy $BFX during the pre-sale and get Founder's Club NFTs starting
               at only $1,000!  Enjoy early access, exclusive memberships, bonus
               $BFX, daily staking rewards in BFX and USDT, plus extra trading
@@ -436,7 +436,7 @@ function PremiumSec() {
                 {openBundles === item.id && (
                   <div className="relative">
                     <p
-                      className="mt-2 text-[16px] italic list-disc text-[#8497A2] font-[400] tracking-[-0.32px]"
+                      className="mt-2 text-[16px] list-disc text-[#8497A2] font-[400] tracking-[-0.32px]"
                       dangerouslySetInnerHTML={{ __html: item.answer }}
                     ></p>
                     {item.tooltip && (

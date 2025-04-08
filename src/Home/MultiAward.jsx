@@ -12,7 +12,7 @@ export default function MultiAward(){
                 <h3 className="text-[30px] text-white font-[600] leading-[120%] tracking-[-2.1px] ">
                 Multi-Awarded Trading Platform
                 </h3>
-                <p className="text-[48px] italic text-white font-[600] leading-[120%] tracking-[-3.36px]">
+                <p className="text-[48px] text-white font-[600] leading-[120%] tracking-[-3.36px]">
                 Our Awards Speak For Themselves
                 </p>
                 </div>
