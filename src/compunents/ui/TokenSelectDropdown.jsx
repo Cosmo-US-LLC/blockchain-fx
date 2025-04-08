@@ -43,7 +43,7 @@ const TokenSelectDropdown = (props) => {
             : "rgba(176, 176, 176, 0.17)",
         }}
         className={clsx(
-          "flex items-center rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
+          "flex items-center justify-center rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
           { "!bg-[#e5ae00]": active },
         )}
       >
