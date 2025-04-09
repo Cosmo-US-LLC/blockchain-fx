@@ -134,7 +134,7 @@ function TopBFXReferral() {
                       }}
                     >
                       {tableData.map((row, rowIndex) => (
-                        <tr key={rowIndex} className="!h-[51px]">
+                        <tr key={rowIndex} className="!h-[51px]" >
                           {Object.entries(row).map(([key, value], colIndex) => (
                             <td
                               key={key}
