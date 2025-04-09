@@ -88,9 +88,7 @@ function MobileHero() {
               alt="hero_reviews"
             />
             <p className="text-[16px] text-[#8497A2] font-[400] text-center pt-4">
-              BlockchainFX is the only crypto native trading platform that
-              provides instant access to the world’s largest financial markets
-              across 500+ different assets.
+            BlockchainFX is the only crypto native trading platform providing instant access to the world’s largest financial markets with the release of its new BFX coin.
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">

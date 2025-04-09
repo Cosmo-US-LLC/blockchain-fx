@@ -176,10 +176,7 @@ function PremiumSec() {
               Limited Founder's Club Membership
             </h3>
             <p className="text-[18px] leading-[150%] text-[#ACC4D1] font-[400] tracking-[-0.32px]">
-              Buy $BFX during the pre-sale and get Founder's Club NFTs starting
-              at only $1,000!  Enjoy early access, exclusive memberships, bonus
-              $BFX, daily staking rewards in BFX and USDT, plus extra trading
-              credits. Available only during the pre-sale!
+            Buy BFX during the presale and become a Founder's Club Member starting from just $1,000. Get your exclusive NFT, BFX Visa Card, Bonus Tokens, Daily USDT Staking Rewards, and Free Trading Credits.
             </p>
           </div>
 
