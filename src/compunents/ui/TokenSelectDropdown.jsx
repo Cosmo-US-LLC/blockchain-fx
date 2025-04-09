@@ -43,13 +43,13 @@ const TokenSelectDropdown = (props) => {
             : "rgba(176, 176, 176, 0.17)",
         }}
         className={clsx(
-          "flex items-center justify-center rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
+          "flex items-center justify-start rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
           { "!bg-[#e5ae00]": active },
         )}
       >
         {token && (
           <img
-            className="w-[18px] h-[18px] object-cover"
+            className="w-[18px] h-[18px]"
             src={tokenImageMap[token.symbol.toLowerCase()]}
             alt=""
           />

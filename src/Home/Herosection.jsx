@@ -52,7 +52,7 @@ function Herosection() {
               }}
             >
               <h4 className="text-[14px]  leading-[144.444%] font-[400] text-center text-[#fff] tracking-[-1px] capitalize">
-                Blockchain Meets Global Financial Markets
+              Connecting Blockchain and Global Finance
               </h4>
             </div>
             <h1 className=" text-[45px] pt-[15px] font-[700] leading-[120%] tracking-[-1px] text-[#fff] text-center">

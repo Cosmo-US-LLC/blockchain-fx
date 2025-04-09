@@ -3,7 +3,7 @@ import info from "../../../assets/wallet/i.svg";
 import bfxicn from "../../../assets/wallet/bfx.webp";
 import bonus from "../../../assets/wallet/bonus.png";
 import Ref from "../../../assets/wallet/ref.png";
-import comcoin from "../../../assets/wallet/comcoin.png";
+import comcoin from "../../../assets/wallet/comcoin.webp";
 import tabicn1 from "../../../assets/wallet/tabicn (1).png";
 import tabicn2 from "../../../assets/wallet/tabicn (2).png";
 import tabicn3 from "../../../assets/wallet/tabicn (3).png";
@@ -353,7 +353,7 @@ const BuyTab = () => {
           ))}
         </div>
         <div className="flex space-x-1 justify-center items-center">
-          <img src={comcoin} alt="" />
+          <img className="w-[153px] h-[22px] object-cover" src={comcoin} alt="" />
           <p className="text-[9.673px] text-[#fff] font-[400]">+ Other Cryptos</p>
         </div>
         {/* <div className="flex justify-center items-center py-[0px] space-x-[15px]">
@@ -420,8 +420,8 @@ const BuyTab = () => {
                 }}
               />
             </div>
-            <div className="relative border px-[4px] rounded-[8px] w-[74px]">
-              <div className="justify-start flex h-[24px] items-center space-x-[3px]">
+            <div className="relative border px-[10px] mt-2 rounded-[50px] w-[90px]">
+              <div className="justify-start flex h-[34px] items-center space-x-[3px]">
                 {selectedToken && (
                   <>
                     <img
@@ -430,14 +430,14 @@ const BuyTab = () => {
                       alt=""
                     />
                     <div className="flex flex-col">
-                      <span className="text-[#fff] !overflow-hidden !text-clip text-[8.888px] font-[700]">
+                      <span className="text-[#fff] !overflow-hidden !text-clip text-[11.888px] font-[700]">
                         {selectedToken?.symbol.toUpperCase() === "CARD"
                           ? "USD"
                           : selectedToken?.symbol.toUpperCase()}
                       </span>
                       <span
                         className={clsx(
-                          "text-[#777] text-[6.688px] font-[900] leading-[1] whitespace-nowrap transition-colors"
+                          "text-[#777] text-[8.688px] font-[900] leading-[1] whitespace-nowrap transition-colors"
                         )}
                       >
                         {selectedToken.chain.toUpperCase()}
@@ -501,14 +501,14 @@ const BuyTab = () => {
                 }}
               />
             </div>
-            <div className="relative w-[74px] border rounded-[8px] px-[4px] ">
-              <div className="justify-start flex h-[24px]  items-center space-x-[5px] cursor-pointer">
+            <div className="relative w-[90px] border rounded-[50px] mt-2 px-[10px] ">
+              <div className="justify-start flex h-[34px]  items-center space-x-[5px] cursor-pointer">
                 <img
                   className="w-[15.8px] h-[15.8px] object-cover"
                   src={bfxicn}
                   alt=""
                 />
-                <span className="text-[#fff] text-[8.888px] font-[700] leading-[50px]">
+                <span className="text-[#fff] text-[11px] font-[700] leading-[50px]">
                   BFX
                 </span>
               </div>

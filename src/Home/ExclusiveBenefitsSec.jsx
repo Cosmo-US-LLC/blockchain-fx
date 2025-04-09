@@ -63,7 +63,7 @@ function ExclusiveBenefitsSec() {
                   className="text-[22px] text-center text-[#fff] font-[600] leading-[115%]"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
-                <h4 className="text-[15px]  text-center text-[#fff] font-[400] leading-[111.111%]">
+                <h4 className="text-[15px]  text-center text-[#8497A2] font-[400] leading-[111.111%]">
                   {item.description}
                 </h4>
               </div>
