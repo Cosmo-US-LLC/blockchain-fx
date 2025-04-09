@@ -7,10 +7,10 @@ function HerosectionReferral() {
       <div className="max-w-[1200px] relative w-[100%] mx-auto ">
         <div className="">
           <div className="space-y-[10px]">
-            <h1 className=" text-[43px] md:text-[52px] lg:text-[60px] xl:text-[66px] pt-[15px] font-[600] px-[16px] md:px-[0px] leading-[120%] tracking-[-1px] text-[#fff] text-center">
+            <h1 className=" text-[43px] md:text-[52px] lg:text-[60px] xl:text-[66px] pt-[15px] font-[600] px-[16px] md:px-[0px] leading-[120%] tracking-[-1px] text-[#fff] text-center font-inter">
               BFX Referral Program
             </h1>
-            <p className="text-[16px] mx-auto font-[400] leading-[150%] text-center text-[#8497A2] tracking-[-0.32px] w-[80%] sm:w-[100%]" style={{ marginTop: '0px' }}>
+            <p className="text-[16px] mx-auto font-[400] leading-[150%] text-center text-[#8497A2] tracking-[-0.32px] w-[80%] sm:w-[100%] font-inter" style={{ marginTop: '0px' }}>
               Connect your wallet to access your referral code and dashboard
             </p>
 
@@ -19,7 +19,7 @@ function HerosectionReferral() {
                 style={{
                 background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
               }}
-                className="text-[#000] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:opacity-[0.8] italic 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E6B005] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] w-[100%] 2xl:h-[43px] xl:h-[43px] lg:h-[43px] md:h-[43px] sm:h-[40px] h-[40px]"
+                className="text-[#000] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:opacity-[0.8] font-inter 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E6B005] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] w-[100%] 2xl:h-[43px] xl:h-[43px] lg:h-[43px] md:h-[43px] sm:h-[40px] h-[40px]"
               >
                 Connect Wallet
               </button>
