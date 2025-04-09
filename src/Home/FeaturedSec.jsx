@@ -10,8 +10,18 @@ function FeaturedSec() {
     <div className="bg-[#020B10] py-[50px]">
       <div className=" ">
         <div className="w-[100%] mx-auto">
-          <img src={ftimg} className="max-w-[1360px] mx-auto w-[100%]" alt="" />
-          <div className="bg-[#020B10] flex mt-[0px] relative z-[99] mt-[-50px] justify-center items-center h-[73.47] space-x-[20px] border border-[#262626] rounded-[13.357px] py-[25px] max-w-[1200px] w-[100%] mx-auto">
+          <div className="relative">
+          <img src={ftimg} className="max-w-[1200px] mx-auto w-[100%]" alt="" />
+          <div className="w-[100%] h-[246px] rounded-[1650px] bg-[#020B10]"
+          style={{
+            filter:"blur(37px)",
+            position:"absolute",
+            bottom:"-7%",
+            zIndex:"9"
+          }}
+          ></div>
+          </div>
+          <div className="bg-[#020B10] flex relative z-[99] mt-[-60px] justify-center items-center h-[73.47] space-x-[20px] border border-[#262626] rounded-[13.357px] py-[25px] max-w-[1200px] w-[100%] mx-auto">
             <h3 className="text-[16.697px] font-[600] pr-3 text-[#fff] tracking-[-0.267px]">Featured In:</h3>
            <div className="flex flex-col items-center space-y-2">
            <a href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/" target="_blank" rel="noopener noreferrer"
