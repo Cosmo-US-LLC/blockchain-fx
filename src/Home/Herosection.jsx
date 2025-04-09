@@ -90,9 +90,7 @@ function Herosection() {
               </div>
             </div>
             <p className="text-[16px] max-w-[646px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#8497A2] tracking-[-0.32px] ">
-              BlockchainFX is the only crypto native trading platform that
-              provides instant access to the world’s largest financial markets
-              across 500+ different assets.
+            BlockchainFX is the only crypto native trading platform providing instant access to the world’s largest financial markets with the release of its new BFX coin.
             </p>
           </div>
           <div className="flex justify-center pt-[20px] pb-[0px] items-center space-x-[17px]">

@@ -111,7 +111,7 @@ function MobNextGenerationSec() {
               <img src={icon_9} className="w-[58px] h-[58px]" alt="icon_9" />
             </div>
             <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              Register <br /> in 1 Min
+            Register <br /> in Seconds
             </p>
           </div>
 

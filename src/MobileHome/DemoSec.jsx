@@ -36,9 +36,7 @@ function DemoSec() {
           BlockchainFX Demo
         </h3>
         <p className="text-[16px] text-center font-[400] text-[#8497A2]">
-          Within less than 2 minutes, we’re trading BTC, Tesla, Gold, Pepe,
-          ETFs, CFDs, and more — all streamlined on one platform with no need to
-          switch brokers.
+        In just a few seconds, users can trade BTC, Tesla, Gold, Pepe, ETFs, CFDs, and more — all seamlessly on one platform without switching brokers.
         </p>
         {/* <img src={demo} className="w-[404px] h-auto" alt="demo" /> */}
         <video width="640" height="660" playsInline muted loop autoPlay controls>

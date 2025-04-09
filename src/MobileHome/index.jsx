@@ -32,12 +32,14 @@ import CreditCardMob from "./CreditCardMob";
 import MobPressMediaSec from "./MobPressMediaSec";
 import MobOurAwardSec from "./MobOurAwardSec";
 import LivePresale from "../compunents/LivePresale";
+import KYCVerifiedMob from "./KYCVerifiedMob";
 
 function MobileHome() {
   return (
     <div className="bg-[#020B10]">
       <MobileHero />
       <MobileWalletSec />
+      <KYCVerifiedMob />
       <YoutubeSec />
       <MobNextGenerationSec />
       <DemoSec />

@@ -70,7 +70,7 @@ function NextGenerationSec() {
                 <img src={nexticn3} className='h-[80px]' alt="" />
               </div>
               <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                Register <br /> in 1 Min
+              Register <br /> in Seconds
               </p>
             </div>
           </div>

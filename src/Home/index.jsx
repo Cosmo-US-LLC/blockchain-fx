@@ -40,6 +40,7 @@ import MultiAward from './MultiAward';
 import ExpertSaysSec from './ExpertSaysSec';
 import BlockchainFXDemo from './BlockchainFXDemo';
 import CreditCard from './CreditCard';
+import KYCVerified from './KYCVerified';
 
 
 function Home() {
@@ -48,6 +49,7 @@ function Home() {
         <Herosection />
         <FeaturedSec />
         <WalletSec />
+        <KYCVerified />
         <ExpertSaysSec />
         <NextGenerationSec />
         <BlockchainFXDemo />
