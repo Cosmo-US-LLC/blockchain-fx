@@ -67,7 +67,7 @@ const tableData = [
 
 function TopBFXReferral() {
   return (
-    <div className=" pt-[0px] sm:pt-[55px] pb-[20px] bg-[#020B10] h-full">
+    <div className=" pt-[15px] sm:pt-[55px] pb-[20px] bg-[#020B10] h-full">
       <div className="max-w-[1200px] relative w-[100%] mx-auto">
         <div className="flex flex-col sm:flex-row justify-center items-stretch space-x-[0%] sm:space-x-[4%]">
           <div className="w-[100%] px-[4%] sm:px-[0%] sm:w-[50%] grow">
@@ -79,7 +79,7 @@ function TopBFXReferral() {
             <img
               src={ReferralMobileImage}
               alt="Referral Mobile"
-              className="h-full object-cover block sm:hidden"
+              className="w-full h-auto object-contain block sm:hidden"
             />
           </div>
           <div className="w-[100%] sm:w-[50%] px-[4%] 2xl:px-[4%] lg:px-[3%] md:px-[0%] h-full min-h-full">
