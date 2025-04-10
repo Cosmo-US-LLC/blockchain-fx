@@ -20,6 +20,7 @@ const ContactModal = (props) => {
 		setLoading(true)
 		try {
 			await api.postLeads({
+				name,
 				email,
 				mobile: phoneNumber,
 				wallet_address: account.address
