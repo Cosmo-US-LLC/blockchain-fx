@@ -304,7 +304,7 @@ const BuyTab = () => {
             {formatNumber(apiData.info?.transactions, 0, 0)} Transactions
           </h5>
           <h4 className="text-center text-[#A9A7A7] text-[9.875px] leading-[75%] font-[700]">
-          Launch Price = $0.011
+          Launch Price = $0.05
           </h4>
         </div>
         </div>
@@ -371,7 +371,7 @@ const BuyTab = () => {
           }}
         >
           <h4 className="text-center text-[#fff] text-[12px] leading-[75%] font-[700]">
-          Presale Price = <span className="text-[#FBD914]"> ${formatNumber(LISTING_PRICE)}</span>
+          Presale Price = <span className="text-[#FBD914]"> $0.011</span>
           </h4>
         </div>
         <div className="px-2 pb-2 rounded-[8px]"
