@@ -23,6 +23,7 @@ function MobRoadmapSec() {
     {
       id:1,
       title: "Preperation",
+      status: "Complete",
       points: [
         "Idea + Concept",
         "Raise Seed Funds",
@@ -33,6 +34,7 @@ function MobRoadmapSec() {
     {
       id:2,
       title: "Execution",
+      status: "Complete",
       points: [
         "Website, Tokenomics etc.",
         "Create $BFX Token",
@@ -43,6 +45,7 @@ function MobRoadmapSec() {
     {
       id:3,
       title: "Launch",
+      status: "On-going",
       points: [
         "Launch an Affiliate Program",
         "Sell Out the Pre-Sale",
@@ -110,9 +113,11 @@ function MobRoadmapSec() {
               <SwiperSlide key={id}>
                 <div className="">
                   <div className="bg-[#030F16] border border-white border-opacity-10 max-w-[340px] mx-auto rounded-[8px] rounded-b-none pl-[30px] pr-[15px] py-[20px] w-[100%]">
-                    <h2 className="text-[#fff] text-[24px] leading-[144.529%] font-[600] flex justify-start items-center gap-3">
+                    <div className="flex justify-between items-center"
+                >
+                 <h2 className="text-[#fff] text-[24px] leading-[144.529%] font-[600] flex justify-start items-center gap-3">
                       {step?.title}
-                     {id < 2 && (
+                      {id < 2 && (
                         <div className="w-5">
                         <svg
                           width="20"
@@ -129,6 +134,28 @@ function MobRoadmapSec() {
                       </div>
                       )}
                     </h2>
+                  {step.status && (
+                    <p
+                      style={{
+                        background:
+                          step.status === "Complete"
+                            ? "rgba(0, 124, 45, 0.16)"
+                            : step.status === "On-going"
+                            ? "rgba(255, 190, 82, 0.13)"
+                            : "transparent",
+                      }}
+                      className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
+                        step.status === "Complete"
+                          ? "text-[#01BA48]"
+                          : step.status === "On-going"
+                          ? "text-[#C47E0A]"
+                          : ""
+                      }`}
+                    >
+                      {step.status}
+                    </p>
+                  )}
+                </div>
                   </div>
                   <div className="bg-[#030F16] border border-white border-opacity-10 max-w-[340px] mx-auto border-t-0 rounded-[8px] rounded-t-none pl-[30px] pr-[15px] py-[20px] space-y-6 w-[100%]">
                     {step?.points?.map((point, idx) => (

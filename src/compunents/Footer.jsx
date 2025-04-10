@@ -7,6 +7,13 @@ import socil1 from "../assets/footer/Vector (2).svg";
 import socil2 from "../assets/footer/Vector (3).svg";
 import socil3 from "../assets/footer/Vector (4).svg";
 
+import icnft1 from "../assets/footer/ftricn (2).svg";
+import icnft2 from "../assets/footer/ftricn (3).svg";
+import icnft3 from "../assets/footer/ftricn (1).svg";
+
+
+
+
 function Footer() {
   const handleScroll = (event, targetId, offset) => {
     event.preventDefault();
@@ -158,6 +165,11 @@ function Footer() {
               </h3>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center space-x-[35px] pt-[25px] items-center">
+              <img className="h-[38px]" src={icnft1} alt="" />
+              <img className="h-[38px]" src={icnft2} alt="" />
+              <img className="h-[38px]" src={icnft3} alt="" />
         </div>
         <div className="border-t border-b border-white/10 py-[46px]">
           <p className="text-[14px] font-[400] text-[#8497A2] leading-[171%]">
@@ -339,6 +351,12 @@ function Footer() {
             </div>
           </div>
         </div>
+        <div className="flex justify-start space-x-[20px] pt-[10px] items-center">
+              <img className="h-[22px]" src={icnft1} alt="" />
+              <img className="h-[22px]" src={icnft2} alt="" />
+              <img className="h-[22px]" src={icnft3} alt="" />
+        </div>
+
         <div className="border-t border-b border-[#FFF] border-opacity-10 py-[18px]">
           <p className="text-[10px] font-[400] text-[#8497A2] leading-[190%]">
             Cryptocurrency may be unregulated in your jurisdiction, and its
