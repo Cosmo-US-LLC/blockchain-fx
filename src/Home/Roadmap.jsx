@@ -104,6 +104,7 @@ function RoadmapSection() {
     // First group
     {
       title: "Preparation",
+      status: "Complete",
       items: [
         "Idea + concept",
         "Raise Seed Funds",
@@ -113,6 +114,7 @@ function RoadmapSection() {
     },
     {
       title: "Execution",
+      status: "Complete",
       items: [
         "Website, Tokenomics etc.",
         "Create $BFX Token",
@@ -122,6 +124,7 @@ function RoadmapSection() {
     },
     {
       title: "Launch",
+      status: "On-going",
       items: [
         "Launch an Affiliate Program",
         "Sell Out the Pre-Sale",
@@ -204,10 +207,37 @@ function RoadmapSection() {
           {slideData.map((slide, index) => (
             <div key={index} className="px-2">
               <div className="bg-[#030F16] border border-[#242424] rounded-[4px] p-6 h-full">
-                <h4 className="text-[#E5AE00] text-[24px] mb-4">
-                  {slide.title}
-                </h4>
-                <ul className="text-white">
+                <div className="flex justify-between pb-2 items-center"
+                style={{
+                  borderBottom: "1px solid var(--stroke, rgba(230, 175, 3, 0.12))"
+                }}
+                >
+                  <h4 className="text-[#E5AE00] text-[24px]">
+                    {slide.title}
+                  </h4>
+                  {slide.status && (
+                    <p
+                      style={{
+                        background:
+                          slide.status === "Complete"
+                            ? "rgba(0, 124, 45, 0.16)"
+                            : slide.status === "On-going"
+                            ? "rgba(255, 190, 82, 0.13)"
+                            : "transparent",
+                      }}
+                      className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
+                        slide.status === "Complete"
+                          ? "text-[#01BA48]"
+                          : slide.status === "On-going"
+                          ? "text-[#C47E0A]"
+                          : ""
+                      }`}
+                    >
+                      {slide.status}
+                    </p>
+                  )}
+                </div>
+                <ul className="text-white pt-2">
                   {slide.items.map((item, itemIndex) => {
                     const isSlideOne = index === 0;
                     const isSlideTwo =

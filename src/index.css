@@ -165,3 +165,12 @@ p {
   background-size: 100% 100%;
   background-image: url('./assets/Whitepaper/whitepaper_bg.png');
 }
+
+.custom-bullet {
+  background-color: #1c1917;
+  cursor: pointer;
+
+}
+.swiper-pagination-bullet-active.custom-bullet {
+  background-color: #dba81d;
+}

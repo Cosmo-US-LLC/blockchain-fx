@@ -262,7 +262,7 @@ const DashboardPopup = ({ onClose }) => {
             </div>
             <div
             style={{
-              background: "rgba(255, 255, 255, 0.01)",
+              background: "#000",
               border:"0.4px solid var(--Linear, #E0B300)",
               backdropFilter:"blur(10.33918571472168px)"
             }}
@@ -272,11 +272,12 @@ const DashboardPopup = ({ onClose }) => {
                 Total Portfolio on BFX Launch
               </h4>
             <div className="flex items-center justify-center">
-            <h3 className="text-center text-[#FBD915] text-[30px] leading-[100%] font-[700]">
+            <h3 className="text-center text-[#FBD915] text-[32px] leading-[100%] font-[700]">
                 {formatDollar(
                   parseNum(userData.user?.total_tokens) * LISTING_PRICE
                 )}
               </h3>
+            </div>
               <p className="text-center pl-2 text-[#02953B] text-[14px]">
                 +
                 {formatDollar(
@@ -295,8 +296,7 @@ const DashboardPopup = ({ onClose }) => {
                   )}
                 </span>
               </p>
-            </div>
-              <p className="text-[14px] text-[#fff] text-center font-[500]">February 5, 2025</p>
+              {/* <p className="text-[14px] text-[#fff] text-center font-[500]">February 5, 2025</p> */}
             </div>
             <div
               className="py-[7px] rounded-[8px]"
