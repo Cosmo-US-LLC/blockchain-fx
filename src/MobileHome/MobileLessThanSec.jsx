@@ -43,7 +43,7 @@ function MobileLessThanSec() {
     };
   return (
     <div className="pt-[24px] pb-[24px] bg-[#030F16] overflow-hidden">
-        {/* <div className="space-y-[32px] py-4 px-2 w-[90%] mx-auto border-[1px] border-[#2B2B2B] relative overflow-hidden">
+        <div className="space-y-[32px] py-4 px-2 w-[90%] mx-auto border-[1px] border-[#2B2B2B] relative overflow-hidden">
         <img
           src={ellipse}
           className="max-w-[400px] h-[450px]  absolute top-[0%] left-[0%]  "
@@ -119,9 +119,9 @@ function MobileLessThanSec() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
      
-        <div className="relative max-w-[1200px] mx-auto">
+        {/* <div className="relative max-w-[1200px] mx-auto">
                 <div className="w-[40%] flex justify-end items-end space-x-2">
                           <button className="swiper-button-prev-swp a absolute z-[99] -left-0 top-[50%] transform -translate-y-1/2">
                             <img className="w-[42.545px] h-[42.545px]" src={arw} alt="" />
@@ -438,7 +438,7 @@ function MobileLessThanSec() {
                     </SwiperSlide>
                   </Swiper>
                   <div className="custom-pagination flex justify-center p-2 gap-3 mt-4"></div>
-                </div>
+                </div> */}
     </div>
   );
 }
