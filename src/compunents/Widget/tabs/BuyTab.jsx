@@ -304,7 +304,7 @@ const BuyTab = () => {
             {formatNumber(apiData.info?.transactions, 0, 0)} Transactions
           </h5>
           <h4 className="text-center text-[#A9A7A7] text-[9.875px] leading-[75%] font-[700]">
-          Launch Price = $0.05
+          Launch Price = $0.011
           </h4>
         </div>
         </div>
