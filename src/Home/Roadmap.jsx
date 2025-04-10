@@ -207,14 +207,14 @@ function RoadmapSection() {
           {slideData.map((slide, index) => (
             <div key={index} className="px-2">
               <div className="bg-[#030F16] border border-[#242424] rounded-[4px] p-6 h-full">
-                <div className="flex justify-between pb-2 items-center"
-                style={{
-                  borderBottom: "1px solid var(--stroke, rgba(230, 175, 3, 0.12))"
-                }}
+                <div
+                  className="flex justify-between pb-2 items-center"
+                  style={{
+                    borderBottom:
+                      "1px solid var(--stroke, rgba(230, 175, 3, 0.12))",
+                  }}
                 >
-                  <h4 className="text-[#E5AE00] text-[24px]">
-                    {slide.title}
-                  </h4>
+                  <h4 className="text-[#E5AE00] text-[24px]">{slide.title}</h4>
                   {slide.status && (
                     <p
                       style={{
@@ -240,8 +240,7 @@ function RoadmapSection() {
                 <ul className="text-white pt-2">
                   {slide.items.map((item, itemIndex) => {
                     const isSlideOne = index === 0;
-                    const isSlideTwo =
-                      index === 1 && itemIndex !== slide.items.length - 1;
+                    const isSlideTwo = index === 1;
 
                     const showTick = isSlideOne || isSlideTwo;
 
