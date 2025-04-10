@@ -213,8 +213,9 @@ const DashboardPopup = ({ onClose }) => {
   }, [swiper, currentRankIndex])
 
   const bfxRewards = useMemo(() => {
-    return userData.bonusTransactions?.reduce((acc, curr) => acc + parseNum(curr.bonus_token_amount), 0) ?? 0
-  }, [userData.bonusTransactions])
+    const bonusTransactionsRewards = userData.bonusTransactions?.reduce((acc, curr) => acc + parseNum(curr.bonus_token_amount), 0) ?? 0
+    return bonusTransactionsRewards + parseNum(userData.userStakeData?.total_earnings)
+  }, [userData.bonusTransactions, userData.userStakeData?.total_earnings])
 
   return (
     <div className="fixed flex items-center inset-0 bg-black bg-opacity-50 h-[100vh] !z-[999]">
