@@ -80,7 +80,7 @@ function ExpertSaysSec() {
                 <iframe
                   src="https://fast.wistia.net/embed/iframe/aa3tldcsf0"
                   title="Wistia Video"
-                  allow="autoplay; fullscreen"
+                  allow="fullscreen"
                   allowTransparency="true"
                   frameBorder="0"
                   scrolling="no"
@@ -127,7 +127,7 @@ function ExpertSaysSec() {
                 <iframe
                   src="https://fast.wistia.net/embed/iframe/y8jip6h7gy"
                   title="Wistia Video"
-                  allow="autoplay; fullscreen"
+                  allow="fullscreen"
                   allowTransparency="true"
                   frameBorder="0"
                   scrolling="no"
@@ -171,7 +171,7 @@ function ExpertSaysSec() {
                 <iframe
                   src="https://fast.wistia.net/embed/iframe/rln8cnlwja"
                   title="Wistia Video"
-                  allow="autoplay; fullscreen"
+                  allow="fullscreen"
                   allowTransparency="true"
                   frameBorder="0"
                   scrolling="no"

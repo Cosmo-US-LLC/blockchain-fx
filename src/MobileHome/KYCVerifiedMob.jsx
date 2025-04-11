@@ -27,7 +27,7 @@ const cardItems = [
 
 function KYCVerifiedMob() {
   return (
-    <div className="pb-[50px] pt-[65px] bg-[#020B10]">
+    <div className="pb-[50px] pt-[85px] bg-[#020B10]">
       <div className="max-w-[1200px] w-[100%] mx-auto relative">
         <div className=" w-[100%] mx-auto ">
         {/* <h3 className="text-[30px] pb-[25px] text-[#fff] font-[600] leading-[155.556%] leading-[-1px] text-center">
