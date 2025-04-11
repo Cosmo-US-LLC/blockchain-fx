@@ -11,31 +11,31 @@ const cardData = [
     img: takeimg2,
     title: "Stocks",
     subtitle:
-      "Apple, Tesla, Nvidia, Netflix, Coca Cola and more. Buy your favorite stock in seconds.",
+      "Apple, Tesla, Nvidia, Netflix, Coca Cola and more.",
   },
   {
     img: takeimg4,
     title: "Commodities",
     subtitle:
-      "Gold, Silver, Oil, and many more. Diversify your portfolio with a range of valuable raw materials.",
+      "Gold, Silver, Oil, Sugar, and more.",
   },
   {
     img: takeimg1,
     title: "Crypto",
     subtitle:
-      "Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more with leverage and advanced trading tools.",
+      "Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more.",
   },
   {
     img: takeimg3,
     title: "Forex",
     subtitle:
-      "USD, EUR, JPY, GBP, AUD, and more. Trade over 60 currency pairs in the dynamic forex market.",
+      "USD, EUR, JPY, GBP, AUD, and more.",
   },
   {
     img: takeimg5,
     title: "Indices",
     subtitle:
-      "Dow Jones, S&P 500, Nasdaq, DAX, CAC, and many more. Trade the most popular indices.",
+      "Dow Jones, S&P 500, Nasdaq and more.",
   },
 ];
 

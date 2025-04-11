@@ -289,8 +289,9 @@ const BuyTab = () => {
             </div>
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
               <div
-                className="bg-[#E5AE00] h-[10px] rounded-[20px]"
-                style={{ width: `${stageFrac * 100}%` }}
+                className=" h-[10px] rounded-[20px]"
+                style={{ width: `${stageFrac * 100}%`,background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)", }}
+               
               />
             </div>
             <div>
@@ -303,9 +304,6 @@ const BuyTab = () => {
         <h5 className="text-[#fff] text-[13px] text-center font-[400] leading-[100%]">
             {formatNumber(apiData.info?.transactions, 0, 0)} Transactions
           </h5>
-          <h4 className="text-center text-[#A9A7A7] text-[9.875px] leading-[75%] font-[700]">
-          Launch Price = $0.05
-          </h4>
         </div>
         </div>
         {/* <div
@@ -364,14 +362,14 @@ const BuyTab = () => {
           <hr className="h-[1px] flex-1" />
         </div> */}
         <div
-          className="px-[24px] py-[10px] rounded-[14.596px]"
+          className="px-[24px] py-[10px] rounded-[17.596px]"
           style={{
-            background: "rgba(255, 255, 255, 0.09)",
+            background: "#000",
             backdropFilter:"blur(12.145808219909668px)"
           }}
         >
           <h4 className="text-center text-[#fff] text-[12px] leading-[75%] font-[700]">
-          Presale Price = <span className="text-[#FBD914]"> $0.011</span>
+          Presale Price = <span className="text-[#FBD914]"> $0.011</span> <span className="px-1">|</span> Launch Price = <span className="text-[#FBD914]">$0.05</span>
           </h4>
         </div>
         <div className="px-2 pb-2 rounded-[8px]"
@@ -521,7 +519,7 @@ const BuyTab = () => {
               if (accountData.isConnected) buy()
               else showConnectWalletModal()
             }}
-            className="text-[#000] bg-[#E5AE00] px-[12px] rounded-[33px] hover:text-[#E5AE00] hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#E5AE00] w-[100%] h-[39.094px]"
+            className="text-[#000] bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)] px-[12px] rounded-[33px]  text-[11.85px] font-[800] border border-[#E5AE00]  hover:opacity-[0.8] w-[100%] h-[39.094px]"
           >
             {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Buy BFX" : "Buy Now"))}
           </button>
@@ -529,7 +527,7 @@ const BuyTab = () => {
         {
           (usdToNextRank > 0 || !nextRank) ? (
            <>
-            <div
+            {/* <div
               className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
               style={{
                 background: "rgb(128 128 128)",
@@ -545,7 +543,7 @@ const BuyTab = () => {
                     }% bonus`
                   : "That is the highest bonus level"}
               </h4>
-            </div>
+            </div> */}
            </>
           ) : (
             <button

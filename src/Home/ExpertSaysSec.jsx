@@ -70,12 +70,23 @@ function ExpertSaysSec() {
                 </div>
               </div>
               <div className="w-[50%]">
-                <iframe
+                {/* <iframe
                   className="w-full aspect-video"
                   src="https://www.youtube.com/embed/WyfOYLbvCf8"
                   title="YouTube video player"
                   allow="encrypted-media"
                   allowFullScreen
+                ></iframe> */}
+                <iframe
+                  src="https://fast.wistia.net/embed/iframe/aa3tldcsf0"
+                  title="Wistia Video"
+                  allow="autoplay; fullscreen"
+                  allowTransparency="true"
+                  frameBorder="0"
+                  scrolling="no"
+                  className="wistia_embed"
+                  name="wistia_embed"
+                  style={{ height: "400px", width: "100%" }}
                 ></iframe>
                 {/* <img src={expimg1} alt="Expert 1" /> */}
               </div>
@@ -114,11 +125,15 @@ function ExpertSaysSec() {
               <div className="w-[50%]">
                 {/* <img src={expimg2} alt="Expert 2" /> */}
                 <iframe
-                  className="w-full aspect-video"
-                  src="https://www.youtube.com/embed/p2WCv5vBL-Q"
-                  title="YouTube video player"
-                  allow="encrypted-media"
-                  allowFullScreen
+                  src="https://fast.wistia.net/embed/iframe/y8jip6h7gy"
+                  title="Wistia Video"
+                  allow="autoplay; fullscreen"
+                  allowTransparency="true"
+                  frameBorder="0"
+                  scrolling="no"
+                  className="wistia_embed"
+                  name="wistia_embed"
+                  style={{ height: "400px", width: "100%" }}
                 ></iframe>
               </div>
             </div>
@@ -138,7 +153,8 @@ function ExpertSaysSec() {
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500]">
-                “Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be"
+                  “Every time someone trades on this platform, you will earn —
+                  the more BFX you hold, the higher your rewards will be"
                 </p>
                 <img src={stars} alt="" />
                 <div>
@@ -153,11 +169,15 @@ function ExpertSaysSec() {
               <div className="w-[50%]">
                 {/* <img src={expimg2} alt="Expert 2" /> */}
                 <iframe
-                  className="w-full aspect-video"
-                  src="https://www.youtube.com/embed/DYPM0MmCOHE"
-                  title="YouTube video player"
-                  allow="encrypted-media"
-                  allowFullScreen
+                  src="https://fast.wistia.net/embed/iframe/rln8cnlwja"
+                  title="Wistia Video"
+                  allow="autoplay; fullscreen"
+                  allowTransparency="true"
+                  frameBorder="0"
+                  scrolling="no"
+                  className="wistia_embed"
+                  name="wistia_embed"
+                  style={{ height: "400px", width: "100%" }}
                 ></iframe>
               </div>
             </div>
@@ -191,34 +211,44 @@ function ExpertSaysSec() {
           </button>
         </div> */}
 
-<div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
-  {/* Previous Button */}
-  <button ref={prevRef} className="">
-    {activeSlide === 0 ? ( // First item, left button inactive
-      <img className="h-[34px] w-[34px] " src={expawr2} alt="inactive" />
-    ) : (
-      <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr1} alt="active" />
-    )}
-  </button>
+        <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
+          {/* Previous Button */}
+          <button ref={prevRef} className="">
+            {activeSlide === 0 ? ( // First item, left button inactive
+              <img
+                className="h-[34px] w-[34px] "
+                src={expawr2}
+                alt="inactive"
+              />
+            ) : (
+              <img
+                className="h-[34px] w-[34px] rotate-[180deg]"
+                src={expawr1}
+                alt="active"
+              />
+            )}
+          </button>
 
-  {/* Next Button */}
-  <button ref={nextRef} className="">
-    {activeSlide === 2 ? ( // Third item, right button inactive
-      <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr2} alt="inactive" />
-    ) : (
-      <img className="h-[34px] w-[34px]" src={expawr1} alt="active" />
-    )}
-  </button>
-</div>
+          {/* Next Button */}
+          <button ref={nextRef} className="">
+            {activeSlide === 2 ? ( // Third item, right button inactive
+              <img
+                className="h-[34px] w-[34px] rotate-[180deg]"
+                src={expawr2}
+                alt="inactive"
+              />
+            ) : (
+              <img className="h-[34px] w-[34px]" src={expawr1} alt="active" />
+            )}
+          </button>
+        </div>
 
-        
         <div className="absolute top-[-8%] left-[-5%]">
           <img src={ernvet2} className=" " alt="" />
         </div>
         <div className="absolute bottom-[0%] right-[0%]">
           <img src={ernvet1} className="" alt="" />
         </div>
-
       </div>
     </div>
   );

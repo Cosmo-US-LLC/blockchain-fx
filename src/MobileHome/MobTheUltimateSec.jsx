@@ -25,7 +25,7 @@ function MobTheUltimateSec() {
             <div className="flex justify-center ">
               <img src={logo} className="h-[30px]" alt="" />
             </div>
-            <h3 className="text-[33.358px] text-[#fff] font-[500] text-center leading-[117.143%]">
+            <h3 className="text-[33.358px] text-[#fff] font-[600] text-center leading-[117.143%]">
               The Ultimate <br />
               Trading Platform
             </h3>
