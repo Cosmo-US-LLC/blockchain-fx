@@ -116,11 +116,19 @@ function MobileHero() {
             </button>
             {/* </a> */}
           </div>
-          <div className="flex justify-center pt-[15px]">
+          <div className="flex relative justify-center pt-[15px]">
             <img src={stats_1} className="h-auto " alt="stats_1" />
+            <div className="w-[100%] h-[100px] rounded-[1650px] bg-[#020B10]"
+          style={{
+            filter:"blur(37px)",
+            position:"absolute",
+            bottom:"-7%",
+            zIndex:"1"
+          }}
+          ></div>
           </div>
-          <div className="gap-2 border relative !border-t-0  !mt-[-30px] border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 ">
-            <p className="font-[600] text-[15px] text-center text-[white]">
+          <div className="gap-2 border !border-t-0  !mt-[-30px] border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 ">
+            <p className="font-[600] relative z-[99] text-[15px] text-center text-[white]">
               Featured In:
             </p>
             <div className="flex justify-center items-center space-x-2">
