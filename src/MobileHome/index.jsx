@@ -52,8 +52,8 @@ function MobileHome() {
       <MobilePremiumSec />
       {/* <MobHowToBuySec /> */}
       <MobileLessThanSec />
-      <MobileGatewaySec />
-      <MobHyperGrowthSec />
+      {/* <MobileGatewaySec />
+      <MobHyperGrowthSec /> */}
       <MobStandoutSec />
       {/* <MobileWallStreetSec /> */}
       {/* <MobTadeLikeSec /> */}
