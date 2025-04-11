@@ -23,7 +23,7 @@ function MobRoadmapSec() {
     {
       id:1,
       title: "Preperation",
-      status: "Complete",
+      status: "Completed",
       points: [
         "Idea + Concept",
         "Raise Seed Funds",
@@ -34,7 +34,7 @@ function MobRoadmapSec() {
     {
       id:2,
       title: "Execution",
-      status: "Complete",
+      status: "Completed",
       points: [
         "Website, Tokenomics etc.",
         "Create $BFX Token",
@@ -138,14 +138,14 @@ function MobRoadmapSec() {
                     <p
                       style={{
                         background:
-                          step.status === "Complete"
+                          step.status === "Completed"
                             ? "rgba(0, 124, 45, 0.16)"
                             : step.status === "On-going"
                             ? "rgba(255, 190, 82, 0.13)"
                             : "transparent",
                       }}
                       className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
-                        step.status === "Complete"
+                        step.status === "Completed"
                           ? "text-[#01BA48]"
                           : step.status === "On-going"
                           ? "text-[#C47E0A]"

@@ -30,9 +30,9 @@ function KYCVerifiedMob() {
     <div className="pb-[50px] pt-[85px] bg-[#020B10]">
       <div className="max-w-[1200px] w-[100%] mx-auto relative">
         <div className=" w-[100%] mx-auto ">
-        {/* <h3 className="text-[30px] pb-[25px] text-[#fff] font-[600] leading-[155.556%] leading-[-1px] text-center">
-      Security Verified by Industry Experts
-        </h3> */}
+        <h3 className="text-[36px]  pb-[30px] text-[#fff] font-[600] leading-[114%] tracking-[-1px] text-center">
+      Security Verified by <br /> Industry Experts 
+        </h3>
           <div className="grid grid-cols-1 gap-y-[19px]">
             {cardItems.map((item) => (
               <div

@@ -104,7 +104,7 @@ function RoadmapSection() {
     // First group
     {
       title: "Preparation",
-      status: "Complete",
+      status: "Completed",
       items: [
         "Idea + concept",
         "Raise Seed Funds",
@@ -114,7 +114,7 @@ function RoadmapSection() {
     },
     {
       title: "Execution",
-      status: "Complete",
+      status: "Completed",
       items: [
         "Website, Tokenomics etc.",
         "Create $BFX Token",
@@ -219,14 +219,14 @@ function RoadmapSection() {
                     <p
                       style={{
                         background:
-                          slide.status === "Complete"
+                          slide.status === "Completed"
                             ? "rgba(0, 124, 45, 0.16)"
                             : slide.status === "On-going"
                             ? "rgba(255, 190, 82, 0.13)"
                             : "transparent",
                       }}
                       className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
-                        slide.status === "Complete"
+                        slide.status === "Completed"
                           ? "text-[#01BA48]"
                           : slide.status === "On-going"
                           ? "text-[#C47E0A]"
