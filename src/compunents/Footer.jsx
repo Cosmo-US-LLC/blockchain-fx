@@ -140,7 +140,7 @@ function Footer() {
                 <img src={socil1} alt="" />
               </a>
               <a
-                href="https://t.me/blockchainfx_news"
+                href="https://t.me/blockchainfx_chat"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-110"
@@ -325,7 +325,7 @@ function Footer() {
                 <img className="w-[24px] h-[24px]" src={socil1} alt="" />
               </a>
               <a
-                href="https://t.me/blockchainfx_news"
+                href="https://t.me/blockchainfx_chat"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-110"
