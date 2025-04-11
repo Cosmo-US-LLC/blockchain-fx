@@ -123,10 +123,18 @@ const MobileWalletSec = () => {
                         <div className="flex justify-between items-center">
                           <h3
                             className={`text-[14px] capitalize font-[600] ${
-                              index === selectedHowToBuyStep
-                                ? "text-[#E5AE00]"
-                                : "text-[white] "
+                              index === selectedHowToBuyStep ? "" : "text-[#fff]"
                             }`}
+                            style={
+                              index === selectedHowToBuyStep
+                                ? {
+                                    background: "linear-gradient(92deg, #E5AE01 24.64%, #FFE182 97%)",
+                                    backgroundClip: "text",
+                                    WebkitBackgroundClip: "text",
+                                    WebkitTextFillColor: "transparent",
+                                  }
+                                : {}
+                            }
                           >
                             {item.title}
                           </h3>

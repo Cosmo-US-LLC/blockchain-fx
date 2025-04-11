@@ -19,14 +19,14 @@ function TradeOverSec() {
           style={{
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
-          className="rounded-[16px] min-h-[310px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
+          className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
             <img src={takeimg1} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Crypto
               </h3>
               <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
-                Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more with leverage and advanced trading tools.
+                Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more.
               </p>
             </div>
           </div>
@@ -35,14 +35,14 @@ function TradeOverSec() {
           style={{
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
-          className="rounded-[16px] min-h-[310px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
+          className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
             <img src={takeimg2} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Stocks
               </h3>
               <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
-                Apple, Tesla, Nvidia, Netflix, Coca Cola and more. Buy your favorite stock in seconds.
+                Apple, Tesla, Nvidia, Netflix, Coca Cola and more.
               </p>
             </div>
           </div>
@@ -54,14 +54,14 @@ function TradeOverSec() {
           style={{
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
-          className="rounded-[16px] min-h-[310px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
+          className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
             <img src={takeimg3} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Forex
               </h3>
               <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
-                USD, EUR, JPY, GBP, AUD, and more. Trade over 60 currency pairs in the dynamic forex market.
+                USD, EUR, JPY, GBP, AUD, and more.
               </p>
             </div>
           </div>
@@ -70,14 +70,14 @@ function TradeOverSec() {
           style={{
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
-          className="rounded-[16px] min-h-[310px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
+          className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
             <img src={takeimg4} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Commodities
               </h3>
               <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
-                Gold, Silver, Oil, Sugar, and many more. Diversify your portfolio with valuable raw materials.
+                Gold, Silver, Oil, Sugar, and more.
               </p>
             </div>
           </div>
@@ -86,14 +86,14 @@ function TradeOverSec() {
           style={{
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
-          className="rounded-[16px] min-h-[310px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
+          className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
             <img src={takeimg5} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Indices
               </h3>
               <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
-                Dow Jones, S&P 500, Nasdaq, DAX, CAC, and many more. Trade the most popular indices.
+                Dow Jones, S&P 500, Nasdaq and more.
               </p>
             </div>
           </div>

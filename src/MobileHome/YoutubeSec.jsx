@@ -10,7 +10,7 @@ export default function YoutubeSec() {
     {
       description:
         "“Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”",
-      link: "https://www.youtube.com/watch?v=WyfOYLbvCf8",
+      link: "https://fast.wistia.net/embed/iframe/aa3tldcsf0",
       id: "big_pottential",
       dealer: "— Crypto Volt",
       meta: "Crypto Youtuber, 178K Followers",
@@ -18,7 +18,7 @@ export default function YoutubeSec() {
     {
       description:
         "“Forex, indices, stocks, ETFs, even options — you can trade them all in one place. It’s the first platform of its kind.”",
-      link: "https://www.youtube.com/watch?v=p2WCv5vBL-Q",
+      link: "https://fast.wistia.net/embed/iframe/y8jip6h7gy",
       id: "hidden_gem",
       dealer: "— Crypto Dealer",
       meta: "Youtuber, 102K Followers",
@@ -26,7 +26,7 @@ export default function YoutubeSec() {
     {
       description:
         "“Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be”",
-      link: "https://www.youtube.com/watch?v=DYPM0MmCOHE",
+      link: "https://fast.wistia.net/embed/iframe/rln8cnlwja",
       id: "hidden_trades",
       dealer: "— Crypto Pandas",
       meta: "Youtuber, 22.7K Followers",

@@ -28,8 +28,11 @@ const cardItems = [
 function KYCVerified() {
   return (
     <div className="py-[50px] bg-[#020B10]">
-      <div className="max-w-[1200px] w-[100%] mx-auto relative">
-        <div className=" pt-[34px] w-[100%] mx-auto ">
+      <div className="max-w-[1200px] pt-[35px] w-[100%] mx-auto relative">
+      <h3 className="text-[40px] text-[#fff]  font-[600] leading-[155.556%] leading-[-1px] text-center">
+      Security Verified by Industry Experts
+        </h3>
+        <div className=" pt-[25px] w-[100%] mx-auto ">
           <div className="grid grid-cols-3 gap-x-[12px] gap-y-[19px]">
             {cardItems.map((item) => (
               <div
@@ -47,7 +50,7 @@ function KYCVerified() {
                     }}
                     className="py-[3px] rounded-[5px] px-[8px] text-[#01BA48] text-[14px] font-[500]"
                   >
-                    complete
+                    Completed
                   </p>
                 </div>
                 <div>
