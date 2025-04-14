@@ -90,7 +90,7 @@ function LessThanSec() {
           </h4> */}
           <div className="relative">
             <div className="flex justify-center">
-              <img src={graph} alt="" className="h-[321px] w-[321px]" />
+              <img src={graph} alt="graph"  loading="lazy" className="h-[321px] w-[321px]" />
             </div>
             <p className="text-[#ACC4D1] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
               Bonds: $1.1 Trillion (11.42%)
@@ -324,7 +324,7 @@ function LessThanSec() {
                             </div>
                           </div>
                           <div>
-                            <img src={graphyp} alt="" className="" />
+                            <img src={graphyp} loading="lazy" alt="Trading" className="" />
                           </div>
                         </div>
                         <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">

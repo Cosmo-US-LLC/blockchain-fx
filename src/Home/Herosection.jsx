@@ -71,7 +71,7 @@ function Herosection() {
             </h1>
             <div className="flex items-center justify-center pt-[20px] space-x-3">
               <div className="flex flex-col items-center">
-                <img src={uersrev} alt="" />
+                <img src={uersrev} loading="lazy" alt="" />
                 <p className="text-[#8497A2] font-[400] text-[16px]">
                   Verified Ratings
                 </p>
@@ -83,7 +83,7 @@ function Herosection() {
                   border: "1.5px solid rgba(230, 175, 3, 0.30)",
                 }}
               >
-                <img className="" src={stars} alt="" />
+                <img className="w-[80px] h-[20px]" loading="lazy" src={stars} alt="star" />
                 <p className="text-[#fff] font-[400] text-[17.702px]">
                   4.87/5{" "}
                 </p>
@@ -113,16 +113,16 @@ function Herosection() {
           </div>
 
           <div className="absolute max-h-[130px] max-w-[130px] top-[6%] left-[7%]">
-            <img src={herove1} className=" " alt="" />
+            <img loading="lazy" src={herove1} className=" " alt="" />
           </div>
           <div className="absolute max-h-[110px] max-w-[110px] bottom-[13%] left-[12%]">
-            <img src={herove3} className="" alt="" />
+            <img loading="lazy" src={herove3} className="" alt="" />
           </div>
           <div className="absolute max-h-[130px] max-w-[130px] top-[6%] right-[8%]">
-            <img src={herove2} className="" alt="" />
+            <img loading="lazy" src={herove2} className="" alt="" />
           </div>
           <div className="absolute max-h-[110px] max-w-[110px] bottom-[12%] right-[12%]">
-            <img src={herove4} className="" alt="" />
+            <img loading="lazy" src={herove4} className="" alt="" />
           </div>
         </div>
       </div>

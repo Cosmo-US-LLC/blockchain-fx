@@ -20,7 +20,7 @@ function TradeOverSec() {
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
           className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
-            <img src={takeimg1} className="min-h-[167px] w-[100%] object-cover" alt="" />
+            <img  loading="lazy" src={takeimg1} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Crypto
@@ -36,7 +36,7 @@ function TradeOverSec() {
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
           className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
-            <img src={takeimg2} className="min-h-[167px] w-[100%] object-cover" alt="" />
+            <img  loading="lazy" src={takeimg2} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Stocks
@@ -55,7 +55,7 @@ function TradeOverSec() {
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
           className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
-            <img src={takeimg3} className="min-h-[167px] w-[100%] object-cover" alt="" />
+            <img  loading="lazy" src={takeimg3} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Forex
@@ -71,7 +71,7 @@ function TradeOverSec() {
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
           className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
-            <img src={takeimg4} className="min-h-[167px] w-[100%] object-cover" alt="" />
+            <img  loading="lazy" src={takeimg4} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Commodities
@@ -87,7 +87,7 @@ function TradeOverSec() {
             border:"1px solid rgba(230, 175, 3, 0.12)"
           }}
           className="rounded-[16px] min-h-[280px] overflow-hidden pb-[14px]  w-[100%] space-y-[13px] bg-[#030F16]">
-            <img src={takeimg5} className="min-h-[167px] w-[100%] object-cover" alt="" />
+            <img  loading="lazy" src={takeimg5} className="min-h-[167px] w-[100%] object-cover" alt="" />
             <div className="space-y-[4px] px-[14px]">
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Indices

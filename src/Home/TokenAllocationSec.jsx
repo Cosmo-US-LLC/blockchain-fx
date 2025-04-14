@@ -37,7 +37,7 @@ function TokenAllocationSec() {
       <div className="max-w-[696px] relative space-y-[40px] w-[100%] mx-auto ">
         
        <div className="w-[100%] mx-auto ">
-        <img src={chart} className="" alt="" />
+        <img src={chart} loading="lazy" className="" alt="" />
        </div>
       </div>
     </div>
