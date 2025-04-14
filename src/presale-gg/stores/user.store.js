@@ -55,6 +55,9 @@ document.addEventListener("wagmi-loaded", async () => {
       api
         .getUserStakeData(address)
         .then((res) => $userState.setKey("userStakeData", res.data));
+      api
+        .getUserLeaderboardRank(address)
+        .then((res) => $userState.setKey("leaderboardRank", res.data));
       getAllBonusTransactions().then((data) =>
         $userState.setKey("bonusTransactions", data)
       );

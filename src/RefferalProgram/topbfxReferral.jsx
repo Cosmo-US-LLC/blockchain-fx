@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useMemo } from "react";
 import ProgramReferral from "../assets/ReferralProgram/ProgramReferral.jpg";
 import ReferralMobileImage from "../assets/ReferralProgram/ReferralMobileImage.jpg"
+import { formatDollar, formatNumber, parseNum, truncateString } from "../presale-gg/util";
+import { useApiState } from "../presale-gg/stores/api.store";
+import { useUserState } from "../presale-gg/stores/user.store";
+import { useAccount } from "../presale-gg/web3";
 
 const tableData = [
   {
@@ -66,6 +70,45 @@ const tableData = [
 ];
 
 function TopBFXReferral() {
+  const apiData = useApiState()
+  const userData = useUserState()
+  const account = useAccount()
+  /** @type {Partial<import("../presale-gg/api/api.types").API.LeaderboardEntry & { highlighted: boolean }>[]} */
+  const filledLeaderboard = useMemo(
+    () => {
+      const arr = new Array(Math.max(apiData.leaderboard?.length || 10, 10))
+        .fill(0)
+        .map((_, i) => {
+          const found = apiData.leaderboard?.find((item) => parseNum(item.rank) === i + 1)
+          if (found)
+            return {
+              ...found,
+              highlighted: found.wallet_address === account?.address
+            }
+          return {
+            rank: `${i + 1}`,
+            total_earned: undefined,
+            wallet_address: undefined,
+            referral_count: undefined,
+            highlighted: false
+          }
+        })
+
+      return [
+        ...((userData.leaderboardRank && parseNum(userData.leaderboardRank.rank) > 10) ||
+        userData.leaderboardRank?.rank === 'N/A'
+          ? [
+              {
+                ...userData.leaderboardRank,
+                highlighted: true
+              }
+            ]
+          : []),
+        ...arr
+      ]
+    }, [userData.leaderboardRank, apiData, account]
+  )
+
   return (
     <div className=" pt-[15px] sm:pt-[55px] pb-[20px] bg-[#020B10] h-full">
       <div className="max-w-[1200px] relative w-[100%] mx-auto">
@@ -133,71 +176,28 @@ function TopBFXReferral() {
                         border: "1px solid #ffffff",
                       }}
                     >
-                      {tableData.map((row, rowIndex) => (
-                        <tr key={rowIndex} className="!h-[51px]" >
-                          {Object.entries(row).map(([key, value], colIndex) => (
-                            <td
-                              key={key}
-                              className={`px-2 sm:px-4 py-[13px] !h-[57px] border-b border-[#CCD2DD] ${
-                                colIndex === 1
-                                  ? " text-[12px] sm:text-[14.7px] border-b border-[#CCD2DD] font-inter"
-                                  : ""
-                              } ${
-                                colIndex === 1
-                                  ? rowIndex <= 2
-                                    ? "text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[600] !text-start !w-[20%] !px-0 bg-[#242424] font-inter"
-                                    : "font-[400] sm:font-[500] text-[#fff] text-[12px] sm:text-[16px] !w-[20%] !text-start !px-0 !bg-transparent font-inter"
-                                  : ""
-                              } ${
-                                colIndex === 2
-                                  ? rowIndex <= 2
-                                    ? "text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[600] !text-end !w-[30%] !px-0 bg-[#242424] font-inter"
-                                    : "font-[400] sm:font-[500] text-[#fff] text-[12px] sm:text-[16px] !w-[30%] !text-end !px-0 font-inter"
-                                  : ""
-                              } ${
-                                colIndex >= 3
-                                  ? rowIndex <= 2
-                                    ? "text-[12px] sm:text-[16px] text-[#FED34D] font-[400] sm:font-[600] !text-end bg-[#242424] !w-[20%] font-inter"
-                                    : "font-[400] sm:font-[500] text-[#fff] text-[12px] sm:text-[16px] !text-end bg-transparent !w-[20%] font-inter"
-                                  : ""
-                              }} 
-                              ${
-                                colIndex === 0
-                                  ? rowIndex <= 2
-                                    ? "border-l-5 bg-[#242424] text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[600] font-inter"
-                                    : "text-[12px] sm:text-[16px] text-[#fff] font-[400] sm:font-[500] font-inter"
-                                  : ""
-                              } ${
-                                colIndex === tableData[0].length - 1
-                                  ? "border-r-0 border-l-0 !text-start "
-                                  : "border-r-0"
-                              }
-                               ${
-                                 rowIndex === tableData.length - 1
-                                   ? colIndex === 0
-                                     ? "border-l-0 border-b-0"
-                                     : colIndex === tableData[0].length - 1
-                                     ? "!border-r-0 border-b-0 border-l-0"
-                                     : "border-b-0 border-r-0"
-                                   : ""
-                               }
-                              `}
-                            >
-                              {value.startsWith("/") ? (
-                                <img
-                                  src={value}
-                                  alt={`Row ${rowIndex + 1} Col ${
-                                    colIndex + 1
-                                  }`}
-                                  className="mx-auto w-[6%] h-[22.6px]"
-                                />
-                              ) : (
-                                value
-                              )}
+                      {filledLeaderboard.map((row, rowIndex) => {
+                        const baseItemClass = `!h-[57px] border-b border-[#CCD2DD]`
+                        const rowHighlighted = row.rank <= 3
+                        const isUser = account.isConnected && row.wallet_address?.toLowerCase() === account.address?.toLowerCase()
+                        
+                        return (
+                          <tr key={rowIndex} className={`!h-[51px] text-[12px] sm:text-[16px] text-[#fff] !text-start !w-[20%] !px-0 font-inter ${rowHighlighted ? "bg-[#242424] font-[400] sm:font-[600]" : "font-[400] sm:font-[500]"} ${isUser ? "!font-bold" : ""}`} >
+                            <td className={`${baseItemClass} px-2 sm:px-4 py-[13px]`}>
+                              {row.rank ?? "-"}
                             </td>
-                          ))}
-                        </tr>
-                      ))}
+                            <td className={`${baseItemClass} text-[12px] sm:text-[14.7px] border-b border-[#CCD2DD] font-inter`}>
+                              {truncateString(row.wallet_address ?? "-", 16) + (isUser ? " (You)" : "")}
+                            </td>
+                            <td className={`${baseItemClass} text-end`}>
+                              {row.total_earned ? formatDollar(row.total_earned) : "-"}
+                            </td>
+                            <td className={`${baseItemClass} text-end px-2 sm:px-4 py-[13px] ${rowHighlighted ? "text-[#fed34d]" : ""}`}>
+                              {row.referral_count !== undefined ? formatNumber(row.referral_count) : "-"}
+                            </td>
+                          </tr>
+                        )
+                      })}
                     </tbody>
                   </table>
                 </div>
