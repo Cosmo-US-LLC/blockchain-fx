@@ -221,6 +221,7 @@ function PremiumSec() {
                     <div>
                       <img
                         src={card.img}
+                         loading="lazy"
                         className="rounded-[8px] w-[100%] max-h-[190px]"
                         alt={card.title}
                       />

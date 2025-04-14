@@ -54,22 +54,41 @@ const WalletSec = () => {
         id="Wallet"
       >
         <div className="pb-[20px]">
-        <div className="flex justify-center space-x-3 items-center">
-          <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
-            BFX Presale
-          </h3>
-          {!apiData.presaleEnded && (
+          <div className="flex justify-center space-x-3 items-center">
+            <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
+              BFX Presale
+            </h3>
+            {/* {!apiData.presaleEnded && (
             <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
               <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
                 .
               </span>
               Live
             </div>
-          )}
-        </div>
-        <p className="text-[18px] font-[400] max-w-[750px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]"> 
-        BFX is the world’s first cryptocurrency backed by a global multi-asset trading platform, <br /> where holders earn real USDT rewards anytime someone trades — even during the presale.
-        </p>
+          )} */}
+            <div
+              className="w-[58px] h-[22px] flex justify-center items-start rounded-[7px] text-[14px] font-[600] text-[#fff]"
+              style={{
+                backgroundColor: !apiData.presaleEnded
+                  ? "#E9C03D"
+                  : "transparent",
+              }}
+            >
+              {!apiData.presaleEnded ? (
+                <>
+                  <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
+                    .
+                  </span>
+                  Live
+                </>
+              ) : null}
+            </div>
+          </div>
+          <p className="text-[18px] font-[400] max-w-[750px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
+            BFX is the world’s first cryptocurrency backed by a global
+            multi-asset trading platform, <br /> where holders earn real USDT
+            rewards anytime someone trades — even during the presale.
+          </p>
         </div>
 
         {apiData.presaleEnded && (
@@ -88,10 +107,11 @@ const WalletSec = () => {
           <Widget />
           <div
             style={{
-              background: "linear-gradient(212deg, rgb(207 207 207 / 25%) 0.66%, rgba(23, 23, 23, 0.68) 49.48%, rgb(30 30 30 / 22%) 103.45%)",
+              background:
+                "linear-gradient(212deg, rgb(207 207 207 / 25%) 0.66%, rgba(23, 23, 23, 0.68) 49.48%, rgb(30 30 30 / 22%) 103.45%)",
               borderRadius: "26.227px",
-      border:" 0.663px solid #FFF",
-      backdropFilter: "blur(13.031462669372559px)"
+              border: " 0.663px solid #FFF",
+              backdropFilter: "blur(13.031462669372559px)",
             }}
             className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[25px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
           >
@@ -120,13 +140,16 @@ const WalletSec = () => {
                       <div className=" w-[100%] flex flex-col justify-center">
                         <div className="flex justify-between items-center">
                           <h3
-                             className={`text-[14px] capitalize font-[600] ${
-                              index === selectedHowToBuyStep ? "" : "text-[#fff]"
+                            className={`text-[14px] capitalize font-[600] ${
+                              index === selectedHowToBuyStep
+                                ? ""
+                                : "text-[#fff]"
                             }`}
                             style={
                               index === selectedHowToBuyStep
                                 ? {
-                                    background: "linear-gradient(92deg, #E5AE01 24.64%, #FFE182 97%)",
+                                    background:
+                                      "linear-gradient(92deg, #E5AE01 24.64%, #FFE182 97%)",
                                     backgroundClip: "text",
                                     WebkitBackgroundClip: "text",
                                     WebkitTextFillColor: "transparent",
@@ -174,9 +197,7 @@ const WalletSec = () => {
               <h4 className="text-[#fff] text-[14px] font-[600] px-1">
                 5. Launch
               </h4>
-              <div
-                className="max-w-[414px] px-[6px] pt-[14px] pb-[16px] border border-[#545454] w-[100%] mx-auto "
-              >
+              <div className="max-w-[414px] px-[6px] pt-[14px] pb-[16px] border border-[#545454] w-[100%] mx-auto ">
                 <div className="flex flex-col gap-[10px]">
                   <h4 className="text-start text-[#808080] text-[9.875px] leading-[75%] font-[600]">
                     $BFX Launches On Multiple Top-Tier Exchanges

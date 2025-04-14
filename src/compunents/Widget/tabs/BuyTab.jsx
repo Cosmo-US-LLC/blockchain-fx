@@ -362,13 +362,13 @@ const BuyTab = () => {
           <hr className="h-[1px] flex-1" />
         </div> */}
         <div
-          className="px-[24px] py-[10px] rounded-[17.596px]"
+          className="2xl:px-[24px] xl:px-[24px] lg:px-[24px] md:px-[24px] sm:px-[20px] px-[12px] py-[10px] rounded-[17.596px]"
           style={{
             background: "#000",
             backdropFilter:"blur(12.145808219909668px)"
           }}
         >
-          <h4 className="text-center text-[#fff] text-[12px] leading-[75%] font-[700]">
+          <h4 className="text-center text-[#fff] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[12px] text-[10px] leading-[75%] font-[700]">
           Presale Price = <span className="text-[#FBD914]"> $0.011</span> <span className="px-1">|</span> Launch Price = <span className="text-[#FBD914]">$0.05</span>
           </h4>
         </div>

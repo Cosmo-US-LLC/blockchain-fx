@@ -57,6 +57,7 @@ function WhatIsSec() {
         <div className="max-w-[950px] w-[100%] mx-auto  ">
           <img
             src={coin}
+            loading="lazy"
             className="!ml-[70px] max-w-[906px] h-[590px] pt-[40px] mx-auto"
             alt=""
           />
