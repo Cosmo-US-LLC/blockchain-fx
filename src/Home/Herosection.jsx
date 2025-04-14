@@ -83,7 +83,7 @@ function Herosection() {
                   border: "1.5px solid rgba(230, 175, 3, 0.30)",
                 }}
               >
-                <img className="w-[80px] h-[20px]" loading="lazy" src={stars} alt="star" />
+                <img className="w-[82px] h-[15px]" loading="lazy" src={stars} alt="star" />
                 <p className="text-[#fff] font-[400] text-[17.702px]">
                   4.87/5{" "}
                 </p>
