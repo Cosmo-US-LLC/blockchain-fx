@@ -32,40 +32,50 @@ import TheUltimateSec from './TheUltimateSec';
 import FeaturedSec from './FeaturedSec';
 import Whitepaper from './Whitepaper';
 import SwapSection from './SwapSection';
+import Roadmap from './Roadmap';
+import MultiAward from './MultiAward';
+
+
+
+import ExpertSaysSec from './ExpertSaysSec';
+import BlockchainFXDemo from './BlockchainFXDemo';
+import CreditCard from './CreditCard';
+import KYCVerified from './KYCVerified';
+
 
 function Home() {
     return (
       <div className="">
         <Herosection />
-        {/* <FeaturedSec /> */}
+        <FeaturedSec />
         <WalletSec />
+        <KYCVerified />
+        <ExpertSaysSec />
         <NextGenerationSec />
+        <BlockchainFXDemo />
         <TradeOverSec/>
         <OneAppSec />
         <EarnOnSec />
         <HowDoesItSec />
         <ExclusiveBenefitsSec/>
+        <CreditCard />
         <PremiumSec />
         {/* <HowToBuySec /> */}
         <LessThanSec />
-        <GatewaySec />
-        <HyperGrowthSec />
+        {/* <GatewaySec />
+        <HyperGrowthSec /> */}
         <StandoutSec/>
-        <WallStreetSec />
-        <TradeLikeSec />
-        {/* <TopAssetsSec /> */}
-        <SwapSection />
-        <LiveNewSec />
-        {/* <StreamlinedSec /> */}
-        <Whitepaper/>
+
+
+        {/* <LiveNewSec /> */}
+        {/* <SwapSection /> */}
         <WhatIsSec />
+        {/* <SecurityBuiltSec /> */}
+        <Whitepaper/>
         <TokenAllocationSec />
-        <TokenDetailsSec />
-        <SecurityBuiltSec />
-        <RoadmapSec />
-        {/* <OurAwardSec /> */}
-        {/* <ExpertsworkingSec /> */}
-        {/* <PressMediaSec /> */}
+        <Roadmap/>
+        <MultiAward/>
+        <PressMediaSec />
         <TraderReviewsSec />
         <FaqSec />
         <TheUltimateSec />

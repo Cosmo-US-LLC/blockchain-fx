@@ -17,7 +17,7 @@ const metadata = {
   name: "BlockchainFX",
   description: "BlockchainFX",
   url: window.location.origin,
-  icons: [`${window.location.origin}${logo}`],
+  icons: [`${window.location.origin}/${logo}`],
 };
 
 export const metaMaskConnector = metaMask();
@@ -33,7 +33,7 @@ export const walletConnectConnector = walletConnect({
 });
 export const coinbaseConnector = coinbaseWallet({
   appName: "BlockchainFX",
-  appLogoUrl: `${window.location.origin}${logo}`,
+  appLogoUrl: `${window.location.origin}/${logo}`,
 });
 export const phantomConnector = injected({
   target: "phantom",

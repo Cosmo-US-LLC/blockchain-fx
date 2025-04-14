@@ -7,6 +7,9 @@ import coin4 from "../assets/StandoutSec/tblcoins (4).webp";
 import check1 from "../assets/StandoutSec/check (2).svg";
 import check2 from "../assets/StandoutSec/check (1).svg";
 
+import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
+import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
+
 const tableData = [
   {
     col1: "Token Name",
@@ -89,79 +92,81 @@ const tableData = [
 
 function StandoutSec() {
   return (
-    <div className="py-[50px] px-[60px]">
-      <div className="max-w-[1200px] space-y-[26px] w-[100%] flex flex-col mx-auto">
+    <div className="py-[50px] px-[60px] bg-[#020B10]">
+      <div className="max-w-[1200px] py-[50px] relative overflow-hidden bg-[#030F16] rounded-[16px] space-y-[26px] w-[100%] flex flex-col mx-auto"
+       style={{
+        border: "1px solid #2B2B2B"
+        // box-shadow: 0px 5.336px 26.68px 0px rgba(169, 169, 169, 0.30);
+      }}
+      >
         <div className="space-y-[14px]">
-          <h3 className="text-[30px] font-[700] text-center leading-[48px] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[40px] font-[700] text-center leading-[48px] text-[#ffff] tracking-[-1px]">
             Standout Features
           </h3>
-          <p className="text-[14px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#181A20] tracking-[-0.32px]">
-            Cryptocurrencies from exchanges have historically performed well due
-            to their active user base, platform revenue, and ongoing marketing.
-            $BFX, the first token from a multi-asset trading platform, offers
-            unique features that bring real value to the market.
+          <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
+          Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.
           </p>
         </div>
         <div className="max-w-[1080px] w-full mx-auto">
           <div className="overflow-x-auto mx-auto">
-            <table className="w-full border mx-auto border-[#A6A6A6]">
+            <table className="w-full  mx-auto ">
               <thead>
                 <tr className="h-[123px]">
-                  <th className="border-b  border-r border-[#A6A6A6] px-4 py-4"></th>
-                  <th className="border-b bg-[#FFF8DC] border-l border-r border-[#A6A6A6] px-4 py-4">
+                  <th className="border-b border-[#A6A6A6] px-4 py-4"></th>
+                  <th className="border-b border-[#A6A6A6] px-4 py-4">
                     <div className="flex  flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
                         <img className="w-[58px] h-[58px]" src={coin1} alt="" />
                       </div>
-                      <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
+                      <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         BlockchainFX
                       </p>
                     </div>
                   </th>
-                  <th className="border-b border-l border-r border-[#A6A6A6] px-4 py-4">
+                  <th className="border-b border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
                         <img className="w-[58px] h-[58px]" src={coin2} alt="" />
                       </div>
-                      <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
+                      <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Bitget
                       </p>
                     </div>
                   </th>
-                  <th className="border-b border-l border-r border-[#A6A6A6] px-4 py-4">
+                  <th className="border-b  border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
                         <img className="w-[58px] h-[58px]" src={coin3} alt="" />
                       </div>
-                      <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
+                      <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Hyperliquid
                       </p>
                     </div>
                   </th>
-                  <th className="border-b border-l border-[#A6A6A6] px-4 py-4">
+                  <th className="border-b  border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
                         <img className="w-[58px] h-[58px] object-cover" src={coin4} alt="" />
                       </div>
-                      <p className="text-[12.346px] text-[#545454] text-center font-[700] leading-[100%]">
+                      <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Uniswap
                       </p>
                     </div>
                   </th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody >
                 {tableData.map((row, rowIndex) => (
                   <tr key={rowIndex} className="!h-[51px]">
                     {Object.entries(row).map(([key, value], colIndex) => (
                       <td
                         key={key}
-                        className={`border border-[#A6A6A6] px-4 py-[13px] !h-[51px]  ${
-                          colIndex === 1 ? "bg-[#FFF8DC] text-[14.7px] " : ""
+                        className={` px-4 py-[13px] !h-[70px] border-b border-[#a6a6a638] ${
+                          colIndex === 1 ? "text-[14.7px] border-b border-[#a6a6a638]" : ""
                         } ${
                           rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
-                            ? "text-[14.7px] font-[600] text-center !w-[225px]"
-                            : "font-[500] text-[14.177px] !w-[183px]"
+                            ? "text-[16px] text-[#ACC4D1] font-[600] text-center !w-[225px]"
+                            : "font-[500] text-[#fff] text-[16px] !w-[183px]"
                         } ${colIndex === 0 ? "border-l-5" : ""} ${
                           colIndex === tableData[0].length - 1
                             ? "border-r-0 border-l-0 !text-start "
@@ -193,6 +198,12 @@ function StandoutSec() {
             </table>
           </div>
         </div>
+        <div className="absolute top-[-8%] left-[-5%]">
+                            <img src={ernvet2} className=" " alt="" />
+                          </div>
+                          <div className="absolute bottom-[0%] right-[0%]">
+                            <img src={ernvet1} className="" alt="" />
+                          </div>
       </div>
     </div>
   );

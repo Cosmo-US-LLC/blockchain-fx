@@ -1,21 +1,18 @@
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import starticn from "../assets/PremiumSec/start.svg";
-import arw from "../assets/PremiumSec/arw.svg";
-import faq1 from "../assets/PremiumSec/faq (1).svg";
-import faq2 from "../assets/PremiumSec/faq (2).svg";
-import line from "../assets/PremiumSec/line.png";
+import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import Iicon from "../assets/Gateway/i.svg";
 import cardimg1 from "../assets/PremiumSec/cardimg (1).webp";
 import cardimg2 from "../assets/PremiumSec/cardimg (2).webp";
 import cardimg3 from "../assets/PremiumSec/cardimg (3).webp";
 import cardimg4 from "../assets/PremiumSec/cardimg (4).webp";
 import cardimg5 from "../assets/PremiumSec/cardimg (5).webp";
 import cardimg6 from "../assets/PremiumSec/cardimg (6).webp";
-import Iicon from "../assets/Gateway/i.svg";
 import cardimg7 from "../assets/PremiumSec/cardimg (7).webp";
+import faq1 from "../assets/PremiumSec/faq (1).svg";
+import arw from "../assets/PremiumSec/preawr (1).svg";
 
 const cards = [
   {
@@ -24,7 +21,7 @@ const cards = [
     title: "Novice",
     price: "$1,000",
     reviews: [true, false, false, false, false],
-    points: ["Early Access", "10% BFX Bonus"],
+    points: ["Early Access", "10% BFX Bonus", "BFX Visa Card"],
     buttonLabel: "Buy $BFX • $1,000",
   },
   {
@@ -33,7 +30,7 @@ const cards = [
     title: "Advanced",
     price: "$2,500",
     reviews: [true, true, false, false, false],
-    points: ["Early Access", "20% BFX Bonus", "$500 Trading Credits"],
+    points: ["Early Access", "20% BFX Bonus", "Metal BFX Visa Card", "$500 Trading Credits"],
     buttonLabel: "Buy $BFX • $2,500",
   },
   {
@@ -42,7 +39,7 @@ const cards = [
     title: "Pro",
     price: "$5,000",
     reviews: [true, true, true, false, false],
-    points: ["Early Access", "30% BFX Bonus", "$1000 Trading Credits"],
+    points: ["Early Access", "30% BFX Bonus", "Metal BFX Visa Card", "$1000 Trading Credits"],
     buttonLabel: "Buy $BFX • $5,000",
   },
   {
@@ -55,8 +52,9 @@ const cards = [
     points: [
       "Early Access",
       "40% BFX Bonus",
-      "Daily USDT Rewards",
-      "$2000 Bonus Trading Credits",
+      "10% USDT Rewards",
+      "Metal BFX Visa Card",
+      "$2000 Trading Credits",
     ],
     buttonLabel: "Buy $BFX • $10,000",
   },
@@ -70,8 +68,9 @@ const cards = [
     points: [
       "Early Access",
       "50% BFX Bonus",
-      "Daily USDT Rewards",
-      "$5000 Bonus Trading Credits",
+      "15% USDT Rewards",
+      "Metal BFX Visa Card",
+      "$5000 Trading Credits",
     ],
     buttonLabel: "Buy $BFX • $25,000",
   },
@@ -85,8 +84,9 @@ const cards = [
     points: [
       "Early Access",
       "60% BFX Bonus",
-      "Daily USDT Rewards",
-      "$10,000 Bonus Trading Credits",
+      "20% USDT Rewards",
+      "Metal BFX Visa Card",
+      "$10,000 Trading Credits",
     ],
     buttonLabel: "Buy $BFX • $50,000",
   },
@@ -99,9 +99,9 @@ const cards = [
     points: [
       "Early Access",
       "80% BFX Bonus",
-      "Daily USDT Rewards",
-      "$25,000 Bonus Trading Credits",
-      "Personalised Portfolio Management",
+      "30% USDT Rewards",
+      "18 Karat BFX Visa Card",
+      "$25,000 Trading Credits",
     ],
     buttonLabel: "Buy $BFX • $100,000",
   },
@@ -139,7 +139,7 @@ function PremiumSec() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const [showTooltip, setShowTooltip] = useState(false);
-
+  const [hoveredIndex, setHoveredIndex] = useState(null);
   const swiperRef = useRef(null);
 
   const handleDotClick = (index) => {
@@ -168,31 +168,32 @@ function PremiumSec() {
   };
 
   return (
-    <div className="py-[50px] bg-[#FAFAFA]" id="premium">
-      <div className="max-w-[1400px] w-[100%] space-y-[30px] mx-auto relative">
-        <div className="space-y-[10px]">
-          <h3 className="text-[30px] leading-[155.556%] text-[#000] text-center font-[700]">
-            Limited Founder's Club Membership
-          </h3>
-          <p className="text-[14px] leading-[150%] max-w-[572px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-            Buy $BFX during the pre-sale and get Founder's Club NFTs starting at
-            only $1,000!  Enjoy early access, exclusive memberships, bonus $BFX,
-            daily staking rewards in BFX and USDT, plus extra trading credits.
-            Available only during the pre-sale!
-          </p>
-        </div>
-        <div className="max-w-[1012px] w-[100%] mx-auto ">
-          <div className="relative">
-            <button className="swiper-button-prev-swp rotate-[182deg] absolute z-10 !left-[-5%] top-[50%] transform -translate-y-1/2">
-              <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
-            </button>
-            <button className="swiper-button-next-swp  absolute z-10 !right-[-5%] top-[50%] transform -translate-y-1/2">
-              <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
-            </button>
+    <div className="py-[50px] bg-[#020B10]" id="premium">
+      <div className="max-w-[1200px] w-[100%] space-y-[30px] mx-auto relative">
+        <div className="flex justify-between ">
+          <div className="space-y-[10px] w-[60%]">
+            <h3 className="text-[40px] leading-[155.556%] text-[#fff] text-start font-[700]">
+              Limited Founder's Club Membership
+            </h3>
+            <p className="text-[18px] leading-[150%] text-[#ACC4D1] font-[400] tracking-[-0.32px]">
+            Buy BFX during the presale and become a Founder's Club Member starting from just $1,000. Get your exclusive NFT, BFX Visa Card, Bonus Tokens, Daily USDT Staking Rewards, and Free Trading Credits.
+            </p>
+          </div>
 
+          <div className="w-[40%] flex justify-end items-end space-x-2">
+            <button className="swiper-button-prev-swp a transform -translate-y-1/2">
+              <img className="w-[42.545px] h-[42.545px]" src={arw} alt="" />
+            </button>
+            <button className="swiper-button-next-swp rotate-[182deg]  transform -translate-y-1/2">
+              <img className="w-[42.545px] h-[42.545px]" src={arw} alt="" />
+            </button>
+          </div>
+        </div>
+        <div className="max-w-[1200px] w-[100%] mx-auto ">
+          <div className="relative">
             <Swiper
               slidesPerView={3}
-              spaceBetween={10}
+              spaceBetween={20}
               loop={false}
               navigation={{
                 nextEl: ".swiper-button-next-swp",
@@ -208,32 +209,45 @@ function PremiumSec() {
                 <SwiperSlide key={card.id}>
                   <div
                     style={{
-                      background: "rgba(241, 241, 241, 0.36)",
+                      background: "#030F16",
+                      borderColor: "rgba(230, 175, 3, 0.12)",
                     }}
-                    className={`p-[15px] rounded-[8px] flex max-w-[310.367px] mx-auto flex-col justify-between ${
+                    className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${
                       activeIndex === index
                         ? "border-black"
-                        : "border-[#9D9D9D]"
-                    } border !min-h-[561px] max-h-[561px] h-[100%]`}
+                        : "border-[rgba(230, 175, 3, 0.12)]"
+                    } border !min-h-[599px] max-h-[599px] h-[100%]`}
                   >
                     <div>
                       <img
                         src={card.img}
-                        className="rounded-[8px] max-h-[190px]"
+                         loading="lazy"
+                        className="rounded-[8px] w-[100%] max-h-[190px]"
                         alt={card.title}
                       />
 
-                      <div className="flex justify-between py-[14px]">
+                      <div className="flex space-x-3 items-start py-[14px]">
                         <div>
-                          <h3 className="text-[#000] flex flex-col justify-end text-[16.966px] font-[600] leading-[115%]">
-                            {card.title} <br />
-                            <span className="text-[#7C7C7C] text-start text-[15.27px] font-[600]">
+                          <h3 className="text-[#ffff] flex flex-col justify-end font-[600] ">
+                            <span
+                              className="text-[40px] leading-[100%]"
+                              style={{
+                                background:
+                                  "linear-gradient(90deg, #FFF 0%, #030F16 100%)",
+                                backgroundClip: "text",
+                                WebkitBackgroundClip: "text",
+                                WebkitTextFillColor: "transparent",
+                              }}
+                            >
+                              {card.title}
+                            </span>
+                            <span className="text-[#fff] text-start pt-[10px] text-[16.27px] font-[600]">
                               {card.price}
                             </span>
                           </h3>
                         </div>
 
-                        <ul className="flex justify-center">
+                        {/* <ul className="flex justify-center">
                           {card.reviews.map((isStarFilled, index) =>
                             isStarFilled ? (
                               <li key={index}>
@@ -241,14 +255,22 @@ function PremiumSec() {
                               </li>
                             ) : null
                           )}
-                        </ul>
+                        </ul> */}
+                        <h3
+                          className="text-[#fff] text-center border rounded-[16px] px-[26px] py-[6px] text-[16.27px] font-[600]"
+                          style={{
+                            border: "1px solid rgba(255, 255, 255, 0.10)",
+                          }}
+                        >
+                          NFT
+                        </h3>
                       </div>
 
-                      <ul className="text-left">
+                      <ul className="text-left list-disc">
                         {card.points.map((point, index) => (
                           <li
                             key={index}
-                            className="mb-1 rounded-[8px] px-[8px] h-[40.719px] flex items-center text-[#181A20] text-[15.27px] font-[400] leading-[127.778%] tracking-[-0.32px]"
+                            className="mb-1 pl-8 rounded-[8px] px-[8px] h-[40.719px] flex items-center text-[#ACC4D1] text-[16.27px] font-[400] leading-[127.778%] tracking-[-0.32px]"
                             style={{
                               background: "rgba(124, 124, 124, 0.07)",
                             }}
@@ -261,9 +283,17 @@ function PremiumSec() {
                     <div className="flex justify-start">
                       <button
                         onClick={handleScroll}
-                        className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[15.27px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[auto] h-[49px]"
+                        onMouseEnter={() => setHoveredIndex(index)}
+                        onMouseLeave={() => setHoveredIndex(null)}
+                        style={{
+                          background:
+                            hoveredIndex === index
+                              ? "transparent"
+                              : "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                        }}
+                        className="text-black px-[12px] hover:text-[#E5AE00] hover:!bg-transparent text-[15.27px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[auto] h-[49px]"
                       >
-                      {card.buttonLabel}
+                        {card.buttonLabel}
                       </button>
                     </div>
                   </div>
@@ -274,8 +304,12 @@ function PremiumSec() {
             </Swiper>
           </div>
         </div>
-        <div className="max-w-[1000px]  w-[100%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[26px] py-[10px] space-y-[10px]">
-          <div className="flex justify-center relative mt-2 px-6">
+        <div className="max-w-[1200px]  w-[100%] mx-auto bg-[#030F16] border rounded-[10px] px-[26px] py-[10px] space-y-[10px]"
+         style={{
+          borderColor: "rgba(230, 175, 3, 0.12)",
+        }}
+        >
+          <div className="flex justify-center relative mt-4 px-6">
             <div className="flex justify-between absolute w-[95%] top-[-45%]">
               {cards.map((_, index) => (
                 <div
@@ -303,7 +337,7 @@ function PremiumSec() {
           </div>
           <div className="flex justify-between pt-[8px] pl-2">
             <div className="w-[100%] max-w-[70px]">
-              <h4 className="text-[16px] text-[#000] font-[600] leading-[115%] text-center">
+              <h4 className="text-[16px] text-[#fff] font-[600] leading-[115%] text-center">
                 Novice
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
@@ -311,7 +345,7 @@ function PremiumSec() {
               </p>
             </div>
             <div className="w-[100%] max-w-[120px]">
-              <h4 className="text-[16px] text-[#000] font-[600] leading-[115%] text-center">
+              <h4 className="text-[16px] text-[#fff] font-[600] leading-[115%] text-center">
                 Advanced
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
@@ -319,7 +353,7 @@ function PremiumSec() {
               </p>
             </div>
             <div className="w-[100%] max-w-[60px]">
-              <h4 className="text-[16px] text-[#000] font-[600] leading-[115%] text-center">
+              <h4 className="text-[16px] text-[#fff] font-[600] leading-[115%] text-center">
                 Pro
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
@@ -327,7 +361,7 @@ function PremiumSec() {
               </p>
             </div>
             <div className="w-[100%] max-w-[120px]">
-              <h4 className="text-[16px] text-[#000] font-[600] leading-[115%] text-center">
+              <h4 className="text-[16px] text-[#fff] font-[600] leading-[115%] text-center">
                 Expert
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
@@ -335,7 +369,7 @@ function PremiumSec() {
               </p>
             </div>
             <div className="w-[100%] max-w-[100px]">
-              <h4 className="text-[16px] text-[#000] font-[600] leading-[115%] text-center">
+              <h4 className="text-[16px] text-[#fff] font-[600] leading-[115%] text-center">
                 Master
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
@@ -343,7 +377,7 @@ function PremiumSec() {
               </p>
             </div>
             <div className="w-[100%] max-w-[70px]">
-              <h4 className="text-[16px] text-[#000] font-[600] leading-[115%] text-center">
+              <h4 className="text-[16px] text-[#fff] font-[600] leading-[115%] text-center">
                 Elite
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
@@ -351,7 +385,7 @@ function PremiumSec() {
               </p>
             </div>
             <div className="w-[100%] max-w-[98px]">
-              <h4 className="text-[16px] text-[#000] font-[600] leading-[115%] text-center">
+              <h4 className="text-[16px] text-[#fff] font-[600] leading-[115%] text-center">
                 Legend
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
@@ -360,20 +394,23 @@ function PremiumSec() {
             </div>
           </div>
         </div>
-        <div className="max-w-[1000px]  w-[100%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[30px]  pt-[33px] pb-[10px] ">
+        <div className="max-w-[1200px]  w-[100%] mx-auto   pt-[33px] pb-[10px] ">
           <div>
-            <h3 className="text-[30px] text-center font-[700] leading-[166.667%] text-[#181A20] tracking-[ -0.973px]">
-            Questions About The Founder’s Club
+            <h3 className="text-[30px] pb-[15px] text-center font-[600] leading-[166.667%] text-[#fff] tracking-[ -0.973px]">
+              Questions About The Founder’s Club
             </h3>
           </div>
 
-          <div>
+          <div className="space-y-[20px]">
             {Bundles.map((item, index) => (
               <div
                 key={item.id}
-                className={`py-[20px] ${
-                  index !== Bundles.length - 1 ? "border-b border-[#000]" : ""
+                className={`py-[20px] px-[30px] bg-[#030F16] border rounded-[10px] ${
+                  index !== Bundles.length - 1 ? "" : ""
                 }`}
+                style={{
+                  borderColor: "rgba(230, 175, 3, 0.12)",
+                }}
               >
                 <div
                   className="flex justify-between items-center cursor-pointer"
@@ -381,7 +418,7 @@ function PremiumSec() {
                 >
                   <h3
                     className={`text-[16px] font-[600] leading-[170.05% ] ${
-                      openBundles === item.id ? "text-[#E5AE00]" : "text-black"
+                      openBundles === item.id ? "text-[#fff]" : "text-[#fff]"
                     }`}
                   >
                     {item.question}
@@ -390,18 +427,18 @@ function PremiumSec() {
                     {openBundles === item.id ? (
                       <img src={faq1} alt="" />
                     ) : (
-                      <img src={faq2} alt="" />
+                      <img className="rotate-[180deg]" src={faq1} alt="" />
                     )}
                   </span>
                 </div>
                 {openBundles === item.id && (
                   <div className="relative">
                     <p
-                      className="mt-2 text-[14px] list-disc text-[#181A20] font-[400] tracking-[-0.32px]"
+                      className="mt-2 text-[16px] list-disc text-[#8497A2] font-[400] tracking-[-0.32px]"
                       dangerouslySetInnerHTML={{ __html: item.answer }}
                     ></p>
                     {item.tooltip && (
-                      <div className="absolute top-[6px] z-[9] left-[375px]">
+                      <div className="absolute top-[10px] z-[9] right-[60%]">
                         <div
                           className="relative"
                           onMouseEnter={() => setShowTooltip(true)}
