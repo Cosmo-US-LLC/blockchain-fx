@@ -5,7 +5,7 @@ import stakeTab from "./tabs/StakeTab";
 import transactionHistoryTab from "./tabs/TransactionHistoryTab";
 import { useAccount } from "../../presale-gg/web3";
 
-const tabs = [buyTab];
+const tabs = [buyTab, stakeTab];
 const needsWalletConnected = new Set([stakeTab.key, transactionHistoryTab.key])
 
 const Widget = () => {
