@@ -6,20 +6,20 @@ import black from "../assets/GetInFirst/black2.png";
 import check from "../assets/WhatIsSec/tick-circle.svg"
 
 function WhatIsSec() {
-  const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition =
-          element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 50;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth",
-        });
-      }
-    }, 200);
-  };
+  // const handleScroll = () => {
+  //   setTimeout(() => {
+  //     const element = document.getElementById("Wallet");
+  //     if (element) {
+  //       const elementPosition =
+  //         element.getBoundingClientRect().top + window.pageYOffset;
+  //       const offset = 50;
+  //       window.scrollTo({
+  //         top: elementPosition - offset,
+  //         behavior: "smooth",
+  //       });
+  //     }
+  //   }, 200);
+  // };
   return (
     <div
       className="bg-[#020B10] pt-[50px] pb-[50px] px-[205px]" 

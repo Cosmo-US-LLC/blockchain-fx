@@ -3,7 +3,7 @@ import React from "react";
 // import stars from "../assets/Expert/Stars.png"
 import liveVideo from "../assets/BlockchainFXDemo/live.mp4";
 
-import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
+// import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 function BlockchainFXDemo() {
 

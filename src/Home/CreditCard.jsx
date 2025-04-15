@@ -7,19 +7,19 @@ import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 
 function CreditCard() {
-  const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 50;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth"
-        });
-      }
-    }, 200); 
-  };
+  // const handleScroll = () => {
+  //   setTimeout(() => {
+  //     const element = document.getElementById("Wallet");
+  //     if (element) {
+  //       const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+  //       const offset = 50;
+  //       window.scrollTo({
+  //         top: elementPosition - offset,
+  //         behavior: "smooth"
+  //       });
+  //     }
+  //   }, 200); 
+  // };
 
   return (
     <div className="pt-[20px] pb-[50px] bg-[#020B10]">

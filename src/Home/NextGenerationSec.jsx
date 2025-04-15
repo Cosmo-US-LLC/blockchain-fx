@@ -11,19 +11,19 @@ import nexticn9 from "../assets/NextGen/nwxticon (1).svg";
 import nexticn10 from "../assets/NextGen/nwxticon (10).svg";
 
 function NextGenerationSec() {
-  const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 50;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth"
-        });
-      }
-    }, 200); 
-  };
+  // const handleScroll = () => {
+  //   setTimeout(() => {
+  //     const element = document.getElementById("Wallet");
+  //     if (element) {
+  //       const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+  //       const offset = 50;
+  //       window.scrollTo({
+  //         top: elementPosition - offset,
+  //         behavior: "smooth"
+  //       });
+  //     }
+  //   }, 200); 
+  // };
 
   return (
     <div className="pt-[50px] pb-[50px] bg-[#020B10]">

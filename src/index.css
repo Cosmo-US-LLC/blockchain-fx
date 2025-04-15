@@ -30,6 +30,9 @@ code {
 p {
   line-height: 185%;
 }
+.offscreen-section {
+  content-visibility: auto !important;
+}
 
 .custom-range {
   -webkit-appearance: none;
