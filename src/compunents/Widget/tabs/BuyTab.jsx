@@ -46,15 +46,23 @@ const BuyTab = () => {
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
   const [selectedToken, setSelectedToken] = useState(null);
 
+  const groupedTokens = useMemo(
+    () => (apiData.paymentTokens ? groupTokens(apiData.paymentTokens) : []),
+    [apiData.paymentTokens]
+  );
+
+  const [selectedTokenGroup, setSelectedTokenGroup] = useState(null);
+
   useEffect(() => {
     if (selectedToken || !apiData.paymentTokens?.length) return;
-    setSelectedToken(
-      apiData.paymentTokens.find(
-        (token) =>
-          token.symbol.toUpperCase() === "ETH" &&
-          token.chain.toUpperCase() === "ERC-20"
-      ) ?? apiData.paymentTokens[0]
-    );
+    const token = apiData.paymentTokens.find(
+      (token) =>
+        token.symbol.toUpperCase() === "ETH" &&
+        token.chain.toUpperCase() === "ERC-20"
+    ) ?? apiData.paymentTokens[0]
+    const group = groupedTokens.find((list) => list.currencies.includes(token)) ?? null
+    setSelectedToken(token);
+    setSelectedTokenGroup(group.groupId)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [apiData.paymentTokens]);
 
@@ -93,11 +101,6 @@ const BuyTab = () => {
   const stageFrac =
     (apiData.stage?.cumulative_usd_raised ?? 0) /
     (apiData.stage?.next_stage_target_usd ?? 1);
-
-  const groupedTokens = useMemo(
-    () => (apiData.paymentTokens ? groupTokens(apiData.paymentTokens) : []),
-    [apiData.paymentTokens]
-  );
 
   const partialNumRegexp = /^(\d*|(\d+\.?\d*))$/;
   const [paymentTokenNumStr, setPaymentTokenNumStr] = useState("1");
@@ -336,7 +339,10 @@ const BuyTab = () => {
                 price: 1,
               },
             }}
-            onChange={(token) => setSelectedToken(token)}
+            onChange={(token, group) => {
+              setSelectedToken(token)
+              setSelectedTokenGroup(group)
+            }}
             selectedTokenId={selectedToken?.id}
           />
         </div>
@@ -345,8 +351,11 @@ const BuyTab = () => {
             <TokenSelectDropdown
               key={i}
               tokenList={tokenGroup}
-              onChange={(newToken) => setSelectedToken(newToken)}
-              selectedTokenId={selectedToken?.id ?? null}
+              onChange={(newToken) => {
+                setSelectedToken(newToken)
+                setSelectedTokenGroup(tokenGroup.groupId)
+              }}
+              selectedTokenId={(!selectedTokenGroup || (tokenGroup.groupId === selectedTokenGroup)) ? selectedToken?.id ?? null : null}
             />
           ))}
         </div>
