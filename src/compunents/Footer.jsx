@@ -8,7 +8,7 @@ import socil2 from "../assets/footer/Vector (3).svg";
 import socil3 from "../assets/footer/Vector (4).svg";
 
 import icnft1 from "../assets/footer/ftricn (2).svg";
-import icnft2 from "../assets/footer/ftricn (3).svg";
+import icnft2 from "../assets/footer/image_588254259.webp";
 import icnft3 from "../assets/footer/ftricn (1).svg";
 
 
@@ -353,7 +353,7 @@ function Footer() {
         </div>
         <div className="flex justify-start space-x-[20px] pt-[10px] items-center">
               <img className="h-[22px]" src={icnft1} alt="" />
-              <img className="h-[22px]" src={icnft2} alt="" />
+              <img className="h-[22px] object-cover" src={icnft2} alt="" />
               <img className="h-[22px]" src={icnft3} alt="" />
         </div>
 

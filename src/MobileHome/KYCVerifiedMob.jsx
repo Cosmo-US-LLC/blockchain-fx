@@ -2,7 +2,7 @@ import React from "react";
 
 import icn1 from "../assets/KYCVerified/kycicn (1).svg";
 import icn2 from "../assets/KYCVerified/kycicn (3).svg";
-import icn3 from "../assets/KYCVerified/kycicn (2).svg";
+import icn3 from "../assets/KYCVerified/image_588254259.webp";
 
 const cardItems = [
   {
@@ -43,7 +43,7 @@ function KYCVerifiedMob() {
                 }}
               >
                 <div className="flex justify-between pb-[15px] items-center">
-                  <img src={item.img} className="h-[40px]" alt="" />
+                  <img src={item.img} className="h-[28px] object-cover" alt="" />
                   <p
                     style={{
                       background: "rgba(0, 124, 45, 0.16)",
