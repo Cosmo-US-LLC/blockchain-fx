@@ -16,6 +16,11 @@ import { useClickAway } from "../../presale-gg/web3/hooks";
  */
 const TokenSelectDropdown = (props) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const isDefault = useMemo(() => {
+    return !props.tokenList.currencies.find(
+      (token) => token.id === props.selectedTokenId,
+    );
+  }, [props.tokenList, props.selectedTokenId])
   const token = useMemo(() => {
     const token = props.tokenList.currencies.find(
       (token) => token.id === props.selectedTokenId,
@@ -65,7 +70,7 @@ const TokenSelectDropdown = (props) => {
           >
             {token?.symbol.toUpperCase() ?? props.tokenList.placeholder}
           </span>
-          {token && (
+          {(token && (!isDefault || token.symbol.toUpperCase() !== "USDT")) && (
             <span
               className={clsx(
                 "text-[#777] text-[8.688px] font-[700] leading-[1] whitespace-nowrap transition-colors",

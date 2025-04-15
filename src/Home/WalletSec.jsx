@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef, useMemo } from "react";
-import info from "../assets/wallet/i.svg";
-import bfxicn from "../assets/wallet/bfx.webp";
+import React, { useState} from "react";
+// import info from "../assets/wallet/i.svg";
+// import bfxicn from "../assets/wallet/bfx.webp";
 import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
 import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
 import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
@@ -8,7 +8,7 @@ import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/HowToBuySec/ei_arrow-up.svg";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
 import swpicon from "../assets/wallet/swp.svg";
-import cer from "../assets/wallet/cer.svg";
+// import cer from "../assets/wallet/cer.svg";
 import { useApiState } from "../presale-gg/stores/api.store";
 import Widget from "../compunents/Widget";
 
@@ -48,7 +48,7 @@ const WalletSec = () => {
   const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
 
   return (
-    <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="how-to-buy">
+    <div className="pt-[42px] pb-[35px] bg-[#020B10] min-h-[700px]" id="how-to-buy">
       <div
         className="space-y-[30px] px-[67px]  py-[26px]  max-w-[1200px] w-[100%] mx-auto border border-[#575757] rounded-[8px] <md:px-6 <sm:px-4"
         id="Wallet"

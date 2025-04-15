@@ -11,7 +11,7 @@ function FeaturedSec() {
       <div className=" ">
         <div className="w-[100%] mx-auto">
           <div className="relative">
-          <img src={ftimg} loading="lazy" className="max-w-[1200px] mx-auto w-[100%]" alt="" />
+          <img src={ftimg} className="max-w-[1200px] mx-auto w-[100%]" alt="" />
           <div className="w-[100%] h-[246px] rounded-[1650px] bg-[#020B10]"
           style={{
             filter:"blur(37px)",

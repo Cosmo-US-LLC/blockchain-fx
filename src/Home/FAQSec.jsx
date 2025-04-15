@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 
-import faqicn1 from "../assets/faqs/image (3).svg";
+// import faqicn1 from "../assets/faqs/image (3).svg";
 import faqicn2 from "../assets/faqs/down.png";
 import up from "../assets/faqs/arrow-circle-right.png";
 const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   const createMarkup = () => ({ __html: answer });
-  const contentStyles = {
-    maxHeight: isOpen ? "1000px" : "0",
-    opacity: isOpen ? "1" : "0",
-    overflow: "hidden",
-    transition: "max-height 0.9 ease, opacity 2s ease",
-  };
+  // const contentStyles = {
+  //   maxHeight: isOpen ? "1000px" : "0",
+  //   opacity: isOpen ? "1" : "0",
+  //   overflow: "hidden",
+  //   transition: "max-height 0.9 ease, opacity 2s ease",
+  // };
 
   return (
     <div className="mb-[20px] overflow-hidden rounded-[16px] border border-[#000] bg-[#030F16]">
