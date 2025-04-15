@@ -5,6 +5,7 @@ import herobnr1 from "../assets/herosection/bnrhero (4).svg";
 import herobnr2 from "../assets/herosection/bnrhero (3).svg";
 import herobnr3 from "../assets/herosection/bnrhero (2).svg";
 import herobnr4 from "../assets/herosection/bnrhero (1).svg";
+import stars from "../assets/herosection/stars.png";
 
 function MobileHero() {
   const handleScroll = () => {
@@ -50,7 +51,7 @@ function MobileHero() {
               className="h-[29px] rounded-full flex flex-row items-center justify-center border-1 border-[1px] border-[#FFFFFF33]"
             >
               <h4 className="text-[12px] font-[400] text-[12px] text-[white]">
-              Connecting Blockchain and Global Finance
+                Connecting Blockchain and Global Finance
               </h4>
             </div>
             <h2
@@ -82,13 +83,37 @@ function MobileHero() {
                 </span>
               </span>
             </h2>
-            <img
+              <div className="flex justify-center space-x-2 items-center">
+             <div>
+             <img
               className="w-[150px] h-auto mx-auto"
               src={hero_reviews}
               alt="hero_reviews"
             />
+             <p className="text-[#8497A2] pt-[2px] text-center font-[400] text-[12px]">
+                  Verified Ratings
+                </p>
+             </div>
+            <div
+              className="flex space-y-1 items-center flex-col p-3 rounded-[10px]"
+              style={{
+                background: "background: rgba(3, 15, 22, 0.30)",
+                border: "1.5px solid rgba(230, 175, 3, 0.30)",
+              }}
+            >
+              <img
+                className="w-[82px] h-[15px]"
+                loading="lazy"
+                src={stars}
+                alt="star"
+              />
+              <p className="text-[#fff] font-[400] text-[14px] leading-[100%]">4.87/5 </p>
+            </div>
+              </div>
             <p className="text-[16px] text-[#8497A2] font-[400] text-center pt-4">
-            BlockchainFX is the only crypto native trading platform providing instant access to the world’s largest financial markets with the release of its new BFX coin.
+              BlockchainFX is the only crypto native trading platform providing
+              instant access to the world’s largest financial markets with the
+              release of its new BFX coin.
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
@@ -118,32 +143,65 @@ function MobileHero() {
           </div>
           <div className="flex relative justify-center pt-[15px]">
             <img src={stats_1} className="h-auto " alt="stats_1" />
-            <div className="w-[100%] h-[100px] rounded-[1650px] bg-[#020B10]"
-          style={{
-            filter:"blur(37px)",
-            position:"absolute",
-            bottom:"-7%",
-            zIndex:"1"
-          }}
-          ></div>
+            <div
+              className="w-[100%] h-[100px] rounded-[1650px] bg-[#020B10]"
+              style={{
+                filter: "blur(37px)",
+                position: "absolute",
+                bottom: "-7%",
+                zIndex: "1",
+              }}
+            ></div>
           </div>
           <div className="gap-2 border !border-t-0  !mt-[-30px] border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 ">
             <p className="font-[600] relative z-[99] text-[15px] text-center text-[white]">
               Featured In:
             </p>
             <div className="flex justify-center items-center space-x-2">
-            <a href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/" target="_blank" rel="noopener noreferrer">
-                        <img className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover" src={herobnr1}  alt="Featured" />
-                        </a>
-                        <a href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/" target="_blank" rel="noopener noreferrer">
-                        <img className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover" src={herobnr2}  alt="Featured" />
-                        </a>
-                       <a href="https://www.binance.com/en/square/post/21135762162242"  target="_blank" rel="noopener noreferrer">
-                       <img className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover" src={herobnr3}  alt="Featured" />
-                       </a>
-                       <a href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/" target="_blank" rel="noopener noreferrer">
-                       <img className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover" src={herobnr4}  alt="Featured" />
-                       </a>
+              <a
+                href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                  src={herobnr1}
+                  alt="Featured"
+                />
+              </a>
+              <a
+                href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                  src={herobnr2}
+                  alt="Featured"
+                />
+              </a>
+              <a
+                href="https://www.binance.com/en/square/post/21135762162242"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                  src={herobnr3}
+                  alt="Featured"
+                />
+              </a>
+              <a
+                href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                  src={herobnr4}
+                  alt="Featured"
+                />
+              </a>
             </div>
           </div>
         </div>

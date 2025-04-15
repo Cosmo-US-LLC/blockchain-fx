@@ -269,7 +269,7 @@ function Navbar() {
               className="flex relative justify-center items-center space-x-2 !mr-3"
             >
               <img
-                className="w-[20px]"
+                className="w-[20px] max-w-[20px] min-w-[20px] h-[20px]"
                 src={selectedLang.flag}
                 alt={selectedLang.name}
               />
@@ -281,7 +281,7 @@ function Navbar() {
                 src={arwdwn}
                 alt="Dropdown Arrow"
                 onClick={toggleDropdown}
-                className={`cursor-pointer transform transition-transform ${
+                className={`cursor-pointer h-[25px] w-[25px] transform transition-transform ${
                   isOpen ? "rotate-180" : "rotate-0"
                 }`}
               />
