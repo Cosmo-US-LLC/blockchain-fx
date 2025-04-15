@@ -11,6 +11,7 @@ import toast from "react-hot-toast";
  * @property {string} [PaymentTokenList.defaultLabel]
  * @property {string} [PaymentTokenList.placeholder]
  * @property {string} [PaymentTokenList.network]
+ * @property {string} [PaymentTokenList.groupId]
  */
 
 /**
@@ -30,10 +31,10 @@ export const groupTokens = (tokens) => {
       defaultLabel: "BSC Tokens",
       defaultTokenSymbol: "BNB",
     },
-    "TRC-20": {
+    USDT: {
       tokens: [],
-      defaultLabel: "TRC Tokens",
-      defaultTokenSymbol: "TRX",
+      defaultLabel: "ETH Tokens",
+      defaultTokenSymbol: "USDT",
     },
     BITCOIN: {
       tokens: [],
@@ -52,6 +53,8 @@ export const groupTokens = (tokens) => {
 
   tokens.forEach((token) => {
     if (token.symbol.toLowerCase() === "card") return;
+    if (grouped[token.symbol.toUpperCase()])
+      grouped[token.symbol.toUpperCase()].tokens.push(token);
     if (grouped[token.chain.toUpperCase()])
       grouped[token.chain.toUpperCase()].tokens.push(token);
     else grouped["MORE"].tokens.push(token);
@@ -73,6 +76,7 @@ export const groupTokens = (tokens) => {
       ),
       defaultLabel: value.defaultLabel,
       network: value.network,
+      groupId: key,
     };
   });
 };
