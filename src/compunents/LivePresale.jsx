@@ -1,5 +1,6 @@
 import React from "react";
 import live_cards from "../assets/presale-v3/live_cards.svg";
+import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
 
 function LivePresale() {
   const handleScroll = () => {
@@ -26,7 +27,8 @@ function LivePresale() {
       <div
         className="h-[38px] max-w-[700px] mx-auto w-[100%] flex flex-row justify-between items-center p-2 ">
         <p className="font-[600] text-[11px]">BFX Presale is Live</p>
-        <img src={live_cards} alt="live_cards" className="" />
+        <img src={live_cards} alt="live_cards" className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block" />
+        <img src={live_cards_des} alt="live_cards" className="2xl:block xl:block lg:block md:block sm:hidden hidden" />
         <button
           onClick={handleScroll}
           className="text-[10px] font-[700] border border-1 border-[black] rounded-[3px] h-[22px] w-[64px]"
