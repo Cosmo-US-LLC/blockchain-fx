@@ -175,19 +175,19 @@ with the world’s largest financial markets.
             <div className="flex justify-end">
               <img src={graph} className="max-w-[236px] max-h-[236px]" alt="" />
             </div>
-            <p className="text-[#6F6F6F] top-[-14%] left-[41%] absolute leading-[110%] text-[10px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] top-[-14%] left-[41%] absolute leading-[110%] text-[10px] font-[700] tracking-[-0.787px]">
               Bonds: <br /> $1.1 trillion (11.42%)
             </p>
-            <p className="text-[#6F6F6F] leading-[110%] absolute top-[-1%] left-[16%] text-[10px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] leading-[110%] absolute top-[-1%] left-[16%] text-[10px] font-[700] tracking-[-0.787px]">
               U.S. Stocks: <br /> $700 billion (7.27%)
             </p>
-            <p className="text-[#6F6F6F] leading-[110%] absolute top-[17%] left-[10%] text-[10px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] leading-[110%] absolute top-[17%] left-[10%] text-[10px] font-[700] tracking-[-0.787px]">
               Commodities: <br /> $250 billion (2.59%)
             </p>
-            <p className="text-[#6F6F6F] leading-[110%] absolute top-[31%] left-[7%]  text-[10px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] leading-[110%] absolute top-[31%] left-[7%]  text-[10px] font-[700] tracking-[-0.787px]">
               Crypto: <br /> $89 Billion (0.87%)
             </p>
-            <p className="text-[#6F6F6F] leading-[110%] absolute bottom-[-19%] right-[13%]  text-[10px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] leading-[110%] absolute bottom-[-19%] right-[13%]  text-[10px] font-[700] tracking-[-0.787px]">
               Forex: <br /> $7.5 trillion (77.85%)
             </p>
           </div>
@@ -280,7 +280,7 @@ with the world’s largest financial markets.
               <div className="flex border-t border-[#2B2B2B]">
                 <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
                   <div className="flex items-center justify-center space-x-2">
-                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                    <h4 className="text-[#fff] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                     Up to $2 Million
                     </h4>
                     <div
@@ -299,7 +299,7 @@ with the world’s largest financial markets.
                 </div>
                 <div className="w-[50%] py-[3px]">
                   <div className="flex items-center justify-center">
-                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                    <h4 className="text-[#fff] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       Up to you
                     </h4>
                   </div>
@@ -316,14 +316,14 @@ with the world’s largest financial markets.
               <div className="flex border-t border-[#2B2B2B]">
                 <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
                   <div className="flex items-center justify-center space-x-2">
-                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                    <h4 className="text-[#fff] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       Up to 3 years
                     </h4>
                   </div>
                 </div>
                 <div className="w-[50%] py-[3px]">
                   <div className="flex items-center justify-center">
-                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                    <h4 className="text-[#fff] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       Buy $BFX in 2 clicks
                     </h4>
                   </div>
@@ -340,7 +340,7 @@ with the world’s largest financial markets.
               <div className="flex border-t border-[#2B2B2B]">
                 <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
                   <div className="flex justify-center space-x-2 px-[2px] py-[5px] items-center">
-                    <h4 className="text-[#686868] font-[500] text-center text-[15px] tracking-[-1px] leading-[120%]">
+                    <h4 className="text-[#fff] font-[500] text-center text-[15px] tracking-[-1px] leading-[120%]">
                       Experienced multilingual team working in shifts, 24/7, 365
                       days a year.
                     </h4>
@@ -348,7 +348,7 @@ with the world’s largest financial markets.
                 </div>
                 <div className="w-[50%] flex items-center justify-center py-[3px]">
                   <div className="flex items-center justify-center">
-                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                    <h4 className="text-[#fff] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       No Team required
                     </h4>
                   </div>
@@ -365,7 +365,7 @@ with the world’s largest financial markets.
               <div className="flex border-t border-[#2B2B2B]">
                 <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
                   <div className="flex justify-center space-x-2 px-[2px] py-[5px] items-center">
-                    <h4 className="text-[#686868] font-[500] text-start text-[15px] tracking-[-1px] leading-[120%]">
+                    <h4 className="text-[#fff] font-[500] text-start text-[15px] tracking-[-1px] leading-[120%]">
                       Capital Requirements, Marketing & Branding, Liquidity
                       Providers, Risk Management Team, Customer Support,
                       Technology Infrastructure, Partnerships, Development,
@@ -375,7 +375,7 @@ with the world’s largest financial markets.
                 </div>
                 <div className="w-[50%] flex items-center justify-center py-[3px]">
                   <div className="flex items-center justify-center">
-                    <h4 className="text-[#686868] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
+                    <h4 className="text-[#fff] font-[500] text-[15px] tracking-[-1px] leading-[200%]">
                       No Work Required
                     </h4>
                   </div>

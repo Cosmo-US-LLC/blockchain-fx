@@ -41,6 +41,7 @@ import ExpertSaysSec from './ExpertSaysSec';
 import BlockchainFXDemo from './BlockchainFXDemo';
 import CreditCard from './CreditCard';
 import KYCVerified from './KYCVerified';
+import LivePresale from '../compunents/LivePresale';
 
 
 function Home() {
@@ -79,6 +80,7 @@ function Home() {
         <TraderReviewsSec />
         <FaqSec />
         <TheUltimateSec />
+        <LivePresale />
       </div>
     );
   }
