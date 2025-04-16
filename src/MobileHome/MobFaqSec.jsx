@@ -31,13 +31,13 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
           {isOpen ? (
             <>
               <div>
-                <img src={faqicn1} alt="" />
+                <img src={faqicn2} alt="" />
               </div>
             </>
           ) : (
             <>
               <div>
-                <img src={faqicn2} alt="" />
+                <img src={faqicn1} alt="" />
               </div>
             </>
           )}

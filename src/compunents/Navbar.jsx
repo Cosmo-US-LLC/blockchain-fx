@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-
+import { useLocation } from 'react-router-dom';
 import logo from "../assets/navbar/logo.png";
-import flag from "../assets/navbar/flg.svg";
+// import flag from "../assets/navbar/flg.svg";
 import menu from "../assets/navbar/menu.svg";
 import arwdwn from "../assets/navbar/arw.png";
 import flag1 from "../assets/navbar/flg (1).svg";
@@ -55,6 +55,10 @@ function Navbar() {
     abbreviation: flags[0].abbreviation,
     name: flags[0].name,
   });
+
+  const location = useLocation();
+
+  const isReferralPage = location.pathname === '/referral';
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
@@ -145,7 +149,14 @@ function Navbar() {
             >
               Whitepaper
             </a>
-            <a
+            <Link 
+            to="/referral"
+             target="_blank"
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+            >
+            Referral
+            </Link>
+            {/* <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "roadmap", 60)}
               href=""
@@ -154,11 +165,19 @@ function Navbar() {
             </a>
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "referral", 60)}
+              href=""
+            >
+              Referral
+            </a> */}
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "reviews", 90)}
               href=""
             >
               Reviews
             </a>
+
           </div>
 
           {/* mobile menu */}
@@ -192,13 +211,14 @@ function Navbar() {
               </a>{" "}
               <br />
               <br />
-              <a
+             
+              <Link 
+              to="/referral"
+               target="_blank"
                 className="block text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                href=""
-                onClick={(e) => handleScroll(e, "roadmap", 90)}
               >
-                Roadmap
-              </a>{" "}
+                Referral
+            </Link>
               <br />
               <br />
               <a
