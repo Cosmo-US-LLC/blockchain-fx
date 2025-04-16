@@ -46,7 +46,7 @@ function MobileOneAppSec() {
         <h3 className="text-[34px] font-[600] text-left leading-[114%] text-[white] leading-[-1px] ">
             Everything In One App
           </h3>
-          <p className="text-[15px] text-[#8497A2] text-left font-[400] leading-[127.778%] leading-[-0.32px] ">
+          <p className="text-[15px] text-[#fff] text-left font-[400] leading-[127.778%] leading-[-0.32px] ">
           A lightning-fast and innovative trading solution
           </p>
         </div>
@@ -85,7 +85,7 @@ function MobileOneAppSec() {
                         </div>
                       </div>
                       <p
-                        className={`mt-[8px] text-[15px] font-[400] text-[#8497A2] max-w-[400px] overflow-hidden transition-all duration-300 ${
+                        className={`mt-[8px] text-[15px] font-[400] text-[#fff] max-w-[400px] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"

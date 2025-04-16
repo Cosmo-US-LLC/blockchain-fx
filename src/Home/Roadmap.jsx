@@ -166,7 +166,7 @@ function RoadmapSection() {
     <div className="bg-[#020B10] pt-[30px] pb-[60px]" id="roadmap">
       <h3 className="text-center text-[48px] font-[600] leading-[120%] text-white tracking-[-1.5px] mb-28">
         Roadmap <br />
-        <span className="text-[#E5AE00] text-xl">
+        <span className="text-[#fff] text-xl">
           From Fintech Startup to Global Market Leader
         </span>
       </h3>
@@ -214,7 +214,7 @@ function RoadmapSection() {
                       "1px solid var(--stroke, rgba(230, 175, 3, 0.12))",
                   }}
                 >
-                  <h4 className="text-[#E5AE00] text-[24px]">{slide.title}</h4>
+                  <h4 className="text-[#fff] text-[24px]">{slide.title}</h4>
                   {slide.status && (
                     <p
                       style={{

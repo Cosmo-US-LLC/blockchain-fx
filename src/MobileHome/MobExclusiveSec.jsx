@@ -60,7 +60,7 @@ function MobExclusiveSec() {
                   className="text-[20px] text-center text-[#FFF] font-[600] tracking-[-1.672px] leading-[120%]"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
-                <h4 className="text-[15px] mx-auto text-center text-[#8497A2] font-[400] leading-[160%] tracking-[-0.3182px]">
+                <h4 className="text-[15px] mx-auto text-center text-[#fff] font-[400] leading-[160%] tracking-[-0.3182px]">
                   {item.description}
                 </h4>
               </div>

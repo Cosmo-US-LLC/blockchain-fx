@@ -103,7 +103,7 @@ function StandoutSec() {
           <h3 className="text-[40px] font-[700] text-center leading-[48px] text-[#ffff] tracking-[-1px]">
             Standout Features
           </h3>
-          <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
+          <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
           Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.
           </p>
         </div>
@@ -165,7 +165,7 @@ function StandoutSec() {
                           colIndex === 1 ? "text-[14.7px] border-b border-[#a6a6a638]" : ""
                         } ${
                           rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
-                            ? "text-[16px] text-[#ACC4D1] font-[600] text-center !w-[225px]"
+                            ? "text-[16px] text-[#fff] font-[600] text-center !w-[225px]"
                             : "font-[500] text-[#fff] text-[16px] !w-[183px]"
                         } ${colIndex === 0 ? "border-l-5" : ""} ${
                           colIndex === tableData[0].length - 1

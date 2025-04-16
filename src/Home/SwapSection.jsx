@@ -36,7 +36,7 @@ export default function SwapSection() {
             <h3 className="text-[40px] font-[800] leading-[52px] mb-4 bg-gradient-to-r from-white to-[#E5AE00] bg-clip-text text-transparent">
             Swap Assets Instantly
             </h3>
-              <p className="text-[18px] text-[#ACC4D1] font-[400] leading-[27px]">
+              <p className="text-[18px] text-[#fff] font-[400] leading-[27px]">
               Trade anything in one place, like swapping Gold for BTC or ETH for Nvidia stock in seconds. No more juggling platforms, dealing with deposits, delays, or extra fees. BlockchainFX makes trading faster and easier than ever.              </p>
             </div>
 

@@ -25,7 +25,7 @@ export default function SwapSectionMob() {
               <h3 className="text-[30px] text-[#FFF] font-bold leading-[114%]  text-center mb-4">
                 Swap Between Assets{" "}
               </h3>
-              <p className="text-[14px] text-[#8497A2] text-center max-w-[350px] mx-auto">
+              <p className="text-[14px] text-[#fff] text-center max-w-[350px] mx-auto">
               Experience limitless trading opportunities, like swapping gold for BTC or ETH for Nvidia stock, all in one place. Traditionally, converting crypto into other assets required separate exchanges, extra fees, and long wait times. BlockchainFX streamlines it, making trading faster and easier than ever.
               </p>
             </div>

@@ -90,7 +90,7 @@ function MobileHero() {
               src={hero_reviews}
               alt="hero_reviews"
             />
-             <p className="text-[#8497A2] pt-[2px] text-center font-[400] text-[12px]">
+             <p className="text-[#fff] pt-[2px] text-center font-[400] text-[12px]">
                   Verified Ratings
                 </p>
              </div>
@@ -110,7 +110,7 @@ function MobileHero() {
               <p className="text-[#fff] font-[400] text-[14px] leading-[100%]">4.87/5 </p>
             </div>
               </div>
-            <p className="text-[16px] text-[#8497A2] font-[400] text-center pt-4">
+            <p className="text-[16px] text-[#fff] font-[400] text-center pt-4">
               BlockchainFX is the only crypto native trading platform providing
               instant access to the world’s largest financial markets with the
               release of its new BFX coin.

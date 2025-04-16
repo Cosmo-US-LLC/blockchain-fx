@@ -175,7 +175,7 @@ function PremiumSec() {
             <h3 className="text-[40px] leading-[155.556%] text-[#fff] text-start font-[700]">
               Limited Founder's Club Membership
             </h3>
-            <p className="text-[18px] leading-[150%] text-[#ACC4D1] font-[400] tracking-[-0.32px]">
+            <p className="text-[18px] leading-[150%] text-[#fff] font-[400] tracking-[-0.32px]">
             Buy BFX during the presale and become a Founder's Club Member starting from just $1,000. Get your exclusive NFT, BFX Visa Card, Bonus Tokens, Daily USDT Staking Rewards, and Free Trading Credits.
             </p>
           </div>
@@ -270,7 +270,7 @@ function PremiumSec() {
                         {card.points.map((point, index) => (
                           <li
                             key={index}
-                            className="mb-1 pl-8 rounded-[8px] px-[8px] h-[40.719px] flex items-center text-[#ACC4D1] text-[16.27px] font-[400] leading-[127.778%] tracking-[-0.32px]"
+                            className="mb-1 pl-8 rounded-[8px] px-[8px] h-[40.719px] flex items-center text-[#fff] text-[16.27px] font-[400] leading-[127.778%] tracking-[-0.32px]"
                             style={{
                               background: "rgba(124, 124, 124, 0.07)",
                             }}
@@ -434,7 +434,7 @@ function PremiumSec() {
                 {openBundles === item.id && (
                   <div className="relative">
                     <p
-                      className="mt-2 text-[16px] list-disc text-[#8497A2] font-[400] tracking-[-0.32px]"
+                      className="mt-2 text-[16px] list-disc text-[#fff] font-[400] tracking-[-0.32px]"
                       dangerouslySetInnerHTML={{ __html: item.answer }}
                     ></p>
                     {item.tooltip && (

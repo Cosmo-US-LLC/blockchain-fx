@@ -25,7 +25,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Crypto
               </h3>
-              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#fff] leading-[157.143%] tracking-[-0.32px]">
                 Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more.
               </p>
             </div>
@@ -41,7 +41,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Stocks
               </h3>
-              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#fff] leading-[157.143%] tracking-[-0.32px]">
                 Apple, Tesla, Nvidia, Netflix, Coca Cola and more.
               </p>
             </div>
@@ -60,7 +60,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Forex
               </h3>
-              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#fff] leading-[157.143%] tracking-[-0.32px]">
                 USD, EUR, JPY, GBP, AUD, and more.
               </p>
             </div>
@@ -76,7 +76,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Commodities
               </h3>
-              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#fff] leading-[157.143%] tracking-[-0.32px]">
                 Gold, Silver, Oil, Sugar, and more.
               </p>
             </div>
@@ -92,7 +92,7 @@ function TradeOverSec() {
               <h3 className="text-[24px] text-[#fff] font-[600] leading-[140%] tracking-[-0.32px]">
                 Indices
               </h3>
-              <p className="text-[16px] font-[400] text-[#8497A2] leading-[157.143%] tracking-[-0.32px]">
+              <p className="text-[16px] font-[400] text-[#fff] leading-[157.143%] tracking-[-0.32px]">
                 Dow Jones, S&P 500, Nasdaq and more.
               </p>
             </div>

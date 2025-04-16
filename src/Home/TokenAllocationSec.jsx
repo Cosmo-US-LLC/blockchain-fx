@@ -29,7 +29,7 @@ function TokenAllocationSec() {
           <h3 className="text-[48px] font-[600] text-center leading-[120%] text-white tracking-[-3.36px]">
           Token Details
           </h3>
-          <p className="text-[18px] text-[#ACC4D1] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[140%] tracking-[-0.4px] ">
+          <p className="text-[18px] text-[#fff] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[140%] tracking-[-0.4px] ">
           The token allocation is structured to reward early supporters the most
           </p>
         </div>

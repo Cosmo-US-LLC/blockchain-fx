@@ -181,7 +181,7 @@ function MobilePremiumSec() {
           <h3 className="text-[30px] leading-[120%] text-[#FFF] text-center font-[600] tracking-[-1.548px]">
             Limited Founder's <br /> Club Membership
           </h3>
-          <p className="text-[15px]   leading-[175%]  tracking-[-0.32px] mx-auto text-[#ACC4D1] text-center font-[400]">
+          <p className="text-[15px]   leading-[175%]  tracking-[-0.32px] mx-auto text-[#fff] text-center font-[400]">
           Buy BFX during the presale and become a Founder's Club Member starting from just $1,000. Get your exclusive NFT, BFX Visa Card, Bonus Tokens, Daily USDT Staking Rewards, and Free Trading Credits.
           </p>
         </div>
@@ -296,7 +296,7 @@ function MobilePremiumSec() {
                                 {card.title}
                               </h3>
 
-                              <h4 className="text-center rounded-full w-[80px] text-[12px] px-2 py-1 border-[#8497A2] ml-1 border font-[600]">
+                              <h4 className="text-center rounded-full w-[80px] text-[12px] px-2 py-1 border-[#fff] ml-1 border font-[600]">
                                 NFT
                               </h4>
                             </div>
@@ -325,7 +325,7 @@ function MobilePremiumSec() {
                         {card.points.map((point, index) => (
                           <li
                             key={index}
-                            className="mb-2 rounded-[8px] px-[5px] h-[31px] flex items-center text-[#8497A2] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
+                            className="mb-2 rounded-[8px] px-[5px] h-[31px] flex items-center text-[#fff] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
                             style={{
                               background: "rgba(124, 124, 124, 0.07)",
                             }}
@@ -392,7 +392,7 @@ function MobilePremiumSec() {
                 </div>
                 {openBundles === item.id && (
                   <div className="relative">
-                    <p className="relative mt-2 text-[15px] text-[#8497A2] font-[400] tracking-[-0.32px] inline-flex items-center">
+                    <p className="relative mt-2 text-[15px] text-[#fff] font-[400] tracking-[-0.32px] inline-flex items-center">
                       <span
                         className="pr-3 leading-[130%] space-y-[10px]"
                         dangerouslySetInnerHTML={{ __html: item.answer }}

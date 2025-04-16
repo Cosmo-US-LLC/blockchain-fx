@@ -31,7 +31,7 @@ export default function WhitepaperMob() {
               <h3 className="text-[30px] text-center font-[600] leading-[115%] mb-4 text-white tracking-tighter">
                 BFX Whitepaper
               </h3>
-              <p className="text-[14px] text-center text-[#8497A2]">
+              <p className="text-[14px] text-center text-[#fff]">
                 Explore the whitepaper to learn how BFX powers a next-gen
                 trading ecosystem. Discover its key features and advantages, and
                 see how BlockchainFX is bridging the gap between blockchain and

@@ -13,7 +13,7 @@ function LiveNewSec() {
         <div className="space-y-[14px]">
           <h3 className="text-[48px] text-center font-[600] leading-[120%] text-white tracking-[-3.36px]">
           Get In First and Gain the Edge          </h3>
-          <p className="text-[18px] font-[400] text-center max-w-[836px] mx-auto w-[100%] leading-[155%] text-[#ACC4D1] tracking-[-0.36px]">
+          <p className="text-[18px] font-[400] text-center max-w-[836px] mx-auto w-[100%] leading-[155%] text-[#fff] tracking-[-0.36px]">
           Stay ahead of the markets with integrated lightning-fast live news. Get real-time updates to make smarter trades and act instantly with the 1-click trading feature.
           </p>
         </div>

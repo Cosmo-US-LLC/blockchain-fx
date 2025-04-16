@@ -24,7 +24,7 @@ function GatewaySec() {
           <h3 className="text-[40px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
             The Gateway to Global Markets
           </h3>
-          <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#ACC4D1] tracking-[-0.32px]">
+          <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
           Launching a new trading platform takes a lot of time and resources. On the other hand, <br /> buying $BFX takes seconds and lets you earn every time someone trades.
           </p>
         </div>

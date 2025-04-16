@@ -54,7 +54,7 @@ function HowDoesItSec() {
      <div className="max-w-[1200px] w-[100%] mx-auto relative">
         <div className="space-y-[0px]">
             <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">How does it work?</h3>
-          <p className="text-[20px] text-[#ACC4D1] text-center font-[400]">BFX Reward Engine Explained in 6 Easy Steps</p>
+          <p className="text-[20px] text-[#fff] text-center font-[400]">BFX Reward Engine Explained in 6 Easy Steps</p>
         </div>
      <div className=" pt-[34px] w-[100%] mx-auto ">
         <div className="grid grid-cols-3 gap-x-[19px] gap-y-[19px]">
@@ -82,7 +82,7 @@ function HowDoesItSec() {
          <div className="min-h-[30px] flex justify-start pb-[10px] items-center">
          <h3 className="text-[24px] text-[#fff] font-[600] leading-[109.316%]">{item.title}</h3>
          </div>
-          <h4 className="text-[14px]  text-[#8497A2] font-[400] leading-[135.796%]">{item.description}</h4>
+          <h4 className="text-[14px]  text-[#fff] font-[400] leading-[135.796%]">{item.description}</h4>
         </div>
       ))}
         </div>
