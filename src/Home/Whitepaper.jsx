@@ -35,7 +35,7 @@ export default function Whitepaper() {
               <h3 className="text-[40px] font-[800] leading-[52px] mb-4 bg-gradient-to-r from-white to-[#E5AE00] bg-clip-text text-transparent">
               BFX Whitepaper
               </h3>
-              <p className="text-[18px] text-[#ACC4D1] font-[400] leading-[155.5%] tracking-[-0.36px]">
+              <p className="text-[18px] text-[#fff] font-[400] leading-[155.5%] tracking-[-0.36px]">
               Explore the whitepaper to learn how BFX powers a next-gen trading ecosystem. Discover its key features and advantages, and see how BlockchainFX is bridging the gap between blockchain and traditional finance by creating the crypto industry's first trading super app.              </p>
             </div>
 

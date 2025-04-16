@@ -79,7 +79,7 @@ function MobileTradeOverSec() {
                   {cardData[cardIndex].title}
                 </h3>
                 <p
-                  className="text-[15px] font-[400] text-[#8497A2] leading-[127.778%] tracking-[-0.32px] mt-2 pb-4"
+                  className="text-[15px] font-[400] text-[#fff] leading-[127.778%] tracking-[-0.32px] mt-2 pb-4"
                   dangerouslySetInnerHTML={{
                     __html: cardData[cardIndex].subtitle,
                   }}

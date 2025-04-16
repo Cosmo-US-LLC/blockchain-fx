@@ -22,7 +22,7 @@ function MobStandoutSec() {
           <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#FFF] tracking-[-2.548px]">
             Standout Features
           </h3>
-          <p className="text-[15px] font-[400]  text-center leading-[130%] text-[#8497A2] tracking-[-0.32px]">
+          <p className="text-[15px] font-[400]  text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
           Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.
           </p>
         </div>
@@ -48,7 +48,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className=" border-t border-[#A6A6A6] border-l border-r     justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <h3 className="text-[#8497A2] leading-[120%] font-[700] text-[15px]">
+                <h3 className="text-[#fff] leading-[120%] font-[700] text-[15px]">
                   $BFX
                 </h3>
               </div>
@@ -63,7 +63,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className=" border-t border-[#A6A6A6] border-l border-r  justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <h3 className="text-[#8497A2] leading-[120%] font-[700] text-[15px]">
+                <h3 className="text-[#fff] leading-[120%] font-[700] text-[15px]">
                   -
                 </h3>
               </div>
@@ -78,7 +78,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className=" border-t border-[#A6A6A6] border-l border-r   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <h3 className="text-[#8497A2] leading-[120%] font-[700] text-[15px]">
+                <h3 className="text-[#fff] leading-[120%] font-[700] text-[15px]">
                   -
                 </h3>
               </div>
@@ -213,21 +213,21 @@ function MobStandoutSec() {
                   </div>
                   <div className="flex">
                     <div className="justify-center py-[14px] h-[49px] px-[10px] border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[100%]">
-                      <h3 className="text-[#8497A2]  font-[500] text-[12px]">
+                      <h3 className="text-[#fff]  font-[500] text-[12px]">
                         $BGB
                       </h3>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="justify-center py-[14px] h-[49px] px-[10px] border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[100%]">
-                      <h3 className="text-[#8497A2]  font-[500] text-[12px]">
+                      <h3 className="text-[#fff]  font-[500] text-[12px]">
                         #24
                       </h3>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="justify-center py-[14px] h-[49px] px-[10px] border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[100%]">
-                      <h3 className="text-[#8497A2]  font-[500] text-[12px]">
+                      <h3 className="text-[#fff]  font-[500] text-[12px]">
                         $12.26 Billion
                       </h3>
                     </div>
@@ -290,21 +290,21 @@ function MobStandoutSec() {
                   </div>
                   <div className="flex">
                     <div className=" border-t border-[#A6A6A6] border-r justify-center flex flex-col items-center space-y-[6px] w-[100%] py-[14px] h-[49px] px-[10px]">
-                      <h3 className="text-[#8497A2] font-[500] text-[12px]">
+                      <h3 className="text-[#fff] font-[500] text-[12px]">
                         $HYPE
                       </h3>
                     </div>
                   </div>
                   <div className="flex">
                     <div className=" border-t border-[#A6A6A6] border-r justify-center flex flex-col items-center space-y-[6px] w-[100%] py-[14px] h-[49px] px-[10px]">
-                      <h3 className="text-[#8497A2] font-[500] text-[12px]">
+                      <h3 className="text-[#fff] font-[500] text-[12px]">
                         #27
                       </h3>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="py-[14px] h-[49px] px-[10px] border-t border-[#A6A6A6]  border-r  justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <h3 className="text-[#8497A2]  font-[500] text-[12px]">
+                      <h3 className="text-[#fff]  font-[500] text-[12px]">
                         $8.77 Billion
                       </h3>
                     </div>
@@ -367,21 +367,21 @@ function MobStandoutSec() {
                   </div>
                   <div className="flex">
                     <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <h3 className="text-[#8497A2]  font-[500] text-[12px]">
+                      <h3 className="text-[#fff]  font-[500] text-[12px]">
                         $UNI
                       </h3>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <h3 className="text-[#8497A2]  font-[500] text-[12px]">
+                      <h3 className="text-[#fff]  font-[500] text-[12px]">
                         #28
                       </h3>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <h3 className="text-[#8497A2]  font-[500] text-[12px]">
+                      <h3 className="text-[#fff]  font-[500] text-[12px]">
                         $8.08 Billion
                       </h3>
                     </div>

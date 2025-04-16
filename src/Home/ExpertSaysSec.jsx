@@ -86,7 +86,7 @@ function ExpertSaysSec() {
                   scrolling="no"
                   className="wistia_embed"
                   name="wistia_embed"
-                  style={{ height: "400px", width: "100%" }}
+                  style={{ height: "315px", width: "100%" }}
                 ></iframe>
                 {/* <img src={expimg1} alt="Expert 1" /> */}
               </div>
@@ -133,7 +133,7 @@ function ExpertSaysSec() {
                   scrolling="no"
                   className="wistia_embed"
                   name="wistia_embed"
-                  style={{ height: "400px", width: "100%" }}
+                  style={{ height: "315px", width: "100%" }}
                 ></iframe>
               </div>
             </div>
@@ -177,7 +177,7 @@ function ExpertSaysSec() {
                   scrolling="no"
                   className="wistia_embed"
                   name="wistia_embed"
-                  style={{ height: "400px", width: "100%" }}
+                  style={{ height: "315px", width: "100%" }}
                 ></iframe>
               </div>
             </div>

@@ -54,7 +54,7 @@ function MobileEarnOnSec() {
           <h3 className="text-[36px] capitalize font-[600] leading-[114%] text-[white] tracking-[-1px] text-center">
             Earn Daily With BFX
           </h3>
-          <p className="text-[16px] max-w-[330px] mx-auto text-[#8497A2] font-[400] leading-[153.333%] tracking-[-0.32px] text-center">
+          <p className="text-[16px] max-w-[330px] mx-auto text-[#fff] font-[400] leading-[153.333%] tracking-[-0.32px] text-center">
             BFX holders earn daily staking rewards in BFX and USDT, powered by
             BlockchainFX trading fees. Every time someone trades on the app,
             holders get rewarded. The more BFX a person holds, the more they

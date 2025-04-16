@@ -35,7 +35,7 @@ function DemoSec() {
         <h3 className="mt-8 text-[36px] font-[600] leading-[114%] leading-[-1px] text-center text-[white]">
           BlockchainFX Demo
         </h3>
-        <p className="text-[16px] text-center font-[400] text-[#8497A2]">
+        <p className="text-[16px] text-center font-[400] text-[#fff]">
         In just a few seconds, users can trade BTC, Tesla, Gold, Pepe, ETFs, CFDs, and more — all seamlessly on one platform without switching brokers.
         </p>
         {/* <img src={demo} className="w-[404px] h-auto" alt="demo" /> */}

@@ -20,7 +20,7 @@ function SecurityBuiltSec() {
           <h3 className="text-[48px] capitalize font-[600] text-center leading-[120%] text-white tracking-[-3.36px]">
           Security Built Into the Core
           </h3>
-          <p className="text-[18px] font-[400] max-w-[751px] text-center mx-auto w-[100%] leading-[155.5%] text-[#ACC4D1] tracking-[-0.36px]">
+          <p className="text-[18px] font-[400] max-w-[751px] text-center mx-auto w-[100%] leading-[155.5%] text-[#fff] tracking-[-0.36px]">
           BlockchainFX leverages advanced technology to build a reliable infrastructure and seamless ecosystem, providing a secure and user-friendly experience for BFX holders and traders.
           </p>
         </div>

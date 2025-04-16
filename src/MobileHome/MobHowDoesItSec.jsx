@@ -65,7 +65,7 @@ function MobHowDoesItSec() {
           <h3 className="text-[36px] capitalize leading-[100%] text-[white] text-center font-[600]">
             How Does It Work?
           </h3>
-          <p className="mt-4 text-[15px] text-center text-[#8497A2] font-[400]">
+          <p className="mt-4 text-[15px] text-center text-[#fff] font-[400]">
             BFX Reward Engine Explained in 6 Easy Steps
           </p>
         </div>
@@ -101,7 +101,7 @@ function MobHowDoesItSec() {
                           {item.title}
                         </h3>
                       </div>
-                      <h4 className="mt-2 text-[16px] text-left text-[#8497A2] font-[400] leading-[153.333%]">
+                      <h4 className="mt-2 text-[16px] text-left text-[#fff] font-[400] leading-[153.333%]">
                         {item.description}
                       </h4>
                     </div>

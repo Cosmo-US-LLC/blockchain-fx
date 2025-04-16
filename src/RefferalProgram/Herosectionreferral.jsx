@@ -13,7 +13,7 @@ function HerosectionReferral() {
             <h1 className=" text-[43px] md:text-[52px] lg:text-[60px] xl:text-[66px] pt-[15px] font-[600] px-[16px] md:px-[0px] leading-[120%] tracking-[-1px] text-[#fff] text-center font-inter">
               BFX Referral Program
             </h1>
-            <p className="text-[16px] mx-auto font-[400] leading-[150%] text-center text-[#8497A2] tracking-[-0.32px] w-[80%] sm:w-[100%] font-inter" style={{ marginTop: '0px' }}>
+            <p className="text-[16px] mx-auto font-[400] leading-[150%] text-center text-[#fff] tracking-[-0.32px] w-[80%] sm:w-[100%] font-inter" style={{ marginTop: '0px' }}>
               Connect your wallet to access your referral code and dashboard
             </p>
             {!accountData.isConnected && (

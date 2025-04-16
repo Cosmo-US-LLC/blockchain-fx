@@ -35,7 +35,7 @@ function MobWhatIsSec() {
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[120%] text-[#FFF] tracking-[-1px]">
           What Makes BFX Different?
           </h3>
-          <p className="text-[15px] font-[400] max-w-[375px] mx-auto w-[100%] text-center leading-[130%] text-[#8497A2] tracking-[-0.32px]">
+          <p className="text-[15px] font-[400] max-w-[375px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
           $BFX is BlockchainFX's native coin, offering a unique opportunity to be part of a fast-growing global trading platform with the ambition to become one of the world’s leading trading networks.
           </p>
         </div>

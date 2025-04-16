@@ -47,35 +47,35 @@ function CreditCardMob() {
         </h3>
 
         <ul className="list-disc space-y-[6px]">
-          <li className="text-[14px] text-[#ACC4D1]   ml-3 py-[8px] font-[500] ">
+          <li className="text-[14px] text-[#fff]   ml-3 py-[8px] font-[500] ">
             Unlimited Spending{" "}
           </li>
-          <div className="w=[100%] h-[0.3px] bg-[#ACC4D1]"></div>
-          <li className="text-[14px] text-[#ACC4D1]  ml-3 py-[8px] font-[500] ">
+          <div className="w=[100%] h-[0.3px] bg-[#fff]"></div>
+          <li className="text-[14px] text-[#fff]  ml-3 py-[8px] font-[500] ">
             Metal or 18 Karat Gold Card
           </li>
-          <div className="w=[100%] h-[0.5px] bg-[#ACC4D1]"></div>
-          <li className="text-[14px] text-[#ACC4D1]   ml-3 py-[8px] font-[500] ">
+          <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
+          <li className="text-[14px] text-[#fff]   ml-3 py-[8px] font-[500] ">
             Up to $100,000 per Transaction
           </li>
-          <div className="w=[100%] h-[0.5px] bg-[#ACC4D1]"></div>
-          <li className="text-[14px] text-[#ACC4D1]   ml-3 py-[8px] font-[500] ">
+          <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
+          <li className="text-[14px] text-[#fff]   ml-3 py-[8px] font-[500] ">
             Up to $10K Monthly ATM Withdrawals{" "}
           </li>
-          <div className="w=[100%] h-[0.5px] bg-[#ACC4D1]"></div>
-          <li className="text-[14px] text-[#ACC4D1]  ml-3 py-[8px] font-[500] ">
+          <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
+          <li className="text-[14px] text-[#fff]  ml-3 py-[8px] font-[500] ">
             Use BFX and USDT Rewards for Payments{" "}
           </li>
-          <div className="w=[100%] h-[0.5px] bg-[#ACC4D1]"></div>
-          <li className="text-[14px] text-[#ACC4D1]   ml-3 py-[8px] font-[500] ">
+          <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
+          <li className="text-[14px] text-[#fff]   ml-3 py-[8px] font-[500] ">
             Accepted Worldwide (Online & In-Stores){" "}
           </li>
-          <div className="w=[100%] h-[0.5px] bg-[#ACC4D1]"></div>
-          <li className="text-[14px] text-[#ACC4D1]    ml-3 py-[8px] font-[500] ">
+          <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
+          <li className="text-[14px] text-[#fff]    ml-3 py-[8px] font-[500] ">
             Top Up with BFX and 20+ Crypto
           </li>
-          <div className="w=[100%] h-[0.5px] bg-[#ACC4D1]"></div>
-          <li className="text-[14px] text-[#ACC4D1]  ml-3 pt-[8px] font-[500] ">
+          <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
+          <li className="text-[14px] text-[#fff]  ml-3 pt-[8px] font-[500] ">
             BFX Visa Card Only Available in Presale
           </li>
         </ul>

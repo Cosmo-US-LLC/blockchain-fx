@@ -24,7 +24,7 @@ function MobHyperGrowthSec() {
           <h3 className="text-[30px] font-[600] text-center leading-[120%] text-[#FFF] tracking-[-2.548px]">
           Designed For <br/> Exponential Growth
           </h3>
-          <p className="text-[15px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#8497A2] tracking-[-0.32px]">
+          <p className="text-[15px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
           BlockchainFX is a community-driven trading platform that rewards users with daily staking rewards, fostering a loyal and active community. As the platform grows, so does the token, creating a cycle of rewards and engagement. Studies* show that incentivized communities can grow significantly faster than others, and BFX is designed to maximize that potential.
           </p>
         </div>
@@ -56,7 +56,7 @@ function MobHyperGrowthSec() {
           </div>
         </div>
         <div>
-          <p className="text-[14px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#8497A2] tracking-[-0.32px]">(*Source: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)</p>
+          <p className="text-[14px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">(*Source: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)</p>
         </div>
         <div className="flex items-center justify-center ">
           <button

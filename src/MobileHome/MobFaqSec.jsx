@@ -24,8 +24,8 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
         <h4
           className={`text-[18px] xs:text-[10px] rounded-full w-[26px] h-[26px] xs:h-[16px] xs:w-[16px]  flex items-center justify-center plusIcon  ${
             !isOpen
-              ? "text-[#8497A2] border-none rotate-0"
-              : " border-none text-[#8497A2]"
+              ? "text-[#fff] border-none rotate-0"
+              : " border-none text-[#fff]"
           }`}
         >
           {isOpen ? (
@@ -44,7 +44,7 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
         </h4>
       </div>
       <div style={contentStyles}>
-        <ul className="w-[90%] pt-[20px] pl-[20px] list-disc list-outside text-[#8497A2]">
+        <ul className="w-[90%] pt-[20px] pl-[20px] list-disc list-outside text-[#fff]">
           <li>
             <span
               className="pb-[10px] text-[15px] leading-[150%] font-[400]"
@@ -109,7 +109,7 @@ const MobFaqSec = () => {
             <h2 className="text-[#FFF] leading-[100%] text-[30px] font-[600]">
               FAQs
             </h2>
-            <p className="text-[15px] font-[400] text-[#8497A2] text-center">
+            <p className="text-[15px] font-[400] text-[#fff] text-center">
               Find answers to some of the most common questions.
             </p>
           </div>

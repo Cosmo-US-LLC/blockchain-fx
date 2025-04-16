@@ -80,7 +80,7 @@ function LessThanSec() {
           <h3 className="text-[40px] font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
           Bridging Crypto and Finance
           </h3>
-          <p className="text-[18px] font-[400] w-[750px] mx-auto text-center leading-[130%] text-[#ACC4D1] tracking-[-0.32px]">
+          <p className="text-[18px] font-[400] w-[750px] mx-auto text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
           Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily. <br /> Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major <br /> opportunity for BFX to connect crypto users with the world’s largest financial markets.
           </p>
         </div>
@@ -92,19 +92,19 @@ function LessThanSec() {
             <div className="flex justify-center">
               <img src={graph} alt="graph"  loading="lazy" className="h-[321px] w-[321px]" />
             </div>
-            <p className="text-[#ACC4D1] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
               Bonds: $1.1 Trillion (11.42%)
             </p>
-            <p className="text-[#ACC4D1] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
               U.S. Stocks: $700 Billion (7.27%)
             </p>
-            <p className="text-[#ACC4D1] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
               Commodities: $250 Billion (2.59%)
             </p>
-            <p className="text-[#ACC4D1] absolute top-[35%] left-[19%]  text-[15px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] absolute top-[35%] left-[19%]  text-[15px] font-[700] tracking-[-0.787px]">
               Crypto: $89 Billion (0.87%)
             </p>
-            <p className="text-[#ACC4D1] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
+            <p className="text-[#fff] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
               Forex: $7.5 Trillion (77.85%)
             </p>
           </div>
@@ -150,7 +150,7 @@ function LessThanSec() {
       </div>
                 </SwiperSlide>
               <SwiperSlide>
-                  <div className="max-w-[1200px] rounded-[16px] py-[80px] relative overflow-hidden space-y-[40px] w-[100%] mx-auto "
+                  <div className="max-w-[1200px] rounded-[16px] pt-[50px] pb-[70px] relative overflow-hidden space-y-[40px] w-[100%] mx-auto "
                        style={{
                             background: "#030F16",
                             borderColor: "rgba(230, 175, 3, 0.12)",
@@ -160,7 +160,7 @@ function LessThanSec() {
                           <h3 className="text-[40px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
                             The Gateway to Global Markets
                           </h3>
-                          <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#ACC4D1] tracking-[-0.32px]">
+                          <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
                           Launching a new trading platform takes a lot of time and resources. On the other hand, <br /> buying $BFX takes seconds and lets you earn every time someone trades.
                           </p>
                         </div>
@@ -217,7 +217,7 @@ function LessThanSec() {
                             </div>
                             <ul>
                               <li className="py-[20px] flex items-center space-x-2 border-b border-[#C2C2C2]">
-                                <span className="text-[#939393] text-[16px] font-[500] ">
+                                <span className="text-[#fff] text-[16px] font-[500] ">
                                   Up to $2 Million
                                 </span>
                                 <div
@@ -233,14 +233,14 @@ function LessThanSec() {
                                   )}
                                 </div>
                               </li>
-                              <li className="text-[#939393] text-[16px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
+                              <li className="text-[#fff] text-[16px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
                                 Up to 3 years
                               </li>
-                              <li className="text-[#939393] text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
+                              <li className="text-[#fff] text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
                                 Experienced multilingual team working in shifts, 24/7, 365 days
                                 a year.
                               </li>
-                              <li className="text-[#939393] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
+                              <li className="text-[#fff] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
                                 Capital Requirements, Marketing & Branding, Liquidity Providers,
                                 Risk Management Team, Customer Support, Technology
                                 Infrastructure, Partnerships, Development, Hiring and Managing
@@ -262,16 +262,16 @@ function LessThanSec() {
                               </h4>
                             </div>
                             <ul>
-                              <li className="text-[#939393] text-[16px]  h-[61.5px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
+                              <li className="text-[#fff] text-[16px]  h-[61.5px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
                                 Up to you
                               </li>
-                              <li className="text-[#939393] text-[16px] h-[65.5px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
+                              <li className="text-[#fff] text-[16px] h-[65.5px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
                                 Buy $BFX in 2 clicks
                               </li>
-                              <li className="text-[#939393] text-[16px]  font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
+                              <li className="text-[#fff] text-[16px]  font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
                                 No Team required
                               </li>
-                              <li className="text-[#939393] text-[16px]  font-[500] py-[27px]">
+                              <li className="text-[#fff] text-[16px]  font-[500] py-[27px]">
                                 No Work Required
                               </li>
                             </ul>
@@ -291,7 +291,7 @@ function LessThanSec() {
                           <h3 className="text-[40px] font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
                             Designed for Exponential Growth
                           </h3>
-                          <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
+                          <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
                             BlockchainFX is a community-powered trading platform that rewards
                             BFX holders daily. As the platform grows, so does the token —
                             creating a powerful cycle of growth and engagement. Studies* show
@@ -327,7 +327,7 @@ function LessThanSec() {
                             <img src={graphyp} loading="lazy" alt="Trading" className="" />
                           </div>
                         </div>
-                        <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#ACC4D1] tracking-[-0.32px]">
+                        <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
                           (*Source: Harvard Business Review, When Community Becomes Your
                           Competitive Advantage, 2020)
                         </p>

@@ -65,7 +65,7 @@ const MobileWalletSec = () => {
           )}
         </div>
         <p
-          className="text-[#8497A2] font-[400] text-[16px] text-center font-inter pb-8"
+          className="text-[#fff] font-[400] text-[16px] text-center font-inter pb-8"
           style={{
             lineHeight: "160%",
             letterSpacing: "-2%",
