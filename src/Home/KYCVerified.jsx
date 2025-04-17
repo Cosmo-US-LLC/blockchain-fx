@@ -43,7 +43,7 @@ function KYCVerified() {
                 }}
               >
                 <div className="flex justify-between pb-[15px] items-center">
-                  <img src={item.img} className="h-[40px]" alt="" />
+                  <img src={item.img} className="h-[40px]" alt="Security_Verified" />
                   <p
                     style={{
                       background: "rgba(0, 124, 45, 0.16)",

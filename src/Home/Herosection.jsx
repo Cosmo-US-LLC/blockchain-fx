@@ -71,7 +71,7 @@ function Herosection() {
             </h1>
             <div className="flex items-center justify-center pt-[20px] space-x-3">
               <div className="flex flex-col items-center">
-                <img src={uersrev} loading="lazy" alt="" />
+                <img src={uersrev} loading="lazy" alt="reviews" />
                 <p className="text-[#fff] font-[400] text-[16px]">
                   Verified Ratings
                 </p>

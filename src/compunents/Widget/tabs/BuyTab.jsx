@@ -293,7 +293,7 @@ const BuyTab = () => {
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
               <div
                 className=" h-[10px] rounded-[20px]"
-                style={{ width: `${stageFrac * 100}%`,background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)", }}
+                style={{ width: `${stageFrac * 100 - 3}%`,background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)", }}
                
               />
             </div>
@@ -322,6 +322,12 @@ const BuyTab = () => {
         </div> */}
         <div className="text-[#fff] rounded-[8px] overflow-hidden">
           <TokenSelectDropdown
+           getClassName={(active) =>
+            clsx(
+              "flex items-center !justify-center rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
+              { "!bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)]": active }
+            )
+          }
             tokenList={{
               currencies:
                 apiData.paymentTokens
@@ -678,3 +684,4 @@ const buyTabData = {
 };
 
 export default buyTabData;
+
