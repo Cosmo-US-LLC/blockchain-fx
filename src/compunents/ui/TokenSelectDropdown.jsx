@@ -13,6 +13,7 @@ import { useClickAway } from "../../presale-gg/web3/hooks";
  * @param {number | null} props.selectedTokenId
  * @param {(item: import("../../presale-gg/api/api.types").API.PaymentToken) => void} props.onChange
  * @returns {import("react").JSX.Element}
+ * @param {(active: boolean) => string} [props.getClassName]
  */
 const TokenSelectDropdown = (props) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -32,6 +33,13 @@ const TokenSelectDropdown = (props) => {
   const containerRef = useRef(null);
   useClickAway(containerRef, () => setDropdownOpen(false));
 
+  const className = props.getClassName
+  ? props.getClassName(active)
+  : clsx(
+      "flex items-center justify-start rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
+      { "!bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)]": active }
+    );
+
   return (
     <div className="relative flex flex-col" ref={containerRef}>
       <button
@@ -47,10 +55,7 @@ const TokenSelectDropdown = (props) => {
             ? "rgba(176, 176, 176, 0.7)"
             : "rgba(176, 176, 176, 0.17)",
         }}
-        className={clsx(
-          "flex items-center justify-start rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
-          { "!bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)]": active },
-        )}
+        className={className}
       >
         {token && (
           <img

@@ -70,13 +70,6 @@ function ExpertSaysSec() {
                 </div>
               </div>
               <div className="w-[50%]">
-                {/* <iframe
-                  className="w-full aspect-video"
-                  src="https://www.youtube.com/embed/WyfOYLbvCf8"
-                  title="YouTube video player"
-                  allow="encrypted-media"
-                  allowFullScreen
-                ></iframe> */}
                 <iframe
                   src="https://fast.wistia.net/embed/iframe/aa3tldcsf0"
                   title="Wistia Video"
@@ -88,7 +81,6 @@ function ExpertSaysSec() {
                   name="wistia_embed"
                   style={{ height: "315px", borderRadius:"12px", width: "100%" }}
                 ></iframe>
-                {/* <img src={expimg1} alt="Expert 1" /> */}
               </div>
             </div>
           </SwiperSlide>
@@ -123,7 +115,6 @@ function ExpertSaysSec() {
                 </div>
               </div>
               <div className="w-[50%]">
-                {/* <img src={expimg2} alt="Expert 2" /> */}
                 <iframe
                   src="https://fast.wistia.net/embed/iframe/y8jip6h7gy"
                   title="Wistia Video"
@@ -167,7 +158,6 @@ function ExpertSaysSec() {
                 </div>
               </div>
               <div className="w-[50%]">
-                {/* <img src={expimg2} alt="Expert 2" /> */}
                 <iframe
                   src="https://fast.wistia.net/embed/iframe/rln8cnlwja"
                   title="Wistia Video"
@@ -183,34 +173,7 @@ function ExpertSaysSec() {
             </div>
           </SwiperSlide>
         </Swiper>
-        {/* <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
-                  <button ref={prevRef} className="">
-                   <img className="h-[34px] w-[34px]" src={expawr2} alt="" />
-                  <img className="h-[34px] w-[34px]" src={expawr1} alt="" />
-
-                  </button>
-                  <button ref={nextRef} className="">
-                  <img className="h-[34px] w-[34px]" src={expawr1} alt="" />
-                  <img className="h-[34px] w-[34px]" src={expawr2} alt="" />
-                  </button>
-                </div> */}
-        {/* <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
-          <button ref={prevRef} className="">
-            {activeSlide === 2 ? (
-              <img className="h-[34px] w-[34px]" src={expawr2} alt="" />
-            ) : (
-              <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr1} alt="" />
-            )}
-          </button>
-          <button ref={nextRef} className="">
-            {activeSlide === 2 ? (
-              <img className="h-[34px] w-[34px]" src={expawr1} alt="" />
-            ) : (
-              <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr2} alt="" />
-            )}
-          </button>
-        </div> */}
-
+  
         <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
           {/* Previous Button */}
           <button ref={prevRef} className="">
@@ -244,10 +207,10 @@ function ExpertSaysSec() {
         </div>
 
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={ernvet2} className=" " alt="" />
+          <img src={ernvet2} className=" " alt="left" />
         </div>
         <div className="absolute bottom-[0%] right-[0%]">
-          <img src={ernvet1} className="" alt="" />
+          <img src={ernvet1} className="" alt="right" />
         </div>
       </div>
     </div>

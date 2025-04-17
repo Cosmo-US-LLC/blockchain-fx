@@ -76,11 +76,8 @@ function BlockchainFXDemo() {
           </div>
         </div>
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={ernvet2} className=" " alt="" />
+          <img src={ernvet2} className=" " alt="BlockchainFX" />
         </div>
-        {/* <div className="absolute bottom-[0%] right-[0%]">
-          <img src={ernvet1} className="" alt="" />
-        </div> */}
       </div>
     </div>
   );
