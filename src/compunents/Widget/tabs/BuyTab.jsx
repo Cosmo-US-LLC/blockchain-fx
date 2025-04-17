@@ -264,7 +264,7 @@ const BuyTab = () => {
 
   return (
     <>
-      <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full">
+      <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full isolate">
         {/* <div className="flex justify-center space-x-2 items-center p-2 rounded-[50px] border">
           <button className="px-5 py-1 text-[10px] text-[#fff] bg-[#5C5C5C] rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn1} alt="" />Buy</button>
           <button
@@ -374,17 +374,15 @@ const BuyTab = () => {
           className="2xl:px-[24px] xl:px-[24px] lg:px-[24px] md:px-[24px] sm:px-[20px] px-[12px] py-[10px] rounded-[17.596px]"
           style={{
             background: "#000",
-            backdropFilter:"blur(12.145808219909668px)"
           }}
         >
           <h4 className="text-center text-[#fff] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[12px] text-[10px] leading-[75%] font-[700]">
-          Presale Price = <span className="text-[#FBD914]"> $0.011</span> <span className="px-1">|</span> Launch Price = <span className="text-[#FBD914]">$0.05</span>
+          Presale Price = <span className="text-[#FBD914]">${formatNumber(apiData.stage?.token_price)}</span> <span className="px-1">|</span> Launch Price = <span className="text-[#FBD914]">$0.05</span>
           </h4>
         </div>
         <div className="px-2 pb-2 rounded-[8px]"
          style={{
           background: "rgba(255, 255, 255, 0.09)",
-          backdropFilter:"blur(12.145808219909668px)"
         }}
         >
           <div className="  px-1 flex justify-between items-center">
