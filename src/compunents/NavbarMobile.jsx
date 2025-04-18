@@ -157,21 +157,21 @@ function NavbarMobile() {
                 Whitepaper
               </a>{" "}
               <br />
-              <a
-                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                href=""
-                onClick={(e) => handleScroll(e, "roadmap", 90)}
-              >
-                Roadmap
-              </a>{" "}
-              <br />
               <Link 
             to="/referral"
              target="_blank"
-             className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+            className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
             >
             Referral
             </Link>
+              <br />
+              <a
+                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                href="#"
+                onClick={(e) => handleScroll(e, "reviews", 90)}
+              >
+                Reviews
+              </a>{" "}
               <br />
               {/* <a
             className="block text-[16px] font-[500] text-[#000] mb-4"
