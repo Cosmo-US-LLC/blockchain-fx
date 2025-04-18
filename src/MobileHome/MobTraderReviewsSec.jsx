@@ -107,7 +107,7 @@ function MobTraderReviewsSec() {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <div className="bg-[#181A20] border border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px]  rounded-[4px] max-w-[233.388px] mx-auto space-y-[30px] relative">
+                  <div className="bg-[#181A20] border border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px]  rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px] relative">
                     {/* <img
                       src={fram}
                       className="absolute left-[-20%] top-[-7%] min-w-[325px] min-h-[300px] z-[-1]"
@@ -120,7 +120,7 @@ function MobTraderReviewsSec() {
                       beginners and pros alike.
                     </p>
                     <div className="flex items-center space-x-2">
-                      <img src={usern} className="h-[26px] w-[26px]" alt="" />
+                      <img src={usern} className="w-[30px] h-[30px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
@@ -147,7 +147,7 @@ function MobTraderReviewsSec() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="bg-[#181A20] border border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px]  rounded-[4px] max-w-[233.388px] mx-auto space-y-[30px] relative">
+                  <div className="bg-[#181A20] border border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px]  rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px] relative">
                     {/* <img
                       src={fram}
                       className="absolute left-[-20%] top-[-7%] min-w-[325px] min-h-[300px] z-[-1]"
@@ -160,7 +160,7 @@ function MobTraderReviewsSec() {
                       platforms.
                     </p>
                     <div className="flex items-center space-x-2">
-                      <img src={user1} className="w-[26px] h-[26px]" alt="" />
+                      <img src={user1} className="w-[30px] h-[30px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
@@ -187,7 +187,7 @@ function MobTraderReviewsSec() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="bg-[#181A20] border border-[#525252]  py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px]  rounded-[4px] max-w-[233.388px] mx-auto space-y-[30px] relative">
+                  <div className="bg-[#181A20] border border-[#525252]  py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px]  rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px] relative">
                     {/* <img
                       src={fram}
                       className="absolute left-[-20%] top-[-7%] min-w-[325px] min-h-[300px] z-[-1]"
@@ -200,7 +200,7 @@ function MobTraderReviewsSec() {
                       brokers.
                     </p>
                     <div className="flex items-center space-x-2">
-                      <img src={user2} className="w-[25px] h-[25px]" alt="" />
+                      <img src={user2} className="w-[30px] h-[30px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
@@ -227,7 +227,7 @@ function MobTraderReviewsSec() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="bg-[#181A20] border border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] relative rounded-[4px] max-w-[233.388px] mx-auto space-y-[30px]">
+                  <div className="bg-[#181A20] border border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] relative rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px]">
                     {/* <img
                       src={fram}
                       className="absolute left-[-20%] top-[-7%] min-w-[325px] min-h-[300px] z-[-1]"
@@ -240,7 +240,7 @@ function MobTraderReviewsSec() {
                       platforms.
                     </p>
                     <div className="flex items-center space-x-2">
-                      <img src={user3} className="w-[26px] h-[26px]" alt="" />
+                      <img src={user3} className="w-[30px] h-[30px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
@@ -267,7 +267,7 @@ function MobTraderReviewsSec() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="bg-[#181A20] border border-[#525252]  py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] relative rounded-[4px] max-w-[233.388px] mx-auto space-y-[30px]">
+                  <div className="bg-[#181A20] border border-[#525252]  py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] relative rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px]">
                     {/* <img
                       src={fram}
                       className="absolute left-[-20%] top-[-7%] min-w-[325px] min-h-[300px] z-[-1]"
@@ -281,7 +281,7 @@ function MobTraderReviewsSec() {
                       of markets all in one place.
                     </p>
                     <div className="flex items-center space-x-2">
-                      <img src={user4} className="w-[26px] h-[26px]" alt="" />
+                      <img src={user4} className="w-[30px] h-[30px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
@@ -309,7 +309,7 @@ function MobTraderReviewsSec() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="bg-[#181A20] border border-[#525252]  py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] relative rounded-[4px] max-w-[233.388px] mx-auto space-y-[30px]">
+                  <div className="bg-[#181A20] border border-[#525252]  py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] relative rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px]">
                     {/* <img
                       src={fram}
                       className="absolute left-[-20%] top-[-7%] min-w-[325px] min-h-[300px] z-[-1]"
@@ -321,7 +321,7 @@ function MobTraderReviewsSec() {
                       real access to the markets with deep liquidity.
                     </p>
                     <div className="flex items-center space-x-2">
-                      <img src={user5} className="w-[26px] h-[26px]" alt="" />
+                      <img src={user5} className="w-[30px] h-[30px]" alt="" />
                       <div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
