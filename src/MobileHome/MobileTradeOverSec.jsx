@@ -23,7 +23,7 @@ const cardData = [
     img: takeimg1,
     title: "Crypto",
     subtitle:
-      "Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more.",
+      "Bitcoin, Ethereum, Solana, Pepe, and more.",
   },
   {
     img: takeimg3,

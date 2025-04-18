@@ -127,7 +127,7 @@ function NavbarMobile() {
                   </p>
                 </div>
               </Link>
-            </div>
+           </div>
           </div>
 
           {/* mobile menu */}

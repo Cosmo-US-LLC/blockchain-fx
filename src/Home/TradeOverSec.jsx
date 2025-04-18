@@ -25,7 +25,7 @@ function TradeOverSec() {
                 Crypto
               </h3>
               <p className="text-[16px] font-[400] text-[#fff] leading-[157.143%] tracking-[-0.32px]">
-                Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more.
+                Bitcoin, Ethereum, Solana, Pepe, and more.
               </p>
             </div>
           </div>
