@@ -11,12 +11,13 @@ import { mainnet, bsc, base } from "@reown/appkit/networks";
 import { createAppKit } from "@reown/appkit";
 import { rpcMap } from "./util";
 import { WALLET_CONNECT_PROJECT_ID } from "../constants";
+import logo from "../../assets/TheUltimateSec/logo.jpg";
 
 const metadata = {
   name: "BlockchainFX",
   description: "BlockchainFX",
   url: window.location.origin,
-  icons: [`${window.location.origin}/favicon.ico`],
+  icons: [`${window.location.origin}/${logo}`],
 };
 
 export const metaMaskConnector = metaMask();
@@ -32,7 +33,7 @@ export const walletConnectConnector = walletConnect({
 });
 export const coinbaseConnector = coinbaseWallet({
   appName: "BlockchainFX",
-  appLogoUrl: `${window.location.origin}/favicon.ico`,
+  appLogoUrl: `${window.location.origin}/${logo}`,
 });
 export const phantomConnector = injected({
   target: "phantom",

@@ -1,129 +1,130 @@
 import React from "react";
-import nexticn1 from "../assets/NextGen/nwxticon (9).svg";
-import nexticn2 from "../assets/NextGen/nwxticon (8).svg";
-import nexticn3 from "../assets/NextGen/nwxticon (7).svg";
-import nexticn4 from "../assets/NextGen/nwxticon (6).svg";
-import nexticn5 from "../assets/NextGen/nwxticon (5).svg";
-import nexticn6 from "../assets/NextGen/nwxticon (4).svg";
-import nexticn7 from "../assets/NextGen/nwxticon (3).svg";
-import nexticn8 from "../assets/NextGen/nwxticon (2).svg";
-import nexticn9 from "../assets/NextGen/nwxticon (1).svg";
-import nexticn10 from "../assets/NextGen/nwxticon.svg"
+import icon_1 from "../assets/presale-v3/next_gen/icon_1.svg";
+import icon_2 from "../assets/presale-v3/next_gen/icon_2.svg";
+import icon_3 from "../assets/presale-v3/next_gen/icon_3.svg"; // Add icon_3
+import icon_4 from "../assets/presale-v3/next_gen/icon_4.svg"; // Add icon_4
+import icon_5 from "../assets/presale-v3/next_gen/icon_5.svg"; // Add icon_5
+import icon_6 from "../assets/presale-v3/next_gen/icon_6.svg"; // Add icon_6
+import icon_7 from "../assets/presale-v3/next_gen/icon_7.svg"; // Add icon_7
+import icon_8 from "../assets/presale-v3/next_gen/icon_8.svg"; // Add icon_8
+import icon_9 from "../assets/presale-v3/next_gen/icon_9.svg"; // Add icon_9
+import icon_10 from "../assets/presale-v3/next_gen/icon_10.svg"; // Add icon_10
+import ellipse2 from "../assets/presale-v3/ellipse2.svg";
 
 function MobNextGenerationSec() {
-  const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 80;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth"
-        });
-      }
-    }, 200); 
-  };
-
   return (
-    <div className="pt-[24px] pb-[24px] bg-[#FBFBFB]">
+    <div
+      style={{
+        border: "1.5px solid",
+        borderRadius: "24px",
+        borderImageSource:
+          "linear-gradient(95.63deg, rgba(230, 175, 3, 0.3) 1.76%, rgba(29, 111, 66, 0) 99.42%)",
+        borderImageSlice: 1,
+      }}
+      className="mt-[24px] relative mx-auto max-w-[404px]"
+    >
+      <img src={ellipse2} className="absolute" alt="ellipse2" />
       <div className="w-[90%] mx-auto space-y-[24px]">
-        <h3 className="text-[30px] font-[700] leading-[114%] leading-[-1px] text-center">
+        <h3 className="mt-8 text-[36px] font-[600] leading-[114%] leading-[-1px] text-center text-[white]">
           Next Generation <br /> Trading Experience
         </h3>
-        <div className="gap-y-[30px] grid grid-cols-2">
-            <div className="flex flex-col min-w-[185px] items-center space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn1} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                Team with 25 Years <br /> Of Experience
-              </p>
+        <div className="gap-y-[50px] grid grid-cols-2 pb-8">
+          <div className="flex flex-col min-w-[185px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_1} className="w-[58px] h-[58px]" alt="icon_1" />
             </div>
-            <div className="flex flex-col min-w-[122px] items-center space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn2} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                500+ <br /> Assets
-              </p>
-            </div>
-            <div className="flex flex-col min-w-[137px] items-center space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn10} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                Ultra <br /> Tight Spreads
-              </p>
-            </div>
-            <div className="flex flex-col items-center min-w-[145px] space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn4} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                24/7 Live <br /> Chat Support
-              </p>
-            </div>
-            <div className="flex flex-col items-center min-w-[129px] space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn3} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                Register <br /> in 1 Min
-              </p>
-            </div>
-            <div className="flex min-w-[185px] flex-col items-center space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn5} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                One-Click <br /> Trading
-              </p>
-            </div>
-            <div className="flex flex-col min-w-[122px] items-center space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn6} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                Leverage <br /> Trading
-              </p>
-            </div>
-            <div className="flex flex-col min-w-[137px] items-center space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn7} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                Up to 9 <br /> Charts
-              </p>
-            </div>
-            <div className="flex flex-col min-w-[145px] items-center  space-y-[15px]">
-              <div className="min-h-[40px] flex items-center">
-                <img src={nexticn8}  className="max-w-[40px] h-[40px]"alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                100+ <br /> Indicators
-              </p>
-            </div>
-            <div className="flex flex-col min-w-[129px] items-center space-y-[15px]">
-              <div className="min-h-[40px]">
-                <img src={nexticn9} className="max-w-[40px] h-[40px]" alt="" />
-              </div>
-              <p className="text-[14px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-                Monthly <br /> Tournaments
-              </p>
-            </div>
-          
-        </div>
-        <div className="flex justify-center items-center pt-[10px] space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] m-0 rounded-[8px] max-w-[138px] w-[100%] h-[40px]"
-              onClick={handleScroll}
-            >
-              Buy $BFX
-            </button>
-            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[40px]">
-              Beta Trading
-            </button>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              25 Years <br /> Of Experience
+            </p>
           </div>
+          <div className="flex flex-col min-w-[122px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_2} className="w-[58px] h-[58px]" alt="icon_2" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              One-Click <br /> Trading
+            </p>
+          </div>
+          {/* icon_3 */}
+          <div className="flex flex-col min-w-[185px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_3} className="w-[58px] h-[58px]" alt="icon_3" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              500+ <br /> Assets
+            </p>
+          </div>
+
+          {/* icon_4 */}
+          <div className="flex flex-col min-w-[122px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_4} className="w-[58px] h-[58px]" alt="icon_4" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              Leverage <br /> Trading
+            </p>
+          </div>
+
+          {/* icon_5 */}
+          <div className="flex flex-col min-w-[185px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_5} className="w-[58px] h-[58px]" alt="icon_5" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              Ultra <br /> Tight Spreads
+            </p>
+          </div>
+
+          {/* icon_6 */}
+          <div className="flex flex-col min-w-[122px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_6} className="w-[58px] h-[58px]" alt="icon_6" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              Up to 9 <br /> Charts
+            </p>
+          </div>
+
+          {/* icon_7 */}
+          <div className="flex flex-col min-w-[185px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_7} className="w-[58px] h-[58px]" alt="icon_7" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              24/7 Live <br /> Chat Support
+            </p>
+          </div>
+
+          {/* icon_8 */}
+          <div className="flex flex-col min-w-[122px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_8} className="w-[58px] h-[58px]" alt="icon_8" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              100+ <br /> Indicators
+            </p>
+          </div>
+
+          {/* icon_9 */}
+          <div className="flex flex-col min-w-[185px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_9} className="w-[58px] h-[58px]" alt="icon_9" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+            Register <br /> in Seconds
+            </p>
+          </div>
+
+          {/* icon_10 */}
+          <div className="flex flex-col min-w-[122px] items-center space-y-[15px]">
+            <div className="min-h-[40px]">
+              <img src={icon_10} className="w-[58px] h-[58px]" alt="icon_10" />
+            </div>
+            <p className="text-[14px] text-[white] text-center leading-[140%] font-[400] tracking-[-0.32px]">
+              Monthly <br /> Tournaments
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

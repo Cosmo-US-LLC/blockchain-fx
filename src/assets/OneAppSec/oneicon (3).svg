@@ -1,6 +1,14 @@
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="100" height="100" rx="50" fill="#E6AE00"/>
-<rect x="32.5" y="35.5" width="35" height="10" rx="1.5" stroke="#FAFAFA"/>
-<rect x="32.5" y="48.5" width="16" height="15" rx="1.5" stroke="#FAFAFA"/>
-<rect x="51.5" y="48.5" width="16" height="15" rx="1.5" stroke="#FAFAFA"/>
+<svg width="75" height="76" viewBox="0 0 75 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="0.479492" width="75" height="75" rx="37.5" fill="url(#paint0_linear_3536_47983)"/>
+<rect x="0.334821" y="0.814314" width="74.3304" height="74.3304" rx="37.1652" stroke="white" stroke-opacity="0.15" stroke-width="0.669643"/>
+<path d="M21.6641 55.4795H51.6641" stroke="#E6AF03" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25.9974 32.7793H23.3307C22.4141 32.7793 21.6641 33.5293 21.6641 34.446V48.8126C21.6641 49.7293 22.4141 50.4793 23.3307 50.4793H25.9974C26.914 50.4793 27.664 49.7293 27.664 48.8126V34.446C27.664 33.5293 26.914 32.7793 25.9974 32.7793Z" stroke="#E6AF03" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.0052 27.4629H35.3385C34.4219 27.4629 33.6719 28.2129 33.6719 29.1296V48.8129C33.6719 49.7296 34.4219 50.4796 35.3385 50.4796H38.0052C38.9218 50.4796 39.6718 49.7296 39.6718 48.8129V29.1296C39.6718 28.2129 38.9218 27.4629 38.0052 27.4629Z" stroke="#E6AF03" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49.9974 22.1465H47.3307C46.4141 22.1465 45.6641 22.8965 45.6641 23.8132V48.8132C45.6641 49.7298 46.4141 50.4798 47.3307 50.4798H49.9974C50.914 50.4798 51.664 49.7298 51.664 48.8132V23.8132C51.664 22.8965 50.914 22.1465 49.9974 22.1465Z" stroke="#E6AF03" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_3536_47983" x1="37.5" y1="0.479492" x2="37.5" y2="75.4795" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="#E5AE00" stop-opacity="0.2"/>
+</linearGradient>
+</defs>
 </svg>

@@ -13,6 +13,9 @@ import TermsofService from "./TermsofService";
 import TokenSale from "./TokenSale";
 import PrivacyPolicy from "./PrivacyPolicy";
 import CookieManagement from "./CookieManagement";
+import NavbarMobile from "./compunents/NavbarMobile";
+import LivePresale from "./compunents/LivePresale";
+import RefferalProgram from "./RefferalProgram";
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
@@ -33,10 +36,11 @@ function App() {
     <div className="bg-[#fff]">
       <ToastContainer />
       <Toaster position="bottom-center" />
-      <Navbar />
+      {isMobile ? <NavbarMobile /> : <Navbar />}
       <Routes>
         <Route path="/" element={isMobile ? <MobileHome /> : <Home />} />
         <Route path="/terms-of-service" element={<TermsofService />} />
+        <Route path="/referral" element={<RefferalProgram />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/token-sale" element={<TokenSale />} />
         <Route path="/cookie-management" element={<CookieManagement />} />
