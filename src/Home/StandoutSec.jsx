@@ -116,7 +116,7 @@ function StandoutSec() {
                   <th className="border-b border-[#A6A6A6] px-4 py-4">
                     <div className="flex  flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px]" src={coin1} alt="" />
+                        <img className="w-[58px] h-[58px]" src={coin1} alt="best crypto presales to buy now" />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         BlockchainFX
@@ -126,7 +126,7 @@ function StandoutSec() {
                   <th className="border-b border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px]" src={coin2} alt="" />
+                        <img className="w-[58px] h-[58px]" src={coin2} alt="best crypto presales to buy now" />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Bitget
@@ -136,7 +136,7 @@ function StandoutSec() {
                   <th className="border-b  border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px]" src={coin3} alt="" />
+                        <img className="w-[58px] h-[58px]" src={coin3} alt="best crypto presales to buy now" />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Hyperliquid
@@ -146,7 +146,7 @@ function StandoutSec() {
                   <th className="border-b  border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px] object-cover" src={coin4} alt="" />
+                        <img className="w-[58px] h-[58px] object-cover" src={coin4} alt="best crypto presales to buy no" />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Uniswap

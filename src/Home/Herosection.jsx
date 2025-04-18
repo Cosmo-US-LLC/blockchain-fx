@@ -113,16 +113,16 @@ function Herosection() {
           </div>
 
           <div className="absolute max-h-[130px] max-w-[130px] top-[6%] left-[7%]">
-            <img loading="lazy" src={herove1} className=" " alt="" />
+            <img loading="lazy" src={herove1} className=" " alt="cCrypto Presale" />
           </div>
           <div className="absolute max-h-[110px] max-w-[110px] bottom-[13%] left-[12%]">
-            <img loading="lazy" src={herove3} className="" alt="" />
+            <img loading="lazy" src={herove3} className="" alt="Trading Strategy Tools" />
           </div>
           <div className="absolute max-h-[130px] max-w-[130px] top-[6%] right-[8%]">
-            <img loading="lazy" src={herove2} className="" alt="" />
+            <img loading="lazy" src={herove2} className="" alt="crypto coins before exchange listing" />
           </div>
           <div className="absolute max-h-[110px] max-w-[110px] bottom-[12%] right-[12%]">
-            <img loading="lazy" src={herove4} className="" alt="" />
+            <img loading="lazy" src={herove4} className="" alt="crypto coins before exchange listing" />
           </div>
         </div>
       </div>

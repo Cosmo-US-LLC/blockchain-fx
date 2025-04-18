@@ -13,6 +13,7 @@ const cardItems = [
     title: "Lowest Token Price <br/>Before Launch",
     description:
      "Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price.",
+     alt:"best crypto presales to buy now"
   },
   {
     id: "02",
@@ -20,6 +21,8 @@ const cardItems = [
     title: "Limited Edition <br/>BFX Visa Cards",
     description:
     "Get a metal or 18 karat gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide.",
+    alt:"Best Crypto Trading"
+
   },
   {
     id: "03",
@@ -27,6 +30,8 @@ const cardItems = [
     title: "Exclusive Bonus <br/>Trading Credits ",
     description:
     "Get up to $25,000 in free trading credits to kickstart trading on BlockchainFX with no conditions attached.",
+    alt:"Professional Trading Platform"
+
   },
   {
     id: "04",
@@ -34,6 +39,8 @@ const cardItems = [
     title: " Daily USDT <br/>Staking Rewards",
     description:
       "Start earning USDT and BFX rewards today by joining the BFX presale. The earlier you buy, the more you can earn over time.",
+     alt:"Global Trading Network"
+
   },
 ];
 
@@ -57,7 +64,7 @@ function ExclusiveBenefitsSec() {
                 }}
               >
                 <div className="max-h-[116px] h-[100%] flex justify-center items-center">
-                  <img src={item.img} className="max-h-[116px] h-[100%]" alt="" />
+                  <img src={item.img} className="max-h-[116px] h-[100%]" alt={item.alt} />
                 </div>
                 <h3
                   className="text-[22px] text-center text-[#fff] font-[600] leading-[115%]"
