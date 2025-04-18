@@ -18,7 +18,7 @@ function LivePresale() {
     }, 200);
   };
   return (
-    <div className="w-[100%] fixed 2xl:bottom-unset mb-9 xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
+    <div className="w-[100%] 2xl:mb-9 xl:mb-9 lg:mb-9 md:mb-9 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
     style={{
       background:
         "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
