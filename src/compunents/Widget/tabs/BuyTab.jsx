@@ -272,7 +272,7 @@ const BuyTab = () => {
             if (accountData.isConnected) buy()
             else showConnectWalletModal()
           }}
-          className="px-5 py-1 text-[10px] text-[#fff] rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn2} alt="" />Dashboard</button>
+          className="px-5 py-1 text-[10px] text-[#fff] rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn2} alt="" />Stake</button>
           <button className="px-5 py-1 text-[10px] text-[#fff] cursor-not-allowed rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn3} alt="" />History</button>
         </div>
         <div
