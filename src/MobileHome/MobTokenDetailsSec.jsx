@@ -6,7 +6,7 @@ import copy from "../assets/TokenAllocationSec/fa-solid_copy.png";
 import chart from "../assets/TokenAllocationSec/chart_w.png";
 
 function MobTokenDetailsSec() {
-  const address = "0xCa1e5c23E3eEB1CB5dd1257FbB304FaB1227e094";
+  const address = "0xd0d801eea2c2422df3e626b82ebbb618f4cc445e";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(address);
