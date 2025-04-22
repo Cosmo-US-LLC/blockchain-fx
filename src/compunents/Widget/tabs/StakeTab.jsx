@@ -137,13 +137,13 @@ const StakeTab = () => {
       </div>
       <div className="flex gap-4">
         <button
-          className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
+          className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#E5AE00] w-[100%] h-[32.094px]"
           onClick={stake}
         >
           Stake
         </button>
         <button
-          className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
+          className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#E5AE00] w-[100%] h-[32.094px]"
           onClick={unstake}
         >
           Unstake

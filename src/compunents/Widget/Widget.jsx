@@ -5,7 +5,7 @@ import stakeTab from "./tabs/StakeTab";
 import transactionHistoryTab from "./tabs/TransactionHistoryTab";
 import { useAccount } from "../../presale-gg/web3";
 
-const tabs = [buyTab, stakeTab];
+const tabs = [buyTab];
 const needsWalletConnected = new Set([stakeTab.key, transactionHistoryTab.key])
 
 const Widget = () => {
@@ -53,7 +53,7 @@ backdropFilter: "blur(13.031462669372559px)"
           </button>
         ))}
       </div>
-      <Comp />
+      <Comp onTabChange={setSelectedTab} stakeTab={stakeTab} />
     </div>
   );
 };
