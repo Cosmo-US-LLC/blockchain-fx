@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
-import info from "../../../assets/wallet/i.svg";
+// import info from "../../../assets/wallet/i.svg";
 import bfxicn from "../../../assets/wallet/bfx.webp";
 import bonus from "../../../assets/wallet/bonus.png";
 import Ref from "../../../assets/wallet/ref.png";
