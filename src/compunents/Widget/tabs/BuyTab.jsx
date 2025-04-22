@@ -4,9 +4,9 @@ import bfxicn from "../../../assets/wallet/bfx.webp";
 import bonus from "../../../assets/wallet/bonus.png";
 import Ref from "../../../assets/wallet/ref.png";
 import comcoin from "../../../assets/wallet/comcoin.webp";
-import tabicn1 from "../../../assets/wallet/tabicn (1).png";
-import tabicn2 from "../../../assets/wallet/tabicn (2).png";
-import tabicn3 from "../../../assets/wallet/tabicn (3).png";
+import tabicn1 from "../../../assets/wallet/tabicn (3).svg";
+import tabicn2 from "../../../assets/wallet/tabicn (2).svg";
+import tabicn3 from "../../../assets/wallet/tabicn (1).svg";
 import clsx from "clsx";
 import stakeTab from "./StakeTab";
 import { useApiState } from "../../../presale-gg/stores/api.store";
@@ -267,11 +267,11 @@ const BuyTab = ({ onTabChange}) => {
     <>
       <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full isolate">
         <div className="flex justify-center space-x-2 items-center p-2 rounded-[50px] border">
-          <button className="px-5 py-1 text-[10px] text-[#fff] bg-[#5C5C5C] rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn1} alt="" />Buy</button>
+          <button className="px-5 py-1 text-[10px] text-[#fff] bg-[#5C5C5C] rounded-[30px] flex justify-center items-center "> <img className=" mr-1" src={tabicn1} alt="" />Buy</button>
           <button 
           onClick={() => onTabChange(stakeTab)}
-          className="px-5 py-1 text-[10px] text-[#fff] rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn2} alt="" />Stake</button>
-          <button className="px-5 py-1 text-[10px] text-[#fff] cursor-not-allowed rounded-[30px] flex justify-center items-center "> <img className="mr-1" src={tabicn3} alt="" />History</button>
+          className="px-5 py-1 text-[10px] text-[#fff] rounded-[30px] flex justify-center items-center "> <img className=" mr-1" src={tabicn2} alt="" />Stake</button>
+          <button className="px-5 py-1 text-[10px] text-[#fff] cursor-not-allowed rounded-[30px] flex justify-center items-center "> <img className=" mr-1" src={tabicn3} alt="" />History</button>
         </div>
         <div
           className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
