@@ -43,6 +43,7 @@ import confetti from "canvas-confetti";
 import { showConnectWalletModal } from "../../../presale-gg/stores/modal.store";
 
 const BuyTab = ({ onTabChange}) => {
+  const needsWalletConnected = new Set(['stake', 'history']);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
   const [selectedToken, setSelectedToken] = useState(null);
@@ -270,8 +271,23 @@ const BuyTab = ({ onTabChange}) => {
           <button className="px-5 py-1 text-[10px] text-[#fff] bg-[#5C5C5C] rounded-[30px] flex justify-center items-center "> <img className=" mr-1" src={tabicn1} alt="" />Buy</button>
           <button 
           onClick={() => onTabChange(stakeTab)}
-          className="px-5 py-1 text-[10px] text-[#fff] rounded-[30px] flex justify-center items-center "> <img className=" mr-1" src={tabicn2} alt="" />Stake</button>
-          <button className="px-5 py-1 text-[10px] text-[#fff] cursor-not-allowed rounded-[30px] flex justify-center items-center "> <img className=" mr-1" src={tabicn3} alt="" />History</button>
+          className={clsx(
+            "px-5 py-1 text-[10px] text-[#fff] rounded-[30px] flex justify-center items-center",
+            {
+              "cursor-not-allowed": !accountData?.address && needsWalletConnected.has('stake'),
+              "": !accountData?.address && needsWalletConnected.has('stake'),
+            }
+          )}
+          disabled={!accountData?.address && needsWalletConnected.has('stake')} 
+          > <img className=" mr-1" src={tabicn2} alt="" />Stake</button>
+          <button className={clsx(
+      "px-5 py-1 text-[10px] cursor-not-allowed text-[#fff] rounded-[30px] flex justify-center items-center",
+      {
+        "cursor-not-allowed": !accountData?.address && needsWalletConnected.has('history'),
+        "": !accountData?.address && needsWalletConnected.has('history'),
+      }
+    )}
+    disabled={!accountData?.address && needsWalletConnected.has('history')}> <img className=" mr-1" src={tabicn3} alt="" />History</button>
         </div>
         <div
           className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
