@@ -41,7 +41,7 @@ export const TransactionModal = ({ transaction, ...others }) => {
           <div className="border flex justify-between items-center border-[#DFDFDF] rounded-[4px] p-[8px]">
             <input
               type="text"
-              className="text-[12px] text-[#000] font-bold outline-none"
+              className="text-[12px] text-[#000] font-bold outline-none flex-1"
               value={transaction.pay_amount}
               readOnly
             />
@@ -60,7 +60,7 @@ export const TransactionModal = ({ transaction, ...others }) => {
                 <div className="border flex justify-between items-center border-[#DFDFDF] rounded-[4px] p-[8px]">
                   <input
                     type="text"
-                    className="text-[12px] text-[#000] font-bold outline-none"
+                    className="text-[12px] text-[#000] font-bold outline-none flex-1"
                     value={transaction.payin_extra_id}
                     readOnly
                   />
@@ -85,7 +85,7 @@ export const TransactionModal = ({ transaction, ...others }) => {
           <div className="border flex justify-between items-center border-[#DFDFDF] rounded-[4px] p-[8px]">
             <input
               type="text"
-              className="text-[12px] text-[#000] font-bold outline-none"
+              className="text-[12px] text-[#000] font-bold outline-none flex-1"
               value={transaction.pay_address}
               readOnly
             />
