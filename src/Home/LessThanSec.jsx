@@ -53,8 +53,8 @@ function LessThanSec() {
               spaceBetween={20}
               loop={false}
               navigation={{
-                nextEl: ".swiper-button-next-swp",
-                prevEl: ".swiper-button-prev-swp",
+                nextEl: ".swiper-button-next-slide-swp",
+                prevEl: ".swiper-button-prev-slide-swp",
                 enabled: true,
               }}
               pagination={{
