@@ -7,14 +7,14 @@ import icn3 from "../assets/KYCVerified/kycicn (2).svg";
 const cardItems = [
   {
     img: icn2,
-    title: "External Audit by CertiK",
+    title: "External Audit by Coinsult",
     description:
       " BlockchainFX has been fully audited by Coinsult, a trusted auditing firm from the Netherlands, and confirmed to be 100% secure.",
      
   },
   {
     img: icn1,
-    title: "External Audit by Coinsult",
+    title: "External Audit by CertiK",
     description:
       "CertiK, the world’s leading blockchain security company, audited BlockchainFX and confirmed it meets the highest security standards.",
   },
