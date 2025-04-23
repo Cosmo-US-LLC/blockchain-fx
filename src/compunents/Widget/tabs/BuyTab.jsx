@@ -9,6 +9,7 @@ import tabicn2 from "../../../assets/wallet/tabicn (2).svg";
 import tabicn3 from "../../../assets/wallet/tabicn (1).svg";
 import clsx from "clsx";
 import stakeTab from "./StakeTab";
+import transactionHistoryTab from "./TransactionHistoryTab";
 import { useApiState } from "../../../presale-gg/stores/api.store";
 import {
   buyWithCard,
@@ -267,28 +268,7 @@ const BuyTab = ({ onTabChange}) => {
   return (
     <>
       <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full isolate">
-        <div className="flex justify-center space-x-2 items-center p-2 rounded-[50px] border">
-          <button className="px-5 py-1 text-[10px] text-[#fff] bg-[#5C5C5C] rounded-[30px] flex justify-center items-center "> <img className=" mr-1" src={tabicn1} alt="" />Buy</button>
-          <button 
-          onClick={() => onTabChange(stakeTab)}
-          className={clsx(
-            "px-5 py-1 text-[10px] text-[#fff] rounded-[30px] flex justify-center items-center",
-            {
-              "cursor-not-allowed": !accountData?.address && needsWalletConnected.has('stake'),
-              "": !accountData?.address && needsWalletConnected.has('stake'),
-            }
-          )}
-          disabled={!accountData?.address && needsWalletConnected.has('stake')} 
-          > <img className=" mr-1" src={tabicn2} alt="" />Stake</button>
-          <button className={clsx(
-      "px-5 py-1 text-[10px] cursor-not-allowed text-[#fff] rounded-[30px] flex justify-center items-center",
-      {
-        "cursor-not-allowed": !accountData?.address && needsWalletConnected.has('history'),
-        "": !accountData?.address && needsWalletConnected.has('history'),
-      }
-    )}
-    disabled={!accountData?.address && needsWalletConnected.has('history')}> <img className=" mr-1" src={tabicn3} alt="" />History</button>
-        </div>
+       
         <div
           className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
           style={{

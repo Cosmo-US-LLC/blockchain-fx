@@ -41,11 +41,11 @@ function LessThanSec() {
      
       <div className="relative max-w-[1200px] mx-auto">
           <div className="w-[40%] flex justify-end items-end space-x-2">
-                    <button className="swiper-button-prev-swp bg-[#020B10] rounded-[50px] a absolute z-[99] left-0 top-[50%] transform -translate-y-1/2">
-                      <img className="w-[42.545px] h-[42.545px]" src={arw} alt="" />
+                    <button className="swiper-button-prev-slide-swp w-[42.545px] h-[42.545px] rounded-[50px] a absolute z-[99] left-10 top-[50%]">
+                     {"<"}
                     </button>
-                    <button className="swiper-button-next-swp bg-[#020B10] rounded-[50px] right-0 top-[50%] absolute z-[99] rotate-[182deg]  transform -translate-y-1/2">
-                      <img className="w-[42.545px] h-[42.545px]" src={arw} alt="" />
+                    <button className="swiper-button-next-slide-swp rounded-[50px] right-10 top-[50%] absolute z-[99]  w-[42.545px] h-[42.545px]">
+                    {">"}
                     </button>
                   </div>
             <Swiper
