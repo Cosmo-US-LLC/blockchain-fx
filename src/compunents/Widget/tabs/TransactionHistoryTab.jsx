@@ -55,25 +55,29 @@ const TransactionHistoryTab = () => {
 
   return (
     <div className="gap-[10px] flex-1 h-0 justify-between flex flex-col relative w-full min-h-full">
-      <p className="text-center text-[16px] font-bold">Transaction History</p>
-      <div className="flex items-center justify-center gap-2 text-[12px] font-[600]">
+      <p className="text-center text-[16px] text-[#fff] font-bold">Transaction History</p>
+      <div className="flex items-center text-[#fff] justify-center gap-2 text-[12px] font-[600]">
         <Toggle checked={showBonus} onChange={(newChecked) => setShowBonus(newChecked)} />
         Show bonus transactions?
       </div>
       <div className="flex flex-col gap-2 flex-1 h-0 overflow-y-auto pr-2 -mr-2">
         {((showBonus && bonusTransactions.length === 0) || (!showBonus && transactions.length === 0)) && (
-          <p className="text-[14px] text-center">
+          <p className="text-[14px] text-center text-[#fff]">
             {loading ? "Loading..." : `No ${showBonus ? "bonus " : ""}transactions`}
           </p>
         )}
         {!showBonus && transactions.map((trx) => (
-          <div className="flex items-center text-[10px] <sm:text-[9px] gap-2 min-h-8 px-2 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
+          <div className="flex items-center text-[10px] <sm:text-[9px] gap-2 min-h-8 px-2 border border-[#D3D3D3]" key={trx.id}
+          style={{
+            background: "rgba(176, 176, 176, 0.17)",
+          }}
+          >
             <div className="min-w-[8rem] flex gap-1 flex-[1.5] items-center">
-              <p className="leading-[1.2] w-12 flex-none text-end">{formatLargeNumber(parseNum(trx.payment_token_amount))}</p>
+              <p className="leading-[1.2] w-12 flex-none text-[#fff] text-end">{formatLargeNumber(parseNum(trx.payment_token_amount))}</p>
               <img className="w-4 h-4" src={tokenNameMap[trx.payment_token_name.toLowerCase()]} alt="" />
-              <p className="leading-[1.2]">{trx.payment_token_name}</p>
+              <p className="leading-[1.2] text-[#fff]">{trx.payment_token_name}</p>
             </div>
-            <p className="leading-[1.2] flex-1">{trx.tokens_bought === null ? capitalize(getStatus(trx)) : `+${formatLargeNumber(parseNum(trx.tokens_bought))} BFX`}</p>
+            <p className="leading-[1.2] flex-1 text-[#fff]">{trx.tokens_bought === null ? capitalize(getStatus(trx)) : `+${formatLargeNumber(parseNum(trx.tokens_bought))} BFX`}</p>
             <p
               className="leading-[1.2] bg-[red] flex justify-center w-16 text-[10px] <sm:text-[8px] <sm:w-[3.125rem] rounded-[6px] font-bold py-1 text-[#fff]"
               style={{backgroundColor: statusColMap[getStatus(trx)]?.[1] ?? statusColMap["processing"][0]}}
@@ -81,8 +85,12 @@ const TransactionHistoryTab = () => {
           </div>
         ))}
         {showBonus && bonusTransactions.map((trx) => (
-          <div className="flex items-center text-[10px] <sm:text-[9px] gap-2 min-h-8 px-12 border border-[#D3D3D3] bg-[rgba(237,237,237,0.4)]" key={trx.id}>
-            <p className="leading-[1.2] flex-1">+{formatLargeNumber(parseNum(trx.bonus_token_amount))} BFX</p>
+          <div className="flex items-center text-[10px] <sm:text-[9px] gap-2 min-h-8 px-12 border border-[#D3D3D3]" key={trx.id}
+          style={{
+            background: "rgba(176, 176, 176, 0.17)",
+          }}
+          >
+            <p className="leading-[1.2] flex-1 text-[#fff]">+{formatLargeNumber(parseNum(trx.bonus_token_amount))} BFX</p>
             <p
               className="leading-[1.2] bg-[red] flex justify-center w-16 text-[10px] <sm:text-[8px] <sm:w-[3.125rem] rounded-[6px] font-bold py-1 text-[#fff]"
               style={{backgroundColor: statusColMap[trx.type][1]}}

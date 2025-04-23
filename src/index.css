@@ -33,6 +33,27 @@ p {
 .offscreen-section {
   content-visibility: auto !important;
 }
+.swiper-button-prev-slide-swp,
+.swiper-button-next-slide-swp {
+  background-color: #020B10 !important;
+  color: white !important;
+  transition: all 0.3s ease;
+  font-weight: 500 !important;
+  font-family: monospace !important;
+  font-size: 15px;
+}
+
+.swiper-button-prev-slide-swp:not(.swiper-button-disabled),
+.swiper-button-next-slide-swp:not(.swiper-button-disabled) {
+  background-color: rgb(229 174 0) !important;
+  color: black !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  font-family: monospace !important;
+  font-size: 16px;
+
+}
+
 
 .custom-range {
   -webkit-appearance: none;

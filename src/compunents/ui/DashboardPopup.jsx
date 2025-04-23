@@ -284,7 +284,7 @@ const DashboardPopup = ({ onClose }) => {
                   parseNum(userData.user?.total_tokens) *
                     (LISTING_PRICE - parseNum(apiData.stage?.token_price))
                 )}{" "}
-                <span
+                {/* <span
                   className="p-[2px] rounded-[1px]"
                 >
                   +%
@@ -294,7 +294,7 @@ const DashboardPopup = ({ onClose }) => {
                     0,
                     2
                   )}
-                </span>
+                </span> */}
               </p>
               {/* <p className="text-[14px] text-[#fff] text-center font-[500]">February 5, 2025</p> */}
             </div>
