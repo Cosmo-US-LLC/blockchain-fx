@@ -39,7 +39,7 @@ p {
   color: white !important;
   transition: all 0.3s ease;
   font-weight: 500 !important;
-  border: 1px solid #020B10;
+  border: 1px solid black;
   font-family: monospace !important;
   font-size: 15px;
 }
@@ -49,7 +49,7 @@ p {
   background-color: rgb(229 174 0) !important;
   color: black !important;
   font-weight: 700 !important;
-  border: 1px solid #020B10;
+  border: 1px solid black;
   cursor: pointer;
   font-family: monospace !important;
   font-size: 16px;
