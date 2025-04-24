@@ -1,10 +1,9 @@
 import { useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-// import expimg1 from "../assets/Expert/expert (1).webp";
-// import expimg2 from "../assets/Expert/expert (2).webp";
 import expawr1 from "../assets/Expert/expawr (2).svg";
 import expawr2 from "../assets/Expert/expawr (1).svg";
 import stars from "../assets/Expert/Stars.png";
@@ -12,6 +11,7 @@ import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 
 function ExpertSaysSec() {
+  const { t } = useTranslation();
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
@@ -43,30 +43,18 @@ function ExpertSaysSec() {
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div
-                  className="rounded-[16px] py-2 px-3 max-w-[266px]"
-                  style={{
-                    background: "",
-                    border: "1px solid rgba(255, 255, 255, 0.10)",
-                  }}
-                >
+                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#898989] text-[16px] font-[400]">
-                    What Experts Say About BFX
+                    {t("experts.heading")}
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500]">
-                  “Hold BFX and earn daily USDT rewards from trading fees, even
-                  when you're not trading. It’s not just a token, it’s your key
-                  to passive staking income.”
+                  {t("experts.slide1.text")}
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">
-                    — Crypto Volt
-                  </h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">
-                    Crypto Youtuber, 178K Followers
-                  </p>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide1.name")}</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide1.role")}</p>
                 </div>
               </div>
               <div className="w-[50%]">
@@ -79,7 +67,7 @@ function ExpertSaysSec() {
                   scrolling="no"
                   className="wistia_embed"
                   name="wistia_embed"
-                  style={{ height: "315px", borderRadius:"12px", width: "100%" }}
+                  style={{ height: "315px", borderRadius: "12px", width: "100%" }}
                 ></iframe>
               </div>
             </div>
@@ -89,29 +77,18 @@ function ExpertSaysSec() {
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div
-                  className="rounded-[16px] py-2 px-3 max-w-[266px]"
-                  style={{
-                    background: "",
-                    border: "1px solid rgba(255, 255, 255, 0.10)",
-                  }}
-                >
+                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#898989] text-[16px] font-[400]">
-                    What Experts Say About BFX
+                    {t("experts.heading")}
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500]">
-                  “Forex, indices, stocks, ETFs, even options — you can trade
-                  them all in one place. It’s the first platform of its kind.”
+                  {t("experts.slide2.text")}
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">
-                    — Crypto Dealer
-                  </h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">
-                    Youtuber, 102K Followers
-                  </p>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide2.name")}</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide2.role")}</p>
                 </div>
               </div>
               <div className="w-[50%]">
@@ -129,32 +106,23 @@ function ExpertSaysSec() {
               </div>
             </div>
           </SwiperSlide>
+
+          {/* Slide 3 */}
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div
-                  className="rounded-[16px] py-2 px-3 max-w-[266px]"
-                  style={{
-                    background: "",
-                    border: "1px solid rgba(255, 255, 255, 0.10)",
-                  }}
-                >
+                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#898989] text-[16px] font-[400]">
-                    What Experts Say About BFX
+                    {t("experts.heading")}
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500]">
-                  “Every time someone trades on this platform, you will earn —
-                  the more BFX you hold, the higher your rewards will be"
+                  {t("experts.slide3.text")}
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">
-                    — Crypto Pandas
-                  </h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">
-                    Youtuber, 22.7K Followers
-                  </p>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide3.name")}</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide3.role")}</p>
                 </div>
               </div>
               <div className="w-[50%]">
@@ -173,33 +141,19 @@ function ExpertSaysSec() {
             </div>
           </SwiperSlide>
         </Swiper>
-  
+
         <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
-          {/* Previous Button */}
-          <button ref={prevRef} className="">
-            {activeSlide === 0 ? ( // First item, left button inactive
-              <img
-                className="h-[34px] w-[34px] "
-                src={expawr2}
-                alt="inactive"
-              />
+          <button ref={prevRef}>
+            {activeSlide === 0 ? (
+              <img className="h-[34px] w-[34px]" src={expawr2} alt="inactive" />
             ) : (
-              <img
-                className="h-[34px] w-[34px] rotate-[180deg]"
-                src={expawr1}
-                alt="active"
-              />
+              <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr1} alt="active" />
             )}
           </button>
 
-          {/* Next Button */}
-          <button ref={nextRef} className="">
-            {activeSlide === 2 ? ( // Third item, right button inactive
-              <img
-                className="h-[34px] w-[34px] rotate-[180deg]"
-                src={expawr2}
-                alt="inactive"
-              />
+          <button ref={nextRef}>
+            {activeSlide === 2 ? (
+              <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr2} alt="inactive" />
             ) : (
               <img className="h-[34px] w-[34px]" src={expawr1} alt="active" />
             )}
@@ -207,10 +161,10 @@ function ExpertSaysSec() {
         </div>
 
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={ernvet2} className=" " alt="left" />
+          <img src={ernvet2} alt="left" />
         </div>
         <div className="absolute bottom-[0%] right-[0%]">
-          <img src={ernvet1} className="" alt="right" />
+          <img src={ernvet1} alt="right" />
         </div>
       </div>
     </div>

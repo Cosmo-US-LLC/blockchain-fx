@@ -1,11 +1,10 @@
 import React from "react";
-// import demoimg from "../assets/BlockchainFXDemo/demo.webp"
-// import stars from "../assets/Expert/Stars.png"
+import { useTranslation } from "react-i18next";
 import liveVideo from "../assets/BlockchainFXDemo/live.mp4";
-
-// import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
+
 function BlockchainFXDemo() {
+  const { t } = useTranslation();
 
   const handleScroll = () => {
     setTimeout(() => {
@@ -18,7 +17,7 @@ function BlockchainFXDemo() {
           behavior: "smooth"
         });
       }
-    }, 200); 
+    }, 200);
   };
 
   return (
@@ -35,19 +34,20 @@ function BlockchainFXDemo() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              BlockchainFX Demo
+              {t("blockchainfx_demo.title")}
             </h4>
             <p className="text-[#fff] text-[18px] font-[500]">
-            In just a few seconds, users can trade BTC, Tesla, Gold, Pepe, ETFs, CFDs, and more — all seamlessly on one platform without switching brokers.
+              {t("blockchainfx_demo.description")}
             </p>
             <div className="flex justify-start pt-[20px] pb-[0px] items-center space-x-[17px]">
               <button
-               onClick={handleScroll}
-               style={{
-                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-              }}
-              className="text-[#000]  px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]">
-                Buy $BFX
+                onClick={handleScroll}
+                style={{
+                  background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                }}
+                className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+              >
+                {t("blockchainfx_demo.buy_button")}
               </button>
 
               <button
@@ -56,13 +56,13 @@ function BlockchainFXDemo() {
                 }
                 className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[178px] rounded-[8px] !w-[100%] h-[50px]"
               >
-                Start Trading (Beta)
+                {t("blockchainfx_demo.start_trading_button")}
               </button>
             </div>
           </div>
           <div className="w-[50%]">
             <video
-            className="rounded-[14px] h-[320px]"
+              className="rounded-[14px] h-[320px]"
               width="920"
               height="320"
               controls={false}
@@ -76,7 +76,7 @@ function BlockchainFXDemo() {
           </div>
         </div>
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={ernvet2} className=" " alt="BlockchainFX" />
+          <img src={ernvet2} alt="BlockchainFX" />
         </div>
       </div>
     </div>

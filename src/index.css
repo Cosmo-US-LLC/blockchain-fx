@@ -56,6 +56,10 @@ p {
 
 }
 
+.herohed span {
+  background: linear-gradient(92deg, rgb(229, 174, 1) 24.64%, rgb(255, 225, 130) 97%) text !important;
+  -webkit-text-fill-color: transparent;
+}
 
 .custom-range {
   -webkit-appearance: none;

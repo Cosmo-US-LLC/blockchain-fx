@@ -21,12 +21,14 @@ import cardicon2 from "../assets/Gateway/tblicn (1).svg";
 import graphyp from "../assets/HyperGrowth/Graph.png";
 import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
+import { useTranslation } from "react-i18next";
 
 function LessThanSec() {
   const swiperRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(0);
       const [showTooltip, setShowTooltip] = useState(false);
     
+    const { t } = useTranslation();
   
   
    
@@ -78,10 +80,10 @@ function LessThanSec() {
       >
         <div className="space-y-[18px] relative z-[99]">
           <h3 className="text-[40px] font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
-          Bridging Crypto and Finance
+          {t("less_than_section.title")}
           </h3>
           <p className="text-[18px] font-[400] w-[750px] mx-auto text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
-          Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily. <br /> Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major <br /> opportunity for BFX to connect crypto users with the world’s largest financial markets.
+          {t("less_than_section.description")}
           </p>
         </div>
         <div className="space-y-[60px] relative z-[99]">
@@ -93,16 +95,16 @@ function LessThanSec() {
               <img src={graph} alt="graph"  loading="lazy" className="h-[321px] w-[321px]" />
             </div>
             <p className="text-[#fff] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
-              Bonds: $1.1 Trillion (11.42%)
+              {t("less_than_section.costs.title")}: $1.1 Trillion (11.42%)
             </p>
             <p className="text-[#fff] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
-              U.S. Stocks: $700 Billion (7.27%)
+              {t("less_than_section.time.title")}: $700 Billion (7.27%)
             </p>
             <p className="text-[#fff] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
-              Commodities: $250 Billion (2.59%)
+              {t("less_than_section.team.title")}: $250 Billion (2.59%)
             </p>
             <p className="text-[#fff] absolute top-[35%] left-[19%]  text-[15px] font-[700] tracking-[-0.787px]">
-              Crypto: $89 Billion (0.87%)
+              {t("less_than_section.work_scope.title")}: $89 Billion (0.87%)
             </p>
             <p className="text-[#fff] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
               Forex: $7.5 Trillion (77.85%)
@@ -173,7 +175,7 @@ function LessThanSec() {
                                   <img src={icon1} alt="" className="w-[37px]" />
                                 </div>
                                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                                  Costs
+                                  {t("less_than_section.costs.title")}
                                 </span>
                               </li>
                               <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
@@ -181,7 +183,7 @@ function LessThanSec() {
                                   <img src={icon2} alt="" className="w-[36px]" />
                                 </div>
                                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                                  Time{" "}
+                                  {t("less_than_section.time.title")}
                                 </span>
                               </li>
                               <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
@@ -189,7 +191,7 @@ function LessThanSec() {
                                   <img src={icon3} alt="" className="w-[36px]" />
                                 </div>
                                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                                  Team
+                                  {t("less_than_section.team.title")}
                                 </span>
                               </li>
                               <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
@@ -197,7 +199,7 @@ function LessThanSec() {
                                   <img src={icon4} alt="" className="w-[39px]" />
                                 </div>
                                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                                  Work Scope
+                                  {t("less_than_section.work_scope.title")}
                                 </span>
                               </li>
                             </ul>
@@ -218,7 +220,7 @@ function LessThanSec() {
                             <ul>
                               <li className="py-[20px] flex items-center space-x-2 border-b border-[#C2C2C2]">
                                 <span className="text-[#fff] text-[16px] font-[500] ">
-                                  Up to $2 Million
+                                  {t("less_than_section.costs.description")}
                                 </span>
                                 <div
                                   className="relative"
@@ -228,23 +230,19 @@ function LessThanSec() {
                                   <img className="w-[11.7px]" src={Iicon} alt="Info Icon" />
                                   {showTooltip && (
                                     <div className="absolute left-0 top-6 bg-[#808080] w-[210px] text-center leading-[110%] text-[#ffff] text-[10px] font-[400] rounded-md p-[6px] shadow-lg">
-                                      This is the budget needed only to launch the platform in certain jurisdictions, excluding staff and marketing.
+                                      {t("less_than_section.work_scope.description")}
                                     </div>
                                   )}
                                 </div>
                               </li>
                               <li className="text-[#fff] text-[16px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
-                                Up to 3 years
+                                {t("less_than_section.time.description")}
                               </li>
                               <li className="text-[#fff] text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
-                                Experienced multilingual team working in shifts, 24/7, 365 days
-                                a year.
+                                {t("less_than_section.team.description")}
                               </li>
                               <li className="text-[#fff] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
-                                Capital Requirements, Marketing & Branding, Liquidity Providers,
-                                Risk Management Team, Customer Support, Technology
-                                Infrastructure, Partnerships, Development, Hiring and Managing
-                                Staff, and more.
+                                {t("less_than_section.work_scope.description")}
                               </li>
                             </ul>
                           </div>

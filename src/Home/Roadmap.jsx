@@ -1,54 +1,46 @@
 import React, { useState, useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import line from "../assets/Roadmap/line.png";
 import tick from "../assets/TraderReviewsSec/teenyicons_tick-circle-solid.svg";
 import rightArrow from "../assets/Roadmap/rightarrow.png";
-import leftArrow from "../assets/Roadmap/rightarrow.png"; // Make sure to add this import
+import leftArrow from "../assets/Roadmap/rightarrow.png";
 
 function RoadmapSection() {
+  const { t } = useTranslation();
   const sliderRef = useRef(null);
   const [currentGroup, setCurrentGroup] = useState(0);
 
-  // Define our card groups and their corresponding phase texts
   const cardGroups = [
     {
-      slides: [0, 1, 2], // Preparation, Execution, Launch
-      phases: ["Genesis", "Foundations", "Takeoff"],
+      slides: [0, 1, 2],
+      phases: [t("Roadmap_section.Genesis"), t("Roadmap_section.Foundations"), t("Roadmap_section.Takeoff")],
     },
     {
-      slides: [3, 4, 5], // Performance, Expansion, Global Reach
-      phases: ["Scale", "Expansion", "Global Reach"],
+      slides: [3, 4, 5],
+      phases: [t("Roadmap_section.Scale"), t("Roadmap_section.Expansion"), t("Roadmap_section.Global Reach")],
     },
   ];
 
-  // Custom Arrow Components
-  const NextArrow = ({ onClick }) => {
-    return (
-      <div
-        className="absolute right-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
-        onClick={onClick}
-      >
-        <img src={rightArrow} alt="next" className="h-10 w-10" />
-      </div>
-    );
-  };
+  const NextArrow = ({ onClick }) => (
+    <div
+      className="absolute right-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
+      onClick={onClick}
+    >
+      <img src={rightArrow} alt={t("Roadmap_section.next")} className="h-10 w-10" />
+    </div>
+  );
 
-  const PrevArrow = ({ onClick }) => {
-    return (
-      <div
-        className="absolute left-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
-        onClick={onClick}
-      >
-        <img
-          src={leftArrow}
-          alt="previous"
-          className="h-10 w-10 rotate-[180deg]"
-        />
-      </div>
-    );
-  };
+  const PrevArrow = ({ onClick }) => (
+    <div
+      className="absolute left-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
+      onClick={onClick}
+    >
+      <img src={leftArrow} alt={t("Roadmap_section.previous")} className="h-10 w-10 rotate-[180deg]" />
+    </div>
+  );
 
   const settings = {
     dots: true,
@@ -57,9 +49,8 @@ function RoadmapSection() {
     slidesToShow: 3,
     slidesToScroll: 3,
     nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />, // Now showing previous arrow
+    prevArrow: <PrevArrow />,
     beforeChange: (_, newIndex) => {
-      // Update group immediately when slide starts changing
       const newGroup = cardGroups.findIndex((group) =>
         group.slides.includes(newIndex)
       );
@@ -89,7 +80,6 @@ function RoadmapSection() {
     ],
   };
 
-  // Effect to handle initial group detection
   useEffect(() => {
     if (sliderRef.current) {
       const initialSlide = sliderRef.current.innerSlider.state.currentSlide;
@@ -101,63 +91,61 @@ function RoadmapSection() {
   }, []);
 
   const slideData = [
-    // First group
     {
-      title: "Preparation",
-      status: "Completed",
+      title: t("Roadmap_section.Preparation"),
+      status: t("Roadmap_section.Completed"),
       items: [
-        "Idea + concept",
-        "Raise Seed Funds",
-        "Onboard Team & Advisors",
-        "Trading Platform Beta Preparation",
+        t("Roadmap_section.Idea + concept"),
+        t("Roadmap_section.Raise Seed Funds"),
+        t("Roadmap_section.Onboard Team & Advisors"),
+        t("Roadmap_section.Trading Platform Beta Preparation"),
       ],
     },
     {
-      title: "Execution",
-      status: "Completed",
+      title: t("Roadmap_section.Execution"),
+      status: t("Roadmap_section.Completed"),
       items: [
-        "Website, Tokenomics etc.",
-        "Create $BFX Token",
-        "Launch $BFX Pre-Sale",
-        "Certik Token Audit",
+        t("Roadmap_section.Website, Tokenomics etc."),
+        t("Roadmap_section.Create $BFX Token"),
+        t("Roadmap_section.Launch $BFX Pre-Sale"),
+        t("Roadmap_section.Certik Token Audit"),
       ],
     },
     {
-      title: "Launch",
-      status: "On-going",
+      title: t("Roadmap_section.Launch"),
+      status: t("Roadmap_section.On-going"),
       items: [
-        "Launch an Affiliate Program",
-        "Sell Out the Pre-Sale",
-        "Launch $BFX on Uniswap and CEX",
-        "Achieving 10000 BFX Holders",
-      ],
-    },
-    // Second group
-    {
-      title: "Performance",
-      items: [
-        "Multiple CEX Listing",
-        "Achieving 100000 BFX Holders",
-        "Reach $100M Daily Trading Volume",
-        "Add Leaderboards & VIP accounts",
+        t("Roadmap_section.Launch an Affiliate Program"),
+        t("Roadmap_section.Sell Out the Pre-Sale"),
+        t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
+        t("Roadmap_section.Achieving 10000 BFX Holders"),
       ],
     },
     {
-      title: "Expansion",
+      title: t("Roadmap_section.Performance"),
       items: [
-        "Multiple CEX Listing",
-        "Achieving 100000 BFX Holders",
-        "Reach $100M Daily Trading Volume",
-        "Add Leaderboards & VIP accounts",
+        t("Roadmap_section.Multiple CEX Listing"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Reach $100M Daily Trading Volume"),
+        t("Roadmap_section.Add Leaderboards & VIP accounts"),
       ],
     },
     {
-      title: "Global Reach",
+      title: t("Roadmap_section.Expansion"),
       items: [
-        "US License",
-        "Achieving 100,000 BFX Holders",
-        "Global Marketing Campaigns",
-        "Major Global Partnerships",
+        t("Roadmap_section.Multiple CEX Listing"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Reach $100M Daily Trading Volume"),
+        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Global Reach"),
+      items: [
+        t("Roadmap_section.US License"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Global Marketing Campaigns"),
+        t("Roadmap_section.Major Global Partnerships"),
       ],
     },
   ];
@@ -165,9 +153,9 @@ function RoadmapSection() {
   return (
     <div className="bg-[#020B10] pt-[30px] pb-[60px]" id="roadmap">
       <h3 className="text-center text-[48px] font-[600] leading-[120%] text-white tracking-[-1.5px] mb-28">
-        Roadmap <br />
+        {t("Roadmap_section.Roadmap")} <br />
         <span className="text-[#fff] text-xl font-[400]">
-          From Fintech Startup to Global Market Leader
+          {t("Roadmap_section.From Fintech Startup to Global Market Leader")}
         </span>
       </h3>
 
@@ -219,16 +207,16 @@ function RoadmapSection() {
                     <p
                       style={{
                         background:
-                          slide.status === "Completed"
+                          slide.status === t("Roadmap_section.Completed")
                             ? "rgba(0, 124, 45, 0.16)"
-                            : slide.status === "On-going"
+                            : slide.status === t("Roadmap_section.On-going")
                             ? "rgba(255, 190, 82, 0.13)"
                             : "transparent",
                       }}
                       className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
-                        slide.status === "Completed"
+                        slide.status === t("Roadmap_section.Completed")
                           ? "text-[#01BA48]"
-                          : slide.status === "On-going"
+                          : slide.status === t("Roadmap_section.On-going")
                           ? "text-[#C47E0A]"
                           : ""
                       }`}
@@ -241,7 +229,6 @@ function RoadmapSection() {
                   {slide.items.map((item, itemIndex) => {
                     const isSlideOne = index === 0;
                     const isSlideTwo = index === 1;
-
                     const showTick = isSlideOne || isSlideTwo;
 
                     return (

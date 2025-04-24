@@ -1,6 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+
+import i18n from "../i18n";
+
 import logo from "../assets/navbar/logo.png";
 // import flag from "../assets/navbar/flg.svg";
 import menu from "../assets/navbar/menu.svg";
@@ -46,15 +50,15 @@ const flags = [
 ];
 
 function Navbar() {
+  const { t } = useTranslation();
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const [dashboardOpen, setDashboardOpen] = useState(false);
-  const [selectedLang, setSelectedLang] = useState({
-    flag: flags[0].flag,
-    abbreviation: flags[0].abbreviation,
-    name: flags[0].name,
-  });
+  const [selectedLang, setSelectedLang] = useState(flags[0]);
+
+  
 
   const location = useLocation();
 
@@ -64,14 +68,14 @@ function Navbar() {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
+
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   const handleSelectLanguage = (lang) => {
     setSelectedLang(lang);
+    i18n.changeLanguage(lang.abbreviation.toLowerCase()); // Convert to lowercase
     setIsOpen(false);
-    setIsMobileMenuOpen(false);
   };
-
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -128,56 +132,41 @@ function Navbar() {
             </div>
           </div>
           <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
-            <a
+          <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "what-is-bfx-coin", 40)}
               href=""
             >
-              What is BlockchainFX?
+              {t("navbar.whatIsBlockchainFX")}
             </a>
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "how-to-buy", 40)}
               href=""
             >
-              How to Buy
+              {t("navbar.howToBuy")}
             </a>
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "whitepaper", 60)}
               href=""
             >
-              Whitepaper
+              {t("navbar.whitepaper")}
             </a>
-            <Link 
-            to="/referral"
-             target="_blank"
+            <Link
+              to="/referral"
+              target="_blank"
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             >
-            Referral
+              {t("navbar.referral")}
             </Link>
-            {/* <a
-              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "roadmap", 60)}
-              href=""
-            >
-              Roadmap
-            </a>
-            <a
-              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "referral", 60)}
-              href=""
-            >
-              Referral
-            </a> */}
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "reviews", 90)}
               href=""
             >
-              Reviews
+              {t("navbar.reviews")}
             </a>
-
           </div>
 
           {/* mobile menu */}

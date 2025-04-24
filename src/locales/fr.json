@@ -1,0 +1,533 @@
+ {
+  "navbar": {
+    "whatIsBlockchainFX": "Qu'est-ce que BlockchainFX ?",
+    "howToBuy": "Comment acheter",
+    "whitepaper": "Livre blanc",
+    "referral": "Parrainage",
+    "reviews": "Avis",
+    "languages": "Langues"
+  },
+  "live_presale_section": {
+    "title": "La prévente BFX est en cours",
+    "buy_button": "Acheter BFX"
+  },
+  "hero_section": {
+    "hero_title": "La première <br /> Super App <span>de trading crypto</span>", 
+    "hero_subtitle": "Connecter la blockchain et la finance mondiale",
+    "hero_description": "BlockchainFX est la seule plateforme de trading native de crypto offrant un accès instantané aux plus grands marchés financiers du monde avec le lancement de sa nouvelle pièce BFX.",
+    "join_whitelist": "Acheter $BFX",
+    "whitepaper": "Regarder la démo",
+    "rated_by_users": "Évaluations vérifiées"
+  },
+  "Featured_Sec":{
+    "featured_in": "Présenté dans :"
+  },
+  "KYCVerified": {
+    "security_verified_title": "Sécurité vérifiée par des experts de l'industrie",
+    "completed": "Terminé",
+    "card_items": [
+      {
+        "title": "Audit externe par Coinsult",
+        "description": "BlockchainFX a été entièrement audité par Coinsult, une société d'audit de confiance des Pays-Bas, et confirmé comme étant 100% sécurisé."
+      },
+      {
+        "title": "Audit externe par CertiK",
+        "description": "CertiK, la principale société de sécurité blockchain au monde, a audité BlockchainFX et confirmé qu'il répond aux normes de sécurité les plus élevées."
+      },
+      {
+        "title": "Équipe KYC vérifiée par Solidproof",
+        "description": "L'équipe BlockchainFX a été vérifiée avec succès par Solidproof, une société d'audit réputée d'Allemagne."
+      }
+    ]
+  },
+  "experts": {
+    "heading": "Ce que disent les experts à propos de BFX",
+    "slide1": {
+      "text": "Détenez BFX et gagnez des récompenses quotidiennes en USDT provenant des frais de trading, même lorsque vous ne tradez pas. Ce n'est pas seulement un jeton, c'est votre clé pour un revenu passif de staking.",
+      "name": "Crypto Volt",
+      "role": "Youtubeur crypto, 178K Abonnés"
+    },
+    "slide2": {
+      "text": "Forex, indices, actions, ETF, même options — vous pouvez tous les trader en un seul endroit. C'est la première plateforme de ce genre.",
+      "name": "Crypto Dealer",
+      "role": "Youtubeur, 102K Abonnés"
+    },
+    "slide3": {
+      "text": "Chaque fois que quelqu'un trade sur cette plateforme, vous gagnerez — plus vous détenez de BFX, plus vos récompenses seront élevées",
+      "name": "Crypto Pandas",
+      "role": "Youtubeur, 22.7K Abonnés"
+    }
+  },
+  "blockchainfx_demo": {
+    "title": "Démo BlockchainFX",
+    "description": "En quelques secondes seulement, les utilisateurs peuvent trader BTC, Tesla, Or, Pepe, ETF, CFD et plus encore — le tout de manière transparente sur une seule plateforme sans changer de courtier.",
+    "buy_button": "Acheter $BFX",
+    "start_trading_button": "Commencer à trader (Bêta)"
+  },
+  "creditCard": {
+    "title": "Carte Visa BFX",
+    "item1": "Dépenses illimitées",
+    "item2": "Carte en métal ou en or 18 carats",
+    "item3": "Jusqu'à 100 000 $ par transaction",
+    "item4": "Jusqu'à 10 000 $ de retraits mensuels aux distributeurs",
+    "item5": "Utilisez les récompenses BFX et USDT pour les paiements",
+    "item6": "Acceptée dans le monde entier (en ligne et en magasin)",
+    "item7": "Rechargez avec BFX et plus de 20 cryptos",
+    "item8": "Carte Visa BFX disponible uniquement en prévente",
+    "compatibleWith": "Compatible avec",
+    "shippingNote": "L'expédition commencera une fois la prévente BFX terminée, car toutes les cartes seront envoyées simultanément. Chaque membre du Club des Fondateurs BFX recevra un formulaire sécurisé après la prévente pour soumettre ses coordonnées d'expédition. Les cartes seront livrées dans le monde entier via DHL ou FedEx Express."
+  },
+  "whitepaper": {
+    "heading": "Livre blanc BFX",
+    "description": "Explorez le livre blanc pour découvrir comment BFX alimente un écosystème de trading de nouvelle génération. Découvrez ses principales caractéristiques et avantages, et voyez comment BlockchainFX comble le fossé entre la blockchain et la finance traditionnelle en créant la première super app de trading de l'industrie crypto.",
+    "buyButton": "Acheter $BFX",
+    "accessButton": "Accéder au livre blanc"
+  },
+  "wallet_section": {
+    "title": "Prévente BFX",
+    "description": "BFX est la première cryptomonnaie au monde soutenue par une plateforme de trading multi-actifs mondiale, <br /> où les détenteurs gagnent de véritables récompenses USDT chaque fois que quelqu'un trade — même pendant la prévente.",
+    "how_to_buy": "Comment acheter",
+    "step_1_title": "1. Choisissez une méthode de paiement",
+    "step_1_description": "<li>Connectez votre portefeuille crypto</li><li>Choisissez entre carte et plus de 10 cryptomonnaies</li><li>Entrez le montant de BFX que vous souhaitez acheter</li>",
+    "step_2_title": "2. Confirmez la transaction",
+    "step_2_description": "<li>Cliquez sur 'Acheter maintenant' et envoyez les fonds au portefeuille indiqué</li><li>Important : Assurez-vous d'utiliser un portefeuille décentralisé comme Metamask, Phantom, Coinbase ou Trust Wallet</li><li>Votre BFX sera lié à la même adresse de portefeuille que vous avez utilisée pour le paiement et apparaîtra instantanément sur votre tableau de bord.</li><li>Connectez votre portefeuille en utilisant le bouton 'Connecter le portefeuille' dans le coin supérieur droit pour accéder au tableau de bord et vérifier votre solde BFX.</li>",
+    "step_3_title": "3. Commencez à gagner aujourd'hui",
+    "step_3_description": "<p>Gagnez des récompenses BFX et USDT dès le premier jour !</p><li>Les récompenses de staking sont ajoutées quotidiennement à votre tableau de bord</li><li>Les paiements USDT (ERC-20) sont envoyés à votre portefeuille chaque lundi</li>",
+    "step_4_title": "4. Réclamation",
+    "step_4_description": "<p>Félicitations ! Vos jetons seront transférés automatiquement dans votre portefeuille après la fin de la prévente. Vous n'avez rien à faire. <br/><br/>Merci de faire partie de l'aventure BFX !</p>",
+    "launch_title": "5. Lancement",
+    "launch_description": "$BFX est lancé sur plusieurs bourses de premier plan"
+  },
+  "next_generation_section": {
+    "title": "Expérience de trading de nouvelle génération",
+    "team_experience": "Équipe avec 25 ans <br /> d'expérience",
+    "assets": "Plus de 500 <br /> actifs",
+    "tight_spreads": "Spreads <br /> ultra serrés",
+    "live_chat": "Support chat <br /> 24/7",
+    "register": "Inscription <br /> en secondes",
+    "one_click": "Trading en <br /> un clic",
+    "leverage": "Trading à <br /> effet de levier",
+    "charts": "Jusqu'à 9 <br /> graphiques",
+    "indicators": "Plus de 100 <br /> indicateurs",
+    "tournaments": "Tournois <br /> mensuels"
+  },
+  "trade_over_section": {
+    "title": "Plus de 500 actifs différents",
+    "crypto": {
+      "title": "Crypto",
+      "description": "Bitcoin, Ethereum, Solana, Pepe, et plus encore."
+    },
+    "stocks": {
+      "title": "Actions",
+      "description": "Apple, Tesla, Nvidia, Netflix, Coca Cola et plus encore."
+    },
+    "forex": {
+      "title": "Forex",
+      "description": "USD, EUR, JPY, GBP, AUD, et plus encore."
+    },
+    "commodities": {
+      "title": "Matières premières",
+      "description": "Or, Argent, Pétrole, Sucre, et plus encore."
+    },
+    "indices": {
+      "title": "Indices",
+      "description": "Dow Jones, S&P 500, Nasdaq et plus encore."
+    }
+  },
+  "one_app_section": {
+    "title": "Tout dans une seule application",
+    "description": "Une solution de trading rapide comme l'éclair et innovante",
+    "any_device": {
+      "title": "N'importe quel appareil",
+      "description": "Les utilisateurs peuvent trader depuis n'importe quel appareil, qu'il s'agisse d'un PC, Mac, iOS ou Android."
+    },
+    "technical_tools": {
+      "title": "Outils techniques",
+      "description": "Outils techniques avancés conçus pour améliorer l'analyse du marché et la prise de décision."
+    },
+    "risk_management": {
+      "title": "Gestion des risques",
+      "description": "Fonctionnalités complètes de gestion des risques pour minimiser les risques."
+    },
+    "multiple_charts": {
+      "title": "Graphiques multiples",
+      "description": "Les traders peuvent utiliser plusieurs graphiques en même temps pour de meilleures perspectives de marché."
+    }
+  },
+  "earn_on_section": {
+    "title": "Gagnez quotidiennement avec BFX",
+    "description": "Les détenteurs de BFX gagnent des récompenses quotidiennes de staking en USDT et BFX, alimentées par les frais de trading de BlockchainFX. Chaque fois que quelqu'un trade sur l'application, les détenteurs sont récompensés. Plus une personne détient de BFX, plus elle gagne — jusqu'à un maximum de 25 000 USDT par jour."
+  },
+  "how_does_it_section": {
+    "title": "Comment ça marche ?",
+    "description": "Découvrez les fonctionnalités et les avantages de BlockchainFX.",
+    "trading_platform": {
+      "title": "Plateforme de trading",
+      "description": "BlockchainFX est une plateforme de trading multi-actifs qui offre une large gamme d'options de trading."
+    },
+    "fee_distribution": {
+      "title": "Distribution des frais",
+      "description": "70% des frais de trading sont utilisés pour récompenser la communauté BFX et stimuler la croissance de l'écosystème."
+    },
+    "daily_revenue": {
+      "title": "Revenus quotidiens (50%)",
+      "description": "50% de tous les frais collectés seront distribués aux détenteurs de BFX et automatiquement ajoutés à leurs portefeuilles."
+    },
+    "buybacks": {
+      "title": "Rachats (20%)",
+      "description": "20% des frais sont utilisés pour racheter quotidiennement $BFX, aidant à stimuler la demande et à soutenir le prix."
+    },
+    "burn": {
+      "title": "Brûlage",
+      "description": "La moitié des jetons rachetés sont définitivement brûlés, réduisant progressivement l'offre de $BFX."
+    },
+    "fueling_growth": {
+      "title": "Alimenter le moteur de croissance",
+      "description": "Le modèle déflationniste et les rachats automatiques stimulent le potentiel de croissance exponentielle de $BFX."
+    }
+  },
+  "premium_section": {
+    "title": "Adhésion limitée au Club des Fondateurs",
+    "description": "Achetez BFX pendant la prévente et devenez membre du Club des Fondateurs à partir de seulement 1 000 $. Obtenez votre NFT exclusif, votre carte Visa BFX, des jetons bonus, des récompenses quotidiennes de staking USDT et des crédits de trading gratuits.",
+    "cards": [
+      {
+        "title": "Novice",
+        "price": "1 000 $",
+        "points": ["Accès anticipé", "10% de bonus BFX", "Carte Visa BFX"],
+        "buttonLabel": "Acheter $BFX • 1 000 $"
+      },
+      {
+        "title": "Avancé",
+        "price": "2 500 $",
+        "points": ["Accès anticipé", "20% de bonus BFX", "Carte Visa BFX en métal", "500 $ de crédits de trading"],
+        "buttonLabel": "Acheter $BFX • 2 500 $"
+      },
+      {
+        "title": "Pro",
+        "price": "5 000 $",
+        "points": ["Accès anticipé", "30% de bonus BFX", "Carte Visa BFX en métal", "1 000 $ de crédits de trading"],
+        "buttonLabel": "Acheter $BFX • 5 000 $"
+      },
+      {
+        "title": "Expert",
+        "price": "10 000 $+",
+        "points": ["Accès anticipé", "40% de bonus BFX", "10% de récompenses USDT", "Carte Visa BFX en métal", "2 000 $ de crédits de trading"],
+        "buttonLabel": "Acheter $BFX • 10 000 $"
+      },
+      {
+        "title": "Maître",
+        "price": "25 000 $+",
+        "points": ["Accès anticipé", "50% de bonus BFX", "15% de récompenses USDT", "Carte Visa BFX en métal", "5 000 $ de crédits de trading"],
+        "buttonLabel": "Acheter $BFX • 25 000 $"
+      },
+      {
+        "title": "Élite",
+        "price": "50 000 $+",
+        "points": [
+          "Accès anticipé",
+          "60% de bonus BFX",
+          "20% de récompenses USDT",
+          "Carte Visa BFX en métal",
+          "10 000 $ de crédits de trading"
+        ],
+        "buttonLabel": "Acheter $BFX • 50 000 $"
+      },
+      {
+        "title": "Légende",
+        "price": "100 000 $+",
+        "points": [
+          "Accès anticipé",
+          "80% de bonus BFX",
+          "30% de récompenses USDT",
+          "Carte Visa BFX en or 18 carats",
+          "25 000 $ de crédits de trading"
+        ],
+        "buttonLabel": "Acheter $BFX • 100 000 $"
+      }
+    ],
+    "nft_label": "NFT",
+    "faq": {
+      "title": "Questions sur le Club des Fondateurs",
+      "questions": [
+        {
+          "question": "Quand recevrai-je mon NFT du Club des Fondateurs ?",
+          "answer": "<li>Vous recevrez automatiquement votre NFT du Club des Fondateurs après avoir acheté le montant requis de $BFX.</li> <li>Le NFT apparaîtra dans votre tableau de bord personnel et pourra être réclamé une fois la prévente terminée.</li> <li>Pour accéder au tableau de bord, connectez le même portefeuille en cliquant sur 'Connecter le portefeuille' dans le coin supérieur droit.</li>"
+        },
+        {
+          "question": "Quand recevrai-je mes bonus ?",
+          "answer": "<li>Vos bonus BFX seront instantanément ajoutés à votre tableau de bord</li><li>Pour accéder à votre tableau de bord, cliquez sur le bouton 'Connecter le portefeuille'</li>"
+        },
+        {
+          "question": "Puis-je obtenir un NFT avec plusieurs achats ?",
+          "answer": "<li>Oui, vous pouvez acheter $BFX en petites quantités pour atteindre le total requis. </li><li>Par exemple, acheter $BFX d'une valeur de 200 $ cinq fois vous permettra d'obtenir le NFT Novice (d'une valeur de 1 000 $).</li>"
+        },
+        {
+          "question": "Puis-je améliorer mon NFT ?",
+          "tooltip": true,
+          "answer": "<li>Oui, vous pouvez effectuer plusieurs améliorations pendant la prévente.</li> <li>Vous recevrez des récompenses et le NFT pour le niveau le plus élevé que vous atteignez.</li> <li>Après la fin de la prévente, les améliorations ne seront plus possibles.</li>"
+        }
+      ],
+      "tooltip_text": {
+        "line1": "Par exemple, l'achat de 1 000 $ de $BFX vous donne le NFT Novice.",
+        "line2": "Dépensez 1 500 $ de plus pour passer au niveau Avancé.",
+        "line3": "Vous pouvez continuer à améliorer jusqu'à atteindre le NFT Légende final."
+      }
+    }
+  },
+  "exclusive_benefits_section": {
+    "title": "Avantages d'acheter BFX pendant la prévente",
+    "items": {
+      "benefit_1": {
+        "title": "Prix du jeton le plus bas <br/>avant le lancement",
+        "description": "Acheter pendant la prévente vous permet de sécuriser un prix significativement inférieur par rapport au prix de lancement de BFX."
+      },
+      "benefit_2": {
+        "title": "Cartes Visa BFX <br/>en édition limitée",
+        "description": "Obtenez une carte de crédit Visa BFX en métal ou en or 18 carats avec des dépenses et des recharges illimitées, utilisable dans le monde entier."
+      },
+      "benefit_3": {
+        "title": "Crédits de trading <br/>bonus exclusifs",
+        "description": "Obtenez jusqu'à 25 000 $ de crédits de trading gratuits pour démarrer le trading sur BlockchainFX sans conditions attachées."
+      },
+      "benefit_4": {
+        "title": "Récompenses quotidiennes <br/>de staking USDT",
+        "description": "Commencez à gagner des récompenses USDT et BFX dès aujourd'hui en rejoignant la prévente BFX. Plus tôt vous achetez, plus vous pouvez gagner au fil du temps."
+      }
+    }
+  },
+  "less_than_section": {
+    "title": "Conçu pour une croissance exponentielle",
+    "description": "BlockchainFX est une plateforme de trading alimentée par la communauté qui récompense quotidiennement les détenteurs de BFX. À mesure que la plateforme se développe, le jeton se développe également — créant un puissant cycle de croissance et d'engagement. Des études* montrent que les communautés incitatives peuvent croître significativement plus rapidement que les autres, et BFX est conçu pour maximiser ce potentiel.",
+    "costs": {
+      "title": "Coûts",
+      "description": "Jusqu'à 2 millions $"
+    },
+    "time": {
+      "title": "Temps",
+      "description": "Jusqu'à 3 ans"
+    },
+    "team": {
+      "title": "Équipe",
+      "description": "Équipe multilingue expérimentée travaillant par équipes, 24/7, 365 jours par an."
+    },
+    "work_scope": {
+      "title": "Portée du travail",
+      "description": "Exigences en capital, marketing et image de marque, fournisseurs de liquidité, équipe de gestion des risques, support client, infrastructure technologique, partenariats, développement, embauche et gestion du personnel, et plus encore."
+    }
+  },
+  "standout_section": {
+    "title": "Caractéristiques exceptionnelles",
+    "description": "Les cryptomonnaies des bourses ont historiquement bien performé en raison de leur base d'utilisateurs active, des revenus de la plateforme et du marketing continu. BFX, le premier jeton d'une plateforme de trading multi-actifs, offre des fonctionnalités uniques qui apportent une réelle valeur au marché."
+  },
+  "what_is_section": {
+    "title": "Qu'est-ce qui rend BFX différent ?",
+    "description": "BFX est la pièce native de BlockchainFX, offrant une opportunité unique de faire partie d'une plateforme de trading mondiale à croissance rapide avec l'ambition de devenir l'un des principaux réseaux de trading au monde.",
+    "features": {
+      "early_access": "Accès anticipé",
+      "daily_staking_rewards": "Récompenses quotidiennes de staking",
+      "lower_trading_fees": "70% de frais de trading en moins",
+      "trading_credits": "Crédits de trading"
+    }
+  },
+  "token_allocation_section": {
+    "title": "Détails du jeton",
+    "description": "L'allocation des jetons est structurée pour récompenser le plus les premiers supporters",
+    "token_name": {
+      "label": "Nom du jeton",
+      "value": "BlockchainFX"
+    },
+    "launch_on": {
+      "label": "Lancement sur",
+      "value": "Uniswap et CEX"
+    },
+    "token_type": {
+      "label": "Type de jeton",
+      "value": "Ethereum"
+    },
+    "token_symbol": {
+      "label": "Symbole du jeton",
+      "value": "BFX"
+    },
+    "decimal": {
+      "label": "Décimale",
+      "value": "18"
+    },
+    "total_supply": {
+      "label": "Offre totale",
+      "value": "3,5 milliards"
+    },
+    "contract_address": {
+      "label": "Adresse du contrat de jeton"
+    }
+  },
+  "lineBreak": "<br />",
+  "press_media_section": {
+    "title": "Presse et médias",
+    "articles": [
+      {
+        "description": "BlockchainFX devient rapidement la plateforme de trading incontournable en 2025, offrant un accès à plus de 500 actifs et des avantages gratifiants pour les utilisateurs.",
+        "link": "https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/",
+        "link_text": "Lire l'article"
+      },
+      {
+        "description": "BlockchainFX est sur le point de révolutionner le paysage du trading en tant que première plateforme de trading crypto tout-en-un.",
+        "link": "https://www.binance.com/en/square/post/21135762162242",
+        "link_text": "Lire l'article"
+      },
+      {
+        "description": "BlockchainFX est la première application de trading qui permet aux utilisateurs de gagner un revenu passif quotidien en USDT directement à partir des frais de trading.",
+        "link": "https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/",
+        "link_text": "Lire l'article"
+      }
+    ]
+  },
+  "Roadmap_section": {
+    "Roadmap": "Feuille de route",
+    "From Fintech Startup to Global Market Leader": "De startup Fintech à leader mondial du marché",
+    "Genesis": "Genèse",
+    "Foundations": "Fondations",
+    "Takeoff": "Décollage",
+    "Scale": "Échelle",
+    "Expansion": "Expansion",
+    "Global Reach": "Portée mondiale",
+    "Preparation": "Préparation",
+    "Completed": "Terminé",
+    "Execution": "Exécution",
+    "Launch": "Lancement",
+    "On-going": "En cours",
+    "Performance": "Performance",
+    "Idea + concept": "Idée + concept",
+    "Raise Seed Funds": "Lever des fonds d'amorçage",
+    "Onboard Team & Advisors": "Intégrer l'équipe et les conseillers",
+    "Trading Platform Beta Preparation": "Préparation de la bêta de la plateforme de trading",
+    "Website, Tokenomics etc.": "Site web, tokenomique, etc.",
+    "Create $BFX Token": "Créer le jeton $BFX",
+    "Launch $BFX Pre-Sale": "Lancer la prévente $BFX",
+    "Certik Token Audit": "Audit du jeton par Certik",
+    "Launch an Affiliate Program": "Lancer un programme d'affiliation",
+    "Sell Out the Pre-Sale": "Vendre toute la prévente",
+    "Launch $BFX on Uniswap and CEX": "Lancer $BFX sur Uniswap et CEX",
+    "Achieving 10000 BFX Holders": "Atteindre 10 000 détenteurs de BFX",
+    "Multiple CEX Listing": "Cotation sur plusieurs CEX",
+    "Achieving-100,000-BFX-Holders": "Atteindre 100 000 détenteurs de BFX",
+    "Reach $100M Daily Trading Volume": "Atteindre un volume de trading quotidien de 100 millions $",
+    "Add Leaderboards & VIP accounts": "Ajouter des classements et des comptes VIP",
+    "US License": "Licence américaine",
+    "Global Marketing Campaigns": "Campagnes marketing mondiales",
+    "Major Global Partnerships": "Partenariats mondiaux majeurs",
+    "next": "Suivant",
+    "previous": "Précédent"
+  },
+  "multiAward": {
+    "heading": "Plateforme de trading multi-récompensée",
+    "subheading": "Nos récompenses parlent d'elles-mêmes"
+  },
+  "trader_reviews_section": {
+    "title": "Ce que disent les traders à propos de BlockchainFX",
+    "ratings": {
+      "average": "4,87 sur 5",
+      "verified_ratings": "Plus de 1000 évaluations vérifiées"
+    },
+    "reviews": [
+      {
+        "text": "Enfin, une plateforme qui fait les choses correctement ! J'ai tradé des CFD, acheté des actions Apple, les ai vendues pour des GBP, et pris du $PEPE, le tout en cinq minutes. Hautement recommandé pour les débutants comme pour les pros.",
+        "user": {
+          "name": "LacosteBtc",
+          "followers": "35,2K Abonnés",
+          "link": "https://x.com/LacosteBtc/status/1899365804845548013"
+        }
+      },
+      {
+        "text": "Trader sur 9 fenêtres différentes et avoir accès à des dizaines d'outils d'analyse de trading et de gestion des risques me donne un avantage à long terme sur la concurrence qui trade sur d'autres plateformes.",
+        "user": {
+          "name": "Mr 𝕏",
+          "followers": "472K abonnés",
+          "link": "https://x.com/MrX_Crypto/status/1900845071240515647"
+        }
+      },
+      {
+        "text": "BlockchainFX a complètement élevé mon jeu de trading. C'est super intuitif, permet d'accéder à plusieurs marchés simultanément et offre des transactions ultra-rapides. Une grande victoire pour la crypto !",
+        "user": {
+          "name": "Honey.Eth",
+          "followers": "121,8K abonnés",
+          "link": "https://x.com/HoneyEth_/status/1900870121477820837"
+        }
+      },
+      {
+        "text": "C'est exactement ce dont nous avions besoin. Un courtier de trading conçu pour relier la crypto avec le Forex, les ETF et les actions, vous donnant un accès réel aux marchés avec une liquidité profonde.",
+        "user": {
+          "name": "Crypto Bri",
+          "followers": "79,6K abonnés",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075"
+        }
+      }
+    ]
+  },
+ "faq_section": {
+    "title": "FAQ",
+    "description": "Trouvez des réponses aux questions les plus fréquentes.",
+    "faqs": [
+      {
+        "question": "Qu'est-ce que BlockchainFX ?",
+        "answer": "BlockchainFX est une plateforme de trading multi-actifs internationale offrant un large éventail d'opportunités de trading, incluant le Forex, les Crypto-monnaies, les ETF, et plus encore, avec des outils techniques avancés et des fonctionnalités de gestion des risques."
+      },
+      {
+        "question": "Qu'est-ce que BFX ?",
+        "answer": "BFX est le token natif de la plateforme BlockchainFX, permettant un accès anticipé, des récompenses de staking en BFX et USDT, et donnant accès à des fonctionnalités premium, ainsi qu'à la participation à l'écosystème de la plateforme."
+      },
+      {
+        "question": "Qu'est-ce qu'une prévente de crypto ?",
+        "answer": "Une prévente de crypto est une opportunité d'acheter une nouvelle crypto-monnaie ou token avant sa disponibilité publique, généralement à un prix significativement inférieur à celui du lancement officiel sur les plateformes d'échange."
+      },
+      {
+        "question": "Quel est l'objectif de la prévente ?",
+        "answer": "L'événement communautaire est dédié à la vente de tous les tokens alloués à la prévente pour accélérer la croissance et l'expansion de la plateforme. Ces fonds seront stratégiquement alloués au développement, au marketing et à l'obtention de listages sur des plateformes d'échange de premier plan pour BFX. <br/><br/>Notre objectif est d'atteindre 100 000 traders actifs quotidiens et de générer un volume de trading quotidien de plusieurs millions de dollars avant le lancement officiel. Parallèlement, nous construisons une communauté forte, loyale et engagée, récompensant les premiers supporters avec des tokens à prix réduit, et maximisant la notoriété pour le lancement de BFX."
+      },
+      {
+        "question": "Où puis-je voir mes tokens ?",
+        "answer": "Vous pouvez voir vos tokens dans le portefeuille de votre tableau de bord. Cliquez simplement sur 'Connecter le portefeuille' dans le coin supérieur droit et connectez le portefeuille utilisé pour l'achat pour voir votre solde en BFX."
+      },
+      {
+        "question": "Mes tokens sont-ils en sécurité ?",
+        "answer": "La sécurité de vos tokens pendant la prévente est garantie à 100% grâce à notre smart contract."
+      },
+      {
+        "question": "Comment réclamer vos BFX ?",
+        "answer": "Vos tokens seront transférés automatiquement dans votre portefeuille après la fin de la prévente. Vous n'avez rien à faire."
+      }
+    ]
+  },
+  "the_ultimate_section": {
+    "title": "La plateforme de trading ultime",
+    "description": "Découvrez la meilleure plateforme de trading avec des fonctionnalités avancées et une interface conviviale.",
+    "buy_bfx": "Acheter $BFX",
+    "need_support": "Besoin d'aide ?"
+  },
+  "footer": {
+    "description": "Découvrez le trading tout-en-un avec BlockchainFX : tradez Crypto, Forex, ETF, Actions, Indices, CFD et plus encore avec un accès à plus de 500 actifs.",
+    "quick_links": {
+      "title": "Liens rapides",
+      "how_to_buy": "Comment acheter",
+      "what_is_bfx": "Qu'est-ce que BFX",
+      "roadmap": "Feuille de route",
+      "token_allocation": "Allocation des jetons"
+    },
+    "docs": {
+      "title": "Documents",
+      "terms_of_service": "Conditions d'utilisation",
+      "privacy_policy": "Politique de confidentialité",
+      "token_sale": "Accord de vente de jetons",
+      "support": "Support en direct 24/7"
+    },
+    "socials": {
+      "title": "Rejoignez nos réseaux sociaux"
+    },
+    "contact": {
+      "email_label": "E-mail de contact :",
+      "email": "Support@blockchainfx.com"
+    },
+    "disclaimer": "La cryptomonnaie peut être non réglementée dans votre juridiction, et sa valeur peut fluctuer, entraînant des gains ou des pertes potentiels. Tous les profits peuvent être soumis à l'impôt sur les plus-values ou à d'autres taxes, selon vos lois locales. Le contenu de cette plateforme ne constitue pas une offre, une recommandation ou un conseil financier pour acheter, vendre ou s'engager dans des transactions de cryptomonnaie. Vous êtes seul responsable de l'évaluation de la conformité d'une transaction avec vos objectifs personnels, votre situation financière et votre tolérance au risque. Nous vous recommandons vivement de consulter des professionnels juridiques, fiscaux ou financiers de confiance et agréés avant de prendre toute décision.\n\nLe trading de cryptomonnaies comporte des risques importants, y compris la possibilité de perte partielle ou totale de vos fonds. Une recherche approfondie est cruciale. BlockchainFX ne garantit aucune performance, résultat ou retour sur capital pour toute cryptomonnaie mentionnée sur cette plateforme. En utilisant cette plateforme, vous acceptez nos Conditions d'utilisation, Politique de confidentialité, Politique relative aux cookies et tous les accords de vente de jetons applicables. Le contenu de la plateforme n'est pas destiné à être utilisé dans les juridictions où sa distribution ou son utilisation violerait les lois ou réglementations locales.",
+    "copyright": "Copyright 2025. Tous droits réservés.",
+    "cookie_management": "Gestion des cookies"
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 // import info from "../assets/wallet/i.svg";
 // import bfxicn from "../assets/wallet/bfx.webp";
 import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
@@ -11,6 +11,7 @@ import swpicon from "../assets/wallet/swp.svg";
 // import cer from "../assets/wallet/cer.svg";
 import { useApiState } from "../presale-gg/stores/api.store";
 import Widget from "../compunents/Widget";
+import { useTranslation } from "react-i18next";
 
 /**
  * @typedef {import("../presale-gg/api/api.types").API.PaymentToken} PaymentToken
@@ -19,44 +20,41 @@ import Widget from "../compunents/Widget";
 const items = [
   {
     icon: oneicon1,
-    title: "1. Choose a Payment Method",
-    description:
-      "<li>Connect your crypto wallet  </li><li>Choose between card and 10+ cryptocurrencies  </li><li>Enter the amount of BFX you want to buy</li>",
+    title: "step_1_title",
+    description: "step_1_description",
   },
   {
     icon: oneicon2,
-    title: "2. Confirm Transaction",
-    description:
-      "<li>Click “Buy Now” and send the funds to the wallet listed</li><li>Important: Make sure to use a decentralised wallet like Metamask, Phantom, Coinbase or Trust Wallet </li><li>Your BFX will be linked to the same wallet address you used for payment and will show up on your dashboard instantly. </li><li>Connect your wallet using the “Connect Wallet” button in the top right corner to access the dashboard and check your BFX balance.</li>",
+    title: "step_2_title",
+    description: "step_2_description",
   },
   {
     icon: oneicon3,
-    title: "3. Start Earning Today",
-    description:
-      "<p>Earn BFX and USDT rewards from day one! </p><li>Staking rewards are added to your dashboard daily</li><li>USDT (ERC-20) payouts are sent to your wallet every Monday </li>",
+    title: "step_3_title",
+    description: "step_3_description",
   },
   {
     icon: oneicon4,
-    title: "4. Claim",
-    description:
-      "<p>Congratulations! Your tokens will be transferred to your wallet automatically after the presale ends. You don’t need to do anything. <br/><br/> Thank you for being part of the BFX journey!</p>",
+    title: "step_4_title",
+    description: "step_4_description",
   },
 ];
 
 const WalletSec = () => {
+  const { t } = useTranslation();
   const apiData = useApiState();
   const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
 
   return (
     <div className="pt-[42px] pb-[35px] bg-[#020B10] min-h-[700px]" id="how-to-buy">
       <div
-        className="space-y-[30px] px-[67px]  py-[26px]  max-w-[1200px] w-[100%] mx-auto border border-[#575757] rounded-[8px] <md:px-6 <sm:px-4"
+        className="space-y-[30px] px-[67px] py-[26px] max-w-[1200px] w-[100%] mx-auto border border-[#575757] rounded-[8px] <md:px-6 <sm:px-4"
         id="Wallet"
       >
         <div className="pb-[20px]">
           <div className="flex justify-center space-x-3 items-center">
             <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
-              BFX Presale
+              {t("wallet_section.title")}
             </h3>
             {/* {!apiData.presaleEnded && (
             <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
@@ -85,9 +83,7 @@ const WalletSec = () => {
             </div>
           </div>
           <p className="text-[18px] font-[400] max-w-[750px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
-            BFX is the world’s first cryptocurrency backed by a global
-            multi-asset trading platform, <br /> where holders earn real USDT
-            rewards anytime someone trades — even during the presale.
+            {t("wallet_section.description")}
           </p>
         </div>
 
@@ -118,7 +114,7 @@ const WalletSec = () => {
             <div className="w-[100%] absolute top-0 left-0 -translate-y-1/2">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#000]">
                 <h3 className="text-[9.875px] text-[#fff] text-center w-[100px] font-[700]  ">
-                  How To Buy
+                  {t("wallet_section.how_to_buy")}
                 </h3>
               </div>
             </div>
@@ -157,7 +153,7 @@ const WalletSec = () => {
                                 : {}
                             }
                           >
-                            {item.title}
+                            {t(`wallet_section.step_${index + 1}_title`)}
                           </h3>
                           <div>
                             <img
@@ -185,7 +181,7 @@ const WalletSec = () => {
                             transition:
                               "max-height 0.3s ease, opacity 0.3s ease",
                           }}
-                          dangerouslySetInnerHTML={{ __html: item.description }}
+                          dangerouslySetInnerHTML={{ __html: t(`wallet_section.step_${index + 1}_description`) }}
                         />
                       </div>
                     </div>
@@ -195,7 +191,7 @@ const WalletSec = () => {
             </div>
             <div className="space-y-[14px] border-t border-[#545454] pt-3 !mt-0">
               <h4 className="text-[#fff] text-[14px] font-[600] px-1">
-                5. Launch
+                {t("wallet_section.launch_title")}
               </h4>
               <div className="max-w-[414px] px-[6px] pt-[14px] pb-[16px] border border-[#545454] w-[100%] mx-auto ">
                 <div className="flex flex-col gap-[10px]">

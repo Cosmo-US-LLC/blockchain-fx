@@ -1,0 +1,662 @@
+{
+    "navbar": {
+      "what_is_bfx": "BlockchainFX nedir?",
+      "whitelist": "Beyaz Liste",
+      "whitepaper": "Teknik Doküman",
+      "roadmap": "Yol Haritası",
+      "reviews": "Yorumlar"
+    },
+    "hero_section": {
+    "hero_title": "İlk Kripto <br /> Ticaret Süper Uygulaması",
+    "hero_subtitle": "Blockchain Küresel Finans Piyasalarıyla Buluşuyor",
+    "hero_description": "BlockchainFX, dünyanın en büyük finansal piyasalarına anında erişim sağlayan tek kripto yerel ticaret platformudur. Kullanıcılar kripto, forex, hisse senetleri, ETF’ler, vadeli işlemler, opsiyonlar, tahviller, endeksler, CFD’ler ve daha fazlasını tek bir platformda alıp satabilirler. Topluluk odaklı bir ekosistem olarak, BFX token sahipleri, uygulama üzerinde biri işlem yaptığında USDT ücretleri kazanır.",
+    "join_whitelist": "Beyaz Listeye Şimdi Katıl",
+    "whitepaper": "Beyaz Kitap",
+    "rated_by_users": "Kullanıcılar Tarafından Değerlendirildi"
+  },
+  "timer_banner": {
+    "presale_starts_in": "BFX Ön satışı başlıyor",
+    "days": "Gün",
+    "hours": "Saat",
+    "minutes": "Dakika",
+    "seconds": "Saniye",
+    "join_whitelist": "Beyaz listeye şimdi katılın"
+  },
+  "joinwhitelistsec": {
+    "join_whitelist": "Beyaz Listeye Katıl",
+    "early_access": "BFX Ön Satışına Erken Erişim İçin",
+    "description": "Seed turunda 750.000 $ topladıktan ve Beta Ticaret Uygulamasını başlattıktan sonra, topluluk artık BFX ön satışına katılma şansına sahip.",
+    "how_to_participate": "Nasıl Katılabilirim?",
+    "step1": "Beyaz listeye katılarak ön satış halka açılmadan önce BFX satın almak için 15 dakikalık erken erişim elde edin.",
+    "step2": "Beyaz listeye katılmak için aşağıdaki butona tıklayın.",
+    "step3": "Cüzdan adresinizi ve satın alma miktarınızı girin.",
+    "step4": "Ön satış başladığında aynı cüzdanı kullanın.",
+    "step5": "İlk gelen ilk alır.",
+    "payment_method": "Ödeme Yöntemi: ETH, BNB ve USDT",
+    "claim": "Talep: Ön satış sona erdikten sonra tokenleriniz otomatik olarak cüzdanınıza aktarılacaktır. Hiçbir şey yapmanıza gerek yok.",
+    "date": "Tarih: 30 Mart Pazar, UTC 17:00",
+    "goal": "Hedef: $250.000",
+    "launches_on": "$BFX birden fazla üst düzey borsada listelenecek",
+    "join_now": "Şimdi Beyaz Listeye Katıl"
+  },
+  "BlockchainFXsec": {
+    "live_demo": "Canlı BlockchainFX Demo",
+    "btn": "Beyaz Listeye Şimdi Katılın"
+  },
+  "NextGeneration":{
+    "nextGenTitle": "Yeni Nesil Ticaret Deneyimi",
+    "teamExperience": "25 Yıllık <br /> Deneyime Sahip Ekip",
+    "assets": "500+ <br /> Varlık",
+    "spreads": "Ultra <br /> Dar Spreadler",
+    "chatSupport": "7/24 Canlı <br /> Sohbet Desteği",
+    "register": "1 Dakikada <br /> Kayıt Ol",
+    "oneClickTrading": "Tek Tıkla <br /> Ticaret",
+    "leverageTrading": "Kaldıraçlı <br /> Ticaret",
+    "charts": "9’a Kadar <br /> Grafik",
+    "indicators": "100+ <br /> Göstergeler",
+    "tournaments": "Aylık <br /> Turnuvalar",
+    "joinWhitelist": "Şimdi Beyaz Listeye <br /> Katıl",
+    "betaTrading": "Beta Ticaret"
+  },
+  "TradeOverSec": {
+    "title": "500'den Fazla Farklı Varlık",
+    "categories": [
+      { "title": "Kripto", "subtitle": "BTC, ETH, SOL, PEPE, DOGE, TRUMP ve daha fazlasını kaldıraç ve gelişmiş ticaret araçlarıyla ticaret yapın." },
+      { "title": "Hisse Senetleri", "subtitle": "Apple, Tesla, Nvidia, Netflix, Coca Cola ve daha fazlası. Sevdiğiniz hisse senedini saniyeler içinde satın alın." },
+      { "title": "Döviz", "subtitle": "USD, EUR, JPY, GBP, AUD ve daha fazlası. Dinamik döviz piyasasında 60'tan fazla döviz çiftini ticaret yapın." },
+      { "title": "Emtialar", "subtitle": "Altın, Gümüş, Petrol, Şeker ve daha fazlası. Portföyünüzü değerli hammaddelerle çeşitlendirin." },
+      { "title": "Endeksler", "subtitle": "Dow Jones, S&P 500, Nasdaq, DAX, CAC ve daha fazlası. En popüler endeksleri ticaret yapın." }
+    ]
+  },
+  "OneAppSec": {
+    "title": "Tek Bir Uygulamada Her Şey",
+    "subtitle": "Şimşek hızında ve yenilikçi bir ticaret çözümü",
+    "items": [
+      {
+        "title": "Herhangi bir Cihaz",
+        "description": "Kullanıcılar PC, Mac, iOS veya Android olsun, herhangi bir cihazdan işlem yapabilirler."
+      },
+      {
+        "title": "Teknik Araçlar",
+        "description": "Piyasa analizi ve karar verme süreçlerini geliştirmek için gelişmiş teknik araçlar."
+      },
+      {
+        "title": "Risk Yönetimi",
+        "description": "Riskleri en aza indirmek için kapsamlı risk yönetimi özellikleri."
+      },
+      {
+        "title": "Çoklu Grafikler",
+        "description": "Tüccarlar daha iyi piyasa içgörüleri için aynı anda birden fazla grafiği kullanabilirler."
+      }
+    ]
+  },
+  "EarnOnSec": {
+      "title": "BFX ile Günlük Kazanç",
+      "description": "BFX, işlem ücreti gelirine dayalı olarak günlük USDT ödülleri dağıtan ilk kripto para birimidir. BlockchainFX'te her işlem gerçekleştiğinde kazanç sağlarsınız. Ne kadar çok BFX tutarsanız, ödülleriniz o kadar yüksek olur; günlük maksimum 25.000 USDT'ye kadar.",
+      "button": "Bekleme listesine katıl"
+    },
+    "HowDoesItSec": {
+    "title": "Nasıl çalışır?",
+    "items": [
+      {
+        "title": "Ticaret Platformu",
+        "description": "BlockchainFX, geniş bir ticaret seçenekleri sunan çok varlıklı bir ticaret platformudur."
+      },
+      {
+        "title": "Ücret Dağılımı",
+        "description": "İşlem ücretlerinin %70’i, BFX topluluğunu teşvik etmek ve ekosistemin büyümesini sağlamak için kullanılır."
+      },
+      {
+        "title": "Günlük Gelir (%50)",
+        "description": "Toplanan tüm ücretlerin %50’si BFX sahipleriyle paylaşılacak ve her 24 saatte bir otomatik olarak dağıtılacaktır."
+      },
+      {
+        "title": "Geri Alımlar (%20)",
+        "description": "Ücretlerin %20’si günlük BFX geri alımları için kullanılacak, talebi artıracak ve $BFX fiyatını yükseltecektir."
+      },
+      {
+        "title": "Yakma",
+        "description": "Geri alınan BFX'in yarısı otomatik olarak yakılacak ve $BFX arzı kademeli olarak azaltılacaktır."
+      },
+      {
+        "title": "Hızlı Büyüme",
+        "description": "Deflasyonist model ve otomatik geri alım sistemi, $BFX’in katlanarak büyüme potansiyelini destekler."
+      }
+    ]
+  },
+  "ExclusiveBenefitsSec": {
+    "title": "BFX Ön Satışında Özel Avantajlar",
+    "items": [
+      {
+        "title": "Lansman öncesi <br/> en düşük fiyat",
+        "description": "Ön satış sırasında satın almak, $BFX lansman fiyatına kıyasla önemli ölçüde daha düşük bir fiyat almanızı sağlar."
+      },
+      {
+        "title": "Sınırlı sayıda <br/> BFX Visa Kartı al",
+        "description": "Dünya çapında kullanılabilen, sınırsız harcama ve bakiye yükleme özelliklerine sahip metal veya altın BFX Visa kredi kartı al."
+      },
+      {
+        "title": "Bonus <br/> işlem kredileri kazan",
+        "description": "Şartsız olarak işlem yapmaya başlamak için birden fazla avantaj içeren özel bir üyelik ve 25.000$'a kadar kredi kazan."
+      },
+      {
+        "title": "Günlük USDT <br/> Staking Geliri",
+        "description": "Ön satış süresince bile günlük pasif USDT ve $BFX ödülleri kazan. Ne kadar erken alırsan, o kadar çok kazanırsın."
+      }
+    ]
+  },
+  "CreditCard": {
+    "title": "BFX Visa Kartı",
+    "features": [
+      "Sınırsız Harcama",
+      "Metal veya 18 Ayar Altın Kart",
+      "İşlem Başına 100.000$’a Kadar",
+      "Aylık 10.000$’a Kadar ATM Para Çekme",
+      "Ödemeler İçin BFX ve USDT Ödüllerini Kullan",
+      "Dünya Çapında Kabul Edilir (Online & Mağazalarda)",
+      "BFX ve 20+ Kripto ile Bakiye Yükleme",
+      "BFX Visa Kartı Yalnızca Ön Satışta Mevcut"
+    ],
+    "compatible": "Uyumlu olduğu platformlar",
+    "shipping": "Tüm kartlar aynı anda gönderileceği için, BFX ön satışı sona erdiğinde sevkiyat başlayacaktır. Her BFX Founder's Club üyesi, ön satış sonrasında teslimat bilgilerini göndermek için güvenli bir form alacaktır. Kartlar dünya çapında DHL veya FedEx Express ile teslim edilecektir."
+  },
+    "PremiumSec": {
+      "title": "한정 창립자 클럽 멤버십",
+      "subtitle": "사전 판매 기간 동안 $BFX를 구매하고 단 $1,000부터 시작하는 창립자 클럽 NFT를 받으세요! 조기 접근, 독점 멤버십, $BFX 보너스, BFX 및 USDT로 일일 스테이킹 보상, 그리고 추가 거래 크레딧을 즐기세요.",
+      "cards": [
+        {
+          "title": "초보자",
+          "price": "$1,000",
+          "points": ["조기 접근", "10% BFX 보너스", "BFX 비자 카드"],
+          "buttonLabel": "화이트리스트 참여"
+        },
+        {
+          "title": "고급",
+          "price": "$2,500",
+          "points": ["조기 접근", "20% BFX 보너스", "메탈 BFX 비자 카드", "$500 거래 크레딧"],
+          "buttonLabel": "화이트리스트 참여"
+        },
+        {
+          "title": "프로",
+          "price": "$5,000",
+          "points": ["조기 접근", "30% BFX 보너스", "메탈 BFX 비자 카드", "$1000 거래 크레딧"],
+          "buttonLabel": "화이트리스트 참여"
+        },
+        {
+          "title": "전문가",
+          "price": "$10,000+",
+          "points": ["조기 접근", "40% BFX 보너스", "메탈 BFX 비자 카드", "10% USDT 보상", "$2000 거래 크레딧"],
+          "buttonLabel": "화이트리스트 참여"
+        },
+        {
+          "title": "마스터",
+          "price": "$25,000+",
+          "points": ["조기 접근", "50% BFX 보너스", "메탈 BFX 비자 카드", "15% USDT 보상", "$5000 거래 크레딧"],
+          "buttonLabel": "화이트리스트 참여"
+        },
+        {
+          "title": "엘리트",
+          "price": "$50,000+",
+          "points": ["조기 접근", "60% BFX 보너스", "메탈 BFX 비자 카드", "20% USDT 보상", "$10,000 거래 크레딧"],
+          "buttonLabel": "화이트리스트 참여"
+        },
+        {
+          "title": "레전드",
+          "price": "$100,000+",
+          "points": ["조기 접근", "80% BFX 보너스", "18 캐럿 BFX 비자 카드", "30% USDT 보상", "$25,000 거래 크레딧"],
+          "buttonLabel": "화이트리스트 참여"
+        }
+      ],
+      "faq": [
+        {
+          "question": "창립자 클럽 NFT는 언제 받을 수 있나요?",
+          "answer": "<li>필요한 양의 $BFX를 구매한 후 자동으로 창립자 클럽 NFT를 받게 됩니다.</li> <li>NFT는 개인 대시보드에 표시되며 사전 판매가 종료되면 청구할 수 있습니다.</li> <li>대시보드에 접근하려면 오른쪽 상단의 '지갑 연결'을 클릭하여 동일한 지갑을 연결하세요.</li>"
+        },
+        {
+          "question": "보너스는 언제 받을 수 있나요?",
+          "answer": "<li>BFX 보너스는 즉시 대시보드에 추가됩니다</li><li>대시보드에 접근하려면 '지갑 연결' 버튼을 클릭하세요</li>"
+        },
+        {
+          "question": "여러 번 구매로 NFT를 받을 수 있나요?",
+          "answer": "<li>네, 필요한 총액에 도달하기 위해 $BFX를 더 작은 금액으로 구매할 수 있습니다. </li><li>예를 들어, $200 상당의 $BFX를 다섯 번 구매하면 초보자 NFT(가치 $1,000)를 얻게 됩니다.</li>"
+        },
+        {
+          "question": "NFT를 업그레이드할 수 있나요?",
+          "answer": "<li>네, 사전 판매 기간 동안 여러 번 업그레이드할 수 있습니다.</li> <li>달성한 가장 높은 레벨에 대한 보상과 NFT를 받게 됩니다.</li> <li>사전 판매가 종료된 후에는 업그레이드가 더 이상 가능하지 않습니다.</li>"
+        }
+      ]
+    },
+    "LessThanSec": {
+      "title": "Kripto ve Finans Arasında Köprü Kurmak",
+      "description": "Kripto, 2024 yılında günlük ortalama 84,3 milyar dolar ile küresel ticaret hacminin sadece %0,87'sini oluşturuyor. Öte yandan, sadece Forex piyasası günde 7,5 trilyon dolar işlem yapıyor. Bu fark, $BFX'in kripto kullanıcılarını dünyanın en büyük finansal piyasalarıyla buluşturması için büyük bir fırsat sunuyor.",
+      "graphAlt": "Ticaret hacmi karşılaştırma grafiği",
+      "labels": {
+        "bonds": "Tahviller: 1,1 Trilyon Dolar (%11,42)",
+        "stocks": "ABD Hisseleri: 700 Milyar Dolar (%7,27)",
+        "commodities": "Emtialar: 250 Milyar Dolar (%2,59)",
+        "crypto": "Kripto: 89 Milyar Dolar (%0,87)",
+        "forex": "Forex: 7,5 Trilyon Dolar (%77,85)"
+      },
+      "legend": {
+        "forex": "Forex",
+        "bonds": "Tahviller",
+        "stocks": "ABD Hisseleri",
+        "commodities": "Emtialar",
+        "crypto": "Kripto"
+      }
+    },
+    "GatewaySec": {
+    "title": "Küresel Piyasalara Açılan Kapı",
+    "subtitle": "Küresel bir çok varlıklı ticaret platformu başlatmak yıllar ve önemli sermaye gerektirir, ancak $BFX satın alarak, sadece iki tıklamayla uluslararası finans piyasasının bir parçası olabilirsiniz.",
+    "categories": {
+      "costs": "Maliyetler",
+      "time": "Zaman",
+      "team": "Ekip",
+      "workScope": "İş Kapsamı"
+    },
+    "newPlatform": {
+      "title": "Yeni Ticaret Platformu",
+      "costs": "5 Milyon Dolara kadar",
+      "time": "3 yıla kadar",
+      "team": "Vardiyalı çalışan deneyimli çok dilli ekip, 7/24, yılın 365 günü.",
+      "workScope": "Sermaye Gereksinimleri, Pazarlama ve Markalaşma, Likidite Sağlayıcıları, Risk Yönetimi Ekibi, Müşteri Desteği, Teknoloji Altyapısı, Ortaklıklar, Geliştirme, Personel İşe Alma ve Yönetme ve daha fazlası."
+    },
+    "blockchainFX": {
+      "title": "BlockchainFX",
+      "costs": "Size bağlı",
+      "time": "2 tıklamayla $BFX satın alın",
+      "team": "Ekip gerekmez",
+      "workScope": "İş Gerekmez"
+    },
+    "tooltip": "Bu, personel ve pazarlama hariç, sadece belirli yargı bölgelerinde platformu başlatmak için gereken bütçedir."
+  },
+  "HyperGrowthSec": {
+    "title": "Hiper Büyüme Modeli",
+    "description": "BlockchainFX, kullanıcıları günlük stake etme ödülleriyle ödüllendiren, sadık ve aktif bir topluluk oluşturan topluluk odaklı bir ticaret platformudur. Platform büyüdükçe token de büyür ve ödül ve katılım döngüsü yaratır. Araştırmalar*, teşvik edilen toplulukların diğerlerinden önemli ölçüde daha hızlı büyüyebileceğini gösteriyor ve BFX bu potansiyeli en üst düzeye çıkarmak için tasarlanmıştır.",
+    "graph": {
+      "title": "Büyüme Tahmini",
+      "blockchainFX": "BlockchainFX",
+      "regularPlatform": "Normal Ticaret Platformu",
+      "alt": "BlockchainFX ve normal ticaret platformları arasındaki büyüme karşılaştırma grafiği"
+    },
+    "source": "(*Kaynak: Harvard Business Review, Topluluk Rekabet Avantajınız Olduğunda, 2020)",
+    "button": "Beyaz Listeye Katılın"
+  },
+  "StandoutSec": {
+    "title": "Öne Çıkan Özellikler",
+    "description": "Borsalardan gelen kripto para birimleri, aktif kullanıcı tabanları, platform gelirleri ve sürekli pazarlama sayesinde tarihsel olarak iyi performans göstermiştir. Çok varlıklı bir ticaret platformundan çıkan ilk token olan $BFX, pazara gerçek değer katan benzersiz özellikler sunuyor.",
+    "platforms": {
+      "blockchainFX": "BlockchainFX",
+      "bitget": "Bitget",
+      "hyperliquid": "Hyperliquid",
+      "uniswap": "Uniswap"
+    },
+    "table": {
+      "tokenName": "Token Adı",
+      "ranked": "Sıralama",
+      "marketcap": "Piyasa Değeri",
+      "marketcapValues": {
+        "bgb": "12,26 Milyar $",
+        "hype": "8,77 Milyar $",
+        "uni": "8,08 Milyar $"
+      },
+      "tradeCrypto": "Kripto Ticareti",
+      "leverageTrading": "Kaldıraçlı Ticaret",
+      "riskManagement": "Risk Yönetimi",
+      "forex": "Forex",
+      "commodities": "Emtialar",
+      "indices": "Endeksler",
+      "cfds": "CFD'ler",
+      "etfs": "ETF'ler"
+    }
+  },
+  "WallStreetSec": {
+    "title": "Wall Street parmaklarınızın ucunda",
+    "subtitle": "Saniyeler içinde küresel piyasalara erişmenizi sağlayan <br /> son teknoloji bir platformla ticaret deneyiminizi yükseltin.",
+    "features": {
+      "markets": "6 <br />Piyasa",
+      "instruments": "800 <br />Enstrüman",
+      "globalMarkets": "Tüm Küresel Piyasalar <br />Tek Bir Yerde",
+      "fastExecution": "Ultra Hızlı <br />İşlem Gerçekleştirme",
+      "liquidity": "Derin <br />Likidite",
+      "withdrawals": "Hızlı <br />Para Çekme"
+    }
+  },
+  "tradeLikePro": {
+    "title": "Bir Profesyonel Gibi İşlem Yap",
+    "description": "En son teknoloji ticaret ve risk yönetimi araçlarıyla piyasalarda ustalaşın. Wall Street'in profesyonel bir yatırımcısının hassasiyetiyle işlem yapın.",
+    "joinWhitelist": "Beyaz Listeye Katılın",
+    "indicators": {
+      "momentum": "Momentum",
+      "trend": "Trend",
+      "volatility": "Volatilite",
+      "movingAverages": "Hareketli Ortalamalar",
+      "volume": "Hacim",
+      "others": "Diğerleri"
+    }
+  },
+  "swapSection": {
+    "title": "Varlıklar Arasında Takas Yapın",
+    "description": "Altını BTC'ye veya ETH'yi Nvidia hissesine takas etmek gibi sınırsız ticaret fırsatlarını tek bir yerde deneyimleyin. Geleneksel olarak, kripto paraları diğer varlıklara dönüştürmek ayrı borsalar, ekstra ücretler ve uzun bekleme süreleri gerektiriyordu. BlockchainFX bunu kolaylaştırarak ticareti her zamankinden daha hızlı ve kolay hale getiriyor.",
+    "joinWhitelist": "Beyaz Listeye Katılın",
+    "imageAlt": "Varlık takası illüstrasyonu"
+  },
+  "liveNewsSec": {
+    "title": "Canlı Haber Ticaret Özelliği",
+    "description": "Yıldırım hızında canlı haberlerle piyasaların önünde kalın. Piyasa gelişmeleri hakkında gerçek zamanlı güncellemeler alın ve en son haberlere dayanarak daha akıllı ticaret kararları verin.",
+    "imageAlt": "Canlı haber ticaret arayüzü"
+  },
+  "whitepaper": {
+    "title": "Teknik Doküman",
+    "description": "$BFX tokeninin yeni nesil bir ticaret ekosistemini nasıl güçlendirdiğini ve erken bir sahip olarak nasıl önemli ölçüde fayda sağlayacağınızı öğrenmek için BlockchainFX teknik dokümanını keşfedin. Kripto endüstrisinin ilk ticaret süper uygulamasını oluşturarak BlockchainFX'in temel özelliklerini, avantajlarını ve blok zinciri ile geleneksel finans arasındaki boşluğu nasıl kapattığını keşfedin.",
+    "joinWhitelist": "Beyaz Listeye Katılın",
+    "accessWhitepaper": "Teknik Dokümana Erişin",
+    "imageAlt": "Teknik doküman önizlemesi"
+  },
+  "whatIsSec": {
+    "title": "BFX Nedir?",
+    "description": "$BFX, BlockchainFX'in yerel para birimidir ve dünyanın önde gelen ticaret ağlarından biri olma hedefiyle hızla büyüyen küresel bir ticaret platformunun parçası olma benzersiz fırsatını sunmaktadır.",
+    "benefits": {
+      "earlyAccess": "Erken Erişim",
+      "stakingRewards": "Günlük Staking Ödülleri",
+      "lessFees": "%70 Daha Az İşlem Ücreti",
+      "tradingCredits": "Ticaret Kredileri"
+    },
+    "joinWhitelist": "Beyaz Listeye Katılın",
+    "checkIconAlt": "Onay işareti simgesi",
+    "mainImageAlt": "BFX token illüstrasyonu"
+  },
+  "tokenAllocation": {
+    "title": "Token Tahsisi",
+    "description": "Token tahsisi, erken destekçilere en çok ödül verecek şekilde yapılandırılmıştır.",
+    "chartAlt": "Token tahsis grafiği"
+  },
+  "tokenDetails": {
+    "title": "Token Detayları",
+    "description": "$BFX tokenini cüzdanınıza eklemek için aşağıdaki sözleşme bilgilerini kullanın.",
+    "tokenName": {
+      "label": "Token Adı",
+      "value": "BlockchainFX"
+    },
+    "launchOn": {
+      "label": "Başlatma Platformu",
+      "value": "Uniswap ve CEX"
+    },
+    "tokenType": {
+      "label": "Token Türü",
+      "value": "Ethereum"
+    },
+    "tokenSymbol": {
+      "label": "Token Sembolü",
+      "value": "BFX"
+    },
+    "decimal": {
+      "label": "Ondalık",
+      "value": "18"
+    },
+    "totalSupply": {
+      "label": "Toplam Arz",
+      "value": "3.5 Milyar"
+    },
+    "contractAddress": {
+      "label": "Token Sözleşme Adresi"
+    },
+    "addressCopied": "Adres Kopyalandı!",
+    "copyIconAlt": "Kopyalama Simgesi"
+  },
+  "securityBuilt": {
+    "title": "Çekirdeğe Entegre Edilmiş Güvenlik",
+    "description": "BlockchainFX, tüccarlar için güvenli ve kullanıcı dostu bir deneyim sunarak güvenilir bir altyapı ve sorunsuz bir ekosistem oluşturmak için gelişmiş teknolojiden yararlanır.",
+    "features": {
+      "pciDss": {
+        "title": "PCI DSS",
+        "iconAlt": "PCI DSS simgesi"
+      },
+      "dataPrivacy": {
+        "title": "Geliştirilmiş Veri Gizliliği",
+        "iconAlt": "Veri gizliliği simgesi"
+      },
+      "monitoring": {
+        "title": "Canlı İzleme ve Tehdit Tespiti",
+        "iconAlt": "İzleme simgesi"
+      },
+      "riskManagement": {
+        "title": "Üçüncü Taraf Risk Yönetimi",
+        "iconAlt": "Risk yönetimi simgesi"
+      },
+      "dataBackups": {
+        "title": "Veri yedeklemeleri ve felaket kurtarma",
+        "iconAlt": "Veri yedekleme simgesi"
+      },
+      "gdpr": {
+        "title": "GDPR uyumlu",
+        "iconAlt": "GDPR simgesi"
+      }
+    }
+  },
+  "roadmap": {
+    "title": "Yol Haritası",
+    "vectorAlt": "Dekoratif vektör görüntüsü",
+    "phases": {
+      "preparation": {
+        "title": "Hazırlık",
+        "items": {
+          "idea": "Fikir + Konsept",
+          "raiseFunds": "Tohum Fonu Toplamak",
+          "onboardTeam": "Ekip ve Danışmanları Dahil Etmek",
+          "tradingPlatform": "Ticaret Platformu Beta Hazırlığı"
+        }
+      },
+      "execution": {
+        "title": "Uygulama",
+        "items": {
+          "website": "Web Sitesi, Tokenomics vb.",
+          "createToken": "$BFX Token Oluşturma",
+          "launchPresale": "$BFX Ön Satışını Başlatma",
+          "certikAudit": "CertiK Token Denetimi"
+        }
+      },
+      "launch": {
+        "title": "Lansman",
+        "items": {
+          "affiliateProgram": "Ortaklık Programı Başlatma",
+          "sellOutPresale": "Ön Satışı Tüketmek",
+          "launchOnExchanges": "$BFX'i Uniswap ve CEX'te Başlatma",
+          "tenThousandHolders": "10.000 BFX Sahibine Ulaşmak"
+        }
+      },
+      "performance": {
+        "title": "Performans",
+        "items": {
+          "cashbackSystem": "Tüccarlar için Nakit İade Sistemi",
+          "publicChats": "Ticaret Platformu için Herkese Açık Sohbetler",
+          "copyTrading": "Kopyalama Ticareti Özelliği Ekleme",
+          "mobileApps": "iOS ve Android Uygulaması Başlatma"
+        }
+      },
+      "expansion": {
+        "title": "Genişleme",
+        "items": {
+          "cexListing": "Çoklu CEX Listesi",
+          "tradingVolume": "Günlük 100 Milyon Dolar Ticaret Hacmine Ulaşmak",
+          "hundredThousandHolders": "100.000 BFX Sahibine Ulaşmak",
+          "leaderboards": "Lider Tabloları ve VIP Hesapları Eklemek"
+        }
+      },
+      "globalReach": {
+        "title": "Küresel Erişim",
+        "items": {
+          "usLicense": "ABD Lisansı",
+          "marketingCampaigns": "Küresel Pazarlama Kampanyaları",
+          "millionHolders": "1.000.000 BFX Sahibine Ulaşmak",
+          "partnerships": "Büyük Ortaklıklar"
+        }
+      }
+    }
+  },
+  "ourAwards": {
+    "subtitle": "Çoklu Ödüllü Ticaret Platformu",
+    "title": "Ödüllerimiz Kendileri İçin Konuşuyor",
+    "awards": {
+      "first": {
+        "organization": "TheCoinRisE",
+        "title": "2025'in En İyi Ticaret Platformu",
+        "badgeAlt": "Ödül rozeti",
+        "trophyAlt": "En İyi Ticaret Platformu kupası"
+      },
+      "second": {
+        "organization": "AltcoinDaily",
+        "title": "2025'in En Hızlı Büyüyen Ticaret Aracı Kurumu",
+        "badgeAlt": "Ödül rozeti",
+        "trophyAlt": "En Hızlı Büyüyen Ticaret Aracı Kurumu kupası"
+      }
+    }
+  },
+  "pressMedia": {
+    "title": "Basın & Medya",
+    "quotes": {
+      "first": {
+        "text": "BlockchainFX, 2025 yılında 500'den fazla varlığa erişim ve kullanıcılar için ödüllendirici faydalar sunarak hızla tercih edilen ticaret platformu haline geliyor.",
+        "logoAlt": "Medya kuruluşu logosu 1"
+      },
+      "second": {
+        "text": "BlockchainFX, ilk hepsi bir arada kripto ticaret platformu olarak ticaret ortamını devrimleştirmeye hazırlanıyor.",
+        "logoAlt": "Medya kuruluşu logosu 2"
+      },
+      "third": {
+        "text": "BlockchainFX, kullanıcıların doğrudan ticaret ücretlerinden günlük USDT pasif gelir kazanmalarını sağlayan ilk ticaret uygulamasıdır.",
+        "logoAlt": "Medya kuruluşu logosu 3"
+      }
+    }
+  },
+  "traderReviews": {
+    "title": "Trader Yorumları",
+    "rating": {
+      "score": "5 üzerinden 4,79",
+      "verifiedRatings": "1000+ Doğrulanmış Değerlendirme"
+    },
+    "phoneFrameAlt": "Yorumları gösteren telefon çerçevesi",
+    "prevButtonAlt": "Önceki yorum düğmesi",
+    "nextButtonAlt": "Sonraki yorum düğmesi",
+    "verifiedIconAlt": "Doğrulanmış onay işareti",
+    "viewOnX": "X'te Yorumu Görüntüle",
+    "reviews": {
+      "first": {
+        "text": "Sonunda, doğru yapan bir platform! CFD'ler işledim, Apple hisseleri satın aldım, onları GBP için sattım ve beş dakika içinde biraz $PEPE aldım. Hem yeni başlayanlar hem de profesyoneller için şiddetle tavsiye edilir.",
+        "name": "LacosteBtc",
+        "handle": "@LacosteBtc",
+        "followers": "35,2B Takipçi",
+        "userAlt": "LacosteBtc profil resmi"
+      },
+      "second": {
+        "text": "9 farklı pencerede işlem yapmak ve düzinelerce işlem analiz aracına ve risk yönetimine erişim, diğer platformlarda işlem yapan rakiplere karşı uzun vadeli bir avantaj sağlıyor.",
+        "name": "Mr 𝕏",
+        "handle": "@MrX_Crypto",
+        "followers": "472B takipçi",
+        "userAlt": "Mr X profil resmi"
+      },
+      "third": {
+        "text": "BlockchainFX size sonsuz işlem fırsatları sunar. Piyasalar birbirine bağlı olduğu için bu mantıklı. Sonunda, aracılar arasında geçiş yapmak için zaman kaybetmeye gerek yok.",
+        "name": "Silvina Escudero",
+        "handle": "@silvinaescudero",
+        "followers": "863B takipçi",
+        "userAlt": "Silvina Escudero profil resmi"
+      },
+      "fourth": {
+        "text": "BlockchainFX hakkında en iyi kısım? Tüm varlıklarda derin likidite. Niş kripto çiftleri bile olsa, büyük emirleri doldurmakta hiç sorun yaşamadım. Bu tam olarak ciddi tüccarların ihtiyaç duyduğu şey—hız, güvenilirlik ve tek bir yerde geniş bir piyasa yelpazesi.",
+        "name": "DefiAva🦋",
+        "handle": "@defi_avaxx",
+        "followers": "30,3B takipçi",
+        "userAlt": "DefiAva profil resmi"
+      },
+      "fifth": {
+        "text": "BlockchainFX ticaret oyunumu tamamen üst seviyeye çıkardı. Süper sezgisel, birden fazla pazara aynı anda erişmenizi sağlıyor ve yıldırım hızında işlemler sunuyor. Kripto için büyük bir kazanç!",
+        "name": "Honey.Eth",
+        "handle": "@HoneyEth_",
+        "followers": "121,8B takipçi",
+        "userAlt": "Honey.Eth profil resmi"
+      },
+      "sixth": {
+        "text": "Tam da ihtiyacımız olan şey buydu. Kripto'yu Forex, ETF'ler ve hisse senetleriyle birleştirmek için tasarlanmış, derin likidite ile piyasalara gerçek erişim sağlayan bir ticaret aracı kurumu.",
+        "name": "Crypto Bri",
+        "handle": "@cryptobri_",
+        "followers": "79,6B takipçi",
+        "userAlt": "Crypto Bri profil resmi"
+      }
+    }
+  },
+  "faq": {
+    "title": "Sık Sorulan Sorular",
+    "subtitle": "En yaygın soruların bazılarına yanıtlar bulun.",
+    "questions": {
+      "what_is_blockchainfx": {
+        "question": "BlockchainFX nedir?",
+        "answer": "BlockchainFX, gelişmiş teknik araçlar ve risk yönetimi özellikleriyle Forex, Kripto, ETF'ler ve daha fazlasını içeren geniş bir ticaret fırsatları yelpazesi sunan uluslararası bir çok varlıklı ticaret platformudur."
+      },
+      "what_is_bfx": {
+        "question": "BFX nedir?",
+        "answer": "BFX, BlockchainFX platformunun yerel tokenıdır, erken erişim, BFX ve USDT cinsinden staking ödülleri sağlar ve premium özelliklere erişim ile platformun ekosistemine katılım imkanı sunar."
+      },
+      "what_is_crypto_presale": {
+        "question": "Kripto ön satışı nedir?",
+        "answer": "Kripto ön satışı, yeni bir kripto para birimi veya tokenı halka açık hale gelmeden önce satın alma fırsatıdır, genellikle borsalardaki resmi lansman fiyatından önemli ölçüde daha düşük bir fiyatla sunulur."
+      },
+      "what_is_presale_goal": {
+        "question": "Ön satışın amacı nedir?",
+        "answer": "Topluluk etkinliği, platform büyümesini ve genişlemesini hızlandırmak için ön satışa tahsis edilen tüm tokenleri satmaya adanmıştır. Bu fonlar stratejik olarak geliştirme, pazarlama ve BFX için üst düzey borsa listelemeleri güvence altına almak için tahsis edilecektir. <br/><br/>Hedefimiz, resmi lansmandan önce 100.000 aktif günlük trader'a ulaşmak ve günlük çok milyon dolarlık ticaret hacmi oluşturmaktır. Aynı zamanda, güçlü, sadık ve katılımcı bir topluluk inşa ediyor, erken destekçileri indirimli tokenlerle ödüllendiriyor ve BFX lansmanı için farkındalığı maksimize ediyoruz."
+      },
+      "where_see_tokens": {
+        "question": "Tokenlerimi nerede görebilirim?",
+        "answer": "Tokenlerinizi kontrol paneli cüzdanınızda görüntüleyebilirsiniz. Sağ üst köşedeki 'Cüzdan Bağla' düğmesine tıklayın ve BFX bakiyenizi görmek için satın alma işlemi için kullandığınız cüzdanı bağlayın."
+      },
+      "are_tokens_safe": {
+        "question": "Tokenlerim güvende mi?",
+        "answer": "Ön satış sırasında tokenlerinizin güvenliği akıllı sözleşmemiz aracılığıyla %100 garanti altındadır."
+      },
+      "how_claim_bfx": {
+        "question": "BFX'inizi nasıl talep edersiniz?",
+        "answer": "Tokenleriniz, ön satış sona erdikten sonra otomatik olarak cüzdanınıza aktarılacaktır. Hiçbir şey yapmanıza gerek yok."
+      }
+    }
+  },
+  "ultimateSec": {
+    "title": "Nihai <br/> Ticaret Platformu",
+    "joinWhitelist": "Beyaz Listeye Katılın",
+    "startTrading": "Ticarete Başlayın (Beta)",
+    "logoAlt": "BlockchainFX Logo"
+  },
+  "footer": {
+    "logoAlt": "BlockchainFX Logo",
+    "description": "BlockchainFX ile hepsi bir arada ticaret deneyimi yaşayın: 500'den fazla varlığa erişimle Kripto, Forex, ETF'ler, Hisse Senetleri, Endeksler, CFD'ler ve daha fazlasını işleyin.",
+    "quickLinks": {
+      "title": "Hızlı Bağlantılar",
+      "whitelist": "Beyaz Liste",
+      "roadmap": "Yol Haritası",
+      "whatIsBfx": "BFX Nedir?",
+      "tokenAllocation": "Token Tahsisi"
+    },
+    "docs": {
+      "title": "Belgeler",
+      "privacyPolicy": "Gizlilik Politikası",
+      "termsOfService": "Hizmet Şartları",
+      "tokenSaleAgreement": "Token Satış Anlaşması",
+      "liveSupport": "7/24 Canlı Destek"
+    },
+    "socials": {
+      "title": "Sosyal Medyada Bizi Takip Edin",
+      "instagramAlt": "Instagram simgesi",
+      "telegramAlt": "Telegram simgesi",
+      "twitterAlt": "Twitter/X simgesi"
+    },
+    "contact": {
+      "label": "İletişim E-Postası:",
+      "email": "Support@blockchainfx.com"
+    },
+    "disclaimer": {
+      "part1": "Kripto para, yargı yetkinizde düzenlenmemiş olabilir ve değeri dalgalanabilir, bu da potansiyel kazanç veya kayıplara yol açabilir. Herhangi bir kâr, yerel yasalarınıza bağlı olarak sermaye kazancı veya diğer vergilere tabi olabilir. Bu platformdaki içerik, kripto para işlemlerini satın almak, satmak veya bunlara katılmak için bir teklif, tavsiye veya finansal tavsiye teşkil etmez. Bir işlemin kişisel hedeflerinize, finansal durumunuza ve risk toleransınıza uygun olup olmadığını değerlendirmekten yalnızca siz sorumlusunuz. Herhangi bir karar vermeden önce güvenilir ve lisanslı hukuk, vergi veya finans uzmanlarına danışmanızı şiddetle tavsiye ederiz.",
+      "part2": "Kripto para ticareti, fonlarınızın kısmen veya tamamen kaybı potansiyeli de dahil olmak üzere önemli riskler taşır. Kapsamlı araştırma çok önemlidir. BlockchainFX, bu platformda bahsedilen herhangi bir kripto para için herhangi bir performans, sonuç veya sermaye getirisi garanti etmez. Bu platformu kullanarak, Hizmet Şartlarımızı, Gizlilik Politikamızı, Çerez Politikamızı ve geçerli token satış anlaşmalarını kabul etmiş olursunuz. Platformun içeriği, dağıtımının veya kullanımının yerel yasaları veya düzenlemeleri ihlal edeceği yargı bölgelerinde kullanılmak üzere tasarlanmamıştır."
+    },
+    "copyright": "Telif Hakkı 2025. Tüm Hakları Saklıdır.",
+    "cookieManagement": "Çerez Yönetimi"
+  }
+  }
