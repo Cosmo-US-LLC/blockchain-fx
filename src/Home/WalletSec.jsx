@@ -82,8 +82,7 @@ const WalletSec = () => {
               ) : null}
             </div>
           </div>
-          <p className="text-[18px] font-[400] max-w-[750px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
-            {t("wallet_section.description")}
+          <p className="text-[18px] font-[400] max-w-[750px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]"  dangerouslySetInnerHTML={{ __html: t(`wallet_section.description`) }}>
           </p>
         </div>
 

@@ -26,9 +26,9 @@ function EarnOnSec() {
 
   return (
     <div className="pt-[20px] pb-[50px] bg-[#020B10]">
-      <div className="max-w-[1200px] relative overflow-hidden min-h-[454px] px-[46px] border border-[#B0B0B0] rounded-[24px] space-x-[3rem] flex justify-between  items-center w-[100%] mx-auto bg-[#030F16]">
+      <div className="max-w-[1200px] relative overflow-hidden min-h-[544px] px-[46px] border border-[#B0B0B0] rounded-[24px] space-x-[3rem] flex justify-between  items-center w-[100%] mx-auto bg-[#030F16]">
           <div className="w-[50%] h-[410px] relative">
-            <img src={eranimg}  loading="lazy" className="absolute top-[0%] z-[99] left-[0%]" alt="" />
+            <img src={eranimg}  loading="lazy" className="absolute top-[8.5%] z-[99] left-[0%]" alt="" />
             {/* <video
               width={500}
               height={410}

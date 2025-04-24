@@ -28,8 +28,9 @@ function TheUltimateSec() {
             <div className="flex justify-center pb-[20px]">
               <img src={logo} className="h-[44.54px]" alt="" />
             </div>
-            <h3 className="text-[50px] text-[#fff] font-[600] text-center leading-[130%] text-[#181A20] tracking-[-3px]">
-              {t("the_ultimate_section.title")}
+            <h3 className="text-[50px] text-[#fff] font-[600] text-center leading-[130%] text-[#181A20] tracking-[-3px]"
+            dangerouslySetInnerHTML={{ __html: t(`the_ultimate_section.title`) }}
+            >
             </h3>
             <div className="flex justify-center items-center pt-[35px] space-x-[17px]">
               <button
@@ -43,6 +44,7 @@ function TheUltimateSec() {
                   window.open("https://t.me/blockchainfx_chat", "_blank")
                 }
                 className="hover:text-white hover:bg-[#E5AE00] text-[#E5AE00] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] !max-w-[159px] w-[100%] h-[50px]"
+              
               >
                 {t("the_ultimate_section.need_support")}
               </button>

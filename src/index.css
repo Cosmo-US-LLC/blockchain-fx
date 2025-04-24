@@ -43,6 +43,9 @@ p {
   font-family: monospace !important;
   font-size: 15px;
 }
+.review span{
+  color: #E5AE00;
+}
 
 .swiper-button-prev-slide-swp:not(.swiper-button-disabled),
 .swiper-button-next-slide-swp:not(.swiper-button-disabled) {
