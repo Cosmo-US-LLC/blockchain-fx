@@ -1,10 +1,24 @@
 import React from "react";
 import { useAccount } from "../presale-gg/web3";
 import { showConnectWalletModal } from "../presale-gg/stores/modal.store";
+import {
+  copyText,
+} from "../presale-gg/util";
+import { useUserState } from "../presale-gg/stores/user.store";
+
+
+import copy from "../assets/navbar/wallet/copy-03.png";
+
 
 function HerosectionReferral() {
   const accountData = useAccount()
-
+    const userData = useUserState();
+  
+ const copyReferralLink = () => {
+    copyText(
+      window.location.origin + "?referral_code=" + userData.user?.referral_code
+    );
+  };
   return (
     <div className="pt-[55px] pb-[20px] bg-[#020B10]">
       <div className="max-w-[1200px] relative w-[100%] mx-auto ">
@@ -28,6 +42,15 @@ function HerosectionReferral() {
                   Connect Wallet
                 </button>
               </div>
+            )}
+            {accountData.isConnected && (
+              <button
+              className="text-[#000] bg-[#E5AE00] rounded-[10px] flex items-center justify-center px-[10px] hover:opacity-[0.7] max-w-[200px] mx-auto  text-[10.886px] font-[800] border border-[#E5AE00]  w-[100%] h-[39px]"
+              onClick={copyReferralLink}
+            >
+              Copy 10% Referral Link{" "}
+              <img src={copy} className="ml-2" alt="" />
+            </button>
             )}
           </div>
         </div>
