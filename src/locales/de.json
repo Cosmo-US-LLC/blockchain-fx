@@ -424,7 +424,7 @@
     "subheading": "Unsere Auszeichnungen sprechen für sich"
   },
   "trader_reviews_section": {
-    "title": "Was Händler über BlockchainFX sagen",
+    "title": "Was Händler über <span>BlockchainFX</span> sagen",
     "ratings": {
       "average": "4,87 von 5",
       "verified_ratings": "1000+ verifizierte Bewertungen"
@@ -499,7 +499,7 @@
     ]
   },
   "the_ultimate_section": {
-    "title": "Die ultimative Handelsplattform",
+    "title": "Die ultimative <br/> Handelsplattform",
     "description": "Erlebe die beste Handelsplattform mit fortschrittlichen Funktionen und benutzerfreundlicher Oberfläche.",
     "buy_bfx": "Kaufe $BFX",
     "need_support": "Brauchst du Hilfe?"

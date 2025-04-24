@@ -57,7 +57,7 @@ const TokenSelectDropdown = (props) => {
         }}
         className={className}
       >
-        {
+        {/* {
           (token?.symbol.toLowerCase() === 'card') && (
             <img
             className="w-[18px] h-[18px]"
@@ -65,7 +65,7 @@ const TokenSelectDropdown = (props) => {
             alt=""
           />
           )
-        }
+        } */}
         {token && (
           <img
             className="w-[18px] h-[18px]"

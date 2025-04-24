@@ -425,7 +425,7 @@
     "subheading": "Our Awards Speak For Themselves"
   },
   "trader_reviews_section": {
-    "title": "What Traders Say About BlockchainFX",
+    "title": "What Traders Say About <span>BlockchainFX</span>",
     "ratings": {
       "average": "4.87 out of 5",
       "verified_ratings": "1000+ Verified Ratings"
@@ -500,7 +500,7 @@
     ]
   },
   "the_ultimate_section": {
-    "title": "The Ultimate Trading Platform",
+    "title": "The Ultimate <br/> Trading Platform",
     "description": "Experience the best trading platform with advanced features and user-friendly interface.",
     "buy_bfx": "Buy $BFX",
     "need_support": "Need Support?"

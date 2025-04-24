@@ -27,7 +27,7 @@ function LivePresale() {
         background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
       }}
     >
-      <div className="max-w-[700px] mx-auto w-[100%] flex flex-row justify-between items-center px-2">
+      <div className="max-w-[900px] mx-auto w-[100%] flex flex-row justify-center 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[15px] space-x-[15px] items-center px-2">
         <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px]">
           {t("live_presale_section.title")}
         </p>
@@ -43,7 +43,7 @@ function LivePresale() {
         />
         <button
           onClick={handleScroll}
-          className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[10px] text-[10px] font-[700] border border-1 border-[black] rounded-[3px] h-[25px] w-[64px]"
+          className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[10px] text-[10px] font-[700] border border-1 border-[black] rounded-[3px] h-[25px] px-[10px]"
         >
           {t("live_presale_section.buy_button")}
         </button>

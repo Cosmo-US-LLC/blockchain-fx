@@ -423,7 +423,7 @@
     "subheading": "Nos récompenses parlent d'elles-mêmes"
   },
   "trader_reviews_section": {
-    "title": "Ce que disent les traders à propos de BlockchainFX",
+    "title": "Ce que disent les traders à propos de <span>BlockchainFX</span>",
     "ratings": {
       "average": "4,87 sur 5",
       "verified_ratings": "Plus de 1000 évaluations vérifiées"
@@ -498,7 +498,7 @@
     ]
   },
   "the_ultimate_section": {
-    "title": "La plateforme de trading ultime",
+    "title": "La plateforme de <br/> trading ultime",
     "description": "Découvrez la meilleure plateforme de trading avec des fonctionnalités avancées et une interface conviviale.",
     "buy_bfx": "Acheter $BFX",
     "need_support": "Besoin d'aide ?"
