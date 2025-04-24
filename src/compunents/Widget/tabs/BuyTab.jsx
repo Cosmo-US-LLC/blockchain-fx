@@ -339,6 +339,7 @@ const BuyTab = ({ onTabChange}) => {
                 price: 1,
               },
             }}
+
             onChange={(token, group) => {
               setSelectedToken(token)
               setSelectedTokenGroup(group)

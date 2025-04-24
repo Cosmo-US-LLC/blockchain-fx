@@ -57,6 +57,15 @@ const TokenSelectDropdown = (props) => {
         }}
         className={className}
       >
+        {
+          (token?.symbol.toLowerCase() === 'card') && (
+            <img
+            className="w-[18px] h-[18px]"
+            src={tokenImageMap['visaCard']}
+            alt=""
+          />
+          )
+        }
         {token && (
           <img
             className="w-[18px] h-[18px]"
@@ -64,6 +73,7 @@ const TokenSelectDropdown = (props) => {
             alt=""
           />
         )}
+        
         <div className="flex flex-col text-start">
           <span
             className={clsx(
