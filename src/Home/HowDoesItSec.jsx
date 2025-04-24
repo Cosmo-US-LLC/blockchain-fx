@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import icn1 from "../assets/HowDoesItSec/icns (6).svg";
 import icn2 from "../assets/HowDoesItSec/icns (5).svg";
@@ -12,49 +13,54 @@ const cardItems = [
     {
       id: "01.",
       img:icn1,
-      title: "Trading Platform",
-      description: "BlockchainFX is a multi-asset trading platform that offers a wide range of trading options.",
+      title: "how_does_it_section.trading_platform.title",
+      description: "how_does_it_section.trading_platform.description",
     },
     {
       id: "02.",
       img:icn2,
-      title: "Fee Distribution",
-      description: "70% of trading fees are used to reward the BFX community and drive the ecosystem’s growth.",
+      title: "how_does_it_section.fee_distribution.title",
+      description: "how_does_it_section.fee_distribution.description",
     },
     {
       id: "03.",
       img:icn3,
-      title: " Daily Revenue (50%)",
-      description: "50% of all fees collected will be distributed to BFX holders and automatically added to their wallets.",
+      title: "how_does_it_section.daily_revenue.title",
+      description: "how_does_it_section.daily_revenue.description",
     },
     {
       id: "04.",
       img:icn4,
-      title: "Buybacks (20%)",
-      description: "20% of the fees are used to buy back $BFX daily, helping boost demand and support the price.",
+      title: "how_does_it_section.buybacks.title",
+      description: "how_does_it_section.buybacks.description",
     },
     {
       id: "05.",
       img:icn5,
-      title: "Burn",
-      description: "Half of the bought-back tokens are permanently burned, gradually reducing the supply of $BFX.",
+      title: "how_does_it_section.burn.title",
+      description: "how_does_it_section.burn.description",
     },
     {
       id: "06.",
       img:icn6,
-      title: "Fueling the Growth Engine",
-      description: "The deflationary model and automatic buybacks drive the potential for exponential growth in $BFX.",
+      title: "how_does_it_section.fueling_growth.title",
+      description: "how_does_it_section.fueling_growth.description",
     },
   ];
 
 function HowDoesItSec() {
-  
+  const { t } = useTranslation();
+
   return (
     <div className="py-[50px] bg-[#020B10]">
      <div className="max-w-[1200px] w-[100%] mx-auto relative">
         <div className="space-y-[0px]">
-            <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">How does it work?</h3>
-          <p className="text-[20px] text-[#fff] text-center font-[400]">BFX Reward Engine Explained in 6 Easy Steps</p>
+            <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">
+              {t("how_does_it_section.title")}
+            </h3>
+          <p className="text-[20px] text-[#fff] text-center font-[400]">
+            {t("how_does_it_section.description")}
+          </p>
         </div>
      <div className=" pt-[34px] w-[100%] mx-auto ">
         <div className="grid grid-cols-3 gap-x-[19px] gap-y-[19px]">
@@ -80,9 +86,9 @@ function HowDoesItSec() {
             >{item.id}</p>
           </div>
          <div className="min-h-[30px] flex justify-start pb-[10px] items-center">
-         <h3 className="text-[24px] text-[#fff] font-[600] leading-[109.316%]">{item.title}</h3>
+         <h3 className="text-[24px] text-[#fff] font-[600] leading-[109.316%]">{t(item.title)}</h3>
          </div>
-          <h4 className="text-[14px]  text-[#fff] font-[400] leading-[135.796%]">{item.description}</h4>
+          <h4 className="text-[14px]  text-[#fff] font-[400] leading-[135.796%]">{t(item.description)}</h4>
         </div>
       ))}
         </div>

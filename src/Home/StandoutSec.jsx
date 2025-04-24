@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import coin1 from "../assets/StandoutSec/tblcoins (1).svg";
 import coin2 from "../assets/StandoutSec/tblcoins (2).svg";
@@ -91,6 +92,8 @@ const tableData = [
 ];
 
 function StandoutSec() {
+  const { t } = useTranslation();
+
   return (
     <div className="py-[50px] px-[60px] bg-[#020B10]">
       <div className="max-w-[1200px] py-[50px] relative overflow-hidden bg-[#030F16] rounded-[16px] space-y-[26px] w-[100%] flex flex-col mx-auto"
@@ -101,10 +104,10 @@ function StandoutSec() {
       >
         <div className="space-y-[14px]">
           <h3 className="text-[40px] font-[700] text-center leading-[48px] text-[#ffff] tracking-[-1px]">
-            Standout Features
+            {t("standout_section.title")}
           </h3>
           <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
-          Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.
+            {t("standout_section.description")}
           </p>
         </div>
         <div className="max-w-[1080px] w-full mx-auto">

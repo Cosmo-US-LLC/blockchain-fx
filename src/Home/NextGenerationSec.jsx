@@ -9,8 +9,11 @@ import nexticn7 from "../assets/NextGen/nwxticon (3).svg";
 import nexticn8 from "../assets/NextGen/nwxticon (2).svg";
 import nexticn9 from "../assets/NextGen/nwxticon (1).svg";
 import nexticn10 from "../assets/NextGen/nwxticon (10).svg";
+import { useTranslation } from "react-i18next";
 
 function NextGenerationSec() {
+  const { t } = useTranslation();
+
   // const handleScroll = () => {
   //   setTimeout(() => {
   //     const element = document.getElementById("Wallet");
@@ -29,7 +32,7 @@ function NextGenerationSec() {
     <div className="pt-[50px] pb-[50px] bg-[#020B10]">
       <div className="max-w-[1200px] py-[50px] border border-[#E6AF03] bg-[#020B10] rounded-[24px]  w-[100%] mx-auto space-y-[60px]">
         <h3 className="text-[40px] text-[#fff] font-[700] leading-[155.556%] leading-[-1px] text-center">
-          Next Generation Trading Experience
+          {t("next_generation_section.title")}
         </h3>
         <div className="space-y-[45px]">
           <div className="flex justify-center items-center space-x-[5rem]">
@@ -37,40 +40,49 @@ function NextGenerationSec() {
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn1} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                Team with 25 Years <br /> Of Experience
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.team_experience`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+              
               </p>
             </div>
             <div className="flex flex-col min-w-[122px] items-center space-y-[9px]">
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn2} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                500+ <br /> Assets
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.assets`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+               
               </p>
             </div>
             <div className="flex flex-col min-w-[137px] items-center space-y-[9px]">
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn10}  className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                Ultra <br /> Tight Spreads
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.tight_spreads`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+               
               </p>
             </div>
             <div className="flex flex-col items-center min-w-[145px] space-y-[9px]">
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn4} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                24/7 Live <br /> Chat Support
-              </p>
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.live_chat`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+               </p>
             </div>
             <div className="flex flex-col items-center min-w-[129px] space-y-[9px]">
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn3} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-              Register <br /> in Seconds
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.register`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+                
               </p>
             </div>
           </div>
@@ -79,40 +91,50 @@ function NextGenerationSec() {
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn5} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                One-Click <br /> Trading
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.one_click`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+                
               </p>
             </div>
             <div className="flex flex-col min-w-[122px] items-center space-y-[9px]">
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn6} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                Leverage <br /> Trading
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.leverage`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+                
               </p>
             </div>
             <div className="flex flex-col min-w-[137px] items-center space-y-[9px]">
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn7} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                Up to 9 <br /> Charts
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.charts`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+                
               </p>
             </div>
             <div className="flex flex-col min-w-[145px] items-center space-y-[9px]">
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn8} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                100+ <br /> Indicators
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.indicators`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+                
               </p>
             </div>
             <div className="flex flex-col min-w-[129px] items-center space-y-[9px]">
               <div className="min-h-[80px] max-h-[80px]">
                 <img src={nexticn9} className='h-[80px] w-[80px] object-cover' alt="Trading" />
               </div>
-              <p className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
-                Monthly <br /> Tournaments
+              <p
+               dangerouslySetInnerHTML={{ __html: t(`next_generation_section.tournaments`) }}
+              className="text-[14px] text-[#fff] text-center leading-[150%] font-[400] tracking-[-0.32px]">
+               
               </p>
             </div>
           </div>

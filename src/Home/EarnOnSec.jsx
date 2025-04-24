@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 // import eranimg from "../assets/EarnOnSec/video.webm";
 import eranimg from "../assets/EarnOnSec/earn-sec.png";
@@ -7,6 +8,8 @@ import ernvet1 from "../assets/EarnOnSec/Group 134.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 
 function EarnOnSec() {
+  const { t } = useTranslation();
+
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
@@ -48,10 +51,10 @@ function EarnOnSec() {
               WebkitTextFillColor:"transparent"
             }}
             className="text-[40px] capitalize font-[700] leading-[128%]  tracking-[-1px] text-start">
-            Earn Daily With BFX
+            {t("earn_on_section.title")}
             </h3>
             <p className="text-[18px] text-[#fff] font-[400] leading-[161.598%] text-start">
-            BFX holders earn daily staking rewards in USDT and BFX, powered by BlockchainFX trading fees. Every time someone trades on the app, holders get rewarded. The more BFX a person holds, the more they earn — up to a maximum of 25,000 USDT per day.
+            {t("earn_on_section.description")}
             </p>
             <button
              onClick={handleScroll}

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -15,12 +16,13 @@ import swpbtnl from "../assets/TraderReviewsSec/arwr.svg";
 import swpbtnr from "../assets/TraderReviewsSec/arw.svg";
 
 function TraderReviewsSec() {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-[#020B10]">
       <div className="text-center pt-[30px] pb-[60px]">
         <h3 className="text-[48px] font-[600] leading-[120%] text-white tracking-[-1.5px]">
-          What Traders Say About{" "}
-          <span className="text-[#E5AE00]">BlockchainFX</span>
+          {t("trader_reviews_section.title")}
         </h3>
       </div>
       <div
@@ -36,10 +38,10 @@ function TraderReviewsSec() {
             <div className="lg:w-[30%] w-full space-y-6">
               <div className="space-y-2">
                 <h4 className="text-[24px] text-white font-[500]">
-                  4.87 out of 5
+                  {t("trader_reviews_section.ratings.average")}
                 </h4>
                 <p className="text-[#7C7C7C] text-[16px]">
-                  1000+ Verified Ratings
+                  {t("trader_reviews_section.ratings.verified_ratings")}
                 </p>
               </div>
 
@@ -105,10 +107,7 @@ function TraderReviewsSec() {
                 <SwiperSlide>
                   <div className="h-[297px] py-[25px] relative z-[9] flex flex-col justify-between pl-[25px] pr-[14px] bg-[#181A20] border border-[#525252] rounded-[4px] w-[320px]">
                     <p className="text-[13px] font-[400] leading-[175%] text-[#fff]">
-                      Finally, a platform that gets it right! I traded CFDs,
-                      bought Apple stocks, sold them for GBP, and grabbed some
-                      $PEPE, all within five minutes. Highly recommended for
-                      beginners and pros alike.
+                      {t("trader_reviews_section.reviews.0.text")}
                     </p>
                     <div className="mt-auto">
                       <div className="flex items-center space-x-2 mb-4">
@@ -116,20 +115,17 @@ function TraderReviewsSec() {
                         <div>
                           <div className="flex items-center space-x-2">
                             <h3 className="text-[15px] text-[#fff] font-[600] leading-[140%]">
-                              LacosteBtc
+                              {t("trader_reviews_section.reviews.0.user.name")}
                             </h3>
                             <img src={tick} alt="" className="w-3 h-3" />
                           </div>
                           <h4 className="text-[#6A6A6A] text-[11.6px] font-[600] leading-[140%]">
-                            @LacosteBtc • 35.2K Followers
+                            {t("trader_reviews_section.reviews.0.user.followers")}
                           </h4>
                         </div>
                       </div>
-                      {/* <button className="mt-3 text-[#E5AE00] text-[14px] font-[600]">
-                        View X Review →
-                      </button> */}
                       <a
-                        href="https://x.com/LacosteBtc/status/1899365804845548013"
+                        href={t("trader_reviews_section.reviews.0.user.link")}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-3 text-[#E5AE00] text-[14px] font-[600]"
@@ -164,9 +160,6 @@ function TraderReviewsSec() {
                           </h4>
                         </div>
                       </div>
-                      {/* <button className="mt-3 text-[#E5AE00] text-[14px] font-[600]">
-                        View X Review →
-                      </button> */}
                       <a
                         href="https://x.com/MrX_Crypto/status/1900845071240515647"
                         target="_blank"
@@ -185,7 +178,7 @@ function TraderReviewsSec() {
                     <p className="text-[13px] font-[400] leading-[175%] text-[#fff]">
                       BlockchainFX gives you endless trading opportunities. This
                       just makes sense since markets are interconnected.
-                      Finally, there’s no need to waste time switching between
+                      Finally, there's no need to waste time switching between
                       brokers.
                     </p>
                     <div className="mt-auto">
@@ -203,9 +196,6 @@ function TraderReviewsSec() {
                           </h4>
                         </div>
                       </div>
-                      {/* <button className="mt-3 text-[#E5AE00] text-[14px] font-[600]">
-                        View X Review →
-                      </button> */}
                       <a
                         href="https://x.com/silvinaescudero/status/1900845896302027108"
                         target="_blank"
@@ -223,7 +213,7 @@ function TraderReviewsSec() {
                   <div className="h-[297px] py-[25px] relative z-[9] border border-[#525252]  flex flex-col justify-between pl-[25px] pr-[14px] bg-[#181A20] rounded-[4px] w-[320px]">
                     <p className="text-[13px] font-[400] leading-[175%] text-[#fff]">
                       The best part about BlockchainFX? The deep liquidity
-                      across all assets. I’ve never had an issue filling large
+                      across all assets. I've never had an issue filling large
                       orders, even with niche crypto pairs. This is exactly what
                       serious traders need—speed, reliability, and a wide range
                       of markets all in one place.
@@ -243,9 +233,6 @@ function TraderReviewsSec() {
                           </h4>
                         </div>
                       </div>
-                      {/* <button className="mt-3 text-[#E5AE00] text-[14px] font-[600]">
-                        View X Review →
-                      </button> */}
                       <a
                         href="https://x.com/defi_avaxx/status/1900847259874627732"
                         target="_blank"
@@ -265,7 +252,7 @@ function TraderReviewsSec() {
                       BlockchainFX has completely leveled up my trading game.
                       It's super intuitive, lets you access multiple markets
                       simultaneously, and offers lightning-fast transactions. A
-                      huge win for crypto! 
+                      huge win for crypto!
                     </p>
                     <div className="mt-auto">
                       <div className="flex items-center space-x-2 mb-4">
@@ -282,9 +269,6 @@ function TraderReviewsSec() {
                           </h4>
                         </div>
                       </div>
-                      {/* <button className="mt-3 text-[#E5AE00] text-[14px] font-[600]">
-                        View X Review →
-                      </button> */}
                       <a
                         href="https://x.com/HoneyEth_/status/1900870121477820837"
                         target="_blank"
@@ -301,7 +285,7 @@ function TraderReviewsSec() {
                 <SwiperSlide>
                   <div className="h-[297px] py-[25px] relative z-[9] border border-[#525252]  flex flex-col justify-between pl-[25px] pr-[14px] bg-[#181A20] rounded-[4px] w-[320px]">
                     <p className="text-[13px] font-[400] leading-[175%] text-[#fff]">
-                      That’s exactly what we needed. A trading broker designed
+                      That's exactly what we needed. A trading broker designed
                       to bridge Crypto with Forex, ETFs, and stocks, giving you
                       real access to the markets with deep liquidity.
                     </p>
@@ -320,9 +304,6 @@ function TraderReviewsSec() {
                           </h4>
                         </div>
                       </div>
-                      {/* <button className="mt-3 text-[#E5AE00] text-[14px] font-[600]">
-                        View X Review →
-                      </button> */}
                       <a
                         href="https://x.com/cryptobri_/status/1901419367289512075"
                         target="_blank"

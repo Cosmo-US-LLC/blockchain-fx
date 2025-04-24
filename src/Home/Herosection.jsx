@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import stars from "../assets/herosection/stars.png";
 // import heroVideo from "../assets/herosection/heroVideo.mp4";
 import uersrev from "../assets/herosection/Avatars.png";
@@ -8,6 +9,8 @@ import herove3 from "../assets/herosection/herove (4).png";
 import herove4 from "../assets/herosection/herove (1).png";
 
 function Herosection() {
+  const { t } = useTranslation();
+
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
@@ -51,29 +54,19 @@ function Herosection() {
                 backdropFilter: "blur(150px",
               }}
             >
-              <h4 className="text-[14px]  leading-[144.444%] font-[400] text-center text-[#fff] tracking-[-1px] capitalize">
-              Connecting Blockchain and Global Finance
+              <h4 className="text-[14px]  leading-[144.444%] font-[400] text-center text-[#fff] tracking-[-1px] capitalize"
+               dangerouslySetInnerHTML={{ __html: t(`hero_section.hero_subtitle`) }}>
               </h4>
             </div>
-            <h1 className=" text-[45px] pt-[15px] font-[700] leading-[120%] tracking-[-1px] text-[#fff] text-center">
-              The First Crypto <br /> Trading{" "}
-              <span
-                style={{
-                  background:
-                    " linear-gradient(92deg, #E5AE01 24.64%, #FFE182 97%)",
-                  backgroundClip: "text",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                }}
-              >
-                Super App
-              </span>
+            <h1 
+            dangerouslySetInnerHTML={{ __html: t(`hero_section.hero_title`) }}
+            className="herohed text-[45px] pt-[15px] font-[700] leading-[120%] tracking-[-1px] text-[#fff] text-center">
             </h1>
             <div className="flex items-center justify-center pt-[20px] space-x-3">
               <div className="flex flex-col items-center">
                 <img src={uersrev} loading="lazy" alt="reviews" />
                 <p className="text-[#fff] font-[400] text-[16px]">
-                  Verified Ratings
+                  {t("hero_section.rated_by_users")}
                 </p>
               </div>
               <div
@@ -90,7 +83,7 @@ function Herosection() {
               </div>
             </div>
             <p className="text-[16px] max-w-[646px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#fff] tracking-[-0.32px] ">
-            BlockchainFX is the only crypto native trading platform providing instant access to the world’s largest financial markets with the release of its new BFX coin.
+              {t("hero_section.hero_description")}
             </p>
           </div>
           <div className="flex justify-center pt-[20px] pb-[0px] items-center space-x-[17px]">
@@ -101,14 +94,14 @@ function Herosection() {
               }}
               className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
             >
-              Buy $BFX
+              {t("hero_section.join_whitelist")}
             </button>
 
             <button
               onClick={handleScrollToDemo}
               className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[138px] rounded-[8px] !w-[100%] h-[50px]"
             >
-              Watch Demo
+              {t("hero_section.whitepaper")}
             </button>
           </div>
 

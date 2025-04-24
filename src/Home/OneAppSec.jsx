@@ -6,33 +6,34 @@ import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2).svg";
 import oneimg from "../assets/OneAppSec/imgonecec.png";
+import { useTranslation } from "react-i18next";
 
 const items = [
   {
     icon: oneicon1,
-    title: "Any Device",
-    description:
-      "Users can trade from any device, whether it's a PC, Mac, iOS, or Android.",
+    title: "one_app_section.any_device.title",
+    description: "one_app_section.any_device.description",
   },
   {
     icon: oneicon2,
-    title: "Technical Tools",
-    description: "Advanced technical tools designed to enhance market analysis and decision-making.",
+    title: "one_app_section.technical_tools.title",
+    description: "one_app_section.technical_tools.description",
   },
   {
     icon: oneicon3,
-    title: "Risk Management",
-    description: "Comprehensive risk management features to minimize risks.",
+    title: "one_app_section.risk_management.title",
+    description: "one_app_section.risk_management.description",
   },
   {
     icon: oneicon4,
-    title: "Multiple Charts",
-    description: "Traders can use multiple charts at the same time for better market insights.",
+    title: "one_app_section.multiple_charts.title",
+    description: "one_app_section.multiple_charts.description",
   },
 ];
 
 function OneAppSec() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const { t } = useTranslation();
 
   const handleToggle = (index) => {
     setActiveIndex(index === activeIndex ? -1 : index);
@@ -44,10 +45,10 @@ function OneAppSec() {
      <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[473px] space-y-[20px]">
           <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
-            Everything In One App
+            {t("one_app_section.title")}
           </h3>
           <p className="text-[20px] text-[#fff] font-[400] leading-[150%] leading-[-0.32px] text-start">
-          A lightning-fast and innovative trading solution
+            {t("one_app_section.description")}
           </p>
           <div className="">
             {items.map((item, index) => (
@@ -70,7 +71,7 @@ function OneAppSec() {
                     <div className="w-[80%]">
                       <div className="flex justify-between items-center">
                         <h3 className="text-[22px] leading-[142.44%] font-[600] text-[#fff]">
-                          {item.title}
+                          {t(item.title)}
                         </h3>
                         <div>
                           <img
@@ -90,7 +91,7 @@ function OneAppSec() {
                           transition: "max-height 0.3s ease, opacity 0.3s ease",
                         }}
                       >
-                        {item.description}
+                        {t(item.description)}
                       </p>
                     </div>
                   </div>
