@@ -9,7 +9,7 @@ import LivePresale from '../compunents/LivePresale';
 function RefferalProgram() {
     return (
       <div className="">
-        <LivePresale />
+        {/* <LivePresale /> */}
         <HerosectionReferral />
         <TopBFXReferral />
         <EarnWithReferral />
