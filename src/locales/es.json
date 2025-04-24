@@ -296,11 +296,11 @@
     }
   },
   "less_than_section": {
-    "title": "Diseñado para Crecimiento Exponencial",
-    "description": "BlockchainFX es una plataforma de trading impulsada por la comunidad que recompensa a los titulares de BFX diariamente. A medida que la plataforma crece, también lo hace el token, creando un poderoso ciclo de crecimiento y participación. Los estudios* muestran que las comunidades incentivadas pueden crecer significativamente más rápido que otras, y BFX está diseñado para maximizar ese potencial.",
+    "title": "Diseñado para un crecimiento exponencial",
+    "description": "BlockchainFX es una plataforma de trading impulsada por la comunidad que recompensa diariamente a los poseedores de BFX. A medida que la plataforma crece, también lo hace el token, creando un poderoso ciclo de crecimiento y compromiso. Los estudios* muestran que las comunidades incentivadas pueden crecer significativamente más rápido que otras, y BFX está diseñado para maximizar ese potencial.",
     "costs": {
       "title": "Costos",
-      "description": "Hasta $2 Millones"
+      "description": "Hasta 2 millones de dólares"
     },
     "time": {
       "title": "Tiempo",
@@ -308,11 +308,31 @@
     },
     "team": {
       "title": "Equipo",
-      "description": "Equipo experimentado multilingüe trabajando en turnos, 24/7, 365 días al año."
+      "description": "Equipo multilingüe con experiencia trabajando por turnos, 24/7, los 365 días del año."
     },
     "work_scope": {
-      "title": "Alcance del Trabajo",
-      "description": "Requisitos de Capital, Marketing y Branding, Proveedores de Liquidez, Equipo de Gestión de Riesgos, Soporte al Cliente, Infraestructura Tecnológica, Alianzas, Desarrollo, Contratación y Gestión de Personal, y más."
+      "title": "Alcance del trabajo",
+      "description": "Requisitos de capital, marketing y branding, proveedores de liquidez, equipo de gestión de riesgos, atención al cliente, infraestructura tecnológica, asociaciones, desarrollo, contratación y gestión de personal, y más."
+    },
+    "gateway": {
+      "title": "La puerta a los mercados globales",
+      "description": "Lanzar una nueva plataforma de trading requiere mucho tiempo y recursos. En cambio, comprar $BFX toma solo segundos y te permite ganar cada vez que alguien hace una operación."
+    },
+    "growth": {
+      "title": "Diseñado para un crecimiento exponencial",
+      "description": "BlockchainFX es una plataforma de trading impulsada por la comunidad que recompensa diariamente a los poseedores de BFX. A medida que la plataforma crece, también lo hace el token, creando un poderoso ciclo de crecimiento y compromiso. Los estudios* muestran que las comunidades incentivadas pueden crecer significativamente más rápido que otras, y BFX está diseñado para maximizar ese potencial.",
+      "source_note": "(*Fuente: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
+      "forecasting": "Pronóstico de crecimiento",
+      "blockchainfx": "BlockchainFX",
+      "regular_platform": "Plataforma de trading convencional"
+    },
+    "comparison": {
+      "new_platform": "Nueva plataforma de trading",
+      "blockchainfx": "BlockchainFX",
+      "costs_option": "Depende de ti",
+      "time_option": "Compra $BFX en 2 clics",
+      "team_option": "No se requiere equipo",
+      "work_option": "No se requiere trabajo"
     }
   },
   "standout_section": {
