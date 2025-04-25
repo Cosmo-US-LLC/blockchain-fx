@@ -445,46 +445,106 @@
     "subheading": "Our Awards Speak For Themselves"
   },
   "trader_reviews_section": {
-    "title": "What Traders Say About <span>BlockchainFX</span>",
-    "ratings": {
-      "average": "4.87 out of 5",
-      "verified_ratings": "1000+ Verified Ratings"
-    },
-    "reviews": [
-      {
-        "text": "Finally, a platform that gets it right! I traded CFDs, bought Apple stocks, sold them for GBP, and grabbed some $PEPE, all within five minutes. Highly recommended for beginners and pros alike.",
-        "user": {
-          "name": "LacosteBtc",
-          "followers": "35.2K Followers",
-          "link": "https://x.com/LacosteBtc/status/1899365804845548013"
-        }
+      "title": "What Traders Say About <span>BlockchainFX</span>",
+      "ratings": {
+        "average": "4.87 out of 5",
+        "verified_ratings": "1000+ Verified Ratings",
+        "rating_bars": [
+          {
+            "rating": 5,
+            "percentage": 86
+          },
+          {
+            "rating": 4,
+            "percentage": 8
+          },
+          {
+            "rating": 3,
+            "percentage": 3
+          },
+          {
+            "rating": 2,
+            "percentage": 2
+          },
+          {
+            "rating": 1,
+            "percentage": 1
+          }
+        ]
       },
-      {
-        "text": "Trading on 9 different windows and having access to dozens of trading analytic tools and risk management is giving me a long-term edge over the competition trading on other platforms.",
-        "user": {
-          "name": "Mr 𝕏",
-          "followers": "472K followers",
-          "link": "https://x.com/MrX_Crypto/status/1900845071240515647"
+      "reviews": [
+        {
+          "text": "That's exactly what we needed. A trading broker designed to bridge Crypto with Forex, ETFs, and stocks, giving you real access to the markets with deep liquidity.",
+          "user": {
+            "name": "Crypto Bri",
+            "followers": "@cryptobri_ • 79.6K followers",
+            "link": "https://x.com/cryptobri_/status/1901419367289512075",
+            "image": "user5"
+          }
+        },
+        {
+          "text": "Trading on 9 different windows and having access to dozens of trading analytic tools and risk management is giving me a long-term edge over the competition trading on other platforms.",
+          "user": {
+            "name": "Mr 𝕏",
+            "followers": "@MrX_Crypto • 472K followers",
+            "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
+            "image": "user1"
+          }
+        },
+        {
+          "text": "BlockchainFX gives you endless trading opportunities. This just makes sense since markets are interconnected. Finally, there's no need to waste time switching between brokers.",
+          "user": {
+            "name": "Silvina Escudero",
+            "followers": "@silvinaescudero • 863K followers",
+            "link": "https://x.com/silvinaescudero/status/1900845896302027108",
+            "image": "user2"
+          }
+        },
+        {
+          "text": "The best part about BlockchainFX? The deep liquidity across all assets. I've never had an issue filling large orders, even with niche crypto pairs. This is exactly what serious traders need—speed, reliability, and a wide range of markets all in one place.",
+          "user": {
+            "name": "DefiAva:butterfly:",
+            "followers": "@defi_avaxx • 30.3K followers",
+            "link": "https://x.com/defi_avaxx/status/1900847259874627732",
+            "image": "user3"
+          }
+        },
+        {
+          "text": "BlockchainFX has completely leveled up my trading game. It's super intuitive, lets you access multiple markets simultaneously, and offers lightning-fast transactions. A huge win for crypto!",
+          "user": {
+            "name": "Honey.Eth",
+            "followers": "@HoneyEth_ • 121.8K followers",
+            "link": "https://x.com/HoneyEth_/status/1900870121477820837",
+            "image": "user4"
+          }
+        },
+        {
+          "text": "That's exactly what we needed. A trading broker designed to bridge Crypto with Forex, ETFs, and stocks, giving you real access to the markets with deep liquidity.",
+          "user": {
+            "name": "Crypto Bri",
+            "followers": "@cryptobri_ • 79.6K followers",
+            "link": "https://x.com/cryptobri_/status/1901419367289512075",
+            "image": "user5"
+          }
         }
-      },
-      {
-        "text": "BlockchainFX has completely leveled up my trading game. It's super intuitive, lets you access multiple markets simultaneously, and offers lightning-fast transactions. A huge win for crypto!",
-        "user": {
-          "name": "Honey.Eth",
-          "followers": "121.8K followers",
-          "link": "https://x.com/HoneyEth_/status/1900870121477820837"
-        }
-      },
-      {
-        "text": "That's exactly what we needed. A trading broker designed to bridge Crypto with Forex, ETFs, and stocks, giving you real access to the markets with deep liquidity.",
-        "user": {
-          "name": "Crypto Bri",
-          "followers": "79.6K followers",
-          "link": "https://x.com/cryptobri_/status/1901419367289512075"
+      ],
+      "assets": {
+        "user_images": [
+          "rew (5).png",
+          "rew (4).png",
+          "rew (3).png",
+          "rew (2).png",
+          "rew (1).png",
+          "user.png"
+        ],
+        "icons": {
+          "tick": "teenyicons_tick-circle-solid.svg",
+          "swiper_left": "arwr.svg",
+          "swiper_right": "arw.svg"
         }
       }
-    ]
-  },
+    },
+
   "faq_section": {
     "title": "FAQs",
     "description": "Find answers to some of the most common questions.",

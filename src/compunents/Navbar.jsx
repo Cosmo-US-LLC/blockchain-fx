@@ -23,6 +23,7 @@ import flag11 from "../assets/navbar/flg (11).svg";
 import flag12 from "../assets/navbar/flg (12).svg";
 import flag13 from "../assets/navbar/flg (13).svg";
 import flag14 from "../assets/navbar/flg (14).svg";
+import flag15 from "../assets/navbar/ar.png";
 import WalletPopup from "./ui/WalletPopup";
 import DashboardPopup from "./ui/DashboardPopup";
 import { useAccount } from "../presale-gg/web3/hooks";
@@ -39,7 +40,7 @@ const flags = [
   { flag: flag4, abbreviation: "NL", name: "Dutch" },
   { flag: flag5, abbreviation: "JA", name: "Japanese" },
   { flag: flag6, abbreviation: "TR", name: "Turkish" },
-  { flag: flag7, abbreviation: "KO", name: "Korean" },
+  { flag: flag15, abbreviation: "AR", name: "Arabic" },
   { flag: flag8, abbreviation: "IT", name: "Italian" },
   { flag: flag9, abbreviation: "NO", name: "Norwegian" },
   { flag: flag10, abbreviation: "ZH", name: "Chinese" },
