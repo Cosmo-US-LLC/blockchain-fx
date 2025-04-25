@@ -63,7 +63,7 @@ function EarnOnSec() {
             }}
               className="text-[#000] px-[12px] text-[14px] font-[800] hover:opacity-[0.8] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
             >
-              Buy $BFX
+              {t("earn_on_section.button")}
             </button>
           </div>
           <div className="absolute top-[0%] left-[-10%]">

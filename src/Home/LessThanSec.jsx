@@ -204,7 +204,7 @@ function LessThanSec() {
                   </ul>
                 </div>
                 <div
-                  className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%]"
+                  className="max-w-[355px] min-h-[455px] rounded-[11px] py-[23px] px-[16px] w-[100%]"
                   style={{
                     background: "#030F16",
                     border: "1px solid #2B2B2B",

@@ -5,7 +5,9 @@
     "whitepaper": "Whitepaper",
     "referral": "Referral",
     "reviews": "Reviews",
-    "languages": "Languages"
+    "languages": "Languages",
+    "dashboard": "Dashboard",
+  "connect_wallet": "Connect Wallet"
   },
   "live_presale_section": {
     "title": "BFX Presale is Live",
@@ -157,7 +159,8 @@
   },
   "earn_on_section": {
     "title": "Earn Daily With BFX",
-    "description": "BFX holders earn daily staking rewards in USDT and BFX, powered by BlockchainFX trading fees. Every time someone trades on the app, holders get rewarded. The more BFX a person holds, the more they earn — up to a maximum of 25,000 USDT per day."
+    "description": "BFX holders earn daily staking rewards in USDT and BFX, powered by BlockchainFX trading fees. Every time someone trades on the app, holders get rewarded. The more BFX a person holds, the more they earn — up to a maximum of 25,000 USDT per day.",
+    "button":"Buy $BFX"
   },
  "how_does_it_section": {
     "title": "How Does It Work?",
@@ -479,7 +482,8 @@
             "name": "Crypto Bri",
             "followers": "@cryptobri_ • 79.6K followers",
             "link": "https://x.com/cryptobri_/status/1901419367289512075",
-            "image": "user5"
+            "image": "user5",
+            "reviewLink":"View X Review"
           }
         },
         {
@@ -488,7 +492,9 @@
             "name": "Mr 𝕏",
             "followers": "@MrX_Crypto • 472K followers",
             "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
-            "image": "user1"
+            "image": "user1",
+            "reviewLink":"View X Review"
+
           }
         },
         {
@@ -497,7 +503,9 @@
             "name": "Silvina Escudero",
             "followers": "@silvinaescudero • 863K followers",
             "link": "https://x.com/silvinaescudero/status/1900845896302027108",
-            "image": "user2"
+            "image": "user2",
+            "reviewLink":"View X Review"
+
           }
         },
         {
@@ -506,7 +514,9 @@
             "name": "DefiAva:butterfly:",
             "followers": "@defi_avaxx • 30.3K followers",
             "link": "https://x.com/defi_avaxx/status/1900847259874627732",
-            "image": "user3"
+            "image": "user3",
+            "reviewLink":"View X Review"
+
           }
         },
         {
@@ -515,7 +525,9 @@
             "name": "Honey.Eth",
             "followers": "@HoneyEth_ • 121.8K followers",
             "link": "https://x.com/HoneyEth_/status/1900870121477820837",
-            "image": "user4"
+            "image": "user4",
+            "reviewLink":"View X Review"
+
           }
         },
         {
@@ -524,7 +536,9 @@
             "name": "Crypto Bri",
             "followers": "@cryptobri_ • 79.6K followers",
             "link": "https://x.com/cryptobri_/status/1901419367289512075",
-            "image": "user5"
+            "image": "user5",
+            "reviewLink":"View X Review"
+
           }
         }
       ],

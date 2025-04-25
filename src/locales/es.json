@@ -5,7 +5,9 @@
     "whitepaper": "Whitepaper",
     "referral": "Referidos",
     "reviews": "Reseñas",
-    "languages": "Idiomas"
+    "languages": "Idiomas",
+    "dashboard": "Panel",
+  "connect_wallet": "Conectar billetera"
   },
   "live_presale_section": {
     "title": "La Preventa de BFX está Activa",
@@ -156,7 +158,8 @@
   },
   "earn_on_section": {
     "title": "Gana Diariamente con BFX",
-    "description": "Los titulares de BFX ganan recompensas diarias de staking en USDT y BFX, impulsadas por las tarifas de trading de BlockchainFX. Cada vez que alguien opera en la app, los titulares reciben recompensas. Cuantos más BFX tenga una persona, más ganará, hasta un máximo de 25,000 USDT por día."
+    "description": "Los titulares de BFX ganan recompensas diarias de staking en USDT y BFX, impulsadas por las tarifas de trading de BlockchainFX. Cada vez que alguien opera en la app, los titulares reciben recompensas. Cuantos más BFX tenga una persona, más ganará, hasta un máximo de 25,000 USDT por día.",
+    "button": "Comprar $BFX"
   },
   "how_does_it_section": {
     "title": "¿Cómo Funciona?",
@@ -321,7 +324,7 @@
     "growth": {
       "title": "Diseñado para un crecimiento exponencial",
       "description": "BlockchainFX es una plataforma de trading impulsada por la comunidad que recompensa diariamente a los poseedores de BFX. A medida que la plataforma crece, también lo hace el token, creando un poderoso ciclo de crecimiento y compromiso. Los estudios* muestran que las comunidades incentivadas pueden crecer significativamente más rápido que otras, y BFX está diseñado para maximizar ese potencial.",
-      "source_note": "(*Fuente: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
+      "source_note": "(*Fuente: Harvard Business Review, Cuando la comunidad se convierte en tu ventaja competitiva, 2020)",
       "forecasting": "Pronóstico de crecimiento",
       "blockchainfx": "BlockchainFX",
       "regular_platform": "Plataforma de trading convencional"
@@ -450,35 +453,63 @@
     },
     "reviews": [
       {
-        "text": "¡Finalmente, una plataforma que lo hace bien! Operé CFDs, compré acciones de Apple, las vendí por GBP y compré algo de $PEPE, todo en cinco minutos. Muy recomendable tanto para principiantes como para profesionales.",
-        "user": {
-          "name": "LacosteBtc",
-          "followers": "35.2K Seguidores",
-          "link": "https://x.com/LacosteBtc/status/1899365804845548013"
-        }
-      },
-      {
-        "text": "Operar en 9 ventanas diferentes y tener acceso a docenas de herramientas de análisis de trading y gestión de riesgos me está dando una ventaja a largo plazo sobre la competencia que opera en otras plataformas.",
-        "user": {
-          "name": "Mr 𝕏",
-          "followers": "472K seguidores",
-          "link": "https://x.com/MrX_Crypto/status/1900845071240515647"
-        }
-      },
-      {
-        "text": "BlockchainFX ha elevado completamente mi juego de trading. Es súper intuitiva, te permite acceder a múltiples mercados simultáneamente y ofrece transacciones ultrarrápidas. ¡Un gran logro para el mundo cripto!",
-        "user": {
-          "name": "Honey.Eth",
-          "followers": "121.8K seguidores",
-          "link": "https://x.com/HoneyEth_/status/1900870121477820837"
-        }
-      },
-      {
-        "text": "Eso es exactamente lo que necesitábamos. Un bróker de trading diseñado para unir Cripto con Forex, ETFs y acciones, dándote acceso real a los mercados con liquidez profunda.",
+        "text": "Esto es exactamente lo que necesitábamos. Un bróker de trading diseñado para conectar las criptomonedas con Forex, ETFs y acciones, dándote acceso real a los mercados con una gran liquidez.",
         "user": {
           "name": "Crypto Bri",
-          "followers": "79.6K seguidores",
-          "link": "https://x.com/cryptobri_/status/1901419367289512075"
+          "followers": "@cryptobri_ • 79.6K seguidores",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075",
+          "image": "user5",
+          "reviewLink": "Ver reseña en X"
+        }
+      },
+      {
+        "text": "Operar en 9 ventanas diferentes y tener acceso a docenas de herramientas analíticas y de gestión de riesgos me da una ventaja a largo plazo sobre la competencia en otras plataformas.",
+        "user": {
+          "name": "Mr 𝕏",
+          "followers": "@MrX_Crypto • 472K seguidores",
+          "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
+          "image": "user1",
+          "reviewLink": "Ver reseña en X"
+        }
+      },
+      {
+        "text": "BlockchainFX te ofrece oportunidades de trading ilimitadas. Tiene sentido, ya que los mercados están interconectados. Por fin, ya no hay necesidad de perder tiempo cambiando entre brókers.",
+        "user": {
+          "name": "Silvina Escudero",
+          "followers": "@silvinaescudero • 863K seguidores",
+          "link": "https://x.com/silvinaescudero/status/1900845896302027108",
+          "image": "user2",
+          "reviewLink": "Ver reseña en X"
+        }
+      },
+      {
+        "text": "¿Lo mejor de BlockchainFX? La gran liquidez en todos los activos. Nunca he tenido problemas para ejecutar órdenes grandes, incluso con pares cripto poco comunes. Esto es exactamente lo que los traders serios necesitan: velocidad, fiabilidad y una amplia gama de mercados en un solo lugar.",
+        "user": {
+          "name": "DefiAva🦋",
+          "followers": "@defi_avaxx • 30.3K seguidores",
+          "link": "https://x.com/defi_avaxx/status/1900847259874627732",
+          "image": "user3",
+          "reviewLink": "Ver reseña en X"
+        }
+      },
+      {
+        "text": "BlockchainFX ha mejorado por completo mi forma de operar. Es muy intuitivo, te permite acceder a múltiples mercados al mismo tiempo y ofrece transacciones ultrarrápidas. ¡Una gran victoria para las criptomonedas!",
+        "user": {
+          "name": "Honey.Eth",
+          "followers": "@HoneyEth_ • 121.8K seguidores",
+          "link": "https://x.com/HoneyEth_/status/1900870121477820837",
+          "image": "user4",
+          "reviewLink": "Ver reseña en X"
+        }
+      },
+      {
+        "text": "Esto es exactamente lo que necesitábamos. Un bróker de trading diseñado para conectar las criptomonedas con Forex, ETFs y acciones, dándote acceso real a los mercados con una gran liquidez.",
+        "user": {
+          "name": "Crypto Bri",
+          "followers": "@cryptobri_ • 79.6K seguidores",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075",
+          "image": "user5",
+          "reviewLink": "Ver reseña en X"
         }
       }
     ]

@@ -115,7 +115,7 @@ function TraderReviewsSec() {
                           rel="noopener noreferrer"
                           className="mt-3 text-[#E5AE00] text-[14px] font-[600]"
                         >
-                          {t("common.view_review")} →
+                          {review.user.reviewLink} →
                         </a>
                       </div>
                     </div>
