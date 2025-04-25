@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
 // import info from "../../../assets/wallet/i.svg";
+import { useTranslation } from "react-i18next";
 import bfxicn from "../../../assets/wallet/bfx.webp";
 import bonus from "../../../assets/wallet/bonus.png";
 import Ref from "../../../assets/wallet/ref.png";
@@ -9,6 +10,7 @@ import tabicn2 from "../../../assets/wallet/tabicn (2).svg";
 import tabicn3 from "../../../assets/wallet/tabicn (1).svg";
 import clsx from "clsx";
 import stakeTab from "./StakeTab";
+
 import transactionHistoryTab from "./TransactionHistoryTab";
 import { useApiState } from "../../../presale-gg/stores/api.store";
 import {
@@ -44,6 +46,7 @@ import confetti from "canvas-confetti";
 import { showConnectWalletModal } from "../../../presale-gg/stores/modal.store";
 
 const BuyTab = ({ onTabChange}) => {
+  const { t } = useTranslation();
   const needsWalletConnected = new Set(['stake', 'history']);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
@@ -529,7 +532,7 @@ const BuyTab = ({ onTabChange}) => {
             }}
             className="text-[#000] bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)] px-[12px] rounded-[33px]  text-[11.85px] font-[800] border border-[#E5AE00]  hover:opacity-[0.8] w-[100%] h-[39.094px]"
           >
-            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Buy BFX" : "Buy Now"))}
+            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Buy BFX" : t("wallet_section.buttonBuy")))}
           </button>
         </div>
         {

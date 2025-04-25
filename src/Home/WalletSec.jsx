@@ -195,7 +195,7 @@ const WalletSec = () => {
               <div className="max-w-[414px] px-[6px] pt-[14px] pb-[16px] border border-[#545454] w-[100%] mx-auto ">
                 <div className="flex flex-col gap-[10px]">
                   <h4 className="text-start text-[#808080] text-[9.875px] leading-[75%] font-[600]">
-                    $BFX Launches On Multiple Top-Tier Exchanges
+                  {t("wallet_section.exchanges")} 
                   </h4>
                   <div className="flex justify-center gap-[8px] flex-wrap">
                     <div
