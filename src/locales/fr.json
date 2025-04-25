@@ -98,7 +98,9 @@
     "step_4_title": "4. Réclamation",
     "step_4_description": "<p>Félicitations ! Vos jetons seront transférés automatiquement dans votre portefeuille après la fin de la prévente. Vous n'avez rien à faire. <br/><br/>Merci de faire partie de l'aventure BFX !</p>",
     "launch_title": "5. Lancement",
-    "launch_description": "$BFX est lancé sur plusieurs bourses de premier plan"
+    "exchanges":"$BFX est lancé sur plusieurs bourses de premier plan",
+    "launch_description": "$BFX est lancé sur plusieurs bourses de premier plan",
+    "buttonBuy": "Acheter maintenant"
   },
   "next_generation_section": {
     "title": "Expérience de trading de nouvelle génération",

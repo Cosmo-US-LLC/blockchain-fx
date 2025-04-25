@@ -99,7 +99,9 @@
     "step_4_title": "4. Beanspruchen",
     "step_4_description": "<p>Glückwunsch! Deine Token werden nach Ende des Vorverkaufs automatisch an deine Wallet übertragen. Du musst nichts tun. <br/><br/>Vielen Dank, dass du Teil der BFX-Reise bist!</p>",
     "launch_title": "5. Start",
-    "launch_description": "$BFX startet auf mehreren Top-Tier-Börsen"
+    "exchanges":"$BFX startet auf mehreren Top-Börsen",
+    "launch_description": "$BFX startet auf mehreren Top-Tier-Börsen",
+    "buttonBuy": "Jetzt kaufen"
   },
   "next_generation_section": {
     "title": "Handelserfahrung der nächsten Generation",

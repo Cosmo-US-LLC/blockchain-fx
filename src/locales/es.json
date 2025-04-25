@@ -98,7 +98,9 @@
     "step_4_title": "4. Reclama",
     "step_4_description": "<p>¡Felicidades! Tus tokens serán transferidos a tu wallet automáticamente después de que termine la preventa. No necesitas hacer nada. <br/><br/>¡Gracias por ser parte del viaje de BFX!</p>",
     "launch_title": "5. Lanzamiento",
-    "launch_description": "$BFX se Lanza en Múltiples Exchanges de Primer Nivel"
+    "exchanges":"$BFX se lanza en múltiples bolsas de primer nivel",
+    "launch_description": "$BFX se Lanza en Múltiples Exchanges de Primer Nivel",
+    "buttonBuy": "Comprar ahora"
   },
   "next_generation_section": {
     "title": "Experiencia de Trading de Próxima Generación",
