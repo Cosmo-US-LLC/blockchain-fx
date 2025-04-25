@@ -100,7 +100,8 @@
     "launch_title": "5. Lanzamiento",
     "exchanges":"$BFX se lanza en múltiples bolsas de primer nivel",
     "launch_description": "$BFX se Lanza en Múltiples Exchanges de Primer Nivel",
-    "buttonBuy": "Comprar ahora"
+    "buttonBuy": "Comprar ahora",
+    "buttonBuybfx":"Comprar BFX"
   },
   "next_generation_section": {
     "title": "Experiencia de Trading de Próxima Generación",
