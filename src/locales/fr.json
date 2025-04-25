@@ -100,7 +100,8 @@
     "launch_title": "5. Lancement",
     "exchanges":"$BFX est lancé sur plusieurs bourses de premier plan",
     "launch_description": "$BFX est lancé sur plusieurs bourses de premier plan",
-    "buttonBuy": "Acheter maintenant"
+    "buttonBuy": "Acheter maintenant",
+    "buttonBuybfx":"Acheter BFX"
   },
   "next_generation_section": {
     "title": "Expérience de trading de nouvelle génération",

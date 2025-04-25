@@ -101,7 +101,8 @@
       "launch_title": "5. الإطلاق",
       "exchanges":"يتم إطلاق $BFX في العديد من البورصات ذات المستوى العالي",
       "launch_description": "إدراج $BFX في عدة بورصات من الدرجة الأولى",
-      "buttonBuy": "اشترِ الآن"
+      "buttonBuy": "اشترِ الآن",
+      "buttonBuybfx":"شراء BFX"
     },
     "next_generation_section": {
       "title": "تجربة تداول من الجيل التالي",

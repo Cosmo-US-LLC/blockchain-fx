@@ -101,7 +101,8 @@
     "launch_title": "5. Start",
     "exchanges":"$BFX startet auf mehreren Top-Börsen",
     "launch_description": "$BFX startet auf mehreren Top-Tier-Börsen",
-    "buttonBuy": "Jetzt kaufen"
+    "buttonBuy": "Jetzt kaufen",
+    "buttonBuybfx":"BFX kaufen"
   },
   "next_generation_section": {
     "title": "Handelserfahrung der nächsten Generation",

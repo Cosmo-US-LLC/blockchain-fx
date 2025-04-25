@@ -532,7 +532,7 @@ const BuyTab = ({ onTabChange}) => {
             }}
             className="text-[#000] bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)] px-[12px] rounded-[33px]  text-[11.85px] font-[800] border border-[#E5AE00]  hover:opacity-[0.8] w-[100%] h-[39.094px]"
           >
-            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Buy BFX" : t("wallet_section.buttonBuy")))}
+            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? t("wallet_section.buttonBuybfx") : t("wallet_section.buttonBuy")))}
           </button>
         </div>
         {
