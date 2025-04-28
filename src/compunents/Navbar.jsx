@@ -1,37 +1,35 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
-import { useLocation } from 'react-router-dom';
+import React, { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import i18n from "../i18n";
 
 import logo from "../assets/navbar/logo.png";
 // import flag from "../assets/navbar/flg.svg";
-import menu from "../assets/navbar/menu.svg";
+import flag15 from "../assets/navbar/ar.png";
 import arwdwn from "../assets/navbar/arw.png";
 import flag1 from "../assets/navbar/flg (1).svg";
-import flag2 from "../assets/navbar/flg (2).svg";
-import flag3 from "../assets/navbar/flg (3).svg";
-import flag4 from "../assets/navbar/flg (4).svg";
-import flag5 from "../assets/navbar/flg (5).svg";
-import flag6 from "../assets/navbar/flg (6).svg";
-import flag7 from "../assets/navbar/flg (7).svg";
-import flag8 from "../assets/navbar/flg (8).svg";
-import flag9 from "../assets/navbar/flg (9).svg";
 import flag10 from "../assets/navbar/flg (10).svg";
 import flag11 from "../assets/navbar/flg (11).svg";
 import flag12 from "../assets/navbar/flg (12).svg";
 import flag13 from "../assets/navbar/flg (13).svg";
 import flag14 from "../assets/navbar/flg (14).svg";
-import flag15 from "../assets/navbar/ar.png";
-import WalletPopup from "./ui/WalletPopup";
-import DashboardPopup from "./ui/DashboardPopup";
-import { useAccount } from "../presale-gg/web3/hooks";
+import flag2 from "../assets/navbar/flg (2).svg";
+import flag3 from "../assets/navbar/flg (3).svg";
+import flag4 from "../assets/navbar/flg (4).svg";
+import flag5 from "../assets/navbar/flg (5).svg";
+import flag6 from "../assets/navbar/flg (6).svg";
+import flag8 from "../assets/navbar/flg (8).svg";
+import flag9 from "../assets/navbar/flg (9).svg";
+import menu from "../assets/navbar/menu.svg";
 import {
   hideConnectWalletModal,
   showConnectWalletModal,
   useModalState,
 } from "../presale-gg/stores/modal.store";
+import { useAccount } from "../presale-gg/web3/hooks";
+import DashboardPopup from "./ui/DashboardPopup";
+import WalletPopup from "./ui/WalletPopup";
 
 const flags = [
   { flag: flag1, abbreviation: "EN", name: "English" },
@@ -58,9 +56,16 @@ function Navbar() {
   const dropdownRef = useRef(null);
   const [dashboardOpen, setDashboardOpen] = useState(false);
   const [selectedLang, setSelectedLang] = useState(flags[0]);
-
+  const navigate = useNavigate();
   const location = useLocation();
-  const isHome = location.pathname === '/';
+  const [languageChanged, setLanguageChanged] = useState(false);
+
+  // const isHome = location.pathname === '/';
+  const parts = location.pathname.split("/").filter(Boolean);
+  const isHome =
+    parts.length === 0 ||
+    (parts.length === 1 &&
+      flags.some((f) => f.abbreviation.toLowerCase() === parts[0]));
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
@@ -68,11 +73,88 @@ function Navbar() {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
-  const handleSelectLanguage = (lang) => {
+  // const handleSelectLanguage = (lang) => {
+  //   setSelectedLang(lang);
+  //   i18n.changeLanguage(lang.abbreviation.toLowerCase());
+  //   setIsOpen(false);
+  // };
+
+  // useEffect(() => {
+  //   const parts = location.pathname.split("/").filter(Boolean);
+  //   let currentLang = "en"; // default
+
+  //   if (parts.length > 0) {
+  //     const urlLang = parts[0].toLowerCase();
+  //     if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+  //       currentLang = urlLang;
+  //     }
+  //   }
+
+  //   const found = flags.find(
+  //     (f) => f.abbreviation.toLowerCase() === currentLang
+  //   );
+  //   if (found) {
+  //     setSelectedLang(found);
+  //     i18n.changeLanguage(currentLang); // also set language properly on URL change
+  //   }
+  // }, [location.pathname]);
+
+  // const handleSelectLanguage = (lang) => {
+  //   setSelectedLang(lang);
+  //   i18n.changeLanguage(lang.abbreviation.toLowerCase());
+  //   setIsOpen(false);
+
+  //   const currentPath = location.pathname.split("/").filter(Boolean);
+  //   const pagePath =
+  //     currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
+
+  //   if (lang.abbreviation.toLowerCase() === "en") {
+  //     navigate(`${pagePath || "/"}`);
+  //   } else {
+  //     navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   const setLanguageFromURL = async () => {
+  //     const parts = location.pathname.split("/").filter(Boolean);
+  //     let currentLang = "en"; // default
+  
+  //     if (parts.length > 0) {
+  //       const urlLang = parts[0].toLowerCase();
+  //       if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+  //         currentLang = urlLang;
+  //       }
+  //     }
+  
+  //     const found = flags.find(
+  //       (f) => f.abbreviation.toLowerCase() === currentLang
+  //     );
+  //     if (found) {
+  //       setSelectedLang(found);
+  //       await i18n.changeLanguage(currentLang);
+  //     }
+  //   };
+  
+  //   setLanguageFromURL();
+  // }, [location.pathname]);
+
+  const handleSelectLanguage = async (lang) => {
     setSelectedLang(lang);
-    i18n.changeLanguage(lang.abbreviation.toLowerCase()); 
+    await i18n.changeLanguage(lang.abbreviation.toLowerCase());
     setIsOpen(false);
+  
+    const currentPath = location.pathname.split("/").filter(Boolean);
+    const pagePath =
+      currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
+  
+    if (lang.abbreviation.toLowerCase() === "en") {
+      navigate(`${pagePath || "/"}`);
+    } else {
+      navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
+    }
   };
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -107,8 +189,12 @@ function Navbar() {
   const modalData = useModalState();
 
   return (
-    <div className={` relative ${isHome ? 'mb-[80px]' : '!mb-[50px]'}`}>
-      <div  className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${isHome ? 'top-9' : 'top-0'}`}>
+    <div className={` relative ${isHome ? "mb-[80px]" : "!mb-[50px]"}`}>
+      <div
+        className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
+          isHome ? "top-9" : "top-0"
+        }`}
+      >
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
           <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
             <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
@@ -129,7 +215,7 @@ function Navbar() {
             </div>
           </div>
           <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
-          <a
+            <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "what-is-bfx-coin", 40)}
               href=""
@@ -197,14 +283,13 @@ function Navbar() {
               </a>{" "}
               <br />
               <br />
-             
-              <Link 
-              to="/referral"
-               target="_blank"
+              <Link
+                to="/referral"
+                target="_blank"
                 className="block text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
               >
                 Referral
-            </Link>
+              </Link>
               <br />
               <br />
               <a
@@ -319,16 +404,18 @@ function Navbar() {
               )}
             </div>
             <button
-             style={{
-              background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-            }}
+              style={{
+                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
               onClick={() => {
                 if (accountData.isConnected) setDashboardOpen(true);
                 else showConnectWalletModal();
               }}
               className="text-[#000] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:opacity-[0.8]  2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E6B005] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] w-[100%] 2xl:h-[43px] xl:h-[43px] lg:h-[43px] md:h-[43px] sm:h-[40px] h-[40px]"
             >
-              {accountData.isConnected ? t("navbar.dashboard") : t("navbar.connect_wallet")}
+              {accountData.isConnected
+                ? t("navbar.dashboard")
+                : t("navbar.connect_wallet")}
             </button>
             {modalData.connectWalletModalOpen && (
               <WalletPopup onClose={() => hideConnectWalletModal()} />
