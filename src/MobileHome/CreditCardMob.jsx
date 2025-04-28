@@ -2,7 +2,8 @@ import React, { useEffect, useRef } from "react";
 import creditVideo from "../assets/CreditCard/cred.mp4";
 // import ellipse from "../assets/CreditCard/ellipse.webp";
 import ellipse from "../assets/EarnOnSec/Ellipse 3.png";
-
+import applepay from "../assets/CreditCard/btnsvg (2).png";
+import googlelepay from "../assets/CreditCard/btnsvg (1).png";
 
 function CreditCardMob() {
   const videoRef = useRef(null);
@@ -99,6 +100,17 @@ function CreditCardMob() {
           a secure form after the presale to submit their shipping details.
           Cards will be delivered worldwide via DHL or FedEx Express.
         </p>
+         <div className="flex justify-center items-center space-x-2">
+                      <h4 className="text-[14px] text-[#fff] font-[400]">
+                      Compatible with
+                      </h4>
+                      <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]">
+                        <img src={applepay} className="h-[36px]" alt="Apple Pay" />
+                      </button>
+                      <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]">
+                        <img src={googlelepay} className="h-[36px]" alt="Google Pay" />
+                      </button>
+                    </div>
       </div>
     </div>
   );

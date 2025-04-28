@@ -58,6 +58,7 @@ function Navbar() {
   const [selectedLang, setSelectedLang] = useState(flags[0]);
   const navigate = useNavigate();
   const location = useLocation();
+  const [languageChanged, setLanguageChanged] = useState(false);
 
   // const isHome = location.pathname === '/';
   const parts = location.pathname.split("/").filter(Boolean);
@@ -78,35 +79,75 @@ function Navbar() {
   //   setIsOpen(false);
   // };
 
-  useEffect(() => {
-    const parts = location.pathname.split("/").filter(Boolean);
-    let currentLang = "en"; // default
+  // useEffect(() => {
+  //   const parts = location.pathname.split("/").filter(Boolean);
+  //   let currentLang = "en"; // default
 
-    if (parts.length > 0) {
-      const urlLang = parts[0].toLowerCase();
-      if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
-        currentLang = urlLang;
-      }
-    }
+  //   if (parts.length > 0) {
+  //     const urlLang = parts[0].toLowerCase();
+  //     if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+  //       currentLang = urlLang;
+  //     }
+  //   }
 
-    const found = flags.find(
-      (f) => f.abbreviation.toLowerCase() === currentLang
-    );
-    if (found) {
-      setSelectedLang(found);
-      i18n.changeLanguage(currentLang); // also set language properly on URL change
-    }
-  }, [location.pathname]);
+  //   const found = flags.find(
+  //     (f) => f.abbreviation.toLowerCase() === currentLang
+  //   );
+  //   if (found) {
+  //     setSelectedLang(found);
+  //     i18n.changeLanguage(currentLang); // also set language properly on URL change
+  //   }
+  // }, [location.pathname]);
 
-  const handleSelectLanguage = (lang) => {
+  // const handleSelectLanguage = (lang) => {
+  //   setSelectedLang(lang);
+  //   i18n.changeLanguage(lang.abbreviation.toLowerCase());
+  //   setIsOpen(false);
+
+  //   const currentPath = location.pathname.split("/").filter(Boolean);
+  //   const pagePath =
+  //     currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
+
+  //   if (lang.abbreviation.toLowerCase() === "en") {
+  //     navigate(`${pagePath || "/"}`);
+  //   } else {
+  //     navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   const setLanguageFromURL = async () => {
+  //     const parts = location.pathname.split("/").filter(Boolean);
+  //     let currentLang = "en"; // default
+  
+  //     if (parts.length > 0) {
+  //       const urlLang = parts[0].toLowerCase();
+  //       if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+  //         currentLang = urlLang;
+  //       }
+  //     }
+  
+  //     const found = flags.find(
+  //       (f) => f.abbreviation.toLowerCase() === currentLang
+  //     );
+  //     if (found) {
+  //       setSelectedLang(found);
+  //       await i18n.changeLanguage(currentLang);
+  //     }
+  //   };
+  
+  //   setLanguageFromURL();
+  // }, [location.pathname]);
+
+  const handleSelectLanguage = async (lang) => {
     setSelectedLang(lang);
-    i18n.changeLanguage(lang.abbreviation.toLowerCase());
+    await i18n.changeLanguage(lang.abbreviation.toLowerCase());
     setIsOpen(false);
-
+  
     const currentPath = location.pathname.split("/").filter(Boolean);
     const pagePath =
       currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
-
+  
     if (lang.abbreviation.toLowerCase() === "en") {
       navigate(`${pagePath || "/"}`);
     } else {

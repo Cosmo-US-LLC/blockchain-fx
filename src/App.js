@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route, Navigate, useParams, Outlet } from "react-router-dom";
+import { Routes, Route, Navigate, useParams, Outlet, useLocation } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Toaster } from "react-hot-toast";
 
+import { useTranslation } from 'react-i18next';
 import Home from "./Home";
 import Navbar from "./compunents/Navbar";
 import Footer from "./compunents/Footer";
@@ -16,6 +17,7 @@ import NavbarMobile from "./compunents/NavbarMobile";
 import RefferalProgram from "./RefferalProgram";
 
 function Layout({ isMobile }) {
+  const { i18n } = useTranslation();
   return (
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
@@ -53,6 +55,31 @@ function LangGuard({ children }) {
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
+  const [languageLoaded, setLanguageLoaded] = useState(false);
+  const { i18n } = useTranslation();
+  const location = useLocation();
+
+  useEffect(() => {
+    const setLanguageFromURL = async () => {
+      const parts = location.pathname.split("/").filter(Boolean);
+      let currentLang = "en";
+  
+      if (parts.length > 0) {
+        const urlLang = parts[0].toLowerCase();
+        const supportedLangs = [
+          "vi", "de", "nl", "ja", "tr", "ko", "it", "no", "zh", "ru", "fr", "pt", "es", "ar"
+        ];
+        if (supportedLangs.includes(urlLang)) {
+          currentLang = urlLang;
+        }
+      }
+
+      await i18n.changeLanguage(currentLang);
+      setLanguageLoaded(true); 
+    };
+
+    setLanguageFromURL();
+  }, [location.pathname, i18n]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -63,6 +90,10 @@ function App() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  if (!languageLoaded) {
+    return null;
+  }
 
   return (
     <div className="bg-[#fff]">
