@@ -767,7 +767,7 @@ function PremiumSec() {
                       dangerouslySetInnerHTML={{ __html: item.answer }}
                     ></p>
                     {item.tooltip && (
-                      <div className="absolute top-[10px] z-[9] right-[60%]">
+                      <div className="absolute top-[10px] z-[9] right-[51%]">
                         <div
                           className="relative"
                           onMouseEnter={() => setShowTooltip(true)}
