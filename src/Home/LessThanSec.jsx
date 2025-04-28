@@ -90,17 +90,16 @@ function LessThanSec() {
                     />
                   </div>
                   <p className="text-[#fff] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
-                    {t("less_than_section.costs.title")}: $1.1 Trillion (11.42%)
+                  Bonds: $1.1 Trillion (11.42%)
                   </p>
                   <p className="text-[#fff] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
-                    {t("less_than_section.time.title")}: $700 Billion (7.27%)
+                  US Stock: $700 Billion (7.27%)
                   </p>
                   <p className="text-[#fff] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
-                    {t("less_than_section.team.title")}: $250 Billion (2.59%)
+                  Commodities: $250 Billion (2.59%)
                   </p>
                   <p className="text-[#fff] absolute top-[35%] left-[19%]  text-[15px] font-[700] tracking-[-0.787px]">
-                    {t("less_than_section.work_scope.title")}: $89 Billion
-                    (0.87%)
+                  Crypto: $89 Billion (0.87%)
                   </p>
                   <p className="text-[#fff] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
                     Forex: $7.5 Trillion (77.85%)
