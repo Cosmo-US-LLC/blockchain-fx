@@ -115,29 +115,29 @@ function Navbar() {
   //   }
   // };
 
-  // useEffect(() => {
-  //   const setLanguageFromURL = async () => {
-  //     const parts = location.pathname.split("/").filter(Boolean);
-  //     let currentLang = "en"; // default
+  useEffect(() => {
+    const setLanguageFromURL = async () => {
+      const parts = location.pathname.split("/").filter(Boolean);
+      let currentLang = "en"; // default
   
-  //     if (parts.length > 0) {
-  //       const urlLang = parts[0].toLowerCase();
-  //       if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
-  //         currentLang = urlLang;
-  //       }
-  //     }
+      if (parts.length > 0) {
+        const urlLang = parts[0].toLowerCase();
+        if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+          currentLang = urlLang;
+        }
+      }
   
-  //     const found = flags.find(
-  //       (f) => f.abbreviation.toLowerCase() === currentLang
-  //     );
-  //     if (found) {
-  //       setSelectedLang(found);
-  //       await i18n.changeLanguage(currentLang);
-  //     }
-  //   };
+      const found = flags.find(
+        (f) => f.abbreviation.toLowerCase() === currentLang
+      );
+      if (found) {
+        setSelectedLang(found);
+        await i18n.changeLanguage(currentLang);
+      }
+    };
   
-  //   setLanguageFromURL();
-  // }, [location.pathname]);
+    setLanguageFromURL();
+  }, [location.pathname]);
 
   const handleSelectLanguage = async (lang) => {
     setSelectedLang(lang);
