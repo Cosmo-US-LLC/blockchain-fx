@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from "react";
-
+import { useTranslation } from "react-i18next";
 import bottom_mobiles from "../assets/presale-v3/bottom_mobiles.webp";
 import daily_stars_bg from "../assets/presale-v3/daily_stars_bg.webp";
 
 function MobileEarnOnSec() {
+  const { t } = useTranslation();
   const videoRef = useRef(null);
   useEffect(() => {
     const video = videoRef.current;
@@ -52,13 +53,10 @@ function MobileEarnOnSec() {
         />
         <div className="w-[100%] max-w-[521px] space-y-[20px]">
           <h3 className="text-[36px] capitalize font-[600] leading-[114%] text-[white] tracking-[-1px] text-center">
-            Earn Daily With BFX
+            {t("earn_on_section.title")}
           </h3>
           <p className="text-[16px] max-w-[330px] mx-auto text-[#fff] font-[400] leading-[153.333%] tracking-[-0.32px] text-center">
-            BFX holders earn daily staking rewards in BFX and USDT, powered by
-            BlockchainFX trading fees. Every time someone trades on the app,
-            holders get rewarded. The more BFX a person holds, the more they
-            earn — up to a maximum of 25,000 USDT per day.{" "}
+            {t("earn_on_section.description")}
           </p>
         </div>
 
@@ -70,7 +68,7 @@ function MobileEarnOnSec() {
             }}
             className="self-center text-[16px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[168px]"
           >
-            Buy BFX
+            {t("earn_on_section.button")}
           </button>
         </div>
         <img

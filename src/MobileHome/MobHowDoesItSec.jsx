@@ -4,6 +4,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 import cardicn1 from "../assets/HowDoesItSec/icns (1) copy.svg";
 import cardicn2 from "../assets/HowDoesItSec/icns (2) copy.svg";
@@ -12,47 +13,42 @@ import cardicn4 from "../assets/HowDoesItSec/icns (4) copy.svg";
 import cardicn5 from "../assets/HowDoesItSec/icns (5) copy.svg";
 import cardicn6 from "../assets/HowDoesItSec/icns (6) copy.svg";
 
-const cardItems = [
-  {
-    icon: cardicn1,
-    title: "Trading Platform",
-    description:
-      "BlockchainFX is a multi-asset trading platform that offers a wide range of trading options.",
-  },
-  {
-    icon: cardicn2,
-    title: "Fee Distribution",
-    description:
-      "70% of trading fees are used to reward the BFX community and drive the ecosystem’s growth.",
-  },
-  {
-    icon: cardicn3,
-    title: " Daily Staking Rewards (50%)",
-    description:
-      "50% of all fees collected will be distributed to BFX holders and automatically added to their wallets.",
-  },
-  {
-    icon: cardicn4,
-    title: "Buybacks (20%)",
-    description:
-      "20% of fees will be used for daily BFX buybacks, increasing demand and boosting the $BFX price.",
-  },
-  {
-    icon: cardicn5,
-    title: "Burn",
-    description:
-      "Half of all buybacks will be automatically burned, gradually reducing the supply of $BFX.",
-  },
-  {
-    icon: cardicn6,
-    title: "Fueling the Growth Engine",
-    description:
-      "The deflationary model and automatic buyback system fuel the potential for exponential growth of $BFX.",
-  },
-];
-
 function MobHowDoesItSec() {
   const [swiperIndex, setSwiperIndex] = useState(0);
+  const { t } = useTranslation();
+
+  const cardItems = [
+    {
+      icon: cardicn1,
+      title: t("how_does_it_section.trading_platform.title"),
+      description: t("how_does_it_section.trading_platform.description"),
+    },
+    {
+      icon: cardicn2,
+      title: t("how_does_it_section.fee_distribution.title"),
+      description: t("how_does_it_section.fee_distribution.description"),
+    },
+    {
+      icon: cardicn3,
+      title: t("how_does_it_section.daily_revenue.title"),
+      description: t("how_does_it_section.daily_revenue.description"),
+    },
+    {
+      icon: cardicn4,
+      title: t("how_does_it_section.buybacks.title"),
+      description: t("how_does_it_section.buybacks.description"),
+    },
+    {
+      icon: cardicn5,
+      title: t("how_does_it_section.burn.title"),
+      description: t("how_does_it_section.burn.description"),
+    },
+    {
+      icon: cardicn6,
+      title: t("how_does_it_section.fueling_growth.title"),
+      description: t("how_does_it_section.fueling_growth.description"),
+    },
+  ];
 
   const handleSlideChange = (swiper) => {
     setSwiperIndex(swiper.activeIndex);
@@ -63,10 +59,10 @@ function MobHowDoesItSec() {
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
           <h3 className="text-[36px] capitalize leading-[100%] text-[white] text-center font-[600]">
-            How Does It Work?
+            {t("how_does_it_section.title")}
           </h3>
           <p className="mt-4 text-[15px] text-center text-[#fff] font-[400]">
-            BFX Reward Engine Explained in 6 Easy Steps
+            {t("how_does_it_section.description")}
           </p>
         </div>
         <div className="pt-[30px] w-[100%] mx-auto">
@@ -108,9 +104,9 @@ function MobHowDoesItSec() {
                   </SwiperSlide>
                 ))}
               </Swiper>
+
               {/* Navigation Arrows and Circles */}
               <div className="flex flex-row w-full items-center justify-center text-[white] mt-4">
-                {/* Left Arrow */}
                 <div
                   className={`swiper-button-prev-how w-[16px] h-[16px] flex justify-center items-center rounded-full cursor-pointer ${
                     swiperIndex > 0 ? "text-white" : "text-[#1F2213]"
@@ -123,7 +119,6 @@ function MobHowDoesItSec() {
                   />
                 </div>
 
-                {/* Circles for each slide */}
                 <div className="flex gap-2 mx-4">
                   {cardItems.map((_, index) => (
                     <div
@@ -135,7 +130,6 @@ function MobHowDoesItSec() {
                   ))}
                 </div>
 
-                {/* Right Arrow */}
                 <div
                   className={`swiper-button-next-how w-[16px] h-[16px] flex justify-center items-center rounded-full cursor-pointer ${
                     swiperIndex < cardItems.length - 1

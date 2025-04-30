@@ -1,8 +1,12 @@
+import React from "react";
+import { useTranslation } from "react-i18next"; // Import useTranslation hook
+
 import whitepaper from "../assets/Whitepaper/whitepaperbook.png";
 import whitepaperBg from "../assets/Whitepaper/whitepaper_bg.png";
-// import whitepaper from "../assets/Whitepaper/whitepaper.webp";
 
 export default function WhitepaperMob() {
+  const { t } = useTranslation(); // Get the translation function
+
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
@@ -17,78 +21,57 @@ export default function WhitepaperMob() {
       }
     }, 200);
   };
+
   return (
-    <>
-      <div className="w-full py-[24px] px-[24px] bg-[#000]" id="whitepaper">
-        <div
-          className="whitepaperBg py-6 px-4 space-y-[16px]"
-          // style={{
-          //   background: "url('../assets/Whitepaper/whitepaper_bg.png')"
-          // }}
-        >
-          <div className="w-[100%] space-y-4 ">
-            <div className="flex flex-col justify-start w-full p-2">
-              <h3 className="text-[30px] text-center font-[600] leading-[115%] mb-4 text-white tracking-tighter">
-                BFX Whitepaper
-              </h3>
-              <p className="text-[14px] text-center text-[#fff]">
-                Explore the whitepaper to learn how BFX powers a next-gen
-                trading ecosystem. Discover its key features and advantages, and
-                see how BlockchainFX is bridging the gap between blockchain and
-                traditional finance by creating the crypto industry's first
-                trading super app.
-              </p>
-            </div>
+    <div className="w-full py-[24px] px-[24px] bg-[#000]" id="whitepaper">
+      <div
+        className="whitepaperBg py-6 px-4 space-y-[16px]"
+        style={{
+          background: `url(${whitepaperBg}) no-repeat center center`,
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="w-[100%] space-y-4">
+          <div className="flex flex-col justify-start w-full p-2">
+            <h3 className="text-[30px] text-center font-[600] leading-[115%] mb-4 text-white tracking-tighter">
+              {t("whitepaper.heading")} {/* Use translation */}
+            </h3>
+            <p className="text-[14px] text-center text-[#fff]">
+              {t("whitepaper.description")} {/* Use translation */}
+            </p>
           </div>
+        </div>
 
-          <div className="flex items-center justify-center gap-3">
-            <button
-              onClick={handleScroll}
-              className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]"
-            >
-              Buy BFX
-            </button>
-            <button
-              onClick={() =>
-                window.open(
-                  "https://vip.blockchainfx.com/BFX-Whitepaper.pdf",
-                  "_blank"
-                )
-              }
-              className="rounded-[10px] bg-black border border-[#E6B005] text-[#E6B005] w-[178px] h-[50px] py-1"
-            >
-              Access Whitepaper
-            </button>
-          </div>
+        <div className="flex items-center justify-center gap-3">
+          <button
+            onClick={handleScroll}
+            className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]"
+          >
+            {t("whitepaper.buyButton")} {/* Use translation */}
+          </button>
+          <button
+            onClick={() =>
+              window.open(
+                "https://vip.blockchainfx.com/BFX-Whitepaper.pdf",
+                "_blank"
+              )
+            }
+            className="rounded-[10px] bg-black border border-[#E6B005] text-[#E6B005] w-[178px] h-[50px] py-1"
+          >
+            {t("whitepaper.accessButton")} {/* Use translation */}
+          </button>
+        </div>
 
-          <div className="w-[100%]">
-            <div className="w-full p-2">
-              <img
-                src={whitepaper}
-                className="w-[453px] h-auto object-cover"
-                alt="whitepaper"
-              />
-            </div>
+        <div className="w-[100%]">
+          <div className="w-full p-2">
+            <img
+              src={whitepaper}
+              className="w-[453px] h-auto object-cover"
+              alt="whitepaper"
+            />
           </div>
-          {/* <div className="flex justify-center w-full p-2 space-x-2">
-            <button
-              onClick={handleScroll}
-              className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[110px] w-[100%] h-[39px]"
-            >
-              Buy $BFX
-            </button>
-            <a
-              href="https://vip.blockchainfx.com/whitepaper.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="hover:text-white hover:bg-[#E5AE00] px-[8px] text-black bg-transparent text-[14px] font-[800] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[160px] w-[100%] h-[39px]">
-                Access Whitepaper
-              </button>
-            </a>
-          </div> */}
         </div>
       </div>
-    </>
+    </div>
   );
 }

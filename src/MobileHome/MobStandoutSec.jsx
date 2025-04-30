@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -15,15 +16,17 @@ import check1 from "../assets/StandoutSec/check (2).svg";
 import check2 from "../assets/StandoutSec/check (1).svg";
 
 function MobStandoutSec() {
+  const { t } = useTranslation();
+
   return (
     <div className="pt-[24px] pb-[44px] bg-[#030B10]">
       <div className="space-y-[40px] w-[90%] mx-auto ">
         <div className="space-y-[15px]">
           <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#FFF] tracking-[-2.548px]">
-            Standout Features
+            {t("standout_section.title")}
           </h3>
           <p className="text-[15px] font-[400]  text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
-          Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.
+            {t("standout_section.description")}
           </p>
         </div>
         <div className="w-[100%] mx-auto flex">
@@ -36,10 +39,6 @@ function MobStandoutSec() {
                   BlockchainFX
                 </h3>
               </div>
-              {/* <div className="h-[91px] justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img className="h-[41.126px] w-[41.126px]" src={coin2} alt="" />
-                        <h3 className="text-[#545454] leading-[8.902px] font-[700] text-[8.902px]">Bitget</h3>
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
@@ -52,9 +51,6 @@ function MobStandoutSec() {
                   $BFX
                 </h3>
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <h3 className="text-[#000]  font-[500] text-[12px]">$BGB</h3>
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
@@ -67,9 +63,6 @@ function MobStandoutSec() {
                   -
                 </h3>
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <h3 className="text-[#000]  font-[500] text-[12px]">#24</h3>
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
@@ -82,9 +75,6 @@ function MobStandoutSec() {
                   -
                 </h3>
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <h3 className="text-[#000]  font-[500] text-[12px]">$12.26 Billion</h3>
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
@@ -95,9 +85,6 @@ function MobStandoutSec() {
               <div className=" border-t border-[#A6A6A6] border-l border-r   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img src={check1} className="h-[15px] w-[15px]" alt="" />
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
@@ -108,9 +95,6 @@ function MobStandoutSec() {
               <div className=" border-t border-[#A6A6A6] border-l border-r  justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img src={check1} className="h-[15px] w-[15px]" alt="" />
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
@@ -121,20 +105,16 @@ function MobStandoutSec() {
               <div className=" border-t border-[#A6A6A6] border-l border-r   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img src={check1} className="h-[15px] w-[15px]" alt="" />
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
-                <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">Forex</h3>
+                <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
+                  Forex
+                </h3>
               </div>
               <div className=" border-t border-[#A6A6A6] border-l border-r  justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img src={check2} className="h-[15px] w-[15px]" alt="" />
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
@@ -145,9 +125,6 @@ function MobStandoutSec() {
               <div className=" border-t border-[#A6A6A6] border-l border-r   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img src={check2} className="h-[15px] w-[15px]" alt="" />
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
@@ -158,31 +135,26 @@ function MobStandoutSec() {
               <div className=" border-t border-[#A6A6A6] border-l border-r justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img src={check2} className="h-[15px] w-[15px]" alt="" />
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
-                <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">CFDs</h3>
+                <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
+                  CFDs
+                </h3>
               </div>
               <div className=" border-t border-[#A6A6A6] border-l border-r   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img src={check2} className="h-[15px] w-[15px]" alt="" />
-                        </div> */}
             </div>
             <div className="flex">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start border-t border-[#A6A6A6] px-[10px]">
-                <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">ETFs</h3>
+                <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
+                  ETFs
+                </h3>
               </div>
               <div className=" border-t border-[#A6A6A6] border-l border-r   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-              {/* <div className="justify-center border-t border-[#A6A6A6] flex flex-col items-center space-y-[6px] w-[30%]">
-                        <img src={check2} className="h-[15px] w-[15px]" alt="" />
-                        </div> */}
             </div>
           </div>
           <div className="relative w-[30%] border-t  border-[#A6A6A6]">

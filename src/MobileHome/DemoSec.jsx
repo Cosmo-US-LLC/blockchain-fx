@@ -1,9 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import ellipse2 from "../assets/presale-v3/ellipse2.svg";
-import demo from "../assets/presale-v3/demo.webp";
 import liveVideo from "../assets/BlockchainFXDemo/live.mp4";
 
 function DemoSec() {
+  const { t } = useTranslation();
+
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
@@ -18,6 +20,7 @@ function DemoSec() {
       }
     }, 200);
   };
+
   return (
     <div
       id="MobileDemo"
@@ -33,17 +36,24 @@ function DemoSec() {
       <img src={ellipse2} className="absolute" alt="ellipse2" />
       <div className="w-[90%] mx-auto space-y-[24px]">
         <h3 className="mt-8 text-[36px] font-[600] leading-[114%] leading-[-1px] text-center text-[white]">
-          BlockchainFX Demo
+          {t("blockchainfx_demo.title")}
         </h3>
         <p className="text-[16px] text-center font-[400] text-[#fff]">
-        In just a few seconds, users can trade BTC, Tesla, Gold, Pepe, ETFs, CFDs, and more — all seamlessly on one platform without switching brokers.
+          {t("blockchainfx_demo.description")}
         </p>
-        {/* <img src={demo} className="w-[404px] h-auto" alt="demo" /> */}
-        <video width="640" height="660" playsInline muted loop autoPlay controls>
+        <video
+          width="640"
+          height="660"
+          playsInline
+          muted
+          loop
+          autoPlay
+          controls
+        >
           <source src={liveVideo} type="video/mp4" />
         </video>
       </div>
-      <div className="flex w-full items-center justify-center mt-8  mb-[30px]">
+      <div className="flex w-full items-center justify-center mt-8 mb-[30px]">
         <button
           onClick={handleScroll}
           style={{
@@ -51,7 +61,7 @@ function DemoSec() {
           }}
           className="self-center text-[16px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[168px]"
         >
-          Buy BFX
+          {t("blockchainfx_demo.buy_button")}
         </button>
       </div>
     </div>

@@ -583,5 +583,193 @@
     "disclaimer": "La cryptomonnaie peut être non réglementée dans votre juridiction, et sa valeur peut fluctuer, entraînant des gains ou des pertes potentiels. Tous les profits peuvent être soumis à l'impôt sur les plus-values ou à d'autres taxes, selon vos lois locales. Le contenu de cette plateforme ne constitue pas une offre, une recommandation ou un conseil financier pour acheter, vendre ou s'engager dans des transactions de cryptomonnaie. Vous êtes seul responsable de l'évaluation de la conformité d'une transaction avec vos objectifs personnels, votre situation financière et votre tolérance au risque. Nous vous recommandons vivement de consulter des professionnels juridiques, fiscaux ou financiers de confiance et agréés avant de prendre toute décision.\n\nLe trading de cryptomonnaies comporte des risques importants, y compris la possibilité de perte partielle ou totale de vos fonds. Une recherche approfondie est cruciale. BlockchainFX ne garantit aucune performance, résultat ou retour sur capital pour toute cryptomonnaie mentionnée sur cette plateforme. En utilisant cette plateforme, vous acceptez nos Conditions d'utilisation, Politique de confidentialité, Politique relative aux cookies et tous les accords de vente de jetons applicables. Le contenu de la plateforme n'est pas destiné à être utilisé dans les juridictions où sa distribution ou son utilisation violerait les lois ou réglementations locales.",
     "copyright": "Copyright 2025. Tous droits réservés.",
     "cookie_management": "Gestion des cookies"
+  },
+  "MobilePremiumSec": {
+    "subtitle": "Adhésion limitée <br /> au Club des Fondateurs",
+    "description": "Achetez des BFX pendant la prévente et devenez membre du Club des Fondateurs à partir de seulement 1 000 $. Obtenez votre NFT exclusif, votre carte Visa BFX, des jetons bonus, des récompenses quotidiennes de staking USDT et des crédits de trading gratuits.",
+    "tiers": {
+      "novice": "Novice",
+      "advanced": "Avancé",
+      "pro": "Pro",
+      "expert": "Expert",
+      "master": "Maître",
+      "elite": "Élite",
+      "legend": "Légende"
+    },
+    "cards": {
+      "novice": {
+        "title": "Novice",
+        "price": "1 000 $",
+        "points": {
+          "earlyAccess": "Accès anticipé",
+          "bfxBonus": "Bonus BFX de 10%",
+          "visaCard": "Carte Visa BFX"
+        },
+        "buttonLabel": "Acheter BFX • 1 000 $"
+      },
+      "advanced": {
+        "title": "Avancé",
+        "price": "2 500 $",
+        "points": {
+          "earlyAccess": "Accès anticipé",
+          "bfxBonus": "Bonus BFX de 20%",
+          "visaCard": "Carte Visa BFX en métal",
+          "tradingCredits": "500 $ de crédits de trading"
+        },
+        "buttonLabel": "Acheter BFX • 2 500 $"
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "5 000 $",
+        "points": {
+          "earlyAccess": "Accès anticipé",
+          "bfxBonus": "Bonus BFX de 30%",
+          "visaCard": "Carte Visa BFX en métal",
+          "tradingCredits": "1000 $ de crédits de trading"
+        },
+        "buttonLabel": "Acheter BFX • 5 000 $"
+      },
+      "expert": {
+        "title": "Expert",
+        "price": "10 000 $+",
+        "points": {
+          "earlyAccess": "Accès anticipé",
+          "bfxBonus": "Bonus BFX de 40%",
+          "usdtRewards": "Récompenses quotidiennes en USDT",
+          "visaCard": "Carte Visa BFX en métal",
+          "tradingCredits": "2000 $ de crédits de trading bonus"
+        },
+        "buttonLabel": "Acheter BFX • 10 000 $"
+      },
+      "master": {
+        "title": "Maître",
+        "price": "25 000 $+",
+        "points": {
+          "earlyAccess": "Accès anticipé",
+          "bfxBonus": "Bonus BFX de 50%",
+          "usdtRewards": "Récompenses quotidiennes en USDT",
+          "visaCard": "Carte Visa BFX en métal",
+          "tradingCredits": "5000 $ de crédits de trading bonus"
+        },
+        "buttonLabel": "Acheter BFX • 25 000 $"
+      },
+      "elite": {
+        "title": "Élite",
+        "price": "50 000 $+",
+        "points": {
+          "earlyAccess": "Accès anticipé",
+          "bfxBonus": "Bonus BFX de 60%",
+          "usdtRewards": "20% de récompenses en USDT",
+          "visaCard": "Carte Visa BFX en métal",
+          "tradingCredits": "10 000 $ de crédits de trading bonus"
+        },
+        "buttonLabel": "Acheter BFX • 50 000 $"
+      },
+      "legend": {
+        "title": "Légende",
+        "price": "100 000 $+",
+        "points": {
+          "earlyAccess": "Accès anticipé",
+          "bfxBonus": "Bonus BFX de 80%",
+          "usdtRewards": "30% de récompenses en USDT",
+          "visaCard": "Carte Visa BFX en or 18 carats",
+          "tradingCredits": "25 000 $ de crédits de trading"
+        },
+        "buttonLabel": "Acheter BFX • 100 000 $"
+      }
+    }
+  },
+  "FoundersClubFAQ": {
+    "title": "Questions sur <br /> le Club des Fondateurs",
+    "questions": {
+      "nft_timing": {
+        "question": "Quand recevrai-je mon NFT du Club des Fondateurs ?",
+        "answer": "<li>Vous recevrez automatiquement votre NFT du Club des Fondateurs après avoir acheté le montant requis de $BFX.</li> <li>Le NFT apparaîtra dans votre tableau de bord personnel et pourra être réclamé une fois la prévente terminée.</li> <li>Pour accéder au tableau de bord, connectez le même portefeuille en cliquant sur 'Connecter le portefeuille' dans le coin supérieur droit.</li>"
+      },
+      "bonuses_timing": {
+        "question": "Quand recevrai-je mes bonus ?",
+        "answer": "<li>Vos bonus BFX seront instantanément ajoutés à votre tableau de bord.</li> <li>Pour accéder à votre tableau de bord, cliquez sur le bouton 'Connecter le portefeuille'</li>"
+      },
+      "multiple_purchases": {
+        "question": "Puis-je obtenir un NFT avec plusieurs achats ?",
+        "answer": "<li>Oui, vous pouvez acheter des $BFX en petites quantités pour atteindre le total requis.</li> <li>Par exemple, acheter cinq fois des $BFX d'une valeur de 200 $ vous permettra d'obtenir le NFT Novice (d'une valeur de 1 000 $).</li>"
+      },
+      "upgrade_nft": {
+        "question": "Puis-je améliorer mon NFT ?",
+        "answer": "<li>Oui, vous pouvez effectuer plusieurs améliorations pendant la prévente.</li><li>Vous recevrez des récompenses et le NFT du niveau le plus élevé que vous atteignez.</li> <li>Une fois la prévente terminée, les améliorations ne seront plus possibles.</li>"
+      }
+    },
+    "tooltip": {
+      "upgrade_info": "Par exemple, l'achat de 1 000 $ de $BFX vous donne le NFT Novice. <br /> Dépensez 1 500 $ de plus pour passer au niveau Avancé. <br /> Vous pouvez continuer à améliorer jusqu'à atteindre le NFT Légende final."
+    }
+  },
+  "MobileLessThanSec": {
+    "slide1": {
+      "title": "Relier la Crypto et la Finance",
+      "description1": "Les cryptomonnaies ne représentent que 0,87% du volume d'échanges mondial en 2024, avec une moyenne de 84,3 milliards de dollars par jour.",
+      "description2": "Pendant ce temps, le marché Forex à lui seul traite 7,5 billions de dollars par jour. Cet écart représente une opportunité majeure pour $BFX de connecter les utilisateurs de crypto aux plus grands marchés financiers du monde.",
+      "chartTitle": "Volume d'échanges quotidien moyen en 2024",
+      "chart": {
+        "bonds": "Obligations :",
+        "bondsValue": "1,1 billion $ (11,42%)",
+        "stocks": "Actions américaines :",
+        "stocksValue": "700 milliards $ (7,27%)",
+        "commodities": "Matières premières :",
+        "commoditiesValue": "250 milliards $ (2,59%)",
+        "crypto": "Crypto :",
+        "cryptoValue": "89 milliards $ (0,87%)",
+        "forex": "Forex :",
+        "forexValue": "7,5 billions $ (77,85%)"
+      },
+      "legend": {
+        "forex": "Forex",
+        "bonds": "Obligations",
+        "usStock": "Actions US",
+        "commodities": "Matières premières",
+        "crypto": "Crypto"
+      }
+    },
+    "slide2": {
+      "title": "La Passerelle vers les Marchés Mondiaux",
+      "description": "Lancer une nouvelle plateforme de trading prend beaucoup de temps et de ressources. En revanche, acheter des $BFX prend quelques secondes et vous permet de gagner à chaque fois que quelqu'un trade.",
+      "comparison": {
+        "newPlatform": "Nouvelle Plateforme de Trading",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "Coût",
+          "platform": "Jusqu'à 2 millions $",
+          "bfx": "À votre convenance",
+          "tooltip": "C'est le budget nécessaire uniquement pour lancer la plateforme dans certaines juridictions, hors personnel et marketing."
+        },
+        "time": {
+          "title": "Temps",
+          "platform": "Jusqu'à 3 ans",
+          "bfx": "Achetez $BFX en 2 clics"
+        },
+        "team": {
+          "title": "Équipe",
+          "platform": "Équipe multilingue expérimentée travaillant par quarts, 24/7, 365 jours par an.",
+          "bfx": "Aucune équipe requise"
+        },
+        "workScope": {
+          "title": "Portée du travail",
+          "platform": "Exigences en capital, Marketing et Branding, Fournisseurs de liquidité, Équipe de gestion des risques, Support client, Infrastructure technologique, Partenariats, Développement, Recrutement et gestion du personnel, et plus encore.",
+          "bfx": "Aucun travail requis"
+        }
+      }
+    },
+    "slide3": {
+      "title": "Conçu pour une Croissance Exponentielle",
+      "description": "BlockchainFX est une plateforme de trading alimentée par la communauté qui récompense quotidiennement les détenteurs de BFX. À mesure que la plateforme se développe, le token se développe également - créant un cycle puissant de croissance et d'engagement. Des études* montrent que les communautés incitatives peuvent croître significativement plus rapidement que les autres, et BFX est conçu pour maximiser ce potentiel.",
+      "chart": {
+        "title": "Prévision de croissance",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "Plateforme de Trading Régulière"
+      },
+      "source": "(*Source : Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
+      "buttonText": "Acheter $BFX"
+    }
   }
 }

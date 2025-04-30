@@ -626,5 +626,193 @@
       "disclaimer": "Tiền điện tử có thể không được quy định tại khu vực pháp lý của bạn, và giá trị của nó có thể dao động, dẫn đến lợi nhuận hoặc thua lỗ tiềm năng. Bất kỳ lợi nhuận nào cũng có thể phải chịu thuế thu nhập vốn hoặc các loại thuế khác, tùy thuộc vào luật pháp địa phương của bạn. Nội dung trên nền tảng này không cấu thành một đề nghị, khuyến nghị hoặc tư vấn tài chính để mua, bán hoặc tham gia vào bất kỳ giao dịch tiền điện tử nào. Bạn hoàn toàn chịu trách nhiệm đánh giá liệu một giao dịch có phù hợp với mục tiêu cá nhân, hoàn cảnh tài chính và khả năng chịu rủi ro của bạn hay không. Chúng tôi đặc biệt khuyên bạn nên tham khảo ý kiến của các chuyên gia pháp lý, thuế hoặc tài chính đáng tin cậy và được cấp phép trước khi đưa ra bất kỳ quyết định nào.\n\nGiao dịch tiền điện tử mang lại rủi ro đáng kể, bao gồm khả năng mất một phần hoặc toàn bộ tiền của bạn. Nghiên cứu kỹ lưỡng là rất quan trọng. BlockchainFX không đảm bảo bất kỳ hiệu suất, kết quả hoặc lợi nhuận vốn nào cho bất kỳ loại tiền điện tử nào được đề cập trên nền tảng này. Bằng cách sử dụng nền tảng này, bạn đồng ý với Điều khoản dịch vụ, Chính sách bảo mật, Chính sách cookie và bất kỳ thỏa thuận bán token hiện hành nào của chúng tôi. Nội dung của nền tảng không nhằm mục đích sử dụng trong các khu vực pháp lý mà việc phân phối hoặc sử dụng nó sẽ vi phạm luật pháp hoặc quy định địa phương.",
       "copyright": "Bản quyền 2025. Đã đăng ký Bản quyền.",
       "cookie_management": "Quản lý cookie"
+    },
+    "MobilePremiumSec": {
+      "subtitle": "Tư cách thành viên <br /> Câu lạc bộ Nhà sáng lập Giới hạn",
+      "description": "Mua BFX trong đợt bán trước và trở thành Thành viên Câu lạc bộ Nhà sáng lập chỉ từ $1.000. Nhận NFT độc quyền, Thẻ Visa BFX, Token Thưởng, Phần thưởng Staking USDT Hàng ngày và Tín dụng Giao dịch Miễn phí.",
+      "tiers": {
+        "novice": "Người mới",
+        "advanced": "Nâng cao",
+        "pro": "Chuyên nghiệp",
+        "expert": "Chuyên gia",
+        "master": "Bậc thầy",
+        "elite": "Ưu tú",
+        "legend": "Huyền thoại"
+      },
+      "cards": {
+        "novice": {
+          "title": "Người mới",
+          "price": "$1.000",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 10%",
+            "visaCard": "Thẻ Visa BFX"
+          },
+          "buttonLabel": "Mua $BFX • $1.000"
+        },
+        "advanced": {
+          "title": "Nâng cao",
+          "price": "$2.500",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 20%",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$500 Tín dụng Giao dịch"
+          },
+          "buttonLabel": "Mua $BFX • $2.500"
+        },
+        "pro": {
+          "title": "Chuyên nghiệp",
+          "price": "$5.000",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 30%",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$1000 Tín dụng Giao dịch"
+          },
+          "buttonLabel": "Mua $BFX • $5.000"
+        },
+        "expert": {
+          "title": "Chuyên gia",
+          "price": "$10.000+",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 40%",
+            "usdtRewards": "Phần thưởng USDT Hàng ngày",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$2000 Tín dụng Giao dịch Thưởng"
+          },
+          "buttonLabel": "Mua $BFX • $10.000"
+        },
+        "master": {
+          "title": "Bậc thầy",
+          "price": "$25.000+",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 50%",
+            "usdtRewards": "Phần thưởng USDT Hàng ngày",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$5000 Tín dụng Giao dịch Thưởng"
+          },
+          "buttonLabel": "Mua $BFX • $25.000"
+        },
+        "elite": {
+          "title": "Ưu tú",
+          "price": "$50.000+",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 60%",
+            "usdtRewards": "Phần thưởng USDT 20%",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$10.000 Tín dụng Giao dịch Thưởng"
+          },
+          "buttonLabel": "Mua $BFX • $50.000"
+        },
+        "legend": {
+          "title": "Huyền thoại",
+          "price": "$100.000+",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 80%",
+            "usdtRewards": "Phần thưởng USDT 30%",
+            "visaCard": "Thẻ Visa BFX vàng 18K",
+            "tradingCredits": "$25.000 Tín dụng Giao dịch"
+          },
+          "buttonLabel": "Mua $BFX • $100.000"
+        }
+      }
+    },
+    "FoundersClubFAQ": {
+      "title": "Câu hỏi về <br /> Câu lạc bộ Nhà sáng lập",
+      "questions": {
+        "nft_timing": {
+          "question": "Khi nào tôi sẽ nhận được NFT Câu lạc bộ Nhà sáng lập của mình?",
+          "answer": "<li>Bạn sẽ nhận được NFT Câu lạc bộ Nhà sáng lập tự động sau khi mua số lượng $BFX yêu cầu.</li> <li>NFT sẽ xuất hiện trong bảng điều khiển cá nhân của bạn và có thể được yêu cầu sau khi đợt bán trước kết thúc.</li> <li>Để truy cập bảng điều khiển, kết nối cùng một ví bằng cách nhấp vào 'Kết nối Ví' ở góc trên bên phải.</li>"
+        },
+        "bonuses_timing": {
+          "question": "Khi nào tôi sẽ nhận được Phần thưởng của mình?",
+          "answer": "<li>Phần thưởng BFX của bạn sẽ được thêm ngay lập tức vào bảng điều khiển của bạn.</li> <li>Để truy cập bảng điều khiển của bạn, nhấp vào nút 'Kết nối Ví'</li>"
+        },
+        "multiple_purchases": {
+          "question": "Tôi có thể nhận NFT với nhiều lần mua không?",
+          "answer": "<li>Có, bạn có thể mua $BFX với số tiền nhỏ hơn để đạt đến tổng số yêu cầu.</li> <li>Ví dụ, mua $BFX trị giá $200 năm lần sẽ giúp bạn nhận được NFT Người mới (trị giá $1.000).</li>"
+        },
+        "upgrade_nft": {
+          "question": "Tôi có thể nâng cấp NFT của mình không?",
+          "answer": "<li>Có, bạn có thể nâng cấp nhiều lần trong suốt đợt bán trước.</li><li>Bạn sẽ nhận được phần thưởng và NFT cho cấp độ cao nhất mà bạn đạt được.</li> <li>Sau khi đợt bán trước kết thúc, việc nâng cấp sẽ không còn khả thi nữa.</li>"
+        }
+      },
+      "tooltip": {
+        "upgrade_info": "Ví dụ, mua $1.000 $BFX sẽ cho bạn NFT Người mới. <br /> Chi thêm $1.500 để nâng cấp lên Nâng cao. <br /> Bạn có thể tiếp tục nâng cấp cho đến khi đạt được NFT Huyền thoại cuối cùng."
+      }
+    },
+    "MobileLessThanSec": {
+      "slide1": {
+        "title": "Kết nối Tiền điện tử và Tài chính",
+        "description1": "Tiền điện tử chỉ chiếm 0,87% khối lượng giao dịch toàn cầu vào năm 2024, trung bình 84,3 tỷ đô la mỗi ngày.",
+        "description2": "Trong khi đó, chỉ riêng thị trường Forex đã xử lý 7,5 nghìn tỷ đô la mỗi ngày. Khoảng cách này tạo ra cơ hội lớn cho $BFX kết nối người dùng tiền điện tử với các thị trường tài chính lớn nhất thế giới.",
+        "chartTitle": "Khối lượng Giao dịch Trung bình Hàng ngày năm 2024",
+        "chart": {
+          "bonds": "Trái phiếu:",
+          "bondsValue": "1,1 nghìn tỷ $ (11,42%)",
+          "stocks": "Cổ phiếu Mỹ:",
+          "stocksValue": "700 tỷ $ (7,27%)",
+          "commodities": "Hàng hóa:",
+          "commoditiesValue": "250 tỷ $ (2,59%)",
+          "crypto": "Tiền điện tử:",
+          "cryptoValue": "89 tỷ $ (0,87%)",
+          "forex": "Forex:",
+          "forexValue": "7,5 nghìn tỷ $ (77,85%)"
+        },
+        "legend": {
+          "forex": "Forex",
+          "bonds": "Trái phiếu",
+          "usStock": "Cổ phiếu Mỹ",
+          "commodities": "Hàng hóa",
+          "crypto": "Tiền điện tử"
+        }
+      },
+      "slide2": {
+        "title": "Cổng vào Thị trường Toàn cầu",
+        "description": "Việc ra mắt một nền tảng giao dịch mới tốn nhiều thời gian và nguồn lực. Mặt khác, việc mua $BFX chỉ mất vài giây và cho phép bạn kiếm tiền mỗi khi có người giao dịch.",
+        "comparison": {
+          "newPlatform": "Nền tảng Giao dịch Mới",
+          "blockchainFX": "BlockchainFX"
+        },
+        "table": {
+          "cost": {
+            "title": "Chi phí",
+            "platform": "Lên đến 2 triệu $",
+            "bfx": "Tùy thuộc vào bạn",
+            "tooltip": "Đây là ngân sách cần thiết chỉ để ra mắt nền tảng ở một số khu vực pháp lý nhất định, không bao gồm nhân viên và tiếp thị."
+          },
+          "time": {
+            "title": "Thời gian",
+            "platform": "Lên đến 3 năm",
+            "bfx": "Mua $BFX chỉ với 2 cú nhấp chuột"
+          },
+          "team": {
+            "title": "Đội ngũ",
+            "platform": "Đội ngũ đa ngôn ngữ có kinh nghiệm làm việc theo ca, 24/7, 365 ngày một năm.",
+            "bfx": "Không cần đội ngũ"
+          },
+          "workScope": {
+            "title": "Phạm vi Công việc",
+            "platform": "Yêu cầu Vốn, Tiếp thị & Xây dựng Thương hiệu, Nhà cung cấp Thanh khoản, Đội ngũ Quản lý Rủi ro, Hỗ trợ Khách hàng, Cơ sở Hạ tầng Công nghệ, Đối tác, Phát triển, Tuyển dụng và Quản lý Nhân viên, và nhiều hơn nữa.",
+            "bfx": "Không cần làm việc"
+          }
+        }
+      },
+      "slide3": {
+        "title": "Được Thiết kế Cho Tăng trưởng Theo cấp số nhân",
+        "description": "BlockchainFX là nền tảng giao dịch được hỗ trợ bởi cộng đồng, thưởng hàng ngày cho người nắm giữ BFX. Khi nền tảng phát triển, token cũng phát triển - tạo ra một chu kỳ mạnh mẽ của tăng trưởng và tham gia. Các nghiên cứu* cho thấy rằng các cộng đồng được khuyến khích có thể phát triển nhanh hơn đáng kể so với các cộng đồng khác, và BFX được thiết kế để tối đa hóa tiềm năng đó.",
+        "chart": {
+          "title": "Dự báo Tăng trưởng",
+          "blockchainFX": "BlockchainFX",
+          "regularPlatform": "Nền tảng Giao dịch Thông thường"
+        },
+        "source": "(*Nguồn: Harvard Business Review, Khi Cộng đồng Trở thành Lợi thế Cạnh tranh của Bạn, 2020)",
+        "buttonText": "Mua $BFX"
+      }
     }
   }

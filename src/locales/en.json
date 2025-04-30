@@ -98,7 +98,7 @@
     "step_3_description": "<p>Earn BFX and USDT rewards from day one!</p><li>Staking rewards are added to your dashboard daily</li><li>USDT (ERC-20) payouts are sent to your wallet every Monday</li>",
     "step_4_title": "4. Claim",
     "step_4_description": "<p>Congratulations! Your tokens will be transferred to your wallet automatically after the presale ends. You don't need to do anything. <br/><br/>Thank you for being part of the BFX journey!</p>",
-    "launch_title": "5. Launch",
+    "launch_title": "5. Launch ",
     "exchanges":"$BFX Launches On Multiple Top-Tier Exchanges",
     "launch_description": "$BFX Launches On Multiple Top-Tier Exchanges",
     "buttonBuy":"Buy Now",
@@ -107,7 +107,7 @@
   },
   "next_generation_section": {
     "title": "Next Generation Trading Experience",
-    "team_experience": "Team with 25 Years <br /> Of Experience",
+    "team_experience": " 25 Years <br /> Of Experience",
     "assets": "500+ <br /> Assets",
     "tight_spreads": "Ultra <br /> Tight Spreads",
     "live_chat": "24/7 Live <br /> Chat Support",
@@ -284,7 +284,7 @@
     }
   },
   "exclusive_benefits_section": {
-    "title": "Benefits Of Buying BFX During The Presale",
+    "title": "Benefits Of Buying BFX  During The Presale",
     "items": {
       "benefit_1": {
         "title": "Lowest Token Price <br/>Before Launch",
@@ -629,5 +629,196 @@
     "disclaimer": "Cryptocurrency may be unregulated in your jurisdiction, and its value can fluctuate, leading to potential gains or losses. Any profits might be subject to capital gains or other taxes, depending on your local laws. The content on this platform does not constitute an offer, recommendation, or financial advice to buy, sell, or engage in any cryptocurrency transactions. You are solely responsible for assessing whether a transaction aligns with your personal goals, financial circumstances, and risk tolerance. We strongly recommend consulting trusted and licensed legal, tax, or financial professionals before making any decisions.\n\nTrading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. BlockchainFX does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.",
     "copyright": "Copyright 2025. All Rights Reserved.",
     "cookie_management": "Cookie Management"
+  },
+
+ "MobilePremiumSec": {
+    "subtitle": "Limited Founder's <br /> Club Membership",
+    "description": "Buy BFX during the presale and become a Founder's Club Member starting from just $1,000. Get your exclusive NFT, BFX Visa Card, Bonus Tokens, Daily USDT Staking Rewards, and Free Trading Credits.",
+    "tiers": {
+      "novice": "Novice",
+      "advanced": "Advanced",
+      "pro": "Pro",
+      "expert": "Expert",
+      "master": "Master",
+      "elite": "Elite",
+      "legend": "Legend"
+    },
+    "cards": {
+      "novice": {
+        "title": "Novice",
+        "price": "$1,000",
+        "points": {
+          "earlyAccess": "Early Access",
+          "bfxBonus": "10% BFX Bonus",
+          "visaCard": "BFX Visa Card"
+        },
+        "buttonLabel": "Buy $BFX • $1,000"
+      },
+      "advanced": {
+        "title": "Advanced",
+        "price": "$2,500",
+        "points": {
+          "earlyAccess": "Early Access",
+          "bfxBonus": "20% BFX Bonus",
+          "visaCard": "Metal BFX Visa Card",
+          "tradingCredits": "$500 Trading Credits"
+        },
+        "buttonLabel": "Buy $BFX • $2,500"
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "$5,000",
+        "points": {
+          "earlyAccess": "Early Access",
+          "bfxBonus": "30% BFX Bonus",
+          "visaCard": "Metal BFX Visa Card",
+          "tradingCredits": "$1000 Trading Credits"
+        },
+        "buttonLabel": "Buy $BFX • $5,000"
+      },
+      "expert": {
+        "title": "Expert",
+        "price": "$10,000+",
+        "points": {
+          "earlyAccess": "Early Access",
+          "bfxBonus": "40% BFX Bonus",
+          "usdtRewards": "Daily USDT Rewards",
+          "visaCard": "Metal BFX Visa Card",
+          "tradingCredits": "$2000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Buy $BFX • $10,000"
+      },
+      "master": {
+        "title": "Master",
+        "price": "$25,000+",
+        "points": {
+          "earlyAccess": "Early Access",
+          "bfxBonus": "50% BFX Bonus",
+          "usdtRewards": "Daily USDT Rewards",
+          "visaCard": "Metal BFX Visa Card",
+          "tradingCredits": "$5000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Buy $BFX • $25,000"
+      },
+      "elite": {
+        "title": "Elite",
+        "price": "$50,000+",
+        "points": {
+          "earlyAccess": "Early Access",
+          "bfxBonus": "60% BFX Bonus",
+          "usdtRewards": "20% USDT Rewards",
+          "visaCard": "Metal BFX Visa Card",
+          "tradingCredits": "$10,000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Buy $BFX • $50,000"
+      },
+      "legend": {
+        "title": "Legend",
+        "price": "$100,000+",
+        "points": {
+          "earlyAccess": "Early Access",
+          "bfxBonus": "80% BFX Bonus",
+          "usdtRewards": "30% USDT Rewards",
+          "visaCard": "18 Karat BFX Visa Card",
+          "tradingCredits": "$25,000 Trading Credits"
+        },
+        "buttonLabel": "Buy $BFX • $100,000"
+      }
+    }
+  },
+  "FoundersClubFAQ": {
+    "title": "Questions About <br /> The Founder's Club",
+    "questions": {
+      "nft_timing": {
+        "question": "When will I get my Founder's Club NFT?",
+        "answer": "<li>You'll receive your Founder's Club NFT automatically after purchasing the required amount of $BFX.</li> <li>The NFT will appear in your personal dashboard and can be claimed once the presale ends.</li> <li>To access the dashboard, connect the same wallet by clicking 'Connect Wallet' in the top right corner.</li>"
+      },
+      "bonuses_timing": {
+        "question": "When will I get my Bonuses?",
+        "answer": "<li>Your BFX bonuses will be instantly added to your dashboard.</li> <li>To access your dashboard, click the 'Connect Wallet' button</li>"
+      },
+      "multiple_purchases": {
+        "question": "Can I get an NFT with multiple purchases?",
+        "answer": "<li>Yes, you can buy $BFX in smaller amounts to reach the total required.</li> <li>For example, buying $200 worth of $BFX five times will earn you the Novice NFT (valued at $1,000).</li>"
+      },
+      "upgrade_nft": {
+        "question": "Can I upgrade my NFT?",
+        "answer": "<li>Yes, you can upgrade multiple times during the presale.</li><li>You'll receive rewards and the NFT for the highest level you achieve.</li> <li> After the presale ends, upgrades will no longer be possible.</li>"
+      }
+    },
+    "tooltip": {
+      "upgrade_info": "For example, buying $1,000 of $BFX gives you the Novice NFT. <br /> Spend $1,500 more to upgrade to Advanced. <br /> You can keep upgrading until you reach the final Legend NFT."
+    }
+  },
+  "MobileLessThanSec": {
+    "slide1": {
+      "title": "Bridging Crypto and Finance",
+      "description1": "Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily.",
+      "description2": "Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major opportunity for $BFX to connect crypto users with the world's largest financial markets.",
+      "chartTitle": "Average Daily Trading Volume in 2024",
+      "chart": {
+        "bonds": "Bonds:",
+        "bondsValue": "$1.1 trillion (11.42%)",
+        "stocks": "U.S. Stocks:",
+        "stocksValue": "$700 billion (7.27%)",
+        "commodities": "Commodities:",
+        "commoditiesValue": "$250 billion (2.59%)",
+        "crypto": "Crypto:",
+        "cryptoValue": "$89 Billion (0.87%)",
+        "forex": "Forex:",
+        "forexValue": "$7.5 trillion (77.85%)"
+      },
+      "legend": {
+        "forex": "Forex",
+        "bonds": "Bonds",
+        "usStock": "US Stock",
+        "commodities": "Commodities",
+        "crypto": "Crypto"
+      }
+    },
+    "slide2": {
+      "title": "The Gateway to Global Markets",
+      "description": "Launching a new trading platform takes a lot of time and resources. On the other hand, buying $BFX takes seconds and lets you earn every time someone trades.",
+      "comparison": {
+        "newPlatform": "New Trading Platform",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "Cost",
+          "platform": "Up to $2 Million",
+          "bfx": "Up to you",
+          "tooltip": "This is the budget needed only to launch the platform in certain jurisdictions, excluding staff and marketing."
+        },
+        "time": {
+          "title": "Time",
+          "platform": "Up to 3 years",
+          "bfx": "Buy $BFX in 2 clicks"
+        },
+        "team": {
+          "title": "Team",
+          "platform": "Experienced multilingual team working in shifts, 24/7, 365 days a year.",
+          "bfx": "No Team required"
+        },
+        "workScope": {
+          "title": "Work Scope",
+          "platform": "Capital Requirements, Marketing & Branding, Liquidity Providers, Risk Management Team, Customer Support, Technology Infrastructure, Partnerships, Development, Hiring and Managing Staff, and more.",
+          "bfx": "No Work Required"
+        }
+      }
+    },
+    "slide3": {
+      "title": "Designed For Exponential Growth",
+      "description": "BlockchainFX is a community-powered trading platform that rewards BFX holders daily. As the platform grows, so does the token — creating a powerful cycle of growth and engagement. Studies* show that incentivized communities can grow significantly faster than others, and BFX is designed to maximize that potential.",
+      "chart": {
+        "title": "Growth Forecasting",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "Regular Trading Platform"
+      },
+      "source": "(*Source: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
+      "buttonText": "Buy $BFX"
+    }
   }
-}
+   
+  }
+ 
