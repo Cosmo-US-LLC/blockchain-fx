@@ -6,33 +6,34 @@ import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2) copy.svg";
 import oneimg from "../assets/OneAppSec/imgonecec.png";
-
-const items = [
-  {
-    icon: oneicon1,
-    title: "Any Device",
-    description:
-      "Users can trade from any device, whether it's a PC, Mac, iOS, or Android.",
-  },
-  {
-    icon: oneicon2,
-    title: "Technical Tools",
-    description: "Advanced technical tools designed to enhance market analysis and decision-making.",
-  },
-  {
-    icon: oneicon3,
-    title: "Risk Management",
-    description: "Downside risk can be easily managed with stop-losses, limit orders, and customizable settings.",
-  },
-  {
-    icon: oneicon4,
-    title: "Multiple Charts",
-    description: "Traders can use multiple charts at the same time for better market insights.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 function MobileOneAppSec() {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
+
+  const items = [
+    {
+      icon: oneicon1,
+      title: t("one_app_section.any_device.title"),
+      description: t("one_app_section.any_device.description"),
+    },
+    {
+      icon: oneicon2,
+      title: t("one_app_section.technical_tools.title"),
+      description: t("one_app_section.technical_tools.description"),
+    },
+    {
+      icon: oneicon3,
+      title: t("one_app_section.risk_management.title"),
+      description: t("one_app_section.risk_management.description"),
+    },
+    {
+      icon: oneicon4,
+      title: t("one_app_section.multiple_charts.title"),
+      description: t("one_app_section.multiple_charts.description"),
+    },
+  ];
 
   const handleToggle = (index) => {
     setActiveIndex(index === activeIndex ? -1 : index);
@@ -40,74 +41,77 @@ function MobileOneAppSec() {
 
   return (
     <div className="pt-[24px] pb-[24px] " id="what-is-bfx-coin">
-     <div className="w-[90%] mx-auto relative">
-     <div className="space-y-[30px]">
-        <div className="space-y-[15px]">
-        <h3 className="text-[34px] font-[600] text-left leading-[114%] text-[white] leading-[-1px] ">
-            Everything In One App
-          </h3>
-          <p className="text-[15px] text-[#fff] text-left font-[400] leading-[127.778%] leading-[-0.32px] ">
-          A lightning-fast and innovative trading solution
-          </p>
-        </div>
-        <div className="w-[100%] space-y-[32px]">
-          <div className="">
-            {items.map((item, index) => (
-              <div
-                key={index}
-                className={`py-[15px] pr-5 border-b last:border-none  transition-all duration-300 ${
-                  index === activeIndex ? "" : ""
-                }`}
-              >
+      <div className="w-[90%] mx-auto relative">
+        <div className="space-y-[30px]">
+          <div className="space-y-[15px]">
+            <h3 className="text-[34px] font-[600] text-left leading-[114%] text-[white] leading-[-1px] ">
+              {t("one_app_section.title")}
+            </h3>
+            <p className="text-[15px] text-[#fff] text-left font-[400] leading-[127.778%] leading-[-0.32px] ">
+              {t("one_app_section.description")}
+            </p>
+          </div>
+          <div className="w-[100%] space-y-[32px]">
+            <div className="">
+              {items.map((item, index) => (
                 <div
-                  className="flex justify-between cursor-pointer"
-                  onClick={() => handleToggle(index)}
+                  key={index}
+                  className={`py-[15px] pr-5 border-b last:border-none  transition-all duration-300 ${
+                    index === activeIndex ? "" : ""
+                  }`}
                 >
-                  <div className="flex w-[100%] justify-between items-center space-x-4 space-y-[15px]">
-                    <div>
-                      <img
-                        src={item.icon}
-                        alt={item.title}
-                        className="w-[35] h-[35px]"
-                      />
-                    </div>
-                    <div className="w-[80%]">
-                      <div className="flex justify-between items-center">
-                        <h3 className="text-[20px] font-[700] text-[white]">
-                          {item.title}
-                        </h3>
-                        <div>
-                          <img
-                            src={index === activeIndex ? iconcls : iconapon}
-                            alt={index === activeIndex ? "Collapse" : "Expand"}
-                            className="w-[37] h-[37px]"
-                          />
-                        </div>
+                  <div
+                    className="flex justify-between cursor-pointer"
+                    onClick={() => handleToggle(index)}
+                  >
+                    <div className="flex w-[100%] justify-between items-center space-x-4 space-y-[15px]">
+                      <div>
+                        <img
+                          src={item.icon}
+                          alt={item.title}
+                          className="w-[35] h-[35px]"
+                        />
                       </div>
-                      <p
-                        className={`mt-[8px] text-[15px] font-[400] text-[#fff] max-w-[400px] overflow-hidden transition-all duration-300 ${
-                          index === activeIndex
-                            ? "max-h-[200px] opacity-100"
-                            : "max-h-0 opacity-0"
-                        }`}
-                        style={{
-                          transition: "max-height 0.3s ease, opacity 0.3s ease",
-                        }}
-                      >
-                        {item.description}
-                      </p>
+                      <div className="w-[80%]">
+                        <div className="flex justify-between items-center">
+                          <h3 className="text-[20px] font-[700] text-[white]">
+                            {item.title}
+                          </h3>
+                          <div>
+                            <img
+                              src={index === activeIndex ? iconcls : iconapon}
+                              alt={
+                                index === activeIndex ? "Collapse" : "Expand"
+                              }
+                              className="w-[37] h-[37px]"
+                            />
+                          </div>
+                        </div>
+                        <p
+                          className={`mt-[8px] text-[15px] font-[400] text-[#fff] max-w-[400px] overflow-hidden transition-all duration-300 ${
+                            index === activeIndex
+                              ? "max-h-[200px] opacity-100"
+                              : "max-h-0 opacity-0"
+                          }`}
+                          style={{
+                            transition:
+                              "max-height 0.3s ease, opacity 0.3s ease",
+                          }}
+                        >
+                          {item.description}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+          <div className="w-[100%] flex justify-center">
+            <img src={oneimg} className="object-cover" alt="" />
           </div>
         </div>
-        <div className="w-[100%] flex justify-center">
-          <img src={oneimg} className="object-cover" alt="" />
-        </div>
       </div>
-     </div>
     </div>
   );
 }

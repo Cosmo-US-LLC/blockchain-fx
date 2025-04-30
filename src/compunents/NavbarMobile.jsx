@@ -1,5 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+
+import i18n from "../i18n";
+
 
 import logo from "../assets/presale-v3/nav_icon.svg";
 import flag from "../assets/navbar/flg.svg";
@@ -19,6 +23,8 @@ import flag11 from "../assets/navbar/flg (11).svg";
 import flag12 from "../assets/navbar/flg (12).svg";
 import flag13 from "../assets/navbar/flg (13).svg";
 import flag14 from "../assets/navbar/flg (14).svg";
+import flag15 from "../assets/navbar/ar.png";
+
 import WalletPopup from "./ui/WalletPopup";
 import DashboardPopup from "./ui/DashboardPopup";
 import { useAccount } from "../presale-gg/web3/hooks";
@@ -36,7 +42,7 @@ const flags = [
   { flag: flag4, abbreviation: "NL", name: "Dutch" },
   { flag: flag5, abbreviation: "JA", name: "Japanese" },
   { flag: flag6, abbreviation: "TR", name: "Turkish" },
-  { flag: flag7, abbreviation: "KO", name: "Korean" },
+   { flag: flag15, abbreviation: "AR", name: "Arabic" },
   { flag: flag8, abbreviation: "IT", name: "Italian" },
   { flag: flag9, abbreviation: "NO", name: "Norwegian" },
   { flag: flag10, abbreviation: "ZH", name: "Chinese" },
@@ -47,26 +53,73 @@ const flags = [
 ];
 
 function NavbarMobile() {
+    const { t } = useTranslation();
+  
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const [dashboardOpen, setDashboardOpen] = useState(false);
-  const [selectedLang, setSelectedLang] = useState({
-    flag: flags[0].flag,
-    abbreviation: flags[0].abbreviation,
-    name: flags[0].name,
-  });
-
+   const [selectedLang, setSelectedLang] = useState(flags[0]);
+   const navigate = useNavigate();
+   const location = useLocation();
+   const [languageChanged, setLanguageChanged] = useState(false);
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
+
+  const parts = location.pathname.split("/").filter(Boolean);
+  const isHome =
+    parts.length === 0 ||
+    (parts.length === 1 &&
+      flags.some((f) => f.abbreviation.toLowerCase() === parts[0]));
+
   const toggleDropdown = () => setIsOpen(!isOpen);
 
-  const handleSelectLanguage = (lang) => {
+  // const handleSelectLanguage = (lang) => {
+  //   setSelectedLang(lang);
+  //   setIsOpen(false);
+  //   setIsMobileMenuOpen(false);
+  // };
+
+  useEffect(() => {
+    const setLanguageFromURL = async () => {
+      const parts = location.pathname.split("/").filter(Boolean);
+      let currentLang = "en"; // default
+  
+      if (parts.length > 0) {
+        const urlLang = parts[0].toLowerCase();
+        if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+          currentLang = urlLang;
+        }
+      }
+  
+      const found = flags.find(
+        (f) => f.abbreviation.toLowerCase() === currentLang
+      );
+      if (found) {
+        setSelectedLang(found);
+        await i18n.changeLanguage(currentLang);
+      }
+    };
+  
+    setLanguageFromURL();
+  }, [location.pathname]);
+
+  const handleSelectLanguage = async (lang) => {
     setSelectedLang(lang);
+    await i18n.changeLanguage(lang.abbreviation.toLowerCase());
     setIsOpen(false);
-    setIsMobileMenuOpen(false);
+  
+    const currentPath = location.pathname.split("/").filter(Boolean);
+    const pagePath =
+      currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
+  
+    if (lang.abbreviation.toLowerCase() === "en") {
+      navigate(`${pagePath || "/"}`);
+    } else {
+      navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
+    }
   };
 
   useEffect(() => {

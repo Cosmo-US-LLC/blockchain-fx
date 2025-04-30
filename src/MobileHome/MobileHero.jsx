@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import hero_reviews from "../assets/presale-v3/hero_reviews.png";
 import stats_1 from "../assets/presale-v3/stats_1.webp";
 import herobnr1 from "../assets/herosection/bnrhero (4).svg";
@@ -8,6 +9,8 @@ import herobnr4 from "../assets/herosection/bnrhero (1).svg";
 import stars from "../assets/herosection/stars.png";
 
 function MobileHero() {
+  const { t } = useTranslation(); // Hook for translations
+
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
@@ -51,69 +54,48 @@ function MobileHero() {
               className="h-[29px] rounded-full flex flex-row items-center justify-center border-1 border-[1px] border-[#FFFFFF33]"
             >
               <h4 className="text-[12px] font-[400] text-[12px] text-[white]">
-                Connecting Blockchain and Global Finance
+                {t("hero_section.hero_subtitle")}
               </h4>
             </div>
             <h2
-              className="pt-4 pb-4 text-[43px] font-[600] text-white text-center font-manrope"
+              className="pt-4 herohed pb-4 text-[43px] font-[600] text-white text-center font-manrope"
               style={{
                 lineHeight: "120%",
                 letterSpacing: "-5%",
               }}
-            >
-              The First Crypto Trading{" "}
-              <span
+              dangerouslySetInnerHTML={{ __html: t(`hero_section.hero_title`) }}
+            />
+            <div className="flex justify-center space-x-2 items-center">
+              <div>
+                <img
+                  className="w-[150px] h-auto mx-auto"
+                  src={hero_reviews}
+                  alt="hero_reviews"
+                />
+                <p className="text-[#fff] pt-[2px] text-center font-[400] text-[12px]">
+                  {t("hero_section.rated_by_users")}
+                </p>
+              </div>
+              <div
+                className="flex space-y-1 items-center flex-col p-3 rounded-[10px]"
                 style={{
-                  background:
-                    "linear-gradient(92.16deg, #E5AE01 24.64%, #FFE182 97%)",
-                  WebkitBackgroundClip: "text",
-                  color: "transparent",
+                  background: "background: rgba(3, 15, 22, 0.30)",
+                  border: "1.5px solid rgba(230, 175, 3, 0.30)",
                 }}
               >
-                Super{" "}
-                <span
-                  style={{
-                    background:
-                      "linear-gradient(92.16deg, #E5AE01 24.64%, #FFE182 97%)",
-                    WebkitBackgroundClip: "text",
-                    color: "transparent",
-                  }}
-                >
-                  App
-                </span>
-              </span>
-            </h2>
-              <div className="flex justify-center space-x-2 items-center">
-             <div>
-             <img
-              className="w-[150px] h-auto mx-auto"
-              src={hero_reviews}
-              alt="hero_reviews"
-            />
-             <p className="text-[#fff] pt-[2px] text-center font-[400] text-[12px]">
-                  Verified Ratings
+                <img
+                  className="w-[82px] h-[15px]"
+                  loading="lazy"
+                  src={stars}
+                  alt="star"
+                />
+                <p className="text-[#fff] font-[400] text-[14px] leading-[100%]">
+                  4.87/5
                 </p>
-             </div>
-            <div
-              className="flex space-y-1 items-center flex-col p-3 rounded-[10px]"
-              style={{
-                background: "background: rgba(3, 15, 22, 0.30)",
-                border: "1.5px solid rgba(230, 175, 3, 0.30)",
-              }}
-            >
-              <img
-                className="w-[82px] h-[15px]"
-                loading="lazy"
-                src={stars}
-                alt="star"
-              />
-              <p className="text-[#fff] font-[400] text-[14px] leading-[100%]">4.87/5 </p>
-            </div>
               </div>
+            </div>
             <p className="text-[16px] text-[#fff] font-[400] text-center pt-4">
-              BlockchainFX is the only crypto native trading platform providing
-              instant access to the world’s largest financial markets with the
-              release of its new BFX coin.
+              {t("hero_section.hero_description")}
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
@@ -124,22 +106,15 @@ function MobileHero() {
                 background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
               }}
             >
-              Buy $BFX
+              {t("hero_section.join_whitelist")}
             </button>
 
-            {/* <a
-              href="https://vip.blockchainfx.com/whitepaper.pdf"
-              target="_blank"
-              className=""
-              rel="noopener noreferrer"
-            > */}
             <button
               onClick={handleScrollToDemo}
               className="w-[144px] hover:text-white hover:bg-[#E5AE00] px-[14px] text-[#E6B005] bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px]  h-[48px]"
             >
-              Watch Demo
+              {t("hero_section.whitepaper")}
             </button>
-            {/* </a> */}
           </div>
           <div className="flex relative justify-center pt-[15px]">
             <img src={stats_1} className="h-auto " alt="stats_1" />

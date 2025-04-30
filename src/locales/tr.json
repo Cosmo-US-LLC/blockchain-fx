@@ -646,5 +646,193 @@
       "disclaimer": "Kripto para birimi, yetki alanınızda düzenlenmemiş olabilir ve değeri dalgalanabilir, potansiyel kazanç veya kayıplara yol açabilir. Herhangi bir kar, yerel yasalarınıza bağlı olarak sermaye kazancı veya diğer vergilere tabi olabilir. Bu platformdaki içerik, herhangi bir kripto para işlemi satın almak, satmak veya katılmak için bir teklif, tavsiye veya finansal tavsiye teşkil etmez. Bir işlemin kişisel hedeflerinize, finansal koşullarınıza ve risk toleransınıza uygun olup olmadığını değerlendirmekten yalnızca siz sorumlusunuz. Herhangi bir karar vermeden önce güvenilir ve lisanslı yasal, vergi veya finansal profesyonellere danışmanızı şiddetle tavsiye ederiz.\n\nKripto para birimleri ile ticaret yapmak, fonlarınızın kısmen veya tamamen kaybı potansiyeli dahil olmak üzere önemli riskler taşır. Kapsamlı araştırma yapmak çok önemlidir. BlockchainFX, bu platformda bahsedilen herhangi bir kripto para birimi için herhangi bir performans, sonuç veya sermaye getirisi garanti etmez. Bu platformu kullanarak, Hizmet Şartlarımızı, Gizlilik Politikamızı, Çerez Politikamızı ve geçerli token satış anlaşmalarını kabul etmiş olursunuz. Platformun içeriği, dağıtımının veya kullanımının yerel yasaları veya düzenlemeleri ihlal edeceği yetki alanlarında kullanılmak üzere tasarlanmamıştır.",
       "copyright": "Telif Hakkı 2025. Tüm Hakları Saklıdır.",
       "cookie_management": "Çerez Yönetimi"
+    },
+    "MobilePremiumSec": {
+      "subtitle": "Sınırlı Kurucular <br /> Kulübü Üyeliği",
+      "description": "Ön satış sırasında BFX satın alın ve sadece 1.000$ ile Kurucular Kulübü üyesi olun. Özel NFT'nizi, BFX Visa Kartınızı, Bonus Tokenlarınızı, Günlük USDT Staking Ödüllerinizi ve Ücretsiz İşlem Kredilerinizi alın.",
+      "tiers": {
+        "novice": "Acemi",
+        "advanced": "İleri Seviye",
+        "pro": "Profesyonel",
+        "expert": "Uzman",
+        "master": "Usta",
+        "elite": "Elit",
+        "legend": "Efsane"
+      },
+      "cards": {
+        "novice": {
+          "title": "Acemi",
+          "price": "$1.000",
+          "points": {
+            "earlyAccess": "Erken Erişim",
+            "bfxBonus": "%10 BFX Bonusu",
+            "visaCard": "BFX Visa Kartı"
+          },
+          "buttonLabel": "BFX Satın Al • $1.000"
+        },
+        "advanced": {
+          "title": "İleri Seviye",
+          "price": "$2.500",
+          "points": {
+            "earlyAccess": "Erken Erişim",
+            "bfxBonus": "%20 BFX Bonusu",
+            "visaCard": "Metal BFX Visa Kartı",
+            "tradingCredits": "$500 İşlem Kredisi"
+          },
+          "buttonLabel": "BFX Satın Al • $2.500"
+        },
+        "pro": {
+          "title": "Profesyonel",
+          "price": "$5.000",
+          "points": {
+            "earlyAccess": "Erken Erişim",
+            "bfxBonus": "%30 BFX Bonusu",
+            "visaCard": "Metal BFX Visa Kartı",
+            "tradingCredits": "$1000 İşlem Kredisi"
+          },
+          "buttonLabel": "BFX Satın Al • $5.000"
+        },
+        "expert": {
+          "title": "Uzman",
+          "price": "$10.000+",
+          "points": {
+            "earlyAccess": "Erken Erişim",
+            "bfxBonus": "%40 BFX Bonusu",
+            "usdtRewards": "Günlük USDT Ödülleri",
+            "visaCard": "Metal BFX Visa Kartı",
+            "tradingCredits": "$2000 Bonus İşlem Kredisi"
+          },
+          "buttonLabel": "BFX Satın Al • $10.000"
+        },
+        "master": {
+          "title": "Usta",
+          "price": "$25.000+",
+          "points": {
+            "earlyAccess": "Erken Erişim",
+            "bfxBonus": "%50 BFX Bonusu",
+            "usdtRewards": "Günlük USDT Ödülleri",
+            "visaCard": "Metal BFX Visa Kartı",
+            "tradingCredits": "$5000 Bonus İşlem Kredisi"
+          },
+          "buttonLabel": "BFX Satın Al • $25.000"
+        },
+        "elite": {
+          "title": "Elit",
+          "price": "$50.000+",
+          "points": {
+            "earlyAccess": "Erken Erişim",
+            "bfxBonus": "%60 BFX Bonusu",
+            "usdtRewards": "%20 USDT Ödülleri",
+            "visaCard": "Metal BFX Visa Kartı",
+            "tradingCredits": "$10.000 Bonus İşlem Kredisi"
+          },
+          "buttonLabel": "BFX Satın Al • $50.000"
+        },
+        "legend": {
+          "title": "Efsane",
+          "price": "$100.000+",
+          "points": {
+            "earlyAccess": "Erken Erişim",
+            "bfxBonus": "%80 BFX Bonusu",
+            "usdtRewards": "%30 USDT Ödülleri",
+            "visaCard": "18 Karat BFX Visa Kartı",
+            "tradingCredits": "$25.000 İşlem Kredisi"
+          },
+          "buttonLabel": "BFX Satın Al • $100.000"
+        }
+      }
+    },
+    "FoundersClubFAQ": {
+      "title": "Kurucular Kulübü <br /> Hakkında Sorular",
+      "questions": {
+        "nft_timing": {
+          "question": "Kurucular Kulübü NFT'mi ne zaman alacağım?",
+          "answer": "<li>Gerekli miktarda $BFX satın aldıktan sonra Kurucular Kulübü NFT'nizi otomatik olarak alacaksınız.</li> <li>NFT, kişisel kontrol panelinizde görünecek ve ön satış sona erdikten sonra talep edilebilecektir.</li> <li>Kontrol panelinize erişmek için, sağ üst köşedeki 'Cüzdan Bağla' düğmesine tıklayarak aynı cüzdanı bağlayın.</li>"
+        },
+        "bonuses_timing": {
+          "question": "Bonuslarımı ne zaman alacağım?",
+          "answer": "<li>BFX bonuslarınız anında kontrol panelinize eklenecektir.</li> <li>Kontrol panelinize erişmek için 'Cüzdan Bağla' düğmesine tıklayın</li>"
+        },
+        "multiple_purchases": {
+          "question": "Birden fazla satın alma ile NFT alabilir miyim?",
+          "answer": "<li>Evet, gerekli toplam miktara ulaşmak için daha küçük miktarlarda $BFX satın alabilirsiniz.</li> <li>Örneğin, beş kez 200$ değerinde $BFX satın almak size Acemi NFT'sini (1.000$ değerinde) kazandıracaktır.</li>"
+        },
+        "upgrade_nft": {
+          "question": "NFT'mi yükseltebilir miyim?",
+          "answer": "<li>Evet, ön satış sırasında birden fazla kez yükseltme yapabilirsiniz.</li><li>Ulaştığınız en yüksek seviyenin ödüllerini ve NFT'sini alacaksınız.</li> <li>Ön satış sona erdikten sonra, yükseltmeler artık mümkün olmayacaktır.</li>"
+        }
+      },
+      "tooltip": {
+        "upgrade_info": "Örneğin, 1.000$ değerinde $BFX satın almak size Acemi NFT'sini verir. <br /> İleri Seviye'ye yükseltmek için 1.500$ daha harcayın. <br /> Son Efsane NFT'sine ulaşana kadar yükseltmeye devam edebilirsiniz."
+      }
+    },
+    "MobileLessThanSec": {
+    "slide1": {
+      "title": "Kripto ve Finans Arasında Köprü Kurmak",
+      "description1": "Kripto, 2024 yılında günlük ortalama 84,3 milyar dolar ile küresel ticaret hacminin sadece %0,87'sini oluşturuyor.",
+      "description2": "Bu arada, sadece Forex piyasası günde 7,5 trilyon dolar işlem yapıyor. Bu boşluk, $BFX'in kripto kullanıcılarını dünyanın en büyük finans piyasalarıyla buluşturması için büyük bir fırsat sunuyor.",
+      "chartTitle": "2024'te Ortalama Günlük İşlem Hacmi",
+      "chart": {
+        "bonds": "Tahviller:",
+        "bondsValue": "1,1 trilyon $ (%11,42)",
+        "stocks": "ABD Hisseleri:",
+        "stocksValue": "700 milyar $ (%7,27)",
+        "commodities": "Emtialar:",
+        "commoditiesValue": "250 milyar $ (%2,59)",
+        "crypto": "Kripto:",
+        "cryptoValue": "89 milyar $ (%0,87)",
+        "forex": "Forex:",
+        "forexValue": "7,5 trilyon $ (%77,85)"
+      },
+      "legend": {
+        "forex": "Forex",
+        "bonds": "Tahviller",
+        "usStock": "ABD Hisseleri",
+        "commodities": "Emtialar",
+        "crypto": "Kripto"
+      }
+    },
+    "slide2": {
+      "title": "Küresel Piyasalara Açılan Kapı",
+      "description": "Yeni bir ticaret platformu başlatmak çok zaman ve kaynak gerektirir. Öte yandan, $BFX satın almak saniyeler sürer ve birisi ticaret yaptığında kazanmanızı sağlar.",
+      "comparison": {
+        "newPlatform": "Yeni Ticaret Platformu",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "Maliyet",
+          "platform": "2 Milyon $'a kadar",
+          "bfx": "Size bağlı",
+          "tooltip": "Bu, personel ve pazarlama hariç, platformu belirli yargı bölgelerinde başlatmak için gereken bütçedir."
+        },
+        "time": {
+          "title": "Zaman",
+          "platform": "3 yıla kadar",
+          "bfx": "$BFX'i 2 tıklamayla satın alın"
+        },
+        "team": {
+          "title": "Ekip",
+          "platform": "Vardiyalı çalışan deneyimli çok dilli ekip, 7/24, yılın 365 günü.",
+          "bfx": "Ekip gerekmez"
+        },
+        "workScope": {
+          "title": "İş Kapsamı",
+          "platform": "Sermaye Gereksinimleri, Pazarlama ve Markalaşma, Likidite Sağlayıcıları, Risk Yönetimi Ekibi, Müşteri Desteği, Teknoloji Altyapısı, Ortaklıklar, Geliştirme, Personel İşe Alma ve Yönetme ve daha fazlası.",
+          "bfx": "İş Gerekmez"
+        }
+      }
+    },
+    "slide3": {
+      "title": "Üstel Büyüme İçin Tasarlandı",
+      "description": "BlockchainFX, BFX sahiplerini günlük olarak ödüllendiren topluluk destekli bir ticaret platformudur. Platform büyüdükçe, token da büyür - bu da güçlü bir büyüme ve katılım döngüsü yaratır. Çalışmalar*, teşvik edilen toplulukların diğerlerinden önemli ölçüde daha hızlı büyüyebileceğini gösteriyor ve BFX bu potansiyeli en üst düzeye çıkarmak için tasarlanmıştır.",
+      "chart": {
+        "title": "Büyüme Tahmini",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "Normal Ticaret Platformu"
+      },
+      "source": "(*Kaynak: Harvard Business Review, Topluluk Rekabet Avantajınız Olduğunda, 2020)",
+      "buttonText": "$BFX Satın Al"
     }
+  }
   }

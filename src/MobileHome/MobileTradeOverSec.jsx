@@ -3,44 +3,41 @@ import takeimg1 from "../assets/TradeOver/takeimg (5).webp";
 import takeimg2 from "../assets/TradeOver/takeimg (1).png";
 import takeimg3 from "../assets/TradeOver/takeimg (2).webp";
 import takeimg4 from "../assets/TradeOver/takeimg (3).webp";
+import { useTranslation } from "react-i18next";
 import takeimg5 from "../assets/TradeOver/takeimg (4).webp";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
-const cardData = [
-  {
-    img: takeimg2,
-    title: "Stocks",
-    subtitle:
-      "Apple, Tesla, Nvidia, Netflix, Coca Cola and more.",
-  },
-  {
-    img: takeimg4,
-    title: "Commodities",
-    subtitle:
-      "Gold, Silver, Oil, Sugar, and more.",
-  },
-  {
-    img: takeimg1,
-    title: "Crypto",
-    subtitle:
-      "Bitcoin, Ethereum, Solana, Pepe, and more.",
-  },
-  {
-    img: takeimg3,
-    title: "Forex",
-    subtitle:
-      "USD, EUR, JPY, GBP, AUD, and more.",
-  },
-  {
-    img: takeimg5,
-    title: "Indices",
-    subtitle:
-      "Dow Jones, S&P 500, Nasdaq and more.",
-  },
-];
-
 function MobileTradeOverSec() {
+  const { t } = useTranslation();
   const [cardIndex, setCardIndex] = useState(0);
+
+  const cardData = [
+    {
+      img: takeimg2,
+      title: "trade_over_section.stocks.title",
+      subtitle: "trade_over_section.stocks.description",
+    },
+    {
+      img: takeimg4,
+      title: "trade_over_section.commodities.title",
+      subtitle: "trade_over_section.commodities.description",
+    },
+    {
+      img: takeimg1,
+      title: "trade_over_section.crypto.title",
+      subtitle: "trade_over_section.crypto.description",
+    },
+    {
+      img: takeimg3,
+      title: "trade_over_section.forex.title",
+      subtitle: "trade_over_section.forex.description",
+    },
+    {
+      img: takeimg5,
+      title: "trade_over_section.indices.title",
+      subtitle: "trade_over_section.indices.description",
+    },
+  ];
 
   const handleNextCard = () => {
     if (cardIndex < cardData.length - 1) {
@@ -58,7 +55,7 @@ function MobileTradeOverSec() {
     <div className="pt-[24px] pb-[24px]">
       <div className="w-[90%] mx-auto space-y-[24px]">
         <h3 className="text-[white] text-[36px] font-[600] leading-[114%] leading-[-1px] text-center">
-          More Than 500 <br /> Different Assets{" "}
+          {t("trade_over_section.title")}
         </h3>
         <div className="">
           {/* Display Card */}
@@ -76,13 +73,12 @@ function MobileTradeOverSec() {
               />
               <div className="px-4 border border-1 border-[#E6AF031F] rounded-bl-[15px] rounded-br-[15px]">
                 <h3 className="text-[23px] text-[white] font-[600] leading-[140%] tracking-[-0.32px] mt-4">
-                  {cardData[cardIndex].title}
+                  {t(cardData[cardIndex].title)}
                 </h3>
                 <p
                   className="text-[15px] font-[400] text-[#fff] leading-[127.778%] tracking-[-0.32px] mt-2 pb-4"
-                  dangerouslySetInnerHTML={{
-                    __html: cardData[cardIndex].subtitle,
-                  }}
+                  dangerouslySetInnerHTML={{ __html: t(cardData[cardIndex].subtitle) }}
+
                 ></p>
               </div>
             </div>

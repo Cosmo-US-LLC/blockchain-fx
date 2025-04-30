@@ -2,34 +2,35 @@ import { useState } from "react";
 import stars from "../assets/presale-v3/Stars.svg";
 import eclipse from "../assets/presale-v3/eclipse.svg";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import { useTranslation } from "react-i18next";
+
 
 export default function YoutubeSec() {
+  const { t } = useTranslation();
   const [videoIndex, setVideoIndex] = useState(0);
 
+  // Use translation data for the video slides
   const videoData = [
     {
-      description:
-        "“Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”",
+      description: "experts.slide1.text",
       link: "https://fast.wistia.net/embed/iframe/aa3tldcsf0",
       id: "big_pottential",
-      dealer: "— Crypto Volt",
-      meta: "Crypto Youtuber, 178K Followers",
+      dealer: "experts.slide1.name",
+      meta: "experts.slide1.role",
     },
     {
-      description:
-        "“Forex, indices, stocks, ETFs, even options — you can trade them all in one place. It’s the first platform of its kind.”",
+      description: "experts.slide2.text",
       link: "https://fast.wistia.net/embed/iframe/y8jip6h7gy",
       id: "hidden_gem",
-      dealer: "— Crypto Dealer",
-      meta: "Youtuber, 102K Followers",
+      dealer: "experts.slide2.name",
+      meta: "experts.slide2.role",
     },
     {
-      description:
-        "“Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be”",
+      description: "experts.slide3.text",
       link: "https://fast.wistia.net/embed/iframe/rln8cnlwja",
       id: "hidden_trades",
-      dealer: "— Crypto Pandas",
-      meta: "Youtuber, 22.7K Followers",
+      dealer: "experts.slide3.name",
+      meta: "experts.slide3.role",
     },
   ];
 
@@ -70,7 +71,9 @@ export default function YoutubeSec() {
               }`}
             >
               <MdKeyboardArrowLeft
-                className={`text-${videoIndex > 0 ? "black" : "white"} text-2xl`}
+                className={`text-${
+                  videoIndex > 0 ? "black" : "white"
+                } text-2xl`}
               />
             </div>
 
@@ -84,20 +87,23 @@ export default function YoutubeSec() {
               }`}
             >
               <MdKeyboardArrowRight
-                className={`text-${videoIndex < videoData.length - 1 ? "black" : "white"} text-2xl`}
+                className={`text-${
+                  videoIndex < videoData.length - 1 ? "black" : "white"
+                } text-2xl`}
               />
             </div>
           </div>
         </div>
         <div>
-          <p className="text-[white] font-[500] text-[20px] text-left">
-            {videoData[videoIndex].description}
+          <p className="text-[white] font-[500] text-[18px] text-left">
+            
+            {t(videoData[videoIndex].description)}
           </p>
           <p className="text-[#D8D8D8] font-[600] text-[15px] mt-2">
-            {videoData[videoIndex].dealer}
+            {t(videoData[videoIndex].dealer)}
           </p>
           <p className="text-[#898989] font-[400] text-[13px]">
-            {videoData[videoIndex].meta}
+            {t(videoData[videoIndex].meta)}
           </p>
           <div className="mt-2">
             <iframe

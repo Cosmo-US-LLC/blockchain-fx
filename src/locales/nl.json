@@ -646,7 +646,195 @@
       "disclaimer": "Cryptocurrency kan ongereguleerd zijn in jouw rechtsgebied, en de waarde ervan kan fluctueren, wat kan leiden tot potentiële winsten of verliezen. Eventuele winsten kunnen onderhevig zijn aan vermogenswinstbelasting of andere belastingen, afhankelijk van je lokale wetgeving. De inhoud op dit platform vormt geen aanbod, aanbeveling of financieel advies om cryptocurrency-transacties te kopen, verkopen of aan te gaan. Je bent als enige verantwoordelijk voor het beoordelen of een transactie in overeenstemming is met je persoonlijke doelen, financiële omstandigheden en risicotolerantie. We raden ten zeerste aan om vertrouwde en gelicentieerde juridische, fiscale of financiële professionals te raadplegen voordat je beslissingen neemt.\n\nHet verhandelen van cryptocurrencies brengt aanzienlijke risico's met zich mee, waaronder de mogelijkheid van gedeeltelijk of volledig verlies van je fondsen. Grondig onderzoek is cruciaal. BlockchainFX garandeert geen enkele prestatie, uitkomst of rendement van kapitaal voor enige cryptocurrency die op dit platform wordt genoemd. Door dit platform te gebruiken, ga je akkoord met onze Servicevoorwaarden, Privacybeleid, Cookiebeleid en eventuele toepasselijke tokenverkoopovereenkomsten. De inhoud van het platform is niet bedoeld voor gebruik in rechtsgebieden waar de distributie of het gebruik ervan lokale wetten of voorschriften zou schenden.",
       "copyright": "Copyright 2025. Alle rechten voorbehouden.",
       "cookie_management": "Cookiebeheer"
+    },
+    "MobilePremiumSec": {
+    "subtitle": "Beperkt Founder's <br /> Club Lidmaatschap",
+    "description": "Koop BFX tijdens de voorverkoop en word lid van de Founder's Club vanaf slechts $1.000. Ontvang je exclusieve NFT, BFX Visa Card, Bonus Tokens, Dagelijkse USDT Staking Beloningen en Gratis Trading Credits.",
+    "tiers": {
+      "novice": "Beginner",
+      "advanced": "Gevorderd",
+      "pro": "Pro",
+      "expert": "Expert",
+      "master": "Meester",
+      "elite": "Elite",
+      "legend": "Legende"
+    },
+    "cards": {
+      "novice": {
+        "title": "Beginner",
+        "price": "$1.000",
+        "points": {
+          "earlyAccess": "Vroege Toegang",
+          "bfxBonus": "10% BFX Bonus",
+          "visaCard": "BFX Visa Card"
+        },
+        "buttonLabel": "Koop $BFX • $1.000"
+      },
+      "advanced": {
+        "title": "Gevorderd",
+        "price": "$2.500",
+        "points": {
+          "earlyAccess": "Vroege Toegang",
+          "bfxBonus": "20% BFX Bonus",
+          "visaCard": "Metalen BFX Visa Card",
+          "tradingCredits": "$500 Trading Credits"
+        },
+        "buttonLabel": "Koop $BFX • $2.500"
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "$5.000",
+        "points": {
+          "earlyAccess": "Vroege Toegang",
+          "bfxBonus": "30% BFX Bonus",
+          "visaCard": "Metalen BFX Visa Card",
+          "tradingCredits": "$1000 Trading Credits"
+        },
+        "buttonLabel": "Koop $BFX • $5.000"
+      },
+      "expert": {
+        "title": "Expert",
+        "price": "$10.000+",
+        "points": {
+          "earlyAccess": "Vroege Toegang",
+          "bfxBonus": "40% BFX Bonus",
+          "usdtRewards": "Dagelijkse USDT Beloningen",
+          "visaCard": "Metalen BFX Visa Card",
+          "tradingCredits": "$2000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Koop $BFX • $10.000"
+      },
+      "master": {
+        "title": "Meester",
+        "price": "$25.000+",
+        "points": {
+          "earlyAccess": "Vroege Toegang",
+          "bfxBonus": "50% BFX Bonus",
+          "usdtRewards": "Dagelijkse USDT Beloningen",
+          "visaCard": "Metalen BFX Visa Card",
+          "tradingCredits": "$5000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Koop $BFX • $25.000"
+      },
+      "elite": {
+        "title": "Elite",
+        "price": "$50.000+",
+        "points": {
+          "earlyAccess": "Vroege Toegang",
+          "bfxBonus": "60% BFX Bonus",
+          "usdtRewards": "20% USDT Beloningen",
+          "visaCard": "Metalen BFX Visa Card",
+          "tradingCredits": "$10.000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Koop $BFX • $50.000"
+      },
+      "legend": {
+        "title": "Legende",
+        "price": "$100.000+",
+        "points": {
+          "earlyAccess": "Vroege Toegang",
+          "bfxBonus": "80% BFX Bonus",
+          "usdtRewards": "30% USDT Beloningen",
+          "visaCard": "18 Karaat BFX Visa Card",
+          "tradingCredits": "$25.000 Trading Credits"
+        },
+        "buttonLabel": "Koop $BFX • $100.000"
+      }
     }
+  },
+  "FoundersClubFAQ": {
+    "title": "Vragen Over <br /> De Founder's Club",
+    "questions": {
+      "nft_timing": {
+        "question": "Wanneer krijg ik mijn Founder's Club NFT?",
+        "answer": "<li>Je ontvangt je Founder's Club NFT automatisch na aankoop van de vereiste hoeveelheid $BFX.</li> <li>De NFT verschijnt in je persoonlijke dashboard en kan worden geclaimd zodra de voorverkoop eindigt.</li> <li>Om toegang te krijgen tot het dashboard, verbind je dezelfde wallet door op 'Verbind Wallet' te klikken in de rechterbovenhoek.</li>"
+      },
+      "bonuses_timing": {
+        "question": "Wanneer krijg ik mijn Bonussen?",
+        "answer": "<li>Je BFX bonussen worden direct toegevoegd aan je dashboard.</li> <li>Om toegang te krijgen tot je dashboard, klik op de knop 'Verbind Wallet'</li>"
+      },
+      "multiple_purchases": {
+        "question": "Kan ik een NFT krijgen met meerdere aankopen?",
+        "answer": "<li>Ja, je kunt $BFX in kleinere bedragen kopen om het vereiste totaal te bereiken.</li> <li>Bijvoorbeeld, het kopen van $BFX ter waarde van $200 vijf keer levert je de Beginner NFT op (ter waarde van $1.000).</li>"
+      },
+      "upgrade_nft": {
+        "question": "Kan ik mijn NFT upgraden?",
+        "answer": "<li>Ja, je kunt meerdere keren upgraden tijdens de voorverkoop.</li><li>Je ontvangt beloningen en de NFT voor het hoogste niveau dat je bereikt.</li> <li>Na afloop van de voorverkoop zijn upgrades niet meer mogelijk.</li>"
+      }
+    },
+    "tooltip": {
+      "upgrade_info": "Bijvoorbeeld, het kopen van $1.000 aan $BFX geeft je de Beginner NFT. <br /> Besteed nog eens $1.500 om te upgraden naar Gevorderd. <br /> Je kunt blijven upgraden tot je de uiteindelijke Legende NFT bereikt."
+    }
+  },
+  "MobileLessThanSec": {
+    "slide1": {
+      "title": "Crypto en Financiën Verbinden",
+      "description1": "Crypto maakt slechts 0,87% uit van het wereldwijde handelsvolume in 2024, met een gemiddelde van $84,3 miljard per dag.",
+      "description2": "Ondertussen verwerkt alleen al de Forex-markt $7,5 biljoen per dag. Deze kloof biedt een grote kans voor $BFX om cryptogebruikers te verbinden met 's werelds grootste financiële markten.",
+      "chartTitle": "Gemiddeld Dagelijks Handelsvolume in 2024",
+      "chart": {
+        "bonds": "Obligaties:",
+        "bondsValue": "$1,1 biljoen (11,42%)",
+        "stocks": "Amerikaanse Aandelen:",
+        "stocksValue": "$700 miljard (7,27%)",
+        "commodities": "Grondstoffen:",
+        "commoditiesValue": "$250 miljard (2,59%)",
+        "crypto": "Crypto:",
+        "cryptoValue": "$89 miljard (0,87%)",
+        "forex": "Forex:",
+        "forexValue": "$7,5 biljoen (77,85%)"
+      },
+      "legend": {
+        "forex": "Forex",
+        "bonds": "Obligaties",
+        "usStock": "Amerikaanse Aandelen",
+        "commodities": "Grondstoffen",
+        "crypto": "Crypto"
+      }
+    },
+    "slide2": {
+      "title": "De Toegangspoort tot Wereldwijde Markten",
+      "description": "Het lanceren van een nieuw handelsplatform kost veel tijd en middelen. Aan de andere kant duurt het kopen van $BFX slechts enkele seconden en kun je verdienen elke keer dat iemand handelt.",
+      "comparison": {
+        "newPlatform": "Nieuw Handelsplatform",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "Kosten",
+          "platform": "Tot $2 miljoen",
+          "bfx": "Aan jou",
+          "tooltip": "Dit is het budget dat alleen nodig is om het platform te lanceren in bepaalde rechtsgebieden, exclusief personeel en marketing."
+        },
+        "time": {
+          "title": "Tijd",
+          "platform": "Tot 3 jaar",
+          "bfx": "Koop $BFX in 2 klikken"
+        },
+        "team": {
+          "title": "Team",
+          "platform": "Ervaren meertalig team dat in ploegen werkt, 24/7, 365 dagen per jaar.",
+          "bfx": "Geen team vereist"
+        },
+        "workScope": {
+          "title": "Werkbereik",
+          "platform": "Kapitaalvereisten, Marketing & Branding, Liquiditeitsverschaffers, Risicobeheerteam, Klantenondersteuning, Technologische infrastructuur, Partnerschappen, Ontwikkeling, Personeel werven en beheren, en meer.",
+          "bfx": "Geen werk vereist"
+        }
+      }
+    },
+    "slide3": {
+      "title": "Ontworpen Voor Exponentiële Groei",
+      "description": "BlockchainFX is een door de gemeenschap aangedreven handelsplatform dat BFX-houders dagelijks beloont. Naarmate het platform groeit, groeit ook de token - wat een krachtige cyclus van groei en betrokkenheid creëert. Studies* tonen aan dat gestimuleerde gemeenschappen aanzienlijk sneller kunnen groeien dan anderen, en BFX is ontworpen om dat potentieel te maximaliseren.",
+      "chart": {
+        "title": "Groeiprognose",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "Regulier Handelsplatform"
+      },
+      "source": "(*Bron: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
+      "buttonText": "Koop $BFX"
+    }
+  }
 
   }
  
