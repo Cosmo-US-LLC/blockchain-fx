@@ -43,7 +43,7 @@ function LivePresale() {
         />
         <button
           onClick={handleScroll}
-          className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[10px] text-[10px] font-[700] border border-1 border-[black] rounded-[3px] h-[25px] px-[10px]"
+          className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] border border-1 border-[black] rounded-[3px] h-[25px] px-[6px] md:px-[10px]"
         >
           {t("live_presale_section.buy_button")}
         </button>

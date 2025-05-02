@@ -191,7 +191,7 @@ function NavbarMobile() {
                 href=""
                 onClick={(e) => handleScroll(e, "what-is-bfx-coin", 60)}
               >
-                What is BlockchainFX?
+                {t("navbar.whatIsBlockchainFX")}
               </a>{" "}
               <br />
               <a
@@ -199,7 +199,7 @@ function NavbarMobile() {
                 href=""
                 onClick={(e) => handleScroll(e, "Wallet", 60)}
               >
-                How to Buy
+               {t("navbar.howToBuy")}
               </a>{" "}
               <br />
               <a
@@ -207,7 +207,7 @@ function NavbarMobile() {
                 href=""
                 onClick={(e) => handleScroll(e, "whitepaper", 90)}
               >
-                Whitepaper
+               {t("navbar.whitepaper")}
               </a>{" "}
               <br />
               <Link 
@@ -215,7 +215,7 @@ function NavbarMobile() {
              target="_blank"
             className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
             >
-            Referral
+          {t("navbar.referral")}
             </Link>
               <br />
               <a
@@ -223,7 +223,7 @@ function NavbarMobile() {
                 href="#"
                 onClick={(e) => handleScroll(e, "reviews", 90)}
               >
-                Reviews
+                 {t("navbar.reviews")}
               </a>{" "}
               <br />
               {/* <a
@@ -296,7 +296,7 @@ function NavbarMobile() {
               }}
               className="h-[32px] w-[108px] font-[700] text-[12px] rounded-[6px]"
             >
-              {accountData.isConnected ? "Dashboard" : "Connect Wallet"}
+              {accountData.isConnected ? t("navbar.dashboard") :t("navbar.connect_wallet")}
             </button>
             {modalData.connectWalletModalOpen && (
               <WalletPopup onClose={() => hideConnectWalletModal()} />

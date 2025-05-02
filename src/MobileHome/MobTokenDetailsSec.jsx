@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import copy from "../assets/TokenAllocationSec/fa-solid_copy.png";
+import copy from "../assets/TokenAllocationSec/fa-solid_copy.svg";
 import chart from "../assets/TokenAllocationSec/chart_w.png";
 
 function MobTokenDetailsSec() {

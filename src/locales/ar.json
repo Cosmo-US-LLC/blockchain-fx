@@ -447,9 +447,13 @@
     "previous": "السابق"
   },
     "multiAward": {
-      "heading": "منصة تداول حاصلة على جوائز متعددة",
-      "subheading": "جوائزنا تتحدث عن نفسها"
-    },
+    "heading": "منصة تداول حاصلة على جوائز متعددة",
+    "subheading": "جوائزنا تتحدث عن نفسها",
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "أفضل <br /> منصة تداول <br /> 2025",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "أسرع <br /> وسيط تداول نمواً <br /> 2025"
+  },
     "trader_reviews_section": {
       "title": "ما يقوله المتداولون عن <span>BlockchainFX</span>",
       "ratings": {

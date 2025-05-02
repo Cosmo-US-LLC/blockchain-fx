@@ -434,6 +434,14 @@
       }
     }
   },
+  "multiAward": {
+    "heading": "Plataforma de Negociação Multiepremiada",
+    "subheading": "Nossos prêmios falam por si mesmos",
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "Melhor <br /> Plataforma de Negociação <br /> 2025",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "Corretora de Negociação de Crescimento Mais Rápido <br /> 2025"
+  },
   "roadmap": {
     "title": "Roteiro",
     "vectorAlt": "Imagem vetorial decorativa",
