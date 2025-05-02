@@ -100,7 +100,7 @@ function MobRoadmapSec() {
                           </div>
                         )}
                       </h2>
-                      {step.status && (
+                      {/* {step.status && (
                         <p
                           style={{
                             background: step.status === t("MobRoadmap_Section.Completed")
@@ -119,7 +119,28 @@ function MobRoadmapSec() {
                         >
                           {step.status}
                         </p>
-                      )}
+                      )} */}
+                       {step.status && (
+                    <p
+                      style={{
+                        background:
+                          step.status === t("Roadmap_section.Completed")
+                            ? "rgba(0, 124, 45, 0.16)"
+                            : step.status === t("Roadmap_section.On-going")
+                            ? "rgba(255, 190, 82, 0.13)"
+                            : "transparent",
+                      }}
+                      className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
+                        step.status === t("Roadmap_section.Completed")
+                          ? "text-[#01BA48]"
+                          : step.status === t("Roadmap_section.On-going")
+                          ? "text-[#C47E0A]"
+                          : ""
+                      }`}
+                    >
+                      {step.status}
+                    </p>
+                  )}
                     </div>
                   </div>
                   <div className="bg-[#030F16] border border-white border-opacity-10 max-w-[340px] mx-auto border-t-0 rounded-[8px] rounded-t-none pl-[30px] pr-[15px] py-[20px] space-y-6 w-[100%]">

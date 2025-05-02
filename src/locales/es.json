@@ -445,8 +445,12 @@
     "previous": "Anterior"
   },
   "multiAward": {
-    "heading": "Plataforma de Trading Multi-premiada",
-    "subheading": "Nuestros Premios Hablan por Sí Mismos"
+    "heading": "Plataforma de Trading Multigalardonada",
+    "subheading": "Nuestros premios hablan por sí solos",
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "Mejor <br /> Plataforma de Trading <br /> 2025",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "Corredor de trading de más rápido crecimiento <br /> 2025"
   },
   "trader_reviews_section": {
     "title": "Qué Dicen los Traders sobre <span>BlockchainFX</span>",

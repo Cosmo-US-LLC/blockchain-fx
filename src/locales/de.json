@@ -446,8 +446,12 @@
     "previous": "Zurück"
   },
   "multiAward": {
-    "heading": "Mehrfach ausgezeichnete Handelsplattform",
-    "subheading": "Unsere Auszeichnungen sprechen für sich"
+    "heading": "Multi-ausgezeichnete Handelsplattform",
+    "subheading": "Unsere Auszeichnungen sprechen für sich",
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "Beste <br /> Handelsplattform <br /> 2025",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "Am schnellsten wachsender <br /> Handelsbroker <br /> 2025"
   },
   "trader_reviews_section": {
     "title": "Was Händler über <span>BlockchainFX</span> sagen",

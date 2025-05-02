@@ -5,17 +5,18 @@ import rwdimg2 from "../assets/OurAwardSec/rwdimg (2).webp";
 import rwdimg3 from "../assets/OurAwardSec/rwdimg (3).webp";
 
 function MobOurAwardSec() {
-  const { t } = useTranslation(); // Initialize translation function
+  const { t } = useTranslation();
 
   return (
     <div className="pt-[24px] bg-[#000] pb-[24px]" id="win">
       <div className="relative space-y-[20px] w-[90%] mx-auto">
         <div className="space-y-[10px]">
           <h4 className="text-[20px] font-[400] text-center leading-[114%] text-[#FFF] tracking-[-1px]">
-            {t("multiAward.heading")} {/* Translated heading */}
+            {t("multiAward.heading")} 
           </h4>
-          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#FFF] tracking-[-1px]">
-            {t("multiAward.subheading")} {/* Translated subheading */}
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#FFF] tracking-[-1px]"
+          dangerouslySetInnerHTML={{ __html: t(`multiAward.subheading`) }}
+          >
           </h3>
         </div>
         <div className="space-y-[40px]">
@@ -30,11 +31,11 @@ function MobOurAwardSec() {
             <div className="space-y-[10px] max-w-[324.48px] h-[160px] flex items-center justify-center flex-col w-[100%] relative mx-auto pb-[2.4rem]">
               <div className="flex flex-col items-center pb-2">
                 <h3 className="text-[7px] text-center text-[#FFF] uppercase font-[700]">
-                  {t("award.theCoinRise.title")} {/* Translated title */}
+                  {t("multiAward.theCoinRise")}
                 </h3>
-                <p className="text-[10px] text-center leading-[115%] uppercase text-[#FFF] font-[400]">
-                  {t("award.theCoinRise.description")}{" "}
-                  {/* Translated description */}
+                <p className="text-[10px] text-center leading-[115%] uppercase text-[#FFF] font-[400]"
+                dangerouslySetInnerHTML={{ __html: t(`multiAward.theCoinRise_desp`) }}
+                >
                 </p>
               </div>
               <img
@@ -62,11 +63,11 @@ function MobOurAwardSec() {
             <div className="space-y-[10px] max-w-[324.48px] h-[160px] flex items-center justify-center flex-col w-[100%] relative mx-auto pb-[2.4rem]">
               <div className="flex flex-col items-center pb-2">
                 <h3 className="text-[7px] text-center text-[#FFF] uppercase font-[700]">
-                  {t("award.altcoinDaily.title")} {/* Translated title */}
+                  {t("multiAward.altcoinDaily")} 
                 </h3>
-                <p className="text-[10px] text-center leading-[115%] uppercase text-[#FFF] font-[400]">
-                  {t("award.altcoinDaily.description")}{" "}
-                  {/* Translated description */}
+                <p className="text-[10px] text-center leading-[115%] uppercase text-[#FFF] font-[400]"
+                dangerouslySetInnerHTML={{ __html: t(`multiAward.altcoinDaily_desp`) }}
+                >
                 </p>
               </div>
               <img

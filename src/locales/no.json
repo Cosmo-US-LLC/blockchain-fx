@@ -512,6 +512,14 @@
       }
     }
   },
+  "multiAward": {
+    "heading": "Prisbelønt Handelsplattform",
+    "subheading": "Våre priser taler for seg selv",
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "Beste <br /> Handelsplattform <br /> 2025",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "Raskest Voksende <br /> Handelsmegler <br /> 2025"
+  },
   "pressMedia": {
     "title": "Presse & Media",
     "quotes": {
