@@ -43,7 +43,7 @@ const StakeTab = () => {
   }
 
 	return (
-    <div className="gap-[10px] flex-1 justify-between flex flex-col relative w-full min-h-full">
+    <div className="gap-[10px] flex-1 justify-between flex flex-col relative w-full min-h-[300px] 2xl:max-h-[380px] xl:max-h-[380px] lg:max-h-[380px] md:max-h-[100%] sm:max-h-[100%] max-h-[100%]">
       <p className="text-center text-[#fff] text-[16px] font-bold">Staking</p>
       <div className="flex flex-col gap-[inherit]">
         <div className="flex gap-4 <md:flex-col">
@@ -63,7 +63,7 @@ const StakeTab = () => {
             }}
           >
             <p className="leading-[1.2] font-bold text-[#fff] text-[14px]">{formatNumber(parseNum(userData.userStakeData?.daily_interest), 0, 4)} BFX</p>
-            <p className="leading-[1.2] text-[#fff]">Daily Interest</p>
+            <p className="leading-[1.2] text-[#fff]">Current Daily Interest</p>
           </div>
         </div>
         <div className="flex gap-4 <md:flex-col">
@@ -82,8 +82,8 @@ const StakeTab = () => {
               background: "rgba(176, 176, 176, 0.17)",
             }}
           >
-            <p className="leading-[1.2] font-bold text-[#fff] text-[14px]">286%</p>
-            <p className="leading-[1.2] text-[#fff]">APY</p>
+            <p className="leading-[1.2] font-bold text-[#fff] text-[14px]">158% ~ 286%</p>
+            <p className="leading-[1.2] text-[#fff]">Expected APY</p>
           </div>
         </div>
       </div>
