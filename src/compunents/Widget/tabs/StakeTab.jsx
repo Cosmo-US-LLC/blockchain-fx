@@ -53,7 +53,7 @@ const StakeTab = () => {
               background: "rgba(176, 176, 176, 0.17)",
             }}
           >
-            <p className="leading-[1.2] text-[#fff] font-bold text-[14px]">{formatNumber(parseNum(userData.userStakeData?.total_staked), 0, 4)} BFX</p>
+            <p className="leading-[1.2] text-[#fff] font-bold text-[14px]">{formatNumber(parseNum(userData.userStakeData?.total_staked), 0, 2)} BFX</p>
             <p className="leading-[1.2] text-[#fff]">Currently Staked</p>
           </div>
           <div
@@ -62,7 +62,7 @@ const StakeTab = () => {
               background: "rgba(176, 176, 176, 0.17)",
             }}
           >
-            <p className="leading-[1.2] font-bold text-[#fff] text-[14px]">{formatNumber(parseNum(userData.userStakeData?.daily_interest), 0, 4)} BFX</p>
+            <p className="leading-[1.2] font-bold text-[#fff] text-[14px]">{formatNumber(parseNum(userData.userStakeData?.daily_interest), 0, 2)} BFX</p>
             <p className="leading-[1.2] text-[#fff]">Current Daily Interest</p>
           </div>
         </div>
@@ -73,7 +73,7 @@ const StakeTab = () => {
               background: "rgba(176, 176, 176, 0.17)",
             }}
           >
-            <p className="leading-[1.2] text-[#fff] font-bold text-[14px]">{formatNumber(parseNum(userData.userStakeData?.total_earnings), 0, 4)} BFX</p>
+            <p className="leading-[1.2] text-[#fff] font-bold text-[14px]">{formatNumber(parseNum(userData.userStakeData?.total_earnings), 0, 2)} BFX</p>
             <p className="leading-[1.2] text-[#fff]">Total Earnings</p>
           </div>
           <div
@@ -82,7 +82,7 @@ const StakeTab = () => {
               background: "rgba(176, 176, 176, 0.17)",
             }}
           >
-            <p className="leading-[1.2] font-bold text-[#fff] text-[14px]">158% ~ 286%</p>
+            <p className="leading-[1.2] font-bold text-[#fff] text-[14px]">158% ~ 297%</p>
             <p className="leading-[1.2] text-[#fff]">Expected APY</p>
           </div>
         </div>
