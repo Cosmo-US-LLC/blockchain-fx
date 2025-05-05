@@ -19,7 +19,7 @@ function RoadmapSec() {
       <div className="max-w-[1054px] relative space-y-[120px] w-[100%] mx-auto ">
         <div className="">
           <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-          Roadmap
+          {/* Roadmap */}
           </h3>
         </div>
       <div className="space-y-[62px]">

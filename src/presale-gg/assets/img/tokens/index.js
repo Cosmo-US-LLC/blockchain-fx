@@ -5,6 +5,7 @@ import bnb from "./bnb.svg";
 import btc from "./btc.svg";
 import busd from "./busd.svg";
 import card from "./card.svg";
+import visaCard from "./visacard.svg";
 import cro from "./cro.svg";
 import doge from "./doge.svg";
 import etc from "./etc.svg";
@@ -31,6 +32,7 @@ export const tokenImageMap = {
   btc,
   busd,
   card,
+  visaCard,
   cro,
   doge,
   etc,
@@ -54,6 +56,7 @@ export const tokenNameMap = {
   tether: usdt,
   bnb,
   card,
+  visaCard,
   ethereum: eth,
   solana: sol,
   ripple: xrp,

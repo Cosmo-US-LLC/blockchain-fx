@@ -30,6 +30,39 @@ code {
 p {
   line-height: 185%;
 }
+.offscreen-section {
+  content-visibility: auto !important;
+}
+.swiper-button-prev-slide-swp,
+.swiper-button-next-slide-swp {
+  background-color: #020B10 !important;
+  color: white !important;
+  transition: all 0.3s ease;
+  font-weight: 500 !important;
+  border: 1px solid black;
+  font-family: monospace !important;
+  font-size: 15px;
+}
+.review span{
+  color: #E5AE00;
+}
+
+.swiper-button-prev-slide-swp:not(.swiper-button-disabled),
+.swiper-button-next-slide-swp:not(.swiper-button-disabled) {
+  background-color: rgb(229 174 0) !important;
+  color: black !important;
+  font-weight: 700 !important;
+  border: 1px solid black;
+  cursor: pointer;
+  font-family: monospace !important;
+  font-size: 16px;
+
+}
+
+.herohed span {
+  background: linear-gradient(92deg, rgb(229, 174, 1) 24.64%, rgb(255, 225, 130) 97%) text !important;
+  -webkit-text-fill-color: transparent;
+}
 
 .custom-range {
   -webkit-appearance: none;
@@ -115,6 +148,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1280px; /* Or your desired maximum width */
+  margin: auto
 }
 .bgtheyltmob {
   background-image: url(../src/assets/TheUltimateSec/bgmob.webp);
@@ -144,4 +179,31 @@ p {
   opacity: 0.35 !important;
   cursor: auto !important;
   pointer-events: none !important;
+}
+
+/* Custom slider spacing */
+.roadmap-slider .slick-list {
+  margin: 0 -7px;
+}
+.roadmap-slider .slick-slide > div {
+  padding: 0 7px;
+  height: 100%; /* Ensures equal height */
+}
+
+.whitepaperBg {
+  /* background: url('./assets/Whitepaper/whitepaper_bg.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 100% 100%;
+  background-image: url('./assets/Whitepaper/whitepaper_bg.png');
+}
+
+.custom-bullet {
+  background-color: #1c1917;
+  cursor: pointer;
+
+}
+.swiper-pagination-bullet-active.custom-bullet {
+  background-color: #dba81d;
 }

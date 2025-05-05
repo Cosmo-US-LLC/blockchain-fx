@@ -13,9 +13,15 @@ import { useClickAway } from "../../presale-gg/web3/hooks";
  * @param {number | null} props.selectedTokenId
  * @param {(item: import("../../presale-gg/api/api.types").API.PaymentToken) => void} props.onChange
  * @returns {import("react").JSX.Element}
+ * @param {(active: boolean) => string} [props.getClassName]
  */
 const TokenSelectDropdown = (props) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const isDefault = useMemo(() => {
+    return !props.tokenList.currencies.find(
+      (token) => token.id === props.selectedTokenId,
+    );
+  }, [props.tokenList, props.selectedTokenId])
   const token = useMemo(() => {
     const token = props.tokenList.currencies.find(
       (token) => token.id === props.selectedTokenId,
@@ -26,6 +32,13 @@ const TokenSelectDropdown = (props) => {
 
   const containerRef = useRef(null);
   useClickAway(containerRef, () => setDropdownOpen(false));
+
+  const className = props.getClassName
+  ? props.getClassName(active)
+  : clsx(
+      "flex items-center justify-start rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
+      { "!bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)]": active }
+    );
 
   return (
     <div className="relative flex flex-col" ref={containerRef}>
@@ -42,34 +55,41 @@ const TokenSelectDropdown = (props) => {
             ? "rgba(176, 176, 176, 0.7)"
             : "rgba(176, 176, 176, 0.17)",
         }}
-        className={clsx(
-          "flex items-center px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
-          { "!bg-[#e5ae00]": active },
-        )}
+        className={className}
       >
+        {/* {
+          (token?.symbol.toLowerCase() === 'card') && (
+            <img
+            className="w-[18px] h-[18px]"
+            src={tokenImageMap['visaCard']}
+            alt=""
+          />
+          )
+        } */}
         {token && (
           <img
-            className="w-[18px] h-[18px] object-cover"
+            className="w-[18px] h-[18px]"
             src={tokenImageMap[token.symbol.toLowerCase()]}
             alt=""
           />
         )}
+        
         <div className="flex flex-col text-start">
           <span
             className={clsx(
-              "text-[11.688px] font-[700] leading-[1] transition-colors",
+              "text-[11.688px] text-[#fff] font-[700] leading-[1] transition-colors",
               {
-                "!text-[#fff]": active,
+                "!text-[#000]": active,
               },
             )}
           >
             {token?.symbol.toUpperCase() ?? props.tokenList.placeholder}
           </span>
-          {token && (
+          {(token && (!isDefault || token.symbol.toUpperCase() !== "USDT")) && (
             <span
               className={clsx(
                 "text-[#777] text-[8.688px] font-[700] leading-[1] whitespace-nowrap transition-colors",
-                { "!text-[#ddd]": active },
+                { "!text-[#000]": active },
               )}
             >
               {token.chain.toUpperCase()}
@@ -83,7 +103,7 @@ const TokenSelectDropdown = (props) => {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke={active ? "#fff" : "#000"}
+            stroke={active ? "#000" : "#fff"}
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"

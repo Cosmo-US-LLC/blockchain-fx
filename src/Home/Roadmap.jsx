@@ -1,0 +1,253 @@
+import React, { useState, useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import line from "../assets/Roadmap/line.png";
+import tick from "../assets/TraderReviewsSec/teenyicons_tick-circle-solid.svg";
+import rightArrow from "../assets/Roadmap/rightarrow.png";
+import leftArrow from "../assets/Roadmap/rightarrow.png";
+
+function RoadmapSection() {
+  const { t } = useTranslation();
+  const sliderRef = useRef(null);
+  const [currentGroup, setCurrentGroup] = useState(0);
+
+  const cardGroups = [
+    {
+      slides: [0, 1, 2],
+      phases: [t("Roadmap_section.Genesis"), t("Roadmap_section.Foundations"), t("Roadmap_section.Takeoff")],
+    },
+    {
+      slides: [3, 4, 5],
+      phases: [t("Roadmap_section.Scale"), t("Roadmap_section.Expansion"), t("Roadmap_section.Global Reach")],
+    },
+  ];
+
+  const NextArrow = ({ onClick }) => (
+    <div
+      className="absolute right-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
+      onClick={onClick}
+    >
+      <img src={rightArrow} alt={t("Roadmap_section.next")} className="h-10 w-10" />
+    </div>
+  );
+
+  const PrevArrow = ({ onClick }) => (
+    <div
+      className="absolute left-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
+      onClick={onClick}
+    >
+      <img src={leftArrow} alt={t("Roadmap_section.previous")} className="h-10 w-10 rotate-[180deg]" />
+    </div>
+  );
+
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    beforeChange: (_, newIndex) => {
+      const newGroup = cardGroups.findIndex((group) =>
+        group.slides.includes(newIndex)
+      );
+      if (newGroup !== -1 && newGroup !== currentGroup) {
+        setCurrentGroup(newGroup);
+      }
+    },
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
+        },
+      },
+    ],
+  };
+
+  useEffect(() => {
+    if (sliderRef.current) {
+      const initialSlide = sliderRef.current.innerSlider.state.currentSlide;
+      const initialGroup = cardGroups.findIndex((group) =>
+        group.slides.includes(initialSlide)
+      );
+      setCurrentGroup(initialGroup >= 0 ? initialGroup : 0);
+    }
+  }, []);
+
+  const slideData = [
+    {
+      title: t("Roadmap_section.Preparation"),
+      status: t("Roadmap_section.Completed"),
+      items: [
+        t("Roadmap_section.Idea + concept"),
+        t("Roadmap_section.Raise Seed Funds"),
+        t("Roadmap_section.Onboard Team & Advisors"),
+        t("Roadmap_section.Trading Platform Beta Preparation"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Execution"),
+      status: t("Roadmap_section.Completed"),
+      items: [
+        t("Roadmap_section.Website, Tokenomics etc."),
+        t("Roadmap_section.Create $BFX Token"),
+        t("Roadmap_section.Launch $BFX Pre-Sale"),
+        t("Roadmap_section.Certik Token Audit"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Launch"),
+      status: t("Roadmap_section.On-going"),
+      items: [
+        t("Roadmap_section.Launch an Affiliate Program"),
+        t("Roadmap_section.Sell Out the Pre-Sale"),
+        t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
+        t("Roadmap_section.Achieving 10000 BFX Holders"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Performance"),
+      items: [
+        t("Roadmap_section.Multiple CEX Listing"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Reach $100M Daily Trading Volume"),
+        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Expansion"),
+      items: [
+        t("Roadmap_section.Multiple CEX Listing"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Reach $100M Daily Trading Volume"),
+        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Global Reach"),
+      items: [
+        t("Roadmap_section.US License"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Global Marketing Campaigns"),
+        t("Roadmap_section.Major Global Partnerships"),
+      ],
+    },
+  ];
+
+  return (
+    <div className="bg-[#020B10] pt-[30px] pb-[60px]" id="roadmap">
+      <h3 className="text-center text-[48px] font-[600] leading-[120%] text-white tracking-[-1.5px] mb-28">
+        {t("Roadmap_section.Roadmap")} <br />
+        <span className="text-[#fff] text-xl font-[400]">
+          {t("Roadmap_section.From Fintech Startup to Global Market Leader")}
+        </span>
+      </h3>
+
+      <div className="relative w-full mx-auto">
+        <img className="w-full" src={line} alt="Roadmap Line" />
+
+        <div className="absolute bottom-7 left-0 right-0 flex justify-between px-4">
+          {cardGroups[currentGroup].phases.map((text, index) => {
+            const isFirst = index === 0;
+            const isLast = index === cardGroups[currentGroup].phases.length - 1;
+            return (
+              <div
+                key={index}
+                className="flex flex-col items-center absolute"
+                style={{
+                  left: isLast
+                    ? "calc(100% - 330px)"
+                    : `${
+                        (index / (cardGroups[currentGroup].phases.length - 1)) *
+                        100
+                      }%`,
+                  transform: "translateX(-50%)",
+                  top: "-35px",
+                  marginLeft: isFirst ? "340px" : "0",
+                  marginRight: isLast ? "100px" : "0",
+                }}
+              >
+                <p className="text-white text-[24px]">{text}</p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="max-w-[1280px] mx-auto mt-20 relative px-12">
+        <Slider ref={sliderRef} {...settings}>
+          {slideData.map((slide, index) => (
+            <div key={index} className="px-2">
+              <div className="bg-[#030F16] border border-[#242424] rounded-[4px] p-6 h-full">
+                <div
+                  className="flex justify-between pb-2 items-center"
+                  style={{
+                    borderBottom:
+                      "1px solid var(--stroke, rgba(230, 175, 3, 0.12))",
+                  }}
+                >
+                  <h4 className="text-[#fff] text-[24px]">{slide.title}</h4>
+                  {slide.status && (
+                    <p
+                      style={{
+                        background:
+                          slide.status === t("Roadmap_section.Completed")
+                            ? "rgba(0, 124, 45, 0.16)"
+                            : slide.status === t("Roadmap_section.On-going")
+                            ? "rgba(255, 190, 82, 0.13)"
+                            : "transparent",
+                      }}
+                      className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
+                        slide.status === t("Roadmap_section.Completed")
+                          ? "text-[#01BA48]"
+                          : slide.status === t("Roadmap_section.On-going")
+                          ? "text-[#C47E0A]"
+                          : ""
+                      }`}
+                    >
+                      {slide.status}
+                    </p>
+                  )}
+                </div>
+                <ul className="text-white pt-2">
+                  {slide.items.map((item, itemIndex) => {
+                    const isSlideOne = index === 0;
+                    const isSlideTwo = index === 1;
+                    const showTick = isSlideOne || isSlideTwo;
+
+                    return (
+                      <li key={itemIndex} className="flex items-center mb-2">
+                        {showTick && (
+                          <img className="w-4 h-4 mr-2" src={tick} alt="tick" />
+                        )}
+                        {item}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </div>
+  );
+}
+
+export default RoadmapSection;

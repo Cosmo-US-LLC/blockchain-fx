@@ -1,0 +1,242 @@
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
+import iconapon from "../assets/presale-v3/ei_arrow-up.svg";
+import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
+import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
+import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
+import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
+import swpicon from "../assets/wallet/swp.svg";
+import Widget from "../compunents/Widget";
+import { useApiState } from "../presale-gg/stores/api.store"; // Adjust if path differs
+const MobileWalletSec = () => {
+  const { t } = useTranslation();
+  const apiData = useApiState();
+  const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
+  const items = [
+    {
+      title: t("wallet_section.step_1_title"),
+      description: t("wallet_section.step_1_description"),
+      icon: oneicon1,
+    },
+    {
+      title: t("wallet_section.step_2_title"),
+      description: t("wallet_section.step_2_description"),
+      icon: oneicon2,
+    },
+    {
+      title: t("wallet_section.step_3_title"),
+      description: t("wallet_section.step_3_description"),
+      icon: oneicon3,
+    },
+    {
+      title: t("wallet_section.step_4_title"),
+      description: t("wallet_section.step_4_description"),
+      icon: oneicon4,
+    },
+  ];
+  return (
+    <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="how-to-buy">
+      <div className="space-y-[20px] px-[24px] py-[20px] bg-[#020B10] max-w-[955px] w-full mx-auto border border-[#262626] rounded-[8px]">
+        <div className="flex justify-center space-x-3 items-center">
+          <h3 className="text-[30px] font-[700] tracking-[-1px] text-white">
+            {t("wallet_section.title")}
+          </h3>
+          {!apiData.presaleEnded && (
+            <div className="w-[58px] text-[14px] font-[600] text-white rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
+              <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
+                .
+              </span>
+              Live
+            </div>
+          )}
+        </div>
+        <p
+          className="text-white font-[400] text-[16px] text-center font-inter pb-8"
+          style={{ lineHeight: "160%", letterSpacing: "-2%" }}
+          dangerouslySetInnerHTML={{ __html: t("wallet_section.description") }}
+        />
+        {apiData.presaleEnded && (
+          <div
+            className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3]"
+            style={{ background: "rgba(237, 237, 237, 0.40)" }}
+          >
+            <h4 className="text-center text-[#444] text-[24px] font-[700]">
+              {t("wallet_section.presale_ended")}
+            </h4>
+          </div>
+        )}
+        <div className="flex justify-between gap-8 flex-col md:flex-row">
+          <Widget />
+          <div
+            className="max-w-[413.763px] space-y-[10px] relative rounded-[20px] px-[10px] pt-[22px] pb-[11px] border border-white w-full mx-auto"
+            style={{
+              background:
+                "linear-gradient(211.91deg, rgba(100, 100, 100, 0.5) 0.66%, rgba(20, 20, 20, 0.75) 49.48%, rgba(40, 40, 40, 0.5) 103.45%)",
+              backdropFilter: "blur(19px)",
+              WebkitBackdropFilter: "blur(19px)",
+            }}
+          >
+            <div className="absolute top-0 left-0 -translate-y-1/2 w-full">
+              <div className="bg-[#020B10] h-[30px] flex items-center rounded-[6px] mx-auto w-[102px] border border-white">
+                <h3 className="text-[10px] text-white text-center w-full font-[700]">
+                  {t("wallet_section.how_to_buy")}
+                </h3>
+              </div>
+            </div>
+            <div>
+              {items.map((item, index) => (
+                <div
+                  key={index}
+                  className="py-[15px] px-1 border-b transition-all duration-300"
+                >
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() =>
+                      setSelectedHowToBuyStep(
+                        selectedHowToBuyStep === index ? null : index
+                      )
+                    }
+                  >
+                    <div className="flex justify-between items-center w-full space-x-4">
+                      <div className="flex flex-col w-full">
+                        <div className="flex justify-between items-center">
+                          <h3
+                            className={`text-[14px] capitalize font-[600] ${
+                              index === selectedHowToBuyStep ? "" : "text-white"
+                            }`}
+                            style={
+                              index === selectedHowToBuyStep
+                                ? {
+                                    background:
+                                      "linear-gradient(92deg, #E5AE01 24.64%, #FFE182 97%)",
+                                    backgroundClip: "text",
+                                    WebkitBackgroundClip: "text",
+                                    WebkitTextFillColor: "transparent",
+                                  }
+                                : {}
+                            }
+                          >
+                            {item.title}
+                          </h3>
+                          <img
+                            src={
+                              index === selectedHowToBuyStep
+                                ? iconcls
+                                : iconapon
+                            }
+                            alt={
+                              index === selectedHowToBuyStep
+                                ? "collapse"
+                                : "expand"
+                            }
+                            width={24}
+                            height={24}
+                          />
+                        </div>
+                        <div
+                          className={`transition-all duration-300 ${
+                            index === selectedHowToBuyStep
+                              ? "max-h-[200px] opacity-100 mt-[8px] text-[12px] font-[400] text-white overflow-hidden block"
+                              : "max-h-0 hidden opacity-0"
+                          }`}
+                          style={{
+                            transition:
+                              "max-height 0.3s ease, opacity 0.3s ease",
+                          }}
+                          dangerouslySetInnerHTML={{ __html: item.description }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="space-y-[14px]">
+              <h4 className="text-white text-[14px] py-[5px] font-[600] px-1">
+                {t("wallet_section.launch_title")} 
+              </h4>
+              <div className="max-w-[414px] px-[10px] pt-[14px] pb-[16px] border border-[#3B3B3B] w-full mx-auto">
+                <div className="flex flex-col gap-[12px]">
+                  <h4 className="text-start text-[#808080] text-[10px] font-[600]">
+                    {t("wallet_section.exchanges")}
+                  </h4>
+                  <div className="flex justify-center gap-[8px] flex-wrap">
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                      }}
+                    >
+                      <img
+                        src={swpicon}
+                        className="w-[14.813px] h-[14.813px]"
+                        alt=""
+                      />
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                        filter: "blur(6.5px",
+                        opacity: "0.73",
+                      }}
+                    >
+                      <div className="w-[14.813px] h-[14.813px] bg-[#F0B90B] rounded-full"></div>
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                        filter: "blur(6.5px",
+                        opacity: "0.73",
+                      }}
+                    >
+                      <div className="w-[14.813px] h-[14.813px] bg-[#0052FE] rounded-full"></div>
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                        filter: "blur(6.5px",
+                        opacity: "0.73",
+                      }}
+                    >
+                      <div className="w-[14.813px] h-[14.813px] bg-[#00F0FF] rounded-full"></div>
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                    <div
+                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      style={{
+                        background: "rgba(176, 176, 176, 0.17)",
+                        filter: "blur(6.5px",
+                        opacity: "0.73",
+                      }}
+                    >
+                      <div className="w-[14.813px] h-[14.813px] bg-[#7635F5] rounded-full"></div>
+                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                        UNISWAP
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default MobileWalletSec;

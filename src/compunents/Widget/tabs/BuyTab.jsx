@@ -1,7 +1,17 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
-import info from "../../../assets/wallet/i.svg";
+// import info from "../../../assets/wallet/i.svg";
+import { useTranslation } from "react-i18next";
 import bfxicn from "../../../assets/wallet/bfx.webp";
+import bonus from "../../../assets/wallet/bonus.png";
+import Ref from "../../../assets/wallet/ref.png";
+import comcoin from "../../../assets/wallet/comcoin.webp";
+import tabicn1 from "../../../assets/wallet/tabicn (3).svg";
+import tabicn2 from "../../../assets/wallet/tabicn (2).svg";
+import tabicn3 from "../../../assets/wallet/tabicn (1).svg";
 import clsx from "clsx";
+import stakeTab from "./StakeTab";
+
+import transactionHistoryTab from "./TransactionHistoryTab";
 import { useApiState } from "../../../presale-gg/stores/api.store";
 import {
   buyWithCard,
@@ -35,20 +45,30 @@ import { api } from "../../../presale-gg/api";
 import confetti from "canvas-confetti";
 import { showConnectWalletModal } from "../../../presale-gg/stores/modal.store";
 
-const BuyTab = () => {
+const BuyTab = ({ onTabChange}) => {
+  const { t } = useTranslation();
+  const needsWalletConnected = new Set(['stake', 'history']);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
   const [selectedToken, setSelectedToken] = useState(null);
 
+  const groupedTokens = useMemo(
+    () => (apiData.paymentTokens ? groupTokens(apiData.paymentTokens) : []),
+    [apiData.paymentTokens]
+  );
+
+  const [selectedTokenGroup, setSelectedTokenGroup] = useState(null);
+
   useEffect(() => {
     if (selectedToken || !apiData.paymentTokens?.length) return;
-    setSelectedToken(
-      apiData.paymentTokens.find(
-        (token) =>
-          token.symbol.toUpperCase() === "ETH" &&
-          token.chain.toUpperCase() === "ERC-20"
-      ) ?? apiData.paymentTokens[0]
-    );
+    const token = apiData.paymentTokens.find(
+      (token) =>
+        token.symbol.toUpperCase() === "ETH" &&
+        token.chain.toUpperCase() === "ERC-20"
+    ) ?? apiData.paymentTokens[0]
+    const group = groupedTokens.find((list) => list.currencies.includes(token)) ?? null
+    setSelectedToken(token);
+    setSelectedTokenGroup(group.groupId)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [apiData.paymentTokens]);
 
@@ -87,11 +107,6 @@ const BuyTab = () => {
   const stageFrac =
     (apiData.stage?.cumulative_usd_raised ?? 0) /
     (apiData.stage?.next_stage_target_usd ?? 1);
-
-  const groupedTokens = useMemo(
-    () => (apiData.paymentTokens ? groupTokens(apiData.paymentTokens) : []),
-    [apiData.paymentTokens]
-  );
 
   const partialNumRegexp = /^(\d*|(\d+\.?\d*))$/;
   const [paymentTokenNumStr, setPaymentTokenNumStr] = useState("1");
@@ -255,51 +270,61 @@ const BuyTab = () => {
 
   return (
     <>
-      <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full">
+      <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full isolate">
+       
         <div
-          className="px-[11px] py-[9px] space-y-[5px] border border-[#D3D3D3]"
+          className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
           style={{
-            background: "rgba(237, 237, 237, 0.40)",
+            background: "#000",
           }}
         >
-          <h3 className="text-center text-[21.64px] leading-[100%] font-[700]">
+          <h3 className="text-center text-[#fff] text-[32.476px] leading-[100%] font-[700]">
             {formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
           </h3>
           <div className="pt-3">
             <div className="flex justify-between items-center pb-1">
-              <span className="text-[#444] text-[9.74px] font-[400] leading-[100%]">
+              <span className="text-[#fff] text-[9.74px] font-[400] leading-[100%]">
                 {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
               </span>
-              <img src={info} className="w-[6.912px] h-[6.912px]" alt="" />
             </div>
-            <div className="bg-[#E5E7EB] w-[100%] h-[4.938px] rounded-[20px]">
+            <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
               <div
-                className="bg-[#E5AE00] h-[4.938px] rounded-[20px]"
-                style={{ width: `${stageFrac * 100}%` }}
+                className=" h-[10px] rounded-[20px]"
+                style={{ width: `${stageFrac * 100 - 3}%`,background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)", }}
+               
               />
             </div>
             <div>
-              <p className="text-[#444] text-end text-[9.74px] font-[400] leading-[150%]">
+              <p className="text-[#fff] text-end text-[9.74px] font-[400] leading-[150%]">
                 {formatDollar(apiData.stage?.next_stage_target_usd, true, 0, 0)}
               </p>
             </div>
           </div>
-          <h5 className="text-[#444] text-[9.74px] text-center font-[400] leading-[100%]">
+        <div className="space-y-[10px]">
+        <h5 className="text-[#fff] text-[13px] text-center font-[400] leading-[100%]">
             {formatNumber(apiData.info?.transactions, 0, 0)} Transactions
           </h5>
         </div>
-        <div
-          className="px-[24px] py-[7px] border border-[#D3D3D3]"
+        </div>
+        {/* <div
+          className="px-[24px] py-[10px] rounded-[14.596px]"
           style={{
-            background: "rgba(237, 237, 237, 0.40)",
+            background: "rgba(255, 255, 255, 0.09)",
+            backdropFilter:"blur(12.145808219909668px)"
           }}
         >
-          <h4 className="text-center text-[#636363] text-[9.875px] leading-[75%] font-[700]">
-            Listing Price: 1 $BFX = ${formatNumber(LISTING_PRICE)}
+          <h4 className="text-center text-[#fff] text-[12px] leading-[75%] font-[700]">
+            You Own = <span className="text-[#FBD914]">0 BFX </span>
           </h4>
-        </div>
-        <div>
+        </div> */}
+        <div className="text-[#fff] rounded-[8px] overflow-hidden">
           <TokenSelectDropdown
+           getClassName={(active) =>
+            clsx(
+              "flex items-center !justify-center rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
+              { "!bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)]": active }
+            )
+          }
             tokenList={{
               currencies:
                 apiData.paymentTokens
@@ -317,7 +342,11 @@ const BuyTab = () => {
                 price: 1,
               },
             }}
-            onChange={(token) => setSelectedToken(token)}
+
+            onChange={(token, group) => {
+              setSelectedToken(token)
+              setSelectedTokenGroup(group)
+            }}
             selectedTokenId={selectedToken?.id}
           />
         </div>
@@ -326,31 +355,52 @@ const BuyTab = () => {
             <TokenSelectDropdown
               key={i}
               tokenList={tokenGroup}
-              onChange={(newToken) => setSelectedToken(newToken)}
-              selectedTokenId={selectedToken?.id ?? null}
+              onChange={(newToken) => {
+                setSelectedToken(newToken)
+                setSelectedTokenGroup(tokenGroup.groupId)
+              }}
+              selectedTokenId={(!selectedTokenGroup || (tokenGroup.groupId === selectedTokenGroup)) ? selectedToken?.id ?? null : null}
             />
           ))}
         </div>
-        <div className="flex justify-center items-center py-[0px] space-x-[15px]">
+        <div className="flex space-x-1 justify-center items-center">
+          <img className="w-[153px] h-[22px] object-cover" src={comcoin} alt="" />
+          <p className="text-[9.673px] text-[#fff] font-[400]">+ Other Cryptos</p>
+        </div>
+        {/* <div className="flex justify-center items-center py-[0px] space-x-[15px]">
           <hr className="h-[1px] flex-1" />
-          <span className="text-[#636363] mx-4 text-[9.618px] font-[700] leading-[75%]">
+          <span className="text-[#fff] mx-4 text-[9.618px] font-[700] leading-[75%]">
             1 $BFX = ${formatNumber(parseNum(apiData.stage?.token_price))}
           </span>
           <hr className="h-[1px] flex-1" />
+        </div> */}
+        <div
+          className="2xl:px-[24px] xl:px-[24px] lg:px-[24px] md:px-[24px] sm:px-[20px] px-[12px] py-[10px] rounded-[17.596px]"
+          style={{
+            background: "#000",
+          }}
+        >
+          <h4 className="text-center text-[#fff] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[12px] text-[10px] leading-[75%] font-[700]">
+          Presale Price = <span className="text-[#FBD914]">${formatNumber(apiData.stage?.token_price)}</span> <span className="px-1">|</span> Launch Price = <span className="text-[#FBD914]">$0.05</span>
+          </h4>
         </div>
-        <div className="">
-          <label className="text-[#2F2F2F] text-[8.888px] font-[700] leading-[8.888px]">
+        <div className="px-2 pb-2 rounded-[8px]"
+         style={{
+          background: "rgba(255, 255, 255, 0.09)",
+        }}
+        >
+          <div className="  px-1 flex justify-between items-center">
+            <div className="w-[80%]">
+          <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
             You Pay in{" "}
             {selectedToken?.symbol.toUpperCase() === "CARD"
               ? "USD"
               : selectedToken?.symbol.toUpperCase()}
             :
           </label>
-          <div className="border h-[30.612px] border-[#454545] p-1 flex justify-between items-center">
-            <div className="w-[80%] flex items-center space-x-2">
               <input
                 type="text"
-                className="h-[17.281px] w-[100%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
+                className="h-[17.281px] w-[100%] text-[#fff] text-[14.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
                 placeholder="0"
                 value={paymentTokenNumStr}
                 onFocus={(e) => {
@@ -379,8 +429,8 @@ const BuyTab = () => {
                 }}
               />
             </div>
-            <div className="relative border px-[4px] w-[74px]">
-              <div className="justify-start flex h-[24px] items-center space-x-[3px]">
+            <div className="relative border px-[10px] mt-2 rounded-[50px] w-[90px]">
+              <div className="justify-start flex h-[34px] items-center space-x-[3px]">
                 {selectedToken && (
                   <>
                     <img
@@ -389,14 +439,14 @@ const BuyTab = () => {
                       alt=""
                     />
                     <div className="flex flex-col">
-                      <span className="text-[#545454] !overflow-hidden !text-clip text-[8.888px] font-[700]">
+                      <span className="text-[#fff] !overflow-hidden !text-clip text-[11.888px] font-[700]">
                         {selectedToken?.symbol.toUpperCase() === "CARD"
                           ? "USD"
                           : selectedToken?.symbol.toUpperCase()}
                       </span>
                       <span
                         className={clsx(
-                          "text-[#777] text-[6.688px] font-[900] leading-[1] whitespace-nowrap transition-colors"
+                          "text-[#777] text-[8.688px] font-[900] leading-[1] whitespace-nowrap transition-colors"
                         )}
                       >
                         {selectedToken.chain.toUpperCase()}
@@ -408,8 +458,16 @@ const BuyTab = () => {
             </div>
           </div>
         </div>
-        <div className="">
-          <label className="text-[#2F2F2F] text-[8.888px] font-[700] leading-[8.888px]">
+        <div className="px-2 pb-2 rounded-[8px]"
+         style={{
+          background: "rgba(255, 255, 255, 0.09)",
+          backdropFilter:"blur(12.145808219909668px)"
+        }}>
+         
+          <div className=" px-1 flex justify-between items-center">
+            {/* <div className="relative max-w-[75px] "></div> */}
+            <div className="w-[80%] ">
+            <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
             You Receive $BFX
             {wouldReceiveRank && <>
               {" "}+{" "}
@@ -421,12 +479,9 @@ const BuyTab = () => {
               </span>
             </>}
           </label>
-          <div className="border h-[30px] border-[#454545] p-1 flex justify-between items-center">
-            {/* <div className="relative max-w-[75px] "></div> */}
-            <div className="w-[80%] flex items-center h-[17.281px] space-x-2">
               <input
                 type="text"
-                className="h-[17.281px] w-[80%] text-[11.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
+                className="h-[17.281px] w-[80%] text-[14.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#FBD914] text-[#fff] placeholder:opacity-50"
                 placeholder="0"
                 value={receiveTokenNumStr}
                 onFocus={(e) => {
@@ -455,14 +510,14 @@ const BuyTab = () => {
                 }}
               />
             </div>
-            <div className="relative w-[74px] border px-[4px] ">
-              <div className="justify-start flex h-[24px]  items-center space-x-[5px] cursor-pointer">
+            <div className="relative w-[90px] border rounded-[50px] mt-2 px-[10px] ">
+              <div className="justify-start flex h-[34px]  items-center space-x-[5px] cursor-pointer">
                 <img
                   className="w-[15.8px] h-[15.8px] object-cover"
                   src={bfxicn}
                   alt=""
                 />
-                <span className="text-[#545454] text-[8.888px] font-[700] leading-[50px]">
+                <span className="text-[#fff] text-[11px] font-[700] leading-[50px]">
                   BFX
                 </span>
               </div>
@@ -475,30 +530,32 @@ const BuyTab = () => {
               if (accountData.isConnected) buy()
               else showConnectWalletModal()
             }}
-            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
+            className="text-[#000] bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)] px-[12px] rounded-[33px]  text-[11.85px] font-[800] border border-[#E5AE00]  hover:opacity-[0.8] w-[100%] h-[39.094px]"
           >
-            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? "Connect Wallet" : "Buy Now"))}
+            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? t("wallet_section.buttonBuybfx") : t("wallet_section.buttonBuy")))}
           </button>
         </div>
         {
           (usdToNextRank > 0 || !nextRank) ? (
-            <div
+           <>
+            {/* <div
               className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
               style={{
-                background: "rgba(237, 237, 237, 0.40)",
+                background: "rgb(128 128 128)",
               }}
             >
-              <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
+              <h4 className="text-center text-[#000] text-[9.888px] leading-[70%] font-[700]">
                 You get {wouldReceiveOrCurrentRank?.bonus_percentage ?? 0}% bonus tokens
               </h4>
-              <h4 className="text-center text-[#636363] text-[8.888px] leading-[70%] font-[700]">
+              <h4 className="text-center text-[#000] text-[9.888px] leading-[70%] font-[700]">
                 {(wouldReceiveNextRank)
                   ? `Buy ${formatDollar(usdToNextWouldReceiveRank)} more to unlock ${
                       wouldReceiveNextRank?.bonus_percentage ?? 0
                     }% bonus`
                   : "That is the highest bonus level"}
               </h4>
-            </div>
+            </div> */}
+           </>
           ) : (
             <button
               onClick={levelUp}
@@ -512,21 +569,33 @@ const BuyTab = () => {
           ref={(el) => setCodesContainerRef(el)}
         >
           <button
-            className="text-[8.888px] font-[700] underline cursor-pointer"
+            className="text-[8.888px] px-3 py-1 flex items-center justify-center text-[#fff] font-[700] cursor-pointer"
+            style={{
+              borderRadius:"75.392px",
+              background:"#414141",
+              boxShadow:"0px 3.016px 3.016px 0px rgba(0, 0, 0, 0.25)"
+            }}
             onClick={() =>
               setCodeInputVisible((code) => (code === "bonus" ? null : "bonus"))
             }
           >
+            <img className="mr-1" src={bonus} alt="" />
             Bonus Code
           </button>
           <button
-            className="text-[8.888px] font-[700] underline cursor-pointer"
+            className="text-[8.888px] px-3 py-1 flex items-center justify-center text-[#fff] font-[700] cursor-pointer"
+            style={{
+              borderRadius:"75.392px",
+              background:"#414141",
+              boxShadow:"0px 3.016px 3.016px 0px rgba(0, 0, 0, 0.25)"
+            }}
             onClick={() =>
               setCodeInputVisible((code) =>
                 code === "referral" ? null : "referral"
               )
             }
           >
+            <img className="mr-1" src={Ref} alt="" />
             Referral Code
           </button>
         </div>
@@ -608,8 +677,9 @@ const BuyTab = () => {
 
 const buyTabData = {
   component: BuyTab,
-  label: "Buy",
+  label: "Buy BFX",
   key: "buy",
 };
 
 export default buyTabData;
+

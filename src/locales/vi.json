@@ -1,0 +1,818 @@
+{
+    "navbar": {
+      "whatIsBlockchainFX": "BlockchainFX là gì?",
+      "howToBuy": "Cách mua",
+      "whitepaper": "Whitepaper",
+      "referral": "Giới thiệu",
+      "reviews": "Đánh giá",
+      "languages": "Ngôn ngữ",
+      "dashboard": "Bảng điều khiển",
+      "connect_wallet": "Kết nối ví"
+    },
+    "live_presale_section": {
+      "title": "Presale BFX đang diễn ra",
+      "buy_button": "Mua BFX"
+    },
+    "hero_section": {
+      "hero_title": "Ứng dụng giao dịch <br /> Crypto <span>siêu việt</span> đầu tiên", 
+      "hero_subtitle": "Kết nối Blockchain và Tài chính Toàn cầu",
+      "hero_description": "BlockchainFX là nền tảng giao dịch crypto duy nhất cung cấp quyền truy cập tức thì vào các thị trường tài chính lớn nhất thế giới với việc phát hành đồng BFX mới.",
+      "join_whitelist": "Mua $BFX",
+      "whitepaper": "Xem Demo",
+      "rated_by_users": "Đánh giá đã xác minh"
+    },
+    "Featured_Sec":{
+      "featured_in": "Được giới thiệu trong:"
+    },
+    "KYCVerified": {
+      "security_verified_title": "Bảo mật được xác minh bởi các chuyên gia trong ngành",
+      "completed": "Đã hoàn thành",
+      "card_items": [
+        {
+          "title": "Kiểm toán bên ngoài bởi Coinsult",
+          "description": "BlockchainFX đã được kiểm toán đầy đủ bởi Coinsult, một công ty kiểm toán uy tín từ Hà Lan, và được xác nhận là an toàn 100%."
+        },
+        {
+          "title": "Kiểm toán bên ngoài bởi CertiK",
+          "description": "CertiK, công ty bảo mật blockchain hàng đầu thế giới, đã kiểm toán BlockchainFX và xác nhận rằng nó đáp ứng các tiêu chuẩn bảo mật cao nhất."
+        },
+        {
+          "title": "Đội ngũ đã được xác minh KYC bởi Solidproof",
+          "description": "Đội ngũ BlockchainFX đã được xác minh thành công bởi Solidproof, một công ty kiểm toán uy tín từ Đức."
+        }
+      ]
+    },
+    "experts": {
+      "heading": "Các chuyên gia nói gì về BFX",
+      "slide1": {
+        "text": "Nắm giữ BFX và kiếm phần thưởng USDT hàng ngày từ phí giao dịch, ngay cả khi bạn không giao dịch. Đây không chỉ là một token, mà còn là chìa khóa để có thu nhập staking thụ động.",
+        "name": "Crypto Volt",
+        "role": "Youtuber về Crypto, 178K người theo dõi"
+      },
+      "slide2": {
+        "text": "Forex, chỉ số, cổ phiếu, ETF, thậm chí là quyền chọn — bạn có thể giao dịch tất cả ở một nơi. Đây là nền tảng đầu tiên thuộc loại này.",
+        "name": "Crypto Dealer",
+        "role": "Youtuber, 102K người theo dõi"
+      },
+      "slide3": {
+        "text": "Mỗi khi có người giao dịch trên nền tảng này, bạn sẽ kiếm được — càng nắm giữ nhiều BFX, phần thưởng của bạn càng cao",
+        "name": "Crypto Pandas",
+        "role": "Youtuber, 22.7K người theo dõi"
+      }
+    },
+    "blockchainfx_demo": {
+      "title": "Demo BlockchainFX",
+      "description": "Chỉ trong vài giây, người dùng có thể giao dịch BTC, Tesla, Vàng, Pepe, ETF, CFD và nhiều hơn nữa — tất cả một cách liền mạch trên một nền tảng mà không cần chuyển đổi giữa các nhà môi giới.",
+      "buy_button": "Mua $BFX",
+      "start_trading_button": "Bắt đầu giao dịch (Beta)"
+    },
+    "creditCard": {
+      "title": "Thẻ Visa BFX",
+      "item1": "Chi tiêu không giới hạn",
+      "item2": "Thẻ kim loại hoặc vàng 18 Karat",
+      "item3": "Lên đến $100,000 mỗi giao dịch",
+      "item4": "Rút tiền ATM lên đến $10K hàng tháng",
+      "item5": "Sử dụng BFX và phần thưởng USDT để thanh toán",
+      "item6": "Được chấp nhận trên toàn thế giới (Trực tuyến & Tại cửa hàng)",
+      "item7": "Nạp tiền bằng BFX và hơn 20 loại tiền điện tử",
+      "item8": "Thẻ Visa BFX chỉ có sẵn trong giai đoạn presale",
+      "compatibleWith": "Tương thích với",
+      "shippingNote": "Việc vận chuyển sẽ bắt đầu sau khi presale BFX kết thúc, vì tất cả các thẻ sẽ được gửi đi cùng một lúc. Mỗi thành viên Câu lạc bộ Người sáng lập BFX sẽ nhận được một biểu mẫu bảo mật sau presale để gửi thông tin vận chuyển của họ. Thẻ sẽ được giao trên toàn thế giới qua DHL hoặc FedEx Express."
+    },
+    "whitepaper": {
+      "heading": "Whitepaper BFX",
+      "description": "Khám phá whitepaper để tìm hiểu cách BFX cung cấp năng lượng cho hệ sinh thái giao dịch thế hệ tiếp theo. Khám phá các tính năng và lợi thế chính của nó, và xem cách BlockchainFX đang thu hẹp khoảng cách giữa blockchain và tài chính truyền thống bằng cách tạo ra ứng dụng giao dịch siêu việt đầu tiên trong ngành tiền điện tử.",
+      "buyButton": "Mua $BFX",
+      "accessButton": "Truy cập Whitepaper"
+    },
+    "wallet_section": {
+      "title": "Presale BFX",
+      "description": "BFX là đồng tiền điện tử đầu tiên trên thế giới được hỗ trợ bởi nền tảng giao dịch đa tài sản toàn cầu, <br /> nơi người nắm giữ kiếm được phần thưởng USDT thực bất cứ khi nào có người giao dịch — ngay cả trong giai đoạn presale.",
+      "how_to_buy": "Cách mua",
+      "step_1_title": "1. Chọn phương thức thanh toán",
+      "step_1_description": "<li>Kết nối ví tiền điện tử của bạn</li><li>Chọn giữa thẻ và hơn 10 loại tiền điện tử</li><li>Nhập số lượng BFX bạn muốn mua</li>",
+      "step_2_title": "2. Xác nhận giao dịch",
+      "step_2_description": "<li>Nhấp vào 'Mua ngay' và gửi tiền đến ví được liệt kê</li><li>Quan trọng: Đảm bảo sử dụng ví phi tập trung như Metamask, Phantom, Coinbase hoặc Trust Wallet</li><li>BFX của bạn sẽ được liên kết với cùng địa chỉ ví bạn đã sử dụng để thanh toán và sẽ xuất hiện trên bảng điều khiển của bạn ngay lập tức.</li><li>Kết nối ví của bạn bằng cách sử dụng nút 'Kết nối ví' ở góc trên bên phải để truy cập bảng điều khiển và kiểm tra số dư BFX của bạn.</li>",
+      "step_3_title": "3. Bắt đầu kiếm tiền ngay hôm nay",
+      "step_3_description": "<p>Kiếm phần thưởng BFX và USDT từ ngày đầu tiên!</p><li>Phần thưởng staking được thêm vào bảng điều khiển của bạn hàng ngày</li><li>Thanh toán USDT (ERC-20) được gửi đến ví của bạn mỗi thứ Hai</li>",
+      "step_4_title": "4. Nhận token",
+      "step_4_description": "<p>Chúc mừng! Token của bạn sẽ được chuyển đến ví của bạn tự động sau khi presale kết thúc. Bạn không cần phải làm gì cả. <br/><br/>Cảm ơn bạn đã là một phần của hành trình BFX!</p>",
+      "launch_title": "5. Ra mắt",
+      "exchanges":"$BFX ra mắt trên nhiều sàn giao dịch hàng đầu",
+      "launch_description": "$BFX ra mắt trên nhiều sàn giao dịch hàng đầu",
+      "buttonBuy":"Mua ngay",
+      "buttonBuybfx":"Mua BFX"
+    },
+    "next_generation_section": {
+      "title": "Trải nghiệm giao dịch thế hệ tiếp theo",
+      "team_experience": "Đội ngũ với 25 năm <br /> kinh nghiệm",
+      "assets": "Hơn 500 <br /> tài sản",
+      "tight_spreads": "Chênh lệch <br /> cực thấp",
+      "live_chat": "Hỗ trợ trò chuyện <br /> trực tiếp 24/7",
+      "register": "Đăng ký <br /> trong vài giây",
+      "one_click": "Giao dịch <br /> một nhấp chuột",
+      "leverage": "Giao dịch <br /> đòn bẩy",
+      "charts": "Lên đến 9 <br /> biểu đồ",
+      "indicators": "Hơn 100 <br /> chỉ báo",
+      "tournaments": "Giải đấu <br /> hàng tháng"
+    },
+    "trade_over_section": {
+      "title": "Hơn 500 tài sản khác nhau",
+      "crypto": {
+        "title": "Tiền điện tử",
+        "description": "Bitcoin, Ethereum, Solana, Pepe và nhiều hơn nữa."
+      },
+      "stocks": {
+        "title": "Cổ phiếu",
+        "description": "Apple, Tesla, Nvidia, Netflix, Coca Cola và nhiều hơn nữa."
+      },
+      "forex": {
+        "title": "Forex",
+        "description": "USD, EUR, JPY, GBP, AUD và nhiều hơn nữa."
+      },
+      "commodities": {
+        "title": "Hàng hóa",
+        "description": "Vàng, Bạc, Dầu, Đường và nhiều hơn nữa."
+      },
+      "indices": {
+        "title": "Chỉ số",
+        "description": "Dow Jones, S&P 500, Nasdaq và nhiều hơn nữa."
+      }
+    },
+    "one_app_section": {
+      "title": "Tất cả trong một ứng dụng",
+      "description": "Một giải pháp giao dịch nhanh như chớp và đổi mới",
+      "any_device": {
+        "title": "Mọi thiết bị",
+        "description": "Người dùng có thể giao dịch từ bất kỳ thiết bị nào, dù là PC, Mac, iOS hay Android."
+      },
+      "technical_tools": {
+        "title": "Công cụ kỹ thuật",
+        "description": "Các công cụ kỹ thuật tiên tiến được thiết kế để nâng cao phân tích thị trường và ra quyết định."
+      },
+      "risk_management": {
+        "title": "Quản lý rủi ro",
+        "description": "Các tính năng quản lý rủi ro toàn diện để giảm thiểu rủi ro."
+      },
+      "multiple_charts": {
+        "title": "Nhiều biểu đồ",
+        "description": "Các nhà giao dịch có thể sử dụng nhiều biểu đồ cùng một lúc để có cái nhìn tốt hơn về thị trường."
+      }
+    },
+    "earn_on_section": {
+      "title": "Kiếm tiền hàng ngày với BFX",
+      "description": "Người nắm giữ BFX kiếm phần thưởng staking hàng ngày bằng USDT và BFX, được cung cấp bởi phí giao dịch BlockchainFX. Mỗi khi có người giao dịch trên ứng dụng, người nắm giữ được thưởng. Càng nắm giữ nhiều BFX, càng kiếm được nhiều — lên đến tối đa 25,000 USDT mỗi ngày.",
+      "button":"Mua $BFX"
+    },
+    "how_does_it_section": {
+      "title": "Nó hoạt động như thế nào?",
+      "description": "Khám phá các tính năng và lợi ích của BlockchainFX.",
+      "trading_platform": {
+        "title": "Nền tảng giao dịch",
+        "description": "BlockchainFX là nền tảng giao dịch đa tài sản cung cấp nhiều lựa chọn giao dịch đa dạng."
+      },
+      "fee_distribution": {
+        "title": "Phân phối phí",
+        "description": "70% phí giao dịch được sử dụng để thưởng cho cộng đồng BFX và thúc đẩy sự phát triển của hệ sinh thái."
+      },
+      "daily_revenue": {
+        "title": "Doanh thu hàng ngày (50%)",
+        "description": "50% tổng phí thu được sẽ được phân phối cho người nắm giữ BFX và tự động thêm vào ví của họ."
+      },
+      "buybacks": {
+        "title": "Mua lại (20%)",
+        "description": "20% phí được sử dụng để mua lại $BFX hàng ngày, giúp thúc đẩy nhu cầu và hỗ trợ giá."
+      },
+      "burn": {
+        "title": "Đốt",
+        "description": "Một nửa số token được mua lại sẽ bị đốt vĩnh viễn, dần dần giảm nguồn cung $BFX."
+      },
+      "fueling_growth": {
+        "title": "Thúc đẩy động lực tăng trưởng",
+        "description": "Mô hình giảm phát và tự động mua lại thúc đẩy tiềm năng tăng trưởng theo cấp số nhân của $BFX."
+      }
+    },
+    "premium_section": {
+      "title": "Tư cách thành viên Câu lạc bộ Người sáng lập có giới hạn",
+      "description": "Mua BFX trong giai đoạn presale và trở thành Thành viên Câu lạc bộ Người sáng lập chỉ từ $1,000. Nhận NFT độc quyền, Thẻ Visa BFX, Token thưởng, Phần thưởng Staking USDT hàng ngày và Tín dụng giao dịch miễn phí.",
+      "cards": [
+        {
+          "title": "Người mới",
+          "price": "$1,000",
+          "points": ["Truy cập sớm", "Thưởng 10% BFX", "Thẻ Visa BFX"],
+          "buttonLabel": "Mua $BFX • $1,000"
+        },
+        {
+          "title": "Nâng cao",
+          "price": "$2,500",
+          "points": ["Truy cập sớm", "Thưởng 20% BFX", "Thẻ Visa BFX kim loại", "$500 tín dụng giao dịch"],
+          "buttonLabel": "Mua $BFX • $2,500"
+        },
+        {
+          "title": "Chuyên nghiệp",
+          "price": "$5,000",
+          "points": ["Truy cập sớm", "Thưởng 30% BFX", "Thẻ Visa BFX kim loại", "$1000 tín dụng giao dịch"],
+          "buttonLabel": "Mua $BFX • $5,000"
+        },
+        {
+          "title": "Chuyên gia",
+          "price": "$10,000+",
+          "points": ["Truy cập sớm", "Thưởng 40% BFX", "10% phần thưởng USDT", "Thẻ Visa BFX kim loại", "$2000 tín dụng giao dịch"],
+          "buttonLabel": "Mua $BFX • $10,000"
+        },
+        {
+          "title": "Bậc thầy",
+          "price": "$25,000+",
+          "points": ["Truy cập sớm", "Thưởng 50% BFX", "15% phần thưởng USDT", "Thẻ Visa BFX kim loại", "$5000 tín dụng giao dịch"],
+          "buttonLabel": "Mua $BFX • $25,000"
+        },
+        {
+          "title": "Ưu tú",
+          "price": "$50,000+",
+          "points": [
+            "Truy cập sớm",
+            "Thưởng 60% BFX",
+            "20% phần thưởng USDT",
+            "Thẻ Visa BFX kim loại",
+            "$10,000 tín dụng giao dịch"
+          ],
+          "buttonLabel": "Mua $BFX • $50,000"
+        },
+        {
+          "title": "Huyền thoại",
+          "price": "$100,000+",
+          "points": [
+            "Truy cập sớm",
+            "Thưởng 80% BFX",
+            "30% phần thưởng USDT",
+            "Thẻ Visa BFX vàng 18 Karat",
+            "$25,000 tín dụng giao dịch"
+          ],
+          "buttonLabel": "Mua $BFX • $100,000"
+        }
+      ],
+      "nft_label": "NFT",
+      "faq": {
+        "title": "Câu hỏi về Câu lạc bộ Người sáng lập",
+        "questions": [
+          {
+            "question": "Khi nào tôi sẽ nhận được NFT Câu lạc bộ Người sáng lập?",
+            "answer": "<li>Bạn sẽ nhận được NFT Câu lạc bộ Người sáng lập tự động sau khi mua số lượng $BFX yêu cầu.</li> <li>NFT sẽ xuất hiện trong bảng điều khiển cá nhân của bạn và có thể được nhận sau khi presale kết thúc.</li> <li>Để truy cập bảng điều khiển, hãy kết nối cùng một ví bằng cách nhấp vào 'Kết nối ví' ở góc trên bên phải.</li>"
+          },
+          {
+            "question": "Khi nào tôi sẽ nhận được phần thưởng?",
+            "answer": "<li>Phần thưởng BFX của bạn sẽ được thêm vào bảng điều khiển của bạn ngay lập tức</li><li>Để truy cập bảng điều khiển của bạn, hãy nhấp vào nút 'Kết nối ví'</li>"
+          },
+          {
+            "question": "Tôi có thể nhận NFT với nhiều lần mua không?",
+            "answer": "<li>Có, bạn có thể mua $BFX với số lượng nhỏ hơn để đạt đến tổng số tiền yêu cầu. </li><li>Ví dụ, mua $BFX trị giá $200 năm lần sẽ giúp bạn kiếm được NFT Người mới (trị giá $1,000).</li>"
+          },
+          {
+            "question": "Tôi có thể nâng cấp NFT của mình không?",
+            "tooltip": true,
+            "answer": "<li>Có, bạn có thể nâng cấp nhiều lần trong giai đoạn presale.</li> <li>Bạn sẽ nhận được phần thưởng và NFT cho cấp độ cao nhất bạn đạt được.</li> <li>Sau khi presale kết thúc, việc nâng cấp sẽ không còn khả thi nữa.</li>"
+          }
+        ],
+        "tooltip_text": {
+          "line1": "Ví dụ, mua $1,000 $BFX cho bạn NFT Người mới.",
+          "line2": "Chi thêm $1,500 để nâng cấp lên Nâng cao.",
+          "line3": "Bạn có thể tiếp tục nâng cấp cho đến khi đạt được NFT Huyền thoại cuối cùng."
+        }
+      }
+    },
+    "exclusive_benefits_section": {
+      "title": "Lợi ích của việc mua BFX trong giai đoạn Presale",
+      "items": {
+        "benefit_1": {
+          "title": "Giá token thấp nhất <br/>trước khi ra mắt",
+          "description": "Mua trong giai đoạn pre-sale cho phép bạn đảm bảo mức giá thấp hơn đáng kể so với giá ra mắt của BFX."
+        },
+        "benefit_2": {
+          "title": "Thẻ Visa BFX <br/>phiên bản giới hạn",
+          "description": "Nhận thẻ tín dụng Visa BFX bằng kim loại hoặc vàng 18 karat với khả năng chi tiêu và nạp tiền không giới hạn, có thể sử dụng trên toàn thế giới."
+        },
+        "benefit_3": {
+          "title": "Tín dụng giao dịch <br/>thưởng độc quyền",
+          "description": "Nhận tín dụng giao dịch miễn phí lên đến $25,000 để bắt đầu giao dịch trên BlockchainFX mà không có điều kiện đính kèm."
+        },
+        "benefit_4": {
+          "title": "Phần thưởng staking <br/>USDT hàng ngày",
+          "description": "Bắt đầu kiếm phần thưởng USDT và BFX ngay hôm nay bằng cách tham gia presale BFX. Bạn mua càng sớm, bạn càng có thể kiếm được nhiều hơn theo thời gian."
+        }
+      }
+    },
+    "less_than_section": {
+      "title": "Được thiết kế cho sự tăng trưởng theo cấp số nhân",
+      "description": "BlockchainFX là nền tảng giao dịch được cộng đồng hỗ trợ, thưởng cho người nắm giữ BFX hàng ngày. Khi nền tảng phát triển, token cũng vậy — tạo ra một chu kỳ mạnh mẽ của sự tăng trưởng và tham gia. Các nghiên cứu* cho thấy rằng các cộng đồng được khuyến khích có thể phát triển nhanh hơn đáng kể so với các cộng đồng khác, và BFX được thiết kế để tối đa hóa tiềm năng đó.",
+      "costs": {
+        "title": "Chi phí",
+        "description": "Lên đến $2 triệu"
+      },
+      "time": {
+        "title": "Thời gian",
+        "description": "Lên đến 3 năm"
+      },
+      "team": {
+        "title": "Đội ngũ",
+        "description": "Đội ngũ đa ngôn ngữ có kinh nghiệm làm việc theo ca, 24/7, 365 ngày một năm."
+      },
+      "work_scope": {
+        "title": "Phạm vi công việc",
+        "description": "Yêu cầu vốn, Marketing & Thương hiệu, Nhà cung cấp thanh khoản, Đội quản lý rủi ro, Hỗ trợ khách hàng, Cơ sở hạ tầng công nghệ, Đối tác, Phát triển, Tuyển dụng và quản lý nhân viên, và nhiều hơn nữa."
+      },
+      "gateway": {
+        "title": "Cổng vào thị trường toàn cầu",
+        "description": "Ra mắt một nền tảng giao dịch mới tốn rất nhiều thời gian và tài nguyên. Mặt khác, mua $BFX chỉ mất vài giây và cho phép bạn kiếm tiền mỗi khi có người giao dịch."
+      },
+      "growth": {
+        "title": "Được thiết kế cho sự tăng trưởng theo cấp số nhân",
+        "description": "BlockchainFX là nền tảng giao dịch được cộng đồng hỗ trợ, thưởng cho người nắm giữ BFX hàng ngày. Khi nền tảng phát triển, token cũng vậy — tạo ra một chu kỳ mạnh mẽ của sự tăng trưởng và tham gia. Các nghiên cứu* cho thấy rằng các cộng đồng được khuyến khích có thể phát triển nhanh hơn đáng kể so với các cộng đồng khác, và BFX được thiết kế để tối đa hóa tiềm năng đó.",
+        "source_note": "(*Nguồn: Harvard Business Review, Khi cộng đồng trở thành lợi thế cạnh tranh của bạn, 2020)",
+        "forecasting": "Dự báo tăng trưởng",
+        "blockchainfx": "BlockchainFX",
+        "regular_platform": "Nền tảng giao dịch thông thường"
+      },
+      "comparison": {
+        "new_platform": "Nền tảng giao dịch mới",
+        "blockchainfx": "BlockchainFX",
+        "costs_option": "Tùy thuộc vào bạn",
+        "time_option": "Mua $BFX chỉ với 2 cú nhấp chuột",
+        "team_option": "Không cần đội ngũ",
+        "work_option": "Không cần làm việc"
+      }
+    },
+    "standout_section": {
+      "title": "Tính năng nổi bật",
+      "description": "Tiền điện tử từ các sàn giao dịch đã có hiệu suất tốt trong lịch sử nhờ vào cơ sở người dùng tích cực, doanh thu nền tảng và tiếp thị liên tục. BFX, token đầu tiên từ nền tảng giao dịch đa tài sản, cung cấp các tính năng độc đáo mang lại giá trị thực cho thị trường."
+    },
+    "what_is_section": {
+      "title": "Điều gì làm BFX khác biệt?",
+      "description": "BFX là đồng coin bản địa của BlockchainFX, cung cấp cơ hội độc đáo để trở thành một phần của nền tảng giao dịch toàn cầu đang phát triển nhanh chóng với tham vọng trở thành một trong những mạng lưới giao dịch hàng đầu thế giới.",
+      "features": {
+        "early_access": "Truy cập sớm",
+        "daily_staking_rewards": "Phần thưởng staking hàng ngày",
+        "lower_trading_fees": "Phí giao dịch giảm 70%",
+        "trading_credits": "Tín dụng giao dịch"
+      }
+    },
+    "token_allocation_section": {
+      "title": "Chi tiết token",
+      "description": "Phân bổ token được cấu trúc để thưởng cho những người ủng hộ sớm nhất",
+      "token_name": {
+        "label": "Tên token",
+        "value": "BlockchainFX"
+      },
+      "launch_on": {
+        "label": "Ra mắt trên",
+        "value": "Uniswap và CEX"
+      },
+      "token_type": {
+        "label": "Loại token",
+        "value": "Ethereum"
+      },
+      "token_symbol": {
+        "label": "Ký hiệu token",
+        "value": "BFX"
+      },
+      "decimal": {
+        "label": "Số thập phân",
+        "value": "18"
+      },
+      "total_supply": {
+        "label": "Tổng cung",
+        "value": "3.5B"
+      },
+      "contract_address": {
+        "label": "Địa chỉ hợp đồng token"
+      }
+    },
+    "lineBreak": "<br />",
+   "press_media_section": {
+      "title": "Báo chí & Truyền thông",
+      "articles": [
+        {
+          "description": "BlockchainFX đang nhanh chóng trở thành nền tảng giao dịch hàng đầu vào năm 2025, cung cấp quyền truy cập vào hơn 500 tài sản và lợi ích thưởng cho người dùng.",
+          "link": "https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/",
+          "link_text": "Đọc bài viết"
+        },
+        {
+          "description": "BlockchainFX được thiết lập để cách mạng hóa bối cảnh giao dịch như nền tảng giao dịch tiền điện tử tất cả trong một đầu tiên.",
+          "link": "https://www.binance.com/en/square/post/21135762162242",
+          "link_text": "Đọc bài viết"
+        },
+        {
+          "description": "BlockchainFX là ứng dụng giao dịch đầu tiên cho phép người dùng kiếm thu nhập thụ động USDT hàng ngày trực tiếp từ phí giao dịch.",
+          "link": "https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/",
+          "link_text": "Đọc bài viết"
+        }
+      ]
+    },
+    "Roadmap_section": {
+    "Roadmap": "Lộ trình",
+    "From Fintech Startup to Global Market Leader": "Từ công ty khởi nghiệp Fintech đến nhà lãnh đạo thị trường toàn cầu",
+    "Genesis": "Khởi đầu",
+    "Foundations": "Nền tảng",
+    "Takeoff": "Cất cánh",
+    "Scale": "Mở rộng",
+    "Expansion": "Phát triển",
+    "Global Reach": "Phạm vi toàn cầu",
+    "Preparation": "Chuẩn bị",
+    "Completed": "Đã hoàn thành",
+    "Execution": "Thực hiện",
+    "Launch": "Ra mắt",
+    "On-going": "Đang tiến hành",
+    "Performance": "Hiệu suất",
+    "Idea + concept": "Ý tưởng + khái niệm",
+    "Raise Seed Funds": "Gây quỹ hạt giống",
+    "Onboard Team & Advisors": "Tuyển dụng đội ngũ & cố vấn",
+    "Trading Platform Beta Preparation": "Chuẩn bị nền tảng giao dịch Beta",
+    "Website, Tokenomics etc.": "Website, Tokenomics v.v.",
+    "Create $BFX Token": "Tạo token $BFX",
+    "Launch $BFX Pre-Sale": "Ra mắt Pre-Sale $BFX",
+    "Certik Token Audit": "Kiểm toán token Certik",
+    "Launch an Affiliate Program": "Ra mắt chương trình liên kết",
+    "Sell Out the Pre-Sale": "Bán hết Pre-Sale",
+    "Launch $BFX on Uniswap and CEX": "Ra mắt $BFX trên Uniswap và CEX",
+    "Achieving 10000 BFX Holders": "Đạt 10000 người nắm giữ BFX",
+    "Multiple CEX Listing": "Niêm yết trên nhiều CEX",
+    "Achieving-100,000-BFX-Holders": "Đạt 100000 người nắm giữ BFX",
+    "Reach $100M Daily Trading Volume": "Đạt khối lượng giao dịch hàng ngày $100M",
+    "Add Leaderboards & VIP accounts": "Thêm bảng xếp hạng & tài khoản VIP",
+    "US License": "Giấy phép Hoa Kỳ",
+    "Global Marketing Campaigns": "Chiến dịch tiếp thị toàn cầu",
+    "Major Global Partnerships": "Đối tác toàn cầu lớn",
+    "next": "Tiếp theo",
+    "previous": "Trước đó"
+  },
+    "multiAward": {
+      "heading": "Nền tảng giao dịch đa giải thưởng",
+      "subheading": "Các giải thưởng của chúng tôi nói lên tất cả"
+    },
+    "trader_reviews_section": {
+        "title": "Các nhà giao dịch nói gì về <span>BlockchainFX</span>",
+        "ratings": {
+          "average": "4.87 trên 5",
+          "verified_ratings": "Hơn 1000 đánh giá đã xác minh",
+          "rating_bars": [
+            {
+              "rating": 5,
+              "percentage": 86
+            },
+            {
+              "rating": 4,
+              "percentage": 8
+            },
+            {
+              "rating": 3,
+              "percentage": 3
+            },
+            {
+              "rating": 2,
+              "percentage": 2
+            },
+            {
+              "rating": 1,
+              "percentage": 1
+            }
+          ]
+        },
+        "reviews": [
+          {
+            "text": "Đó chính xác là những gì chúng ta cần. Một nhà môi giới giao dịch được thiết kế để kết nối Crypto với Forex, ETF và cổ phiếu, cung cấp cho bạn quyền truy cập thực vào thị trường với thanh khoản sâu.",
+            "user": {
+              "name": "Crypto Bri",
+              "followers": "@cryptobri_ • 79.6K người theo dõi",
+              "link": "https://x.com/cryptobri_/status/1901419367289512075",
+              "image": "user5",
+              "reviewLink":"Xem đánh giá trên X"
+            }
+          },
+          {
+            "text": "Giao dịch trên 9 cửa sổ khác nhau và có quyền truy cập vào hàng chục công cụ phân tích giao dịch và quản lý rủi ro đang mang lại cho tôi lợi thế lâu dài so với đối thủ giao dịch trên các nền tảng khác.",
+            "user": {
+              "name": "Mr 𝕏",
+              "followers": "@MrX_Crypto • 472K người theo dõi",
+              "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
+              "image": "user1",
+              "reviewLink":"Xem đánh giá trên X"
+  
+            }
+          },
+          {
+            "text": "BlockchainFX mang đến cho bạn vô số cơ hội giao dịch. Điều này hoàn toàn hợp lý vì các thị trường có liên kết với nhau. Cuối cùng, không cần phải lãng phí thời gian chuyển đổi giữa các nhà môi giới.",
+            "user": {
+              "name": "Silvina Escudero",
+              "followers": "@silvinaescudero • 863K người theo dõi",
+              "link": "https://x.com/silvinaescudero/status/1900845896302027108",
+              "image": "user2",
+              "reviewLink":"Xem đánh giá trên X"
+  
+            }
+          },
+          {
+            "text": "Phần tốt nhất về BlockchainFX? Thanh khoản sâu trên tất cả các tài sản. Tôi chưa bao giờ gặp vấn đề khi thực hiện các lệnh lớn, ngay cả với các cặp tiền điện tử ngách. Đây chính xác là những gì các nhà giao dịch nghiêm túc cần—tốc độ, độ tin cậy và nhiều thị trường trong một nơi.",
+            "user": {
+              "name": "DefiAva🦋",
+              "followers": "@defi_avaxx • 30.3K người theo dõi",
+              "link": "https://x.com/defi_avaxx/status/1900847259874627732",
+              "image": "user3",
+              "reviewLink":"Xem đánh giá trên X"
+  
+            }
+          },
+          {
+            "text": "BlockchainFX đã hoàn toàn nâng cao trò chơi giao dịch của tôi. Nó rất trực quan, cho phép bạn truy cập nhiều thị trường cùng một lúc và cung cấp các giao dịch nhanh như chớp. Một chiến thắng lớn cho tiền điện tử!",
+            "user": {
+              "name": "Honey.Eth",
+              "followers": "@HoneyEth_ • 121.8K người theo dõi",
+              "link": "https://x.com/HoneyEth_/status/1900870121477820837",
+              "image": "user4",
+              "reviewLink":"Xem đánh giá trên X"
+  
+            }
+          },
+          {
+            "text": "Đó chính xác là những gì chúng ta cần. Một nhà môi giới giao dịch được thiết kế để kết nối Crypto với Forex, ETF và cổ phiếu, cung cấp cho bạn quyền truy cập thực vào thị trường với thanh khoản sâu.",
+            "user": {
+              "name": "Crypto Bri",
+              "followers": "@cryptobri_ • 79.6K người theo dõi",
+              "link": "https://x.com/cryptobri_/status/1901419367289512075",
+              "image": "user5",
+              "reviewLink":"Xem đánh giá trên X"
+  
+            }
+          }
+        ],
+        "assets": {
+          "user_images": [
+            "rew (5).png",
+            "rew (4).png",
+            "rew (3).png",
+            "rew (2).png",
+            "rew (1).png",
+            "user.png"
+          ],
+          "icons": {
+            "tick": "teenyicons_tick-circle-solid.svg",
+            "swiper_left": "arwr.svg",
+            "swiper_right": "arw.svg"
+          }
+        }
+      },
+  
+    "faq_section": {
+      "title": "Câu hỏi thường gặp",
+      "description": "Tìm câu trả lời cho một số câu hỏi phổ biến nhất.",
+      "faqs": [
+        {
+          "question": "BlockchainFX là gì?",
+          "answer": "BlockchainFX là nền tảng giao dịch đa tài sản quốc tế cung cấp nhiều cơ hội giao dịch, bao gồm Forex, Crypto, ETF và nhiều hơn nữa, với các công cụ kỹ thuật tiên tiến và tính năng quản lý rủi ro."
+        },
+        {
+          "question": "BFX là gì?",
+          "answer": "BFX là token bản địa của nền tảng BlockchainFX, cho phép truy cập sớm, phần thưởng staking bằng BFX và USDT, và cung cấp quyền truy cập vào các tính năng cao cấp, cũng như tham gia vào hệ sinh thái của nền tảng."
+        },
+        {
+          "question": "Presale tiền điện tử là gì?",
+          "answer": "Presale tiền điện tử là cơ hội sớm để mua một loại tiền điện tử hoặc token mới trước khi nó được công khai, thường với giá thấp hơn đáng kể so với giá ra mắt chính thức trên các sàn giao dịch."
+        },
+        {
+          "question": "Mục tiêu của presale là gì?",
+          "answer": "Sự kiện cộng đồng này dành riêng để bán tất cả các token được phân bổ trước để đẩy nhanh sự tăng trưởng và mở rộng nền tảng. Những quỹ này sẽ được phân bổ chiến lược cho phát triển, tiếp thị và đảm bảo niêm yết trên các sàn giao dịch hàng đầu cho BFX. <br/><br/>Mục tiêu của chúng tôi là đạt 100,000 nhà giao dịch hoạt động hàng ngày và tạo ra khối lượng giao dịch hàng ngày hàng triệu đô la trước khi ra mắt chính thức. Đồng thời, chúng tôi đang xây dựng một cộng đồng mạnh mẽ, trung thành và tham gia, thưởng cho những người ủng hộ sớm với token giảm giá, và tối đa hóa nhận thức cho việc ra mắt BFX."
+        },
+        {
+          "question": "Tôi có thể xem token của mình ở đâu?",
+          "answer": "Bạn có thể xem token của mình trong ví bảng điều khiển. Chỉ cần nhấp vào 'Kết nối ví' ở góc trên bên phải và kết nối ví bạn đã sử dụng cho việc mua để xem số dư BFX của bạn."
+        },
+        {
+          "question": "Token của tôi có an toàn không?",
+          "answer": "Sự an toàn của token của bạn trong giai đoạn pre-sale được đảm bảo 100% thông qua hợp đồng thông minh của chúng tôi."
+        },
+        {
+          "question": "Làm thế nào để nhận BFX của bạn?",
+          "answer": "Token của bạn sẽ được chuyển đến ví của bạn tự động sau khi presale kết thúc. Bạn không cần phải làm gì cả."
+        }
+      ]
+    },
+    "the_ultimate_section": {
+      "title": "Nền tảng <br/> giao dịch tối ưu",
+      "description": "Trải nghiệm nền tảng giao dịch tốt nhất với các tính năng tiên tiến và giao diện thân thiện với người dùng.",
+      "buy_bfx": "Mua $BFX",
+      "need_support": "Cần hỗ trợ?"
+    },
+    "footer": {
+      "description": "Trải nghiệm giao dịch tất cả trong một với BlockchainFX: Giao dịch Crypto, Forex, ETF, Cổ phiếu, Chỉ số, CFD và nhiều hơn nữa với quyền truy cập vào hơn 500 tài sản.",
+      "quick_links": {
+        "title": "Liên kết nhanh",
+        "how_to_buy": "Cách mua",
+        "what_is_bfx": "BFX là gì",
+        "roadmap": "Lộ trình",
+        "token_allocation": "Phân bổ token"
+      },
+      "docs": {
+        "title": "Tài liệu",
+        "terms_of_service": "Điều khoản dịch vụ",
+        "privacy_policy": "Chính sách bảo mật",
+        "token_sale": "Thỏa thuận bán token",
+        "support": "Hỗ trợ trực tiếp 24/7"
+      },
+      "socials": {
+        "title": "Tham gia mạng xã hội của chúng tôi"
+      },
+      "contact": {
+        "email_label": "Email liên hệ:",
+        "email": "Support@blockchainfx.com"
+      },
+      "disclaimer": "Tiền điện tử có thể không được quy định tại khu vực pháp lý của bạn, và giá trị của nó có thể dao động, dẫn đến lợi nhuận hoặc thua lỗ tiềm năng. Bất kỳ lợi nhuận nào cũng có thể phải chịu thuế thu nhập vốn hoặc các loại thuế khác, tùy thuộc vào luật pháp địa phương của bạn. Nội dung trên nền tảng này không cấu thành một đề nghị, khuyến nghị hoặc tư vấn tài chính để mua, bán hoặc tham gia vào bất kỳ giao dịch tiền điện tử nào. Bạn hoàn toàn chịu trách nhiệm đánh giá liệu một giao dịch có phù hợp với mục tiêu cá nhân, hoàn cảnh tài chính và khả năng chịu rủi ro của bạn hay không. Chúng tôi đặc biệt khuyên bạn nên tham khảo ý kiến của các chuyên gia pháp lý, thuế hoặc tài chính đáng tin cậy và được cấp phép trước khi đưa ra bất kỳ quyết định nào.\n\nGiao dịch tiền điện tử mang lại rủi ro đáng kể, bao gồm khả năng mất một phần hoặc toàn bộ tiền của bạn. Nghiên cứu kỹ lưỡng là rất quan trọng. BlockchainFX không đảm bảo bất kỳ hiệu suất, kết quả hoặc lợi nhuận vốn nào cho bất kỳ loại tiền điện tử nào được đề cập trên nền tảng này. Bằng cách sử dụng nền tảng này, bạn đồng ý với Điều khoản dịch vụ, Chính sách bảo mật, Chính sách cookie và bất kỳ thỏa thuận bán token hiện hành nào của chúng tôi. Nội dung của nền tảng không nhằm mục đích sử dụng trong các khu vực pháp lý mà việc phân phối hoặc sử dụng nó sẽ vi phạm luật pháp hoặc quy định địa phương.",
+      "copyright": "Bản quyền 2025. Đã đăng ký Bản quyền.",
+      "cookie_management": "Quản lý cookie"
+    },
+    "MobilePremiumSec": {
+      "subtitle": "Tư cách thành viên <br /> Câu lạc bộ Nhà sáng lập Giới hạn",
+      "description": "Mua BFX trong đợt bán trước và trở thành Thành viên Câu lạc bộ Nhà sáng lập chỉ từ $1.000. Nhận NFT độc quyền, Thẻ Visa BFX, Token Thưởng, Phần thưởng Staking USDT Hàng ngày và Tín dụng Giao dịch Miễn phí.",
+      "tiers": {
+        "novice": "Người mới",
+        "advanced": "Nâng cao",
+        "pro": "Chuyên nghiệp",
+        "expert": "Chuyên gia",
+        "master": "Bậc thầy",
+        "elite": "Ưu tú",
+        "legend": "Huyền thoại"
+      },
+      "cards": {
+        "novice": {
+          "title": "Người mới",
+          "price": "$1.000",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 10%",
+            "visaCard": "Thẻ Visa BFX"
+          },
+          "buttonLabel": "Mua $BFX • $1.000"
+        },
+        "advanced": {
+          "title": "Nâng cao",
+          "price": "$2.500",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 20%",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$500 Tín dụng Giao dịch"
+          },
+          "buttonLabel": "Mua $BFX • $2.500"
+        },
+        "pro": {
+          "title": "Chuyên nghiệp",
+          "price": "$5.000",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 30%",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$1000 Tín dụng Giao dịch"
+          },
+          "buttonLabel": "Mua $BFX • $5.000"
+        },
+        "expert": {
+          "title": "Chuyên gia",
+          "price": "$10.000+",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 40%",
+            "usdtRewards": "Phần thưởng USDT Hàng ngày",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$2000 Tín dụng Giao dịch Thưởng"
+          },
+          "buttonLabel": "Mua $BFX • $10.000"
+        },
+        "master": {
+          "title": "Bậc thầy",
+          "price": "$25.000+",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 50%",
+            "usdtRewards": "Phần thưởng USDT Hàng ngày",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$5000 Tín dụng Giao dịch Thưởng"
+          },
+          "buttonLabel": "Mua $BFX • $25.000"
+        },
+        "elite": {
+          "title": "Ưu tú",
+          "price": "$50.000+",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 60%",
+            "usdtRewards": "Phần thưởng USDT 20%",
+            "visaCard": "Thẻ Visa BFX kim loại",
+            "tradingCredits": "$10.000 Tín dụng Giao dịch Thưởng"
+          },
+          "buttonLabel": "Mua $BFX • $50.000"
+        },
+        "legend": {
+          "title": "Huyền thoại",
+          "price": "$100.000+",
+          "points": {
+            "earlyAccess": "Truy cập sớm",
+            "bfxBonus": "Thưởng BFX 80%",
+            "usdtRewards": "Phần thưởng USDT 30%",
+            "visaCard": "Thẻ Visa BFX vàng 18K",
+            "tradingCredits": "$25.000 Tín dụng Giao dịch"
+          },
+          "buttonLabel": "Mua $BFX • $100.000"
+        }
+      }
+    },
+    "FoundersClubFAQ": {
+      "title": "Câu hỏi về <br /> Câu lạc bộ Nhà sáng lập",
+      "questions": {
+        "nft_timing": {
+          "question": "Khi nào tôi sẽ nhận được NFT Câu lạc bộ Nhà sáng lập của mình?",
+          "answer": "<li>Bạn sẽ nhận được NFT Câu lạc bộ Nhà sáng lập tự động sau khi mua số lượng $BFX yêu cầu.</li> <li>NFT sẽ xuất hiện trong bảng điều khiển cá nhân của bạn và có thể được yêu cầu sau khi đợt bán trước kết thúc.</li> <li>Để truy cập bảng điều khiển, kết nối cùng một ví bằng cách nhấp vào 'Kết nối Ví' ở góc trên bên phải.</li>"
+        },
+        "bonuses_timing": {
+          "question": "Khi nào tôi sẽ nhận được Phần thưởng của mình?",
+          "answer": "<li>Phần thưởng BFX của bạn sẽ được thêm ngay lập tức vào bảng điều khiển của bạn.</li> <li>Để truy cập bảng điều khiển của bạn, nhấp vào nút 'Kết nối Ví'</li>"
+        },
+        "multiple_purchases": {
+          "question": "Tôi có thể nhận NFT với nhiều lần mua không?",
+          "answer": "<li>Có, bạn có thể mua $BFX với số tiền nhỏ hơn để đạt đến tổng số yêu cầu.</li> <li>Ví dụ, mua $BFX trị giá $200 năm lần sẽ giúp bạn nhận được NFT Người mới (trị giá $1.000).</li>"
+        },
+        "upgrade_nft": {
+          "question": "Tôi có thể nâng cấp NFT của mình không?",
+          "answer": "<li>Có, bạn có thể nâng cấp nhiều lần trong suốt đợt bán trước.</li><li>Bạn sẽ nhận được phần thưởng và NFT cho cấp độ cao nhất mà bạn đạt được.</li> <li>Sau khi đợt bán trước kết thúc, việc nâng cấp sẽ không còn khả thi nữa.</li>"
+        }
+      },
+      "tooltip": {
+        "upgrade_info": "Ví dụ, mua $1.000 $BFX sẽ cho bạn NFT Người mới. <br /> Chi thêm $1.500 để nâng cấp lên Nâng cao. <br /> Bạn có thể tiếp tục nâng cấp cho đến khi đạt được NFT Huyền thoại cuối cùng."
+      }
+    },
+    "MobileLessThanSec": {
+      "slide1": {
+        "title": "Kết nối Tiền điện tử và Tài chính",
+        "description1": "Tiền điện tử chỉ chiếm 0,87% khối lượng giao dịch toàn cầu vào năm 2024, trung bình 84,3 tỷ đô la mỗi ngày.",
+        "description2": "Trong khi đó, chỉ riêng thị trường Forex đã xử lý 7,5 nghìn tỷ đô la mỗi ngày. Khoảng cách này tạo ra cơ hội lớn cho $BFX kết nối người dùng tiền điện tử với các thị trường tài chính lớn nhất thế giới.",
+        "chartTitle": "Khối lượng Giao dịch Trung bình Hàng ngày năm 2024",
+        "chart": {
+          "bonds": "Trái phiếu:",
+          "bondsValue": "1,1 nghìn tỷ $ (11,42%)",
+          "stocks": "Cổ phiếu Mỹ:",
+          "stocksValue": "700 tỷ $ (7,27%)",
+          "commodities": "Hàng hóa:",
+          "commoditiesValue": "250 tỷ $ (2,59%)",
+          "crypto": "Tiền điện tử:",
+          "cryptoValue": "89 tỷ $ (0,87%)",
+          "forex": "Forex:",
+          "forexValue": "7,5 nghìn tỷ $ (77,85%)"
+        },
+        "legend": {
+          "forex": "Forex",
+          "bonds": "Trái phiếu",
+          "usStock": "Cổ phiếu Mỹ",
+          "commodities": "Hàng hóa",
+          "crypto": "Tiền điện tử"
+        }
+      },
+      "slide2": {
+        "title": "Cổng vào Thị trường Toàn cầu",
+        "description": "Việc ra mắt một nền tảng giao dịch mới tốn nhiều thời gian và nguồn lực. Mặt khác, việc mua $BFX chỉ mất vài giây và cho phép bạn kiếm tiền mỗi khi có người giao dịch.",
+        "comparison": {
+          "newPlatform": "Nền tảng Giao dịch Mới",
+          "blockchainFX": "BlockchainFX"
+        },
+        "table": {
+          "cost": {
+            "title": "Chi phí",
+            "platform": "Lên đến 2 triệu $",
+            "bfx": "Tùy thuộc vào bạn",
+            "tooltip": "Đây là ngân sách cần thiết chỉ để ra mắt nền tảng ở một số khu vực pháp lý nhất định, không bao gồm nhân viên và tiếp thị."
+          },
+          "time": {
+            "title": "Thời gian",
+            "platform": "Lên đến 3 năm",
+            "bfx": "Mua $BFX chỉ với 2 cú nhấp chuột"
+          },
+          "team": {
+            "title": "Đội ngũ",
+            "platform": "Đội ngũ đa ngôn ngữ có kinh nghiệm làm việc theo ca, 24/7, 365 ngày một năm.",
+            "bfx": "Không cần đội ngũ"
+          },
+          "workScope": {
+            "title": "Phạm vi Công việc",
+            "platform": "Yêu cầu Vốn, Tiếp thị & Xây dựng Thương hiệu, Nhà cung cấp Thanh khoản, Đội ngũ Quản lý Rủi ro, Hỗ trợ Khách hàng, Cơ sở Hạ tầng Công nghệ, Đối tác, Phát triển, Tuyển dụng và Quản lý Nhân viên, và nhiều hơn nữa.",
+            "bfx": "Không cần làm việc"
+          }
+        }
+      },
+      "slide3": {
+        "title": "Được Thiết kế Cho Tăng trưởng Theo cấp số nhân",
+        "description": "BlockchainFX là nền tảng giao dịch được hỗ trợ bởi cộng đồng, thưởng hàng ngày cho người nắm giữ BFX. Khi nền tảng phát triển, token cũng phát triển - tạo ra một chu kỳ mạnh mẽ của tăng trưởng và tham gia. Các nghiên cứu* cho thấy rằng các cộng đồng được khuyến khích có thể phát triển nhanh hơn đáng kể so với các cộng đồng khác, và BFX được thiết kế để tối đa hóa tiềm năng đó.",
+        "chart": {
+          "title": "Dự báo Tăng trưởng",
+          "blockchainFX": "BlockchainFX",
+          "regularPlatform": "Nền tảng Giao dịch Thông thường"
+        },
+        "source": "(*Nguồn: Harvard Business Review, Khi Cộng đồng Trở thành Lợi thế Cạnh tranh của Bạn, 2020)",
+        "buttonText": "Mua $BFX"
+      }
+    }
+  }
