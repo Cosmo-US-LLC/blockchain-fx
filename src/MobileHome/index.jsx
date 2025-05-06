@@ -37,7 +37,7 @@ import KYCVerifiedMob from "./KYCVerifiedMob";
 function MobileHome() {
   return (
     <div className="bg-[#020B10]">
-      <MobileHero />
+      {/* <MobileHero />
       <MobileWalletSec />
       <KYCVerifiedMob />
       <YoutubeSec />
@@ -49,12 +49,12 @@ function MobileHome() {
       <MobHowDoesItSec />
       <MobExclusiveSec />
       <CreditCardMob />
-      <MobilePremiumSec />
+      <MobilePremiumSec /> */}
       {/* <MobHowToBuySec /> */}
-      <MobileLessThanSec />
+      {/* <MobileLessThanSec /> */}
       {/* <MobileGatewaySec />
       <MobHyperGrowthSec /> */}
-      <MobStandoutSec />
+      {/* <MobStandoutSec /> */}
       {/* <MobileWallStreetSec /> */}
       {/* <MobTadeLikeSec /> */}
       {/* <MobTopAssetsSec /> */}
@@ -62,20 +62,20 @@ function MobileHome() {
       {/* <MobLiveNewSec /> */}
       {/* <MobStreamlinedSec /> */}
       {/* <WhitepaperMob /> */}
-      <MobWhatIsSec />
+      {/* <MobWhatIsSec /> */}
       {/* <MobTokenAllocationSec /> */}
       {/* <MobTokenDetailsSec /> */}
       {/* <MobSecurityBuiltSec /> */}
-      <WhitepaperMob />
+      {/* <WhitepaperMob />
       <MobTokenDetailsSec />
       <MobRoadmapSec />
-      <MobOurAwardSec />
+      <MobOurAwardSec /> */}
       {/* <MobExpertsworkingSec /> */}
-      <MobPressMediaSec />
+      {/* <MobPressMediaSec />
       <MobTraderReviewsSec />
       <MobFaqSec />
       <MobTheUltimateSec />
-      <LivePresale />
+      <LivePresale /> */}
     </div>
   );
 }

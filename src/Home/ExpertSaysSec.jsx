@@ -17,8 +17,8 @@ function ExpertSaysSec() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
-    <div className="flex items-center bg-[#020B10] py-[50px]">
-      <div className="max-w-[1200px] reative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border border-[#E6AF03] bg-[#030F16] relative rounded-[24px] px-[30px] pt-[50px] pb-[100px]">
+    <div className="flex items-center bg-[#000] pt-[90px]">
+      <div className="max-w-[1200px] reative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border border-[#E6AF03] bg-[#000] relative rounded-[24px] px-[30px] pt-[50px] pb-[100px]">
         <Swiper
           modules={[Navigation]}
           spaceBetween={20}
@@ -44,17 +44,17 @@ function ExpertSaysSec() {
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
                 <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
-                  <h4 className="text-[#898989] text-[16px] font-[400]">
-                    {t("experts.heading")}
+                  <h4 className="text-[#fff] text-[16px] font-[400]">
+                  What Experts Say About BFX
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500]">
-                  {t("experts.slide1.text")}
+                “Imagine getting into Coinbase, or Binance at day one, that’s exactly what BFX is offering right now in its presale.”
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide1.name")}</h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide1.role")}</p>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— Clay Bro</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">Crypto Youtuber, 136K Followers</p>
                 </div>
               </div>
               <div className="w-[50%]">
@@ -78,7 +78,7 @@ function ExpertSaysSec() {
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
                 <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
-                  <h4 className="text-[#898989] text-[16px] font-[400]">
+                  <h4 className="text-[#fff] text-[16px] font-[400]">
                     {t("experts.heading")}
                   </h4>
                 </div>
@@ -112,7 +112,7 @@ function ExpertSaysSec() {
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
                 <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
-                  <h4 className="text-[#898989] text-[16px] font-[400]">
+                  <h4 className="text-[#fff] text-[16px] font-[400]">
                     {t("experts.heading")}
                   </h4>
                 </div>

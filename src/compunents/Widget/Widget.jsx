@@ -34,7 +34,7 @@ const Widget = () => {
         border: " 0.663px solid #FFF",
         backdropFilter: "blur(13.031462669372559px)",
       }}
-      className="flex flex-col max-w-[413.763px] gap-[10px] relative rounded-[6.419px] px-[33px] pt-[28px] 2xl:pb-[60px] xl:pb-[60px] lg:pb-[60px] md:pb-[60px] sm:pb-[20px] pb-[20px] border border-[#B0B0B0] w-[100%] mx-auto min-h-[600px] <md:px-[20px] <md:min-h-[400px]"
+      className="flex flex-col max-w-[590px] gap-[10px] relative rounded-[6.419px] px-[33px] pt-[28px] 2xl:pb-[60px] xl:pb-[60px] lg:pb-[60px] md:pb-[60px] sm:pb-[20px] pb-[20px] border border-[#B0B0B0] w-[100%] mx-auto min-h-[600px] <md:px-[20px] <md:min-h-[400px]"
     >
       <div className="flex justify-center space-x-2 items-center p-2 rounded-[50px] border">
         {/* Buy */}

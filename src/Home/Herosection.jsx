@@ -1,15 +1,16 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
-import stars from "../assets/herosection/stars.png";
+import check from "../assets/herosection/check.svg";
+
 // import heroVideo from "../assets/herosection/heroVideo.mp4";
+import heroimg from "../assets/herosection/heroimg.png";
 import uersrev from "../assets/herosection/Avatars.png";
-import herove1 from "../assets/herosection/herove (3).png";
-import herove2 from "../assets/herosection/herove (2).png";
-import herove3 from "../assets/herosection/herove (4).png";
-import herove4 from "../assets/herosection/herove (1).png";
+import stars from "../assets/herosection/stars.png";
+import arwgrn from "../assets/herosection/arwgrn.svg";
+import heroicns1 from "../assets/herosection/herosvg (1).svg";
+import heroicns2 from "../assets/herosection/herosvg (2).svg";
+import heroicns3 from "../assets/herosection/herosvg (3).svg";
 
 function Herosection() {
-  const { t } = useTranslation();
 
   const handleScroll = () => {
     setTimeout(() => {
@@ -42,35 +43,85 @@ function Herosection() {
   };
 
   return (
-    <div className="pt-[55px] pb-[20px] bg-[#020B10]">
+    <div className="pt-[55px] pb-[20px] bg-[#000]">
       <div className="max-w-[1200px] relative w-[100%] mx-auto ">
-        <div className="">
-          <div className="space-y-[10px]">
-            <div
-              className="max-w-[368px] h-[37px] flex items-center justify-center mx-auto rounded-[30px] !border-[0.2px]"
-              style={{
-                background:
-                  "linear-gradient(90deg, rgba(255, 255, 255, 0.30) -45.06%, rgba(255, 255, 255, 0.00) 111.83%)",
-                backdropFilter: "blur(150px",
-              }}
-            >
-              <h4 className="text-[14px]  leading-[144.444%] font-[400] text-center text-[#fff] tracking-[-1px] capitalize"
-               dangerouslySetInnerHTML={{ __html: t(`hero_section.hero_subtitle`) }}>
+        <div className="flex justify-between gap-[2rem]">
+          <div className="space-y-[27px] max-w-[738px] w-[100%]">
+              <h4 className="text-[16px]  leading-[150%] font-[600] text-[#E5AE00] tracking-[-0.16px] ">
+                Crypto Exchange Launches Coin with an Integrated Reward System
               </h4>
-            </div>
             <h1 
-            dangerouslySetInnerHTML={{ __html: t(`hero_section.hero_title`) }}
-            className="herohed text-[45px] pt-[15px] font-[700] leading-[120%] tracking-[-1px] text-[#fff] text-center">
+            className="text-[60px] pt-[15px] font-[700] leading-[109%] tracking-[-3px text-[#fff] ">
+              $BFX Pays You Every Time Someone Trades on BlockchainFX
             </h1>
-            <div className="flex items-center justify-center pt-[20px] space-x-3">
+            <p className="text-[#fff] max-w-[524px] w-[100%] font-[400] leading-[137.5%] text-[16px]">
+            Start earning today and receive up to 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue without having to trade yourself.
+                </p>
+
+                <div className="space-y-[10px]">
+                  <div className="flex items-center space-x-2">
+                    <img src={check} alt="" />
+                    <p className="text-[#fff] font-[400] leading-[150%] text-[16px]">The first crypto exchange Bridging Blockchain and Finance</p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <img src={check} alt="" />
+                    <p className="text-[#fff] font-[400] leading-[150%] text-[16px]">Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, all in one place</p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <img src={check} alt="" />
+                    <p className="text-[#fff] font-[400] leading-[150%] text-[16px]">Awarded as the Fastest-Growing Crypto Trading App of 2025</p>
+                  </div>
+                </div>
+                <div className="flex justify-start pt-[20px] pb-[0px] items-center space-x-[17px]">
+            <button
+              onClick={handleScroll}
+              style={{
+                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
+              className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+            >
+              Buy $BFX
+            </button>
+
+            <button
+              onClick={handleScrollToDemo}
+              className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[138px] rounded-[8px] !w-[100%] h-[50px]"
+            >
+              How it works?
+            </button>
+          </div>
+            
+          </div>
+          <div className="max-w-[450px] space-y-[27px]">
+            <div className="relative">
+              <img src={heroimg} alt="heroimg" />
+              <div
+              className="px-[27px] py-[17px] max-w-[160px] absolute bottom-[10%] right-[-7%] flex items-center flex-col space-y-[10px] rounded-[10px] pr-[20px]"
+              style={{
+                borderRadius:"9.617px",
+                border:"1px solid #FFF",
+                background:"rgba(0, 0, 0, 0.21)",
+                backdropFilter:"blur(17.899999618530273px)"
+              }}
+              >
+                <h4 className="text-[#fff] text-[12px] font-[400] leading-[68.691%]">Earned Last Week</h4>
+                <h5 className="text-[18.547px] font-[700] flex items-center leading-[100%] text-[#FFF]">$2,748 <span className="text-[12px] pl-2 text-[#1ACE2E] flex  items-center leading-[86.937%] font-[700]"><img src={arwgrn} alt="" />+13%</span> </h5>
+              </div>
+            </div>
+            <div className="flex justify-center items-center space-x-[20px]">
+              <img src={heroicns1} alt="" />
+              <img src={heroicns2} alt="" />
+              <img src={heroicns3} alt="" />
+            </div>
+            <div className="flex items-center justify-center space-x-3">
               <div className="flex flex-col items-center">
                 <img src={uersrev} loading="lazy" alt="reviews" />
                 <p className="text-[#fff] font-[400] text-[16px]">
-                  {t("hero_section.rated_by_users")}
+                Verified Ratings
                 </p>
               </div>
               <div
-                className="flex space-x-2 items-center flex-col p-3 rounded-[10px]"
+                className="flex space-x-2 items-center flex-col py-3 px-5 rounded-[10px]"
                 style={{
                   background: "background: rgba(3, 15, 22, 0.30)",
                   border: "1.5px solid rgba(230, 175, 3, 0.30)",
@@ -82,30 +133,11 @@ function Herosection() {
                 </p>
               </div>
             </div>
-            <p className="text-[16px] max-w-[646px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#fff] tracking-[-0.32px] ">
-              {t("hero_section.hero_description")}
-            </p>
           </div>
-          <div className="flex justify-center pt-[20px] pb-[0px] items-center space-x-[17px]">
-            <button
-              onClick={handleScroll}
-              style={{
-                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-              }}
-              className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
-            >
-              {t("hero_section.join_whitelist")}
-            </button>
+            
+         
 
-            <button
-              onClick={handleScrollToDemo}
-              className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[138px] rounded-[8px] !w-[100%] h-[50px]"
-            >
-              {t("hero_section.whitepaper")}
-            </button>
-          </div>
-
-          <div className="absolute max-h-[130px] max-w-[130px] top-[6%] left-[7%]">
+          {/* <div className="absolute max-h-[130px] max-w-[130px] top-[6%] left-[7%]">
             <img loading="lazy" src={herove1} className=" " alt="cCrypto Presale" />
           </div>
           <div className="absolute max-h-[110px] max-w-[110px] bottom-[13%] left-[12%]">
@@ -116,7 +148,7 @@ function Herosection() {
           </div>
           <div className="absolute max-h-[110px] max-w-[110px] bottom-[12%] right-[12%]">
             <img loading="lazy" src={herove4} className="" alt="crypto coins before exchange listing" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

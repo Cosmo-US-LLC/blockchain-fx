@@ -11,33 +11,33 @@ function KYCVerified() {
   const cardItems = [
     {
       img: icn2,
-      title: t("KYCVerified.card_items.0.title"),
-      description: t("KYCVerified.card_items.0.description")
+      title: "External Audit by Coinsult",
+      description: "BlockchainFX has been audited by Coinsult,  a trusted firm from the Netherlands, confirming  it meets the highest security standards."
     },
     {
       img: icn1,
-      title: t("KYCVerified.card_items.1.title"),
-      description: t("KYCVerified.card_items.1.description")
+      title: "External Audit by CertiK",
+      description: "CertiK, the world’s leading blockchain security firm, audited BlockchainFX and confirmed it to be 100% secure."
     },
     {
       img: icn3,
-      title: t("KYCVerified.card_items.2.title"),
-      description: t("KYCVerified.card_items.2.description")
+      title: "Team KYC Verified by Solidproof",
+      description: "The BlockchainFX team has been successfully verified by Solidproof, a reputable auditing company from Germany."
     }
   ];
 
   return (
-    <div className="py-[50px] bg-[#020B10]">
+    <div className="bg-[#000]">
       <div className="max-w-[1200px] pt-[35px] w-[100%] mx-auto relative">
         <h3 className="text-[40px] text-[#fff] font-[600] leading-[155.556%] leading-[-1px] text-center">
-          {t("KYCVerified.security_verified_title")}
+        Security Verified by Industry Experts
         </h3>
         <div className="pt-[25px] w-[100%] mx-auto">
           <div className="grid grid-cols-3 gap-x-[12px] gap-y-[19px]">
             {cardItems.map((item, index) => (
               <div
                 key={index}
-                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px] max-h-[200.384px] min-h-[200.384px] bg-[#030F16] rounded-[16px]"
+                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px] max-h-[200.384px] min-h-[200.384px] bg-[#111] rounded-[16px]"
                 style={{
                   border: "1px solid rgba(230, 175, 3, 0.12)"
                 }}

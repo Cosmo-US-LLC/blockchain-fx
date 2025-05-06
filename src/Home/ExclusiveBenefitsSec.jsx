@@ -42,7 +42,7 @@ function ExclusiveBenefitsSec() {
   const { t } = useTranslation();
 
   return (
-    <div className="py-[50px] bg-[#020B10]">
+    <div className="py-[50px] bg-[#000]">
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
           <h3 className="text-[40px] capitalize leading-[155.556%] text-[#fff] text-center font-[700]">
@@ -54,9 +54,10 @@ function ExclusiveBenefitsSec() {
             {cardItems.map((item) => (
               <div
                 key={item.id}
-                className="mx-auto px-[15px] flex flex-col justify-center pt-[20px] pb-[34px] min-h-[310px] max-h-[330px] bg-[#030F16] rounded-[9px] space-y-[20px] "
+                className="mx-auto px-[15px] flex flex-col justify-center pt-[20px] pb-[34px] min-h-[310px] max-h-[330px]  rounded-[9px] space-y-[20px] "
                 style={{
                   border: "1.139px solid #2F2F2F",
+                  background:"rgba(17, 17, 17, 0.66)"
                 }}
               >
                 <div className="max-h-[116px] h-[100%] flex justify-center items-center">

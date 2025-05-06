@@ -5,29 +5,29 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2).svg";
-import oneimg from "../assets/OneAppSec/imgonecec.png";
+import dailyimg from "../assets/OneAppSec/dailyimg.webp";
 import { useTranslation } from "react-i18next";
 
 const items = [
   {
     icon: oneicon1,
-    title: "one_app_section.any_device.title",
-    description: "one_app_section.any_device.description",
+    title: "Own BFX",
+    description: "Buy BFX during the presale in just a few seconds.",
   },
   {
     icon: oneicon2,
-    title: "one_app_section.technical_tools.title",
-    description: "one_app_section.technical_tools.description",
+    title: "Stake your BFX",
+    description: "Go to the presale dashboard, click on “Stake”, choose the amount, and confirm.",
   },
   {
     icon: oneicon3,
-    title: "one_app_section.risk_management.title",
-    description: "one_app_section.risk_management.description",
+    title: "Personal Dashboard",
+    description: "Connect your wallet and click on “Dashboard” in the top right corner to watch your BFX balance.",
   },
   {
     icon: oneicon4,
-    title: "one_app_section.multiple_charts.title",
-    description: "one_app_section.multiple_charts.description",
+    title: "Staking Rewards",
+    description: "Your BFX and USDT rewards will appear on the dashboard 24 hours after you stake your coins.",
   },
 ];
 
@@ -40,16 +40,19 @@ function OneAppSec() {
   };
 
   return (
-    <div className="py-[50px] bg-[#020B10] overflow-hidden" id="what-is-bfx-coin">
-     <div className="max-w-[1300px] w-[100%] mx-auto relative">
-     <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
-        <div className="w-[50%] max-w-[473px] space-y-[20px]">
-          <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
-            {t("one_app_section.title")}
+    <div className="py-[50px] bg-[#000] overflow-hidden" id="what-is-bfx-coin">
+      <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px] border-[1px] border-[#6f6f6f] rounded-[27px] px-[20px] py-[25px]"
+      >
+        <div className="w-[43%] max-w-[473px] space-y-[20px]">
+         <div className="space-y-[10px]">
+          <h4 className="px-2 h-[29px] flex items-center max-w-[93px] text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] "> <span className="text-[40px] !mb-[20px] mr-[3px] leading-[0px]">.</span> Live Now</h4>
+         <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
+          Daily Staking Rewards
           </h3>
-          <p className="text-[20px] text-[#fff] font-[400] leading-[150%] leading-[-0.32px] text-start">
-            {t("one_app_section.description")}
+          <p className="text-[20px]  text-[#fff] font-[400] leading-[150%] leading-[-0.32px] text-start">
+          Get in now and start earning every day
           </p>
+         </div>
           <div className="">
             {items.map((item, index) => (
               <div
@@ -100,17 +103,11 @@ function OneAppSec() {
             ))}
           </div>
         </div>
-        <div className="w-[58%] overflow-visible">
-          <div className="w-[142%] h-[100%]" style={{
-            backgroundImage:`url(${oneimg})`,
-            backgroundPosition: 'left',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-          }}>
-          </div>
+        <div className="w-[55%] space-y-[10px] overflow-visible">
+          <img src={dailyimg} className="object-cover" alt="" />
+          <p className="text-[13px] text-center leading-[150.598%] font-[400] text-[#fff]">Connect your wallet and click on the top right corner to see your personal dashboard</p>
         </div>
       </div>
-     </div>
     </div>
   );
 }
