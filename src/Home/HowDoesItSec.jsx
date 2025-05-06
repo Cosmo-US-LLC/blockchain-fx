@@ -1,9 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import icn1 from "../assets/HowDoesItSec/icns (6).svg";
-import icn2 from "../assets/HowDoesItSec/icns (5).svg";
-import icn3 from "../assets/HowDoesItSec/icns (4).svg";
+import howtoimg from "../assets/HowDoesItSec/howtoimg.webp";
+import icn1 from "../assets/HowDoesItSec/icns (1).svg";
+import icn2 from "../assets/HowDoesItSec/icns (3).svg";
+import icn3 from "../assets/HowDoesItSec/icns (2).svg";
 import icn4 from "../assets/HowDoesItSec/icns (3).svg";
 import icn5 from "../assets/HowDoesItSec/icns (2).svg";
 import icn6 from "../assets/HowDoesItSec/icns (1).svg";
@@ -13,38 +14,20 @@ const cardItems = [
     {
       id: "01.",
       img:icn1,
-      title: "how_does_it_section.trading_platform.title",
-      description: "how_does_it_section.trading_platform.description",
+      title: "BFX & USDT Staking Rewards",
+      description: "50% of all fees collected are automatically distributed to BFX holders who stake their coins.",
     },
     {
       id: "02.",
       img:icn2,
-      title: "how_does_it_section.fee_distribution.title",
-      description: "how_does_it_section.fee_distribution.description",
+      title: "Daily Buybacks",
+      description: "20% of the fees are used to buy back $BFX daily, helping boost demand and support the price.",
     },
     {
       id: "03.",
       img:icn3,
-      title: "how_does_it_section.daily_revenue.title",
-      description: "how_does_it_section.daily_revenue.description",
-    },
-    {
-      id: "04.",
-      img:icn4,
-      title: "how_does_it_section.buybacks.title",
-      description: "how_does_it_section.buybacks.description",
-    },
-    {
-      id: "05.",
-      img:icn5,
-      title: "how_does_it_section.burn.title",
-      description: "how_does_it_section.burn.description",
-    },
-    {
-      id: "06.",
-      img:icn6,
-      title: "how_does_it_section.fueling_growth.title",
-      description: "how_does_it_section.fueling_growth.description",
+      title: "Burn BFX Coins",
+      description: "Half of the bought-back tokens are permanently burned, gradually reducing the supply of $BFX.",
     },
   ];
 
@@ -52,27 +35,28 @@ function HowDoesItSec() {
   const { t } = useTranslation();
 
   return (
-    <div className="py-[50px] bg-[#020B10]">
-     <div className="max-w-[1200px] w-[100%] mx-auto relative">
-        <div className="space-y-[0px]">
+    <div className="py-[50px] bg-[#000]">
+     <div className="max-w-[1200px] space-y-[40px] p-[50px] border rounded-[24px] border-[#E6AF03] w-[100%] mx-auto relative">
+        <div className="space-y-[5px]">
             <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">
-              {t("how_does_it_section.title")}
+            How It Works?
             </h3>
-          <p className="text-[20px] text-[#fff] text-center font-[400]">
-            {t("how_does_it_section.description")}
+          <p className="text-[18px] text-[#fff] trackin-[-0.18px] text-center font-[400]">
+          BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. <br />  Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.
           </p>
         </div>
-     <div className=" pt-[34px] w-[100%] mx-auto ">
+        <div className="max-w-[1002px] w-[100%] mx-auto">
+          <img src={howtoimg} alt="" />
+        </div>
+     
+     </div>
+     <div className="max-w-[1200px] pt-[50px] w-[100%] mx-auto ">
         <div className="grid grid-cols-3 gap-x-[19px] gap-y-[19px]">
-            {/* <div className="max-w-[289px] px-[24px] pt-[24px] pb-[34px] min-h-[284px] bg-[#F9FAFB] rounded-[8px] border border-[#F9FAFB]">
-                <p className="text-[20px] text-[#000] font-[700]">01.</p>
-                <h3 className="text-[20px] text-[#000] font-[700] leading-[115%]">Trading Platform</h3>
-                <h4 className="text-[18px] text-[#000] font-[400] leading-[111.111%]">BlockchainFX is a multi-asset trading platform that offers a wide range of trading options.</h4>
-            </div> */}
+           
               {cardItems.map((item) => (
         <div
           key={item.id}
-          className=" px-[19px] w-[100%] flex flex-col justify-centetr pt-[20px] pb-[24px] max-h-[223.384px] min-h-[220.384px] bg-[#030F16] rounded-[16px]"
+          className=" px-[19px] w-[100%] flex flex-col justify-centetr pt-[20px] pb-[24px] max-h-[223.384px] min-h-[220.384px] bg-[#0B0B0B] rounded-[16px]"
           style={{
             border:"1px solid rgba(230, 175, 3, 0.12)",
           }}
@@ -96,7 +80,6 @@ function HowDoesItSec() {
         <img src={howimg} className="object-cover" alt="" />
         </div> */}
       </div>
-     </div>
     </div>
   );
 }

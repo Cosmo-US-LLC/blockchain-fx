@@ -10,7 +10,7 @@ import cardicon6 from "../assets/WallStreet/wallicn (6).svg";
 function WallStreetSec() {
  
   return (
-    <div className="py-[50px] bg-[#FAFAFA]">
+    <div className="py-[50px] bg-[#000]">
       <div className="max-w-[660px] space-y-[40px] w-[100%] mx-auto ">
         <div className="space-y-[14px]">
           <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">

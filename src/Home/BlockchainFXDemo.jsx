@@ -21,23 +21,18 @@ function BlockchainFXDemo() {
   };
 
   return (
-    <div className="flex items-center bg-[#020B10] py-[50px]" id="desktopDemo">
-      <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border border-[#E6AF03] bg-[#030F16] relative rounded-[24px]">
+    <div className="flex items-center bg-[#000] pt-[50px]" id="desktopDemo">
+      <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border border-[#E6AF03] bg-[#111] relative rounded-[24px]">
         <div className="flex justify-end items-center gap-5 relative z-[99]">
           <div className="w-[45%] space-y-[20px] pl-[70px] py-[60px]">
             <h4
-              className="text-[40px] font-[600]"
-              style={{
-                background: "linear-gradient(90deg, #FFF 0%, #FACD42 100%)",
-                backgroundClip: "text",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
+              className="text-[40px] text-[#fff] font-[600]"
+            
             >
-              {t("blockchainfx_demo.title")}
+            BlockchainFX Demo
             </h4>
             <p className="text-[#fff] text-[18px] font-[500]">
-              {t("blockchainfx_demo.description")}
+            In just a few seconds, users can trade BTC,Tesla, Gold, Pepe, ETFs, CFDs, and more, all seamlessly on one powerful platform.
             </p>
             <div className="flex justify-start pt-[20px] pb-[0px] items-center space-x-[17px]">
               <button
@@ -47,16 +42,16 @@ function BlockchainFXDemo() {
                 }}
                 className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
               >
-                {t("blockchainfx_demo.buy_button")}
+                Buy BFX
               </button>
 
               <button
                 onClick={() =>
-                  (window.location.href = "https://trade.blockchainfx.io")
+                  (window.location.href = "video")
                 }
-                className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[178px] rounded-[8px] !w-[100%] h-[50px]"
+                className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[228px] rounded-[8px] !w-[100%] h-[50px]"
               >
-                {t("blockchainfx_demo.start_trading_button")}
+               Watch Live Trading Here
               </button>
             </div>
           </div>

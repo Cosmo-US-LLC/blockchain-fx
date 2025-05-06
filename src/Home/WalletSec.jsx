@@ -46,15 +46,15 @@ const WalletSec = () => {
   const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
 
   return (
-    <div className="pt-[42px] pb-[35px] bg-[#020B10] min-h-[700px]" id="how-to-buy">
+    <div className="pt-[42px] pb-[25px] bg-[#000] min-h-[700px]" id="how-to-buy">
       <div
-        className="space-y-[30px] px-[67px] py-[26px] max-w-[1200px] w-[100%] mx-auto border border-[#575757] rounded-[8px] <md:px-6 <sm:px-4"
+        className="space-y-[30px] px-[40px] py-[26px] max-w-[1200px] w-[100%] mx-auto border border-[#575757] rounded-[41px] <md:px-6 <sm:px-4"
         id="Wallet"
       >
         <div className="pb-[20px]">
           <div className="flex justify-center space-x-3 items-center">
             <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
-              {t("wallet_section.title")}
+            BFX Presale
             </h3>
             {/* {!apiData.presaleEnded && (
             <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
@@ -82,7 +82,9 @@ const WalletSec = () => {
               ) : null}
             </div>
           </div>
-          <p className="text-[18px] font-[400] max-w-[750px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]"  dangerouslySetInnerHTML={{ __html: t(`wallet_section.description`) }}>
+          <p className="text-[18px] font-[400] max-w-[750px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]"  >
+          BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, <br />
+          where holders earn real USDT rewards anytime someone trades — even during the presale.
           </p>
         </div>
 
@@ -108,7 +110,7 @@ const WalletSec = () => {
               border: " 0.663px solid #FFF",
               backdropFilter: "blur(13.031462669372559px)",
             }}
-            className="max-w-[413.763px] space-y-[10px] relative rounded-[6.419px] px-[25px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
+            className="max-w-[590px] space-y-[10px] relative rounded-[6.419px] px-[25px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
           >
             <div className="w-[100%] absolute top-0 left-0 -translate-y-1/2">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#000]">

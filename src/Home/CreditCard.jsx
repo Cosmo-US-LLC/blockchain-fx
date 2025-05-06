@@ -10,9 +10,9 @@ function CreditCard() {
   const { t } = useTranslation(); 
 
   return (
-    <div className="pt-[20px] pb-[50px] bg-[#020B10]">
+    <div className="pt-[20px] pb-[50px] bg-[#000]">
       <div
-        className="max-w-[1200px] reative overflow-hidden relative bg-[#030F16] min-h-[480px] p-[30px] w-[100%] space-y-[25px] mx-auto rounded-[13px]"
+        className="max-w-[1200px] reative overflow-hidden relative bg-[#111] min-h-[480px] p-[30px] w-[100%] space-y-[25px] mx-auto rounded-[13px]"
         style={{
           border: "1px solid #2B2B2B",
         }}

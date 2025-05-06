@@ -189,10 +189,10 @@ function Navbar() {
   const modalData = useModalState();
 
   return (
-    <div className={` relative ${isHome ? "mb-[80px]" : "!mb-[50px]"}`}>
+    <div className={` relative ${isHome ? "mb-[50px]" : "!mb-[50px]"}`}>
       <div
-        className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          isHome ? "top-9" : "top-0"
+        className={`fixed w-[100%] bg-[#000] z-[999] px-2 ${
+          isHome ? "top-0" : "top-0"
         }`}
       >
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">

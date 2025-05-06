@@ -17,12 +17,12 @@ export default function SwapSection() {
 
   return (
     <>
-      <div className=" bg-[#020B10] flex items-center justify-center pt-[30px] pb-[60px] px-[80px] ">
-        <div className="p-6 max-w-[1280px] min-h-[454px] w-full flex flex-row items-center rounded-[13px] bg-no-repeat bg-cover bg-center"
+      <div className=" bg-[#000]  pt-[30px] pb-[30px] px-[80px] ">
+        <div className="px-6 max-w-[1200px] mx-auto w-full pt-[100px] pb-[30px] space-y-[40px]  rounded-[13px] bg-no-repeat bg-cover bg-center"
               style={{ backgroundImage: `url(${swapbg})` }}>
         
-        
-          <div className="w-[50%]">
+        <div className="flex flex-row items-center">
+        <div className="w-[50%]">
             <div className="w-full p-2">
               <img
                 src={whitepaper}
@@ -33,22 +33,32 @@ export default function SwapSection() {
           </div>
           <div className="w-[50%] space-y-4 pl-4">
             <div className="w-full p-2 flex flex-col justify-start text-white">
-            <h3 className="text-[40px] font-[800] leading-[52px] mb-4 bg-gradient-to-r from-white to-[#E5AE00] bg-clip-text text-transparent">
-            Swap Assets Instantly
+            <h3 className="text-[40px] font-[800] leading-[52px] mb-4 text-[#fff]">
+            More Than 500 Assets 
             </h3>
               <p className="text-[18px] text-[#fff] font-[400] leading-[27px]">
-              Trade anything in one place, like swapping Gold for BTC or ETH for Nvidia stock in seconds. No more juggling platforms, dealing with deposits, delays, or extra fees. BlockchainFX makes trading faster and easier than ever.              </p>
+              BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes. No delays, no extra fees, no switching platforms. Just fast and real-time trading.           </p>
             </div>
 
-            <div className="w-full p-2 flex justify-start">
-              <button
-                onClick={handleScroll}
-                className="text-white bg-[#E5AE00] px-[13px]  hover:text-white hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-white rounded-[8px] max-w-[143px] w-[100%] h-[50px]"
-              >
-                Buy $BFX
-              </button>
-            </div>
+          
           </div>
+        </div>
+        <div 
+            style={{
+              border:"0.835px solid #262626"
+            }}
+            className="w-full rounded-[13px] flex justify-center max-w-[1150px] w-[100%] mx-auto py-[20px] px-[20px] space-x-[15px]">
+              <h4 className="text-[20px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">Users can trade on BlockchainFX:</h4>
+              <h4 className="text-[20px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">Crypto</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Stocks</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Forex</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Commodities</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">ETFs</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Options</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Futures</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Indices</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">CFDs</h4>
+            </div>
         </div>
       </div>
     </>

@@ -42,6 +42,9 @@ import BlockchainFXDemo from './BlockchainFXDemo';
 import CreditCard from './CreditCard';
 import KYCVerified from './KYCVerified';
 import LivePresale from '../compunents/LivePresale';
+import InsideSec from './InsideSec';
+import CryptoExchangeSec from './CryptoExchangeSec';
+import CommunitySec from './CommunitySec';
 
 
 function Home() {
@@ -49,38 +52,42 @@ function Home() {
       <div className="">
         <Herosection />
         <FeaturedSec />
+        <InsideSec />
         <WalletSec />
         <KYCVerified />
         <ExpertSaysSec />
-        <NextGenerationSec />
+        {/* <NextGenerationSec /> */}
+        <CryptoExchangeSec />
         <BlockchainFXDemo />
-        <TradeOverSec/>
+         <SwapSection />
+        {/* <TradeOverSec/> */}
         <OneAppSec />
-        <EarnOnSec />
+        <CommunitySec />
+        {/* <EarnOnSec /> */}
         <HowDoesItSec />
-        <ExclusiveBenefitsSec/>
         <CreditCard />
-        <PremiumSec />
+        <ExclusiveBenefitsSec/>
+        {/* <PremiumSec /> */}
         {/* <HowToBuySec /> */}
-        <LessThanSec />
+        {/* <LessThanSec /> */}
         {/* <GatewaySec />
         <HyperGrowthSec /> */}
-        <StandoutSec/>
+        {/* <StandoutSec/> */}
 
 
         {/* <LiveNewSec /> */}
-        {/* <SwapSection /> */}
-        <WhatIsSec />
+       
+        {/* <WhatIsSec /> */}
         {/* <SecurityBuiltSec /> */}
-        <Whitepaper/>
-        <TokenAllocationSec />
-        <Roadmap/>
-        <MultiAward/>
-        <PressMediaSec />
-        <TraderReviewsSec />
-        <FaqSec />
+        {/* <Whitepaper/> */}
+        {/* <TokenAllocationSec /> */}
+        {/* <Roadmap/> */}
+        {/* <MultiAward/> */}
+        {/* <PressMediaSec /> */}
+        {/* <TraderReviewsSec /> */}
+        {/* <FaqSec />
         <TheUltimateSec />
-        <LivePresale />
+        <LivePresale /> */}
       </div>
     );
   }
