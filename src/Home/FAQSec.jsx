@@ -120,13 +120,45 @@
 
 // export default FaqSec;
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 import faqicn2 from "../assets/faqs/down.png";
 import up from "../assets/faqs/arrow-circle-right.png";
+
+const faqs = [
+  {
+    "question": "What is BlockchainFX?",
+    "answer": "BlockchainFX is an international multi-asset trading platform offering a wide range of trading opportunities, including Forex, Crypto, ETFs, and more, with advanced technical tools and risk management features."
+  },
+  {
+    "question": "What is BFX?",
+    "answer": "BFX is the native token of the BlockchainFX platform, enabling early access, staking rewards in BFX and USDT, and providing access to premium features, as well as participation in the platform's ecosystem."
+  },
+  {
+    "question": "What is a crypto presale?",
+    "answer": "A crypto pre-sale is an early opportunity to purchase a new cryptocurrency or token before it becomes publicly available, typically at a significantly lower price than the official launch price on exchanges."
+  },
+  {
+    "question": "What is the goal of the presale?",
+    "answer": "The community event is dedicated to selling all pre-sale allocated tokens to accelerate platform growth and expansion. These funds will be strategically allocated to development, marketing, and securing top-tier exchange listings for BFX. <br/><br/>Our goal is to reach 100,000 active daily traders and generate multi-million dollar daily trading volume before the official launch. At the same time, we're building a strong, loyal, and engaged community, rewarding early supporters with discounted tokens, and maximizing awareness for the BFX launch."
+  },
+  {
+    "question": "Where can I see my tokens?",
+    "answer": "You can view your tokens in your dashboard wallet. Simply click 'Connect Wallet' in the top right corner and connect the wallet you used for the purchase to see your BFX balance."
+  },
+  {
+    "question": "Are my tokens safe?",
+    "answer": "The safety of your tokens during the pre-sale is 100% guaranteed through our smart contract."
+  },
+  {
+    "question": "How to claim your BFX?",
+    "answer": "Your tokens will be transferred to your wallet automatically after the presale ends. You don't need to do anything."
+  }
+]
+
+
 const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   const createMarkup = () => ({ __html: answer });
   return (
-    <div className="mb-[20px] overflow-hidden rounded-[16px] border border-[#000] bg-[#030F16]">
+    <div className="mb-[20px] overflow-hidden rounded-[16px] border border-[#000] bg-[#111]">
       <div
         className="flex cursor-pointer items-center justify-between px-[21px] py-[28px]"
         onClick={handleClick}
@@ -150,25 +182,23 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   );
 };
 const FaqSec = () => {
-  const { t } = useTranslation();
-  const faqList = t("faq_section.faqs", { returnObjects: true });
   const [openItemIndex, setOpenItemIndex] = useState(null);
   const handleClick = (index) => {
     setOpenItemIndex(openItemIndex === index ? null : index);
   };
   return (
-    <div className="bg-[#020B10]" id="faq">
-      <div className="w-full max-w-[1280px] space-y-[35px] pt-[30px] pb-[60px] mx-auto">
+    <div className="bg-[#000]" id="faq">
+      <div className="w-full max-w-[1200px] space-y-[35px] pt-[30px] pb-[60px] mx-auto">
         <div className="text-center space-y-[10px]">
           <h2 className="text-white leading-[120%] text-[48px] font-[600]">
-            {t("faq_section.title")}
+          FAQs
           </h2>
           <p className="text-[18px] font-[400] text-[#fff] text-center">
-            {t("faq_section.description")}
+          Find answers to some of the most common questions
           </p>
         </div>
         <div className="w-full mx-auto">
-          {faqList.map((faq, index) => (
+          {faqs.map((faq, index) => (
             <FaqItem
               key={index}
               question={faq.question}

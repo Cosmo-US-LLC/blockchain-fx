@@ -31,52 +31,20 @@ function LessThanSec() {
   }, []);
 
   return (
-    <div className="pt-[50px] pb-[50px] bg-[#020B10]">
-      <div className="relative max-w-[1200px] mx-auto">
-        <div className="w-[40%] flex justify-end items-end space-x-2">
-          <button className="swiper-button-prev-slide-swp w-[42.545px] h-[42.545px] rounded-[50px] a absolute z-[99] left-10 top-[50%]">
-            {"<"}
-          </button>
-          <button className="swiper-button-next-slide-swp rounded-[50px] right-10 top-[50%] absolute z-[99]  w-[42.545px] h-[42.545px]">
-            {">"}
-          </button>
-        </div>
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={20}
-          loop={false}
-          navigation={{
-            nextEl: ".swiper-button-next-slide-swp",
-            prevEl: ".swiper-button-prev-slide-swp",
-            enabled: true,
-          }}
-          pagination={{
-            el: ".custom-pagination",
-            clickable: true,
-            renderBullet: (index, className) => {
-              return `<span class="${className} custom-bullet bg-yellow-800 p-1 rounded-full "></span>`;
-            },
-          }}
-          onSwiper={(swiper) => (swiperRef.current = swiper)}
-          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-          modules={[Navigation, Pagination]}
-          className="mySwiper"
-        >
-          {/* Slide 1: Pie Chart */}
-          <SwiperSlide>
-            <div
+    <div className="pt-[50px] pb-[50px] bg-[#000]">
+        <div
               className="max-w-[1200px] py-[50px] relative overflow-hidden space-y-[50px] rounded-[16px] w-[100%] mx-auto"
               style={{
-                background: "#030F16",
+                background: "#111",
                 borderColor: "rgba(230, 175, 3, 0.12)",
               }}
             >
               <div className="space-y-[18px] relative z-[99]">
                 <h3 className="text-[40px] font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
-                  {t("less_than_section.title")}
+                Bridging Crypto and Finance
                 </h3>
                 <p className="text-[18px] font-[400] w-[750px] mx-auto text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
-                  {t("less_than_section.description")}
+                Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily.  Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major  opportunity for BFX to connect crypto users with the world’s largest financial markets.
                 </p>
               </div>
               <div className="space-y-[60px] relative z-[99]">
@@ -93,12 +61,12 @@ function LessThanSec() {
                   Bonds: $1.1 Trillion (11.42%)
                   </p>
                   <p className="text-[#fff] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
-                  US Stock: $700 Billion (7.27%)
+                  U.S. Stocks: $700 Billion (7.27%)
                   </p>
                   <p className="text-[#fff] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
                   Commodities: $250 Billion (2.59%)
                   </p>
-                  <p className="text-[#fff] absolute top-[35%] left-[19%]  text-[15px] font-[700] tracking-[-0.787px]">
+                  <p className="text-[#F3D885] py-1 px-2 border border-[#F6CE69] absolute top-[35%] left-[7%] rounded-[5px]  text-[26px] font-[700] tracking-[-0.787px]">
                   Crypto: $89 Billion (0.87%)
                   </p>
                   <p className="text-[#fff] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
@@ -145,9 +113,41 @@ function LessThanSec() {
                 <img src={ernvet1} className="" alt="" />
               </div>
             </div>
+      {/* <div className="relative max-w-[1200px] mx-auto">
+        <div className="w-[40%] flex justify-end items-end space-x-2">
+          <button className="swiper-button-prev-slide-swp w-[42.545px] h-[42.545px] rounded-[50px] a absolute z-[99] left-10 top-[50%]">
+            {"<"}
+          </button>
+          <button className="swiper-button-next-slide-swp rounded-[50px] right-10 top-[50%] absolute z-[99]  w-[42.545px] h-[42.545px]">
+            {">"}
+          </button>
+        </div>
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={20}
+          loop={false}
+          navigation={{
+            nextEl: ".swiper-button-next-slide-swp",
+            prevEl: ".swiper-button-prev-slide-swp",
+            enabled: true,
+          }}
+          pagination={{
+            el: ".custom-pagination",
+            clickable: true,
+            renderBullet: (index, className) => {
+              return `<span class="${className} custom-bullet bg-yellow-800 p-1 rounded-full "></span>`;
+            },
+          }}
+          onSwiper={(swiper) => (swiperRef.current = swiper)}
+          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+          modules={[Navigation, Pagination]}
+          className="mySwiper"
+        >
+         
+          <SwiperSlide>
+          
           </SwiperSlide>
 
-          {/* Slide 2: Gateway to Global Markets */}
           <SwiperSlide>
             <div
               className="max-w-[1200px] rounded-[16px] pt-[50px] pb-[70px] relative overflow-hidden space-y-[40px] w-[100%] mx-auto"
@@ -294,7 +294,6 @@ function LessThanSec() {
             </div>
           </SwiperSlide>
 
-          {/* Slide 3: Exponential Growth */}
           <SwiperSlide>
             <div className="max-w-[1200px] relative overflow-hidden bg-[#030F16] py-[50px] rounded-[16px] space-y-[35px] w-[100%] mx-auto">
               <div className="space-y-[14px]">
@@ -350,7 +349,7 @@ function LessThanSec() {
           </SwiperSlide>
         </Swiper>
         <div className="custom-pagination flex justify-center p-2 gap-3 mt-4"></div>
-      </div>
+      </div> */}
     </div>
   );
 }
