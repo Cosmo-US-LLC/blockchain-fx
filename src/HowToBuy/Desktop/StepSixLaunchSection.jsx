@@ -18,7 +18,7 @@ function StepSixLaunchSection() {
             </p>
 
             <div className="flex flex-wrap items-center justify-center  max-w-[450px] gap-4">
-              <div className="flex items-center justify-center gap-2 w-[152px] h-[61px] border rounded-md bg-white/5 border-white/20 backdrop-blur-md">
+              <div className="flex  items-center justify-center gap-2 w-[152px] h-[61px] border rounded-md bg-white/5 border-white/20 backdrop-blur-md">
                 <div className="w-[38px] h-[38px] rounded-full bg-[#FF007A] flex items-center justify-center">
                   <img src={UniswapIcon} alt="Uniswap" className="w-7 h-7" />
                 </div>

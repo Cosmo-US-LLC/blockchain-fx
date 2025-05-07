@@ -29,7 +29,7 @@ function StepTwoPaymentCard() {
             className="absolute top-0 left-0 z-10 h-auto"
           />
           <div className="z-30 flex flex-col items-center justify-center text-white ">
-            <p className="text-[30px] font-semibold text-[#E5AE00]">STEP 3</p>
+            <p className="text-[30px] font-semibold text-[#E5AE00]">STEP 2</p>
             <h2 className="mb-2 text-[48px] font-[600] leading-[57.6px] tracking-[-3.36px]">
               Select Payment Method
             </h2>

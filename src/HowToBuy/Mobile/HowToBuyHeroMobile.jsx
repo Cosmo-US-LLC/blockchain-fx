@@ -1,23 +1,31 @@
 import React from "react";
-import CoinImage from "../../assets/hoyToBuy/hero/howToBuyCoin1.webp";
+import CoinImage from "../../assets/hoyToBuy/mobile/hero/hero-coin.webp";
+import ellipse from "../../assets/hoyToBuy/mobile/hero/ellipse.webp";
 
 function HowToBuyHeroMobile() {
   return (
-    <div className="md:hidden bg-gradient-to-br from-black via-[#020B10] to-black py-16 px-6">
-      <div className="max-w-[95%] mx-auto flex flex-col items-center text-center">
-        <div className="text-white">
-          <h1 className="mb-6 text-4xl font-bold leading-tight drop-shadow-md">
+    <div className="bg-[#020B10] w-full px-6 py-6">
+      <div className="flex flex-col items-center justify-center gap-16 text-center">
+        <div className="flex flex-col text-left text-white">
+          <h1 className="mb-2 text-[38px] font-[500] leading-[47px] tracking-[-2.8px]">
             How To Buy <br />
-            BlockchainFX <br />
-            <span className="text-[#FFD700]">($BFX)</span>
+            BlockchainFX
+            <span className="text-[#E5AE00]">($BFX)</span>
           </h1>
-          <p className="mb-8 text-base leading-relaxed text-gray-300">
-            Secure your $BFX tokens and unlock daily crypto rewards. Follow this
-            step-by-step guide for easy purchase.
+          <p className="text-[15px] leading-[22px] tracking-[-0.32px] text-[#9F9F9F]">
+            Follow this simple step-by-step guide to secure your $BFX tokens and
+            unlock daily crypto rewards. Whether you're paying with crypto or
+            card, everything you need is outlined below.
           </p>
         </div>
 
-        <div>
+        <div className="relative flex items-center justify-center">
+          <img
+            src={ellipse}
+            alt=""
+            className="absolute top-0 left-0 z-20 h-auto "
+          />
+
           <img
             src={CoinImage}
             alt="BlockchainFX Token ($BFX) - How to Buy"
