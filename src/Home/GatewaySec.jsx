@@ -13,19 +13,19 @@ function GatewaySec() {
   const [showTooltip, setShowTooltip] = useState(false);
 
   return (
-    <div className="py-[50px] bg-[#020B10]">
+    <div className="py-[50px] bg-[#000]">
       <div className="max-w-[1200px] rounded-[16px] py-[80px] relative overflow-hidden space-y-[40px] w-[100%] mx-auto "
        style={{
-            background: "#030F16",
+            // background: "#030F16",
+            background:"#111",
             borderColor: "rgba(230, 175, 3, 0.12)",
           }}
       >
         <div className="space-y-[14px]">
           <h3 className="text-[40px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
-            The Gateway to Global Markets
-          </h3>
+          The First Crypto Exchange That Pays Its Holders          </h3>
           <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
-          Launching a new trading platform takes a lot of time and resources. On the other hand, <br /> buying $BFX takes seconds and lets you earn every time someone trades.
+          Instead of draining users with high trading fees, BlockchainFX cuts them by up to 70%. Half of all fees are shared with $BFX holders as daily staking rewards. We’re building a next-generation trading platform that grows with its community, where users benefit from every step of our success.
           </p>
         </div>
         <div className="max-w-[1025px] relative z-[99] mx-auto flex justify-between itees-center ">
@@ -37,7 +37,7 @@ function GatewaySec() {
                   <img src={icon1} alt="" className="w-[37px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                  Costs
+                Fees
                 </span>
               </li>
               <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
@@ -45,15 +45,15 @@ function GatewaySec() {
                   <img src={icon2} alt="" className="w-[36px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                  Time{" "}
-                </span>
+                Asset Variety
+                                </span>
               </li>
               <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
                   <img src={icon3} alt="" className="w-[36px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                  Team
+                User Experience
                 </span>
               </li>
               <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
@@ -61,7 +61,7 @@ function GatewaySec() {
                   <img src={icon4} alt="" className="w-[39px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                  Work Scope
+                Community
                 </span>
               </li>
             </ul>
@@ -69,22 +69,22 @@ function GatewaySec() {
           <div
             className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
-              background: "#030F16",
+              background: "#0C0C0C",
               border: "1px solid #2B2B2B"
             }}
           >
             <div className="flex justify-start pl-[19px] space-x-4 items-center">
               <img src={cardicon1} alt="" className="w-[56.7px] h-[56.7px]" />
               <h4 className="text-[#CBCBCB] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
-                New Trading Platform
+              Other Crypto Exchanges
               </h4>
             </div>
             <ul>
               <li className="py-[20px] flex items-center space-x-2 border-b border-[#C2C2C2]">
                 <span className="text-[#939393] text-[16px] font-[500] ">
-                  Up to $2 Million
+                High fees with no rewards for users
                 </span>
-                <div
+                {/* <div
                   className="relative"
                   onMouseEnter={() => setShowTooltip(true)}
                   onMouseLeave={() => setShowTooltip(false)}
@@ -95,27 +95,23 @@ function GatewaySec() {
                       This is the budget needed only to launch the platform in certain jurisdictions, excluding staff and marketing.
                     </div>
                   )}
-                </div>
+                </div> */}
               </li>
               <li className="text-[#939393] text-[16px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
-                Up to 3 years
+              Only crypto-to-crypto trading
               </li>
               <li className="text-[#939393] text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
-                Experienced multilingual team working in shifts, 24/7, 365 days
-                a year.
+              Random account restrictions and freezes
               </li>
               <li className="text-[#939393] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
-                Capital Requirements, Marketing & Branding, Liquidity Providers,
-                Risk Management Team, Customer Support, Technology
-                Infrastructure, Partnerships, Development, Hiring and Managing
-                Staff, and more.
+              Users are seen purely as profit generators for the exchange and are completely excluded from its growth and success.
               </li>
             </ul>
           </div>
           <div
             className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
-              background: "#030F16",
+              background: "#0C0C0C",
               border: "1px solid #2B2B2B"
             }}
           >
@@ -127,16 +123,16 @@ function GatewaySec() {
             </div>
             <ul>
               <li className="text-[#939393] text-[16px]  h-[61.5px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
-                Up to you
+              Shares profits with the community
               </li>
-              <li className="text-[#939393] text-[16px] h-[65.5px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
-                Buy $BFX in 2 clicks
+              <li className="text-[#939393] text-[16px] h-[65.5px] font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
+              Swap instantly between crypto, stocks, forex, commodities, ETFs & more
               </li>
-              <li className="text-[#939393] text-[16px]  font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
-                No Team required
+              <li className="text-[#939393] text-[16px]  font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
+              Withdraw your crypto anytime, no lock-ins
               </li>
               <li className="text-[#939393] text-[16px]  font-[500] py-[27px]">
-                No Work Required
+              The community earns, grows, and builds the platform alongside BlockchainFX.
               </li>
             </ul>
           </div>

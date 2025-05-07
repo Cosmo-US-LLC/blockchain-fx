@@ -67,27 +67,27 @@ function Home() {
         <HowDoesItSec />
         <CreditCard />
         <ExclusiveBenefitsSec/>
-        {/* <PremiumSec /> */}
+        <PremiumSec />
         {/* <HowToBuySec /> */}
-        {/* <LessThanSec /> */}
-        {/* <GatewaySec />
-        <HyperGrowthSec /> */}
-        {/* <StandoutSec/> */}
+        <LessThanSec />
+        <GatewaySec />
+        {/* <HyperGrowthSec />  */}
+        <StandoutSec/> 
 
 
         {/* <LiveNewSec /> */}
        
         {/* <WhatIsSec /> */}
         {/* <SecurityBuiltSec /> */}
-        {/* <Whitepaper/> */}
-        {/* <TokenAllocationSec /> */}
-        {/* <Roadmap/> */}
-        {/* <MultiAward/> */}
-        {/* <PressMediaSec /> */}
-        {/* <TraderReviewsSec /> */}
-        {/* <FaqSec />
+        <Whitepaper/> 
+         <TokenAllocationSec /> 
+         <Roadmap/> 
+         <MultiAward/> 
+         <PressMediaSec /> 
+         <TraderReviewsSec /> 
+         <FaqSec />
         <TheUltimateSec />
-        <LivePresale /> */}
+        {/*<LivePresale /> */}
       </div>
     );
   }

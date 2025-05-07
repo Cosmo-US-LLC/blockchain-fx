@@ -16,11 +16,11 @@ function RoadmapSection() {
   const cardGroups = [
     {
       slides: [0, 1, 2],
-      phases: [t("Roadmap_section.Genesis"), t("Roadmap_section.Foundations"), t("Roadmap_section.Takeoff")],
+      phases: ["Genesis", "Foundations","Takeoff"],
     },
     {
       slides: [3, 4, 5],
-      phases: [t("Roadmap_section.Scale"), t("Roadmap_section.Expansion"), t("Roadmap_section.Global Reach")],
+      phases: ["Scale","Expansion", "Global Reach"],
     },
   ];
 
@@ -38,7 +38,7 @@ function RoadmapSection() {
       className="absolute left-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
       onClick={onClick}
     >
-      <img src={leftArrow} alt={t("Roadmap_section.previous")} className="h-10 w-10 rotate-[180deg]" />
+      <img src={leftArrow} alt={"Roadmap_section.previous"} className="h-10 w-10 rotate-[180deg]" />
     </div>
   );
 
@@ -92,70 +92,70 @@ function RoadmapSection() {
 
   const slideData = [
     {
-      title: t("Roadmap_section.Preparation"),
-      status: t("Roadmap_section.Completed"),
+      title:"Preparation",
+      status: "Completed",
       items: [
-        t("Roadmap_section.Idea + concept"),
-        t("Roadmap_section.Raise Seed Funds"),
-        t("Roadmap_section.Onboard Team & Advisors"),
-        t("Roadmap_section.Trading Platform Beta Preparation"),
+        "Idea + concept",
+        "Raise Seed Funds",
+        "Onboard Team & Advisors",
+        "Trading Platform Beta Preparation",
       ],
     },
     {
-      title: t("Roadmap_section.Execution"),
-      status: t("Roadmap_section.Completed"),
+      title: "Execution",
+      status:"Completed",
       items: [
-        t("Roadmap_section.Website, Tokenomics etc."),
-        t("Roadmap_section.Create $BFX Token"),
-        t("Roadmap_section.Launch $BFX Pre-Sale"),
-        t("Roadmap_section.Certik Token Audit"),
+        "Website, Tokenomics etc.",
+        "Create $BFX Token",
+        "Launch $BFX Pre-Sale",
+        "CertiK Audit",
       ],
     },
     {
-      title: t("Roadmap_section.Launch"),
-      status: t("Roadmap_section.On-going"),
+      title: "Launch",
+      status: "On-going",
       items: [
-        t("Roadmap_section.Launch an Affiliate Program"),
-        t("Roadmap_section.Sell Out the Pre-Sale"),
-        t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
-        t("Roadmap_section.Achieving 10000 BFX Holders"),
+       "Launch an Affiliate Program",
+       "Sell Out the Pre-Sale",
+       "Launch $BFX on Uniswap and CEX",
+        "Achieving 10’000 BFX Holders",
       ],
     },
     {
-      title: t("Roadmap_section.Performance"),
+      title: "Performance",
       items: [
-        t("Roadmap_section.Multiple CEX Listing"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-        t("Roadmap_section.Reach $100M Daily Trading Volume"),
-        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+        "Multiple CEX Listing",
+        "Achieving 100000 BFX Holders",
+        "Reach $100M Daily Trading Volume",
+        "Add Leaderboards & VIP accounts",
       ],
     },
     {
-      title: t("Roadmap_section.Expansion"),
+      title:"Expansion",
       items: [
-        t("Roadmap_section.Multiple CEX Listing"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-        t("Roadmap_section.Reach $100M Daily Trading Volume"),
-        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+       "Multiple CEX Listing",
+        "Achieving 100000 BFX Holders",
+        "Reach $100M Daily Trading Volume",
+        "Add Leaderboards & VIP accounts",
       ],
     },
     {
-      title: t("Roadmap_section.Global Reach"),
+      title: "Global Reach",
       items: [
-        t("Roadmap_section.US License"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-        t("Roadmap_section.Global Marketing Campaigns"),
-        t("Roadmap_section.Major Global Partnerships"),
+        "US License",
+        "Achieving 100000 BFX Holders",
+        "Global Marketing Campaigns",
+        "Major Global Partnerships",
       ],
     },
   ];
 
   return (
-    <div className="bg-[#020B10] pt-[30px] pb-[60px]" id="roadmap">
+    <div className="bg-[#000] pt-[30px] pb-[60px]" id="roadmap">
       <h3 className="text-center text-[48px] font-[600] leading-[120%] text-white tracking-[-1.5px] mb-28">
-        {t("Roadmap_section.Roadmap")} <br />
+      Roadmap <br />
         <span className="text-[#fff] text-xl font-[400]">
-          {t("Roadmap_section.From Fintech Startup to Global Market Leader")}
+        From Fintech Startup to Global Market Leader
         </span>
       </h3>
 
@@ -194,7 +194,7 @@ function RoadmapSection() {
         <Slider ref={sliderRef} {...settings}>
           {slideData.map((slide, index) => (
             <div key={index} className="px-2">
-              <div className="bg-[#030F16] border border-[#242424] rounded-[4px] p-6 h-full">
+              <div className="bg-[#111] border border-[#242424] rounded-[4px] p-6 h-full">
                 <div
                   className="flex justify-between pb-2 items-center"
                   style={{
