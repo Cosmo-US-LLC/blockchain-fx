@@ -4,23 +4,22 @@ import goldenShadow from "../../assets/hoyToBuy/claim/claim-left-top-shadow.png"
 
 function StepThreeTransactionSectionMobile() {
   return (
-    <div className="md:hidden py-10 bg-[#020B10]">
-      <div className="relative w-full max-w-[95%] mx-auto p-6 border border-[#545454] rounded-[16px] overflow-hidden">
+    <div className="py-10 px-6 bg-[#020B10]">
+      <div className="relative w-full flex flex-col gap-10 px-4 py-6 border border-[#545454] rounded-[16px] overflow-hidden">
         <img
           src={goldenShadow}
           alt="Golden Background Shadow"
           className="absolute top-0 left-0 z-10 h-auto opacity-20"
         />
 
-        {/* Text Section */}
-        <div className="z-20 mb-8 text-center text-white">
-          <p className="text-[26px] font-semibold text-[#E5AE00] uppercase mb-4">
+        <div className="z-20 flex flex-col text-left text-white">
+          <p className="text-[25px] font-[700] leading-[30px] tracking-[-1.25px] text-[#E5AE00] uppercase mb-2">
             Step 3
           </p>
-          <h2 className="text-[36px] font-semibold leading-tight tracking-tight mb-6">
+          <h2 className="text-[30px] font-[700] leading-[36px] tracking-[-1.5px] mb-4">
             Confirm Transaction
           </h2>
-          <ol className="list-decimal pl-6 text-[#9F9F9F] text-[16px] leading-[26px] space-y-4">
+          <ol className="list-decimal pl-4 text-[#9F9F9F] text-[14px] font-[400] leading-[26px] space-y-4">
             <li>
               After clicking “Buy Now”, a unique wallet address will be
               generated.
@@ -35,12 +34,11 @@ function StepThreeTransactionSectionMobile() {
           </ol>
         </div>
 
-        {/* QR Code Section */}
         <div className="z-20 flex justify-center">
           <img
             src={qrImage}
             alt="Ethereum QR Code"
-            className="w-[200px] h-auto mb-4"
+            className="w-[241px] h-auto mb-4"
           />
         </div>
       </div>

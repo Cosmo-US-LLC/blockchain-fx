@@ -5,17 +5,18 @@ import StepThreeTransactionSectionMobile from "./StepThreeTransactionSectionMobi
 import StepFourViewCoinsSectionMobile from "./StepFourViewCoinsSectionMobile";
 import StepFiveClaimSectionMobile from "./StepFiveClaimSectionMobile";
 import StepSixLaunchSectionMobile from "./StepSixLaunchSectionMobile";
- 
+import StepTwoPaymentCardMobile from "./paymentCardMobile";
 
 function HowToBuyMobile() {
   return (
     <>
       <HowToBuyHeroMobile />
-      <StepOneWalletSetupSectionMobile/>
-      <StepThreeTransactionSectionMobile/>
-      <StepFourViewCoinsSectionMobile/>
-      <StepFiveClaimSectionMobile/>
-      <StepSixLaunchSectionMobile/>
+      <StepOneWalletSetupSectionMobile />
+      <StepTwoPaymentCardMobile />
+      <StepThreeTransactionSectionMobile />
+      <StepFourViewCoinsSectionMobile />
+      <StepFiveClaimSectionMobile />
+      <StepSixLaunchSectionMobile />
     </>
   );
 }

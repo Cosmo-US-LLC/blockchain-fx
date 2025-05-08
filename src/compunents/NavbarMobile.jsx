@@ -159,8 +159,8 @@ function NavbarMobile() {
     <div className="relative h-[64px]">
       <div className="fixed w-[100%] bg-[#020B10] z-[999]">
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
-          <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
-            <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
+          <div className="flex items-center space-x-3 2xl:block xl:block lg:block md:block sm:flex 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3">
+            <div className="block 2xl:hidden xl:hidden lg:hidden md:hidden sm:block">
               <img
                 src={menu}
                 onClick={toggleMobileMenu}
@@ -173,7 +173,7 @@ function NavbarMobile() {
                 to="/"
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
-                <div className="flex flex-row gap-2 items-center">
+                <div className="flex flex-row items-center gap-2">
                   <img className="cursor-pointer" src={logo} alt="" />
                   <p className="font-[700] text-[17px] text-[white]">
                     BlockchainFX
@@ -235,7 +235,7 @@ function NavbarMobile() {
           </a> */}
               <div
                 ref={dropdownRef}
-                className="flex relative  justify-start items-center space-x-2"
+                className="relative flex items-center justify-start space-x-2"
               >
                 <img
                   className="w-[20px]"
@@ -264,7 +264,7 @@ function NavbarMobile() {
                       {flags.map((lang, index) => (
                         <div
                           key={index}
-                          className="flex items-center space-x-1 cursor-pointer hover:bg-gray-900 p-1 rounded"
+                          className="flex items-center p-1 space-x-1 rounded cursor-pointer hover:bg-gray-900"
                           onClick={() => handleSelectLanguage(lang)}
                         >
                           <img
