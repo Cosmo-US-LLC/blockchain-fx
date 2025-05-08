@@ -1,42 +1,40 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 import icn1 from "../assets/KYCVerified/kycicn (1).svg";
 import icn2 from "../assets/KYCVerified/kycicn (3).svg";
 import icn3 from "../assets/KYCVerified/image_588254259.webp";
 
 function KYCVerifiedMob() {
-  const { t } = useTranslation();
 
   const cardItems = [
     {
       img: icn2,
-      title: t("KYCVerified.card_items.0.title"),
-      description: t("KYCVerified.card_items.0.description"),
+      title: "External Audit by Coinsult",
+      description: "BlockchainFX has been fully audited by Coinsult, a trusted auditing firm from the Netherlands, and confirmed to be 100% secure.",
     },
     {
       img: icn1,
-      title: t("KYCVerified.card_items.1.title"),
-      description: t("KYCVerified.card_items.1.description"),
+      title: "External Audit by CertiK",
+      description: "CertiK, the world’s leading blockchain security company, audited BlockchainFX and confirmed it meets the highest security standards.",
     },
     {
       img: icn3,
-      title: t("KYCVerified.card_items.2.title"),
-      description: t("KYCVerified.card_items.2.description"),
+      title: "Team KYC Verified by Solidproof",
+      description: "The BlockchainFX team has been successfully verified by Solidproof, a reputable auditing company from Germany.",
     },
   ];
 
   return (
-    <div className="pb-[50px] pt-[20px] bg-[#020B10]">
-      <div className="max-w-[1200px] w-[100%] mx-auto relative">
+    <div className="pb-[50px] pt-[20px] bg-[#000]">
+      <div className="w-[94%] mx-auto relative">
         <div className="w-[100%] mx-auto">
           <h3 className="text-[36px] pb-[30px] text-[#fff] font-[600] leading-[114%] tracking-[-1px] text-center">
-            {t("KYCVerified.security_verified_title")}
+          Security Verified by <br /> Industry Experts
           </h3>
           <div className="grid grid-cols-1 gap-y-[19px]">
             {cardItems.map((item, index) => (
               <div
                 key={index}
-                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px] max-h-[200.384px] min-h-[200.384px] bg-[#030F16] rounded-[16px]"
+                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px] max-h-[200.384px] min-h-[200.384px] bg-[#111] rounded-[16px]"
                 style={{
                   border: "1px solid rgba(230, 175, 3, 0.12)",
                 }}
@@ -53,7 +51,7 @@ function KYCVerifiedMob() {
                     }}
                     className="py-[3px] rounded-[5px] px-[8px] text-[#01BA48] text-[14px] font-[500]"
                   >
-                    {t("KYCVerified.completed")}
+                  Complete
                   </p>
                 </div>
                 <div>

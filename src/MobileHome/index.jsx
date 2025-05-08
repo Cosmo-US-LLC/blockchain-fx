@@ -33,23 +33,27 @@ import MobPressMediaSec from "./MobPressMediaSec";
 import MobOurAwardSec from "./MobOurAwardSec";
 import LivePresale from "../compunents/LivePresale";
 import KYCVerifiedMob from "./KYCVerifiedMob";
+import InsideSecmob from "./InsideSecmob";
+import CryptoExchangemobSec from "./CryptoExchangemobSec";
 
 function MobileHome() {
   return (
     <div className="bg-[#020B10]">
-      {/* <MobileHero />
+      <MobileHero />
+      <InsideSecmob />
       <MobileWalletSec />
       <KYCVerifiedMob />
       <YoutubeSec />
-      <MobNextGenerationSec />
+      <CryptoExchangemobSec />
+      {/* <MobNextGenerationSec /> */}
       <DemoSec />
-      <MobileTradeOverSec />
-      <MobileOneAppSec />
-      <MobileEarnOnSec />
-      <MobHowDoesItSec />
-      <MobExclusiveSec />
-      <CreditCardMob />
-      <MobilePremiumSec /> */}
+      {/* <MobileTradeOverSec /> */}
+      {/* <MobileOneAppSec /> */}
+      {/* <MobileEarnOnSec /> */}
+      {/* <MobHowDoesItSec /> */}
+      {/* <MobExclusiveSec /> */}
+      {/* <CreditCardMob /> */}
+      {/* <MobilePremiumSec /> */}
       {/* <MobHowToBuySec /> */}
       {/* <MobileLessThanSec /> */}
       {/* <MobileGatewaySec />

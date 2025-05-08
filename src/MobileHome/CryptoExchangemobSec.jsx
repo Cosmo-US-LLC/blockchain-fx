@@ -4,7 +4,7 @@ import crpimg from "../assets/CryptoExchangeSec/crpimg.webp";
 import ernvet1 from "../assets/CryptoExchangeSec/vec (1).png";
 import ernvet2 from "../assets/CryptoExchangeSec/vec (2).png";
 
-function CryptoExchangeSec() {
+function CryptoExchangemobSec() {
   const { t } = useTranslation();
 
   const handleScroll = () => {
@@ -22,22 +22,24 @@ function CryptoExchangeSec() {
   };
 
   return (
-    <div className="flex items-center bg-[#000] pt-[50px]">
-      <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border bg-[#000]  relative rounded-[24px]">
-        <div className="flex relative z-[99]  pr-[96px] items-center gap-[5rem] z-[99]">
-        <div className="w-[44%]">
-           <img src={crpimg} className="max-h-[619.965px]" alt="" />
-          </div>
-          <div className="w-[56%] space-y-[20px] py-[60px]">
+    <div className="flex items-center bg-[#000] pt-[30px]">
+      <div className="relative overflow-hidden flex justify-between items-center gap-[2rem] w-[90%] mx-auto border bg-[#000]  relative rounded-[24px] pt-[35px] pb-[25px]">
+        <div className=" relative z-[99] px-[20px]">
+      
+          <div className="space-y-[20px] ">
             <h4
-              className="text-[40px] text-[#fff] font-[600]"
+              className="text-[30px] text-center text-[#fff] font-[600]"
             >
-             Pioneering Crypto Exchange 
+             Pioneering <br /> Crypto Exchange 
             </h4>
-            <p className="text-[#fff] text-[18px] max-w-[543px] w-[100%] font-[500]">
+            <p className="text-[#fff] text-center text-[16px] leading-[137.5%] font-[500]">
             BlockchainFX is the world’s first crypto super app, merging blockchain with global financial markets. The exchange is live and growing rapidly. Now with the launch of $BFX, holders can be part of building the next leading global trading platform.
             </p>
-            <div className="flex justify-start pt-[20px] relative z-[99] pb-[0px] items-center space-x-[17px]">
+          </div>
+          <div className="flex justify-center mr-3">
+           <img src={crpimg} className="" alt="" />
+          </div>
+          <div className="flex justify-center  relative z-[99] pb-[0px] items-center space-x-[17px]">
               <button
                 onClick={handleScroll}
                 style={{
@@ -48,7 +50,6 @@ function CryptoExchangeSec() {
               Buy BFX
               </button>
             </div>
-          </div>
         </div>
            <div className="absolute top-[-1%] left-[0%]">
                    <img src={ernvet1} className="" alt="BlockchainFX" />
@@ -61,4 +62,4 @@ function CryptoExchangeSec() {
   );
 }
 
-export default CryptoExchangeSec;
+export default CryptoExchangemobSec;

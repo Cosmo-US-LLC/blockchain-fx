@@ -100,7 +100,7 @@ const WalletSec = () => {
             </h4>
           </div>
         )}
-        <div className="flex justify-center gap-6 <md:flex-col">
+        <div className="flex justify-center gap-4 <md:flex-col">
           <Widget />
           <div
             style={{
@@ -110,7 +110,7 @@ const WalletSec = () => {
               border: " 0.663px solid #FFF",
               backdropFilter: "blur(13.031462669372559px)",
             }}
-            className="max-w-[590px] space-y-[10px] relative rounded-[6.419px] px-[25px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
+            className="max-w-[450px] space-y-[10px] relative rounded-[6.419px] px-[25px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
           >
             <div className="w-[100%] absolute top-0 left-0 -translate-y-1/2">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#000]">

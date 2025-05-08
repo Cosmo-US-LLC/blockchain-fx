@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import whitepaper from "../assets/Whitepaper/whitepaper.webp";
 import whitepaperbg from "../assets/Whitepaper/whitepaperbg.png";
 import whitepaperbook from "../assets/Whitepaper/whitepaperbook.png";
+import ernvet1 from "../assets/CryptoExchangeSec/vec (1).png";
 
 export default function Whitepaper() {
   const { t } = useTranslation();
@@ -24,11 +25,11 @@ export default function Whitepaper() {
   return (
     <div className="flex items-center justify-center bg-[#000] pt-[50px] pb-[50px] px-[80px]" id="whitepaper">
       <div
-        className="p-6 w-full max-w-[1200px] min-h-[454px] bg-no-repeat bg-cover bg-center flex flex-row items-center rounded-[16px] bg-[#111]"
+        className="p-6 w-full max-w-[1200px] overflow-hidden relative min-h-[454px] bg-no-repeat bg-cover bg-center flex flex-row items-center rounded-[16px] bg-[#111]"
         
         // style={{ backgroundImage: `url(${whitepaperbg})` }}
       >
-        <div className="w-[50%]">
+        <div className="w-[50%] relative z-[99]">
           <div className="w-full p-2">
             <img src={whitepaperbook} className="w-[453px] h-auto object-cover" alt="whitepaper" />
           </div>
@@ -58,6 +59,9 @@ export default function Whitepaper() {
             </a>
           </div>
         </div>
+        <div className="absolute top-[0%]  left-[0%]">
+                   <img src={ernvet1} className="" alt="BlockchainFX" />
+                 </div>
       </div>
     </div>
   );

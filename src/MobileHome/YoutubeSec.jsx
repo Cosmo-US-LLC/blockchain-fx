@@ -47,7 +47,7 @@ export default function YoutubeSec() {
   };
 
   return (
-    <div className="relative p-2">
+    <div className="relative p-2 bg-[#000] rounded-[24px]">
       <img className="absolute" src={eclipse} alt="eclipse" />
       <div
         style={{
@@ -57,10 +57,14 @@ export default function YoutubeSec() {
             "linear-gradient(95.63deg, rgba(230, 175, 3, 0.3) 1.76%, rgba(29, 111, 66, 0) 99.42%)",
           borderImageSlice: 1,
         }}
-        className="max-w-[413.763px] pb-[11px] w-[100%] h-[520px] px-4"
+        className="max-w-[413.763px] py-[20px] w-[100%] px-4"
       >
-        <div className="flex flex-row items-center p-2 justify-between mt-4">
-          <img className="" src={stars} alt="stars" />
+        <div className="flex flex-row items-center pr-2 py-2 justify-between mt-4">
+        <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
+                  <h4 className="text-[#fff] text-[16px] font-[400]">
+                  What Experts Say About BFX
+                  </h4>
+                </div>
           {/* Arrow Buttons Container */}
           <div className="flex justify-between gap-2">
             {/* Previous Button */}
@@ -99,6 +103,7 @@ export default function YoutubeSec() {
             
             {t(videoData[videoIndex].description)}
           </p>
+          <img className="mt-3" src={stars} alt="stars" />
           <p className="text-[#D8D8D8] font-[600] text-[15px] mt-2">
             {t(videoData[videoIndex].dealer)}
           </p>
