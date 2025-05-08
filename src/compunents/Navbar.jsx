@@ -30,6 +30,7 @@ import {
 import { useAccount } from "../presale-gg/web3/hooks";
 import DashboardPopup from "./ui/DashboardPopup";
 import WalletPopup from "./ui/WalletPopup";
+import LivePresale from "./LivePresale";
 
 const flags = [
   { flag: flag1, abbreviation: "EN", name: "English" },
@@ -189,12 +190,14 @@ function Navbar() {
   const modalData = useModalState();
 
   return (
-    <div className={` relative ${isHome ? "mb-[50px]" : "!mb-[50px]"}`}>
+    <div className={` relative ${isHome ? "mb-[90px]" : "!mb-[50px]"}`}>
+      <LivePresale />
       <div
         className={`fixed w-[100%] bg-[#000] z-[999] px-2 ${
-          isHome ? "top-0" : "top-0"
+          isHome ? "top-9" : "top-0"
         }`}
       >
+        
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
           <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
             <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">

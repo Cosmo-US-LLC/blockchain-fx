@@ -36,11 +36,11 @@ const MobileWalletSec = () => {
     },
   ];
   return (
-    <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="how-to-buy">
-      <div className="space-y-[20px] px-[24px] py-[20px] bg-[#020B10] max-w-[955px] w-full mx-auto border border-[#262626] rounded-[8px]">
+    <div className="pt-[42px] pb-[35px] bg-[#000]" id="how-to-buy">
+      <div className="space-y-[20px] px-[24px] py-[20px] bg-[#000] max-w-[955px] w-[94%] mx-auto border border-[#262626] rounded-[8px]">
         <div className="flex justify-center space-x-3 items-center">
           <h3 className="text-[30px] font-[700] tracking-[-1px] text-white">
-            {t("wallet_section.title")}
+          BFX Presale
           </h3>
           {!apiData.presaleEnded && (
             <div className="w-[58px] text-[14px] font-[600] text-white rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
@@ -54,8 +54,9 @@ const MobileWalletSec = () => {
         <p
           className="text-white font-[400] text-[16px] text-center font-inter pb-8"
           style={{ lineHeight: "160%", letterSpacing: "-2%" }}
-          dangerouslySetInnerHTML={{ __html: t("wallet_section.description") }}
-        />
+         >
+          BFX is the world's first cryptocurrency backed by a global multi-asset trading platform,
+where holders earn real USDT rewards anytime someone trades — even during the presale.</p>
         {apiData.presaleEnded && (
           <div
             className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3]"

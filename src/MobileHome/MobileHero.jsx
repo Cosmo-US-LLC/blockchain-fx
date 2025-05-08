@@ -1,12 +1,18 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import hero_reviews from "../assets/presale-v3/hero_reviews.png";
-import stats_1 from "../assets/presale-v3/stats_1.webp";
+import heroimg from "../assets/herosection/mobhero.png";
+import uersrev from "../assets/herosection/Avatars.png";
+import stars from "../assets/herosection/stars.png";
+import arwgrn from "../assets/herosection/arwgrn.svg";
+import heroicns1 from "../assets/herosection/herosvg (1).svg";
+import heroicns2 from "../assets/herosection/herosvg (2).svg";
+import heroicns3 from "../assets/herosection/herosvg (3).svg";
+import check from "../assets/herosection/check.svg";
+
 import herobnr1 from "../assets/herosection/bnrhero (4).svg";
 import herobnr2 from "../assets/herosection/bnrhero (3).svg";
 import herobnr3 from "../assets/herosection/bnrhero (2).svg";
 import herobnr4 from "../assets/herosection/bnrhero (1).svg";
-import stars from "../assets/herosection/stars.png";
 
 function MobileHero() {
   const { t } = useTranslation(); // Hook for translations
@@ -42,93 +48,90 @@ function MobileHero() {
   };
 
   return (
-    <div className="pt-[22px] bg-[#020B10]">
-      <div className="w-[90%] mx-auto ">
-        <div className="space-y-[20px]">
-          <div className="">
-            <div
-              style={{
-                background:
-                  "linear-gradient(90.19deg, rgba(255, 255, 255, 0.3) -45.06%, rgba(255, 255, 255, 0) 111.83%)",
-              }}
-              className="h-[29px] rounded-full flex flex-row items-center justify-center border-1 border-[1px] border-[#FFFFFF33]"
-            >
-              <h4 className="text-[12px] font-[400] text-[12px] text-[white]">
-                {t("hero_section.hero_subtitle")}
-              </h4>
-            </div>
-            <h2
-              className="pt-4 herohed pb-4 text-[43px] font-[600] text-white text-center font-manrope"
-              style={{
-                lineHeight: "120%",
-                letterSpacing: "-5%",
-              }}
-              dangerouslySetInnerHTML={{ __html: t(`hero_section.hero_title`) }}
-            />
-            <div className="flex justify-center space-x-2 items-center">
-              <div>
-                <img
-                  className="w-[150px] h-auto mx-auto"
-                  src={hero_reviews}
-                  alt="hero_reviews"
-                />
-                <p className="text-[#fff] pt-[2px] text-center font-[400] text-[12px]">
-                  {t("hero_section.rated_by_users")}
-                </p>
-              </div>
-              <div
-                className="flex space-y-1 items-center flex-col p-3 rounded-[10px]"
-                style={{
-                  background: "background: rgba(3, 15, 22, 0.30)",
-                  border: "1.5px solid rgba(230, 175, 3, 0.30)",
-                }}
-              >
-                <img
-                  className="w-[82px] h-[15px]"
-                  loading="lazy"
-                  src={stars}
-                  alt="star"
-                />
-                <p className="text-[#fff] font-[400] text-[14px] leading-[100%]">
-                  4.87/5
-                </p>
-              </div>
-            </div>
-            <p className="text-[16px] text-[#fff] font-[400] text-center pt-4">
-              {t("hero_section.hero_description")}
-            </p>
-          </div>
-          <div className="flex justify-center items-center space-x-[17px]">
-            <button
-              onClick={handleScroll}
-              className="text-[16px] font-[700] h-[50px] w-[159px] rounded-[10px]"
-              style={{
-                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-              }}
-            >
-              {t("hero_section.join_whitelist")}
-            </button>
-
-            <button
-              onClick={handleScrollToDemo}
-              className="w-[144px] hover:text-white hover:bg-[#E5AE00] px-[14px] text-[#E6B005] bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px]  h-[48px]"
-            >
-              {t("hero_section.whitepaper")}
-            </button>
-          </div>
-          <div className="flex relative justify-center pt-[15px]">
-            <img src={stats_1} className="h-auto " alt="stats_1" />
-            <div
-              className="w-[100%] h-[100px] rounded-[1650px] bg-[#020B10]"
-              style={{
-                filter: "blur(37px)",
-                position: "absolute",
-                bottom: "-7%",
-                zIndex: "1",
-              }}
-            ></div>
-          </div>
-          <div className="gap-2 border !border-t-0  !mt-[-30px] border-1 border-[#262626] h-[72px] w-full flex flex-col items-center p-2 ">
+    <div className="pt-[22px] pb-[15px] bg-[#000]">
+       <div className=" w-[94%] mx-auto ">
+             <div className="">
+               <div className="space-y-[24px] ">
+                   <h4 className="text-[12px]  leading-[150%] font-[600] text-[#E5AE00] tracking-[-0.16px] ">
+                     Crypto Exchange Launches Coin with an Integrated Reward System
+                   </h4>
+                 <h1 
+                 className="text-[40px] font-[600] leading-[103%] tracking-[-3px] text-[#fff] ">
+                   $BFX Pays You Every Time Someone Trades on BlockchainFX
+                 </h1>
+                 <p className="text-[#fff] font-[400] leading-[137.5%] text-[16px]">
+                 Start earning today and receive up to 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue without having to trade yourself.
+                     </p>
+     
+                     <div className="space-y-[15px] max-w-[550px] border-[0.5px] border-[#C0C0C0] py-[17px] px-[21px] rounded-[13px]">
+                       <div className="flex items-center space-x-3">
+                         <img src={check} alt="" />
+                         <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">The first crypto exchange Bridging Blockchain and Finance</p>
+                       </div>
+                       <div className="flex items-center space-x-3">
+                         <img src={check} alt="" />
+                         <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, all in one place</p>
+                       </div>
+                       <div className="flex items-center space-x-3">
+                         <img src={check} alt="" />
+                         <p className="text-[#fff] capitalize font-[400] leading-[150%] text-[16px]">Awarded as the Fastest-Growing Crypto Trading App of 2025</p>
+                       </div>
+                     </div>
+                     <div className="flex justify-center pt-[20px] pb-[0px] items-center space-x-[17px]">
+                 <button
+                   onClick={handleScroll}
+                   style={{
+                     background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                   }}
+                   className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+                 >
+                   Buy $BFX
+                 </button>
+     
+                 <button
+                   onClick={handleScrollToDemo}
+                   className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[138px] rounded-[8px] !w-[100%] h-[50px]"
+                 >
+                   How it works?
+                 </button>
+               </div>
+                 
+               </div>
+               <div className="max-w-[450px] space-y-[27px]">
+                 <div className="relative flex justify-center">
+                   <img src={heroimg} alt="heroimg" />
+                  
+                 </div>
+                 <div className="flex justify-center items-center space-x-[20px]">
+                   <img src={heroicns1} alt="" />
+                   <img src={heroicns2} alt="" />
+                   <img src={heroicns3} alt="" />
+                 </div>
+                 <div className="flex items-center justify-center space-x-3">
+                   <div className="flex flex-col items-center">
+                     <img src={uersrev} loading="lazy" alt="reviews" />
+                     <p className="text-[#fff] font-[400] text-[16px]">
+                     Verified Ratings
+                     </p>
+                   </div>
+                   <div
+                     className="flex space-x-2 items-center flex-col py-3 px-5 rounded-[10px]"
+                     style={{
+                       background: "background: rgba(3, 15, 22, 0.30)",
+                       border: "1.5px solid rgba(230, 175, 3, 0.30)",
+                     }}
+                   >
+                     <img className="w-[82px] h-[15px]" loading="lazy" src={stars} alt="star" />
+                     <p className="text-[#fff] font-[400] text-[17.702px]">
+                       4.87/5{" "}
+                     </p>
+                   </div>
+                 </div>
+               </div>
+                 
+             </div>
+           </div>
+           <div className="gap-2 border-[1px] w-[94%] mx-auto mt-[30px] border-[#262626] h-[72px]  flex flex-col items-center p-2 rounded-[6px] ">
             <p className="font-[600] relative z-[99] text-[15px] text-center text-[white]">
               Featured In:
             </p>
@@ -179,8 +182,6 @@ function MobileHero() {
               </a>
             </div>
           </div>
-        </div>
-      </div>
     </div>
   );
 }

@@ -65,8 +65,8 @@ const cards = [
   {
     id: 4,
     img: cardimg1,
-    title: "Novice",
-    price: "$1,000",
+    title: "Expert",
+    price: "$10,000",
     reviews: [true, true, true, false, false],
     points: [
       { text: "BFX Visa Card", icon: tick },
@@ -75,13 +75,13 @@ const cards = [
       { text:  "Daily USDT Rewards", icon: cross },
       { text: "Trading Credits of up to $25k", icon: cross }
     ],
-    buttonLabel: "Buy $BFX • $1,000",
+    buttonLabel: "Buy $BFX • $10,000",
   },
   {
     id: 5,
     img: cardimg2,
-    title: "Advanced",
-    price: "$2,500",
+    title: "Master",
+    price: "$25,000",
     reviews: [true, true, true, true, false],
     points: [
       { text: "BFX Visa Card", icon: tick },
@@ -90,13 +90,13 @@ const cards = [
       { text: "$500 Trading Credits", icon: tick },
       { text: "Daily USDT Rewards", icon: cross }
     ],
-    buttonLabel: "Buy $BFX • $2,500",
+    buttonLabel: "Buy $BFX • $25,000",
   },
   {
     id: 6,
     img: cardimg2,
-    title: "Advanced",
-    price: "$2,500",
+    title: "Elite",
+    price: "$50,000",
     reviews: [true, true, true, true, false],
     points: [
       { text: "BFX Visa Card", icon: tick },
@@ -105,22 +105,22 @@ const cards = [
       { text: "$500 Trading Credits", icon: tick },
       { text: "Daily USDT Rewards", icon: cross }
     ],
-    buttonLabel: "Buy $BFX • $2,500",
+    buttonLabel: "Buy $BFX • $50,000",
   },
   {
     id: 7,
     img: cardimg1,
-    title: "Advanced",
-    price: "$2,500",
+    title: "Legend",
+    price: "$100,000",
     reviews: [true, true, true, true, false],
     points: [
       { text: "BFX Visa Card", icon: tick },
-      { text: "20% BFX Bonus", icon: tick },
+      { text: "80% BFX Bonus", icon: tick },
       { text: "Metal BFX Visa Card", icon: tick },
       { text: "$500 Trading Credits", icon: tick },
       { text: "Daily USDT Rewards", icon: cross }
     ],
-    buttonLabel: "Buy $BFX • $2,500",
+    buttonLabel: "Buy $BFX • $100,000",
   },
 ];
 const Bundles = [
@@ -232,7 +232,7 @@ function PremiumSec() {
                     className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${activeIndex === index
                         ? "border-black"
                         : "border-[rgba(230, 175, 3, 0.12)]"
-                      } border !min-h-[599px] max-h-[599px] h-[100%]`}
+                      } border !min-h-[610px] max-h-[610px] h-[100%]`}
                   >
                     <div>
                       <img
@@ -302,7 +302,7 @@ function PremiumSec() {
                       </ul>
 
                     </div>
-                    <div className="flex justify-start">
+                    <div className="flex justify-start pt-[15px]">
                       <button
                         onClick={handleScroll}
                         onMouseEnter={() => setHoveredIndex(index)}
@@ -313,7 +313,7 @@ function PremiumSec() {
                               ? "transparent"
                               : "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                         }}
-                        className="text-black px-[12px] hover:text-[#E5AE00] hover:!bg-transparent text-[15.27px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[auto] h-[49px]"
+                        className="text-black px-[12px] hover:text-[#E5AE00] hover:!bg-transparent text-[15.27px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[100%] h-[49px]"
                       >
                         {card.buttonLabel}
                       </button>

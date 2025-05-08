@@ -22,16 +22,16 @@ function DemoSec() {
   };
 
   return (
-    <div
+   <div className="bg-[#000] py-[30px]">
+     <div
       id="MobileDemo"
       style={{
         border: "1.5px solid",
-        borderRadius: "24px",
         borderImageSource:
           "linear-gradient(95.63deg, rgba(230, 175, 3, 0.3) 1.76%, rgba(29, 111, 66, 0) 99.42%)",
         borderImageSlice: 1,
       }}
-      className="mt-[24px] relative mx-auto max-w-[404px]"
+      className=" relative mx-auto max-w-[404px]"
     >
       <img src={ellipse2} className="absolute" alt="ellipse2" />
       <div className="w-[90%] mx-auto space-y-[24px]">
@@ -61,10 +61,17 @@ function DemoSec() {
           }}
           className="self-center text-[16px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[168px]"
         >
-          {t("blockchainfx_demo.buy_button")}
+        Buy BFX
+        </button>
+        <button
+          onClick={handleScroll}
+          className="self-center text-[16px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[168px]"
+        >
+        Watch Live Trading Here
         </button>
       </div>
     </div>
+   </div>
   );
 }
 

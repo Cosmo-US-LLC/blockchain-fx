@@ -8,7 +8,7 @@ function CommunitySec() {
 
   const cardItems = [
     {
-      title: "DaNI",
+      title: "DANI",
       Date:"Verified Purchase on 04/02/25",
       description: "Joined their waitlist and got early beta access to the trading app in December.  It felt like Binance on steroids and I just Knew it would blow up, so I bought in 5–6 times over the past weeks. Already made $3,75k USDT from staking, and the coin hasn’t even launched yet. Big up!"
     },
