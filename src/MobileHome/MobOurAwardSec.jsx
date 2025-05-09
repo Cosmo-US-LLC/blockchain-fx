@@ -11,10 +11,10 @@ function MobOurAwardSec() {
     <div className="pt-[24px] bg-[#000] pb-[24px]" id="win">
       <div className="relative space-y-[20px] w-[90%] mx-auto">
         <div className="space-y-[10px]">
-          <h4 className="text-[20px] font-[400] text-center leading-[114%] text-[#FFF] tracking-[-1px]">
+          <h4 className="text-[20px] font-[400] text-center capitalize leading-[114%] text-[#FFF] tracking-[-1px]">
             {t("multiAward.heading")} 
           </h4>
-          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#FFF] tracking-[-1px]"
+          <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#FFF] tracking-[-2.1px]"
           dangerouslySetInnerHTML={{ __html: t(`multiAward.subheading`) }}
           >
           </h3>
@@ -23,9 +23,9 @@ function MobOurAwardSec() {
           <div
             className="space-y-[10px] px-[80px] max-h-[673px] pt-[15px] rounded-[12.839px] w-[100%]"
             style={{
-              background: "#030F16",
+              background: "#111111",
               backdropFilter: "blur(49.51113510131836px)",
-              border: "1.102px solid rgba(230, 175, 3, 0.12)",
+              border: "1.102px solid #E6AF0320",
             }}
           >
             <div className="space-y-[10px] max-w-[324.48px] h-[160px] flex items-center justify-center flex-col w-[100%] relative mx-auto pb-[2.4rem]">
@@ -55,9 +55,9 @@ function MobOurAwardSec() {
           <div
             className="space-y-[10px] px-[60px] max-h-[673px] pt-[15px] rounded-[12.839px] w-[100%]"
             style={{
-              background: "#030F16",
+              background: "#111111",
               backdropFilter: "blur(49.51113510131836px)",
-              border: "1.102px solid rgba(230, 175, 3, 0.12)",
+              border: "1.102px solid #E6AF0320",
             }}
           >
             <div className="space-y-[10px] max-w-[324.48px] h-[160px] flex items-center justify-center flex-col w-[100%] relative mx-auto pb-[2.4rem]">

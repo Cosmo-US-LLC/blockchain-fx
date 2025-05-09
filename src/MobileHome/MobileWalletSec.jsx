@@ -15,30 +15,30 @@ const MobileWalletSec = () => {
   const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
   const items = [
     {
-      title: t("wallet_section.step_1_title"),
-      description: t("wallet_section.step_1_description"),
+      title: "1. Choose A Payment Method",
+      description:"<li>Connect your crypto wallet</li><li>Choose your preferred payment method</li><li>Enter the amount of $BFX you want to buy </li>",
       icon: oneicon1,
     },
     {
-      title: t("wallet_section.step_2_title"),
-      description: t("wallet_section.step_2_description"),
+      title: "2. Confirm The Transaction",
+      description: "Click on ‘Buy Now’ and confirm the transaction",
       icon: oneicon2,
     },
     {
-      title: t("wallet_section.step_3_title"),
-      description: t("wallet_section.step_3_description"),
+      title: "3. Start Earning Today",
+      description: "<p>Earn BFX and USDT from day one:</p><li>Staking Rewards are added to your dashboard daily</li><li>USDT (ERC-20) payouts are sent to your wallet every Monday</li>",
       icon: oneicon3,
     },
     {
-      title: t("wallet_section.step_4_title"),
-      description: t("wallet_section.step_4_description"),
+      title: "Claim",
+      description: "<p>Congratulations! You can claim your BFX after the presale ends. <br/><br/> Thanks for being part of the BFX journey!</p>",
       icon: oneicon4,
     },
   ];
   return (
-    <div className="pt-[42px] pb-[35px] bg-[#000]" id="how-to-buy">
-      <div className="space-y-[20px] px-[24px] py-[20px] bg-[#000] max-w-[955px] w-[94%] mx-auto border border-[#262626] rounded-[8px]">
-        <div className="flex justify-center space-x-3 items-center">
+    <div className="pt-[42px] pb-[35px] bg-[#000]" id="Wallet">
+      <div className="space-y-[20px] px-[24px] py-[20px] bg-[#000] max-w-[955px] w-[90%] mx-auto border border-[#262626] rounded-[8px]">
+        <div className="flex items-center justify-center space-x-3">
           <h3 className="text-[30px] font-[700] tracking-[-1px] text-white">
           BFX Presale
           </h3>
@@ -55,8 +55,8 @@ const MobileWalletSec = () => {
           className="text-white font-[400] text-[16px] text-center font-inter pb-8"
           style={{ lineHeight: "160%", letterSpacing: "-2%" }}
          >
-          BFX is the world's first cryptocurrency backed by a global multi-asset trading platform,
-where holders earn real USDT rewards anytime someone trades — even during the presale.</p>
+       $BFX is the world’s first cryptocurrency backed by 
+       a global exchange and trading app, where holders earn USDT rewards every time someone trades, even during the presale.</p>
         {apiData.presaleEnded && (
           <div
             className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3]"
@@ -67,7 +67,7 @@ where holders earn real USDT rewards anytime someone trades — even during the 
             </h4>
           </div>
         )}
-        <div className="flex justify-between gap-8 flex-col md:flex-row">
+        <div className="flex flex-col justify-between gap-8 md:flex-row">
           <Widget />
           <div
             className="max-w-[413.763px] space-y-[10px] relative rounded-[20px] px-[10px] pt-[22px] pb-[11px] border border-white w-full mx-auto"
@@ -78,7 +78,7 @@ where holders earn real USDT rewards anytime someone trades — even during the 
               WebkitBackdropFilter: "blur(19px)",
             }}
           >
-            <div className="absolute top-0 left-0 -translate-y-1/2 w-full">
+            <div className="absolute top-0 left-0 w-full -translate-y-1/2">
               <div className="bg-[#020B10] h-[30px] flex items-center rounded-[6px] mx-auto w-[102px] border border-white">
                 <h3 className="text-[10px] text-white text-center w-full font-[700]">
                   {t("wallet_section.how_to_buy")}
@@ -92,16 +92,16 @@ where holders earn real USDT rewards anytime someone trades — even during the 
                   className="py-[15px] px-1 border-b transition-all duration-300"
                 >
                   <div
-                    className="flex justify-between items-center cursor-pointer"
+                    className="flex items-center justify-between cursor-pointer"
                     onClick={() =>
                       setSelectedHowToBuyStep(
                         selectedHowToBuyStep === index ? null : index
                       )
                     }
                   >
-                    <div className="flex justify-between items-center w-full space-x-4">
+                    <div className="flex items-center justify-between w-full space-x-4">
                       <div className="flex flex-col w-full">
-                        <div className="flex justify-between items-center">
+                        <div className="flex items-center justify-between">
                           <h3
                             className={`text-[14px] capitalize font-[600] ${
                               index === selectedHowToBuyStep ? "" : "text-white"
@@ -109,11 +109,7 @@ where holders earn real USDT rewards anytime someone trades — even during the 
                             style={
                               index === selectedHowToBuyStep
                                 ? {
-                                    background:
-                                      "linear-gradient(92deg, #E5AE01 24.64%, #FFE182 97%)",
-                                    backgroundClip: "text",
-                                    WebkitBackgroundClip: "text",
-                                    WebkitTextFillColor: "transparent",
+                                    color:"#E5AE00",
                                   }
                                 : {}
                             }
@@ -155,12 +151,12 @@ where holders earn real USDT rewards anytime someone trades — even during the 
             </div>
             <div className="space-y-[14px]">
               <h4 className="text-white text-[14px] py-[5px] font-[600] px-1">
-                {t("wallet_section.launch_title")} 
+              5. Launch
               </h4>
               <div className="max-w-[414px] px-[10px] pt-[14px] pb-[16px] border border-[#3B3B3B] w-full mx-auto">
                 <div className="flex flex-col gap-[12px]">
                   <h4 className="text-start text-[#808080] text-[10px] font-[600]">
-                    {t("wallet_section.exchanges")}
+                  $BFX launches on Multiple Top-Tier Exchanges
                   </h4>
                   <div className="flex justify-center gap-[8px] flex-wrap">
                     <div

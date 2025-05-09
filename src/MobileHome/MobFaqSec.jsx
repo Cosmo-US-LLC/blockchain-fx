@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 import faqicn1 from "../assets/faqs/image (3).svg";
 import faqicn2 from "../assets/faqs/image (4).svg";
 const FaqItem = ({ question, answer, isOpen, handleClick }) => {
-  
   const createMarkup = () => ({ __html: answer });
   const contentStyles = {
     maxHeight: isOpen ? "1000px" : "0",
@@ -16,7 +15,7 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   return (
     <div
       onClick={handleClick}
-      className="mb-[20px] border py-[15px] px-[20px] bg-[#030f16] rounded-[4px] cursor-pointer border-[#E6AF031F] border-solid"
+      className="mb-[20px] border py-[15px] px-[20px] bg-[#111111] rounded-[4px] cursor-pointer border-[#E6AF0320] border-solid"
     >
       <div className={`flex justify-between items-center`}>
         <div className="flex items-center justify-center">
@@ -63,7 +62,7 @@ const MobFaqSec = () => {
   const { t } = useTranslation();
 
   const faqData = t("faq_section.faqs", { returnObjects: true });
- 
+
   const [openItems, setOpenItems] = useState([]);
 
   const handleClick = (index) => {
@@ -76,11 +75,11 @@ const MobFaqSec = () => {
         <div className=" w-[90%]  space-y-[30px] pt-[30px] mx-auto pb-[30px]">
           <div className="text-center space-y-[20px]">
             <h2 className="text-[#FFF] leading-[100%] text-[30px] font-[600]">
-            {t("faq_section.title")}
+              {t("faq_section.title")}
             </h2>
             <p className="text-[15px] font-[400] text-[#fff] text-center">
-            {t("faq_section.description")}
-                        </p>
+              {t("faq_section.description")}
+            </p>
           </div>
           <div className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] mx-auto">
             <div className="">

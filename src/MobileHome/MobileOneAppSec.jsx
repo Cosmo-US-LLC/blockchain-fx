@@ -5,33 +5,38 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2) copy.svg";
-import oneimg from "../assets/OneAppSec/imgonecec.png";
+import oneimg from "../assets/OneAppSec/dailyimgmob.png";
 import { useTranslation } from "react-i18next";
+import { useApiState } from "../presale-gg/stores/api.store";
 
 function MobileOneAppSec() {
   const { t } = useTranslation();
+  const apiData = useApiState();
   const [activeIndex, setActiveIndex] = useState(0);
 
   const items = [
     {
       icon: oneicon1,
-      title: t("one_app_section.any_device.title"),
-      description: t("one_app_section.any_device.description"),
+      title: "Own BFX",
+      description: "Buy $BFX during the presale in just a few seconds.",
     },
     {
       icon: oneicon2,
-      title: t("one_app_section.technical_tools.title"),
-      description: t("one_app_section.technical_tools.description"),
+      title: "Stake your BFX",
+      description:
+        "Go to the presale dashboard, click on “Stake”, choose the amount, and confirm.",
     },
     {
       icon: oneicon3,
-      title: t("one_app_section.risk_management.title"),
-      description: t("one_app_section.risk_management.description"),
+      title: "Personal Dashboard",
+      description:
+        "Connect your wallet and click on “Dashboard” in the top right corner to view your BFX balance.",
     },
     {
       icon: oneicon4,
-      title: t("one_app_section.multiple_charts.title"),
-      description: t("one_app_section.multiple_charts.description"),
+      title: "Staking Rewards",
+      description:
+        "Your BFX and USDT rewards will appear on the dashboard 24 hours after you stake your coins.",
     },
   ];
 
@@ -40,43 +45,63 @@ function MobileOneAppSec() {
   };
 
   return (
-    <div className="pt-[24px] pb-[24px] " id="what-is-bfx-coin">
-      <div className="w-[90%] mx-auto relative">
+    <div className="pt-[24px] bg-[#000] pb-[24px] " id="what-is-bfx-coin">
+      <div className="w-[90%] mx-auto relative border border-[#343434] rounded-[24px] px-[20px] py-[30px]">
         <div className="space-y-[30px]">
           <div className="space-y-[15px]">
-            <h3 className="text-[34px] font-[600] text-left leading-[114%] text-[white] leading-[-1px] ">
-              {t("one_app_section.title")}
+          {!apiData.presaleEnded && (
+            <div className="w-[93px] h-[32px] mx-auto text-[14px] font-[600] text-white rounded-[7px] bg-[#E9C03D] flex justify-center items-center">
+              <span className="text-[38px] leading-[9%] -mt-[23px] pr-[6px] animate-blink">
+                .
+              </span>
+              Live
+            </div>
+          )}
+            {/* <h4 className="px-2 h-[29px] flex items-center text-center max-w-[93px] mx-auto text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] ">
+              {" "}
+              <span className="text-[40px] !mb-[20px] mr-[3px] leading-[0px]">
+                .
+              </span>{" "}
+              Live Now
+            </h4> */}
+            <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[white] leading-[-1px] ">
+              Daily Staking Rewards
             </h3>
-            <p className="text-[15px] text-[#fff] text-left font-[400] leading-[127.778%] leading-[-0.32px] ">
-              {t("one_app_section.description")}
+            <p className="text-[15px] text-[#fff] text-center font-[400] leading-[127.778%] leading-[-0.32px] ">
+              Get in now and start earning every day
             </p>
           </div>
-          <div className="w-[100%] space-y-[32px]">
+          <div className="w-[100%]">
             <div className="">
               {items.map((item, index) => (
                 <div
                   key={index}
-                  className={`py-[15px] pr-5 border-b last:border-none  transition-all duration-300 ${
-                    index === activeIndex ? "" : ""
-                  }`}
+                  className={`py-[25px] px-2 border-b border-[#343434] last:border-none   `}
                 >
                   <div
-                    className="flex justify-between cursor-pointer"
+                    className="flex justify-between "
                     onClick={() => handleToggle(index)}
                   >
-                    <div className="flex w-[100%] justify-between items-center space-x-4 space-y-[15px]">
-                      <div>
+                    <div className="w-[100%] space-y-[15px]">
+                      <div className="flex items-center justify-start space-x-2">
                         <img
                           src={item.icon}
                           alt={item.title}
                           className="w-[35] h-[35px]"
                         />
+                        <h3 className="text-[20px] font-[600] text-[white]">
+                          {item.title}
+                        </h3>
                       </div>
-                      <div className="w-[80%]">
-                        <div className="flex justify-between items-center">
-                          <h3 className="text-[20px] font-[700] text-[white]">
-                            {item.title}
-                          </h3>
+                      <div>
+                        <p className="text-[15px] text-start leading-[146%] font-[400] text-[#fff]">
+                          {" "}
+                          {item.description}
+                        </p>
+                      </div>
+                      {/* <div className="w-[80%]">
+                        <div className="flex items-center justify-between">
+                          
                           <div>
                             <img
                               src={index === activeIndex ? iconcls : iconapon}
@@ -100,15 +125,21 @@ function MobileOneAppSec() {
                         >
                           {item.description}
                         </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-          <div className="w-[100%] flex justify-center">
+          <div className="w-[100%] flex !mt-[10px] justify-center">
             <img src={oneimg} className="object-cover" alt="" />
+          </div>
+          <div>
+            <p className="text-[12px] text-[#fff] text-center font-[400]">
+              Connect your wallet and click the button in the top right corner
+              to view your personal dashboard.
+            </p>
           </div>
         </div>
       </div>

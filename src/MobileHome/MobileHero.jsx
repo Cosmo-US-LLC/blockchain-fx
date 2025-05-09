@@ -5,8 +5,8 @@ import uersrev from "../assets/herosection/Avatars.png";
 import stars from "../assets/herosection/stars.png";
 import arwgrn from "../assets/herosection/arwgrn.svg";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
-import heroicns2 from "../assets/herosection/herosvg (2).svg";
-import heroicns3 from "../assets/herosection/herosvg (3).svg";
+import heroicns2 from "../assets/herosection/herosvg (3).svg";
+import heroicns3 from "../assets/herosection/herosvg (2).svg";
 import check from "../assets/herosection/check.svg";
 
 import herobnr1 from "../assets/herosection/bnrhero (4).svg";
@@ -49,17 +49,17 @@ function MobileHero() {
 
   return (
     <div className="pt-[22px] pb-[15px] bg-[#000]">
-       <div className=" w-[94%] mx-auto ">
+       <div className=" w-[90%] mx-auto ">
              <div className="">
-               <div className="space-y-[24px] ">
-                   <h4 className="text-[12px]  leading-[150%] font-[600] text-[#E5AE00] tracking-[-0.16px] ">
+               <div className="flex flex-col ">
+                   <h4 className="text-[9px] mb-1 leading-[24px] font-[600] text-[#E5AE00] tracking-[-0.4px] uppercase">
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4>
                  <h1 
-                 className="text-[40px] font-[600] leading-[103%] tracking-[-3px] text-[#fff] ">
+                 className="text-[40px] mb-4 font-[600] leading-[103%] tracking-[-3px] text-[#fff] ">
                    $BFX Pays You Every Time Someone Trades on BlockchainFX
                  </h1>
-                 <p className="text-[#fff] font-[400] leading-[137.5%] text-[16px]">
+                 <p className="text-[#fff] mb-4 font-[400] leading-[137.5%] text-[16px]">
                  Start earning today and receive up to 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue without having to trade yourself.
                      </p>
      
@@ -77,27 +77,8 @@ function MobileHero() {
                          <p className="text-[#fff] capitalize font-[400] leading-[150%] text-[16px]">Awarded as the Fastest-Growing Crypto Trading App of 2025</p>
                        </div>
                      </div>
-                     <div className="flex justify-center pt-[20px] pb-[0px] items-center space-x-[17px]">
-                 <button
-                   onClick={handleScroll}
-                   style={{
-                     background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-                   }}
-                   className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
-                 >
-                   Buy $BFX
-                 </button>
-     
-                 <button
-                   onClick={handleScrollToDemo}
-                   className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[138px] rounded-[8px] !w-[100%] h-[50px]"
-                 >
-                   How it works?
-                 </button>
                </div>
-                 
-               </div>
-               <div className="max-w-[450px] space-y-[27px]">
+               <div className="max-w-[450px] pt-[30px] space-y-[27px]">
                  <div className="relative flex justify-center">
                    <img src={heroimg} alt="heroimg" />
                   
@@ -127,15 +108,33 @@ function MobileHero() {
                      </p>
                    </div>
                  </div>
+                  <div className="flex justify-center pb-[0px] items-center space-x-[17px]">
+                 <button
+                   onClick={handleScroll}
+                   style={{
+                     background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                   }}
+                   className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+                 >
+                   Buy $BFX
+                 </button>
+     
+                 <button
+                   onClick={handleScrollToDemo}
+                   className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[138px] rounded-[8px] !w-[100%] h-[50px]"
+                 >
+                   How it works?
+                 </button>
+               </div>
                </div>
                  
              </div>
            </div>
-           <div className="gap-2 border-[1px] w-[94%] mx-auto mt-[30px] border-[#262626] h-[72px]  flex flex-col items-center p-2 rounded-[6px] ">
+           <div className="gap-2 border-[1px] w-[90%] mx-auto mt-[30px] border-[#262626] h-[72px]  flex flex-col items-center p-2 rounded-[6px] ">
             <p className="font-[600] relative z-[99] text-[15px] text-center text-[white]">
               Featured In:
             </p>
-            <div className="flex justify-center items-center space-x-2">
+            <div className="flex items-center justify-center space-x-2">
               <a
                 href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/"
                 target="_blank"
