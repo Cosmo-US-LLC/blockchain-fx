@@ -7,9 +7,11 @@ import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2) copy.svg";
 import oneimg from "../assets/OneAppSec/dailyimgmob.png";
 import { useTranslation } from "react-i18next";
+import { useApiState } from "../presale-gg/stores/api.store";
 
 function MobileOneAppSec() {
   const { t } = useTranslation();
+  const apiData = useApiState();
   const [activeIndex, setActiveIndex] = useState(0);
 
   const items = [
@@ -21,17 +23,20 @@ function MobileOneAppSec() {
     {
       icon: oneicon2,
       title: "Stake your BFX",
-      description: "Go to the presale dashboard, click on “Stake”, choose the amount, and confirm.",
+      description:
+        "Go to the presale dashboard, click on “Stake”, choose the amount, and confirm.",
     },
     {
       icon: oneicon3,
       title: "Personal Dashboard",
-      description: "Connect your wallet and click on “Dashboard” in  the top right corner to view your BFX balance.",
+      description:
+        "Connect your wallet and click on “Dashboard” in the top right corner to view your BFX balance.",
     },
     {
       icon: oneicon4,
       title: "Staking Rewards",
-      description: "Your BFX and USDT rewards will appear on the dashboard 24 hours after you stake your coins.",
+      description:
+        "Your BFX and USDT rewards will appear on the dashboard 24 hours after you stake your coins.",
     },
   ];
 
@@ -44,12 +49,26 @@ function MobileOneAppSec() {
       <div className="w-[90%] mx-auto relative border border-[#343434] rounded-[24px] px-[20px] py-[30px]">
         <div className="space-y-[30px]">
           <div className="space-y-[15px]">
-          <h4 className="px-2 h-[29px] flex items-center text-center max-w-[93px] mx-auto text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] "> <span className="text-[40px] !mb-[20px] mr-[3px] leading-[0px]">.</span> Live Now</h4>
+          {!apiData.presaleEnded && (
+            <div className="w-[93px] h-[32px] mx-auto text-[14px] font-[600] text-white rounded-[7px] bg-[#E9C03D] flex justify-center items-center">
+              <span className="text-[38px] leading-[9%] -mt-[23px] pr-[6px] animate-blink">
+                .
+              </span>
+              Live
+            </div>
+          )}
+            {/* <h4 className="px-2 h-[29px] flex items-center text-center max-w-[93px] mx-auto text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] ">
+              {" "}
+              <span className="text-[40px] !mb-[20px] mr-[3px] leading-[0px]">
+                .
+              </span>{" "}
+              Live Now
+            </h4> */}
             <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[white] leading-[-1px] ">
-            Daily Staking Rewards
+              Daily Staking Rewards
             </h3>
             <p className="text-[15px] text-[#fff] text-center font-[400] leading-[127.778%] leading-[-0.32px] ">
-            Get in now and start earning every day
+              Get in now and start earning every day
             </p>
           </div>
           <div className="w-[100%]">
@@ -64,21 +83,24 @@ function MobileOneAppSec() {
                     onClick={() => handleToggle(index)}
                   >
                     <div className="w-[100%] space-y-[15px]">
-                      <div className="flex justify-start space-x-2 items-center">
+                      <div className="flex items-center justify-start space-x-2">
                         <img
                           src={item.icon}
                           alt={item.title}
                           className="w-[35] h-[35px]"
                         />
                         <h3 className="text-[20px] font-[600] text-[white]">
-                            {item.title}
-                          </h3>
+                          {item.title}
+                        </h3>
                       </div>
                       <div>
-                        <p className="text-[15px] text-start leading-[146%] font-[400] text-[#fff]"> {item.description}</p>
+                        <p className="text-[15px] text-start leading-[146%] font-[400] text-[#fff]">
+                          {" "}
+                          {item.description}
+                        </p>
                       </div>
                       {/* <div className="w-[80%]">
-                        <div className="flex justify-between items-center">
+                        <div className="flex items-center justify-between">
                           
                           <div>
                             <img
@@ -114,7 +136,10 @@ function MobileOneAppSec() {
             <img src={oneimg} className="object-cover" alt="" />
           </div>
           <div>
-            <p className="text-[12px] text-[#fff] text-center font-[400]">Connect your wallet and click the button in the top right corner to view your personal dashboard.</p>
+            <p className="text-[12px] text-[#fff] text-center font-[400]">
+              Connect your wallet and click the button in the top right corner
+              to view your personal dashboard.
+            </p>
           </div>
         </div>
       </div>

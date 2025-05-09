@@ -23,7 +23,7 @@ function MobHowDoesItSec() {
     {
       icon: cardicn1,
       title: "BFX & USDT Staking Rewards",
-      description: "BFX & USDT Staking Rewards",
+      description: "50% of all fees collected are automatically distributed to BFX holders who stake their coins.",
     },
     {
       icon: cardicn2,
@@ -75,7 +75,7 @@ function MobHowDoesItSec() {
                   </div>
 
                   <div className="pt-8">
-                    <h3 className="text-[24px] tracking-[-1.2px] text-left text-[white] font-[600] leading-[115%]">
+                    <h3 className="text-[23px] tracking-[-1.2px] text-left text-[white] font-[600] leading-[120%]">
                       {item.title}
                     </h3>
                   </div>
