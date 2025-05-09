@@ -55,8 +55,8 @@ const MobileWalletSec = () => {
           className="text-white font-[400] text-[16px] text-center font-inter pb-8"
           style={{ lineHeight: "160%", letterSpacing: "-2%" }}
          >
-          BFX is the world's first cryptocurrency backed by a global multi-asset trading platform,
-where holders earn real USDT rewards anytime someone trades — even during the presale.</p>
+       $BFX is the world’s first cryptocurrency backed by 
+       a global exchange and trading app, where holders earn USDT rewards every time someone trades, even during the presale.</p>
         {apiData.presaleEnded && (
           <div
             className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3]"
