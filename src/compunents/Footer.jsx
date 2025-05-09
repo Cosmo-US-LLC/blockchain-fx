@@ -16,7 +16,7 @@ const footer ={
     "description": "Be part of the next-gen trading platform and join the rapidly growing BlockchainFX movement.",
     "quick_links": {
       "title": "Quick Links",
-      "how_to_buy": "Whitelist",
+      "how_to_buy": "How to Buy?",
       "what_is_bfx": "What is BFX?",
       "roadmap": "Roadmap",
       "token_allocation": "Token Allocation"
@@ -35,7 +35,7 @@ const footer ={
       "email_label": "Contact E-Mail:",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": "Cryptocurrency may be unregulated in your jurisdiction, and its value can fluctuate, leading to potential gains or losses. Any profits might be subject to capital gains or other taxes, depending on your local laws. The content on this platform does not constitute an offer, recommendation, or financial advice to buy, sell, or engage in any cryptocurrency transactions. You are solely responsible for assessing whether a transaction aligns with your personal goals, financial circumstances, and risk tolerance. We strongly recommend consulting trusted and licensed legal, tax, or financial professionals before making any decisions.\n\nTrading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. BlockchainFX does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.",
+    "disclaimer": <p>Cryptocurrency may be unregulated in your jurisdiction, and its value can fluctuate, leading to potential gains or losses. Any profits might be subject to capital gains or other taxes, depending on your local laws. The content on this platform does not constitute an offer, recommendation, or financial advice to buy, sell, or engage in any cryptocurrency transactions. You are solely responsible for assessing whether a transaction aligns with your personal goals, financial circumstances, and risk tolerance. We strongly recommend consulting trusted and licensed legal, tax, or financial professionals before making any decisions.<br/> <br/>Trading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. BlockchainFX does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.</p>,
     "copyright": "Copyright 2025. All Rights Reserved.",
     "cookie_management": "Cookie Management"
   }
@@ -112,6 +112,7 @@ function Footer() {
                 <li className="text-white text-[20px] list-disc font-[600] leading-[120%] min-w-[140px]">
                   {footer.docs.title}
                   <br />
+                 
                   <Link to="/terms-of-service" className="text-blue-600 ">
                     <p className="text-[#fff] text-[16px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent transition duration-300 ">
                       {footer.docs.terms_of_service}
