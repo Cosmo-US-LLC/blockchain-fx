@@ -30,7 +30,7 @@ function KYCVerified() {
     <div className="bg-[#000]">
       <div className="max-w-[1200px] pt-[35px] w-[100%] mx-auto relative">
         <h3 className="text-[40px] text-[#fff] font-[600] leading-[155.556%] leading-[-1px] text-center">
-        Security Verified <br /> by Industry Experts
+        Security Verified by Industry Experts
         </h3>
         <div className="pt-[25px] w-[100%] mx-auto">
           <div className="grid grid-cols-3 gap-x-[12px] gap-y-[19px]">

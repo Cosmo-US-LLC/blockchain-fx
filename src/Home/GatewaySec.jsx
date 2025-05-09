@@ -112,10 +112,10 @@ function GatewaySec() {
             className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
               background: "#0C0C0C",
-              border: "1px solid #2B2B2B"
+              border: "1px solid #D99A26"
             }}
           >
-            <div className="flex justify-start space-x-4 items-center">
+            <div className="flex justify-start space-x-4 items-center ">
               <img src={cardicon2} alt="" className="w-[56.7px] h-[56.7px]" />
               <h4 className="text-[white] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
                 BlockchainFX

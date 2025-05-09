@@ -109,7 +109,7 @@ const WalletSec = () => {
               border: " 0.663px solid #FFF",
               backdropFilter: "blur(13.031462669372559px)",
             }}
-            className="max-w-[450px] space-y-[10px] relative rounded-[6.419px] px-[25px] pt-[22px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
+            className="max-w-[450px] space-y-[px] relative rounded-[6.419px] px-[25px] pt-[8px] pb-[11px] border border-[#B0B0B0] w-[100%] mx-auto "
           >
             <div className="w-[100%] absolute top-0 left-0 -translate-y-1/2">
               <div className=" w-[100%] h-[30.612px] flex items-center rounded-[6px] mx-auto w-[102.877px] border border-[#454545] bg-[#000]">
@@ -122,7 +122,7 @@ const WalletSec = () => {
               {items.map((item, index) => (
                 <div
                   key={index}
-                  className={`py-[15px] px-1 border-b border-[#545454] last:border-none  transition-all duration-300`}
+                  className={`py-[40px] px-1 border-b border-[#545454] last:border-none  transition-all duration-300`}
                 >
                   <div
                     className="flex justify-between items-center cursor-pointer"
@@ -132,7 +132,7 @@ const WalletSec = () => {
                       )
                     }
                   >
-                    <div className="flex w-[100%]  justify-between items-center space-x-4 space-y-[15px]">
+                    <div className="flex w-[100%]  justify-between items-center space-x-4 space-y-[40px]">
                       <div className=" w-[100%] flex flex-col justify-center">
                         <div className="flex justify-between items-center">
                           <h3
@@ -189,7 +189,7 @@ const WalletSec = () => {
                 </div>
               ))}
             </div>
-            <div className="space-y-[14px] border-t border-[#545454] pt-3 !mt-0">
+            <div className="space-y-[50px] border-t border-[#545454] pt-10 !mt-0">
               <h4 className="text-[#fff] text-[14px] font-[600] px-1">
                 {t("wallet_section.launch_title")}
               </h4>

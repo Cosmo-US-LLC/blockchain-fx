@@ -220,7 +220,7 @@ function Navbar() {
           <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "what-is-bfx-coin", 40)}
+              onClick={(e) => handleScroll(e, "pioneering", 40)}
               href=""
             >
               {t("navbar.whatIsBlockchainFX")}
