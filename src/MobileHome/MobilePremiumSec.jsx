@@ -183,9 +183,9 @@ function MobilePremiumSec() {
         </p>
         </div>
         <div className="w-[90%] mx-auto">
-        <div className="flex justify-between items-centers">
-          <h4 className="text-[16px] font-[700] text-[#fff]">How much do you want to spend</h4>
-          <h4 className="text-[16px] font-[700] text-[#fff]">{tierAmounts[activeIndex]}</h4>
+        <div className="flex justify-between items-centers pb-2">
+          <h4 className="text-[14px] font-[700] text-[#fff]">How much do you want to spend</h4>
+          <h4 className="text-[14px] font-[700] text-[#fff]">{tierAmounts[activeIndex]}</h4>
         </div>
          <input
     type="range"
