@@ -51,15 +51,15 @@ function MobileHero() {
     <div className="pt-[22px] pb-[15px] bg-[#000]">
        <div className=" w-[90%] mx-auto ">
              <div className="">
-               <div className="space-y-[24px] ">
-                   <h4 className="text-[12px]  leading-[150%] font-[600] text-[#E5AE00] tracking-[-0.16px] ">
+               <div className="flex flex-col ">
+                   <h4 className="text-[9px] mb-1 leading-[24px] font-[600] text-[#E5AE00] tracking-[-0.4px] uppercase">
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4>
                  <h1 
-                 className="text-[40px] font-[600] leading-[103%] tracking-[-3px] text-[#fff] ">
+                 className="text-[40px] mb-4 font-[600] leading-[103%] tracking-[-3px] text-[#fff] ">
                    $BFX Pays You Every Time Someone Trades on BlockchainFX
                  </h1>
-                 <p className="text-[#fff] font-[400] leading-[137.5%] text-[16px]">
+                 <p className="text-[#fff] mb-4 font-[400] leading-[137.5%] text-[16px]">
                  Start earning today and receive up to 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue without having to trade yourself.
                      </p>
      
@@ -134,7 +134,7 @@ function MobileHero() {
             <p className="font-[600] relative z-[99] text-[15px] text-center text-[white]">
               Featured In:
             </p>
-            <div className="flex justify-center items-center space-x-2">
+            <div className="flex items-center justify-center space-x-2">
               <a
                 href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/"
                 target="_blank"

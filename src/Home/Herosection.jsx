@@ -46,8 +46,8 @@ function Herosection() {
     <div className="pt-[55px] pb-[20px] bg-[#000]">
       <div className="max-w-[1200px] relative w-[100%] mx-auto ">
         <div className="flex justify-between gap-[2rem]">
-          <div className="space-y-[20px] max-w-[738px] w-[100%]">
-              <h4 className="text-[16px]  leading-[150%] font-[600] text-[#E5AE00] tracking-[-0.16px] ">
+          <div className="space-y-[27px] max-w-[738px] w-[100%]">
+              <h4 className="text-[16px]  leading-[150%] font-[600] text-[#E5AE00] tracking-[-0.16px] uppercase">
                 Crypto Exchange Launches Coin with an Integrated Reward System
               </h4>
             <h1 
@@ -138,7 +138,7 @@ function Herosection() {
          
 
           {/* <div className="absolute max-h-[130px] max-w-[130px] top-[6%] left-[7%]">
-            <img loading="lazy" src={herove1} className=" " alt="cCrypto Presale" />
+            <img loading="lazy" src={herove1} className="" alt="cCrypto Presale" />
           </div>
           <div className="absolute max-h-[110px] max-w-[110px] bottom-[13%] left-[12%]">
             <img loading="lazy" src={herove3} className="" alt="Trading Strategy Tools" />

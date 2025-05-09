@@ -36,15 +36,15 @@ function DemoSec() {
   };
 
   return (
-   <div className="bg-[#000] py-[30px]">
+   <div className="bg-[#000] py-[30px] " >
     <div className="mx-auto w-[90%] overflow-hidden bg-[#131312e8] rounded-[24px]"
     style={{
       border: "1.5px solid rgb(58, 49, 18)",
      
     }}>
     <div
-      id="MobileDemo"
-      className=" relative mx-auto "
+      
+      className="relative mx-auto "
     >
       <img src={ellipse2} className="absolute w-[100%] top-[-7%]" alt="ellipse2" />
       <div className="w-[100%] mx-auto space-y-[24px] px-3">

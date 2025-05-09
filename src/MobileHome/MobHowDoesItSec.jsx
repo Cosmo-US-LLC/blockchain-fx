@@ -43,12 +43,12 @@ function MobHowDoesItSec() {
   };
 
   return (
-    <div className="pt-[40px] pb-[24px] bg-[#000] space-y-[35px]">
+    <div className="pt-[40px] pb-[24px] bg-[#000] space-y-[35px]" id="MobileDemo">
       <div className="w-[90%] space-y-[25px] px-[20px] py-[30px] bg-[#111] rounded-[24px] border border-[#E6AF031F] mx-auto  overflow-hidden relative">
          <img src={ellipse2} className="absolute w-[100%] h-[512px] left-0 top-[0%]" alt="ellipse2" />
         <div>
           <h3 className="text-[30px] capitalize leading-[100%] text-[white] text-center font-[700]">
-          How Does It Work?
+          How It Works?
           </h3>
           <p className="mt-4 text-[15px] text-center text-[#fff] font-[400]">
           Discover the features and benefits of BlockchainFX.
