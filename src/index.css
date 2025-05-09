@@ -208,3 +208,11 @@ p {
 .swiper-pagination-bullet-active.custom-bullet {
   background-color: #dba81d;
 }
+.preswiper .swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #e5ae00 !important;
+}
+.preswiper .swiper-pagination-bullet {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #ffff ;
+}

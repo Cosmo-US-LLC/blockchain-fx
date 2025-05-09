@@ -38,50 +38,62 @@ function CreditCardMob() {
   };
 
   return (
-    <div className="pt-[34px] pb-[34px] px-6 bg-[#030B10]">
-      <div className="relative flex flex-col gap-8 rounded-[16px] px-6 py-6 border border-[#E7B2092B] overflow-hidden">
+    <div className="pt-[34px] pb-[34px] px-6 bg-[#000]">
+      <div className="relative flex flex-col gap-8 rounded-[16px] px-6 py-6 border border-[#E7B2092B] overflow-hidden bg-[#111]">
         <img
           src={ellipse}
           className="absolute top-[0%] w-[500px] h-[520px] left-[0%]"
           alt=""
         />
         <h3 className="text-[32px] text-left capitalize font-[600] leading-[128%] tracking-[-2.52px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">
-          {t("creditCard.title")}
+        BFX Visa Card
         </h3>
 
         <ul className="list-disc space-y-[6px]">
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-            {t("creditCard.item1")}
+          Unlimited Spending 
           </li>
           <div className="w=[100%] h-[0.3px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-            {t("creditCard.item2")}
+          Metal or 18 Karat Gold Card
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-            {t("creditCard.item3")}
+          Up to $100,000 per Transaction
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-            {t("creditCard.item4")}
+          Up to $10K Monthly ATM Withdrawals
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-            {t("creditCard.item5")}
+          Use BFX and USDT Rewards for Payments
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-            {t("creditCard.item6")}
+          Accepted Worldwide (Online & In-Stores)
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-            {t("creditCard.item7")}
+          Top Up with BFX and 20+ Crypto
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 pt-[8px] font-[500]">
-            {t("creditCard.item8")}
+          BFX Visa Card Only Available in Presale
           </li>
         </ul>
+
+        <div className="flex justify-center items-center space-x-2">
+          <h4 className="text-[14px] text-[#fff] font-[400]">
+          Compatible with
+          </h4>
+          <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]">
+            <img src={applepay} className="h-[36px]" alt="Apple Pay" />
+          </button>
+          <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]">
+            <img src={googlelepay} className="h-[36px]" alt="Google Pay" />
+          </button>
+        </div>
 
         <div className="w-[100%] bg-[#030B10] rounded-[16px] items-center flex justify-center flex-col space-y-5">
           <video
@@ -97,19 +109,9 @@ function CreditCardMob() {
           </video>
         </div>
         <p className="text-[12px] text-[#FFF] font-[400] text-center leading-[175%] tracking-[-0.32px]">
-          {t("creditCard.shippingNote")}
+        Shipping will begin once the BFX presale ends, as all cards will be sent out simultaneously.  Every BFX Founder’s Club member will receive a secure form after the presale to submit their shipping details. Cards will be delivered worldwide via DHL or FedEx Express. 
         </p>
-        <div className="flex justify-center items-center space-x-2">
-          <h4 className="text-[14px] text-[#fff] font-[400]">
-            {t("creditCard.compatibleWith")}
-          </h4>
-          <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]">
-            <img src={applepay} className="h-[36px]" alt="Apple Pay" />
-          </button>
-          <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]">
-            <img src={googlelepay} className="h-[36px]" alt="Google Pay" />
-          </button>
-        </div>
+     
       </div>
     </div>
   );

@@ -36,6 +36,8 @@ import KYCVerifiedMob from "./KYCVerifiedMob";
 import InsideSecmob from "./InsideSecmob";
 import CryptoExchangemobSec from "./CryptoExchangemobSec";
 import GatewaySecMobile from "./GatewaySecMobile";
+import CommunitymobSec from "./CommunitymobSec";
+import BiggestbuyMobSec from "./BiggestbuyMobSec";
 
 function MobileHome() {
   return (
@@ -48,13 +50,15 @@ function MobileHome() {
       <CryptoExchangemobSec />
       {/* <MobNextGenerationSec /> */}
       <DemoSec />
+      <SwapSectionMob />
       {/* <MobileTradeOverSec /> */}
-      {/* <MobileOneAppSec /> */}
+      <MobileOneAppSec />
+      <CommunitymobSec />
       {/* <MobileEarnOnSec /> */}
-      {/* <MobHowDoesItSec /> */}
-      {/* <MobExclusiveSec /> */}
-      {/* <CreditCardMob /> */}
-      {/* <MobilePremiumSec /> */}
+      <MobHowDoesItSec />
+      <CreditCardMob />
+      <MobExclusiveSec />
+      <MobilePremiumSec />
       {/* <MobHowToBuySec /> */}
       {/* <MobileLessThanSec /> */}
       {/* <MobileGatewaySec /> */}
@@ -66,6 +70,16 @@ function MobileHome() {
       <MobTopAssetsSec />
       <SwapSectionMob />
       <MobLiveNewSec /> */}
+      <BiggestbuyMobSec />
+      <MobileLessThanSec />
+      {/* <MobileGatewaySec /> */}
+      {/* <MobHyperGrowthSec />  */}
+       {/* <MobStandoutSec /> */}
+      {/* <MobileWallStreetSec /> */}
+      {/* <MobTadeLikeSec /> */}
+      {/* <MobTopAssetsSec /> */}
+      {/* <SwapSectionMob /> */}
+      {/* <MobLiveNewSec /> */}
       {/* <MobStreamlinedSec /> */}
       {/* <WhitepaperMob /> */}
       {/* <MobWhatIsSec />
