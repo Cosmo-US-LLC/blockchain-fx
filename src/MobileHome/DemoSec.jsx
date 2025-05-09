@@ -37,7 +37,7 @@ function DemoSec() {
 
   return (
    <div className="bg-[#000] py-[30px]">
-    <div className="mx-auto w-[90%] overflow-hidden bg-[#111] rounded-[24px]"
+    <div className="mx-auto w-[90%] overflow-hidden bg-[#131312e8] rounded-[24px]"
     style={{
       border: "1.5px solid rgb(58, 49, 18)",
      
@@ -46,8 +46,8 @@ function DemoSec() {
       id="MobileDemo"
       className=" relative mx-auto "
     >
-      <img src={ellipse2} className="absolute w-[100%] h-[512px] top-[-7%]" alt="ellipse2" />
-      <div className="w-[100%] mx-auto space-y-[24px] px-2">
+      <img src={ellipse2} className="absolute w-[100%] top-[-7%]" alt="ellipse2" />
+      <div className="w-[100%] mx-auto space-y-[24px] px-3">
         <h3 className="mt-8 text-[36px] font-[600] leading-[114%] leading-[-1px] text-center text-[white]">
         BlockchainFX Demo
         </h3>
@@ -72,13 +72,13 @@ function DemoSec() {
           style={{
             background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
           }}
-          className="self-center text-[16px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[140px]"
+          className="self-center text-[13px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[110px]"
         >
         Buy BFX
         </button>
         <button
           onClick={handleScrollreview}
-          className="self-center text-[16px] border border-[#E6B005] text-[#E6B005] font-[700] rounded-[10px] h-[50px] w-[210px]"
+          className="self-center text-[13px] border border-[#E6B005] text-[#E6B005] font-[700] rounded-[10px] h-[50px] w-[180px]"
         >
         Watch Live Trading Here
         </button>

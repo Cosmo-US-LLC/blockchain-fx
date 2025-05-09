@@ -36,7 +36,7 @@ function CommunitymobSec() {
             {cardItems.map((item, index) => (
               <div
                 key={index}
-                className="p-[42px] w-[100%] flex flex-col justify-between max-h-[320.384px] min-h-[320.384px] bg-[#111] rounded-[24px]"
+                className="p-[42px] w-[100%] flex flex-col justify-between max-h-[370px] min-h-[370px] bg-[#111] rounded-[24px]"
                 style={{
                   border: "1px solid rgba(230, 175, 3, 0.12)"
                 }}

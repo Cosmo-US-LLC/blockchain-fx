@@ -55,7 +55,7 @@ function BiggestbuyMobSec() {
               The top 10 BFX presale buyers will receive a share of 100,000 USD in $BFX. This exclusive reward is our way of thanking those who contributed the most and played a major role in the growth of the BlockchainFX ecosystem.
               </p>
             </div>
-            <div className="bg-[#312911] w-[80%] mt-[30px] space-y-[15px] mx-auto border border-[#fff] px-[10px] py-[20px] rounded-[24px]">
+            <div className="bg-[#312911] w-[86%] mt-[30px] space-y-[15px] mx-auto border border-[#fff] px-[10px] py-[20px] rounded-[24px]">
                 <div className="flex justify-between items-center px-[15px] pt[15px]">
                     <h3 className="text-[#F9C333] text-[9px] font-[600] w-[20%]">Rank</h3>
                     <h3 className="text-[#F9C333] text-[9px] font-[600] w-[25%]">Wallet</h3>
@@ -68,7 +68,7 @@ function BiggestbuyMobSec() {
                     <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[25%]">$124,590.58</h3>
                     <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[20%]">$50,000</h3>
                 </div>
-                <div className="flex justify-between items-center px-[15px] py-[15px] bg-[#BB9E08] rounded-[24px]">
+                <div className="flex justify-between items-center px-[15px] py-[15px] bg-[#99958C] rounded-[24px]">
                     <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[20%]">2nd</h3>
                     <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[25%]">0xa28...ba37d </h3>
                     <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[25%]">$63,560.79</h3>

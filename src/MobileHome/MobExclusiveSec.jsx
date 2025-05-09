@@ -39,7 +39,7 @@ function MobExclusiveSec() {
           className="text-[30px] capitalize leading-[120%] text-[#FFF] text-center tracking-[-2.548px] font-[600]"
           
         >
-         Benefits Of Buying BFX During The Presale
+         Benefits Of Buying <br /> BFX During The Presale
         </h3>
 
         <div className="pt-[22px] px-6 mx-auto">

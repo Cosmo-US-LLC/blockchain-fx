@@ -12,6 +12,13 @@ export default function YoutubeSec() {
   // Use translation data for the video slides
   const videoData = [
     {
+      description: "“Imagine getting into Coinbase, or Binance at day one, that’s exactly what BFX is offering right now in its presale.”",
+      link: "https://fast.wistia.net/embed/iframe/qw2brqylfy",
+      id: "big_pottential",
+      dealer: "— Clay Bro",
+      meta: "Crypto Youtuber, 136K Followers",
+    },
+    {
       description: "experts.slide1.text",
       link: "https://fast.wistia.net/embed/iframe/aa3tldcsf0",
       id: "big_pottential",
@@ -55,7 +62,7 @@ export default function YoutubeSec() {
     >
       <img className="absolute" src={eclipse} alt="eclipse" />
     <div
-        className="max-w-[413.763px] py-[20px] w-[100%] px-4"
+        className="max-w-[413.763px] py-[20px] mx-auto w-[100%] px-4"
       >
         <div className="flex flex-row items-center pr-2 py-2 justify-between mt-4">
         <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>

@@ -36,7 +36,7 @@ const MobileWalletSec = () => {
     },
   ];
   return (
-    <div className="pt-[42px] pb-[35px] bg-[#000]" id="how-to-buy">
+    <div className="pt-[42px] pb-[35px] bg-[#000]" id="Wallet">
       <div className="space-y-[20px] px-[24px] py-[20px] bg-[#000] max-w-[955px] w-[90%] mx-auto border border-[#262626] rounded-[8px]">
         <div className="flex justify-center space-x-3 items-center">
           <h3 className="text-[30px] font-[700] tracking-[-1px] text-white">
