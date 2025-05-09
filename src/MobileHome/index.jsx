@@ -95,7 +95,7 @@ function MobileHome() {
       <MobTraderReviewsSec />
       <MobFaqSec />
       <MobTheUltimateSec />
-      {/* <LivePresale /> */}
+      <LivePresale />
     </div>
   );
 }

@@ -20,6 +20,20 @@ function DemoSec() {
       }
     }, 200);
   };
+  const handleScrollreview = () => {
+    setTimeout(() => {
+      const element = document.getElementById("reviews");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
 
   return (
    <div className="bg-[#000] py-[30px]">
@@ -63,7 +77,7 @@ function DemoSec() {
         Buy BFX
         </button>
         <button
-          onClick={handleScroll}
+          onClick={handleScrollreview}
           className="self-center text-[16px] border border-[#E6B005] text-[#E6B005] font-[700] rounded-[10px] h-[50px] w-[210px]"
         >
         Watch Live Trading Here

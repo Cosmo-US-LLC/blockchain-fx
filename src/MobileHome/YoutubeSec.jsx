@@ -48,16 +48,13 @@ export default function YoutubeSec() {
 
   return (
     <div className="bg-[#000] rounded-[24px]">
-    <div className="w-[90%] relative mx-auto overflow-hidden">
+    <div className="w-[90%] relative bg-[#111] rounded-[24px] mx-auto overflow-hidden"
+    style={{
+      border: "1.5px solid rgb(58, 49, 18)",
+    }}
+    >
       <img className="absolute" src={eclipse} alt="eclipse" />
     <div
-        style={{
-          border: "1.5px solid",
-          borderRadius: "24px",
-          borderImageSource:
-            "linear-gradient(95.63deg, rgba(230, 175, 3, 0.3) 1.76%, rgba(29, 111, 66, 0) 99.42%)",
-          borderImageSlice: 1,
-        }}
         className="max-w-[413.763px] py-[20px] w-[100%] px-4"
       >
         <div className="flex flex-row items-center pr-2 py-2 justify-between mt-4">
