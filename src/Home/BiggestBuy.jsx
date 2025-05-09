@@ -5,7 +5,7 @@ export default function BiggestBuy (){
 
     return (
         <>
-         <div className="flex items-center justify-center bg-[#000] pt-[50px] pb-[50px] px-[80px]" id="whitepaper">
+         <div className="flex items-center justify-center bg-[#000] pt-[50px] pb-[50px] px-[80px]" >
       <div
         className="p-6 w-full max-w-[1200px] overflow-hidden relative min-h-[662px] bg-no-repeat bg-cover bg-center  rounded-[16px] bg-[#111]"
          >
