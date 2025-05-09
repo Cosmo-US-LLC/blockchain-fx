@@ -2,7 +2,7 @@ import React from "react";
 import check from "../assets/herosection/check.svg";
 
 // import heroVideo from "../assets/herosection/heroVideo.mp4";
-import heroimg from "../assets/herosection/heroimg2.png";
+import heroimg from "../assets/herosection/herof.png";
 import uersrev from "../assets/herosection/Avatars.png";
 import stars from "../assets/herosection/stars.png";
 import arwgrn from "../assets/herosection/arwgrn.svg";
@@ -65,7 +65,7 @@ function Herosection() {
                   </div>
                   <div className="flex items-center space-x-2">
                     <img src={check} alt="" />
-                    <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">Bitcoin, Ethereum, Gold, Stocks, Forex and ETFs — all in one place</p>
+                    <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">Bitcoin, Ethereum, Gold, Stocks, Forex and ETFs — all on one place</p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <img src={check} alt="" />

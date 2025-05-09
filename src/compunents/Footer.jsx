@@ -13,7 +13,7 @@ import icnft3 from "../assets/footer/ftricn (1).svg"
 
 
 const footer ={
-    "description": "Be part of the next-gen trading platform and join the rapidly growing BlockchainFX movement.",
+    "description": "Be part of the next-gen trading ecosystem and join the fast growing BFX movement.",
     "quick_links": {
       "title": "Quick Links",
       "how_to_buy": "How to Buy?",
@@ -86,7 +86,7 @@ function Footer() {
                   <a
                     className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent transition duration-300 "
                     href=""
-                    onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}
+                    onClick={(e) => handleScroll(e, "pioneering", 90)}
                   >
                     {footer.quick_links.what_is_bfx}
                   </a>

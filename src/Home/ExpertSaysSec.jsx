@@ -45,7 +45,7 @@ function ExpertSaysSec() {
               <div className="w-[50%] space-y-[20px]">
                 <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
-                  What Experts Say About BFX2
+                  What Experts Say About BFX
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500]">
@@ -57,7 +57,7 @@ function ExpertSaysSec() {
                   <p className="text-[#898989] text-[16px] font-[400]">Crypto Youtuber, 136K Followers</p>
                 </div>
               </div>
-              <div className="w-[50%]">
+              <div className="w-[50%] ">
                 <iframe
                   src="https://fast.wistia.com/embed/iframe/qw2brqylfy.js"
                   title="Wistia Video"
@@ -85,10 +85,10 @@ function ExpertSaysSec() {
                 “Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”</p>                <img src={stars} alt="" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— Cryto Volt</h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">Crypto Youtuber, 136K Followers</p>
+                  <p className="text-[#898989] text-[16px] font-[400]">Crypto Youtuber, 179K Followers</p>
                 </div>
               </div>
-              <div className="w-[50%]">
+              <div className="w-[50%] mb-10">
                 <iframe
                   src="https://fast.wistia.net/embed/iframe/aa3tldcsf0"
                   title="Wistia Video"
