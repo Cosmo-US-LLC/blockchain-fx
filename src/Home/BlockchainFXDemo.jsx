@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import liveVideo from "../assets/BlockchainFXDemo/live.mp4";
+import liveVideo from "../assets/BlockchainFXDemo/bfx-demo.mp4";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 
 function BlockchainFXDemo() {
@@ -12,6 +12,20 @@ function BlockchainFXDemo() {
       if (element) {
         const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
         const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth"
+        });
+      }
+    }, 200);
+  };
+
+  const handleScroll2 = () => {
+    setTimeout(() => {
+      const element = document.getElementById("insideSec");
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 130;
         window.scrollTo({
           top: elementPosition - offset,
           behavior: "smooth"
@@ -46,8 +60,8 @@ function BlockchainFXDemo() {
               </button>
 
               <button
-                onClick={() =>
-                  (window.location.href = "video")
+                onClick={handleScroll2
+                 
                 }
                 className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[228px] rounded-[8px] !w-[100%] h-[50px]"
               >
@@ -57,7 +71,7 @@ function BlockchainFXDemo() {
           </div>
           <div className="w-[50%]">
             <video
-              className="rounded-[14px] h-[320px]"
+              className="rounded-[14px] h-[320px] "
               width="920"
               height="320"
               controls={false}

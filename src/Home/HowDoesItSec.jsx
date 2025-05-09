@@ -47,7 +47,7 @@ function HowDoesItSec() {
           </h3>
           <p className="text-[18px] text-[#fff] trackin-[-0.18px] text-center font-[400]">
             BlockchainFX is a global exchange where users can trade crypto,
-            stocks, forex, ETFs, and more. <br />  Every time someone trades,
+            stocks, forex, ETFs, and more. <br /> Every time someone trades,
             70% of the trading fees go toward the $BFX staking pool, buybacks,
             and token burns.
           </p>

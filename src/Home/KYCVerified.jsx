@@ -12,12 +12,12 @@ function KYCVerified() {
     {
       img: icn2,
       title: "External Audit by Coinsult",
-      description: "BlockchainFX has been audited by Coinsult,  a trusted firm from the Netherlands, confirming  it meets the highest security standards."
+      description: <p>BlockchainFX has been audited by Coinsult, a trusted firm from the Netherlands, confirming <br/>it meets the highest security standards.</p>
     },
     {
       img: icn1,
       title: "External Audit by CertiK",
-      description: "CertiK, the world’s leading blockchain security firm, audited BlockchainFX and confirmed it to be 100% secure."
+      description: <p>CertiK, the world’s leading blockchain security firm, audited BlockchainFX and confirmed <br/>it to be 100% secure.</p>
     },
     {
       img: icn3,

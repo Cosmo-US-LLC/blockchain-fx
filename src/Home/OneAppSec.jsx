@@ -45,7 +45,7 @@ function OneAppSec() {
       >
         <div className="w-[43%] max-w-[473px] space-y-[20px]">
          <div className="space-y-[10px]">
-          <h4 className="px-2 h-[29px] flex items-center max-w-[93px] text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] "> <span className="text-[40px] !mb-[20px] mr-[3px] leading-[0px]">.</span> Live Now</h4>
+          <h4 className="px-2 h-[29px] flex items-center max-w-[93px] text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] "> <span className="text-[40px] !mb-[22px] mr-[3px] leading-[0px] animate-blink">.</span> Live Now</h4>
          <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
           Daily Staking Rewards
           </h3>

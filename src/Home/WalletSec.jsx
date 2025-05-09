@@ -83,8 +83,7 @@ const WalletSec = () => {
             </div>
           </div>
           <p className="text-[18px] font-[400] max-w-[750px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]"  >
-          BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, <br />
-          where holders earn real USDT rewards anytime someone trades — even during the presale.
+          $BFX is the world’s first cryptocurrency backed by a global exchange and trading app, where holders earn USDT rewards every time someone trades, even during the presale.
           </p>
         </div>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import multi1 from "../assets/Multi/multi1.png";
-import multi2 from "../assets/Multi/multi2.png";
+import multi1 from "../assets/Multi/multi_1.svg";
+import multi2 from "../assets/Multi/multi_2.svg";
 
 export default function MultiAward() {
   const { t } = useTranslation();

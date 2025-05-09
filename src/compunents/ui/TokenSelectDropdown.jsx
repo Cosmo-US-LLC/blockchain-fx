@@ -57,15 +57,15 @@ const TokenSelectDropdown = (props) => {
         }}
         className={className}
       >
-        {/* {
+        {
           (token?.symbol.toLowerCase() === 'card') && (
             <img
-            className="w-[18px] h-[18px]"
+            className="w-[23px] h-[24px]"
             src={tokenImageMap['visaCard']}
             alt=""
           />
           )
-        } */}
+        }
         {token && (
           <img
             className="w-[18px] h-[18px]"
