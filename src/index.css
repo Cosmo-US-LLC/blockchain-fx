@@ -152,9 +152,10 @@ p {
   margin: auto
 }
 .bgtheyltmob {
-  background-image: url(../src/assets/TheUltimateSec/bgmob.webp);
-  background-size: 100% 100%;
+  background-image: url(../src/assets/TheUltimateSec/ultimateSec.webp);
+  background-size: contain;
   background-repeat: no-repeat;
+  /* background-position: center; */
 }
 .swiper-button-prev-how.swiper-button-disabled,
 .swiper-button-next-how.swiper-button-disabled {

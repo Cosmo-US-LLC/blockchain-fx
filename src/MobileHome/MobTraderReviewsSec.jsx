@@ -24,7 +24,6 @@ import swpbtnr from "../assets/TraderReviewsSec/arw.svg";
 function MobTraderReviewsSec() {
   const { t } = useTranslation();
 
-  // Get user images mapping
   const userImages = {
     user1,
     user2,
@@ -39,7 +38,7 @@ function MobTraderReviewsSec() {
       <div className="relative space-y-[20px] w-[90%] mx-auto">
         <div className="space-y-[20px]">
           <h3
-            className="text-[30px] review font-[500] text-center leading-[114%] text-[#FFF] tracking-[-1px]"
+            className="text-[36px] review font-[700] text-center leading-[120%] text-[#FFF] tracking-[-2.548px]"
             dangerouslySetInnerHTML={{
               __html: t("trader_reviews_section.title"),
             }}
@@ -47,11 +46,11 @@ function MobTraderReviewsSec() {
         </div>
         <div className="w-[100%]">
           <div className="space-y-[30px] w-[100%]">
-            <div className="space-y-[15px]">
-              <h4 className="text-[15px] bg-[#030F16] border border-white border-opacity-10 text-white text-center font-[400] max-w-[123px] rounded-[4px] py-[10px] mx-auto">
+            <div className="flex flex-col items-center justify-center gap-4">
+              <h4 className="text-[15px] bg-[#030F16] border border-[#E6AF0320] text-white flex items-center justify-center  font-[400] w-[133px] h-[48px] rounded-[10px] ">
                 {t("trader_reviews_section.ratings.average")}
               </h4>
-              <p className="text-center text-[#7C7C7C] text-[15px] font-[400]">
+              <p className="text-[#7C7C7C] leading-normal text-[15px] font-[400]">
                 {t("trader_reviews_section.ratings.verified_ratings")}
               </p>
             </div>
@@ -61,12 +60,12 @@ function MobTraderReviewsSec() {
               }).map((bar, index) => (
                 <div
                   key={index}
-                  className="flex justify-between space-x-4 items-center"
+                  className="flex items-center justify-center gap-2 px-2"
                 >
                   <span className="text-[15px] font-[400] w-[20px]">
                     {bar.rating}
                   </span>
-                  <div className="h-[17px] w-[360px] w-[100%] bg-[#222] rounded-[16.955px]">
+                  <div className="h-[17px]  w-[100%] bg-[#222] rounded-[16.955px]">
                     <div
                       className="bg-[#E5AE00] h-[17px] rounded-[16.955px]"
                       style={{ width: `${bar.percentage}%` }}
@@ -79,17 +78,17 @@ function MobTraderReviewsSec() {
               ))}
             </div>
           </div>
-          <div className="w-[100%] pt-[35px]">
+          <div className="w-[100%] pt-[40px]">
             <div className="relative">
               <div className="max-w-[300px] flex space-x-3 mx-auto">
-                <button className="swiper-button-prev-3 rotate-[180deg] !w-[40px] !h-[40px] absolute z-10 !left-[0%] !top-[45%]">
+                <button className="swiper-button-prev-3 rotate-[180deg] !w-[40px] !h-[40px] absolute z-10 !left-[-2%] !top-[45%]">
                   <img
                     className="w-[40.545px] h-[40.545px]"
                     src={swpbtn}
                     alt=""
                   />
                 </button>
-                <button className="swiper-button-next-3 !w-[40px] !h-[40px] absolute z-10 !right-[0%] !top-[45%]">
+                <button className="swiper-button-next-3 !w-[40px] !h-[40px] absolute z-10 !right-[-2%] !top-[45%]">
                   <img
                     className="w-[40.545px] h-[40.545px]"
                     src={swpbtn}

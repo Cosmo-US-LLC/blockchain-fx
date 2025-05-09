@@ -35,6 +35,7 @@ import LivePresale from "../compunents/LivePresale";
 import KYCVerifiedMob from "./KYCVerifiedMob";
 import InsideSecmob from "./InsideSecmob";
 import CryptoExchangemobSec from "./CryptoExchangemobSec";
+import GatewaySecMobile from "./GatewaySecMobile";
 
 function MobileHome() {
   return (
@@ -56,30 +57,31 @@ function MobileHome() {
       {/* <MobilePremiumSec /> */}
       {/* <MobHowToBuySec /> */}
       {/* <MobileLessThanSec /> */}
-      {/* <MobileGatewaySec />
-      <MobHyperGrowthSec /> */}
-      {/* <MobStandoutSec /> */}
-      {/* <MobileWallStreetSec /> */}
-      {/* <MobTadeLikeSec /> */}
-      {/* <MobTopAssetsSec /> */}
-      {/* <SwapSectionMob /> */}
-      {/* <MobLiveNewSec /> */}
+      {/* <MobileGatewaySec /> */}
+      {/* <MobHyperGrowthSec /> */}
+       <GatewaySecMobile />
+      <MobStandoutSec />
+      {/* <MobileWallStreetSec />
+      <MobTadeLikeSec />
+      <MobTopAssetsSec />
+      <SwapSectionMob />
+      <MobLiveNewSec /> */}
       {/* <MobStreamlinedSec /> */}
       {/* <WhitepaperMob /> */}
-      {/* <MobWhatIsSec /> */}
-      {/* <MobTokenAllocationSec /> */}
-      {/* <MobTokenDetailsSec /> */}
-      {/* <MobSecurityBuiltSec /> */}
-      {/* <WhitepaperMob />
+      {/* <MobWhatIsSec />
+      <MobTokenAllocationSec />
+      <MobTokenDetailsSec />
+      <MobSecurityBuiltSec /> */}
+      <WhitepaperMob />
       <MobTokenDetailsSec />
       <MobRoadmapSec />
-      <MobOurAwardSec /> */}
+      <MobOurAwardSec />
       {/* <MobExpertsworkingSec /> */}
-      {/* <MobPressMediaSec />
+      <MobPressMediaSec />
       <MobTraderReviewsSec />
       <MobFaqSec />
       <MobTheUltimateSec />
-      <LivePresale /> */}
+      {/* <LivePresale /> */}
     </div>
   );
 }
