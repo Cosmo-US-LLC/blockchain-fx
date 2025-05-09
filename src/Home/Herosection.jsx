@@ -65,7 +65,7 @@ function Herosection() {
                   </div>
                   <div className="flex items-center space-x-2">
                     <img src={check} alt="" />
-                    <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, all in one place</p>
+                    <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs — all in one place</p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <img src={check} alt="" />

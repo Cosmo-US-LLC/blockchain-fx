@@ -10,7 +10,7 @@ const WalletPopup = ({ onClose }) => {
     className="fixed inset-0 bg-black bg-opacity-50 p-2 flex justify-end items-start ">
       <div 
       onClick={(e) => e.stopPropagation()}
-      className="bg-[#181818] border border-[#3D3D3D]  p-6 rounded-lg   shadow-lg w-[100%] max-w-[487px] px-[30px] py-[24px]  rounded-[8px] mt-[85px] 2xl:mr-[340px] xl:mr-10 lg:mr-10 md:mr-0 sm:mr-0 mr-0">
+      className="bg-[#181818] border border-[#3D3D3D]  p-6 rounded-lg   shadow-lg w-[100%] max-w-[487px] px-[30px] py-[24px]  rounded-[8px] mt-[85px] 2xl:mr-[150px] xl:mr-10 lg:mr-10 md:mr-0 sm:mr-0 mr-0">
        <div className="border border-[#3D3D3D] space-y-[20px] rounded-[8px] px-[30px] py-[14px] ">
         <div className="flex justify-between items-center max-w-[280px] mx-auto">
           {connections.map((conn) => (
