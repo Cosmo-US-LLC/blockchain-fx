@@ -47,9 +47,10 @@ export default function YoutubeSec() {
   };
 
   return (
-    <div className="relative p-2 bg-[#000] rounded-[24px]">
+    <div className="bg-[#000] rounded-[24px]">
+    <div className="w-[90%] relative mx-auto overflow-hidden">
       <img className="absolute" src={eclipse} alt="eclipse" />
-      <div
+    <div
         style={{
           border: "1.5px solid",
           borderRadius: "24px",
@@ -124,6 +125,7 @@ export default function YoutubeSec() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import ellipse2 from "../assets/presale-v3/ellipse2.svg";
-import liveVideo from "../assets/BlockchainFXDemo/live.mp4";
+import ellipse2 from "../assets/BlockchainFXDemo/Ellipse 3 (3).png";
+import liveVideo from "../assets/BlockchainFXDemo/Demo.mp4";
 
 function DemoSec() {
   const { t } = useTranslation();
@@ -23,23 +23,22 @@ function DemoSec() {
 
   return (
    <div className="bg-[#000] py-[30px]">
-     <div
+    <div className="mx-auto w-[90%] overflow-hidden bg-[#111] rounded-[24px]"
+    style={{
+      border: "1.5px solid rgb(58, 49, 18)",
+     
+    }}>
+    <div
       id="MobileDemo"
-      style={{
-        border: "1.5px solid",
-        borderImageSource:
-          "linear-gradient(95.63deg, rgba(230, 175, 3, 0.3) 1.76%, rgba(29, 111, 66, 0) 99.42%)",
-        borderImageSlice: 1,
-      }}
-      className=" relative mx-auto max-w-[404px]"
+      className=" relative mx-auto "
     >
-      <img src={ellipse2} className="absolute" alt="ellipse2" />
-      <div className="w-[90%] mx-auto space-y-[24px]">
+      <img src={ellipse2} className="absolute w-[100%] h-[512px] top-[-7%]" alt="ellipse2" />
+      <div className="w-[100%] mx-auto space-y-[24px] px-2">
         <h3 className="mt-8 text-[36px] font-[600] leading-[114%] leading-[-1px] text-center text-[white]">
-          {t("blockchainfx_demo.title")}
+        BlockchainFX Demo
         </h3>
         <p className="text-[16px] text-center font-[400] text-[#fff]">
-          {t("blockchainfx_demo.description")}
+        In just a few seconds, users can trade BTC, Tesla, Gold, Pepe, ETFs, CFDs, and more — all seamlessly on one platform without switching brokers.
         </p>
         <video
           width="640"
@@ -53,23 +52,24 @@ function DemoSec() {
           <source src={liveVideo} type="video/mp4" />
         </video>
       </div>
-      <div className="flex w-full items-center justify-center mt-8 mb-[30px]">
+      <div className="flex w-full items-center justify-center space-x-2 mt-8 mb-[30px]">
         <button
           onClick={handleScroll}
           style={{
             background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
           }}
-          className="self-center text-[16px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[168px]"
+          className="self-center text-[16px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[140px]"
         >
         Buy BFX
         </button>
         <button
           onClick={handleScroll}
-          className="self-center text-[16px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[168px]"
+          className="self-center text-[16px] border border-[#E6B005] text-[#E6B005] font-[700] rounded-[10px] h-[50px] w-[210px]"
         >
         Watch Live Trading Here
         </button>
       </div>
+    </div>
     </div>
    </div>
   );
