@@ -44,6 +44,7 @@ function MobileOneAppSec() {
       <div className="w-[90%] mx-auto relative border border-[#343434] rounded-[24px] px-[20px] py-[30px]">
         <div className="space-y-[30px]">
           <div className="space-y-[15px]">
+          <h4 className="px-2 h-[29px] flex items-center text-center max-w-[93px] mx-auto text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] "> <span className="text-[40px] !mb-[20px] mr-[3px] leading-[0px]">.</span> Live Now</h4>
             <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[white] leading-[-1px] ">
             Daily Staking Rewards
             </h3>
