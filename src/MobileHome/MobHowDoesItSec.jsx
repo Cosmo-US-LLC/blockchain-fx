@@ -51,7 +51,7 @@ function MobHowDoesItSec() {
           How It Works?
           </h3>
           <p className="mt-4 text-[15px] text-center text-[#fff] font-[400]">
-          Discover the features and benefits of BlockchainFX.
+          Discover the features and benefits <br/> of BlockchainFX.
           </p>
         </div>
         <div>

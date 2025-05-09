@@ -29,7 +29,7 @@ function CommunitymobSec() {
     <div className="bg-[#000]">
       <div className="max-w-[1200px] pt-[30px] w-[90%] mx-auto relative">
         <h3 className="text-[30px] text-[#fff] font-[700] leading-[120%] leading-[-1px] text-center">
-        What the $BFX Community Is Saying
+        What the $BFX <br/> Community Is Saying
         </h3>
         <div className="pt-[25px] w-[100%] mx-auto">
           <div className="grid grid-cols-1  gap-y-[30px]">

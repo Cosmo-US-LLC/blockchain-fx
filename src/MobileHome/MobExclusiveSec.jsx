@@ -12,23 +12,23 @@ function MobExclusiveSec() {
   const cardItems = [
     {
       title: "Lowest Token Price <br /> Before Launch",
-      description:"Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price.",
       img: excixn1,
+      description:<>Buying during the pre-sale allows you to secure <br/> a significant lower price compared <br/> to the BFX launch price.</>
     },
     {
       img: excixn2,
       title: "Limited Edition <br/> BFX Visa Cards",
-      description:"Get a metal or 18 karat gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide.",
+      description:<>Get a metal or 18 karat gold BFX Visa credit card with unlimited spending and top-ups, <br/> usable worldwide.</>
     },
     {
       title: "Exclusive Bonus <br/> Trading Credits ",
       img: excixn3,
-       description:"Get up to $25,000 in free trading credits to kickstart your journey on BlockchainFX with no conditions attached."
+       description:<>Get up to $25,000 in free trading credits to kickstart your journey on BlockchainFX with <br/> no conditions attached.</>
     },
     {
       title: "Daily USDT <br/> Staking Rewards",
-      description:"Start earning USDT and BFX rewards today by joining the BFX presale. The earlier you buy, the more you can earn over time.",
       img: excixn4,
+      description:<>Start earning USDT and BFX rewards today by joining the BFX presale. The earlier you buy, <br/> the more you can earn over time.</>
     },
   ];
 
