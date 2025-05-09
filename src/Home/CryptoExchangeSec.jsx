@@ -22,7 +22,7 @@ function CryptoExchangeSec() {
   };
 
   return (
-    <div className="flex items-center bg-[#000] pt-[50px]">
+    <div className="flex items-center bg-[#000] pt-[50px]" id="what-is-bfx-coin">
       <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border bg-[#000]  relative rounded-[24px]">
         <div className="flex relative z-[99]  pr-[96px] items-center gap-[5rem] z-[99]">
         <div className="w-[44%]">

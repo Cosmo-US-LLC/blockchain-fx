@@ -10,7 +10,7 @@ import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 
 function GatewaySecMobile() {
   return (
-    <div className="py-[30px] bg-[#000]">
+    <div className="py-[30px] px-5 bg-[#000]">
       <div
         className="max-w-[100%] rounded-[16px] py-[40px] relative overflow-hidden space-y-[30px] w-[100%] mx-auto"
         style={{
@@ -27,9 +27,9 @@ function GatewaySecMobile() {
           </p>
         </div>
 
-        <div className="space-y-[20px] flex gap-2 justify-center items-center">
-          <div className="flex space-y-6 w-[120px] ">
-            <ul className="space-y-4">
+        <div className="space-y-[20px] px-2 flex gap-2 justify-center items-center">
+          <div className="flex space-y-6 w-[116px] ">
+            <ul className="space-y-2">
               <li className="flex items-center gap-1 px-2">
                 <div className="w-[40px]">
                   <img src={icon1} alt="" className="w-[30px]" />
@@ -38,7 +38,7 @@ function GatewaySecMobile() {
                   Fees
                 </span>
               </li>
-              <li className="flex items-center px-2 gap-1 border-t border-[#C2C2C2]">
+              <li className="flex items-center pt-2 justify-center px-2 gap-1 border-t border-[#E5AE0033]">
                 <div className="w-[40px]">
                   <img src={icon2} alt="" className="w-[30px]" />
                 </div>
@@ -46,7 +46,7 @@ function GatewaySecMobile() {
                   Asset Variety
                 </span>
               </li>
-              <li className="flex items-center px-2 gap-1 border-t border-[#C2C2C2]">
+              <li className="flex items-center pt-2 px-2 gap-1 border-t border-[#E5AE0033]">
                 <div className="w-[40px]">
                   <img src={icon3} alt="" className="w-[30px]" />
                 </div>
@@ -54,7 +54,7 @@ function GatewaySecMobile() {
                   User Experience
                 </span>
               </li>
-              <li className="flex items-center px-2 gap-1 border-t border-[#C2C2C2]">
+              <li className="flex items-center pt-2 px-2 gap-1 border-t border-[#E5AE0033]">
                 <div className="w-[40px]">
                   <img src={icon4} alt="" className="w-[30px]" />
                 </div>
