@@ -81,7 +81,7 @@ function GatewaySec() {
             </div>
             <ul>
               <li className="py-[20px] flex items-center space-x-2 border-b border-[#C2C2C2]">
-                <span className="text-[#939393] text-[16px] font-[500] ">
+                <span className="text-[white] text-[16px] font-[500] ">
                 High fees with no rewards for users
                 </span>
                 {/* <div
@@ -97,13 +97,13 @@ function GatewaySec() {
                   )}
                 </div> */}
               </li>
-              <li className="text-[#939393] text-[16px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[white] text-[16px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
               Only crypto-to-crypto trading
               </li>
-              <li className="text-[#939393] text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-white text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
               Random account restrictions and freezes
               </li>
-              <li className="text-[#939393] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
+              <li className="text-[white] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
               Users are seen purely as profit generators for the exchange and are completely excluded from its growth and success.
               </li>
             </ul>
@@ -117,21 +117,21 @@ function GatewaySec() {
           >
             <div className="flex justify-start space-x-4 items-center">
               <img src={cardicon2} alt="" className="w-[56.7px] h-[56.7px]" />
-              <h4 className="text-[#CBCBCB] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
+              <h4 className="text-[white] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
                 BlockchainFX
               </h4>
             </div>
             <ul>
-              <li className="text-[#939393] text-[16px]  h-[61.5px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
+              <li className="text-[white] text-[16px]  h-[61.5px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
               Shares profits with the community
               </li>
-              <li className="text-[#939393] text-[16px] h-[65.5px] font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[white] text-[16px] h-[65.5px] font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
               Swap instantly between crypto, stocks, forex, commodities, ETFs & more
               </li>
-              <li className="text-[#939393] text-[16px]  font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[white] text-[16px]  font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
               Withdraw your crypto anytime, no lock-ins
               </li>
-              <li className="text-[#939393] text-[16px]  font-[500] py-[27px]">
+              <li className="text-[white] text-[16px]  font-[500] py-[27px]">
               The community earns, grows, and builds the platform alongside BlockchainFX.
               </li>
             </ul>

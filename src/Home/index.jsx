@@ -45,6 +45,7 @@ import LivePresale from '../compunents/LivePresale';
 import InsideSec from './InsideSec';
 import CryptoExchangeSec from './CryptoExchangeSec';
 import CommunitySec from './CommunitySec';
+import BiggestBuy from './BiggestBuy';
 
 
 function Home() {
@@ -69,6 +70,7 @@ function Home() {
         <ExclusiveBenefitsSec/>
         <PremiumSec />
         {/* <HowToBuySec /> */}
+        <BiggestBuy/>
         <LessThanSec />
         <GatewaySec />
         {/* <HyperGrowthSec />  */}

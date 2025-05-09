@@ -64,61 +64,61 @@ const cards = [
   },
   {
     id: 4,
-    img: cardimg1,
+    img: cardimg4,
     title: "Expert",
     price: "$10,000",
     reviews: [true, true, true, false, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
-      { text: "10% BFX Bonus", icon: tick },
-      { text: "BFX Staking Rewards", icon: tick },
-      { text:  "Daily USDT Rewards", icon: cross },
-      { text: "Trading Credits of up to $25k", icon: cross }
+      { text: "Early Access", icon: tick },
+      { text: "40% BFX Bonus", icon: tick },
+      { text: "10% USDT Rewards", icon: tick },
+      { text:  "Metal BFX Visa Card", icon: tick },
+      { text: "$2000 Trading Credits", icon: tick }
     ],
     buttonLabel: "Buy $BFX • $10,000",
   },
   {
     id: 5,
-    img: cardimg2,
+    img: cardimg5,
     title: "Master",
     price: "$25,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
-      { text: "20% BFX Bonus", icon: tick },
-      { text: "Metal BFX Visa Card", icon: tick },
-      { text: "$500 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross }
+      { text: "Early Access", icon: tick },
+      { text: "50% BFX Bonus", icon: tick },
+      { text: "15% USDT Rewards", icon: tick },
+      { text:  "Metal BFX Visa Card", icon: tick },
+      { text: "$5000 Trading Credits", icon: tick }
     ],
     buttonLabel: "Buy $BFX • $25,000",
   },
   {
     id: 6,
-    img: cardimg2,
+    img: cardimg6,
     title: "Elite",
     price: "$50,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
-      { text: "20% BFX Bonus", icon: tick },
-      { text: "Metal BFX Visa Card", icon: tick },
-      { text: "$500 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross }
+      { text: "Early Access", icon: tick },
+      { text: "60% BFX Bonus", icon: tick },
+      { text: "20% USDT Rewards", icon: tick },
+      { text:  "Metal BFX Visa Card", icon: tick },
+      { text: "$10000 Trading Credits", icon: tick }
     ],
     buttonLabel: "Buy $BFX • $50,000",
   },
   {
     id: 7,
-    img: cardimg1,
+    img: cardimg7,
     title: "Legend",
     price: "$100,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
+      { text: "Early Access", icon: tick },
       { text: "80% BFX Bonus", icon: tick },
-      { text: "Metal BFX Visa Card", icon: tick },
-      { text: "$500 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross }
+      { text: "30% USDT Rewards", icon: tick },
+      { text:  "18 Karat BFX Visa Card", icon: tick },
+      { text: "$25000 Trading Credits", icon: tick }
     ],
     buttonLabel: "Buy $BFX • $100,000",
   },
@@ -310,10 +310,10 @@ function PremiumSec() {
                         style={{
                           background:
                             hoveredIndex === index
-                              ? "transparent"
+                              ? "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)"
                               : "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                         }}
-                        className="text-black px-[12px] hover:text-[#E5AE00] hover:!bg-transparent text-[15.27px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[100%] h-[49px]"
+                        className="text-black px-[12px] hover:border-[#E6B005] hover:opacity-[0.8] text-[15.27px] font-[800] border border-[#E5AE00]  rounded-[8px] w-[100%] h-[49px]"
                       >
                         {card.buttonLabel}
                       </button>

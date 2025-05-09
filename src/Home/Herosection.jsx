@@ -2,7 +2,7 @@ import React from "react";
 import check from "../assets/herosection/check.svg";
 
 // import heroVideo from "../assets/herosection/heroVideo.mp4";
-import heroimg from "../assets/herosection/heroimg.png";
+import heroimg from "../assets/herosection/heroimg2.png";
 import uersrev from "../assets/herosection/Avatars.png";
 import stars from "../assets/herosection/stars.png";
 import arwgrn from "../assets/herosection/arwgrn.svg";
@@ -46,12 +46,12 @@ function Herosection() {
     <div className="pt-[55px] pb-[20px] bg-[#000]">
       <div className="max-w-[1200px] relative w-[100%] mx-auto ">
         <div className="flex justify-between gap-[2rem]">
-          <div className="space-y-[27px] max-w-[738px] w-[100%]">
+          <div className="space-y-[20px] max-w-[738px] w-[100%]">
               <h4 className="text-[16px]  leading-[150%] font-[600] text-[#E5AE00] tracking-[-0.16px] ">
                 Crypto Exchange Launches Coin with an Integrated Reward System
               </h4>
             <h1 
-            className="text-[60px] pt-[15px] font-[700] leading-[109%] tracking-[-3px text-[#fff] ">
+            className="text-[60px] font-[700] pt-[] leading-[109%] tracking-[-3px text-[#fff] ">
               $BFX Pays You Every Time Someone Trades on BlockchainFX
             </h1>
             <p className="text-[#fff] max-w-[524px] w-[100%] font-[400] leading-[137.5%] text-[16px]">
@@ -61,7 +61,7 @@ function Herosection() {
                 <div className="space-y-[10px] max-w-[550px] border-[0.5px] border-[#C0C0C0] py-[17px] px-[21px] rounded-[13px]">
                   <div className="flex items-center space-x-2">
                     <img src={check} alt="" />
-                    <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">The first crypto exchange Bridging Blockchain and Finance</p>
+                    <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">The First Crypto Exchange Bridging Blockchain and Finance</p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <img src={check} alt="" />

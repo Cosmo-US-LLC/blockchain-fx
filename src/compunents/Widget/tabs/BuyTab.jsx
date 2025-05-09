@@ -302,7 +302,7 @@ const BuyTab = ({ onTabChange}) => {
           </div>
         <div className="space-y-[10px]">
         <h5 className="text-[#fff] text-[13px] text-center font-[400] leading-[100%]">
-            {formatNumber(apiData.info?.transactions, 0, 0)} Transactions
+            {formatNumber(apiData.info?.transactions, 0, 0)} Participants
           </h5>
         </div>
         </div>
@@ -596,7 +596,7 @@ const BuyTab = ({ onTabChange}) => {
             }
           >
             <img className="mr-1" src={Ref} alt="" />
-            Referral Code
+            10% Referral Link
           </button>
         </div>
         {codeInputVisible === "bonus" && (

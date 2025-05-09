@@ -45,7 +45,7 @@ function ExpertSaysSec() {
               <div className="w-[50%] space-y-[20px]">
                 <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
-                  What Experts Say About BFX
+                  What Experts Say About BFX2
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500]">
@@ -54,6 +54,37 @@ function ExpertSaysSec() {
                 <img src={stars} alt="" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— Clay Bro</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">Crypto Youtuber, 136K Followers</p>
+                </div>
+              </div>
+              <div className="w-[50%]">
+                <iframe
+                  src="https://fast.wistia.com/embed/iframe/qw2brqylfy.js"
+                  title="Wistia Video"
+                  allow="fullscreen"
+                  allowTransparency="true"
+                  frameBorder="0"
+                  scrolling="no"
+                  className="wistia_embed"
+                  name="wistia_embed"
+                  style={{ height: "315px", borderRadius: "12px", width: "100%" }}
+                ></iframe>
+              </div>
+            </div>
+          </SwiperSlide>
+     {/* Slide 2 */}
+          <SwiperSlide>
+            <div className="flex items-center gap-5">
+              <div className="w-[50%] space-y-[20px]">
+                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
+                  <h4 className="text-[#fff] text-[16px] font-[400]">
+                  What Experts Say About BFX
+                  </h4>
+                </div>
+                <p className="text-[#fff] text-[24px] font-[500]">
+                “Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”</p>                <img src={stars} alt="" />
+                <div>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— Cryto Volt</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">Crypto Youtuber, 136K Followers</p>
                 </div>
               </div>
@@ -73,7 +104,7 @@ function ExpertSaysSec() {
             </div>
           </SwiperSlide>
 
-          {/* Slide 2 */}
+          {/* Slide 3 */}
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
@@ -107,7 +138,7 @@ function ExpertSaysSec() {
             </div>
           </SwiperSlide>
 
-          {/* Slide 3 */}
+          {/* Slide 4 */}
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
@@ -152,7 +183,7 @@ function ExpertSaysSec() {
           </button>
 
           <button ref={nextRef}>
-            {activeSlide === 2 ? (
+            {activeSlide === 3 ? (
               <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr2} alt="inactive" />
             ) : (
               <img className="h-[34px] w-[34px]" src={expawr1} alt="active" />
