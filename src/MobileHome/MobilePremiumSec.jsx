@@ -71,61 +71,61 @@ const cardsmob = [
   },
   {
     id: 4,
-    img: cardimg1,
+    img: cardimg4,
     title: "Expert",
     price: "$10,000",
     reviews: [true, true, true, false, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
-      { text: "10% BFX Bonus", icon: tick },
-      { text: "BFX Staking Rewards", icon: tick },
-      { text:  "Daily USDT Rewards", icon: cross },
-      { text: "Trading Credits of up to $25k", icon: cross }
+      { text: "Early Access", icon: tick },
+      { text: "40% BFX Bonus", icon: tick },
+      { text: "10% USDT Rewards", icon: tick },
+      { text:  "Metal BFX Visa Card", icon: tick },
+      { text: "$2,000 Trading Credit", icon: tick }
     ],
     buttonLabel: "Buy $BFX • $10,000",
   },
   {
     id: 5,
-    img: cardimg2,
+    img: cardimg5,
     title: "Master",
     price: "$25,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
-      { text: "20% BFX Bonus", icon: tick },
+      { text: "Early Access", icon: tick },
+      { text: "50% BFX Bonus", icon: tick },
+      { text: "50% USDT Rewards", icon: tick },
       { text: "Metal BFX Visa Card", icon: tick },
-      { text: "$500 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross }
+      { text: "$5,000 Trading Credits", icon: tick }
     ],
     buttonLabel: "Buy $BFX • $25,000",
   },
   {
     id: 6,
-    img: cardimg2,
+    img: cardimg6,
     title: "Elite",
     price: "$50,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
-      { text: "20% BFX Bonus", icon: tick },
+      { text: "Early Access", icon: tick },
+      { text: "60% BFX Bonus", icon: tick },
+      { text: "12% USDT Rewards", icon: tick },
       { text: "Metal BFX Visa Card", icon: tick },
-      { text: "$500 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross }
+      { text: "$10,000 Trading Credits", icon: tick }
     ],
     buttonLabel: "Buy $BFX • $50,000",
   },
   {
     id: 7,
-    img: cardimg1,
+    img: cardimg7,
     title: "Legend",
     price: "$100,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
+      { text: "Early Access", icon: tick },
       { text: "80% BFX Bonus", icon: tick },
-      { text: "Metal BFX Visa Card", icon: tick },
-      { text: "$500 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross }
+      { text: "30% USDT Rewards", icon: tick },
+      { text: "18 Karat BFX Visa Card", icon: tick },
+      { text: "$25,000 Trading Credits", icon: tick }
     ],
     buttonLabel: "Buy $BFX • $100,000",
   },
@@ -220,7 +220,7 @@ function MobilePremiumSec() {
       }}
       modules={[Navigation, Pagination]}
       loop={false}
-      className="mySwiper !min-h-[650px]"
+      className="mySwiper !min-h-[600px]"
     >
       {cardsmob.map((card, index) => (
         <SwiperSlide key={card.id}>
@@ -232,7 +232,7 @@ function MobilePremiumSec() {
                     className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${activeIndex === index
                         ? "border-black"
                         : "border-[rgba(230, 175, 3, 0.12)]"
-                      } border !min-h-[610px] max-h-[610px] h-[100%]`}
+                      } border !min-h-[560px] max-h-[560px] h-[100%]`}
                   >
                     <div>
                       <img

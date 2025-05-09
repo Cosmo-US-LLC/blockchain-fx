@@ -63,7 +63,7 @@ function MobileOneAppSec() {
                     onClick={() => handleToggle(index)}
                   >
                     <div className="w-[100%] space-y-[15px]">
-                      <div className="flex justify-center space-x-2 items-center">
+                      <div className="flex justify-start space-x-2 items-center">
                         <img
                           src={item.icon}
                           alt={item.title}
@@ -74,7 +74,7 @@ function MobileOneAppSec() {
                           </h3>
                       </div>
                       <div>
-                        <p className="text-[15px] text-center leading-[146%] font-[400] text-[#fff]"> {item.description}</p>
+                        <p className="text-[15px] text-start leading-[146%] font-[400] text-[#fff]"> {item.description}</p>
                       </div>
                       {/* <div className="w-[80%]">
                         <div className="flex justify-between items-center">

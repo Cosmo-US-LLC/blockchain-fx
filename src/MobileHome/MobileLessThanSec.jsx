@@ -68,55 +68,55 @@ function MobileLessThanSec() {
               </h4>
               <div className="relative">
                 <div className="flex justify-end">
-                  <img src={graph || "/placeholder.svg"} className="max-w-[236px] max-h-[236px]" alt="" />
+                  <img src={graph || "/placeholder.svg"} className="max-w-[205px] max-h-[205px]" alt="" />
                 </div>
-                <p className="text-[#fff] top-[-14%] left-[41%] absolute leading-[110%] text-[15px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] top-[-14%] left-[41%] absolute leading-[110%] text-[12px] font-[500] tracking-[-0.787px]">
                 Bonds: <br /> $1.1 Trillion 
                 (11.42%)
                 </p>
-                <p className="text-[#fff] leading-[110%] absolute top-[-1%] left-[16%] text-[15px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] leading-[110%] absolute top-[-1%] left-[14%] text-[12px] font-[500] tracking-[-0.787px]">
                 U.S. Stocks: <br /> $700B
                 (7.27%)
                 </p>
-                <p className="text-[#fff] leading-[110%] absolute top-[17%] left-[10%] text-[15px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] leading-[110%] absolute top-[14%] left-[5%] text-[12px] font-[500] tracking-[-0.787px]">
                 Commodities: <br /> 
                 $250B (2.59%)
                 </p>
-                <p className="text-[#F3D885] p-2 border border-[#E5AE00] rounded-[5px] leading-[110%] absolute top-[35%] left-[7%] text-[15px] font-[900] tracking-[-0.383px]">
+                <p className="text-[#F3D885] p-2 border border-[#E5AE00] rounded-[5px] leading-[110%] absolute top-[35%] left-[0%] text-[12px] font-[900] tracking-[-0.383px]">
                 Crypto: <br /> $89B (0.87%)
                 </p>
-                <p className="text-[#fff] leading-[110%] absolute bottom-[-19%] right-[13%] text-[15px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] leading-[110%] absolute bottom-[-19%] right-[13%] text-[12px] font-[500] tracking-[-0.787px]">
                 Forex: $7.5 trillion (77.85%)
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-y-[3rem] pt-[20px] mx-auto w-[100%]">
                 <div className="flex items-center space-x-2">
                   <div className="w-[57px] h-[31px] bg-[#E9AD2F] rounded-[4px]"></div>
-                  <p className="text-[#fff] text-[15px] capitalize font-[600] tracking-[0.247px]">
+                  <p className="text-[#fff] text-[14px] capitalize font-[600] tracking-[0.247px]">
                   Forex
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-[57px] h-[31px] bg-[#DCDCDC] rounded-[4px]"></div>
-                  <p className="text-[#fff] text-[15px] capitalize font-[600] tracking-[0.247px]">
+                  <p className="text-[#fff] text-[14px] capitalize font-[600] tracking-[0.247px]">
                   bonds
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-[57px] h-[31px] bg-[#B6B6B6] rounded-[4px]"></div>
-                  <p className="text-[#fff] text-[15px] capitalize font-[600] tracking-[0.247px]">
+                  <p className="text-[#fff] text-[14px] capitalize font-[600] tracking-[0.247px]">
                   US Stocks
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-[57px] h-[31px] bg-[#7DBB6C] rounded-[4px]"></div>
-                  <p className="text-[#fff] text-[15px] capitalize font-[600] tracking-[0.247px]">
+                  <p className="text-[#fff] text-[14px] capitalize font-[600] tracking-[0.247px]">
                   Commodities
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-[57px] h-[31px] bg-[#A36E00] rounded-[4px]"></div>
-                  <p className="text-[#fff] text-[15px] capitalize font-[600] tracking-[0.247px]">
+                  <p className="text-[#fff] text-[14px] capitalize font-[600] tracking-[0.247px]">
                   Crypto
                   </p>
                 </div>
