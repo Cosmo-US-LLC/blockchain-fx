@@ -149,6 +149,16 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
+                  ETFs
+                </h3>
+              </div>
+              <div className="   border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+              </div>
+            </div>
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
+              <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
+                <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                 USDT  Rewards
                 </h3>
               </div>
@@ -217,6 +227,11 @@ function MobStandoutSec() {
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
                       <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                    </div>
+                  </div>
+                  <div className="flex border border-[#343434]">
+                    <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
+                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
@@ -321,6 +336,11 @@ function MobStandoutSec() {
                       <img src={check2} className="h-[15px] w-[15px]" alt="" />
                     </div>
                   </div>
+                  <div className="flex border border-[#343434]">
+                    <div className="py-[14px] h-[49px] px-[10px]   justify-center flex flex-col items-center space-y-[6px] w-[100%]">
+                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                    </div>
+                  </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -390,6 +410,11 @@ function MobStandoutSec() {
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center   flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
+                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                    </div>
+                  </div>
+                  <div className="flex border border-[#343434]">
+                    <div className="justify-center flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
                       <img src={check2} className="h-[15px] w-[15px]" alt="" />
                     </div>
                   </div>
