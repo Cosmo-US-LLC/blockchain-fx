@@ -1,6 +1,6 @@
 import React from "react";
 import UniswapIcon from "../../assets/hoyToBuy/step6/uniswap.svg";
-import goldenShadow from "../../assets/hoyToBuy/step6/goldenShadow.png";
+import goldenShadow from "../../assets/hoyToBuy/mobile/ellipes-bg.png";
 
 const exchanges = [
   { color: "#FF007A", name: "Uniswap" },
@@ -12,12 +12,12 @@ const exchanges = [
 
 function StepSixLaunchSectionMobile() {
   return (
-    <div className="py-10 px-6 bg-[#020B10]">
-      <div className="relative w-full py-6 px-4 flex flex-col gap-6 border border-[#545454] rounded-[16px] overflow-hidden">
+    <div className="py-10 px-6 bg-[#111111]">
+      <div className="relative w-full py-6 px-4 flex flex-col gap-5 border-[2px] border-[#E6AF0320] rounded-[16px] overflow-hidden">
         <img
           src={goldenShadow}
           alt="Golden Background Shadow"
-          className="absolute top-0 left-0 z-10 h-auto opacity-30"
+          className="absolute top-0 left-0 z-30 w-full h-auto "
         />
 
         <div className="z-20 flex flex-col text-left text-white">
@@ -41,7 +41,7 @@ function StepSixLaunchSectionMobile() {
         </div>
 
         <div className="backdrop-blur-md border border-[#545454] rounded-[12px] relative z-20 p-4  ">
-          <p className="mb-4 text-[14px] font-[600] text-[#808080] capitalize text-center">
+          <p className="mb-2 text-[14px] font-[600] text-[#808080] leading-[18px] capitalize text-center">
             $BFX Launches On Multiple Top-Tier Exchanges
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">

@@ -1,12 +1,12 @@
 import React from "react";
-import usdtIcon from "../../../assets/hoyToBuy/payment/Group 1410116278.svg";
-import bfxIcon from "../../../assets/hoyToBuy/payment/Screenshot 2025-02-05 at 07.05.22 1.svg";
+import usdtIcon from "../../../assets/hoyToBuy/mobile/step2/USDT.svg";
+import bfxIcon from "../../../assets/hoyToBuy/mobile/step2/bitCoin.svg";
 
 function PaymentCardOne() {
   return (
-    <div className="bg-[#0F0F0F] border border-[#3F3F3F] rounded-xl px-6 py-6 flex items-center justify-between gap-10  w-[808px]">
+    <div className="bg-[#0F0F0F] border border-[#E6AF0320] rounded-xl px-6 py-6 flex items-center justify-between gap-10  w-[808px]">
       <div className="flex-1">
-        <p className="text-[#9F9F9F] text-[18px] leading-[28px]">
+        <p className="text-[#9F9F9F] pl-4 text-[18px] leading-[28px]">
           Enter the amount of <span className="font-semibold">$BFX</span>
           <br />
           you want to buy.
@@ -25,22 +25,8 @@ function PaymentCardOne() {
               readOnly
               className=" text-white bg-transparent outline-none text-[18px] font-[400] leading-[19.839px]"
             />
-            <div className="flex items-center gap-2 px-2 py-1 bg-[#2A2A2A] rounded-md">
-              <img src={usdtIcon} alt="USDT" className="w-5 h-5" />
-              <span className="text-sm text-white">USDT</span>
-              <svg
-                className="w-3 h-3 text-white"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
+            <div className="flex items-center">
+              <img src={usdtIcon} alt="USDT" className="w-20 h-auto" />
             </div>
           </div>
         </div>
@@ -54,9 +40,8 @@ function PaymentCardOne() {
             <span className="text-[#F5C71A] text-[18px] font-[400] leading-[19.839px]">
               6,123,135
             </span>
-            <div className="flex items-center gap-2 px-2 py-1 bg-[#2A2A2A] rounded-md">
-              <img src={bfxIcon} alt="BFX" className="w-5 h-5" />
-              <span className="text-sm text-white">BFX</span>
+            <div className="flex items-center">
+              <img src={bfxIcon} alt="USDT" className="w-20 h-auto" />
             </div>
           </div>
         </div>

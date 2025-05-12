@@ -6,7 +6,7 @@ function StepFourViewCoinsSection() {
   return (
     <div className="py-12 bg-[#020B10]">
       <div className="max-w-[1200px] relative w-full mx-auto">
-        <div className="relative overflow-hidden flex items-center justify-center gap-[134px] p-5 border border-[#545454] rounded-[16px] min-h-[482px]">
+        <div className="relative overflow-hidden flex items-center justify-center gap-[100px] p-5 border-[2px] border-[#E6AF0320] rounded-[16px] min-h-[482px]">
           
         
           <img
@@ -16,7 +16,7 @@ function StepFourViewCoinsSection() {
           />
 
       
-          <div className="w-[460px] z-30">
+          <div className="w-[560px] z-30">
             <img
               src={dashboardImage}
               alt="Dashboard View"

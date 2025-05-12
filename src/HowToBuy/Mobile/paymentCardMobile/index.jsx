@@ -1,5 +1,5 @@
 import React from "react";
-import goldenShadow from "../../../assets/hoyToBuy/claim/claim-left-top-shadow.png";
+import goldenShadow from "../../../assets/hoyToBuy/mobile/ellipes-bg.png";
 import icon1 from "../../../assets/hoyToBuy/payment/stepTwoCards/icon1.svg";
 import icon2 from "../../../assets/hoyToBuy/payment/stepTwoCards/icon2.svg";
 import icon3 from "../../../assets/hoyToBuy/payment/stepTwoCards/icon3.svg";
@@ -37,11 +37,11 @@ const paymentMethods = [GooglePay, craditCard, visa];
 function StepTwoPaymentCardMobile() {
   return (
     <div className="bg-[#020B10] py-10 px-6">
-      <div className="relative w-full py-6 px-4 flex flex-col gap-8 border border-[#545454] rounded-[16px]  ">
-        <img
+      <div className="relative w-full py-6 px-4 flex flex-col overflow-hidden gap-8 border-[2px] border-[#E6AF0320] rounded-[16px]  ">
+      <img
           src={goldenShadow}
           alt="Golden Background Shadow"
-          className="absolute top-0 left-0 z-10 h-auto opacity-30"
+          className="absolute top-0 left-0 z-10 h-auto"
         />
 
         <div className="z-30 flex flex-col items-center text-white">

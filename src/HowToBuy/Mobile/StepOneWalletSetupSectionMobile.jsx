@@ -1,5 +1,5 @@
 import React from "react";
-import goldenShadow from "../../assets/hoyToBuy/viewCoin/viewClaimGoldenShadow.png";
+import goldenShadow from "../../assets/hoyToBuy/mobile/ellipes-bg.png";
 import walletImage from "../../assets/hoyToBuy/wallet/metamask.svg";
 import coinbase from "../../assets/hoyToBuy/wallet/coinbase.svg";
 import trust from "../../assets/hoyToBuy/wallet/trust.svg";
@@ -7,12 +7,12 @@ import walletconnect from "../../assets/hoyToBuy/wallet/walletconnect.svg";
 
 const StepOneWalletSetupSectionMobile = () => {
   return (
-    <div className="py-10 px-6 bg-[#0D0D0D]">
-      <div className="relative px-4 py-6 border border-[#545454] rounded-[16px] overflow-hidden flex flex-col gap-6">
+    <div className="py-10 px-6 bg-[#111111]">
+      <div className="relative px-4 py-6 border-[2px] border-[#E6AF0320] rounded-[16px] overflow-hidden flex flex-col gap-6">
         <img
           src={goldenShadow}
           alt="Golden Background Shadow"
-          className="absolute top-0 left-0 z-10 h-auto opacity-30"
+          className="absolute top-0 left-0 z-10 h-auto"
         />
 
         <div className="relative z-20 flex flex-col gap-3 text-left">

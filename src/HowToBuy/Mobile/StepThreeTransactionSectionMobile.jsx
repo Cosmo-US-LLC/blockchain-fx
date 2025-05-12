@@ -1,15 +1,15 @@
 import React from "react";
 import qrImage from "../../assets/hoyToBuy/confirm-transaction/deposit_eth.webp";
-import goldenShadow from "../../assets/hoyToBuy/claim/claim-left-top-shadow.png";
+import goldenShadow from "../../assets/hoyToBuy/mobile/ellipes-bg.png";
 
 function StepThreeTransactionSectionMobile() {
   return (
-    <div className="py-10 px-6 bg-[#020B10]">
-      <div className="relative w-full flex flex-col gap-10 px-4 py-6 border border-[#545454] rounded-[16px] overflow-hidden">
-        <img
+    <div className="py-10 px-6 bg-[#111111]">
+      <div className="relative w-full flex flex-col gap-10 px-4 py-6 border-[2px] border-[#E6AF0320] rounded-[16px] overflow-hidden">
+      <img
           src={goldenShadow}
           alt="Golden Background Shadow"
-          className="absolute top-0 left-0 z-10 h-auto opacity-20"
+          className="absolute top-0 left-0 z-30 w-full h-auto "
         />
 
         <div className="z-20 flex flex-col text-left text-white">

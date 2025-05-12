@@ -24,6 +24,7 @@ import NavbarMobile from "./compunents/NavbarMobile";
 import RefferalProgram from "./RefferalProgram";
 import HowToBuyDesktop from "./HowToBuy/Desktop";
 import HowToBuyMobile from "./HowToBuy/Mobile";
+import HowToBuyFooter from "./compunents/HowToBuyFooter";
 
 function Layout({ isMobile }) {
   const { i18n } = useTranslation();
@@ -34,6 +35,19 @@ function Layout({ isMobile }) {
         <Outlet />
       </main>
       <Footer />
+    </>
+  );
+}
+
+function HowToBuyPageLayout({ isMobile }) {
+  const { i18n } = useTranslation();
+  return (
+    <>
+      {isMobile ? <NavbarMobile /> : <Navbar />}
+      <main>
+        <Outlet />
+      </main>
+      <HowToBuyFooter />
     </>
   );
 }
@@ -127,12 +141,15 @@ function App() {
           <Route path="/terms-of-service" element={<TermsofService />} />
           <Route path="/referral" element={<RefferalProgram />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/token-sale" element={<TokenSale />} />
+          <Route path="/cookie-management" element={<CookieManagement />} />
+        </Route>
+
+        <Route element={<HowToBuyPageLayout isMobile={isMobile} />}>
           <Route
             path="how-to-buy"
             element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />}
           />
-          <Route path="/token-sale" element={<TokenSale />} />
-          <Route path="/cookie-management" element={<CookieManagement />} />
         </Route>
 
         <Route
