@@ -158,9 +158,9 @@ const MobileWalletSec = () => {
                   <h4 className="text-start text-[#808080] text-[10px] font-[600]">
                   $BFX launches on Multiple Top-Tier Exchanges
                   </h4>
-                  <div className="flex justify-center gap-[8px] flex-wrap">
+                  <div className="flex justify-center gap-[8px]">
                     <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      className="px-[4px] flex max-w-[120px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
                       style={{
                         background: "rgba(176, 176, 176, 0.17)",
                       }}
@@ -175,7 +175,7 @@ const MobileWalletSec = () => {
                       </h4>
                     </div>
                     <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      className="px-[4px] flex max-w-[50px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
                       style={{
                         background: "rgba(176, 176, 176, 0.17)",
                         filter: "blur(6.5px",
@@ -183,12 +183,12 @@ const MobileWalletSec = () => {
                       }}
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#F0B90B] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>
                     <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      className="px-[4px] flex max-w-[50px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
                       style={{
                         background: "rgba(176, 176, 176, 0.17)",
                         filter: "blur(6.5px",
@@ -196,12 +196,12 @@ const MobileWalletSec = () => {
                       }}
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#0052FE] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>
                     <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      className="px-[4px] flex max-w-[50px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
                       style={{
                         background: "rgba(176, 176, 176, 0.17)",
                         filter: "blur(6.5px",
@@ -209,12 +209,12 @@ const MobileWalletSec = () => {
                       }}
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#00F0FF] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>
                     <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
+                      className="px-[4px] flex max-w-[50px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
                       style={{
                         background: "rgba(176, 176, 176, 0.17)",
                         filter: "blur(6.5px",
@@ -222,7 +222,7 @@ const MobileWalletSec = () => {
                       }}
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#7635F5] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
+                      <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
                         UNISWAP
                       </h4>
                     </div>

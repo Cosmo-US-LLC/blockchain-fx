@@ -56,10 +56,10 @@ function MobileHero() {
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4>
                  <h1 
-                 className="text-[40px] mb-4 font-[600] leading-[103%] tracking-[-3px] text-[#fff] ">
+                 className="text-[40px] mb-4 font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">
                    $BFX Pays You Every Time Someone Trades on BlockchainFX
                  </h1>
-                 <p className="text-[#fff] mb-4 font-[400] leading-[137.5%] text-[16px]">
+                 <p className="text-[#fff] mb-4 font-[400] leading-[157%] tracking-[-0.14px] text-[14px]">
                  Start earning today and receive up to 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue without having to trade yourself.
                      </p>
      

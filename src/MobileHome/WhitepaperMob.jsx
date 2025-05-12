@@ -25,10 +25,10 @@ export default function WhitepaperMob() {
   return (
     <div className="w-full py-[24px] px-[24px] bg-[#000]" id="whitepaper">
       <div
-        className="whitepaperBg py-6 px-4 space-y-[16px]"
+        className="py-6 rounded-[11.022px] px-4 space-y-[16px]"
         style={{
-          background: `url(${whitepaperBg}) no-repeat center center`,
-          backgroundSize: "cover",
+          background: "#111",
+          borderColor: "rgba(230, 175, 3, 0.12)",
         }}
       >
         <div className="w-[100%] space-y-4">
