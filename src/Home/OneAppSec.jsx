@@ -105,7 +105,7 @@ function OneAppSec() {
         </div>
         <div className="w-[55%] space-y-[10px] overflow-visible">
           <img src={dailyimg} className="object-cover" alt="" />
-          <p className="text-[13px] text-center leading-[150.598%] font-[400] text-[#fff]">Connect your wallet and click on the top right corner to see your personal dashboard</p>
+          <p className="text-[13px] text-center pl-[32px] leading-[150.598%] font-[400] text-[#fff]">Connect your wallet and click on the top right corner to see your personal dashboard</p>
         </div>
       </div>
     </div>

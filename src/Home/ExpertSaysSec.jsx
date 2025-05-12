@@ -59,7 +59,7 @@ function ExpertSaysSec() {
               </div>
               <div className="w-[50%] ">
                 <iframe
-                  src="https://fast.wistia.com/embed/iframe/qw2brqylfy.js"
+                  src="https://fast.wistia.com/embed/iframe/qw2brqylfy.js?autoplay=0"
                   title="Wistia Video"
                   allow="fullscreen"
                   allowTransparency="true"
@@ -90,7 +90,7 @@ function ExpertSaysSec() {
               </div>
               <div className="w-[50%] mb-10">
                 <iframe
-                  src="https://fast.wistia.net/embed/iframe/aa3tldcsf0"
+                  src="https://fast.wistia.net/embed/iframe/aa3tldcsf0?autoplay=0"
                   title="Wistia Video"
                   allow="fullscreen"
                   allowTransparency="true"
@@ -124,7 +124,7 @@ function ExpertSaysSec() {
               </div>
               <div className="w-[50%]">
                 <iframe
-                  src="https://fast.wistia.net/embed/iframe/y8jip6h7gy"
+                  src="https://fast.wistia.net/embed/iframe/y8jip6h7gy?autoplay=0"
                   title="Wistia Video"
                   allow="fullscreen"
                   allowTransparency="true"
@@ -158,7 +158,7 @@ function ExpertSaysSec() {
               </div>
               <div className="w-[50%]">
                 <iframe
-                  src="https://fast.wistia.net/embed/iframe/rln8cnlwja"
+                  src="https://fast.wistia.net/embed/iframe/rln8cnlwja?autoplay=0"
                   title="Wistia Video"
                   allow="fullscreen"
                   allowTransparency="true"
