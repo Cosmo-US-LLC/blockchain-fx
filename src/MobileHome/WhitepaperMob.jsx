@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
 
 import whitepaper from "../assets/Whitepaper/whitepaperbook.png";
-import whitepaperBg from "../assets/Whitepaper/whitepaper_bg.png";
+import vector from "../assets/Whitepaper/vector.png";
 
 export default function WhitepaperMob() {
   const { t } = useTranslation(); // Get the translation function
@@ -25,7 +25,7 @@ export default function WhitepaperMob() {
   return (
     <div className="w-full py-[24px] px-[24px] bg-[#000]" id="whitepaper">
       <div
-        className="py-6 rounded-[11.022px] px-4 space-y-[16px]"
+        className="py-6 rounded-[11.022px] overflow-hidden relative px-4 space-y-[16px]"
         style={{
           background: "#111",
           borderColor: "rgba(230, 175, 3, 0.12)",
@@ -63,7 +63,7 @@ export default function WhitepaperMob() {
         </div>
 
         <div className="w-[100%]">
-          <div className="w-full p-2">
+          <div className="w-full p-2 relative z-[9]">
             <img
               src={whitepaper}
               className="w-[453px] h-auto object-cover"
@@ -71,6 +71,9 @@ export default function WhitepaperMob() {
             />
           </div>
         </div>
+         <div className="absolute bottom-[0%] left-0 w-[100%]">
+                  <img src={vector} alt="" />
+                </div>
       </div>
     </div>
   );
