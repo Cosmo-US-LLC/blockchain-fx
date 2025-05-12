@@ -12,6 +12,14 @@ body {
 code {
   font-family: "Inter", serif;
 }
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 
 @keyframes blink {
   0%,

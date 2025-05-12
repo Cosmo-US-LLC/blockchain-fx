@@ -220,7 +220,7 @@ function MobilePremiumSec() {
       }}
       modules={[Navigation, Pagination]}
       loop={false}
-      className="mySwiper !min-h-[600px]"
+      className="mySwiper !min-h-[640px]"
     >
       {cardsmob.map((card, index) => (
         <SwiperSlide key={card.id}>
@@ -232,7 +232,7 @@ function MobilePremiumSec() {
                     className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${activeIndex === index
                         ? "border-black"
                         : "border-[rgba(230, 175, 3, 0.12)]"
-                      } border !min-h-[560px] max-h-[560px] h-[100%]`}
+                      } border !min-h-[590px] max-h-[590px] h-[100%]`}
                   >
                     <div>
                       <img

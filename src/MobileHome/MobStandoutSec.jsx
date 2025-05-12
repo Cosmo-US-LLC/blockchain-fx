@@ -31,128 +31,128 @@ function MobStandoutSec() {
         </div>
         <div className="w-[100%] mx-auto flex">
           <div className="w-[70%]   ">
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="h-[91px] w-[70%]"></div>
-              <div className="h-[91px] border-l border-[#343434]  justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className="h-[91px] border-l border-t border-[#e6af03]  justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img className="h-[41.126px] w-[41.126px]" src={coin1} alt="" />
                 <h3 className="text-[#545454] leading-[8.902px] font-[700] text-[8.902px]">
                   BlockchainFX
                 </h3>
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Token Name
                 </h3>
               </div>
-              <div className="   border-l border-[#343434]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className="   border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <h3 className="text-[#fff] leading-[120%] font-[700] text-[15px]">
                   $BFX
                 </h3>
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Ranked
                 </h3>
               </div>
-              <div className=" border-l border-[#343434]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className=" border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <h3 className="text-[#fff] leading-[120%] font-[700] text-[15px]">
                   -
                 </h3>
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Marketcap
                 </h3>
               </div>
-              <div className="  border-l border-[#343434]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className="  border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <h3 className="text-[#fff] leading-[120%] font-[700] text-[15px]">
                   -
                 </h3>
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Trade Crypto
                 </h3>
               </div>
-              <div className=" border-l border-[#343434]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className=" border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start    px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Leverage Trading
                 </h3>
               </div>
-              <div className=" border-l border-[#343434]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className=" border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Risk Management
                 </h3>
               </div>
-              <div className=" border-l border-[#343434]     justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className=" border-l border-[#e6af03]     justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Forex
                 </h3>
               </div>
-              <div className=" border-l border-[#343434]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className=" border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Commodities
                 </h3>
               </div>
-              <div className="  border-l border-[#343434]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className="  border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start    px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   Indices
                 </h3>
               </div>
-              <div className="   border-l border-[#343434]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className="   border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
                   CFDs
                 </h3>
               </div>
-              <div className="  border-l border-[#343434]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className="  border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
-            <div className="flex border border-[#343434]">
+            <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  ETFs
+                USDT  Rewards
                 </h3>
               </div>
-              <div className="   border-l border-[#343434]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
+              <div className="   border-l border-b border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
@@ -248,7 +248,7 @@ function MobStandoutSec() {
               </SwiperSlide>
               <SwiperSlide>
                 <div>
-                  <div className="flex border border-[#343434]">
+                  <div className="flex border border-[#0C0C0C]">
                     <div className="h-[91px] justify-center flex flex-col items-center space-y-[6px] w-[100%]">
                       <img
                         className="h-[41.126px] w-[41.126px]"
