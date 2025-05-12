@@ -25,7 +25,7 @@ export default function SwapSectionMob() {
          
           <div className="w-[100%] space-y-4 ">
             <div className="flex flex-col justify-start w-full p-2">
-              <h3 className="text-[30px] text-[#FFF] font-bold leading-[114%]  text-center mb-4">
+              <h3 className="text-[30px] text-[#FFF] font-bold leading-[120%] tracking-[-1.5px]  text-center mb-4">
               More Than 500 Assets 
               </h3>
               <p className="text-[14px] text-[#fff] text-center max-w-[350px] mx-auto">

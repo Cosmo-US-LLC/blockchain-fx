@@ -27,7 +27,7 @@ function KYCVerifiedMob() {
     <div className="pb-[50px] pt-[20px] bg-[#000]">
       <div className="w-[90%] mx-auto relative">
         <div className="w-[100%] mx-auto">
-          <h3 className="text-[36px] pb-[30px] text-[#fff] font-[600] leading-[114%] tracking-[-1px] text-center">
+          <h3 className="text-[36px] pb-[30px] text-[#fff] font-[600] leading-[120%] tracking-[-1.5px] text-center">
           Security Verified by <br /> Industry Experts
           </h3>
           <div className="grid grid-cols-1 gap-y-[19px]">

@@ -74,7 +74,7 @@ const MobFaqSec = () => {
       <div className="bg-[#000]" id="faq">
         <div className=" w-[90%]  space-y-[30px] pt-[30px] mx-auto pb-[30px]">
           <div className="text-center space-y-[20px]">
-            <h2 className="text-[#FFF] leading-[100%] text-[30px] font-[600]">
+            <h2 className="text-[#FFF] leading-[120%] text-[30px] tracking-[-1.5px] font-[600]">
               {t("faq_section.title")}
             </h2>
             <p className="text-[15px] font-[400] text-[#fff] text-center">

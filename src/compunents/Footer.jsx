@@ -70,7 +70,7 @@ function Footer() {
               <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
                 <img src={logo || "/placeholder.svg"} alt="" />
               </Link>
-              <p className="text-[#fff] text-[16px] font-[400] leading-[166.667%]">{footer.description}</p>
+              <p className="text-[#fff]  text-[16px] font-[400] leading-[166.667%]">{footer.description}</p>
             </div>
             <div className="max-w-[190px] w-[100%] pt-[15px]">
               <ul>
@@ -184,7 +184,7 @@ function Footer() {
         <div className="border-t border-b border-white/10 py-[46px]">
           <p className="text-[14px] font-[400] text-[#fff] leading-[171%]">{footer.disclaimer}</p>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex items-center justify-between">
           <p className=" text-[16px] text-[#fff] leading-[150%]">{footer.copyright}</p>
           <div className="space-x-5">
             <Link to="/cookie-management" className="text-blue-600 ">
@@ -205,7 +205,7 @@ function Footer() {
           <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             <img src={logo || "/placeholder.svg"} alt="" />
           </Link>
-          <p className="text-[#fff] text-[14px] font-[400] leading-[200%]">{footer.description}</p>
+          <p className="text-[#fff] text-[14px]  w-[300px] font-[400] leading-[200%]">{footer.description}</p>
         </div>
         <div className="space-y-6">
           <div className="max-w-[150px] w-[100%] ">

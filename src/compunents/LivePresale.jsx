@@ -34,12 +34,12 @@ function LivePresale() {
         <img
           src={live_cards}
           alt="live_cards"
-          className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block"
+          className="block 2xl:hidden xl:hidden lg:hidden md:hidden sm:block"
         />
         <img
           src={live_cards_des}
           alt="live_cards"
-          className="2xl:block xl:block lg:block md:block sm:hidden hidden"
+          className="hidden 2xl:block xl:block lg:block md:block sm:hidden"
         />
         <button
           onClick={handleScroll}

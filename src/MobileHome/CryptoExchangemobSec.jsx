@@ -28,7 +28,7 @@ function CryptoExchangemobSec() {
       
           <div className="space-y-[20px] ">
             <h4
-              className="text-[30px] text-center text-[#fff] font-[600]"
+              className="text-[30px] text-center text-[#fff] leading-[120%] tracking-[-1.5px] font-[600]"
             >
              Pioneering <br /> Crypto Exchange 
             </h4>

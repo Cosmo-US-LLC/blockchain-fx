@@ -66,7 +66,7 @@ function MobRoadmapSec() {
     <div className="pt-[24px] pb-[24px] bg-black" id="roadmap">
       <div className="relative space-y-[40px] w-[90%] mx-auto">
         <div className="space-y-5">
-          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#FFF] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#FFF] tracking-[-1.5px]">
             {t("Roadmap_section.Roadmap")}
           </h3>
           <p className="text-[15px] font-[400] max-w-[365px] text-center mx-auto w-[100%] leading-[28px] text-[#fff] tracking-[-0.32px]">
@@ -89,7 +89,7 @@ function MobRoadmapSec() {
               <SwiperSlide key={id}>
                 <div>
                   <div className="bg-[#030F16] border border-white border-opacity-10 max-w-[340px] mx-auto rounded-[8px] rounded-b-none pl-[30px] pr-[15px] py-[20px] w-[100%]">
-                    <div className="flex justify-between items-center">
+                    <div className="flex items-center justify-between">
                       <h2 className="text-[#fff] text-[24px] leading-[144.529%] font-[600] flex justify-start items-center gap-3">
                         {step.title}
                         {id < 2 && (
