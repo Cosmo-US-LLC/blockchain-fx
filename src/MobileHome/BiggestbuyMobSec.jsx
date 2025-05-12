@@ -5,16 +5,96 @@ function BiggestbuyMobSec() {
   
   // Data for the rankings
   const tableData = [
-    { rank: 1, wallet: "0x589...18e01", totalBuy: "$124,590.58", prize: "$50,000" },
-    { rank: 2, wallet: "0xa28...ba37d", totalBuy: "$63,560.79", prize: "$20,000" },
-    { rank: 3, wallet: "0xc6e...62f8e", totalBuy: "$52,192.16", prize: "$10,000" },
-    { rank: 4, wallet: "0x71C...9ec9B", totalBuy: "$35,143.44", prize: "$5,000" },
-    { rank: 5, wallet: "0x5ae...767de", totalBuy: "$24,710.55", prize: "$3,000" },
-    { rank: 6, wallet: "0x589...18e01", totalBuy: "$100,590.58", prize: "$50,000" },
-    { rank: 7, wallet: "0xbbf...c627c", totalBuy: "$63,560", prize: "$20,000" },
-    { rank: 8, wallet: "0xc6e...62f8e", totalBuy: "$30,192.16", prize: "$10,000" },
-    { rank: 9, wallet: "0x9cb...5965b", totalBuy: "$26,103.44", prize: "$5,000" },
-    { rank: 10, wallet: "0x112...950a6", totalBuy: "$25,350.69", prize: "$3,000" }
+    {
+      rank: 1,
+      wallet: "0x589...18e01",
+      date: "2025-05-02",
+      txCount: 3,
+      totalBuy: "$124,590.58",
+      nft: "Legend",
+      prize: "$50,000",
+    },
+    {
+      rank: 2,
+      wallet: "0x2b...b37d",
+      date: "2025-11-04",
+      txCount: 2,
+      totalBuy: "$63,560.79",
+      nft: "Elite",
+      prize: "$20,000",
+    },
+    {
+      rank: 3,
+      wallet: "0x6ce...62f8",
+      date: "2025-05-03",
+      txCount: 15,
+      totalBuy: "$92,169.19",
+      nft: "Elite",
+      prize: "$10,000",
+    },
+    {
+      rank: 4,
+      wallet: "0x71c...9ec98",
+      date: "2023-10-06",
+      txCount: 13,
+      totalBuy: "$35,143.44",
+      nft: "Master",
+      prize: "$5,000",
+    },
+    {
+      rank: 5,
+      wallet: "0x5e...7676",
+      date: "2023-09-04",
+      txCount: 4,
+      totalBuy: "$24,710.55",
+      nft: "Expert",
+      prize: "$3,000",
+    },
+    {
+      rank: 6,
+      wallet: "0x03...109c",
+      date: "2025-05-06",
+      txCount: 5,
+      totalBuy: "$62,845.92",
+      nft: "Master",
+      prize: "$2,500",
+    },
+    {
+      rank: 7,
+      wallet: "0x3b...92f7",
+      date: "2025-07-07",
+      txCount: 2,
+      totalBuy: "$45,000.00",
+      nft: "Expert",
+      prize: "$2,000",
+    },
+    {
+      rank: 8,
+      wallet: "0x72...91b0",
+      date: "2025-06-10",
+      txCount: 3,
+      totalBuy: "$37,400.00",
+      nft: "Elite",
+      prize: "$1,800",
+    },
+    {
+      rank: 9,
+      wallet: "0xa9...24b5",
+      date: "2025-03-15",
+      txCount: 4,
+      totalBuy: "$40,210.00",
+      nft: "Legend",
+      prize: "$1,500",
+    },
+    {
+      rank: 10,
+      wallet: "0x89...c74e",
+      date: "2025-02-20",
+      txCount: 1,
+      totalBuy: "$15,729.20",
+      nft: "NFT",
+      prize: "$1,000",
+    },
   ];
 
   const visibleData = showMore ? tableData : tableData.slice(0, 5);  // Show first 5 items or more based on state
@@ -23,7 +103,7 @@ function BiggestbuyMobSec() {
     <div className="pt-[24px] pb-[24px] bg-[#000] overflow-hidden">
       <div className="relative w-[90%] rounded-[24px] px-[20px] py-[30px] mx-auto bg-[#111]">
         <div className="space-y-[20px]">
-          <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#FFF] tracking-[-2.548px]">
+          <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#FFF] tracking-[-1.548px]">
             Biggest buy-in competition
           </h3>
           <p className="text-[15px] font-[400] w-[100%] text-center leading-[175%] text-[#fff] tracking-[-0.32px]">

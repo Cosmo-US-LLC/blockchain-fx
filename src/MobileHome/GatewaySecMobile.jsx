@@ -18,9 +18,12 @@ function GatewaySecMobile() {
           borderColor: "rgba(230, 175, 3, 0.12)",
         }}
       >
-        <div className="space-y-[10px] px-3">
-          <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
-            The First Crypto Exchange <br/> That Pays Its Holders
+ 
+        <div className="space-y-[10px]">
+          <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#fff] tracking-[-1.5px]">
+            The First Crypto <br/> Exchange  That Pays <br/> Its Holders
+ 
+  
           </h3>
           <p className="text-[16px] font-[400] max-w-[360px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
             Instead of draining users with high trading fees, BlockchainFX cuts them by up to 70%. Half of all fees are shared with $BFX holders as daily staking rewards. We’re building a next-generation trading platform that grows with its community, where users benefit from every step of our success.

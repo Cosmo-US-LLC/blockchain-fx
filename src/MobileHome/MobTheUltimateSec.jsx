@@ -25,7 +25,7 @@ function MobTheUltimateSec() {
     <div className="px-5 bg-black">
       <div className=" bgtheyltmob min-h-[400px]">
         <div className="flex flex-col items-center justify-center ">
-          <div className="  pt-[60px] space-y-[15px]">
+          <div className="  pt-[70px] space-y-[15px]">
             <div className="flex justify-center">
               <img src={logo} className="h-[30px]" alt="Logo" />
             </div>

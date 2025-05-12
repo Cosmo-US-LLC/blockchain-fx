@@ -45,7 +45,7 @@ function CreditCardMob() {
           className="absolute top-[0%] w-[500px] h-[520px] left-[0%]"
           alt=""
         />
-        <h3 className="text-[32px] text-left capitalize font-[600] leading-[128%] tracking-[-2.52px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">
+        <h3 className="text-[32px] text-left capitalize font-[600] leading-[128%] tracking-[-1.52px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">
         BFX Visa Card
         </h3>
 
@@ -83,7 +83,7 @@ function CreditCardMob() {
           </li>
         </ul>
 
-        <div className="flex justify-center items-center space-x-2">
+        <div className="flex items-center justify-center space-x-2">
           <h4 className="text-[14px] text-[#fff] font-[400]">
           Compatible with
           </h4>

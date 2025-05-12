@@ -14,7 +14,7 @@ function MobOurAwardSec() {
           <h4 className="text-[20px] font-[400] text-center capitalize leading-[114%] text-[#FFF] tracking-[-1px]">
             {t("multiAward.heading")} 
           </h4>
-          <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#FFF] tracking-[-2.1px]"
+          <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#FFF] tracking-[-1.5px]"
           dangerouslySetInnerHTML={{ __html: t(`multiAward.subheading`) }}
           >
           </h3>

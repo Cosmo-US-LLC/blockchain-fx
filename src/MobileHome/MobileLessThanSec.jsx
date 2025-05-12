@@ -55,11 +55,11 @@ function MobileLessThanSec() {
             />
 
             <div className="space-y-[20px]">
-              <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#FFF] tracking-[-2.548px]">
-              Bridging Crypto And Finance
+              <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#FFF] tracking-[-1.548px]">
+              Bridging Crypto <br/> And Finance
               </h3>
               <p className="text-[15px] font-[400] w-[100%] text-center leading-[175%] text-[#fff] tracking-[-0.32px]">
-              Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily.  Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major  opportunity for BFX to connect crypto users with the world’s largest financial markets.
+              Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily. Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major opportunity for BFX to connect crypto users with the world’s largest financial markets.
               </p>
             </div>
             <div className="space-y-[70px] py-[30px]">
@@ -369,9 +369,9 @@ function MobileLessThanSec() {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="custom-pagination flex justify-center p-2 gap-3 mt-4"></div>
+      <div className="flex justify-center gap-3 p-2 mt-4 custom-pagination"></div>
       <div className="pt-[30px] flex justify-center items-center space-x-2">
-        <button className="swiper-button-prev-swp a transform -translate-y-1/2">
+        <button className="transform -translate-y-1/2 swiper-button-prev-swp a">
           <img className="w-[42.545px] h-[42.545px]" src={arw || "/placeholder.svg"} alt="" />
         </button>
         <button className="swiper-button-next-swp rotate-[182deg] transform -translate-y-1/2">

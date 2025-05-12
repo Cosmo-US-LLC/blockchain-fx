@@ -39,7 +39,7 @@ const MobileWalletSec = () => {
     <div className="pt-[42px] pb-[35px] bg-[#000]" id="Wallet">
       <div className="space-y-[20px] px-[24px] py-[20px] bg-[#000] max-w-[955px] w-[90%] mx-auto border border-[#262626] rounded-[8px]">
         <div className="flex items-center justify-center space-x-3">
-          <h3 className="text-[30px] font-[700] tracking-[-1px] text-white">
+          <h3 className="text-[30px] font-[700] leading-[120%] tracking-[-1.5px] text-white">
           BFX Presale
           </h3>
           {!apiData.presaleEnded && (

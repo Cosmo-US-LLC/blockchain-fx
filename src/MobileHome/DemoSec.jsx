@@ -48,7 +48,7 @@ function DemoSec() {
     >
       <img src={ellipse2} className="absolute w-[100%] top-[-7%]" alt="ellipse2" />
       <div className="w-[100%] mx-auto space-y-[24px] px-3">
-        <h3 className="mt-8 text-[36px] font-[600] leading-[114%] leading-[-1px] text-center text-[white]">
+        <h3 className="mt-8 text-[36px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[white]">
         BlockchainFX Demo
         </h3>
         <p className="text-[16px] text-center font-[400] text-[#fff]">

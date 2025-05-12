@@ -63,18 +63,18 @@ function MobileHero() {
                  Start earning today and receive up to 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue without having to trade yourself.
                      </p>
      
-                     <div className="space-y-[15px] max-w-[550px] border-[0.5px] border-[#C0C0C0] py-[17px] px-[21px] rounded-[13px]">
+                     <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
                        <div className="flex items-center space-x-3">
                          <img src={check} alt="" />
-                         <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">The first crypto exchange Bridging Blockchain and Finance</p>
+                         <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[14px]">The first crypto exchange Bridging Blockchain and Finance</p>
                        </div>
                        <div className="flex items-center space-x-3">
                          <img src={check} alt="" />
-                         <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, all in one place</p>
+                         <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[14px]">Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, all in one place</p>
                        </div>
                        <div className="flex items-center space-x-3">
                          <img src={check} alt="" />
-                         <p className="text-[#fff] capitalize font-[400] leading-[150%] text-[16px]">Awarded as the Fastest-Growing Crypto Trading App of 2025</p>
+                         <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[14px]">Awarded as the Fastest-Growing Crypto Trading App of 2025</p>
                        </div>
                      </div>
                </div>

@@ -33,7 +33,7 @@ export default function WhitepaperMob() {
       >
         <div className="w-[100%] space-y-4">
           <div className="flex flex-col justify-start w-full p-2">
-            <h3 className="text-[30px] text-center font-[600] leading-[115%] mb-4 text-white tracking-tighter">
+            <h3 className="text-[30px] text-center font-[600] leading-[120%] mb-4 text-white tracking-[-1.5px]">
               {t("whitepaper.heading")} {/* Use translation */}
             </h3>
             <p className="text-[14px] text-center text-[#fff]">

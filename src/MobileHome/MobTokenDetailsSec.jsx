@@ -27,7 +27,7 @@ function MobTokenDetailsSec() {
     <div className="py-[30px] bg-[#000]" id="allocation">
       <div className="relative space-y-[15px] w-[90%] mx-auto">
         <div className="space-y-[20px]">
-          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
+          <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#fff] tracking-[-1.5px]">
             {t("token_allocation_section.title")} {/* Use translation */}
           </h3>
           <p className="text-[15px] font-[400] max-w-[832px] mx-auto w-[80%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">

@@ -11,7 +11,7 @@ function CommunitymobSec() {
     {
       title: "DANI",
       Date:"Verified Purchase on 04/02/25",
-      description: "Joined their waitlist and got early beta access to the trading app in December.  It felt like Binance on steroids and I just Knew it would blow up, so I bought in 5–6 times over the past weeks. Already made $3,75k USDT from staking, and the coin hasn’t even launched yet. Big up!"
+      description: "Joined their waitlist and got early beta access to the trading app in December. It felt like Binance on steroids and I just Knew it would blow up, so I bought in 5–6 times over the past weeks. Already made $3,75k USDT from staking, and the coin hasn’t even launched yet. Big up!"
     },
     {
       title: "ERIKS",
@@ -28,7 +28,7 @@ function CommunitymobSec() {
   return (
     <div className="bg-[#000]">
       <div className="max-w-[1200px] pt-[30px] w-[90%] mx-auto relative">
-        <h3 className="text-[30px] text-[#fff] font-[700] leading-[120%] leading-[-1px] text-center">
+        <h3 className="text-[30px] text-[#fff] font-[600] leading-[120%] tracking-[-1.5px] text-center">
         What the $BFX <br/> Community Is Saying
         </h3>
         <div className="pt-[25px] w-[100%] mx-auto">

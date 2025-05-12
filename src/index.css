@@ -163,7 +163,7 @@ p {
   background-image: url(../src/assets/TheUltimateSec/ultimateSec.webp);
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-position: center; */
+  min-height: 340px;
 }
 .swiper-button-prev-how.swiper-button-disabled,
 .swiper-button-next-how.swiper-button-disabled {
