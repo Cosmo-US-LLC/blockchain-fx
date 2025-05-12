@@ -4,7 +4,7 @@ import ellipse from "../../assets/hoyToBuy/mobile/hero/ellipse.webp";
 
 function HowToBuyHeroMobile() {
   return (
-    <div className="bg-[#020B10] w-full px-6 py-6">
+    <div className="bg-[#000] w-full px-6 py-6">
       <div className="flex flex-col items-center justify-center gap-16 text-center">
         <div className="flex flex-col text-left text-white">
           <h1 className="mb-2 text-[38px] font-[500] leading-[47px] tracking-[-2.8px]">

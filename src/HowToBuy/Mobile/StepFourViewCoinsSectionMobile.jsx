@@ -4,7 +4,7 @@ import goldenShadow from "../../assets/hoyToBuy/mobile/ellipes-bg.png";
 
 function StepFourViewCoinsSectionMobile() {
   return (
-    <div className=" py-10 px-6 bg-[#111111]">
+    <div className=" py-10 px-6 bg-[#000] relative top-[-4px]">
       <div className="relative w-full px-4 py-6 border-[2px] border-[#E6AF0320] rounded-[16px] overflow-hidden">
       <img
           src={goldenShadow}

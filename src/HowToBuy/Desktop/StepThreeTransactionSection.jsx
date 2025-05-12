@@ -4,7 +4,7 @@ import goldenShadow from "../../assets/hoyToBuy/claim/claim-left-top-shadow.png"
 
 function StepThreeTransactionSection() {
   return (
-    <div className="py-12 bg-[#020B10]">
+    <div className="py-12 bg-[#000]">
       <div className="max-w-[1200px] relative w-full mx-auto">
         <div className="relative overflow-hidden flex items-center justify-center gap-[134px] px-5 py-7 border-[2px] border-[#E6AF0320] rounded-[16px] min-h-[482px]">
           <img
