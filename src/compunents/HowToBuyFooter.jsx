@@ -69,12 +69,12 @@ function HowToBuyFooter() {
   };
 
   return (
-    <div className="bg-[#000] lg:bg-[#000]">
+    <div className="bg-[#000] lg:bg-[#000] relative top-[-1px]">
       {/* desktop verion */}
 
       <div className="w-[100%] 2xl:block xl:block lg:block md:block sm:hidden hidden space-y-[40px] max-w-[1200px]  pt-[10px] mx-auto pb-[50px] ">
         <div className="border-b border-white/10 py-[46px]">
-          <p className="text-[14px] font-[400] text-[#8497A2] leading-[171%]">
+          <p className="text-[14px] font-[400] text-gray-300 leading-[171%]">
             {footer.disclaimer}
           </p>
         </div>
@@ -98,7 +98,7 @@ function HowToBuyFooter() {
 
       <div className="w-[90%] 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-[35px] py-[24px] mx-auto ">
         <div className="border-t border-b border-[#FFF] border-opacity-10 py-[18px]">
-          <p className="text-[10px] font-[400] text-[#8497A2] leading-[190%]">
+          <p className="text-[10px] font-[400] text-gray-300 leading-[190%]">
             {footer.disclaimer}
           </p>
         </div>

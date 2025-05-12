@@ -3,7 +3,7 @@ import CoinImage from "../../assets/hoyToBuy/hero/hero-coin.webp";
 
 function HowToBuyHero() {
   return (
-    <div className="  bg-[#020B10] py-24 px-12">
+    <div className="  bg-[#000] py-24 px-12">
       <div className="max-w-[1200px] mx-auto flex items-center justify-between">
         <div className="text-white max-w-[520px]">
           <h1 className="mb-4 text-5xl font-bold leading-tight">

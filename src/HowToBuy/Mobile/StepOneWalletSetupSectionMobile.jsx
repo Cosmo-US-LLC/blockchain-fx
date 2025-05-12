@@ -7,7 +7,7 @@ import walletconnect from "../../assets/hoyToBuy/wallet/walletconnect.svg";
 
 const StepOneWalletSetupSectionMobile = () => {
   return (
-    <div className="py-10 px-6 bg-[#111111]">
+    <div className="py-10 px-6 bg-[#000] relative top-[-1px]">
       <div className="relative px-4 py-6 border-[2px] border-[#E6AF0320] rounded-[16px] overflow-hidden flex flex-col gap-6">
         <img
           src={goldenShadow}

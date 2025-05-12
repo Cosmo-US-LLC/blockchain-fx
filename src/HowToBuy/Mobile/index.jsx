@@ -9,7 +9,7 @@ import StepTwoPaymentCardMobile from "./paymentCardMobile"
 
 function HowToBuyMobile() {
   return (
-    <>
+    <div className="bg-[#000]">
       <HowToBuyHeroMobile />
       <StepOneWalletSetupSectionMobile />
       <StepTwoPaymentCardMobile />
@@ -17,7 +17,7 @@ function HowToBuyMobile() {
       <StepFourViewCoinsSectionMobile />
       <StepFiveClaimSectionMobile />
       <StepSixLaunchSectionMobile />
-    </>
+    </div>
   );
 }
 

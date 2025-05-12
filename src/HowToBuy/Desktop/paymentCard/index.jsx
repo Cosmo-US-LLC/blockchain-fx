@@ -20,7 +20,7 @@ import visa from "../../../assets/hoyToBuy/payment/stepTwoCards/visa.svg";
 
 function StepTwoPaymentCard() {
   return (
-    <div className="py-12 bg-[#020B10]">
+    <div className="py-12 bg-[#000]">
       <div className="max-w-[1200px] relative w-full mx-auto">
         <div className="relative flex items-center justify-center overflow-hidden flex-col gap-6 p-6 border-[2px] border-[#E6AF0320] rounded-[16px] h-[999px] ">
           <img

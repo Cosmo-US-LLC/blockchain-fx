@@ -12,7 +12,7 @@ const exchanges = [
 
 function StepSixLaunchSectionMobile() {
   return (
-    <div className="py-10 px-6 bg-[#111111]">
+    <div className="py-10 px-6 bg-[#000] relative top-[-6px]">
       <div className="relative w-full py-6 px-4 flex flex-col gap-5 border-[2px] border-[#E6AF0320] rounded-[16px] overflow-hidden">
         <img
           src={goldenShadow}

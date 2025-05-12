@@ -36,7 +36,7 @@ const paymentMethods = [GooglePay, craditCard, visa];
 
 function StepTwoPaymentCardMobile() {
   return (
-    <div className="bg-[#020B10] py-10 px-6">
+    <div className="bg-[#000] py-12 px-6 relative top-[-2px]">
       <div className="relative w-full py-6 px-4 flex flex-col overflow-hidden gap-8 border-[2px] border-[#E6AF0320] rounded-[16px]  ">
       <img
           src={goldenShadow}
