@@ -22,7 +22,7 @@ function StepTwoPaymentCard() {
   return (
     <div className="py-12 bg-[#020B10]">
       <div className="max-w-[1200px] relative w-full mx-auto">
-        <div className="relative flex items-center justify-center overflow-hidden flex-col gap-6 p-6 border border-[#545454] rounded-[16px] h-[999px] ">
+        <div className="relative flex items-center justify-center overflow-hidden flex-col gap-6 p-6 border-[2px] border-[#E6AF0320] rounded-[16px] h-[999px] ">
           <img
             src={goldenShadow}
             alt=""
@@ -38,49 +38,49 @@ function StepTwoPaymentCard() {
             </p>
           </div>
           <div className="z-30 flex flex-wrap items-center justify-center gap-4">
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon1} alt="Icon 1" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon2} alt="Icon 2" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon3} alt="Icon 3" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon4} alt="Icon 4" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon5} alt="Icon 5" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon6} alt="Icon 6" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon7} alt="Icon 6" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon8} alt="Icon 7" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon9} alt="Icon 8" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon10} alt="Icon 9" className="" />
             </div>
-            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#3F3F3F]">
+            <div className="flex items-center justify-center w-[54px] h-[54px] rounded-lg border border-[#E6AF0320]">
               <img src={icon11} alt="Icon 9" className="" />
             </div>
           </div>
 
           <div className="z-30 flex flex-wrap items-center justify-center gap-4">
-            <div className="flex items-center justify-center gap-2 w-[86px] h-[53px] px-3 py-2 rounded-lg border border-[#3F3F3F]  text-white text-sm">
+            <div className="flex items-center justify-center gap-2 w-[86px] h-[53px] px-3 py-2 rounded-lg border border-[#E6AF0320]  text-white text-sm">
               <img src={GooglePay} alt="G Pay" className="" />
             </div>
-            <div className="flex items-center gap-2 justify-center w-[86px] h-[53px] px-3 py-2 rounded-lg  border border-[#3F3F3F] text-white text-sm">
+            <div className="flex items-center gap-2 justify-center w-[86px] h-[53px] px-3 py-2 rounded-lg  border border-[#E6AF0320] text-white text-sm">
               <img src={craditCard} alt="Apple Pay" className="" />
             </div>
-            <div className="flex items-center gap-2 px-3 py-2 justify-center w-[86px] h-[53px] rounded-lg border border-[#3F3F3F]  text-white text-sm">
+            <div className="flex items-center gap-2 px-3 py-2 justify-center w-[86px] h-[53px] rounded-lg border border-[#E6AF0320]  text-white text-sm">
               <img src={visa} alt="VISA" className="" />
             </div>
           </div>

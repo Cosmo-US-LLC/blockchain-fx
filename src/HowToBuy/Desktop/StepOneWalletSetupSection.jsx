@@ -9,7 +9,7 @@ const StepOneWalletSetupSection = () => {
   return (
     <div className="py-12 bg-[#0D0D0D]">
       <div className="max-w-[1200px] w-full mx-auto">
-        <div className="relative overflow-hidden flex flex-col gap-8 items-center justify-center p-5 border border-[#545454] rounded-[16px]  min-h-[580px]">
+        <div className="relative overflow-hidden flex flex-col gap-8 items-center justify-center p-5 border-[2px] border-[#E6AF0320] rounded-[16px]  min-h-[580px]">
           <img
             src={goldenShadow}
             alt=""

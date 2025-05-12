@@ -6,6 +6,7 @@ import StepFourViewCoinsSection from "./StepFourViewCoinsSection";
 import StepThreeTransactionSection from "./StepThreeTransactionSection";
 import StepTwoPaymentCard from "./paymentCard";
 import StepOneWalletSetupSection from "./StepOneWalletSetupSection";
+import HowToBuyFooter from "../../compunents/HowToBuyFooter";
 
 function  HowToBuyDesktop() {
   return (
@@ -17,6 +18,7 @@ function  HowToBuyDesktop() {
       <StepFourViewCoinsSection/>
       <StepFiveClaimSection />
       <StepSixLaunchSection />
+      {/* <HowToBuyFooter/> */}
     </>
   );
 }

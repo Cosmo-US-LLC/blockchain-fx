@@ -1,15 +1,15 @@
 import React from "react";
 import dashboardImage from "../../assets/hoyToBuy/viewCoin/mac.webp";
-import goldenShadow from "../../assets/hoyToBuy/viewCoin/viewClaimGoldenShadow.png";
+import goldenShadow from "../../assets/hoyToBuy/mobile/ellipes-bg.png";
 
 function StepFourViewCoinsSectionMobile() {
   return (
-    <div className=" py-10 px-6 bg-[#020B10]">
-      <div className="relative w-full px-4 py-6 border border-[#545454] rounded-[16px] overflow-hidden">
-        <img
+    <div className=" py-10 px-6 bg-[#111111]">
+      <div className="relative w-full px-4 py-6 border-[2px] border-[#E6AF0320] rounded-[16px] overflow-hidden">
+      <img
           src={goldenShadow}
           alt="Golden Background Shadow"
-          className="absolute top-0 left-0 z-10 h-auto opacity-30"
+          className="absolute top-0 left-0 z-30 w-full h-auto "
         />
 
         <div className="z-20 flex flex-col text-left text-white">
