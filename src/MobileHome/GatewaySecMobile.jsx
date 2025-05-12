@@ -18,11 +18,11 @@ function GatewaySecMobile() {
           borderColor: "rgba(230, 175, 3, 0.12)",
         }}
       >
-        <div className="space-y-[10px]">
-          <h3 className="text-[28px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
+        <div className="space-y-[10px] px-3">
+          <h3 className="text-[30px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
             The First Crypto Exchange <br/> That Pays Its Holders
           </h3>
-          <p className="text-[16px] font-[400] max-w-[300px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
+          <p className="text-[16px] font-[400] max-w-[360px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
             Instead of draining users with high trading fees, BlockchainFX cuts them by up to 70%. Half of all fees are shared with $BFX holders as daily staking rewards. We’re building a next-generation trading platform that grows with its community, where users benefit from every step of our success.
           </p>
         </div>
@@ -70,7 +70,7 @@ function GatewaySecMobile() {
               className="rounded-[4px] py-2 px-2 w-[100px] h-[380px]"
               style={{
                 background: "#0C0C0C",
-                border: "1px solid #2B2B2B",
+                border: "1px solid rgba(230, 175, 3, 0.12)",
               }}
             >
               <div className="flex flex-col gap-2">
@@ -101,7 +101,7 @@ function GatewaySecMobile() {
               className="rounded-[4px] py-2 px-2  w-[100px]  h-[380px]"
               style={{
                 background: "#0C0C0C",
-                border: "1px solid #2B2B2B",
+                border: "1px solid #E6AF03",
               }}
             >
               <div className="flex flex-col gap-4 mb-4">
@@ -128,11 +128,11 @@ function GatewaySecMobile() {
           {/* </div> */}
         </div>
 
-        <div className="absolute top-[-5%] left-[-5%]">
-          <img src={ernvet2} alt="" />
-        </div>
-        <div className="absolute bottom-[0%] right-[0%]">
+        <div className="absolute top-[-5%] right-[-5%] rotate-[265deg]">
           <img src={ernvet1} alt="" />
+        </div>
+        <div className="absolute bottom-[0%] rotate-[271deg] left-[-23%]">
+          <img src={ernvet2} alt="" />
         </div>
       </div>
     </div>
