@@ -48,7 +48,7 @@ function MobileOneAppSec() {
     <div className="py-5 px-5 bg-[#000]" id="what-is-bfx-coin">
       <div className="flex flex-col relative border border-[#343434] rounded-[24px] px-2 py-[30px]">
         <div className="space-y-[20px]">
-          <div className="w-[100%] flex gap-2 flex-col text-left">
+          <div className="w-[100%] flex gap-2 px-2 flex-col text-left">
             {!apiData.presaleEnded && (
               <div className="w-[93px] h-[32px] text-[14px] font-[600] text-white rounded-[7px] bg-[#E9C03D] flex justify-center items-center">
                 <span className="text-[38px] leading-[9%] -mt-[23px] pr-[6px] animate-blink">
