@@ -6,8 +6,8 @@ export default function BiggestBuy() {
 
   const tableData = [
     {
-      rank: 1,
-      wallet: "0x589...18e01",
+      rank: "1st",
+      wallet: "0x589...18e1",
       date: "2025-05-02",
       txCount: 3,
       totalBuy: "$124,590.58",
@@ -15,87 +15,102 @@ export default function BiggestBuy() {
       prize: "$50,000",
     },
     {
-      rank: 2,
-      wallet: "0x2b...b37d",
-      date: "2025-11-04",
+      rank: "2nd",
+      wallet: "0xa28...b37d",
+      date: "2025-04-11",
       txCount: 2,
-      totalBuy: "$80,000",
+      totalBuy: "$79,810.35",
       nft: "Elite",
       prize: "$20,000",
     },
     {
-      rank: 3,
-      wallet: "0x6ce...62f8",
-      date: "2025-05-03",
-      txCount: 15,
+      rank: "3rd",
+      wallet: "0xc6e...6f8e",
+      date: "2025-04-07",
+      txCount: 5,
       totalBuy: "$52,192.16",
       nft: "Elite",
       prize: "$10,000",
     },
     {
-      rank: 4,
-      wallet: "0x71c...9ec98",
-      date: "2023-10-06",
+      rank: "4th",
+      wallet: "0x71C...9c9B",
+      date: "2023-04-14",
       txCount: 13,
       totalBuy: "$35,143.44",
       nft: "Master",
       prize: "$5,000",
     },
     {
-      rank: 5,
-      wallet: "0x5e...7676",
-      date: "2023-09-04",
+      rank: "5th",
+      wallet: "0x5ae...76de",
+      date: "2023-04-19",
       txCount: 4,
       totalBuy: "$24,710.55",
       nft: "Expert",
       prize: "$3,000",
     },
     {
-      rank: 6,
-      wallet: "0x03...109c",
+      rank: "6th",
+      wallet: "0xa3f...1b9c",
       date: "2025-05-06",
-      txCount: 5,
+      txCount: 9,
       totalBuy: "$24,710.55",
       nft: "Master",
       prize: "$2,500",
     },
     {
-      rank: 7,
-      wallet: "0x3b...92f7",
-      date: "2025-07-07",
-      txCount: 2,
+      rank: "7th",
+      wallet: "0x9be...3c1a",
+      date: "2025-04-23",
+      txCount: 3,
       totalBuy: "$21,845.72",
       nft: "Expert",
       prize: "$2,000",
     },
     {
-      rank: 8,
-      wallet: "0x72...91b0",
-      date: "2025-06-10",
-      txCount: 3,
+      rank: "8th",
+      wallet: "0x7cd...5aa3",
+      date: "2025-04-22",
+      txCount: 11,
       totalBuy: "$19,302.48",
       nft: "Elite",
       prize: "$1,800",
     },
     {
-      rank: 9,
-      wallet: "0xa9...24b5",
-      date: "2025-03-15",
-      txCount: 4,
+      rank: "9th",
+      wallet: "0xd14...8f6",
+      date: "2025-04-11",
+      txCount: 2,
       totalBuy: "$17,894.11",
       nft: "Legend",
       prize: "$1,500",
     },
     {
-      rank: 10,
-      wallet: "0x89...c74e",
-      date: "2025-02-20",
-      txCount: 1,
+      rank: "10th",
+      wallet: "0xb89...c24e",
+      date: "2025-03-30",
+      txCount: 6,
       totalBuy: "$15,732.00",
       nft: "NFT",
       prize: "$1,000",
     },
   ];
+
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 80;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
   const visibleData = showMore ? tableData : tableData.slice(0, 5);
 
   return (
@@ -121,7 +136,7 @@ export default function BiggestBuy() {
                 <th className="px-4 py-2">Rank</th>
                 <th className="px-4 py-2">Wallet</th>
                 <th className="px-4 py-2">Date</th>
-                <th className="px-4 py-2">Transactions</th>
+                <th className="px-4 py-2">No. of TX</th>
                 <th className="px-4 py-2">Total Buy</th>
                 <th className="px-4 py-2">NFT</th>
                 <th className="px-4 py-2">Prize</th>
@@ -141,18 +156,25 @@ export default function BiggestBuy() {
                 const textColor = index < 3 ? "text-[#FFF9AD] " : "";
 
                 return (
-                 <>
-                  <tr key={index} className={`!rounded-[30px]  ${bgColor} ${textColor}`}>
-                    <td className="px-4 py-2   rounded-l-[30px]">{item.rank}</td>
-                    <td className="px-4 py-2 ">{item.wallet}</td>
-                    <td className="px-4 py-2 ">{item.date}</td>
-                    <td className="px-4 py-2 ">{item.txCount}</td>
-                    <td className="px-4 py-2 ">{item.totalBuy}</td>
-                    <td className="px-4 py-2 ">{item.nft}</td>
-                    <td className="px-4 py-2   rounded-r-[30px]">{item.prize}</td>
-                  </tr>
-                  <tr className="h-[8px]"></tr>
-                 </>
+                  <>
+                    <tr
+                      key={index}
+                      className={`!rounded-[30px]  ${bgColor} ${textColor}`}
+                    >
+                      <td className="px-4 py-2   rounded-l-[30px]">
+                        {item.rank}
+                      </td>
+                      <td className="px-4 py-2 ">{item.wallet}</td>
+                      <td className="px-4 py-2 ">{item.date}</td>
+                      <td className="px-4 py-2 ">{item.txCount}</td>
+                      <td className="px-4 py-2 ">{item.totalBuy}</td>
+                      <td className="px-4 py-2 ">{item.nft}</td>
+                      <td className="px-4 py-2   rounded-r-[30px]">
+                        {item.prize}
+                      </td>
+                    </tr>
+                    <tr className="h-[8px]"></tr>
+                  </>
                 );
               })}
             </tbody>
@@ -174,6 +196,19 @@ export default function BiggestBuy() {
             The list is updated weekly and is based on transactions made during
             the BFX presale.
           </p>
+        </div>
+
+        {/* buybfx Button */}
+        <div className="flex justify-center items-center mt-[20px] relative z-10">
+          <button
+            onClick={handleScroll}
+            style={{
+              background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+            }}
+            className="text-{#000} px-[12px]  text-[14px] font-[600] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
+          >
+            Buy BFX
+          </button>
         </div>
 
         <div className="absolute top-[0%] left-[0%]">
