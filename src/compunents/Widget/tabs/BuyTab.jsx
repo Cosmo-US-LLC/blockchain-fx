@@ -564,6 +564,14 @@ const BuyTab = ({ onTabChange}) => {
               Unlock {nextRank.rank} NFT
             </button>
           )}
+
+          <div className="bg-[#111] px-[11px] py-2 rounded   border-[#111] w-[100%]  ">
+              <h3 className="text-[9px] font-[500] text-white text-center ">
+                Limited Time Offer: Use Bonus Code <span className="coursor-pointer text-[#299A00]">BFX20</span> To Get 20% More $BFX Coins!
+              </h3>
+          </div>
+
+
         <div
           className="flex justify-center items-center space-x-[24px]"
           ref={(el) => setCodesContainerRef(el)}

@@ -33,7 +33,7 @@ function CryptoExchangemobSec() {
              Pioneering <br /> Crypto Exchange 
             </h4>
             <p className="text-[#fff] text-center text-[16px] leading-[137.5%] font-[500]">
-            BlockchainFX is the world’s first crypto super app, merging blockchain with global financial markets. The exchange is live and growing rapidly. Now with the launch of $BFX, holders can be part of building the next leading global trading platform.
+            BlockchainFX is the world’s first crypto super app, merging blockchain technology with global financial markets. The exchange is currently live in its Beta phase, and the user base is growing rapidly. With the launch of $BFX, holders now have the chance to be part of building the next leading global trading platform.
             </p>
           </div>
           <div className="flex justify-center mr-3">

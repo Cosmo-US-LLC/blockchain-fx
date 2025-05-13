@@ -28,18 +28,26 @@ function MobTheUltimateSec() {
             <div className="flex justify-center ">
             <img src={logo} className="h-[45.77px]" alt="" />
             </div>
-            <h3 className="text-[33.358px] text-[#fff] font-[700] text-center leading-[117.143%] text-[#181A20] tracking-[-1px]">
+            <h3 className="text-[36.401px] manrope text-[#fff] font-[700] text-center leading-[117.143%] text-[#181A20] tracking-[-1px]">
              The Ultimate <br />
           Trading Platform
             </h3>
             <div className="flex justify-center pt-[10px] items-center  space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
+            <button
+            style={{
+              background:"linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+            }}
+             className="text-{#000} px-[12px]  text-[14px] font-[600] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
             onClick={handleScroll}
             >
               Buy $BFX
             </button>
-            <button className="hover:text-white text-[#fff] px-[12px] hover:bg-[#E5AE00]  bg-transparent text-[14px] font-[1000] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]">
-            Beta Traiding
+            <button
+             onClick={() =>
+                  window.open("https://t.me/blockchainfx_chat", "_blank")
+                }
+            className="hover:text-white text-[#fff] px-[12px] hover:bg-[#E5AE00]  bg-transparent text-[14px] font-[600] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]">
+            Need Support
             </button>
           </div>
           </div>
