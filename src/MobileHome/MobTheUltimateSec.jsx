@@ -22,37 +22,27 @@ function MobTheUltimateSec() {
   };
 
   return (
-    <div className="px-5 bg-black">
-      <div className=" bgtheyltmob min-h-[400px]">
-        <div className="flex flex-col items-center justify-center ">
-          <div className="  pt-[70px] space-y-[15px]">
-            <div className="flex justify-center">
-              <img src={logo} className="h-[30px]" alt="Logo" />
+     <div className="bg-[#000] !bg-cover !bg-center">
+      <div className="flex items-center bgtheyltmob min-h-[410px]  justify-center w-[90%] mx-auto  ">
+      <div className=" pb-[50px] pt-[30px] space-y-[15px]">
+            <div className="flex justify-center ">
+            <img src={logo} className="h-[45.77px]" alt="" />
             </div>
-            <h3
-              className="text-[33.358px] text-[#fff] font-[600] text-center leading-[117.143%]"
-              dangerouslySetInnerHTML={{
-                __html: t("the_ultimate_section.title"),
-              }}
-            />
-            <div className="flex justify-center pt-[10px] items-center space-x-[17px]">
-              <button
-                className="text-black bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[12px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[88px] h-[31px]"
-                onClick={handleScroll}
-              >
-                {t("the_ultimate_section.buy_bfx")}
-              </button>
-              <button
-                onClick={() =>
-                  window.open("https://t.me/blockchainfx_chat", "_blank")
-                }
-                className="hover:text-[#E6B005] text-[#E6B005] font-[400] px-[8px] hover:bg-[#E5AE00] bg-transparent text-[12px] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-[107px] h-[31px]"
-              >
-                {t("the_ultimate_section.need_support")}
-              </button>
-            </div>
+            <h3 className="text-[33.358px] text-[#fff] font-[700] text-center leading-[117.143%] text-[#181A20] tracking-[-1px]">
+             The Ultimate <br />
+          Trading Platform
+            </h3>
+            <div className="flex justify-center pt-[10px] items-center  space-x-[17px]">
+            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
+            onClick={handleScroll}
+            >
+              Buy $BFX
+            </button>
+            <button className="hover:text-white text-[#fff] px-[12px] hover:bg-[#E5AE00]  bg-transparent text-[14px] font-[1000] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]">
+            Beta Traiding
+            </button>
           </div>
-        </div>
+          </div>
       </div>
     </div>
   );
