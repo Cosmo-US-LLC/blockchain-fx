@@ -19,7 +19,7 @@ function GatewaySecMobile() {
         }}
       >
  
-        <div className="space-y-[10px]">
+        <div className="space-y-[10px] px-[20px]">
           <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#fff] tracking-[-1.5px]">
             The First Crypto <br/> Exchange  That Pays <br/> Its Holders
  
