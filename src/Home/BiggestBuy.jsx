@@ -19,7 +19,7 @@ export default function BiggestBuy() {
       wallet: "0x2b...b37d",
       date: "2025-11-04",
       txCount: 2,
-      totalBuy: "$63,560.79",
+      totalBuy: "$80,000",
       nft: "Elite",
       prize: "$20,000",
     },
@@ -28,7 +28,7 @@ export default function BiggestBuy() {
       wallet: "0x6ce...62f8",
       date: "2025-05-03",
       txCount: 15,
-      totalBuy: "$92,169.19",
+      totalBuy: "$52,192.16",
       nft: "Elite",
       prize: "$10,000",
     },
@@ -55,7 +55,7 @@ export default function BiggestBuy() {
       wallet: "0x03...109c",
       date: "2025-05-06",
       txCount: 5,
-      totalBuy: "$62,845.92",
+      totalBuy: "$24,710.55",
       nft: "Master",
       prize: "$2,500",
     },
@@ -64,7 +64,7 @@ export default function BiggestBuy() {
       wallet: "0x3b...92f7",
       date: "2025-07-07",
       txCount: 2,
-      totalBuy: "$45,000.00",
+      totalBuy: "$21,845.72",
       nft: "Expert",
       prize: "$2,000",
     },
@@ -73,7 +73,7 @@ export default function BiggestBuy() {
       wallet: "0x72...91b0",
       date: "2025-06-10",
       txCount: 3,
-      totalBuy: "$37,400.00",
+      totalBuy: "$19,302.48",
       nft: "Elite",
       prize: "$1,800",
     },
@@ -82,7 +82,7 @@ export default function BiggestBuy() {
       wallet: "0xa9...24b5",
       date: "2025-03-15",
       txCount: 4,
-      totalBuy: "$40,210.00",
+      totalBuy: "$17,894.11",
       nft: "Legend",
       prize: "$1,500",
     },
@@ -91,12 +91,11 @@ export default function BiggestBuy() {
       wallet: "0x89...c74e",
       date: "2025-02-20",
       txCount: 1,
-      totalBuy: "$15,729.20",
+      totalBuy: "$15,732.00",
       nft: "NFT",
       prize: "$1,000",
     },
   ];
-
   const visibleData = showMore ? tableData : tableData.slice(0, 5);
 
   return (
@@ -115,8 +114,8 @@ export default function BiggestBuy() {
         </div>
 
         {/* Table */}
-        <div className="overflow-x-auto relative z-10">
-          <table className="table-auto w-full text-white">
+        <div className="relative z-10 overflow-x-auto">
+          <table className="w-full text-white table-auto">
             <thead>
               <tr className="text-[#E5AE00] font-[700] text-left">
                 <th className="px-4 py-2">Rank</th>
@@ -145,11 +144,11 @@ export default function BiggestBuy() {
                  <>
                   <tr key={index} className={`!rounded-[30px]  ${bgColor} ${textColor}`}>
                     <td className="px-4 py-2   rounded-l-[30px]">{item.rank}</td>
-                    <td className="px-4 py-2  ">{item.wallet}</td>
-                    <td className="px-4 py-2  ">{item.date}</td>
-                    <td className="px-4 py-2  ">{item.txCount}</td>
-                    <td className="px-4 py-2  ">{item.totalBuy}</td>
-                    <td className="px-4 py-2  ">{item.nft}</td>
+                    <td className="px-4 py-2 ">{item.wallet}</td>
+                    <td className="px-4 py-2 ">{item.date}</td>
+                    <td className="px-4 py-2 ">{item.txCount}</td>
+                    <td className="px-4 py-2 ">{item.totalBuy}</td>
+                    <td className="px-4 py-2 ">{item.nft}</td>
                     <td className="px-4 py-2   rounded-r-[30px]">{item.prize}</td>
                   </tr>
                   <tr className="h-[8px]"></tr>
@@ -170,7 +169,7 @@ export default function BiggestBuy() {
           </button>
         </div>
 
-        <div className="flex justify-center items-center">
+        <div className="flex items-center justify-center">
           <p className="text-[13px] text-white font-[400] relative z-10 mt-[15px]">
             The list is updated weekly and is based on transactions made during
             the BFX presale.
