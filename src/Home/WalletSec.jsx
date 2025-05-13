@@ -46,13 +46,13 @@ const WalletSec = () => {
   const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
 
   return (
-    <div className="pt-[42px] pb-[35px] bg-[#020B10] min-h-[700px]" id="how-to-buy">
+    <div className="pt-[42px] pb-[35px] bg-[#020B10] min-h-[700px]" id="how-to-buy1">
       <div
         className="space-y-[30px] px-[67px] py-[26px] max-w-[1200px] w-[100%] mx-auto border border-[#575757] rounded-[8px] <md:px-6 <sm:px-4"
         id="Wallet"
       >
         <div className="pb-[20px]">
-          <div className="flex justify-center space-x-3 items-center">
+          <div className="flex items-center justify-center space-x-3">
             <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
               {t("wallet_section.title")}
             </h3>
@@ -124,7 +124,7 @@ const WalletSec = () => {
                   className={`py-[15px] px-1 border-b border-[#545454] last:border-none  transition-all duration-300`}
                 >
                   <div
-                    className="flex justify-between items-center cursor-pointer"
+                    className="flex items-center justify-between cursor-pointer"
                     onClick={() =>
                       setSelectedHowToBuyStep(
                         selectedHowToBuyStep === index ? null : index
@@ -133,7 +133,7 @@ const WalletSec = () => {
                   >
                     <div className="flex w-[100%]  justify-between items-center space-x-4 space-y-[15px]">
                       <div className=" w-[100%] flex flex-col justify-center">
-                        <div className="flex justify-between items-center">
+                        <div className="flex items-center justify-between">
                           <h3
                             className={`text-[14px] capitalize font-[600] ${
                               index === selectedHowToBuyStep

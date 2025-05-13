@@ -196,8 +196,8 @@ function Navbar() {
         }`}
       >
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
-          <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
-            <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
+          <div className="flex items-center space-x-3 2xl:block xl:block lg:block md:block sm:flex 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3">
+            <div className="block 2xl:hidden xl:hidden lg:hidden md:hidden sm:block">
               <img
                 src={menu}
                 onClick={toggleMobileMenu}
@@ -222,13 +222,15 @@ function Navbar() {
             >
               {t("navbar.whatIsBlockchainFX")}
             </a>
-            <a
+            <Link
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "how-to-buy", 40)}
-              href=""
+              // onClick={(e) => handleScroll(e, "how-to-buy", 40)}
+              to="/how-to-buy"
+              target="_blank"
+              // href=""
             >
               {t("navbar.howToBuy")}
-            </a>
+            </Link>
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "whitepaper", 60)}
@@ -303,7 +305,7 @@ function Navbar() {
               <br />
               <div
                 ref={dropdownRef}
-                className="flex relative  justify-start items-center space-x-2"
+                className="relative flex items-center justify-start space-x-2"
               >
                 <img
                   className="w-[20px]"
@@ -332,7 +334,7 @@ function Navbar() {
                       {flags.map((lang, index) => (
                         <div
                           key={index}
-                          className="flex items-center space-x-1 cursor-pointer hover:bg-gray-100 p-1 rounded"
+                          className="flex items-center p-1 space-x-1 rounded cursor-pointer hover:bg-gray-100"
                           onClick={() => handleSelectLanguage(lang)}
                         >
                           <img

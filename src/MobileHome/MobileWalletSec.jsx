@@ -36,9 +36,9 @@ const MobileWalletSec = () => {
     },
   ];
   return (
-    <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="how-to-buy">
+    <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="how-to-buy1">
       <div className="space-y-[20px] px-[24px] py-[20px] bg-[#020B10] max-w-[955px] w-full mx-auto border border-[#262626] rounded-[8px]">
-        <div className="flex justify-center space-x-3 items-center">
+        <div className="flex items-center justify-center space-x-3">
           <h3 className="text-[30px] font-[700] tracking-[-1px] text-white">
             {t("wallet_section.title")}
           </h3>
@@ -66,7 +66,7 @@ const MobileWalletSec = () => {
             </h4>
           </div>
         )}
-        <div className="flex justify-between gap-8 flex-col md:flex-row">
+        <div className="flex flex-col justify-between gap-8 md:flex-row">
           <Widget />
           <div
             className="max-w-[413.763px] space-y-[10px] relative rounded-[20px] px-[10px] pt-[22px] pb-[11px] border border-white w-full mx-auto"
@@ -77,7 +77,7 @@ const MobileWalletSec = () => {
               WebkitBackdropFilter: "blur(19px)",
             }}
           >
-            <div className="absolute top-0 left-0 -translate-y-1/2 w-full">
+            <div className="absolute top-0 left-0 w-full -translate-y-1/2">
               <div className="bg-[#020B10] h-[30px] flex items-center rounded-[6px] mx-auto w-[102px] border border-white">
                 <h3 className="text-[10px] text-white text-center w-full font-[700]">
                   {t("wallet_section.how_to_buy")}
@@ -91,16 +91,16 @@ const MobileWalletSec = () => {
                   className="py-[15px] px-1 border-b transition-all duration-300"
                 >
                   <div
-                    className="flex justify-between items-center cursor-pointer"
+                    className="flex items-center justify-between cursor-pointer"
                     onClick={() =>
                       setSelectedHowToBuyStep(
                         selectedHowToBuyStep === index ? null : index
                       )
                     }
                   >
-                    <div className="flex justify-between items-center w-full space-x-4">
+                    <div className="flex items-center justify-between w-full space-x-4">
                       <div className="flex flex-col w-full">
-                        <div className="flex justify-between items-center">
+                        <div className="flex items-center justify-between">
                           <h3
                             className={`text-[14px] capitalize font-[600] ${
                               index === selectedHowToBuyStep ? "" : "text-white"

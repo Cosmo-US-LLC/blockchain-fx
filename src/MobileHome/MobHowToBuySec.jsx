@@ -52,7 +52,7 @@ function MobHowToBuySec() {
     }, 200); 
   };
   return (
-    <div className="pt-[24px] space-y-[20px] pb-[50px] bg-[#FAFAFA] " id="how-to-buy">
+    <div className="pt-[24px] space-y-[20px] pb-[50px] bg-[#FAFAFA] " id="how-to-buy1">
     <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] leading-[-1px]">
     How To Buy $BFX
           </h3>
@@ -74,7 +74,7 @@ function MobHowToBuySec() {
                   <div className="flex w-[100%]  justify-between items-center space-x-4 space-y-[15px]">
                     
                     <div className="w-[100%]">
-                      <div className="flex justify-between items-center">
+                      <div className="flex items-center justify-between">
                         <h3 className={`text-[15px] capitalize font-[600]  ${
                           index === activeIndex ? "text-[#E5AE00]" : "text-[#181A20] "
                         }`}
