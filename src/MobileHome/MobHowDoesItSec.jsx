@@ -6,9 +6,9 @@ import "swiper/css/navigation";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
-import cardicn1 from "../assets/HowDoesItSec/iconTwo.svg";
-import cardicn2 from "../assets/HowDoesItSec/iconthree.svg";
-import cardicn3 from "../assets/HowDoesItSec/iconOne.svg";
+import cardicn1 from "../assets/HowDoesItSec/cardicon (3).webp";
+import cardicn2 from "../assets/HowDoesItSec/cardicon (2).webp";
+import cardicn3 from "../assets/HowDoesItSec/cardicon (1).webp";
 import ellipse2 from "../assets/HowDoesItSec/Ellipse 3 (3).png";
 import cardicn6 from "../assets/HowDoesItSec/icns (6) copy.svg";
 import howtomob from "../assets/HowDoesItSec/howtomob.png";
@@ -72,7 +72,7 @@ function MobHowDoesItSec() {
               <div className="px-[20px] h-[280px]   rounded-[16px] border border-1 border-[#E6AF031F]">
                 <div className="flex flex-row items-center justify-between">
                   <div className="flex justify-center">
-                    <img src={item.icon} alt="" />
+                    <img src={item.icon} className="h-[60px]" alt="" />
                   </div>
                   <p className="text-[#FFFFFF33] text-[56px] font-[600]">
                     0{index + 1}.
