@@ -22,8 +22,8 @@ function MobTheUltimateSec() {
   };
 
   return (
-     <div className="bg-[#020B10] !bg-cover !bg-center">
-      <div className="flex items-center bgtheyltmob min-h-[410px]  justify-center w-[90%] mx-auto  ">
+     <div className="bg-[#020B10] p-5">
+      <div className="flex items-center justify-center bgtheyltmob h-[410px] w-full !bg-cover !bg-center rounded-xl   ">
       <div className=" pb-[50px] pt-[30px] space-y-[15px]">
             <div className="flex justify-center ">
             <img src={logo} className="h-[45.77px]" alt="" />
@@ -37,7 +37,7 @@ function MobTheUltimateSec() {
             style={{
               background:"linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
             }}
-             className="text-{#000} px-[12px]  text-[14px] font-[600] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
+             className="text-{#000} px-[12px]  text-[12px] font-[700] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[90px] h-[40px]"
             onClick={handleScroll}
             >
               Buy $BFX

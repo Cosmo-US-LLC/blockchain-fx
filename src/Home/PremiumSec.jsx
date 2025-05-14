@@ -15,6 +15,7 @@ import faq1 from "../assets/PremiumSec/faq (1).svg";
 import arw from "../assets/PremiumSec/preawr (1).svg";
 import tick from "../assets/PremiumSec/true.png";
 import cross from "../assets/PremiumSec/false.png";
+import { MdOutlineAirplaneTicket } from "react-icons/md";
 
 const cards = [
   {
@@ -40,9 +41,9 @@ const cards = [
         text: "BFX Staking Rewards",
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
       },
-      { text: "Daily USDT Rewards", icon: cross, tooltip: "" },
+      { text: "Daily USDT Rewards", icon: cross, tooltip: "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
       {
         text: "Trading Credits of up to $25k",
         icon: cross,
@@ -64,13 +65,13 @@ const cards = [
       { text: "20% BFX Bonus", icon: tick,
         tooltip:
           "Buy this NFT and get extra BFX coins added to your dashboard." },
-      { text: "Metal BFX Visa Card", icon: tick,
+      { text: "BFX Staking Rewards", icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "$500 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross,
-        tooltip:
+          "Receive BFX staking rewards every time someone trades on BlockchainFX." },
+      { text: "$500 Trading Credits", icon: tick,
+         tooltip:
           "Receive trading credits after the presale to use on BlockchainFX." },
+      { text: "Daily USDT Rewards", icon: cross, tooltip: "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
     ],
     buttonLabel: "Buy $BFX • $2,500",
   },
@@ -89,10 +90,10 @@ const cards = [
         tooltip:
           "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." 
          },
-      { text: "$1000 Trading Credits", icon: tick},
-      { text: "Daily USDT Rewards", icon: cross,
-        tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX." },
+      { text: "$1000 Trading Credits", icon: tick,
+         tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX."},
+      { text: "Daily USDT Rewards", icon: cross, tooltip: "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
     ],
     buttonLabel: "Buy $BFX • $5,000",
   },
@@ -103,14 +104,14 @@ const cards = [
     price: "$10,000",
     reviews: [true, true, true, false, false],
     points: [
-      { text: "Early Access", icon: tick,  tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "Early Access", icon: tick },
       { text: "40% BFX Bonus", icon: tick, tooltip:
           "Buy this NFT and get extra BFX coins added to your dashboard." },
       { text: "10% USDT Rewards", icon: tick,
         tooltip:
           "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "Metal BFX Visa Card", icon: tick },
+      { text: "Metal BFX Visa Card", icon: tick,  tooltip:
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
       { text: "$2000 Trading Credits", icon: tick,
         tooltip:
           "Receive trading credits after the presale to use on BlockchainFX." },
@@ -124,14 +125,14 @@ const cards = [
     price: "$25,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick,  tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "Early Access", icon: tick },
       { text: "50% BFX Bonus", icon: tick, tooltip:
           "Buy this NFT and get extra BFX coins added to your dashboard." },
       { text: "15% USDT Rewards", icon: tick,
         tooltip:
           "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "Metal BFX Visa Card", icon: tick },
+      { text: "Metal BFX Visa Card", icon: tick,  tooltip:
+          "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
       { text: "$5000 Trading Credits", icon: tick,
         tooltip:
           "Receive trading credits after the presale to use on BlockchainFX." },
@@ -145,14 +146,14 @@ const cards = [
     price: "$50,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick,  tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "Early Access", icon: tick },
       { text: "60% BFX Bonus", icon: tick, tooltip:
           "Buy this NFT and get extra BFX coins added to your dashboard." },
       { text: "20% USDT Rewards", icon: tick, icon: tick,
         tooltip:
           "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "Metal BFX Visa Card", icon: tick },
+      { text: "Metal BFX Visa Card", icon: tick,  tooltip:
+          "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide." },
       { text: "$10000 Trading Credits", icon: tick, icon: tick,
         tooltip:
           "Receive trading credits after the presale to use on BlockchainFX." },
@@ -166,14 +167,14 @@ const cards = [
     price: "$100,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick,  tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "Early Access", icon: tick, },
       { text: "80% BFX Bonus", icon: tick, tooltip:
           "Buy this NFT and get extra BFX coins added to your dashboard." },
       { text: "30% USDT Rewards", icon: tick, icon: tick,
         tooltip:
           "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "18 Karat BFX Visa Card", icon: tick },
+      { text: "18 Karat BFX Visa Card", icon: tick,  tooltip:
+          "Get your 18 Karat BFX Visa Card (virtual and physical), accepted online and in stores worldwide." },
       { text: "$25000 Trading Credits", icon: tick,
         tooltip:
           "Receive trading credits after the presale to use on BlockchainFX." },
@@ -378,7 +379,7 @@ function PremiumSec() {
                                 />
                               </svg>
                               {point.tooltip && (
-                                <div className="absolute left-[-50px] min-w-[200px] -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-[#020B10] border border-gray-700 text-white text-xs rounded px-2 py-1 z-[9999] ">
+                                <div className="absolute left-[-80px] min-w-[200px] -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-[#020B10] border border-gray-700 text-white text-xs rounded px-2 py-1 z-[9999] ">
                                   {point.tooltip}
                                 </div>
                               )}
