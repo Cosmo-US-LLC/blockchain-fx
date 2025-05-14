@@ -34,7 +34,7 @@ function BiggestbuyMobSec() {
       wallet: "0x2b...b37d",
       date: "2025-11-04",
       txCount: 2,
-      totalBuy: "$80,000",
+      totalBuy: "$79,810.35",
       nft: "Elite",
       prize: "$20,000",
     },

@@ -50,12 +50,12 @@ function Herosection() {
             {/* <h4 className="text-[16px]  leading-[150%] font-[600] text-[#E5AE00] tracking-[-0.16px] uppercase">
                 Crypto Exchange Launches Coin with an Integrated Reward System
               </h4> */}
-            <div className=" border border-white border-opacity-20 max-w-[410px]    justify-center items-center rounded-full"
+            <div className=" border border-white border-opacity-20 max-w-[410px]  flex  justify-center items-center rounded-full"
               style={{
                 background: " linear-gradient(90deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%)",
               }}
             >
-              <h4 className="text-white font-inter px-2 py-2 tracking-[-0.16px]  text-[12px]  capitalize">Crypto Exchange Launches Coin with an Integrated Reward System</h4>
+              <h4 className="text-white font-inter text-center  py-2 tracking-[-0.16px]  text-[12px]  capitalize">Crypto Exchange Launches Coin with an Integrated Reward System</h4>
             </div>
             <h1
               className="text-[60px] font-[700] pt-[] leading-[109%] tracking-[-3px text-[#fff] ">
