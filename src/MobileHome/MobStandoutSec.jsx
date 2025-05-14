@@ -19,7 +19,7 @@ function MobStandoutSec() {
   const { t } = useTranslation();
 
   return (
-    <div className="px-5 bg-[#000]">
+    <div className="px-5 bg-[#020B10] pt-[30px]">
       <div className="py-8 bg-[#111111] border border-[#E6AF0320] rounded-[16px]">
         <div className="space-y-[15px] mb-8">
           <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#FFF] tracking-[-1.548px]">

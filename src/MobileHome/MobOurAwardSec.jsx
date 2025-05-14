@@ -8,7 +8,7 @@ function MobOurAwardSec() {
   const { t } = useTranslation();
 
   return (
-    <div className="pt-[24px] bg-[#000] pb-[24px]" id="win">
+    <div className="pt-[24px] bg-[#020B10] pb-[24px]" id="win">
       <div className="relative space-y-[20px] w-[90%] mx-auto">
         <div className="space-y-[10px]">
           <h4 className="text-[20px] font-[400] text-center capitalize leading-[114%] text-[#FFF] tracking-[-1px]">

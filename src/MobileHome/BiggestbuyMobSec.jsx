@@ -115,7 +115,7 @@ function BiggestbuyMobSec() {
   const visibleData = showMore ? tableData : tableData.slice(0, 5);  // Show first 5 items or more based on state
 
   return (
-    <div className="pt-[24px] pb-[24px] bg-[#000] overflow-hidden">
+    <div className="pt-[24px] pb-[24px] bg-[#020B10] overflow-hidden">
       <div className="relative w-[90%] rounded-[24px] px-[20px] py-[30px] mx-auto bg-[#111]">
         <div className="space-y-[20px]">
           <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#FFF] tracking-[-1.548px]">

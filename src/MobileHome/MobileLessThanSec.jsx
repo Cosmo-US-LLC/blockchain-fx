@@ -45,7 +45,7 @@ function MobileLessThanSec() {
       }, 200); 
     };
   return (
-    <div className="pt-[24px] pb-[24px] bg-[#000] overflow-hidden">
+    <div className="pt-[24px] pb-[24px] bg-[#020B10] overflow-hidden">
     <div className="relative max-w-[1200px] mx-auto">
     <div className="space-y-[32px] py-6 px-4 w-[90%] mx-auto border-[1px] border-[#2B2B2B] relative overflow-hidden rounded-[16px] bg-[#111]">
             <img

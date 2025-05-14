@@ -36,7 +36,7 @@ function DemoSec() {
   };
 
   return (
-   <div className="bg-[#000] py-[30px] " >
+   <div className="bg-[#020B10] py-[30px] " >
     <div className="mx-auto w-[90%] overflow-hidden bg-[#131312e8] rounded-[24px]"
     style={{
       border: "1.5px solid rgb(58, 49, 18)",

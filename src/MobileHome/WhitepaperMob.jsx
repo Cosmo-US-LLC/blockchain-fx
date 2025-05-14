@@ -23,7 +23,7 @@ export default function WhitepaperMob() {
   };
 
   return (
-    <div className="w-full py-[24px] px-[24px] bg-[#000]" id="whitepaper">
+    <div className="w-full py-[24px] px-[24px] bg-[#020B10]" id="whitepaper">
       <div
         className="py-6 rounded-[11.022px] overflow-hidden relative px-4 space-y-[16px]"
         style={{

@@ -34,7 +34,7 @@ function MobTraderReviewsSec() {
   };
 
   return (
-    <div className="py-[30px] space-y-[20px] bg-[#000]" >
+    <div className="py-[30px] space-y-[20px] bg-[#020B10]" >
       <div className="relative space-y-[20px] w-[90%] mx-auto">
         <div className="space-y-[20px]">
           <h3

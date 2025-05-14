@@ -171,7 +171,7 @@ function MobilePremiumSec() {
     }, 200);
   };
   return (
-    <div className="pt-[34px] pb-[34px] px-6 bg-[#000]" id="premium">
+    <div className="pt-[34px] pb-[34px] px-6 bg-[#020B10]" id="premium">
       <div className="relative flex flex-col gap-12 p-[20px] bg-[#111]">
         <div className="space-y-[12px]">
         <h3

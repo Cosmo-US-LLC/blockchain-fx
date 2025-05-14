@@ -54,7 +54,7 @@ export default function YoutubeSec() {
   };
 
   return (
-    <div className="bg-[#000] rounded-[24px]">
+    <div className="bg-[#020B10] rounded-[24px]">
     <div className="w-[90%] relative bg-[#111] rounded-[24px] mx-auto overflow-hidden"
     style={{
       border: "1.5px solid rgb(58, 49, 18)",

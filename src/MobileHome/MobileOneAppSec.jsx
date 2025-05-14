@@ -45,7 +45,7 @@ function MobileOneAppSec() {
   };
 
   return (
-    <div className="py-5 px-5 bg-[#000]" id="what-is-bfx-coin">
+    <div className="py-5 px-5 bg-[#020B10]" id="what-is-bfx-coin">
       <div className="flex flex-col relative border border-[#343434] rounded-[24px] px-2 py-[30px]">
         <div className="space-y-[20px]">
           <div className="w-[100%] flex gap-2 px-2 flex-col text-left">

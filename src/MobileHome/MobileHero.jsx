@@ -48,7 +48,7 @@ function MobileHero() {
   };
 
   return (
-    <div className="pt-[22px] pb-[15px] bg-[#000]">
+    <div className="pt-[22px] pb-[15px] bg-[#020B10]">
       <div className=" w-[90%] mx-auto ">
         <div className="">
           <div className="flex flex-col ">
