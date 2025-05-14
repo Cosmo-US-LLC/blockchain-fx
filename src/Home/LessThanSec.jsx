@@ -31,7 +31,7 @@ function LessThanSec() {
   }, []);
 
   return (
-    <div className="pt-[50px] pb-[50px] bg-[#000]">
+    <div className="pt-[50px] pb-[50px] bg-[#020B10]">
         <div
               className="max-w-[1200px] py-[50px] relative overflow-hidden space-y-[50px] rounded-[16px] w-[100%] mx-auto"
               style={{

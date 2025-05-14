@@ -95,7 +95,7 @@ function StandoutSec() {
   const { t } = useTranslation();
 
   return (
-    <div className="py-[50px] px-[60px] bg-[#000]">
+    <div className="py-[50px] px-[60px] bg-[#020B10]">
       <div className="max-w-[1200px] py-[50px] relative overflow-hidden bg-[#111] rounded-[16px] space-y-[26px] w-[100%] flex flex-col mx-auto"
        style={{
         border: "1px solid #2B2B2B"

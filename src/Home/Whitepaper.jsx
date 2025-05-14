@@ -23,7 +23,7 @@ export default function Whitepaper() {
   };
 
   return (
-    <div className="flex items-center justify-center bg-[#000] pt-[50px] pb-[50px] px-[80px]" id="whitepaper">
+    <div className="flex items-center justify-center bg-[#020B10] pt-[50px] pb-[50px] px-[80px]" id="whitepaper">
       <div
         className="p-6 w-full max-w-[1200px] overflow-hidden relative min-h-[454px] bg-no-repeat bg-cover bg-center flex flex-row items-center rounded-[16px] bg-[#111]"
         

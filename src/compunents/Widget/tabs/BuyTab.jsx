@@ -565,9 +565,14 @@ const BuyTab = ({ onTabChange}) => {
             </button>
           )}
 
-          <div className="bg-[#111] px-[11px] py-2 rounded   border-[#111] w-[100%]  ">
-              <h3 className="text-[9px] font-[500] text-white text-center ">
-                Limited Time Offer: Use Bonus Code <span className="coursor-pointer text-[#299A00]">BFX20</span> To Get 20% More $BFX Coins!
+          <div className="px-[11px] py-2 rounded   border-[#111] w-[100%]  "
+          style={{
+            border:"0.645px solid #3B3B3B",
+            background:"rgba(245, 245, 245, 0.00)"
+          }}
+          >
+              <h3 className="text-[10px] font-[500] 2xl:px-0 xl:px-0 lg:px-0 md:px-2 sm:px-2 px-2 text-white text-center ">
+                Limited Time Offer: Use Bonus Code <span className="coursor-pointer text-[#2FD942]">BFX20</span> To Get 20% More $BFX Coins!
               </h3>
           </div>
 

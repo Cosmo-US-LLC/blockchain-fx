@@ -13,7 +13,7 @@ function GatewaySec() {
   const [showTooltip, setShowTooltip] = useState(false);
 
   return (
-    <div className="py-[50px] bg-[#000]">
+    <div className="py-[50px] bg-[#020B10]">
       <div className="max-w-[1200px] rounded-[16px] py-[80px] relative overflow-hidden space-y-[40px] w-[100%] mx-auto "
        style={{
             // background: "#030F16",

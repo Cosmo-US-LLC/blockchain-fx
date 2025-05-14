@@ -193,7 +193,7 @@ function Navbar() {
     <div className={` relative ${isHome ? "mb-[90px]" : "!mb-[50px]"}`}>
       <LivePresale />
       <div
-        className={`fixed w-[100%] bg-[#000] z-[999] px-2 ${
+        className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
           isHome ? "top-9" : "top-0"
         }`}
       >

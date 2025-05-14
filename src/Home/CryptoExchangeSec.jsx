@@ -22,8 +22,8 @@ function CryptoExchangeSec() {
   };
 
   return (
-    <div className="flex items-center bg-[#000] pt-[50px]" id ="pioneering">
-      <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border bg-[#000]  relative rounded-[24px]">
+    <div className="flex items-center bg-[#020B10] pt-[50px]" id ="pioneering">
+      <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border bg-[#020B10]  relative rounded-[24px]">
         <div className="flex relative z-[99]  pr-[96px] items-center gap-[5rem] z-[99]">
         <div className="w-[44%]">
            <img src={crpimg} className="max-h-[619.965px]" alt="" />

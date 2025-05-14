@@ -187,7 +187,7 @@ const FaqSec = () => {
     setOpenItemIndex(openItemIndex === index ? null : index);
   };
   return (
-    <div className="bg-[#000]" id="faq">
+    <div className="bg-[#020B10]" id="faq">
       <div className="w-full max-w-[1200px] space-y-[35px] pt-[30px] pb-[60px] mx-auto">
         <div className="text-center space-y-[10px]">
           <h2 className="text-white leading-[120%] text-[48px] font-[600]">
