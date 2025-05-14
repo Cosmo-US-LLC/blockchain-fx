@@ -50,7 +50,7 @@ function MobExclusiveSec() {
             className="relative space-y-[33px]  rounded-[16px] py-[30px] px-[20px] overflow-hidden w-[90%] mx-auto"
             style={{
               border:"0.319px solid var(--stroke, rgba(230, 175, 3, 0.12))",
-              background:"#030F16"
+              background:"#020B10"
             }}
           >
             <img

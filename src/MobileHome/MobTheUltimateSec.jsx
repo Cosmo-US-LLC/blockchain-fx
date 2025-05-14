@@ -22,7 +22,7 @@ function MobTheUltimateSec() {
   };
 
   return (
-     <div className="bg-[#000] !bg-cover !bg-center">
+     <div className="bg-[#020B10] !bg-cover !bg-center">
       <div className="flex items-center bgtheyltmob min-h-[410px]  justify-center w-[90%] mx-auto  ">
       <div className=" pb-[50px] pt-[30px] space-y-[15px]">
             <div className="flex justify-center ">

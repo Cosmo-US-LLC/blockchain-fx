@@ -44,7 +44,7 @@ function MobHowDoesItSec() {
 
   return (
     <div
-      className="pt-[40px] pb-[24px] bg-[#000] space-y-[35px]"
+      className="pt-[40px] pb-[24px] bg-[#020B10] space-y-[35px]"
       id="MobileDemo"
     >
       <div className="w-[90%] space-y-[25px] px-[20px] py-[30px] bg-[#111] rounded-[24px] border border-[#E6AF031F] mx-auto  overflow-hidden relative">

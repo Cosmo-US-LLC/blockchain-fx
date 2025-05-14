@@ -26,7 +26,7 @@ function CommunitymobSec() {
   ];
 
   return (
-    <div className="bg-[#000]">
+    <div className="bg-[#020B10]">
       <div className="max-w-[1200px] pt-[30px] w-[90%] mx-auto relative">
         <h3 className="text-[30px] text-[#fff] font-[600] leading-[120%] tracking-[-1.5px] text-center">
         What the $BFX <br/> Community Is Saying

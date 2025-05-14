@@ -38,7 +38,7 @@ function CreditCardMob() {
   };
 
   return (
-    <div className="pt-[34px] pb-[34px] px-6 bg-[#000]">
+    <div className="pt-[34px] pb-[34px] px-6 bg-[#020B10]">
       <div className="relative flex flex-col gap-8 rounded-[16px] px-6 py-6 border border-[#E7B2092B] overflow-hidden bg-[#111]">
         <img
           src={ellipse}

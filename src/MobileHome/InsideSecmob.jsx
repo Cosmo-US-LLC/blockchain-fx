@@ -5,8 +5,8 @@ import video from "../assets/InsideSec/inside.webp";
 function InsideSecmob() {
 
   return (
-    <div className=" pt-8 bg-[#000]" id="reviews">
-      <div className="bg-[#000] space-y-[15px] border border-[#262626] rounded-[19.247px] p-[30px]  w-[90%] mx-auto">
+    <div className=" pt-8 bg-[#020B10]" id="reviews">
+      <div className="bg-[#020B10] space-y-[15px] border border-[#262626] rounded-[19.247px] p-[30px]  w-[90%] mx-auto">
       <h4 className="text-[20px] text-center font-[400] leading-[120%]   text-[#FFF] tracking-[-0.267px]">Inside BlockchainFX</h4>
       <h3 className="text-[30px] text-center font-[600] leading-[120%]   text-[#FFF] tracking-[-1.567px]">Full $BFX Review <br /> & Live Trading Demo</h3>
             <div className="flex justify-center">

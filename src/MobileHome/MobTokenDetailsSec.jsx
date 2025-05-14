@@ -24,7 +24,7 @@ function MobTokenDetailsSec() {
   };
 
   return (
-    <div className="py-[30px] bg-[#000]" id="allocation">
+    <div className="py-[30px] bg-[#020B10]" id="allocation">
       <div className="relative space-y-[15px] w-[90%] mx-auto">
         <div className="space-y-[20px]">
           <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#fff] tracking-[-1.5px]">

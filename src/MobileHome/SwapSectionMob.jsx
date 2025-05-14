@@ -17,7 +17,7 @@ export default function SwapSectionMob() {
 
   return (
     <>
-      <div className="w-full py-[24px] px-[20px] bg-[#000]">
+      <div className="w-full py-[24px] px-[20px] bg-[#020B10]">
         <div className="py-6 px-3 space-y-[20px] rounded-[24px]"
        style={{ backgroundImage: `url(${swapbg})`, backgroundRepeat: "no-repeat", backgroundSize:"cover"
       }} 
