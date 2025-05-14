@@ -58,6 +58,7 @@ function MobileHome() {
       <MobHowDoesItSec />
       <CreditCardMob />
       <MobilePremiumSec />
+      <MobileLessThanSec />
       <MobExclusiveSec />
       {/* <MobHowToBuySec /> */}
       {/* <MobileLessThanSec /> */}
@@ -71,7 +72,6 @@ function MobileHome() {
       <SwapSectionMob />
       <MobLiveNewSec /> */}
       <BiggestbuyMobSec />
-      <MobileLessThanSec />
       {/* <MobileGatewaySec /> */}
       {/* <MobHyperGrowthSec />  */}
        {/* <MobStandoutSec /> */}
