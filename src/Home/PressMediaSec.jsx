@@ -9,7 +9,7 @@ function PressMediaSec() {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-[#000] pt-[50px] pb-[50px] px-[80px] space-y-[35px]">
+    <div className="bg-[#020B10] pt-[50px] pb-[50px] px-[80px] space-y-[35px]">
       <div className="space-y-[25px]">
         <h3 className="text-[48px] font-[600] text-center leading-[120%] text-white tracking-[-3.36px]">
         Press & Media

@@ -77,19 +77,19 @@ function MobileHero() {
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[14px]">
-                  The first crypto exchange Bridging Blockchain and Finance
+                  The first crypto exchange Bridging Blockchain and Finance across 500+ Assets
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[14px]">
-                  Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, all in one place
+                  Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, Options, Futures, all in one place
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
                 <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[14px]">
-                  Awarded as the Fastest-Growing Crypto Trading App of 2025
+                 BlockchainFX has been awarded as the  Fastest-Growing Crypto Trading App of 2025
                 </p>
               </div>
             </div>

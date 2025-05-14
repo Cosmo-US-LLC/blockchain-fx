@@ -17,7 +17,7 @@ export default function SwapSection() {
 
   return (
     <>
-      <div className=" bg-[#000]  pt-[30px] pb-[30px] px-[80px] ">
+      <div className=" bg-[#020B10]  pt-[30px] pb-[30px] px-[80px] ">
         <div className="px-6 max-w-[1200px] mx-auto w-full pt-[100px] pb-[30px] space-y-[40px]  rounded-[13px] bg-no-repeat bg-cover bg-center"
               style={{ backgroundImage: `url(${swapbg})` }}>
         

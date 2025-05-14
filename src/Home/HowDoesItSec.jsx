@@ -39,7 +39,7 @@ function HowDoesItSec() {
   const { t } = useTranslation();
 
   return (
-    <div className="py-[50px] bg-[#000]" id="HowDoesItSec">
+    <div className="py-[50px] bg-[#020B10]" id="HowDoesItSec">
       <div className="max-w-[1200px] space-y-[40px] p-[50px] border rounded-[24px] border-[#E6AF03] w-[100%] mx-auto relative overflow-none">
         <div className="space-y-[5px]">
           <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">

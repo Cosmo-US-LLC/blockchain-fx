@@ -3,10 +3,25 @@ import React, { useState } from "react";
 function BiggestbuyMobSec() {
   const [showMore, setShowMore] = useState(false);
   
-  // Data for the rankings
+
+   const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 80;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
+  
   const tableData = [
     {
-      rank: 1,
+      rank: "1st",
       wallet: "0x589...18e01",
       date: "2025-05-02",
       txCount: 3,
@@ -15,7 +30,7 @@ function BiggestbuyMobSec() {
       prize: "$50,000",
     },
     {
-      rank: 2,
+      rank: "2nd",
       wallet: "0x2b...b37d",
       date: "2025-11-04",
       txCount: 2,
@@ -24,7 +39,7 @@ function BiggestbuyMobSec() {
       prize: "$20,000",
     },
     {
-      rank: 3,
+      rank: "3rd",
       wallet: "0x6ce...62f8",
       date: "2025-05-03",
       txCount: 15,
@@ -33,7 +48,7 @@ function BiggestbuyMobSec() {
       prize: "$10,000",
     },
     {
-      rank: 4,
+      rank: "4th",
       wallet: "0x71c...9ec98",
       date: "2023-10-06",
       txCount: 13,
@@ -42,7 +57,7 @@ function BiggestbuyMobSec() {
       prize: "$5,000",
     },
     {
-      rank: 5,
+      rank: "5th",
       wallet: "0x5e...7676",
       date: "2023-09-04",
       txCount: 4,
@@ -51,7 +66,7 @@ function BiggestbuyMobSec() {
       prize: "$3,000",
     },
     {
-      rank: 6,
+      rank: "6th",
       wallet: "0x03...109c",
       date: "2025-05-06",
       txCount: 5,
@@ -60,7 +75,7 @@ function BiggestbuyMobSec() {
       prize: "$2,500",
     },
     {
-      rank: 7,
+      rank: "7th",
       wallet: "0x3b...92f7",
       date: "2025-07-07",
       txCount: 2,
@@ -69,7 +84,7 @@ function BiggestbuyMobSec() {
       prize: "$2,000",
     },
     {
-      rank: 8,
+      rank: "8th",
       wallet: "0x72...91b0",
       date: "2025-06-10",
       txCount: 3,
@@ -78,7 +93,7 @@ function BiggestbuyMobSec() {
       prize: "$1,800",
     },
     {
-      rank: 9,
+      rank: "9th",
       wallet: "0xa9...24b5",
       date: "2025-03-15",
       txCount: 4,
@@ -87,7 +102,7 @@ function BiggestbuyMobSec() {
       prize: "$1,500",
     },
     {
-      rank: 10,
+      rank: "10th",
       wallet: "0x89...c74e",
       date: "2025-02-20",
       txCount: 1,
@@ -112,12 +127,12 @@ function BiggestbuyMobSec() {
         </div>
         
         {/* Rankings Table */}
-        <div className="bg-[#312911] w-[86%] mt-[30px] space-y-[15px] mx-auto border border-[#fff] px-[10px] py-[20px] rounded-[24px]">
+        <div className="bg-[#312911] w-[90%] mt-[30px] space-y-[15px] mx-auto border border-[#fff] px-[10px] py-[20px] rounded-[24px]">
           <div className="flex justify-between items-center px-[15px] pt[15px]">
-            <h3 className="text-[#F9C333] text-[9px] font-[600] w-[20%]">Rank</h3>
-            <h3 className="text-[#F9C333] text-[9px] font-[600] w-[25%]">Wallet</h3>
-            <h3 className="text-[#F9C333] text-[9px] font-[600] w-[25%]">Total Buy</h3>
-            <h3 className="text-[#F9C333] text-[9px] font-[600] w-[20%]">Prize</h3>
+            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[16%]">Rank</h3>
+            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[30%]">Wallet</h3>
+            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[25%]">Total Buy</h3>
+            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[20%]">Prize</h3>
           </div>
 
           {/* Table Rows */}
@@ -128,10 +143,10 @@ function BiggestbuyMobSec() {
                 ${index === 2 ? 'bg-[#A46A2A]' : ''} {/* Grey background for second row only */}
                 ${index >= 3 ? '' : ''}  {/* No background for rows starting from 4th onward */}
                 rounded-[24px]`}>
-              <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[20%]">{item.rank}th</h3>
-              <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[25%]">{item.wallet}</h3>
-              <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[25%]">{item.totalBuy}</h3>
-              <h3 className="text-[#FFF89C] text-[9px] font-[600] w-[20%]">{item.prize}</h3>
+              <h3 className="text-[#FFF89C] text-[9px] text-center font-[600] w-[16%]">{item.rank}</h3>
+              <h3 className="text-[#FFF89C] text-[9px] text-center font-[600] w-[30%]">{item.wallet}</h3>
+              <h3 className="text-[#FFF89C] text-[9px] text-center font-[600] w-[25%]">{item.totalBuy}</h3>
+              <h3 className="text-[#FFF89C] text-[9px] text-center font-[600] w-[20%]">{item.prize}</h3>
             </div>
           ))}
             <div className="flex justify-center mt-[30px]">
@@ -142,6 +157,17 @@ function BiggestbuyMobSec() {
             {showMore ? "View Less" : "Load More"}
           </button>
         </div>
+        </div>
+         <div className="flex justify-center items-center mt-[20px] relative z-10">
+          <button
+            onClick={handleScroll}
+            style={{
+              background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+            }}
+            className="text-{#000} px-[12px]  text-[14px] font-[600] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[39px]"
+          >
+            Buy BFX
+          </button>
         </div>
 
         {/* Toggle Button */}

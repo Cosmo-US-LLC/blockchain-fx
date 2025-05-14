@@ -7,7 +7,7 @@ export default function MultiAward() {
   const { t } = useTranslation();
 
   return (
-    <div className="pt-[30px] px-[80px] pb-[60px] bg-[#000]">
+    <div className="pt-[30px] px-[80px] pb-[60px] bg-[#020B10]">
       <div className="max-w-[1280px] w-full mx-auto">
         <div className="space-y-2 mx-auto text-center pb-[60px]">
           <h3 className="text-[30px] text-white font-[600] leading-[120%] tracking-[-2.1px]">

@@ -42,7 +42,7 @@ function ExclusiveBenefitsSec() {
   const { t } = useTranslation();
 
   return (
-    <div className="py-[50px] bg-[#000]">
+    <div className="py-[50px] bg-[#020B10]">
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
           <h3 className="text-[40px] capitalize leading-[155.556%] text-[#fff] text-center font-[700]">

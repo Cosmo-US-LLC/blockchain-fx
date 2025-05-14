@@ -46,7 +46,7 @@ const WalletSec = () => {
   const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
 
   return (
-    <div className="pt-[42px] pb-[25px] bg-[#000] min-h-[700px]" id="how-to-buy">
+    <div className="pt-[42px] pb-[25px] bg-[#020B10] min-h-[700px]" id="how-to-buy">
       <div
         className="space-y-[30px] px-[40px] py-[26px] max-w-[1200px] w-[100%] mx-auto border border-[#575757] rounded-[41px] <md:px-6 <sm:px-4"
         id="Wallet"

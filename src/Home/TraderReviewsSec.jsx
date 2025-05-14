@@ -140,7 +140,7 @@ const userImages = {
 function TraderReviewsSec() {
   const { t } = useTranslation();
   return (
-    <div className="bg-[#000]">
+    <div className="bg-[#020B10]">
       <div className="text-center pt-[30px] pb-[60px]">
         <h3
           className="text-[48px] review font-[600] leading-[120%] text-white tracking-[-1.5px]"

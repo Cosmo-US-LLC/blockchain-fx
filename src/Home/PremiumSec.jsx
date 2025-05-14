@@ -185,7 +185,7 @@ function PremiumSec() {
   };
 
   return (
-    <div className="py-[50px] bg-[#000]" id="premium">
+    <div className="py-[50px] bg-[#020B10]" id="premium">
       <div className="max-w-[1200px] w-[100%] space-y-[30px] mx-auto relative">
         <div className="flex justify-between ">
           <div className="space-y-[10px] ">

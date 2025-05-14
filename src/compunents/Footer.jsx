@@ -60,7 +60,7 @@ function Footer() {
   }
 
   return (
-    <div className="bg-[#000] lg:bg-[#000]">
+    <div className="bg-[#020B10] lg:bg-[#020B10]">
       {/* desktop verion */}
 
       <div className="w-[100%] 2xl:block xl:block lg:block md:block sm:hidden hidden space-y-[40px] max-w-[1200px]  pt-[50px] mx-auto pb-[50px] ">

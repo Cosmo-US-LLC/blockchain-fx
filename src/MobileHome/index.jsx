@@ -57,13 +57,13 @@ function MobileHome() {
       {/* <MobileEarnOnSec /> */}
       <MobHowDoesItSec />
       <CreditCardMob />
-      <MobExclusiveSec />
       <MobilePremiumSec />
+      <MobExclusiveSec />
       {/* <MobHowToBuySec /> */}
       {/* <MobileLessThanSec /> */}
       {/* <MobileGatewaySec /> */}
       {/* <MobHyperGrowthSec /> */}
-       <GatewaySecMobile />
+       {/* <GatewaySecMobile /> */}
       <MobStandoutSec />
       {/* <MobileWallStreetSec />
       <MobTadeLikeSec />

@@ -114,7 +114,7 @@ export default function BiggestBuy() {
   const visibleData = showMore ? tableData : tableData.slice(0, 5);
 
   return (
-    <div className="flex items-center justify-center bg-[#000] pt-[50px] pb-[50px] px-[80px]">
+    <div className="flex items-center justify-center bg-[#020B10] pt-[50px] pb-[50px] px-[80px]">
       <div className="p-6 w-full max-w-[1200px] overflow-hidden relative min-h-[550px] bg-no-repeat bg-cover bg-center rounded-[16px] bg-[#111]">
         <div className="flex flex-col justify-center items-center relative z-10 space-y-[29px] mb-[25px]">
           <h4 className="text-[40px] font-[800] text-white leading-[120%]">
@@ -133,13 +133,13 @@ export default function BiggestBuy() {
           <table className="w-full text-white table-auto">
             <thead>
               <tr className="text-[#E5AE00] font-[700] text-left">
-                <th className="px-4 py-2">Rank</th>
-                <th className="px-4 py-2">Wallet</th>
-                <th className="px-4 py-2">Date</th>
-                <th className="px-4 py-2">No. of TX</th>
-                <th className="px-4 py-2">Total Buy</th>
-                <th className="px-4 py-2">NFT</th>
-                <th className="px-4 py-2">Prize</th>
+                <th className="px-4 py-2 text-center">Rank</th>
+                <th className="px-4 py-2 text-center">Wallet</th>
+                <th className="px-4 py-2 text-center">Date</th>
+                <th className="px-4 py-2 text-center">No. of TX</th>
+                <th className="px-4 py-2 text-center">Total Buy</th>
+                <th className="px-4 py-2 text-center">NFT</th>
+                <th className="px-4 py-2 text-center">Prize</th>
               </tr>
             </thead>
             <tbody className="">
@@ -161,15 +161,15 @@ export default function BiggestBuy() {
                       key={index}
                       className={`!rounded-[30px]  ${bgColor} ${textColor}`}
                     >
-                      <td className="px-4 py-2   rounded-l-[30px]">
+                      <td className="px-4 py-2 text-center  rounded-l-[30px]">
                         {item.rank}
                       </td>
-                      <td className="px-4 py-2 ">{item.wallet}</td>
-                      <td className="px-4 py-2 ">{item.date}</td>
-                      <td className="px-4 py-2 ">{item.txCount}</td>
-                      <td className="px-4 py-2 ">{item.totalBuy}</td>
-                      <td className="px-4 py-2 ">{item.nft}</td>
-                      <td className="px-4 py-2   rounded-r-[30px]">
+                      <td className="px-4 py-2  text-center">{item.wallet}</td>
+                      <td className="px-4 py-2  text-center">{item.date}</td>
+                      <td className="px-4 py-2  text-center">{item.txCount}</td>
+                      <td className="px-4 py-2  text-center">{item.totalBuy}</td>
+                      <td className="px-4 py-2  text-center">{item.nft}</td>
+                      <td className="px-4 py-2  text-center  rounded-r-[30px]">
                         {item.prize}
                       </td>
                     </tr>

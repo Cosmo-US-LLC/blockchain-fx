@@ -21,7 +21,7 @@ function TheUltimateSec() {
   };
 
   return (
-    <div className="bg-[#000] pt-[30px] pb-[60px] ">
+    <div className="bg-[#020B10] pt-[30px] pb-[60px] ">
       <div className="bgtheylt w-full max-w-[1200px] rounded-xl flex">
         <div className="max-w-[717px] min-h-[544px] max-h-[544px] flex items-center justify-center w-[100%] mx-auto">
           <div className="">
