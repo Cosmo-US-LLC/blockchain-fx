@@ -57,7 +57,7 @@ function MobileOneAppSec() {
                 Live Now (Beta Phase)
               </div>
             )}
-            <h3 className="text-[30px] font-[600] text-left leading-[120%] text-[white] tracking-[-1.5px]">
+            <h3 className="text-[30px] pt-[15px] font-[600] text-left leading-[120%] text-[white] tracking-[-1.5px]">
               Daily Staking Rewards
             </h3>
             <p className="text-[15px] text-[#fff] text-left font-[400] leading-[127.778%] tracking-[-0.32px]">
