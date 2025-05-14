@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import howtoimg from "../assets/HowDoesItSec/howtoimg.webp";
+import howtoimg from "../assets/HowDoesItSec/howtoimg.png";
 
 import ernvet2 from "../assets/CryptoExchangeSec/vec (2).png";
 import icn1 from "../assets/HowDoesItSec/icns (1).svg";
