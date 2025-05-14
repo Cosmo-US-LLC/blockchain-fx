@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import heroimg from "../assets/herosection/mobhero.png";
+import heroimg from "../assets/herosection/herof.webp";
 import uersrev from "../assets/herosection/Avatars.png";
 import stars from "../assets/herosection/stars.png";
 import arwgrn from "../assets/herosection/arwgrn.svg";
@@ -56,7 +56,7 @@ function MobileHero() {
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4> */}
             <div
-              className=" border border-white border-opacity-20    justify-center items-center rounded-full"
+              className=" border border-white border-opacity-20  max-w-[480px] mx-auto  justify-center items-center rounded-full"
               style={{
                 background:
                   " linear-gradient(90deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%)",
@@ -66,11 +66,11 @@ function MobileHero() {
                 The first crypto exchange Bridging Blockchain and Finance across 500+ Assets
               </h4>
             </div>
-            <h1 className="text-[40px] mb-4 font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">
-             Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, Options, Futures, all in one place
+            <h1 className="text-[32px] mb-4 mt-4 text-center font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">
+             $BFX Pays You Every Time Someone Trades on BlockchainFX
             </h1>
-            <p className="text-[#fff] mb-4 font-[400] leading-[157%] tracking-[-0.14px] text-[14px]">
-              BlockchainFX has been awarded as the  Fastest-Growing Crypto Trading App of 2025
+            <p className="text-[#fff] mb-4  text-center font-[400] leading-[157%] tracking-[-0.14px] text-[14px]">
+              Start earning today and receive up to 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue without having to trade yourself.
             </p>
 
             <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
@@ -97,6 +97,18 @@ function MobileHero() {
           <div className="max-w-[450px] pt-[30px] space-y-[27px]">
             <div className="relative flex justify-center">
               <img src={heroimg} alt="heroimg" />
+                            <div
+                              className="px-[27px] py-[17px] max-w-[160px] absolute bottom-[10%] right-[-2%] flex items-center flex-col space-y-[10px] rounded-[10px] pr-[20px]"
+                              style={{
+                                borderRadius: "9.617px",
+                                border: "1px solid #FFF",
+                                background: "rgba(0, 0, 0, 0.21)",
+                                backdropFilter: "blur(17.899999618530273px)"
+                              }}
+                            >
+                              <h4 className="text-[#fff] text-[12px] font-[400] leading-[68.691%]">Earned Last Week</h4>
+                              <h5 className="text-[18.547px] font-[700] flex items-center leading-[100%] text-[#FFF]">$2,748 <span className="text-[12px] pl-2 text-[#1ACE2E] flex  items-center leading-[86.937%] font-[700]"><img src={arwgrn} alt="" />+13%</span> </h5>
+                            </div>
             </div>
             <div className="flex justify-center items-center space-x-[20px]">
               <img src={heroicns1} alt="" />
