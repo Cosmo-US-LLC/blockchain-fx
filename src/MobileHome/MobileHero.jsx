@@ -56,14 +56,14 @@ function MobileHero() {
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4> */}
             <div
-              className=" border border-white border-opacity-20  max-w-[480px] mx-auto  justify-center items-center rounded-full"
+              className=" border border-white border-opacity-20  max-w-[480px] w-[100%] mx-auto  justify-center items-center rounded-full"
               style={{
                 background:
                   " linear-gradient(90deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%)",
               }}
             >
-              <h4 className="text-white font-inter px-2 py-2 tracking-[-0.16px]  text-[9.5px]  capitalize">
-                The first crypto exchange Bridging Blockchain and Finance across 500+ Assets
+              <h4 className="text-white font-[600] font-inter px-1 py-2 tracking-[-0.24px] text-center text-[10px]  capitalize">
+                Crypto Exchange Launches Coin with an integrated reward system
               </h4>
             </div>
             <h1 className="text-[32px] mb-4 mt-4 text-center font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">
@@ -76,19 +76,19 @@ function MobileHero() {
             <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
-                <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[14px]">
+                <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   The first crypto exchange Bridging Blockchain and Finance across 500+ Assets
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
-                <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[14px]">
+                <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, Options, Futures, all in one place
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
-                <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[14px]">
+                <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
                  BlockchainFX has been awarded as the  Fastest-Growing Crypto Trading App of 2025
                 </p>
               </div>
