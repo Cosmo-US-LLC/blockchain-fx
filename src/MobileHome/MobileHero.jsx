@@ -70,7 +70,7 @@ function MobileHero() {
              $BFX Pays You Every Time Someone Trades on BlockchainFX
             </h1>
             <p className="text-[#fff] mb-4  text-center font-[400] leading-[157%] tracking-[-0.14px] text-[14px]">
-              Start earning today and receive up to 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue without having to trade yourself.
+             Start earning today and receive up to a maximum of 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you earn a share of the trading fee revenue, without having to trade yourself.
             </p>
 
             <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">

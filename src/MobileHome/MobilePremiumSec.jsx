@@ -31,11 +31,31 @@ const cardsmob = [
     price: "$1,000",
     reviews: [true, true, true, false, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
-      { text: "10% BFX Bonus", icon: tick },
-      { text: "BFX Staking Rewards", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross },
-      { text: "Trading Credits of up to $25k", icon: cross }
+      {
+        text: "BFX Visa Card",
+        icon: tick,
+        tooltip:
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
+      },
+      {
+        text: "10% BFX Bonus",
+        icon: tick,
+        tooltip:
+          "Buy this NFT and get extra BFX coins added to your dashboard.",
+      },
+      {
+        text: "BFX Staking Rewards",
+        icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+      },
+      { text: "Daily USDT Rewards", icon: cross, tooltip: "" },
+      {
+        text: "Trading Credits of up to $25k",
+        icon: cross,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX.",
+      },
     ],
     buttonLabel: "Buy $BFX • $1,000",
   },
@@ -46,11 +66,18 @@ const cardsmob = [
     price: "$2,500",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "BFX Visa Card", icon: tick },
-      { text: "20% BFX Bonus", icon: tick },
-      { text: "Metal BFX Visa Card", icon: tick },
+      { text: "BFX Visa Card", icon: tick,  tooltip:
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "20% BFX Bonus", icon: tick,
+        tooltip:
+          "Buy this NFT and get extra BFX coins added to your dashboard." },
+      { text: "Metal BFX Visa Card", icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
       { text: "$500 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross }
+      { text: "Daily USDT Rewards", icon: cross,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX." },
     ],
     buttonLabel: "Buy $BFX • $2,500",
   },
@@ -61,11 +88,18 @@ const cardsmob = [
     price: "$5,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Metal BFX Visa Card", icon: tick },
-      { text: "30% BFX Bonus", icon: tick },
-      { text: "BFX Staking Rewards", icon: tick },
-      { text: "$1000 Trading Credits", icon: tick },
-      { text: "Daily USDT Rewards", icon: cross }
+      { text: "Metal BFX Visa Card", icon: tick,  tooltip:
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "30% BFX Bonus", icon: tick, tooltip:
+          "Buy this NFT and get extra BFX coins added to your dashboard." },
+      { text: "BFX Staking Rewards", icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." 
+         },
+      { text: "$1000 Trading Credits", icon: tick},
+      { text: "Daily USDT Rewards", icon: cross,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX." },
     ],
     buttonLabel: "Buy $BFX • $5,000",
   },
@@ -76,11 +110,17 @@ const cardsmob = [
     price: "$10,000",
     reviews: [true, true, true, false, false],
     points: [
-      { text: "Early Access", icon: tick },
-      { text: "40% BFX Bonus", icon: tick },
-      { text: "10% USDT Rewards", icon: tick },
-      { text:  "Metal BFX Visa Card", icon: tick },
-      { text: "$2,000 Trading Credit", icon: tick }
+      { text: "Early Access", icon: tick,  tooltip:
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "40% BFX Bonus", icon: tick, tooltip:
+          "Buy this NFT and get extra BFX coins added to your dashboard." },
+      { text: "10% USDT Rewards", icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
+      { text: "Metal BFX Visa Card", icon: tick },
+      { text: "$2000 Trading Credits", icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX." },
     ],
     buttonLabel: "Buy $BFX • $10,000",
   },
@@ -91,11 +131,17 @@ const cardsmob = [
     price: "$25,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick },
-      { text: "50% BFX Bonus", icon: tick },
-      { text: "50% USDT Rewards", icon: tick },
+      { text: "Early Access", icon: tick,  tooltip:
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "50% BFX Bonus", icon: tick, tooltip:
+          "Buy this NFT and get extra BFX coins added to your dashboard." },
+      { text: "15% USDT Rewards", icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
       { text: "Metal BFX Visa Card", icon: tick },
-      { text: "$5,000 Trading Credits", icon: tick }
+      { text: "$5000 Trading Credits", icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX." },
     ],
     buttonLabel: "Buy $BFX • $25,000",
   },
@@ -106,11 +152,17 @@ const cardsmob = [
     price: "$50,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick },
-      { text: "60% BFX Bonus", icon: tick },
-      { text: "12% USDT Rewards", icon: tick },
+      { text: "Early Access", icon: tick,  tooltip:
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "60% BFX Bonus", icon: tick, tooltip:
+          "Buy this NFT and get extra BFX coins added to your dashboard." },
+      { text: "20% USDT Rewards", icon: tick, icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
       { text: "Metal BFX Visa Card", icon: tick },
-      { text: "$10,000 Trading Credits", icon: tick }
+      { text: "$10000 Trading Credits", icon: tick, icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX." },
     ],
     buttonLabel: "Buy $BFX • $50,000",
   },
@@ -121,11 +173,17 @@ const cardsmob = [
     price: "$100,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick },
-      { text: "80% BFX Bonus", icon: tick },
-      { text: "30% USDT Rewards", icon: tick },
+      { text: "Early Access", icon: tick,  tooltip:
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
+      { text: "80% BFX Bonus", icon: tick, tooltip:
+          "Buy this NFT and get extra BFX coins added to your dashboard." },
+      { text: "30% USDT Rewards", icon: tick, icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
       { text: "18 Karat BFX Visa Card", icon: tick },
-      { text: "$25,000 Trading Credits", icon: tick }
+      { text: "$25000 Trading Credits", icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX." },
     ],
     buttonLabel: "Buy $BFX • $100,000",
   },
@@ -267,20 +325,58 @@ function MobilePremiumSec() {
 
                       <ul className="text-left">
                         {card.points.map((point, index) => (
-                          <li
-                            key={index}
-                            className="mb-1 rounded-[8px] px-[8px] h-[40.719px] flex items-center text-[#fff] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
+                          // <li
+                          //   key={index}
+                          //   className="mb-1 rounded-[8px] px-[8px] h-[40.719px] flex items-center text-[#fff] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
+                          //   style={{
+                          //     background: "rgba(124, 124, 124, 0.07)",
+                          //   }}
+                          // >
+                          //   <img
+                          //     src={point.icon}
+                          //     alt=""
+                          //     className="w-5 h-5 mr-3"
+                          //   />
+                          //   {point.text}
+                          // </li>
+                           <div
+                            className="flex mb-1 px-[8px] h-[40.719px] rounded-[8px] justify-between items-center"
                             style={{
                               background: "rgba(124, 124, 124, 0.07)",
                             }}
                           >
-                            <img
-                              src={point.icon}
-                              alt=""
-                              className="w-5 h-5 mr-3"
-                            />
-                            {point.text}
-                          </li>
+                            <li
+                              key={index}
+                              className=" flex items-center text-[#fff] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
+                            >
+                              <img
+                                src={point.icon}
+                                alt=""
+                                className="w-5 h-5 mr-3"
+                              />
+                              {point.text}
+                            </li>
+                            <div className="relative group inline-block">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="21"
+                                height="20"
+                                viewBox="0 0 21 20"
+                                fill="none"
+                                className="cursor-pointer"
+                              >
+                                <path
+                                  d="M10.5 0C16.023 0 20.5 4.477 20.5 10C20.5 15.523 16.023 20 10.5 20C4.977 20 0.5 15.523 0.5 10C0.5 4.477 4.977 0 10.5 0ZM10.5 1.395C8.21781 1.395 6.0291 2.3016 4.41535 3.91535C2.8016 5.5291 1.895 7.71781 1.895 10C1.895 12.2822 2.8016 14.4709 4.41535 16.0847C6.0291 17.6984 8.21781 18.605 10.5 18.605C12.7822 18.605 14.9709 17.6984 16.5847 16.0847C18.1984 14.4709 19.105 12.2822 19.105 10C19.105 7.71781 18.1984 5.5291 16.5847 3.91535C14.9709 2.3016 12.7822 1.395 10.5 1.395ZM10.355 7.21C10.74 7.21 11.052 7.523 11.052 7.908V15.466C11.0452 15.6464 10.9687 15.8172 10.8386 15.9424C10.7086 16.0676 10.535 16.1376 10.3545 16.1376C10.174 16.1376 10.0004 16.0676 9.87037 15.9424C9.74031 15.8172 9.66383 15.6464 9.657 15.466V7.907C9.657 7.522 9.969 7.21 10.355 7.21ZM10.383 4.419C10.6297 4.419 10.8662 4.51698 11.0406 4.69139C11.215 4.8658 11.313 5.10235 11.313 5.349C11.313 5.59565 11.215 5.8322 11.0406 6.00661C10.8662 6.18102 10.6297 6.279 10.383 6.279C10.1363 6.279 9.8998 6.18102 9.72539 6.00661C9.55098 5.8322 9.453 5.59565 9.453 5.349C9.453 5.10235 9.55098 4.8658 9.72539 4.69139C9.8998 4.51698 10.1363 4.419 10.383 4.419Z"
+                                  fill="white"
+                                />
+                              </svg>
+                              {point.tooltip && (
+                                <div className="absolute left-[-50px] min-w-[200px] -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-[#020B10] border border-gray-700 text-white text-xs rounded px-2 py-1 z-[9999] ">
+                                  {point.tooltip}
+                                </div>
+                              )}
+                            </div>
+                          </div>
                         ))}
                       </ul>
 
