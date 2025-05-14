@@ -49,7 +49,12 @@ const cardsmob = [
         tooltip:
           "Receive BFX staking rewards every time someone trades on BlockchainFX.",
       },
-      { text: "Daily USDT Rewards", icon: cross, tooltip: "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
+      {
+        text: "Daily USDT Rewards",
+        icon: cross,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+      },
       {
         text: "Trading Credits of up to $25k",
         icon: cross,
@@ -66,18 +71,36 @@ const cardsmob = [
     price: "$2,500",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "BFX Visa Card", icon: tick,  tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
-      { text: "20% BFX Bonus", icon: tick,
+      {
+        text: "BFX Visa Card",
+        icon: tick,
         tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard." },
-      { text: "BFX Staking Rewards", icon: tick,
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
+      },
+      {
+        text: "20% BFX Bonus",
+        icon: tick,
         tooltip:
-          "Receive BFX staking rewards every time someone trades on BlockchainFX." },
-      { text: "$500 Trading Credits", icon: tick,
-         tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX." },
-      { text: "Daily USDT Rewards", icon: cross, tooltip: "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
+          "Buy this NFT and get extra BFX coins added to your dashboard.",
+      },
+      {
+        text: "BFX Staking Rewards",
+        icon: tick,
+        tooltip:
+          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
+      },
+      {
+        text: "$500 Trading Credits",
+        icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX.",
+      },
+      {
+        text: "Daily USDT Rewards",
+        icon: cross,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+      },
     ],
     buttonLabel: "Buy $BFX • $2,500",
   },
@@ -88,18 +111,36 @@ const cardsmob = [
     price: "$5,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Metal BFX Visa Card", icon: tick,  tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
-      { text: "30% BFX Bonus", icon: tick, tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard." },
-      { text: "BFX Staking Rewards", icon: tick,
+      {
+        text: "Metal BFX Visa Card",
+        icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." 
-         },
-      { text: "$1000 Trading Credits", icon: tick,
-         tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX."},
-      { text: "Daily USDT Rewards", icon: cross, tooltip: "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
+      },
+      {
+        text: "30% BFX Bonus",
+        icon: tick,
+        tooltip:
+          "Buy this NFT and get extra BFX coins added to your dashboard.",
+      },
+      {
+        text: "BFX Staking Rewards",
+        icon: tick,
+        tooltip:
+          "Receive BFX staking rewards every time someone trades on BlockchainFX..",
+      },
+      {
+        text: "$1000 Trading Credits",
+        icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX.",
+      },
+      {
+        text: "Daily USDT Rewards",
+        icon: cross,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+      },
     ],
     buttonLabel: "Buy $BFX • $5,000",
   },
@@ -110,17 +151,37 @@ const cardsmob = [
     price: "$10,000",
     reviews: [true, true, true, false, false],
     points: [
-      { text: "Early Access", icon: tick },
-      { text: "40% BFX Bonus", icon: tick, tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard." },
-      { text: "10% USDT Rewards", icon: tick,
+       {
+        text: "Metal BFX Visa Card",
+        icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "Metal BFX Visa Card", icon: tick,  tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
-      { text: "$2000 Trading Credits", icon: tick,
+          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
+      },
+      {
+        text: "40% BFX Bonus",
+        icon: tick,
         tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX." },
+          "Buy this NFT and get extra BFX coins added to your dashboard.",
+      },
+      {
+        text: "BFX Staking Rewards",
+        icon: tick,
+        tooltip:
+          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
+      },
+      {
+        text: "10% USDT Rewards",
+        icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+      },
+     
+      {
+        text: "$2000 Trading Credits",
+        icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX.",
+      },
     ],
     buttonLabel: "Buy $BFX • $10,000",
   },
@@ -131,17 +192,36 @@ const cardsmob = [
     price: "$25,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick },
-      { text: "50% BFX Bonus", icon: tick, tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard." },
-      { text: "15% USDT Rewards", icon: tick,
+      {
+        text: "Metal BFX Visa Card",
+        icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "Metal BFX Visa Card", icon: tick,  tooltip:
-          "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide.", },
-      { text: "$5000 Trading Credits", icon: tick,
+          "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
+      },
+      {
+        text: "50% BFX Bonus",
+        icon: tick,
         tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX." },
+          "Buy this NFT and get extra BFX coins added to your dashboard.",
+      },
+      {
+        text: "BFX Staking Rewards",
+        icon: tick,
+        tooltip:
+          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
+      },
+      {
+        text: "15% USDT Rewards",
+        icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+      },
+      {
+        text: "$5000 Trading Credits",
+        icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX.",
+      },
     ],
     buttonLabel: "Buy $BFX • $25,000",
   },
@@ -152,17 +232,38 @@ const cardsmob = [
     price: "$50,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick },
-      { text: "60% BFX Bonus", icon: tick, tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard." },
-      { text: "20% USDT Rewards", icon: tick, icon: tick,
+     {
+        text: "Metal BFX Visa Card",
+        icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "Metal BFX Visa Card", icon: tick,  tooltip:
-          "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide." },
-      { text: "$10000 Trading Credits", icon: tick, icon: tick,
+          "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
+      },
+      {
+        text: "60% BFX Bonus",
+        icon: tick,
         tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX." },
+          "Buy this NFT and get extra BFX coins added to your dashboard.",
+      },
+      {
+        text: "BFX Staking Rewards",
+        icon: tick,
+        tooltip:
+          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
+      },
+      {
+        text: "20% USDT Rewards",
+        icon: tick,
+        icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+      },
+      {
+        text: "$10000 Trading Credits",
+        icon: tick,
+        icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX.",
+      },
     ],
     buttonLabel: "Buy $BFX • $50,000",
   },
@@ -173,17 +274,37 @@ const cardsmob = [
     price: "$100,000",
     reviews: [true, true, true, true, false],
     points: [
-      { text: "Early Access", icon: tick, },
-      { text: "80% BFX Bonus", icon: tick, tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard." },
-      { text: "30% USDT Rewards", icon: tick, icon: tick,
+      {
+        text: "18 Karat BFX Visa Card",
+        icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings." },
-      { text: "18 Karat BFX Visa Card", icon: tick,  tooltip:
-          "Get your 18 Karat BFX Visa Card (virtual and physical), accepted online and in stores worldwide." },
-      { text: "$25000 Trading Credits", icon: tick,
+          "Get your 18 Karat BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
+      },
+      {
+        text: "80% BFX Bonus",
+        icon: tick,
         tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX." },
+          "Buy this NFT and get extra BFX coins added to your dashboard.",
+      },
+      {
+        text: "BFX Staking Rewards",
+        icon: tick,
+        tooltip:
+          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
+      },
+      {
+        text: "30% USDT Rewards",
+        icon: tick,
+        icon: tick,
+        tooltip:
+          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+      },
+      {
+        text: "$25000 Trading Credits",
+        icon: tick,
+        tooltip:
+          "Receive trading credits after the presale to use on BlockchainFX.",
+      },
     ],
     buttonLabel: "Buy $BFX • $100,000",
   },
@@ -193,26 +314,25 @@ function MobilePremiumSec() {
   const { t } = useTranslation();
   const [openBundles, setOpenBundles] = useState(0);
   const [showTooltip, setShowTooltip] = useState(false);
-    const [hoveredIndex, setHoveredIndex] = useState(null);
-  
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
   const [mainSwiper, setMainSwiper] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
-    const tierAmounts = [
-      "$1,000",
-      "$2,500",
-      "$5,000",
-      "$10,000",
-      "$25,000",
-      "$50,000",
-      "$100,000",
-    ];
-  
+  const tierAmounts = [
+    "$1,000",
+    "$2,500",
+    "$5,000",
+    "$10,000",
+    "$25,000",
+    "$50,000",
+    "$100,000",
+  ];
 
   const toggleBundles = (id) => {
     setOpenBundles(id === openBundles ? null : id);
   };
-  const cards = t("MobilePremiumSec.cards", { returnObjects: true })
+  const cards = t("MobilePremiumSec.cards", { returnObjects: true });
 
   const handleScroll = () => {
     setTimeout(() => {
@@ -232,65 +352,72 @@ function MobilePremiumSec() {
     <div className="pt-[34px] pb-[34px] px-6 bg-[#020B10]" id="premium">
       <div className="relative flex flex-col gap-12 p-[20px] bg-[#111]">
         <div className="space-y-[12px]">
-        <h3
-          className="text-[30px] leading-[120%] text-[#FFF] text-center font-[600] tracking-[-1.5px]"
-           >
-           Get Special Bonuses Starting From $1,000 </h3>
-        <p className="text-[15px] leading-[175%] tracking-[-0.32px] mx-auto text-[#fff] text-center font-[400]">
-        Buy $BFX during the presale and join the Founder's Club starting from just $1,000. Get your exclusive NFT, BFX Visa Card, bonus tokens, daily USDT staking rewards, and free trading credits. Exclusively available during the presale.
-        </p>
+          <h3 className="text-[30px] leading-[120%] text-[#FFF] text-center font-[600] tracking-[-1.5px]">
+            Get Special Bonuses Starting From $1,000{" "}
+          </h3>
+          <p className="text-[15px] leading-[175%] tracking-[-0.32px] mx-auto text-[#fff] text-center font-[400]">
+            Buy $BFX during the presale and join the Founder's Club starting
+            from just $1,000. Get your exclusive NFT, BFX Visa Card, bonus
+            tokens, daily USDT staking rewards, and free trading credits.
+            Exclusively available during the presale.
+          </p>
         </div>
         <div className="w-[90%] mx-auto">
-        <div className="flex justify-between pb-2 items-centers">
-          <h4 className="text-[14px] font-[700] text-[#fff]">How much do you want to spend</h4>
-          <h4 className="text-[14px] font-[700] text-[#fff]">{tierAmounts[activeIndex]}</h4>
+          <div className="flex justify-between pb-2 items-centers">
+            <h4 className="text-[14px] font-[700] text-[#fff]">
+              How much do you want to spend
+            </h4>
+            <h4 className="text-[14px] font-[700] text-[#fff]">
+              {tierAmounts[activeIndex]}
+            </h4>
+          </div>
+          <input
+            type="range"
+            min={0}
+            max={cardsmob.length - 1}
+            value={activeIndex}
+            onChange={(e) => {
+              const newIndex = Number(e.target.value);
+              setActiveIndex(newIndex);
+              if (mainSwiper) {
+                mainSwiper.slideTo(newIndex);
+              }
+            }}
+            className="w-[100%] accent-[#E5AE00] cursor-pointer"
+          />
         </div>
-         <input
-    type="range"
-    min={0}
-    max={cardsmob.length - 1}
-    value={activeIndex}
-    onChange={(e) => {
-      const newIndex = Number(e.target.value);
-      setActiveIndex(newIndex);
-      if (mainSwiper) {
-        mainSwiper.slideTo(newIndex);
-      }
-    }}
-    className="w-[100%] accent-[#E5AE00] cursor-pointer"
-  />
-       </div>
 
         <div className="w-[100%] mx-auto ">
           <div className="relative preswiper">
             <Swiper
-      speed={800}
-      slidesPerView={1}
-      spaceBetween={20}
-      onSwiper={setMainSwiper}
-      onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
-      navigation={{
-        nextEl: ".swiper-button-next-1",
-        prevEl: ".swiper-button-prev-1",
-      }}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Navigation, Pagination]}
-      loop={false}
-      className="mySwiper !min-h-[640px]"
-    >
-      {cardsmob.map((card, index) => (
-        <SwiperSlide key={card.id}>
-           <div
+              speed={800}
+              slidesPerView={1}
+              spaceBetween={20}
+              onSwiper={setMainSwiper}
+              onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+              navigation={{
+                nextEl: ".swiper-button-next-1",
+                prevEl: ".swiper-button-prev-1",
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Navigation, Pagination]}
+              loop={false}
+              className="mySwiper !min-h-[640px]"
+            >
+              {cardsmob.map((card, index) => (
+                <SwiperSlide key={card.id}>
+                  <div
                     style={{
                       background: "#111",
                       borderColor: "rgba(230, 175, 3, 0.12)",
                     }}
-                    className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${activeIndex === index
+                    className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${
+                      activeIndex === index
                         ? "border-black"
                         : "border-[rgba(230, 175, 3, 0.12)]"
-                      } border !min-h-[590px] max-h-[590px] h-[100%]`}
+                    } border !min-h-[590px] max-h-[590px] h-[100%]`}
                   >
                     <div>
                       <img
@@ -303,9 +430,7 @@ function MobilePremiumSec() {
                       <div className="flex space-x-3 items-start py-[14px]">
                         <div>
                           <h3 className="text-[#ffff] flex flex-col justify-end font-[600] ">
-                            <span
-                              className="text-[30px]  leading-[100%]"
-                            >
+                            <span className="text-[30px]  leading-[100%]">
                               {card.title}
                             </span>
                             <span className="text-[#fff] text-start pt-[10px] text-[18.286px] font-[600]">
@@ -339,7 +464,7 @@ function MobilePremiumSec() {
                           //   />
                           //   {point.text}
                           // </li>
-                           <div
+                          <div
                             className="flex mb-1 px-[8px] h-[40.719px] rounded-[8px] justify-between items-center"
                             style={{
                               background: "rgba(124, 124, 124, 0.07)",
@@ -379,7 +504,6 @@ function MobilePremiumSec() {
                           </div>
                         ))}
                       </ul>
-
                     </div>
                     <div className="flex justify-start pt-[15px]">
                       <button
@@ -398,9 +522,9 @@ function MobilePremiumSec() {
                       </button>
                     </div>
                   </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>
