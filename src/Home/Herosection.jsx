@@ -62,7 +62,7 @@ function Herosection() {
               $BFX Pays You Every Time Someone Trades on BlockchainFX
             </h1>
             <p className="text-[#fff] max-w-[524px] w-[100%] font-[400] leading-[137.5%] text-[16px]">
-             Start earning today and receive up to a maximum of 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you get a share of the trading fee revenue, without having to trade yourself.
+            Start earning today and receive up to a maximum of 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you earn a share of the trading fee revenue, without having to trade yourself.
             </p>
 
             <div className="space-y-[10px] max-w-[570px] border-[0.5px] border-[#C0C0C0] py-[17px] pl-[21px] rounded-[13px]">

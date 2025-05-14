@@ -50,7 +50,7 @@ function MobileOneAppSec() {
         <div className="space-y-[20px]">
           <div className="w-[100%] flex gap-2 px-2 flex-col text-left">
             {!apiData.presaleEnded && (
-              <div className="w-[180px] h-[32px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] flex justify-center items-center">
+              <div className="w-[180px] h-[32px] text-[14px] font-[600] text-[#000] rounded-[7px] bg-[#E9C03D] flex justify-center items-center">
                 <span className="text-[38px] leading-[9%] -mt-[23px] pr-[6px] animate-blink">
                   .
                 </span>
