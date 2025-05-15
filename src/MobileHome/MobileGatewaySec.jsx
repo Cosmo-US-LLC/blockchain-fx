@@ -45,13 +45,13 @@ function MobileGatewaySec() {
               <div className="flex items-start space-x-[3rem] justify-center">
                 <div className="flex space-y-[14px] flex-col items-center justify-start">
                   <img className="w-[54px] h-[54px]" src={cardicon1 || "/placeholder.svg"} alt="" />
-                  <h3 className="text-[#A8A8A8] text-center text-[18px] font-[600] leading-[105%] tracking-[-1.219]">
+                  <h3 className="text-[#fff] text-center text-[18px] font-[600] leading-[105%] tracking-[-1.219]">
                    Other Crypto Exchanges
                   </h3>
                 </div>
                 <div className="flex space-y-[20px] flex-col items-center justify-start">
                   <img className="w-[54px] h-[54px]" src={cardicon2 || "/placeholder.svg"} alt="" />
-                  <h3 className="text-[#A8A8A8] text-center text-[18px] font-[600] leading-[105%] tracking-[-1.219]">
+                  <h3 className="text-[#fff] text-center text-[18px] font-[600] leading-[105%] tracking-[-1.219]">
                     BlockchainFX
                   </h3>
                 </div>

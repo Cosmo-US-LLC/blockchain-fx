@@ -22,7 +22,7 @@ function CryptoExchangemobSec() {
   };
 
   return (
-    <div className="flex items-center bg-[#020B10] pt-[30px]">
+    <div className="flex items-center bg-[#020B10] pt-[30px]" id="pioneering">
       <div className="relative overflow-hidden flex justify-between items-center gap-[2rem] w-[90%] mx-auto border bg-[#020B10]  relative rounded-[24px] pt-[35px] pb-[25px]">
         <div className=" relative z-[99] px-[20px]">
       

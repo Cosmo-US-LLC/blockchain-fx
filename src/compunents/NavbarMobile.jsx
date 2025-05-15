@@ -189,7 +189,7 @@ function NavbarMobile() {
               <a
                 className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                 href=""
-                onClick={(e) => handleScroll(e, "what-is-bfx-coin", 60)}
+                onClick={(e) => handleScroll(e, "pioneering", 60)}
               >
                 {t("navbar.whatIsBlockchainFX")}
               </a>{" "}
