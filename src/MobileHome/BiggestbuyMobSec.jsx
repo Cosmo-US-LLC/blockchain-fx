@@ -19,10 +19,10 @@ function BiggestbuyMobSec() {
     }, 200);
   };
   
-  const tableData = [
+   const tableData = [
     {
       rank: "1st",
-      wallet: "0x589...18e01",
+      wallet: "0x589...18e1",
       date: "2025-05-02",
       txCount: 3,
       totalBuy: "$124,590.58",
@@ -31,8 +31,8 @@ function BiggestbuyMobSec() {
     },
     {
       rank: "2nd",
-      wallet: "0x2b...b37d",
-      date: "2025-11-04",
+      wallet: "0xa28...b37d",
+      date: "2025-04-11",
       txCount: 2,
       totalBuy: "$79,810.35",
       nft: "Elite",
@@ -40,17 +40,17 @@ function BiggestbuyMobSec() {
     },
     {
       rank: "3rd",
-      wallet: "0x6ce...62f8",
-      date: "2025-05-03",
-      txCount: 15,
+      wallet: "0xc6e...6f8e",
+      date: "2025-04-07",
+      txCount: 5,
       totalBuy: "$52,192.16",
       nft: "Elite",
       prize: "$10,000",
     },
     {
       rank: "4th",
-      wallet: "0x71c...9ec98",
-      date: "2023-10-06",
+      wallet: "0x71C...9c9B",
+      date: "2023-04-14",
       txCount: 13,
       totalBuy: "$35,143.44",
       nft: "Master",
@@ -58,8 +58,8 @@ function BiggestbuyMobSec() {
     },
     {
       rank: "5th",
-      wallet: "0x5e...7676",
-      date: "2023-09-04",
+      wallet: "0x5ae...76de",
+      date: "2023-04-19",
       txCount: 4,
       totalBuy: "$24,710.55",
       nft: "Expert",
@@ -67,51 +67,50 @@ function BiggestbuyMobSec() {
     },
     {
       rank: "6th",
-      wallet: "0x03...109c",
+      wallet: "0xa3f...1b9c",
       date: "2025-05-06",
-      txCount: 5,
+      txCount: 9,
       totalBuy: "$24,710.55",
-      nft: "Master",
+      nft: "Expert",
       prize: "$2,500",
     },
     {
       rank: "7th",
-      wallet: "0x3b...92f7",
-      date: "2025-07-07",
-      txCount: 2,
+      wallet: "0x9be...3c1a",
+      date: "2025-04-23",
+      txCount: 3,
       totalBuy: "$21,845.72",
       nft: "Expert",
       prize: "$2,000",
     },
     {
       rank: "8th",
-      wallet: "0x72...91b0",
-      date: "2025-06-10",
-      txCount: 3,
+      wallet: "0x7cd...5aa3",
+      date: "2025-04-22",
+      txCount: 11,
       totalBuy: "$19,302.48",
-      nft: "Elite",
+      nft: "Expert",
       prize: "$1,800",
     },
     {
       rank: "9th",
-      wallet: "0xa9...24b5",
-      date: "2025-03-15",
-      txCount: 4,
+      wallet: "0xd14...8f6",
+      date: "2025-04-11",
+      txCount: 2,
       totalBuy: "$17,894.11",
-      nft: "Legend",
+      nft: "Expert",
       prize: "$1,500",
     },
     {
       rank: "10th",
-      wallet: "0x89...c74e",
-      date: "2025-02-20",
-      txCount: 1,
+      wallet: "0xb89...c24e",
+      date: "2025-03-30",
+      txCount: 6,
       totalBuy: "$15,732.00",
-      nft: "NFT",
+      nft: "Expert",
       prize: "$1,000",
     },
   ];
-
   const visibleData = showMore ? tableData : tableData.slice(0, 5);  // Show first 5 items or more based on state
 
   return (

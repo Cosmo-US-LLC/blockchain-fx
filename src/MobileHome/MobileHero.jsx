@@ -63,7 +63,7 @@ function MobileHero() {
               }}
             >
               <h4 className="text-white font-[600] font-inter px-1 py-2 tracking-[-0.24px] text-center text-[10px]  capitalize">
-                Crypto Exchange Launches Coin with an integrated reward system
+                Crypto Exchange Launches Coin With Reward System
               </h4>
             </div>
             <h1 className="text-[32px] mb-4 mt-4 text-center font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">

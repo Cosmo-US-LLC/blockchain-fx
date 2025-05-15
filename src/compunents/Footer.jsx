@@ -216,7 +216,7 @@ function Footer() {
                 <a
                   className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
-                  onClick={(e) => handleScroll(e, "how-to-buy", 90)}
+                  onClick={(e) => handleScroll(e, "Wallet", 90)}
                 >
                   {footer.quick_links.how_to_buy}
                 </a>{" "}
@@ -224,7 +224,7 @@ function Footer() {
                 <a
                   className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
-                  onClick={(e) => handleScroll(e, "what-is-bfx-coin", 90)}
+                  onClick={(e) => handleScroll(e, "pioneering", 90)}
                 >
                   {footer.quick_links.what_is_bfx}
                 </a>{" "}

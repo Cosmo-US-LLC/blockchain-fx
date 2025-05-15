@@ -56,7 +56,7 @@ export default function BiggestBuy() {
       date: "2025-05-06",
       txCount: 9,
       totalBuy: "$24,710.55",
-      nft: "Master",
+      nft: "Expert",
       prize: "$2,500",
     },
     {
@@ -74,7 +74,7 @@ export default function BiggestBuy() {
       date: "2025-04-22",
       txCount: 11,
       totalBuy: "$19,302.48",
-      nft: "Elite",
+      nft: "Expert",
       prize: "$1,800",
     },
     {
@@ -83,7 +83,7 @@ export default function BiggestBuy() {
       date: "2025-04-11",
       txCount: 2,
       totalBuy: "$17,894.11",
-      nft: "Legend",
+      nft: "Expert",
       prize: "$1,500",
     },
     {
@@ -92,7 +92,7 @@ export default function BiggestBuy() {
       date: "2025-03-30",
       txCount: 6,
       totalBuy: "$15,732.00",
-      nft: "NFT",
+      nft: "Expert",
       prize: "$1,000",
     },
   ];
