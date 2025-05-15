@@ -46,7 +46,7 @@ export default function BiggestBuy() {
       wallet: "0x5ae...76de",
       date: "2023-04-19",
       txCount: 4,
-      totalBuy: "$24,710.55",
+      totalBuy: "$27,440.38",
       nft: "Expert",
       prize: "$3,000",
     },
