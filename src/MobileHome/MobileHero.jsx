@@ -62,7 +62,7 @@ function MobileHero() {
                   " linear-gradient(90deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%)",
               }}
             >
-              <h4 className="text-white font-[600] font-inter px-1 py-2 tracking-[-0.24px] text-center text-[10px]  capitalize">
+              <h4 className="text-white font-[600] font-inter px-1 py-2 tracking-[-0.24px] text-center text-[11.5px]  capitalize">
                 Crypto Exchange Launches Coin With Reward System
               </h4>
             </div>
