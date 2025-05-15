@@ -9,8 +9,7 @@ function HowToBuyHeroMobile() {
         <div className="flex flex-col text-left text-white">
           <h1 className="mb-2 text-[38px] font-[500] leading-[47px] tracking-[-2.8px]">
             How To Buy <br />
-            BlockchainFX
-            <span className="text-[#E5AE00]">($BFX)</span>
+            BlockchainFX <span className="text-[#E5AE00]">($BFX)</span>
           </h1>
           <p className="text-[15px] leading-[22px] tracking-[-0.32px] text-[#9F9F9F]">
             Follow this simple step-by-step guide to secure your $BFX tokens and
