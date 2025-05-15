@@ -58,9 +58,11 @@ function MobileHome() {
       {/* <MobileEarnOnSec /> */}
       <MobHowDoesItSec />
       <CreditCardMob />
-      <MobilePremiumSec />
-      <MobileLessThanSec />
       <MobExclusiveSec />
+      <MobilePremiumSec />
+      <BiggestbuyMobSec />
+      <MobileLessThanSec />
+      <MobileGatewaySec />
       {/* <MobHowToBuySec /> */}
       {/* <MobileLessThanSec /> */}
       {/* <MobileGatewaySec /> */}
@@ -72,7 +74,6 @@ function MobileHome() {
       <MobTopAssetsSec />
       <SwapSectionMob />
       <MobLiveNewSec /> */}
-      <BiggestbuyMobSec />
       {/* <MobileGatewaySec /> */}
       {/* <MobHyperGrowthSec />  */}
        {/* <MobStandoutSec /> */}
