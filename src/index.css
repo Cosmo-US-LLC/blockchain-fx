@@ -146,11 +146,11 @@ p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-.cardimg {
+/* .cardimg {
   background-image: url(../src/assets/ExpertsworkingSec/expert.webp);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-}
+} */
 .bgtheylt {
   background-image: url(../src/assets/TheUltimateSec/bg.png);
   background-size: cover;

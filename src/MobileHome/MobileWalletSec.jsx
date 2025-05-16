@@ -132,7 +132,7 @@ const MobileWalletSec = () => {
                           />
                         </div>
                         <div
-                          className={`transition-all duration-300 ${
+                          className={`transition-all duration-300 space-y-[5px] ${
                             index === selectedHowToBuyStep
                               ? "max-h-[200px] opacity-100 mt-[8px] text-[12px] font-[400] text-white overflow-hidden block"
                               : "max-h-0 hidden opacity-0"

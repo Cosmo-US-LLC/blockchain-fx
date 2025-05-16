@@ -199,7 +199,7 @@ export default function BiggestBuy() {
         </div>
 
         {/* buybfx Button */}
-        <div className="flex justify-center items-center mt-[20px] relative z-10">
+        {/* <div className="flex justify-center items-center mt-[20px] relative z-10">
           <button
             onClick={handleScroll}
             style={{
@@ -209,7 +209,7 @@ export default function BiggestBuy() {
           >
             Buy BFX
           </button>
-        </div>
+        </div> */}
 
         <div className="absolute top-[0%] left-[0%]">
           <img src={ernvet1} className="" alt="BlockchainFX" />

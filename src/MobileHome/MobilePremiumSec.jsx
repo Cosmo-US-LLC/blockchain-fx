@@ -484,9 +484,9 @@ function MobilePremiumSec() {
                             <div className="relative group inline-block">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="21"
-                                height="20"
-                                viewBox="0 0 21 20"
+                                width="17"
+                                height="16"
+                                viewBox="0 0 17 16"
                                 fill="none"
                                 className="cursor-pointer"
                               >

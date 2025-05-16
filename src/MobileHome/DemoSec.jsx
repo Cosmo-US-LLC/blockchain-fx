@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import ellipse2 from "../assets/BlockchainFXDemo/Ellipse 3 (3).png";
-import liveVideo from "../assets/BlockchainFXDemo/Demo.mp4";
+import liveVideo from "../assets/BlockchainFXDemo/bfx-demo.mp4";
 
 function DemoSec() {
   const { t } = useTranslation();
