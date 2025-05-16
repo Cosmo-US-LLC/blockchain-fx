@@ -12,8 +12,6 @@ import MobileOneAppSec from "./MobileOneAppSec";
 import MobilePremiumSec from "./MobilePremiumSec";
 import MobileTradeOverSec from "./MobileTradeOverSec";
 import MobileWallStreetSec from "./MobileWallStreetSec";
-import MobLiveNewSec from "./MobLiveNewSec";
-import MobNextGenerationSec from "./MobNextGenerationSec";
 import MobRoadmapSec from "./MobRoadmapSec";
 import MobSecurityBuiltSec from "./MobSecurityBuiltSec";
 import MobStandoutSec from "./MobStandoutSec";
@@ -49,7 +47,6 @@ function MobileHome() {
       <KYCVerifiedMob />
       <YoutubeSec />
       <CryptoExchangemobSec />
-      {/* <MobNextGenerationSec /> */}
       <DemoSec />
       <SwapSectionMob />
       {/* <MobileTradeOverSec /> */}
@@ -63,7 +60,6 @@ function MobileHome() {
       <BiggestbuyMobSec />
       <MobileLessThanSec />
       <MobileGatewaySec />
-      {/* <MobHowToBuySec /> */}
       {/* <MobileLessThanSec /> */}
       {/* <MobileGatewaySec /> */}
       {/* <MobHyperGrowthSec /> */}
@@ -73,7 +69,6 @@ function MobileHome() {
       <MobTadeLikeSec />
       <MobTopAssetsSec />
       <SwapSectionMob />
-      <MobLiveNewSec /> */}
       {/* <MobileGatewaySec /> */}
       {/* <MobHyperGrowthSec />  */}
        {/* <MobStandoutSec /> */}
@@ -81,7 +76,6 @@ function MobileHome() {
       {/* <MobTadeLikeSec /> */}
       {/* <MobTopAssetsSec /> */}
       {/* <SwapSectionMob /> */}
-      {/* <MobLiveNewSec /> */}
       {/* <MobStreamlinedSec /> */}
       {/* <WhitepaperMob /> */}
       {/* <MobWhatIsSec />
@@ -92,7 +86,6 @@ function MobileHome() {
       <MobTokenDetailsSec />
       <MobRoadmapSec />
       <MobOurAwardSec />
-      {/* <MobExpertsworkingSec /> */}
       <MobPressMediaSec />
       <MobTraderReviewsSec />
       <MobFaqSec />

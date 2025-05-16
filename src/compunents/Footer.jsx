@@ -70,7 +70,7 @@ function Footer() {
               <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
                 <img src={logo || "/placeholder.svg"} alt="" />
               </Link>
-              <p className="text-[#fff]  text-[16px] font-[400] leading-[166.667%]">{footer.description}</p>
+              <p className="text-[#fff]  text-[16px] max-w-[280px] font-[400] leading-[166.667%]">{footer.description}</p>
             </div>
             <div className="max-w-[190px] w-[100%] pt-[15px]">
               <ul>

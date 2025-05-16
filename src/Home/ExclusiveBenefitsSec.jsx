@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-// import howimg from "../assets/HowDoesItSec/hiwimg.png";
 import excixn1 from "../assets/ExclusiveSec/excixn (1).webp";
 import excixn2 from "../assets/ExclusiveSec/excixn (2).png";
 import excixn3 from "../assets/ExclusiveSec/excixn (3).svg";

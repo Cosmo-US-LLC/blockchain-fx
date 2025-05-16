@@ -157,7 +157,7 @@ function BiggestbuyMobSec() {
           </button>
         </div>
         </div>
-         <div className="flex justify-center items-center mt-[20px] relative z-10">
+         {/* <div className="flex justify-center items-center mt-[20px] relative z-10">
           <button
             onClick={handleScroll}
             style={{
@@ -167,7 +167,7 @@ function BiggestbuyMobSec() {
           >
             Buy BFX
           </button>
-        </div>
+        </div> */}
 
         {/* Toggle Button */}
       
