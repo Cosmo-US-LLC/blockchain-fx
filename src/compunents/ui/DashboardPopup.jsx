@@ -396,7 +396,7 @@ const DashboardPopup = ({ onClose }) => {
                       </p>
                     </div>
                     <p className="text-[14px] text-[#fff] font-[700] text-center">
-                      {formatNumber(bonusData.tradingCreditsUSD, 0, 0)}
+                      {formatNumber(parseNum(userData.userStakeData?.total_earnings) * parseNum(apiData.stage?.token_price) * bonusData.usdtRewardPercentage / 100, 2, 2)}
                     </p>
                   </div>
                   <div
