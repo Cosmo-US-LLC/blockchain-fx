@@ -116,8 +116,8 @@ function MobileOneAppSec() {
             <img src={oneimg} className="object-cover" alt="" />
           </div>
           <div>
-            <p className="text-[12px] text-[#fff] text-center font-[400]">
-              Connect your wallet and click <br /> the button in the top right corner
+            <p className="text-[12px] leading-[130%] text-[#fff] text-center font-[400]">
+              Connect your wallet and click <br /> the button in the top right corner <br />
               to view your personal dashboard.
             </p>
           </div>
