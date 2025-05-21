@@ -31,7 +31,7 @@ const MobileWalletSec = () => {
     },
     {
       title: "Claim",
-      description: "<p>Congratulations! You can claim your BFX after the presale ends. <br/><br/> Thanks for being part of the BFX journey!</p>",
+      description: "<p>Congratulations! You’ll be able to claim your tokens with one click on this website once the presale ends. <br/><br/> Thanks for being part of the BFX journey!</p>",
       icon: oneicon4,
     },
   ];
