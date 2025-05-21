@@ -26,7 +26,7 @@ const MobileWalletSec = () => {
     },
     {
       title: "3. Start Earning Today",
-      description: "<p>Earn BFX and USDT from day one:</p><li>Staking Rewards are added to your dashboard daily</li><li>USDT (ERC-20) payouts are sent to your wallet every Monday</li>",
+      description: "<p>Earn BFX and USDT from day one:</p><li>Staking Rewards are added to your dashboard daily</li>",
       icon: oneicon3,
     },
     {
