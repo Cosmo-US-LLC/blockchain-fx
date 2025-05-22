@@ -92,7 +92,7 @@
       "step_1_title": "1. Chọn phương thức thanh toán",
       "step_1_description": "<li>Kết nối ví tiền điện tử của bạn</li><li>Chọn giữa thẻ và hơn 10 loại tiền điện tử</li><li>Nhập số lượng BFX bạn muốn mua</li>",
       "step_2_title": "2. Xác nhận giao dịch",
-      "step_2_description": "<li>Nhấp vào 'Mua ngay' và gửi tiền đến ví được liệt kê</li><li>Quan trọng: Đảm bảo sử dụng ví phi tập trung như Metamask, Phantom, Coinbase hoặc Trust Wallet</li><li>BFX của bạn sẽ được liên kết với cùng địa chỉ ví bạn đã sử dụng để thanh toán và sẽ xuất hiện trên bảng điều khiển của bạn ngay lập tức.</li><li>Kết nối ví của bạn bằng cách sử dụng nút 'Kết nối ví' ở góc trên bên phải để truy cập bảng điều khiển và kiểm tra số dư BFX của bạn.</li>",
+      "step_2_description": "Nhấn Mua ngay và xác nhận giao dịch",
       "step_3_title": "3. Bắt đầu kiếm tiền ngay hôm nay",
       "step_3_description": "<p>Kiếm phần thưởng BFX và USDT từ ngày đầu tiên!</p><li>Phần thưởng staking được thêm vào bảng điều khiển của bạn hàng ngày</li>",
       "step_4_title": "4. Nhận token",

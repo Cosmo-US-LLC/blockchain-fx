@@ -92,7 +92,7 @@
       "step_1_title": "1. Ödeme Yöntemi Seçin",
       "step_1_description": "<li>Kripto cüzdanınızı bağlayın</li><li>Kart ve 10+ kripto para birimi arasında seçim yapın</li><li>Satın almak istediğiniz BFX miktarını girin</li>",
       "step_2_title": "2. İşlemi Onaylayın",
-      "step_2_description": "<li>'Şimdi Satın Al'a tıklayın ve fonları listelenen cüzdana gönderin</li><li>Önemli: Metamask, Phantom, Coinbase veya Trust Wallet gibi merkezi olmayan bir cüzdan kullandığınızdan emin olun</li><li>BFX'iniz, ödeme için kullandığınız aynı cüzdan adresine bağlanacak ve anında kontrol panelinizde görünecektir.</li><li>Kontrol panelinize erişmek ve BFX bakiyenizi kontrol etmek için sağ üst köşedeki 'Cüzdanı Bağla' düğmesini kullanarak cüzdanınızı bağlayın.</li>",
+      "step_2_description": "Şimdi Satın Al seçeneğine tıklayın ve işlemi onaylayın",
       "step_3_title": "3. Bugünden Kazanmaya Başlayın",
       "step_3_description": "<p>İlk günden itibaren BFX ve USDT ödülleri kazanın!</p><li>Staking ödülleri her gün kontrol panelinize eklenir</li>",
       "step_4_title": "4. Talep Edin",
