@@ -92,7 +92,7 @@
     "step_1_title": "1. Elige un Método de Pago",
     "step_1_description": "<li>Conecta tu wallet cripto</li><li>Elige entre tarjeta y 10+ criptomonedas</li><li>Ingresa la cantidad de BFX que deseas comprar</li>",
     "step_2_title": "2. Confirma la Transacción",
-    "step_2_description": "<li>Haz clic en 'Comprar Ahora' y envía los fondos a la wallet indicada</li><li>Importante: Asegúrate de usar una wallet descentralizada como Metamask, Phantom, Coinbase o Trust Wallet</li><li>Tu BFX estará vinculado a la misma dirección de wallet que usaste para el pago y aparecerá en tu panel al instante.</li><li>Conecta tu wallet usando el botón 'Conectar Wallet' en la esquina superior derecha para acceder al panel y ver tu saldo de BFX.</li>",
+    "step_2_description": "Haz clic en Comprar ahora y confirma la transacción",
     "step_3_title": "3. Empieza a Ganar Hoy",
     "step_3_description": "<p>¡Gana BFX y recompensas en USDT desde el primer día!</p><li>Las recompensas de staking se añaden a tu panel diariamente</li>",
     "step_4_title": "4. Reclama",
