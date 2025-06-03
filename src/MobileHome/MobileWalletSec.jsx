@@ -26,7 +26,7 @@ const MobileWalletSec = () => {
     },
     {
       title: "3. Start Earning Today",
-      description: "<p>Earn BFX and USDT from day one:</p><li>Staking Rewards are added to your dashboard daily</li>",
+      description: "<p>Earn BFX and USDT rewards from day one!</p><li>Staking rewards are paid out every 24 hours and automatically added to your wallet.</li>",
       icon: oneicon3,
     },
     {

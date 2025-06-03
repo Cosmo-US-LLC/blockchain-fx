@@ -53,7 +53,7 @@ const cardsmob = [
         text: "Daily USDT Rewards",
         icon: cross,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
       {
         text: "Trading Credits of up to $25k",
@@ -99,7 +99,7 @@ const cardsmob = [
         text: "Daily USDT Rewards",
         icon: cross,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
     ],
     buttonLabel: "Buy $BFX • $2,500",
@@ -139,7 +139,7 @@ const cardsmob = [
         text: "Daily USDT Rewards",
         icon: cross,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
     ],
     buttonLabel: "Buy $BFX • $5,000",
@@ -173,7 +173,7 @@ const cardsmob = [
         text: "10% USDT Rewards",
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
      
       {
@@ -214,7 +214,7 @@ const cardsmob = [
         text: "15% USDT Rewards",
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
       {
         text: "$5000 Trading Credits",
@@ -255,7 +255,7 @@ const cardsmob = [
         icon: tick,
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
       {
         text: "$10000 Trading Credits",
@@ -297,7 +297,7 @@ const cardsmob = [
         icon: tick,
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
       {
         text: "$25000 Trading Credits",
@@ -481,7 +481,7 @@ function MobilePremiumSec() {
                               />
                               {point.text}
                             </li>
-                            <div className="relative group inline-block">
+                            <div className="relative inline-block group">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="14"
@@ -496,7 +496,7 @@ function MobilePremiumSec() {
                                 />
                               </svg>
                               {point.tooltip && (
-                                <div className="absolute left-[-50px] min-w-[200px] -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-[#020B10] border border-gray-700 text-white text-xs rounded px-2 py-1 z-[9999] ">
+                                <div className="absolute left-[-80px] min-w-[200px] -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-[#020B10] border border-gray-700 text-white text-xs rounded px-2 py-1 z-[9999] ">
                                   {point.tooltip}
                                 </div>
                               )}
