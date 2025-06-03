@@ -47,7 +47,7 @@ const cards = [
         text: "Daily USDT Rewards",
         icon: cross,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
       {
         text: "Trading Credits of up to $25k",
@@ -93,7 +93,7 @@ const cards = [
         text: "Daily USDT Rewards",
         icon: cross,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
     ],
     buttonLabel: "Buy $BFX • $2,500",
@@ -133,7 +133,7 @@ const cards = [
         text: "Daily USDT Rewards",
         icon: cross,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
     ],
     buttonLabel: "Buy $BFX • $5,000",
@@ -167,7 +167,7 @@ const cards = [
         text: "10% USDT Rewards",
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
      
       {
@@ -208,7 +208,7 @@ const cards = [
         text: "15% USDT Rewards",
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
       {
         text: "$5000 Trading Credits",
@@ -249,7 +249,7 @@ const cards = [
         icon: tick,
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
       {
         text: "$10000 Trading Credits",
@@ -291,7 +291,7 @@ const cards = [
         icon: tick,
         icon: tick,
         tooltip:
-          "Get USDT rewards every Monday, paid as a percentage of your total BFX staking earnings.",
+          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
       },
       {
         text: "$25000 Trading Credits",
@@ -381,7 +381,7 @@ function PremiumSec() {
           </div>
 
           <div className="w-[20%] flex justify-end items-end space-x-2">
-            <button className="swiper-button-prev-swp a transform -translate-y-1/2">
+            <button className="transform -translate-y-1/2 swiper-button-prev-swp a">
               <img className="w-[42.545px] h-[42.545px]" src={arw} alt="" />
             </button>
             <button className="swiper-button-next-swp rotate-[182deg]  transform -translate-y-1/2">
@@ -485,7 +485,7 @@ function PremiumSec() {
                               />
                               {point.text}
                             </li>
-                            <div className="relative group inline-block">
+                            <div className="relative inline-block group">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="15"
@@ -539,7 +539,7 @@ function PremiumSec() {
             borderColor: "rgba(230, 175, 3, 0.12)",
           }}
         >
-          <div className="flex justify-center relative mt-4 px-6">
+          <div className="relative flex justify-center px-6 mt-4">
             <div className="flex justify-between absolute w-[95%] top-[-45%]">
               {cards.map((_, index) => (
                 <div
