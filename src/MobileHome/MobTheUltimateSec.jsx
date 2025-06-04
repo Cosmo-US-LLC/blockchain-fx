@@ -23,8 +23,8 @@ function MobTheUltimateSec() {
 
   return (
      <div className="bg-[#020B10] p-5">
-      <div className="flex items-center justify-center bgtheyltmob h-[410px] w-full !bg-cover !bg-center rounded-xl   ">
-      <div className=" pb-[50px] pt-[30px] space-y-[15px]">
+      <div className="flex items-center justify-center bgtheyltmob h-[400px] w-full bg-no-repeat !bg-center rounded-xl   ">
+      <div className=" pb-[50px] pt-[26px] space-y-[15px]">
             <div className="flex justify-center ">
             <img src={logo} className="h-[45.77px]" alt="" />
             </div>
@@ -32,7 +32,7 @@ function MobTheUltimateSec() {
              The Ultimate <br />
           Trading Platform
             </h3>
-            <div className="flex justify-center pt-[10px] items-center  space-x-[17px]">
+            <div className="flex justify-center pt-[10px] items-center  space-x-[8px]">
             <button
             style={{
               background:"linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
