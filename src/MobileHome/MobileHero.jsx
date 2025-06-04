@@ -67,29 +67,35 @@ function MobileHero() {
               </h4>
             </div>
             <h1 className="text-[32px] mb-4 mt-4 text-center font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">
-             $BFX Pays You Every Time Someone Trades on BlockchainFX
+              $BFX Pays You Every Time Someone Trades on BlockchainFX
             </h1>
             <p className="text-[#fff] mb-4  text-center font-[400] leading-[157%] tracking-[-0.14px] text-[14px]">
-             Start earning today and receive up to a maximum of 25,000 USDT in daily passive staking rewards by buying $BFX during the presale. As a holder, you earn a share of the trading fee revenue, without having to trade yourself.
+              Start earning today and receive up to a maximum of 25,000 USDT in
+              daily passive staking rewards by buying $BFX during the presale.
+              As a holder, you earn a share of the trading fee revenue, without
+              having to trade yourself.
             </p>
 
             <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  The first crypto exchange Bridging Blockchain and Finance across 500+ Assets
+                  The first crypto exchange Bridging Blockchain and Finance
+                  across 500+ Assets
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, Options, Futures, all in one place
+                  Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, Options,
+                  Futures, all in one place
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
                 <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
-                 BlockchainFX has been awarded as the  Fastest-Growing Crypto Trading App of 2025
+                  BlockchainFX has been awarded as the  Fastest-Growing Crypto
+                  Trading App of 2025
                 </p>
               </div>
             </div>
@@ -97,18 +103,26 @@ function MobileHero() {
           <div className="max-w-[450px] pt-[30px] space-y-[27px]">
             <div className="relative flex justify-center">
               <img src={heroimg} alt="heroimg" />
-                            <div
-                              className="px-[27px] py-[17px] max-w-[160px] absolute bottom-[10%] right-[-2%] flex items-center flex-col space-y-[10px] rounded-[10px] pr-[20px]"
-                              style={{
-                                borderRadius: "9.617px",
-                                border: "1px solid #FFF",
-                                background: "rgba(0, 0, 0, 0.21)",
-                                backdropFilter: "blur(17.899999618530273px)"
-                              }}
-                            >
-                              <h4 className="text-[#fff] text-[12px] font-[400] leading-[68.691%]">Earned Last Week</h4>
-                              <h5 className="text-[18.547px] font-[700] flex items-center leading-[100%] text-[#FFF]">$2,748 <span className="text-[12px] pl-2 text-[#1ACE2E] flex  items-center leading-[86.937%] font-[700]"><img src={arwgrn} alt="" />+13%</span> </h5>
-                            </div>
+              <div
+                className="px-[27px] py-[17px] max-w-[160px] absolute bottom-[10%] right-[-2%] flex items-center flex-col space-y-[10px] rounded-[10px] pr-[20px]"
+                style={{
+                  borderRadius: "9.617px",
+                  border: "1px solid #FFF",
+                  background: "rgba(0, 0, 0, 0.21)",
+                  backdropFilter: "blur(17.899999618530273px)",
+                }}
+              >
+                <h4 className="text-[#fff] text-[12px] font-[400] leading-[68.691%]">
+                  Earned Last Week
+                </h4>
+                <h5 className="text-[18.547px] font-[700] flex items-center leading-[100%] text-[#FFF]">
+                  $2,748{" "}
+                  <span className="text-[12px] pl-2 text-[#1ACE2E] flex  items-center leading-[86.937%] font-[700]">
+                    <img src={arwgrn} alt="" />
+                    +13%
+                  </span>{" "}
+                </h5>
+              </div>
             </div>
             <div className="flex justify-center items-center space-x-[20px]">
               <img src={heroicns1} alt="" />
@@ -168,6 +182,28 @@ function MobileHero() {
         </p>
         <div className="flex items-center justify-center space-x-2">
           <a
+            href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              src={herobnr4}
+              alt="Featured"
+            />
+          </a>
+          <a
+            href="https://www.binance.com/en/square/post/21135762162242"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              src={herobnr3}
+              alt="Featured"
+            />
+          </a>
+          <a
             href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/"
             target="_blank"
             rel="noopener noreferrer"
@@ -186,28 +222,6 @@ function MobileHero() {
             <img
               className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
               src={herobnr2}
-              alt="Featured"
-            />
-          </a>
-          <a
-            href="https://www.binance.com/en/square/post/21135762162242"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
-              src={herobnr3}
-              alt="Featured"
-            />
-          </a>
-          <a
-            href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
-              src={herobnr4}
               alt="Featured"
             />
           </a>
