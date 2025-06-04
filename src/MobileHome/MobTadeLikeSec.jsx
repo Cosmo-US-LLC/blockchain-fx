@@ -11,7 +11,7 @@ function MobTadeLikeSec() {
 
   const handleScroll = () => {
     setTimeout(() => {
-      const element = document.getElementById("Wallet");
+      const element = document.getElementById("how-to-buy1");
       if (element) {
         const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
         const offset = 80;

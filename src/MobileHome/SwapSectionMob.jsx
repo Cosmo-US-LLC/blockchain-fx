@@ -3,7 +3,7 @@ import whitepaper from "../assets/Whitepaper/instantSwap.gif";
 export default function SwapSectionMob() {
   const handleScroll = () => {
     setTimeout(() => {
-      const element = document.getElementById("Wallet");
+      const element = document.getElementById("how-to-buy1");
       if (element) {
         const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
         const offset = 50;

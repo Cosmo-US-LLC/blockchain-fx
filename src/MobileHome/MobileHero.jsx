@@ -13,7 +13,7 @@ function MobileHero() {
 
   const handleScroll = () => {
     setTimeout(() => {
-      const element = document.getElementById("Wallet");
+      const element = document.getElementById("how-to-buy1");
       if (element) {
         const elementPosition =
           element.getBoundingClientRect().top + window.pageYOffset;
@@ -65,7 +65,7 @@ function MobileHero() {
               }}
               dangerouslySetInnerHTML={{ __html: t(`hero_section.hero_title`) }}
             />
-            <div className="flex justify-center space-x-2 items-center">
+            <div className="flex items-center justify-center space-x-2">
               <div>
                 <img
                   className="w-[150px] h-auto mx-auto"
@@ -132,7 +132,29 @@ function MobileHero() {
             <p className="font-[600] relative z-[99] text-[15px] text-center text-[white]">
               Featured In:
             </p>
-            <div className="flex justify-center items-center space-x-2">
+            <div className="flex items-center justify-center space-x-2">
+                   <a
+                href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                  src={herobnr4}
+                  alt="Featured"
+                />
+              </a>
+                  <a
+                href="https://www.binance.com/en/square/post/21135762162242"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                  src={herobnr3}
+                  alt="Featured"
+                />
+              </a>
               <a
                 href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/"
                 target="_blank"
@@ -155,28 +177,8 @@ function MobileHero() {
                   alt="Featured"
                 />
               </a>
-              <a
-                href="https://www.binance.com/en/square/post/21135762162242"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
-                  src={herobnr3}
-                  alt="Featured"
-                />
-              </a>
-              <a
-                href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
-                  src={herobnr4}
-                  alt="Featured"
-                />
-              </a>
+          
+         
             </div>
           </div>
         </div>

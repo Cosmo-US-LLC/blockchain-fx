@@ -99,7 +99,7 @@ function CreditCardMob() {
         <p className="text-[12px] text-[#FFF] font-[400] text-center leading-[175%] tracking-[-0.32px]">
           {t("creditCard.shippingNote")}
         </p>
-        <div className="flex justify-center items-center space-x-2">
+        <div className="flex items-center justify-center space-x-2">
           <h4 className="text-[14px] text-[#fff] font-[400]">
             {t("creditCard.compatibleWith")}
           </h4>

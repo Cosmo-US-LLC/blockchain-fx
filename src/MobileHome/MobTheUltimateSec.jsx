@@ -8,7 +8,7 @@ function MobTheUltimateSec() {
 
   const handleScroll = () => {
     setTimeout(() => {
-      const element = document.getElementById("Wallet");
+      const element = document.getElementById("how-to-buy1");
       if (element) {
         const elementPosition =
           element.getBoundingClientRect().top + window.pageYOffset;
@@ -22,8 +22,8 @@ function MobTheUltimateSec() {
   };
 
   return (
-    <div className="p-5 bg-black">
-      <div className="bgtheyltmob h-[410px] w-full !bg-cover !bg-center rounded-xl">
+    <div className="p-4 bg-black">
+      <div className="bgtheyltmob h-[400px] w-full bg-no-repeat !bg-center rounded-xl">
         <div className="flex items-center h-[410px] justify-center w-full">
           <div className="pb-[50px] pt-[30px] space-y-[15px]">
             <div className="flex justify-center">
