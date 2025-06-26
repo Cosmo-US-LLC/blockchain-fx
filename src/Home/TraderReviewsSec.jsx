@@ -229,6 +229,8 @@ function TraderReviewsSec() {
                             </h4>
                           </div>
                         </div>
+
+                        
                         <a
                           href={review.user.link}
                           target="_blank"
