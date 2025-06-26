@@ -158,7 +158,7 @@ const faqs = [
 const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   const createMarkup = () => ({ __html: answer });
   return (
-    <div className="mb-[20px] overflow-hidden rounded-[16px] border border-[#000] bg-[#111]">
+    <div className="mb-[20px] overflow-hidden rounded-[16px] border border-[#000] bg-[#030F16]">
       <div
         className="flex cursor-pointer items-center justify-between px-[21px] py-[28px]"
         onClick={handleClick}

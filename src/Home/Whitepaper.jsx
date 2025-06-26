@@ -25,9 +25,9 @@ export default function Whitepaper() {
   return (
     <div className="flex items-center justify-center bg-[#020B10] pt-[50px] pb-[50px] px-[80px]" id="whitepaper">
       <div
-        className="p-6 w-full max-w-[1200px] overflow-hidden relative min-h-[454px] bg-no-repeat bg-cover bg-center flex flex-row items-center rounded-[16px] bg-[#111]"
+        className="p-6 w-full max-w-[1200px] overflow-hidden relative min-h-[454px] bg-no-repeat bg-cover bg-center flex flex-row items-center rounded-[16px] bg-[#030F16]"
         
-        // style={{ backgroundImage: `url(${whitepaperbg})` }}
+        style={{ border:"1px solid #2B2B2B"}}
       >
         <div className="w-[50%] relative z-[99]">
           <div className="w-full p-2">
@@ -48,12 +48,15 @@ export default function Whitepaper() {
           <div className="w-full p-2 flex space-x-3 justify-start">
             <button
               onClick={handleScroll}
-              className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[16px] font-[700] border border-[#E5AE00] hover:border-white rounded-[8px] max-w-[143px] w-[100%] h-[50px]"
+              style={{
+                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
+              className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
             >
               Buy BFX
             </button>
             <a href="https://blockchainfx.com/BFX-Whitepaper.pdf" target="_blank" rel="noopener noreferrer">
-              <button className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-[#E5AE00] bg-transparent text-[16px] font-[700] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[193px] w-[100%] h-[50px]">
+              <button className="hover:text-black hover:bg-[#E5AE00] px-[10px] text-[#E5AE00] bg-transparent text-[16px] font-[700] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[193px] w-[100%] h-[50px]">
               Access Whitepaper
               </button>
             </a>

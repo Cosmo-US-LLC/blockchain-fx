@@ -48,16 +48,16 @@ function Home() {
       <div className="">
         <Herosection />
         <FeaturedSec />
-        <InsideSec />
+        {/* <InsideSec /> */}
         <WalletSec />
         <KYCVerified />
         <ExpertSaysSec />
         <CryptoExchangeSec />
         <BlockchainFXDemo />
-         <SwapSection />
+         {/* <SwapSection /> */}
         {/* <TradeOverSec/> */}
         <OneAppSec />
-        <CommunitySec />
+        {/* <CommunitySec /> */}
         <HowDoesItSec />
         <CreditCard />
         <ExclusiveBenefitsSec/>

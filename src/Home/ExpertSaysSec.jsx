@@ -18,7 +18,7 @@ function ExpertSaysSec() {
 
   return (
     <div className="flex items-center bg-[#020B10] pt-[90px]">
-      <div className="max-w-[1200px] reative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border border-[#E6AF03] bg-[#020B10] relative rounded-[24px] px-[30px] pt-[50px] pb-[100px]">
+      <div className="max-w-[1200px] reative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border border-[#E6AF03] bg-[#030F16] relative rounded-[24px] px-[30px] pt-[50px] pb-[100px]">
         <Swiper
           modules={[Navigation]}
           spaceBetween={20}

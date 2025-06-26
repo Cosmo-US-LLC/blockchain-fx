@@ -166,7 +166,7 @@ function TraderReviewsSec() {
                 {ratings.rating_bars.map((item, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <span className="text-white w-6">{item.rating}</span>
-                    <div className="flex-1 h-3 bg-[#1B1B1B] rounded-full">
+                    <div className="flex-1 h-3 bg-[#172025] rounded-full">
                       <div
                         className="h-full bg-[#E5AE00] rounded-full"
                         style={{ width: `${item.percentage}%` }}
@@ -205,7 +205,7 @@ function TraderReviewsSec() {
               >
                 {reviews.map((review, index) => (
                   <SwiperSlide key={index}>
-                    <div className="h-[297px] py-[25px] relative z-[9] flex flex-col justify-between pl-[25px] pr-[14px] bg-[#111] border border-[#525252] rounded-[4px] w-[320px]">
+                    <div className="h-[297px] py-[25px] relative z-[9] flex flex-col justify-between pl-[25px] pr-[14px] bg-[#030F16] border border-[#525252] rounded-[4px] w-[320px]">
                       <p className="text-[13px] font-[400] leading-[175%] text-[#fff]">
                         {review.text}
                       </p>

@@ -12,12 +12,13 @@ function KYCVerified() {
     {
       img: icn2,
       title: "External Audit by Coinsult",
-      description: <p>BlockchainFX has been audited by Coinsult, a trusted firm from the Netherlands, confirming <br/>it meets the highest security standards.</p>
+      description: <p>BlockchainFX has been fully audited by Coinsult, <br /> a trusted auditing firm from the Netherlands, <br /> and confirmed to be 100% secure.</p>
     },
     {
       img: icn1,
       title: "External Audit by CertiK",
-      description: <p>CertiK, the world’s leading blockchain security firm, audited BlockchainFX and confirmed <br/>it to be 100% secure.</p>
+      description: <p>CertiK, the world’s leading blockchain security
+company, audited BlockchainFX and confirmed <br /> it meets the highest security standards.</p>
     },
     {
       img: icn3,
@@ -37,9 +38,10 @@ function KYCVerified() {
             {cardItems.map((item, index) => (
               <div
                 key={index}
-                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px] max-h-[200.384px] min-h-[200.384px] bg-[#111] rounded-[16px]"
+                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px] max-h-[200.384px] min-h-[200.384px] rounded-[16px]"
                 style={{
-                  border: "1px solid rgba(230, 175, 3, 0.12)"
+                  background: "#030F16",
+                  border:"1px solid rgba(230, 175, 3, 0.12)"
                 }}
               >
                 <div className="flex justify-between pb-[15px] items-center">
@@ -48,18 +50,18 @@ function KYCVerified() {
                     style={{
                       background: "rgba(0, 124, 45, 0.16)"
                     }}
-                    className="py-[3px] rounded-[5px] px-[8px] text-[#01BA48] text-[14px] font-[500]"
+                    className="py-[3px] rounded-[5px] px-[8px] font-inter text-[#01BA48] text-[14px] font-[500]"
                   >
                     {t("KYCVerified.completed")}
                   </p>
                 </div>
                 <div>
                   <div className="min-h-[30px] flex justify-start pb-[10px] items-center">
-                    <h3 className="text-[20px] text-[#fff] font-[600] break-normal leading-[109.316%]">
+                    <h3 className="text-[20px] text-[#fff] font-inter font-[600] break-normal leading-[109.316%]">
                       {item.title}
                     </h3>
                   </div>
-                  <h4 className="text-[15px] text-[#fff] font-[400] leading-[135.796%]">
+                  <h4 className="text-[15px] text-[#fff] font-inter font-[400] leading-[135.796%]">
                     {item.description}
                   </h4>
                 </div>

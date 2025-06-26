@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import howtoimg from "../assets/HowDoesItSec/howtoimg.png";
+import howtoimg from "../assets/HowDoesItSec/howtoimg.webp";
 
 import ernvet2 from "../assets/CryptoExchangeSec/vec (2).png";
 import icn1 from "../assets/HowDoesItSec/icns (1).svg";
@@ -40,19 +40,16 @@ function HowDoesItSec() {
 
   return (
     <div className="py-[50px] bg-[#020B10]" id="HowDoesItSec">
-      <div className="max-w-[1200px] space-y-[40px] p-[50px] border rounded-[24px] border-[#E6AF03] w-[100%] mx-auto relative overflow-none">
+      <div className="max-w-[1200px] space-y-[40px] p-[50px] border rounded-[24px] border-[#575757] w-[100%] mx-auto relative overflow-hidden">
         <div className="space-y-[5px]">
           <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">
             How It Works?
           </h3>
           <p className="text-[18px] text-[#fff] trackin-[-0.18px] text-center font-[400]">
-            BlockchainFX is a global exchange where users can trade crypto,
-            stocks, forex, ETFs, and more. <br /> Every time someone trades,
-            70% of the trading fees go toward the $BFX staking pool, buybacks,
-            and token burns.
+          BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. <br /> Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns. <br /> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.
           </p>
         </div>
-        <div className="max-w-[1002px] relative bg-[#000] z-[99] w-[100%] mx-auto">
+        <div className="max-w-[1002px] relative z-[99] w-[100%] mx-auto">
           <img src={howtoimg} className="object-cover" alt="" />
         </div>
         <div className="absolute bottom-[-8%] z-[9] right-[0%]">
@@ -64,7 +61,7 @@ function HowDoesItSec() {
           {cardItems.map((item) => (
             <div
               key={item.id}
-              className=" px-[19px] w-[100%] flex flex-col justify-centetr pt-[20px] pb-[24px] max-h-[223.384px] min-h-[220.384px] bg-[#0B0B0B] rounded-[16px]"
+              className=" px-[19px] w-[100%] flex flex-col justify-centetr pt-[20px] pb-[24px] max-h-[223.384px] min-h-[220.384px] bg-[#030F16] rounded-[16px]"
               style={{
                 border: "1px solid rgba(230, 175, 3, 0.12)",
               }}

@@ -35,8 +35,7 @@ function LessThanSec() {
         <div
               className="max-w-[1200px] py-[50px] relative overflow-hidden space-y-[50px] rounded-[16px] w-[100%] mx-auto"
               style={{
-                background: "#111",
-                borderColor: "rgba(230, 175, 3, 0.12)",
+                background: "#030F16",
               }}
             >
               <div className="space-y-[18px] relative z-[99]">

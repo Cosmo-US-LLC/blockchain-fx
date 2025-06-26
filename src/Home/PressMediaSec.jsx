@@ -17,7 +17,7 @@ function PressMediaSec() {
       </div>
       <div className="max-w-[1200px] relative space-y-[40px] w-[100%] mx-auto">
         <div className="flex gap-x-4 justify-center">
-          <div className="bg-[#111] max-w-[400px] rounded-[8px] px-[17.6px] py-[37px] w-[100%]" style={{ border: "1px solid rgba(230, 175, 3, 0.12)" }}>
+          <div className="bg-[#030F16] max-w-[400px] rounded-[8px] px-[17.6px] py-[37px] w-[100%]" style={{ border: "1px solid rgba(230, 175, 3, 0.12)" }}>
             <div className="space-y-[25px]">
               <div className="flex items-center justify-center h-[30px]">
                 <img src={medai1} className="h-[44px]" alt="" />
@@ -30,7 +30,7 @@ function PressMediaSec() {
               </a>
             </div>
           </div>
-          <div className="bg-[#111] max-w-[400px] rounded-[8px] px-[17px] py-[37px] w-[100%]" style={{ border: "1px solid rgba(230, 175, 3, 0.12)" }}>
+          <div className="bg-[#030F16] max-w-[400px] rounded-[8px] px-[17px] py-[37px] w-[100%]" style={{ border: "1px solid rgba(230, 175, 3, 0.12)" }}>
             <div className="space-y-[25px]">
               <div className="flex items-center justify-center h-[30px]">
                 <img src={media2} className="h-[44px]" alt="" />
@@ -43,7 +43,7 @@ function PressMediaSec() {
               </a>
             </div>
           </div>
-          <div className="bg-[#111] max-w-[400px] rounded-[8px] px-[17.6px] pt-[37px] pb-[29px] w-[100%]" style={{ border: "1px solid rgba(230, 175, 3, 0.12)" }}>
+          <div className="bg-[#030F16] max-w-[400px] rounded-[8px] px-[17.6px] pt-[37px] pb-[29px] w-[100%]" style={{ border: "1px solid rgba(230, 175, 3, 0.12)" }}>
             <div className="space-y-[25px]">
               <div className="flex items-center justify-center h-[30px]">
                 <img src={media3} className="h-[44px]" alt="" />

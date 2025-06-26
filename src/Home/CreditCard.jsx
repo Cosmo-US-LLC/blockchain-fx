@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import creditVideo from "../assets/CreditCard/cred.mp4";
+import card from "../assets/CreditCard/card.webp";
 import applepay from "../assets/CreditCard/btnsvg (2).png";
 import googlelepay from "../assets/CreditCard/btnsvg (1).png";
 import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
@@ -12,7 +12,7 @@ function CreditCard() {
   return (
     <div className="pt-[20px] pb-[50px] bg-[#020B10]">
       <div
-        className="max-w-[1200px] reative overflow-hidden relative bg-[#111] min-h-[480px] p-[30px] w-[100%] space-y-[25px] mx-auto rounded-[13px]"
+        className="max-w-[1200px] reative overflow-hidden relative bg-[#030F16] min-h-[480px] p-[30px] w-[100%] space-y-[25px] mx-auto rounded-[13px]"
         style={{
           border: "1px solid #2B2B2B",
         }}
@@ -53,18 +53,13 @@ function CreditCard() {
             </div>
           </div>
           <div className="w-[54%] flex items-center flex-col justify-center min-h-[460px] space-y-[20px] rounded-[11px]">
-            <video
-              width="500"
-              className="!rounded-[11px]"
-              height="260"
-              playsInline
-              controls={false}
-              autoPlay
-              muted
-              loop
-            >
-              <source src={creditVideo} type="video/mp4" />
-            </video>
+           <div className="rounded-[24px] py-5 px-6"
+           style={{
+            border:"1.5px solid rgba(255, 255, 255, 0.30)"
+           }}
+           >
+            <img src={card} className="max-w-[482.923px] mx-auto" alt="" />
+           </div>
             <div>
               <p className="text-[10px] text-center max-w-[816px] text-[#fff] mx-auto tracking-[-0.32px] leading-[230%] font-[400]">
                 {t("creditCard.shippingNote")}

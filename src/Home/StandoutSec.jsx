@@ -96,7 +96,7 @@ function StandoutSec() {
 
   return (
     <div className="py-[50px] px-[60px] bg-[#020B10]">
-      <div className="max-w-[1200px] py-[50px] relative overflow-hidden bg-[#111] rounded-[16px] space-y-[26px] w-[100%] flex flex-col mx-auto"
+      <div className="max-w-[1200px] py-[50px] relative overflow-hidden bg-[#030F16] rounded-[16px] space-y-[26px] w-[100%] flex flex-col mx-auto"
        style={{
         border: "1px solid #2B2B2B"
         // box-shadow: 0px 5.336px 26.68px 0px rgba(169, 169, 169, 0.30);
@@ -116,7 +116,7 @@ function StandoutSec() {
               <thead>
                 <tr className="h-[123px]">
                   <th className="border-b border-[#A6A6A6] px-4 py-4"></th>
-                  <th className="border-b border-[#A6A6A6] px-4 py-4">
+                  <th className="border !border-b-[#A6A6A6] border-[#EAB91F] bg-[#a6a6a638] px-4 py-4">
                     <div className="flex  flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
                         <img className="w-[58px] h-[58px]" src={coin1} alt="best crypto presales to buy now" />
@@ -165,7 +165,7 @@ function StandoutSec() {
                       <td
                         key={key}
                         className={` px-4 py-[13px] !h-[70px] border-b border-[#a6a6a638] ${
-                          colIndex === 1 ? "text-[14.7px] border-b border-[#a6a6a638]" : ""
+                          colIndex === 1 ? "text-[14.7px] border !border-b-[#A6A6A6] !border-t-[#A6A6A6] border-[#EAB91F] bg-[#a6a6a638] !border-r !border-r-[#EAB91F]" : ""
                         } ${
                           rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
                             ? "text-[16px] text-[#fff] font-[600] text-center !w-[225px]"

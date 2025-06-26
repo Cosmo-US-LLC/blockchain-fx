@@ -409,13 +409,13 @@ function PremiumSec() {
                 <SwiperSlide key={card.id}>
                   <div
                     style={{
-                      background: "#111",
-                      borderColor: "rgba(230, 175, 3, 0.12)",
+                      background: "#030F16",
+                      borderColor: "1px solid rgba(230, 175, 3, 0.12)",
                     }}
                     className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${
                       activeIndex === index
                         ? "border-black"
-                        : "border-[rgba(230, 175, 3, 0.12)]"
+                        : "border-[1px solid rgba(230, 175, 3, 0.12)]"
                     } border !min-h-[610px] max-h-[610px] h-[100%]`}
                   >
                     <div>
@@ -534,7 +534,7 @@ function PremiumSec() {
           </div>
         </div>
         <div
-          className="max-w-[1200px]  w-[100%] mx-auto bg-[#111] border rounded-[10px] px-[26px] py-[10px] space-y-[10px]"
+          className="max-w-[1200px]  w-[100%] mx-auto bg-[#030F16] border rounded-[10px] px-[26px] py-[10px] space-y-[10px]"
           style={{
             borderColor: "rgba(230, 175, 3, 0.12)",
           }}

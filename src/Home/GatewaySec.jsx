@@ -13,19 +13,18 @@ function GatewaySec() {
   const [showTooltip, setShowTooltip] = useState(false);
 
   return (
-    <div className="py-[50px] bg-[#020B10]">
+    <div className="pt-[50px] pb-[30px] bg-[#020B10]">
       <div className="max-w-[1200px] rounded-[16px] py-[80px] relative overflow-hidden space-y-[40px] w-[100%] mx-auto "
        style={{
             // background: "#030F16",
-            background:"#111",
-            borderColor: "rgba(230, 175, 3, 0.12)",
+            background:"#030F16",
           }}
       >
         <div className="space-y-[14px]">
           <h3 className="text-[40px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
           The First Crypto Exchange That Pays Its Holders          </h3>
           <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
-          Instead of draining users with high trading fees, BlockchainFX cuts them by up to 70%. Half of all fees are shared with $BFX holders as daily staking rewards. We’re building a next-generation trading platform that grows with its community, where users benefit from every step of our success.
+          Instead of draining users with high fees, BlockchainFX cuts them by up to 70%. Half of all fees are <br /> paid to $BFX holders as daily staking rewards. The platform puts the community at the center,  <br /> ensuring users are rewarded at every stage of the project's success.
           </p>
         </div>
         <div className="max-w-[1025px] relative z-[99] mx-auto flex justify-between itees-center ">
@@ -69,7 +68,7 @@ function GatewaySec() {
           <div
             className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
-              background: "#0C0C0C",
+              background: "#030F16",
               border: "1px solid #2B2B2B"
             }}
           >
@@ -111,8 +110,8 @@ function GatewaySec() {
           <div
             className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
-              background: "#0C0C0C",
-              border: "1px solid #D99A26"
+              background: "#030F16",
+              border: "1px solid #575757"
             }}
           >
             <div className="flex justify-start space-x-4 items-center ">

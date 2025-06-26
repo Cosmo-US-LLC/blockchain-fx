@@ -194,7 +194,7 @@ function RoadmapSection() {
         <Slider ref={sliderRef} {...settings}>
           {slideData.map((slide, index) => (
             <div key={index} className="px-2">
-              <div className="bg-[#111] border border-[#242424] rounded-[4px] p-6 h-full">
+              <div className="bg-[#030F16] border border-[#242424] rounded-[4px] p-6 h-full">
                 <div
                   className="flex justify-between pb-2 items-center"
                   style={{

@@ -39,18 +39,18 @@ function Layout({ isMobile }) {
   );
 }
 
-function HowToBuyPageLayout({ isMobile }) {
-  const { i18n } = useTranslation();
-  return (
-    <>
-      {isMobile ? <NavbarMobile /> : <Navbar />}
-      <main>
-        <Outlet />
-      </main>
-      <HowToBuyFooter />
-    </>
-  );
-}
+// function HowToBuyPageLayout({ isMobile }) {
+//   const { i18n } = useTranslation();
+//   return (
+//     <>
+//       {isMobile ? <NavbarMobile /> : <Navbar />}
+//       <main>
+//         <Outlet />
+//       </main>
+//       <HowToBuyFooter />
+//     </>
+//   );
+// }
 
 function LangGuard({ children }) {
   const { lang } = useParams();
@@ -144,13 +144,13 @@ function App() {
           <Route path="/token-sale" element={<TokenSale />} />
           <Route path="/cookie-management" element={<CookieManagement />} />
         </Route>
-
+{/* 
         <Route element={<HowToBuyPageLayout isMobile={isMobile} />}>
           <Route
             path="how-to-buy"
             element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />}
           />
-        </Route>
+        </Route> */}
 
         <Route
           path="/:lang"

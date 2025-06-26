@@ -56,7 +56,7 @@ function ExclusiveBenefitsSec() {
                 className="mx-auto px-[15px] flex flex-col justify-center pt-[20px] pb-[34px] min-h-[310px] max-h-[330px]  rounded-[9px] space-y-[20px] "
                 style={{
                   border: "1.139px solid #2F2F2F",
-                  background:"rgba(17, 17, 17, 0.66)"
+                  background:"rgba(3, 15, 22, 0.66)"
                 }}
               >
                 <div className="max-h-[116px] h-[100%] flex justify-center items-center">

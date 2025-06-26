@@ -34,7 +34,7 @@ function TokenAllocationSec() {
           The token allocation is structured to reward early supporters the most
           </p>
         </div>
-    <div className="bg-[#111] max-w-[1200px] mx-auto rounded-[10px] py-[40px] px-[272px] ">
+    <div className="bg-[#030F16] max-w-[1200px] mx-auto rounded-[10px] py-[40px] px-[272px] ">
       <div className="max-w-[696px] relative space-y-[40px] w-[100%] mx-auto ">
         
        <div className="w-[100%] mx-auto ">
@@ -45,15 +45,15 @@ function TokenAllocationSec() {
     <div className="space-y-[8px] max-w-[1200px] mx-auto mt-[8px]">
   {/* First Row */}
   <div className="w-[100%] space-x-[21px] mx-auto flex justify-between items-center">
-    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#111] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
+    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
       <h4 className="text-white/70 text-[14px] font-[400]">Token name:</h4>
       <h3 className="text-white text-[18px] font-[500]">BlockchainFX</h3>
     </div>
-    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#111] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
+    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
       <h4 className="text-white/70 text-[14px] font-[400]">Launch on:</h4>
       <h3 className="text-white text-[18px] font-[500]">Uniswap and CEX</h3>
     </div>
-    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#111] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
+    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
       <h4 className="text-white/70 text-[14px] font-[400]">Token type:</h4>
       <h3 className="text-white text-[18px] font-[500]">Ethereum</h3>
     </div>
@@ -61,15 +61,15 @@ function TokenAllocationSec() {
 
   {/* Second Row */}
   <div className="w-[100%] mx-auto space-x-[21px] flex justify-between items-center">
-    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#111] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
+    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
       <h4 className="text-white/70 text-[14px] font-[400]">Token symbol:</h4>
       <h3 className="text-white text-[18px] font-[500]">BFX</h3>
     </div>
-    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#111] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
+    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
       <h4 className="text-white/70 text-[14px] font-[400]">Decimal:</h4>
       <h3 className="text-white text-[18px] font-[500]">18</h3>
     </div>
-    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#111] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
+    <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
       <h4 className="text-white/70 text-[14px] font-[400]">Total Supply:</h4>
       <h3 className="text-white text-[18px] font-[500]">3.5B</h3>
     </div>
@@ -77,7 +77,7 @@ function TokenAllocationSec() {
 
   {/* Third Row (Contract Address - kept different as per original) */}
   <div className="w-[100%] mx-auto flex justify-between items-center">
-    <div className="border px-[17px] space-y-[12px] rounded-[10px] w-[100%] pt-[14px] bg-[#111] pb-[16px] border-[#000]">
+    <div className="border px-[17px] space-y-[12px] rounded-[10px] w-[100%] pt-[14px] bg-[#030F16] pb-[16px] border-[#000]">
       <h4 className="text-white/70 text-[14px] font-[400]">Token Contract Address</h4>
       <h3 className="text-white flex text-[16px] font-[500]">
       0xD0d801eEa2c2422dF3e626b82EBBb618f4Cc445e{" "}
