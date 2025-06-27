@@ -15,7 +15,7 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   return (
     <div
       onClick={handleClick}
-      className="mb-[20px] border py-[15px] px-[20px] bg-[#111111] rounded-[4px] cursor-pointer border-[#E6AF0320] border-solid"
+      className="mb-[20px] border py-[15px] px-[20px] bg-[#030F16] rounded-[4px] cursor-pointer border-[#E6AF0320] border-solid"
     >
       <div className={`flex justify-between items-center`}>
         <div className="flex items-center justify-center">
@@ -78,7 +78,7 @@ const MobFaqSec = () => {
               {t("faq_section.title")}
             </h2>
             <p className="text-[15px] font-[400] text-[#fff] text-center">
-              {t("faq_section.description")}
+              Find answers to some <br /> of the most common questions.
             </p>
           </div>
           <div className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] mx-auto">

@@ -47,7 +47,7 @@ function MobileLessThanSec() {
   return (
     <div className="pt-[24px] pb-[24px] bg-[#020B10] overflow-hidden">
     <div className="relative max-w-[1200px] mx-auto">
-    <div className="space-y-[32px] py-6 px-4 w-[90%] mx-auto border-[1px] border-[#2B2B2B] relative overflow-hidden rounded-[16px] bg-[#111]">
+    <div className="space-y-[32px] py-6 px-4 w-[90%] mx-auto border-[1px] border-[#2B2B2B] relative overflow-hidden rounded-[16px] bg-[#030F16]">
             <img
               src={ellipse || "/placeholder.svg"}
               className="max-w-[400px] h-[450px] absolute top-[0%] left-[0%]"

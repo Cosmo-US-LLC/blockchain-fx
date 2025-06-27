@@ -63,71 +63,48 @@ function MobileHero() {
               }}
             >
               <h4 className="text-white font-[600] font-inter px-1 py-2 tracking-[-0.24px] text-center text-[11.5px]  capitalize">
-                Crypto Exchange Launches Coin With Reward System
+                $BFX Presale Stage is 84% Sold Out
               </h4>
             </div>
-            <h1 className="text-[32px] mb-4 mt-4 text-center font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">
-              $BFX Pays You Every Time Someone Trades on BlockchainFX
+            <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">
+              The First Crypto <br /> Trading <span
+                style={{
+                  background:
+                    "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
+                  backgroundClip: "text",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >Super App</span>
             </h1>
             <p className="text-[#fff] mb-4  text-center font-[400] leading-[157%] tracking-[-0.14px] text-[14px]">
-              Start earning today and receive up to a maximum of 25,000 USDT in
-              daily passive staking rewards by buying $BFX during the presale.
-              As a holder, you earn a share of the trading fee revenue, without
-              having to trade yourself.
+              BlockchainFX is a next-gen crypto exchange that connects DeFi with
+              traditional financial markets. It’s the only Web3 platform
+              offering  access to stocks, forex, ETFs, and more.
             </p>
 
-            <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
-              <div className="flex items-center space-x-3">
-                <img src={check} alt="" />
-                <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  The first crypto exchange Bridging Blockchain and Finance
-                  across 500+ Assets
-                </p>
-              </div>
-              <div className="flex items-center space-x-3">
-                <img src={check} alt="" />
-                <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  Bitcoin, Ethereum, Gold, Stocks, Forex, ETFs, Options,
-                  Futures, all in one place
-                </p>
-              </div>
-              <div className="flex items-center space-x-3">
-                <img src={check} alt="" />
-                <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
-                  BlockchainFX has been awarded as the  Fastest-Growing Crypto
-                  Trading App of 2025
-                </p>
-              </div>
-            </div>
+           
           </div>
           <div className="max-w-[450px] pt-[30px] space-y-[27px]">
             <div className="relative flex justify-center">
-              <img src={heroimg} alt="heroimg" />
-              <div
-                className="px-[27px] py-[17px] max-w-[160px] absolute bottom-[10%] right-[-2%] flex items-center flex-col space-y-[10px] rounded-[10px] pr-[20px]"
-                style={{
-                  borderRadius: "9.617px",
-                  border: "1px solid #FFF",
-                  background: "rgba(0, 0, 0, 0.21)",
-                  backdropFilter: "blur(17.899999618530273px)",
-                }}
-              >
-                <h4 className="text-[#fff] text-[12px] font-[400] leading-[68.691%]">
-                  Earned Last Week
-                </h4>
-                <h5 className="text-[18.547px] font-[700] flex items-center leading-[100%] text-[#FFF]">
-                  $2,748{" "}
-                  <span className="text-[12px] pl-2 text-[#1ACE2E] flex  items-center leading-[86.937%] font-[700]">
-                    <img src={arwgrn} alt="" />
-                    +13%
-                  </span>{" "}
-                </h5>
-              </div>
+              <iframe
+                width="100%"
+                height="200px"
+                src={"https://fast.wistia.net/embed/iframe/w8ynmofaw4"}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="YouTube video"
+                style={{ borderRadius: "12px" }}
+              />
             </div>
             <div className="flex justify-center items-center space-x-[20px]">
               <img src={heroicns1} alt="" />
               <img src={heroicns2} alt="" />
               <img src={heroicns3} alt="" />
+            </div>
+            <div>
+              <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">Audited and Approved by</p>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <div className="flex flex-col items-center">
@@ -151,6 +128,29 @@ function MobileHero() {
                 />
                 <p className="text-[#fff] font-[400] text-[17.702px]">
                   4.87/5{" "}
+                </p>
+              </div>
+            </div>
+             <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
+              <div className="flex items-center space-x-3">
+                <img src={check} alt="" />
+                <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
+                  The First Exchange Bridging Blockchain  and Global Finance
+                  Across 500+ Assets
+                </p>
+              </div>
+              <div className="flex items-center space-x-3">
+                <img src={check} alt="" />
+                <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
+                  Bitcoin, Ethereum, Gold, Stocks, Forex,  ETFs, Options,
+                  Futures, all in one place
+                </p>
+              </div>
+              <div className="flex items-center space-x-3">
+                <img src={check} alt="" />
+                <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
+                  BlockchainFX has been awarded as the “The Best New Crypto
+                  Trading App of 2025”
                 </p>
               </div>
             </div>

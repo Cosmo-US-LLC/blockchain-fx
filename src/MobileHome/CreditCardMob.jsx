@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import creditVideo from "../assets/CreditCard/cred.mp4";
+import card from "../assets/CreditCard/card.webp";
 import ellipse from "../assets/EarnOnSec/Ellipse 3.png";
 import applepay from "../assets/CreditCard/btnsvg (2).png";
 import googlelepay from "../assets/CreditCard/btnsvg (1).png";
@@ -38,54 +38,56 @@ function CreditCardMob() {
   };
 
   return (
-    <div className="pt-[34px] pb-[34px] px-6 bg-[#020B10]">
-      <div className="relative flex flex-col gap-8 rounded-[16px] px-6 py-6 border border-[#E7B2092B] overflow-hidden bg-[#111]">
+    <div className="pt-[10px] pb-[34px] px-6 bg-[#020B10]">
+      <div
+        style={{
+          border: "1px solid rgba(231, 178, 9, 0.17)",
+        }}
+        className="relative flex flex-col gap-6 rounded-[16px] px-6 py-6 overflow-hidden bg-[#010E11]"
+      >
         <img
           src={ellipse}
           className="absolute top-[0%] w-[500px] h-[520px] left-[0%]"
           alt=""
         />
         <h3 className="text-[32px] text-left capitalize font-[600] leading-[128%] tracking-[-1.52px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">
-        BFX Visa Card
+          BFX Visa Card
         </h3>
 
         <ul className="list-disc space-y-[6px]">
-          <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-          Unlimited Spending 
-          </li>
           <div className="w=[100%] h-[0.3px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-          Metal or 18 Karat Gold Card
+            Metal or 18 Karat Gold Card
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-          Up to $100,000 per Transaction
+            Up to $100,000 per Transaction
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-          Up to $10K Monthly ATM Withdrawals
+            Up to $10K Monthly ATM Withdrawals
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-          Use BFX and USDT Rewards for Payments
+            Use BFX and USDT Rewards for Payments
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-          Accepted Worldwide (Online & In-Stores)
+            Accepted Worldwide (Online & In-Stores)
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-          Top Up with BFX and 20+ Crypto
+            Top Up with BFX and 20+ Crypto
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 pt-[8px] font-[500]">
-          BFX Visa Card Only Available in Presale
+            BFX Visa Card Only Available in Presale
           </li>
         </ul>
 
         <div className="flex items-center justify-center space-x-2">
           <h4 className="text-[14px] text-[#fff] font-[400]">
-          Compatible with
+            Compatible with
           </h4>
           <button className="w-[80.2px] h-[36px] hover:opacity-[0.7] flex justify-center items-center rounded-[4.8px]">
             <img src={applepay} className="h-[36px]" alt="Apple Pay" />
@@ -95,23 +97,20 @@ function CreditCardMob() {
           </button>
         </div>
 
-        <div className="w-[100%] bg-[#030B10] rounded-[16px] items-center flex justify-center flex-col space-y-5">
-          <video
-            width="300"
-            height="260"
-            className="!rounded-[8px]"
-            autoPlay
-            playsInline
-            muted
-            loop
-          >
-            <source src={creditVideo} type="video/mp4" />
-          </video>
+        <div
+          style={{
+            border: "1px solid rgba(255, 255, 255, 0.30)",
+          }}
+          className="w-[100%] rounded-[16px] items-center py-[20px] flex justify-center"
+        >
+          <img src={card} className="mx-auto max-w-[258px]" alt="" />
         </div>
         <p className="text-[12px] text-[#FFF] font-[400] text-center leading-[175%] tracking-[-0.32px]">
-        Shipping will begin once the BFX presale ends, as all cards will be sent out simultaneously.  Every BFX Founder’s Club member will receive a secure form after the presale to submit their shipping details. Cards will be delivered worldwide via DHL or FedEx Express. 
+          Shipping will begin once the BFX presale ends, as all cards will be
+          sent out simultaneously. Every BFX NFT holder will receive a secure
+          form after the presale to submit their shipping details. Cards will be
+          delivered worldwide via DHL or FedEx Express.
         </p>
-     
       </div>
     </div>
   );

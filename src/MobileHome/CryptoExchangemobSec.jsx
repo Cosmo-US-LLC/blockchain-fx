@@ -23,7 +23,7 @@ function CryptoExchangemobSec() {
 
   return (
     <div className="flex items-center bg-[#020B10] pt-[30px]" id="pioneering">
-      <div className="relative overflow-hidden flex justify-between items-center gap-[2rem] w-[90%] mx-auto border bg-[#020B10]  relative rounded-[24px] pt-[35px] pb-[25px]">
+      <div className="relative overflow-hidden border-[1px] border-[#E5E7EB] flex justify-between items-center gap-[2rem] w-[90%] mx-auto border bg-[#020B10]  relative rounded-[24px] pt-[35px] pb-[25px]">
         <div className=" relative z-[99] px-[20px]">
       
           <div className="space-y-[20px] ">
@@ -32,8 +32,8 @@ function CryptoExchangemobSec() {
             >
              Pioneering <br /> Crypto Exchange 
             </h4>
-            <p className="text-[#fff] text-center text-[16px] leading-[137.5%] font-[500]">
-            BlockchainFX is the world’s first crypto super app, merging blockchain technology with global financial markets. The exchange is currently live in its beta phase, and the user base is growing rapidly. With the launch of $BFX, holders now have the chance to be part of building the next leading global trading platform.
+            <p className="text-[#fff] text-center text-[16px] leading-[156.25%] font-[500]">
+           BlockchainFX is redefining the future of trading with an all-in-one decentralized platform that enables users to trade anything, anywhere—while maintaining full control of their assets. <br /><br /> The platform is currently in beta and will be publicly available soon. It was awarded “Most Promising Crypto App of 2025” earlier this year and has received overwhelmingly positive feedback from early users. With the launch of the $BFX presale, holders can now be part of the next major global trading platform.
             </p>
           </div>
           <div className="flex justify-center mr-3">

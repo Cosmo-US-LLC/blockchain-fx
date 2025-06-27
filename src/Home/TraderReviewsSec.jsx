@@ -134,9 +134,6 @@ const userImages = {
   usern,
 };
 
-
-
-
 function TraderReviewsSec() {
   const { t } = useTranslation();
   return (
@@ -230,7 +227,7 @@ function TraderReviewsSec() {
                           </div>
                         </div>
 
-                        
+
                         <a
                           href={review.user.link}
                           target="_blank"

@@ -50,7 +50,10 @@ function MobExclusiveSec() {
             {cardItems.map((item) => (
               <div
                 key={item.id}
-                className="py-6 px-4 rounded-[16px] bg-[#111] flex flex-col justify-center gap-4  border-[rgba(230,175,3,0.12)]   border"
+                className="py-6 px-4 rounded-[16px] bg-[#010E11] flex flex-col justify-center gap-4  "
+                style={{
+                  border:"1px solid rgba(230, 175, 3, 0.12)"
+                }}
               >
                 <div className="max-h-[127px] flex justify-center items-center">
                   <img src={item.img} className="max-h-[90px]" alt="" />
