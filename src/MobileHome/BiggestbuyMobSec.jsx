@@ -114,8 +114,8 @@ function BiggestbuyMobSec() {
   const visibleData = showMore ? tableData : tableData.slice(0, 5);  // Show first 5 items or more based on state
 
   return (
-    <div className="pt-[24px] pb-[24px] bg-[#020B10] overflow-hidden">
-      <div className="relative w-[90%] rounded-[24px] px-[20px] py-[30px] mx-auto bg-[#111]">
+    <div className="pt-[10px] pb-[24px] bg-[#020B10] overflow-hidden">
+      <div className="relative w-[90%] rounded-[24px] px-[20px] py-[30px] mx-auto bg-[#030F16]">
         <div className="space-y-[20px]">
           <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#FFF] tracking-[-1.548px]">
             Biggest buy-in competition
@@ -126,7 +126,7 @@ function BiggestbuyMobSec() {
         </div>
         
         {/* Rankings Table */}
-        <div className="bg-[#312911] w-[90%] mt-[30px] space-y-[15px] mx-auto border border-[#fff] px-[10px] py-[20px] rounded-[24px]">
+        <div className="bg-[#030F16] w-[90%] mt-[30px] space-y-[15px] mx-auto border-[1px] border-[#fff] px-[10px] py-[20px] rounded-[24px]">
           <div className="flex justify-between items-center px-[15px] pt[15px]">
             <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[16%]">Rank</h3>
             <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[30%]">Wallet</h3>

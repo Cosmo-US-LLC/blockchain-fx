@@ -18,9 +18,8 @@ export default function SwapSectionMob() {
   return (
     <>
       <div className="w-full py-[24px] px-[20px] bg-[#020B10]">
-        <div className="py-6 px-3 space-y-[20px] rounded-[24px]"
-       style={{ backgroundImage: `url(${swapbg})`, backgroundRepeat: "no-repeat", backgroundSize:"cover"
-      }} 
+        <div className="py-6 px-3 space-y-[20px] rounded-[24px] border-[1px] border-[#E5E7EB]"
+  
         >
          
           <div className="w-[100%] space-y-4 ">
@@ -28,7 +27,7 @@ export default function SwapSectionMob() {
               <h3 className="text-[30px] text-[#FFF] font-bold leading-[120%] tracking-[-1.5px]  text-center mb-4">
               More Than 500 Assets 
               </h3>
-              <p className="text-[14px] text-[#fff] text-center max-w-[350px] mx-auto">
+              <p className="text-[14px] text-[#fff] leading-[156.25%] text-center max-w-[350px] mx-auto">
               BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes. No delays, no extra fees, no switching platforms. Just fast and real-time trading.
               </p>
             </div>
@@ -44,7 +43,7 @@ export default function SwapSectionMob() {
           </div>
           <div 
             style={{
-              border:"0.835px solid #58470d"
+              border:"1px solid #61767B"
             }}
             className="w-full rounded-[13px]  py-[20px] px-[20px] space-y-[15px]">
               <div className="">

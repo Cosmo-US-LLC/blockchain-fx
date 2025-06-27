@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
 
 import whitepaper from "../assets/Whitepaper/whitepaperbook.png";
-import vector from "../assets/Whitepaper/vector.png";
+import vector from "../assets/EarnOnSec/Ellipse 4.png";
 
 export default function WhitepaperMob() {
   const { t } = useTranslation(); // Get the translation function
@@ -23,12 +23,11 @@ export default function WhitepaperMob() {
   };
 
   return (
-    <div className="w-full py-[24px] px-[24px] bg-[#020B10]" id="whitepaper">
+    <div className="w-full py-[24px] px-[24px] bg-[#000]" id="whitepaper">
       <div
-        className="py-6 rounded-[11.022px] overflow-hidden relative px-4 space-y-[16px]"
+        className="py-6 rounded-[11.022px] overflow-hidden border-[1px] border-[#2B2B2B] relative px-4 space-y-[16px]"
         style={{
-          background: "#111",
-          borderColor: "rgba(230, 175, 3, 0.12)",
+          background: "#030F16",
         }}
       >
         <div className="w-[100%] space-y-4">
@@ -56,7 +55,7 @@ export default function WhitepaperMob() {
                 "_blank"
               )
             }
-            className="rounded-[10px] bg-black border border-[#E6B005] text-[#E6B005] w-[178px] h-[50px] py-1"
+            className="rounded-[10px] bg-black border border-[#E6B005] bg-[#000] text-[#E6B005] w-[178px] h-[50px] py-1"
           >
             {t("whitepaper.accessButton")} {/* Use translation */}
           </button>
@@ -71,7 +70,7 @@ export default function WhitepaperMob() {
             />
           </div>
         </div>
-         <div className="absolute bottom-[0%] left-0 w-[100%]">
+         <div className="absolute bottom-[0%] right-0 w-[100%]">
                   <img src={vector} alt="" />
                 </div>
       </div>

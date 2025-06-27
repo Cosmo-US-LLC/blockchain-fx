@@ -35,7 +35,8 @@ function MobTokenDetailsSec() {
           </p>
         </div>
 
-        <div className="bg-[#030F16] w-[100%] border p-5 rounded-[6px] border-white border-opacity-10">
+        <div 
+        className="bg-[#030F16] w-[100%] border p-5 rounded-[6px] border-white border-opacity-10">
           <img
             src={chart}
             alt="Chart"
@@ -44,7 +45,8 @@ function MobTokenDetailsSec() {
         </div>
 
         <div className="grid grid-cols-2 gap-[15px]">
-          <div className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
+          <div 
+          className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
             <h4 className="text-white opacity-70 text-[12px] font-[400] pb-3">
               {t("token_allocation_section.token_name.label")}{" "}
               {/* Use translation */}
@@ -55,7 +57,8 @@ function MobTokenDetailsSec() {
             </h3>
           </div>
 
-          <div className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
+          <div 
+          className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
             <h4 className="text-white opacity-70 text-[12px] font-[400] pb-3">
               {t("token_allocation_section.launch_on.label")}{" "}
               {/* Use translation */}
@@ -66,7 +69,8 @@ function MobTokenDetailsSec() {
             </h3>
           </div>
 
-          <div className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
+          <div 
+          className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
             <h4 className="text-white opacity-70 text-[12px] font-[400] pb-3">
               {t("token_allocation_section.token_symbol.label")}{" "}
               {/* Use translation */}
@@ -77,7 +81,8 @@ function MobTokenDetailsSec() {
             </h3>
           </div>
 
-          <div className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
+          <div 
+          className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
             <h4 className="text-white opacity-70 text-[12px] font-[400] pb-3">
               {t("token_allocation_section.token_type.label")}{" "}
               {/* Use translation */}
@@ -88,7 +93,8 @@ function MobTokenDetailsSec() {
             </h3>
           </div>
 
-          <div className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
+          <div 
+          className="bg-[#030F16] w-[100%] border px-[12px] rounded-[6px] pt-[12px] pb-[12px] border-white border-opacity-10">
             <h4 className="text-white opacity-70 text-[12px] font-[400] pb-3">
               {t("token_allocation_section.decimal.label")}{" "}
               {/* Use translation */}

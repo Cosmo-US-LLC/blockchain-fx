@@ -349,8 +349,8 @@ function MobilePremiumSec() {
     }, 200);
   };
   return (
-    <div className="pt-[34px] pb-[34px] px-6 bg-[#020B10]" id="premium">
-      <div className="relative flex flex-col gap-12 p-[20px] bg-[#111]">
+    <div className="pt-[10px] pb-[34px] px-6 bg-[#020B10]" id="premium">
+      <div className="relative flex flex-col gap-12 p-[20px] rounded-[16px] bg-[#010E11] border-[1px] border-[#3D3D3D]">
         <div className="space-y-[12px]">
           <h3 className="text-[30px] leading-[120%] text-[#FFF] text-center font-[600] tracking-[-1.5px]">
             Get Special Bonuses Starting From $1,000{" "}
@@ -410,13 +410,13 @@ function MobilePremiumSec() {
                 <SwiperSlide key={card.id}>
                   <div
                     style={{
-                      background: "#111",
+                      background: "#030F16",
                       borderColor: "rgba(230, 175, 3, 0.12)",
                     }}
                     className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${
                       activeIndex === index
                         ? "border-black"
-                        : "border-[rgba(230, 175, 3, 0.12)]"
+                        : "rgba(230, 175, 3, 0.12)"
                     } border !min-h-[590px] max-h-[590px] h-[100%]`}
                   >
                     <div>

@@ -19,7 +19,7 @@ function MobPressMediaSec() {
             {t("press_media_section.title")}
           </h3>
         </div>
-        <div className="relative space-y-3">
+        <div className="relative space-y-[20px]">
           {articles.map((article, index) => (
             <div
               key={index}

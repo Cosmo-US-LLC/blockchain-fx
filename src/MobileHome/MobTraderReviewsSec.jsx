@@ -65,7 +65,7 @@ function MobTraderReviewsSec() {
                   <span className="text-[15px] font-[400] w-[20px]">
                     {bar.rating}
                   </span>
-                  <div className="h-[17px]  w-[100%] bg-[#222] rounded-[16.955px]">
+                  <div className="h-[17px]  w-[100%] bg-[#072232] rounded-[16.955px]">
                     <div
                       className="bg-[#E5AE00] h-[17px] rounded-[16.955px]"
                       style={{ width: `${bar.percentage}%` }}
@@ -110,7 +110,7 @@ function MobTraderReviewsSec() {
                   returnObjects: true,
                 }).map((review, index) => (
                   <SwiperSlide key={index}>
-                    <div className="bg-[#181A20] border border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px] relative">
+                    <div className="bg-[#030F16] border-[1px] border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px] relative">
                       <p className="h-[100px] text-[10px] font-[400] leading-[175%] text-[#fff]">
                         {review.text}
                       </p>

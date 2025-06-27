@@ -165,7 +165,7 @@ function StandoutSec() {
                       <td
                         key={key}
                         className={` px-4 py-[13px] !h-[70px] border-b border-[#a6a6a638] ${
-                          colIndex === 1 ? "text-[14.7px] border !border-b-[#A6A6A6] !border-t-[#A6A6A6] border-[#EAB91F] bg-[#a6a6a638] !border-r !border-r-[#EAB91F]" : ""
+                          colIndex === 1 ? "text-[14.7px] border !border-b-[#A6A6A6] !border-t-[#A6A6A6] border-[#EAB91F] bg-[#a6a6a638] !border-r !border-r-[#EAB91F] !border-l !border-l-[#EAB91F]" : ""
                         } ${
                           rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
                             ? "text-[16px] text-[#fff] font-[600] text-center !w-[225px]"

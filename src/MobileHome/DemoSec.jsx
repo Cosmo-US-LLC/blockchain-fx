@@ -37,9 +37,9 @@ function DemoSec() {
 
   return (
    <div className="bg-[#020B10] py-[30px] " >
-    <div className="mx-auto w-[90%] overflow-hidden bg-[#131312e8] rounded-[24px]"
+    <div className="mx-auto w-[90%] overflow-hidden bg-[#020B10] rounded-[24px]"
     style={{
-      border: "1.5px solid rgb(58, 49, 18)",
+      border: "1.5px solid #E5E7EB",
      
     }}>
     <div
@@ -52,7 +52,7 @@ function DemoSec() {
         BlockchainFX Demo
         </h3>
         <p className="text-[16px] text-center font-[400] text-[#fff]">
-        In just a few seconds, users can trade <br/> BTC,Tesla, Gold, Pepe, ETFs, CFDs, <br/> and more, all seamlessly on one <br/> powerful platform.
+       In just a few seconds, users can <br /> trade BTC,Tesla, Gold, Pepe, ETFs, <br /> CFDs, and more, all seamlessly <br /> on one powerful platform.
         </p>
         <video
           width="640"

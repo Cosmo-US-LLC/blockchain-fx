@@ -34,7 +34,7 @@ function KYCVerifiedMob() {
             {cardItems.map((item, index) => (
               <div
                 key={index}
-                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px] max-h-[200.384px] min-h-[200.384px] bg-[#111] rounded-[16px]"
+                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px] max-h-[200.384px] min-h-[200.384px] bg-[#010E11] rounded-[16px]"
                 style={{
                   border: "1px solid rgba(230, 175, 3, 0.12)",
                 }}

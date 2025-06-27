@@ -54,10 +54,10 @@ export default function YoutubeSec() {
   };
 
   return (
-    <div className="bg-[#020B10] rounded-[24px]">
-    <div className="w-[90%] relative bg-[#111] rounded-[24px] mx-auto overflow-hidden"
+    <div className="bg-[#010E11] rounded-[24px]">
+    <div className="w-[90%] relative bg-[#010E11] rounded-[24px] mx-auto overflow-hidden"
     style={{
-      border: "1.5px solid rgb(58, 49, 18)",
+      border: "1px solid #030F16",
     }}
     >
       <img className="absolute" src={eclipse} alt="eclipse" />

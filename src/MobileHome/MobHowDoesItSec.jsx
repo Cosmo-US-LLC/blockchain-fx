@@ -47,29 +47,45 @@ function MobHowDoesItSec() {
       className="pt-[40px] pb-[24px] bg-[#020B10] space-y-[35px]"
       id="MobileDemo"
     >
-      <div className="w-[90%] space-y-[25px] px-[20px] py-[30px] bg-[#111] rounded-[24px] border border-[#E6AF031F] mx-auto  overflow-hidden relative">
-        <img
+      <div
+        className="w-[90%] space-y-[25px] px-[20px] py-[30px] bg-[#010E11] rounded-[24px]  mx-auto  overflow-hidden relative"
+        style={{
+          border: "1px solid rgba(230, 175, 3, 0.12)",
+        }}
+      >
+        {/* <img
           src={ellipse2}
           className="absolute w-[100%] h-[512px] left-0 top-[0%]"
           alt="ellipse2"
-        />
+        /> */}
         <div>
           <h3 className="text-[30px] capitalize leading-[120%] text-[white] text-center tracking-[-1.5px] font-[600]">
             How It Works?
           </h3>
-          <p className="mt-4 text-[15px] text-center text-[#fff] leading-[126%] tracking-[-0.16px] font-[400]">
-          BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.
+          <p className="mt-4 text-[15px] text-center text-[#fff] leading-[155.625%] tracking-[-0.16px] font-[400]">
+            BlockchainFX is a global decentralised exchange where users can
+            trade crypto, stocks, forex, ETFs, and more. Every time someone
+            trades, 70% of the trading fees go toward the $BFX staking pool,
+            buybacks, and token burns. <br />
+            <br />
+            The daily staking rewards depend on how much $BFX someone holds. The
+            more $BFX a person holds, the higher the rewards, with a maximum
+            limit of $25,000 USDT per day.
           </p>
         </div>
         <div>
           <img src={howtomob} className="object-cover" alt="" />
         </div>
       </div>
-      <div className="pt-[30px] w-[90%] mx-auto">
+      <div className="w-[90%] mx-auto">
         <div className="w-[100%]">
           <div className="relative grid grid-col-1 gap-y-[20px]">
             {cardItems.map((item, index) => (
-              <div className="px-[20px] h-[280px]   rounded-[16px] border border-1 border-[#E6AF031F]">
+              <div
+              style={{
+                border:"1px solid rgba(230, 175, 3, 0.12)"
+              }}
+              className="px-[20px] h-[280px]   rounded-[16px] ">
                 <div className="flex flex-row items-center justify-between">
                   <div className="flex justify-center">
                     <img src={item.icon} className="h-[60px]" alt="" />

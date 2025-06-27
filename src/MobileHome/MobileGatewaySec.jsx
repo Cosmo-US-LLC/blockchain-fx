@@ -17,7 +17,7 @@ function MobileGatewaySec() {
      <div 
             className="relative space-y-[33px]  rounded-[16px] py-[30px] px-[20px] overflow-hidden w-[90%] mx-auto"
             style={{
-              border:"0.319px solid var(--stroke, rgba(230, 175, 3, 0.12))",
+              border:"1px solid rgba(230, 175, 3, 0.12)",
               background:"#020B10"
             }}
           >
@@ -40,7 +40,7 @@ function MobileGatewaySec() {
               </p>
             </div>
             <div
-              className="px-[15px] py-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] bg-[#030F16] border border-[#2B2B2B] relative z-[9]"
+              className="px-[15px] py-[20px] space-y-[32px] max-w-[366px] mx-auto rounded-[13px] bg-[#030F16] border-[1px] border-[#2B2B2B] relative z-[9]"
             >
               <div className="flex items-start space-x-[3rem] justify-center">
                 <div className="flex space-y-[14px] flex-col items-center justify-start">

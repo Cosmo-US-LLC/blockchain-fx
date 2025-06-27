@@ -90,8 +90,8 @@ function BlockchainFXDemo() {
             <img src={ernvet2} alt="BlockchainFX" />
           </div>
         </div>
-        <div className="w-[100%] py-[50px]">
-          <div className="flex flex-row items-center justify-between mx-[80px] border-t-[1px] border-[#fff] py-[50px]">
+        <div className="w-[100%] pt-[50px] pb-[30px]">
+          <div className="flex flex-row items-center justify-between mx-[80px] border-t-[1px] border-[#fff] pt-[50px] pb-[80px]">
             <div className="w-[50%]">
               <div className="w-full">
                 <img
