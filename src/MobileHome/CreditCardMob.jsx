@@ -50,7 +50,7 @@ function CreditCardMob() {
           className="absolute top-[0%] w-[500px] h-[520px] left-[0%]"
           alt=""
         />
-        <h3 className="text-[32px] text-left capitalize font-[600] leading-[128%] tracking-[-1.52px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">
+        <h3 className=" text-left capitalize text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">
           BFX Visa Card
         </h3>
 

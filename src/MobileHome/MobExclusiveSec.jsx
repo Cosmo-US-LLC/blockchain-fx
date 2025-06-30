@@ -40,7 +40,7 @@ function MobExclusiveSec() {
   return (
     <div className="pt-[34px] pb-[34px] bg-[#020B10]">
       <div className="w-[100%] mx-auto relative">
-        <h3 className="text-[30px] capitalize leading-[120%] text-[#FFF] text-center tracking-[-2.548px] font-[600]">
+        <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize  text-[#FFF] text-center ">
           Benefits of Buying BFX
           <br /> During the Presale
         </h3>

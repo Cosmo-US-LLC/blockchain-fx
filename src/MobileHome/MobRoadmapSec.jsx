@@ -66,7 +66,7 @@ function MobRoadmapSec() {
     <div className="pt-[24px] pb-[24px] bg-[#020B10]" id="roadmap">
       <div className="relative space-y-[40px] w-[90%] mx-auto">
         <div className="space-y-5">
-          <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#FFF] tracking-[-1.5px]">
+          <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF]">
             {t("Roadmap_section.Roadmap")}
           </h3>
           <p className="text-[15px] font-[400] max-w-[365px] text-center mx-auto w-[100%] leading-[28px] text-[#fff] tracking-[-0.32px]">

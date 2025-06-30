@@ -27,7 +27,7 @@ function KYCVerifiedMob() {
     <div className="pb-[50px] pt-[20px] bg-[#020B10]">
       <div className="w-[90%] mx-auto relative">
         <div className="w-[100%] mx-auto">
-          <h3 className="text-[36px] pb-[30px] text-[#fff] font-[600] leading-[120%] tracking-[-1.5px] text-center">
+          <h3 className=" pb-[30px] text-[#fff] text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center">
           Security Verified by <br /> Industry Experts
           </h3>
           <div className="grid grid-cols-1 gap-y-[19px]">
@@ -49,7 +49,7 @@ function KYCVerifiedMob() {
                     style={{
                       background: "rgba(0, 124, 45, 0.16)",
                     }}
-                    className="py-[3px] rounded-[5px] px-[8px] text-[#01BA48] text-[14px] font-[500]"
+                    className=" py-[3px] rounded-[5px] px-[8px] text-[#01BA48] text-[14px] font-[500]"
                   >
                   Complete
                   </p>
@@ -60,7 +60,7 @@ function KYCVerifiedMob() {
                       {item.title}
                     </h3>
                   </div>
-                  <h4 className="text-[15px] text-[#fff] font-[400] leading-[135.796%]">
+                  <h4 className="text-[15px] max-w-[345px] text-[#fff] font-[400] leading-[135.796%]">
                     {item.description}
                   </h4>
                 </div>
