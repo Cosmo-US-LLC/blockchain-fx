@@ -55,10 +55,10 @@ function MobileLessThanSec() {
             />
 
             <div className="space-y-[20px]">
-              <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#FFF] tracking-[-1.548px]">
+              <h3 className=" capitalize text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF] ">
               Bridging Crypto <br/> And Finance
               </h3>
-              <p className="text-[15px] font-[400] w-[100%] text-center leading-[175%] text-[#fff] tracking-[-0.32px]">
+              <p className=" w-[100%] font-inter text-center text-[16px] text-[#fff] font-medium leading-[25px]">
               Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily. Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major opportunity for BFX to connect crypto users with the world’s largest financial markets.
               </p>
             </div>

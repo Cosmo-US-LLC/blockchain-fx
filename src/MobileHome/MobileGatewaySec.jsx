@@ -32,10 +32,10 @@ function MobileGatewaySec() {
               alt=""
             />
             <div className="space-y-[20px] relative z-[9]">
-              <h3 className="text-[30px] font-[600] text-center leading-[120%] text-[#FFF] tracking-[-2.548px]">
+              <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF] ">
                The First Crypto Exchange <br /> That Pays Its Holders
               </h3>
-              <p className="text-[15px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[175%] text-[#fff] tracking-[-0.32px]">
+              <p className=" max-w-[881px] font-inter mx-auto w-[100%] text-center text-[16px] text-[#fff] font-medium leading-[25px] ">
                Instead of draining users with high trading fees, BlockchainFX cuts them by up to 70%. Half of all fees are shared with $BFX holders as daily staking rewards. We’re building a next-generation trading platform that grows with its community, where users benefit from every step of our success.
               </p>
             </div>

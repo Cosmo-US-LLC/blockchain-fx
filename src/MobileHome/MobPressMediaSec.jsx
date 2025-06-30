@@ -15,7 +15,7 @@ function MobPressMediaSec() {
     <div className="pt-[30px] bg-[#020B10] pb-[30px]">
       <div className="relative space-y-[20px] w-[90%] mx-auto">
         <div className="space-y-[20px]">
-          <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#fff] tracking-[-1.5px]">
+          <h3 className="text-center text-[#fff] text-[30px] font-[600] leading-[120%] tracking-[-1.5px]">
             {t("press_media_section.title")}
           </h3>
         </div>

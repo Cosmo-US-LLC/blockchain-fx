@@ -24,10 +24,10 @@ export default function SwapSectionMob() {
          
           <div className="w-[100%] space-y-4 ">
             <div className="flex flex-col justify-start w-full p-2">
-              <h3 className="text-[30px] text-[#FFF] font-bold leading-[120%] tracking-[-1.5px]  text-center mb-4">
+              <h3 className=" text-[#FFF] text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center mb-4">
               More Than 500 Assets 
               </h3>
-              <p className="text-[14px] text-[#fff] leading-[156.25%] text-center max-w-[350px] mx-auto">
+              <p className="font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center max-w-[350px] mx-auto">
               BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes. No delays, no extra fees, no switching platforms. Just fast and real-time trading.
               </p>
             </div>

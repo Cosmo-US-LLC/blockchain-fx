@@ -117,10 +117,10 @@ function BiggestbuyMobSec() {
     <div className="pt-[10px] pb-[24px] bg-[#020B10] overflow-hidden">
       <div className="relative w-[90%] rounded-[24px] px-[20px] py-[30px] mx-auto bg-[#030F16]">
         <div className="space-y-[20px]">
-          <h3 className="text-[30px] capitalize font-[600] text-center leading-[120%] text-[#FFF] tracking-[-1.548px]">
+          <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize text-center text-[#FFF] ">
             Biggest buy-in competition
           </h3>
-          <p className="text-[15px] font-[400] w-[100%] text-center leading-[175%] text-[#fff] tracking-[-0.32px]">
+          <p className=" w-[100%] font-inter text-center text-[16px] text-[#fff] font-medium leading-[25px]">
             The top 10 BFX presale buyers will receive a share of 100,000 USD in $BFX. This exclusive reward is our way of thanking those who contributed the most and played a major role in the growth of the BlockchainFX ecosystem.
           </p>
         </div>

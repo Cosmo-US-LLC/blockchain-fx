@@ -352,10 +352,10 @@ function MobilePremiumSec() {
     <div className="pt-[10px] pb-[34px] px-6 bg-[#020B10]" id="premium">
       <div className="relative flex flex-col gap-12 p-[20px] rounded-[16px] bg-[#010E11] border-[1px] border-[#3D3D3D]">
         <div className="space-y-[12px]">
-          <h3 className="text-[30px] leading-[120%] text-[#FFF] text-center font-[600] tracking-[-1.5px]">
+          <h3 className=" text-[#FFF] text-center text-[30px] font-[600] leading-[120%] tracking-[-1.5px]">
             Get Special Bonuses Starting From $1,000{" "}
           </h3>
-          <p className="text-[15px] leading-[175%] tracking-[-0.32px] mx-auto text-[#fff] text-center font-[400]">
+          <p className=" mx-auto font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
             Buy $BFX during the presale and join the Founder's Club starting
             from just $1,000. Get your exclusive NFT, BFX Visa Card, bonus
             tokens, daily USDT staking rewards, and free trading credits.

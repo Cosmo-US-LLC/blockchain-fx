@@ -26,10 +26,10 @@ function MobStandoutSec() {
       }}
       >
         <div className="space-y-[15px] mb-8">
-          <h3 className="text-[30px] font-[700] text-center leading-[120%] text-[#FFF] tracking-[-1.548px]">
+          <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center  text-[#FFF] ">
             {t("standout_section.title")}
           </h3>
-          <p className="text-[15px] font-[400] px-2 text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
+          <p className=" px-2 text-center font-inter text-[16px] text-[#fff] font-medium leading-[25px]">
             {t("standout_section.description")}
           </p>
         </div>

@@ -62,11 +62,11 @@ function MobileHero() {
                   " linear-gradient(90deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%)",
               }}
             >
-              <h4 className="text-white font-[600] font-inter px-1 py-2 tracking-[-0.24px] text-center text-[11.5px]  capitalize">
-                $BFX Presale Stage is 84% Sold Out
+              <h4 className="text-white font-[600] font-inter px-1 py-2  text-center text-[12px]  uppercase">
+                $BFX Presale Stage is ALMOST Sold Out
               </h4>
             </div>
-            <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] manrope leading-[120%] tracking-[-2px] text-[#fff] ">
+            <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] leading-[120%] tracking-[-2px] text-[#fff] ">
               The First Crypto <br /> Trading <span
                 style={{
                   background:
@@ -85,7 +85,7 @@ function MobileHero() {
 
            
           </div>
-          <div className="max-w-[450px] pt-[30px] space-y-[27px]">
+          <div className="max-w-[450px] space-y-[27px]">
             <div className="relative flex justify-center">
               <iframe
                 width="100%"
@@ -103,12 +103,12 @@ function MobileHero() {
               <img src={heroicns2} alt="" />
               <img src={heroicns3} alt="" />
             </div>
-            <div>
+            <div className="!my-[8px]">
               <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">Audited and Approved by</p>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <div className="flex flex-col items-center">
-                <img src={uersrev} loading="lazy" alt="reviews" />
+                <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
                 <p className="text-[#fff] font-[400] text-[16px]">
                   Verified Ratings
                 </p>

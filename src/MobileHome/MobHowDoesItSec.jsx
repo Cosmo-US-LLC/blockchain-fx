@@ -59,10 +59,10 @@ function MobHowDoesItSec() {
           alt="ellipse2"
         /> */}
         <div>
-          <h3 className="text-[30px] capitalize leading-[120%] text-[white] text-center tracking-[-1.5px] font-[600]">
+          <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize text-[white] text-center">
             How It Works?
           </h3>
-          <p className="mt-4 text-[15px] text-center text-[#fff] leading-[155.625%] tracking-[-0.16px] font-[400]">
+          <p className="mt-4 font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
             BlockchainFX is a global decentralised exchange where users can
             trade crypto, stocks, forex, ETFs, and more. Every time someone
             trades, 70% of the trading fees go toward the $BFX staking pool,
@@ -73,7 +73,7 @@ function MobHowDoesItSec() {
             limit of $25,000 USDT per day.
           </p>
         </div>
-        <div>
+        <div className="flex justify-center">
           <img src={howtomob} className="object-cover" alt="" />
         </div>
       </div>
