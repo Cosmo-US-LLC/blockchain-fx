@@ -59,6 +59,10 @@ function CreditCardMob() {
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
             Metal or 18 Karat Gold Card
           </li>
+           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
+          <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
+            Top Up with BFX and 20+ Crypto
+          </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
             Up to $100,000 per Transaction
@@ -74,10 +78,6 @@ function CreditCardMob() {
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
             Accepted Worldwide (Online & In-Stores)
-          </li>
-          <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
-          <li className="text-[14px] text-[#fff] ml-3 py-[8px] font-[500]">
-            Top Up with BFX and 20+ Crypto
           </li>
           <div className="w=[100%] h-[0.5px] bg-[#fff]"></div>
           <li className="text-[14px] text-[#fff] ml-3 pt-[8px] font-[500]">
@@ -105,7 +105,7 @@ function CreditCardMob() {
         >
           <img src={card} className="mx-auto max-w-[258px]" alt="" />
         </div>
-        <p className="text-[12px] text-[#FFF] font-[400] text-center leading-[175%] tracking-[-0.32px]">
+        <p className="text-[12px] text-[#FFF] max-w-[315px] mx-auto font-[400] text-center leading-[175%] tracking-[-0.32px]">
           Shipping will begin once the BFX presale ends, as all cards will be
           sent out simultaneously. Every BFX NFT holder will receive a secure
           form after the presale to submit their shipping details. Cards will be

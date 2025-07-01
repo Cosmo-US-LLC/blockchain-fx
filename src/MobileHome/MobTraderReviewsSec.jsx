@@ -122,7 +122,7 @@ function MobTraderReviewsSec() {
                         />
                         <div>
                           <div className="flex items-center space-x-2">
-                            <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
+                            <h3 className="text-[14px] text-[#fff] font-[600] leading-[140%]">
                               {review.user.name}
                             </h3>
                             <img src={tick} alt="" />

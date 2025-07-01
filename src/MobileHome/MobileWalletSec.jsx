@@ -52,7 +52,7 @@ const MobileWalletSec = () => {
           )}
         </div>
         <p
-          className="text-white font-[400] text-[16px] text-center font-inter pb-8"
+          className="text-white font-[400] text-[16px] max-w-[345px] mx-auto text-center font-inter pb-8"
           style={{ lineHeight: "160%", letterSpacing: "-2%" }}
          >
        $BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, where holders receive USDT rewards anytime someone trades,

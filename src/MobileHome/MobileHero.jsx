@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import heroimg from "../assets/herosection/herof.webp";
-import uersrev from "../assets/herosection/Avatar group.png";
+import uersrev from "../assets/herosection/Avatar group.webp";
 import stars from "../assets/herosection/stars.png";
 import arwgrn from "../assets/herosection/arwgrn.svg";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
@@ -15,7 +15,7 @@ import herobnr3 from "../assets/herosection/bnrhero (2).svg";
 import herobnr4 from "../assets/herosection/bnrhero (1).svg";
 
 function MobileHero() {
-  const { t } = useTranslation(); // Hook for translations
+  const { t } = useTranslation();
 
   const handleScroll = () => {
     setTimeout(() => {
@@ -56,18 +56,36 @@ function MobileHero() {
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4> */}
             <div
-              className=" border border-white border-opacity-20  max-w-[480px] w-[100%] mx-auto  justify-center items-center rounded-full"
+              className=" border border-white border-opacity-20 flex space-x-[10px] max-w-[480px] w-[100%] mx-auto  justify-center items-center rounded-full"
               style={{
                 background:
                   " linear-gradient(90deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%)",
               }}
             >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+              >
+                <path
+                  d="M7.0005 0C3.13425 0 0 3.13364 0 6.99875C0 10.8659 3.13425 14 7.0005 14C10.8667 14 14 10.8654 14 6.99875C14 3.13364 10.8667 0 7.0005 0ZM7.0005 13.2831C3.52929 13.2831 0.716973 10.4693 0.716973 6.99825C0.716973 3.52866 3.52929 0.715946 7.0005 0.715946C10.4707 0.715946 13.2835 3.52866 13.2835 6.99825C13.283 10.4693 10.4702 13.2831 7.0005 13.2831Z"
+                  fill="white"
+                />
+                <path d="M7.72099 8L8 3H6L6.27809 8H7.72099Z" fill="white" />
+                <path
+                  d="M7.00624 9C6.41417 9 6 9.4072 6 9.9996C6 10.5706 6.40209 11 6.9837 11H7.00624C7.60958 11 8 10.5706 8 9.9996C7.98954 9.4072 7.59791 9 7.00624 9Z"
+                  fill="white"
+                />
+              </svg>
               <h4 className="text-white font-[600] font-inter px-1 py-2  text-center text-[12px]  uppercase">
                 $BFX Presale Stage is ALMOST Sold Out
               </h4>
             </div>
-            <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] leading-[120%] tracking-[-2px] text-[#fff] ">
-              The First Crypto <br /> Trading <span
+            <h1 className="text-[43px] mb-4 mt-4 text-center font-[700] leading-[120%] tracking-[-2px] text-[#fff] ">
+              The First Crypto <br /> Trading{" "}
+              <span
                 style={{
                   background:
                     "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
@@ -75,15 +93,15 @@ function MobileHero() {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                 }}
-              >Super App</span>
+              >
+                Super App
+              </span>
             </h1>
             <p className="text-[#fff] mb-4  text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]">
               BlockchainFX is a next-gen crypto exchange that connects DeFi with
               traditional financial markets. It’s the only Web3 platform
               offering  access to stocks, forex, ETFs, and more.
             </p>
-
-           
           </div>
           <div className="max-w-[450px] space-y-[27px]">
             <div className="relative flex justify-center">
@@ -103,12 +121,19 @@ function MobileHero() {
               <img src={heroicns2} alt="" />
               <img src={heroicns3} alt="" />
             </div>
-            <div className="!my-[8px]">
-              <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">Audited and Approved by</p>
+            <div className="!mt-[8px]">
+              <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">
+                Audited and Approved by
+              </p>
             </div>
-            <div className="flex items-center justify-center space-x-3">
+            <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
-                <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
+                <img
+                  src={uersrev}
+                  className="object-cover h-[43px]"
+                  loading="lazy"
+                  alt="reviews"
+                />
                 <p className="text-[#fff] font-[400] text-[16px]">
                   Verified Ratings
                 </p>
@@ -131,12 +156,12 @@ function MobileHero() {
                 </p>
               </div>
             </div>
-             <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
+            <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  The First Exchange Bridging Blockchain  and Global Finance
-                  Across 500+ Assets
+                  The First Exchange Bridging Blockchain  and Traditional
+                  Finance Across 500+ Assets
                 </p>
               </div>
               <div className="flex items-center space-x-3">
@@ -149,8 +174,8 @@ function MobileHero() {
               <div className="flex items-center space-x-3">
                 <img src={check} alt="" />
                 <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
-                  BlockchainFX has been awarded as the “The Best New Crypto
-                  Trading App of 2025”
+                  BlockchainFX has been awarded as “The Best New Crypto Trading
+                  App of 2025”
                 </p>
               </div>
             </div>
@@ -209,7 +234,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity h-[17px] w-[142px] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="mix-blend-luminosity h-[17px] w-[175px] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
               src={herobnr1}
               alt="Featured"
             />

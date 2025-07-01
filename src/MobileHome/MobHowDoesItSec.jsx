@@ -66,11 +66,12 @@ function MobHowDoesItSec() {
             BlockchainFX is a global decentralised exchange where users can
             trade crypto, stocks, forex, ETFs, and more. Every time someone
             trades, 70% of the trading fees go toward the $BFX staking pool,
-            buybacks, and token burns. <br />
+            buybacks, and token burns.
             <br />
-            The daily staking rewards depend on how much $BFX someone holds. The
-            more $BFX a person holds, the higher the rewards, with a maximum
-            limit of $25,000 USDT per day.
+            <br />
+            The Daily staking rewards depend on how much $BFX someone holds. The
+            more $BFX a person holds, the higher the rewards, capped at $25,000
+            USDT per day.
           </p>
         </div>
         <div className="flex justify-center">
@@ -82,10 +83,11 @@ function MobHowDoesItSec() {
           <div className="relative grid grid-col-1 gap-y-[20px]">
             {cardItems.map((item, index) => (
               <div
-              style={{
-                border:"1px solid rgba(230, 175, 3, 0.12)"
-              }}
-              className="px-[20px] h-[280px]   rounded-[16px] ">
+                style={{
+                  border: "1px solid rgba(230, 175, 3, 0.12)",
+                }}
+                className="px-[20px] h-[280px]   rounded-[16px] "
+              >
                 <div className="flex flex-row items-center justify-between">
                   <div className="flex justify-center">
                     <img src={item.icon} className="h-[60px]" alt="" />

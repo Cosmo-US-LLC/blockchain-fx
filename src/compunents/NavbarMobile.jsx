@@ -157,7 +157,7 @@ function NavbarMobile() {
 
   return (
     <div className="relative h-[64px]">
-      <div className="fixed w-[100%] bg-[#020B10] z-[999]">
+      <div className="fixed w-[100%] bg-[#020B10] z-[999] border-b-[1px] border-[#262626]">
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-3 2xl:block xl:block lg:block md:block sm:flex 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3">
             <div className="block 2xl:hidden xl:hidden lg:hidden md:hidden sm:block">
