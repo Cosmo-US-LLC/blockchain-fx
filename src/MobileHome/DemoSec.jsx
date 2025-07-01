@@ -20,13 +20,28 @@ function DemoSec() {
       }
     }, 200);
   };
-  const handleScrollreview = () => {
+  
+   const handleScrollToDemo = () => {
     setTimeout(() => {
-      const element = document.getElementById("reviews");
+      const element = document.getElementById("hero");
       if (element) {
         const elementPosition =
           element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 50;
+        const offset = 20;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
+  const handleScrollreview = () => {
+    setTimeout(() => {
+      const element = document.getElementById("hero");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 20;
         window.scrollTo({
           top: elementPosition - offset,
           behavior: "smooth",

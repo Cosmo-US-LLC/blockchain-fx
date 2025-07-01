@@ -48,7 +48,7 @@ function MobileHero() {
   };
 
   return (
-    <div className="pt-[22px] pb-[15px] bg-[#020B10]">
+    <div className="pt-[22px] pb-[15px] bg-[#020B10]" id="hero">
       <div className=" w-[90%] mx-auto ">
         <div className="">
           <div className="flex flex-col ">
@@ -83,7 +83,7 @@ function MobileHero() {
                 $BFX Presale Stage is ALMOST Sold Out
               </h4>
             </div>
-            <h1 className="text-[43px] mb-4 mt-4 text-center font-[700] leading-[120%] tracking-[-2px] text-[#fff] ">
+            <h1 className="text-[43px] mb-4 mt-4 text-center !font-[700] leading-[120%] manrope text-[#fff] ">
               The First Crypto <br /> Trading{" "}
               <span
                 style={{

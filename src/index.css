@@ -13,9 +13,8 @@ code {
   font-family: "Inter", serif !important;
 }
 .manrope {
-  font-family: "Manrope", sans-serif;
+  font-family: "Manrope", sans-serif !important;
   font-optical-sizing: auto;
-  font-weight: 700;
   font-style: normal;
 }
 

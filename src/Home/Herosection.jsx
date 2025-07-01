@@ -42,7 +42,7 @@ function Herosection() {
   };
 
   return (
-    <div className="pt-[55px] pb-[20px] bg-[#020B10]">
+    <div className="pt-[55px] pb-[20px] bg-[#020B10]" id="hero">
       <div className="max-w-[1200px] relative w-[100%] mx-auto ">
         <div className="flex justify-between gap-[2rem]">
           <div className="space-y-[22px] max-w-[638px] w-[100%]">
@@ -149,9 +149,9 @@ function Herosection() {
                 <img src={heroicns3} alt="" />
               </div>
             </div>
-            <div className="flex items-center justify-center space-x-6">
+            <div className="flex items-center justify-center space-x-4">
               <div
-                className="flex items-center flex-col mt-3 py-[18px] space-y-[3px] px-5 rounded-[10px]"
+                className="flex items-center flex-col mt-3 py-[18px] space-y-[4px] px-5 rounded-[10px]"
                 style={{
                   background: "background: rgba(3, 15, 22, 0.30)",
                   border: "1.5px solid rgba(230, 175, 3, 0.30)",

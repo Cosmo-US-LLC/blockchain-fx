@@ -20,6 +20,7 @@ function CryptoExchangemobSec() {
       }
     }, 200);
   };
+   
 
   return (
     <div className="flex items-center bg-[#020B10] pt-[30px]" id="pioneering">
