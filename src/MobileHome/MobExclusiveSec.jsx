@@ -11,14 +11,14 @@ const cardItems = [
     img: excixn1,
     title: "Lowest Price Before Launch",
     description:
-      "Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price.",
+      "Buying during the pre-sale allows you to secure a significant lower price compared to <br/> the BFX launch price.",
   },
   {
     id: "02",
     img: excixn2,
     title: "Receive Limited BFX Visa Card",
     description:
-      "Get a metal or gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide.",
+      "Get a metal or gold BFX Visa credit card with unlimited spending and top-ups, <br/> usable worldwide.",
   },
   {
     id: "03",
@@ -32,7 +32,7 @@ const cardItems = [
     img: excixn4,
     title: "Daily USDT Staking Rewards",
     description:
-      " Start earning daily passive USDT and $BFX rewards automatically from today. The earlier you buy, the more you earn.",
+      " Start earning daily passive USDT and $BFX rewards automatically from today. <br/> The earlier you buy, the more you earn.",
   },
 ];
 
@@ -59,11 +59,12 @@ function MobExclusiveSec() {
                   <img src={item.img} className="max-h-[90px]" alt="" />
                 </div>
                 <h3
-                  className="text-[20px] text-center text-[#FFF] font-[600] tracking-[-1.672px] leading-[120%]"
+                  className="text-[20px] text-center  text-[#FFF] font-[600] tracking-[-1.672px] leading-[120%]"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
-                <h4 className="text-[15px] mx-auto text-center text-[#fff] font-[400] leading-[160%] tracking-[-0.3182px]">
-                  {item.description}
+                <h4 className="text-[15px] mx-auto text-center text-[#fff] font-[400] leading-[160%] tracking-[-0.3182px]"
+                 dangerouslySetInnerHTML={{ __html: item.description }}
+                >
                 </h4>
               </div>
             ))}

@@ -68,7 +68,7 @@ function MobileGatewaySec() {
                     <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
                       <div className="flex items-center justify-center space-x-2">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
-                          High fees with no rewards for users 
+                          High fees with no rewards <br /> for users 
                         </h4>
                       </div>
                     </div>
@@ -89,14 +89,14 @@ function MobileGatewaySec() {
                     </h4>
                   </div>
                   <div className="flex border-t border-[#2B2B2B]">
-                    <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
+                    <div className="w-[50%] py-[3px] border-r border-[#2B2B2B] flex items-center justify-center">
                       <div className="flex items-center justify-center space-x-2">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                           Only crypto-to-crypto trading
                         </h4>
                       </div>
                     </div>
-                    <div className="w-[50%] py-[3px]">
+                    <div className="w-[50%] py-[3px] ">
                       <div className="flex items-center justify-center">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                           Swap instantly between crypto, stocks, forex, commodities, ETFs & more
