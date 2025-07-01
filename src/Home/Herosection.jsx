@@ -3,7 +3,7 @@ import check from "../assets/herosection/check.svg";
 
 // import heroVideo from "../assets/herosection/heroVideo.mp4";
 import heroimg from "../assets/herosection/herof.webp";
-import uersrev from "../assets/herosection/Avatars.png";
+import uersrev from "../assets/herosection/Avatar group.png";
 import stars from "../assets/herosection/stars.png";
 import arwgrn from "../assets/herosection/arwgrn.svg";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
@@ -171,7 +171,7 @@ function Herosection() {
                 <p className="text-[#fff] mb-3 font-inter font-[400] text-[16px]">
                   Verified Ratings
                 </p>
-                <img src={uersrev} loading="lazy" alt="reviews" />
+                <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
               </div>
             </div>
           </div>

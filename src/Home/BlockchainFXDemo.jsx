@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import liveVideo from "../assets/BlockchainFXDemo/bfx-demo.mp4";
-import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
+import ernvet2 from "../assets/BlockchainFXDemo/ellipse2.png";
 import whitepaper from "../assets/Whitepaper/instantSwap.gif";
 
 function BlockchainFXDemo() {
@@ -39,7 +39,7 @@ function BlockchainFXDemo() {
 
   return (
     <div className="flex items-center bg-[#020B10] pt-[50px]" id="desktopDemo">
-      <div className="max-w-[1200px] relative overflow-hidden  w-[100%] mx-auto border-[1px] border-[#575757] bg-[#030F16] relative rounded-[24px] pb-[30px]">
+      <div className="max-w-[1200px] relative overflow-hidden  w-[100%] mx-auto border-[1px] border-[#575757] bg-[#020B10] relative rounded-[24px] pb-[30px]">
         <div className="flex justify-between items-center gap-[2rem]">
           <div className="flex justify-end items-center gap-5 relative z-[99]">
             <div className="w-[45%] space-y-[20px] pl-[70px] py-[60px]">
@@ -86,7 +86,7 @@ function BlockchainFXDemo() {
               </video>
             </div>
           </div>
-          <div className="absolute top-[-8%] left-[-5%]">
+          <div className="absolute top-[-0%] left-[-1%]">
             <img src={ernvet2} alt="BlockchainFX" />
           </div>
         </div>
