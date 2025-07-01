@@ -48,7 +48,7 @@ function ExpertSaysSec() {
                   What Experts Say About BFX
                   </h4>
                 </div>
-                <p className="text-[#fff] text-[24px] font-[500]">
+                <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                 “Imagine getting into Coinbase, or Binance at day one, that’s exactly what BFX is offering right now in its presale.”
                 </p>
                 <img src={stars} alt="" />
@@ -81,7 +81,7 @@ function ExpertSaysSec() {
                   What Experts Say About BFX
                   </h4>
                 </div>
-                <p className="text-[#fff] text-[24px] font-[500]">
+                <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                 “Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”</p>                <img src={stars} alt="" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— Cryto Volt</h3>
@@ -113,7 +113,7 @@ function ExpertSaysSec() {
                     {t("experts.heading")}
                   </h4>
                 </div>
-                <p className="text-[#fff] text-[24px] font-[500]">
+                <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   {t("experts.slide2.text")}
                 </p>
                 <img src={stars} alt="" />
@@ -147,7 +147,7 @@ function ExpertSaysSec() {
                     {t("experts.heading")}
                   </h4>
                 </div>
-                <p className="text-[#fff] text-[24px] font-[500]">
+                <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   {t("experts.slide3.text")}
                 </p>
                 <img src={stars} alt="" />

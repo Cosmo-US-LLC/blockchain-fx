@@ -22,13 +22,13 @@ function BlockchainFXDemo() {
     }, 200);
   };
 
-  const handleScroll2 = () => {
+   const handleScrollreview = () => {
     setTimeout(() => {
-      const element = document.getElementById("insideSec");
+      const element = document.getElementById("hero");
       if (element) {
         const elementPosition =
           element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 130;
+        const offset = 20;
         window.scrollTo({
           top: elementPosition - offset,
           behavior: "smooth",
@@ -36,6 +36,8 @@ function BlockchainFXDemo() {
       }
     }, 200);
   };
+
+ 
 
   return (
     <div className="flex items-center bg-[#020B10] pt-[50px]" id="desktopDemo">
@@ -64,7 +66,7 @@ function BlockchainFXDemo() {
                 </button>
 
                 <button
-                  onClick={handleScroll2}
+                  onClick={handleScrollreview}
                   className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[228px] rounded-[8px] !w-[100%] h-[50px]"
                 >
                   Watch Live Trading Here

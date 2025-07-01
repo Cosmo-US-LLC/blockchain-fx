@@ -21,6 +21,20 @@ function CryptoExchangeSec() {
       }
     }, 200);
   };
+  const handleScrollToDemo = () => {
+    setTimeout(() => {
+      const element = document.getElementById("hero");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 20;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
 
   return (
     <div className="flex items-center bg-[#020B10] pt-[50px]" id="pioneering">
@@ -35,13 +49,13 @@ function CryptoExchangeSec() {
             </h4>
             <p className="text-[#fff] text-[18px] leading-[185%] max-w-[543px] w-[100%] font-[500]">
               BlockchainFX is redefining the future of trading with an
-              all-in-one decentralised platform that lets users trade anything,
-              anywhere —while maintaining full control of their assets. <br /><br /> The
-              platform is currently in beta and will be publicly available soon.
-              It was awarded “The Best New Crypto Trading App of 2025” earlier
-              this year and has received overwhelmingly positive feedback from
-              early users. With the launch of the $BFX presale, holders can now
-              be part of the next major global trading platform.
+              all-in-one decentralised platform where users can trade anything,
+              anywhere —while maintaining full control of their assets. <br />
+              <br />
+              Currently in beta and awarded “Best New Crypto Trading App of
+              2025”, BlockchainFX has already received outstanding feedback from
+              early users. With the $BFX presale, holders can now be part of the
+              next major global trading platform.
             </p>
             <div className="flex justify-start pt-[20px] relative z-[99] pb-[0px] items-center space-x-[17px]">
               <button
@@ -54,12 +68,12 @@ function CryptoExchangeSec() {
               >
                 Buy BFX
               </button>
-               <button
-              // onClick={handleScrollToDemo}
-              className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[222px] rounded-[8px] !w-[100%] h-[50px]"
-            >
-              Watch Live Trading Here
-            </button>
+              <button
+                onClick={handleScrollToDemo}
+                className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[222px] rounded-[8px] !w-[100%] h-[50px]"
+              >
+                Watch Live Trading Here
+              </button>
             </div>
           </div>
         </div>
