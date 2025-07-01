@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import heroimg from "../assets/herosection/herof.webp";
-import uersrev from "../assets/herosection/Avatars.png";
+import uersrev from "../assets/herosection/Avatar group.png";
 import stars from "../assets/herosection/stars.png";
 import arwgrn from "../assets/herosection/arwgrn.svg";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
@@ -77,7 +77,7 @@ function MobileHero() {
                 }}
               >Super App</span>
             </h1>
-            <p className="text-[#fff] mb-4  text-center font-[400] leading-[157%] tracking-[-0.14px] text-[14px]">
+            <p className="text-[#fff] mb-4  text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]">
               BlockchainFX is a next-gen crypto exchange that connects DeFi with
               traditional financial markets. It’s the only Web3 platform
               offering  access to stocks, forex, ETFs, and more.
@@ -209,7 +209,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="mix-blend-luminosity h-[17px] w-[142px] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
               src={herobnr1}
               alt="Featured"
             />

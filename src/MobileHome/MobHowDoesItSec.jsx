@@ -11,7 +11,7 @@ import cardicn2 from "../assets/HowDoesItSec/cardicon (2).webp";
 import cardicn3 from "../assets/HowDoesItSec/cardicon (1).webp";
 import ellipse2 from "../assets/HowDoesItSec/Ellipse 3 (3).png";
 import cardicn6 from "../assets/HowDoesItSec/icns (6) copy.svg";
-import howtomob from "../assets/HowDoesItSec/howtomob.png";
+import howtomob from "../assets/HowDoesItSec/howtomob.webp";
 
 function MobHowDoesItSec() {
   const [swiperIndex, setSwiperIndex] = useState(0);

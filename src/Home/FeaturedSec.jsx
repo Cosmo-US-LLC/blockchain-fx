@@ -24,7 +24,7 @@ function FeaturedSec() {
             </div>
             <div className="flex flex-col items-center space-y-2">
               <a href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/" target="_blank" rel="noopener noreferrer">
-                <img loading="lazy" src={herobnr1} className="w-[145px] h-[24px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
+                <img loading="lazy" src={herobnr1} className="w-[139px] h-[24px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
               </a>
             </div>
             <div className="flex flex-col items-center space-y-2">
