@@ -83,7 +83,7 @@ function MobileHero() {
                 $BFX Presale Stage is ALMOST Sold Out
               </h4>
             </div>
-            <h1 className="text-[43px] mb-4 mt-4 text-center !font-[700] leading-[120%] manrope text-[#fff] ">
+            <h1 className="text-[43px] mb-4 mt-4 text-center font-[600] leading-[120%] font-[sans-serif] text-[#fff] ">
               The First Crypto <br /> Trading{" "}
               <span
                 style={{
