@@ -65,7 +65,10 @@ function LessThanSec() {
                   <p className="text-[#fff] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
                   Commodities: $250 Billion (2.59%)
                   </p>
-                  <p className="text-[#F3D885] py-1 px-2 border border-[#F6CE69] absolute top-[35%] left-[7%] rounded-[5px]  text-[26px] font-[700] tracking-[-0.787px]">
+                   <p className="text-[#fff] absolute top-[33%] left-[16%] text-[15px] font-[700] tracking-[-0.787px]">
+                  ETFs: $150B (1.53%)
+                  </p>
+                  <p className="text-[#F3D885] py-1 px-2 border border-[#F6CE69] absolute top-[50%] left-[7%] rounded-[5px]  text-[26px] font-[700] tracking-[-0.787px]">
                   Crypto: $89 Billion (0.87%)
                   </p>
                   <p className="text-[#fff] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">

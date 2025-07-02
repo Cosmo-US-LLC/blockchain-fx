@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import heroimg from "../assets/herosection/herof.webp";
 import uersrev from "../assets/herosection/Avatar group.webp";
-import stars from "../assets/herosection/stars.png";
+import stars from "../assets/herosection/stars (2).webp";
 import arwgrn from "../assets/herosection/arwgrn.svg";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
 import heroicns2 from "../assets/herosection/herosvg (3).svg";
@@ -121,11 +121,11 @@ function MobileHero() {
               <img src={heroicns2} alt="" />
               <img src={heroicns3} alt="" />
             </div>
-            <div className="!mt-[8px]">
+            {/* <div className="!mt-[8px]">
               <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">
                 Audited and Approved by
               </p>
-            </div>
+            </div> */}
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
                 <img
@@ -146,7 +146,7 @@ function MobileHero() {
                 }}
               >
                 <img
-                  className="w-[82px] h-[15px]"
+                  className="w-[82px]"
                   loading="lazy"
                   src={stars}
                   alt="star"
@@ -157,7 +157,7 @@ function MobileHero() {
               </div>
             </div>
             <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
-              <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
+              <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   The First Exchange Bridging Blockchain  and Traditional

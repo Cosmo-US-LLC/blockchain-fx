@@ -96,18 +96,22 @@ function StandoutSec() {
 
   return (
     <div className="py-[50px] px-[60px] bg-[#020B10]">
-      <div className="max-w-[1200px] py-[50px] relative overflow-hidden bg-[#030F16] rounded-[16px] space-y-[26px] w-[100%] flex flex-col mx-auto"
-       style={{
-        border: "1px solid #2B2B2B"
-        // box-shadow: 0px 5.336px 26.68px 0px rgba(169, 169, 169, 0.30);
-      }}
+      <div
+        className="max-w-[1200px] py-[50px] relative overflow-hidden bg-[#030F16] rounded-[16px] space-y-[26px] w-[100%] flex flex-col mx-auto"
+        style={{
+          border: "1px solid #2B2B2B",
+          // box-shadow: 0px 5.336px 26.68px 0px rgba(169, 169, 169, 0.30);
+        }}
       >
         <div className="space-y-[14px]">
           <h3 className="text-[40px] font-[700] text-center leading-[48px] text-[#ffff] tracking-[-1px]">
-          Standout Features
+            Standout Features
           </h3>
           <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
-          Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, <br /> offers unique features that bring real value to the market.
+            Cryptocurrencies from exchanges have historically performed well due
+            to their active user base, platform revenue, and ongoing marketing.
+            BFX, the first token from a multi-asset trading platform, <br />{" "}
+            offers unique features that bring real value to the market.
           </p>
         </div>
         <div className="max-w-[1080px] w-full mx-auto">
@@ -119,7 +123,11 @@ function StandoutSec() {
                   <th className="border !border-b-[#A6A6A6] border-[#EAB91F] bg-[#a6a6a638] px-4 py-4">
                     <div className="flex  flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px]" src={coin1} alt="best crypto presales to buy now" />
+                        <img
+                          className="w-[58px] h-[58px]"
+                          src={coin1}
+                          alt="best crypto presales to buy now"
+                        />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         BlockchainFX
@@ -129,7 +137,11 @@ function StandoutSec() {
                   <th className="border-b border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px]" src={coin2} alt="best crypto presales to buy now" />
+                        <img
+                          className="w-[58px] h-[58px]"
+                          src={coin2}
+                          alt="best crypto presales to buy now"
+                        />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Bitget
@@ -139,7 +151,11 @@ function StandoutSec() {
                   <th className="border-b  border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px]" src={coin3} alt="best crypto presales to buy now" />
+                        <img
+                          className="w-[58px] h-[58px]"
+                          src={coin3}
+                          alt="best crypto presales to buy now"
+                        />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Hyperliquid
@@ -149,7 +165,11 @@ function StandoutSec() {
                   <th className="border-b  border-[#A6A6A6] px-4 py-4">
                     <div className="flex flex-col itens-center justify-center space-y-2">
                       <div className="flex justify-center items-center">
-                        <img className="w-[58px] h-[58px] object-cover" src={coin4} alt="best crypto presales to buy no" />
+                        <img
+                          className="w-[58px] h-[58px] object-cover"
+                          src={coin4}
+                          alt="best crypto presales to buy no"
+                        />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
                         Uniswap
@@ -158,14 +178,16 @@ function StandoutSec() {
                   </th>
                 </tr>
               </thead>
-              <tbody >
+              <tbody>
                 {tableData.map((row, rowIndex) => (
                   <tr key={rowIndex} className="!h-[51px]">
                     {Object.entries(row).map(([key, value], colIndex) => (
                       <td
                         key={key}
                         className={` px-4 py-[13px] !h-[70px] border-b border-[#a6a6a638] ${
-                          colIndex === 1 ? "text-[14.7px] border !border-b-[#A6A6A6] !border-t-[#A6A6A6] border-[#EAB91F] bg-[#a6a6a638] !border-r !border-r-[#EAB91F] !border-l !border-l-[#EAB91F]" : ""
+                          colIndex === 1
+                            ? "text-[14.7px] border !border-b-[#A6A6A6] !border-t-[#A6A6A6] border-[#EAB91F] bg-[#a6a6a638] !border-r !border-r-[#EAB91F] !border-l !border-l-[#EAB91F]"
+                            : ""
                         } ${
                           rowIndex <= 2 && colIndex >= 1 && colIndex <= 4
                             ? "text-[16px] text-[#fff] font-[600] text-center !w-[225px]"
@@ -180,7 +202,11 @@ function StandoutSec() {
                               ? "border-l-0 border-b-0"
                               : colIndex === tableData[0].length - 1
                               ? "!border-r-0 border-b-0 border-l-0"
-                              : "border-b-0 border-r-0"
+                              : "!border-b-0  border-r-0"
+                            : ""
+                        } ${
+                          rowIndex === tableData.length - 1 && colIndex === 1
+                            ? "!border-b-[1px] !border-b-[#EAB91F]"
                             : ""
                         }`}
                       >
@@ -202,11 +228,11 @@ function StandoutSec() {
           </div>
         </div>
         <div className="absolute top-[-8%] left-[-5%]">
-                            <img src={ernvet2} className=" " alt="" />
-                          </div>
-                          <div className="absolute bottom-[0%] right-[0%]">
-                            <img src={ernvet1} className="" alt="" />
-                          </div>
+          <img src={ernvet2} className=" " alt="" />
+        </div>
+        <div className="absolute bottom-[0%] right-[0%]">
+          <img src={ernvet1} className="" alt="" />
+        </div>
       </div>
     </div>
   );
