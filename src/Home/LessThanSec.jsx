@@ -57,13 +57,13 @@ function LessThanSec() {
                     />
                   </div>
                   <p className="text-[#fff] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
-                  Bonds: $1.1 Trillion (11.42%)
+                  Bonds: $1.1 Trillion (11.64%)
                   </p>
                   <p className="text-[#fff] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
-                  U.S. Stocks: $700 Billion (7.27%)
+                  U.S. Stocks: $700 Billion (7.15%)
                   </p>
                   <p className="text-[#fff] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
-                  Commodities: $250 Billion (2.59%)
+                  Commodities: $250 Billion (2.55%)
                   </p>
                    <p className="text-[#fff] absolute top-[33%] left-[16%] text-[15px] font-[700] tracking-[-0.787px]">
                   ETFs: $150B (1.53%)
@@ -72,7 +72,7 @@ function LessThanSec() {
                   Crypto: $89 Billion (0.87%)
                   </p>
                   <p className="text-[#fff] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
-                    Forex: $7.5 Trillion (77.85%)
+                    Forex: $7.5 Trillion (76.62%)
                   </p>
                 </div>
                 <div className="max-w-[887px] pt-[0px] flex justify-between items-center mx-auto w-[100%]">
@@ -98,6 +98,12 @@ function LessThanSec() {
                     <div className="w-[30px] h-[30px] bg-[#7DBB6C] rounded-[4px]"></div>
                     <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
                       Commodities
+                    </p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-[30px] h-[30px] bg-[#D39219] rounded-[4px]"></div>
+                    <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
+                      ETFs
                     </p>
                   </div>
                   <div className="flex items-center space-x-2">
