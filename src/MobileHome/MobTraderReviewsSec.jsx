@@ -110,8 +110,8 @@ function MobTraderReviewsSec() {
                   returnObjects: true,
                 }).map((review, index) => (
                   <SwiperSlide key={index}>
-                    <div className="bg-[#030F16] border-[1px] border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] rounded-[4px] max-w-[265.388px] mx-auto space-y-[30px] relative">
-                      <p className="h-[100px] text-[14px] font-[400] leading-[175%] text-[#fff]">
+                    <div className="bg-[#030F16] border-[1px] border-[#525252] py-[45px] pb-[51px] min-h-[208px] flex flex-col justify-between pl-[40px] pr-[16px] rounded-[4px] max-w-[290.388px] mx-auto space-y-[30px] relative">
+                      <p className=" text-[14px] font-[400] leading-[175%] text-[#fff]">
                         {review.text}
                       </p>
                       <div className="flex items-center space-x-2">

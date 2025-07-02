@@ -9,7 +9,7 @@ import heroicns2 from "../assets/herosection/herosvg (3).svg";
 import heroicns3 from "../assets/herosection/herosvg (2).svg";
 import check from "../assets/herosection/check.svg";
 
-import herobnr1 from "../assets/herosection/bnrhero (4).svg";
+import herobnr1 from "../assets/herosection/bnrhero (2).webp";
 import herobnr2 from "../assets/herosection/bnrhero (3).svg";
 import herobnr3 from "../assets/herosection/bnrhero (2).svg";
 import herobnr4 from "../assets/herosection/bnrhero (1).svg";
@@ -157,21 +157,21 @@ function MobileHero() {
               </div>
             </div>
             <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   The First Exchange Bridging Blockchain  and Traditional
                   Finance Across 500+ Assets
                 </p>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   Bitcoin, Ethereum, Gold, Stocks, Forex,  ETFs, Options,
                   Futures, all in one place
                 </p>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
                   BlockchainFX has been awarded as “The Best New Crypto Trading
@@ -232,9 +232,10 @@ function MobileHero() {
             href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/"
             target="_blank"
             rel="noopener noreferrer"
+            className="min-w-[90px] max-w-[90px]"
           >
             <img
-              className="mix-blend-luminosity h-[17px] w-[175px] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="mix-blend-luminosity w-[100%] h-[100%] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
               src={herobnr1}
               alt="Featured"
             />

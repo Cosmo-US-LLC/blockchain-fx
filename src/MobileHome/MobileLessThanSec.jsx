@@ -115,6 +115,12 @@ function MobileLessThanSec() {
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
+                  <div className="w-[57px] h-[31px] bg-[#D39219] rounded-[4px]"></div>
+                  <p className="text-[#fff] text-[14px] capitalize font-[600] tracking-[0.247px]">
+                  ETFs
+                  </p>
+                </div>
+                  <div className="flex items-center space-x-2">
                   <div className="w-[57px] h-[31px] bg-[#A36E00] rounded-[4px]"></div>
                   <p className="text-[#fff] text-[14px] capitalize font-[600] tracking-[0.247px]">
                   Crypto

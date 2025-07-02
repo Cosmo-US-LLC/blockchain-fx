@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
 
-import whitepaper from "../assets/Whitepaper/whitepaperbook.png";
+import whitepaper from "../assets/Whitepaper/whitepaper.webp";
 import vector from "../assets/EarnOnSec/Ellipse 4.png";
 
 export default function WhitepaperMob() {
@@ -51,7 +51,7 @@ export default function WhitepaperMob() {
           <button
             onClick={() =>
               window.open(
-                "https://vip.blockchainfx.com/BFX-Whitepaper.pdf",
+                "https://blockchainfx.com/BFX-Whitepaper.pdf?_gl=1*6ya1sw*_gcl_au*Mzg3MTA3OTg2LjE3NDY2MDM5MTA.",
                 "_blank"
               )
             }

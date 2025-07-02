@@ -19,7 +19,7 @@ export default function YoutubeSec() {
       meta: "Crypto Youtuber, 136K Followers",
     },
     {
-      description: "experts.slide1.text",
+      description: "“Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”",
       link: "https://fast.wistia.net/embed/iframe/aa3tldcsf0",
       id: "big_pottential",
       dealer: "experts.slide1.name",
