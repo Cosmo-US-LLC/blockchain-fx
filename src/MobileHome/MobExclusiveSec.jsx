@@ -2,7 +2,7 @@ import React from "react";
 
 import excixn1 from "../assets/ExclusiveSec/excixn (1).webp";
 import excixn2 from "../assets/ExclusiveSec/excixn5.webp";
-import excixn3 from "../assets/ExclusiveSec/excixn (3).svg";
+import excixn3 from "../assets/ExclusiveSec/Vector (1).webp";
 import excixn4 from "../assets/ExclusiveSec/excixn (4).webp";
 
 const cardItems = [
@@ -56,7 +56,7 @@ function MobExclusiveSec() {
                 }}
               >
                 <div className="max-h-[127px] flex justify-center items-center">
-                  <img src={item.img} className="max-h-[120px]" alt="" />
+                  <img src={item.img} className="max-h-[120px] " alt="" />
                 </div>
                 <h3
                   className="text-[20px] text-center  text-[#FFF] font-[600] tracking-[-1.672px] leading-[120%]"
