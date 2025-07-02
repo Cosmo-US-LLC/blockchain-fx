@@ -152,7 +152,7 @@ function MobileHero() {
                   alt="star"
                 />
                 <p className="text-[#fff] font-[400] text-[17.702px]">
-                  4.87/5{" "}
+                  4.87/5
                 </p>
               </div>
             </div>

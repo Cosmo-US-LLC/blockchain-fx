@@ -71,16 +71,13 @@ function MobileLessThanSec() {
                   <img src={graph || "/placeholder.svg"} className="max-w-[205px] max-h-[205px]" alt="" />
                 </div>
                 <p className="text-[#fff] top-[-14%] left-[41%] absolute leading-[110%] text-[12px] font-[500] tracking-[-0.787px]">
-                Bonds: <br /> $1.1 Trillion 
-                (11.42%)
+                Bonds: <br /> $1.1 Trillion (11.64%)
                 </p>
                 <p className="text-[#fff] leading-[110%] absolute top-[-1%] left-[14%] text-[12px] font-[500] tracking-[-0.787px]">
-                U.S. Stocks: <br /> $700B
-                (7.27%)
+                U.S. Stocks: <br /> $700 Billion (7.15%)
                 </p>
                 <p className="text-[#fff] leading-[110%] absolute top-[14%] left-[5%] text-[12px] font-[500] tracking-[-0.787px]">
-                Commodities: <br /> 
-                $250B (2.59%)
+                Commodities: <br /> $250 Billion (2.55%)
                 </p>
                  <p className="text-[#fff] leading-[110%] absolute top-[33%] left-[3%] text-[12px] font-[500] tracking-[-0.787px]">
                ETFs: $150B (1.53%)
@@ -91,7 +88,7 @@ function MobileLessThanSec() {
                 </p>
                
                 <p className="text-[#fff] leading-[110%] absolute bottom-[-19%] right-[13%] text-[12px] font-[500] tracking-[-0.787px]">
-                Forex: $7.5 trillion (77.85%)
+                Forex: $7.5 Trillion (76.62%)
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-y-[3rem] pt-[20px] mx-auto w-[100%]">
