@@ -102,7 +102,7 @@ function MobHowDoesItSec() {
                     {item.title}
                   </h3>
                 </div>
-                <h4 className="mt-2 text-[16px] text-left text-[#fff] font-[400] leading-[153.333%]">
+                <h4 className="mt-2 text-[16px] max-w-[325px] text-left text-[#fff] font-[400] leading-[153.333%]">
                   {item.description}
                 </h4>
               </div>
