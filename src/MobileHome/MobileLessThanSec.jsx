@@ -82,9 +82,14 @@ function MobileLessThanSec() {
                 Commodities: <br /> 
                 $250B (2.59%)
                 </p>
-                <p className="text-[#F3D885] p-2 border border-[#E5AE00] rounded-[5px] leading-[110%] absolute top-[35%] left-[0%] text-[12px] font-[900] tracking-[-0.383px]">
+                 <p className="text-[#fff] leading-[110%] absolute top-[33%] left-[3%] text-[12px] font-[500] tracking-[-0.787px]">
+               ETFs: $150B (1.53%)
+                </p>
+                
+                <p className="text-[#F3D885] p-2 border border-[#E5AE00] rounded-[5px] leading-[110%] absolute top-[50%] left-[0%] text-[12px] font-[900] tracking-[-0.383px]">
                 Crypto: <br /> $89B (0.87%)
                 </p>
+               
                 <p className="text-[#fff] leading-[110%] absolute bottom-[-19%] right-[13%] text-[12px] font-[500] tracking-[-0.787px]">
                 Forex: $7.5 trillion (77.85%)
                 </p>
