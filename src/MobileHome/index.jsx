@@ -41,7 +41,6 @@ import BiggestbuyMobSec from "./BiggestbuyMobSec";
 function MobileHome() {
   return (
     <div className="bg-[#020B10] w-[100%]">
-
       <MobileHero />
       {/* <InsideSecmob /> */}
       <MobileWalletSec />

@@ -41,7 +41,7 @@ const cardsmob = [
         text: "10% BFX Bonus",
         icon: tick,
         tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard.",
+          "Buy this NFT and get extra BFX coins added to your wallet.",
       },
       {
         text: "BFX Staking Rewards",
@@ -81,7 +81,7 @@ const cardsmob = [
         text: "20% BFX Bonus",
         icon: tick,
         tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard.",
+          "Buy this NFT and get extra BFX coins added to your wallet.",
       },
       {
         text: "BFX Staking Rewards",
@@ -121,7 +121,7 @@ const cardsmob = [
         text: "30% BFX Bonus",
         icon: tick,
         tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard.",
+          "Buy this NFT and get extra BFX coins added to your wallet.",
       },
       {
         text: "BFX Staking Rewards",
@@ -161,7 +161,7 @@ const cardsmob = [
         text: "40% BFX Bonus",
         icon: tick,
         tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard.",
+          "Buy this NFT and get extra BFX coins added to your wallet.",
       },
       {
         text: "BFX Staking Rewards",
@@ -202,7 +202,7 @@ const cardsmob = [
         text: "50% BFX Bonus",
         icon: tick,
         tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard.",
+          "Buy this NFT and get extra BFX coins added to your wallet.",
       },
       {
         text: "BFX Staking Rewards",
@@ -242,7 +242,7 @@ const cardsmob = [
         text: "60% BFX Bonus",
         icon: tick,
         tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard.",
+          "Buy this NFT and get extra BFX coins added to your wallet.",
       },
       {
         text: "BFX Staking Rewards",
@@ -284,7 +284,7 @@ const cardsmob = [
         text: "80% BFX Bonus",
         icon: tick,
         tooltip:
-          "Buy this NFT and get extra BFX coins added to your dashboard.",
+          "Buy this NFT and get extra BFX coins added to your wallet.",
       },
       {
         text: "BFX Staking Rewards",

@@ -60,7 +60,7 @@ function Herosection() {
                 Super App
               </span>
             </h1>
-            <p className="text-[#fff] max-w-[517px] w-[100%] font-[400] font-inter leading-[150%] text-[16px]">
+            <p className="text-[#fff] max-w-[517px] py-[10px] w-[100%] font-[400] font-inter leading-[133.333%] text-[18px]">
               BlockchainFX is a next-gen crypto exchange that connects DeFi
                with traditional financial markets. It’s the only Web3 platform
                offering access to stocks, forex, ETFs, and more.
@@ -138,7 +138,7 @@ function Herosection() {
               How it works?
             </button>
           </div>
-          <div className="flex items-center justify-between space-x-2 max-w-[680px] w-[100%]">
+          <div className="flex mt-[-15px] items-center justify-between space-x-2 max-w-[680px] w-[100%]">
             <div>
               <h3 className="text-[#fff] mb-3 font-inter leading-[185%] font-[400] text-center text-[16px]">
                 Audited and Approved by
