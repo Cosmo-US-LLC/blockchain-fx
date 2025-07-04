@@ -138,9 +138,9 @@ function Herosection() {
               How it works?
             </button>
           </div>
-          <div className="flex mt-[-15px] items-center justify-between space-x-2 max-w-[680px] w-[100%]">
+          <div className="flex mt-[-15px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">
             <div>
-              <h3 className="text-[#fff] mb-3 font-inter leading-[185%] font-[400] text-center text-[16px]">
+              <h3 className="text-[#fff] mb-[18px] font-inter leading-[185%] font-[400] text-center text-[16px]">
                 Audited and Approved by
               </h3>
               <div className="flex justify-center items-center space-x-[15px]">
@@ -150,28 +150,24 @@ function Herosection() {
               </div>
             </div>
             <div className="flex items-center justify-center space-x-4">
-              <div
-                className="flex items-center flex-col mt-3 py-[18px] space-y-[4px] px-5 rounded-[10px]"
-                style={{
-                  background: "background: rgba(3, 15, 22, 0.30)",
-                  border: "1.5px solid rgba(230, 175, 3, 0.30)",
-                }}
+              <div className="">
+                <p className="text-[#fff] mb-2 font-inter font-[400] text-[16px]">
+                  Verified Ratings
+                </p>
+                <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
+                 <div
+                className="flex items-center mt-3 justify-center space-x-[10px] rounded-[10px]"
               >
+                <p className="text-[#fff] font-[400] text-[17.7px] leading-[100%]">
+                  4.87/5{" "}
+                </p>
                 <img
                   className="w-[82px] h-[15px]"
                   loading="lazy"
                   src={stars}
                   alt="star"
                 />
-                <p className="text-[#fff] font-[400] text-[16px] leading-[100%]">
-                  4.87/5{" "}
-                </p>
               </div>
-              <div className="flex flex-col items-center">
-                <p className="text-[#fff] mb-3 font-inter font-[400] text-[16px]">
-                  Verified Ratings
-                </p>
-                <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
               </div>
             </div>
           </div>
