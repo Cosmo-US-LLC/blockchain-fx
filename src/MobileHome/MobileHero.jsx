@@ -83,7 +83,7 @@ function MobileHero() {
                 $BFX Presale Stage is ALMOST Sold Out
               </h4>
             </div>
-            <h1 className="text-[43px] mb-4 mt-4 text-center font-[600] leading-[120%] font-[sans-serif] text-[#fff] ">
+            <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] tracking-[-2px] leading-[120%] font-inter text-[#fff] ">
               The First Crypto <br /> Trading{" "}
               <span
                 style={{
@@ -121,11 +121,11 @@ function MobileHero() {
               <img src={heroicns2} alt="" />
               <img src={heroicns3} alt="" />
             </div>
-            {/* <div className="!mt-[8px]">
+            <div className="!mt-[8px]">
               <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">
                 Audited and Approved by
               </p>
-            </div> */}
+            </div>
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
                 <img
@@ -171,10 +171,10 @@ function MobileHero() {
                   Futures, all in one place
                 </p>
               </div>
-              <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
+              <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
-                  BlockchainFX has been awarded as “The Best New Crypto Trading
+                  BlockchainFX has been awarded as <br /> “The Best New Crypto Trading
                   App of 2025”
                 </p>
               </div>

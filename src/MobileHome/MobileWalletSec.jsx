@@ -70,6 +70,7 @@ const MobileWalletSec = () => {
         <div className="flex flex-col justify-between gap-8 md:flex-row">
           <Widget />
           <div
+          id="how-to-buy"
             className="max-w-[413.763px] space-y-[10px] relative rounded-[20px] px-[10px] pt-[22px] pb-[11px] border border-white w-full mx-auto"
             style={{
               background:
