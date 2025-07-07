@@ -156,7 +156,7 @@ function MobileHero() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col gap-2 border border-[#C0C0C0] py-5 px-3 rounded-[13px]">
+            <div className="flex flex-col gap-2 border border-[#C0C0C0] !mt-[20px] py-5 px-3 rounded-[13px]">
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">

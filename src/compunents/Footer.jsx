@@ -143,14 +143,14 @@ function Footer() {
           <div className="max-w-[285px] space-y-[10px] w-[100%] pt-[12px]">
             <h4 className="text-white text-[20px] font-[600] leading-[120%]">{footer.socials.title}</h4>
             <div className="flex space-x-6 pt-[10px] pb-[20px]">
-              <a
+              {/* <a
                 href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-110"
               >
                 <img src={socil1 || "/placeholder.svg"} alt="" />
-              </a>
+              </a> */}
               <a
                 href="https://t.me/blockchainfx_chat"
                 target="_blank"
@@ -286,14 +286,14 @@ function Footer() {
           <div className="max-w-[285px] space-y-[25px] pt-[3px] w-[100%] ">
             <h4 className="text-[#fff] text-[16px] font-[600] leading-[108.333%]">{footer.socials.title}</h4>
             <div className="flex space-x-6">
-              <a
+              {/* <a
                 href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-110"
               >
                 <img className="w-[24px] h-[24px]" src={socil1 || "/placeholder.svg"} alt="" />
-              </a>
+              </a> */}
               <a
                 href="https://t.me/blockchainfx_chat"
                 target="_blank"
