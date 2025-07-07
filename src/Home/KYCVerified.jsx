@@ -23,7 +23,8 @@ company, audited BlockchainFX and confirmed <br /> it meets the highest security
     {
       img: icn3,
       title: "Team KYC Verified by Solidproof",
-      description: "The BlockchainFX team has been successfully verified by Solidproof, a reputable auditing company from Germany."
+      description: 
+      <p>"The BlockchainFX team has been successfully verified by Solidproof, a reputable auditing company from Germany.</p>
     }
   ];
 

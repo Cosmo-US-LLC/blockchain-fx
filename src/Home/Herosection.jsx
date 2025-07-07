@@ -151,7 +151,7 @@ function Herosection() {
             </div>
             <div className="flex items-center justify-center space-x-4">
               <div className="">
-                <p className="text-[#fff] mb-2 font-inter font-[400] text-[16px]">
+                <p className="text-[#fff] text-center mb-2 font-inter font-[400] text-[16px]">
                   Verified Ratings
                 </p>
                 <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
