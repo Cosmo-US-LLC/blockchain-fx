@@ -15,134 +15,28 @@ import tick from "../assets/TraderReviewsSec/teenyicons_tick-circle-solid.svg";
 import swpbtnl from "../assets/TraderReviewsSec/arwr.svg";
 import swpbtnr from "../assets/TraderReviewsSec/arw.svg";
 
-const ratings = {
-  "average": "4.87 out of 5",
-  "verified_ratings": "1000+ Verified Ratings",
-  "rating_bars": [
-    {
-      "rating": 5,
-      "percentage": 86
-    },
-    {
-      "rating": 4,
-      "percentage": 8
-    },
-    {
-      "rating": 3,
-      "percentage": 3
-    },
-    {
-      "rating": 2,
-      "percentage": 2
-    },
-    {
-      "rating": 1,
-      "percentage": 1
-    }
-  ]
-}
-
-const reviews = [
-  {
-    "text": "Finally, a platform that gets it right! I traded CFDs, bought APPLE stocks, sold them for GBY, and grabbed some $PEPE, all within 30 minutes. Highly recommend it for both beginners and pros!",
-    "user": {
-      "name": "Lacoste.btc",
-      "followers": "@Lacostebtc 35.1K followers",
-      "link": "https://x.com/cryptobri_/status/1901419367289512075",
-      "image": "usern",
-      "reviewLink": "View X Review"
-    }
-  },
-  {
-    "text": "Trading on 9 different windows and having access to dozens of trading analytic tools and risk management is giving me a long-term edge over the competition trading on other platforms.",
-    "user": {
-      "name": "Mr 𝕏",
-      "followers": "@MrX_Crypto • 472K followers",
-      "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
-      "image": "user1",
-      "reviewLink": "View X Review"
-
-    }
-  },
-  {
-    "text": "BlockchainFX gives you endless trading opportunities. This just makes sense since markets are interconnected. Finally, there's no need to waste time switching between brokers.",
-    "user": {
-      "name": "Silvina Escudero",
-      "followers": "@silvinaescudero • 863K followers",
-      "link": "https://x.com/silvinaescudero/status/1900845896302027108",
-      "image": "user2",
-      "reviewLink": "View X Review"
-
-    }
-  },
-  {
-    "text": "The best part about BlockchainFX? The deep liquidity across all assets. I've never had an issue filling large orders, even with niche crypto pairs. This is exactly what serious traders need—speed, reliability, and a wide range of markets all in one place.",
-    "user": {
-      "name": "DefiAva🦋",
-      "followers": "@defi_avaxx • 30.3K followers",
-      "link": "https://x.com/defi_avaxx/status/1900847259874627732",
-      "image": "user3",
-      "reviewLink": "View X Review"
-
-    }
-  },
-  {
-    "text": "BlockchainFX has completely leveled up my trading game. It's super intuitive, lets you access multiple markets simultaneously, and offers lightning-fast transactions. A huge win for crypto!",
-    "user": {
-      "name": "Honey.Eth",
-      "followers": "@HoneyEth_ • 121.8K followers",
-      "link": "https://x.com/HoneyEth_/status/1900870121477820837",
-      "image": "user4",
-      "reviewLink": "View X Review"
-
-    }
-  },
-  {
-    "text": "That's exactly what we needed. A trading broker designed to bridge Crypto with Forex, ETFs, and stocks, giving you real access to the markets with deep liquidity.",
-    "user": {
-      "name": "Crypto Bri",
-      "followers": "@cryptobri_ • 79.6K followers",
-      "link": "https://x.com/cryptobri_/status/1901419367289512075",
-      "image": "user5",
-      "reviewLink": "View X Review"
-
-    }
-  }
-]
-const assets = {
-  "user_images": [
-    "rew (5).png",
-    "rew (4).png",
-    "rew (3).png",
-    "rew (2).png",
-    "rew (1).png",
-    "user.png"
-  ],
-  "icons": {
-    "tick": "teenyicons_tick-circle-solid.svg",
-    "swiper_left": "arwr.svg",
-    "swiper_right": "arw.svg"
-  }
-};
-
-const userImages = {
-  user1,
-  user2,
-  user3,
-  user4,
-  user5,
-  usern,
-};
-
 function TraderReviewsSec() {
   const { t } = useTranslation();
+  const ratings = t("trader_reviews_section.ratings", { returnObjects: true });
+  const reviews = t("trader_reviews_section.reviews", { returnObjects: true });
+  const assets = t("trader_reviews_section.assets", { returnObjects: true });
+
+  const userImages = {
+    user1,
+    user2,
+    user3,
+    user4,
+    user5,
+    usern,
+  };
+
   return (
     <div className="bg-[#020B10]">
       <div className="text-center pt-[30px] pb-[60px]">
         <h3
           className="text-[48px] review font-[600] leading-[120%] text-white tracking-[-1.5px]"
-        >
-          What Traders Say About <span>BlockchainFX</span> </h3>
+          dangerouslySetInnerHTML={{ __html: t("trader_reviews_section.title") }}
+        />
       </div>
       <div className="pt-[80px] pb-[100px] max-w-[1200px] w-[100%] mx-auto px-4" id="reviews">
         <div className="space-y-[50px]">

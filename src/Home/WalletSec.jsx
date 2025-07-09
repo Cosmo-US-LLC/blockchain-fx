@@ -54,7 +54,7 @@ const WalletSec = () => {
         <div className="pb-[20px]">
           <div className="flex justify-center space-x-3 items-center">
             <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
-            BFX Presale
+              {t("wallet_section.title")}
             </h3>
             {/* {!apiData.presaleEnded && (
             <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
@@ -83,7 +83,7 @@ const WalletSec = () => {
             </div>
           </div>
           <p className="text-[18px] font-[400] max-w-[730px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]"  >
-         BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, <br /> where holders receive USDT rewards anytime someone trades — even during the presale.
+            <span dangerouslySetInnerHTML={{ __html: t("wallet_section.description") }} />
           </p>
         </div>
 
@@ -95,7 +95,7 @@ const WalletSec = () => {
             }}
           >
             <h4 className="text-center text-[#444] text-[24px] font-[700]">
-              Presale Ended
+              {t("wallet_section.presale_ended")}
             </h4>
           </div>
         )}
@@ -196,7 +196,7 @@ const WalletSec = () => {
               <div className="max-w-[414px] px-[6px] pt-[14px] pb-[16px] border border-[#545454] w-[100%] mx-auto ">
                 <div className="flex flex-col gap-[10px]">
                   <h4 className="text-start text-[#808080] text-[9.875px] leading-[75%] font-[600]">
-                  {t("wallet_section.exchanges")} 
+                    {t("wallet_section.exchanges")}
                   </h4>
                   <div className="flex justify-center gap-[8px] flex-wrap">
                     <div
@@ -211,7 +211,7 @@ const WalletSec = () => {
                         alt=""
                       />
                       <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
-                        UNISWAP
+                        {t("wallet_section.uniswap")}
                       </h4>
                     </div>
                     <div

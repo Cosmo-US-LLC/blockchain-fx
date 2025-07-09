@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import ernvet1 from "../assets/BiggestBuy/biggest_bg.png";
+import { useTranslation } from "react-i18next";
 
 export default function BiggestBuy() {
+  const { t } = useTranslation();
   const [showMore, setShowMore] = useState(false);
 
   const tableData = [
@@ -118,11 +120,10 @@ export default function BiggestBuy() {
       <div className="px-6 py-[30px] w-full max-w-[1200px] overflow-hidden relative min-h-[550px]  rounded-[16px] bg-[#030F16] border-[1px] border-[#575757]">
         <div className="flex flex-col justify-center items-center relative z-10 space-y-[29px] mb-[25px]">
           <h4 className="text-[40px] font-[800] text-white leading-[120%]">
-            Biggest Buy-In Competition
+            {t("biggest_buy.title")}
           </h4>
           <p className="text-[18px] text-white font-[400] leading-[150%] w-[980px]">
-          The top 10 BFX presale buyers will receive a share of a 100,000 USD prize pool in $BFX. This competition is our way
-of thanking those who contributed the most and played a major role in the growth of the BlockchainFX ecosystem.
+            {t("biggest_buy.description")}
           </p>
         </div>
 
@@ -131,13 +132,13 @@ of thanking those who contributed the most and played a major role in the growth
           <table className="w-full text-white table-auto">
             <thead>
               <tr className="text-[#E5AE00] font-[700] text-left">
-                <th className="px-4 py-2 text-center">Rank</th>
-                <th className="px-4 py-2 text-center">Wallet</th>
-                <th className="px-4 py-2 text-center">Date</th>
-                <th className="px-4 py-2 text-center">No. of TX</th>
-                <th className="px-4 py-2 text-center">Total Buy</th>
-                <th className="px-4 py-2 text-center">NFT</th>
-                <th className="px-4 py-2 text-center">Prize</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.rank")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.wallet")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.date")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.tx_count")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.total_buy")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.nft")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.prize")}</th>
               </tr>
             </thead>
             <tbody className="">
@@ -160,7 +161,7 @@ of thanking those who contributed the most and played a major role in the growth
                       className={`!rounded-[30px]  ${bgColor} ${textColor}`}
                     >
                       <td className="px-4 py-2 text-center  rounded-l-[30px]">
-                        {item.rank}
+                        {t(`biggest_buy.table.rank`)}
                       </td>
                       <td className="px-4 py-2  text-center">{item.wallet}</td>
                       <td className="px-4 py-2  text-center">{item.date}</td>
@@ -185,14 +186,13 @@ of thanking those who contributed the most and played a major role in the growth
             onClick={() => setShowMore(!showMore)}
             className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-[#E5AE00] bg-transparent text-[16px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[126px] w-[100%] h-[38px]"
           >
-            {showMore ? "View Less" : "Load More"}
+            {showMore ? t("biggest_buy.view_less") : t("biggest_buy.load_more")}
           </button>
         </div>
 
         <div className="flex items-center justify-center">
           <p className="text-[13px] text-white font-[400] relative z-10 mt-[15px]">
-            The list is updated weekly and is based on transactions made during
-            the BFX presale.
+            {t("biggest_buy.note")}
           </p>
         </div>
 

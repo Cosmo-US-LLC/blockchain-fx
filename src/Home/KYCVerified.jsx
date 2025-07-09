@@ -11,28 +11,26 @@ function KYCVerified() {
   const cardItems = [
     {
       img: icn2,
-      title: "External Audit by Coinsult",
-      description: <p>BlockchainFX has been fully audited by Coinsult, <br /> a trusted auditing firm from the Netherlands, <br /> and confirmed to be 100% secure.</p>
+      title: t("KYCVerified.card_items.0.title"),
+      description: t("KYCVerified.card_items.0.description"),
     },
     {
       img: icn1,
-      title: "External Audit by CertiK",
-      description: <p>CertiK, the world’s leading blockchain security
-company, audited BlockchainFX and confirmed <br /> it meets the highest security standards.</p>
+      title: t("KYCVerified.card_items.1.title"),
+      description: t("KYCVerified.card_items.1.description"),
     },
     {
       img: icn3,
-      title: "Team KYC Verified by Solidproof",
-      description: 
-      <p>"The BlockchainFX team has been successfully verified by Solidproof, a reputable auditing company from Germany.</p>
-    }
+      title: t("KYCVerified.card_items.2.title"),
+      description: t("KYCVerified.card_items.2.description"),
+    },
   ];
 
   return (
     <div className="bg-[#020B10]">
       <div className="max-w-[1200px] pt-[35px] w-[100%] mx-auto relative">
         <h3 className="text-[40px] text-[#fff] font-[600] leading-[155.556%] leading-[-1px] text-center">
-        Security Verified by Industry Experts
+          {t("KYCVerified.security_verified_title")}
         </h3>
         <div className="pt-[25px] w-[100%] mx-auto">
           <div className="grid grid-cols-3 gap-x-[12px] gap-y-[19px]">
@@ -62,9 +60,7 @@ company, audited BlockchainFX and confirmed <br /> it meets the highest security
                       {item.title}
                     </h3>
                   </div>
-                  <h4 className="text-[15px] text-[#fff] font-inter font-[400] leading-[135.796%]">
-                    {item.description}
-                  </h4>
+                  <h4 className="text-[15px] text-[#fff] font-inter font-[400] leading-[135.796%]" dangerouslySetInnerHTML={{ __html: item.description }} />
                 </div>
               </div>
             ))}

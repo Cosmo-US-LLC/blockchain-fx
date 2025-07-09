@@ -13,77 +13,77 @@ import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 
 const tableData = [
   {
-    col1: "Token Name",
+    col1: "standout_section.table.token_name",
     col2: "$BFX",
     col3: "$BGB",
     col4: "$HYPE",
     col5: "$UNI",
   },
   {
-    col1: "Ranked",
+    col1: "standout_section.table.ranked",
     col2: "-",
     col3: "#24",
     col4: "#27",
     col5: "#28",
   },
   {
-    col1: "Marketcap",
+    col1: "standout_section.table.marketcap",
     col2: "-",
     col3: "$12.26 Billion",
     col4: "$8.77 Billion",
     col5: "$8.08 Billion",
   },
   {
-    col1: "Trade Crypto",
+    col1: "standout_section.table.trade_crypto",
     col2: check1,
     col3: check1,
     col4: check1,
     col5: check1,
   },
   {
-    col1: "Leverage Trading",
+    col1: "standout_section.table.leverage_trading",
     col2: check1,
     col3: check1,
     col4: check1,
     col5: check2,
   },
   {
-    col1: "Risk Management",
+    col1: "standout_section.table.risk_management",
     col2: check1,
     col3: check1,
     col4: check2,
     col5: check2,
   },
   {
-    col1: "Forex",
+    col1: "standout_section.table.forex",
     col2: check1,
     col3: check2,
     col4: check2,
     col5: check2,
   },
   {
-    col1: "Commodities ",
+    col1: "standout_section.table.commodities",
     col2: check1,
     col3: check2,
     col4: check2,
     col5: check2,
   },
   {
-    col1: "CFDs ",
+    col1: "standout_section.table.cfds",
     col2: check1,
     col3: check2,
     col4: check2,
     col5: check2,
   },
   {
-    col1: "ETFs",
+    col1: "standout_section.table.etfs",
     col2: check1,
     col3: check2,
     col4: check2,
     col5: check2,
   },
   {
-    col1: "USDT Rewards",
+    col1: "standout_section.table.usdt_rewards",
     col2: check1,
     col3: check2,
     col4: check2,
@@ -105,13 +105,10 @@ function StandoutSec() {
       >
         <div className="space-y-[14px]">
           <h3 className="text-[40px] font-[700] text-center leading-[48px] text-[#ffff] tracking-[-1px]">
-            Standout Features
+            {t("standout_section.title")}
           </h3>
           <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
-            Cryptocurrencies from exchanges have historically performed well due
-            to their active user base, platform revenue, and ongoing marketing.
-            BFX, the first token from a multi-asset trading platform, <br />{" "}
-            offers unique features that bring real value to the market.
+            {t("standout_section.description")}
           </p>
         </div>
         <div className="max-w-[1080px] w-full mx-auto">
@@ -130,7 +127,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
-                        BlockchainFX
+                        {t("standout_section.table.blockchainfx")}
                       </p>
                     </div>
                   </th>
@@ -144,7 +141,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
-                        Bitget
+                        {t("standout_section.table.bitget")}
                       </p>
                     </div>
                   </th>
@@ -158,7 +155,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
-                        Hyperliquid
+                        {t("standout_section.table.hyperliquid")}
                       </p>
                     </div>
                   </th>
@@ -172,7 +169,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[20.346px] text-[#fff] text-center font-[700] leading-[100%]">
-                        Uniswap
+                        {t("standout_section.table.uniswap")}
                       </p>
                     </div>
                   </th>
@@ -210,15 +207,17 @@ function StandoutSec() {
                             : ""
                         }`}
                       >
-                        {value.startsWith("/") ? (
-                          <img
-                            src={value}
-                            alt={`Row ${rowIndex + 1} Col ${colIndex + 1}`}
-                            className="mx-auto w-[22.6px] h-[22.6px]"
-                          />
-                        ) : (
-                          value
-                        )}
+                        {colIndex === 0
+                          ? t(value)
+                          : value.startsWith("/") ? (
+                              <img
+                                src={value}
+                                alt={`Row ${rowIndex + 1} Col ${colIndex + 1}`}
+                                className="mx-auto w-[22.6px] h-[22.6px]"
+                              />
+                            ) : (
+                              value
+                            )}
                       </td>
                     ))}
                   </tr>

@@ -15,23 +15,20 @@ const cardItems = [
   {
     id: "01.",
     img: icn1,
-    title: "BFX & USDT Staking Rewards",
-    description:
-      "50% of all fees collected are automatically distributed to BFX holders who stake their coins.",
+    title: "how_does_it_sec.cards.staking_rewards.title",
+    description: "how_does_it_sec.cards.staking_rewards.description",
   },
   {
     id: "02.",
     img: icn2,
-    title: "Daily Buybacks",
-    description:
-      "20% of the fees are used to buy back $BFX daily, helping boost demand and support the price.",
+    title: "how_does_it_sec.cards.buybacks.title",
+    description: "how_does_it_sec.cards.buybacks.description",
   },
   {
     id: "03.",
     img: icn3,
-    title: "Burn BFX Coins",
-    description:
-      "Half of the bought-back tokens are permanently burned, gradually reducing the supply of $BFX.",
+    title: "how_does_it_sec.cards.burn.title",
+    description: "how_does_it_sec.cards.burn.description",
   },
 ];
 
@@ -43,10 +40,10 @@ function HowDoesItSec() {
       <div className="max-w-[1200px] space-y-[40px] p-[50px] border rounded-[24px] border-[#575757] w-[100%] mx-auto relative overflow-hidden">
         <div className="space-y-[5px]">
           <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">
-            How It Works?
+            {t("how_does_it_sec.title")}
           </h3>
           <p className="text-[18px] text-[#fff] trackin-[-0.18px] text-center font-[400]">
-          BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. <br /> Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns. <br /> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.
+            <span dangerouslySetInnerHTML={{ __html: t("how_does_it_sec.subtitle") }} />
           </p>
         </div>
         <div className="max-w-[1002px] relative z-[99] w-[100%] mx-auto">
