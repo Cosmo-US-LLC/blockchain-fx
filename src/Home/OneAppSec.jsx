@@ -11,23 +11,23 @@ import { useTranslation } from "react-i18next";
 const items = [
   {
     icon: oneicon1,
-    title: "Own BFX",
-    description: "Buy BFX during the presale in just a few seconds.",
+    title: "one_app_sec.items.own_bfx.title",
+    description: "one_app_sec.items.own_bfx.description",
   },
   {
     icon: oneicon2,
-    title: "Stake your BFX",
-    description: "Go to the presale dashboard, click on “Stake”, choose the amount, and confirm.",
+    title: "one_app_sec.items.stake_bfx.title",
+    description: "one_app_sec.items.stake_bfx.description",
   },
   {
     icon: oneicon3,
-    title: "Personal Dashboard",
-    description: "Connect your wallet and click on “Dashboard” in the top right corner to watch your BFX balance.",
+    title: "one_app_sec.items.dashboard.title",
+    description: "one_app_sec.items.dashboard.description",
   },
   {
     icon: oneicon4,
-    title: "Staking Rewards",
-    description: "Your BFX and USDT rewards will appear on the dashboard 24 hours after you stake your coins.",
+    title: "one_app_sec.items.staking_rewards.title",
+    description: "one_app_sec.items.staking_rewards.description",
   },
 ];
 
@@ -45,12 +45,12 @@ function OneAppSec() {
       >
         <div className="w-[43%] max-w-[473px] space-y-[20px]">
          <div className="space-y-[10px]">
-          <h4 className="px-2 h-[29px] flex items-center max-w-[190px] text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] font-[700]"> <span className="text-[40px] !mb-[22px] mr-[3px] leading-[0px] animate-blink">.</span> Live Now (Beta Phase)</h4>
+          <h4 className="px-2 h-[29px] flex items-center max-w-[190px] text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] font-[700]"> <span className="text-[40px] !mb-[22px] mr-[3px] leading-[0px] animate-blink">.</span> {t("one_app_sec.badge")}</h4>
          <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
-          Daily Staking Rewards
+          {t("one_app_sec.title")}
           </h3>
           <p className="text-[20px]  text-[#fff] font-[400] leading-[150%] leading-[-0.32px] text-start">
-          Get in now and start earning every day
+          {t("one_app_sec.subtitle")}
           </p>
          </div>
           <div className="">
@@ -105,7 +105,7 @@ function OneAppSec() {
         </div>
         <div className="w-[55%] space-y-[25px] overflow-visible">
           <img src={dailyimg} className="object-cover" alt="" />
-          <p className="text-[13px] text-center pl-[32px] leading-[150.598%] font-[400] text-[#fff]">Connect your wallet and click on the top right corner to see your personal dashboard</p>
+          <p className="text-[13px] text-center pl-[32px] leading-[150.598%] font-[400] text-[#fff]">{t("one_app_sec.note")}</p>
         </div>
       </div>
     </div>

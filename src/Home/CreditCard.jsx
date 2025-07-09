@@ -32,7 +32,7 @@ function CreditCard() {
             </h3>
             <ul className="list-disc">
               <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500]">{t("creditCard.item2")}</li>
-               <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500]">{t("creditCard.item7")}</li>
+              <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500]">{t("creditCard.item7")}</li>
               <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500]">{t("creditCard.item3")}</li>
               <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500]">{t("creditCard.item4")}</li>
               <li className="text-[16px] text-[#fff] border-b border-[#26282A] ml-5 py-[14px] font-[500]">{t("creditCard.item5")}</li>

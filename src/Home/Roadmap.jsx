@@ -16,11 +16,71 @@ function RoadmapSection() {
   const cardGroups = [
     {
       slides: [0, 1, 2],
-      phases: ["Genesis", "Foundations","Takeoff"],
+      phases: [t("Roadmap_section.Genesis"), t("Roadmap_section.Foundations"), t("Roadmap_section.Takeoff")],
     },
     {
       slides: [3, 4, 5],
-      phases: ["Scale","Expansion", "Global Reach"],
+      phases: [t("Roadmap_section.Scale"), t("Roadmap_section.Expansion"), t("Roadmap_section.Global Reach")],
+    },
+  ];
+
+  const slideData = [
+    {
+      title: t("Roadmap_section.Preparation"),
+      status: t("Roadmap_section.Completed"),
+      items: [
+        t("Roadmap_section.Idea + concept"),
+        t("Roadmap_section.Raise Seed Funds"),
+        t("Roadmap_section.Onboard Team & Advisors"),
+        t("Roadmap_section.Trading Platform Beta Preparation"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Execution"),
+      status: t("Roadmap_section.Completed"),
+      items: [
+        t("Roadmap_section.Website, Tokenomics etc."),
+        t("Roadmap_section.Create $BFX Token"),
+        t("Roadmap_section.Launch $BFX Pre-Sale"),
+        t("Roadmap_section.Certik Token Audit"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Launch"),
+      status: t("Roadmap_section.On-going"),
+      items: [
+        t("Roadmap_section.Launch an Affiliate Program"),
+        t("Roadmap_section.Sell Out the Pre-Sale"),
+        t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
+        t("Roadmap_section.Achieving 10000 BFX Holders"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Performance"),
+      items: [
+        t("Roadmap_section.Multiple CEX Listing"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Reach $100M Daily Trading Volume"),
+        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Expansion"),
+      items: [
+        t("Roadmap_section.Multiple CEX Listing"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Reach $100M Daily Trading Volume"),
+        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Global Reach"),
+      items: [
+        t("Roadmap_section.US License"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Global Marketing Campaigns"),
+        t("Roadmap_section.Major Global Partnerships"),
+      ],
     },
   ];
 
@@ -90,72 +150,12 @@ function RoadmapSection() {
     }
   }, []);
 
-  const slideData = [
-    {
-      title:"Preparation",
-      status: "Completed",
-      items: [
-        "Idea + concept",
-        "Raise Seed Funds",
-        "Onboard Team & Advisors",
-        "Trading Platform Beta Preparation",
-      ],
-    },
-    {
-      title: "Execution",
-      status:"Completed",
-      items: [
-        "Website, Tokenomics etc.",
-        "Create $BFX Token",
-        "Launch $BFX Pre-Sale",
-        "CertiK Audit",
-      ],
-    },
-    {
-      title: "Launch",
-      status: "On-going",
-      items: [
-       "Launch an Affiliate Program",
-       "Sell Out the Pre-Sale",
-       "Launch $BFX on Uniswap and CEX",
-        "Achieving 10’000 BFX Holders",
-      ],
-    },
-    {
-      title: "Performance",
-      items: [
-        "Multiple CEX Listing",
-        "Achieving 100000 BFX Holders",
-        "Reach $100M Daily Trading Volume",
-        "Add Leaderboards & VIP accounts",
-      ],
-    },
-    {
-      title:"Expansion",
-      items: [
-       "Multiple CEX Listing",
-        "Achieving 100000 BFX Holders",
-        "Reach $100M Daily Trading Volume",
-        "Add Leaderboards & VIP accounts",
-      ],
-    },
-    {
-      title: "Global Reach",
-      items: [
-        "US License",
-        "Achieving 100000 BFX Holders",
-        "Global Marketing Campaigns",
-        "Major Global Partnerships",
-      ],
-    },
-  ];
-
   return (
     <div className="bg-[#020B10] pt-[30px] pb-[60px]" id="roadmap">
       <h3 className="text-center text-[48px] font-[600] leading-[120%] text-white tracking-[-1.5px] mb-28">
-      Roadmap <br />
+        {t("Roadmap_section.Roadmap")} <br />
         <span className="text-[#fff] text-xl font-[400]">
-        From Fintech Startup to Global Market Leader
+          {t("Roadmap_section.From Fintech Startup to Global Market Leader")}
         </span>
       </h3>
 

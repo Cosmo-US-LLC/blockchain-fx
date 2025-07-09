@@ -28,10 +28,10 @@ function TokenAllocationSec() {
     <div className="bg-[#020B10] pt-[50px] pb-[50px] px-[80px]" id="allocation">
       <div className="space-y-[10px] pb-[50px]">
           <h3 className="text-[48px] font-[600] text-center leading-[120%] text-white tracking-[-3.36px]">
-          Token Details
+            {t("token_allocation_section.title")}
           </h3>
           <p className="text-[18px] text-[#fff] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[140%] tracking-[-0.4px] ">
-          The token allocation is structured to reward early supporters the most
+            {t("token_allocation_section.description")}
           </p>
         </div>
     <div className="bg-[#030F16] max-w-[1200px] mx-auto rounded-[10px] py-[40px] px-[272px] ">
@@ -46,39 +46,39 @@ function TokenAllocationSec() {
   {/* First Row */}
   <div className="w-[100%] space-x-[21px] mx-auto flex justify-between items-center">
     <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
-      <h4 className="text-white/70 text-[14px] font-[400]">Token name:</h4>
-      <h3 className="text-white text-[18px] font-[500]">BlockchainFX</h3>
+      <h4 className="text-white/70 text-[14px] font-[400]">{t("token_allocation_section.token_name.label")}</h4>
+      <h3 className="text-white text-[18px] font-[500]">{t("token_allocation_section.token_name.value")}</h3>
     </div>
     <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
-      <h4 className="text-white/70 text-[14px] font-[400]">Launch on:</h4>
-      <h3 className="text-white text-[18px] font-[500]">Uniswap and CEX</h3>
+      <h4 className="text-white/70 text-[14px] font-[400]">{t("token_allocation_section.launch_on.label")}</h4>
+      <h3 className="text-white text-[18px] font-[500]">{t("token_allocation_section.launch_on.value")}</h3>
     </div>
     <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
-      <h4 className="text-white/70 text-[14px] font-[400]">Token type:</h4>
-      <h3 className="text-white text-[18px] font-[500]">Ethereum</h3>
+      <h4 className="text-white/70 text-[14px] font-[400]">{t("token_allocation_section.token_type.label")}</h4>
+      <h3 className="text-white text-[18px] font-[500]">{t("token_allocation_section.token_type.value")}</h3>
     </div>
   </div>
 
   {/* Second Row */}
   <div className="w-[100%] mx-auto space-x-[21px] flex justify-between items-center">
     <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
-      <h4 className="text-white/70 text-[14px] font-[400]">Token symbol:</h4>
-      <h3 className="text-white text-[18px] font-[500]">BFX</h3>
+      <h4 className="text-white/70 text-[14px] font-[400]">{t("token_allocation_section.token_symbol.label")}</h4>
+      <h3 className="text-white text-[18px] font-[500]">{t("token_allocation_section.token_symbol.value")}</h3>
     </div>
     <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
-      <h4 className="text-white/70 text-[14px] font-[400]">Decimal:</h4>
-      <h3 className="text-white text-[18px] font-[500]">18</h3>
+      <h4 className="text-white/70 text-[14px] font-[400]">{t("token_allocation_section.decimal.label")}</h4>
+      <h3 className="text-white text-[18px] font-[500]">{t("token_allocation_section.decimal.value")}</h3>
     </div>
     <div className="max-w-[400px] w-[100%] border px-[17px] pt-[14px] bg-[#030F16] space-y-[7px] rounded-[10px] pb-[16px] border-[#000]">
-      <h4 className="text-white/70 text-[14px] font-[400]">Total Supply:</h4>
-      <h3 className="text-white text-[18px] font-[500]">3.5B</h3>
+      <h4 className="text-white/70 text-[14px] font-[400]">{t("token_allocation_section.total_supply.label")}</h4>
+      <h3 className="text-white text-[18px] font-[500]">{t("token_allocation_section.total_supply.value")}</h3>
     </div>
   </div>
 
   {/* Third Row (Contract Address - kept different as per original) */}
   <div className="w-[100%] mx-auto flex justify-between items-center">
     <div className="border px-[17px] space-y-[12px] rounded-[10px] w-[100%] pt-[14px] bg-[#030F16] pb-[16px] border-[#000]">
-      <h4 className="text-white/70 text-[14px] font-[400]">Token Contract Address</h4>
+      <h4 className="text-white/70 text-[14px] font-[400]">{t("token_allocation_section.contract_address.label")}</h4>
       <h3 className="text-white flex text-[16px] font-[500]">
       0xD0d801eEa2c2422dF3e626b82EBBb618f4Cc445e{" "}
         <img

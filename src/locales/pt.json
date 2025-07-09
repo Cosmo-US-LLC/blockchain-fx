@@ -1,670 +1,906 @@
 {
-    "navbar": {
-      "what_is_bfx": "O que é BlockchainFX?",
-      "whitelist": "Lista branca",
-      "whitepaper": "Whitepaper",
-      "roadmap": "Roteiro",
-      "reviews": "Avaliações"
-    },
-    "hero_section": {
-      "hero_title": "O Primeiro Super Aplicativo <br /> de Trading de Criptomoedas",
-      "hero_subtitle": "Blockchain Encontra os Mercados Financeiros Globais",
-      "hero_description": "BlockchainFX é a única plataforma de negociação cripto-nativa que fornece acesso instantâneo aos maiores mercados financeiros do mundo. Os usuários podem negociar criptomoedas, forex, ações, ETFs, futuros, opções, títulos, índices, CFDs e muito mais, tudo em um só lugar. Como um ecossistema impulsionado pela comunidade, os detentores de tokens BFX ganham taxas em USDT sempre que alguém negocia no aplicativo.",
-      "join_whitelist": "Junte-se à Lista Branca Agora",
-      "whitepaper": "Whitepaper",
-      "rated_by_users": "Avaliado pelos Usuários"
-    },
-    "timer_banner": {
-      "presale_starts_in": "A pré-venda BFX começa em",
-      "days": "Dias",
-      "hours": "Horas",
-      "minutes": "Minutos",
-      "seconds": "Segundos",
-      "join_whitelist": "Junte-se à lista branca agora"
-    },
-    "joinwhitelistsec": {
-      "join_whitelist": "Junte-se à Lista Branca",
-      "early_access": "para acesso antecipado à pré-venda da BFX",
-      "description": "Após arrecadar $750.000 na rodada seed e lançar o aplicativo Beta Trading, a comunidade agora tem a chance de participar da pré-venda da BFX.",
-      "how_to_participate": "Como participar?",
-      "step1": "Junte-se à lista branca para ter 15 minutos de acesso antecipado para comprar BFX antes que a pré-venda esteja disponível publicamente.",
-      "step2": "Clique no botão abaixo para entrar na lista branca.",
-      "step3": "Digite seu endereço de carteira e o valor da compra.",
-      "step4": "Use a mesma carteira quando a pré-venda começar.",
-      "step5": "Ordem de chegada, ordem de compra.",
-      "payment_method": "Método de pagamento: ETH, BNB e USDT",
-      "claim": "Reivindicação: Seus tokens serão automaticamente transferidos para sua carteira após o término da pré-venda. Você não precisa fazer nada.",
-      "date": "Data: Domingo, 30 de março às 17h UTC",
-      "goal": "Meta: $250.000",
-      "launches_on": "$BFX será lançado em várias exchanges de alto nível",
-      "join_now": "Junte-se à Lista Branca Agora"
-    },
-    "BlockchainFXsec": {
-      "live_demo": "Demonstração ao vivo do BlockchainFX",
-      "btn": "Junte-se à Lista Branca Agora"
-    },
-    "NextGeneration": {
-      "nextGenTitle": "Experiência de negociação da próxima geração",
-      "teamExperience": "Equipe com 25 anos <br /> de experiência",
-      "assets": "500+ <br /> ativos",
-      "spreads": "Spreads <br /> ultra apertados",
-      "chatSupport": "Suporte por <br /> chat 24/7",
-      "register": "Registre-se <br /> em 1 minuto",
-      "oneClickTrading": "Negociação <br /> com um clique",
-      "leverageTrading": "Negociação <br /> alavancada",
-      "charts": "Até 9 <br /> gráficos",
-      "indicators": "100+ <br /> indicadores",
-      "tournaments": "Torneios <br /> mensais",
-      "joinWhitelist": "Junte-se à <br /> lista branca agora",
-      "betaTrading": "Negociação Beta"
-    },
-    "TradeOverSec": {
-    "title": "Mais de 500 ativos diferentes",
-    "categories": [
-      { "title": "Criptomoedas", "subtitle": "Negocie BTC, ETH, SOL, PEPE, DOGE, TRUMP e mais com alavancagem e ferramentas avançadas." },
-      { "title": "Ações", "subtitle": "Apple, Tesla, Nvidia, Netflix, Coca Cola e muito mais. Compre sua ação favorita em segundos." },
-      { "title": "Forex", "subtitle": "USD, EUR, JPY, GBP, AUD e mais. Negocie mais de 60 pares de moedas no mercado dinâmico de forex." },
-      { "title": "Commodities", "subtitle": "Ouro, Prata, Petróleo, Açúcar e mais. Diversifique seu portfólio com uma ampla gama de matérias-primas valiosas." },
-      { "title": "Índices", "subtitle": "Dow Jones, S&P 500, Nasdaq, DAX, CAC e mais. Negocie os índices mais populares." }
-    ]
+  "navbar": {
+    "whatIsBlockchainFX": "O que é BlockchainFX?",
+    "howToBuy": "Como comprar",
+    "whitepaper": "Whitepaper",
+    "referral": "Indicação",
+    "reviews": "Avaliações",
+    "languages": "Idiomas",
+    "dashboard": "Painel de Controle",
+    "connect_wallet": "Conectar Carteira"
   },
-  "OneAppSec": {
-      "title": "Tudo em um único aplicativo",
-      "subtitle": "Uma solução de negociação inovadora e ultrarrápida",
-      "items": [
-        {
-          "title": "Qualquer dispositivo",
-          "description": "Os usuários podem negociar em qualquer dispositivo, seja PC, Mac, iOS ou Android."
-        },
-        {
-          "title": "Ferramentas técnicas",
-          "description": "Ferramentas técnicas avançadas projetadas para melhorar a análise de mercado e a tomada de decisões."
-        },
-        {
-          "title": "Gestão de risco",
-          "description": "Recursos abrangentes de gestão de risco para minimizar os riscos."
-        },
-        {
-          "title": "Múltiplos gráficos",
-          "description": "Os traders podem usar vários gráficos ao mesmo tempo para obter melhores insights sobre o mercado."
-        }
-      ]
-    },
-    "EarnOnSec": {
-      "title": "Ganhe diariamente com BFX",
-      "description": "BFX é a primeira criptomoeda a distribuir recompensas diárias em USDT com base na receita das taxas de negociação. Sempre que alguém negocia na BlockchainFX, você ganha. Quanto mais BFX você possuir, maiores serão suas recompensas, até um máximo de 25.000 USDT por dia.",
-      "button": "Junte-se à lista de espera"
-    },
-    "HowDoesItSec": {
-    "title": "Como funciona?",
-    "items": [
+  "live_presale_section": {
+    "title": "Pré-venda BFX está ativa",
+    "buy_button": "Comprar BFX"
+  },
+  "hero": {
+    "title": "O Primeiro Trading de Cripto <br />",
+    "title_highlight": "Super App",
+    "subtitle": "BlockchainFX é uma exchange de próxima geração que conecta DeFi<br />aos mercados financeiros tradicionais. É a única plataforma Web3 que oferece acesso a ações, forex, ETFs e mais.",
+    "feature1": "A Primeira Exchange de Cripto Unindo Blockchain e Finanças",
+    "feature2": "Bitcoin, Ethereum, ouro, Tesla e mais de 500+ ativos",
+    "feature3": "Premiado como 'O Melhor Novo App de Trading Cripto de 2025'",
+    "buy_button": "Comprar $BFX",
+    "how_it_works_button": "Como funciona?",
+    "audited_by": "Auditado e Aprovado por",
+    "verified_ratings": "Avaliações Verificadas",
+    "rating": "4,87/5"
+  },
+  "featured_sec": {
+    "featured_in": "Destaque em:"
+  },
+  "KYCVerified": {
+    "security_verified_title": "Segurança Verificada por Especialistas do Setor",
+    "completed": "Concluído",
+    "card_items": [
       {
-        "title": "Plataforma de Negociação",
-        "description": "BlockchainFX é uma plataforma de negociação multiativos que oferece uma ampla gama de opções de negociação."
+        "title": "Auditoria Externa pela Coinsult",
+        "description": "A BlockchainFX foi totalmente auditada pela Coinsult,<br />uma empresa de auditoria confiável da Holanda,<br />e confirmada como 100% segura."
       },
       {
-        "title": "Distribuição de Taxas",
-        "description": "70% das taxas de negociação são usadas para incentivar a comunidade BFX e impulsionar o crescimento do ecossistema."
+        "title": "Auditoria Externa pela CertiK",
+        "description": "A CertiK, a principal empresa de segurança blockchain do mundo, auditou a BlockchainFX e confirmou<br />que atende aos mais altos padrões de segurança."
       },
       {
-        "title": "Receita Diária (50%)",
-        "description": "50% de todas as taxas coletadas serão compartilhadas com os detentores de BFX e distribuídas automaticamente a cada 24 horas."
-      },
-      {
-        "title": "Recompras (20%)",
-        "description": "20% das taxas serão usadas para recompras diárias de BFX, aumentando a demanda e elevando o preço do $BFX."
-      },
-      {
-        "title": "Queima",
-        "description": "Metade de todas as recompras será automaticamente queimada, reduzindo gradualmente a oferta de $BFX."
-      },
-      {
-        "title": "Crescimento Exponencial",
-        "description": "O modelo deflacionário e o sistema automático de recompra impulsionam o potencial de crescimento exponencial do $BFX."
+        "title": "Equipe KYC Verificada pela Solidproof",
+        "description": "A equipe da BlockchainFX foi verificada com sucesso pela Solidproof, uma empresa de auditoria respeitada da Alemanha."
       }
     ]
   },
-    "ExclusiveBenefitsSec": {
-      "title": "Benefícios exclusivos durante a pré-venda do BFX",
-      "items": [
-        {
-          "title": "Preço mais baixo <br/> antes do lançamento",
-          "description": "Comprar durante a pré-venda permite que você obtenha um preço significativamente mais baixo do que o preço de lançamento do $BFX."
-        },
-        {
-          "title": "Receba um cartão <br/> BFX Visa limitado",
-          "description": "Receba um cartão de crédito BFX Visa de metal ou dourado com gastos ilimitados e uso global."
-        },
-        {
-          "title": "Desbloqueie créditos <br/> de trading bônus",
-          "description": "Obtenha uma associação exclusiva com vários benefícios e até $25.000 para começar a negociar sem condições."
-        },
-        {
-          "title": "Renda de staking <br/> USDT diária",
-          "description": "Ganhe recompensas passivas em USDT e $BFX todos os dias, mesmo durante a pré-venda. Quanto mais cedo você comprar, mais você ganha."
-        }
-      ]
+  "experts": {
+    "heading": "O que os Especialistas Dizem Sobre a BFX",
+    "slide1": {
+      "text": "Imagine entrar no Coinbase ou Binance no primeiro dia, é exatamente isso que a BFX está oferecendo agora em sua pré-venda.",
+      "name": "Clay Bro",
+      "role": "Youtuber de Cripto, 136K Seguidores"
     },
-    "CreditCard": {
+    "slide2": {
+      "text": "Segure BFX e ganhe recompensas diárias em USDT das taxas de negociação, mesmo quando não estiver negociando. Não é apenas um token, é sua chave para uma renda passiva de staking.",
+      "name": "Crypto Volt",
+      "role": "Youtuber de Cripto, 179K Seguidores"
+    },
+    "slide3": {
+      "text": "Forex, índices, ações, ETFs, até opções — você pode negociar tudo em um só lugar. É a primeira plataforma Web3 que realmente conecta todos os mercados.",
+      "name": "Crypto Dealer",
+      "role": "Youtuber, 102K Seguidores"
+    },
+    "slide4": {
+      "text": "Toda vez que alguém negocia nesta plataforma, você ganha — quanto mais BFX você tiver, maiores serão suas recompensas.",
+      "name": "Crypto Pandas",
+      "role": "Youtuber, 22.7K Seguidores"
+    }
+  },
+  "blockchainfx_demo": {
+    "title": "Demonstração BlockchainFX",
+    "description": "Em apenas alguns segundos, os usuários podem negociar BTC, Tesla, Ouro, Pepe, ETFs, CFDs e muito mais — tudo de forma integrada <br />em uma única plataforma poderosa.",
+    "buy_button": "Comprar BFX",
+    "watch_live_button": "Assista à Negociação Ao Vivo Aqui",
+    "assets_title": "Mais de 500 Ativos",
+    "assets_description": "A BlockchainFX é a única exchange que permite aos usuários Web3 trocar instantaneamente entre cripto e classes de ativos tradicionais.<br />Sem atrasos, sem taxas extras, sem trocar de plataforma. Apenas negociação rápida e em tempo real.",
+    "asset_list_title": "Os usuários podem negociar na BlockchainFX:",
+    "asset_crypto": "Cripto",
+    "asset_stocks": "Ações",
+    "asset_forex": "Forex",
+    "asset_commodities": "Commodities",
+    "asset_etfs": "ETFs",
+    "asset_options": "Opções",
+    "asset_futures": "Futuros",
+    "asset_indices": "Índices",
+    "asset_cfds": "CFDs e mais."
+  },
+  "creditCard": {
     "title": "Cartão Visa BFX",
-    "features": [
-      "Gastos Ilimitados",
-      "Cartão de Metal ou Ouro 18K",
-      "Até $100.000 por Transação",
-      "Até $10.000 em Saques Mensais no Caixa Eletrônico",
-      "Use BFX e Recompensas USDT para Pagamentos",
-      "Aceito Mundialmente (Online & Lojas Físicas)",
-      "Recarregue com BFX e mais de 20 Criptomoedas",
-      "Cartão Visa BFX Disponível Apenas em Pré-venda"
-    ],
-    "compatible": "Compatível com",
-    "shipping": "O envio começará após o término da pré-venda BFX, pois todos os cartões serão enviados simultaneamente. Todos os membros do BFX Founder's Club receberão um formulário seguro após a pré-venda para enviar os detalhes de envio. Os cartões serão entregues mundialmente via DHL ou FedEx Express."
-  },
-    "PremiumSec": {
-      "title": "Associação Limitada ao Clube dos Fundadores",
-      "subtitle": "Compre $BFX durante a pré-venda e obtenha NFTs do Clube dos Fundadores a partir de apenas $1.000! Desfrute de acesso antecipado, associações exclusivas, bônus $BFX, recompensas diárias de staking em BFX e USDT, além de créditos extras para negociação.",
-      "cards": [
-        {
-          "title": "Novato",
-          "price": "$1.000",
-          "points": ["Acesso Antecipado", "10% de Bônus BFX", "Cartão Visa BFX"],
-          "buttonLabel": "Junte-se à Lista Branca"
-        },
-        {
-          "title": "Avançado",
-          "price": "$2.500",
-          "points": ["Acesso Antecipado", "20% de Bônus BFX", "Cartão Visa BFX de Metal", "$500 em Créditos de Negociação"],
-          "buttonLabel": "Junte-se à Lista Branca"
-        },
-        {
-          "title": "Pro",
-          "price": "$5.000",
-          "points": ["Acesso Antecipado", "30% de Bônus BFX", "Cartão Visa BFX de Metal", "$1000 em Créditos de Negociação"],
-          "buttonLabel": "Junte-se à Lista Branca"
-        },
-        {
-          "title": "Especialista",
-          "price": "$10.000+",
-          "points": ["Acesso Antecipado", "40% de Bônus BFX", "Cartão Visa BFX de Metal", "10% de Recompensas USDT", "$2000 em Créditos de Negociação"],
-          "buttonLabel": "Junte-se à Lista Branca"
-        },
-        {
-          "title": "Mestre",
-          "price": "$25.000+",
-          "points": ["Acesso Antecipado", "50% de Bônus BFX", "Cartão Visa BFX de Metal", "15% de Recompensas USDT", "$5000 em Créditos de Negociação"],
-          "buttonLabel": "Junte-se à Lista Branca"
-        },
-        {
-          "title": "Elite",
-          "price": "$50.000+",
-          "points": ["Acesso Antecipado", "60% de Bônus BFX", "Cartão Visa BFX de Metal", "20% de Recompensas USDT", "$10.000 em Créditos de Negociação"],
-          "buttonLabel": "Junte-se à Lista Branca"
-        },
-        {
-          "title": "Lenda",
-          "price": "$100.000+",
-          "points": ["Acesso Antecipado", "80% de Bônus BFX", "Cartão Visa BFX de 18 Quilates", "30% de Recompensas USDT", "$25.000 em Créditos de Negociação"],
-          "buttonLabel": "Junte-se à Lista Branca"
-        }
-      ],
-      "faq": [
-        {
-          "question": "Quando receberei meu NFT do Clube dos Fundadores?",
-          "answer": "<li>Você receberá seu NFT do Clube dos Fundadores automaticamente após comprar a quantidade necessária de $BFX.</li> <li>O NFT aparecerá em seu painel pessoal e poderá ser reivindicado assim que a pré-venda terminar.</li> <li>Para acessar o painel, conecte a mesma carteira clicando em 'Conectar Carteira' no canto superior direito.</li>"
-        },
-        {
-          "question": "Quando receberei meus Bônus?",
-          "answer": "<li>Seus bônus BFX serão adicionados instantaneamente ao seu painel</li><li>Para acessar seu painel, clique no botão 'Conectar Carteira'</li>"
-        },
-        {
-          "question": "Posso obter um NFT com várias compras?",
-          "answer": "<li>Sim, você pode comprar $BFX em quantidades menores para atingir o total necessário. </li><li>Por exemplo, comprar $BFX no valor de $200 cinco vezes lhe renderá o NFT Novato (avaliado em $1.000).</li>"
-        },
-        {
-          "question": "Posso atualizar meu NFT?",
-          "answer": "<li>Sim, você pode atualizar várias vezes durante a pré-venda.</li> <li>Você receberá recompensas e o NFT para o nível mais alto que alcançar.</li> <li>Após o término da pré-venda, as atualizações não serão mais possíveis.</li>"
-        }
-      ]
-    },
-    "LessThanSec": {
-      "title": "Conectando Criptomoedas e Finanças",
-      "description": "As criptomoedas representam apenas 0,87% do volume de negociação global em 2024, com uma média de 84,3 bilhões de dólares diariamente. Enquanto isso, apenas o mercado Forex movimenta 7,5 trilhões de dólares por dia. Essa diferença apresenta uma grande oportunidade para o $BFX conectar usuários de criptomoedas com os maiores mercados financeiros do mundo.",
-      "graphAlt": "Gráfico de comparação de volume de negociação",
-      "labels": {
-        "bonds": "Títulos: 1,1 trilhão de dólares (11,42%)",
-        "stocks": "Ações dos EUA: 700 bilhões de dólares (7,27%)",
-        "commodities": "Commodities: 250 bilhões de dólares (2,59%)",
-        "crypto": "Cripto: 89 bilhões de dólares (0,87%)",
-        "forex": "Forex: 7,5 trilhões de dólares (77,85%)"
-      },
-      "legend": {
-        "forex": "Forex",
-        "bonds": "Títulos",
-        "stocks": "Ações dos EUA",
-        "commodities": "Commodities",
-        "crypto": "Cripto"
-      }
-    },
-    "GatewaySec": {
-      "title": "A Porta de Entrada para os Mercados Globais",
-      "subtitle": "Iniciar uma plataforma global de negociação multi-ativos leva anos e capital significativo, mas ao comprar $BFX, você pode fazer parte do mercado financeiro internacional com apenas dois cliques.",
-      "categories": {
-        "costs": "Custos",
-        "time": "Tempo",
-        "team": "Equipe",
-        "workScope": "Escopo de Trabalho"
-      },
-      "newPlatform": {
-        "title": "Nova Plataforma de Negociação",
-        "costs": "Até 5 milhões de dólares",
-        "time": "Até 3 anos",
-        "team": "Equipe multilíngue experiente trabalhando em turnos, 24/7, 365 dias por ano.",
-        "workScope": "Requisitos de Capital, Marketing e Branding, Provedores de Liquidez, Equipe de Gestão de Risco, Suporte ao Cliente, Infraestrutura Tecnológica, Parcerias, Desenvolvimento, Contratação e Gestão de Pessoal, e muito mais."
-      },
-      "blockchainFX": {
-        "title": "BlockchainFX",
-        "costs": "Depende de você",
-        "time": "Compre $BFX em 2 cliques",
-        "team": "Nenhuma equipe necessária",
-        "workScope": "Nenhum trabalho necessário"
-      },
-      "tooltip": "Este é o orçamento necessário apenas para lançar a plataforma em certas jurisdições, excluindo pessoal e marketing."
-    },
-    "HyperGrowthSec": {
-    "title": "Modelo de Hipercrescimento",
-    "description": "BlockchainFX é uma plataforma de negociação orientada pela comunidade que recompensa os usuários com recompensas diárias de staking, fomentando uma comunidade leal e ativa. À medida que a plataforma cresce, o token também cresce, criando um ciclo de recompensas e engajamento. Estudos* mostram que comunidades incentivadas podem crescer significativamente mais rápido do que outras, e o BFX foi projetado para maximizar esse potencial.",
-    "graph": {
-      "title": "Previsão de Crescimento",
-      "blockchainFX": "BlockchainFX",
-      "regularPlatform": "Plataforma de Negociação Regular",
-      "alt": "Gráfico de comparação de crescimento entre BlockchainFX e plataformas de negociação regulares"
-    },
-    "source": "(*Fonte: Harvard Business Review, Quando a Comunidade se Torna sua Vantagem Competitiva, 2020)",
-    "button": "Junte-se à Lista Branca"
-  },
-  "StandoutSec": {
-    "title": "Recursos de Destaque",
-    "description": "Criptomoedas de exchanges historicamente tiveram bom desempenho devido à sua base ativa de usuários, receita da plataforma e marketing contínuo. $BFX, o primeiro token de uma plataforma de negociação multi-ativos, oferece recursos únicos que trazem valor real ao mercado.",
-    "platforms": {
-      "blockchainFX": "BlockchainFX",
-      "bitget": "Bitget",
-      "hyperliquid": "Hyperliquid",
-      "uniswap": "Uniswap"
-    },
-    "table": {
-      "tokenName": "Nome do Token",
-      "ranked": "Classificação",
-      "marketcap": "Capitalização de Mercado",
-      "marketcapValues": {
-        "bgb": "12,26 Bilhões $",
-        "hype": "8,77 Bilhões $",
-        "uni": "8,08 Bilhões $"
-      },
-      "tradeCrypto": "Negociação de Cripto",
-      "leverageTrading": "Negociação com Alavancagem",
-      "riskManagement": "Gestão de Risco",
-      "forex": "Forex",
-      "commodities": "Commodities",
-      "indices": "Índices",
-      "cfds": "CFDs",
-      "etfs": "ETFs"
-    }
-  },
-  "WallStreetSec": {
-    "title": "Wall Street ao seu alcance",
-    "subtitle": "Eleve sua experiência de negociação com uma plataforma de ponta <br /> que permite acessar mercados globais em segundos.",
-    "features": {
-      "markets": "6 <br />Mercados",
-      "instruments": "800 <br />Instrumentos",
-      "globalMarkets": "Todos os Mercados Globais <br />Em Um Só Lugar",
-      "fastExecution": "Execução <br />Ultra-Rápida",
-      "liquidity": "Liquidez <br />Profunda",
-      "withdrawals": "Saques <br />Rápidos"
-    }
-  },
-  "tradeLikePro": {
-    "title": "Negocie como um Profissional",
-    "description": "Domine os mercados com ferramentas de negociação e gestão de risco de última geração. Negocie com a precisão de um trader profissional de Wall Street.",
-    "joinWhitelist": "Junte-se à Lista Branca",
-    "indicators": {
-      "momentum": "Momentum",
-      "trend": "Tendência",
-      "volatility": "Volatilidade",
-      "movingAverages": "Médias Móveis",
-      "volume": "Volume",
-      "others": "Outros"
-    }
-  },
-  "swapSection": {
-    "title": "Troque Entre Ativos",
-    "description": "Experimente oportunidades de negociação ilimitadas, como trocar ouro por BTC ou ETH por ações da Nvidia, tudo em um só lugar. Tradicionalmente, converter criptomoedas em outros ativos exigia bolsas separadas, taxas extras e longos tempos de espera. BlockchainFX simplifica isso, tornando a negociação mais rápida e fácil do que nunca.",
-    "joinWhitelist": "Junte-se à Lista Branca",
-    "imageAlt": "Ilustração de troca de ativos"
-  },
-  "liveNewsSec": {
-    "title": "Recurso de Negociação com Notícias em Tempo Real",
-    "description": "Mantenha-se à frente dos mercados com notícias em tempo real ultrarrápidas. Receba atualizações em tempo real sobre desenvolvimentos do mercado e tome decisões de negociação mais inteligentes com base nas últimas notícias.",
-    "imageAlt": "Interface de negociação com notícias em tempo real"
+    "item1": "Gastos Ilimitados",
+    "item2": "Cartão de Metal ou Ouro 18K",
+    "item3": "Até $100.000 por Transação",
+    "item4": "Até $10.000 em Saques Mensais no Caixa Eletrônico",
+    "item5": "Use BFX e Recompensas USDT para Pagamentos",
+    "item6": "Aceito Mundialmente (Online & Lojas Físicas)",
+    "item7": "Recarregue com BFX e mais de 20 Criptomoedas",
+    "item8": "Cartão Visa BFX Disponível Apenas em Pré-venda",
+    "compatibleWith": "Compatível com",
+    "shippingNote": "O envio começará após o término da pré-venda BFX, pois todos os cartões serão enviados simultaneamente. Todos os membros do BFX Founder's Club receberão um formulário seguro após a pré-venda para enviar os detalhes de envio. Os cartões serão entregues mundialmente via DHL ou FedEx Express."
   },
   "whitepaper": {
-    "title": "Whitepaper",
-    "description": "Explore o whitepaper da BlockchainFX para aprender como o token $BFX alimenta um ecossistema de negociação de próxima geração e como você se beneficiará significativamente como um detentor inicial. Descubra suas principais características, vantagens e como a BlockchainFX está preenchendo a lacuna entre blockchain e finanças tradicionais ao criar o primeiro super aplicativo de negociação da indústria de criptomoedas.",
-    "joinWhitelist": "Junte-se à Lista Branca",
-    "accessWhitepaper": "Acessar Whitepaper",
-    "imageAlt": "Pré-visualização do whitepaper"
+    "heading": "Whitepaper BFX",
+    "description": "Explore o whitepaper para aprender como o BFX alimenta um ecossistema de negociação de próxima geração. Descubra suas principais características e vantagens, e veja como a BlockchainFX está preenchendo a lacuna entre blockchain e finanças tradicionais ao criar o primeiro super app de negociação da indústria cripto.",
+    "buyButton": "Comprar $BFX",
+    "accessButton": "Acessar Whitepaper"
   },
-  "whatIsSec": {
-    "title": "O que é BFX?",
-    "description": "$BFX é a moeda nativa da BlockchainFX, oferecendo uma oportunidade única de fazer parte de uma plataforma de negociação global em rápido crescimento com a ambição de se tornar uma das principais redes de negociação do mundo.",
-    "benefits": {
-      "earlyAccess": "Acesso Antecipado",
-      "stakingRewards": "Recompensas Diárias de Staking",
-      "lessFees": "70% Menos Taxas de Negociação",
-      "tradingCredits": "Créditos de Negociação"
+  "wallet_section": {
+    "title": "Pré-venda BFX",
+    "description": "BFX é a primeira criptomoeda do mundo apoiada por uma plataforma global de negociação multiativos, <br /> onde os detentores recebem recompensas em USDT sempre que alguém negocia — até mesmo durante a pré-venda.",
+    "presale_ended": "Pré-venda Encerrada",
+    "uniswap": "UNISWAP",
+    "how_to_buy": "Como Comprar",
+    "step_1_title": "1. Escolha um Método de Pagamento",
+    "step_1_description": "<li>Conecte sua carteira cripto</li><li>Escolha seu método de pagamento preferido</li><li>Digite a quantidade de BFX que deseja comprar</li>",
+    "step_2_title": "2. Confirme a Transação",
+    "step_2_description": "<li>Clique em 'Comprar Agora' e confirme a transação</li>",
+    "step_3_title": "3. Comece a Ganhar Hoje",
+    "step_3_description": "<p>Ganhe recompensas em BFX e USDT desde o primeiro dia!</p> <br/><li>As recompensas de staking são pagas a cada 24 horas e adicionadas automaticamente à sua carteira.</li>",
+    "step_4_title": "4. Resgate",
+    "step_4_description": "<p>Parabéns! Você poderá resgatar seus tokens com um clique neste site assim que a pré-venda terminar. <br/><br/> Obrigado por fazer parte da jornada BFX!</p>",
+    "launch_title": "5. Lançamento",
+    "exchanges": "$BFX será lançado em várias exchanges de alto nível",
+    "launch_description": "$BFX será lançado em várias exchanges de alto nível",
+    "buttonBuy": "Comprar Agora",
+    "buttonBuybfx": "Comprar BFX"
+  },
+  "next_generation_section": {
+    "title": "Experiência de Negociação de Próxima Geração",
+    "team_experience": "25 Anos <br /> de Experiência",
+    "assets": "500+ <br /> Ativos",
+    "tight_spreads": "Spreads <br /> Ultra Apertados",
+    "live_chat": "Suporte por Chat <br /> 24/7",
+    "register": "Cadastre-se <br /> em Segundos",
+    "one_click": "Negociação <br /> com Um Clique",
+    "leverage": "Negociação <br /> Alavancada",
+    "charts": "Até 9 <br /> Gráficos",
+    "indicators": "100+ <br /> Indicadores",
+    "tournaments": "Torneios <br /> Mensais"
+  },
+  "trade_over_section": {
+    "title": "Mais de 500 Ativos Diferentes",
+    "crypto": {
+      "title": "Cripto",
+      "description": "Bitcoin, Ethereum, Solana, Pepe e mais."
     },
-    "joinWhitelist": "Junte-se à Lista Branca",
-    "checkIconAlt": "Ícone de marca de verificação",
-    "mainImageAlt": "Ilustração do token BFX"
+    "stocks": {
+      "title": "Ações",
+      "description": "Apple, Tesla, Nvidia, Netflix, Coca Cola e mais."
+    },
+    "forex": {
+      "title": "Forex",
+      "description": "USD, EUR, JPY, GBP, AUD e mais."
+    },
+    "commodities": {
+      "title": "Commodities",
+      "description": "Ouro, Prata, Petróleo, Açúcar e mais."
+    },
+    "indices": {
+      "title": "Índices",
+      "description": "Dow Jones, S&P 500, Nasdaq e mais."
+    }
   },
-  "tokenAllocation": {
-    "title": "Alocação de Tokens",
-    "description": "A alocação de tokens é estruturada para recompensar mais os apoiadores iniciais.",
-    "chartAlt": "Gráfico de alocação de tokens"
+  "one_app_section": {
+    "title": "Tudo em Um App",
+    "description": "Uma solução de negociação inovadora e ultrarrápida",
+    "any_device": {
+      "title": "Qualquer Dispositivo",
+      "description": "Os usuários podem negociar de qualquer dispositivo, seja PC, Mac, iOS ou Android."
+    },
+    "technical_tools": {
+      "title": "Ferramentas Técnicas",
+      "description": "Ferramentas técnicas avançadas projetadas para aprimorar a análise de mercado e a tomada de decisões."
+    },
+    "risk_management": {
+      "title": "Gestão de Risco",
+      "description": "Recursos abrangentes de gestão de risco para minimizar riscos."
+    },
+    "multiple_charts": {
+      "title": "Múltiplos Gráficos",
+      "description": "Os traders podem usar múltiplos gráficos ao mesmo tempo para obter melhores insights de mercado."
+    }
   },
-  "tokenDetails": {
+  "one_app_sec": {
+    "badge": "Ao Vivo Agora (Fase Beta)",
+    "title": "Recompensas Diárias de Staking",
+    "subtitle": "Entre agora e comece a ganhar todos os dias",
+    "note": "Conecte sua carteira e clique no canto superior direito para ver seu painel pessoal",
+    "items": {
+      "own_bfx": {
+        "title": "Possua BFX",
+        "description": "Compre BFX durante a pré-venda em apenas alguns segundos."
+      },
+      "stake_bfx": {
+        "title": "Faça Staking do seu BFX",
+        "description": "Vá ao painel da pré-venda, clique em 'Stake', escolha o valor e confirme."
+      },
+      "dashboard": {
+        "title": "Painel Pessoal",
+        "description": "Conecte sua carteira e clique em 'Painel' no canto superior direito para ver seu saldo de BFX."
+      },
+      "staking_rewards": {
+        "title": "Recompensas de Staking",
+        "description": "Suas recompensas de BFX e USDT aparecerão no painel 24 horas após você fazer staking das suas moedas."
+      }
+    }
+  },
+  "earn_on_section": {
+    "title": "Ganhe Diariamente com BFX",
+    "description": "Os detentores de BFX ganham recompensas diárias de staking em USDT e BFX, alimentadas pelas taxas de negociação da BlockchainFX. Toda vez que alguém negocia no app, os detentores são recompensados. Quanto mais BFX uma pessoa tiver, mais ela ganha — até um máximo de 25.000 USDT por dia.",
+    "button": "Comprar $BFX"
+  },
+  "how_does_it_sec": {
+    "badge": "Como Funciona?",
+    "title": "Como a BlockchainFX Funciona?",
+    "subtitle": "Negocie qualquer ativo, a qualquer hora, em qualquer lugar — tudo em um só app.",
+    "cards": {
+      "staking_rewards": {
+        "title": "Deposite Cripto ou Fiat",
+        "description": "Adicione fundos à sua conta usando cripto, cartão ou transferência bancária."
+      },
+      "buybacks": {
+        "title": "Negocie Qualquer Ativo",
+        "description": "Negocie cripto, ações, forex, commodities, índices e mais — instantaneamente."
+      },
+      "burn": {
+        "title": "Ganhe Recompensas",
+        "description": "Ganhe recompensas diárias em USDT e BFX de todas as negociações na plataforma."
+      }
+    },
+    "note": "Tudo isso com taxas baixas, execução ultrarrápida e segurança de nível institucional."
+  },
+  "exclusive_section": {
+    "badge": "Exclusivo para Detentores de BFX",
+    "title": "Benefícios Exclusivos para Detentores de BFX",
+    "subtitle": "Desbloqueie vantagens e recompensas exclusivas ao segurar BFX.",
+    "items": {
+      "founders_club": {
+        "title": "Clube dos Fundadores",
+        "description": "Acesso antecipado a novos recursos, eventos exclusivos e brindes."
+      },
+      "vip_support": {
+        "title": "Suporte VIP 24/7",
+        "description": "Linha direta de suporte prioritário para membros BFX."
+      },
+      "staking_boost": {
+        "title": "Impulso de Staking",
+        "description": "Ganhe taxas de recompensa mais altas ao fazer staking de BFX."
+      },
+      "airdrops": {
+        "title": "Airdrops Exclusivos",
+        "description": "Receba airdrops de tokens e NFTs apenas para detentores de BFX."
+      }
+    },
+    "note": "Quanto mais BFX você segurar, mais benefícios exclusivos você desbloqueia."
+  },
+  "standout_section": {
+    "badge": "Por que a BlockchainFX se Destaca?",
+    "title": "O que Torna a BlockchainFX Única?",
+    "subtitle": "Recursos inovadores que você não encontrará em nenhum outro lugar.",
+    "items": {
+      "multi_asset": {
+        "title": "Multiativos em Um Só Lugar",
+        "description": "Negocie cripto, ações, forex, commodities e mais — tudo em uma única plataforma."
+      },
+      "instant_swap": {
+        "title": "Troca Instantânea",
+        "description": "Troque instantaneamente entre diferentes classes de ativos sem taxas extras."
+      },
+      "staking_rewards": {
+        "title": "Recompensas de Staking",
+        "description": "Ganhe recompensas diárias em USDT e BFX apenas por segurar tokens BFX."
+      },
+      "security": {
+        "title": "Segurança de Nível Institucional",
+        "description": "Proteção avançada para seus fundos e dados, auditada por empresas líderes do setor."
+      }
+    },
+    "note": "A BlockchainFX combina o melhor da tecnologia blockchain com mercados financeiros tradicionais."
+  },
+  "multi_award_section": {
+    "badge": "Vencedor de Múltiplos Prêmios",
+    "title": "Reconhecimento Global",
+    "subtitle": "A BlockchainFX foi reconhecida internacionalmente por sua inovação e excelência.",
+    "awards": [
+      "Melhor Novo App de Trading Cripto 2025",
+      "Inovação em Finanças Descentralizadas",
+      "Plataforma de Negociação Mais Rápida",
+      "Melhor Experiência do Usuário em Web3"
+    ]
+  },
+  "faq_section": {
+    "title": "Perguntas Frequentes",
+    "description": "Encontre respostas para algumas das perguntas mais comuns.",
+    "faqs": [
+      {
+        "question": "O que é BlockchainFX?",
+        "answer": "BlockchainFX é uma plataforma de negociação de próxima geração que conecta DeFi aos mercados financeiros tradicionais, permitindo negociar cripto, ações, forex, commodities e mais em um único app."
+      },
+      {
+        "question": "Como posso comprar BFX?",
+        "answer": "Você pode comprar BFX durante a pré-venda conectando sua carteira, escolhendo o método de pagamento e confirmando a transação diretamente no site."
+      },
+      {
+        "question": "Quais recompensas recebo ao segurar BFX?",
+        "answer": "Ao segurar BFX, você recebe recompensas diárias em USDT e BFX provenientes das taxas de negociação da plataforma."
+      },
+      {
+        "question": "Preciso negociar para ganhar recompensas?",
+        "answer": "Não, basta segurar BFX para ganhar recompensas diárias. Não é necessário negociar."
+      },
+      {
+        "question": "Quando poderei resgatar meus tokens BFX?",
+        "answer": "Você poderá resgatar seus tokens BFX com um clique assim que a pré-venda terminar."
+      }
+    ]
+  },
+  "gateway": {
+    "title": "O Portal para Mercados Globais",
+    "description": "Lançar uma nova plataforma de negociação exige muito tempo e recursos. Por outro lado, comprar $BFX leva segundos e permite que você ganhe toda vez que alguém negocia."
+  },
+  "growth": {
+    "title": "Projetado para Crescimento Exponencial",
+    "description": "A BlockchainFX é uma plataforma de negociação impulsionada pela comunidade que recompensa diariamente os detentores de BFX. À medida que a plataforma cresce, o token também cresce — criando um ciclo poderoso de crescimento e engajamento. Estudos* mostram que comunidades incentivadas podem crescer significativamente mais rápido do que outras, e o BFX foi projetado para maximizar esse potencial.",
+    "source_note": "(*Fonte: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
+    "forecasting": "Previsão de Crescimento",
+    "blockchainfx": "BlockchainFX",
+    "regular_platform": "Plataforma de Negociação Regular"
+  },
+  "comparison": {
+    "new_platform": "Nova Plataforma de Negociação",
+    "blockchainfx": "BlockchainFX",
+    "costs_option": "Você decide",
+    "time_option": "Compre $BFX em 2 cliques",
+    "team_option": "Sem equipe necessária",
+    "work_option": "Nenhum trabalho necessário"
+  },
+  "chart": {
+    "bonds": "Títulos: $1,1 Trilhão (11,64%)",
+    "stocks": "Ações dos EUA: $700 Bilhões (7,15%)",
+    "commodities": "Commodities: $250 Bilhões (2,55%)",
+    "etfs": "ETFs: $150B (1,53%)",
+    "crypto": "Cripto: $89 Bilhões (0,87%)",
+    "forex": "Forex: $7,5 Trilhões (76,62%)"
+  },
+  "legend": {
+    "forex": "Forex",
+    "bonds": "Títulos",
+    "us_stock": "Ações dos EUA",
+    "commodities": "Commodities",
+    "etfs": "ETFs",
+    "crypto": "Cripto"
+  },
+  "what_is_section": {
+    "title": "O que Torna o BFX Diferente?",
+    "description": "BFX é o token nativo da BlockchainFX, oferecendo uma oportunidade única de fazer parte de uma plataforma de negociação global em rápido crescimento, com a ambição de se tornar uma das maiores redes de negociação do mundo.",
+    "features": {
+      "early_access": "Acesso Antecipado",
+      "daily_staking_rewards": "Recompensas Diárias de Staking",
+      "lower_trading_fees": "70% Menos Taxas de Negociação",
+      "trading_credits": "Créditos de Negociação"
+    }
+  },
+  "token_allocation_section": {
     "title": "Detalhes do Token",
-    "description": "Use as informações do contrato abaixo para adicionar o token $BFX à sua carteira.",
-    "tokenName": {
+    "description": "A alocação do token é estruturada para recompensar principalmente os primeiros apoiadores",
+    "token_name": {
       "label": "Nome do Token",
       "value": "BlockchainFX"
     },
-    "launchOn": {
+    "launch_on": {
       "label": "Lançamento em",
       "value": "Uniswap e CEX"
     },
-    "tokenType": {
+    "token_type": {
       "label": "Tipo de Token",
       "value": "Ethereum"
     },
-    "tokenSymbol": {
+    "token_symbol": {
       "label": "Símbolo do Token",
       "value": "BFX"
     },
     "decimal": {
-      "label": "Decimais",
+      "label": "Decimal",
       "value": "18"
     },
-    "totalSupply": {
+    "total_supply": {
       "label": "Oferta Total",
-      "value": "3,5 bilhões"
+      "value": "3,5B"
     },
-    "contractAddress": {
+    "contract_address": {
       "label": "Endereço do Contrato do Token"
-    },
-    "addressCopied": "Endereço Copiado!",
-    "copyIconAlt": "Ícone de cópia"
-  },
-  "securityBuilt": {
-    "title": "Segurança Incorporada no Núcleo",
-    "description": "BlockchainFX utiliza tecnologia avançada para construir uma infraestrutura confiável e um ecossistema integrado, oferecendo uma experiência segura e amigável para os traders.",
-    "features": {
-      "pciDss": {
-        "title": "PCI DSS",
-        "iconAlt": "Ícone PCI DSS"
-      },
-      "dataPrivacy": {
-        "title": "Privacidade de Dados Aprimorada",
-        "iconAlt": "Ícone de privacidade de dados"
-      },
-      "monitoring": {
-        "title": "Monitoramento em Tempo Real e Detecção de Ameaças",
-        "iconAlt": "Ícone de monitoramento"
-      },
-      "riskManagement": {
-        "title": "Gerenciamento de Risco de Terceiros",
-        "iconAlt": "Ícone de gerenciamento de risco"
-      },
-      "dataBackups": {
-        "title": "Backups de dados e recuperação de desastres",
-        "iconAlt": "Ícone de backup de dados"
-      },
-      "gdpr": {
-        "title": "Compatível com GDPR",
-        "iconAlt": "Ícone GDPR"
-      }
     }
   },
+  "lineBreak": "<br />",
+  "press_media_section": {
+    "title": "Imprensa & Mídia",
+    "articles": [
+      {
+        "description": "A BlockchainFX está rapidamente se tornando a plataforma de negociação preferida em 2025, oferecendo acesso a mais de 500 ativos e benefícios recompensadores para os usuários.",
+        "link": "https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/",
+        "link_text": "Ler Artigo"
+      },
+      {
+        "description": "A BlockchainFX está pronta para revolucionar o cenário de negociação como a primeira plataforma de negociação cripto tudo-em-um.",
+        "link": "https://www.binance.com/en/square/post/21135762162242",
+        "link_text": "Ler Artigo"
+      },
+      {
+        "description": "A BlockchainFX é o primeiro app de negociação que permite aos usuários ganhar renda passiva diária em USDT diretamente das taxas de negociação.",
+        "link": "https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/",
+        "link_text": "Ler Artigo"
+      }
+    ]
+  },
+  "Roadmap_section": {
+    "Roadmap": "Roteiro",
+    "From Fintech Startup to Global Market Leader": "De Startup Fintech a Líder Global de Mercado",
+    "Genesis": "Gênese",
+    "Foundations": "Fundações",
+    "Takeoff": "Decolagem",
+    "Scale": "Escala",
+    "Expansion": "Expansão",
+    "Global Reach": "Alcance Global",
+    "Preparation": "Preparação",
+    "Completed": "Concluído",
+    "Execution": "Execução",
+    "Launch": "Lançamento",
+    "On-going": "Em andamento",
+    "Performance": "Desempenho",
+    "Idea + concept": "Ideia + conceito",
+    "Raise Seed Funds": "Captação de Fundos Seed",
+    "Onboard Team & Advisors": "Contratar Equipe & Consultores",
+    "Trading Platform Beta Preparation": "Preparação da Plataforma Beta de Negociação",
+    "Website, Tokenomics etc.": "Website, Tokenomics etc.",
+    "Create $BFX Token": "Criar Token $BFX",
+    "Launch $BFX Pre-Sale": "Lançar Pré-venda $BFX",
+    "Certik Token Audit": "Auditoria de Token Certik",
+    "Launch an Affiliate Program": "Lançar um Programa de Afiliados",
+    "Sell Out the Pre-Sale": "Esgotar a Pré-venda",
+    "Launch $BFX on Uniswap and CEX": "Lançar $BFX na Uniswap e CEX",
+    "Achieving 10000 BFX Holders": "Atingir 10.000 Detentores de BFX",
+    "Multiple CEX Listing": "Listagem em Múltiplas CEX",
+    "Achieving-100,000-BFX-Holders": "Atingir 100.000 Detentores de BFX",
+    "Reach $100M Daily Trading Volume": "Alcançar $100M em Volume Diário de Negociação",
+    "Add Leaderboards & VIP accounts": "Adicionar Rankings & Contas VIP",
+    "US License": "Licença dos EUA",
+    "Global Marketing Campaigns": "Campanhas Globais de Marketing",
+    "Major Global Partnerships": "Grandes Parcerias Globais",
+    "next": "Próximo",
+    "previous": "Anterior"
+  },
   "multiAward": {
-    "heading": "Plataforma de Negociação Multiepremiada",
-    "subheading": "Nossos prêmios falam por si mesmos",
+    "heading": "Plataforma de Negociação Multi-premiada",
+    "subheading": "Nossos Prêmios Falam por Si",
     "theCoinRise": "TheCoinRisE",
-    "theCoinRise_desp": "Melhor <br /> Plataforma de Negociação <br /> 2025",
+    "theCoinRise_desp": "Melhor Plataforma de Negociação <br /> 2025",
     "altcoinDaily": "AltcoinDaily",
     "altcoinDaily_desp": "Corretora de Negociação de Crescimento Mais Rápido <br /> 2025"
   },
-  "roadmap": {
-    "title": "Roteiro",
-    "vectorAlt": "Imagem vetorial decorativa",
-    "phases": {
-      "preparation": {
-        "title": "Preparação",
-        "items": {
-          "idea": "Ideia + Conceito",
-          "raiseFunds": "Levantar Fundos Iniciais",
-          "onboardTeam": "Integrar Equipe e Consultores",
-          "tradingPlatform": "Preparação da Plataforma de Negociação Beta"
-        }
-      },
-      "execution": {
-        "title": "Execução",
-        "items": {
-          "website": "Site, Tokenomics etc.",
-          "createToken": "Criar Token $BFX",
-          "launchPresale": "Lançar Pré-venda do $BFX",
-          "certikAudit": "Auditoria do Token pela CertiK"
-        }
-      },
-      "launch": {
-        "title": "Lançamento",
-        "items": {
-          "affiliateProgram": "Lançar um Programa de Afiliados",
-          "sellOutPresale": "Esgotar a Pré-venda",
-          "launchOnExchanges": "Lançar $BFX na Uniswap e CEX",
-          "tenThousandHolders": "Alcançar 10.000 Detentores de BFX"
-        }
-      },
-      "performance": {
-        "title": "Desempenho",
-        "items": {
-          "cashbackSystem": "Sistema de Cashback para Traders",
-          "publicChats": "Chats Públicos para a Plataforma de Negociação",
-          "copyTrading": "Adicionar Recurso de Copy Trading",
-          "mobileApps": "Lançar Aplicativo para iOS e Android"
-        }
-      },
-      "expansion": {
-        "title": "Expansão",
-        "items": {
-          "cexListing": "Listagem em Múltiplas CEX",
-          "tradingVolume": "Atingir Volume de Negociação Diário de $100M",
-          "hundredThousandHolders": "Alcançar 100.000 Detentores de BFX",
-          "leaderboards": "Adicionar Rankings e Contas VIP"
-        }
-      },
-      "globalReach": {
-        "title": "Alcance Global",
-        "items": {
-          "usLicense": "Licença nos EUA",
-          "marketingCampaigns": "Campanhas de Marketing Globais",
-          "millionHolders": "Alcançar 1.000.000 de Detentores de BFX",
-          "partnerships": "Parcerias Importantes"
-        }
-      }
-    }
-  },
-  "ourAwards": {
-    "subtitle": "Plataforma de Negociação Multi-Premiada",
-    "title": "Nossos Prêmios falam por si",
-    "awards": {
-      "first": {
-        "organization": "TheCoinRisE",
-        "title": "Melhor Plataforma de Negociação 2025",
-        "badgeAlt": "Distintivo de prêmio",
-        "trophyAlt": "Troféu de Melhor Plataforma de Negociação"
-      },
-      "second": {
-        "organization": "AltcoinDaily",
-        "title": "Corretora de Negociação de Crescimento Mais Rápido 2025",
-        "badgeAlt": "Distintivo de prêmio",
-        "trophyAlt": "Troféu de Corretora de Negociação de Crescimento Mais Rápido"
-      }
-    }
-  },
-  "pressMedia": {
-    "title": "Imprensa & Mídia",
-    "quotes": {
-      "first": {
-        "text": "BlockchainFX está rapidamente se tornando a plataforma de negociação preferida em 2025, oferecendo acesso a mais de 500 ativos e benefícios gratificantes para os usuários.",
-        "logoAlt": "Logo do veículo de mídia 1"
-      },
-      "second": {
-        "text": "BlockchainFX está pronta para revolucionar o cenário de negociação como a primeira plataforma de negociação de criptomoedas tudo-em-um.",
-        "logoAlt": "Logo do veículo de mídia 2"
-      },
-      "third": {
-        "text": "BlockchainFX é o primeiro aplicativo de negociação que permite aos usuários ganhar renda passiva diária em USDT diretamente das taxas de negociação.",
-        "logoAlt": "Logo do veículo de mídia 3"
-      }
-    }
-  },
-  "traderReviews": {
-    "title": "Avaliações de Traders",
-    "rating": {
-      "score": "4,79 de 5",
-      "verifiedRatings": "Mais de 1000 Avaliações Verificadas"
+  "trader_reviews_section": {
+    "title": "O que os Traders Dizem Sobre <span>BlockchainFX</span>",
+    "ratings": {
+      "average": "4,87 de 5",
+      "verified_ratings": "1000+ Avaliações Verificadas",
+      "rating_bars": [
+        { "rating": 5, "percentage": 86 },
+        { "rating": 4, "percentage": 8 },
+        { "rating": 3, "percentage": 3 },
+        { "rating": 2, "percentage": 2 },
+        { "rating": 1, "percentage": 1 }
+      ]
     },
-    "phoneFrameAlt": "Moldura de telefone exibindo avaliações",
-    "prevButtonAlt": "Botão de avaliação anterior",
-    "nextButtonAlt": "Botão de próxima avaliação",
-    "verifiedIconAlt": "Marca de verificação",
-    "viewOnX": "Ver Avaliação no X",
-    "reviews": {
-      "first": {
-        "text": "Finalmente, uma plataforma que acerta! Negociei CFDs, comprei ações da Apple, vendi-as por GBP e peguei alguns $PEPE, tudo em cinco minutos. Altamente recomendado tanto para iniciantes quanto para profissionais.",
-        "name": "LacosteBtc",
-        "handle": "@LacosteBtc",
-        "followers": "35,2 mil Seguidores",
-        "userAlt": "Foto de perfil do LacosteBtc"
+    "reviews": [
+      {
+        "text": "A BlockchainFX oferece oportunidades de negociação infinitas. Isso faz sentido, já que os mercados são interconectados. Finalmente, não é mais preciso perder tempo trocando de corretora.",
+        "user": {
+          "name": "Silvina Escudero",
+          "followers": "@silvinaescudero • 863K seguidores",
+          "link": "https://x.com/silvinaescudero/status/1900845896302027108",
+          "image": "user2",
+          "reviewLink": "Ver Avaliação no X"
+        }
       },
-      "second": {
-        "text": "Negociar em 9 janelas diferentes e ter acesso a dezenas de ferramentas analíticas de trading e gestão de risco está me dando uma vantagem de longo prazo sobre a concorrência que negocia em outras plataformas.",
-        "name": "Mr 𝕏",
-        "handle": "@MrX_Crypto",
-        "followers": "472 mil seguidores",
-        "userAlt": "Foto de perfil do Mr X"
+      {
+        "text": "A melhor parte da BlockchainFX? A liquidez profunda em todos os ativos. Nunca tive problema para executar grandes ordens, mesmo com pares cripto de nicho. É exatamente o que traders sérios precisam—velocidade, confiabilidade e uma ampla gama de mercados em um só lugar.",
+        "user": {
+          "name": "DefiAva🦋",
+          "followers": "@defi_avaxx • 30,3K seguidores",
+          "link": "https://x.com/defi_avaxx/status/1900847259874627732",
+          "image": "user3",
+          "reviewLink": "Ver Avaliação no X"
+        }
       },
-      "third": {
-        "text": "BlockchainFX oferece oportunidades de negociação infinitas. Isso faz sentido já que os mercados estão interconectados. Finalmente, não há necessidade de perder tempo alternando entre corretoras.",
-        "name": "Silvina Escudero",
-        "handle": "@silvinaescudero",
-        "followers": "863 mil seguidores",
-        "userAlt": "Foto de perfil da Silvina Escudero"
+      {
+        "text": "A BlockchainFX elevou completamente meu nível de negociação. É super intuitiva, permite acessar múltiplos mercados simultaneamente e oferece transações ultrarrápidas. Uma grande vitória para o cripto!",
+        "user": {
+          "name": "Honey.Eth",
+          "followers": "@HoneyEth_ • 121,8K seguidores",
+          "link": "https://x.com/HoneyEth_/status/1900870121477820837",
+          "image": "user4",
+          "reviewLink": "Ver Avaliação no X"
+        }
       },
-      "fourth": {
-        "text": "A melhor parte do BlockchainFX? A liquidez profunda em todos os ativos. Nunca tive problemas para preencher grandes ordens, mesmo com pares de criptomoedas de nicho. Isso é exatamente o que traders sérios precisam—velocidade, confiabilidade e uma ampla gama de mercados em um só lugar.",
-        "name": "DefiAva🦋",
-        "handle": "@defi_avaxx",
-        "followers": "30,3 mil seguidores",
-        "userAlt": "Foto de perfil da DefiAva"
-      },
-      "fifth": {
-        "text": "BlockchainFX elevou completamente meu jogo de trading. É super intuitivo, permite acessar múltiplos mercados simultaneamente e oferece transações extremamente rápidas. Uma grande vitória para as criptomoedas!",
-        "name": "Honey.Eth",
-        "handle": "@HoneyEth_",
-        "followers": "121,8 mil seguidores",
-        "userAlt": "Foto de perfil do Honey.Eth"
-      },
-      "sixth": {
-        "text": "É exatamente o que precisávamos. Uma corretora de trading projetada para conectar Cripto com Forex, ETFs e ações, dando a você acesso real aos mercados com liquidez profunda.",
-        "name": "Crypto Bri",
-        "handle": "@cryptobri_",
-        "followers": "79,6 mil seguidores",
-        "userAlt": "Foto de perfil do Crypto Bri"
+      {
+        "text": "Era exatamente o que precisávamos. Uma corretora projetada para unir Cripto com Forex, ETFs e ações, dando acesso real aos mercados com liquidez profunda.",
+        "user": {
+          "name": "Crypto Bri",
+          "followers": "@cryptobri_ • 79,6K seguidores",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075",
+          "image": "user5",
+          "reviewLink": "Ver Avaliação no X"
+        }
+      }
+    ],
+    "assets": {
+      "user_images": [
+        "rew (5).png",
+        "rew (4).png",
+        "rew (3).png",
+        "rew (2).png",
+        "rew (1).png",
+        "user.png"
+      ],
+      "icons": {
+        "tick": "teenyicons_tick-circle-solid.svg",
+        "swiper_left": "arwr.svg",
+        "swiper_right": "arw.svg"
       }
     }
   },
-  "faq": {
-    "title": "Perguntas Frequentes",
-    "subtitle": "Encontre respostas para algumas das perguntas mais comuns.",
-    "questions": {
-      "what_is_blockchainfx": {
-        "question": "O que é BlockchainFX?",
-        "answer": "BlockchainFX é uma plataforma internacional de negociação multi-ativos que oferece uma ampla gama de oportunidades de negociação, incluindo Forex, Cripto, ETFs e mais, com ferramentas técnicas avançadas e recursos de gestão de risco."
-      },
-      "what_is_bfx": {
-        "question": "O que é BFX?",
-        "answer": "BFX é o token nativo da plataforma BlockchainFX, permitindo acesso antecipado, recompensas de staking em BFX e USDT, e fornecendo acesso a recursos premium, bem como participação no ecossistema da plataforma."
-      },
-      "what_is_crypto_presale": {
-        "question": "O que é uma pré-venda de criptomoeda?",
-        "answer": "Uma pré-venda de criptomoeda é uma oportunidade antecipada de comprar uma nova criptomoeda ou token antes que se torne publicamente disponível, geralmente a um preço significativamente menor do que o preço oficial de lançamento nas exchanges."
-      },
-      "what_is_presale_goal": {
-        "question": "Qual é o objetivo da pré-venda?",
-        "answer": "O evento comunitário é dedicado a vender todos os tokens alocados para pré-venda para acelerar o crescimento e expansão da plataforma. Esses fundos serão estrategicamente alocados para desenvolvimento, marketing e garantir listagens em exchanges de primeira linha para o BFX. <br/><br/>Nosso objetivo é alcançar 100.000 traders ativos diariamente e gerar um volume de negociação diário de vários milhões de dólares antes do lançamento oficial. Ao mesmo tempo, estamos construindo uma comunidade forte, leal e engajada, recompensando os apoiadores iniciais com tokens com desconto e maximizando a conscientização para o lançamento do BFX."
-      },
-      "where_see_tokens": {
-        "question": "Onde posso ver meus tokens?",
-        "answer": "Você pode visualizar seus tokens na sua carteira do painel. Basta clicar em 'Conectar Carteira' no canto superior direito e conectar a carteira que você usou para a compra para ver seu saldo de BFX."
-      },
-      "are_tokens_safe": {
-        "question": "Meus tokens estão seguros?",
-        "answer": "A segurança dos seus tokens durante a pré-venda é 100% garantida através do nosso contrato inteligente."
-      },
-      "how_claim_bfx": {
-        "question": "Como reivindicar seu BFX?",
-        "answer": "Seus tokens serão transferidos para sua carteira automaticamente após o término da pré-venda. Você não precisa fazer nada."
-      }
-    }
-  },
-  "ultimateSec": {
-    "title": "A Plataforma <br/> de Negociação Definitiva",
-    "joinWhitelist": "Junte-se à Lista Branca",
-    "startTrading": "Começar a Negociar (Beta)",
-    "logoAlt": "Logo BlockchainFX"
+ 
+  "the_ultimate_section": {
+    "title": "A Plataforma de Negociação <br/> Definitiva",
+    "description": "Experimente a melhor plataforma de negociação com recursos avançados e interface amigável.",
+    "buy_bfx": "Comprar $BFX",
+    "need_support": "Precisa de Suporte?"
   },
   "footer": {
-    "logoAlt": "Logo BlockchainFX",
-    "description": "Experimente negociação tudo-em-um com BlockchainFX: Negocie Cripto, Forex, ETFs, Ações, Índices, CFDs e mais com acesso a mais de 500 ativos.",
-    "quickLinks": {
+    "description": "Experimente negociação tudo-em-um com a BlockchainFX: Negocie Cripto, Forex, ETFs, Ações, Índices, CFDs e mais com acesso a mais de 500 ativos.",
+    "quick_links": {
       "title": "Links Rápidos",
-      "whitelist": "Lista Branca",
+      "how_to_buy": "Como Comprar",
+      "what_is_bfx": "O que é BFX",
       "roadmap": "Roteiro",
-      "whatIsBfx": "O que é BFX?",
-      "tokenAllocation": "Alocação de Tokens"
+      "token_allocation": "Alocação de Token"
     },
     "docs": {
       "title": "Documentos",
-      "privacyPolicy": "Política de Privacidade",
-      "termsOfService": "Termos de Serviço",
-      "tokenSaleAgreement": "Acordo de Venda de Tokens",
-      "liveSupport": "Suporte 24/7"
+      "terms_of_service": "Termos de Serviço",
+      "privacy_policy": "Política de Privacidade",
+      "token_sale": "Acordo de Venda de Token",
+      "support": "Suporte 24/7 Ao Vivo"
     },
     "socials": {
-      "title": "Junte-se a Nós nas Redes Sociais",
-      "instagramAlt": "Ícone do Instagram",
-      "telegramAlt": "Ícone do Telegram",
-      "twitterAlt": "Ícone do Twitter/X"
+      "title": "Junte-se às Nossas Redes Sociais"
     },
     "contact": {
-      "label": "E-mail de Contato:",
+      "email_label": "E-mail de Contato:",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": {
-      "part1": "A criptomoeda pode não ser regulamentada em sua jurisdição, e seu valor pode flutuar, levando a ganhos ou perdas potenciais. Quaisquer lucros podem estar sujeitos a impostos sobre ganhos de capital ou outros impostos, dependendo das leis locais. O conteúdo nesta plataforma não constitui uma oferta, recomendação ou conselho financeiro para comprar, vender ou se envolver em quaisquer transações de criptomoeda. Você é o único responsável por avaliar se uma transação está alinhada com seus objetivos pessoais, circunstâncias financeiras e tolerância ao risco. Recomendamos fortemente consultar profissionais jurídicos, fiscais ou financeiros confiáveis e licenciados antes de tomar qualquer decisão.",
-      "part2": "A negociação de criptomoedas envolve riscos significativos, incluindo o potencial de perda parcial ou total de seus fundos. Pesquisa minuciosa é crucial. BlockchainFX não garante qualquer desempenho, resultado ou retorno de capital para qualquer criptomoeda mencionada nesta plataforma. Ao usar esta plataforma, você concorda com nossos Termos de Serviço, Política de Privacidade, Política de Cookies e quaisquer acordos de venda de tokens aplicáveis. O conteúdo da plataforma não se destina ao uso em jurisdições onde sua distribuição ou uso violaria leis ou regulamentos locais."
-    },
+    "disclaimer": "Criptomoedas podem não ser regulamentadas em sua jurisdição, e seu valor pode flutuar, levando a ganhos ou perdas potenciais. Quaisquer lucros podem estar sujeitos a impostos sobre ganhos de capital ou outros, dependendo das leis locais. O conteúdo desta plataforma não constitui uma oferta, recomendação ou aconselhamento financeiro para comprar, vender ou participar de quaisquer transações com criptomoedas. Você é o único responsável por avaliar se uma transação está alinhada com seus objetivos pessoais, circunstâncias financeiras e tolerância ao risco. Recomendamos fortemente consultar profissionais jurídicos, fiscais ou financeiros confiáveis e licenciados antes de tomar qualquer decisão.\n\nNegociar criptomoedas envolve riscos significativos, incluindo a possibilidade de perda parcial ou total de seus fundos. Uma pesquisa completa é crucial. A BlockchainFX não garante qualquer desempenho, resultado ou retorno de capital para qualquer criptomoeda mencionada nesta plataforma. Ao usar esta plataforma, você concorda com nossos Termos de Serviço, Política de Privacidade, Política de Cookies e quaisquer acordos de venda de token aplicáveis. O conteúdo da plataforma não se destina ao uso em jurisdições onde sua distribuição ou uso violaria leis ou regulamentos locais.",
     "copyright": "Copyright 2025. Todos os Direitos Reservados.",
-    "cookieManagement": "Gerenciamento de Cookies"
+    "cookie_management": "Gerenciamento de Cookies"
+  },
+  "MobilePremiumSec": {
+    "subtitle": "Associação Limitada ao Founder's <br /> Club",
+    "description": "Compre BFX durante a pré-venda e torne-se Membro do Founder's Club a partir de apenas $1.000. Receba seu NFT exclusivo, Cartão Visa BFX, Tokens Bônus, Recompensas Diárias em USDT e Créditos de Negociação Gratuitos.",
+    "tiers": {
+      "novice": "Iniciante",
+      "advanced": "Avançado",
+      "pro": "Pro",
+      "expert": "Especialista",
+      "master": "Mestre",
+      "elite": "Elite",
+      "legend": "Lenda"
+    },
+    "cards": {}
+  },
+  "FoundersClubFAQ": {
+    "title": "Perguntas Sobre <br /> O Founder's Club",
+    "questions": {
+      "nft_timing": {
+        "question": "Quando receberei meu NFT do Founder's Club?",
+        "answer": "<li>Você receberá automaticamente seu NFT do Founder's Club após comprar a quantidade necessária de $BFX.</li> <li>O NFT aparecerá no seu painel pessoal e poderá ser resgatado assim que a pré-venda terminar.</li> <li>Para acessar o painel, conecte a mesma carteira clicando em 'Conectar Carteira' no canto superior direito.</li>"
+      },
+      "bonuses_timing": {
+        "question": "Quando receberei meus bônus?",
+        "answer": "<li>Seus bônus BFX serão adicionados instantaneamente ao seu painel.</li> <li>Para acessar seu painel, clique no botão 'Conectar Carteira'</li>"
+      },
+      "multiple_purchases": {
+        "question": "Posso receber um NFT com várias compras?",
+        "answer": "<li>Sim, você pode comprar $BFX em quantias menores para atingir o total necessário.</li> <li>Por exemplo, comprar $200 em $BFX cinco vezes dará a você o NFT Iniciante (avaliado em $1.000).</li>"
+      },
+      "upgrade_nft": {
+        "question": "Posso fazer upgrade do meu NFT?",
+        "answer": "<li>Sim, você pode fazer upgrade várias vezes durante a pré-venda.</li><li>Você receberá recompensas e o NFT do nível mais alto que alcançar.</li> <li>Após o fim da pré-venda, upgrades não serão mais possíveis.</li>"
+      }
+    },
+    "tooltip": {
+      "upgrade_info": "Por exemplo, comprar $1.000 de $BFX dá a você o NFT Iniciante. <br /> Gaste mais $1.500 para fazer upgrade para Avançado. <br /> Você pode continuar fazendo upgrades até alcançar o NFT Lenda."
+    }
+  },
+  "MobileLessThanSec": {
+    "slide1": {
+      "title": "Conectando Cripto e Finanças",
+      "description1": "Cripto representa apenas 0,87% do volume global de negociação em 2024, com média de US$ 84,3 bilhões por dia.",
+      "description2": "Enquanto isso, o mercado Forex movimenta sozinho US$ 7,5 trilhões por dia. Essa diferença representa uma grande oportunidade para o $BFX conectar usuários de cripto aos maiores mercados financeiros do mundo.",
+      "chartTitle": "Volume Médio Diário de Negociação em 2024",
+      "chart": {
+        "bonds": "Títulos:",
+        "bondsValue": "$1,1 trilhão (11,42%)",
+        "stocks": "Ações dos EUA:",
+        "stocksValue": "$700 bilhões (7,27%)",
+        "commodities": "Commodities:",
+        "commoditiesValue": "$250 bilhões (2,59%)",
+        "crypto": "Cripto:",
+        "cryptoValue": "$89 Bilhões (0,87%)",
+        "forex": "Forex:",
+        "forexValue": "$7,5 trilhões (77,85%)"
+      },
+      "legend": {
+        "forex": "Forex",
+        "bonds": "Títulos",
+        "usStock": "Ações dos EUA",
+        "commodities": "Commodities",
+        "crypto": "Cripto"
+      }
+    },
+    "slide2": {
+      "title": "O Portal para Mercados Globais",
+      "description": "Lançar uma nova plataforma de negociação exige muito tempo e recursos. Por outro lado, comprar $BFX leva segundos e permite que você ganhe toda vez que alguém negocia.",
+      "comparison": {
+        "newPlatform": "Nova Plataforma de Negociação",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "Custo",
+          "platform": "Até US$ 2 Milhões",
+          "bfx": "Você decide",
+          "tooltip": "Esse é o orçamento necessário apenas para lançar a plataforma em certas jurisdições, excluindo equipe e marketing."
+        },
+        "time": {
+          "title": "Tempo",
+          "platform": "Até 3 anos",
+          "bfx": "Compre $BFX em 2 cliques"
+        },
+        "team": {
+          "title": "Equipe",
+          "platform": "Equipe multilíngue experiente trabalhando em turnos, 24/7, 365 dias por ano.",
+          "bfx": "Nenhuma equipe necessária"
+        },
+        "workScope": {
+          "title": "Escopo do Trabalho",
+          "platform": "Requisitos de Capital, Marketing & Branding, Provedores de Liquidez, Equipe de Gestão de Risco, Suporte ao Cliente, Infraestrutura Tecnológica, Parcerias, Desenvolvimento, Contratação e Gestão de Equipe, e mais.",
+          "bfx": "Nenhum trabalho necessário"
+        }
+      }
+    },
+    "slide3": {
+      "title": "Projetado para Crescimento Exponencial",
+      "description": "A BlockchainFX é uma plataforma de negociação impulsionada pela comunidade que recompensa diariamente os detentores de BFX. À medida que a plataforma cresce, o token também cresce — criando um ciclo poderoso de crescimento e engajamento. Estudos* mostram que comunidades incentivadas podem crescer significativamente mais rápido do que outras, e o BFX foi projetado para maximizar esse potencial.",
+      "chart": {
+        "title": "Previsão de Crescimento",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "Plataforma de Negociação Regular"
+      },
+      "source": "(*Fonte: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
+      "buttonText": "Comprar $BFX"
+    }
+  },
+  "biggest_buy": {
+    "title": "Competição Maior Compra",
+    "description": "Os 10 maiores compradores da pré-venda BFX receberão uma parte de um prêmio de 100.000 USD em $BFX. Esta competição é nossa forma de agradecer àqueles que mais contribuíram e desempenharam um papel importante no crescimento do ecossistema BlockchainFX.",
+    "table": {
+      "rank": "Classificação",
+      "wallet": "Carteira",
+      "date": "Data",
+      "tx_count": "Nº de TX",
+      "total_buy": "Total Comprado",
+      "nft": "NFT",
+      "prize": "Prêmio"
+    },
+    "load_more": "Carregar Mais",
+    "view_less": "Ver Menos",
+    "note": "A lista é atualizada semanalmente e é baseada nas transações feitas durante a pré-venda BFX."
+  },
+  "community_section": {
+    "title": "O que a Comunidade $BFX Está Dizendo",
+    "reviews": [
+      {
+        "name": "DANI",
+        "date": "Compra Verificada em 04/02/25",
+        "description": "Entrei na lista de espera deles e consegui acesso antecipado beta ao app de negociação em dezembro. Parecia a Binance turbinada e eu já sabia que iria explodir, então comprei 5–6 vezes nas últimas semanas. Já ganhei US$ 3,75k em USDT de staking, e a moeda nem foi lançada ainda. Parabéns!"
+      },
+      {
+        "name": "ERIKS",
+        "date": "Compra Verificada em 31/03/25",
+        "description": "Entrei super cedo quando a BFX lançou sua pool inicial de staking, quase ninguém estava, então as recompensas eram divididas entre poucos. Ganhei mais de US$ 8,5k em staking e recebi US$ 2k em USDT de airdrop. Deixei o resto intocado. Para ser sincero, ainda estou em choque… isso é puro alpha."
+      },
+      {
+        "name": "S.Z",
+        "date": "Compra Verificada em 17/04/25",
+        "description": "Já estou ganhando boas recompensas só com staking, mas o que realmente aposto é no que o $BFX pode fazer após a pré-venda. Por que pagar taxas em plataformas como Coinbase se você pode ser pago aqui, e ainda negociar ações? Todo mundo vai migrar. BFX será a próxima grande coisa. É óbvio."
+      }
+    ]
+  },
+  "crypto_exchange_sec": {
+    "title": "Exchange de Cripto Pioneira",
+    "description": "A BlockchainFX está redefinindo o futuro da negociação com uma plataforma descentralizada tudo-em-um onde os usuários podem negociar qualquer coisa, em qualquer lugar — mantendo total controle de seus ativos.<br /><br />Atualmente em beta e premiada como 'Melhor Novo App de Trading Cripto de 2025', a BlockchainFX já recebeu feedback excepcional dos primeiros usuários. Com a pré-venda do $BFX, os detentores agora podem fazer parte da próxima grande plataforma global de negociação.",
+    "buy_button": "Comprar BFX",
+    "watch_live_button": "Assista à Negociação Ao Vivo Aqui"
+  },
+  "gateway_section": {
+    "title": "A Primeira Exchange de Cripto que Paga seus Detentores",
+    "description": "Em vez de drenar os usuários com altas taxas, a BlockchainFX as reduz em até 70%. Metade de todas as taxas é <br /> paga aos detentores de $BFX como recompensas diárias de staking. A plataforma coloca a comunidade no centro, <br /> garantindo que os usuários sejam recompensados em cada etapa do sucesso do projeto.",
+    "features": {
+      "fees": "Taxas",
+      "asset_variety": "Variedade de Ativos",
+      "user_experience": "Experiência do Usuário",
+      "community": "Comunidade"
+    },
+    "other_exchanges": {
+      "title": "Outras Exchanges de Cripto",
+      "high_fees": "Altas taxas sem recompensas para os usuários",
+      "crypto_only": "Apenas negociação cripto-cripto",
+      "account_restrictions": "Restrições e bloqueios de contas aleatórios",
+      "users_excluded": "Usuários são vistos apenas como geradores de lucro para a exchange e totalmente excluídos do crescimento e sucesso."
+    },
+    "blockchainfx": {
+      "title": "BlockchainFX",
+      "shares_profits": "Divide lucros com a comunidade",
+      "swap_instantly": "Troque instantaneamente entre cripto, ações, forex, commodities, ETFs e mais",
+      "withdraw_anytime": "Saque sua cripto a qualquer momento, sem bloqueios",
+      "community_earns": "A comunidade ganha, cresce e constrói a plataforma junto com a BlockchainFX."
+    }
+  },
+  "premium_section": {
+    "title": "Receba Bônus Especiais a partir de US$ 1.000",
+    "description": "Compre BFX durante a pré-venda e entre para o Founder's Club a partir de apenas US$ 1.000.<br />Receba seu NFT exclusivo, Cartão Visa BFX, tokens bônus, recompensas diárias em USDT,<br />e créditos de negociação gratuitos. Disponível exclusivamente durante a pré-venda.",
+    "cards": [
+      {
+        "title": "Iniciante",
+        "price": "$1.000",
+        "points": ["Cartão Visa BFX", "10% Bônus BFX", "Recompensas de Staking BFX", "Recompensas Diárias em USDT", "Créditos de Negociação de até $25k"],
+        "buttonLabel": "Comprar $BFX • $1.000",
+        "cardPointsTooltips": [
+          "Receba seu Cartão Visa BFX (virtual e físico), aceito online e em lojas no mundo todo.",
+          "Compre este NFT e receba moedas BFX extras em sua carteira.",
+          "Receba recompensas de staking BFX toda vez que alguém negociar na BlockchainFX.",
+          "Receba recompensas em USDT, pagas como porcentagem do total de ganhos de staking BFX.",
+          "Receba créditos de negociação após a pré-venda para usar na BlockchainFX."
+        ]
+      },
+      {
+        "title": "Avançado",
+        "price": "$2.500",
+        "points": ["Cartão Visa BFX", "20% Bônus BFX", "Recompensas de Staking BFX", "$500 Créditos de Negociação", "Recompensas Diárias em USDT"],
+        "buttonLabel": "Comprar $BFX • $2.500",
+        "cardPointsTooltips": [
+          "Receba seu Cartão Visa BFX (virtual e físico), aceito online e em lojas no mundo todo.",
+          "Compre este NFT e receba moedas BFX extras em sua carteira.",
+          "Receba recompensas de staking BFX toda vez que alguém negociar na BlockchainFX.",
+          "Receba créditos de negociação após a pré-venda para usar na BlockchainFX.",
+          "Receba recompensas em USDT, pagas como porcentagem do total de ganhos de staking BFX."
+        ]
+      },
+      {
+        "title": "Pro",
+        "price": "$5.000",
+        "points": ["Cartão Visa BFX de Metal", "30% Bônus BFX", "Recompensas de Staking BFX", "$1.000 Créditos de Negociação", "Recompensas Diárias em USDT"],
+        "buttonLabel": "Comprar $BFX • $5.000",
+        "cardPointsTooltips": [
+          "Receba seu Cartão Visa BFX (virtual e físico), aceito online e em lojas no mundo todo.",
+          "Compre este NFT e receba moedas BFX extras em sua carteira.",
+          "Receba recompensas de staking BFX toda vez que alguém negociar na BlockchainFX.",
+          "Receba créditos de negociação após a pré-venda para usar na BlockchainFX.",
+          "Receba recompensas em USDT, pagas como porcentagem do total de ganhos de staking BFX."
+        ]
+      },
+      {
+        "title": "Especialista",
+        "price": "$10.000",
+        "points": ["Cartão Visa BFX de Metal", "40% Bônus BFX", "Recompensas de Staking BFX", "10% Recompensas em USDT", "$2.000 Créditos de Negociação"],
+        "buttonLabel": "Comprar $BFX • $10.000",
+        "cardPointsTooltips": [
+          "Receba seu Cartão Visa BFX (virtual e físico), aceito online e em lojas no mundo todo.",
+          "Compre este NFT e receba moedas BFX extras em sua carteira.",
+          "Receba recompensas de staking BFX toda vez que alguém negociar na BlockchainFX.",
+          "Receba recompensas em USDT, pagas como porcentagem do total de ganhos de staking BFX.",
+          "Receba créditos de negociação após a pré-venda para usar na BlockchainFX."
+        ]
+      },
+      {
+        "title": "Mestre",
+        "price": "$25.000",
+        "points": ["Cartão Visa BFX de Metal", "50% Bônus BFX", "Recompensas de Staking BFX", "15% Recompensas em USDT", "$5.000 Créditos de Negociação"],
+        "buttonLabel": "Comprar $BFX • $25.000",
+        "cardPointsTooltips": [
+          "Receba seu Cartão Visa BFX de Metal (virtual e físico), aceito online e em lojas no mundo todo.",
+          "Compre este NFT e receba moedas BFX extras em sua carteira.",
+          "Receba recompensas de staking BFX toda vez que alguém negociar na BlockchainFX.",
+          "Receba recompensas em USDT, pagas como porcentagem do total de ganhos de staking BFX.",
+          "Receba créditos de negociação após a pré-venda para usar na BlockchainFX."
+        ]
+      },
+      {
+        "title": "Elite",
+        "price": "$50.000",
+        "points": ["Cartão Visa BFX de Metal", "60% Bônus BFX", "Recompensas de Staking BFX", "20% Recompensas em USDT", "$10.000 Créditos de Negociação"],
+        "buttonLabel": "Comprar $BFX • $50.000",
+        "cardPointsTooltips": [
+          "Receba seu Cartão Visa BFX de Metal (virtual e físico), aceito online e em lojas no mundo todo.",
+          "Compre este NFT e receba moedas BFX extras em sua carteira.",
+          "Receba recompensas de staking BFX toda vez que alguém negociar na BlockchainFX.",
+          "Receba recompensas em USDT, pagas como porcentagem do total de ganhos de staking BFX.",
+          "Receba créditos de negociação após a pré-venda para usar na BlockchainFX."
+        ]
+      },
+      {
+        "title": "Lenda",
+        "price": "$100.000",
+        "points": ["Cartão Visa BFX 18K", "80% Bônus BFX", "Recompensas de Staking BFX", "30% Recompensas em USDT", "$25.000 Créditos de Negociação"],
+        "buttonLabel": "Comprar $BFX • $100.000",
+        "cardPointsTooltips": [
+          "Receba seu Cartão Visa BFX 18K (virtual e físico), aceito online e em lojas no mundo todo.",
+          "Compre este NFT e receba moedas BFX extras em sua carteira.",
+          "Receba recompensas de staking BFX toda vez que alguém negociar na BlockchainFX.",
+          "Receba recompensas em USDT, pagas como porcentagem do total de ganhos de staking BFX.",
+          "Receba créditos de negociação após a pré-venda para usar na BlockchainFX."
+        ]
+      }
+    ],
+    "nft_label": "NFT",
+    "faq": {
+      "title": "Perguntas Sobre o Founder's Club",
+      "questions": [
+        {
+          "question": "Quando receberei meu NFT do Founder's Club?",
+          "answer": "<li>Você receberá automaticamente seu NFT do Founder's Club após comprar a quantidade necessária de $BFX.</li> <li>O NFT aparecerá no seu painel pessoal e poderá ser resgatado assim que a pré-venda terminar.</li> <li>Para acessar o painel, conecte a mesma carteira clicando em 'Conectar Carteira' no canto superior direito.</li>"
+        },
+        {
+          "question": "Quando receberei meus bônus?",
+          "answer": "<li>Seus bônus BFX serão adicionados instantaneamente ao seu painel.</li> <li>Para acessar seu painel, clique no botão 'Conectar Carteira'</li>"
+        },
+        {
+          "question": "Posso receber um NFT com várias compras?",
+          "answer": "<li>Sim, você pode comprar $BFX em quantias menores para atingir o total necessário.</li> <li>Por exemplo, comprar $200 em $BFX cinco vezes dará a você o NFT Iniciante (avaliado em $1.000).</li>"
+        },
+        {
+          "question": "Posso fazer upgrade do meu NFT?",
+          "answer": "<li>Sim, você pode fazer upgrade várias vezes durante a pré-venda.</li><li>Você receberá recompensas e o NFT do nível mais alto que alcançar.</li> <li>Após o fim da pré-venda, upgrades não serão mais possíveis.</li>"
+        }
+      ],
+      "tooltip_text": {
+        "line1": "Por exemplo, comprar $1.000 de $BFX dá a você o NFT Iniciante.",
+        "line2": "Gaste mais $1.500 para fazer upgrade para Avançado.",
+        "line3": "Você pode continuar fazendo upgrades até alcançar o NFT Lenda."
+      }
+    }
+  },
+  "exclusive_benefits_section": {
+    "title": "Benefícios de Comprar BFX Durante a Pré-venda",
+    "items": {
+      "benefit_1": {
+        "title": "Menor Preço do Token <br/>Antes do Lançamento",
+        "description": "Comprar durante a pré-venda permite garantir um preço significativamente menor em comparação ao preço de lançamento do BFX."
+      },
+      "benefit_2": {
+        "title": "Cartões Visa BFX <br/>Edição Limitada",
+        "description": "Receba um cartão de metal ou ouro 18K BFX Visa com gastos e recargas ilimitados, utilizável mundialmente."
+      },
+      "benefit_3": {
+        "title": "Créditos de Negociação <br/>Bônus Exclusivos",
+        "description": "Receba até US$ 25.000 em créditos de negociação gratuitos para começar a negociar na BlockchainFX sem condições."
+      },
+      "benefit_4": {
+        "title": "Recompensas Diárias <br/>de Staking em USDT",
+        "description": "Comece a ganhar recompensas em USDT e BFX hoje mesmo ao participar da pré-venda do BFX. Quanto antes comprar, mais poderá ganhar ao longo do tempo."
+      }
+    }
+  },
+  "less_than_section": {
+    "title": "Projetado para Crescimento Exponencial",
+    "description": "A BlockchainFX é uma plataforma de negociação impulsionada pela comunidade que recompensa diariamente os detentores de BFX. À medida que a plataforma cresce, o token também cresce — criando um ciclo poderoso de crescimento e engajamento. Estudos* mostram que comunidades incentivadas podem crescer significativamente mais rápido do que outras, e o BFX foi projetado para maximizar esse potencial.",
+    "costs": {
+      "title": "Custos",
+      "description": "Até US$ 2 Milhões"
+    },
+    "time": {
+      "title": "Tempo",
+      "description": "Até 3 anos"
+    },
+    "team": {
+      "title": "Equipe",
+      "description": "Equipe multilíngue experiente trabalhando em turnos, 24/7, 365 dias por ano."
+    },
+    "work_scope": {
+      "title": "Escopo do Trabalho",
+      "description": "Requisitos de Capital, Marketing & Branding, Provedores de Liquidez, Equipe de Gestão de Risco, Suporte ao Cliente, Infraestrutura Tecnológica, Parcerias, Desenvolvimento, Contratação e Gestão de Equipe, e mais."
+    }
   }
-  }
+}
