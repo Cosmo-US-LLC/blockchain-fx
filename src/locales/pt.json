@@ -539,31 +539,31 @@
     "need_support": "Precisa de Suporte?"
   },
   "footer": {
-    "description": "Experimente negociação tudo-em-um com a BlockchainFX: Negocie Cripto, Forex, ETFs, Ações, Índices, CFDs e mais com acesso a mais de 500 ativos.",
+    "description": "Faça parte do ecossistema de trading de nova geração e junte-se ao movimento BFX em rápido crescimento.",
     "quick_links": {
       "title": "Links Rápidos",
-      "how_to_buy": "Como Comprar",
-      "what_is_bfx": "O que é BFX",
+      "how_to_buy": "Como comprar?",
+      "what_is_bfx": "O que é BFX?",
       "roadmap": "Roteiro",
-      "token_allocation": "Alocação de Token"
+      "token_allocation": "Alocação de tokens"
     },
     "docs": {
       "title": "Documentos",
-      "terms_of_service": "Termos de Serviço",
-      "privacy_policy": "Política de Privacidade",
-      "token_sale": "Acordo de Venda de Token",
-      "support": "Suporte 24/7 Ao Vivo"
+      "terms_of_service": "Termos de serviço",
+      "privacy_policy": "Política de privacidade",
+      "token_sale": "Acordo de venda de tokens",
+      "support": "Suporte ao vivo 24/7"
     },
     "socials": {
-      "title": "Junte-se às Nossas Redes Sociais"
+      "title": "Junte-se às nossas redes sociais"
     },
     "contact": {
-      "email_label": "E-mail de Contato:",
+      "email_label": "E-mail de contato:",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": "Criptomoedas podem não ser regulamentadas em sua jurisdição, e seu valor pode flutuar, levando a ganhos ou perdas potenciais. Quaisquer lucros podem estar sujeitos a impostos sobre ganhos de capital ou outros, dependendo das leis locais. O conteúdo desta plataforma não constitui uma oferta, recomendação ou aconselhamento financeiro para comprar, vender ou participar de quaisquer transações com criptomoedas. Você é o único responsável por avaliar se uma transação está alinhada com seus objetivos pessoais, circunstâncias financeiras e tolerância ao risco. Recomendamos fortemente consultar profissionais jurídicos, fiscais ou financeiros confiáveis e licenciados antes de tomar qualquer decisão.\n\nNegociar criptomoedas envolve riscos significativos, incluindo a possibilidade de perda parcial ou total de seus fundos. Uma pesquisa completa é crucial. A BlockchainFX não garante qualquer desempenho, resultado ou retorno de capital para qualquer criptomoeda mencionada nesta plataforma. Ao usar esta plataforma, você concorda com nossos Termos de Serviço, Política de Privacidade, Política de Cookies e quaisquer acordos de venda de token aplicáveis. O conteúdo da plataforma não se destina ao uso em jurisdições onde sua distribuição ou uso violaria leis ou regulamentos locais.",
-    "copyright": "Copyright 2025. Todos os Direitos Reservados.",
-    "cookie_management": "Gerenciamento de Cookies"
+    "disclaimer": "A criptomoeda pode não ser regulamentada em sua jurisdição e seu valor pode flutuar, levando a ganhos ou perdas potenciais. Quaisquer lucros podem estar sujeitos a impostos sobre ganhos de capital ou outros impostos, dependendo das leis locais. O conteúdo desta plataforma não constitui uma oferta, recomendação ou aconselhamento financeiro para comprar, vender ou participar de quaisquer transações de criptomoedas. Você é o único responsável por avaliar se uma transação está alinhada com seus objetivos pessoais, situação financeira e tolerância ao risco. Recomendamos fortemente consultar profissionais jurídicos, fiscais ou financeiros confiáveis e licenciados antes de tomar qualquer decisão.\n\nNegociar criptomoedas envolve riscos significativos, incluindo a possibilidade de perda parcial ou total de seus fundos. Uma pesquisa completa é crucial. A BlockchainFX não garante qualquer desempenho, resultado ou devolução de capital para qualquer criptomoeda mencionada nesta plataforma. Ao usar esta plataforma, você concorda com nossos Termos de Serviço, Política de Privacidade, Política de Cookies e quaisquer acordos de venda de tokens aplicáveis. O conteúdo da plataforma não se destina ao uso em jurisdições onde sua distribuição ou uso violaria leis ou regulamentos locais.",
+    "copyright": "Copyright 2025. Todos os direitos reservados.",
+    "cookie_management": "Gerenciamento de cookies"
   },
   "MobilePremiumSec": {
     "subtitle": "Associação Limitada ao Founder's <br /> Club",

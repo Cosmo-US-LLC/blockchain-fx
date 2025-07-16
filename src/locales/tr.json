@@ -685,17 +685,17 @@
     "need_support": "Desteğe mi ihtiyacınız var?"
   },
   "footer": {
-    "description": "BlockchainFX ile hepsi bir arada alım satımı deneyimleyin: Kripto, Forex, ETF, Hisse Senetleri, Endeksler, CFD'ler ve daha fazlasını 500'den fazla varlıkla alıp satın.",
+    "description": "Yeni nesil ticaret ekosisteminin bir parçası olun ve hızla büyüyen BFX hareketine katılın.",
     "quick_links": {
       "title": "Hızlı Bağlantılar",
-      "how_to_buy": "Nasıl Alınır",
-      "what_is_bfx": "BFX Nedir",
+      "how_to_buy": "Nasıl Alınır?",
+      "what_is_bfx": "BFX Nedir?",
       "roadmap": "Yol Haritası",
       "token_allocation": "Token Dağılımı"
     },
     "docs": {
       "title": "Belgeler",
-      "terms_of_service": "Hizmet Şartları",
+      "terms_of_service": "Kullanım Şartları",
       "privacy_policy": "Gizlilik Politikası",
       "token_sale": "Token Satış Sözleşmesi",
       "support": "7/24 Canlı Destek"
@@ -707,8 +707,8 @@
       "email_label": "İletişim E-Postası:",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": "Kripto para birimi, bulunduğunuz yargı alanında düzenlenmemiş olabilir ve değeri dalgalanabilir, bu da potansiyel kazanç veya kayıplara yol açabilir. Herhangi bir kazanç, yerel yasalarınıza bağlı olarak sermaye kazancı veya diğer vergilere tabi olabilir. Bu platformdaki içerik, herhangi bir kripto para birimini satın almak, satmak veya herhangi bir işlem yapmak için bir teklif, tavsiye veya finansal tavsiye niteliğinde değildir. Bir işlemin kişisel hedeflerinize, mali durumunuza ve risk toleransınıza uygun olup olmadığını değerlendirmek yalnızca sizin sorumluluğunuzdadır. Karar vermeden önce güvenilir ve lisanslı hukuk, vergi veya finans uzmanlarına danışmanızı şiddetle tavsiye ederiz.\n\nKripto para ticareti, fonlarınızın kısmen veya tamamen kaybedilmesi riski dahil olmak üzere önemli riskler taşır. Kapsamlı araştırma yapmak çok önemlidir. BlockchainFX, bu platformda bahsedilen herhangi bir kripto para birimi için herhangi bir performans, sonuç veya sermaye iadesi garantisi vermez. Bu platformu kullanarak Hizmet Şartlarımızı, Gizlilik Politikamızı, Çerez Politikamızı ve geçerli herhangi bir token satış sözleşmesini kabul etmiş olursunuz. Platformun içeriği, dağıtımının veya kullanımının yerel yasa veya düzenlemeleri ihlal edeceği yargı alanlarında kullanılmak üzere tasarlanmamıştır.",
-    "copyright": "Telif Hakkı 2025. Tüm Hakları Saklıdır.",
+    "disclaimer": "Kripto para birimi, yargı alanınızda düzenlenmemiş olabilir ve değeri dalgalanabilir, bu da potansiyel kazanç veya kayıplara yol açabilir. Herhangi bir kazanç, yerel yasalarınıza bağlı olarak sermaye kazancı vergisine veya diğer vergilere tabi olabilir. Bu platformdaki içerik, herhangi bir kripto para birimini satın almak, satmak veya herhangi bir kripto para işlemi yapmak için bir teklif, tavsiye veya finansal tavsiye teşkil etmez. Bir işlemin kişisel hedefleriniz, mali durumunuz ve risk toleransınızla uyumlu olup olmadığını değerlendirmek yalnızca sizin sorumluluğunuzdadır. Karar vermeden önce güvenilir ve lisanslı hukuk, vergi veya finans uzmanlarına danışmanızı şiddetle tavsiye ederiz.\n\nKripto para ticareti, fonlarınızın kısmen veya tamamen kaybedilmesi riski dahil olmak üzere önemli riskler taşır. Kapsamlı araştırma çok önemlidir. BlockchainFX, bu platformda bahsedilen herhangi bir kripto para birimi için herhangi bir performans, sonuç veya sermaye iadesi garantisi vermez. Bu platformu kullanarak, Hizmet Şartlarımızı, Gizlilik Politikamızı, Çerez Politikamızı ve geçerli tüm token satış sözleşmelerini kabul etmiş olursunuz. Platformun içeriği, dağıtımının veya kullanımının yerel yasa veya düzenlemeleri ihlal edeceği yargı alanlarında kullanılmak üzere tasarlanmamıştır.",
+    "copyright": "Copyright 2025. Tüm hakları saklıdır.",
     "cookie_management": "Çerez Yönetimi"
   },
   "MobilePremiumSec": {

@@ -506,30 +506,30 @@
     "need_support": "Need Support?"
   },
   "footer": {
-    "description": "Experience all-in-one trading with BlockchainFX: Trade Crypto, Forex, ETFs, Stocks, Indices, CFDs, and more with access to over 500 assets.",
+    "description": "次世代のトレーディングエコシステムに参加し、急成長中のBFXムーブメントに加わりましょう。",
     "quick_links": {
-      "title": "Quick Links",
-      "how_to_buy": "How to Buy",
-      "what_is_bfx": "What is BFX",
-      "roadmap": "Roadmap",
-      "token_allocation": "Token Allocation"
+      "title": "クイックリンク",
+      "how_to_buy": "購入方法?",
+      "what_is_bfx": "BFXとは?",
+      "roadmap": "ロードマップ",
+      "token_allocation": "トークン配分"
     },
     "docs": {
-      "title": "Docs",
-      "terms_of_service": "Terms of Service",
-      "privacy_policy": "Privacy Policy",
-      "token_sale": "Token Sale Agreement",
-      "support": "Live 24/7 Support"
+      "title": "ドキュメント",
+      "terms_of_service": "利用規約",
+      "privacy_policy": "プライバシーポリシー",
+      "token_sale": "トークン販売契約",
+      "support": "24時間年中無休サポート"
     },
     "socials": {
-      "title": "Join Our Socials"
+      "title": "公式SNSに参加"
     },
     "contact": {
-      "email_label": "Contact E-Mail:",
+      "email_label": "お問い合わせメール：",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": "Cryptocurrency may be unregulated in your jurisdiction, and its value can fluctuate, leading to potential gains or losses. Any profits might be subject to capital gains or other taxes, depending on your local laws. The content on this platform does not constitute an offer, recommendation, or financial advice to buy, sell, or engage in any cryptocurrency transactions. You are solely responsible for assessing whether a transaction aligns with your personal goals, financial circumstances, and risk tolerance. We strongly recommend consulting trusted and licensed legal, tax, or financial professionals before making any decisions.\n\nTrading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. BlockchainFX does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.",
+    "disclaimer": "暗号資産はお住まいの地域で規制されていない場合があり、その価値は変動し、利益や損失が発生する可能性があります。利益は現地法によりキャピタルゲイン税やその他の税金の対象となる場合があります。本プラットフォームの内容は、暗号資産の売買や取引への勧誘、推奨、または金融アドバイスを構成するものではありません。取引がご自身の目標、財務状況、リスク許容度に合致するかどうかはご自身でご判断ください。意思決定の前に、信頼できる有資格の法律・税務・金融専門家にご相談されることを強くお勧めします。\n\n暗号資産取引には、資金の一部または全部を失うリスクを含む重大なリスクがあります。十分なリサーチが不可欠です。BlockchainFXは、本プラットフォームで言及されている暗号資産のパフォーマンス、結果、元本返還を一切保証しません。本プラットフォームを利用することで、利用規約、プライバシーポリシー、クッキーポリシー、および該当するトークン販売契約に同意したものとみなされます。プラットフォームの内容は、現地法や規制に違反する地域での配布や利用を意図したものではありません。",
     "copyright": "Copyright 2025. All Rights Reserved.",
-    "cookie_management": "Cookie Management"
+    "cookie_management": "クッキー管理"
   }
 }
