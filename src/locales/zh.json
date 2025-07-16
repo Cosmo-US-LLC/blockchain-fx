@@ -1,10 +1,975 @@
 {
-    "navbar": {
-      "what_is_bfx": "什么是BlockchainFX？",
-      "whitelist": "白名单",
-      "whitepaper": "白皮书",
-      "roadmap": "路线图",
-      "reviews": "评论"
+  "navbar": {
+    "whatIsBlockchainFX": "什么是BlockchainFX？",
+    "howToBuy": "如何购买",
+    "whitepaper": "白皮书",
+    "referral": "推荐",
+    "reviews": "评论",
+    "languages": "语言",
+    "dashboard": "仪表盘",
+    "connect_wallet": "连接钱包"
+  },
+  "live_presale_section": {
+    "title": "BFX预售正在进行中",
+    "buy_button": "购买BFX"
+  },
+  "hero": {
+    "title": "首个加密货币<br />交易",
+    "title_highlight": "超级应用",
+    "subtitle": "BlockchainFX是一款新一代加密货币交易所，将DeFi与传统金融市场连接起来。它是唯一一个提供股票、外汇、ETF等访问权限的Web3平台。",
+    "feature1": "首个连接区块链与金融的加密货币交易所",
+    "feature2": "比特币、以太坊、黄金、特斯拉及500+资产",
+    "feature3": "荣获2025年‘最佳新加密交易应用’奖",
+    "buy_button": "购买$BFX",
+    "how_it_works_button": "如何运作？",
+    "audited_by": "审计与认证：",
+    "verified_ratings": "已验证评分",
+    "rating": "4.87/5"
+  },
+  "featured_sec": {
+    "featured_in": "收录于："
+  },
+  "KYCVerified": {
+    "security_verified_title": "行业专家安全认证",
+    "completed": "已完成",
+    "card_items": [
+      {
+        "title": "Coinsult外部审计",
+        "description": "BlockchainFX已由荷兰知名审计公司Coinsult全面审计，确认100%安全。"
+      },
+      {
+        "title": "CertiK外部审计",
+        "description": "全球领先的区块链安全公司CertiK已对BlockchainFX进行审计，确认其符合最高安全标准。"
+      },
+      {
+        "title": "Solidproof团队KYC认证",
+        "description": "BlockchainFX团队已通过德国知名审计公司Solidproof的成功KYC认证。"
+      }
+    ]
+  },
+  "experts": {
+    "heading": "专家对BFX的评价",
+    "slide1": {
+      "text": "想象一下在Coinbase或Binance上线第一天就参与，这正是BFX当前预售所提供的机会。",
+      "name": "Clay Bro",
+      "role": "加密货币Youtuber，13.6万粉丝"
+    },
+    "slide2": {
+      "text": "持有BFX，即使不交易也能从手续费中每日获得USDT奖励。这不仅仅是一个代币，更是您被动质押收益的钥匙。",
+      "name": "Crypto Volt",
+      "role": "加密货币Youtuber，17.9万粉丝"
+    },
+    "slide3": {
+      "text": "外汇、指数、股票、ETF，甚至期权——所有资产一站式交易。它是同类中的首创平台。",
+      "name": "Crypto Dealer",
+      "role": "Youtuber，10.2万粉丝"
+    },
+    "slide4": {
+      "text": "每当有人在该平台交易，您都能获得收益——持有BFX越多，奖励越高。",
+      "name": "Crypto Pandas",
+      "role": "Youtuber，2.27万粉丝"
     }
-
+  },
+  "blockchainfx_demo": {
+    "title": "BlockchainFX演示",
+    "description": "用户只需几秒钟即可在一个强大的平台上无缝交易BTC、特斯拉、黄金、Pepe、ETF、CFD等。",
+    "buy_button": "购买BFX",
+    "watch_live_button": "观看实时交易",
+    "assets_title": "500+资产",
+    "assets_description": "BlockchainFX是唯一让Web3用户可即时在加密货币与传统资产类别间切换的交易所。无需延迟，无额外费用，无需切换平台。只需快速、实时交易。",
+    "asset_list_title": "用户可在BlockchainFX交易：",
+    "asset_crypto": "加密货币",
+    "asset_stocks": "股票",
+    "asset_forex": "外汇",
+    "asset_commodities": "大宗商品",
+    "asset_etfs": "ETF",
+    "asset_options": "期权",
+    "asset_futures": "期货",
+    "asset_indices": "指数",
+    "asset_cfds": "差价合约等"
+  },
+  "creditCard": {
+    "title": "BFX Visa卡",
+    "item1": "无限消费",
+    "item2": "金属或18K金卡",
+    "item3": "单笔最高$100,000",
+    "item4": "每月ATM取现最高$10,000",
+    "item5": "用BFX和USDT奖励支付",
+    "item6": "全球通用（线上与线下）",
+    "item7": "BFX及20+加密货币充值",
+    "item8": "BFX Visa卡仅限预售期间获取",
+    "compatibleWith": "兼容：",
+    "shippingNote": "所有卡片将在BFX预售结束后统一发货。每位BFX创始人俱乐部成员将在预售结束后收到安全表单填写收货信息。卡片将通过DHL或FedEx Express全球配送。"
+  },
+  "whitepaper": {
+    "heading": "BFX白皮书",
+    "description": "探索白皮书，了解BFX如何驱动新一代交易生态系统。发现其核心功能与优势，见证BlockchainFX如何通过打造加密行业首个交易超级应用，连接区块链与传统金融。",
+    "buyButton": "购买$BFX",
+    "accessButton": "访问白皮书"
+  },
+  "wallet_section": {
+    "title": "BFX预售",
+    "description": "BFX是全球首个由多资产交易平台支持的加密货币，持有者在任何人交易时都能获得USDT奖励——即使在预售期间也是如此。",
+    "presale_ended": "预售已结束",
+    "uniswap": "UNISWAP",
+    "how_to_buy": "如何购买",
+    "step_1_title": "1. 选择支付方式",
+    "step_1_description": "<li>连接您的加密钱包</li><li>选择您喜欢的支付方式</li><li>输入您想购买的BFX数量</li>",
+    "step_2_title": "2. 确认交易",
+    "step_2_description": "<li>点击‘立即购买’并确认交易</li>",
+    "step_3_title": "3. 今日开始赚取",
+    "step_3_description": "<p>从第一天起赚取BFX和USDT奖励！</p> <br/><li>质押奖励每24小时发放一次，并自动添加到您的钱包。</li>",
+    "step_4_title": "4. 领取",
+    "step_4_description": "<p>恭喜！预售结束后，您可在本网站一键领取代币。<br/><br/>感谢您加入BFX之旅！</p>",
+    "launch_title": "5. 上线",
+    "exchanges": "$BFX将在多家顶级交易所上线",
+    "launch_description": "$BFX将在多家顶级交易所上线",
+    "buttonBuy": "立即购买",
+    "buttonBuybfx": "购买BFX"
+  },
+  "next_generation_section": {
+    "title": "新一代交易体验",
+    "team_experience": "25年<br />经验",
+    "assets": "500+<br />资产",
+    "tight_spreads": "超低<br />点差",
+    "live_chat": "24/7<br />在线客服",
+    "register": "秒级<br />注册",
+    "one_click": "一键<br />交易",
+    "leverage": "杠杆<br />交易",
+    "charts": "最多9个<br />图表",
+    "indicators": "100+<br />指标",
+    "tournaments": "每月<br />锦标赛"
+  },
+  "trade_over_section": {
+    "title": "500+种不同资产",
+    "crypto": {
+      "title": "加密货币",
+      "description": "比特币、以太坊、Solana、Pepe等。"
+    },
+    "stocks": {
+      "title": "股票",
+      "description": "苹果、特斯拉、英伟达、奈飞、可口可乐等。"
+    },
+    "forex": {
+      "title": "外汇",
+      "description": "美元、欧元、日元、英镑、澳元等。"
+    },
+    "commodities": {
+      "title": "大宗商品",
+      "description": "黄金、白银、石油、糖等。"
+    },
+    "indices": {
+      "title": "指数",
+      "description": "道琼斯、标普500、纳斯达克等。"
+    }
+  },
+  "one_app_section": {
+    "title": "一站式应用",
+    "description": "极速创新的交易解决方案",
+    "any_device": {
+      "title": "任意设备",
+      "description": "用户可在PC、Mac、iOS或Android等任意设备上交易。"
+    },
+    "technical_tools": {
+      "title": "技术工具",
+      "description": "先进的技术工具助力市场分析与决策。"
+    },
+    "risk_management": {
+      "title": "风险管理",
+      "description": "全面的风险管理功能，助您降低风险。"
+    },
+    "multiple_charts": {
+      "title": "多图表",
+      "description": "交易者可同时使用多图表，获得更佳市场洞察。"
+    }
+  },
+  "one_app_sec": {
+    "badge": "现已上线（测试阶段）",
+    "title": "每日质押奖励",
+    "subtitle": "立即加入，每天赚取收益",
+    "note": "连接钱包并点击右上角查看您的个人仪表盘",
+    "items": {
+      "own_bfx": {
+        "title": "持有BFX",
+        "description": "在预售期间几秒钟内购买BFX。"
+      },
+      "stake_bfx": {
+        "title": "质押您的BFX",
+        "description": "进入预售仪表盘，点击‘质押’，选择数量并确认。"
+      },
+      "dashboard": {
+        "title": "个人仪表盘",
+        "description": "连接钱包并点击右上角‘仪表盘’即可查看BFX余额。"
+      },
+      "staking_rewards": {
+        "title": "质押奖励",
+        "description": "质押BFX后，24小时内BFX和USDT奖励将显示在仪表盘。"
+      }
+    }
+  },
+  "earn_on_section": {
+    "title": "每日赚取BFX收益",
+    "description": "BFX持有者每日可获得USDT和BFX质押奖励，来源于BlockchainFX的交易手续费。每当有人在应用内交易，持有者都会获得奖励。持有BFX越多，赚得越多——每日最高可达25,000 USDT。",
+    "button": "购买$BFX"
+  },
+  "how_does_it_sec": {
+    "title": "如何运作？",
+    "subtitle": "BlockchainFX是一个全球交易所，用户可交易加密货币、股票、外汇、ETF等。每当有人交易，70%的手续费将用于$BFX质押池、回购和销毁。质押奖励基于社区成员持有的BFX数量，每日最高可达25,000 USDT。",
+    "cards": {
+      "staking_rewards": {
+        "title": "BFX与USDT质押奖励",
+        "description": "所有手续费的50%将自动分配给质押BFX的持有者。"
+      },
+      "buybacks": {
+        "title": "每日回购",
+        "description": "20%的手续费每日用于回购$BFX，助力需求提升并支撑价格。"
+      },
+      "burn": {
+        "title": "销毁BFX代币",
+        "description": "回购代币的一半将被永久销毁，逐步减少$BFX供应量。"
+      }
+    }
+  },
+  "premium_section": {
+    "title": "专属奖励，起步仅需$1,000",
+    "description": "在预售期间购买BFX，仅需$1,000即可加入创始人俱乐部。获得专属NFT、BFX Visa卡、奖励代币、每日USDT质押奖励和免费交易额度。仅限预售期间。",
+    "cards": [
+      {
+        "title": "新手",
+        "price": "$1,000",
+        "points": ["BFX Visa卡", "10% BFX奖励", "BFX质押奖励", "每日USDT奖励", "最高$25,000交易额度"],
+        "buttonLabel": "购买$BFX • $1,000",
+        "cardPointsTooltips": [
+          "获得BFX Visa卡（虚拟与实体），全球线上线下通用。",
+          "购买此NFT，额外BFX代币将添加至您的钱包。",
+          "每当有人在BlockchainFX交易，您都可获得BFX质押奖励。",
+          "获得USDT奖励，按您BFX质押总收益比例发放。",
+          "预售结束后获得交易额度，可在BlockchainFX平台使用。"
+        ]
+      },
+      {
+        "title": "进阶",
+        "price": "$2,500",
+        "points": ["BFX Visa卡", "20% BFX奖励", "BFX质押奖励", "$500交易额度", "每日USDT奖励"],
+        "buttonLabel": "购买$BFX • $2,500",
+        "cardPointsTooltips": [
+          "获得BFX Visa卡（虚拟与实体），全球线上线下通用。",
+          "购买此NFT，额外BFX代币将添加至您的钱包。",
+          "每当有人在BlockchainFX交易，您都可获得BFX质押奖励。",
+          "预售结束后获得交易额度，可在BlockchainFX平台使用。",
+          "获得USDT奖励，按您BFX质押总收益比例发放。"
+        ]
+      },
+      {
+        "title": "专业",
+        "price": "$5,000",
+        "points": ["金属BFX Visa卡", "30% BFX奖励", "BFX质押奖励", "$1000交易额度", "每日USDT奖励"],
+        "buttonLabel": "购买$BFX • $5,000",
+        "cardPointsTooltips": [
+          "获得BFX Visa卡（虚拟与实体），全球线上线下通用。",
+          "购买此NFT，额外BFX代币将添加至您的钱包。",
+          "每当有人在BlockchainFX交易，您都可获得BFX质押奖励。",
+          "预售结束后获得交易额度，可在BlockchainFX平台使用。",
+          "获得USDT奖励，按您BFX质押总收益比例发放。"
+        ]
+      },
+      {
+        "title": "专家",
+        "price": "$10,000",
+        "points": ["金属BFX Visa卡", "40% BFX奖励", "BFX质押奖励", "10% USDT奖励", "$2000交易额度"],
+        "buttonLabel": "购买$BFX • $10,000",
+        "cardPointsTooltips": [
+          "获得BFX Visa卡（虚拟与实体），全球线上线下通用。",
+          "购买此NFT，额外BFX代币将添加至您的钱包。",
+          "每当有人在BlockchainFX交易，您都可获得BFX质押奖励。",
+          "获得USDT奖励，按您BFX质押总收益比例发放。",
+          "预售结束后获得交易额度，可在BlockchainFX平台使用。"
+        ]
+      },
+      {
+        "title": "大师",
+        "price": "$25,000",
+        "points": ["金属BFX Visa卡", "50% BFX奖励", "BFX质押奖励", "15% USDT奖励", "$5000交易额度"],
+        "buttonLabel": "购买$BFX • $25,000",
+        "cardPointsTooltips": [
+          "获得金属BFX Visa卡（虚拟与实体），全球线上线下通用。",
+          "购买此NFT，额外BFX代币将添加至您的钱包。",
+          "每当有人在BlockchainFX交易，您都可获得BFX质押奖励。",
+          "获得USDT奖励，按您BFX质押总收益比例发放。",
+          "预售结束后获得交易额度，可在BlockchainFX平台使用。"
+        ]
+      },
+      {
+        "title": "精英",
+        "price": "$50,000",
+        "points": ["金属BFX Visa卡", "60% BFX奖励", "BFX质押奖励", "20% USDT奖励", "$10000交易额度"],
+        "buttonLabel": "购买$BFX • $50,000",
+        "cardPointsTooltips": [
+          "获得金属BFX Visa卡（虚拟与实体），全球线上线下通用。",
+          "购买此NFT，额外BFX代币将添加至您的钱包。",
+          "每当有人在BlockchainFX交易，您都可获得BFX质押奖励。",
+          "获得USDT奖励，按您BFX质押总收益比例发放。",
+          "预售结束后获得交易额度，可在BlockchainFX平台使用。"
+        ]
+      },
+      {
+        "title": "传奇",
+        "price": "$100,000",
+        "points": ["18K金BFX Visa卡", "80% BFX奖励", "BFX质押奖励", "30% USDT奖励", "$25000交易额度"],
+        "buttonLabel": "购买$BFX • $100,000",
+        "cardPointsTooltips": [
+          "获得18K金BFX Visa卡（虚拟与实体），全球线上线下通用。",
+          "购买此NFT，额外BFX代币将添加至您的钱包。",
+          "每当有人在BlockchainFX交易，您都可获得BFX质押奖励。",
+          "获得USDT奖励，按您BFX质押总收益比例发放。",
+          "预售结束后获得交易额度，可在BlockchainFX平台使用。"
+        ]
+      }
+    ],
+    "nft_label": "NFT",
+    "faq": {
+      "title": "关于创始人俱乐部的问题",
+      "questions": [
+        {
+          "question": "我什么时候能收到创始人俱乐部NFT？",
+          "answer": "<li>购买所需数量的$BFX后，您将自动获得创始人俱乐部NFT。</li> <li>NFT将在您的个人仪表盘中显示，预售结束后可领取。</li> <li>如需访问仪表盘，请点击右上角‘连接钱包’并连接同一钱包。</li>"
+        },
+        {
+          "question": "奖励什么时候发放？",
+          "answer": "<li>BFX奖励将即时添加至您的仪表盘</li><li>如需访问仪表盘，请点击‘连接钱包’按钮</li>"
+        },
+        {
+          "question": "多次购买可以获得NFT吗？",
+          "answer": "<li>可以，您可以多次小额购买$BFX，累计达到所需总额。</li><li>例如，五次各$200的购买即可获得新手NFT（价值$1,000）。</li>"
+        },
+        {
+          "question": "NFT可以升级吗？",
+          "tooltip": true,
+          "answer": "<li>可以，预售期间可多次升级。</li> <li>您将获得最高等级的奖励和NFT。</li> <li>预售结束后将无法再升级。</li>"
+        }
+      ],
+      "tooltip_text": {
+        "line1": "例如，购买$1,000的BFX可获得新手NFT。",
+        "line2": "再花$1,500可升级为进阶。",
+        "line3": "您可持续升级，直至获得最终传奇NFT。"
+      }
+    }
+  },
+  "exclusive_benefits_section": {
+    "title": "预售期间购买BFX的专属福利",
+    "items": {
+      "benefit_1": {
+        "title": "上线前最低代币价格",
+        "description": "预售期间购买可锁定比BFX上线价更低的价格。"
+      },
+      "benefit_2": {
+        "title": "限量版BFX Visa卡",
+        "description": "获得金属或18K金BFX Visa信用卡，无限消费与充值，全球通用。"
+      },
+      "benefit_3": {
+        "title": "专属赠送交易额度",
+        "description": "最高可获$25,000免费交易额度，无条件开启BlockchainFX交易之旅。"
+      },
+      "benefit_4": {
+        "title": "每日USDT质押奖励",
+        "description": "立即参与BFX预售，开始赚取USDT和BFX奖励。越早购买，累计收益越高。"
+      }
+    }
+  },
+  "less_than_section": {
+    "title": "为指数级增长而设计",
+    "description": "BlockchainFX是一个由社区驱动的交易平台，每日奖励BFX持有者。平台发展越快，代币价值越高——形成强大的增长与参与循环。研究表明，激励型社区的增长速度远超其他，BFX正是为最大化这一潜力而设计。",
+    "costs": {
+      "title": "成本",
+      "description": "高达200万美元"
+    },
+    "time": {
+      "title": "时间",
+      "description": "最长3年"
+    },
+    "team": {
+      "title": "团队",
+      "description": "经验丰富的多语种团队，全年无休轮班工作。"
+    },
+    "work_scope": {
+      "title": "工作范围",
+      "description": "资金需求、市场营销与品牌建设、流动性提供方、风险管理团队、客户支持、技术基础设施、合作伙伴关系、开发、招聘与管理等。"
+    },
+    "gateway": {
+      "title": "通往全球市场的门户",
+      "description": "创建新交易平台需要大量时间和资源。而购买$BFX只需几秒钟，每当有人交易您都能获益。"
+    },
+    "growth": {
+      "title": "为指数级增长而设计",
+      "description": "BlockchainFX是一个由社区驱动的交易平台，每日奖励BFX持有者。平台发展越快，代币价值越高——形成强大的增长与参与循环。研究表明，激励型社区的增长速度远超其他，BFX正是为最大化这一潜力而设计。",
+      "source_note": "（*来源：哈佛商业评论《当社区成为你的竞争优势》，2020）",
+      "forecasting": "增长预测",
+      "blockchainfx": "BlockchainFX",
+      "regular_platform": "常规交易平台"
+    },
+    "comparison": {
+      "new_platform": "新交易平台",
+      "blockchainfx": "BlockchainFX",
+      "costs_option": "由您决定",
+      "time_option": "2步购买$BFX",
+      "team_option": "无需团队",
+      "work_option": "无需工作"
+    },
+    "chart": {
+      "bonds": "债券：$1.1万亿（11.64%）",
+      "stocks": "美股：$7000亿（7.15%）",
+      "commodities": "大宗商品：$2500亿（2.55%）",
+      "etfs": "ETF：$1500亿（1.53%）",
+      "crypto": "加密货币：$890亿（0.87%）",
+      "forex": "外汇：$7.5万亿（76.62%）"
+    },
+    "legend": {
+      "forex": "外汇",
+      "bonds": "债券",
+      "us_stock": "美股",
+      "commodities": "大宗商品",
+      "etfs": "ETF",
+      "crypto": "加密货币"
+    }
+  },
+  "standout_section": {
+    "title": "突出功能",
+    "description": "交易所发行的加密货币因其活跃用户、平台收入和持续营销，历来表现优异。BFX作为首个多资产交易平台的代币，带来独特功能，为市场注入真正价值。",
+    "table": {
+      "token_name": "代币名称",
+      "ranked": "排名",
+      "marketcap": "市值",
+      "trade_crypto": "加密货币交易",
+      "leverage_trading": "杠杆交易",
+      "risk_management": "风险管理",
+      "forex": "外汇",
+      "commodities": "大宗商品",
+      "cfds": "差价合约",
+      "etfs": "ETF",
+      "usdt_rewards": "USDT奖励",
+      "blockchainfx": "BlockchainFX",
+      "bitget": "Bitget",
+      "hyperliquid": "Hyperliquid",
+      "uniswap": "Uniswap"
+    }
+  },
+  "what_is_section": {
+    "title": "BFX有何不同？",
+    "description": "BFX是BlockchainFX的原生代币，提供独特机会，让您参与全球快速成长的交易平台，目标成为全球领先的交易网络之一。",
+    "features": {
+      "early_access": "早期参与",
+      "daily_staking_rewards": "每日质押奖励",
+      "lower_trading_fees": "交易手续费降低70%",
+      "trading_credits": "交易额度"
+    }
+  },
+  "token_allocation_section": {
+    "title": "代币详情",
+    "description": "代币分配结构旨在最大程度奖励早期支持者",
+    "token_name": {
+      "label": "代币名称",
+      "value": "BlockchainFX"
+    },
+    "launch_on": {
+      "label": "上线平台",
+      "value": "Uniswap与中心化交易所"
+    },
+    "token_type": {
+      "label": "代币类型",
+      "value": "以太坊"
+    },
+    "token_symbol": {
+      "label": "代币符号",
+      "value": "BFX"
+    },
+    "decimal": {
+      "label": "小数位数",
+      "value": "18"
+    },
+    "total_supply": {
+      "label": "总供应量",
+      "value": "3.5亿"
+    },
+    "contract_address": {
+      "label": "代币合约地址"
+    }
+  },
+  "lineBreak": "<br />",
+  "press_media_section": {
+    "title": "媒体与新闻",
+    "articles": [
+      {
+        "description": "BlockchainFX正迅速成为2025年首选交易平台，提供500+资产和丰厚用户福利。",
+        "link": "https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/",
+        "link_text": "阅读全文"
+      },
+      {
+        "description": "BlockchainFX作为首个全能型加密交易平台，正引领交易新格局。",
+        "link": "https://www.binance.com/en/square/post/21135762162242",
+        "link_text": "阅读全文"
+      },
+      {
+        "description": "BlockchainFX是首个让用户可直接从手续费中每日赚取USDT被动收入的交易应用。",
+        "link": "https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/",
+        "link_text": "阅读全文"
+      }
+    ]
+  },
+  "Roadmap_section": {
+    "Roadmap": "路线图",
+    "From Fintech Startup to Global Market Leader": "从金融科技初创到全球市场领导者",
+    "Genesis": "起源",
+    "Foundations": "基础",
+    "Takeoff": "起飞",
+    "Scale": "扩展",
+    "Expansion": "扩张",
+    "Global Reach": "全球覆盖",
+    "Preparation": "准备",
+    "Completed": "已完成",
+    "Execution": "执行",
+    "Launch": "上线",
+    "On-going": "进行中",
+    "Performance": "表现",
+    "Idea + concept": "创意与概念",
+    "Raise Seed Funds": "筹集种子资金",
+    "Onboard Team & Advisors": "组建团队与顾问",
+    "Trading Platform Beta Preparation": "交易平台Beta准备",
+    "Website, Tokenomics etc.": "网站、代币经济等",
+    "Create $BFX Token": "创建$BFX代币",
+    "Launch $BFX Pre-Sale": "启动$BFX预售",
+    "Certik Token Audit": "Certik代币审计",
+    "Launch an Affiliate Program": "启动联盟计划",
+    "Sell Out the Pre-Sale": "售罄预售",
+    "Launch $BFX on Uniswap and CEX": "在Uniswap和中心化交易所上线$BFX",
+    "Achieving 10000 BFX Holders": "达成10000名BFX持有者",
+    "Multiple CEX Listing": "多家中心化交易所上线",
+    "Achieving-100,000-BFX-Holders": "达成100000名BFX持有者",
+    "Reach $100M Daily Trading Volume": "实现1亿美元日交易量",
+    "Add Leaderboards & VIP accounts": "添加排行榜与VIP账户",
+    "US License": "美国牌照",
+    "Global Marketing Campaigns": "全球市场推广",
+    "Major Global Partnerships": "全球重要合作伙伴",
+    "next": "下一个",
+    "previous": "上一个"
+  },
+  "multiAward": {
+    "heading": "多项获奖交易平台",
+    "subheading": "我们的奖项证明一切",
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "2025年最佳<br />交易平台",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "2025年增长最快的<br />交易经纪商"
+  },
+  "trader_reviews_section": {
+    "title": "交易者如何评价<span>BlockchainFX</span>",
+    "ratings": {
+      "average": "4.87分（满分5分）",
+      "verified_ratings": "1000+条已验证评分",
+      "rating_bars": [
+        { "rating": 5, "percentage": 86 },
+        { "rating": 4, "percentage": 8 },
+        { "rating": 3, "percentage": 3 },
+        { "rating": 2, "percentage": 2 },
+        { "rating": 1, "percentage": 1 }
+      ]
+    },
+    "reviews": [
+      {
+        "text": "终于有个平台做对了！我交易了CFD，买了苹果股票，卖出换成GBY，还买了$PEPE，30分钟内全部搞定。强烈推荐给新手和专业人士！",
+        "user": {
+          "name": "Lacoste.btc",
+          "followers": "@Lacostebtc 35.1K粉丝",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075",
+          "image": "usern",
+          "reviewLink": "查看X平台评价"
+        }
+      },
+      {
+        "text": "在9个窗口同时交易，拥有众多分析工具和风险管理功能，让我在其他平台的竞争中长期占优。",
+        "user": {
+          "name": "Mr 𝕏",
+          "followers": "@MrX_Crypto • 472K粉丝",
+          "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
+          "image": "user1",
+          "reviewLink": "查看X平台评价"
+        }
+      },
+      {
+        "text": "BlockchainFX带来无尽交易机会。市场互联互通，这很合理。终于不用在不同券商间切换浪费时间了。",
+        "user": {
+          "name": "Silvina Escudero",
+          "followers": "@silvinaescudero • 863K粉丝",
+          "link": "https://x.com/silvinaescudero/status/1900845896302027108",
+          "image": "user2",
+          "reviewLink": "查看X平台评价"
+        }
+      },
+      {
+        "text": "BlockchainFX最棒的地方？所有资产流动性极深。即使是小众币对，大额订单也能轻松成交。这正是专业交易者需要的——速度、可靠性和丰富市场一站式集成。",
+        "user": {
+          "name": "DefiAva🦋",
+          "followers": "@defi_avaxx • 30.3K粉丝",
+          "link": "https://x.com/defi_avaxx/status/1900847259874627732",
+          "image": "user3",
+          "reviewLink": "查看X平台评价"
+        }
+      },
+      {
+        "text": "BlockchainFX彻底提升了我的交易体验。界面直观，支持多市场同时交易，交易速度极快。对加密圈来说是巨大进步！",
+        "user": {
+          "name": "Honey.Eth",
+          "followers": "@HoneyEth_ • 121.8K粉丝",
+          "link": "https://x.com/HoneyEth_/status/1900870121477820837",
+          "image": "user4",
+          "reviewLink": "查看X平台评价"
+        }
+      },
+      {
+        "text": "这正是我们需要的。一个将加密、外汇、ETF和股票打通的交易平台，真正实现深度流动性。",
+        "user": {
+          "name": "Crypto Bri",
+          "followers": "@cryptobri_ • 79.6K粉丝",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075",
+          "image": "user5",
+          "reviewLink": "查看X平台评价"
+        }
+      }
+    ],
+    "assets": {
+      "user_images": [
+        "rew (5).png",
+        "rew (4).png",
+        "rew (3).png",
+        "rew (2).png",
+        "rew (1).png",
+        "user.png"
+      ],
+      "icons": {
+        "tick": "teenyicons_tick-circle-solid.svg",
+        "swiper_left": "arwr.svg",
+        "swiper_right": "arw.svg"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "description": "查找最常见问题的答案。",
+    "faqs": [
+      {
+        "question": "什么是BlockchainFX？",
+        "answer": "BlockchainFX是一个国际多资产交易平台，提供包括外汇、加密货币、ETF等在内的多种交易机会，并配备先进的技术工具和风险管理功能。"
+      },
+      {
+        "question": "什么是BFX？",
+        "answer": "BFX是BlockchainFX平台的原生代币，赋予早期参与权、BFX和USDT质押奖励、专属功能访问权，并可参与平台生态。"
+      },
+      {
+        "question": "什么是加密货币预售？",
+        "answer": "加密货币预售是指在新币或代币正式上线前，以显著低于上市价的价格提前购买的机会。"
+      },
+      {
+        "question": "预售的目标是什么？",
+        "answer": "本次社区活动旨在售出所有预售分配代币，加速平台发展。这些资金将用于开发、市场推广和争取顶级交易所上线。我们的目标是在正式上线前实现10万日活跃交易者和数百万美元日交易量，同时建立强大忠诚的社区，奖励早期支持者并提升BFX知名度。"
+      },
+      {
+        "question": "在哪里可以看到我的代币？",
+        "answer": "您可在仪表盘钱包中查看代币。点击右上角‘连接钱包’，连接购买时的钱包即可查看BFX余额。"
+      },
+      {
+        "question": "我的代币安全吗？",
+        "answer": "预售期间您的代币安全100%由智能合约保障。"
+      },
+      {
+        "question": "如何领取BFX？",
+        "answer": "预售结束后，您的代币将自动转入钱包，无需任何操作。"
+      }
+    ]
+  },
+  "the_ultimate_section": {
+    "title": "终极<br/>交易平台",
+    "description": "体验最优质的交易平台，拥有先进功能与友好界面。",
+    "buy_bfx": "购买$BFX",
+    "need_support": "需要支持？"
+  },
+  "footer": {
+    "description": "加入新一代交易生态，成为BFX快速成长运动的一员。",
+    "quick_links": {
+      "title": "快速链接",
+      "how_to_buy": "如何购买？",
+      "what_is_bfx": "什么是BFX？",
+      "roadmap": "路线图",
+      "token_allocation": "代币分配"
+    },
+    "docs": {
+      "title": "文档",
+      "terms_of_service": "服务条款",
+      "privacy_policy": "隐私政策",
+      "token_sale": "代币销售协议",
+      "support": "24/7在线支持"
+    },
+    "socials": {
+      "title": "加入我们的社交媒体"
+    },
+    "contact": {
+      "email_label": "联系邮箱：",
+      "email": "Support@blockchainfx.com"
+    },
+    "disclaimer": "加密货币在您的司法管辖区可能不受监管，其价值可能波动，可能带来收益或损失。任何利润可能需根据当地法律缴纳资本利得税或其他税费。本平台内容不构成购买、出售或参与任何加密货币交易的要约、推荐或财务建议。您需自行评估交易是否符合个人目标、财务状况和风险承受能力。强烈建议在做出决策前咨询可信且有资质的法律、税务或金融专业人士。\n\n加密货币交易风险极高，可能导致部分或全部资金损失。请务必充分调研。BlockchainFX不对本平台提及的任何加密货币的表现、结果或本金返还作出任何保证。使用本平台即表示您同意我们的服务条款、隐私政策、Cookie政策及任何适用的代币销售协议。平台内容不适用于分发或使用违反当地法律法规的司法管辖区。",
+    "copyright": "版权所有 2025。保留所有权利。",
+    "cookie_management": "Cookie管理"
+  },
+  "MobilePremiumSec": {
+    "subtitle": "限量创始人<br />俱乐部会员资格",
+    "description": "预售期间购买BFX，即可成为创始人俱乐部会员，起步仅需$1,000。获得专属NFT、BFX Visa卡、奖励代币、每日USDT质押奖励和免费交易额度。",
+    "tiers": {
+      "novice": "新手",
+      "advanced": "进阶",
+      "pro": "专业",
+      "expert": "专家",
+      "master": "大师",
+      "elite": "精英",
+      "legend": "传奇"
+    },
+    "cards": {
+      "novice": {
+        "title": "新手",
+        "price": "$1,000",
+        "points": {
+          "earlyAccess": "早期参与",
+          "bfxBonus": "10% BFX奖励",
+          "visaCard": "BFX Visa卡"
+        },
+        "buttonLabel": "购买$BFX • $1,000"
+      },
+      "advanced": {
+        "title": "进阶",
+        "price": "$2,500",
+        "points": {
+          "earlyAccess": "早期参与",
+          "bfxBonus": "20% BFX奖励",
+          "visaCard": "金属BFX Visa卡",
+          "tradingCredits": "$500交易额度"
+        },
+        "buttonLabel": "购买$BFX • $2,500"
+      },
+      "pro": {
+        "title": "专业",
+        "price": "$5,000",
+        "points": {
+          "earlyAccess": "早期参与",
+          "bfxBonus": "30% BFX奖励",
+          "visaCard": "金属BFX Visa卡",
+          "tradingCredits": "$1000交易额度"
+        },
+        "buttonLabel": "购买$BFX • $5,000"
+      },
+      "expert": {
+        "title": "专家",
+        "price": "$10,000+",
+        "points": {
+          "earlyAccess": "早期参与",
+          "bfxBonus": "40% BFX奖励",
+          "usdtRewards": "每日USDT奖励",
+          "visaCard": "金属BFX Visa卡",
+          "tradingCredits": "$2000奖励交易额度"
+        },
+        "buttonLabel": "购买$BFX • $10,000"
+      },
+      "master": {
+        "title": "大师",
+        "price": "$25,000+",
+        "points": {
+          "earlyAccess": "早期参与",
+          "bfxBonus": "50% BFX奖励",
+          "usdtRewards": "每日USDT奖励",
+          "visaCard": "金属BFX Visa卡",
+          "tradingCredits": "$5000奖励交易额度"
+        },
+        "buttonLabel": "购买$BFX • $25,000"
+      },
+      "elite": {
+        "title": "精英",
+        "price": "$50,000+",
+        "points": {
+          "earlyAccess": "早期参与",
+          "bfxBonus": "60% BFX奖励",
+          "usdtRewards": "20% USDT奖励",
+          "visaCard": "金属BFX Visa卡",
+          "tradingCredits": "$10,000奖励交易额度"
+        },
+        "buttonLabel": "购买$BFX • $50,000"
+      },
+      "legend": {
+        "title": "传奇",
+        "price": "$100,000+",
+        "points": {
+          "earlyAccess": "早期参与",
+          "bfxBonus": "80% BFX奖励",
+          "usdtRewards": "30% USDT奖励",
+          "visaCard": "18K金BFX Visa卡",
+          "tradingCredits": "$25,000交易额度"
+        },
+        "buttonLabel": "购买$BFX • $100,000"
+      }
+    }
+  },
+  "FoundersClubFAQ": {
+    "title": "关于<br />创始人俱乐部的问题",
+    "questions": {
+      "nft_timing": {
+        "question": "我什么时候能收到创始人俱乐部NFT？",
+        "answer": "<li>购买所需数量的$BFX后，您将自动获得创始人俱乐部NFT。</li> <li>NFT将在您的个人仪表盘中显示，预售结束后可领取。</li> <li>如需访问仪表盘，请点击右上角‘连接钱包’并连接同一钱包。</li>"
+      },
+      "bonuses_timing": {
+        "question": "奖励什么时候发放？",
+        "answer": "<li>BFX奖励将即时添加至您的仪表盘。</li> <li>如需访问仪表盘，请点击‘连接钱包’按钮</li>"
+      },
+      "multiple_purchases": {
+        "question": "多次购买可以获得NFT吗？",
+        "answer": "<li>可以，您可以多次小额购买$BFX，累计达到所需总额。</li> <li>例如，五次各$200的购买即可获得新手NFT（价值$1,000）。</li>"
+      },
+      "upgrade_nft": {
+        "question": "NFT可以升级吗？",
+        "answer": "<li>可以，预售期间可多次升级。</li><li>您将获得最高等级的奖励和NFT。</li> <li>预售结束后将无法再升级。</li>"
+      }
+    },
+    "tooltip": {
+      "upgrade_info": "例如，购买$1,000的BFX可获得新手NFT。<br />再花$1,500可升级为进阶。<br />您可持续升级，直至获得最终传奇NFT。"
+    }
+  },
+  "MobileLessThanSec": {
+    "slide1": {
+      "title": "连接加密与金融",
+      "description1": "2024年，加密货币仅占全球交易量的0.87%，日均交易额为843亿美元。",
+      "description2": "而外汇市场单日交易额高达7.5万亿美元。这一差距为$BFX连接加密用户与全球最大金融市场带来巨大机遇。",
+      "chartTitle": "2024年日均交易量对比",
+      "chart": {
+        "bonds": "债券：",
+        "bondsValue": "$1.1万亿（11.42%）",
+        "stocks": "美股：",
+        "stocksValue": "$7000亿（7.27%）",
+        "commodities": "大宗商品：",
+        "commoditiesValue": "$2500亿（2.59%）",
+        "crypto": "加密货币：",
+        "cryptoValue": "$890亿（0.87%）",
+        "forex": "外汇：",
+        "forexValue": "$7.5万亿（77.85%）"
+      },
+      "legend": {
+        "forex": "外汇",
+        "bonds": "债券",
+        "usStock": "美股",
+        "commodities": "大宗商品",
+        "crypto": "加密货币"
+      }
+    },
+    "slide2": {
+      "title": "通往全球市场的门户",
+      "description": "创建新交易平台需要大量时间和资源。而购买$BFX只需几秒钟，每当有人交易您都能获益。",
+      "comparison": {
+        "newPlatform": "新交易平台",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "成本",
+          "platform": "高达200万美元",
+          "bfx": "由您决定",
+          "tooltip": "仅为部分地区上线所需预算，不含人员与市场费用。"
+        },
+        "time": {
+          "title": "时间",
+          "platform": "最长3年",
+          "bfx": "2步购买$BFX"
+        },
+        "team": {
+          "title": "团队",
+          "platform": "经验丰富的多语种团队，全年无休轮班工作。",
+          "bfx": "无需团队"
+        },
+        "workScope": {
+          "title": "工作范围",
+          "platform": "资金需求、市场营销与品牌建设、流动性提供方、风险管理团队、客户支持、技术基础设施、合作伙伴关系、开发、招聘与管理等。",
+          "bfx": "无需工作"
+        }
+      }
+    },
+    "slide3": {
+      "title": "为指数级增长而设计",
+      "description": "BlockchainFX是一个由社区驱动的交易平台，每日奖励BFX持有者。平台发展越快，代币价值越高——形成强大的增长与参与循环。研究表明，激励型社区的增长速度远超其他，BFX正是为最大化这一潜力而设计。",
+      "chart": {
+        "title": "增长预测",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "常规交易平台"
+      },
+      "source": "（*来源：哈佛商业评论《当社区成为你的竞争优势》，2020）",
+      "buttonText": "购买$BFX"
+    }
+  },
+  "biggest_buy": {
+    "title": "最大买入竞赛",
+    "description": "前10名BFX预售买家将瓜分10万美元$BFX奖池。本次竞赛旨在感谢对BlockchainFX生态贡献最大的用户。",
+    "table": {
+      "rank": "排名",
+      "wallet": "钱包",
+      "date": "日期",
+      "tx_count": "交易次数",
+      "total_buy": "总买入",
+      "nft": "NFT",
+      "prize": "奖励"
+    },
+    "load_more": "加载更多",
+    "view_less": "收起",
+    "note": "榜单每周更新，基于BFX预售期间的交易记录。"
+  },
+  "community_section": {
+    "title": "$BFX社区的声音",
+    "reviews": [
+      {
+        "name": "DANI",
+        "date": "2025年4月2日已验证购买",
+        "description": "加入他们的候补名单后，12月就获得了交易应用的早期测试资格。感觉像是升级版的Binance，我立刻多次买入。过去几周已经通过质押赚了$3,750 USDT，币还没上线。点赞！"
+      },
+      {
+        "name": "ERIKS",
+        "date": "2025年3月31日已验证购买",
+        "description": "我在BFX刚上线质押池时就进场了，几乎没人参与，奖励全归我们少数人。通过质押赚了$8,500，还空投了$2,000 USDT。剩下的都没动。说实话到现在还很震惊……这才是真正的Alpha。"
+      },
+      {
+        "name": "S.Z",
+        "date": "2025年4月17日已验证购买",
+        "description": "我已经通过质押赚到不错的收益，但我真正看好的是BFX预售后的潜力。为什么还要在Coinbase等平台付手续费？在这里还能交易股票！大家都会转过来，BFX会成为下一个大热门。毫无疑问。"
+      }
+    ]
+  },
+  "crypto_exchange_sec": {
+    "title": "开创性加密货币交易所",
+    "description": "BlockchainFX正在重新定义交易未来，打造全能去中心化平台，用户可随时随地交易任何资产，并始终掌控自己的资产。<br /><br />目前处于测试阶段，并荣获2025年‘最佳新加密交易应用’奖，BlockchainFX已获得早期用户的高度评价。通过$BFX预售，持有者现可参与下一个全球主流交易平台。",
+    "buy_button": "购买BFX",
+    "watch_live_button": "观看实时交易"
+  },
+  "gateway_section": {
+    "title": "首个回馈持有者的加密交易所",
+    "description": "BlockchainFX大幅降低手续费（最高70%），并将一半手续费每日分配给$BFX持有者。平台以社区为核心，确保用户在项目每一步都能获得回报。",
+    "features": {
+      "fees": "手续费",
+      "asset_variety": "资产多样性",
+      "user_experience": "用户体验",
+      "community": "社区"
+    },
+    "other_exchanges": {
+      "title": "其他加密交易所",
+      "high_fees": "高手续费且无用户回馈",
+      "crypto_only": "仅支持加密货币间交易",
+      "account_restrictions": "账户限制与冻结频发",
+      "users_excluded": "用户仅被视为平台盈利工具，完全无法参与平台成长。"
+    },
+    "blockchainfx": {
+      "title": "BlockchainFX",
+      "shares_profits": "与社区共享利润",
+      "swap_instantly": "加密、股票、外汇、大宗商品、ETF等资产一键切换",
+      "withdraw_anytime": "随时提币，无锁定期",
+      "community_earns": "社区与BlockchainFX共同成长、获益、共建平台。"
+    }
   }
+}

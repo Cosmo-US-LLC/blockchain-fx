@@ -703,12 +703,12 @@
     "need_support": "Cần hỗ trợ?"
   },
   "footer": {
-    "description": "Trải nghiệm giao dịch tất cả trong một với BlockchainFX: Giao dịch Crypto, Forex, ETF, Cổ phiếu, Chỉ số, CFD và nhiều hơn nữa với quyền truy cập hơn 500 tài sản.",
+    "description": "Hãy là một phần của hệ sinh thái giao dịch thế hệ mới và tham gia vào phong trào BFX đang phát triển nhanh chóng.",
     "quick_links": {
       "title": "Liên kết nhanh",
-      "how_to_buy": "Cách mua",
-      "what_is_bfx": "BFX là gì",
-      "roadmap": "Lộ trình phát triển",
+      "how_to_buy": "Cách mua?",
+      "what_is_bfx": "BFX là gì?",
+      "roadmap": "Lộ trình",
       "token_allocation": "Phân bổ token"
     },
     "docs": {
@@ -716,7 +716,7 @@
       "terms_of_service": "Điều khoản dịch vụ",
       "privacy_policy": "Chính sách bảo mật",
       "token_sale": "Thỏa thuận bán token",
-      "support": "Hỗ trợ 24/7 trực tuyến"
+      "support": "Hỗ trợ trực tiếp 24/7"
     },
     "socials": {
       "title": "Tham gia mạng xã hội của chúng tôi"
@@ -725,8 +725,8 @@
       "email_label": "Email liên hệ:",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": "Tiền mã hóa có thể không được quản lý tại khu vực của bạn và giá trị có thể biến động, dẫn đến lợi nhuận hoặc thua lỗ. Mọi lợi nhuận có thể phải chịu thuế lãi vốn hoặc các loại thuế khác tùy theo luật địa phương. Nội dung trên nền tảng này không phải là đề nghị, khuyến nghị hay tư vấn tài chính để mua, bán hoặc tham gia bất kỳ giao dịch tiền mã hóa nào. Bạn hoàn toàn chịu trách nhiệm đánh giá xem giao dịch có phù hợp với mục tiêu cá nhân, tình hình tài chính và mức độ chấp nhận rủi ro của mình hay không. Chúng tôi khuyến nghị bạn nên tham khảo ý kiến chuyên gia pháp lý, thuế hoặc tài chính uy tín trước khi quyết định.\n\nGiao dịch tiền mã hóa tiềm ẩn nhiều rủi ro, bao gồm khả năng mất một phần hoặc toàn bộ vốn. Nghiên cứu kỹ lưỡng là rất quan trọng. BlockchainFX không đảm bảo bất kỳ kết quả, hiệu suất hay hoàn trả vốn nào cho bất kỳ loại tiền mã hóa nào được đề cập trên nền tảng này. Bằng việc sử dụng nền tảng, bạn đồng ý với Điều khoản dịch vụ, Chính sách bảo mật, Chính sách cookie và các thỏa thuận bán token áp dụng. Nội dung nền tảng không dành cho các khu vực mà việc phân phối hoặc sử dụng vi phạm pháp luật địa phương.",
-    "copyright": "Bản quyền 2025. Đã đăng ký mọi quyền.",
+    "disclaimer": "Tiền mã hóa có thể không được quản lý tại khu vực của bạn và giá trị của nó có thể biến động, dẫn đến lợi nhuận hoặc thua lỗ tiềm năng. Bất kỳ lợi nhuận nào cũng có thể phải chịu thuế thu nhập vốn hoặc các loại thuế khác, tùy thuộc vào luật địa phương. Nội dung trên nền tảng này không cấu thành đề nghị, khuyến nghị hoặc tư vấn tài chính để mua, bán hoặc tham gia vào bất kỳ giao dịch tiền mã hóa nào. Bạn hoàn toàn chịu trách nhiệm đánh giá xem giao dịch có phù hợp với mục tiêu cá nhân, tình hình tài chính và khả năng chịu rủi ro của mình hay không. Chúng tôi khuyến nghị mạnh mẽ bạn nên tham khảo ý kiến của các chuyên gia pháp lý, thuế hoặc tài chính đáng tin cậy và được cấp phép trước khi đưa ra bất kỳ quyết định nào.\n\nGiao dịch tiền mã hóa tiềm ẩn nhiều rủi ro đáng kể, bao gồm nguy cơ mất một phần hoặc toàn bộ số tiền của bạn. Nghiên cứu kỹ lưỡng là rất quan trọng. BlockchainFX không đảm bảo bất kỳ hiệu suất, kết quả hoặc hoàn trả vốn nào cho bất kỳ loại tiền mã hóa nào được đề cập trên nền tảng này. Bằng việc sử dụng nền tảng này, bạn đồng ý với Điều khoản dịch vụ, Chính sách bảo mật, Chính sách cookie và bất kỳ thỏa thuận bán token nào áp dụng. Nội dung của nền tảng không nhằm mục đích sử dụng tại các khu vực pháp lý mà việc phân phối hoặc sử dụng sẽ vi phạm luật hoặc quy định địa phương.",
+    "copyright": "Copyright 2025. Đã đăng ký bản quyền.",
     "cookie_management": "Quản lý cookie"
   },
   "MobilePremiumSec": {

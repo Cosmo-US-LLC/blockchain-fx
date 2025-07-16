@@ -666,30 +666,31 @@
     "need_support": "Hai bisogno di supporto?"
   },
   "footer": {
-    "description": "Vivi il trading all-in-one con BlockchainFX: scambia Crypto, Forex, ETF, Azioni, Indici, CFD e altro con accesso a oltre 500 asset.",
+    "description": "Fai parte del nuovo ecosistema di trading e unisciti al movimento BFX in rapida crescita.",
     "quick_links": {
-      "title": "Link Rapidi",
-      "how_to_buy": "Come Acquistare",
-      "what_is_bfx": "Cos'è BFX",
+      "title": "Collegamenti rapidi",
+      "how_to_buy": "Come acquistare?",
+      "what_is_bfx": "Cos'è BFX?",
       "roadmap": "Roadmap",
-      "token_allocation": "Allocazione Token"
+      "token_allocation": "Allocazione token"
     },
     "docs": {
       "title": "Documenti",
-      "terms_of_service": "Termini di Servizio",
-      "privacy_policy": "Informativa sulla Privacy",
-      "token_sale": "Contratto di Vendita Token",
-      "support": "Supporto Live 24/7"
+      "terms_of_service": "Termini di servizio",
+      "privacy_policy": "Informativa sulla privacy",
+      "token_sale": "Accordo di vendita token",
+      "support": "Supporto live 24/7"
     },
     "socials": {
-      "title": "Unisciti ai Nostri Social"
+      "title": "Unisciti ai nostri social"
     },
     "contact": {
-      "email_label": "E-mail di Contatto:",
+      "email_label": "E-mail di contatto:",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": "Le criptovalute potrebbero non essere regolamentate nella tua giurisdizione e il loro valore può variare, portando a potenziali guadagni o perdite. Eventuali profitti potrebbero essere soggetti a imposte sulle plusvalenze o altre tasse, a seconda delle leggi locali. Il contenuto di questa piattaforma non costituisce un'offerta, raccomandazione o consulenza finanziaria per acquistare, vendere o effettuare transazioni in criptovalute. Sei l'unico responsabile nel valutare se una transazione è in linea con i tuoi obiettivi personali, la tua situazione finanziaria e la tua tolleranza al rischio. Si consiglia vivamente di consultare professionisti legali, fiscali o finanziari affidabili e autorizzati prima di prendere qualsiasi decisione.\n\nIl trading di criptovalute comporta rischi significativi, inclusa la possibilità di perdita parziale o totale dei fondi. È fondamentale fare ricerche approfondite. BlockchainFX non garantisce alcuna performance, risultato o restituzione del capitale per qualsiasi criptovaluta menzionata su questa piattaforma. Utilizzando questa piattaforma, accetti i nostri Termini di Servizio, Informativa sulla Privacy, Cookie Policy e qualsiasi contratto di vendita token applicabile. Il contenuto della piattaforma non è destinato all'uso in giurisdizioni in cui la sua distribuzione o utilizzo violerebbe leggi o regolamenti locali.",
-    "copyright": "Copyright 2025. Tutti i diritti riservati."
+    "disclaimer": "Le criptovalute potrebbero non essere regolamentate nella tua giurisdizione e il loro valore può fluttuare, portando a potenziali guadagni o perdite. Qualsiasi profitto potrebbe essere soggetto a imposte sulle plusvalenze o altre tasse, a seconda delle leggi locali. Il contenuto di questa piattaforma non costituisce un'offerta, una raccomandazione o un consiglio finanziario per acquistare, vendere o partecipare a qualsiasi transazione in criptovalute. Sei l'unico responsabile di valutare se una transazione è in linea con i tuoi obiettivi personali, la tua situazione finanziaria e la tua tolleranza al rischio. Si consiglia vivamente di consultare professionisti legali, fiscali o finanziari affidabili e autorizzati prima di prendere qualsiasi decisione.\n\nIl trading di criptovalute comporta rischi significativi, incluso il rischio di perdita parziale o totale dei fondi. Una ricerca approfondita è fondamentale. BlockchainFX non garantisce alcuna performance, risultato o restituzione del capitale per qualsiasi criptovaluta menzionata su questa piattaforma. Utilizzando questa piattaforma, accetti i nostri Termini di servizio, l'Informativa sulla privacy, la Cookie Policy e qualsiasi accordo di vendita di token applicabile. Il contenuto della piattaforma non è destinato all'uso in giurisdizioni in cui la sua distribuzione o utilizzo violerebbe le leggi o i regolamenti locali.",
+    "copyright": "Copyright 2025. Tutti i diritti riservati.",
+    "cookie_management": "Gestione cookie"
   },
   "MobilePremiumSec": {
     "subtitle": "Limited Founder's <br /> Club Membership",

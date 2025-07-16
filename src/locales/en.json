@@ -697,11 +697,11 @@
     "need_support": "Need Support?"
   },
   "footer": {
-    "description": "Experience all-in-one trading with BlockchainFX: Trade Crypto, Forex, ETFs, Stocks, Indices, CFDs, and more with access to over 500 assets.",
+    "description": "Be part of the next-gen trading ecosystem and join the fast growing BFX movement.",
     "quick_links": {
       "title": "Quick Links",
-      "how_to_buy": "How to Buy",
-      "what_is_bfx": "What is BFX",
+      "how_to_buy": "How to Buy?",
+      "what_is_bfx": "What is BFX?",
       "roadmap": "Roadmap",
       "token_allocation": "Token Allocation"
     },
@@ -979,4 +979,4 @@
     }
   }
 }
- 
+  

@@ -634,37 +634,30 @@
     "logoAlt": "BlockchainFX Logo"
   },
   "footer": {
-    "logoAlt": "BlockchainFX Logo",
-    "description": "Opplev alt-i-ett-handel med BlockchainFX: Handle Krypto, Forex, ETF-er, Aksjer, Indekser, CFD-er og mer med tilgang til over 500 aktiva.",
-    "quickLinks": {
+    "description": "Bli en del av det neste generasjons handelssystemet og bli med i den raskt voksende BFX-bevegelsen.",
+    "quick_links": {
       "title": "Hurtiglenker",
-      "whitelist": "Hviteliste",
+      "how_to_buy": "Hvordan kjøpe?",
+      "what_is_bfx": "Hva er BFX?",
       "roadmap": "Veikart",
-      "whatIsBfx": "Hva er BFX?",
-      "tokenAllocation": "Token-tildeling"
+      "token_allocation": "Tokenallokering"
     },
     "docs": {
       "title": "Dokumenter",
-      "privacyPolicy": "Personvernpolicy",
-      "termsOfService": "Tjenestevilkår",
-      "tokenSaleAgreement": "Token-salgsavtale",
-      "liveSupport": "24/7 Live Støtte"
+      "terms_of_service": "Vilkår for bruk",
+      "privacy_policy": "Personvernerklæring",
+      "token_sale": "Token-salgsavtale",
+      "support": "Live 24/7 Support"
     },
     "socials": {
-      "title": "Følg Oss på Sosiale Medier",
-      "instagramAlt": "Instagram-ikon",
-      "telegramAlt": "Telegram-ikon",
-      "twitterAlt": "Twitter/X-ikon"
+      "title": "Bli med på våre sosiale medier"
     },
     "contact": {
-      "label": "Kontakt E-post:",
+      "email_label": "Kontakt e-post:",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": {
-      "part1": "Kryptovaluta kan være uregulert i din jurisdiksjon, og verdien kan svinge, noe som kan føre til potensielle gevinster eller tap. Eventuelle fortjenester kan være gjenstand for kapitalgevinstskatt eller andre skatter, avhengig av lokale lover. Innholdet på denne plattformen utgjør ikke et tilbud, en anbefaling eller finansiell rådgivning om å kjøpe, selge eller engasjere seg i kryptovalutatransaksjoner. Du er alene ansvarlig for å vurdere om en transaksjon er i samsvar med dine personlige mål, økonomiske omstendigheter og risikotoleranse. Vi anbefaler på det sterkeste å konsultere betrodde og lisensierte juridiske, skatte- eller finansielle fagfolk før du tar noen beslutninger.",
-      "part2": "Handel med kryptovalutaer innebærer betydelige risikoer, inkludert potensialet for delvis eller totalt tap av midlene dine. Grundig forskning er avgjørende. BlockchainFX garanterer ikke ytelse, resultat eller avkastning på kapital for noen kryptovaluta nevnt på denne plattformen. Ved å bruke denne plattformen samtykker du til våre Tjenestevilkår, Personvernpolicy, Cookie-policy og eventuelle gjeldende token-salgsavtaler. Plattformens innhold er ikke ment for bruk i jurisdiksjoner der distribusjon eller bruk ville bryte lokale lover eller forskrifter."
-    },
-    "copyright": "Opphavsrett 2025. Alle rettigheter reservert.",
-    "cookieManagement": "Cookie-administrasjon"
+    "disclaimer": "Kryptovaluta kan være uregulert i din jurisdiksjon, og verdien kan svinge, noe som kan føre til gevinster eller tap. Eventuelle gevinster kan være underlagt gevinstskatt eller andre skatter, avhengig av lokale lover. Innholdet på denne plattformen utgjør ikke et tilbud, en anbefaling eller økonomisk rådgivning om å kjøpe, selge eller delta i noen kryptovalutatransaksjoner. Du er selv ansvarlig for å vurdere om en transaksjon samsvarer med dine personlige mål, økonomiske situasjon og risikotoleranse. Vi anbefaler på det sterkeste å konsultere pålitelige og autoriserte juridiske, skattemessige eller økonomiske fagpersoner før du tar noen beslutninger.\n\nHandel med kryptovaluta innebærer betydelig risiko, inkludert muligheten for delvis eller totalt tap av midler. Grundig research er avgjørende. BlockchainFX garanterer ingen ytelse, resultat eller tilbakebetaling av kapital for noen kryptovaluta nevnt på denne plattformen. Ved å bruke denne plattformen godtar du våre vilkår for bruk, personvernerklæring, cookiepolicy og eventuelle gjeldende token-salgsavtaler. Plattformens innhold er ikke ment for bruk i jurisdiksjoner der distribusjon eller bruk ville være i strid med lokale lover eller forskrifter.",
+    "copyright": "Copyright 2025. Alle rettigheter reservert.",
+    "cookie_management": "Cookiebehandling"
   }
   }
