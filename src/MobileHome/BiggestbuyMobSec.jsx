@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function BiggestbuyMobSec() {
+  const { t } = useTranslation();
   const [showMore, setShowMore] = useState(false);
   
 
@@ -118,20 +120,19 @@ function BiggestbuyMobSec() {
       <div className="relative w-[90%] rounded-[24px] px-[20px] py-[30px] mx-auto bg-[#030F16]">
         <div className="space-y-[20px]">
           <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize text-center text-[#FFF] ">
-            Biggest buy-in competition
+            {t("biggest_buy.title")}
           </h3>
           <p className=" w-[100%] font-inter text-center text-[16px] text-[#fff] font-medium leading-[25px]">
-            The top 10 BFX presale buyers will receive a share of 100,000 USD in $BFX. This exclusive reward is our way of thanking those who contributed the most and played a major role in the growth of the BlockchainFX ecosystem.
+            {t("biggest_buy.description")}
           </p>
         </div>
-        
-        {/* Rankings Table */}
+         {/* Rankings Table */}
         <div className="bg-[#030F16] w-[90%] mt-[30px] space-y-[15px] mx-auto border-[1px] border-[#fff] px-[10px] py-[20px] rounded-[24px]">
           <div className="flex justify-between items-center px-[15px] pt[15px]">
-            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[16%]">Rank</h3>
-            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[30%]">Wallet</h3>
-            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[25%]">Total Buy</h3>
-            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[20%]">Prize</h3>
+            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[16%]">{t("biggest_buy.table.rank")}</h3>
+            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[30%]">{t("biggest_buy.table.wallet")}</h3>
+            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[25%]">{t("biggest_buy.table.total_buy")}</h3>
+            <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[20%]">{t("biggest_buy.table.prize")}</h3>
           </div>
 
           {/* Table Rows */}
@@ -153,7 +154,7 @@ function BiggestbuyMobSec() {
             onClick={() => setShowMore(!showMore)}
             className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-[#E5AE00] bg-transparent text-[16px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[126px] w-[100%] h-[38px]"
           >
-            {showMore ? "View Less" : "Load More"}
+            {showMore ? t("biggest_buy.view_less") : t("biggest_buy.load_more")}
           </button>
         </div>
         </div>

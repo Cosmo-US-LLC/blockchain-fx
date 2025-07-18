@@ -4,45 +4,43 @@ import excixn1 from "../assets/ExclusiveSec/excixn (1).webp";
 import excixn2 from "../assets/ExclusiveSec/excixn5.webp";
 import excixn3 from "../assets/ExclusiveSec/Vector (1).webp";
 import excixn4 from "../assets/ExclusiveSec/excixn (4).webp";
+import { useTranslation } from "react-i18next";
 
-const cardItems = [
-  {
-    id: "01",
-    img: excixn1,
-    title: "Lowest Price Before Launch",
-    description:
-      "Buying during the pre-sale allows you to secure a significant lower price compared to <br/> the BFX launch price.",
-  },
-  {
-    id: "02",
-    img: excixn2,
-    title: "Receive Limited BFX Visa Card",
-    description:
-      "Get a metal or gold BFX Visa credit card with unlimited spending and top-ups, <br/> usable worldwide.",
-  },
-  {
-    id: "03",
-    img: excixn3,
-    title: "Exclusive Bonus Trading Credits",
-    description:
-      "Get up to $25,000 in free trading credits to kickstart trading on BlockchainFX with no conditions attached.",
-  },
-  {
-    id: "04",
-    img: excixn4,
-    title: "Daily USDT Staking Rewards",
-    description:
-      " Start earning daily passive USDT and $BFX rewards automatically from today. <br/> The earlier you buy, the more you earn.",
-  },
-];
+
 
 function MobExclusiveSec() {
+  const { t } = useTranslation();
+  const cardItems = [
+    {
+      id: "01",
+      img: excixn1,
+      title: t("exclusive_benefits_section.items.benefit_1.title"),
+      description: t("exclusive_benefits_section.items.benefit_1.description"),
+    },
+    {
+      id: "02",
+      img: excixn2,
+      title: t("exclusive_benefits_section.items.benefit_2.title"),
+      description: t("exclusive_benefits_section.items.benefit_2.description"),
+    },
+    {
+      id: "03",
+      img: excixn3,
+      title: t("exclusive_benefits_section.items.benefit_3.title"),
+      description: t("exclusive_benefits_section.items.benefit_3.description"),
+    },
+    {
+      id: "04",
+      img: excixn4,
+      title: t("exclusive_benefits_section.items.benefit_4.title"),
+      description: t("exclusive_benefits_section.items.benefit_4.description"),
+    },
+  ];
   return (
     <div className="pt-[34px] pb-[34px] bg-[#020B10]">
       <div className="w-[100%] mx-auto relative">
         <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize  text-[#FFF] text-center ">
-          Benefits of Buying BFX
-          <br /> During the Presale
+          <span dangerouslySetInnerHTML={{ __html: t("exclusive_benefits_section.title") }} />
         </h3>
 
         <div className="pt-[22px] px-6 mx-auto ">

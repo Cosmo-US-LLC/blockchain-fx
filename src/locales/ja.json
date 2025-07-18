@@ -14,17 +14,18 @@
     "buy_button": "BFXを購入"
   },
   "hero": {
-    "title": "初の暗号資産<br />トレーディング",
+    "title": "世界初の暗号資産 <br /> トレーディング",
     "title_highlight": "スーパーアプリ",
-    "subtitle": "BlockchainFXは、DeFiと伝統的な金融市場をつなぐ次世代型の暗号資産取引所です。株式、FX、ETFなど、唯一のWeb3プラットフォームで幅広い資産にアクセスできます。",
-    "feature1": "ブロックチェーンと金融をつなぐ初の暗号資産取引所",
-    "feature2": "ビットコイン、イーサリアム、ゴールド、テスラ、その他500以上の資産",
-    "feature3": "2025年『最優秀新暗号資産取引アプリ』受賞",
+    "subtitle": "BlockchainFXは、DeFiと従来の金融市場をつなぐ次世代型の暗号資産取引所です。株式、FX、ETFなど、幅広い資産にアクセスできる唯一のWeb3プラットフォームです。",
+    "feature1": "ブロックチェーンと金融をつなぐ世界初の取引所",
+    "feature2": "ビットコイン、イーサリアム、ゴールド、テスラなど500種類以上の資産",
+    "feature3": "2025年『ベスト新暗号資産トレーディングアプリ』受賞",
     "buy_button": "$BFXを購入",
     "how_it_works_button": "仕組みを見る",
     "audited_by": "監査・承認済み",
     "verified_ratings": "認証済み評価",
-    "rating": "4.87/5"
+    "rating": "4.87/5",
+    "presale_stage_almost_sold_out": "$BFXプレセールステージはまもなく完売します"
   },
   "featured_sec": {
     "featured_in": "掲載メディア："
@@ -902,5 +903,19 @@
       "source": "（*出典：Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020）",
       "buttonText": "$BFXを購入"
     }
+  },
+  "MobileHero": {
+    "presale_stage_almost_sold_out": "$BFXプレセールステージはまもなく完売します",
+    "title": "世界初の暗号資産 <br /> トレーディング",
+    "title_highlight": "スーパーアプリ",
+    "subtitle": "BlockchainFXは、DeFiと従来の金融市場をつなぐ次世代型の暗号資産取引所です。株式、FX、ETFなど、幅広い資産にアクセスできる唯一のWeb3プラットフォームです。",
+    "feature1": "ブロックチェーンと金融をつなぐ世界初の取引所",
+    "feature2": "ビットコイン、イーサリアム、ゴールド、テスラなど500種類以上の資産",
+    "feature3": "2025年『ベスト新暗号資産トレーディングアプリ』受賞",
+    "buy_button": "$BFXを購入",
+    "how_it_works_button": "仕組みを見る",
+    "audited_by": "監査・承認済み",
+    "verified_ratings": "認証済み評価",
+    "rating": "4.87/5"
   }
 }

@@ -28,17 +28,10 @@ function CryptoExchangemobSec() {
         <div className=" relative z-[99] px-[20px]">
           <div className="space-y-[20px] ">
             <h4 className="text-center text-[#fff] text-[30px] font-[600] leading-[120%] tracking-[-1.5px]">
-              Pioneering <br /> Crypto Exchange
+              {t("crypto_exchange_sec.title")}
             </h4>
             <p className="text-[#fff] text-center text-[16px] leading-[156.25%] font-[500]">
-              BlockchainFX is redefining the future of trading with an
-              all-in-one decentralised platform where users can trade anything,
-              anywhere —while maintaining full control of their assets. <br />
-              <br />
-              Currently in beta and awarded “Best New Crypto Trading App of
-              2025”, BlockchainFX has already received outstanding feedback from
-              early users. With the $BFX presale, holders can now be part of the
-              next major global trading platform.
+              <span dangerouslySetInnerHTML={{ __html: t("crypto_exchange_sec.description") }} />
             </p>
           </div>
           <div className="flex justify-center mr-3">
@@ -52,7 +45,7 @@ function CryptoExchangemobSec() {
               }}
               className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
             >
-              Buy BFX
+              {t("crypto_exchange_sec.buy_button")}
             </button>
           </div>
         </div>

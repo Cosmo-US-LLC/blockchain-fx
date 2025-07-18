@@ -24,7 +24,8 @@
     "how_it_works_button": "How it works?",
     "audited_by": "Audited and Approved by",
     "verified_ratings": "Verified Ratings",
-    "rating": "4.87/5"
+    "rating": "4.87/5",
+    "presale_stage_almost_sold_out": "$BFX Presale Stage is ALMOST Sold Out"
   },
   "featured_sec": {
     "featured_in": "Featured In:"
@@ -236,6 +237,7 @@
  "premium_section": {
     "title": "Get Special Bonuses Starting From $1,000",
     "description": "Buy BFX during the presale and join the Founder's Club starting from just $1,000.<br />Get your exclusive NFT, BFX Visa Card, bonus tokens, daily USDT staking rewards,<br />and free trading credits. Exclusively available during the presale.",
+    "how_much_spend": "How much do you want to spend",
     "cards": [
       {
         "title": "Novice",
@@ -386,38 +388,7 @@
       "title": "Costs",
       "description": "Up to $2 Million"
     },
-    "time": {
-      "title": "Time",
-      "description": "Up to 3 years"
-    },
-    "team": {
-      "title": "Team",
-      "description": "Experienced multilingual team working in shifts, 24/7, 365 days a year."
-    },
-    "work_scope": {
-      "title": "Work Scope",
-      "description": "Capital Requirements, Marketing & Branding, Liquidity Providers, Risk Management Team, Customer Support, Technology Infrastructure, Partnerships, Development, Hiring and Managing Staff, and more."
-    },
-    "gateway": {
-      "title": "The Gateway to Global Markets",
-      "description": "Launching a new trading platform takes a lot of time and resources. On the other hand, buying $BFX takes seconds and lets you earn every time someone trades."
-    },
-    "growth": {
-      "title": "Designed for Exponential Growth",
-      "description": "BlockchainFX is a community-powered trading platform that rewards BFX holders daily. As the platform grows, so does the token — creating a powerful cycle of growth and engagement. Studies* show that incentivized communities can grow significantly faster than others, and BFX is designed to maximize that potential.",
-      "source_note": "(*Source: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
-      "forecasting": "Growth Forecasting",
-      "blockchainfx": "BlockchainFX",
-      "regular_platform": "Regular Trading Platform"
-    },
-    "comparison": {
-      "new_platform": "New Trading Platform",
-      "blockchainfx": "BlockchainFX",
-      "costs_option": "Up to you",
-      "time_option": "Buy $BFX in 2 clicks",
-      "team_option": "No Team required",
-      "work_option": "No Work Required"
-    },
+    "chart_title": "Average Daily Trading Volume in 2024",
     "chart": {
       "bonds": "Bonds: $1.1 Trillion (11.64%)",
       "stocks": "U.S. Stocks: $700 Billion (7.15%)",

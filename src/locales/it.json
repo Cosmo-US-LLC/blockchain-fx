@@ -24,7 +24,8 @@
     "how_it_works_button": "Come funziona?",
     "audited_by": "Verificato e Approvato da",
     "verified_ratings": "Valutazioni Verificate",
-    "rating": "4.87/5"
+    "rating": "4.87/5",
+    "presale_stage_almost_sold_out": "La fase di prevendita di $BFX è QUASI ESAURITA"
   },
   "featured_sec": {
     "featured_in": "Presentato su:"
@@ -467,7 +468,8 @@
     },
     "contract_address": {
       "label": "Indirizzo Contratto Token"
-    }
+    },
+    "chart_title": "Titolo del grafico"
   },
   "press_media_section": {
     "title": "Stampa & Media",

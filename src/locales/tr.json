@@ -24,7 +24,8 @@
     "how_it_works_button": "Nasıl çalışır?",
     "audited_by": "Denetleyen ve Onaylayan",
     "verified_ratings": "Doğrulanmış Puanlar",
-    "rating": "4.87/5"
+    "rating": "4.87/5",
+    "presale_stage_almost_sold_out": "$BFX Ön Satış Aşaması NEREDEYSE TÜKENDİ"
   },
   "featured_sec": {
     "featured_in": "Şurada Öne Çıkanlar:"
@@ -486,7 +487,8 @@
     },
     "contract_address": {
       "label": "Token Kontrat Adresi"
-    }
+    },
+    "chart_title": "Grafik Başlığı"
   },
   "press_media_section": {
     "title": "Basın & Medya",

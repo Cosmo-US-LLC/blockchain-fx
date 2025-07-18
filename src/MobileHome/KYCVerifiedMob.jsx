@@ -2,24 +2,20 @@ import React from "react";
 import icn1 from "../assets/KYCVerified/kycicn (1).svg";
 import icn2 from "../assets/KYCVerified/kycicn (3).svg";
 import icn3 from "../assets/KYCVerified/image_588254259.webp";
+import { useTranslation } from "react-i18next";
 
 function KYCVerifiedMob() {
+  const { t } = useTranslation();
 
   const cardItems = [
     {
       img: icn2,
-      title: "External Audit by Coinsult",
-      description: "BlockchainFX has been fully audited by Coinsult, a trusted auditing firm from the Netherlands, and confirmed to be 100% secure.",
     },
     {
       img: icn1,
-      title: "External Audit by CertiK",
-      description: "CertiK, the world’s leading blockchain security company, audited BlockchainFX and confirmed it meets the highest security standards.",
     },
     {
       img: icn3,
-      title: "Team KYC Verified by Solidproof",
-      description: "The BlockchainFX team has been successfully verified by Solidproof, a reputable auditing company from Germany.",
     },
   ];
 
@@ -28,7 +24,7 @@ function KYCVerifiedMob() {
       <div className="w-[90%] mx-auto relative">
         <div className="w-[100%] mx-auto">
           <h3 className=" pb-[30px] text-[#fff] text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center">
-          Security Verified by <br /> Industry Experts
+            {t("KYCVerified.security_verified_title")}
           </h3>
           <div className="grid grid-cols-1 gap-y-[19px]">
             {cardItems.map((item, index) => (
@@ -51,17 +47,17 @@ function KYCVerifiedMob() {
                     }}
                     className=" py-[3px] rounded-[5px] px-[8px] text-[#01BA48] text-[14px] font-[500]"
                   >
-                  Complete
+                    {t("KYCVerified.completed")}
                   </p>
                 </div>
                 <div>
                   <div className="min-h-[30px] flex justify-start pb-[10px] items-center">
                     <h3 className="text-[20px] text-[#fff] font-[600] break-normal leading-[109.316%]">
-                      {item.title}
+                      {t(`KYCVerified.card_items.${index}.title`)}
                     </h3>
                   </div>
                   <h4 className="text-[15px] max-w-[345px] text-[#fff] font-[400] leading-[135.796%]">
-                    {item.description}
+                    <span dangerouslySetInnerHTML={{ __html: t(`KYCVerified.card_items.${index}.description`) }} />
                   </h4>
                 </div>
               </div>
