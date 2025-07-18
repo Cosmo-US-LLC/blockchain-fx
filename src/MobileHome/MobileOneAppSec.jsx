@@ -17,26 +17,23 @@ function MobileOneAppSec() {
   const items = [
     {
       icon: oneicon1,
-      title: "Own BFX",
-      description: "Buy $BFX during the presale in just a few seconds.",
+      title: t("one_app_sec.items.own_bfx.title"),
+      description: t("one_app_sec.items.own_bfx.description"),
     },
     {
       icon: oneicon2,
-      title: "Stake your BFX",
-      description:
-        "Go to the presale dashboard, click on “Stake”, choose the amount, and confirm.",
+      title: t("one_app_sec.items.stake_bfx.title"),
+      description: t("one_app_sec.items.stake_bfx.description"),
     },
     {
       icon: oneicon3,
-      title: "Personal Dashboard",
-      description:
-        "Connect your wallet and click on “Dashboard” in the top right corner to view your BFX balance.",
+      title: t("one_app_sec.items.dashboard.title"),
+      description: t("one_app_sec.items.dashboard.description"),
     },
     {
       icon: oneicon4,
-      title: "Staking Rewards",
-      description:
-        "Your BFX and USDT rewards will appear on the dashboard 24 hours after you stake your coins.",
+      title: t("one_app_sec.items.staking_rewards.title"),
+      description: t("one_app_sec.items.staking_rewards.description"),
     },
   ];
 
@@ -54,14 +51,14 @@ function MobileOneAppSec() {
                 <span className="text-[38px] leading-[9%] -mt-[23px] pr-[6px] animate-blink">
                   .
                 </span>
-                Live Now (Beta Phase)
+                {t("one_app_sec.badge")}
               </div>
             )}
             <h3 className="pt-[15px] text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-left  text-[white] ">
-              Daily Staking Rewards
+              {t("one_app_sec.title")}
             </h3>
             <p className="text-[15px] text-[#fff] text-left font-[400] leading-[127.778%] tracking-[-0.32px]">
-              Get in now and start earning every day
+              {t("one_app_sec.subtitle")}
             </p>
           </div>
 
@@ -117,8 +114,7 @@ function MobileOneAppSec() {
           </div>
           <div>
             <p className="text-[12px] px-2 leading-[130%] text-[#fff] text-center font-[400]">
-              Connect your wallet and click  the button in the top right corner
-              to view your personal dashboard.
+              {t("one_app_sec.note")}
             </p>
           </div>
         </div>

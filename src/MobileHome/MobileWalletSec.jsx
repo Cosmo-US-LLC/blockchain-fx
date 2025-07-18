@@ -14,33 +14,17 @@ const MobileWalletSec = () => {
   const apiData = useApiState();
   const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
   const items = [
-    {
-      title: "1. Choose A Payment Method",
-      description:"<li>Connect your crypto wallet</li><li>Choose your preferred payment method</li><li>Enter the amount of $BFX you want to buy </li>",
-      icon: oneicon1,
-    },
-    {
-      title: "2. Confirm The Transaction",
-      description: "Click on ‘Buy Now’ and confirm the transaction",
-      icon: oneicon2,
-    },
-    {
-      title: "3. Start Earning Today",
-      description: "<p>Earn BFX and USDT rewards from day one!</p><li>Staking rewards are paid out every 24 hours and automatically added to your wallet.</li>",
-      icon: oneicon3,
-    },
-    {
-      title: "4. Claim",
-      description: "<p>Congratulations! You’ll be able to claim your tokens with one click on this website once the presale ends. <br/><br/> Thanks for being part of the BFX journey!</p>",
-      icon: oneicon4,
-    },
+    { icon: oneicon1 },
+    { icon: oneicon2 },
+    { icon: oneicon3 },
+    { icon: oneicon4 },
   ];
   return (
     <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="Wallet">
       <div className="space-y-[20px] px-[24px] py-[20px] bg-[#020B10] max-w-[955px] w-[90%] mx-auto border border-[#262626] rounded-[8px]">
         <div className="flex items-center justify-center space-x-3">
           <h3 className="text-[30px] font-[700] leading-[120%] tracking-[-1.5px] text-white">
-          BFX Presale
+            {t("wallet_section.title")}
           </h3>
           {!apiData.presaleEnded && (
             <div className="w-[58px] text-[14px] font-[600] text-white rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
@@ -55,8 +39,8 @@ const MobileWalletSec = () => {
           className="text-white font-[400] text-[16px] max-w-[345px] mx-auto text-center font-inter pb-8"
           style={{ lineHeight: "160%", letterSpacing: "-2%" }}
          >
-       $BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, where holders receive USDT rewards anytime someone trades,
- even during the presale.</p>
+       {t("wallet_section.description")}
+       </p>
         {apiData.presaleEnded && (
           <div
             className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3]"
@@ -115,7 +99,7 @@ const MobileWalletSec = () => {
                                 : {}
                             }
                           >
-                            {item.title}
+                            {t(`wallet_section.step_${index + 1}_title`)}
                           </h3>
                           <img
                             src={
@@ -142,7 +126,7 @@ const MobileWalletSec = () => {
                             transition:
                               "max-height 0.3s ease, opacity 0.3s ease",
                           }}
-                          dangerouslySetInnerHTML={{ __html: item.description }}
+                          dangerouslySetInnerHTML={{ __html: t(`wallet_section.step_${index + 1}_description`) }}
                         />
                       </div>
                     </div>
@@ -157,7 +141,7 @@ const MobileWalletSec = () => {
               <div className="max-w-[414px] px-[10px] pt-[14px] pb-[16px] border border-[#3B3B3B] w-full mx-auto">
                 <div className="flex flex-col gap-[12px]">
                   <h4 className="text-start text-[#808080] text-[10px] font-[600]">
-                  $BFX launches on Multiple Top-Tier Exchanges
+                  {t("wallet_section.exchanges")}
                   </h4>
                   <div className="flex justify-center gap-[8px]">
                     <div
@@ -172,7 +156,7 @@ const MobileWalletSec = () => {
                         alt=""
                       />
                       <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        UNISWAP
+                        {t("wallet_section.uniswap")}
                       </h4>
                     </div>
                     <div
@@ -185,7 +169,7 @@ const MobileWalletSec = () => {
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#F0B90B] rounded-full"></div>
                       <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        UNISWAP
+                        {t("wallet_section.uniswap")}
                       </h4>
                     </div>
                     <div
@@ -198,7 +182,7 @@ const MobileWalletSec = () => {
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#0052FE] rounded-full"></div>
                       <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        UNISWAP
+                        {t("wallet_section.uniswap")}
                       </h4>
                     </div>
                     <div
@@ -211,7 +195,7 @@ const MobileWalletSec = () => {
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#00F0FF] rounded-full"></div>
                       <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        UNISWAP
+                        {t("wallet_section.uniswap")}
                       </h4>
                     </div>
                     <div
@@ -224,7 +208,7 @@ const MobileWalletSec = () => {
                     >
                       <div className="w-[14.813px] h-[14.813px] bg-[#7635F5] rounded-full"></div>
                       <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        UNISWAP
+                        {t("wallet_section.uniswap")}
                       </h4>
                     </div>
                   </div>

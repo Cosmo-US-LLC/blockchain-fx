@@ -24,7 +24,8 @@
     "how_it_works_button": "Cách hoạt động?",
     "audited_by": "Được kiểm toán và phê duyệt bởi",
     "verified_ratings": "Xếp hạng đã xác minh",
-    "rating": "4.87/5"
+    "rating": "4.87/5",
+    "presale_stage_almost_sold_out": "Giai đoạn presale $BFX SẮP CHÁY HÀNG"
   },
   "featured_sec": {
     "featured_in": "Nổi bật trên:"
@@ -504,7 +505,8 @@
     },
     "contract_address": {
       "label": "Địa chỉ hợp đồng token"
-    }
+    },
+    "chart_title": "Tiêu đề Biểu đồ"
   },
   "press_media_section": {
     "title": "Báo chí & Truyền thông",

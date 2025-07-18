@@ -24,7 +24,8 @@
     "how_it_works_button": "Comment ça marche ?",
     "audited_by": "Audité et approuvé par",
     "verified_ratings": "Notes vérifiées",
-    "rating": "4,87/5"
+    "rating": "4,87/5",
+    "presale_stage_almost_sold_out": "La phase de prévente $BFX est PRESQUE épuisée"
   },
   "featured_sec": {
     "featured_in": "Présenté dans :"
@@ -799,5 +800,37 @@
         "icon": "tether"
       }
     ]
+  },
+  "TokenAllocationSec": {
+    "title": "Allocation des tokens",
+    "description": "Découvrez comment les tokens BFX sont alloués et distribués pour soutenir l'écosystème BlockchainFX.",
+    "cards": [
+      {
+        "title": "Équipe",
+        "description": "50% des tokens sont alloués à l'équipe pour soutenir le développement et la maintenance de la plateforme.",
+        "icon": "users"
+      },
+      {
+        "title": "Écosystème",
+        "description": "20% des tokens sont alloués à l'écosystème pour soutenir les développeurs et les projets de la communauté.",
+        "icon": "globe"
+      },
+      {
+        "title": "Récompenses",
+        "description": "15% des tokens sont alloués aux récompenses pour encourager les utilisateurs à utiliser la plateforme et à participer à l'économie.",
+        "icon": "gift"
+      },
+      {
+        "title": "Liquidité",
+        "description": "10% des tokens sont alloués à la liquidité pour assurer une bonne liquidité de la plateforme.",
+        "icon": "chart-bar"
+      },
+      {
+        "title": "Rachats",
+        "description": "5% des tokens sont alloués aux rachats pour soutenir la demande et le prix du $BFX.",
+        "icon": "shopping-cart"
+      }
+    ],
+    "chart_title": "Titre du graphique"
   }
 }

@@ -23,295 +23,50 @@ import cardimg7 from "../assets/PremiumSec/card7.webp";
 import tick from "../assets/PremiumSec/true.png";
 import cross from "../assets/PremiumSec/false.png";
 
-const cardsmob = [
-  {
-    id: 1,
-    img: cardimg1,
-    title: "Novice",
-    price: "$1,000",
-    reviews: [true, true, true, false, false],
-    points: [
-      {
-        text: "BFX Visa Card",
-        icon: tick,
-        tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
-      },
-      {
-        text: "10% BFX Bonus",
-        icon: tick,
-        tooltip:
-          "Buy this NFT and get extra BFX coins added to your wallet.",
-      },
-      {
-        text: "BFX Staking Rewards",
-        icon: tick,
-        tooltip:
-          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
-      },
-      {
-        text: "Daily USDT Rewards",
-        icon: cross,
-        tooltip:
-          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
-      },
-      {
-        text: "Trading Credits of up to $25k",
-        icon: cross,
-        tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX.",
-      },
-    ],
-    buttonLabel: "Buy $BFX • $1,000",
-  },
-  {
-    id: 2,
-    img: cardimg2,
-    title: "Advanced",
-    price: "$2,500",
-    reviews: [true, true, true, true, false],
-    points: [
-      {
-        text: "BFX Visa Card",
-        icon: tick,
-        tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
-      },
-      {
-        text: "20% BFX Bonus",
-        icon: tick,
-        tooltip:
-          "Buy this NFT and get extra BFX coins added to your wallet.",
-      },
-      {
-        text: "BFX Staking Rewards",
-        icon: tick,
-        tooltip:
-          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
-      },
-      {
-        text: "$500 Trading Credits",
-        icon: tick,
-        tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX.",
-      },
-      {
-        text: "Daily USDT Rewards",
-        icon: cross,
-        tooltip:
-          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
-      },
-    ],
-    buttonLabel: "Buy $BFX • $2,500",
-  },
-  {
-    id: 3,
-    img: cardimg3,
-    title: "Pro",
-    price: "$5,000",
-    reviews: [true, true, true, true, false],
-    points: [
-      {
-        text: "Metal BFX Visa Card",
-        icon: tick,
-        tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
-      },
-      {
-        text: "30% BFX Bonus",
-        icon: tick,
-        tooltip:
-          "Buy this NFT and get extra BFX coins added to your wallet.",
-      },
-      {
-        text: "BFX Staking Rewards",
-        icon: tick,
-        tooltip:
-          "Receive BFX staking rewards every time someone trades on BlockchainFX..",
-      },
-      {
-        text: "$1000 Trading Credits",
-        icon: tick,
-        tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX.",
-      },
-      {
-        text: "Daily USDT Rewards",
-        icon: cross,
-        tooltip:
-          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
-      },
-    ],
-    buttonLabel: "Buy $BFX • $5,000",
-  },
-  {
-    id: 4,
-    img: cardimg4,
-    title: "Expert",
-    price: "$10,000",
-    reviews: [true, true, true, false, false],
-    points: [
-       {
-        text: "Metal BFX Visa Card",
-        icon: tick,
-        tooltip:
-          "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
-      },
-      {
-        text: "40% BFX Bonus",
-        icon: tick,
-        tooltip:
-          "Buy this NFT and get extra BFX coins added to your wallet.",
-      },
-      {
-        text: "BFX Staking Rewards",
-        icon: tick,
-        tooltip:
-          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
-      },
-      {
-        text: "10% USDT Rewards",
-        icon: tick,
-        tooltip:
-          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
-      },
-     
-      {
-        text: "$2000 Trading Credits",
-        icon: tick,
-        tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX.",
-      },
-    ],
-    buttonLabel: "Buy $BFX • $10,000",
-  },
-  {
-    id: 5,
-    img: cardimg5,
-    title: "Master",
-    price: "$25,000",
-    reviews: [true, true, true, true, false],
-    points: [
-      {
-        text: "Metal BFX Visa Card",
-        icon: tick,
-        tooltip:
-          "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
-      },
-      {
-        text: "50% BFX Bonus",
-        icon: tick,
-        tooltip:
-          "Buy this NFT and get extra BFX coins added to your wallet.",
-      },
-      {
-        text: "BFX Staking Rewards",
-        icon: tick,
-        tooltip:
-          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
-      },
-      {
-        text: "15% USDT Rewards",
-        icon: tick,
-        tooltip:
-          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
-      },
-      {
-        text: "$5000 Trading Credits",
-        icon: tick,
-        tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX.",
-      },
-    ],
-    buttonLabel: "Buy $BFX • $25,000",
-  },
-  {
-    id: 6,
-    img: cardimg6,
-    title: "Elite",
-    price: "$50,000",
-    reviews: [true, true, true, true, false],
-    points: [
-     {
-        text: "Metal BFX Visa Card",
-        icon: tick,
-        tooltip:
-          "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
-      },
-      {
-        text: "60% BFX Bonus",
-        icon: tick,
-        tooltip:
-          "Buy this NFT and get extra BFX coins added to your wallet.",
-      },
-      {
-        text: "BFX Staking Rewards",
-        icon: tick,
-        tooltip:
-          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
-      },
-      {
-        text: "20% USDT Rewards",
-        icon: tick,
-        icon: tick,
-        tooltip:
-          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
-      },
-      {
-        text: "$10000 Trading Credits",
-        icon: tick,
-        icon: tick,
-        tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX.",
-      },
-    ],
-    buttonLabel: "Buy $BFX • $50,000",
-  },
-  {
-    id: 7,
-    img: cardimg7,
-    title: "Legend",
-    price: "$100,000",
-    reviews: [true, true, true, true, false],
-    points: [
-      {
-        text: "18 Karat BFX Visa Card",
-        icon: tick,
-        tooltip:
-          "Get your 18 Karat BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
-      },
-      {
-        text: "80% BFX Bonus",
-        icon: tick,
-        tooltip:
-          "Buy this NFT and get extra BFX coins added to your wallet.",
-      },
-      {
-        text: "BFX Staking Rewards",
-        icon: tick,
-        tooltip:
-          "Receive BFX staking rewards every time someone trades on BlockchainFX.",
-      },
-      {
-        text: "30% USDT Rewards",
-        icon: tick,
-        icon: tick,
-        tooltip:
-          "Get USDT rewards, paid as a percentage of your total BFX staking earnings.",
-      },
-      {
-        text: "$25000 Trading Credits",
-        icon: tick,
-        tooltip:
-          "Receive trading credits after the presale to use on BlockchainFX.",
-      },
-    ],
-    buttonLabel: "Buy $BFX • $100,000",
-  },
+const cardImages = [cardimg1, cardimg2, cardimg3, cardimg4, cardimg5, cardimg6, cardimg7];
+const cardReviews = [
+  [true, true, true, false, false],
+  [true, true, true, true, false],
+  [true, true, true, true, false],
+  [true, true, true, false, false],
+  [true, true, true, true, false],
+  [true, true, true, true, false],
+  [true, true, true, true, false],
 ];
+const cardIcons = [tick, tick, tick, cross, cross]; // adjust as needed per card/point
 
 function MobilePremiumSec() {
   const { t } = useTranslation();
+  const cardImages = [cardimg1, cardimg2, cardimg3, cardimg4, cardimg5, cardimg6, cardimg7];
+  const cardReviews = [
+    [true, true, true, false, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, false, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+  ];
+  const cardsmobRaw = t("premium_section.cards", { returnObjects: true });
+  const cardsmob = cardsmobRaw.map((card, idx) => {
+    // Map points to objects with text, icon, and tooltip
+    const points = card.points.map((text, pIdx) => ({
+      text,
+      icon: cardReviews[idx][pIdx] ? tick : cross,
+      tooltip: card.cardPointsTooltips ? card.cardPointsTooltips[pIdx] : undefined,
+    }));
+    return {
+      ...card,
+      img: cardImages[idx],
+      reviews: cardReviews[idx],
+      points,
+    };
+  });
+
+  // Prepare FAQ data from translations for future use
+  const faq = t("premium_section.faq.questions", { returnObjects: true });
+  const faqTooltipText = t("premium_section.faq.tooltip_text", { returnObjects: true });
+
   const [openBundles, setOpenBundles] = useState(0);
   const [showTooltip, setShowTooltip] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -353,19 +108,16 @@ function MobilePremiumSec() {
       <div className="relative flex flex-col gap-12 p-[20px] rounded-[16px] bg-[#010E11] border-[1px] border-[#3D3D3D]">
         <div className="space-y-[12px]">
           <h3 className=" text-[#FFF] text-center text-[30px] font-[600] leading-[120%] tracking-[-1.5px]">
-            Get Special Bonuses Starting From $1,000{" "}
+            <span dangerouslySetInnerHTML={{ __html: t("premium_section.title") }} />
           </h3>
           <p className=" mx-auto font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
-            Buy $BFX during the presale and join the Founder's Club starting
-            from just $1,000. Get your exclusive NFT, BFX Visa Card, bonus
-            tokens, daily USDT staking rewards, and free trading credits.
-            Exclusively available during the presale.
+            <span dangerouslySetInnerHTML={{ __html: t("premium_section.description") }} />
           </p>
         </div>
         <div className="w-[90%] mx-auto">
           <div className="flex justify-between pb-2 items-centers">
             <h4 className="text-[14px] font-[700] text-[#fff]">
-              How much do you want to spend
+              {t("premium_section.how_much_spend")}
             </h4>
             <h4 className="text-[14px] font-[700] text-[#fff]">
               {tierAmounts[activeIndex]}
@@ -407,7 +159,7 @@ function MobilePremiumSec() {
               className="mySwiper !min-h-[640px]"
             >
               {cardsmob.map((card, index) => (
-                <SwiperSlide key={card.id}>
+                <SwiperSlide key={card.title}>
                   <div
                     style={{
                       background: "#030F16",
@@ -449,29 +201,15 @@ function MobilePremiumSec() {
                       </div>
 
                       <ul className="text-left">
-                        {card.points.map((point, index) => (
-                          // <li
-                          //   key={index}
-                          //   className="mb-1 rounded-[8px] px-[8px] h-[40.719px] flex items-center text-[#fff] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
-                          //   style={{
-                          //     background: "rgba(124, 124, 124, 0.07)",
-                          //   }}
-                          // >
-                          //   <img
-                          //     src={point.icon}
-                          //     alt=""
-                          //     className="w-5 h-5 mr-3"
-                          //   />
-                          //   {point.text}
-                          // </li>
+                        {card.points.map((point, pIndex) => (
                           <div
                             className="flex mb-1 px-[8px] h-[40.719px] rounded-[8px] justify-between items-center"
                             style={{
                               background: "rgba(124, 124, 124, 0.07)",
                             }}
+                            key={pIndex}
                           >
                             <li
-                              key={index}
                               className=" flex items-center text-[#fff] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
                             >
                               <img

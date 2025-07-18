@@ -20,7 +20,8 @@
     "how_it_works_button": "Hvordan fungerer det?",
     "audited_by": "Revidert og godkjent av",
     "verified_ratings": "Verifiserte vurderinger",
-    "rating": "4,87/5"
+    "rating": "4,87/5",
+    "presale_stage_almost_sold_out": "$BFX-forhåndssalgsstadiet er NESTEN utsolgt"
   },
   "featured_sec": {
     "featured_in": "Fremhevet i:"
@@ -472,7 +473,8 @@
     },
     "contract_address": {
       "label": "Token-kontraktadresse"
-    }
+    },
+    "chart_title": "Diagramtittel"
   },
   "footer": {
     "description": "Bli en del av det neste generasjons handelssystemet og bli med i den raskt voksende BFX-bevegelsen.",

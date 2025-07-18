@@ -27,7 +27,8 @@
     "how_it_works_button": "¿Cómo funciona?",
     "audited_by": "Auditado y aprobado por",
     "verified_ratings": "Calificaciones verificadas",
-    "rating": "4.87/5"
+    "rating": "4.87/5",
+    "presale_stage_almost_sold_out": "La etapa de preventa de $BFX está CASI AGOTADA"
   },
   "experts": {
     "heading": "Lo que los expertos dicen sobre BFX",
@@ -486,7 +487,8 @@
     },
     "contract_address": {
       "label": "Dirección del contrato del token"
-    }
+    },
+    "chart_title": "Título del gráfico"
   },
   "press_media_section": {
     "title": "Prensa y medios",

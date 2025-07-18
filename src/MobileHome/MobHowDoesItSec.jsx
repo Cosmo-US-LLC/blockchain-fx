@@ -20,21 +20,18 @@ function MobHowDoesItSec() {
   const cardItems = [
     {
       icon: cardicn1,
-      title: "BFX & USDT Staking Rewards",
-      description:
-        "50% of all fees collected are automatically distributed to BFX holders who stake their coins.",
+      title: t("how_does_it_sec.cards.staking_rewards.title"),
+      description: t("how_does_it_sec.cards.staking_rewards.description"),
     },
     {
       icon: cardicn2,
-      title: "Daily Buybacks",
-      description:
-        "20% of the fees are used to buy back $BFX daily, helping boost demand and support the price.",
+      title: t("how_does_it_sec.cards.buybacks.title"),
+      description: t("how_does_it_sec.cards.buybacks.description"),
     },
     {
       icon: cardicn3,
-      title: "Burn BFX Coins",
-      description:
-        "Half of the bought-back tokens are permanently burned, gradually reducing the supply of $BFX.",
+      title: t("how_does_it_sec.cards.burn.title"),
+      description: t("how_does_it_sec.cards.burn.description"),
     },
   ];
 
@@ -60,18 +57,10 @@ function MobHowDoesItSec() {
         /> */}
         <div>
           <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize text-[white] text-center">
-            How It Works?
+            {t("how_does_it_sec.title")}
           </h3>
           <p className="mt-4 font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
-            BlockchainFX is a global decentralised exchange where users can
-            trade crypto, stocks, forex, ETFs, and more. Every time someone
-            trades, 70% of the trading fees go toward the $BFX staking pool,
-            buybacks, and token burns.
-            <br />
-            <br />
-            The Daily staking rewards depend on how much $BFX someone holds. The
-            more $BFX a person holds, the higher the rewards, capped at $25,000
-            USDT per day.
+            <span dangerouslySetInnerHTML={{ __html: t("how_does_it_sec.subtitle") }} />
           </p>
         </div>
         <div className="flex justify-center">

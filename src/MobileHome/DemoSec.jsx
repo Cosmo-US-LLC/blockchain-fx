@@ -64,10 +64,10 @@ function DemoSec() {
       <img src={ellipse2} className="absolute w-[100%] top-[-49%]" alt="ellipse2" />
       <div className="w-[100%] mx-auto space-y-[24px] px-3">
         <h3 className="mt-8 text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[white]">
-        BlockchainFX Demo
+          {t("blockchainfx_demo.title")}
         </h3>
         <p className="text-[16px] text-center font-[400] text-[#fff]">
-       In just a few seconds, users can <br /> trade BTC,Tesla, Gold, Pepe, ETFs, <br /> CFDs, and more, all seamlessly <br /> on one powerful platform.
+          <span dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.description") }} />
         </p>
         <video
           width="640"
@@ -89,13 +89,13 @@ function DemoSec() {
           }}
           className="self-center text-[13px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[110px]"
         >
-        Buy BFX
+          {t("blockchainfx_demo.buy_button")}
         </button>
         <button
           onClick={handleScrollreview}
           className="self-center text-[13px] border border-[#E6B005] text-[#E6B005] font-[700] rounded-[10px] h-[50px] w-[180px]"
         >
-        Watch Live Trading Here
+          {t("blockchainfx_demo.watch_live_button")}
         </button>
       </div>
     </div>
