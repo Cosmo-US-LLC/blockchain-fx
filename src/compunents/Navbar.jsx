@@ -227,8 +227,8 @@ function Navbar() {
             </a>
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "how-to-buy", 40)}
-              href=""
+              // onClick={(e) => handleScroll(e, "how-to-buy", 40)}
+              href="/how-to-buy"
             >
               {t("navbar.howToBuy")}
             </a>

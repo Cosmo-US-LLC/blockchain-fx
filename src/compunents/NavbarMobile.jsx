@@ -196,8 +196,8 @@ function NavbarMobile() {
               <br />
               <a
                 className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                href=""
-                onClick={(e) => handleScroll(e, "how-to-buy", 90)}
+                href="/how-to-buy"
+                // onClick={(e) => handleScroll(e, "how-to-buy", 90)}
               >
                {t("navbar.howToBuy")}
               </a>{" "}

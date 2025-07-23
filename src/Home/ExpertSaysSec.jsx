@@ -30,12 +30,14 @@ function ExpertSaysSec() {
           }}
           onSlideChange={(swiper) => setActiveSlide(swiper.activeIndex)}
           onSwiper={(swiper) => {
-            setTimeout(() => {
-              swiper.params.navigation.prevEl = prevRef.current;
-              swiper.params.navigation.nextEl = nextRef.current;
-              swiper.navigation.init();
-              swiper.navigation.update();
-            });
+            (swiper.params.navigation && swiper.navigation && (
+              setTimeout(() => {
+                swiper.params.navigation.prevEl = prevRef.current;
+                swiper.params.navigation.nextEl = nextRef.current;
+                swiper.navigation.init();
+                swiper.navigation.update();
+              })
+            ))
           }}
           className="w-full relative z-[99]"
         >
