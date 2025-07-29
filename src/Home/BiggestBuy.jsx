@@ -184,7 +184,7 @@ export default function BiggestBuy() {
         <div className="flex justify-center items-center mt-[20px] relative z-10">
           <button
             onClick={() => setShowMore(!showMore)}
-            className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-[#E5AE00] bg-transparent text-[16px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[126px] w-[100%] h-[38px]"
+            className="hover:text-white hover:bg-[#E5AE00] px-[15px] text-[#E5AE00] bg-transparent text-[16px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px]  inline-flex items-center h-[38px]"
           >
             {showMore ? t("biggest_buy.view_less") : t("biggest_buy.load_more")}
           </button>

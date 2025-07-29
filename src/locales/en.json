@@ -948,6 +948,38 @@
       "withdraw_anytime": "Withdraw your crypto anytime, no lock-ins",
       "community_earns": "The community earns, grows, and builds the platform alongside BlockchainFX."
     }
+  },
+  "buy_tab": {
+    "you_must_connect_wallet": "You must connect your wallet first",
+    "presale_ended": "Presale has ended",
+    "loading": "Loading...",
+    "error_ranking_up": "Error ranking up",
+    "successfully_unlocked": "Successfully unlocked",
+    "participants": "Participants",
+    "card": "Card",
+    "other_cryptos": "+ Other Cryptos",
+    "presale_price": "Presale Price",
+    "launch_price": "Launch Price",
+    "you_pay_in": "You Pay in",
+    "usd": "USD",
+    "you_receive_bfx": "You Receive $BFX",
+    "nft": "NFT",
+    "unlock_nft": "Unlock",
+    "limited_time_offer": "Limited Time Offer",
+    "use_bonus_code": "Use Bonus Code",
+    "bonus_code": "BFX20",
+    "to_get_bonus": "To Get 20% More",
+    "more_bfx_coins": "$BFX Coins!",
+    "referral_link": "10% Referral Link",
+    "transaction_successful": "Transaction Successful",
+    "transaction_successful_message": "The transaction was successful. Please wait a minute and refresh the transactions tab to see your tokens.",
+    "transaction_successful_bought_message": "The transaction was successful. You bought",
+    "check_transaction_tab": "Check your transaction tab for more details",
+    "transaction_errored": "Transaction Errored",
+    "transaction_errored_message": "The transaction was not successful. Please try again.",
+    "transaction_pending": "Transaction Pending",
+    "transaction_pending_message": "The transaction is pending. Please wait a minute and refresh the transactions tab to see your tokens.",
+    "buy_bfx": "Buy BFX"
   }
 }
   

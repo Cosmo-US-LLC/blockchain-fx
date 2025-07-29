@@ -136,8 +136,8 @@ const BuyTab = ({ onTabChange}) => {
   const accountData = useAccount();
   const buy = async () => {
     const account = accountData.address;
-    if (!account) return toast.error("You must connect your wallet first");
-    if (apiData.presaleEnded) return toast.error("Presale has ended")
+    if (!account) return toast.error(t('buy_tab.you_must_connect_wallet'));
+    if (apiData.presaleEnded) return toast.error(t('buy_tab.presale_ended'));
     if (transactionLoading) return;
     setTransactionLoading(true);
     if (!selectedToken) return;
@@ -170,7 +170,7 @@ const BuyTab = ({ onTabChange}) => {
     setTransactionLoading(true);
     try {
       const account = accountData.address;
-      if (!account) return toast.error("You must connect your wallet first");
+      if (!account) return toast.error(t('buy_tab.you_must_connect_wallet'));
       await buyWithCard({
         usd: parseNum(paymentTokenNumStr),
         walletAddress: account,
@@ -278,7 +278,7 @@ const BuyTab = ({ onTabChange}) => {
             background: "#000",
           }}
         >
-          <h3 className="text-center text-[#fff] text-[32.476px] leading-[100%] font-[700]">
+          <h3 className="text-center text-[#fff] text-[32.476px] leading-[100%] font-[700] overflow-hidden text-ellipsis whitespace-nowrap">
             {formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
           </h3>
           <div className="pt-3">
@@ -365,7 +365,7 @@ const BuyTab = ({ onTabChange}) => {
         </div>
         <div className="flex space-x-1 justify-center items-center">
           <img className="w-[153px] h-[22px] object-cover" src={comcoin} alt="" />
-          <p className="text-[9.673px] text-[#fff] font-[400]">+ Other Cryptos</p>
+          <p className="text-[9.673px] text-[#fff] font-[400]">{t('buy_tab.other_cryptos')}</p>
         </div>
         {/* <div className="flex justify-center items-center py-[0px] space-x-[15px]">
           <hr className="h-[1px] flex-1" />
@@ -380,8 +380,8 @@ const BuyTab = ({ onTabChange}) => {
             background: "#000",
           }}
         >
-          <h4 className="text-center text-[#fff] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[12px] text-[10px] leading-[75%] font-[700]">
-          Presale Price = <span className="text-[#FBD914]">${formatNumber(apiData.stage?.token_price)}</span> <span className="px-1">|</span> Launch Price = <span className="text-[#FBD914]">$0.05</span>
+          <h4 className="text-center text-[#fff] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[12px] text-[10px] leading-normal font-[700]">
+          {t('buy_tab.presale_price')} = <span className="text-[#FBD914]">${formatNumber(apiData.stage?.token_price)}</span> <span className="px-1">|</span> {t('buy_tab.launch_price')} = <span className="text-[#FBD914]">$0.05</span>
           </h4>
         </div>
         <div className="px-2 pb-2 rounded-[8px]"
@@ -392,7 +392,7 @@ const BuyTab = ({ onTabChange}) => {
           <div className="  px-1 flex justify-between items-center">
             <div className="w-[80%]">
           <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
-            You Pay in{" "}
+            {t('buy_tab.you_pay_in')}
             {selectedToken?.symbol.toUpperCase() === "CARD"
               ? "USD"
               : selectedToken?.symbol.toUpperCase()}
@@ -468,7 +468,7 @@ const BuyTab = ({ onTabChange}) => {
             {/* <div className="relative max-w-[75px] "></div> */}
             <div className="w-[80%] ">
             <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
-            You Receive $BFX
+            {t('buy_tab.you_receive_bfx')}
             {wouldReceiveRank && <>
               {" "}+{" "}
               <span
@@ -572,7 +572,7 @@ const BuyTab = ({ onTabChange}) => {
           }}
           >
               <h3 className="text-[10px] 2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[222px] max-w-[222px] mx-auto font-[500]  text-white text-center ">
-                Limited Time Offer: Use Bonus Code <span className="text-[#2FD942] !font-[700]">BFX20</span> To Get 20% More $BFX Coins!
+                {t('buy_tab.limited_time_offer')}: {t('buy_tab.use_bonus_code')} <span className="text-[#2FD942] !font-[700]">{t('buy_tab.bonus_code')}</span> {t('buy_tab.to_get_bonus')} {t('buy_tab.more_bfx_coins')}!
               </h3>
           </div>
 
@@ -593,7 +593,7 @@ const BuyTab = ({ onTabChange}) => {
             }
           >
             <img className="mr-1" src={bonus} alt="" />
-            Bonus Code
+            {t('buy_tab.bonus_code')}
           </button>
           <button
             className="text-[8.888px] px-3 py-1 flex items-center justify-center text-[#fff] font-[700] cursor-pointer"
@@ -609,7 +609,7 @@ const BuyTab = ({ onTabChange}) => {
             }
           >
             <img className="mr-1" src={Ref} alt="" />
-            10% Referral Link
+            {t('buy_tab.referral_link')}
           </button>
         </div>
         {codeInputVisible === "bonus" && (

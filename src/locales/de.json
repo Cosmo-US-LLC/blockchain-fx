@@ -356,19 +356,27 @@
       }
     }
   },
-  "exclusive_benefits_section": {
-    "title": "Exklusive Vorteile für Founder's Club-Mitglieder",
-    "description": "Schalten Sie eine Welt voller Privilegien und Belohnungen frei, indem Sie dem BFX Founder's Club beitreten. Genießen Sie spezielle Boni, Frühzugang und mehr.",
-    "benefits": [
-      "Exklusive NFT-Mitgliedschaft",
-      "BFX Visa Karte",
-      "Bonustoken",
-      "Tägliche USDT-Staking-Belohnungen",
-      "Kostenlose Trading-Guthaben",
-      "Priorisierter Support",
-      "Früher Zugang zu neuen Funktionen"
-    ]
-  },
+"exclusive_benefits_section": {
+  "title": "Vorteile des Kaufs von BFX während des Vorverkaufs",
+  "items": {
+    "benefit_1": {
+      "title": "Niedrigster Token-Preis <br/>vor dem Start",
+      "description": "Ein Kauf während des Vorverkaufs ermöglicht es dir, einen deutlich niedrigeren Preis im Vergleich zum Startpreis von BFX zu sichern."
+    },
+    "benefit_2": {
+      "title": "Limitierte Auflage <br/>BFX Visa-Karten",
+      "description": "Erhalte eine Metall- oder 18-Karat-Gold-BFX-Visa-Kreditkarte mit unbegrenztem Ausgabenlimit und weltweiter Nutzbarkeit."
+    },
+    "benefit_3": {
+      "title": "Exklusive Bonus-<br/>Trading-Guthaben",
+      "description": "Erhalte bis zu $25.000 an kostenlosen Trading-Guthaben, um ohne Bedingungen auf BlockchainFX zu starten."
+    },
+    "benefit_4": {
+      "title": "Tägliche USDT-<br/>Staking-Belohnungen",
+      "description": "Beginne noch heute mit dem Verdienen von USDT- und BFX-Belohnungen durch die Teilnahme am BFX-Vorverkauf. Je früher du kaufst, desto mehr kannst du langfristig verdienen."
+    }
+  }
+},
   "less_than_section": {
     "title": "Weniger als 1% des Angebots übrig",
     "description": "Beeilen Sie sich! Der BFX-Vorverkauf ist fast ausverkauft. Sichern Sie sich jetzt Ihre Token, bevor der Preis steigt.",
@@ -706,7 +714,7 @@
       },
       "expert": {
         "title": "Experte",
-        "price": "10.000 $+",
+        "price": "10.000 $",
         "points": {
           "earlyAccess": "Früher Zugang",
           "bfxBonus": "40% BFX Bonus",
@@ -718,7 +726,7 @@
       },
       "master": {
         "title": "Meister",
-        "price": "25.000 $+",
+        "price": "25.000 $",
         "points": {
           "earlyAccess": "Früher Zugang",
           "bfxBonus": "50% BFX Bonus",
@@ -730,7 +738,7 @@
       },
       "elite": {
         "title": "Elite",
-        "price": "50.000 $+",
+        "price": "50.000 $",
         "points": {
           "earlyAccess": "Früher Zugang",
           "bfxBonus": "60% BFX Bonus",
@@ -742,7 +750,7 @@
       },
       "legend": {
         "title": "Legende",
-        "price": "100.000 $+",
+        "price": "100.000 $",
         "points": {
           "earlyAccess": "Früher Zugang",
           "bfxBonus": "80% BFX Bonus",

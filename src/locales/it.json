@@ -947,5 +947,37 @@
       "withdraw_anytime": "Withdraw your crypto anytime, no lock-ins",
       "community_earns": "The community earns, grows, and builds the platform alongside BlockchainFX."
     }
+  },
+  "buy_tab": {
+    "you_must_connect_wallet": "Devi prima collegare il tuo wallet",
+    "presale_ended": "La prevendita è terminata",
+    "loading": "Caricamento...",
+    "error_ranking_up": "Errore durante il cambio di livello",
+    "successfully_unlocked": "Sbloccato con successo",
+    "participants": "Partecipanti",
+    "card": "Carta",
+    "other_cryptos": "+ Altre Criptovalute",
+    "presale_price": "Prezzo Prevendita",
+    "launch_price": "Prezzo di Lancio",
+    "you_pay_in": "Paghi in",
+    "usd": "USD",
+    "you_receive_bfx": "Ricevi $BFX",
+    "nft": "NFT",
+    "unlock_nft": "Sblocca",
+    "limited_time_offer": "Offerta a tempo limitato",
+    "use_bonus_code": "Usa il codice bonus",
+    "bonus_code": "BFX20",
+    "to_get_bonus": "Per ottenere il 20% in più",
+    "more_bfx_coins": "$BFX Coins!",
+    "referral_link": "Link di riferimento 10%",
+    "transaction_successful": "Transazione riuscita",
+    "transaction_successful_message": "La transazione è andata a buon fine. Attendi un minuto e aggiorna la scheda delle transazioni per vedere i tuoi token.",
+    "transaction_successful_bought_message": "La transazione è andata a buon fine. Hai acquistato",
+    "check_transaction_tab": "Controlla la scheda delle transazioni per maggiori dettagli",
+    "transaction_errored": "Transazione fallita",
+    "transaction_errored_message": "La transazione non è andata a buon fine. Riprova.",
+    "transaction_pending": "Transazione in sospeso",
+    "transaction_pending_message": "La transazione è in sospeso. Attendi un minuto e aggiorna la scheda delle transazioni per vedere i tuoi token.",
+    "buy_bfx": "Compra BFX"
   }
 }
