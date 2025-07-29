@@ -37,7 +37,7 @@ function TheUltimateSec() {
             <div className="flex justify-center items-center pt-[35px] space-x-[17px]">
               <button
                 onClick={handleScroll}
-                className="text-white bg-[#E5AE00] hover:text-[#FFF] hover:bg-transparent text-[16px] font-[700] border border-[#E5AE00] hover:border-[#fff] rounded-[8px] !max-w-[159px] w-[100%] h-[50px]"
+                className="text-white bg-[#E5AE00] hover:text-[#FFF] px-[30px] hover:bg-transparent text-[16px] font-[700] border border-[#E5AE00] hover:border-[#fff] rounded-[8px] w-fit h-[50px]"
               >
                 {t("the_ultimate_section.buy_bfx")}
               </button>
@@ -45,7 +45,7 @@ function TheUltimateSec() {
                 onClick={() =>
                   window.open("https://t.me/blockchainfx_chat", "_blank")
                 }
-                className="hover:text-white hover:bg-[#E5AE00] text-[#E5AE00] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] !max-w-[159px] w-[100%] h-[50px]"
+                className="hover:text-white hover:bg-[#E5AE00] text-[#E5AE00] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] px-[20px] w-fit h-[50px]"
               >
                 {t("the_ultimate_section.need_support")}
               </button>

@@ -51,9 +51,8 @@ function Herosection() {
           <div className="space-y-[22px] max-w-[638px] w-[100%]">
             <h1 className="text-[60px] font-[700] font-inter leading-[100%] tracking-[-1px] text-[#fff] ">
               <span
-                dangerouslySetInnerHTML={{ __html: t("hero.title") }}
-              />
-              <span
+                dangerouslySetInnerHTML={{ __html: t("hero.title")}}
+              /> <span
                 style={{
                   background:
                     "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
@@ -61,8 +60,7 @@ function Herosection() {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                 }}
-              >
-                {t("hero.title_highlight")}
+              > {t("hero.title_highlight")}
               </span>
             </h1>
             <p className="text-[#fff] max-w-[550px] py-[10px] w-[100%] font-[400] font-inter leading-[133.333%] text-[18px]"
@@ -129,14 +127,14 @@ function Herosection() {
               style={{
                 background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
               }}
-              className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+              className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px]"
             >
               {t("hero.buy_button")}
             </button>
 
             <button
               onClick={handleScrollToDemo}
-              className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[140px] rounded-[8px] !w-[100%] h-[50px]"
+              className="hover:text-[#000] hover:bg-[#E5AE00] px-[18px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005]  rounded-[8px] !w-fit h-[50px]"
             >
               {t("hero.how_it_works_button")}
             </button>

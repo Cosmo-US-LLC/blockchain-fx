@@ -38,8 +38,8 @@ const MobileWalletSec = () => {
         <p
           className="text-white font-[400] text-[16px] max-w-[345px] mx-auto text-center font-inter pb-8"
           style={{ lineHeight: "160%", letterSpacing: "-2%" }}
+           dangerouslySetInnerHTML={{ __html: t("wallet_section.description") }}
          >
-       {t("wallet_section.description")}
        </p>
         {apiData.presaleEnded && (
           <div

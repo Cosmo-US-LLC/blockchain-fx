@@ -152,7 +152,7 @@ function BiggestbuyMobSec() {
             <div className="flex justify-center mt-[30px]">
           <button
             onClick={() => setShowMore(!showMore)}
-            className="hover:text-white hover:bg-[#E5AE00] px-[10px] text-[#E5AE00] bg-transparent text-[16px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[126px] w-[100%] h-[38px]"
+            className="hover:text-white hover:bg-[#E5AE00] px-[15px] text-[#E5AE00] bg-transparent text-[14px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] items-cneter inline-flex h-[38px]"
           >
             {showMore ? t("biggest_buy.view_less") : t("biggest_buy.load_more")}
           </button>

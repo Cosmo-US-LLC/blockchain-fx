@@ -688,30 +688,62 @@
   },
   "footer": {
     "description": "Sé parte del ecosistema de trading de próxima generación y únete al movimiento BFX de rápido crecimiento.",
-    "quick_links": {
+  "quick_links": {
       "title": "Enlaces Rápidos",
       "how_to_buy": "¿Cómo comprar?",
-      "what_is_bfx": "¿Qué es BFX?",
-      "roadmap": "Hoja de ruta",
-      "token_allocation": "Asignación de tokens"
-    },
-    "docs": {
-      "title": "Documentos",
-      "terms_of_service": "Términos de servicio",
-      "privacy_policy": "Política de privacidad",
-      "token_sale": "Acuerdo de venta de tokens",
+    "what_is_bfx": "¿Qué es BFX?",
+    "roadmap": "Hoja de ruta",
+    "token_allocation": "Asignación de tokens"
+  },
+  "docs": {
+    "title": "Documentos",
+    "terms_of_service": "Términos de servicio",
+    "privacy_policy": "Política de privacidad",
+    "token_sale": "Acuerdo de venta de tokens",
       "support": "Soporte en vivo 24/7"
-    },
-    "socials": {
-      "title": "Únete a nuestras redes sociales"
-    },
-    "contact": {
-      "email_label": "Correo electrónico de contacto:",
-      "email": "Support@blockchainfx.com"
-    },
+  },
+  "socials": {
+    "title": "Únete a nuestras redes sociales"
+  },
+  "contact": {
+    "email_label": "Correo electrónico de contacto:",
+    "email": "Support@blockchainfx.com"
+  },
     "disclaimer": "La criptomoneda puede no estar regulada en su jurisdicción y su valor puede fluctuar, lo que puede generar ganancias o pérdidas. Cualquier ganancia puede estar sujeta a impuestos sobre ganancias de capital u otros impuestos, según las leyes locales. El contenido de esta plataforma no constituye una oferta, recomendación o asesoramiento financiero para comprar, vender o participar en transacciones de criptomonedas. Usted es el único responsable de evaluar si una transacción se ajusta a sus objetivos personales, circunstancias financieras y tolerancia al riesgo. Recomendamos encarecidamente consultar a profesionales legales, fiscales o financieros confiables y autorizados antes de tomar cualquier decisión.\n\nOperar con criptomonedas conlleva riesgos significativos, incluido el riesgo de pérdida parcial o total de sus fondos. La investigación exhaustiva es crucial. BlockchainFX no garantiza ningún rendimiento, resultado o devolución de capital para ninguna criptomoneda mencionada en esta plataforma. Al usar esta plataforma, usted acepta nuestros Términos de servicio, Política de privacidad, Política de cookies y cualquier acuerdo de venta de tokens aplicable. El contenido de la plataforma no está destinado a su uso en jurisdicciones donde su distribución o uso violaría las leyes o regulaciones locales.",
     "copyright": "Copyright 2025. Todos los derechos reservados.",
     "cookie_management": "Gestión de cookies"
   },
-  "lineBreak": "<br />"
+  "lineBreak": "<br />",
+  "buy_tab": {
+    "you_must_connect_wallet": "Debes conectar tu billetera primero",
+    "presale_ended": "La preventa ha finalizado",
+    "loading": "Cargando...",
+    "error_ranking_up": "Error al subir de nivel",
+    "successfully_unlocked": "Desbloqueado con éxito",
+    "participants": "Participantes",
+    "card": "Tarjeta",
+    "other_cryptos": "+ Otras Criptomonedas",
+    "presale_price": "Precio de Preventa",
+    "launch_price": "Precio de Lanzamiento",
+    "you_pay_in": "Pagas en",
+    "usd": "USD",
+    "you_receive_bfx": "Recibes $BFX",
+      "nft": "NFT",
+    "unlock_nft": "Desbloquear",
+    "limited_time_offer": "Oferta por tiempo limitado",
+    "use_bonus_code": "Usa el código de bono",
+    "bonus_code": "BFX20",
+    "to_get_bonus": "Para obtener un 20% más",
+    "more_bfx_coins": "$BFX Coins!",
+    "referral_link": "Enlace de referido 10%",
+    "transaction_successful": "Transacción exitosa",
+    "transaction_successful_message": "La transacción fue exitosa. Por favor, espera un minuto y actualiza la pestaña de transacciones para ver tus tokens.",
+    "transaction_successful_bought_message": "La transacción fue exitosa. Compraste",
+    "check_transaction_tab": "Consulta tu pestaña de transacciones para más detalles",
+    "transaction_errored": "Transacción con error",
+    "transaction_errored_message": "La transacción no fue exitosa. Por favor, inténtalo de nuevo.",
+    "transaction_pending": "Transacción pendiente",
+    "transaction_pending_message": "La transacción está pendiente. Por favor, espera un minuto y actualiza la pestaña de transacciones para ver tus tokens.",
+    "buy_bfx": "Comprar BFX"
+  }
 }

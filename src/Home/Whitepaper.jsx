@@ -51,12 +51,12 @@ export default function Whitepaper() {
               style={{
                 background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
               }}
-              className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+              className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px]"
             >
               {t("whitepaper.buyButton")}
             </button>
             <a href="https://blockchainfx.com/BFX-Whitepaper.pdf" target="_blank" rel="noopener noreferrer">
-              <button className="hover:text-black hover:bg-[#E5AE00] px-[10px] text-[#E5AE00] bg-transparent text-[16px] font-[700] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] max-w-[193px] w-[100%] h-[50px]">
+              <button className="hover:text-black hover:bg-[#E5AE00] px-[18px] text-[#E5AE00] bg-transparent text-[16px] font-[700] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-fit h-[50px]">
                 {t("whitepaper.accessButton")}
               </button>
             </a>

@@ -77,8 +77,9 @@ const MobFaqSec = () => {
             <h2 className="text-[#FFF] text-[30px] font-[600] leading-[120%] tracking-[-1.5px]">
               {t("faq_section.title")}
             </h2>
-            <p className="text-[15px] font-[400] text-[#fff] text-center">
-              Find answers to some <br /> of the most common questions.
+            <p className="text-[15px] font-[400] text-[#fff] text-center w-[80%] mx-auto" 
+            dangerouslySetInnerHTML={{ __html: t("faq_section.description")}}
+            >
             </p>
           </div>
           <div className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] mx-auto">

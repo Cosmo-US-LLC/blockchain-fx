@@ -266,7 +266,7 @@ function PremiumSec() {
           </div>
           <div className="flex justify-between pt-[8px] pl-2">
             {translatedCards.map((card, index) => (
-              <div key={index} className="w-[100%] max-w-[70px]">
+              <div key={index} className="w-[100%] max-w-[100px]">
                 <h4 className="text-[16px] text-[#fff] font-[600] leading-[115%] text-center">
                   {card.title}
                 </h4>

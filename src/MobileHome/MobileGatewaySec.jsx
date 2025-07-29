@@ -38,8 +38,9 @@ function MobileGatewaySec() {
               <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF] ">
                 {t("gateway_section.title")}
               </h3>
-              <p className=" max-w-[881px] font-inter mx-auto w-[100%] text-center text-[16px] text-[#fff] font-medium leading-[25px] ">
-                {t("gateway_section.description")}
+              <p className=" max-w-[881px] font-inter mx-auto w-[100%] text-center text-[16px] text-[#fff] font-medium leading-[25px] "
+                dangerouslySetInnerHTML={{ __html: t("gateway_section.description") }}
+              >
               </p>
             </div>
             <div
@@ -93,14 +94,14 @@ function MobileGatewaySec() {
                   </div>
                   <div className="flex border-t border-[#2B2B2B]">
                     <div className="w-[50%] py-[3px] border-r border-[#2B2B2B] flex items-center justify-center">
-                      <div className="flex items-center justify-center space-x-2">
+                      <div className="flex items-center justify-center space-x-2  p-1">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                           {t("gateway_section.other_exchanges.crypto_only")}
                         </h4>
                       </div>
                     </div>
                     <div className="w-[50%] py-[3px] ">
-                      <div className="flex items-center justify-center">
+                      <div className="flex items-center justify-center p-1">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                           {t("gateway_section.blockchainfx.swap_instantly")}
                         </h4>
@@ -117,14 +118,14 @@ function MobileGatewaySec() {
                   </div>
                   <div className="flex border-t border-[#2B2B2B]">
                     <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
-                      <div className="flex justify-center space-x-2 px-[2px] py-[5px] items-center">
+                      <div className="flex justify-center space-x-2 px-1 py-[5px] items-center ">
                         <h4 className="text-[#fff] font-[500] text-center text-[13px] tracking-[-1px] leading-[120%]">
                          {t("gateway_section.other_exchanges.account_restrictions")}
                         </h4>
                       </div>
                     </div>
                     <div className="w-[50%] flex items-center justify-center py-[3px]">
-                      <div className="flex items-center justify-center">
+                      <div className="flex items-center justify-center  p-1">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                          {t("gateway_section.blockchainfx.withdraw_anytime")}
                         </h4>
@@ -141,14 +142,14 @@ function MobileGatewaySec() {
                   </div>
                   <div className="flex border-t border-[#2B2B2B]">
                     <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
-                      <div className="flex justify-center space-x-2 px-[2px] py-[5px] items-center">
+                      <div className="flex justify-center space-x-2 px-1 py-[5px] items-center">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                          {t("gateway_section.other_exchanges.users_excluded")}
                         </h4>
                       </div>
                     </div>
                     <div className="w-[50%] flex items-center justify-center py-[3px]">
-                      <div className="flex items-center justify-center">
+                      <div className="flex items-center justify-center  px-1">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                           {t("gateway_section.blockchainfx.community_earns")}
                         </h4>

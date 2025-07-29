@@ -58,14 +58,14 @@ function BlockchainFXDemo() {
                     background:
                       "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                   }}
-                  className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+                  className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px]"
                 >
                   {t("blockchainfx_demo.buy_button")}
                 </button>
 
                 <button
                   onClick={handleScrollreview}
-                  className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[228px] rounded-[8px] !w-[100%] h-[50px]"
+                  className="hover:text-[#000] hover:bg-[#E5AE00] px-[18px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005]  rounded-[8px] !w-fit h-[50px]"
                 >
                   {t("blockchainfx_demo.watch_live_button")}
                 </button>

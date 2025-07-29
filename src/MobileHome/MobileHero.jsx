@@ -56,7 +56,7 @@ function MobileHero() {
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4> */}
             <div
-              className=" border border-white border-opacity-20 flex space-x-[10px] max-w-[480px] w-[100%] mx-auto  justify-center items-center rounded-full"
+              className=" border border-white border-opacity-20 flex space-x-[10px] max-w-[480px] w-[100%] mx-auto  justify-center items-center rounded-full px-2"
               style={{
                 background:
                   " linear-gradient(90deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%)",
@@ -79,14 +79,14 @@ function MobileHero() {
                   fill="white"
                 />
               </svg>
-              <h4 className="text-white font-[600] font-inter px-1 py-2  text-center text-[12px]  uppercase">
+              <h4 className="text-white font-[600] font-inter px-1 py-2 text-[12px]  uppercase">
                 {t("hero.presale_stage_almost_sold_out")}
               </h4>
             </div>
             <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] tracking-[-2px] leading-[120%] font-inter text-[#fff] ">
             <span
-                dangerouslySetInnerHTML={{ __html: t("hero.title") }}
-              /> <span
+                dangerouslySetInnerHTML={{ __html: t("hero.title")}}
+              /> <span 
                 style={{
                   background:
                     "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
@@ -94,9 +94,7 @@ function MobileHero() {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                 }}
-              >
-                {t("hero.title_highlight")}
-              </span>
+              >{t("hero.title_highlight")}</span>
             </h1>
             <p className="text-[#fff] mb-4  text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]"
             dangerouslySetInnerHTML={{ __html: t("hero.subtitle") }}
@@ -183,14 +181,14 @@ function MobileHero() {
                   background:
                     "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                 }}
-                className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+                className="text-[#000] px-[20px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] w-fit h-[50px]"
               >
                 {t("hero.buy_button")}
               </button>
 
               <button
                 onClick={handleScrollToDemo}
-                className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[138px] rounded-[8px] !w-[100%] h-[50px]"
+                className="hover:text-[#000] hover:bg-[#E5AE00] px-[15px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px] !w-fit h-[50px]"
               >
                 {t("hero.how_it_works_button")}
               </button>

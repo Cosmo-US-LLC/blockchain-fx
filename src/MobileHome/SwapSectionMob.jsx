@@ -60,7 +60,7 @@ export default function SwapSectionMob() {
                   <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_forex")}</h4>
                   <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_commodities")}</h4>
                 </div>
-                <div className="flex justify-center space-x-4">
+                <div className="flex justify-center space-x-4 gap-y-3 flex-wrap">
                   <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_etfs")}</h4>
                   <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_options")}</h4>
                   <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_futures")}</h4>
