@@ -378,10 +378,30 @@
   }
 },
   "less_than_section": {
-    "title": "Weniger als 1% des Angebots übrig",
-    "description": "Beeilen Sie sich! Der BFX-Vorverkauf ist fast ausverkauft. Sichern Sie sich jetzt Ihre Token, bevor der Preis steigt.",
-    "button": "Jetzt $BFX kaufen"
+  "title": "Entwickelt für exponentielles Wachstum",
+  "description": "BlockchainFX ist eine gemeinschaftsbasierte Handelsplattform, die BFX-Inhaber täglich belohnt. Mit dem Wachstum der Plattform wächst auch der Token – ein kraftvoller Kreislauf aus Wachstum und Engagement entsteht. Studien* zeigen, dass incentivierte Communities deutlich schneller wachsen können als andere, und BFX ist darauf ausgelegt, dieses Potenzial maximal auszuschöpfen.",
+  "costs": {
+    "title": "Kosten",
+    "description": "Bis zu 2 Millionen USD"
   },
+  "chart_title": "Durchschnittliches tägliches Handelsvolumen im Jahr 2024",
+  "chart": {
+    "bonds": "Anleihen: 1,1 Billion USD (11,64%)",
+    "stocks": "US-Aktien: 700 Milliarden USD (7,15%)",
+    "commodities": "Rohstoffe: 250 Milliarden USD (2,55%)",
+    "etfs": "ETFs: 150 Milliarden USD (1,53%)",
+    "crypto": "Krypto: 89 Milliarden USD (0,87%)",
+    "forex": "Forex: 7,5 Billionen USD (76,62%)"
+  },
+  "legend": {
+    "forex": "Forex",
+    "bonds": "Anleihen",
+    "us_stock": "US-Aktien",
+    "commodities": "Rohstoffe",
+    "etfs": "ETFs",
+    "crypto": "Krypto"
+  }
+},
   "standout_section": {
     "title": "Herausragende Funktionen",
     "description": "Kryptowährungen von Börsen haben sich historisch gut entwickelt, dank ihrer aktiven Nutzerbasis, Plattformumsätze und laufenden Marketingmaßnahmen. BFX, der erste Token einer Multi-Asset-Handelsplattform, bietet einzigartige Funktionen, die echten Mehrwert auf den Markt bringen.",
@@ -920,5 +940,37 @@
       "withdraw_anytime": "Krypto jederzeit abheben, keine Sperrfristen",
       "community_earns": "Die Community verdient, wächst und baut die Plattform gemeinsam mit BlockchainFX auf."
     }
-  }
+  },
+  "buy_tab": {
+  "you_must_connect_wallet": "Du musst zuerst deine Wallet verbinden",
+  "presale_ended": "Der Vorverkauf ist beendet",
+  "loading": "Lädt...",
+  "error_ranking_up": "Fehler beim Hochstufen",
+  "successfully_unlocked": "Erfolgreich freigeschaltet",
+  "participants": "Teilnehmer",
+  "card": "Karte",
+  "other_cryptos": "+ Andere Kryptowährungen",
+  "presale_price": "Vorverkaufspreis",
+  "launch_price": "Startpreis",
+  "you_pay_in": "Du bezahlst in",
+  "usd": "USD",
+  "you_receive_bfx": "Du erhältst $BFX",
+  "nft": "NFT",
+  "unlock_nft": "Freischalten",
+  "limited_time_offer": "Zeitlich begrenztes Angebot",
+  "use_bonus_code": "Bonuscode verwenden",
+  "bonus_code": "BFX20",
+  "to_get_bonus": "Um 20% mehr zu erhalten",
+  "more_bfx_coins": "$BFX Coins!",
+  "referral_link": "10% Empfehlungslink",
+  "transaction_successful": "Transaktion erfolgreich",
+  "transaction_successful_message": "Die Transaktion war erfolgreich. Bitte warte eine Minute und aktualisiere den Transaktions-Tab, um deine Token zu sehen.",
+  "transaction_successful_bought_message": "Die Transaktion war erfolgreich. Du hast gekauft",
+  "check_transaction_tab": "Überprüfe deinen Transaktions-Tab für weitere Details",
+  "transaction_errored": "Transaktion fehlgeschlagen",
+  "transaction_errored_message": "Die Transaktion war nicht erfolgreich. Bitte versuche es erneut.",
+  "transaction_pending": "Transaktion ausstehend",
+  "transaction_pending_message": "Die Transaktion ist ausstehend. Bitte warte eine Minute und aktualisiere den Transaktions-Tab, um deine Token zu sehen.",
+  "buy_bfx": "BFX kaufen"
+}
 }

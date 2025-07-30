@@ -129,7 +129,7 @@ function PremiumSec() {
                         <div>
                           <h3 className="text-[#ffff] flex flex-col justify-end font-[600] ">
                             <span
-                              className="text-[40px]  leading-[100%]"
+                              className="text-[30px]  leading-[100%]"
                               // style={{
                               //   background:
                               //     "linear-gradient(90deg, #FFF 0%, #030F16 100%)",

@@ -680,12 +680,12 @@
       }
     ]
   },
-  "the_ultimate_section": {
-    "title": "La plataforma de trading <br/> definitiva",
-    "description": "Experimenta la mejor plataforma de trading con funciones avanzadas y una interfaz fácil de usar.",
-    "buy_bfx": "Comprar $BFX",
-    "need_support": "¿Necesitas ayuda?"
-  },
+ "the_ultimate_section": {
+  "title": "La Plataforma de <br/> Trading Definitiva",
+  "description": "Experimenta la mejor plataforma de trading con funciones avanzadas y una interfaz fácil de usar.",
+  "buy_bfx": "Comprar $BFX",
+  "need_support": "¿Necesitas ayuda?"
+},
   "footer": {
     "description": "Sé parte del ecosistema de trading de próxima generación y únete al movimiento BFX de rápido crecimiento.",
   "quick_links": {
@@ -745,5 +745,51 @@
     "transaction_pending": "Transacción pendiente",
     "transaction_pending_message": "La transacción está pendiente. Por favor, espera un minuto y actualiza la pestaña de transacciones para ver tus tokens.",
     "buy_bfx": "Comprar BFX"
+  },
+  "crypto_exchange_sec": {
+  "title": "Intercambio Cripto Pionero",
+  "description": "BlockchainFX está redefiniendo el futuro del comercio con una plataforma descentralizada todo en uno donde los usuarios pueden operar cualquier cosa, en cualquier lugar — manteniendo siempre el control total de sus activos.<br /><br />Actualmente en fase beta y galardonada como la 'Mejor Nueva App de Comercio Cripto de 2025', BlockchainFX ya ha recibido comentarios sobresalientes de los primeros usuarios. Con la preventa de $BFX, los poseedores ahora pueden ser parte de la próxima gran plataforma global de comercio.",
+  "buy_button": "Comprar BFX",
+  "watch_live_button": "Ver Comercio en Vivo Aquí"
+},
+"biggest_buy": {
+  "title": "Competencia de Mayor Compra",
+  "description": "Los 10 principales compradores de la preventa de BFX recibirán una parte del premio total de 100,000 USD en $BFX. Esta competencia es nuestra forma de agradecer a quienes más contribuyeron y jugaron un papel importante en el crecimiento del ecosistema de BlockchainFX.",
+  "table": {
+    "rank": "Rango",
+    "wallet": "Billetera",
+    "date": "Fecha",
+    "tx_count": "N.º de TX",
+    "total_buy": "Compra Total",
+    "nft": "NFT",
+    "prize": "Premio"
+  },
+  "load_more": "Cargar Más",
+  "view_less": "Ver Menos",
+  "note": "La lista se actualiza semanalmente y se basa en las transacciones realizadas durante la preventa de BFX."
+},
+"gateway_section": {
+  "title": "El Primer Exchange de Criptomonedas Que Paga a Sus Tenedores",
+  "description": "En lugar de agotar a los usuarios con altas comisiones, BlockchainFX las reduce hasta en un 70%. La mitad de todas las comisiones se <br /> pagan a los tenedores de $BFX como recompensas diarias por staking. La plataforma pone a la comunidad en el centro, <br /> asegurando que los usuarios sean recompensados en cada etapa del éxito del proyecto.",
+  "features": {
+    "fees": "Comisiones",
+    "asset_variety": "Variedad de Activos",
+    "user_experience": "Experiencia de Usuario",
+    "community": "Comunidad"
+  },
+  "other_exchanges": {
+    "title": "Otros Exchanges de Criptomonedas",
+    "high_fees": "Altas comisiones sin recompensas para los usuarios",
+    "crypto_only": "Solo intercambio cripto-a-cripto",
+    "account_restrictions": "Restricciones y bloqueos de cuentas aleatorios",
+    "users_excluded": "Los usuarios son vistos únicamente como generadores de ganancias para el exchange y están completamente excluidos de su crecimiento y éxito."
+  },
+  "blockchainfx": {
+    "title": "BlockchainFX",
+    "shares_profits": "Comparte las ganancias con la comunidad",
+    "swap_instantly": "Intercambia al instante entre cripto, acciones, forex, materias primas, ETFs y más",
+    "withdraw_anytime": "Retira tu cripto en cualquier momento, sin bloqueos",
+    "community_earns": "La comunidad gana, crece y construye la plataforma junto a BlockchainFX."
   }
+}
 }

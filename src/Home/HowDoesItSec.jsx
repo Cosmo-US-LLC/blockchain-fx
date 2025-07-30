@@ -58,7 +58,7 @@ function HowDoesItSec() {
           {cardItems.map((item) => (
             <div
               key={item.id}
-              className=" px-[19px] w-[100%] flex flex-col justify-centetr pt-[20px] pb-[24px] max-h-[223.384px] min-h-[220.384px] bg-[#030F16] rounded-[16px]"
+              className=" px-[19px] w-[100%] flex flex-col justify-centetr pt-[20px] pb-[24px]  min-h-[220.384px] bg-[#030F16] rounded-[16px]"
               style={{
                 border: "1px solid rgba(230, 175, 3, 0.12)",
               }}

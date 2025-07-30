@@ -122,7 +122,7 @@ export default function BiggestBuy() {
           <h4 className="text-[40px] font-[800] text-white leading-[120%]">
             {t("biggest_buy.title")}
           </h4>
-          <p className="text-[18px] text-white font-[400] leading-[150%] w-[980px]">
+          <p className="text-[18px] text-white !text-center font-[400] leading-[150%] w-[980px]">
             {t("biggest_buy.description")}
           </p>
         </div>
