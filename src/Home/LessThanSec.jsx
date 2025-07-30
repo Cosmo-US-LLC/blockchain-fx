@@ -57,19 +57,19 @@ function LessThanSec() {
                   <p className="text-[#fff] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
                     {t("less_than_section.chart.bonds")}
                   </p>
-                  <p className="text-[#fff] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
+                  <p className="text-[#fff] absolute top-[8%] max-w-[200px] leading-[110%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
                     {t("less_than_section.chart.stocks")}
                   </p>
-                  <p className="text-[#fff] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
+                  <p className="text-[#fff] absolute top-[21%] max-w-[260px] leading-[110%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
                     {t("less_than_section.chart.commodities")}
                   </p>
-                   <p className="text-[#fff] absolute top-[33%] left-[16%] text-[15px] font-[700] tracking-[-0.787px]">
+                   <p className="text-[#fff] absolute top-[33%] leading-[110%] left-[16%] max-w-[240px] text-[15px] font-[700] tracking-[-0.787px]">
                     {t("less_than_section.chart.etfs")}
                   </p>
-                  <p className="text-[#F3D885] py-1 px-2 border border-[#F6CE69] absolute top-[50%] left-[7%] rounded-[5px]  text-[26px] font-[700] tracking-[-0.787px]">
+                  <p className="text-[#F3D885] py-1 px-2 border leading-[120%] border-[#F6CE69] max-w-[360px] absolute top-[50%] left-[5%] rounded-[5px]  text-[26px] font-[700] tracking-[-0.787px]">
                     {t("less_than_section.chart.crypto")}
                   </p>
-                  <p className="text-[#fff] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
+                  <p className="text-[#fff] absolute bottom-[5%] right-[23%] max-w-[200px]  text-[15px] font-[700] tracking-[-0.787px]">
                     {t("less_than_section.chart.forex")}
                   </p>
                 </div>

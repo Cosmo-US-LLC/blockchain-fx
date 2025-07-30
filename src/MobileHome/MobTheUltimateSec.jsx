@@ -37,7 +37,7 @@ function MobTheUltimateSec() {
             style={{
               background:"linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
             }}
-             className="text-{#000} px-[12px]  text-[12px] font-[700] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[90px] h-[31px]"
+             className="text-{#000} px-[15px]  text-[12px] font-[700] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-fit h-[31px]"
             onClick={handleScroll}
             >
              {t("the_ultimate_section.buy_bfx")}
@@ -46,7 +46,7 @@ function MobTheUltimateSec() {
              onClick={() =>
                   window.open("https://t.me/blockchainfx_chat", "_blank")
                 }
-            className="hover:text-[#000] text-[#E5AE00] px-[12px] hover:bg-[#E5AE00]  bg-transparent text-[12px] font-[600] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-[120px] h-[31px]">
+            className="hover:text-[#000] text-[#E5AE00] px-[15px] hover:bg-[#E5AE00]  bg-transparent text-[12px] font-[600] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-fit h-[31px]">
             {t("the_ultimate_section.need_support")}
             </button>
           </div>

@@ -90,18 +90,18 @@
     "asset_cfds": "CFD's en meer."
   },
   "creditCard": {
-    "title": "BFX Visa Card",
-    "item1": "Onbeperkt uitgeven",
-    "item2": "Metalen of 18-karaats gouden kaart",
-    "item3": "Tot $100.000 per transactie",
-    "item4": "Tot $10K maandelijkse geldopnames bij ATM's",
-    "item5": "Gebruik BFX- en USDT-beloningen voor betalingen",
-    "item6": "Wereldwijd geaccepteerd (online & in winkels)",
-    "item7": "Opladen met BFX en 20+ crypto's",
-    "item8": "BFX Visa Card alleen beschikbaar in voorverkoop",
-    "compatibleWith": "Compatibel met",
-    "shippingNote": "Verzending begint zodra de BFX-voorverkoop eindigt, omdat alle kaarten tegelijkertijd worden verzonden. Elk BFX Founder's Club-lid ontvangt na de voorverkoop een beveiligd formulier om hun verzendgegevens in te vullen. Kaarten worden wereldwijd geleverd via DHL of FedEx Express."
-  },
+  "title": "BFX Visa-kaart",
+  "item1": "Onbeperkt uitgeven",
+  "item2": "Metalen of 18-karaats gouden kaart",
+  "item3": "Tot $100.000 per transactie",
+  "item4": "Tot $10.000 maandelijkse geldopnames bij geldautomaten",
+  "item5": "Gebruik BFX- en USDT-beloningen voor betalingen",
+  "item6": "Wereldwijd geaccepteerd (online en in winkels)",
+  "item7": "Opladen met BFX en meer dan 20 cryptovaluta",
+  "item8": "BFX Visa-kaart alleen beschikbaar tijdens de presale",
+  "compatibleWith": "Compatibel met",
+  "shippingNote": "De verzending begint zodra de BFX-presale is afgelopen, aangezien alle kaarten gelijktijdig worden verstuurd. Elk lid van de BFX Founder's Club ontvangt na de presale een beveiligd formulier om hun verzendgegevens in te dienen. Kaarten worden wereldwijd geleverd via DHL of FedEx Express."
+},
   "whitepaper": {
     "heading": "BFX Whitepaper",
     "description": "Bekijk het whitepaper om te leren hoe BFX een next-gen handels-ecosysteem aandrijft. Ontdek de belangrijkste functies en voordelen, en zie hoe BlockchainFX de kloof overbrugt tussen blockchain en traditionele financiën door de eerste trading super app van de crypto-industrie te creëren.",
@@ -377,62 +377,31 @@
       }
     }
   },
-  "less_than_section": {
-    "title": "Ontworpen voor exponentiële groei",
-    "description": "BlockchainFX is een door de community aangedreven handelsplatform dat BFX-houders dagelijks beloont. Naarmate het platform groeit, groeit ook de token — wat een krachtige cyclus van groei en betrokkenheid creëert. Studies* tonen aan dat gestimuleerde communities aanzienlijk sneller kunnen groeien dan andere, en BFX is ontworpen om dat potentieel te maximaliseren.",
-    "costs": {
-      "title": "Kosten",
-      "description": "Tot $2 miljoen"
-    },
-    "time": {
-      "title": "Tijd",
-      "description": "Tot 3 jaar"
-    },
-    "team": {
-      "title": "Team",
-      "description": "Ervaren meertalig team dat in shifts werkt, 24/7, 365 dagen per jaar."
-    },
-    "work_scope": {
-      "title": "Werkbereik",
-      "description": "Kapitaalvereisten, marketing & branding, liquiditeitsverschaffers, risicomanagementteam, klantenservice, technologische infrastructuur, partnerschappen, ontwikkeling, personeel aannemen en beheren, en meer."
-    },
-    "gateway": {
-      "title": "De toegangspoort tot wereldwijde markten",
-      "description": "Het lanceren van een nieuw handelsplatform kost veel tijd en middelen. Aan de andere kant duurt het kopen van $BFX slechts enkele seconden en kun je elke keer dat iemand handelt verdienen."
-    },
-    "growth": {
-      "title": "Ontworpen voor exponentiële groei",
-      "description": "BlockchainFX is een door de community aangedreven handelsplatform dat BFX-houders dagelijks beloont. Naarmate het platform groeit, groeit ook de token — wat een krachtige cyclus van groei en betrokkenheid creëert. Studies* tonen aan dat gestimuleerde communities aanzienlijk sneller kunnen groeien dan andere, en BFX is ontworpen om dat potentieel te maximaliseren.",
-      "source_note": "(*Bron: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
-      "forecasting": "Groei voorspellen",
-      "blockchainfx": "BlockchainFX",
-      "regular_platform": "Regulier handelsplatform"
-    },
-    "comparison": {
-      "new_platform": "Nieuw handelsplatform",
-      "blockchainfx": "BlockchainFX",
-      "costs_option": "Aan jou de keuze",
-      "time_option": "Koop $BFX in 2 klikken",
-      "team_option": "Geen team vereist",
-      "work_option": "Geen werk vereist"
-    },
-    "chart": {
-      "bonds": "Obligaties: $1,1 biljoen (11,64%)",
-      "stocks": "Amerikaanse aandelen: $700 miljard (7,15%)",
-      "commodities": "Grondstoffen: $250 miljard (2,55%)",
-      "etfs": "ETF's: $150 miljard (1,53%)",
-      "crypto": "Crypto: $89 miljard (0,87%)",
-      "forex": "Forex: $7,5 biljoen (76,62%)"
-    },
-    "legend": {
-      "forex": "Forex",
-      "bonds": "Obligaties",
-      "us_stock": "Amerikaanse aandelen",
-      "commodities": "Grondstoffen",
-      "etfs": "ETF's",
-      "crypto": "Crypto"
-    }
+ "less_than_section": {
+  "title": "Ontworpen voor Exponentiële Groei",
+  "description": "BlockchainFX is een door de gemeenschap aangedreven handelsplatform dat BFX-houders dagelijks beloont. Naarmate het platform groeit, groeit ook de token — wat een krachtige cyclus van groei en betrokkenheid creëert. Studies* tonen aan dat gestimuleerde gemeenschappen aanzienlijk sneller kunnen groeien dan andere, en BFX is ontworpen om dat potentieel te maximaliseren.",
+  "costs": {
+    "title": "Kosten",
+    "description": "Tot $2 miljoen"
   },
+  "chart_title": "Gemiddeld Dagelijks Handelsvolume in 2024",
+  "chart": {
+    "bonds": "Obligaties: $1,1 biljoen (11,64%)",
+    "stocks": "Amerikaanse aandelen: $700 miljard (7,15%)",
+    "commodities": "Grondstoffen: $250 miljard (2,55%)",
+    "etfs": "ETF's: $150 miljard (1,53%)",
+    "crypto": "Crypto: $89 miljard (0,87%)",
+    "forex": "Forex: $7,5 biljoen (76,62%)"
+  },
+  "legend": {
+    "forex": "Forex",
+    "bonds": "Obligaties",
+    "us_stock": "Amerikaanse aandelen",
+    "commodities": "Grondstoffen",
+    "etfs": "ETF's",
+    "crypto": "Crypto"
+  }
+},
   "standout_section": {
     "title": "Opvallende kenmerken",
     "description": "Cryptocurrencies van exchanges hebben historisch gezien goed gepresteerd dankzij hun actieve gebruikersbasis, platforminkomsten en voortdurende marketing. BFX, de eerste token van een multi-asset handelsplatform, biedt unieke kenmerken die echte waarde aan de markt toevoegen.",
@@ -938,11 +907,11 @@
     }
   },
   "the_ultimate_section": {
-    "title": "Het Ultieme <br/> Handelsplatform",
-    "description": "Ervaar het beste handelsplatform met geavanceerde functies en een gebruiksvriendelijke interface.",
-    "buy_bfx": "Koop $BFX",
-    "need_support": "Hulp nodig?"
-  },
+  "title": "Het Ultieme <br/> Handelsplatform",
+  "description": "Ervaar het beste handelsplatform met geavanceerde functies en een gebruiksvriendelijke interface.",
+  "buy_bfx": "Koop $BFX",
+  "need_support": "Hulp nodig?"
+},
   "buy_tab": {
     "you_must_connect_wallet": "Je moet eerst je wallet verbinden",
     "presale_ended": "De voorverkoop is afgelopen",

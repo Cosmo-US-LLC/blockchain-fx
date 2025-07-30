@@ -182,7 +182,7 @@ function MobilePremiumSec() {
                       <div className="flex space-x-3 items-start py-[14px]">
                         <div>
                           <h3 className="text-[#ffff] flex flex-col justify-end font-[600] ">
-                            <span className="text-[30px]  leading-[100%]">
+                            <span className="text-[22px]  leading-[100%]">
                               {card.title}
                             </span>
                             <span className="text-[#fff] text-start pt-[10px] text-[18.286px] font-[600]">

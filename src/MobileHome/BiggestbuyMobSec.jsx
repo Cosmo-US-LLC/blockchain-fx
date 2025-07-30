@@ -122,7 +122,7 @@ function BiggestbuyMobSec() {
           <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize text-center text-[#FFF] ">
             {t("biggest_buy.title")}
           </h3>
-          <p className=" w-[100%] font-inter text-center text-[16px] text-[#fff] font-medium leading-[25px]">
+          <p className=" w-[100%] font-inter !text-center text-[16px] text-[#fff] font-medium leading-[25px]">
             {t("biggest_buy.description")}
           </p>
         </div>
@@ -152,7 +152,7 @@ function BiggestbuyMobSec() {
             <div className="flex justify-center mt-[30px]">
           <button
             onClick={() => setShowMore(!showMore)}
-            className="hover:text-white hover:bg-[#E5AE00] px-[15px] text-[#E5AE00] bg-transparent text-[14px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] items-cneter inline-flex h-[38px]"
+            className="hover:text-white hover:bg-[#E5AE00] px-[15px] text-[#E5AE00] bg-transparent text-[14px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] items-center flex h-[38px]"
           >
             {showMore ? t("biggest_buy.view_less") : t("biggest_buy.load_more")}
           </button>

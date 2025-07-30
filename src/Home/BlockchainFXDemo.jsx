@@ -106,8 +106,7 @@ function BlockchainFXDemo() {
                 <h3 className="text-[40px] font-[800] leading-[52px] mb-4 text-[#fff]">
                   {t("blockchainfx_demo.assets_title")}
                 </h3>
-                <p className="text-[18px] text-[#fff] font-[400] leading-[27px] w-[450px]">
-                  {t("blockchainfx_demo.assets_description")}
+                <p className="text-[18px] text-[#fff] font-[400] leading-[27px] w-[450px]" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.assets_description") }}>
                 </p>
               </div>
             </div>

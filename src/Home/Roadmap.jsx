@@ -171,6 +171,7 @@ function RoadmapSection() {
                 key={index}
                 className="flex flex-col items-center absolute"
                 style={{
+                  width: isLast ? "100%" : "auto",
                   left: isLast
                     ? "calc(100% - 330px)"
                     : `${
@@ -179,7 +180,7 @@ function RoadmapSection() {
                       }%`,
                   transform: "translateX(-50%)",
                   top: "-35px",
-                  marginLeft: isFirst ? "340px" : "0",
+                  marginLeft: isFirst ? "260px" : "",
                   marginRight: isLast ? "100px" : "0",
                 }}
               >
