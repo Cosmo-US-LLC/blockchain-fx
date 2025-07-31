@@ -971,5 +971,37 @@
       "withdraw_anytime": "Выводите крипто в любое время, без блокировок",
       "community_earns": "Сообщество зарабатывает, растёт и строит платформу вместе с BlockchainFX."
     }
-  }
+  },
+  "buy_tab": {
+  "you_must_connect_wallet": "Сначала необходимо подключить кошелёк",
+  "presale_ended": "Предпродажа завершена",
+  "loading": "Загрузка...",
+  "error_ranking_up": "Ошибка при повышении ранга",
+  "successfully_unlocked": "Успешно разблокировано",
+  "participants": "Участники",
+  "card": "Карта",
+  "other_cryptos": "+ Другие криптовалюты",
+  "presale_price": "Цена предпродажи",
+  "launch_price": "Цена запуска",
+  "you_pay_in": "Вы платите в",
+  "usd": "USD",
+  "you_receive_bfx": "Вы получите $BFX",
+  "nft": "NFT",
+  "unlock_nft": "Разблокировать",
+  "limited_time_offer": "Ограниченное предложение",
+  "use_bonus_code": "Использовать бонус-код",
+  "bonus_code": "BFX20",
+  "to_get_bonus": "Чтобы получить на 20% больше",
+  "more_bfx_coins": "монет $BFX!",
+  "referral_link": "Реферальная ссылка на 10%",
+  "transaction_successful": "Транзакция успешна",
+  "transaction_successful_message": "Транзакция прошла успешно. Пожалуйста, подождите минуту и обновите вкладку транзакций, чтобы увидеть свои токены.",
+  "transaction_successful_bought_message": "Транзакция прошла успешно. Вы купили",
+  "check_transaction_tab": "Проверьте вкладку транзакций для подробностей",
+  "transaction_errored": "Ошибка транзакции",
+  "transaction_errored_message": "Транзакция не прошла. Пожалуйста, попробуйте снова.",
+  "transaction_pending": "Транзакция в ожидании",
+  "transaction_pending_message": "Транзакция в обработке. Пожалуйста, подождите минуту и обновите вкладку транзакций, чтобы увидеть свои токены.",
+  "buy_bfx": "Купить BFX"
+}
 }
