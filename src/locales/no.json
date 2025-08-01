@@ -476,30 +476,33 @@
     },
     "chart_title": "Diagramtittel"
   },
-  "footer": {
-    "description": "Bli en del av det neste generasjons handelssystemet og bli med i den raskt voksende BFX-bevegelsen.",
-    "quick_links": {
-      "title": "Hurtiglenker",
-      "how_to_buy": "Hvordan kjøpe?",
-      "what_is_bfx": "Hva er BFX?",
-      "roadmap": "Veikart",
-      "token_allocation": "Token-allokering"
-    },
-    "docs": {
-      "title": "Dokumenter",
-      "terms_of_service": "Vilkår for bruk",
-      "privacy_policy": "Personvernerklæring",
-      "token_sale": "Token-salgsavtale",
-      "support": "Live 24/7 support"
-    },
-    "socials": {
-      "title": "Bli med på våre sosiale medier"
-    },
-    "contact": {
-      "email_label": "Kontakt e-post:",
-      "email": "Support@blockchainfx.com"
-    }
+ "footer": {
+  "description": "Bli en del av det neste generasjons handelssystemet og bli med i den raskt voksende BFX-bevegelsen.",
+  "quick_links": {
+    "title": "Hurtiglenker",
+    "how_to_buy": "Hvordan kjøpe?",
+    "what_is_bfx": "Hva er BFX?",
+    "roadmap": "Veikart",
+    "token_allocation": "Tokenfordeling"
   },
+  "docs": {
+    "title": "Dokumenter",
+    "terms_of_service": "Vilkår for bruk",
+    "privacy_policy": "Personvernerklæring",
+    "token_sale": "Token-salgsavtale",
+    "support": "Live 24/7 Support"
+  },
+  "socials": {
+    "title": "Følg oss på sosiale medier"
+  },
+  "contact": {
+    "email_label": "Kontakt e-post:",
+    "email": "Support@blockchainfx.com"
+  },
+  "disclaimer": "Kryptovaluta kan være uregulert i din jurisdiksjon, og verdien kan svinge, noe som kan føre til gevinster eller tap. Eventuelle gevinster kan være underlagt kapitalgevinstskatt eller andre skatter, avhengig av lokale lover. Innholdet på denne plattformen utgjør ikke et tilbud, en anbefaling eller finansiell rådgivning om å kjøpe, selge eller delta i kryptovalutatransaksjoner. Du er selv ansvarlig for å vurdere om en transaksjon passer dine personlige mål, økonomiske situasjon og risikotoleranse. Vi anbefaler på det sterkeste å konsultere pålitelige og autoriserte juridiske, skattemessige eller finansielle rådgivere før du tar noen beslutninger.\n\nHandel med kryptovaluta innebærer betydelig risiko, inkludert muligheten for delvis eller totalt tap av midler. Grundige undersøkelser er avgjørende. BlockchainFX garanterer ikke noen form for avkastning, resultat eller tilbakebetaling av kapital for noen kryptovaluta nevnt på denne plattformen. Ved å bruke denne plattformen godtar du våre Vilkår for bruk, Personvernerklæring, Retningslinjer for informasjonskapsler og eventuelle gjeldende token-salgsavtaler. Innholdet på plattformen er ikke ment for bruk i jurisdiksjoner der distribusjon eller bruk ville være i strid med lokale lover eller forskrifter.",
+  "copyright": "Opphavsrett © 2025. Alle rettigheter forbeholdt.",
+  "cookie_management": "Administrasjon av informasjonskapsler"
+},
   "faq_section": {
     "title": "Ofte stilte spørsmål",
     "description": "Finn svar på noen av de vanligste spørsmålene.",
@@ -925,5 +928,37 @@
       "source": "(*Kilde: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
       "buttonText": "Kjøp $BFX"
     }
-  }
+  },
+  "buy_tab": {
+  "you_must_connect_wallet": "Du må koble til lommeboken først",
+  "presale_ended": "Forsalget er avsluttet",
+  "loading": "Laster...",
+  "error_ranking_up": "Feil ved rangering",
+  "successfully_unlocked": "Låst opp vellykket",
+  "participants": "Deltakere",
+  "card": "Kort",
+  "other_cryptos": "+ Andre kryptovalutaer",
+  "presale_price": "Pris under forsalg",
+  "launch_price": "Lanseringspris",
+  "you_pay_in": "Du betaler i",
+  "usd": "USD",
+  "you_receive_bfx": "Du mottar $BFX",
+  "nft": "NFT",
+  "unlock_nft": "Lås opp",
+  "limited_time_offer": "Tidsbegrenset tilbud",
+  "use_bonus_code": "Bruk bonuskode",
+  "bonus_code": "BFX20",
+  "to_get_bonus": "For å få 20% ekstra",
+  "more_bfx_coins": "Flere $BFX-mynter!",
+  "referral_link": "10 % henvisningslenke",
+  "transaction_successful": "Transaksjonen var vellykket",
+  "transaction_successful_message": "Transaksjonen var vellykket. Vennligst vent et minutt og oppdater transaksjonsfanen for å se tokenene dine.",
+  "transaction_successful_bought_message": "Transaksjonen var vellykket. Du kjøpte",
+  "check_transaction_tab": "Sjekk transaksjonsfanen for mer informasjon",
+  "transaction_errored": "Feil i transaksjon",
+  "transaction_errored_message": "Transaksjonen var ikke vellykket. Prøv igjen.",
+  "transaction_pending": "Transaksjon venter",
+  "transaction_pending_message": "Transaksjonen venter. Vennligst vent et minutt og oppdater transaksjonsfanen for å se tokenene dine.",
+  "buy_bfx": "Kjøp BFX"
+}
 }

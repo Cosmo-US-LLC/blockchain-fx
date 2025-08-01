@@ -972,5 +972,37 @@
       "withdraw_anytime": "随时提币，无锁定期",
       "community_earns": "社区与BlockchainFX共同成长、获益、共建平台。"
     }
-  }
+  },
+  "buy_tab": {
+  "you_must_connect_wallet": "您必须先连接您的钱包",
+  "presale_ended": "预售已结束",
+  "loading": "加载中...",
+  "error_ranking_up": "升级时出错",
+  "successfully_unlocked": "解锁成功",
+  "participants": "参与者",
+  "card": "卡片",
+  "other_cryptos": "+ 其他加密货币",
+  "presale_price": "预售价格",
+  "launch_price": "启动价格",
+  "you_pay_in": "您支付的币种",
+  "usd": "美元",
+  "you_receive_bfx": "您将获得 $BFX",
+  "nft": "NFT",
+  "unlock_nft": "解锁",
+  "limited_time_offer": "限时优惠",
+  "use_bonus_code": "使用优惠码",
+  "bonus_code": "BFX20",
+  "to_get_bonus": "可额外获得 20%",
+  "more_bfx_coins": "更多 $BFX 代币！",
+  "referral_link": "10% 推荐链接",
+  "transaction_successful": "交易成功",
+  "transaction_successful_message": "交易已成功。请等待一分钟并刷新交易标签页以查看您的代币。",
+  "transaction_successful_bought_message": "交易已成功。您购买了",
+  "check_transaction_tab": "请查看交易标签页以获取更多信息",
+  "transaction_errored": "交易出错",
+  "transaction_errored_message": "交易未成功，请重试。",
+  "transaction_pending": "交易等待中",
+  "transaction_pending_message": "交易正在处理中。请等待一分钟并刷新交易标签页以查看您的代币。",
+  "buy_bfx": "购买 BFX"
+}
 }

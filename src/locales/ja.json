@@ -917,5 +917,37 @@
     "audited_by": "監査・承認済み",
     "verified_ratings": "認証済み評価",
     "rating": "4.87/5"
-  }
+  },
+  "buy_tab": {
+  "you_must_connect_wallet": "最初にウォレットを接続する必要があります",
+  "presale_ended": "プレセールは終了しました",
+  "loading": "読み込み中...",
+  "error_ranking_up": "ランクアップ中にエラーが発生しました",
+  "successfully_unlocked": "正常にアンロックされました",
+  "participants": "参加者",
+  "card": "カード",
+  "other_cryptos": "+ その他の暗号通貨",
+  "presale_price": "プレセール価格",
+  "launch_price": "ローンチ価格",
+  "you_pay_in": "支払い通貨",
+  "usd": "米ドル (USD)",
+  "you_receive_bfx": "$BFX を受け取る",
+  "nft": "NFT",
+  "unlock_nft": "アンロック",
+  "limited_time_offer": "期間限定オファー",
+  "use_bonus_code": "ボーナスコードを使用",
+  "bonus_code": "BFX20",
+  "to_get_bonus": "20% 追加でもらうには",
+  "more_bfx_coins": "さらに $BFX コイン！",
+  "referral_link": "10% 紹介リンク",
+  "transaction_successful": "取引が成功しました",
+  "transaction_successful_message": "取引は成功しました。1分待ってからトランザクションタブを更新してトークンをご確認ください。",
+  "transaction_successful_bought_message": "取引は成功しました。購入内容：",
+  "check_transaction_tab": "詳細はトランザクションタブをご確認ください",
+  "transaction_errored": "取引エラー",
+  "transaction_errored_message": "取引が失敗しました。もう一度お試しください。",
+  "transaction_pending": "取引保留中",
+  "transaction_pending_message": "取引は保留中です。1分待ってからトランザクションタブを更新してトークンをご確認ください。",
+  "buy_bfx": "BFX を購入"
+}
 }
