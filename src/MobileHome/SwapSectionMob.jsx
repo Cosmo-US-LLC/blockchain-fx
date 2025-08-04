@@ -30,7 +30,7 @@ export default function SwapSectionMob() {
                 {t("blockchainfx_demo.assets_title")}
               </h3>
               <p className="font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center max-w-[350px] mx-auto">
-                <span dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.assets_description") }} />
+                <span className="mobilepara" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.assets_description") }} />
               </p>
             </div>
           </div>
