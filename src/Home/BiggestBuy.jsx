@@ -161,13 +161,14 @@ export default function BiggestBuy() {
                       className={`!rounded-[30px]  ${bgColor} ${textColor}`}
                     >
                       <td className="px-4 py-2 text-center  rounded-l-[30px]">
-                        {t(`biggest_buy.table.rank`)}
+                       {item.rank}
                       </td>
                       <td className="px-4 py-2  text-center">{item.wallet}</td>
                       <td className="px-4 py-2  text-center">{item.date}</td>
                       <td className="px-4 py-2  text-center">{item.txCount}</td>
                       <td className="px-4 py-2  text-center">{item.totalBuy}</td>
-                      <td className="px-4 py-2  text-center">{item.nft}</td>
+                      {/* <td className="px-4 py-2  text-center">{item.nft}</td> */}
+                      <td>{t(`nft.${item.nft.toLowerCase()}`)}</td>
                       <td className="px-4 py-2  text-center  rounded-r-[30px]">
                         {item.prize}
                       </td>

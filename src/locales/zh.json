@@ -380,6 +380,7 @@
   "less_than_section": {
     "title": "为指数级增长而设计",
     "description": "BlockchainFX是一个由社区驱动的交易平台，每日奖励BFX持有者。平台发展越快，代币价值越高——形成强大的增长与参与循环。研究表明，激励型社区的增长速度远超其他，BFX正是为最大化这一潜力而设计。",
+     "chart_title": "2024年日均交易量",
     "costs": {
       "title": "成本",
       "description": "高达200万美元"
@@ -1004,5 +1005,11 @@
   "transaction_pending": "交易等待中",
   "transaction_pending_message": "交易正在处理中。请等待一分钟并刷新交易标签页以查看您的代币。",
   "buy_bfx": "购买 BFX"
+},
+"nft": {
+  "legend": "传奇",
+  "elite": "精英",
+  "master": "大师",
+  "expert": "专家"
 }
 }

@@ -96,7 +96,7 @@ function MobileHero() {
                 }}
               >{t("hero.title_highlight")}</span>
             </h1>
-            <p className="text-[#fff] mb-4  text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]"
+            <p className="text-[#fff] mb-4 mobilepara text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]"
             dangerouslySetInnerHTML={{ __html: t("hero.subtitle") }}
             />
              

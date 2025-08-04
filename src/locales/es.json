@@ -380,6 +380,7 @@
   "less_than_section": {
     "title": "Diseñado para el crecimiento exponencial",
     "description": "BlockchainFX es una plataforma de trading impulsada por la comunidad que recompensa diariamente a los poseedores de BFX. A medida que la plataforma crece, también lo hace el token, creando un ciclo poderoso de crecimiento y participación. Los estudios* muestran que las comunidades incentivadas pueden crecer significativamente más rápido que otras, y BFX está diseñado para maximizar ese potencial.",
+    "chart_title": "Volumen diario promedio de operaciones en 2024",
     "costs": {
       "title": "Costos",
       "description": "Hasta $2 millones"
@@ -791,5 +792,11 @@
     "withdraw_anytime": "Retira tu cripto en cualquier momento, sin bloqueos",
     "community_earns": "La comunidad gana, crece y construye la plataforma junto a BlockchainFX."
   }
+},
+"nft": {
+  "legend": "Leyenda",
+  "elite": "Élite",
+  "master": "Maestro",
+  "expert": "Experto"
 }
 }

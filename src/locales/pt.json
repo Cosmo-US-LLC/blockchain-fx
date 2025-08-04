@@ -937,5 +937,11 @@
     "transaction_pending": "Transação pendente",
     "transaction_pending_message": "A transação está pendente. Aguarde um minuto e atualize a aba de transações para ver seus tokens.",
     "buy_bfx": "Comprar BFX"
-  }
+  },
+  "nft": {
+  "legend": "Lenda",
+  "elite": "Elite",
+  "master": "Mestre",
+  "expert": "Especialista"
+}
 }

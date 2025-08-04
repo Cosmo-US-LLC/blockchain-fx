@@ -111,7 +111,7 @@ function MobilePremiumSec() {
             <span dangerouslySetInnerHTML={{ __html: t("premium_section.title") }} />
           </h3>
           <p className=" mx-auto font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
-            <span dangerouslySetInnerHTML={{ __html: t("premium_section.description") }} />
+            <span className="mobilepara" dangerouslySetInnerHTML={{ __html: t("premium_section.description") }} />
           </p>
         </div>
         <div className="w-[90%] mx-auto">

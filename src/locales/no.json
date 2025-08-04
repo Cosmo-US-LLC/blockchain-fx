@@ -360,6 +360,7 @@
   "less_than_section": {
     "title": "Designet for eksponentiell vekst",
     "description": "BlockchainFX er en fellesskapsdrevet handelsplattform som belønner BFX-innehavere daglig. Etter hvert som plattformen vokser, vokser også tokenet — og skaper en kraftig syklus av vekst og engasjement. Studier* viser at insentiverte fellesskap kan vokse betydelig raskere enn andre, og BFX er designet for å maksimere dette potensialet.",
+    "chart_title": "Gjennomsnittlig daglig handelsvolum i 2024",
     "costs": {
       "title": "Kostnader",
       "description": "Opptil $2 millioner"
@@ -960,5 +961,11 @@
   "transaction_pending": "Transaksjon venter",
   "transaction_pending_message": "Transaksjonen venter. Vennligst vent et minutt og oppdater transaksjonsfanen for å se tokenene dine.",
   "buy_bfx": "Kjøp BFX"
+},
+"nft": {
+  "legend": "Legende",
+  "elite": "Elite",
+  "master": "Mester",
+  "expert": "Ekspert"
 }
 }

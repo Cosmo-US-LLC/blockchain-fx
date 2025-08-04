@@ -943,5 +943,11 @@
     "transaction_pending": "Transactie in behandeling",
     "transaction_pending_message": "De transactie is in behandeling. Wacht een minuut en ververs het transactietabblad om je tokens te zien.",
     "buy_bfx": "Koop BFX"
-  }
+  },
+  "nft": {
+  "legend": "Legende",
+  "elite": "Elite",
+  "master": "Meester",
+  "expert": "Expert"
+}
 }
