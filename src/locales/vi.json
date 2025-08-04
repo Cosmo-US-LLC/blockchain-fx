@@ -36,11 +36,11 @@
     "card_items": [
       {
         "title": "Kiểm toán bên ngoài bởi Coinsult",
-        "description": "BlockchainFX đã được kiểm toán đầy đủ bởi Coinsult,<br />một công ty kiểm toán uy tín từ Hà Lan,<br />và xác nhận an toàn 100%."
+        "description": "BlockchainFX đã được kiểm toán đầy đủ bởi Coinsult, <br />một công ty kiểm toán uy tín từ Hà Lan, <br />và xác nhận an toàn 100%."
       },
       {
         "title": "Kiểm toán bên ngoài bởi CertiK",
-        "description": "CertiK, công ty bảo mật blockchain hàng đầu thế giới, đã kiểm toán BlockchainFX và xác nhận<br />đáp ứng các tiêu chuẩn bảo mật cao nhất."
+        "description": "CertiK, công ty bảo mật blockchain hàng đầu thế giới, đã kiểm toán BlockchainFX và xác nhận <br />đáp ứng các tiêu chuẩn bảo mật cao nhất."
       },
       {
         "title": "Đội ngũ KYC xác minh bởi Solidproof",
@@ -232,139 +232,128 @@
     }
   },
   "premium_section": {
-    "title": "Nhận ưu đãi đặc biệt từ 1.000 USD",
-    "description": "Mua BFX trong đợt mở bán và tham gia Câu lạc bộ Nhà sáng lập chỉ từ 1.000 USD.<br />Nhận NFT độc quyền, thẻ Visa BFX, token thưởng, phần thưởng staking USDT hàng ngày,<br />và tín dụng giao dịch miễn phí. Chỉ có trong đợt mở bán.",
+    "title": "Nhận Thưởng Đặc Biệt Bắt Đầu Từ $1,000",
+    "description": "Mua BFX trong đợt bán trước và tham gia Câu Lạc Bộ Nhà Sáng Lập chỉ từ $1,000.<br />Nhận NFT độc quyền, Thẻ Visa BFX, token thưởng, phần thưởng staking USDT hàng ngày,<br />và tín dụng giao dịch miễn phí. Chỉ có sẵn trong đợt bán trước.",
+    "how_much_spend": "Bạn muốn chi bao nhiêu",
     "cards": [
       {
-        "title": "Novice",
+        "title": "Người Mới",
         "price": "$1,000",
-        "points": ["Thẻ Visa BFX", "Thưởng BFX 10%", "Thưởng staking BFX", "Thưởng USDT hàng ngày", "Tín dụng giao dịch lên đến 25.000 USD"],
+        "points": ["Thẻ Visa BFX", "Thưởng 10% BFX", "Phần Thưởng Staking BFX", "Phần Thưởng USDT Hàng Ngày", "Tín Dụng Giao Dịch Lên Tới $25k"],
         "buttonLabel": "Mua $BFX • $1,000",
         "cardPointsTooltips": [
-          "Nhận thẻ Visa BFX (ảo và vật lý), chấp nhận toàn cầu.",
-          "Mua NFT này và nhận thêm token BFX vào ví.",
-          "Nhận thưởng staking BFX mỗi khi có giao dịch trên BlockchainFX.",
-          "Nhận thưởng USDT, trả theo tỷ lệ phần trăm tổng thu nhập staking BFX.",
-          "Nhận tín dụng giao dịch sau đợt mở bán để sử dụng trên BlockchainFX."
+          "Nhận Thẻ Visa BFX (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
+          "Mua NFT này và nhận thêm đồng BFX vào ví của bạn.",
+          "Nhận phần thưởng staking BFX mỗi khi có người giao dịch trên BlockchainFX.",
+          "Nhận phần thưởng USDT, được thanh toán theo tỷ lệ phần trăm thu nhập staking BFX của bạn.",
+          "Nhận tín dụng giao dịch sau đợt bán trước để sử dụng trên BlockchainFX."
         ]
       },
       {
-        "title": "Advanced",
+        "title": "Nâng Cao",
         "price": "$2,500",
-        "points": ["Thẻ Visa BFX", "Thưởng BFX 20%", "Thưởng staking BFX", "$500 tín dụng giao dịch", "Thưởng USDT hàng ngày"],
+        "points": ["Thẻ Visa BFX", "Thưởng 20% BFX", "Phần Thưởng Staking BFX", "Tín Dụng Giao Dịch $500", "Phần Thưởng USDT Hàng Ngày"],
         "buttonLabel": "Mua $BFX • $2,500",
         "cardPointsTooltips": [
-          "Nhận thẻ Visa BFX (ảo và vật lý), chấp nhận toàn cầu.",
-          "Mua NFT này và nhận thêm token BFX vào ví.",
-          "Nhận thưởng staking BFX mỗi khi có giao dịch trên BlockchainFX.",
-          "Nhận tín dụng giao dịch sau đợt mở bán để sử dụng trên BlockchainFX.",
-          "Nhận thưởng USDT, trả theo tỷ lệ phần trăm tổng thu nhập staking BFX."
+          "Nhận Thẻ Visa BFX (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
+          "Mua NFT này và nhận thêm đồng BFX vào ví của bạn.",
+          "Nhận phần thưởng staking BFX mỗi khi có người giao dịch trên BlockchainFX.",
+          "Nhận tín dụng giao dịch sau đợt bán trước để sử dụng trên BlockchainFX.",
+          "Nhận phần thưởng USDT, được thanh toán theo tỷ lệ phần trăm thu nhập staking BFX của bạn."
         ]
       },
       {
-        "title": "Pro",
+        "title": "Chuyên Nghiệp",
         "price": "$5,000",
-        "points": ["Thẻ Visa BFX kim loại", "Thưởng BFX 30%", "Thưởng staking BFX", "$1.000 tín dụng giao dịch", "Thưởng USDT hàng ngày"],
+        "points": ["Thẻ Visa BFX Kim Loại", "Thưởng 30% BFX", "Phần Thưởng Staking BFX", "Tín Dụng Giao Dịch $1000", "Phần Thưởng USDT Hàng Ngày"],
         "buttonLabel": "Mua $BFX • $5,000",
         "cardPointsTooltips": [
-          "Nhận thẻ Visa BFX (ảo và vật lý), chấp nhận toàn cầu.",
-          "Mua NFT này và nhận thêm token BFX vào ví.",
-          "Nhận thưởng staking BFX mỗi khi có giao dịch trên BlockchainFX.",
-          "Nhận tín dụng giao dịch sau đợt mở bán để sử dụng trên BlockchainFX.",
-          "Nhận thưởng USDT, trả theo tỷ lệ phần trăm tổng thu nhập staking BFX."
+          "Nhận Thẻ Visa BFX (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
+          "Mua NFT này và nhận thêm đồng BFX vào ví của bạn.",
+          "Nhận phần thưởng staking BFX mỗi khi có người giao dịch trên BlockchainFX.",
+          "Nhận tín dụng giao dịch sau đợt bán trước để sử dụng trên BlockchainFX.",
+          "Nhận phần thưởng USDT, được thanh toán theo tỷ lệ phần trăm thu nhập staking BFX của bạn."
         ]
       },
       {
-        "title": "Expert",
+        "title": "Chuyên Gia",
         "price": "$10,000",
-        "points": ["Thẻ Visa BFX kim loại", "Thưởng BFX 40%", "Thưởng staking BFX", "Thưởng USDT 10%", "$2.000 tín dụng giao dịch"],
+        "points": ["Thẻ Visa BFX Kim Loại", "Thưởng 40% BFX", "Phần Thưởng Staking BFX", "Thưởng 10% USDT", "Tín Dụng Giao Dịch $2000"],
         "buttonLabel": "Mua $BFX • $10,000",
         "cardPointsTooltips": [
-          "Nhận thẻ Visa BFX (ảo và vật lý), chấp nhận toàn cầu.",
-          "Mua NFT này và nhận thêm token BFX vào ví.",
-          "Nhận thưởng staking BFX mỗi khi có giao dịch trên BlockchainFX.",
-          "Nhận thưởng USDT, trả theo tỷ lệ phần trăm tổng thu nhập staking BFX.",
-          "Nhận tín dụng giao dịch sau đợt mở bán để sử dụng trên BlockchainFX."
+          "Nhận Thẻ Visa BFX (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
+          "Mua NFT này và nhận thêm đồng BFX vào ví của bạn.",
+          "Nhận phần thưởng staking BFX mỗi khi có người giao dịch trên BlockchainFX.",
+          "Nhận phần thưởng USDT, được thanh toán theo tỷ lệ phần trăm thu nhập staking BFX của bạn.",
+          "Nhận tín dụng giao dịch sau đợt bán trước để sử dụng trên BlockchainFX."
         ]
       },
       {
-        "title": "Master",
+        "title": "Bậc Thầy",
         "price": "$25,000",
-        "points": ["Thẻ Visa BFX kim loại", "Thưởng BFX 50%", "Thưởng staking BFX", "Thưởng USDT 15%", "$5.000 tín dụng giao dịch"],
+        "points": ["Thẻ Visa BFX Kim Loại", "Thưởng 50% BFX", "Phần Thưởng Staking BFX", "Thưởng 15% USDT", "Tín Dụng Giao Dịch $5000"],
         "buttonLabel": "Mua $BFX • $25,000",
         "cardPointsTooltips": [
-          "Nhận thẻ Visa BFX kim loại (ảo và vật lý), chấp nhận toàn cầu.",
-          "Mua NFT này và nhận thêm token BFX vào ví.",
-          "Nhận thưởng staking BFX mỗi khi có giao dịch trên BlockchainFX.",
-          "Nhận thưởng USDT, trả theo tỷ lệ phần trăm tổng thu nhập staking BFX.",
-          "Nhận tín dụng giao dịch sau đợt mở bán để sử dụng trên BlockchainFX."
+          "Nhận Thẻ Visa BFX Kim Loại (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
+          "Mua NFT này và nhận thêm đồng BFX vào ví của bạn.",
+          "Nhận phần thưởng staking BFX mỗi khi có người giao dịch trên BlockchainFX.",
+          "Nhận phần thưởng USDT, được thanh toán theo tỷ lệ phần trăm thu nhập staking BFX của bạn.",
+          "Nhận tín dụng giao dịch sau đợt bán trước để sử dụng trên BlockchainFX."
         ]
       },
       {
-        "title": "Elite",
-        "price": "$50,000+",
-        "points": [
-          "Thẻ Visa BFX kim loại",
-          "Thưởng BFX 60%",
-          "Thưởng USDT 20%",
-          "Quyền truy cập sớm",
-          "$10.000 tín dụng giao dịch thưởng"
-        ],
+        "title": "Tinh Anh",
+        "price": "$50,000",
+        "points": ["Thẻ Visa BFX Kim Loại", "Thưởng 60% BFX", "Phần Thưởng Staking BFX", "Thưởng 20% USDT", "Tín Dụng Giao Dịch $10000"],
         "buttonLabel": "Mua $BFX • $50,000",
         "cardPointsTooltips": [
-          "Nhận thẻ Visa BFX kim loại (ảo và vật lý), chấp nhận toàn cầu.",
-          "Mua NFT này và nhận thêm token BFX vào ví.",
-          "Nhận thưởng USDT, trả theo tỷ lệ phần trăm tổng thu nhập staking BFX.",
-          "Quyền truy cập sớm vào các tính năng đặc biệt.",
-          "Nhận tín dụng giao dịch sau đợt mở bán để sử dụng trên BlockchainFX."
+          "Nhận Thẻ Visa BFX Kim Loại (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
+          "Mua NFT này và nhận thêm đồng BFX vào ví của bạn.",
+          "Nhận phần thưởng staking BFX mỗi khi có người giao dịch trên BlockchainFX.",
+          "Nhận phần thưởng USDT, được thanh toán theo tỷ lệ phần trăm thu nhập staking BFX của bạn.",
+          "Nhận tín dụng giao dịch sau đợt bán trước để sử dụng trên BlockchainFX."
         ]
       },
       {
-        "title": "Legend",
-        "price": "$100,000+",
-        "points": [
-          "Thẻ Visa BFX vàng 18K",
-          "Thưởng BFX 80%",
-          "Thưởng USDT 30%",
-          "Quyền truy cập sớm",
-          "$25.000 tín dụng giao dịch"
-        ],
+        "title": "Huyền Thoại",
+        "price": "$100,000",
+        "points": ["Thẻ Visa BFX 18 Karat", "Thưởng 80% BFX", "Phần Thưởng Staking BFX", "Thưởng 30% USDT", "Tín Dụng Giao Dịch $25000"],
         "buttonLabel": "Mua $BFX • $100,000",
         "cardPointsTooltips": [
-          "Nhận thẻ Visa BFX vàng 18K (ảo và vật lý), chấp nhận toàn cầu.",
-          "Mua NFT này và nhận thêm token BFX vào ví.",
-          "Nhận thưởng USDT, trả theo tỷ lệ phần trăm tổng thu nhập staking BFX.",
-          "Quyền truy cập sớm vào các tính năng đặc biệt.",
-          "Nhận tín dụng giao dịch sau đợt mở bán để sử dụng trên BlockchainFX."
+          "Nhận Thẻ Visa BFX 18 Karat (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
+          "Mua NFT này và nhận thêm đồng BFX vào ví của bạn.",
+          "Nhận phần thưởng staking BFX mỗi khi có người giao dịch trên BlockchainFX.",
+          "Nhận phần thưởng USDT, được thanh toán theo tỷ lệ phần trăm thu nhập staking BFX của bạn.",
+          "Nhận tín dụng giao dịch sau đợt bán trước để sử dụng trên BlockchainFX."
         ]
       }
     ],
     "nft_label": "NFT",
     "faq": {
-      "title": "Câu hỏi về Câu lạc bộ Nhà sáng lập",
+      "title": "Câu Hỏi Về Câu Lạc Bộ Nhà Sáng Lập",
       "questions": [
         {
-          "question": "Khi nào tôi nhận được NFT Câu lạc bộ Nhà sáng lập?",
-          "answer": "<li>Bạn sẽ tự động nhận được NFT Câu lạc bộ Nhà sáng lập sau khi mua đủ số lượng $BFX yêu cầu.</li> <li>NFT sẽ xuất hiện trong bảng điều khiển cá nhân và có thể nhận sau khi đợt mở bán kết thúc.</li> <li>Để truy cập bảng điều khiển, hãy kết nối cùng ví bằng cách nhấn 'Kết nối ví' ở góc trên bên phải.</li>"
+          "question": "Khi nào tôi nhận được NFT Nhà Sáng Lập?",
+          "answer": "<li>Bạn sẽ tự động nhận được NFT Nhà Sáng Lập sau khi mua đủ số lượng $BFX yêu cầu.</li> <li>NFT sẽ xuất hiện trong bảng điều khiển cá nhân của bạn và có thể được nhận sau khi kết thúc đợt bán trước.</li> <li>Để truy cập bảng điều khiển, hãy kết nối cùng ví bằng cách nhấn 'Kết nối ví' ở góc trên bên phải.</li>"
         },
         {
           "question": "Khi nào tôi nhận được phần thưởng?",
-          "answer": "<li>Phần thưởng BFX của bạn sẽ được cộng ngay vào bảng điều khiển</li><li>Để truy cập bảng điều khiển, nhấn nút 'Kết nối ví'</li>"
+          "answer": "<li>Phần thưởng BFX của bạn sẽ được thêm ngay vào bảng điều khiển của bạn.</li><li>Để truy cập bảng điều khiển, hãy nhấn nút 'Kết nối ví'.</li>"
         },
         {
-          "question": "Tôi có thể nhận NFT bằng nhiều lần mua không?",
-          "answer": "<li>Có, bạn có thể mua $BFX nhiều lần với số lượng nhỏ để đạt tổng yêu cầu. </li><li>Ví dụ, mua $200 BFX năm lần sẽ nhận được NFT Novice (trị giá $1.000).</li>"
+          "question": "Tôi có thể nhận NFT bằng nhiều giao dịch không?",
+          "answer": "<li>Có, bạn có thể mua $BFX với các khoản nhỏ để đạt tổng số yêu cầu.</li><li>Ví dụ: mua $200 năm lần sẽ giúp bạn nhận NFT Người Mới (trị giá $1,000).</li>"
         },
         {
           "question": "Tôi có thể nâng cấp NFT không?",
           "tooltip": true,
-          "answer": "<li>Có, bạn có thể nâng cấp nhiều lần trong đợt mở bán.</li> <li>Bạn sẽ nhận thưởng và NFT ở cấp cao nhất đạt được.</li> <li>Sau khi đợt mở bán kết thúc, không thể nâng cấp thêm.</li>"
+          "answer": "<li>Có, bạn có thể nâng cấp nhiều lần trong đợt bán trước.</li> <li>Bạn sẽ nhận được phần thưởng và NFT ở cấp độ cao nhất mà bạn đạt được.</li> <li>Sau khi kết thúc đợt bán trước, không thể nâng cấp thêm.</li>"
         }
       ],
       "tooltip_text": {
-        "line1": "Ví dụ, mua $1.000 BFX sẽ nhận được NFT Novice.",
-        "line2": "Chi thêm $1.500 để nâng cấp lên Advanced.",
-        "line3": "Bạn có thể tiếp tục nâng cấp cho đến khi đạt NFT Legend cuối cùng."
+        "line1": "Ví dụ: mua $1,000 BFX sẽ nhận được NFT Người Mới.",
+        "line2": "Chi thêm $1,500 để nâng cấp lên Nâng Cao.",
+        "line3": "Bạn có thể tiếp tục nâng cấp cho đến khi đạt NFT Huyền Thoại cuối cùng."
       }
     }
   },

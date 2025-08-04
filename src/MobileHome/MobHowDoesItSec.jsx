@@ -60,7 +60,7 @@ function MobHowDoesItSec() {
             {t("how_does_it_sec.title")}
           </h3>
           <p className="mt-4 font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
-            <span dangerouslySetInnerHTML={{ __html: t("how_does_it_sec.subtitle") }} />
+            <span className="mobilepara" dangerouslySetInnerHTML={{ __html: t("how_does_it_sec.subtitle") }} />
           </p>
         </div>
         <div className="flex justify-center">

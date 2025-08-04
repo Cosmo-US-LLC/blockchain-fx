@@ -28,7 +28,7 @@ function LivePresale() {
       }}
     >
       <div className="max-w-[900px] mx-auto w-[100%] flex flex-row justify-center 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[15px] space-x-[15px] items-center px-2">
-        <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px]">
+        <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] leading-[110%]">
           {t("live_presale_section.title")}
         </p>
         <img
