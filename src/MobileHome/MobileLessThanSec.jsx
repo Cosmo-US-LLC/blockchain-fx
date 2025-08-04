@@ -81,7 +81,7 @@ function MobileLessThanSec() {
                 <p className="text-[#fff] top-[-24%] left-[41%] absolute leading-[110%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
                   {t("less_than_section.chart.bonds")}
                 </p>
-                <p className="text-[#fff] leading-[110%] absolute top-[-8%] left-[14%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] leading-[110%] absolute top-[-12%] left-[14%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
                   {t("less_than_section.chart.stocks")}
                 </p>
                 <p className="text-[#fff] leading-[110%] absolute top-[16%] left-[5%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
