@@ -78,19 +78,19 @@ function MobileLessThanSec() {
                 <div className="flex justify-end">
                   <img src={graph || "/placeholder.svg"} className="max-w-[200px] max-h-[200px]" alt="" />
                 </div>
-                <p className="text-[#fff] top-[-14%] left-[41%] absolute leading-[110%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] top-[-24%] left-[41%] absolute leading-[110%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
                   {t("less_than_section.chart.bonds")}
                 </p>
-                <p className="text-[#fff] leading-[110%] absolute top-[-1%] left-[14%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] leading-[110%] absolute top-[-8%] left-[14%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
                   {t("less_than_section.chart.stocks")}
                 </p>
-                <p className="text-[#fff] leading-[110%] absolute top-[14%] left-[5%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] leading-[110%] absolute top-[16%] left-[5%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
                   {t("less_than_section.chart.commodities")}
                 </p>
-                <p className="text-[#fff] leading-[110%] absolute top-[33%] left-[3%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
+                <p className="text-[#fff] leading-[110%] absolute top-[42%] left-[3%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]">
                   {t("less_than_section.chart.etfs")}
                 </p>
-                <p className="text-[#F3D885] p-1 border border-[#E5AE00] rounded-[5px] leading-[110%] absolute top-[50%] left-[0%] text-[12px] w-[98px] font-[900] tracking-[-0.383px]">
+                <p className="text-[#F3D885] p-1 border border-[#E5AE00] rounded-[5px] leading-[110%] absolute top-[62%] left-[0%] text-[12px] w-[98px] font-[900] tracking-[-0.383px]">
                   {t("less_than_section.chart.crypto")}
                 </p>
                 <p className="text-[#fff] leading-[110%] absolute bottom-[-19%] right-[13%] text-[12px] font-[500] tracking-[-0.787px]">
