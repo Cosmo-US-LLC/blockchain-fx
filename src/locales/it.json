@@ -362,6 +362,7 @@
   "less_than_section": {
     "title": "Progettato per una Crescita Esponenziale",
     "description": "BlockchainFX è una piattaforma di trading alimentata dalla community che premia i possessori di BFX ogni giorno. Man mano che la piattaforma cresce, cresce anche il token — creando un potente ciclo di crescita e coinvolgimento. Studi* dimostrano che le community incentivate possono crescere molto più velocemente delle altre, e BFX è progettato per massimizzare questo potenziale.",
+     "chart_title": "Volume medio di scambi giornalieri nel 2024",
     "costs": {
       "title": "Costi",
       "description": "Fino a 2 milioni di dollari"
@@ -1004,5 +1005,11 @@
   "asset_futures": "Futures",
   "asset_indices": "Indici",
   "asset_cfds": "CFD e altro ancora."
+},
+"nft": {
+  "legend": "Leggenda",
+  "elite": "Élite",
+  "master": "Maestro",
+  "expert": "Esperto"
 }
 }

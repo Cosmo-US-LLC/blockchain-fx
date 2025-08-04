@@ -980,6 +980,12 @@
     "transaction_pending": "Transaction Pending",
     "transaction_pending_message": "The transaction is pending. Please wait a minute and refresh the transactions tab to see your tokens.",
     "buy_bfx": "Buy BFX"
-  }
+  },
+  "nft": {
+  "legend": "Legend",
+  "elite": "Elite",
+  "master": "Master",
+  "expert": "Expert"
+}
 }
   

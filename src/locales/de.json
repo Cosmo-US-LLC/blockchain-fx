@@ -972,5 +972,12 @@
   "transaction_pending": "Transaktion ausstehend",
   "transaction_pending_message": "Die Transaktion ist ausstehend. Bitte warte eine Minute und aktualisiere den Transaktions-Tab, um deine Token zu sehen.",
   "buy_bfx": "BFX kaufen"
+},
+"nft": {
+  "legend": "Legende",
+  "elite": "Elite",
+  "master": "Meister",
+  "expert": "Experte"
 }
+
 }

@@ -67,7 +67,7 @@ function DemoSec() {
           {t("blockchainfx_demo.title")}
         </h3>
         <p className="text-[16px] text-center font-[400] text-[#fff]">
-          <span dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.description") }} />
+          <span className="mobilepara" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.description") }} />
         </p>
         <video
           width="640"

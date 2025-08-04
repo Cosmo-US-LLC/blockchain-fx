@@ -392,6 +392,7 @@
   "less_than_section": {
     "title": "Thiết kế cho tăng trưởng vượt trội",
     "description": "BlockchainFX là nền tảng giao dịch do cộng đồng vận hành, thưởng cho người nắm giữ BFX mỗi ngày. Khi nền tảng phát triển, giá trị token cũng tăng — tạo nên chu kỳ tăng trưởng và gắn kết mạnh mẽ. Nghiên cứu* cho thấy các cộng đồng được khuyến khích có thể phát triển nhanh hơn đáng kể, và BFX được thiết kế để tối đa hóa tiềm năng đó.",
+    "chart_title": "Khối lượng giao dịch trung bình hàng ngày năm 2024",
     "costs": {
       "title": "Chi phí",
       "description": "Tối đa 2 triệu USD"
@@ -1016,6 +1017,12 @@
   "transaction_pending": "Giao dịch đang chờ xử lý",
   "transaction_pending_message": "Giao dịch đang chờ xử lý. Vui lòng đợi một phút và làm mới tab giao dịch để xem token của bạn.",
   "buy_bfx": "Mua BFX"
+},
+"nft": {
+  "legend": "Huyền thoại",
+  "elite": "Tinh hoa",
+  "master": "Bậc thầy",
+  "expert": "Chuyên gia"
 },
   "lineBreak": "<br />"
 }

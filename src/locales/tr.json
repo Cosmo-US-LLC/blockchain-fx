@@ -380,6 +380,7 @@
   "less_than_section": {
     "title": "Üstel Büyüme İçin Tasarlandı",
     "description": "BlockchainFX, BFX sahiplerini günlük olarak ödüllendiren topluluk odaklı bir alım satım platformudur. Platform büyüdükçe token da büyür — bu da güçlü bir büyüme ve katılım döngüsü oluşturur. Araştırmalar* teşvik edilen toplulukların diğerlerinden çok daha hızlı büyüyebileceğini gösteriyor ve BFX bu potansiyeli en üst düzeye çıkarmak için tasarlanmıştır.",
+     "chart_title": "2024 Yılında Ortalama Günlük İşlem Hacmi",
     "costs": {
       "title": "Maliyetler",
       "description": "$2 Milyona Kadar"
@@ -825,5 +826,11 @@
   "transaction_pending": "İşlem Beklemede",
   "transaction_pending_message": "İşlem beklemede. Token’larınızı görmek için bir dakika bekleyip işlemler sekmesini yenileyin.",
   "buy_bfx": "BFX Satın Al"
+},
+"nft": {
+  "legend": "Efsane",
+  "elite": "Seçkin",
+  "master": "Usta",
+  "expert": "Uzman"
 }
 }

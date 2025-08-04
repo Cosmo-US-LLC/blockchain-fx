@@ -380,6 +380,7 @@
  "less_than_section": {
   "title": "Conçu pour une croissance exponentielle",
   "description": "BlockchainFX est une plateforme de trading alimentée par la communauté qui récompense les détenteurs de BFX chaque jour. À mesure que la plateforme se développe, le token aussi — créant un puissant cycle de croissance et d'engagement. Des études* montrent que les communautés incitées peuvent croître beaucoup plus rapidement que les autres, et BFX est conçu pour maximiser ce potentiel.",
+  
   "costs": {
     "title": "Coûts",
     "description": "Jusqu'à 2 millions de dollars"
@@ -955,5 +956,11 @@
   "transaction_pending": "Transaction en attente",
   "transaction_pending_message": "La transaction est en attente. Veuillez patienter une minute et actualiser l'onglet des transactions pour voir vos tokens.",
   "buy_bfx": "Acheter BFX"
+},
+"nft": {
+  "legend": "Légende",
+  "elite": "Élite",
+  "master": "Maître",
+  "expert": "Expert"
 }
 }
