@@ -278,7 +278,7 @@ const BuyTab = ({ onTabChange}) => {
             background: "#000",
           }}
         >
-          <h3 className="text-center text-[#fff] text-[32.476px] leading-[100%] font-[700] overflow-hidden text-ellipsis whitespace-nowrap">
+          <h3 className="text-center text-[#fff] text-[24.476px] leading-[100%] font-[700]  whitespace-nowrap">
             {formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
           </h3>
           <div className="pt-3">
