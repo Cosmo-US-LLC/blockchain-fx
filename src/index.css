@@ -226,4 +226,10 @@ p {
   .mobilepara br {
     display: none;
   }
+  .demobr br{
+  display: block;
+}
+}
+.demobr br{
+  display: none;
 }

@@ -20,6 +20,9 @@
     "feature1": "The First crypto Exchange Bridging Blockchain and Finance",
     "feature2": "Bitcoin, Ethereum, gold, Tesla, and over 500+ more assets",
     "feature3": "Awarded as 'The Best New Crypto Trading App of 2025'",
+    "featuremob1": "The First Exchange Bridging Blockchain and Traditional Finance Across 500+ Assets",
+    "featuremob2": "Bitcoin, Ethereum, Gold, Stocks, Forex,  ETFs, Options, Futures, all in one place",
+    "featuremob3": "BlockchainFX has been awarded as “The Best New Crypto Trading App of 2025”",
     "buy_button": "Buy $BFX",
     "how_it_works_button": "How it works?",
     "audited_by": "Audited and Approved by",
@@ -73,11 +76,11 @@
     },
       "blockchainfx_demo": {
         "title": "BlockchainFX Demo",
-        "description": "In just a few seconds, users can trade BTC, Tesla, Gold, Pepe, ETFs, CFDs, and more — all seamlessly <br />on one powerful platform.",
+        "description": "In just a few seconds, users can <br/> trade BTC, Tesla, Gold, Pepe, ETFs,<br/> CFDs, and more all seamlessly<br/> on one powerful platform.",
         "buy_button": "Buy BFX",
         "watch_live_button": "Watch Live Trading Here",
         "assets_title": "More Than 500 Assets",
-        "assets_description": "BlockchainFX is the only exchange that lets Web3 users instantly swap between crypto and traditional asset classes.<br />No delays, no extra fees, no switching platforms. Just fast and real-time trading.",
+        "assets_description": "BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes.No delays, no extra fees, no switching platforms. Just fast and real-time trading.",
         "asset_list_title": "Users can trade on BlockchainFX:",
         "asset_crypto": "Crypto",
         "asset_stocks": "Stocks",
@@ -364,19 +367,19 @@
     "title": "Benefits Of Buying BFX  During The Presale",
     "items": {
       "benefit_1": {
-        "title": "Lowest Token Price <br/>Before Launch",
+        "title": "Lowest Token Price <br/> Before Launch",
         "description": "Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price."
       },
       "benefit_2": {
-        "title": "Limited Edition <br/>BFX Visa Cards",
+        "title": "Limited Edition<br/> BFX Visa Cards",
         "description": "Get a metal or 18 karat gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide."
       },
       "benefit_3": {
-        "title": "Exclusive Bonus <br/>Trading Credits",
+        "title": "Exclusive Bonus<br/> Trading Credits",
         "description": "Get up to $25,000 in free trading credits to kickstart trading on BlockchainFX with no conditions attached."
       },
       "benefit_4": {
-        "title": "Daily USDT <br/>Staking Rewards",
+        "title": "Daily USDT <br/> Staking Rewards",
         "description": "Start earning USDT and BFX rewards today by joining the BFX presale. The earlier you buy, the more you can earn over time."
       }
     }

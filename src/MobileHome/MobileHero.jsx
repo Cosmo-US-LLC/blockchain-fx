@@ -158,19 +158,19 @@ function MobileHero() {
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  {t("hero.feature1")}
+                  {t("hero.featuremob1")}
                 </p>
               </div>
               <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  {t("hero.feature2")}
+                  {t("hero.featuremob2")}
                 </p>
               </div>
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
-                  {t("hero.feature3")}
+                  {t("hero.featuremob3")}
                 </p>
               </div>
             </div>

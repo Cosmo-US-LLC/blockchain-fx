@@ -48,8 +48,8 @@ function BlockchainFXDemo() {
               <h4 className="text-[40px] text-[#fff] font-[600]">
                 {t("blockchainfx_demo.title")}
               </h4>
-              <p className="text-[#fff] text-[18px] font-[500]">
-                <span dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.description") }} />
+              <p className="text-[#fff] text-[18px] font-[500] ">
+                <span className="demobr" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.description") }} />
               </p>
               <div className="flex justify-start pt-[20px] pb-[0px] items-center space-x-[17px]">
                 <button
