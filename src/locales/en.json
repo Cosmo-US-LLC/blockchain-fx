@@ -368,13 +368,11 @@
     "items": {
       "benefit_1": {
         "title": "Lowest Price <br/> Before Launch",
-        "description": "Buying during the pre-sale allows you to secure a significant lower price compared to
-the BFX launch price."
+        "description": "Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price."
       },
       "benefit_2": {
         "title": "Limited Edition<br/> BFX Visa Cards",
-        "description": "Get a metal or gold BFX Visa credit card with unlimited spending and top-ups,
-usable worldwide."
+        "description": "Get a metal or gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide."
       },
       "benefit_3": {
         "title": "Exclusive Bonus<br/> Trading Credits",
@@ -382,8 +380,7 @@ usable worldwide."
       },
       "benefit_4": {
         "title": "Daily USDT <br/> Staking Rewards",
-        "description": "Start earning daily passive USDT and $BFX rewards automatically from today.
-The earlier you buy, the more you earn."
+        "description": "Start earning daily passive USDT and $BFX rewards automatically from today. The earlier you buy, the more you earn."
       }
     }
   },
