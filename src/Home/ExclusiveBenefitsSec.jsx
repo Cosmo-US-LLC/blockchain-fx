@@ -63,7 +63,7 @@ function ExclusiveBenefitsSec() {
                   <img src={item.img} className="max-h-[116px] h-[100%]" alt={item.alt} />
                 </div>
                 <h3
-                  className="text-[22px] text-center text-[#fff] font-[600] leading-[115%] mobilepara"
+                  className="text-[22px] text-center text-[#fff] font-[600] leading-[115%]"
                   dangerouslySetInnerHTML={{ __html: t(item.title) }}
                 ></h3>
                 <h4 className="text-[15px] text-center text-[#fff] font-[400] leading-[111.111%]">
