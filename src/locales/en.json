@@ -239,7 +239,7 @@
  
  "premium_section": {
     "title": "Get Special Bonuses Starting From $1,000",
-    "description": "Buy BFX during the presale and join the Founder's Club starting from just $1,000.<br />Get your exclusive NFT, BFX Visa Card, bonus tokens, daily USDT staking rewards,<br />and free trading credits. Exclusively available during the presale.",
+    "description": "Buy $BFX during the presale and join the Founder's Club starting from just $1,000.<br />Get your exclusive NFT, BFX Visa Card, bonus tokens, daily USDT staking rewards,<br /> and free trading credits. Exclusively available during the presale.",
     "how_much_spend": "How much do you want to spend",
     "cards": [
       {
@@ -367,12 +367,14 @@
     "title": "Benefits Of Buying BFX  During The Presale",
     "items": {
       "benefit_1": {
-        "title": "Lowest Token Price <br/> Before Launch",
-        "description": "Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price."
+        "title": "Lowest Price <br/> Before Launch",
+        "description": "Buying during the pre-sale allows you to secure a significant lower price compared to
+the BFX launch price."
       },
       "benefit_2": {
         "title": "Limited Edition<br/> BFX Visa Cards",
-        "description": "Get a metal or 18 karat gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide."
+        "description": "Get a metal or gold BFX Visa credit card with unlimited spending and top-ups,
+usable worldwide."
       },
       "benefit_3": {
         "title": "Exclusive Bonus<br/> Trading Credits",
@@ -380,7 +382,8 @@
       },
       "benefit_4": {
         "title": "Daily USDT <br/> Staking Rewards",
-        "description": "Start earning USDT and BFX rewards today by joining the BFX presale. The earlier you buy, the more you can earn over time."
+        "description": "Start earning daily passive USDT and $BFX rewards automatically from today.
+The earlier you buy, the more you earn."
       }
     }
   },
@@ -888,7 +891,7 @@
   },
   "biggest_buy": {
     "title": "Biggest Buy-In Competition",
-    "description": "The top 10 BFX presale buyers will receive a share of a 100,000 USD prize pool in $BFX. This competition is our way of thanking those who contributed the most and played a major role in the growth of the BlockchainFX ecosystem.",
+    "description": "The top 10 BFX presale buyers will receive a share of 100,000 USD in $BFX. This exclusive reward is our way of thanking those who contributed the most and played a major role in the growth of the BlockchainFX ecosystem.",
     "table": {
       "rank": "Rank",
       "wallet": "Wallet",
