@@ -378,9 +378,8 @@
     }
   },
   "less_than_section": {
-    "title": "Diseñado para el crecimiento exponencial",
-    "description": "BlockchainFX es una plataforma de trading impulsada por la comunidad que recompensa diariamente a los poseedores de BFX. A medida que la plataforma crece, también lo hace el token, creando un ciclo poderoso de crecimiento y participación. Los estudios* muestran que las comunidades incentivadas pueden crecer significativamente más rápido que otras, y BFX está diseñado para maximizar ese potencial.",
-    "chart_title": "Volumen diario promedio de operaciones en 2024",
+  "title": "Conectando Cripto y Finanzas",
+    "description": "Las criptomonedas representan solo el 0,87 % del volumen de comercio global en 2024, con un promedio diario de 84,3 mil millones de dólares. Mientras tanto, el mercado Forex maneja por sí solo 7,5 billones de dólares diarios. Esta brecha representa una gran oportunidad para que BFX conecte a los usuarios de criptomonedas con los mercados financieros más grandes del mundo.",
     "costs": {
       "title": "Costos",
       "description": "Hasta $2 millones"

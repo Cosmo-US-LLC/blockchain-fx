@@ -111,7 +111,7 @@
     
   "wallet_section": {
     "title": "BFX Presale",
-    "description": "BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, <br /> where holders receive USDT rewards anytime someone trades — even during the presale.",
+    "description": "$BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, where holders receive USDT rewards anytime someone trades, even during the presale.",
     "presale_ended": "Presale Ended",
     "uniswap": "UNISWAP",
     "how_to_buy": "How To Buy",
@@ -382,8 +382,8 @@
     }
   },
   "less_than_section": {
-    "title": "Designed for Exponential Growth",
-    "description": "BlockchainFX is a community-powered trading platform that rewards BFX holders daily. As the platform grows, so does the token — creating a powerful cycle of growth and engagement. Studies* show that incentivized communities can grow significantly faster than others, and BFX is designed to maximize that potential.",
+    "title": "Bridging Crypto and Finance",
+    "description": "Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily. Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major opportunity for BFX to connect crypto users with the world’s largest financial markets.",
     "costs": {
       "title": "Costs",
       "description": "Up to $2 Million"
