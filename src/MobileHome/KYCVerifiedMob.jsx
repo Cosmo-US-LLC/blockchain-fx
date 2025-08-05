@@ -23,7 +23,7 @@ function KYCVerifiedMob() {
     <div className="pb-[50px] pt-[20px] bg-[#020B10]">
       <div className="w-[90%] mx-auto relative">
         <div className="w-[100%] mx-auto">
-          <h3 className=" pb-[30px] text-[#fff] text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center">
+          <h3 className=" pb-[30px] text-[#fff] max-w-[300px] mx-auto text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center">
             {t("KYCVerified.security_verified_title")}
           </h3>
           <div className="grid grid-cols-1 gap-y-[19px]">
