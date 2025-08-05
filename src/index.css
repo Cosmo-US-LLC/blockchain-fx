@@ -224,7 +224,7 @@ p {
 }
 @media (max-width: 768px) {
   .mobilepara br {
-    display: none;
+    display: none !important;
   }
   .demobr br{
   display: block;

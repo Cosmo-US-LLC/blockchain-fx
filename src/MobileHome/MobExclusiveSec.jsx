@@ -57,7 +57,7 @@ function MobExclusiveSec() {
                   <img src={item.img} className="max-h-[120px] " alt="" />
                 </div>
                 <h3
-                  className="text-[20px] text-center  text-[#FFF] font-[600] tracking-[-1.672px] leading-[120%]"
+                  className="text-[20px] text-center  text-[#FFF] font-[600] tracking-[-1.672px] leading-[120%] mobilepara"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
                 <h4 className="text-[15px] mx-auto text-center text-[#fff] font-[400] leading-[160%] tracking-[-0.3182px]"
