@@ -60,7 +60,7 @@ function KYCVerified() {
                       {item.title}
                     </h3>
                   </div>
-                  <h4 className="text-[15px] text-[#fff] font-inter font-[400] leading-[135.796%]" dangerouslySetInnerHTML={{ __html: item.description }} />
+                  <h4 className="text-[15px] text-[#fff] font-inter font-[400] leading-[185%]" dangerouslySetInnerHTML={{ __html: item.description }} />
                 </div>
               </div>
             ))}
