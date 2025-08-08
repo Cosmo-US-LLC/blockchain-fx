@@ -78,8 +78,8 @@ function Footer() {
                   {footer.quick_links.title}
                   <a
                     className="text-[#fff] block text-[16px] pt-[20px] font-[400] leading-[108.333%] border border-transparent transition duration-300 "
-                    href=""
-                    onClick={(e) => handleScroll(e, "how-to-buy", 90)}
+                    href="/how-to-buy"
+                    // onClick={(e) => handleScroll(e, "how-to-buy", 90)}
                   >
                     {footer.quick_links.how_to_buy}
                   </a>
