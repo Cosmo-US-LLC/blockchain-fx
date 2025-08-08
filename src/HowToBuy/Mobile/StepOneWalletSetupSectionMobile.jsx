@@ -3,6 +3,7 @@ import goldenShadow from "../../assets/hoyToBuy/mobile/ellipes-bg.png";
 import walletImage from "../../assets/hoyToBuy/wallet/metamask.svg";
 import coinbase from "../../assets/hoyToBuy/wallet/coinbase.svg";
 import trust from "../../assets/hoyToBuy/wallet/trust.svg";
+import phantom from "../../assets/HowToBuySec/phantomD.svg";
 import walletconnect from "../../assets/hoyToBuy/wallet/walletconnect.svg";
 
 const StepOneWalletSetupSectionMobile = () => {
@@ -77,15 +78,16 @@ const StepOneWalletSetupSectionMobile = () => {
           </table>
         </div>
 
-        <div className="relative z-20 flex flex-wrap items-center justify-center">
-          <img src={walletImage} alt="MetaMask" className="w-[140px] h-auto" />
-          <img src={coinbase} alt="Coinbase" className="w-[140px] h-auto" />
-          <img src={trust} alt="Trust Wallet" className="w-[140px] h-auto" />
+        <div className="relative z-20 flex flex-wrap items-center justify-evenly gap-1">
+          <img src={coinbase} alt="Coinbase" className="w-[129px] h-auto" />
+          <img src={trust} alt="Trust Wallet" className="w-[162px] h-auto" />
+          <img src={phantom} alt="Phantom" className="w-[140px] h-auto" />
           <img
             src={walletconnect}
             alt="WalletConnect"
-            className="w-[140px] h-auto"
+            className="w-[166px] h-auto"
           />
+          <img src={walletImage} alt="MetaMask" className="w-[101px] h-auto" />
         </div>
       </div>
     </div>

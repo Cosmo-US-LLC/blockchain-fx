@@ -3,6 +3,7 @@ import goldenShadow from "../../assets/hoyToBuy/viewCoin/viewClaimGoldenShadow.p
 import walletImage from "../../assets/hoyToBuy/wallet/metamask.svg";
 import coinbase from "../../assets/hoyToBuy/wallet/coinbase.svg";
 import trust from "../../assets/hoyToBuy/wallet/trust.svg";
+import phantom from "../../assets/HowToBuySec/phantomD.svg";
 import walletconnect from "../../assets/hoyToBuy/wallet/walletconnect.svg";
 
 const StepOneWalletSetupSection = () => {
@@ -16,7 +17,7 @@ const StepOneWalletSetupSection = () => {
             className="absolute top-0 left-0 z-20 h-auto"
           />
           <div className="flex flex-row items-center gap-[100px]">
-            <div className="flex flex-col w-[420px]">
+            <div className="flex flex-col w-[452px]">
               <h3 className="mb-2 text-[30px] font-semibold text-[#E5AE00] uppercase">
                 Step 1
               </h3>
@@ -79,18 +80,19 @@ const StepOneWalletSetupSection = () => {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-4 ">
+          <div className="flex flex-wrap items-center justify-between gap-4 w-full max-w-[1040px]">
             <img
               src={walletImage}
               alt="MetaMask"
-              className="w-[180px] h-auto"
+              className="w-[125px] h-auto"
             />
-            <img src={coinbase} alt="Coinbase" className="w-[180px] h-auto" />
-            <img src={trust} alt="Trust Wallet" className="w-[180px] h-auto" />
+            <img src={coinbase} alt="Coinbase" className="w-[160px] h-auto" />
+            <img src={trust} alt="Trust Wallet" className="w-[201px] h-auto" />
+            <img src={phantom} alt="Phantom" className="w-[212px] h-auto" />
             <img
               src={walletconnect}
               alt="WalletConnect"
-              className="w-[180px] h-auto"
+              className="w-[206px] h-auto"
             />
           </div>
         </div>
