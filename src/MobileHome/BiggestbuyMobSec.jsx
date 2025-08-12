@@ -29,46 +29,41 @@ function BiggestbuyMobSec() {
     return s[(v - 20) % 10] || s[v] || s[0];
   };
 
-  const getNFTLevel = (value) => {
-    if (value >= 100000) return "Legend";
-    if (value >= 50000) return "Elite";
-    if (value >= 25000) return "Master";
-    if (value >= 10000) return "Expert";
-    if (value >= 5000) return "Pro";
-    if (value >= 2500) return "Advance";
-    if (value >= 1000) return "Novice";
-    return "-";
-  };
-  
-  useEffect(() => {
-    async function fetchTopBuyers() {
-      try {
-        const res = await fetch(
-          "https://api.presale.gg/v1/projects/blockchainfx/top-buyers"
-        );
-        const data = await res.json();
 
-        const formatted = data.map((item, idx) => {
-          const totalBuyValue = Number(item.total_tokens_bought);
-          return {
-            rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
-            wallet: shortenWallet(item.wallet_address),
-            date: item.date_joined,
-            txCount: item.transaction_count,
-            totalBuy: `$${totalBuyValue.toLocaleString()}`,
-            nft: getNFTLevel(totalBuyValue),
-            prize: `$${Number(item.total_usd_spent).toLocaleString()}`,
-          };
-        });
+ useEffect(() => {
+  async function fetchTopBuyers() {
+    try {
+      const res = await fetch(
+        "https://api.presale.gg/v1/projects/blockchainfx/top-buyers"
+      );
+      const data = await res.json();
 
-        setTableData(formatted);
-      } catch (error) {
-        console.error("Error fetching buyers:", error);
-      }
+      const prizeList = [
+        50000, 20000, 10000, 5000, 3000,
+        2500, 2000, 1800, 1500, 1000
+      ];
+
+      const formatted = data.map((item, idx) => {
+        const totalBuyValue = Number(item.total_tokens_bought);
+
+        return {
+          rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
+          wallet: shortenWallet(item.wallet_address),
+          totalBuy: `$${totalBuyValue.toLocaleString()}`,
+          prize: prizeList[idx] !== undefined
+            ? `$${prizeList[idx].toLocaleString()}`
+            : "-"
+        };
+      });
+
+      setTableData(formatted);
+    } catch (error) {
+      console.error("Error fetching buyers:", error);
     }
+  }
 
-    fetchTopBuyers();
-  }, []);
+  fetchTopBuyers();
+}, []);
 
   const visibleData = showMore ? tableData : tableData.slice(0, 5);
 

@@ -143,7 +143,7 @@ export default function BiggestBuy() {
 
   //   fetchTopBuyers();
   // }, []);
-  useEffect(() => {
+useEffect(() => {
   async function fetchTopBuyers() {
     try {
       const res = await fetch(
@@ -151,8 +151,22 @@ export default function BiggestBuy() {
       );
       const data = await res.json();
 
+      // Static prize list
+      const prizeList = [
+        50000,
+        20000,
+        10000,
+        5000,
+        3000,
+        2500,
+        2000,
+        1800,
+        1500,
+        1000
+      ];
+
       const formatted = data.map((item, idx) => {
-        const totalBuyValue = Number(item.total_tokens_bought);
+        const totalBuyValue = Number(item.total_usd_spent);
 
         const getNFTLevel = (value) => {
           if (value >= 100000) return "Legend";
@@ -172,7 +186,10 @@ export default function BiggestBuy() {
           txCount: item.transaction_count,
           totalBuy: `$${totalBuyValue.toLocaleString()}`,
           nft: getNFTLevel(totalBuyValue),
-          prize: `$${Number(item.total_usd_spent).toLocaleString()}`,
+          prize:
+            prizeList[idx] !== undefined
+              ? `$${prizeList[idx].toLocaleString()}`
+              : "-"
         };
       });
 
