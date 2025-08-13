@@ -44,7 +44,7 @@ function BiggestbuyMobSec() {
       ];
 
       const formatted = data.map((item, idx) => {
-        const totalBuyValue = Number(item.total_tokens_bought);
+        const totalBuyValue = Number(item.total_usd_spent);
 
         return {
           rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
