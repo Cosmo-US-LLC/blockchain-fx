@@ -30,7 +30,7 @@ function BiggestbuyMobSec() {
   };
 
 
- useEffect(() => {
+useEffect(() => {
   async function fetchTopBuyers() {
     try {
       const res = await fetch(
@@ -43,18 +43,20 @@ function BiggestbuyMobSec() {
         2500, 2000, 1800, 1500, 1000
       ];
 
-      const formatted = data.map((item, idx) => {
-        const totalBuyValue = Number(item.total_usd_spent);
+      const formatted = data
+        .slice(0, 10) 
+        .map((item, idx) => {
+          const totalBuyValue = Number(item.total_usd_spent);
 
-        return {
-          rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
-          wallet: shortenWallet(item.wallet_address),
-          totalBuy: `$${totalBuyValue.toLocaleString()}`,
-          prize: prizeList[idx] !== undefined
-            ? `$${prizeList[idx].toLocaleString()}`
-            : "-"
-        };
-      });
+          return {
+            rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
+            wallet: shortenWallet(item.wallet_address),
+            totalBuy: `$${totalBuyValue.toLocaleString()}`,
+            prize: prizeList[idx] !== undefined
+              ? `$${prizeList[idx].toLocaleString()}`
+              : "-"
+          };
+        });
 
       setTableData(formatted);
     } catch (error) {

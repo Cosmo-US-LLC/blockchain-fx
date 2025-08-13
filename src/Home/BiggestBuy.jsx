@@ -117,32 +117,7 @@ export default function BiggestBuy() {
 
 
 
-  // useEffect(() => {
-  //   async function fetchTopBuyers() {
-  //     try {
-  //       const res = await fetch(
-  //         "https://api.presale.gg/v1/projects/blockchainfx/top-buyers"
-  //       );
-  //       const data = await res.json();
-
-  //       const formatted = data.map((item, idx) => ({
-  //         rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
-  //         wallet: shortenWallet(item.wallet_address),
-  //         date: formatDate(item.date_joined),
-  //         txCount: item.transaction_count,
-  //         totalBuy: `$${Number(item.total_tokens_bought).toLocaleString()}`,
-  //         nft: item.nft || "-",
-  //         prize: `$${Number(item.total_usd_spent).toLocaleString()}`,
-  //       }));
-
-  //       setTableData(formatted);
-  //     } catch (error) {
-  //       console.error("Error fetching buyers:", error);
-  //     }
-  //   }
-
-  //   fetchTopBuyers();
-  // }, []);
+ 
 useEffect(() => {
   async function fetchTopBuyers() {
     try {
@@ -151,7 +126,6 @@ useEffect(() => {
       );
       const data = await res.json();
 
-      // Static prize list
       const prizeList = [
         50000,
         20000,
@@ -165,33 +139,35 @@ useEffect(() => {
         1000
       ];
 
-      const formatted = data.map((item, idx) => {
-        const totalBuyValue = Number(item.total_usd_spent);
+      const formatted = data
+        .slice(0, 10) 
+        .map((item, idx) => {
+          const totalBuyValue = Number(item.total_usd_spent);
 
-        const getNFTLevel = (value) => {
-          if (value >= 100000) return "Legend";
-          if (value >= 50000) return "Elite";
-          if (value >= 25000) return "Master";
-          if (value >= 10000) return "Expert";
-          if (value >= 5000) return "Pro";
-          if (value >= 2500) return "Advance";
-          if (value >= 1000) return "Novice";
-          return "-";
-        };
+          const getNFTLevel = (value) => {
+            if (value >= 100000) return "Legend";
+            if (value >= 50000) return "Elite";
+            if (value >= 25000) return "Master";
+            if (value >= 10000) return "Expert";
+            if (value >= 5000) return "Pro";
+            if (value >= 2500) return "Advance";
+            if (value >= 1000) return "Novice";
+            return "-";
+          };
 
-        return {
-          rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
-          wallet: shortenWallet(item.wallet_address),
-          date: formatDate(item.date_joined),
-          txCount: item.transaction_count,
-          totalBuy: `$${totalBuyValue.toLocaleString()}`,
-          nft: getNFTLevel(totalBuyValue),
-          prize:
-            prizeList[idx] !== undefined
-              ? `$${prizeList[idx].toLocaleString()}`
-              : "-"
-        };
-      });
+          return {
+            rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
+            wallet: shortenWallet(item.wallet_address),
+            date: formatDate(item.date_joined),
+            txCount: item.transaction_count,
+            totalBuy: `$${totalBuyValue.toLocaleString()}`,
+            nft: getNFTLevel(totalBuyValue),
+            prize:
+              prizeList[idx] !== undefined
+                ? `$${prizeList[idx].toLocaleString()}`
+                : "-"
+          };
+        });
 
       setTableData(formatted);
     } catch (error) {
