@@ -1,103 +1,106 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ernvet1 from "../assets/BiggestBuy/biggest_bg.png";
 import { useTranslation } from "react-i18next";
 
 export default function BiggestBuy() {
   const { t } = useTranslation();
   const [showMore, setShowMore] = useState(false);
+    const [tableData, setTableData] = useState([]);
+  const visibleData = showMore ? tableData : tableData.slice(0, 5);
 
-  const tableData = [
-    {
-      rank: "1st",
-      wallet: "0x589...18e1",
-      date: "2025-05-02",
-      txCount: 3,
-      totalBuy: "$124,590.58",
-      nft: "Legend",
-      prize: "$50,000",
-    },
-    {
-      rank: "2nd",
-      wallet: "0xa28...b37d",
-      date: "2025-04-11",
-      txCount: 2,
-      totalBuy: "$79,810.35",
-      nft: "Elite",
-      prize: "$20,000",
-    },
-    {
-      rank: "3rd",
-      wallet: "0xc6e...6f8e",
-      date: "2025-04-07",
-      txCount: 5,
-      totalBuy: "$52,192.16",
-      nft: "Elite",
-      prize: "$10,000",
-    },
-    {
-      rank: "4th",
-      wallet: "0x71C...9c9B",
-      date: "2023-04-14",
-      txCount: 13,
-      totalBuy: "$35,143.44",
-      nft: "Master",
-      prize: "$5,000",
-    },
-    {
-      rank: "5th",
-      wallet: "0x5ae...76de",
-      date: "2023-04-19",
-      txCount: 4,
-      totalBuy: "$27,440.38",
-      nft: "Expert",
-      prize: "$3,000",
-    },
-    {
-      rank: "6th",
-      wallet: "0xa3f...1b9c",
-      date: "2025-05-06",
-      txCount: 9,
-      totalBuy: "$24,710.55",
-      nft: "Expert",
-      prize: "$2,500",
-    },
-    {
-      rank: "7th",
-      wallet: "0x9be...3c1a",
-      date: "2025-04-23",
-      txCount: 3,
-      totalBuy: "$21,845.72",
-      nft: "Expert",
-      prize: "$2,000",
-    },
-    {
-      rank: "8th",
-      wallet: "0x7cd...5aa3",
-      date: "2025-04-22",
-      txCount: 11,
-      totalBuy: "$19,302.48",
-      nft: "Expert",
-      prize: "$1,800",
-    },
-    {
-      rank: "9th",
-      wallet: "0xd14...8f6",
-      date: "2025-04-11",
-      txCount: 2,
-      totalBuy: "$17,894.11",
-      nft: "Expert",
-      prize: "$1,500",
-    },
-    {
-      rank: "10th",
-      wallet: "0xb89...c24e",
-      date: "2025-03-30",
-      txCount: 6,
-      totalBuy: "$15,732.00",
-      nft: "Expert",
-      prize: "$1,000",
-    },
-  ];
+
+  // const tableData = [
+  //   {
+  //     rank: "1st",
+  //     wallet: "0x589...18e1",
+  //     date: "2025-05-02",
+  //     txCount: 3,
+  //     totalBuy: "$124,590.58",
+  //     nft: "Legend",
+  //     prize: "$50,000",
+  //   },
+  //   {
+  //     rank: "2nd",
+  //     wallet: "0xa28...b37d",
+  //     date: "2025-04-11",
+  //     txCount: 2,
+  //     totalBuy: "$79,810.35",
+  //     nft: "Elite",
+  //     prize: "$20,000",
+  //   },
+  //   {
+  //     rank: "3rd",
+  //     wallet: "0xc6e...6f8e",
+  //     date: "2025-04-07",
+  //     txCount: 5,
+  //     totalBuy: "$52,192.16",
+  //     nft: "Elite",
+  //     prize: "$10,000",
+  //   },
+  //   {
+  //     rank: "4th",
+  //     wallet: "0x71C...9c9B",
+  //     date: "2023-04-14",
+  //     txCount: 13,
+  //     totalBuy: "$35,143.44",
+  //     nft: "Master",
+  //     prize: "$5,000",
+  //   },
+  //   {
+  //     rank: "5th",
+  //     wallet: "0x5ae...76de",
+  //     date: "2023-04-19",
+  //     txCount: 4,
+  //     totalBuy: "$27,440.38",
+  //     nft: "Expert",
+  //     prize: "$3,000",
+  //   },
+  //   {
+  //     rank: "6th",
+  //     wallet: "0xa3f...1b9c",
+  //     date: "2025-05-06",
+  //     txCount: 9,
+  //     totalBuy: "$24,710.55",
+  //     nft: "Expert",
+  //     prize: "$2,500",
+  //   },
+  //   {
+  //     rank: "7th",
+  //     wallet: "0x9be...3c1a",
+  //     date: "2025-04-23",
+  //     txCount: 3,
+  //     totalBuy: "$21,845.72",
+  //     nft: "Expert",
+  //     prize: "$2,000",
+  //   },
+  //   {
+  //     rank: "8th",
+  //     wallet: "0x7cd...5aa3",
+  //     date: "2025-04-22",
+  //     txCount: 11,
+  //     totalBuy: "$19,302.48",
+  //     nft: "Expert",
+  //     prize: "$1,800",
+  //   },
+  //   {
+  //     rank: "9th",
+  //     wallet: "0xd14...8f6",
+  //     date: "2025-04-11",
+  //     txCount: 2,
+  //     totalBuy: "$17,894.11",
+  //     nft: "Expert",
+  //     prize: "$1,500",
+  //   },
+  //   {
+  //     rank: "10th",
+  //     wallet: "0xb89...c24e",
+  //     date: "2025-03-30",
+  //     txCount: 6,
+  //     totalBuy: "$15,732.00",
+  //     nft: "Expert",
+  //     prize: "$1,000",
+  //   },
+  // ];
 
   const handleScroll = () => {
     setTimeout(() => {
@@ -113,7 +116,87 @@ export default function BiggestBuy() {
       }
     }, 200);
   };
-  const visibleData = showMore ? tableData : tableData.slice(0, 5);
+
+
+
+ 
+useEffect(() => {
+  async function fetchTopBuyers() {
+    try {
+      const res = await fetch(
+        "https://api.presale.gg/v1/projects/blockchainfx/top-buyers"
+      );
+      const data = await res.json();
+
+      const prizeList = [
+        50000,
+        20000,
+        10000,
+        5000,
+        3000,
+        2500,
+        2000,
+        1800,
+        1500,
+        1000
+      ];
+
+      const formatted = data
+        .slice(0, 10) 
+        .map((item, idx) => {
+          const totalBuyValue = Number(item.total_usd_spent);
+
+          const getNFTLevel = (value) => {
+            if (value >= 100000) return "Legend";
+            if (value >= 50000) return "Elite";
+            if (value >= 25000) return "Master";
+            if (value >= 10000) return "Expert";
+            if (value >= 5000) return "Pro";
+            if (value >= 2500) return "Advance";
+            if (value >= 1000) return "Novice";
+            return "-";
+          };
+
+          return {
+            rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
+            wallet: shortenWallet(item.wallet_address),
+            date: formatDate(item.date_joined),
+            txCount: item.transaction_count,
+            totalBuy: `$${totalBuyValue.toLocaleString()}`,
+            nft: getNFTLevel(totalBuyValue),
+            prize:
+              prizeList[idx] !== undefined
+                ? `$${prizeList[idx].toLocaleString()}`
+                : "-"
+          };
+        });
+
+      setTableData(formatted);
+    } catch (error) {
+      console.error("Error fetching buyers:", error);
+    }
+  }
+
+  fetchTopBuyers();
+}, []);
+
+ 
+   function shortenWallet(wallet) {
+    if (!wallet) return "";
+    return `${wallet.slice(0, 4)}...${wallet.slice(-4)}`;
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return "";
+    const d = new Date(dateStr);
+    return d.toISOString().split("T")[0];
+  }
+
+  function getOrdinalSuffix(n) {
+    const s = ["th", "st", "nd", "rd"],
+      v = n % 100;
+    return s[(v - 20) % 10] || s[v] || s[0];
+  }
 
   return (
     <div className="flex items-center justify-center bg-[#020B10] pt-[50px] pb-[50px] px-[80px]">
@@ -167,8 +250,7 @@ export default function BiggestBuy() {
                       <td className="px-4 py-2  text-center">{item.date}</td>
                       <td className="px-4 py-2  text-center">{item.txCount}</td>
                       <td className="px-4 py-2  text-center">{item.totalBuy}</td>
-                      {/* <td className="px-4 py-2  text-center">{item.nft}</td> */}
-                      <td>{t(`nft.${item.nft.toLowerCase()}`)}</td>
+                      <td className="px-4 py-2  text-center">{t(`nft.${item.nft.toLowerCase()}`)}</td>
                       <td className="px-4 py-2  text-center  rounded-r-[30px]">
                         {item.prize}
                       </td>
@@ -178,7 +260,7 @@ export default function BiggestBuy() {
                 );
               })}
             </tbody>
-          </table>
+              </table>
         </div>
 
         {/* Load More Button */}

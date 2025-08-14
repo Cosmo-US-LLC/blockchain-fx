@@ -19,7 +19,7 @@ const currencyOptions = [
 
 function PaymentCardTwoMobile() {
   return (
-    <div className=" bg-[#0F0F0F] border border-[#3F3F3F] rounded-xl px-2 py-3 flex items-center gap-2 w-full  ">
+    <div className=" bg-[#0F0F0F] border border-[#3F3F3F] rounded-xl px-2 py-3 flex items-center justify-between gap-2 w-full  ">
       <div className="flex flex-col gap-2">
         <p className="text-[#9F9F9F] text-[10px] font-[400] leading-[12px]">
           Select your preferred

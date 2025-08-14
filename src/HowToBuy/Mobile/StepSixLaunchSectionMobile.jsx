@@ -17,7 +17,7 @@ function StepSixLaunchSectionMobile() {
         <img
           src={goldenShadow}
           alt="Golden Background Shadow"
-          className="absolute top-0 left-0 z-30 w-full h-auto "
+          className="absolute top-0 left-0 z-0 w-full h-auto "
         />
 
         <div className="z-20 flex flex-col text-left text-white">
@@ -35,13 +35,15 @@ function StepSixLaunchSectionMobile() {
             Stay updated via our website and social channels for listing
             announcements.
           </p>
-          <button className="px-2 py-2 max-w-[150px] font-[500] text-black transition bg-[#E5AE00] rounded-md">
-            Buy BFX Now
-          </button>
+          <a href="/" className="w-fit z-50">
+            <button className="px-2 py-2 max-w-[150px] font-[500] text-black transition bg-[#E5AE00] rounded-md">
+              Buy BFX Now
+            </button>
+          </a>
         </div>
 
         <div className="backdrop-blur-md border border-[#545454] rounded-[12px] relative z-20 p-4  ">
-          <p className="mb-2 text-[14px] font-[600] text-[#808080] leading-[18px] capitalize text-center">
+          <p className="mb-2 text-[11px] pb-1 font-[600] text-[#808080] leading-[18px] capitalize text-center">
             $BFX Launches On Multiple Top-Tier Exchanges
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">

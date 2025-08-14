@@ -13,7 +13,7 @@ function StepSixLaunchSection() {
             className="absolute top-0 left-0 z-20 h-auto"
           />
           <div className="w-[460px] backdrop-blur-md border border-[#545454] rounded-[12px] relative z-30 p-5">
-            <p className="mb-4 text-[16px] font-medium capitalize text-[#808080]">
+            <p className="mb-4 text-[16px] font-medium text-center capitalize text-[#808080]">
               $BFX Launches On Multiple Top-Tier Exchanges
             </p>
 
@@ -79,9 +79,12 @@ function StepSixLaunchSection() {
               Stay updated via our website and social channels for listing
               announcements.
             </p>
-            <button className="px-6 py-3 font-semibold text-black transition bg-yellow-400 rounded-md hover:bg-yellow-500">
-              Buy BFX Now
-            </button>
+
+            <a href="/" className="w-fit">
+              <button className="px-6 py-3 font-semibold text-black transition bg-yellow-400 rounded-md hover:bg-yellow-500">
+                Buy BFX Now
+              </button>
+            </a>
           </div>
         </div>
       </div>
