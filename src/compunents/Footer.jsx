@@ -29,16 +29,7 @@ function Footer() {
     }
   }
 
-  // Helper to render disclaimer with line breaks or as array
-  const renderDisclaimer = () => {
-    const disclaimer = t('footer.disclaimer', { returnObjects: true });
-    if (Array.isArray(disclaimer)) {
-      return disclaimer.map((line, idx) => <p key={idx}>{line}</p>);
-    }
-    // fallback: split by <br/> or \n
-    return disclaimer.split(/<br\s*\/?>|\n/).map((line, idx) => <p key={idx}>{line.trim()}</p>);
-  };
-
+ 
   return (
     <div className="bg-[#020B10] lg:bg-[#020B10]">
       {/* desktop verion */}
@@ -160,7 +151,7 @@ function Footer() {
           <img className="h-[38px]" src={icnft3 || "/placeholder.svg"} alt="" />
         </div>
         <div className="border-t border-b border-white/10 py-[46px]">
-          <div className="text-[14px] font-[400] text-[#fff] leading-[171%]">{renderDisclaimer()}</div>
+          <div className="text-[14px] font-[400] text-[#fff] leading-[171%]" dangerouslySetInnerHTML={{ __html: t("footer.disclaimer") }}></div>
         </div>
         <div className="flex items-center justify-between">
           <p className=" text-[16px] text-[#fff] leading-[150%]">{t('footer.copyright')}</p>
@@ -300,7 +291,7 @@ function Footer() {
           <img className="h-[22px]" src={icnft3 || "/placeholder.svg"} alt="" />
         </div>
         <div className="border-t border-b border-[#FFF] border-opacity-10 py-[18px]">
-          <div className="text-[10px] font-[400] text-[#fff] leading-[190%]">{renderDisclaimer()}</div>
+          <div className="text-[10px] font-[400] text-[#fff] leading-[190%]" dangerouslySetInnerHTML={{ __html: t("footer.disclaimer") }}></div>
         </div>
         <div>
           <p className="text-[10px] text-center text-[#fff] leading-[100%] mb-8">{t('footer.copyright')}</p>
