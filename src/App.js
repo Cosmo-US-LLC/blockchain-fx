@@ -25,6 +25,7 @@ import RefferalProgram from "./RefferalProgram";
 import HowToBuyDesktop from "./HowToBuy/Desktop";
 import HowToBuyMobile from "./HowToBuy/Mobile";
 import HowToBuyFooter from "./compunents/HowToBuyFooter";
+import Win500 from "./Win500";
 
 function Layout({ isMobile }) {
   const { i18n } = useTranslation();
@@ -39,18 +40,18 @@ function Layout({ isMobile }) {
   );
 }
 
-// function HowToBuyPageLayout({ isMobile }) {
-//   const { i18n } = useTranslation();
-//   return (
-//     <>
-//       {isMobile ? <NavbarMobile /> : <Navbar />}
-//       <main>
-//         <Outlet />
-//       </main>
-//       <HowToBuyFooter />
-//     </>
-//   );
-// }
+function HowToBuyPageLayout({ isMobile }) {
+  const { i18n } = useTranslation();
+  return (
+    <>
+      {isMobile ? <NavbarMobile /> : <Navbar />}
+      <main>
+        <Outlet />
+      </main>
+      <HowToBuyFooter />
+    </>
+  );
+}
 
 function LangGuard({ children }) {
   const { lang } = useParams();
@@ -144,14 +145,15 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/token-sale" element={<TokenSale />} />
           <Route path="/cookie-management" element={<CookieManagement />} />
+          <Route path="/win-500" element={<Win500 />} />
         </Route>
-{/* 
+
         <Route element={<HowToBuyPageLayout isMobile={isMobile} />}>
           <Route
             path="how-to-buy"
             element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />}
           />
-        </Route> */}
+        </Route>
 
         <Route
           path="/:lang"
@@ -168,6 +170,7 @@ function App() {
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="token-sale" element={<TokenSale />} />
           <Route path="cookie-management" element={<CookieManagement />} />
+          <Route path="win-500" element={<Win500 />} />
         </Route>
       </Routes>
     </div>

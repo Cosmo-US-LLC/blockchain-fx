@@ -246,12 +246,19 @@ function Navbar() {
             >
               {t("navbar.referral")}
             </Link>
-            <a
+            {/* <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "reviews", 90)}
               href=""
             >
               {t("navbar.reviews")}
+            </a> */}
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              // onClick={(e) => handleScroll(e, "reviews", 90)}
+              href="/win-500"
+            >
+              Win $500k
             </a>
           </div>
 

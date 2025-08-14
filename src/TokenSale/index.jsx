@@ -16,10 +16,10 @@ function TokenSale() {
          Token Sale Agreement
         </h3>
         <h5 className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400] !normal-case">
-          This Document Is Not A Solicitation For Investment And Does Not
-          Constitute An Offer Of Digital Currency, Commodity, Security, Or Any
-          Other Form Of Investment. It Does Not Require Registration Or Approval
-          From Any Regulatory Authority.
+          This document is not a solicitation for investment and does not
+          constitute an offer of digital currency, commodity, security, or any
+          other form of investment. It does not require registration or approval
+          from any regulatory authority.
         </h5>
         <p className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
           This Agreement governs the terms and conditions of the decentralized
@@ -74,7 +74,7 @@ requirements.</p>
               </li>
             </ul>
             <p className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">THIS TOKEN SALE AGREEMENT (the “Agreement” and/or “Token Distribution Event”)
-is entered into by Digital Smart Marketing Ltd, operating through Blockchainfx.com (the
+is entered into by Aureum Echelon SRL, operating through Blockchainfx.com (the
 “Company”), and any person (natural or juridical) participating in this decentralized, reward-
 based Token Distribution Event (the “Participant”). Collectively, they are referred to as the
 “Parties.”</p>
@@ -124,7 +124,7 @@ agree as follows:
           1. Definitions and Interpretation<br />
             <ul className="pl-0 space-y-[10px]">
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]"> 
-              1.1.  <span className="font-[600]">BFX Token:</span> The token created and issued by Digital Smart Marketing Ltd
+              1.1.  <span className="font-[600]">BFX Token:</span> The token created and issued by Aureum Echelon SRL.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
               1.2. <span className="font-[600]">Platform:</span> TA Crypto-native platform owned and operated by the Company.

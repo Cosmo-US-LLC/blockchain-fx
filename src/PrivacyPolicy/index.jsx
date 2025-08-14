@@ -41,22 +41,22 @@ function PrivacyPolicy() {
         </p>
         <ul className="list-disc pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            <span className="font-[600]">Identity Information:</span>
+            <span className="font-[600]">Identity Information:</span>{" "}
             Name, email address, social media usernames, phone number, and
             wallet address.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            <span className="font-[600]">Transaction Information:</span>
+            <span className="font-[600]">Transaction Information:</span>{" "}
             Name, email address, social media usernames, phone number, and
             wallet address.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            <span className="font-[600]">Technical Information:</span>
+            <span className="font-[600]">Technical Information:</span>{" "}
             IP address, browser type, device identifiers, operating system, and
             site usage data.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            <span className="font-[600]">Compliance Information:</span>
+            <span className="font-[600]">Compliance Information:</span>{" "}
             Documentation required to comply with legal and regulatory
             requirements, including Know Your Customer (KYC) and Anti- Money
             Laundering (AML) obligations.

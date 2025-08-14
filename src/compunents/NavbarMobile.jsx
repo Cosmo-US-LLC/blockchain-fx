@@ -4,7 +4,6 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import i18n from "../i18n";
 
-
 import logo from "../assets/presale-v3/nav_icon.svg";
 import flag from "../assets/navbar/flg.svg";
 import menu from "../assets/presale-v3/menu.svg";
@@ -42,7 +41,7 @@ const flags = [
   { flag: flag4, abbreviation: "NL", name: "Dutch" },
   { flag: flag5, abbreviation: "JA", name: "Japanese" },
   { flag: flag6, abbreviation: "TR", name: "Turkish" },
-   { flag: flag15, abbreviation: "AR", name: "Arabic" },
+  { flag: flag15, abbreviation: "AR", name: "Arabic" },
   { flag: flag8, abbreviation: "IT", name: "Italian" },
   { flag: flag9, abbreviation: "NO", name: "Norwegian" },
   { flag: flag10, abbreviation: "ZH", name: "Chinese" },
@@ -53,20 +52,19 @@ const flags = [
 ];
 
 function NavbarMobile() {
-    const { t } = useTranslation();
-  
+  const { t } = useTranslation();
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const [dashboardOpen, setDashboardOpen] = useState(false);
-   const [selectedLang, setSelectedLang] = useState(flags[0]);
-   const navigate = useNavigate();
-   const location = useLocation();
-   const [languageChanged, setLanguageChanged] = useState(false);
+  const [selectedLang, setSelectedLang] = useState(flags[0]);
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [languageChanged, setLanguageChanged] = useState(false);
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
-
 
   const parts = location.pathname.split("/").filter(Boolean);
   const isHome =
@@ -86,14 +84,14 @@ function NavbarMobile() {
     const setLanguageFromURL = async () => {
       const parts = location.pathname.split("/").filter(Boolean);
       let currentLang = "en"; // default
-  
+
       if (parts.length > 0) {
         const urlLang = parts[0].toLowerCase();
         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
           currentLang = urlLang;
         }
       }
-  
+
       const found = flags.find(
         (f) => f.abbreviation.toLowerCase() === currentLang
       );
@@ -102,7 +100,7 @@ function NavbarMobile() {
         await i18n.changeLanguage(currentLang);
       }
     };
-  
+
     setLanguageFromURL();
   }, [location.pathname]);
 
@@ -110,11 +108,11 @@ function NavbarMobile() {
     setSelectedLang(lang);
     await i18n.changeLanguage(lang.abbreviation.toLowerCase());
     setIsOpen(false);
-  
+
     const currentPath = location.pathname.split("/").filter(Boolean);
     const pagePath =
       currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
-  
+
     if (lang.abbreviation.toLowerCase() === "en") {
       navigate(`${pagePath || "/"}`);
     } else {
@@ -180,7 +178,7 @@ function NavbarMobile() {
                   </p>
                 </div>
               </Link>
-           </div>
+            </div>
           </div>
 
           {/* mobile menu */}
@@ -199,7 +197,7 @@ function NavbarMobile() {
                 href="/how-to-buy"
                 // onClick={(e) => handleScroll(e, "how-to-buy", 90)}
               >
-               {t("navbar.howToBuy")}
+                {t("navbar.howToBuy")}
               </a>{" "}
               <br />
               <a
@@ -207,32 +205,32 @@ function NavbarMobile() {
                 href=""
                 onClick={(e) => handleScroll(e, "whitepaper", 90)}
               >
-               {t("navbar.whitepaper")}
+                {t("navbar.whitepaper")}
               </a>{" "}
               <br />
-              <Link 
-            to="/referral"
-             target="_blank"
-            className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-            >
-          {t("navbar.referral")}
-            </Link>
+              <Link
+                to="/referral"
+                target="_blank"
+                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+              >
+                {t("navbar.referral")}
+              </Link>
               <br />
               <a
                 className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                 href="#"
                 onClick={(e) => handleScroll(e, "reviews", 90)}
               >
-                 {t("navbar.reviews")}
+                {t("navbar.reviews")}
               </a>{" "}
               <br />
-              {/* <a
-            className="block text-[16px] font-[500] text-[#000] mb-4"
-            href=""
-            onClick={(e) => handleScroll(e, "win", 90)}
-          >
-            Win $100k
-          </a> */}
+              <a
+                className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                href="/win-500"
+              >
+                Win $500k
+              </a>
+              <br />
               <div
                 ref={dropdownRef}
                 className="relative flex items-center justify-start space-x-2"
@@ -296,7 +294,9 @@ function NavbarMobile() {
               }}
               className="h-[32px] w-[108px] font-[700] text-[12px] rounded-[6px]"
             >
-              {accountData.isConnected ? t("navbar.dashboard") :t("navbar.connect_wallet")}
+              {accountData.isConnected
+                ? t("navbar.dashboard")
+                : t("navbar.connect_wallet")}
             </button>
             {modalData.connectWalletModalOpen && (
               <WalletPopup onClose={() => hideConnectWalletModal()} />
