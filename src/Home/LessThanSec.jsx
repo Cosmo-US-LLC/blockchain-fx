@@ -57,7 +57,7 @@ function LessThanSec() {
                   <p className="text-[#fff] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
                     {t("less_than_section.chart.bonds")}
                   </p>
-                  <p className="text-[#fff] absolute top-[8%] max-w-[200px] leading-[110%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
+                  <p className="text-[#fff] absolute top-[8%] max-w-[230px] leading-[110%] left-[19%] text-[15px] font-[700] tracking-[-0.787px]">
                     {t("less_than_section.chart.stocks")}
                   </p>
                   <p className="text-[#fff] absolute top-[21%] max-w-[260px] leading-[110%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
