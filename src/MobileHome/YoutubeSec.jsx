@@ -97,7 +97,7 @@ export default function YoutubeSec() {
         </div>
         <div>
           <p className="text-[white] font-[500] text-[18px] text-left">
-            {t(`experts.slide${videoData[videoIndex].slide}.text`)}
+            "{t(`experts.slide${videoData[videoIndex].slide}.text`)}"
           </p>
           <img className="mt-3" src={stars} alt="stars" />
           <p className="text-[#D8D8D8] font-[600] text-[15px] mt-2">

@@ -80,7 +80,7 @@
         "buy_button": "Buy BFX",
         "watch_live_button": "Watch Live Trading Here",
         "assets_title": "More Than 500 Assets",
-        "assets_description": "BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes.No delays, no extra fees, no switching platforms. Just fast and real-time trading.",
+        "assets_description": "BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes. No delays, no extra fees, no switching platforms. Just fast and real-time trading.",
         "asset_list_title": "Users can trade on BlockchainFX:",
         "asset_crypto": "Crypto",
         "asset_stocks": "Stocks",
@@ -367,12 +367,12 @@
     "title": "Benefits Of Buying BFX  During The Presale",
     "items": {
       "benefit_1": {
-        "title": "Lowest Price <br/> Before Launch",
+        "title": "Lowest Token Price<br/> Before Launch",
         "description": "Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price."
       },
       "benefit_2": {
         "title": "Limited Edition<br/> BFX Visa Cards",
-        "description": "Get a metal or gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide."
+        "description": "Get a metal or 18 karat gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide."
       },
       "benefit_3": {
         "title": "Exclusive Bonus<br/> Trading Credits",
@@ -380,7 +380,7 @@
       },
       "benefit_4": {
         "title": "Daily USDT <br/> Staking Rewards",
-        "description": "Start earning daily passive USDT and $BFX rewards automatically from today. The earlier you buy, the more you earn."
+        "description": "Start earning USDT and BFX rewards today by joining the BFX presale. The earlier you buy, the more you can earn over time."
       }
     }
   },
@@ -888,7 +888,7 @@
   },
   "biggest_buy": {
     "title": "Biggest Buy-In Competition",
-    "description": "The top 10 BFX presale buyers will receive a share of 100,000 USD in $BFX. This exclusive reward is our way of thanking those who contributed the most and played a major role in the growth of the BlockchainFX ecosystem.",
+    "description": "The top 10 BFX presale buyers will receive a share of a 100,000 USD prize pool in $BFX. This competition is our way of thanking those who contributed the most and played a major role in the growth of the BlockchainFX ecosystem.",
     "table": {
       "rank": "Rank",
       "wallet": "Wallet",
@@ -930,7 +930,7 @@
   },
   "gateway_section": {
     "title": "The First Crypto Exchange That Pays Its Holders",
-    "description": "Instead of draining users with high trading fees, BlockchainFX cuts them by up to 70%. Half of all fees are shared with $BFX holders as daily staking rewards. We’re building a next-generation trading platform that grows with its community, where users benefit from every step of our success.",
+    "description": "Instead of draining users with high fees, BlockchainFX cuts them by up to 70%. Half of all fees are paid to $BFX holders as daily staking rewards. The platform puts the community at the center,ensuring users are rewarded at every stage of the project's success.",
     "features": {
       "fees": "Fees",
       "asset_variety": "Asset Variety",

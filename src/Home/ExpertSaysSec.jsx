@@ -51,7 +51,7 @@ function ExpertSaysSec() {
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
-                  {t("experts.slide1.text")}
+                  "{t("experts.slide1.text")}"
                 </p>
                 <img src={stars} alt="" />
                 <div>
@@ -84,7 +84,7 @@ function ExpertSaysSec() {
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
-                  {t("experts.slide2.text")}
+                  "{t("experts.slide2.text")}"
                 </p>
                 <img src={stars} alt="" />
                 <div>
@@ -118,7 +118,7 @@ function ExpertSaysSec() {
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
-                  {t("experts.slide3.text")}
+                  "{t("experts.slide3.text")}"
                 </p>
                 <img src={stars} alt="" />
                 <div>
@@ -152,7 +152,7 @@ function ExpertSaysSec() {
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
-                  {t("experts.slide4.text")}
+                  "{t("experts.slide4.text")}"
                 </p>
                 <img src={stars} alt="" />
                 <div>
