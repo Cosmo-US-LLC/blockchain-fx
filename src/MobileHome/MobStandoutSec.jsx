@@ -29,8 +29,7 @@ function MobStandoutSec() {
           <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center  text-[#FFF] ">
             {t("standout_section.title")}
           </h3>
-          <p className=" px-2 text-center font-inter text-[16px] text-[#fff] font-medium leading-[25px]">
-            {t("standout_section.description")}
+          <p className="mobilepara px-2 text-center font-inter text-[16px] text-[#fff] font-medium leading-[25px]" dangerouslySetInnerHTML={{ __html: t("standout_section.description") }} >
           </p>
         </div>
         <div className="w-[100%] mx-auto flex">

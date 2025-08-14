@@ -107,8 +107,7 @@ function StandoutSec() {
           <h3 className="text-[40px] font-[700] text-center leading-[48px] text-[#ffff] tracking-[-1px]">
             {t("standout_section.title")}
           </h3>
-          <p className="text-[18px] font-[400] max-w-[780px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
-            {t("standout_section.description")}
+          <p className="text-[18px] font-[400] max-w-[860px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]" dangerouslySetInnerHTML={{ __html: t("standout_section.description") }}>
           </p>
         </div>
         <div className="max-w-[1080px] w-full mx-auto">
