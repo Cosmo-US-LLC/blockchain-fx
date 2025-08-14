@@ -220,7 +220,7 @@
   },
  "how_does_it_sec": {
     "title": "How It Works?",
-    "subtitle": "BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns. Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.",
+    "subtitle": "BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. <br/> Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.<br/> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.",
     "cards": {
       "staking_rewards": {
         "title": "BFX & USDT Staking Rewards",
@@ -411,7 +411,7 @@
   },
   "standout_section": {
     "title": "Standout Features",
-    "description": "Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market.",
+    "description": "Cryptocurrencies from exchanges have historically performed well due to their active user base, platform <br/> revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform,<br/> offers unique features that bring real value to the market.",
     "table": {
       "token_name": "Token Name",
       "ranked": "Ranked",

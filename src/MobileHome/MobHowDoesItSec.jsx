@@ -59,7 +59,7 @@ function MobHowDoesItSec() {
           <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize text-[white] text-center">
             {t("how_does_it_sec.title")}
           </h3>
-          <p className="mt-4 font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
+          <p className="mobilepara mt-4 font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
             <span className="" dangerouslySetInnerHTML={{ __html: t("how_does_it_sec.subtitle") }} />
           </p>
         </div>
