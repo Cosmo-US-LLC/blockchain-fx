@@ -43,7 +43,7 @@ function BlockchainFXDemo() {
     <div className="flex items-center bg-[#020B10] pt-[50px]" id="desktopDemo">
       <div className="max-w-[1200px] relative overflow-hidden  w-[100%] mx-auto border-[1px] border-[#575757] bg-[#020B10] relative rounded-[24px] pb-[30px]">
         <div className="flex justify-between items-center gap-[2rem]">
-          <div className="flex justify-end items-center gap-5 relative z-[99]">
+          <div className="flex justify-between items-center gap-5 relative z-[99] pl-[40px] pr-[15px]">
             <div className="w-[42%] space-y-[20px] pl-[70px] py-[60px]">
               <h4 className="text-[40px] text-[#fff] font-[600]">
                 {t("blockchainfx_demo.title")}

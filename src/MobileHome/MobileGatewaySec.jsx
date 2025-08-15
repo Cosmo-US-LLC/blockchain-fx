@@ -35,8 +35,9 @@ function MobileGatewaySec() {
               alt=""
             />
             <div className="space-y-[20px] relative z-[9]">
-              <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF] ">
-                {t("gateway_section.title")}
+              <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF] "
+              dangerouslySetInnerHTML={{ __html: t("gateway_section.title") }}
+              >
               </h3>
               <p className=" max-w-[881px] font-inter mx-auto w-[100%] text-center text-[16px] text-[#fff] font-medium leading-[25px] mobilepara"
                 dangerouslySetInnerHTML={{ __html: t("gateway_section.description") }}

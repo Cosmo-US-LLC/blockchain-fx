@@ -160,28 +160,26 @@ function RoadmapSection() {
       </h3>
 
       <div className="relative w-full mx-auto">
-        <img className="w-full" src={line} alt="Roadmap Line" />
-
-        <div className="absolute bottom-7 left-0 right-0 flex justify-between px-4">
+        <div className="flex justify-around px-4 w-[90%] mx-auto">
           {cardGroups[currentGroup].phases.map((text, index) => {
             const isFirst = index === 0;
             const isLast = index === cardGroups[currentGroup].phases.length - 1;
             return (
               <div
                 key={index}
-                className="flex flex-col items-center absolute"
+                className=""
                 style={{
-                  width: isLast ? "100%" : "auto",
-                  left: isLast
-                    ? "calc(100% - 330px)"
-                    : `${
-                        (index / (cardGroups[currentGroup].phases.length - 1)) *
-                        100
-                      }%`,
-                  transform: "translateX(-50%)",
-                  top: "-35px",
-                  marginLeft: isFirst ? "260px" : "",
-                  marginRight: isLast ? "100px" : "0",
+                  // width: isLast ? "100%" : "auto",
+                  // left: isLast
+                  //   ? "calc(100% - 330px)"
+                  //   : `${
+                  //       (index / (cardGroups[currentGroup].phases.length - 1)) *
+                  //       100
+                  //     }%`,
+                  // transform: "translateX(-50%)",
+                  // top: "-35px",
+                  // marginLeft: isFirst ? "260px" : "",
+                  // marginRight: isLast ? "100px" : "0",
                 }}
               >
                 <p className="text-white text-[24px]">{text}</p>
@@ -189,6 +187,8 @@ function RoadmapSection() {
             );
           })}
         </div>
+        <img className="w-full" src={line} alt="Roadmap Line" />
+
       </div>
 
       <div className="max-w-[1280px] mx-auto mt-20 relative px-12">

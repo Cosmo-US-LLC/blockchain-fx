@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
+import { useLocation } from "react-router-dom";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Iicon from "../assets/Gateway/i.svg";
@@ -18,6 +19,8 @@ import cross from "../assets/PremiumSec/false.png";
 import { MdOutlineAirplaneTicket } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
+
+
 const cardImages = [cardimg1, cardimg2, cardimg3, cardimg4, cardimg5, cardimg6, cardimg7];
 const cardPointsIcons = [
   [tick, tick, tick, cross, cross], // Novice
@@ -31,6 +34,8 @@ const cardPointsIcons = [
 
 function PremiumSec() {
   const { t } = useTranslation();
+  const location = useLocation();
+  const isHome = location.pathname === "/";
   const [openBundles, setOpenBundles] = useState(0);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -129,7 +134,7 @@ function PremiumSec() {
                         <div>
                           <h3 className="text-[#ffff] flex flex-col justify-end font-[600] ">
                             <span
-                              className="text-[30px]  leading-[100%]"
+                              className={`leading-[100%] ${isHome ? "text-[40px]" : "text-[30px]"}`}
                               // style={{
                               //   background:
                               //     "linear-gradient(90deg, #FFF 0%, #030F16 100%)",
@@ -271,7 +276,7 @@ function PremiumSec() {
                   {card.title}
                 </h4>
                 <p className="text-[#7C7C7C] font-[#7C7C7C] text-[18px] text-center">
-                  {card.price}
+                  {card.price}+
                 </p>
               </div>
             ))}

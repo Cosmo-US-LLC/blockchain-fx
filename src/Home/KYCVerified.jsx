@@ -37,7 +37,7 @@ function KYCVerified() {
             {cardItems.map((item, index) => (
               <div
                 key={index}
-                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-between pt-[20px] pb-[24px]  min-h-[200.384px] rounded-[16px]"
+                className="pl-[16px] pr-[12px] w-[100%] flex flex-col justify-start pt-[20px] pb-[24px]  min-h-[170.384px] rounded-[16px]"
                 style={{
                   background: "#030F16",
                   border:"1px solid rgba(230, 175, 3, 0.12)"
@@ -54,7 +54,7 @@ function KYCVerified() {
                     {t("KYCVerified.completed")}
                   </p>
                 </div>
-                <div className="min-h-[150.384px] flex justify-start flex-col">
+                <div className="min-h-[100.384px] flex justify-start flex-col">
                   <div className="min-h-[30px] flex justify-start pb-[10px] items-center">
                     <h3 className="text-[20px] text-[#fff] font-inter font-[600] break-normal leading-[109.316%]">
                       {item.title}

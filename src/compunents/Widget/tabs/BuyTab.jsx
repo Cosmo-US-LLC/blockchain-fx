@@ -278,7 +278,7 @@ const BuyTab = ({ onTabChange}) => {
             background: "#000",
           }}
         >
-          <h3 className="text-center text-[#fff] max:md:text-[24.476px] md:text-[32.476px] leading-[100%] font-[700]  whitespace-nowrap">
+          <h3 className="text-center text-[#fff] text-[32.476px] leading-[100%] font-[700]  whitespace-nowrap">
             {formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
           </h3>
           <div className="pt-3">
@@ -572,7 +572,7 @@ const BuyTab = ({ onTabChange}) => {
           }}
           >
               <h3 className="text-[10px] 2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[222px] max-w-[222px] mx-auto font-[500]  text-white text-center ">
-                {t('buy_tab.limited_time_offer')}: {t('buy_tab.use_bonus_code')} <span className="text-[#2FD942] !font-[700]">{t('buy_tab.bonus_code')}</span> {t('buy_tab.to_get_bonus')} {t('buy_tab.more_bfx_coins')}!
+                {t('buy_tab.limited_time_offer')}: {t('buy_tab.use_bonus_code')} <span className="text-[#2FD942] !font-[700]">{t('buy_tab.bonus_code')}</span> {t('buy_tab.to_get_bonus')} {t('buy_tab.more_bfx_coins')}
               </h3>
           </div>
 

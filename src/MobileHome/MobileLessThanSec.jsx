@@ -55,10 +55,10 @@ function MobileLessThanSec() {
             />
 
             <div className="space-y-[20px]">
-              <h3 className="capitalize text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF] ">
+              <h3 className="capitalize text-[30px] font-[600] max-w-[230px] mx-auto leading-[120%] tracking-[-1.5px] text-center text-[#FFF] ">
                 {t("less_than_section.title")}
               </h3>
-              <p className="w-[100%] font-inter text-center text-[16px] text-[#fff] font-medium leading-[25px]">
+              <p className="w-[100%] font-inter  text-center text-[16px] text-[#fff] font-medium leading-[25px]">
                 {t("less_than_section.description")}
               </p>
             </div>
@@ -67,14 +67,14 @@ function MobileLessThanSec() {
                 {t("less_than_section.chart_title")}
               </h4>
               <div>
-                <h4 className="text-[15px] space-y-[70px] font-[600] text-center leading-[130%] text-[#fff] tracking-[-0.617px]">
+                {/* <h4 className="text-[15px] space-y-[70px] font-[600] text-center leading-[130%] text-[#fff] tracking-[-0.617px]">
                   {t("less_than_section.costs.title")}
                 </h4>
                 <p className="text-[#fff] text-center text-[16px] font-medium">
                   {t("less_than_section.costs.description")}
-                </p>
+                </p> */}
               </div>
-              <div className="relative mt-8">
+              <div className="relative mt-10">
                 <div className="flex justify-end">
                   <img src={graph || "/placeholder.svg"} className="max-w-[200px] max-h-[200px]" alt="" />
                 </div>
