@@ -16,7 +16,7 @@
   "hero": {
     "title": "The First Crypto <br /> Trading",
     "title_highlight": "Super App",
-    "subtitle": "BlockchainFX is a next-gen crypto exchange that connects DeFi<br />with traditional financial markets. It's the only Web3 platform offering access to stocks, forex, ETFs, and more.",
+    "subtitle": "BlockchainFX is a next-gen crypto exchange that connects DeFi<br /> with traditional financial markets. It's the only Web3 platform offering access to stocks, forex, ETFs, and more.",
     "feature1": "The First crypto Exchange Bridging Blockchain and Finance",
     "feature2": "Bitcoin, Ethereum, gold, Tesla, and over 500+ more assets",
     "feature3": "Awarded as 'The Best New Crypto Trading App of 2025'",
@@ -39,11 +39,11 @@
     "card_items": [
       {
         "title": "External Audit by Coinsult",
-        "description": "BlockchainFX has been fully audited by Coinsult,<br />a trusted auditing firm from the Netherlands, <br />and confirmed to be 100% secure."
+        "description": "BlockchainFX has been fully audited by Coinsult,<br /> a trusted auditing firm from the Netherlands, <br />and confirmed to be 100% secure."
       },
       {
         "title": "External Audit by CertiK",
-        "description": "CertiK, the world's leading blockchain security company, audited BlockchainFX and confirmed <br />it meets the highest security standards."
+        "description": "CertiK, the world's leading blockchain security company, audited BlockchainFX and confirmed <br /> it meets the highest security standards."
       },
       {
         "title": "Team KYC Verified by Solidproof",
@@ -514,7 +514,7 @@
   "Website, Tokenomics etc.": "Website, Tokenomics etc.",
   "Create $BFX Token": "Create $BFX Token",
   "Launch $BFX Pre-Sale": "Launch $BFX Pre-Sale",
-  "Certik Token Audit": "Certik Token Audit",
+  "Certik Token Audit": "Certik Audit",
   "Launch an Affiliate Program": "Launch an Affiliate Program",
   "Sell Out the Pre-Sale": "Sell Out the Pre-Sale",
   "Launch $BFX on Uniswap and CEX": "Launch $BFX on Uniswap and CEX",
@@ -929,7 +929,7 @@
     "watch_live_button": "Watch Live Trading Here"
   },
   "gateway_section": {
-    "title": "The First Crypto Exchange That Pays Its Holders",
+    "title": "The First Crypto Exchange <br/> That Pays Its Holders",
     "description": "Instead of draining users with high fees, BlockchainFX cuts them by up to 70%. Half of all fees are <br/> paid to $BFX holders as daily staking rewards. The platform puts the community at the center, <br/>ensuring users are rewarded at every stage of the project's success.",
     "features": {
       "fees": "Fees",
@@ -970,7 +970,7 @@
     "unlock_nft": "Unlock",
     "limited_time_offer": "Limited Time Offer",
     "use_bonus_code": "Use Bonus Code",
-    "bonus_code": "BFX20",
+    "bonus_code": "Bonus Code",
     "to_get_bonus": "To Get 20% More",
     "more_bfx_coins": "$BFX Coins!",
     "referral_link": "10% Referral Link",

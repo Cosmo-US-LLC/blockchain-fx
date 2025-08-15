@@ -56,8 +56,8 @@ function KYCVerifiedMob() {
                       {t(`KYCVerified.card_items.${index}.title`)}
                     </h3>
                   </div>
-                  <h4 className="text-[15px] max-w-[345px] text-[#fff] font-[400] leading-[135.796%]">
-                    <span className="mobilepara" dangerouslySetInnerHTML={{ __html: t(`KYCVerified.card_items.${index}.description`) }} />
+                  <h4 className="mobilepara text-[15px] max-w-[345px] text-[#fff] font-[400] leading-[135.796%]">
+                    <span className="" dangerouslySetInnerHTML={{ __html: t(`KYCVerified.card_items.${index}.description`) }} />
                   </h4>
                 </div>
               </div>

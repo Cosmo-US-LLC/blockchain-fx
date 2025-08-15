@@ -23,8 +23,7 @@ function GatewaySec() {
           }}
       >
         <div className="space-y-[14px]">
-          <h3 className="text-[40px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
-            {t("gateway_section.title")}
+          <h3 className="text-[40px] demobr capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]" dangerouslySetInnerHTML={{ __html: t("gateway_section.title") }}>
           </h3>
           <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]" dangerouslySetInnerHTML={{ __html: t("gateway_section.description") }} />
         </div>
