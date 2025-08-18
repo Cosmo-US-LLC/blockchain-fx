@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import Iicon from "../assets/Gateway/i.svg";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -73,6 +74,8 @@ function MobilePremiumSec() {
 
   const [mainSwiper, setMainSwiper] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
+    const location = useLocation();
+    const isHome = location.pathname === "/";
 
   const tierAmounts = [
     "$1,000",
@@ -182,7 +185,7 @@ function MobilePremiumSec() {
                       <div className="flex space-x-3 items-start py-[14px]">
                         <div>
                           <h3 className="text-[#ffff] flex flex-col justify-end font-[600] ">
-                            <span className="text-[22px]  leading-[100%]">
+                            <span  className={`leading-[100%] ${isHome ? "text-[30px]" : "text-[24px]"}`}>
                               {card.title}
                             </span>
                             <span className="text-[#fff] text-start pt-[10px] text-[18.286px] font-[600]">
