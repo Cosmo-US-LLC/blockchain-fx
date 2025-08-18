@@ -16,7 +16,7 @@
   "hero": {
     "title": "İlk Kripto <br /> Alım Satım",
     "title_highlight": "Süper Uygulama",
-    "subtitle": "BlockchainFX, DeFi'yi<br />geleneksel finansal piyasalarla birleştiren yeni nesil bir kripto borsasıdır. Hisse senetleri, forex, ETF'ler ve daha fazlasına erişim sunan tek Web3 platformudur.",
+    "subtitle": "BlockchainFX, DeFi'yi geleneksel finansal piyasalarla birleştiren yeni nesil bir kripto borsasıdır. Hisse senetleri, forex, ETF'ler ve daha fazlasına erişim sunan tek Web3 platformudur.",
     "feature1": "Blockchain ve Finansı Birleştiren İlk Kripto Borsası",
     "feature2": "Bitcoin, Ethereum, altın, Tesla ve 500+ fazla varlık",
     "feature3": "2025'in 'En İyi Yeni Kripto Alım Satım Uygulaması' ödüllü",
@@ -39,11 +39,11 @@
     "card_items": [
       {
         "title": "Coinsult Tarafından Harici Denetim",
-        "description": "BlockchainFX, Hollanda'dan güvenilir bir denetim firması olan Coinsult tarafından tamamen denetlenmiş <br />ve %100 güvenli olduğu onaylanmıştır."
+        "description": "BlockchainFX, Hollanda'dan güvenilir bir denetim firması olan Coinsult tarafından tamamen denetlenmiş  ve %100 güvenli olduğu onaylanmıştır."
       },
       {
         "title": "CertiK Tarafından Harici Denetim",
-        "description": "Dünyanın önde gelen blockchain güvenlik şirketi CertiK, BlockchainFX'i denetledi ve <br />en yüksek güvenlik standartlarını karşıladığını onayladı."
+        "description": "Dünyanın önde gelen blockchain güvenlik şirketi CertiK, BlockchainFX'i denetledi ve  en yüksek güvenlik standartlarını karşıladığını onayladı."
       },
       {
         "title": "Solidproof Tarafından Takım KYC Doğrulaması",
@@ -218,7 +218,8 @@
   },
   "how_does_it_sec": {
     "title": "Nasıl Çalışır?",
-    "subtitle": "BlockchainFX, kullanıcıların kripto, hisse senedi, forex, ETF ve daha fazlasını alıp satabildiği küresel bir borsadır.<br />Birisi her işlem yaptığında, işlem ücretlerinin %70'i $BFX staking havuzuna, geri alımlara ve token yakımlarına gider.<br />Staking ödülleri, bir topluluk üyesinin sahip olduğu BFX miktarına göre belirlenir ve günlük 25.000 USDT ile sınırlıdır.",
+    "subtitle": "BlockchainFX, kullanıcıların kripto, hisse senedi, forex, ETF ve daha fazlasını alıp satabildiği küresel bir borsadır. Birisi her işlem yaptığında, işlem ücretlerinin %70'i $BFX staking havuzuna, geri alımlara ve token yakımlarına gider. Staking ödülleri, bir topluluk üyesinin sahip olduğu BFX miktarına göre belirlenir ve günlük 25.000 USDT ile sınırlıdır.",
+     "subtitle_des": "BlockchainFX, kullanıcıların kripto, hisse senedi, forex, ETF ve daha fazlasını alıp satabildiği küresel bir borsadır. Birisi her işlem yaptığında, işlem ücretlerinin %70'i $BFX staking havuzuna, geri alımlara ve token yakımlarına gider. Staking ödülleri, bir topluluk üyesinin sahip olduğu BFX miktarına göre belirlenir ve günlük 25.000 USDT ile sınırlıdır.",
     "cards": {
       "staking_rewards": {
         "title": "BFX & USDT Staking Ödülleri",
@@ -770,7 +771,7 @@
 },
 "gateway_section": {
   "title": "Yatırımcılarına Ödeme Yapan İlk Kripto Borsası",
-  "description": "BlockchainFX, kullanıcıları yüksek ücretlerle sömürmek yerine bu ücretleri %70'e kadar azaltır. Tüm ücretlerin yarısı, <br /> $BFX sahiplerine günlük stake ödülleri olarak ödenir. Platform, topluluğu merkeze koyar <br /> ve projenin başarısının her aşamasında kullanıcıların ödüllendirilmesini sağlar.",
+  "description": "BlockchainFX, kullanıcıları yüksek ücretlerle sömürmek yerine bu ücretleri %70'e kadar azaltır. Tüm ücretlerin yarısı, $BFX sahiplerine günlük stake ödülleri olarak ödenir. Platform, topluluğu merkeze koyar ve projenin başarısının her aşamasında kullanıcıların ödüllendirilmesini sağlar.",
   "features": {
     "fees": "Ücretler",
     "asset_variety": "Varlık Çeşitliliği",

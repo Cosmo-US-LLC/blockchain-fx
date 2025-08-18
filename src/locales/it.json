@@ -16,7 +16,7 @@
   "hero": {
     "title": "La Prima <br /> Cripto Trading",
     "title_highlight": "Super App",
-    "subtitle": "BlockchainFX è una piattaforma di scambio cripto di nuova generazione che collega la DeFi<br />ai mercati finanziari tradizionali. È l'unica piattaforma Web3 che offre accesso ad azioni, forex, ETF e altro.",
+    "subtitle": "BlockchainFX è una piattaforma di scambio cripto di nuova generazione che collega la DeFi ai mercati finanziari tradizionali. È l'unica piattaforma Web3 che offre accesso ad azioni, forex, ETF e altro.",
     "feature1": "La prima piattaforma di scambio cripto che unisce Blockchain e Finanza",
     "feature2": "Bitcoin, Ethereum, oro, Tesla e oltre 500+ altri asset",
     "feature3": "Premiata come 'La Migliore Nuova App di Trading Cripto del 2025'",
@@ -39,11 +39,11 @@
   "card_items": [
     {
       "title": "Revisione Esterna da Coinsult",
-      "description": "BlockchainFX è stata completamente revisionata da Coinsult, <br />una società di auditing affidabile con sede nei Paesi Bassi, <br />ed è stata confermata come sicura al 100%."
+      "description": "BlockchainFX è stata completamente revisionata da Coinsult, una società di auditing affidabile con sede nei Paesi Bassi, ed è stata confermata come sicura al 100%."
     },
     {
       "title": "Revisione Esterna da CertiK",
-      "description": "CertiK, la principale azienda di sicurezza blockchain al mondo, ha revisionato BlockchainFX <br />e ha confermato che rispetta i più alti standard di sicurezza."
+      "description": "CertiK, la principale azienda di sicurezza blockchain al mondo, ha revisionato BlockchainFX e ha confermato che rispetta i più alti standard di sicurezza."
     },
     {
       "title": "Team Verificato KYC da Solidproof",
@@ -201,6 +201,7 @@
   "how_does_it_sec": {
     "title": "Come Funziona?",
     "subtitle": "BlockchainFX è un exchange globale dove gli utenti possono fare trading di cripto, azioni, forex, ETF e altro.<br />Ogni volta che qualcuno fa trading, il 70% delle commissioni va nel pool di staking $BFX, buyback e burn.<br />Le ricompense di staking dipendono da quanti BFX possiedi e sono limitate a 25.000 USDT al giorno.",
+     "subtitle_des": "BlockchainFX è un exchange globale dove gli utenti possono fare trading di cripto, azioni, forex, ETF e altro.<br />Ogni volta che qualcuno fa trading, il 70% delle commissioni va nel pool di staking $BFX, buyback e burn.<br />Le ricompense di staking dipendono da quanti BFX possiedi e sono limitate a 25.000 USDT al giorno.",
     "cards": {
       "staking_rewards": {
         "title": "Ricompense di Staking BFX & USDT",
@@ -937,7 +938,7 @@
 },
   "gateway_section": {
   "title": "Il Primo Exchange di Criptovalute che Paga i Suoi Detentori",
-  "description": "Invece di prosciugare gli utenti con commissioni elevate, BlockchainFX le riduce fino al 70%. La metà di tutte le commissioni viene <br /> distribuita ai detentori di $BFX come ricompense giornaliere di staking. La piattaforma mette la comunità al centro, <br /> assicurando che gli utenti vengano premiati in ogni fase del successo del progetto.",
+  "description": "Invece di prosciugare gli utenti con commissioni elevate, BlockchainFX le riduce fino al 70%. La metà di tutte le commissioni viene distribuita ai detentori di $BFX come ricompense giornaliere di staking. La piattaforma mette la comunità al centro, assicurando che gli utenti vengano premiati in ogni fase del successo del progetto.",
   "features": {
     "fees": "Commissioni",
     "asset_variety": "Varietà di Asset",
@@ -997,7 +998,7 @@
   "buy_button": "Acquista BFX",
   "watch_live_button": "Guarda il Trading in Diretta Qui",
   "assets_title": "Oltre 500 Asset",
-  "assets_description": "BlockchainFX è l’unico exchange che consente agli utenti Web3 di passare istantaneamente da cripto ad asset tradizionali.<br />Nessun ritardo, nessuna commissione extra, nessun cambio di piattaforma. Solo trading veloce e in tempo reale.",
+  "assets_description": "BlockchainFX è l’unico exchange che consente agli utenti Web3 di passare istantaneamente da cripto ad asset tradizionali. Nessun ritardo, nessuna commissione extra, nessun cambio di piattaforma. Solo trading veloce e in tempo reale.",
   "asset_list_title": "Gli utenti possono fare trading su BlockchainFX:",
   "asset_crypto": "Criptovalute",
   "asset_stocks": "Azioni",
