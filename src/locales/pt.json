@@ -39,11 +39,11 @@
     "card_items": [
       {
         "title": "Auditoria Externa pela Coinsult",
-        "description": "A BlockchainFX foi totalmente auditada pela Coinsult, <br />uma empresa de auditoria confiável da Holanda, <br />e confirmada como 100% segura."
+        "description": "A BlockchainFX foi totalmente auditada pela Coinsult, uma empresa de auditoria confiável da Holanda, e confirmada como 100% segura."
       },
       {
         "title": "Auditoria Externa pela CertiK",
-        "description": "A CertiK, a principal empresa de segurança blockchain do mundo, auditou a BlockchainFX e confirmou <br />que atende aos mais altos padrões de segurança."
+        "description": "A CertiK, a principal empresa de segurança blockchain do mundo, auditou a BlockchainFX e confirmou que atende aos mais altos padrões de segurança."
       },
       {
         "title": "Equipe KYC Verificada pela Solidproof",
@@ -80,7 +80,7 @@
     "buy_button": "Comprar BFX",
     "watch_live_button": "Assista à Negociação Ao Vivo Aqui",
     "assets_title": "Mais de 500 Ativos",
-    "assets_description": "A BlockchainFX é a única exchange que permite aos usuários Web3 trocar instantaneamente entre cripto e classes de ativos tradicionais.<br />Sem atrasos, sem taxas extras, sem trocar de plataforma. Apenas negociação rápida e em tempo real.",
+    "assets_description": "A BlockchainFX é a única exchange que permite aos usuários Web3 trocar instantaneamente entre cripto e classes de ativos tradicionais. Sem atrasos, sem taxas extras, sem trocar de plataforma. Apenas negociação rápida e em tempo real.",
     "asset_list_title": "Os usuários podem negociar na BlockchainFX:",
     "asset_crypto": "Cripto",
     "asset_stocks": "Ações",
@@ -113,7 +113,7 @@
   },
   "wallet_section": {
     "title": "Pré-venda BFX",
-    "description": "BFX é a primeira criptomoeda do mundo apoiada por uma plataforma global de negociação multiativos, <br /> onde os detentores recebem recompensas em USDT sempre que alguém negocia — até mesmo durante a pré-venda.",
+    "description": "BFX é a primeira criptomoeda do mundo apoiada por uma plataforma global de negociação multiativos, onde os detentores recebem recompensas em USDT sempre que alguém negocia — até mesmo durante a pré-venda.",
     "presale_ended": "Pré-venda Encerrada",
     "uniswap": "UNISWAP",
     "how_to_buy": "Como Comprar",
@@ -220,6 +220,7 @@
     "badge": "Como Funciona?",
     "title": "Como a BlockchainFX Funciona?",
     "subtitle": "Negocie qualquer ativo, a qualquer hora, em qualquer lugar — tudo em um só app.",
+    "subtitle_des": "Negocie qualquer ativo, a qualquer hora, em qualquer lugar — tudo em um só app.",
     "cards": {
       "staking_rewards": {
         "title": "Deposite Cripto ou Fiat",
@@ -717,7 +718,7 @@
   },
   "gateway_section": {
     "title": "A Primeira Exchange de Cripto que Paga seus Detentores",
-    "description": "Em vez de drenar os usuários com altas taxas, a BlockchainFX as reduz em até 70%. Metade de todas as taxas é <br /> paga aos detentores de $BFX como recompensas diárias de staking. A plataforma coloca a comunidade no centro, <br /> garantindo que os usuários sejam recompensados em cada etapa do sucesso do projeto.",
+    "description": "Em vez de drenar os usuários com altas taxas, a BlockchainFX as reduz em até 70%. Metade de todas as taxas é paga aos detentores de $BFX como recompensas diárias de staking. A plataforma coloca a comunidade no centro, garantindo que os usuários sejam recompensados em cada etapa do sucesso do projeto.",
     "features": {
       "fees": "Taxas",
       "asset_variety": "Variedade de Ativos",

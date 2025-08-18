@@ -42,7 +42,7 @@ function HowDoesItSec() {
           <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">
             {t("how_does_it_sec.title")}
           </h3>
-          <p className="text-[18px] text-[#fff] trackin-[-0.18px] text-center font-[400] px-[40px]">
+          <p className="text-[18px] text-[#fff] trackin-[-0.18px] text-center font-[400]">
             <span dangerouslySetInnerHTML={{ __html: t("how_does_it_sec.subtitle_des") }} />
           </p>
         </div>

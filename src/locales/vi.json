@@ -219,6 +219,7 @@
   "how_does_it_sec": {
     "title": "Cách hoạt động?",
     "subtitle": "BlockchainFX là sàn giao dịch toàn cầu nơi người dùng có thể giao dịch crypto, cổ phiếu, forex, ETF và nhiều hơn nữa.<br />Mỗi khi có giao dịch, 70% phí giao dịch sẽ được chuyển vào pool staking $BFX, mua lại token và đốt token.<br />Phần thưởng staking dựa trên số lượng BFX mà thành viên cộng đồng nắm giữ và giới hạn ở mức 25.000 USDT mỗi ngày.",
+     "subtitle_des": "BlockchainFX là sàn giao dịch toàn cầu nơi người dùng có thể giao dịch crypto, cổ phiếu, forex, ETF và nhiều hơn nữa.<br />Mỗi khi có giao dịch, 70% phí giao dịch sẽ được chuyển vào pool staking $BFX, mua lại token và đốt token.<br />Phần thưởng staking dựa trên số lượng BFX mà thành viên cộng đồng nắm giữ và giới hạn ở mức 25.000 USDT mỗi ngày.",
     "cards": {
       "staking_rewards": {
         "title": "Thưởng staking BFX & USDT",

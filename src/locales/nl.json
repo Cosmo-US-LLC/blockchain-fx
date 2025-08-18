@@ -39,11 +39,11 @@
     "card_items": [
       {
         "title": "Externe audit door Coinsult",
-        "description": "BlockchainFX is volledig geaudit door Coinsult, <br />een vertrouwd auditbedrijf uit Nederland,<br /> en bevestigd als 100% veilig."
+        "description": "BlockchainFX is volledig geaudit door Coinsult,een vertrouwd auditbedrijf uit Nederland, en bevestigd als 100% veilig."
       },
       {
         "title": "Externe audit door CertiK",
-        "description": "CertiK, 's werelds toonaangevende blockchainbeveiligingsbedrijf, heeft BlockchainFX geaudit en bevestigd <br />dat het voldoet aan de hoogste beveiligingsnormen."
+        "description": "CertiK, 's werelds toonaangevende blockchainbeveiligingsbedrijf, heeft BlockchainFX geaudit en bevestigd dat het voldoet aan de hoogste beveiligingsnormen."
       },
       {
         "title": "Team KYC geverifieerd door Solidproof",
@@ -80,7 +80,7 @@
     "buy_button": "Koop BFX",
     "watch_live_button": "Bekijk live handelen hier",
     "assets_title": "Meer dan 500 activa",
-    "assets_description": "BlockchainFX is het enige platform waarmee Web3-gebruikers direct kunnen wisselen tussen crypto en traditionele activaklassen.<br />Geen vertragingen, geen extra kosten, geen wisselen van platform. Gewoon snel en realtime handelen.",
+    "assets_description": "BlockchainFX is het enige platform waarmee Web3-gebruikers direct kunnen wisselen tussen crypto en traditionele activaklassen. Geen vertragingen, geen extra kosten, geen wisselen van platform. Gewoon snel en realtime handelen.",
     "asset_list_title": "Gebruikers kunnen handelen op BlockchainFX:",
     "asset_crypto": "Crypto",
     "asset_stocks": "Aandelen",
@@ -218,7 +218,8 @@
   },
   "how_does_it_sec": {
     "title": "Hoe werkt het?",
-    "subtitle": "BlockchainFX is een wereldwijde exchange waar gebruikers crypto, aandelen, forex, ETF's en meer kunnen verhandelen.<br />Elke keer dat iemand handelt, gaat 70% van de handelskosten naar de $BFX staking pool, buybacks en token burns.<br />Staking-beloningen zijn gebaseerd op hoeveel BFX een communitylid bezit en zijn beperkt tot $25.000 USDT per dag.",
+    "subtitle": "BlockchainFX is een wereldwijde exchange waar gebruikers crypto, aandelen, forex, ETF's en meer kunnen verhandelen. Elke keer dat iemand handelt, gaat 70% van de handelskosten naar de $BFX staking pool, buybacks en token burns. Staking-beloningen zijn gebaseerd op hoeveel BFX een communitylid bezit en zijn beperkt tot $25.000 USDT per dag.",
+     "subtitle_des": "BlockchainFX is een wereldwijde exchange waar gebruikers crypto, aandelen, forex, ETF's en meer kunnen verhandelen. Elke keer dat iemand handelt, gaat 70% van de handelskosten naar de $BFX staking pool, buybacks en token burns. Staking-beloningen zijn gebaseerd op hoeveel BFX een communitylid bezit en zijn beperkt tot $25.000 USDT per dag.",
     "cards": {
       "staking_rewards": {
         "title": "BFX & USDT staking-beloningen",
@@ -887,7 +888,7 @@
   },
   "gateway_section": {
     "title": "De eerste crypto-exchange die haar houders betaalt",
-    "description": "In plaats van gebruikers uit te putten met hoge kosten, verlaagt BlockchainFX deze met wel 70%. De helft van alle kosten wordt <br /> uitbetaald aan $BFX-houders als dagelijkse staking-beloningen. Het platform plaatst de community centraal, <br /> en zorgt ervoor dat gebruikers op elk moment van het succes van het project worden beloond.",
+    "description": "In plaats van gebruikers uit te putten met hoge kosten, verlaagt BlockchainFX deze met wel 70%. De helft van alle kosten wordt uitbetaald aan $BFX-houders als dagelijkse staking-beloningen. Het platform plaatst de community centraal, en zorgt ervoor dat gebruikers op elk moment van het succes van het project worden beloond.",
     "features": {
       "fees": "Kosten",
       "asset_variety": "Verscheidenheid aan activa",

@@ -39,11 +39,11 @@
     "card_items": [
       {
         "title": "Externe Prüfung durch Coinsult",
-        "description": "BlockchainFX wurde vollständig von Coinsult geprüft,<br />einem vertrauenswürdigen Prüfungsunternehmen aus den Niederlanden, <br />und als 100% sicher bestätigt."
+        "description": "BlockchainFX wurde vollständig von Coinsult geprüft, einem vertrauenswürdigen Prüfungsunternehmen aus den Niederlanden, und als 100% sicher bestätigt."
       },
       {
         "title": "Externe Prüfung durch CertiK",
-        "description": "CertiK, das weltweit führende Blockchain-Sicherheitsunternehmen, hat BlockchainFX geprüft <br />und bestätigt, dass es die höchsten Sicherheitsstandards erfüllt."
+        "description": "CertiK, das weltweit führende Blockchain-Sicherheitsunternehmen, hat BlockchainFX geprüft und bestätigt, dass es die höchsten Sicherheitsstandards erfüllt."
       },
       {
         "title": "Team-KYC von Solidproof bestätigt",
@@ -216,9 +216,11 @@
     "description": "BFX-Inhaber verdienen tägliche Staking-Belohnungen in USDT und BFX, finanziert durch BlockchainFX-Handelsgebühren. Jedes Mal, wenn jemand in der App handelt, werden die Inhaber belohnt. Je mehr BFX eine Person hält, desto mehr verdient sie – bis zu maximal 25.000 USDT pro Tag.",
     "button": "$BFX kaufen"
   },
+  
   "how_does_it_sec": {
     "title": "Wie funktioniert es?",
-    "subtitle": "BlockchainFX ist eine globale Börse, auf der Nutzer Krypto, Aktien, Forex, ETFs und mehr handeln können.<br />Jedes Mal, wenn jemand handelt, gehen 70% der Handelsgebühren in den $BFX-Staking-Pool, Rückkäufe und Token-Burns.<br />Staking-Belohnungen basieren darauf, wie viel BFX ein Community-Mitglied hält und sind auf 25.000 USDT pro Tag begrenzt.",
+    "subtitle": "BlockchainFX ist eine globale Börse, auf der Nutzer Krypto, Aktien, Forex, ETFs und mehr handeln können. Jedes Mal, wenn jemand handelt, gehen 70% der Handelsgebühren in den $BFX-Staking-Pool, Rückkäufe und Token-Burns.<br /><br />Staking-Belohnungen basieren darauf, wie viel BFX ein Community-Mitglied hält und sind auf 25.000 USDT pro Tag begrenzt.",
+     "subtitle_des": "BlockchainFX ist eine globale Börse, auf der Nutzer Krypto, Aktien, Forex, ETFs und mehr handeln können.<br />Jedes Mal, wenn jemand handelt, gehen 70% der Handelsgebühren in den $BFX-Staking-Pool, Rückkäufe und Token-Burns.<br />Staking-Belohnungen basieren darauf, wie viel BFX ein Community-Mitglied hält und sind auf 25.000 USDT pro Tag begrenzt.",
     "cards": {
       "staking_rewards": {
         "title": "BFX- & USDT-Staking-Belohnungen",
@@ -922,7 +924,7 @@
   },
   "gateway_section": {
     "title": "Die erste Krypto-Börse, die ihre Inhaber bezahlt",
-    "description": "Anstatt Nutzer mit hohen Gebühren zu belasten, senkt BlockchainFX diese um bis zu 70%. Die Hälfte aller Gebühren wird <br /> als tägliche Staking-Belohnung an $BFX-Inhaber ausgezahlt. Die Plattform stellt die Community in den Mittelpunkt <br /> und sorgt dafür, dass Nutzer in jeder Phase des Projekterfolgs belohnt werden.",
+    "description": "Anstatt Nutzer mit hohen Gebühren zu belasten, senkt BlockchainFX diese um bis zu 70%. Die Hälfte aller Gebühren wird als tägliche Staking-Belohnung an $BFX-Inhaber ausgezahlt. Die Plattform stellt die Community in den Mittelpunkt und sorgt dafür, dass Nutzer in jeder Phase des Projekterfolgs belohnt werden.",
     "features": {
       "fees": "Gebühren",
       "asset_variety": "Asset-Vielfalt",

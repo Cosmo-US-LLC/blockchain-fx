@@ -12,7 +12,7 @@
   "hero": {
     "title": "Den første krypto-<br />handels",
     "title_highlight": "Superapp",
-    "subtitle": "BlockchainFX er en neste generasjons kryptobørs som kobler DeFi<br />med tradisjonelle finansmarkeder. Det er den eneste Web3-plattformen som tilbyr tilgang til aksjer, forex, ETF-er og mer.",
+    "subtitle": "BlockchainFX er en neste generasjons kryptobørs som kobler DeFi med tradisjonelle finansmarkeder. Det er den eneste Web3-plattformen som tilbyr tilgang til aksjer, forex, ETF-er og mer.",
     "feature1": "Den første kryptobørsen som bygger bro mellom blockchain og finans",
     "feature2": "Bitcoin, Ethereum, gull, Tesla og over 500+ flere eiendeler",
     "feature3": "Kåret til 'Beste nye krypto-handelsapp i 2025'",
@@ -62,7 +62,7 @@
     "buy_button": "Kjøp BFX",
     "watch_live_button": "Se live trading her",
     "assets_title": "Mer enn 500 eiendeler",
-    "assets_description": "BlockchainFX er den eneste børsen som lar Web3-brukere umiddelbart bytte mellom krypto og tradisjonelle aktivaklasser.<br />Ingen forsinkelser, ingen ekstra gebyrer, ingen plattformbytte. Bare rask og sanntidshandel.",
+    "assets_description": "BlockchainFX er den eneste børsen som lar Web3-brukere umiddelbart bytte mellom krypto og tradisjonelle aktivaklasser. Ingen forsinkelser, ingen ekstra gebyrer, ingen plattformbytte. Bare rask og sanntidshandel.",
     "asset_list_title": "Brukere kan handle på BlockchainFX:",
     "asset_crypto": "Krypto",
     "asset_stocks": "Aksjer",
@@ -86,11 +86,11 @@
     "card_items": [
       {
         "title": "Ekstern revisjon av Coinsult",
-        "description": "BlockchainFX har blitt fullstendig revidert av Coinsult, <br />et anerkjent revisjonsfirma fra Nederland, <br />og bekreftet å være 100 % sikker."
+        "description": "BlockchainFX har blitt fullstendig revidert av Coinsult, et anerkjent revisjonsfirma fra Nederland, og bekreftet å være 100 % sikker."
       },
       {
         "title": "Ekstern revisjon av CertiK",
-        "description": "CertiK, verdens ledende blokkjede-sikkerhetsselskap, har revidert BlockchainFX og bekreftet <br />at den oppfyller de høyeste sikkerhetsstandardene."
+        "description": "CertiK, verdens ledende blokkjede-sikkerhetsselskap, har revidert BlockchainFX og bekreftet at den oppfyller de høyeste sikkerhetsstandardene."
       },
       {
         "title": "Team KYC verifisert av Solidproof",
@@ -199,6 +199,7 @@
   "how_does_it_sec": {
     "title": "Hvordan fungerer det?",
     "subtitle": "BlockchainFX er en global børs hvor brukere kan handle krypto, aksjer, valuta, ETF-er og mer.<br />Hver gang noen handler, går 70 % av handelsgebyrene til $BFX staking-pool, tilbakekjøp og token-brenning.<br />Staking-belønninger er basert på hvor mye BFX et fellesskapsmedlem har og er begrenset til $25 000 USDT per dag.",
+     "subtitle_des": "BlockchainFX er en global børs hvor brukere kan handle krypto, aksjer, valuta, ETF-er og mer. Hver gang noen handler, går 70 % av handelsgebyrene til $BFX staking-pool, tilbakekjøp og token-brenning. Staking-belønninger er basert på hvor mye BFX et fellesskapsmedlem har og er begrenset til $25 000 USDT per dag.",
     "cards": {
       "staking_rewards": {
         "title": "BFX- og USDT-staking-belønninger",
@@ -636,7 +637,7 @@
   },
   "gateway_section": {
     "title": "Den første kryptobørsen som belønner sine eiere",
-    "description": "I stedet for å tappe brukerne med høye gebyrer, reduserer BlockchainFX dem med opptil 70 %. Halvparten av alle gebyrer <br /> betales til $BFX-innehavere som daglige staking-belønninger. Plattformen setter fellesskapet i sentrum, <br /> og sikrer at brukerne belønnes i alle faser av prosjektets suksess.",
+    "description": "I stedet for å tappe brukerne med høye gebyrer, reduserer BlockchainFX dem med opptil 70 %. Halvparten av alle gebyrer betales til $BFX-innehavere som daglige staking-belønninger. Plattformen setter fellesskapet i sentrum, og sikrer at brukerne belønnes i alle faser av prosjektets suksess.",
     "features": {
       "fees": "Gebyrer",
       "asset_variety": "Aktivamangfold",
