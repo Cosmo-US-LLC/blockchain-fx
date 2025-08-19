@@ -16,7 +16,7 @@
   "hero": {
     "title": "O Primeiro Trading de Cripto ",
     "title_highlight": "Super App",
-    "subtitle": "BlockchainFX é uma exchange de próxima geração que conecta DeFi<br />aos mercados financeiros tradicionais. É a única plataforma Web3 que oferece acesso a ações, forex, ETFs e mais.",
+    "subtitle": "BlockchainFX é uma exchange de próxima geração que conecta DeFi aos mercados financeiros tradicionais. É a única plataforma Web3 que oferece acesso a ações, forex, ETFs e mais.",
     "feature1": "A Primeira Exchange de Cripto Unindo Blockchain e Finanças",
     "feature2": "Bitcoin, Ethereum, ouro, Tesla e mais de 500+ ativos",
     "feature3": "Premiado como 'O Melhor Novo App de Trading Cripto de 2025'",
@@ -218,9 +218,9 @@
   },
   "how_does_it_sec": {
     "badge": "Como Funciona?",
-    "title": "Como a BlockchainFX Funciona?",
-    "subtitle": "Negocie qualquer ativo, a qualquer hora, em qualquer lugar — tudo em um só app.",
-    "subtitle_des": "Negocie qualquer ativo, a qualquer hora, em qualquer lugar — tudo em um só app.",
+    "title": "Como Funciona?",
+    "subtitle": "A BlockchainFX é uma bolsa global onde os utilizadores podem negociar criptomoedas, ações, forex, ETFs e muito mais. Sempre que alguém realiza uma negociação, 70% das taxas de transação são direcionadas para o pool de staking do $BFX, recompras e queimas de tokens. As recompensas de staking são baseadas na quantidade de BFX que cada membro da comunidade possui e estão limitadas a 25.000 USDT por dia.",
+    "subtitle_des": "A BlockchainFX é uma bolsa global onde os utilizadores podem negociar criptomoedas, ações, forex, ETFs e muito mais. Sempre que alguém realiza uma negociação, 70% das taxas de transação são direcionadas para o pool de staking do $BFX, recompras e queimas de tokens. As recompensas de staking são baseadas na quantidade de BFX que cada membro da comunidade possui e estão limitadas a 25.000 USDT por dia.",
     "cards": {
       "staking_rewards": {
         "title": "Deposite Cripto ou Fiat",
