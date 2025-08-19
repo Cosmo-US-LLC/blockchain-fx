@@ -56,7 +56,7 @@ function MobileHero() {
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4> */}
             <div
-              className=" border border-white border-opacity-20 flex space-x-[10px] max-w-[480px] w-[100%] mx-auto  justify-center items-center rounded-full"
+              className=" border border-white border-opacity-20 flex space-x-[10px] max-w-[480px] w-[100%] mx-auto  justify-center items-center rounded-full px-2"
               style={{
                 background:
                   " linear-gradient(90deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%)",
@@ -79,13 +79,15 @@ function MobileHero() {
                   fill="white"
                 />
               </svg>
-              <h4 className="text-white font-[600] font-inter px-1 py-2  text-center text-[12px]  uppercase">
-                $BFX Presale Stage is ALMOST Sold Out
+              <h4 className="text-white font-[600] font-inter px-1 py-2 text-[12px]  uppercase">
+                {t("hero.presale_stage_almost_sold_out")}
               </h4>
             </div>
             <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] tracking-[-2px] leading-[120%] font-inter text-[#fff] ">
-              The First Crypto <br /> Trading{" "}
-              <span
+            <span
+                dangerouslySetInnerHTML={{ __html: t("hero.title")}}
+              /> <span 
+              className="pr-[8px]"
                 style={{
                   background:
                     "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
@@ -93,15 +95,12 @@ function MobileHero() {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                 }}
-              >
-                Super App
-              </span>
+              >{t("hero.title_highlight")}</span>
             </h1>
-            <p className="text-[#fff] mb-4  text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]">
-              BlockchainFX is a next-gen crypto exchange that connects DeFi with
-              traditional financial markets. It’s the only Web3 platform
-              offering  access to stocks, forex, ETFs, and more.
-            </p>
+            <p className="text-[#fff] mb-4 mobilepara text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]"
+            dangerouslySetInnerHTML={{ __html: t("hero.subtitle") }}
+            />
+             
           </div>
           <div className="max-w-[450px] space-y-[27px]">
             <div className="relative flex justify-center">
@@ -123,7 +122,7 @@ function MobileHero() {
             </div>
             <div className="!mt-[8px]">
               <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">
-                Audited and Approved by
+                {t("hero.audited_by")}
               </p>
             </div>
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
@@ -135,7 +134,7 @@ function MobileHero() {
                   alt="reviews"
                 />
                 <p className="text-[#fff] font-[400] text-[16px]">
-                  Verified Ratings
+                  {t("hero.verified_ratings")}
                 </p>
               </div>
               <div
@@ -152,7 +151,7 @@ function MobileHero() {
                   alt="star"
                 />
                 <p className="text-[#fff] font-[400] text-[17.702px]">
-                  4.87/5
+                  {t("hero.rating")}
                 </p>
               </div>
             </div>
@@ -160,22 +159,19 @@ function MobileHero() {
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  The First Exchange Bridging Blockchain  and Traditional
-                  Finance Across 500+ Assets
+                  {t("hero.featuremob1")}
                 </p>
               </div>
               <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
-                  Bitcoin, Ethereum, Gold, Stocks, Forex,  ETFs, Options,
-                  Futures, all in one place
+                  {t("hero.featuremob2")}
                 </p>
               </div>
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={check} alt="" />
                 <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
-                  BlockchainFX has been awarded as <br /> “The Best New Crypto Trading
-                  App of 2025”
+                  {t("hero.featuremob3")}
                 </p>
               </div>
             </div>
@@ -186,16 +182,16 @@ function MobileHero() {
                   background:
                     "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                 }}
-                className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+                className="text-[#000] px-[20px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] w-fit h-[50px]"
               >
-                Buy $BFX
+                {t("hero.buy_button")}
               </button>
 
               <button
                 onClick={handleScrollToDemo}
-                className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[138px] rounded-[8px] !w-[100%] h-[50px]"
+                className="hover:text-[#000] hover:bg-[#E5AE00] px-[15px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px] !w-fit h-[50px]"
               >
-                How it works?
+                {t("hero.how_it_works_button")}
               </button>
             </div>
           </div>
@@ -203,7 +199,7 @@ function MobileHero() {
       </div>
       <div className="gap-2 border-[1px] w-[90%] mx-auto mt-[30px] border-[#262626] h-[72px]  flex flex-col items-center p-2 rounded-[6px] ">
         <p className="font-[600] relative z-[99] text-[15px] text-center text-[white]">
-          Featured In:
+          {t("featured_sec.featured_in")}
         </p>
         <div className="flex items-center justify-center space-x-2">
           <a

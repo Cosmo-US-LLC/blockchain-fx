@@ -1,6 +1,8 @@
 import whitepaper from "../assets/Whitepaper/instantSwap.gif";
 import swapbg from "../assets/Swap/mobbg.png"
+import { useTranslation } from "react-i18next";
 export default function SwapSectionMob() {
+  const { t } = useTranslation();
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
@@ -25,10 +27,10 @@ export default function SwapSectionMob() {
           <div className="w-[100%] space-y-4 ">
             <div className="flex flex-col justify-start w-full p-2">
               <h3 className=" text-[#FFF] text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center mb-4">
-              More Than 500 Assets 
+                {t("blockchainfx_demo.assets_title")}
               </h3>
               <p className="font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center max-w-[350px] mx-auto">
-              BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes. No delays, no extra fees, no switching platforms. Just fast and real-time trading.
+                <span className="mobilepara" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.assets_description") }} />
               </p>
             </div>
           </div>
@@ -47,21 +49,23 @@ export default function SwapSectionMob() {
             }}
             className="w-full rounded-[13px]  py-[20px] px-[20px] space-y-[15px]">
               <div className="">
-              <h4 className="text-[16px] text-center text-[#fff] font-[700] leading-[116.878%] tracking-[-0.267px]">Users can trade on BlockchainFX:</h4>
+                <h4 className="text-[16px] text-center text-[#fff] font-[700] leading-[116.878%] tracking-[-0.267px]">
+                  {t("blockchainfx_demo.asset_list_title")}
+                </h4>
               </div>
               <div className="space-y-[10px]">
                 <div className="flex justify-center space-x-3">
-                <h4 className="text-[16.124px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">Crypto</h4>
-              <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Stocks</h4>
-              <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Forex</h4>
-              <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Commodities</h4>
+                  <h4 className="text-[16.124px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_crypto")}</h4>
+                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_stocks")}</h4>
+                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_forex")}</h4>
+                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_commodities")}</h4>
                 </div>
-                <div className="flex justify-center space-x-4">
-                <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">ETFs</h4>
-              <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Options</h4>
-              <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Futures</h4>
-              <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Indices</h4>
-              <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">CFDs</h4>
+                <div className="flex justify-center space-x-4 gap-y-3 flex-wrap">
+                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_etfs")}</h4>
+                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_options")}</h4>
+                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_futures")}</h4>
+                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_indices")}</h4>
+                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_cfds")}</h4>
                 </div>
               </div>
             </div>

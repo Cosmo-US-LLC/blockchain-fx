@@ -12,32 +12,24 @@ export default function YoutubeSec() {
   // Use translation data for the video slides
   const videoData = [
     {
-      description: "“Imagine getting into Coinbase, or Binance at day one, that’s exactly what BFX is offering right now in its presale.”",
       link: "https://fast.wistia.net/embed/iframe/qw2brqylfy",
       id: "big_pottential",
-      dealer: "— Clay Bro",
-      meta: "Crypto Youtuber, 136K Followers",
+      slide: 1,
     },
     {
-      description: "“Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”",
       link: "https://fast.wistia.net/embed/iframe/aa3tldcsf0",
       id: "big_pottential",
-      dealer: "experts.slide1.name",
-      meta: "experts.slide1.role",
+      slide: 2,
     },
     {
-      description: "experts.slide2.text",
       link: "https://fast.wistia.net/embed/iframe/y8jip6h7gy",
       id: "hidden_gem",
-      dealer: "experts.slide2.name",
-      meta: "experts.slide2.role",
+      slide: 3,
     },
     {
-      description: "experts.slide3.text",
       link: "https://fast.wistia.net/embed/iframe/rln8cnlwja",
       id: "hidden_trades",
-      dealer: "experts.slide3.name",
-      meta: "experts.slide3.role",
+      slide: 4,
     },
   ];
 
@@ -67,7 +59,7 @@ export default function YoutubeSec() {
         <div className="flex flex-row items-center pr-2 py-2 justify-between mt-4">
         <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
-                  What Experts Say About BFX
+                  {t("experts.heading")}
                   </h4>
                 </div>
           {/* Arrow Buttons Container */}
@@ -105,15 +97,14 @@ export default function YoutubeSec() {
         </div>
         <div>
           <p className="text-[white] font-[500] text-[18px] text-left">
-            
-            {t(videoData[videoIndex].description)}
+            "{t(`experts.slide${videoData[videoIndex].slide}.text`)}"
           </p>
           <img className="mt-3" src={stars} alt="stars" />
           <p className="text-[#D8D8D8] font-[600] text-[15px] mt-2">
-            {t(videoData[videoIndex].dealer)}
+            {t(`experts.slide${videoData[videoIndex].slide}.name`)}
           </p>
           <p className="text-[#898989] font-[400] text-[13px]">
-            {t(videoData[videoIndex].meta)}
+            {t(`experts.slide${videoData[videoIndex].slide}.role`)}
           </p>
           <div className="mt-2">
             <iframe

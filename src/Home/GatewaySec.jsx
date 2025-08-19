@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import icon1 from "../assets/Gateway/gticons (4).svg";
 import icon2 from "../assets/Gateway/gticons (3).svg";
@@ -11,6 +12,7 @@ import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 function GatewaySec() {
   const [showTooltip, setShowTooltip] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <div className="pt-[50px] pb-[30px] bg-[#020B10]">
@@ -21,52 +23,50 @@ function GatewaySec() {
           }}
       >
         <div className="space-y-[14px]">
-          <h3 className="text-[40px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
-          The First Crypto Exchange That Pays Its Holders          </h3>
-          <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
-          Instead of draining users with high fees, BlockchainFX cuts them by up to 70%. Half of all fees are <br /> paid to $BFX holders as daily staking rewards. The platform puts the community at the center,  <br /> ensuring users are rewarded at every stage of the project's success.
-          </p>
+          <h3 className="text-[40px] demobr capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]" dangerouslySetInnerHTML={{ __html: t("gateway_section.title") }}>
+          </h3>
+          <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]" dangerouslySetInnerHTML={{ __html: t("gateway_section.description") }} />
         </div>
         <div className="max-w-[1025px] relative z-[99] mx-auto flex justify-between itees-center ">
           <div className="max-w-[267px] w-[100%]">
             <ul className="max-w-[267px] w-[100%]">
               <li className="h-[83px]"></li>
-              <li className="flex space-x-3 px-[18px] items-center h-[65px]">
+              <li className="flex space-x-3 px-[18px] items-center min-h-[65px]">
                 <div className="w-[65px]">
                   <img src={icon1} alt="" className="w-[37px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                Fees
+                  {t("gateway_section.features.fees")}
                 </span>
               </li>
-              <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+              <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
                   <img src={icon2} alt="" className="w-[36px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                Asset Variety
-                                </span>
+                  {t("gateway_section.features.asset_variety")}
+                </span>
               </li>
-              <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+              <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
                   <img src={icon3} alt="" className="w-[36px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                User Experience
+                  {t("gateway_section.features.user_experience")}
                 </span>
               </li>
-              <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+              <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
                   <img src={icon4} alt="" className="w-[39px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
-                Community
+                  {t("gateway_section.features.community")}
                 </span>
               </li>
             </ul>
           </div>
           <div
-            className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
+            className="max-w-[360px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
               background: "#030F16",
               border: "1px solid #2B2B2B"
@@ -75,40 +75,28 @@ function GatewaySec() {
             <div className="flex justify-start pl-[19px] space-x-4 items-center">
               <img src={cardicon1} alt="" className="w-[56.7px] h-[56.7px]" />
               <h4 className="text-[#CBCBCB] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
-              Other Crypto Exchanges
+                {t("gateway_section.other_exchanges.title")}
               </h4>
             </div>
             <ul>
               <li className="py-[20px] flex items-center space-x-2 border-b border-[#C2C2C2]">
                 <span className="text-[white] text-[16px] font-[500] ">
-                High fees with no rewards for users
+                  {t("gateway_section.other_exchanges.high_fees")}
                 </span>
-                {/* <div
-                  className="relative"
-                  onMouseEnter={() => setShowTooltip(true)}
-                  onMouseLeave={() => setShowTooltip(false)}
-                >
-                  <img className="w-[11.7px]" src={Iicon} alt="Info Icon" />
-                  {showTooltip && (
-                    <div className="absolute left-0 top-6 bg-[#808080] w-[210px] text-center leading-[110%] text-[#ffff] text-[10px] font-[400] rounded-md p-[6px] shadow-lg">
-                      This is the budget needed only to launch the platform in certain jurisdictions, excluding staff and marketing.
-                    </div>
-                  )}
-                </div> */}
               </li>
-              <li className="text-[white] text-[16px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
-              Only crypto-to-crypto trading
+              <li className="text-[white] text-[16px] font-[500] flex items-center  min-h-[65px] border-b border-[#C2C2C2]">
+                {t("gateway_section.other_exchanges.crypto_only")}
               </li>
-              <li className="text-white text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
-              Random account restrictions and freezes
+              <li className="text-white text-[16px] font-[500] flex items-center min-h-[65px] border-b border-[#C2C2C2]">
+                {t("gateway_section.other_exchanges.account_restrictions")}
               </li>
               <li className="text-[white] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
-              Users are seen purely as profit generators for the exchange and are completely excluded from its growth and success.
+                {t("gateway_section.other_exchanges.users_excluded")}
               </li>
             </ul>
           </div>
           <div
-            className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
+            className="max-w-[360px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
               background: "#030F16",
               border: "1px solid #575757"
@@ -117,31 +105,31 @@ function GatewaySec() {
             <div className="flex justify-start space-x-4 items-center ">
               <img src={cardicon2} alt="" className="w-[56.7px] h-[56.7px]" />
               <h4 className="text-[white] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
-                BlockchainFX
+                {t("gateway_section.blockchainfx.title")}
               </h4>
             </div>
             <ul>
               <li className="text-[white] text-[16px]  h-[61.5px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
-              Shares profits with the community
+                {t("gateway_section.blockchainfx.shares_profits")}
               </li>
-              <li className="text-[white] text-[16px] h-[65.5px] font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
-              Swap instantly between crypto, stocks, forex, commodities, ETFs & more
+              <li className="text-[white] text-[16px]  font-[500] py-[12px] min-h-[65px] border-b border-[#C2C2C2]">
+                {t("gateway_section.blockchainfx.swap_instantly")}
               </li>
-              <li className="text-[white] text-[16px]  font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
-              Withdraw your crypto anytime, no lock-ins
+              <li className="text-[white] text-[16px]  font-[500] py-[12px] min-h-[65px] border-b border-[#C2C2C2]">
+                {t("gateway_section.blockchainfx.withdraw_anytime")}
               </li>
               <li className="text-[white] text-[16px]  font-[500] py-[27px]">
-              The community earns, grows, and builds the platform alongside BlockchainFX.
+                {t("gateway_section.blockchainfx.community_earns")}
               </li>
             </ul>
           </div>
         </div>
         <div className="absolute top-[-8%] left-[-5%]">
-                            <img src={ernvet2} className=" " alt="" />
-                          </div>
-                          <div className="absolute bottom-[0%] right-[0%]">
-                            <img src={ernvet1} className="" alt="" />
-                          </div>
+          <img src={ernvet2} className=" " alt="" />
+        </div>
+        <div className="absolute bottom-[0%] right-[0%]">
+          <img src={ernvet1} className="" alt="" />
+        </div>
       </div>
     </div>
   );

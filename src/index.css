@@ -222,3 +222,14 @@ p {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: #ffff ;
 }
+@media (max-width: 768px) {
+  .mobilepara br {
+    display: none !important;
+  }
+  .demobr br{
+  display: block;
+}
+}
+.demobr br{
+  display: none;
+}

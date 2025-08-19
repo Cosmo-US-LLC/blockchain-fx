@@ -15,8 +15,8 @@ function MobRoadmapSec() {
       points: [
         t("Roadmap_section.Idea + concept"),
         t("Roadmap_section.Raise Seed Funds"),
-        t("Roadmap_section.Onboard Team & Advisors")
-      ]
+        t("Roadmap_section.Onboard Team & Advisors"),
+      ],
     },
     {
       title: t("Roadmap_section.Foundations"),
@@ -24,8 +24,8 @@ function MobRoadmapSec() {
       points: [
         t("Roadmap_section.Trading Platform Beta Preparation"),
         t("Roadmap_section.Website, Tokenomics etc."),
-        t("Roadmap_section.Create $BFX Token")
-      ]
+        t("Roadmap_section.Create $BFX Token"),
+      ],
     },
     {
       title: t("Roadmap_section.Takeoff"),
@@ -33,24 +33,24 @@ function MobRoadmapSec() {
       points: [
         t("Roadmap_section.Launch $BFX Pre-Sale"),
         t("Roadmap_section.Certik Token Audit"),
-        t("Roadmap_section.Launch an Affiliate Program")
-      ]
+        t("Roadmap_section.Launch an Affiliate Program"),
+      ],
     },
     {
       title: t("Roadmap_section.Scale"),
       points: [
         t("Roadmap_section.Sell Out the Pre-Sale"),
         t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
-        t("Roadmap_section.Achieving 10000 BFX Holders")
-      ]
+        t("Roadmap_section.Achieving 10000 BFX Holders"),
+      ],
     },
     {
       title: t("Roadmap_section.Expansion"),
       points: [
         t("Roadmap_section.Multiple CEX Listing"),
         t("Roadmap_section.Achieving 100000 BFX Holders"),
-        t("Roadmap_section.Reach $100M Daily Trading Volume")
-      ]
+        t("Roadmap_section.Reach $100M Daily Trading Volume"),
+      ],
     },
     {
       title: t("Roadmap_section.Global Reach"),
@@ -58,9 +58,9 @@ function MobRoadmapSec() {
         t("Roadmap_section.Add Leaderboards & VIP accounts"),
         t("Roadmap_section.US License"),
         t("Roadmap_section.Global Marketing Campaigns"),
-        t("Roadmap_section.Major Global Partnerships")
-      ]
-    }
+        t("Roadmap_section.Major Global Partnerships"),
+      ],
+    },
   ];
   return (
     <div className="pt-[24px] pb-[24px] bg-[#020B10]" id="roadmap">
@@ -69,9 +69,9 @@ function MobRoadmapSec() {
           <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF]">
             {t("Roadmap_section.Roadmap")}
           </h3>
-          <p className="text-[15px] font-[400] max-w-[365px] text-center mx-auto w-[100%] leading-[28px] text-[#fff] tracking-[-0.32px]">
+          <div className="text-[15px] font-[400] max-w-[365px] text-center mx-auto w-[100%] leading-[28px] text-[#fff] tracking-[-0.32px]">
             {t("Roadmap_section.From Fintech Startup to Global Market Leader")}
-          </p>
+          </div>
         </div>
         <div className="relative space-y-3">
           <Swiper
@@ -94,8 +94,16 @@ function MobRoadmapSec() {
                         {step.title}
                         {id < 2 && (
                           <div className="w-5">
-                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none">
-                              <path d="M9.9974 2.47559C5.40573 2.47559 1.66406 6.21725 1.66406 10.8089C1.66406 15.4006 5.40573 19.1423 9.9974 19.1423C14.5891 19.1423 18.3307 15.4006 18.3307 10.8089C18.3307 6.21725 14.5891 2.47559 9.9974 2.47559ZM13.9807 8.89225L9.25573 13.6173C9.13906 13.7339 8.98073 13.8006 8.81406 13.8006C8.6474 13.8006 8.48906 13.7339 8.3724 13.6173L6.01406 11.2589C5.7724 11.0173 5.7724 10.6173 6.01406 10.3756C6.25573 10.1339 6.65573 10.1339 6.8974 10.3756L8.81406 12.2923L13.0974 8.00892C13.3391 7.76725 13.7391 7.76725 13.9807 8.00892C14.2224 8.25059 14.2224 8.64225 13.9807 8.89225Z" fill="#E5AF02"/>
+                            <svg
+                              width="20"
+                              height="21"
+                              viewBox="0 0 20 21"
+                              fill="none"
+                            >
+                              <path
+                                d="M9.9974 2.47559C5.40573 2.47559 1.66406 6.21725 1.66406 10.8089C1.66406 15.4006 5.40573 19.1423 9.9974 19.1423C14.5891 19.1423 18.3307 15.4006 18.3307 10.8089C18.3307 6.21725 14.5891 2.47559 9.9974 2.47559ZM13.9807 8.89225L9.25573 13.6173C9.13906 13.7339 8.98073 13.8006 8.81406 13.8006C8.6474 13.8006 8.48906 13.7339 8.3724 13.6173L6.01406 11.2589C5.7724 11.0173 5.7724 10.6173 6.01406 10.3756C6.25573 10.1339 6.65573 10.1339 6.8974 10.3756L8.81406 12.2923L13.0974 8.00892C13.3391 7.76725 13.7391 7.76725 13.9807 8.00892C14.2224 8.25059 14.2224 8.64225 13.9807 8.89225Z"
+                                fill="#E5AF02"
+                              />
                             </svg>
                           </div>
                         )}
@@ -120,44 +128,52 @@ function MobRoadmapSec() {
                           {step.status}
                         </p>
                       )} */}
-                       {step.status && (
-                    <p
-                      style={{
-                        background:
-                          step.status === t("Roadmap_section.Completed")
-                            ? "rgba(0, 124, 45, 0.16)"
-                            : step.status === t("Roadmap_section.On-going")
-                            ? "rgba(255, 190, 82, 0.13)"
-                            : "transparent",
-                      }}
-                      className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
-                        step.status === t("Roadmap_section.Completed")
-                          ? "text-[#01BA48]"
-                          : step.status === t("Roadmap_section.On-going")
-                          ? "text-[#C47E0A]"
-                          : ""
-                      }`}
-                    >
-                      {step.status}
-                    </p>
-                  )}
+                      {step.status && (
+                        <div
+                          style={{
+                            background:
+                              step.status === t("Roadmap_section.Completed")
+                                ? "rgba(0, 124, 45, 0.16)"
+                                : step.status === t("Roadmap_section.On-going")
+                                ? "rgba(255, 190, 82, 0.13)"
+                                : "transparent",
+                          }}
+                          className={`py-[3px] rounded-[5px] px-[8px] text-[14px] font-[500] ${
+                            step.status === t("Roadmap_section.Completed")
+                              ? "text-[#01BA48]"
+                              : step.status === t("Roadmap_section.On-going")
+                              ? "text-[#C47E0A]"
+                              : ""
+                          }`}
+                        >
+                          {step.status}
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className="bg-[#030F16] border border-white border-opacity-10 max-w-[340px] mx-auto border-t-0 rounded-[8px] rounded-t-none pl-[30px] pr-[15px] py-[20px] space-y-6 w-[100%]">
                     {step.points.map((point, idx) => (
-                      <p
+                      <div
                         key={`point-${id}-${idx}`}
                         className="flex items-start justify-start text-left gap-3 text-[#D6D6D6] text-[16px] leading-[144.529%] font-[400] -tracking-[0.64px]"
                       >
                         {id < 2 && (
                           <div className="w-5">
-                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none">
-                              <path d="M9.9974 2.47559C5.40573 2.47559 1.66406 6.21725 1.66406 10.8089C1.66406 15.4006 5.40573 19.1423 9.9974 19.1423C14.5891 19.1423 18.3307 15.4006 18.3307 10.8089C18.3307 6.21725 14.5891 2.47559 9.9974 2.47559ZM13.9807 8.89225L9.25573 13.6173C9.13906 13.7339 8.98073 13.8006 8.81406 13.8006C8.6474 13.8006 8.48906 13.7339 8.3724 13.6173L6.01406 11.2589C5.7724 11.0173 5.7724 10.6173 6.01406 10.3756C6.25573 10.1339 6.65573 10.1339 6.8974 10.3756L8.81406 12.2923L13.0974 8.00892C13.3391 7.76725 13.7391 7.76725 13.9807 8.00892C14.2224 8.25059 14.2224 8.64225 13.9807 8.89225Z" fill="#E5AF02"/>
+                            <svg
+                              width="20"
+                              height="21"
+                              viewBox="0 0 20 21"
+                              fill="none"
+                            >
+                              <path
+                                d="M9.9974 2.47559C5.40573 2.47559 1.66406 6.21725 1.66406 10.8089C1.66406 15.4006 5.40573 19.1423 9.9974 19.1423C14.5891 19.1423 18.3307 15.4006 18.3307 10.8089C18.3307 6.21725 14.5891 2.47559 9.9974 2.47559ZM13.9807 8.89225L9.25573 13.6173C9.13906 13.7339 8.98073 13.8006 8.81406 13.8006C8.6474 13.8006 8.48906 13.7339 8.3724 13.6173L6.01406 11.2589C5.7724 11.0173 5.7724 10.6173 6.01406 10.3756C6.25573 10.1339 6.65573 10.1339 6.8974 10.3756L8.81406 12.2923L13.0974 8.00892C13.3391 7.76725 13.7391 7.76725 13.9807 8.00892C14.2224 8.25059 14.2224 8.64225 13.9807 8.89225Z"
+                                fill="#E5AF02"
+                              />
                             </svg>
                           </div>
                         )}
                         {point}
-                      </p>
+                      </div>
                     ))}
                   </div>
                 </div>
@@ -165,10 +181,18 @@ function MobRoadmapSec() {
             ))}
           </Swiper>
           <button className="swiper-button-prev-press rotate-[180deg] absolute z-10 -left-[5%] !top-[53%] transform -translate-y-1/2">
-            <img className="w-[43px] h-[43px] rounded-full bg-black" src={swpbtn} alt=""/>
+            <img
+              className="w-[43px] h-[43px] rounded-full bg-black"
+              src={swpbtn}
+              alt=""
+            />
           </button>
           <button className="swiper-button-next-press absolute z-10 -right-[5%] !top-[53%] transform -translate-y-1/2">
-            <img className="w-[43px] h-[43px] rounded-full bg-black" src={swpbtn} alt=""/>
+            <img
+              className="w-[43px] h-[43px] rounded-full bg-black"
+              src={swpbtn}
+              alt=""
+            />
           </button>
         </div>
       </div>

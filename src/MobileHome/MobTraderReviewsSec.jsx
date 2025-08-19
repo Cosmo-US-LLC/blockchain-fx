@@ -38,7 +38,7 @@ function MobTraderReviewsSec() {
       <div className="relative space-y-[20px] w-[90%] mx-auto">
         <div className="space-y-[20px]">
           <h3
-            className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] review  text-center text-[#FFF]  whitespace-pre-line"
+            className="text-[30px] max-w-[280px] mx-auto font-[600] leading-[120%] tracking-[-1.5px] review  text-center text-[#FFF]  whitespace-pre-line"
             dangerouslySetInnerHTML={{
               __html: t("trader_reviews_section.title").replace(/\n/g, "<br/>"),
             }}

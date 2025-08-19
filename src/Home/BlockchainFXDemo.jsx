@@ -43,15 +43,13 @@ function BlockchainFXDemo() {
     <div className="flex items-center bg-[#020B10] pt-[50px]" id="desktopDemo">
       <div className="max-w-[1200px] relative overflow-hidden  w-[100%] mx-auto border-[1px] border-[#575757] bg-[#020B10] relative rounded-[24px] pb-[30px]">
         <div className="flex justify-between items-center gap-[2rem]">
-          <div className="flex justify-end items-center gap-5 relative z-[99]">
-            <div className="w-[45%] space-y-[20px] pl-[70px] py-[60px]">
+          <div className="flex justify-between items-center gap-5 relative z-[99] pl-[40px] pr-[15px]">
+            <div className="w-[42%] space-y-[20px] pl-[70px] py-[60px]">
               <h4 className="text-[40px] text-[#fff] font-[600]">
-                BlockchainFX Demo
+                {t("blockchainfx_demo.title")}
               </h4>
-              <p className="text-[#fff] text-[18px] font-[500]">
-                In just a few seconds, users can trade BTC,Tesla, Gold, Pepe,
-                ETFs, CFDs, and more, all seamlessly <br /> on one powerful
-                platform.
+              <p className="text-[#fff] text-[18px] font-[500] ">
+                <span className="demobr" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.description") }} />
               </p>
               <div className="flex justify-start pt-[20px] pb-[0px] items-center space-x-[17px]">
                 <button
@@ -60,16 +58,16 @@ function BlockchainFXDemo() {
                     background:
                       "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                   }}
-                  className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+                  className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px]"
                 >
-                  Buy BFX
+                  {t("blockchainfx_demo.buy_button")}
                 </button>
 
                 <button
                   onClick={handleScrollreview}
-                  className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[228px] rounded-[8px] !w-[100%] h-[50px]"
+                  className="hover:text-[#000] hover:bg-[#E5AE00] px-[18px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005]  rounded-[8px] !w-fit h-[50px]"
                 >
-                  Watch Live Trading Here
+                  {t("blockchainfx_demo.watch_live_button")}
                 </button>
               </div>
             </div>
@@ -106,13 +104,9 @@ function BlockchainFXDemo() {
             <div className="w-[45%] space-y-4 ">
               <div className="w-full flex flex-col justify-start text-white">
                 <h3 className="text-[40px] font-[800] leading-[52px] mb-4 text-[#fff]">
-                  More Than 500 Assets
+                  {t("blockchainfx_demo.assets_title")}
                 </h3>
-                <p className="text-[18px] text-[#fff] font-[400] leading-[27px] w-[450px]">
-                  BlockchainFX is the only exchange that lets Web3 users
-                  instantly swap between crypto and traditional asset classes.
-                  No delays, no extra fees, no switching platforms. Just fast
-                  and real-time trading.
+                <p className="text-[18px] text-[#fff] font-[400] leading-[27px] w-[450px]" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.assets_description") }}>
                 </p>
               </div>
             </div>
@@ -124,34 +118,34 @@ function BlockchainFXDemo() {
             className="w-full rounded-[13px] flex justify-center max-w-[1150px] w-[100%] mx-auto py-[20px] px-[20px] space-x-[15px]"
           >
             <h4 className="text-[18px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">
-              Users can trade on BlockchainFX:
+              {t("blockchainfx_demo.asset_list_title")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">
-              Crypto
+              {t("blockchainfx_demo.asset_crypto")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">
-              Stocks
+              {t("blockchainfx_demo.asset_stocks")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">
-              Forex
+              {t("blockchainfx_demo.asset_forex")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">
-              Commodities
+              {t("blockchainfx_demo.asset_commodities")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">
-              ETFs
+              {t("blockchainfx_demo.asset_etfs")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">
-              Options
+              {t("blockchainfx_demo.asset_options")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">
-              Futures
+              {t("blockchainfx_demo.asset_futures")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">
-              Indices
+              {t("blockchainfx_demo.asset_indices")}
             </h4>
             <h4 className="text-[18px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">
-              CFDs and more.
+              {t("blockchainfx_demo.asset_cfds")}
             </h4>
           </div>
         </div>

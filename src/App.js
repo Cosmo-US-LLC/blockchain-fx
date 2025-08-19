@@ -139,6 +139,7 @@ function App() {
       <Routes>
         <Route element={<Layout isMobile={isMobile} />}>
           <Route path="/" element={isMobile ? <MobileHome /> : <Home />} />
+          <Route path="/how-to-buy" element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />} />
           <Route path="/terms-of-service" element={<TermsofService />} />
           <Route path="/referral" element={<RefferalProgram />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
@@ -163,6 +164,7 @@ function App() {
           }
         >
           <Route index element={isMobile ? <MobileHome /> : <Home />} />
+          <Route path="how-to-buy" element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />} />
           <Route path="terms-of-service" element={<TermsofService />} />
           <Route path="referral" element={<RefferalProgram />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />

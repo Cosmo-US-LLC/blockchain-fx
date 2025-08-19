@@ -29,8 +29,7 @@ function MobStandoutSec() {
           <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center  text-[#FFF] ">
             {t("standout_section.title")}
           </h3>
-          <p className=" px-2 text-center font-inter text-[16px] text-[#fff] font-medium leading-[25px]">
-            {t("standout_section.description")}
+          <p className="mobilepara px-2 text-center font-inter text-[16px] text-[#fff] font-medium leading-[25px]" dangerouslySetInnerHTML={{ __html: t("standout_section.description") }} >
           </p>
         </div>
         <div className="w-[100%] mx-auto flex">
@@ -40,14 +39,14 @@ function MobStandoutSec() {
               <div className="h-[91px] border-l border-t border-[#e6af03]  justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img className="h-[41.126px] w-[41.126px]" src={coin1} alt="" />
                 <h3 className="text-[#545454] leading-[8.902px] font-[700] text-[8.902px]">
-                  BlockchainFX
+                  {t("standout_section.table.blockchainfx")}
                 </h3>
               </div>
             </div>
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Token Name
+                  {t("standout_section.table.token_name")}
                 </h3>
               </div>
               <div className="   border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -59,7 +58,7 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Ranked
+                  {t("standout_section.table.ranked")}
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -71,7 +70,7 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Marketcap
+                  {t("standout_section.table.marketcap")}
                 </h3>
               </div>
               <div className="  border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -83,7 +82,7 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Trade Crypto
+                  {t("standout_section.table.trade_crypto")}
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -93,7 +92,7 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start    px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Leverage Trading
+                  {t("standout_section.table.leverage_trading")}
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -103,7 +102,7 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Risk Management
+                  {t("standout_section.table.risk_management")}
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]     justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -113,7 +112,7 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Forex
+                  {t("standout_section.table.forex")}
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -123,27 +122,27 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Commodities
+                  {t("standout_section.table.commodities")}
                 </h3>
               </div>
               <div className="  border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
             </div>
-            <div className="flex border border-[#343434] border-r-[#e6af03]">
+            {/* <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start    px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  Indices
+                  {t("standout_section.table.indices")}
                 </h3>
               </div>
               <div className="   border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
                 <img src={check1} className="h-[15px] w-[15px]" alt="" />
               </div>
-            </div>
+            </div> */}
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  CFDs
+                  {t("standout_section.table.cfds")}
                 </h3>
               </div>
               <div className="  border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -153,7 +152,7 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  ETFs
+                  {t("standout_section.table.etfs")}
                 </h3>
               </div>
               <div className="   border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -163,7 +162,7 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start  px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                USDT  Rewards
+                  {t("standout_section.table.usdt_rewards")}
                 </h3>
               </div>
               <div className="   border-l border-b border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
@@ -193,7 +192,7 @@ function MobStandoutSec() {
                         alt=""
                       />
                       <h3 className="text-[#545454] leading-[8.902px] font-[700] text-[8.902px]">
-                        Bitget
+                        {t("standout_section.table.bitget")}
                       </h3>
                     </div>
                   </div>
@@ -231,11 +230,6 @@ function MobStandoutSec() {
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
                       <img src={check1} className="h-[15px] w-[15px]" alt="" />
-                    </div>
-                  </div>
-                  <div className="flex border border-[#343434]">
-                    <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
@@ -326,11 +320,6 @@ function MobStandoutSec() {
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
-                    <div className="  py-[14px] h-[49px] px-[10px]     justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
-                    </div>
-                  </div>
-                  <div className="flex border border-[#343434]">
                     <div className="   py-[14px] h-[49px] px-[10px]    justify-center flex flex-col items-center space-y-[6px] w-[100%]">
                       <img src={check2} className="h-[15px] w-[15px]" alt="" />
                     </div>
@@ -407,11 +396,7 @@ function MobStandoutSec() {
                       <img src={check2} className="h-[15px] w-[15px]" alt="" />
                     </div>
                   </div>
-                  <div className="flex border border-[#343434]">
-                    <div className="justify-center   flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
-                    </div>
-                  </div>
+                 
                   <div className="flex border border-[#343434]">
                     <div className="justify-center   flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
                       <img src={check2} className="h-[15px] w-[15px]" alt="" />

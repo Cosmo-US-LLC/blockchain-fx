@@ -30,12 +30,14 @@ function ExpertSaysSec() {
           }}
           onSlideChange={(swiper) => setActiveSlide(swiper.activeIndex)}
           onSwiper={(swiper) => {
-            setTimeout(() => {
-              swiper.params.navigation.prevEl = prevRef.current;
-              swiper.params.navigation.nextEl = nextRef.current;
-              swiper.navigation.init();
-              swiper.navigation.update();
-            });
+            (swiper.params.navigation && swiper.navigation && (
+              setTimeout(() => {
+                swiper.params.navigation.prevEl = prevRef.current;
+                swiper.params.navigation.nextEl = nextRef.current;
+                swiper.navigation.init();
+                swiper.navigation.update();
+              })
+            ))
           }}
           className="w-full relative z-[99]"
         >
@@ -43,18 +45,18 @@ function ExpertSaysSec() {
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
+                <div className="rounded-[16px] py-2 px-3 inline-block " style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
-                  What Experts Say About BFX
+                    {t("experts.heading")}
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
-                “Imagine getting into Coinbase, or Binance at day one, that’s exactly what BFX is offering right now in its presale.”
+                  "{t("experts.slide1.text")}"
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— Clay Bro</h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">Crypto Youtuber, 136K Followers</p>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide1.name")}</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide1.role")}</p>
                 </div>
               </div>
               <div className="w-[50%] ">
@@ -76,16 +78,18 @@ function ExpertSaysSec() {
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
+                <div className="rounded-[16px] py-2 px-4 inline-block " style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
-                  What Experts Say About BFX
+                    {t("experts.heading")}
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
-                “Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it’s not just a token, it’s your key to passive staking income.”</p>                <img src={stars} alt="" />
+                  "{t("experts.slide2.text")}"
+                </p>
+                <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— Cryto Volt</h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">Crypto Youtuber, 179K Followers</p>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide2.name")}</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide2.role")}</p>
                 </div>
               </div>
               <div className="w-[50%] mb-10">
@@ -108,18 +112,18 @@ function ExpertSaysSec() {
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
+                <div className="rounded-[16px] py-2 px-3 inline-block " style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
                     {t("experts.heading")}
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
-                  {t("experts.slide2.text")}
+                  "{t("experts.slide3.text")}"
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide2.name")}</h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide2.role")}</p>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide3.name")}</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide3.role")}</p>
                 </div>
               </div>
               <div className="w-[50%]">
@@ -148,12 +152,12 @@ function ExpertSaysSec() {
                   </h4>
                 </div>
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
-                  {t("experts.slide3.text")}
+                  "{t("experts.slide4.text")}"
                 </p>
                 <img src={stars} alt="" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide3.name")}</h3>
-                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide3.role")}</p>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide4.name")}</h3>
+                  <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide4.role")}</p>
                 </div>
               </div>
               <div className="w-[50%]">

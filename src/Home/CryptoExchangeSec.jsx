@@ -45,17 +45,10 @@ function CryptoExchangeSec() {
           </div>
           <div className="w-[56%] space-y-[20px] py-[60px]">
             <h4 className="text-[40px] text-[#fff] font-[600]">
-              Pioneering Crypto Exchange
+              {t("crypto_exchange_sec.title")}
             </h4>
             <p className="text-[#fff] text-[18px] leading-[185%] max-w-[543px] w-[100%] font-[500]">
-              BlockchainFX is redefining the future of trading with an
-              all-in-one decentralised platform where users can trade anything,
-              anywhere —while maintaining full control of their assets. <br />
-              <br />
-              Currently in beta and awarded “Best New Crypto Trading App of
-              2025”, BlockchainFX has already received outstanding feedback from
-              early users. With the $BFX presale, holders can now be part of the
-              next major global trading platform.
+              <span dangerouslySetInnerHTML={{ __html: t("crypto_exchange_sec.description") }} />
             </p>
             <div className="flex justify-start pt-[20px] relative z-[99] pb-[0px] items-center space-x-[17px]">
               <button
@@ -64,15 +57,15 @@ function CryptoExchangeSec() {
                   background:
                     "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                 }}
-                className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+                className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] w-fit h-[50px]"
               >
-                Buy BFX
+                {t("crypto_exchange_sec.buy_button")}
               </button>
               <button
                 onClick={handleScrollToDemo}
-                className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[222px] rounded-[8px] !w-[100%] h-[50px]"
+                className="hover:text-[#000] hover:bg-[#E5AE00] px-[18px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005]  rounded-[8px] !w-fit h-[50px]"
               >
-                Watch Live Trading Here
+                {t("crypto_exchange_sec.watch_live_button")}
               </button>
             </div>
           </div>

@@ -1,535 +1,967 @@
 {
   "navbar": {
-    "whatIsBlockchainFX": "What is BlockchainFX?",
-    "howToBuy": "How to Buy",
-    "whitepaper": "Whitepaper",
-    "referral": "Referral",
-    "reviews": "Reviews",
-    "languages": "Languages"
+    "whatIsBlockchainFX": "BlockchainFXとは？",
+    "howToBuy": "購入方法",
+    "whitepaper": "ホワイトペーパー",
+    "referral": "紹介プログラム",
+    "reviews": "レビュー",
+    "languages": "言語",
+    "dashboard": "ダッシュボード",
+    "connect_wallet": "ウォレット接続"
   },
   "live_presale_section": {
-    "title": "BFX Presale is Live",
-    "buy_button": "Buy BFX"
+    "title": "BFXプレセール開催中",
+    "buy_button": "BFXを購入"
   },
-  "hero_section": {
-    "hero_title": "The First Crypto <br /> Trading <span>Super App</span>", 
-    "hero_subtitle": "Connecting Blockchain and Global Finance",
-    "hero_description": "BlockchainFX is the only crypto native trading platform providing instant access to the world’s largest financial markets with the release of its new BFX coin.",
-    "join_whitelist": "Buy $BFX",
-    "whitepaper": "Watch Demo",
-    "rated_by_users": "Verified Ratings"
+  "hero": {
+    "title": "世界初の暗号資産 <br /> トレーディング",
+    "title_highlight": "スーパーアプリ",
+    "subtitle": "BlockchainFXは、DeFiと従来の金融市場をつなぐ次世代型の暗号資産取引所です。株式、FX、ETFなど、幅広い資産にアクセスできる唯一のWeb3プラットフォームです。",
+    "feature1": "ブロックチェーンと金融をつなぐ世界初の取引所",
+    "feature2": "ビットコイン、イーサリアム、ゴールド、テスラなど500種類以上の資産",
+    "feature3": "2025年『ベスト新暗号資産トレーディングアプリ』受賞",
+    "featuremob1": "500以上の資産にわたり、ブロックチェーンと伝統的金融をつなぐ初の取引所",
+"featuremob2": "ビットコイン、イーサリアム、ゴールド、株式、FX、ETF、オプション、先物をすべて1つの場所で",
+"featuremob3": "BlockchainFXは「2025年最優秀新暗号取引アプリ」として表彰されました",
+    "buy_button": "$BFXを購入",
+    "how_it_works_button": "仕組みを見る",
+    "audited_by": "監査・承認済み",
+    "verified_ratings": "認証済み評価",
+    "rating": "4.87/5",
+    "presale_stage_almost_sold_out": "$BFXプレセールステージはまもなく完売します"
   },
-  "Featured_Sec":{
-    "featured_in": "Featured In:"
+  "featured_sec": {
+    "featured_in": "掲載メディア："
   },
   "KYCVerified": {
-    "security_verified_title": "Security Verified by Industry Experts",
-    "completed": "Completed",
+    "security_verified_title": "業界専門家によるセキュリティ認証",
+    "completed": "完了",
     "card_items": [
       {
-        "title": "External Audit by Coinsult",
-        "description": "BlockchainFX has been fully audited by Coinsult, a trusted auditing firm from the Netherlands, and confirmed to be 100% secure."
+        "title": "Coinsultによる外部監査",
+        "description": "BlockchainFXはオランダの信頼できる監査会社Coinsultによって完全に監査され、<br />100％安全であることが確認されました。"
       },
       {
-        "title": "External Audit by CertiK",
-        "description": "CertiK, the world’s leading blockchain security company, audited BlockchainFX and confirmed it meets the highest security standards."
+        "title": "CertiKによる外部監査",
+        "description": "世界有数のブロックチェーンセキュリティ企業CertiKがBlockchainFXを監査し、<br />最高水準のセキュリティ基準を満たしていることを確認しました。"
       },
       {
-        "title": "Team KYC Verified by Solidproof",
-        "description": "The BlockchainFX team has been successfully verified by Solidproof, a reputable auditing company from Germany."
+        "title": "SolidproofによるチームKYC認証",
+        "description": "BlockchainFXチームは、ドイツの信頼できる監査会社Solidproofによって正常に認証されました。"
       }
     ]
   },
-    "experts": {
-      "heading": "What Experts Say About BFX",
-      "slide1": {
-        "text": "Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading. It’s not just a token, it’s your key to passive staking income.",
-        "name": "Crypto Volt",
-        "role": "Crypto Youtuber, 178K Followers"
-      },
-      "slide2": {
-        "text": "Forex, indices, stocks, ETFs, even options — you can trade them all in one place. It’s the first platform of its kind.",
-        "name": "Crypto Dealer",
-        "role": "Youtuber, 102K Followers"
-      },
-      "slide3": {
-        "text": "Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be",
-        "name": "Crypto Pandas",
-        "role": "Youtuber, 22.7K Followers"
-      }
+  "experts": {
+    "heading": "BFXについて専門家の声",
+    "slide1": {
+      "text": "CoinbaseやBinanceに初日に参加できると想像してみてください。それがまさにBFXが現在プレセールで提供しているものです。",
+      "name": "Clay Bro",
+      "role": "暗号資産系YouTuber、フォロワー13.6万人"
     },
-      "blockchainfx_demo": {
-        "title": "BlockchainFX Demo",
-        "description": "In just a few seconds, users can trade BTC, Tesla, Gold, Pepe, ETFs, CFDs, and more — all seamlessly on one platform without switching brokers.",
-        "buy_button": "Buy $BFX",
-        "start_trading_button": "Start Trading (Beta)"
-      },
-      "creditCard": {
-    "title": "BFX Visa Card",
-    "item1": "Unlimited Spending",
-    "item2": "Metal or 18 Karat Gold Card",
-    "item3": "Up to $100,000 per Transaction",
-    "item4": "Up to $10K Monthly ATM Withdrawals",
-    "item5": "Use BFX and USDT Rewards for Payments",
-    "item6": "Accepted Worldwide (Online & In-Stores)",
-    "item7": "Top Up with BFX and 20+ Crypto",
-    "item8": "BFX Visa Card Only Available in Presale",
-    "compatibleWith": "Compatible with",
-    "shippingNote": "Shipping will begin once the BFX presale ends, as all cards will be sent out simultaneously. Every BFX Founder’s Club member will receive a secure form after the presale to submit their shipping details. Cards will be delivered worldwide via DHL or FedEx Express."
+    "slide2": {
+      "text": "BFXを保有していれば、取引手数料から毎日USDT報酬を獲得できます。取引していなくても、これは単なるトークンではなく、パッシブステーキング収入への鍵です。",
+      "name": "Crypto Volt",
+      "role": "暗号資産系YouTuber、フォロワー17.9万人"
+    },
+    "slide3": {
+      "text": "FX、指数、株式、ETF、オプションまで、すべて1つの場所で取引できます。これは初のプラットフォームです。",
+      "name": "Crypto Dealer",
+      "role": "YouTuber、フォロワー10.2万人"
+    },
+    "slide4": {
+      "text": "このプラットフォームで誰かが取引するたびに報酬を得られます。BFXを多く保有するほど、報酬も増えます。",
+      "name": "Crypto Pandas",
+      "role": "YouTuber、フォロワー2.27万人"
+    }
+  },
+  "blockchainfx_demo": {
+    "title": "BlockchainFXデモ",
+    "description": "数秒でBTC、テスラ、ゴールド、Pepe、ETF、CFDなどを1つの強力なプラットフォームでシームレスに取引できます。",
+    "buy_button": "BFXを購入",
+    "watch_live_button": "ライブ取引を見る",
+    "assets_title": "500以上の資産",
+    "assets_description": "BlockchainFXは、Web3ユーザーが暗号資産と伝統的資産クラスを即座に交換できる唯一の取引所です。<br />遅延なし、追加手数料なし、プラットフォーム切り替え不要。高速かつリアルタイムの取引を実現。",
+    "asset_list_title": "BlockchainFXで取引できる資産：",
+    "asset_crypto": "暗号資産",
+    "asset_stocks": "株式",
+    "asset_forex": "FX",
+    "asset_commodities": "コモディティ",
+    "asset_etfs": "ETF",
+    "asset_options": "オプション",
+    "asset_futures": "先物",
+    "asset_indices": "指数",
+    "asset_cfds": "CFDなど"
+  },
+  "creditCard": {
+    "title": "BFX Visaカード",
+    "item1": "無制限の利用限度額",
+    "item2": "メタルまたは18金ゴールドカード",
+    "item3": "1回の取引で最大10万ドル",
+    "item4": "月間最大1万ドルATM引き出し",
+    "item5": "BFXおよびUSDT報酬で支払い可能",
+    "item6": "世界中で利用可能（オンライン・店舗両方）",
+    "item7": "BFXおよび20種類以上の暗号資産でチャージ",
+    "item8": "BFX Visaカードはプレセール限定",
+    "compatibleWith": "対応ウォレット",
+    "shippingNote": "BFXプレセール終了後に一斉発送されます。全てのFounder's Clubメンバーには、発送先情報を提出するための安全なフォームが配布されます。カードはDHLまたはFedEx Expressで世界中に配送されます。"
   },
   "whitepaper": {
-    "heading": "BFX Whitepaper",
-    "description": "Explore the whitepaper to learn how BFX powers a next-gen trading ecosystem. Discover its key features and advantages, and see how BlockchainFX is bridging the gap between blockchain and traditional finance by creating the crypto industry's first trading super app.",
-    "buyButton": "Buy $BFX",
-    "accessButton": "Access Whitepaper"
+    "heading": "BFXホワイトペーパー",
+    "description": "ホワイトペーパーを読んで、BFXがどのように次世代の取引エコシステムを実現しているかをご覧ください。主な特徴や利点、そしてBlockchainFXがブロックチェーンと伝統金融のギャップを埋め、業界初の取引スーパーアプリを創出する仕組みを解説します。",
+    "buyButton": "$BFXを購入",
+    "accessButton": "ホワイトペーパーを読む"
   },
-    
   "wallet_section": {
-    "title": "BFX Presale",
-    "description": "BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, <br /> where holders earn real USDT rewards anytime someone trades — even during the presale.",
-    "how_to_buy": "How To Buy",
-    "step_1_title": "1. Choose a Payment Method",
-    "step_1_description": "<li>Connect your crypto wallet</li><li>Choose between card and 10+ cryptocurrencies</li><li>Enter the amount of BFX you want to buy</li>",
-    "step_2_title": "2. Confirm Transaction",
-    "step_2_description": "<li>Click 'Buy Now' and send the funds to the wallet listed</li><li>Important: Make sure to use a decentralised wallet like Metamask, Phantom, Coinbase or Trust Wallet</li><li>Your BFX will be linked to the same wallet address you used for payment and will show up on your dashboard instantly.</li><li>Connect your wallet using the 'Connect Wallet' button in the top right corner to access the dashboard and check your BFX balance.</li>",
-    "step_3_title": "3. Start Earning Today",
-    "step_3_description": "<p>Earn BFX and USDT rewards from day one!</p><li>Staking rewards are added to your dashboard daily</li>",
-    "step_4_title": "4. Claim",
-    "step_4_description": "<p>Congratulations! Your tokens will be transferred to your wallet automatically after the presale ends. You don't need to do anything. <br/><br/>Thank you for being part of the BFX journey!</p>",
-    "launch_title": "5. Launch",
-    "launch_description": "$BFX Launches On Multiple Top-Tier Exchanges"
+    "title": "BFXプレセール",
+    "description": "BFXは、グローバルなマルチアセット取引プラットフォームに裏付けられた世界初の暗号資産です。<br />保有者は誰かが取引するたびにUSDT報酬を受け取れます（プレセール期間中も）。",
+    "presale_ended": "プレセール終了",
+    "uniswap": "UNISWAP",
+    "how_to_buy": "購入方法",
+    "step_1_title": "1. 支払い方法を選択",
+    "step_1_description": "<li>暗号資産ウォレットを接続</li><li>希望の支払い方法を選択</li><li>購入したいBFXの数量を入力</li>",
+    "step_2_title": "2. 取引を確認",
+    "step_2_description": "<li>「今すぐ購入」をクリックし、取引を確認</li>",
+    "step_3_title": "3. 今日から報酬を獲得",
+    "step_3_description": "<p>初日からBFXとUSDT報酬を獲得！</p> <br/><li>ステーキング報酬は24時間ごとに支払われ、自動的にウォレットに追加されます。</li>",
+    "step_4_title": "4. クレーム",
+    "step_4_description": "<p>おめでとうございます！プレセール終了後、このウェブサイトでワンクリックでトークンを請求できます。<br/><br/>BFXの旅にご参加いただきありがとうございます！</p>",
+    "launch_title": "5. ローンチ",
+    "exchanges": "$BFXは複数の大手取引所に上場予定",
+    "launch_description": "$BFXは複数の大手取引所に上場予定",
+    "buttonBuy": "今すぐ購入",
+    "buttonBuybfx": "BFXを購入"
   },
   "next_generation_section": {
-    "title": "Next Generation Trading Experience",
-    "team_experience": "Team with 25 Years <br /> Of Experience",
-    "assets": "500+ <br /> Assets",
-    "tight_spreads": "Ultra <br /> Tight Spreads",
-    "live_chat": "24/7 Live <br /> Chat Support",
-    "register": "Register <br /> in Seconds",
-    "one_click": "One-Click <br /> Trading",
-    "leverage": "Leverage <br /> Trading",
-    "charts": "Up to 9 <br /> Charts",
-    "indicators": "100+ <br /> Indicators",
-    "tournaments": "Monthly <br /> Tournaments"
+    "title": "次世代の取引体験",
+    "team_experience": "25年<br />の経験",
+    "assets": "500+<br />資産",
+    "tight_spreads": "超タイト<br />スプレッド",
+    "live_chat": "24/7ライブ<br />チャットサポート",
+    "register": "数秒で<br />登録完了",
+    "one_click": "ワンクリック<br />取引",
+    "leverage": "レバレッジ<br />取引",
+    "charts": "最大9<br />チャート",
+    "indicators": "100+<br />インジケーター",
+    "tournaments": "毎月の<br />トーナメント"
   },
   "trade_over_section": {
-    "title": "More Than 500 Different Assets",
+    "title": "500種類以上の資産",
     "crypto": {
-      "title": "Crypto",
-      "description": "Bitcoin, Ethereum, Solana, Pepe, and more."
+      "title": "暗号資産",
+      "description": "ビットコイン、イーサリアム、ソラナ、Pepeなど。"
     },
     "stocks": {
-      "title": "Stocks",
-      "description": "Apple, Tesla, Nvidia, Netflix, Coca Cola and more."
+      "title": "株式",
+      "description": "アップル、テスラ、エヌビディア、ネットフリックス、コカ・コーラなど。"
     },
     "forex": {
-      "title": "Forex",
-      "description": "USD, EUR, JPY, GBP, AUD, and more."
+      "title": "FX",
+      "description": "USD、EUR、JPY、GBP、AUDなど。"
     },
     "commodities": {
-      "title": "Commodities",
-      "description": "Gold, Silver, Oil, Sugar, and more."
+      "title": "コモディティ",
+      "description": "ゴールド、シルバー、オイル、砂糖など。"
     },
     "indices": {
-      "title": "Indices",
-      "description": "Dow Jones, S&P 500, Nasdaq and more."
+      "title": "指数",
+      "description": "ダウ・ジョーンズ、S&P 500、ナスダックなど。"
     }
   },
   "one_app_section": {
-    "title": "Everything In One App",
-    "description": "A lightning-fast and innovative trading solution",
+    "title": "すべてが1つのアプリで",
+    "description": "超高速で革新的な取引ソリューション",
     "any_device": {
-      "title": "Any Device",
-      "description": "Users can trade from any device, whether it's a PC, Mac, iOS, or Android."
+      "title": "あらゆるデバイス",
+      "description": "PC、Mac、iOS、Androidなど、どのデバイスからでも取引可能です。"
     },
     "technical_tools": {
-      "title": "Technical Tools",
-      "description": "Advanced technical tools designed to enhance market analysis and decision-making."
+      "title": "テクニカルツール",
+      "description": "市場分析や意思決定を強化する高度なテクニカルツールを搭載。"
     },
     "risk_management": {
-      "title": "Risk Management",
-      "description": "Comprehensive risk management features to minimize risks."
+      "title": "リスク管理",
+      "description": "リスクを最小限に抑える包括的なリスク管理機能。"
     },
     "multiple_charts": {
-      "title": "Multiple Charts",
-      "description": "Traders can use multiple charts at the same time for better market insights."
+      "title": "複数チャート",
+      "description": "複数のチャートを同時に使い、より深い市場洞察を得られます。"
+    }
+  },
+  "one_app_sec": {
+    "badge": "現在ライブ中（ベータ版）",
+    "title": "毎日もらえるステーキング報酬",
+    "subtitle": "今すぐ参加して毎日報酬を獲得しよう",
+    "note": "ウォレットを接続し、右上のダッシュボードで個人情報を確認できます",
+    "items": {
+      "own_bfx": {
+        "title": "BFXを保有",
+        "description": "プレセール期間中に数秒でBFXを購入できます。"
+      },
+      "stake_bfx": {
+        "title": "BFXをステーキング",
+        "description": "プレセールダッシュボードで「ステーキング」をクリックし、金額を選択して確定します。"
+      },
+      "dashboard": {
+        "title": "個人ダッシュボード",
+        "description": "ウォレットを接続し、右上の「ダッシュボード」をクリックしてBFX残高を確認できます。"
+      },
+      "staking_rewards": {
+        "title": "ステーキング報酬",
+        "description": "BFXとUSDTの報酬は、コインをステーキングしてから24時間後にダッシュボードに表示されます。"
+      }
     }
   },
   "earn_on_section": {
-    "title": "Earn Daily With BFX",
-    "description": "BFX holders earn daily staking rewards in USDT and BFX, powered by BlockchainFX trading fees. Every time someone trades on the app, holders get rewarded. The more BFX a person holds, the more they earn — up to a maximum of 25,000 USDT per day."
+    "title": "BFXで毎日稼ぐ",
+    "description": "BFX保有者は、BlockchainFXの取引手数料によってUSDTとBFXのステーキング報酬を毎日受け取れます。アプリで誰かが取引するたびに保有者に報酬が分配されます。BFXの保有量が多いほど、最大25,000 USDT/日まで多く稼げます。",
+    "button": "$BFXを購入"
   },
- "how_does_it_section": {
-    "title": "How Does It Work?",
-    "description": "Discover the features and benefits of BlockchainFX.",
-    "trading_platform": {
-      "title": "Trading Platform",
-      "description": "BlockchainFX is a multi-asset trading platform that offers a wide range of trading options."
-    },
-    "fee_distribution": {
-      "title": "Fee Distribution",
-      "description": "70% of trading fees are used to reward the BFX community and drive the ecosystem’s growth."
-    },
-    "daily_revenue": {
-      "title": "Daily Revenue (50%)",
-      "description": "50% of all fees collected will be distributed to BFX holders and automatically added to their wallets."
-    },
-    "buybacks": {
-      "title": "Buybacks (20%)",
-      "description": "20% of the fees are used to buy back $BFX daily, helping boost demand and support the price."
-    },
-    "burn": {
-      "title": "Burn",
-      "description": "Half of the bought-back tokens are permanently burned, gradually reducing the supply of $BFX."
-    },
-    "fueling_growth": {
-      "title": "Fueling the Growth Engine",
-      "description": "The deflationary model and automatic buybacks drive the potential for exponential growth in $BFX."
+  "how_does_it_sec": {
+    "title": "仕組みは？",
+    "subtitle": "BlockchainFXは、ユーザーが暗号資産、株式、FX、ETFなどを取引できるグローバル取引所です。<br />誰かが取引するたびに、取引手数料の70％が$BFXステーキングプール、買戻し、トークンバーンに充てられます。<br />ステーキング報酬はBFX保有量に応じて決まり、1日最大25,000 USDTまでです。",
+    "subtitle_des": "BlockchainFXは、ユーザーが暗号資産、株式、FX、ETFなどを取引できるグローバル取引所です。誰かが取引するたびに、取引手数料の70％が$BFXステーキングプール、買戻し、トークンバーンに充てられます。ステーキング報酬はBFX保有量に応じて決まり、1日最大25,000 USDTまでです。",
+    "cards": {
+      "staking_rewards": {
+        "title": "BFX＆USDTステーキング報酬",
+        "description": "集められた手数料の50％が自動的にBFX保有者（ステーキング済み）に分配されます。"
+      },
+      "buybacks": {
+        "title": "毎日の買戻し",
+        "description": "手数料の20％は毎日$BFXの買戻しに使われ、需要と価格をサポートします。"
+      },
+      "burn": {
+        "title": "BFXコインのバーン",
+        "description": "買い戻されたトークンの半分は永久にバーンされ、$BFXの供給量が徐々に減少します。"
+      }
     }
   },
- 
- "premium_section": {
-    "title": "Limited Founder's Club Membership",
-    "description": "Buy BFX during the presale and become a Founder's Club Member starting from just $1,000. Get your exclusive NFT, BFX Visa Card, Bonus Tokens, Daily USDT Staking Rewards, and Free Trading Credits.",
+  "premium_section": {
+    "title": "特別ボーナスが1,000ドルから",
+    "description": "プレセール期間中にBFXを購入し、1,000ドルからFounder's Clubに参加しましょう。限定NFT、BFX Visaカード、ボーナストークン、毎日のUSDTステーキング報酬、無料取引クレジットが手に入ります。プレセール限定特典です。",
     "cards": [
       {
-        "title": "Novice",
+        "title": "ビギナー",
         "price": "$1,000",
-        "points": ["Early Access", "10% BFX Bonus", "BFX Visa Card"],
-        "buttonLabel": "Buy $BFX • $1,000"
+        "points": ["BFX Visaカード", "10% BFXボーナス", "BFXステーキング報酬", "毎日USDT報酬", "最大$25kの取引クレジット"],
+        "buttonLabel": "BFXを購入 • $1,000",
+        "cardPointsTooltips": [
+          "BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
+          "このNFTを購入すると追加のBFXコインがウォレットに付与されます。",
+          "BlockchainFXで誰かが取引するたびにBFXステーキング報酬を受け取れます。",
+          "USDT報酬はBFXステーキング収益の割合で支払われます。",
+          "プレセール終了後、BlockchainFXで使える取引クレジットが付与されます。"
+        ]
       },
       {
-        "title": "Advanced",
+        "title": "アドバンス",
         "price": "$2,500",
-        "points": ["Early Access", "20% BFX Bonus", "Metal BFX Visa Card", "$500 Trading Credits"],
-        "buttonLabel": "Buy $BFX • $2,500"
+        "points": ["BFX Visaカード", "20% BFXボーナス", "BFXステーキング報酬", "$500取引クレジット", "毎日USDT報酬"],
+        "buttonLabel": "BFXを購入 • $2,500",
+        "cardPointsTooltips": [
+          "BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
+          "このNFTを購入すると追加のBFXコインがウォレットに付与されます。",
+          "BlockchainFXで誰かが取引するたびにBFXステーキング報酬を受け取れます。",
+          "プレセール終了後、BlockchainFXで使える取引クレジットが付与されます。",
+          "USDT報酬はBFXステーキング収益の割合で支払われます。"
+        ]
       },
       {
-        "title": "Pro",
+        "title": "プロ",
         "price": "$5,000",
-        "points": ["Early Access", "30% BFX Bonus", "Metal BFX Visa Card", "$1000 Trading Credits"],
-        "buttonLabel": "Buy $BFX • $5,000"
+        "points": ["メタルBFX Visaカード", "30% BFXボーナス", "BFXステーキング報酬", "$1,000取引クレジット", "毎日USDT報酬"],
+        "buttonLabel": "BFXを購入 • $5,000",
+        "cardPointsTooltips": [
+          "BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
+          "このNFTを購入すると追加のBFXコインがウォレットに付与されます。",
+          "BlockchainFXで誰かが取引するたびにBFXステーキング報酬を受け取れます。",
+          "プレセール終了後、BlockchainFXで使える取引クレジットが付与されます。",
+          "USDT報酬はBFXステーキング収益の割合で支払われます。"
+        ]
       },
       {
-        "title": "Expert",
-        "price": "$10,000+",
-        "points": ["Early Access", "40% BFX Bonus", "10% USDT Rewards", "Metal BFX Visa Card", "$2000 Trading Credits"],
-        "buttonLabel": "Buy $BFX • $10,000"
+        "title": "エキスパート",
+        "price": "$10,000",
+        "points": ["メタルBFX Visaカード", "40% BFXボーナス", "BFXステーキング報酬", "10% USDT報酬", "$2,000取引クレジット"],
+        "buttonLabel": "BFXを購入 • $10,000",
+        "cardPointsTooltips": [
+          "BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
+          "このNFTを購入すると追加のBFXコインがウォレットに付与されます。",
+          "BlockchainFXで誰かが取引するたびにBFXステーキング報酬を受け取れます。",
+          "USDT報酬はBFXステーキング収益の割合で支払われます。",
+          "プレセール終了後、BlockchainFXで使える取引クレジットが付与されます。"
+        ]
       },
       {
-        "title": "Master",
-        "price": "$25,000+",
-        "points": ["Early Access", "50% BFX Bonus", "15% USDT Rewards", "Metal BFX Visa Card", "$5000 Trading Credits"],
-        "buttonLabel": "Buy $BFX • $25,000"
+        "title": "マスター",
+        "price": "$25,000",
+        "points": ["メタルBFX Visaカード", "50% BFXボーナス", "BFXステーキング報酬", "15% USDT報酬", "$5,000取引クレジット"],
+        "buttonLabel": "BFXを購入 • $25,000",
+        "cardPointsTooltips": [
+          "メタルBFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
+          "このNFTを購入すると追加のBFXコインがウォレットに付与されます。",
+          "BlockchainFXで誰かが取引するたびにBFXステーキング報酬を受け取れます。",
+          "USDT報酬はBFXステーキング収益の割合で支払われます。",
+          "プレセール終了後、BlockchainFXで使える取引クレジットが付与されます。"
+        ]
       },
       {
-        "title": "Elite",
-        "price": "$50,000+",
-        "points": [
-          "Early Access",
-          "60% BFX Bonus",
-          "20% USDT Rewards",
-          "Metal BFX Visa Card",
-          "$10,000 Trading Credits"
-        ],
-        "buttonLabel": "Buy $BFX • $50,000"
+        "title": "エリート",
+        "price": "$50,000",
+        "points": ["メタルBFX Visaカード", "60% BFXボーナス", "BFXステーキング報酬", "20% USDT報酬", "$10,000取引クレジット"],
+        "buttonLabel": "BFXを購入 • $50,000",
+        "cardPointsTooltips": [
+          "メタルBFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
+          "このNFTを購入すると追加のBFXコインがウォレットに付与されます。",
+          "BlockchainFXで誰かが取引するたびにBFXステーキング報酬を受け取れます。",
+          "USDT報酬はBFXステーキング収益の割合で支払われます。",
+          "プレセール終了後、BlockchainFXで使える取引クレジットが付与されます。"
+        ]
       },
       {
-        "title": "Legend",
-        "price": "$100,000+",
-        "points": [
-          "Early Access",
-          "80% BFX Bonus",
-          "30% USDT Rewards",
-          "18 Karat BFX Visa Card",
-          "$25,000 Trading Credits"
-        ],
-        "buttonLabel": "Buy $BFX • $100,000"
+        "title": "レジェンド",
+        "price": "$100,000",
+        "points": ["18金BFX Visaカード", "80% BFXボーナス", "BFXステーキング報酬", "30% USDT報酬", "$25,000取引クレジット"],
+        "buttonLabel": "BFXを購入 • $100,000",
+        "cardPointsTooltips": [
+          "18金BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
+          "このNFTを購入すると追加のBFXコインがウォレットに付与されます。",
+          "BlockchainFXで誰かが取引するたびにBFXステーキング報酬を受け取れます。",
+          "USDT報酬はBFXステーキング収益の割合で支払われます。",
+          "プレセール終了後、BlockchainFXで使える取引クレジットが付与されます。"
+        ]
       }
     ],
     "nft_label": "NFT",
     "faq": {
-      "title": "Questions About The Founder's Club",
+      "title": "Founder's Clubに関する質問",
       "questions": [
         {
-          "question": "When will I get my Founder's Club NFT?",
-          "answer": "<li>You'll receive your Founder's Club NFT automatically after purchasing the required amount of $BFX.</li> <li>The NFT will appear in your personal dashboard and can be claimed once the presale ends.</li> <li>To access the dashboard, connect the same wallet by clicking 'Connect Wallet' in the top right corner.</li>"
+          "question": "Founder's Club NFTはいつもらえますか？",
+          "answer": "<li>必要なBFXを購入後、自動的にFounder's Club NFTが付与されます。</li> <li>NFTは個人ダッシュボードに表示され、プレセール終了後に請求できます。</li> <li>ダッシュボードにアクセスするには、右上の「ウォレット接続」から同じウォレットを接続してください。</li>"
         },
         {
-          "question": "When will I get my Bonuses?",
-          "answer": "<li>Your BFX bonuses will be instantly added to your dashboard</li><li>To access your dashboard, click the 'Connect Wallet' button</li>"
+          "question": "ボーナスはいつもらえますか？",
+          "answer": "<li>BFXボーナスは即座にダッシュボードに反映されます。</li><li>ダッシュボードにアクセスするには「ウォレット接続」ボタンをクリックしてください。</li>"
         },
         {
-          "question": "Can I get an NFT with multiple purchases?",
-          "answer": "<li>Yes, you can buy $BFX in smaller amounts to reach the total required. </li><li>For example, buying $200 worth of $BFX five times will earn you the Novice NFT (valued at $1,000).</li>"
+          "question": "複数回購入でNFTはもらえますか？",
+          "answer": "<li>はい、複数回に分けて$BFXを購入しても合計額で条件を満たせばNFTがもらえます。</li><li>例：$200分を5回購入すれば、ビギナーNFT（$1,000相当）が獲得できます。</li>"
         },
         {
-          "question": "Can I upgrade my NFT?",
+          "question": "NFTのアップグレードはできますか？",
           "tooltip": true,
-          "answer": "<li>Yes, you can upgrade multiple times during the presale.</li> <li>You'll receive rewards and the NFT for the highest level you achieve.</li> <li>After the presale ends, upgrades will no longer be possible.</li>"
+          "answer": "<li>はい、プレセール期間中は何度でもアップグレード可能です。</li> <li>達成した最高レベルのNFTと報酬が付与されます。</li> <li>プレセール終了後はアップグレードできません。</li>"
         }
       ],
       "tooltip_text": {
-        "line1": "For example, buying $1,000 of $BFX gives you the Novice NFT.",
-        "line2": "Spend $1,500 more to upgrade to Advanced.",
-        "line3": "You can keep upgrading until you reach the final Legend NFT."
+        "line1": "例：$1,000分のBFX購入でビギナーNFTがもらえます。",
+        "line2": "さらに$1,500購入でアドバンスにアップグレード。",
+        "line3": "最終的にレジェンドNFTまでアップグレード可能です。"
       }
     }
   },
   "exclusive_benefits_section": {
-    "title": "Benefits Of Buying BFX During The Presale",
+    "title": "プレセールでBFXを購入するメリット",
     "items": {
       "benefit_1": {
-        "title": "Lowest Token Price <br/>Before Launch",
-        "description": "Buying during the pre-sale allows you to secure a significant lower price compared to the BFX launch price."
+        "title": "ローンチ前の最安値で<br/>トークンを購入",
+        "description": "プレセール期間中に購入することで、BFXローンチ価格よりも大幅に安くトークンを手に入れることができます。"
       },
       "benefit_2": {
-        "title": "Limited Edition <br/>BFX Visa Cards",
-        "description": "Get a metal or 18 karat gold BFX Visa credit card with unlimited spending and top-ups, usable worldwide."
+        "title": "限定版<br/>BFX Visaカード",
+        "description": "メタルまたは18金ゴールドのBFX Visaクレジットカードを入手。無制限の利用・チャージが可能で、世界中で使えます。"
       },
       "benefit_3": {
-        "title": "Exclusive Bonus <br/>Trading Credits",
-        "description": "Get up to $25,000 in free trading credits to kickstart trading on BlockchainFX with no conditions attached."
+        "title": "限定ボーナス<br/>取引クレジット",
+        "description": "最大$25,000分の無料取引クレジットを獲得。条件なしでBlockchainFXでの取引をすぐに始められます。"
       },
       "benefit_4": {
-        "title": "Daily USDT <br/>Staking Rewards",
-        "description": "Start earning USDT and BFX rewards today by joining the BFX presale. The earlier you buy, the more you can earn over time."
+        "title": "毎日もらえるUSDT<br/>ステーキング報酬",
+        "description": "BFXプレセールに参加するだけで、今日からUSDTとBFXの報酬を獲得できます。早く購入するほど、長期的に多くの報酬を得られます。"
       }
     }
   },
   "less_than_section": {
-    "title": "Designed for Exponential Growth",
-    "description": "BlockchainFX is a community-powered trading platform that rewards BFX holders daily. As the platform grows, so does the token — creating a powerful cycle of growth and engagement. Studies* show that incentivized communities can grow significantly faster than others, and BFX is designed to maximize that potential.",
+     "title": "暗号資産と金融の橋渡し",
+   "description": "暗号通貨は2024年の世界の取引量のうちわずか0.87％を占め、1日平均843億ドルです。一方、外国為替市場は1日あたり7.5兆ドルを扱っています。このギャップは、BFXが暗号通貨ユーザーを世界最大の金融市場とつなぐ大きなチャンスを意味します。",
     "costs": {
-      "title": "Costs",
-      "description": "Up to $2 Million"
+      "title": "コスト",
+      "description": "最大200万ドル"
     },
+    "chart_title": "2024年の平均日次取引高",
     "time": {
-      "title": "Time",
-      "description": "Up to 3 years"
+      "title": "期間",
+      "description": "最長3年"
     },
     "team": {
-      "title": "Team",
-      "description": "Experienced multilingual team working in shifts, 24/7, 365 days a year."
+      "title": "チーム",
+      "description": "多言語対応の経験豊富なチームが24時間365日シフト制で対応"
     },
     "work_scope": {
-      "title": "Work Scope",
-      "description": "Capital Requirements, Marketing & Branding, Liquidity Providers, Risk Management Team, Customer Support, Technology Infrastructure, Partnerships, Development, Hiring and Managing Staff, and more."
+      "title": "業務範囲",
+      "description": "資本要件、マーケティング＆ブランディング、流動性プロバイダー、リスク管理チーム、カスタマーサポート、技術インフラ、パートナーシップ、開発、人材採用・管理など"
+    },
+    "gateway": {
+      "title": "グローバル市場へのゲートウェイ",
+      "description": "新しい取引プラットフォームの立ち上げには多大な時間とリソースが必要です。一方、$BFXを購入するのは数秒で完了し、誰かが取引するたびに報酬を得られます。"
+    },
+    "growth": {
+      "title": "指数関数的成長を目指した設計",
+      "description": "BlockchainFXは、BFX保有者に毎日報酬を分配するコミュニティ主導の取引プラットフォームです。プラットフォームが成長するほどトークン価値も上昇し、成長とエンゲージメントの好循環が生まれます。インセンティブ付きコミュニティは他よりも大幅に成長しやすいことが研究で示されており、BFXはその可能性を最大化するよう設計されています。",
+      "source_note": "（*出典：Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020）",
+      "forecasting": "成長予測",
+      "blockchainfx": "BlockchainFX",
+      "regular_platform": "一般的な取引プラットフォーム"
+    },
+    "comparison": {
+      "new_platform": "新規取引プラットフォーム",
+      "blockchainfx": "BlockchainFX",
+      "costs_option": "あなた次第",
+      "time_option": "$BFXは2クリックで購入可能",
+      "team_option": "チーム不要",
+      "work_option": "作業不要"
+    },
+    "chart": {
+      "bonds": "債券：1.1兆ドル（11.64%）",
+      "stocks": "米国株式：7,000億ドル（7.15%）",
+      "commodities": "コモディティ：2,500億ドル（2.55%）",
+      "etfs": "ETF：1,500億ドル（1.53%）",
+      "crypto": "暗号資産：890億ドル（0.87%）",
+      "forex": "FX：7.5兆ドル（76.62%）"
+    },
+    "legend": {
+      "forex": "FX",
+      "bonds": "債券",
+      "us_stock": "米国株式",
+      "commodities": "コモディティ",
+      "etfs": "ETF",
+      "crypto": "暗号資産"
     }
   },
   "standout_section": {
-    "title": "Standout Features",
-    "description": "Cryptocurrencies from exchanges have historically performed well due to their active user base, platform revenue, and ongoing marketing. BFX, the first token from a multi-asset trading platform, offers unique features that bring real value to the market."
+    "title": "際立つ特徴",
+    "description": "取引所発の暗号資産は、アクティブなユーザーベース、プラットフォーム収益、継続的なマーケティングにより、歴史的に高いパフォーマンスを示してきました。BFXは、マルチアセット取引プラットフォーム発の初のトークンとして、市場に真の価値をもたらす独自の特徴を備えています。",
+    "table": {
+      "token_name": "トークン名",
+      "ranked": "ランキング",
+      "marketcap": "時価総額",
+      "trade_crypto": "暗号資産取引",
+      "leverage_trading": "レバレッジ取引",
+      "risk_management": "リスク管理",
+      "forex": "FX",
+      "commodities": "コモディティ",
+      "cfds": "CFD",
+      "etfs": "ETF",
+      "usdt_rewards": "USDT報酬",
+      "blockchainfx": "BlockchainFX",
+      "bitget": "Bitget",
+      "hyperliquid": "Hyperliquid",
+      "uniswap": "Uniswap"
+    }
   },
   "what_is_section": {
-    "title": "What Makes BFX Different?",
-    "description": "BFX is BlockchainFX's native coin, offering a unique opportunity to be part of a fast-growing global trading platform with the ambition to become one of the world's leading trading networks.",
+    "title": "BFXの特徴とは？",
+    "description": "BFXはBlockchainFXのネイティブコインであり、急成長中のグローバル取引プラットフォームの一員となるユニークな機会を提供します。世界有数の取引ネットワークを目指しています。",
     "features": {
-      "early_access": "Early Access",
-      "daily_staking_rewards": "Daily Staking Rewards",
-      "lower_trading_fees": "70% Less Trading Fees",
-      "trading_credits": "Trading Credits"
+      "early_access": "先行アクセス",
+      "daily_staking_rewards": "毎日もらえるステーキング報酬",
+      "lower_trading_fees": "取引手数料70%オフ",
+      "trading_credits": "取引クレジット"
     }
   },
   "token_allocation_section": {
-    "title": "Token Details",
-    "description": "The token allocation is structured to reward early supporters the most",
+    "title": "トークン詳細",
+    "description": "トークン配分は、最も早期のサポーターに最大の報酬が与えられるよう設計されています。",
     "token_name": {
-      "label": "Token Name",
+      "label": "トークン名",
       "value": "BlockchainFX"
     },
     "launch_on": {
-      "label": "Launch on",
-      "value": "Uniswap and CEX"
+      "label": "上場先",
+      "value": "UniswapおよびCEX"
     },
     "token_type": {
-      "label": "Token Type",
-      "value": "Ethereum"
+      "label": "トークンタイプ",
+      "value": "イーサリアム"
     },
     "token_symbol": {
-      "label": "Token Symbol",
+      "label": "トークンシンボル",
       "value": "BFX"
     },
     "decimal": {
-      "label": "Decimal",
+      "label": "小数点",
       "value": "18"
     },
     "total_supply": {
-      "label": "Total Supply",
+      "label": "総供給量",
       "value": "3.5B"
     },
     "contract_address": {
-      "label": "Token Contract Address"
+      "label": "トークンコントラクトアドレス"
     }
   },
-  "lineBreak": "<br />",
- "press_media_section": {
-    "title": "Press & Media",
-    "articles": [
-      {
-        "description": "BlockchainFX is quickly becoming the go-to trading platform in 2025, offering access to 500+ assets and rewarding benefits for users.",
-        "link": "https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/",
-        "link_text": "Read Article"
-      },
-      {
-        "description": "BlockchainFX is set to revolutionise the trading landscape as the first all-in-one crypto trading platform.",
-        "link": "https://www.binance.com/en/square/post/21135762162242",
-        "link_text": "Read Article"
-      },
-      {
-        "description": "BlockchainFX is the first trading app that lets users earn daily USDT passive income directly from trading fees.",
-        "link": "https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/",
-        "link_text": "Read Article"
-      }
-    ]
-  },
   "Roadmap_section": {
-  "Roadmap": "Roadmap",
-  "From Fintech Startup to Global Market Leader": "From Fintech Startup to Global Market Leader",
-  "Genesis": "Genesis",
-  "Foundations": "Foundations",
-  "Takeoff": "Takeoff",
-  "Scale": "Scale",
-  "Expansion": "Expansion",
-  "Global Reach": "Global Reach",
-  "Preparation": "Preparation",
-  "Completed": "Completed",
-  "Execution": "Execution",
-  "Launch": "Launch",
-  "On-going": "On-going",
-  "Performance": "Performance",
-  "Idea + concept": "Idea + concept",
-  "Raise Seed Funds": "Raise Seed Funds",
-  "Onboard Team & Advisors": "Onboard Team & Advisors",
-  "Trading Platform Beta Preparation": "Trading Platform Beta Preparation",
-  "Website, Tokenomics etc.": "Website, Tokenomics etc.",
-  "Create $BFX Token": "Create $BFX Token",
-  "Launch $BFX Pre-Sale": "Launch $BFX Pre-Sale",
-  "Certik Token Audit": "Certik Token Audit",
-  "Launch an Affiliate Program": "Launch an Affiliate Program",
-  "Sell Out the Pre-Sale": "Sell Out the Pre-Sale",
-  "Launch $BFX on Uniswap and CEX": "Launch $BFX on Uniswap and CEX",
-  "Achieving 10000 BFX Holders": "Achieving 10000 BFX Holders",
-  "Multiple CEX Listing": "Multiple CEX Listing",
-  "Achieving-100,000-BFX-Holders": "Achieving 100000 BFX Holders",
-  "Reach $100M Daily Trading Volume": "Reach $100M Daily Trading Volume",
-  "Add Leaderboards & VIP accounts": "Add Leaderboards & VIP accounts",
-  "US License": "US License",
-  "Global Marketing Campaigns": "Global Marketing Campaigns",
-  "Major Global Partnerships": "Major Global Partnerships",
-  "next": "Next",
-  "previous": "Previous"
-},
+    "Roadmap": "ロードマップ",
+    "From Fintech Startup to Global Market Leader": "フィンテックスタートアップからグローバル市場のリーダーへ",
+    "Genesis": "創世期",
+    "Foundations": "基盤構築",
+    "Takeoff": "離陸",
+    "Scale": "拡大",
+    "Expansion": "展開",
+    "Global Reach": "グローバル展開",
+    "Preparation": "準備",
+    "Completed": "完了",
+    "Execution": "実行",
+    "Launch": "ローンチ",
+    "On-going": "進行中",
+    "Performance": "パフォーマンス",
+    "Idea + concept": "アイデア＋コンセプト",
+    "Raise Seed Funds": "シード資金調達",
+    "Onboard Team & Advisors": "チーム・アドバイザーの参加",
+    "Trading Platform Beta Preparation": "取引プラットフォームβ版準備",
+    "Website, Tokenomics etc.": "ウェブサイト、トークノミクス等",
+    "Create $BFX Token": "$BFXトークン作成",
+    "Launch $BFX Pre-Sale": "$BFXプレセール開始",
+    "Certik Token Audit": "Certikによるトークン監査",
+    "Launch an Affiliate Program": "アフィリエイトプログラム開始",
+    "Sell Out the Pre-Sale": "プレセール完売",
+    "Launch $BFX on Uniswap and CEX": "$BFXをUniswapおよびCEXに上場",
+    "Achieving 10000 BFX Holders": "BFX保有者1万人達成",
+    "Multiple CEX Listing": "複数CEXへの上場",
+    "Achieving-100,000-BFX-Holders": "BFX保有者10万人達成",
+    "Reach $100M Daily Trading Volume": "1億ドルの1日取引高達成",
+    "Add Leaderboards & VIP accounts": "リーダーボード＆VIPアカウント追加",
+    "US License": "米国ライセンス取得",
+    "Global Marketing Campaigns": "グローバルマーケティング展開",
+    "Major Global Partnerships": "主要グローバルパートナーシップ",
+    "next": "次へ",
+    "previous": "前へ"
+  },
   "multiAward": {
-    "heading": "Multi-Awarded Trading Platform",
-    "subheading": "Our Awards Speak For Themselves"
+    "heading": "数々の受賞歴を誇る取引プラットフォーム",
+    "subheading": "受賞歴が実力の証です",
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "最優秀取引<br />プラットフォーム<br />2025年",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "最速成長<br />取引ブローカー<br />2025年"
   },
   "trader_reviews_section": {
-    "title": "What Traders Say About BlockchainFX",
+    "title": "トレーダーが語る<span>BlockchainFX</span>",
     "ratings": {
-      "average": "4.87 out of 5",
-      "verified_ratings": "1000+ Verified Ratings"
+      "average": "5点満点中4.87",
+      "verified_ratings": "1000件以上の認証済み評価",
+      "rating_bars": [
+        { "rating": 5, "percentage": 86 },
+        { "rating": 4, "percentage": 8 },
+        { "rating": 3, "percentage": 3 },
+        { "rating": 2, "percentage": 2 },
+        { "rating": 1, "percentage": 1 }
+      ]
     },
     "reviews": [
       {
-        "text": "Finally, a platform that gets it right! I traded CFDs, bought Apple stocks, sold them for GBP, and grabbed some $PEPE, all within five minutes. Highly recommended for beginners and pros alike.",
+        "text": "ついに理想のプラットフォームが登場！CFDを取引し、APPLE株を購入し、GBYに売却し、$PEPEもゲット。すべて30分以内で完了。初心者にもプロにも強くおすすめします！",
         "user": {
-          "name": "LacosteBtc",
-          "followers": "35.2K Followers",
-          "link": "https://x.com/LacosteBtc/status/1899365804845548013"
+          "name": "Lacoste.btc",
+          "followers": "@Lacostebtc 3.51万人のフォロワー",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075",
+          "image": "usern",
+          "reviewLink": "Xレビューを見る"
         }
       },
       {
-        "text": "Trading on 9 different windows and having access to dozens of trading analytic tools and risk management is giving me a long-term edge over the competition trading on other platforms.",
+        "text": "9つのウィンドウで取引し、数多くの分析ツールやリスク管理機能を活用できるので、他のプラットフォームよりも長期的な優位性を得られます。",
         "user": {
           "name": "Mr 𝕏",
-          "followers": "472K followers",
-          "link": "https://x.com/MrX_Crypto/status/1900845071240515647"
+          "followers": "@MrX_Crypto • 47.2万人のフォロワー",
+          "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
+          "image": "user1",
+          "reviewLink": "Xレビューを見る"
         }
       },
       {
-        "text": "BlockchainFX has completely leveled up my trading game. It's super intuitive, lets you access multiple markets simultaneously, and offers lightning-fast transactions. A huge win for crypto!",
+        "text": "BlockchainFXなら無限の取引チャンスが広がります。市場が相互接続されているので当然のこと。ブローカーを切り替える手間がなくなり、非常に便利です。",
         "user": {
-          "name": "Honey.Eth",
-          "followers": "121.8K followers",
-          "link": "https://x.com/HoneyEth_/status/1900870121477820837"
-        }
-      },
-      {
-        "text": "That's exactly what we needed. A trading broker designed to bridge Crypto with Forex, ETFs, and stocks, giving you real access to the markets with deep liquidity.",
-        "user": {
-          "name": "Crypto Bri",
-          "followers": "79.6K followers",
-          "link": "https://x.com/cryptobri_/status/1901419367289512075"
+          "name": "Silvina Escudero",
+          "followers": "@silvinaescudero • 86.3万人のフォロワー",
+          "link": "https://x.com/silvinaescudero/status/1900845896302027108",
+          "image": "user2",
+          "reviewLink": "Xレビューを見る"
         }
       }
     ]
   },
   "faq_section": {
-    "title": "FAQs",
-    "description": "Find answers to some of the most common questions.",
+    "title": "よくある質問",
+    "description": "よくあるご質問とその回答をまとめました。",
     "faqs": [
       {
-        "question": "What is BlockchainFX?",
-        "answer": "BlockchainFX is an international multi-asset trading platform offering a wide range of trading opportunities, including Forex, Crypto, ETFs, and more, with advanced technical tools and risk management features."
+        "question": "BlockchainFXとは何ですか？",
+        "answer": "BlockchainFXは、FX、暗号資産、ETFなど幅広い取引機会を提供する国際的なマルチアセット取引プラットフォームです。高度なテクニカルツールやリスク管理機能も備えています。"
       },
       {
-        "question": "What is BFX?",
-        "answer": "BFX is the native token of the BlockchainFX platform, enabling early access, staking rewards in BFX and USDT, and providing access to premium features, as well as participation in the platform's ecosystem."
+        "question": "BFXとは何ですか？",
+        "answer": "BFXはBlockchainFXプラットフォームのネイティブトークンであり、先行アクセス、BFX・USDTでのステーキング報酬、プレミアム機能の利用、エコシステムへの参加が可能です。"
       },
       {
-        "question": "What is a crypto presale?",
-        "answer": "A crypto pre-sale is an early opportunity to purchase a new cryptocurrency or token before it becomes publicly available, typically at a significantly lower price than the official launch price on exchanges."
+        "question": "暗号資産プレセールとは？",
+        "answer": "暗号資産プレセールとは、新しい暗号資産やトークンを一般公開前に特別価格で購入できる早期販売機会です。通常、取引所上場時よりも大幅に安く購入できます。"
       },
       {
-        "question": "What is the goal of the presale?",
-        "answer": "The community event is dedicated to selling all pre-sale allocated tokens to accelerate platform growth and expansion. These funds will be strategically allocated to development, marketing, and securing top-tier exchange listings for BFX. <br/><br/>Our goal is to reach 100,000 active daily traders and generate multi-million dollar daily trading volume before the official launch. At the same time, we're building a strong, loyal, and engaged community, rewarding early supporters with discounted tokens, and maximizing awareness for the BFX launch."
+        "question": "プレセールの目的は？",
+        "answer": "このコミュニティイベントは、プレセール割当トークンをすべて販売し、プラットフォームの成長と拡大を加速させることを目的としています。調達資金は開発・マーケティング・BFXの主要取引所上場に戦略的に活用されます。<br/><br/>目標は、公式ローンチ前に10万人のアクティブデイトレーダーと数百万ドル規模の1日取引高を達成することです。同時に、強力で忠実なコミュニティを構築し、早期サポーターに割引トークンで報い、BFXローンチの認知度を最大化します。"
       },
       {
-        "question": "Where can I see my tokens?",
-        "answer": "You can view your tokens in your dashboard wallet. Simply click 'Connect Wallet' in the top right corner and connect the wallet you used for the purchase to see your BFX balance."
+        "question": "トークンはどこで確認できますか？",
+        "answer": "ダッシュボードウォレットでトークン残高を確認できます。右上の「ウォレット接続」をクリックし、購入時に使用したウォレットを接続してください。BFX残高が表示されます。"
       },
       {
-        "question": "Are my tokens safe?",
-        "answer": "The safety of your tokens during the pre-sale is 100% guaranteed through our smart contract."
+        "question": "トークンの安全性は？",
+        "answer": "プレセール期間中のトークンの安全性は、スマートコントラクトによって100％保証されています。"
       },
       {
-        "question": "How to claim your BFX?",
-        "answer": "Your tokens will be transferred to your wallet automatically after the presale ends. You don't need to do anything."
+        "question": "BFXの請求方法は？",
+        "answer": "プレセール終了後、トークンは自動的にウォレットに送付されます。特別な手続きは不要です。"
       }
     ]
   },
   "the_ultimate_section": {
-    "title": "The Ultimate Trading Platform",
-    "description": "Experience the best trading platform with advanced features and user-friendly interface.",
-    "buy_bfx": "Buy $BFX",
-    "need_support": "Need Support?"
+    "title": "究極の<br/>トレーディングプラットフォーム",
+    "description": "先進的な機能と使いやすいインターフェースで、最高の取引体験を実現。",
+    "buy_bfx": "$BFXを購入",
+    "need_support": "サポートが必要ですか？"
+  },
+  "biggest_buy": {
+    "title": "最大購入コンペティション",
+    "description": "BFXプレセールで最も多く購入した上位10名に、$BFXで総額10万ドルの賞金プールを分配します。このコンペティションは、最も貢献し、BlockchainFXエコシステムの成長に大きな役割を果たした方々への感謝の意を込めています。",
+    "table": {
+      "rank": "順位",
+      "wallet": "ウォレット",
+      "date": "日付",
+      "tx_count": "取引数",
+      "total_buy": "合計購入額",
+      "nft": "NFT",
+      "prize": "賞金"
+    },
+    "load_more": "さらに表示",
+    "view_less": "表示を減らす",
+    "note": "リストは毎週更新され、BFXプレセール期間中の取引に基づいています。"
+  },
+  "community_section": {
+    "title": "$BFXコミュニティの声",
+    "reviews": [
+      {
+        "name": "DANI",
+        "date": "2025年4月2日認証購入",
+        "description": "ウェイトリストに登録して12月に取引アプリのベータ版に早期アクセスできました。Binanceの進化版のような感覚で、絶対に伸びると確信し、過去数週間で5～6回買い増し。まだローンチ前なのにステーキングで既に3,750 USDTを獲得。すごい！"
+      },
+      {
+        "name": "ERIKS",
+        "date": "2025年3月31日認証購入",
+        "description": "BFXが最初にステーキングプールを開始したときに超早期で参加。ほとんど誰もいなかったので、報酬は少人数で分配されました。ステーキングで8,500ドル以上、USDTエアドロップで2,000ドル獲得。残りはそのまま放置。正直まだ信じられません…これは本物のアルファです。"
+      },
+      {
+        "name": "S.Z",
+        "date": "2025年4月17日認証購入",
+        "description": "すでにステーキングだけでしっかり報酬を得ていますが、本当に期待しているのはプレセール後の$BFXの可能性。Coinbaseのようなプラットフォームで手数料を払うより、ここなら報酬がもらえて株式も取引できる。みんな乗り換えるはず。BFXは次のビッグウェーブ。間違いなし。"
+      }
+    ]
+  },
+  "crypto_exchange_sec": {
+    "title": "革新的な暗号資産取引所",
+    "description": "BlockchainFXは、ユーザーがどこでも何でも取引できるオールインワンの分散型プラットフォームで、資産を完全にコントロールしながら取引できます。<br /><br />現在はベータ版で『2025年最優秀新暗号資産取引アプリ』を受賞。BFXプレセールにより、今や誰もが次世代グローバル取引プラットフォームの一員になれます。",
+    "buy_button": "BFXを購入",
+    "watch_live_button": "ライブ取引を見る"
+  },
+  "gateway_section": {
+    "title": "保有者に報酬を与える初の暗号資産取引所",
+    "description": "BlockchainFXは高額な手数料でユーザーから搾取するのではなく、最大70％の手数料をカット。手数料の半分は毎日$BFX保有者にステーキング報酬として分配されます。コミュニティを中心に据え、プロジェクトの成功のあらゆる段階でユーザーに報いる仕組みです。",
+    "features": {
+      "fees": "手数料",
+      "asset_variety": "資産の多様性",
+      "user_experience": "ユーザー体験",
+      "community": "コミュニティ"
+    },
+    "other_exchanges": {
+      "title": "他の暗号資産取引所",
+      "high_fees": "高額な手数料、ユーザーへの報酬なし",
+      "crypto_only": "暗号資産同士の取引のみ",
+      "account_restrictions": "アカウント制限や凍結がランダムに発生",
+      "users_excluded": "ユーザーは単なる利益源とみなされ、成長や成功から完全に排除される"
+    },
+    "blockchainfx": {
+      "title": "BlockchainFX",
+      "shares_profits": "利益をコミュニティと共有",
+      "swap_instantly": "暗号資産・株式・FX・コモディティ・ETFなどを即時スワップ",
+      "withdraw_anytime": "暗号資産はいつでも出金可能、ロックインなし",
+      "community_earns": "コミュニティが稼ぎ、成長し、BlockchainFXと共にプラットフォームを構築"
+    }
+  },
+  "press_media_section": {
+    "title": "プレス＆メディア掲載",
+    "subtitle": "主要メディアで紹介されました",
+    "articles": [
+      {
+        "description": "BlockchainFXは2025年に急速に注目を集める取引プラットフォームとなり、500以上の資産へのアクセスとユーザーへの多彩な特典を提供しています。",
+        "link": "https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/",
+        "link_text": "記事を読む"
+      },
+      {
+        "description": "BlockchainFXは、初のオールインワンクリプト取引プラットフォームとして、取引の常識を変えようとしています。",
+        "link": "https://www.binance.com/en/square/post/21135762162242",
+        "link_text": "記事を読む"
+      },
+      {
+        "description": "BlockchainFXは、ユーザーが取引手数料から毎日USDTのパッシブ収入を得られる初の取引アプリです。",
+        "link": "https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/",
+        "link_text": "記事を読む"
+      }
+    ]
   },
   "footer": {
-    "description": "Experience all-in-one trading with BlockchainFX: Trade Crypto, Forex, ETFs, Stocks, Indices, CFDs, and more with access to over 500 assets.",
+    "description": "次世代トレーディングエコシステムの一員となり、急成長するBFXムーブメントに参加しよう。",
     "quick_links": {
-      "title": "Quick Links",
-      "how_to_buy": "How to Buy",
-      "what_is_bfx": "What is BFX",
-      "roadmap": "Roadmap",
-      "token_allocation": "Token Allocation"
+      "title": "クイックリンク",
+      "how_to_buy": "購入方法",
+      "what_is_bfx": "BFXとは？",
+      "roadmap": "ロードマップ",
+      "token_allocation": "トークン配分"
     },
     "docs": {
-      "title": "Docs",
-      "terms_of_service": "Terms of Service",
-      "privacy_policy": "Privacy Policy",
-      "token_sale": "Token Sale Agreement",
-      "support": "Live 24/7 Support"
+      "title": "ドキュメント",
+      "terms_of_service": "利用規約",
+      "privacy_policy": "プライバシーポリシー",
+      "token_sale": "トークン販売契約",
+      "support": "24時間年中無休サポート"
     },
     "socials": {
-      "title": "Join Our Socials"
+      "title": "公式SNSに参加"
     },
     "contact": {
-      "email_label": "Contact E-Mail:",
+      "email_label": "お問い合わせメール：",
       "email": "Support@blockchainfx.com"
     },
-    "disclaimer": "Cryptocurrency may be unregulated in your jurisdiction, and its value can fluctuate, leading to potential gains or losses. Any profits might be subject to capital gains or other taxes, depending on your local laws. The content on this platform does not constitute an offer, recommendation, or financial advice to buy, sell, or engage in any cryptocurrency transactions. You are solely responsible for assessing whether a transaction aligns with your personal goals, financial circumstances, and risk tolerance. We strongly recommend consulting trusted and licensed legal, tax, or financial professionals before making any decisions.\n\nTrading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. BlockchainFX does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.",
-    "copyright": "Copyright 2025. All Rights Reserved.",
-    "cookie_management": "Cookie Management"
-  }
+    "disclaimer": "暗号資産はお住まいの地域で規制されていない場合があり、その価値は変動し、利益や損失が発生する可能性があります。利益には現地法によりキャピタルゲイン税やその他の税金が課される場合があります。本プラットフォームの内容は、暗号資産の売買や取引への勧誘、推奨、または金融アドバイスを構成するものではありません。取引がご自身の目標、経済状況、リスク許容度に合致するかどうかはご自身でご判断ください。ご決断の前に、信頼できる有資格の法律・税務・金融専門家にご相談されることを強く推奨します。<br/><br/>暗号資産取引には元本の一部または全額を失うリスクが伴います。十分な調査が不可欠です。BlockchainFXは、本プラットフォームで言及される暗号資産のパフォーマンス、結果、元本返還を一切保証しません。本プラットフォームの利用により、利用規約、プライバシーポリシー、クッキーポリシー、及び該当するトークン販売契約に同意したものとみなされます。本プラットフォームの内容は、配布や利用が現地法や規制に違反する地域での利用を意図したものではありません。",
+    "copyright": "Copyright 2025. 無断転載・複製を禁じます。All Rights Reserved.",
+    "cookie_management": "クッキー管理"
+  },
+  "MobilePremiumSec": {
+    "subtitle": "限定Founder's <br /> Clubメンバーシップ",
+    "description": "プレセール期間中にBFXを購入し、1,000ドルからFounder's Clubメンバーになろう。限定NFT、BFX Visaカード、ボーナストークン、毎日のUSDTステーキング報酬、無料取引クレジットが手に入ります。",
+    "tiers": {
+      "novice": "ビギナー",
+      "advanced": "アドバンス",
+      "pro": "プロ",
+      "expert": "エキスパート",
+      "master": "マスター",
+      "elite": "エリート",
+      "legend": "レジェンド"
+    },
+    "cards": {
+      "novice": {
+        "title": "ビギナー",
+        "price": "$1,000",
+        "points": {
+          "earlyAccess": "先行アクセス",
+          "bfxBonus": "10% BFXボーナス",
+          "visaCard": "BFX Visaカード"
+        },
+        "buttonLabel": "BFXを購入 • $1,000"
+      },
+      "advanced": {
+        "title": "アドバンス",
+        "price": "$2,500",
+        "points": {
+          "earlyAccess": "先行アクセス",
+          "bfxBonus": "20% BFXボーナス",
+          "visaCard": "メタルBFX Visaカード",
+          "tradingCredits": "$500取引クレジット"
+        },
+        "buttonLabel": "BFXを購入 • $2,500"
+      },
+      "pro": {
+        "title": "プロ",
+        "price": "$5,000",
+        "points": {
+          "earlyAccess": "先行アクセス",
+          "bfxBonus": "30% BFXボーナス",
+          "visaCard": "メタルBFX Visaカード",
+          "tradingCredits": "$1,000取引クレジット"
+        },
+        "buttonLabel": "BFXを購入 • $5,000"
+      },
+      "expert": {
+        "title": "エキスパート",
+        "price": "$10,000+",
+        "points": {
+          "earlyAccess": "先行アクセス",
+          "bfxBonus": "40% BFXボーナス",
+          "usdtRewards": "毎日USDT報酬",
+          "visaCard": "メタルBFX Visaカード",
+          "tradingCredits": "$2,000ボーナス取引クレジット"
+        },
+        "buttonLabel": "BFXを購入 • $10,000"
+      },
+      "master": {
+        "title": "マスター",
+        "price": "$25,000+",
+        "points": {
+          "earlyAccess": "先行アクセス",
+          "bfxBonus": "50% BFXボーナス",
+          "usdtRewards": "毎日USDT報酬",
+          "visaCard": "メタルBFX Visaカード",
+          "tradingCredits": "$5,000ボーナス取引クレジット"
+        },
+        "buttonLabel": "BFXを購入 • $25,000"
+      },
+      "elite": {
+        "title": "エリート",
+        "price": "$50,000+",
+        "points": {
+          "earlyAccess": "先行アクセス",
+          "bfxBonus": "60% BFXボーナス",
+          "usdtRewards": "20% USDT報酬",
+          "visaCard": "メタルBFX Visaカード",
+          "tradingCredits": "$10,000ボーナス取引クレジット"
+        },
+        "buttonLabel": "BFXを購入 • $50,000"
+      },
+      "legend": {
+        "title": "レジェンド",
+        "price": "$100,000+",
+        "points": {
+          "earlyAccess": "先行アクセス",
+          "bfxBonus": "80% BFXボーナス",
+          "usdtRewards": "30% USDT報酬",
+          "visaCard": "18金BFX Visaカード",
+          "tradingCredits": "$25,000取引クレジット"
+        },
+        "buttonLabel": "BFXを購入 • $100,000"
+      }
+    }
+  },
+  "MobileLessThanSec": {
+    "slide1": {
+      "title": "暗号資産と金融の架け橋",
+      "description1": "2024年時点で暗号資産は世界の取引高のわずか0.87％、1日平均843億ドルに過ぎません。",
+      "description2": "一方、FX市場だけで1日7.5兆ドルの取引が行われています。このギャップは、$BFXが暗号資産ユーザーを世界最大の金融市場へつなぐ大きなチャンスです。",
+      "chart_title": "2024年の1日平均取引高",
+      "chart": {
+        "bonds": "債券:",
+        "bondsValue": "1.1兆ドル（11.42%）",
+        "stocks": "米国株式:",
+        "stocksValue": "7,000億ドル（7.27%）",
+        "commodities": "コモディティ:",
+        "commoditiesValue": "2,500億ドル（2.59%）",
+        "crypto": "暗号資産:",
+        "cryptoValue": "890億ドル（0.87%）",
+        "forex": "FX:",
+        "forexValue": "7.5兆ドル（77.85%）"
+      },
+      "legend": {
+        "forex": "FX",
+        "bonds": "債券",
+        "usStock": "米国株式",
+        "commodities": "コモディティ",
+        "crypto": "暗号資産"
+      }
+    },
+    "slide2": {
+      "title": "グローバル市場へのゲートウェイ",
+      "description": "新しい取引プラットフォームの立ち上げには多大な時間とリソースが必要です。一方、$BFXを購入するのは数秒で完了し、誰かが取引するたびに報酬を得られます。",
+      "comparison": {
+        "newPlatform": "新規取引プラットフォーム",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "コスト",
+          "platform": "最大200万ドル",
+          "bfx": "あなた次第",
+          "tooltip": "これは一部地域でプラットフォームを立ち上げるための予算であり、人件費やマーケティング費用は含みません。"
+        },
+        "time": {
+          "title": "期間",
+          "platform": "最長3年",
+          "bfx": "$BFXは2クリックで購入可能"
+        },
+        "team": {
+          "title": "チーム",
+          "platform": "多言語対応の経験豊富なチームが24時間365日シフト制で対応",
+          "bfx": "チーム不要"
+        },
+        "workScope": {
+          "title": "業務範囲",
+          "platform": "資本要件、マーケティング＆ブランディング、流動性プロバイダー、リスク管理チーム、カスタマーサポート、技術インフラ、パートナーシップ、開発、人材採用・管理など",
+          "bfx": "作業不要"
+        }
+      }
+    },
+    "slide3": {
+      "title": "指数関数的成長を目指した設計",
+      "description": "BlockchainFXは、BFX保有者に毎日報酬を分配するコミュニティ主導の取引プラットフォームです。プラットフォームが成長するほどトークン価値も上昇し、成長とエンゲージメントの好循環が生まれます。インセンティブ付きコミュニティは他よりも大幅に成長しやすいことが研究で示されており、BFXはその可能性を最大化するよう設計されています。",
+      "chart": {
+        "title": "成長予測",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "一般的な取引プラットフォーム"
+      },
+      "source": "（*出典：Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020）",
+      "buttonText": "$BFXを購入"
+    }
+  },
+  "MobileHero": {
+    "presale_stage_almost_sold_out": "$BFX 先行販売ほぼ完売",
+    "title": "世界初の暗号資産 <br /> トレーディング",
+    "title_highlight": "スーパーアプリ",
+    "subtitle": "BlockchainFXは、DeFiと従来の金融市場をつなぐ次世代型の暗号資産取引所です。株式、FX、ETFなど、幅広い資産にアクセスできる唯一のWeb3プラットフォームです。",
+    "feature1": "ブロックチェーンと金融をつなぐ世界初の取引所",
+    "feature2": "ビットコイン、イーサリアム、ゴールド、テスラなど500種類以上の資産",
+    "feature3": "2025年『ベスト新暗号資産トレーディングアプリ』受賞",
+     "featuremob1": "ブロックチェーンと伝統的な金融を500以上の資産で結ぶ初の取引所",
+  "featuremob2": "ビットコイン、イーサリアム、金、株式、外国為替、ETF、オプション、先物、すべて一箇所に集約",
+  "featuremob3": "BlockchainFXは「2025年の最優秀新暗号取引アプリ」に選ばれました",
+    "buy_button": "$BFXを購入",
+    "how_it_works_button": "仕組みを見る",
+    "audited_by": "監査・承認済み",
+    "verified_ratings": "認証済み評価",
+    "rating": "4.87/5"
+  },
+  "buy_tab": {
+  "you_must_connect_wallet": "最初にウォレットを接続する必要があります",
+  "presale_ended": "プレセールは終了しました",
+  "loading": "読み込み中...",
+  "error_ranking_up": "ランクアップ中にエラーが発生しました",
+  "successfully_unlocked": "正常にアンロックされました",
+  "participants": "参加者",
+  "card": "カード",
+  "other_cryptos": "+ その他の暗号通貨",
+  "presale_price": "プレセール価格",
+  "launch_price": "ローンチ価格",
+  "you_pay_in": "支払い通貨",
+  "usd": "米ドル (USD)",
+  "you_receive_bfx": "$BFX を受け取る",
+  "nft": "NFT",
+  "unlock_nft": "アンロック",
+  "limited_time_offer": "期間限定オファー",
+  "use_bonus_code": "ボーナスコードを使用",
+  "bonus_code": "Bonus Code",
+  "to_get_bonus": "20% 追加でもらうには",
+  "more_bfx_coins": "さらに $BFX コイン！",
+  "referral_link": "10% 紹介リンク",
+  "transaction_successful": "取引が成功しました",
+  "transaction_successful_message": "取引は成功しました。1分待ってからトランザクションタブを更新してトークンをご確認ください。",
+  "transaction_successful_bought_message": "取引は成功しました。購入内容：",
+  "check_transaction_tab": "詳細はトランザクションタブをご確認ください",
+  "transaction_errored": "取引エラー",
+  "transaction_errored_message": "取引が失敗しました。もう一度お試しください。",
+  "transaction_pending": "取引保留中",
+  "transaction_pending_message": "取引は保留中です。1分待ってからトランザクションタブを更新してトークンをご確認ください。",
+  "buy_bfx": "BFX を購入"
+},
+"nft": {
+  "legend": "レジェンド",
+  "elite": "エリート",
+  "master": "マスター",
+  "expert": "エキスパート"
+}
 }

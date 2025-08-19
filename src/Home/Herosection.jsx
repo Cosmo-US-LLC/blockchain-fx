@@ -1,5 +1,6 @@
 import React from "react";
 import check from "../assets/herosection/check.svg";
+import { useTranslation } from "react-i18next";
 
 // import heroVideo from "../assets/herosection/heroVideo.mp4";
 import heroimg from "../assets/herosection/herof.webp";
@@ -11,6 +12,8 @@ import heroicns2 from "../assets/herosection/herosvg (2).svg";
 import heroicns3 from "../assets/herosection/herosvg (3).svg";
 
 function Herosection() {
+  const { t } = useTranslation();
+
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
@@ -47,8 +50,9 @@ function Herosection() {
         <div className="flex justify-between gap-[2rem]">
           <div className="space-y-[22px] max-w-[638px] w-[100%]">
             <h1 className="text-[60px] font-[700] font-inter leading-[100%] tracking-[-1px] text-[#fff] ">
-              The First Crypto <br /> Trading{" "}
               <span
+                dangerouslySetInnerHTML={{ __html: t("hero.title")}}
+              /> <span
                 style={{
                   background:
                     "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
@@ -56,33 +60,30 @@ function Herosection() {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                 }}
-              >
-                Super App
+              > {t("hero.title_highlight")}
               </span>
             </h1>
-            <p className="text-[#fff] max-w-[550px] py-[10px] w-[100%] font-[400] font-inter leading-[133.333%] text-[18px]">
-              BlockchainFX is a next-gen crypto exchange that connects DeFi
-              with traditional financial markets. It’s the only Web3 platform
-              offering access to stocks, forex, ETFs, and more.
-            </p>
+            <p className="text-[#fff] max-w-[550px] py-[10px] w-[100%] font-[400] font-inter leading-[133.333%] text-[18px]"
+               dangerouslySetInnerHTML={{ __html: t("hero.subtitle") }}
+            />
 
             <div className="space-y-[10px] max-w-[530px] border-[0.5px] border-[#C0C0C0] py-[15px] pl-[21px] rounded-[13px]">
               <div className="flex items-center space-x-2">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
-                  The First crypto Exchange Bridging Blockchain and Finance
+                  {t("hero.feature1")}
                 </p>
               </div>
               <div className="flex items-center space-x-2">
                 <img src={check} alt="" />
                 <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
-                  Bitcoin, Ethereum, gold, Tesla, and over 500+ more assets
+                  {t("hero.feature2")}
                 </p>
               </div>
               <div className="flex items-center space-x-2">
                 <img src={check} alt="" />
                 <p className="text-[#fff] capitalize font-[400] leading-[150%] text-[16px]">
-                  Awarded as “The Best New Crypto Trading App of 2025”
+                  {t("hero.feature3")}
                 </p>
               </div>
             </div>
@@ -126,22 +127,22 @@ function Herosection() {
               style={{
                 background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
               }}
-              className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
+              className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px]"
             >
-              Buy $BFX
+              {t("hero.buy_button")}
             </button>
 
             <button
               onClick={handleScrollToDemo}
-              className="hover:text-[#000] hover:bg-[#E5AE00] px-[12px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] max-w-[140px] rounded-[8px] !w-[100%] h-[50px]"
+              className="hover:text-[#000] hover:bg-[#E5AE00] px-[18px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005]  rounded-[8px] !w-fit h-[50px]"
             >
-              How it works?
+              {t("hero.how_it_works_button")}
             </button>
           </div>
           <div className="flex mt-[-15px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">
             <div>
               <h3 className="text-[#fff] mb-[18px] font-inter leading-[185%] font-[400] text-center text-[16px]">
-                Audited and Approved by
+                {t("hero.audited_by")}
               </h3>
               <div className="flex justify-center items-center space-x-[15px]">
                 <img src={heroicns1} alt="" />
@@ -152,14 +153,14 @@ function Herosection() {
             <div className="flex items-center justify-center space-x-4">
               <div className="">
                 <p className="text-[#fff] text-center mb-2 font-inter font-[400] text-[16px]">
-                  Verified Ratings
+                  {t("hero.verified_ratings")}
                 </p>
                 <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
                  <div
                 className="flex items-center mt-3 justify-center space-x-[10px] rounded-[10px]"
               >
                 <p className="text-[#fff] font-[400] text-[17.7px] leading-[100%]">
-                  4.87/5{" "}
+                  {t("hero.rating")}
                 </p>
                 <img
                   className="w-[82px] h-[15px]"

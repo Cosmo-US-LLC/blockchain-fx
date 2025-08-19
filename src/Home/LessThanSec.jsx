@@ -40,11 +40,9 @@ function LessThanSec() {
             >
               <div className="space-y-[18px] relative z-[99]">
                 <h3 className="text-[40px] font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
-                Bridging Crypto and Finance
+                  {t("less_than_section.title")}
                 </h3>
-                <p className="text-[18px] font-[400] w-[750px] mx-auto text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
-                Crypto makes up only 0.87% of global trading volume in 2024, averaging $84.3 billion daily. Meanwhile, the Forex market alone handles $7.5 trillion per day. This gap presents a major opportunity for BFX to connect crypto users with the world’s largest financial markets.
-                </p>
+                <p className="text-[18px] font-[400] w-[750px] mx-auto text-center leading-[130%] text-[#fff] tracking-[-0.32px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.description") }} />
               </div>
               <div className="space-y-[60px] relative z-[99]">
                 <div className="relative">
@@ -57,59 +55,59 @@ function LessThanSec() {
                     />
                   </div>
                   <p className="text-[#fff] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
-                  Bonds: $1.1 Trillion (11.64%)
+                    {t("less_than_section.chart.bonds")}
                   </p>
-                  <p className="text-[#fff] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
-                  U.S. Stocks: $700 Billion (7.15%)
+                  <p className="text-[#fff] absolute top-[8%] max-w-[230px] leading-[110%] left-[19%] text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.stocks")}
                   </p>
-                  <p className="text-[#fff] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
-                  Commodities: $250 Billion (2.55%)
+                  <p className="text-[#fff] absolute top-[21%] max-w-[260px] leading-[110%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.commodities")}
                   </p>
-                   <p className="text-[#fff] absolute top-[33%] left-[16%] text-[15px] font-[700] tracking-[-0.787px]">
-                  ETFs: $150B (1.53%)
+                   <p className="text-[#fff] absolute top-[33%] leading-[110%] left-[16%] max-w-[240px] text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.etfs")}
                   </p>
-                  <p className="text-[#F3D885] py-1 px-2 border border-[#F6CE69] absolute top-[50%] left-[7%] rounded-[5px]  text-[26px] font-[700] tracking-[-0.787px]">
-                  Crypto: $89 Billion (0.87%)
+                  <p className="text-[#F3D885] py-1 px-2 border leading-[120%] border-[#F6CE69] max-w-[360px] absolute top-[50%] left-[5%] rounded-[5px]  text-[26px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.crypto")}
                   </p>
-                  <p className="text-[#fff] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
-                    Forex: $7.5 Trillion (76.62%)
+                  <p className="text-[#fff] absolute bottom-[5%] right-[23%] max-w-[200px]  text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.forex")}
                   </p>
                 </div>
                 <div className="max-w-[887px] pt-[0px] flex justify-between items-center mx-auto w-[100%]">
                   <div className="flex items-center space-x-2">
                     <div className="w-[30px] h-[30px] bg-[#E9AD2F] rounded-[4px]"></div>
                     <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
-                      Forex
+                      {t("less_than_section.legend.forex")}
                     </p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-[30px] h-[30px] bg-[#DCDCDC] rounded-[4px]"></div>
                     <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
-                      Bonds
+                      {t("less_than_section.legend.bonds")}
                     </p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-[30px] h-[30px] bg-[#B6B6B6] rounded-[4px]"></div>
                     <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
-                      US Stock
+                      {t("less_than_section.legend.us_stock")}
                     </p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-[30px] h-[30px] bg-[#7DBB6C] rounded-[4px]"></div>
                     <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
-                      Commodities
+                      {t("less_than_section.legend.commodities")}
                     </p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-[30px] h-[30px] bg-[#D39219] rounded-[4px]"></div>
                     <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
-                      ETFs
+                      {t("less_than_section.legend.etfs")}
                     </p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-[30px] h-[30px] bg-[#A36E00] rounded-[4px]"></div>
                     <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
-                      Crypto
+                      {t("less_than_section.legend.crypto")}
                     </p>
                   </div>
                 </div>
