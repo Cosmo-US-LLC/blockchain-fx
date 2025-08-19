@@ -87,6 +87,7 @@ function MobileHero() {
             <span
                 dangerouslySetInnerHTML={{ __html: t("hero.title")}}
               /> <span 
+              className="pr-[8px]"
                 style={{
                   background:
                     "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
