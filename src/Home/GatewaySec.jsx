@@ -31,7 +31,7 @@ function GatewaySec() {
           <div className="max-w-[267px] w-[100%]">
             <ul className="max-w-[267px] w-[100%]">
               <li className="h-[83px]"></li>
-              <li className="flex space-x-3 px-[18px] items-center h-[65px]">
+              <li className="flex space-x-3 px-[18px] items-center min-h-[65px]">
                 <div className="w-[65px]">
                   <img src={icon1} alt="" className="w-[37px]" />
                 </div>
@@ -39,7 +39,7 @@ function GatewaySec() {
                   {t("gateway_section.features.fees")}
                 </span>
               </li>
-              <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+              <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
                   <img src={icon2} alt="" className="w-[36px]" />
                 </div>
@@ -47,7 +47,7 @@ function GatewaySec() {
                   {t("gateway_section.features.asset_variety")}
                 </span>
               </li>
-              <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+              <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
                   <img src={icon3} alt="" className="w-[36px]" />
                 </div>
@@ -55,7 +55,7 @@ function GatewaySec() {
                   {t("gateway_section.features.user_experience")}
                 </span>
               </li>
-              <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+              <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
                   <img src={icon4} alt="" className="w-[39px]" />
                 </div>
@@ -66,7 +66,7 @@ function GatewaySec() {
             </ul>
           </div>
           <div
-            className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
+            className="max-w-[360px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
               background: "#030F16",
               border: "1px solid #2B2B2B"
@@ -84,10 +84,10 @@ function GatewaySec() {
                   {t("gateway_section.other_exchanges.high_fees")}
                 </span>
               </li>
-              <li className="text-[white] text-[16px] font-[500] flex items-center  h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[white] text-[16px] font-[500] flex items-center  min-h-[65px] border-b border-[#C2C2C2]">
                 {t("gateway_section.other_exchanges.crypto_only")}
               </li>
-              <li className="text-white text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-white text-[16px] font-[500] flex items-center min-h-[65px] border-b border-[#C2C2C2]">
                 {t("gateway_section.other_exchanges.account_restrictions")}
               </li>
               <li className="text-[white] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
@@ -96,7 +96,7 @@ function GatewaySec() {
             </ul>
           </div>
           <div
-            className="max-w-[355px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
+            className="max-w-[360px] rounded-[11px] py-[23px] px-[16px] w-[100%] "
             style={{
               background: "#030F16",
               border: "1px solid #575757"
@@ -112,10 +112,10 @@ function GatewaySec() {
               <li className="text-[white] text-[16px]  h-[61.5px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
                 {t("gateway_section.blockchainfx.shares_profits")}
               </li>
-              <li className="text-[white] text-[16px] h-[65.5px] font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[white] text-[16px]  font-[500] py-[12px] min-h-[65px] border-b border-[#C2C2C2]">
                 {t("gateway_section.blockchainfx.swap_instantly")}
               </li>
-              <li className="text-[white] text-[16px]  font-[500] py-[12px] h-[65px] border-b border-[#C2C2C2]">
+              <li className="text-[white] text-[16px]  font-[500] py-[12px] min-h-[65px] border-b border-[#C2C2C2]">
                 {t("gateway_section.blockchainfx.withdraw_anytime")}
               </li>
               <li className="text-[white] text-[16px]  font-[500] py-[27px]">

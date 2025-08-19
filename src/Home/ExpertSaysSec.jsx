@@ -43,7 +43,7 @@ function ExpertSaysSec() {
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
+                <div className="rounded-[16px] py-2 px-3 inline-block " style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
                     {t("experts.heading")}
                   </h4>
@@ -76,7 +76,7 @@ function ExpertSaysSec() {
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
+                <div className="rounded-[16px] py-2 px-4 inline-block " style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
                     {t("experts.heading")}
                   </h4>
@@ -110,7 +110,7 @@ function ExpertSaysSec() {
           <SwiperSlide>
             <div className="flex items-center gap-5">
               <div className="w-[50%] space-y-[20px]">
-                <div className="rounded-[16px] py-2 px-3 max-w-[266px]" style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
+                <div className="rounded-[16px] py-2 px-3 inline-block " style={{ border: "1px solid rgba(255, 255, 255, 0.10)" }}>
                   <h4 className="text-[#fff] text-[16px] font-[400]">
                     {t("experts.heading")}
                   </h4>

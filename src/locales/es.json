@@ -62,11 +62,11 @@
     "card_items": [
       {
         "title": "Auditoría externa por Coinsult",
-        "description": "BlockchainFX ha sido completamente auditado por Coinsult,<br />una firma de auditoría confiable de los Países Bajos, <br />y confirmada como 100% segura."
+        "description": "BlockchainFX ha sido completamente auditado por Coinsult, una firma de auditoría confiable de los Países Bajos,  y confirmada como 100% segura."
       },
       {
         "title": "Auditoría externa por CertiK",
-        "description": "CertiK, la empresa líder mundial en seguridad blockchain, auditó BlockchainFX y confirmó<br />que cumple con los más altos estándares de seguridad."
+        "description": "CertiK, la empresa líder mundial en seguridad blockchain, auditó BlockchainFX y confirmó que cumple con los más altos estándares de seguridad."
       },
       {
         "title": "Equipo verificado KYC por Solidproof",
@@ -218,7 +218,8 @@
   },
   "how_does_it_sec": {
     "title": "¿Cómo funciona?",
-    "subtitle": "BlockchainFX es un exchange global donde los usuarios pueden operar con cripto, acciones, forex, ETFs y más.<br />Cada vez que alguien opera, el 70% de las comisiones de trading se destinan al pool de staking de $BFX, recompras y quema de tokens.<br />Las recompensas de staking se basan en la cantidad de BFX que posee un miembro de la comunidad y están limitadas a $25,000 USDT por día.",
+    "subtitle": "BlockchainFX es un exchange global donde los usuarios pueden operar con cripto, acciones, forex, ETFs y más. Cada vez que alguien opera, el 70% de las comisiones de trading se destinan al pool de staking de $BFX, recompras y quema de tokens. Las recompensas de staking se basan en la cantidad de BFX que posee un miembro de la comunidad y están limitadas a $25,000 USDT por día.",
+    "subtitle_des": "BlockchainFX es un exchange global donde los usuarios pueden operar con cripto, acciones, forex, ETFs y más. Cada vez que alguien opera, el 70% de las comisiones de trading se destinan al pool de staking de $BFX, recompras y quema de tokens. Las recompensas de staking se basan en la cantidad de BFX que posee un miembro de la comunidad y están limitadas a $25,000 USDT por día.",
     "cards": {
       "staking_rewards": {
         "title": "Recompensas de staking en BFX y USDT",
@@ -363,7 +364,7 @@
     "title": "Beneficios de comprar BFX durante la preventa",
     "items": {
       "benefit_1": {
-        "title": "Precio de token más bajo <br/>antes del lanzamiento",
+        "title": "Precio de token más bajo antes del lanzamiento",
         "description": "Comprar durante la preventa te permite asegurar un precio significativamente más bajo en comparación con el precio de lanzamiento de BFX."
       },
       "benefit_2": {
@@ -773,7 +774,7 @@
 },
 "gateway_section": {
   "title": "El Primer Exchange de Criptomonedas Que Paga a Sus Tenedores",
-  "description": "En lugar de agotar a los usuarios con altas comisiones, BlockchainFX las reduce hasta en un 70%. La mitad de todas las comisiones se <br /> pagan a los tenedores de $BFX como recompensas diarias por staking. La plataforma pone a la comunidad en el centro, <br /> asegurando que los usuarios sean recompensados en cada etapa del éxito del proyecto.",
+  "description": "En lugar de agotar a los usuarios con altas comisiones, BlockchainFX las reduce hasta en un 70%. La mitad de todas las comisiones se  pagan a los tenedores de $BFX como recompensas diarias por staking. La plataforma pone a la comunidad en el centro,  asegurando que los usuarios sean recompensados en cada etapa del éxito del proyecto.",
   "features": {
     "fees": "Comisiones",
     "asset_variety": "Variedad de Activos",

@@ -39,11 +39,11 @@
     "card_items": [
       {
         "title": "Kiểm toán bên ngoài bởi Coinsult",
-        "description": "BlockchainFX đã được kiểm toán đầy đủ bởi Coinsult, <br />một công ty kiểm toán uy tín từ Hà Lan, <br />và xác nhận an toàn 100%."
+        "description": "BlockchainFX đã được kiểm toán đầy đủ bởi Coinsult, một công ty kiểm toán uy tín từ Hà Lan, và xác nhận an toàn 100%."
       },
       {
         "title": "Kiểm toán bên ngoài bởi CertiK",
-        "description": "CertiK, công ty bảo mật blockchain hàng đầu thế giới, đã kiểm toán BlockchainFX và xác nhận <br />đáp ứng các tiêu chuẩn bảo mật cao nhất."
+        "description": "CertiK, công ty bảo mật blockchain hàng đầu thế giới, đã kiểm toán BlockchainFX và xác nhận đáp ứng các tiêu chuẩn bảo mật cao nhất."
       },
       {
         "title": "Đội ngũ KYC xác minh bởi Solidproof",
@@ -933,7 +933,7 @@
   },
   "gateway_section": {
     "title": "Sàn giao dịch Crypto đầu tiên chia sẻ lợi nhuận cho người nắm giữ",
-    "description": "Thay vì thu phí cao từ người dùng, BlockchainFX giảm phí tới 70%. Một nửa tổng phí sẽ <br /> được trả cho người nắm giữ $BFX dưới dạng thưởng staking hàng ngày. Nền tảng đặt cộng đồng làm trung tâm, <br /> đảm bảo người dùng được thưởng ở mọi giai đoạn phát triển dự án.",
+    "description": "Thay vì thu phí cao từ người dùng, BlockchainFX giảm phí tới 70%. Một nửa tổng phí sẽ  được trả cho người nắm giữ $BFX dưới dạng thưởng staking hàng ngày. Nền tảng đặt cộng đồng làm trung tâm,  đảm bảo người dùng được thưởng ở mọi giai đoạn phát triển dự án.",
     "features": {
       "fees": "Phí",
       "asset_variety": "Đa dạng tài sản",

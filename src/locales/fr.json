@@ -16,7 +16,7 @@
   "hero": {
     "title": "La première application <br /> de trading crypto",
     "title_highlight": "Super App",
-    "subtitle": "BlockchainFX est une plateforme d'échange crypto de nouvelle génération qui connecte la DeFi<br />aux marchés financiers traditionnels. C'est la seule plateforme Web3 offrant l'accès aux actions, au forex, aux ETF et plus encore.",
+    "subtitle": "BlockchainFX est une plateforme d'échange crypto de nouvelle génération qui connecte la DeFi aux marchés financiers traditionnels. C'est la seule plateforme Web3 offrant l'accès aux actions, au forex, aux ETF et plus encore.",
     "feature1": "La première plateforme crypto reliant la blockchain et la finance",
     "feature2": "Bitcoin, Ethereum, or, Tesla et plus de 500+ autres actifs",
     "feature3": "Récompensée comme 'La meilleure nouvelle application de trading crypto de 2025'",
@@ -39,11 +39,11 @@
     "card_items": [
       {
         "title": "Audit externe par Coinsult",
-        "description": "BlockchainFX a été entièrement audité par Coinsult, <br />une société d'audit de confiance des Pays-Bas,<br />et confirmé comme étant 100% sécurisé."
+        "description": "BlockchainFX a été entièrement audité par Coinsult,  une société d'audit de confiance des Pays-Bas, et confirmé comme étant 100% sécurisé."
       },
       {
         "title": "Audit externe par CertiK",
-        "description": "CertiK, la principale société de sécurité blockchain au monde, a audité BlockchainFX et confirmé<br />qu'il répond aux normes de sécurité les plus élevées."
+        "description": "CertiK, la principale société de sécurité blockchain au monde, a audité BlockchainFX et confirmé qu'il répond aux normes de sécurité les plus élevées."
       },
       {
         "title": "Équipe KYC vérifiée par Solidproof",
@@ -80,7 +80,7 @@
     "buy_button": "Acheter BFX",
     "watch_live_button": "Regarder le trading en direct ici",
     "assets_title": "Plus de 500 actifs",
-    "assets_description": "BlockchainFX est la seule plateforme qui permet aux utilisateurs Web3 d'échanger instantanément entre crypto et classes d'actifs traditionnelles.<br />Aucun délai, aucun frais supplémentaire, aucun changement de plateforme. Juste un trading rapide et en temps réel.",
+    "assets_description": "BlockchainFX est la seule plateforme qui permet aux utilisateurs Web3 d'échanger instantanément entre crypto et classes d'actifs traditionnelles. Aucun délai, aucun frais supplémentaire, aucun changement de plateforme. Juste un trading rapide et en temps réel.",
     "asset_list_title": "Les utilisateurs peuvent trader sur BlockchainFX :",
     "asset_crypto": "Crypto",
     "asset_stocks": "Actions",
@@ -218,7 +218,8 @@
   },
   "how_does_it_sec": {
     "title": "Comment ça marche ?",
-    "subtitle": "BlockchainFX est une plateforme d'échange mondiale où les utilisateurs peuvent trader crypto, actions, forex, ETF et plus.<br />Chaque fois que quelqu'un trade, 70% des frais de trading vont dans le pool de staking $BFX, les rachats et les brûlages de tokens.<br />Les récompenses de staking sont basées sur la quantité de BFX détenue par un membre de la communauté et sont plafonnées à 25 000 USDT par jour.",
+    "subtitle": "BlockchainFX est une plateforme d'échange mondiale où les utilisateurs peuvent trader crypto, actions, forex, ETF et plus. Chaque fois que quelqu'un trade, 70% des frais de trading vont dans le pool de staking $BFX, les rachats et les brûlages de tokens. Les récompenses de staking sont basées sur la quantité de BFX détenue par un membre de la communauté et sont plafonnées à 25 000 USDT par jour.",
+     "subtitle_des": "BlockchainFX est une plateforme d'échange mondiale où les utilisateurs peuvent trader crypto, actions, forex, ETF et plus. Chaque fois que quelqu'un trade, 70% des frais de trading vont dans le pool de staking $BFX, les rachats et les brûlages de tokens. Les récompenses de staking sont basées sur la quantité de BFX détenue par un membre de la communauté et sont plafonnées à 25 000 USDT par jour.",
     "cards": {
       "staking_rewards": {
         "title": "Récompenses de staking BFX & USDT",
@@ -363,7 +364,7 @@
   "title": "Avantages d’acheter du BFX pendant la prévente",
   "items": {
     "benefit_1": {
-      "title": "Prix du token le plus bas <br/>avant le lancement",
+      "title": "Prix du token le plus bas avant le lancement",
       "description": "Acheter pendant la prévente vous permet de sécuriser un prix nettement inférieur par rapport au prix de lancement du BFX."
     },
     "benefit_2": {
@@ -842,7 +843,7 @@
   },
   "gateway_section": {
   "title": "Le premier échange crypto qui rémunère ses détenteurs",
-  "description": "Au lieu d’épuiser les utilisateurs avec des frais élevés, BlockchainFX les réduit jusqu’à 70 %. La moitié de tous les frais est <br /> reversée aux détenteurs de $BFX sous forme de récompenses de staking quotidiennes. La plateforme place la communauté au centre, <br /> garantissant que les utilisateurs soient récompensés à chaque étape du succès du projet.",
+  "description": "Au lieu d’épuiser les utilisateurs avec des frais élevés, BlockchainFX les réduit jusqu’à 70 %. La moitié de tous les frais est  reversée aux détenteurs de $BFX sous forme de récompenses de staking quotidiennes. La plateforme place la communauté au centre,  garantissant que les utilisateurs soient récompensés à chaque étape du succès du projet.",
   "features": {
     "fees": "Frais",
     "asset_variety": "Diversité des actifs",
@@ -895,38 +896,6 @@
       }
     ],
     "chart_title": "Titre du graphique"
-  },
-  "buy_tab": {
-    "you_must_connect_wallet": "Vous devez d'abord connecter votre portefeuille",
-    "presale_ended": "La prévente est terminée",
-    "loading": "Chargement...",
-    "error_ranking_up": "Erreur lors du changement de niveau",
-    "successfully_unlocked": "Débloqué avec succès",
-    "participants": "Participants",
-    "card": "Carte",
-    "other_cryptos": "+ Autres cryptos",
-    "presale_price": "Prix de la prévente",
-    "launch_price": "Prix de lancement",
-    "you_pay_in": "Vous payez en",
-    "usd": "USD",
-    "you_receive_bfx": "Vous recevez $BFX",
-    "nft": "NFT",
-    "unlock_nft": "Débloquer",
-    "limited_time_offer": "Offre à durée limitée",
-    "use_bonus_code": "Utilisez le code bonus",
-    "bonus_code": "Bonus Code",
-    "to_get_bonus": "Pour obtenir 20% de plus",
-    "more_bfx_coins": "$BFX Coins!",
-    "referral_link": "Lien de parrainage 10%",
-    "transaction_successful": "Transaction réussie",
-    "transaction_successful_message": "La transaction a réussi. Veuillez patienter une minute et actualiser l'onglet des transactions pour voir vos tokens.",
-    "transaction_successful_bought_message": "La transaction a réussi. Vous avez acheté",
-    "check_transaction_tab": "Vérifiez votre onglet de transactions pour plus de détails",
-    "transaction_errored": "Transaction échouée",
-    "transaction_errored_message": "La transaction a échoué. Veuillez réessayer.",
-    "transaction_pending": "Transaction en attente",
-    "transaction_pending_message": "La transaction est en attente. Veuillez patienter une minute et actualiser l'onglet des transactions pour voir vos tokens.",
-    "buy_bfx": "Acheter BFX"
   },
   "buy_tab": {
   "you_must_connect_wallet": "Vous devez d'abord connecter votre portefeuille",
