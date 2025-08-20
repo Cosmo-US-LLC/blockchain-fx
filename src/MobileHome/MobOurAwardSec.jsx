@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import card_1 from "../assets/Multi/multi (1).png";
-import card_2 from "../assets/Multi/multi (2).png";
+import card_1 from "../assets/Multi/mob_multi (1).png";
+import card_2 from "../assets/Multi/mob_multi (2).png";
 
 function MobOurAwardSec() {
   const { t } = useTranslation();
