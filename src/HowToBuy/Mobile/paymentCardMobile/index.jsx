@@ -15,6 +15,7 @@ import GooglePay from "../../../assets/hoyToBuy/payment/stepTwoCards/GooglePay.s
 import craditCard from "../../../assets/hoyToBuy/payment/stepTwoCards/craditCard.svg";
 import visa from "../../../assets/hoyToBuy/payment/stepTwoCards/visa.svg";
 import PaymentCardOneMobile from "./PaymentCardOneMobile";
+import { useTranslation } from "react-i18next";
 import PaymentCardTwoMobile from "./PaymentCardTwoMobile";
 import PaymentCardThreeMobile from "./PaymentCardThreeMobile";
 
@@ -35,6 +36,7 @@ const paymentIcons = [
 const paymentMethods = [GooglePay, craditCard, visa];
 
 function StepTwoPaymentCardMobile() {
+    const { t } = useTranslation();
   return (
     <div className="bg-[#000] py-12 px-6 relative top-[-2px]">
       <div className="relative w-full py-6 px-4 flex flex-col overflow-hidden gap-8 border-[2px] border-[#E6AF0320] rounded-[16px]  ">
@@ -46,13 +48,13 @@ function StepTwoPaymentCardMobile() {
 
         <div className="z-30 flex flex-col items-center text-white">
           <p className="text-[25px] font-[700] leading-[30px] tracking-[-1.25px] text-[#E5AE00] uppercase mb-2">
-            Step 2
+          {t("payment.step2")}
           </p>
           <h2 className="text-[26px] font-[600] leading-[36px] tracking-[-1.5px] mb-1">
-            Select Payment Method
+           {t("payment.title")}
           </h2>
           <p className="text-[14px] font-[400] leading-[20px] tracking-[-0.32px] text-[#9F9F9F] ">
-            Choose from the following supported options:
+            {t("payment.subtitle")}
           </p>
         </div>
 

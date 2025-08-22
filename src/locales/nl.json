@@ -953,5 +953,95 @@
   "elite": "Elite",
   "master": "Meester",
   "expert": "Expert"
-}
+},
+ "how_to_buy_hero": {
+    "title": "Hoe te kopen",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "Volg deze eenvoudige stapsgewijze handleiding om je $BFX-tokens veilig te stellen en dagelijkse crypto-beloningen te ontgrendelen. Of je nu betaalt met crypto of kaart, alles wat je nodig hebt staat hieronder uitgelegd.",
+    "coin_alt": "BFX-munt"
+  },
+  "stepOneWallet": {
+    "step1": "Stap 1",
+    "setupTitle": "Stel een wallet in",
+    "setupDescription": "Voordat je BFX koopt, zorg ervoor dat je een gedecentraliseerde crypto-wallet gebruikt. Dit zorgt ervoor dat je tokens correct zijn gekoppeld aan je wallet-adres en dat je beloningen worden geactiveerd.",
+    "noteLabel": "Opmerking:",
+    "noteDescription": "Gebruik geen gecentraliseerde exchange-wallets (bijv. Binance, Coinbase-hoofdapp) — deze tonen je tokens of beloningen niet",
+    "table": {
+      "platform": "Platform",
+      "walletOption": "Wallet-optie",
+      "desktop": "Desktop",
+      "desktopOption": "MetaMask (Chrome- of Firefox-extensie)",
+      "mobile": "Mobiel",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "Elk apparaat",
+      "anyDeviceOption": "WalletConnect-compatibele apps"
+    }
+  },
+  "payment": {
+    "step2": "Stap 2",
+    "title": "Selecteer betaalmethode",
+    "subtitle": "Kies uit de volgende ondersteunde opties:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "Voer het bedrag in",
+    "toBuy": "dat je wilt kopen.",
+    "amountYouPay": "Bedrag dat je betaalt in USDT",
+    "youReceive": "Je ontvangt BFX",
+    "bonus": "+ Novice NFT"
+  },
+  "paymentCardTwo": {
+    "selectText1": "Selecteer je voorkeur",
+    "selectText2": "valuta of kaartoptie.",
+    "buyWithCard": "Koop met kaart"
+  },
+  "paymentCardThree": {
+    "click": "Klik",
+    "buyNow": "Koop nu",
+    "amountYouPay": "Bedrag dat je betaalt in USDT",
+    "youReceive": "Je ontvangt BFX",
+    "bonus": "+ Novice NFT",
+    "buyBtn": "Koop BFX"
+  },
+  "stepThreeTransaction": {
+    "step": "STAP 3",
+    "title": "Bevestig transactie",
+    "instructions": {
+      "0": "Na het klikken op 'Koop nu' wordt een uniek wallet-adres gegenereerd.",
+      "1": "Stuur het exacte bedrag van je gekozen crypto naar dat adres.",
+      "2": "Keur de transactie goed via je wallet (MetaMask, Trust Wallet, enz.)."
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "STAP 4",
+    "title": "Bekijk je BFX-munten",
+    "subtitle": "Zodra je betaling is bevestigd:",
+    "list": {
+      "0": "Dagelijkse BFX-staking-beloningen worden toegevoegd aan je dashboard.",
+      "1": "USDT (ERC-20) uitbetalingen worden elke maandag naar je wallet gestuurd.",
+      "2": "Je kunt alle beloningen en transacties bekijken via je BlockchainFX-dashboard."
+    }
+  },
+  "stepFiveClaim": {
+    "step": "STAP 5",
+    "title": "Claimen",
+    "subtitle": "Na afloop van de voorverkoop:",
+    "list": {
+      "0": "Je $BFX-tokens zijn met één klik op je dashboard op te vragen."
+    },
+    "thankYou": "Bedankt dat je deel uitmaakt van de BFX-reis."
+  },
+  "stepSixLaunch": {
+    "step": "STAP 6",
+    "title": "Lancering",
+    "exchangesTitle": "$BFX lanceert op meerdere topbeurzen",
+    "description1": "$BFX zal officieel worden gelanceerd op meerdere topbeurzen na afloop van de voorverkoop.",
+    "description2": "Blijf op de hoogte via onze website en sociale kanalen voor noteringsaankondigingen.",
+    "button": "Koop nu BFX"
+  },
+  "how_footer": {
+    "disclaimer": "Cryptocurrency kan ongereguleerd zijn in jouw rechtsgebied en de waarde kan fluctueren, wat kan leiden tot winsten of verliezen. Eventuele winsten kunnen onderhevig zijn aan vermogenswinstbelasting of andere belastingen, afhankelijk van jouw lokale wetten. De inhoud van dit platform vormt geen aanbod, aanbeveling of financieel advies om cryptocurrency te kopen, verkopen of deel te nemen aan transacties. Jij bent zelf verantwoordelijk om te beoordelen of een transactie aansluit bij jouw persoonlijke doelen, financiële situatie en risicotolerantie. We raden sterk aan om vertrouwde en gelicentieerde juridische, fiscale of financiële professionals te raadplegen voordat je beslissingen neemt.<br/><br/>Handelen in cryptocurrency brengt aanzienlijke risico's met zich mee, waaronder het mogelijke gedeeltelijke of volledige verlies van jouw geld. Grondig onderzoek is cruciaal. BlockchainFX geeft geen garantie op prestaties, resultaten of teruggave van kapitaal voor welke cryptocurrency dan ook die op dit platform wordt genoemd. Door dit platform te gebruiken, ga je akkoord met onze Servicevoorwaarden, Privacybeleid, Cookiebeleid en eventuele toepasselijke tokenverkoopovereenkomsten. De inhoud van dit platform is niet bedoeld voor gebruik in rechtsgebieden waar distributie of gebruik de lokale wetgeving of regelgeving zou schenden.",
+    "copyright": "Copyright 2025. Alle rechten voorbehouden.",
+    "cookie_management": "Cookiebeheer"
+  }
 }

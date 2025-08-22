@@ -1,20 +1,22 @@
 import React from "react";
 import usdtIcon from "../../../assets/hoyToBuy/mobile/step2/USDT.svg";
 import bfxIcon from "../../../assets/hoyToBuy/mobile/step2/bitCoin.svg";
+import { useTranslation } from "react-i18next";
 
 function PaymentCardThreeMobile() {
+     const { t } = useTranslation();
   return (
     <div className="bg-[#0F0F0F] border border-[#3F3F3F] rounded-xl px-2 py-3 flex items-center gap-2 w-full">
       <div className="flex-1">
         <p className="text-[#9F9F9F] text-[10px] font-[400] leading-[12px]">
-          Click “Buy Now.
+                   {t("paymentCardThree.click")}
         </p>
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex w-[180px] h-[40px] px-3 items-center justify-between bg-[#FFFFFF17] rounded-lg  ">
           <div className="flex flex-col">
             <label className="text-[#8D8D8D] text-[6px] font-[400] leading-[6px] mb-1">
-              Amount You Pay in USDT
+             {t("paymentCardThree.amountYouPay")}
             </label>
             <input
               type="text"
@@ -32,10 +34,10 @@ function PaymentCardThreeMobile() {
           <div className="flex flex-col">
             <div className="flex items-center mb-1 text-xs font-light text-[#8D8D8D]">
               <span className="text-[#8D8D8D] text-[6px] font-[400] leading-[6px]">
-                You Receive BFX
+             {t("paymentCardThree.youReceive")}
               </span>
               <span className="text-[#00FFA3] text-[6px] font-medium">
-                + Novice NFT
+               {t("paymentCardThree.bonus")}
               </span>
             </div>
             <input
@@ -51,7 +53,7 @@ function PaymentCardThreeMobile() {
         </div>
 
         <button className="w-full text-[10px] font-[700] leading-[13px] bg-[#E5AE00] text-black py-1 rounded-lg transition">
-          Buy BFX
+ {t("paymentCardThree.buyBtn")}
         </button>
       </div>
     </div>

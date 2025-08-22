@@ -947,5 +947,95 @@
   "elite": "Elite",
   "master": "Mestre",
   "expert": "Especialista"
-}
+},
+ "how_to_buy_hero": {
+    "title": "Como Comprar",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "Siga este simples guia passo a passo para garantir seus tokens $BFX e desbloquear recompensas diárias em cripto. Seja pagando com cripto ou cartão, tudo o que você precisa está detalhado abaixo.",
+    "coin_alt": "Moeda BFX"
+  },
+  "stepOneWallet": {
+    "step1": "Passo 1",
+    "setupTitle": "Configurar uma Carteira",
+    "setupDescription": "Antes de comprar BFX, certifique-se de estar usando uma carteira de criptomoedas descentralizada. Isso garante que seus tokens estejam devidamente vinculados ao seu endereço de carteira e que suas recompensas sejam ativadas.",
+    "noteLabel": "Nota:",
+    "noteDescription": "Não use carteiras de exchanges centralizadas (ex.: Binance, aplicativo principal da Coinbase) — elas não exibirão seus tokens ou recompensas",
+    "table": {
+      "platform": "Plataforma",
+      "walletOption": "Opção de Carteira",
+      "desktop": "Computador",
+      "desktopOption": "MetaMask (extensão para Chrome ou Firefox)",
+      "mobile": "Celular",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "Qualquer Dispositivo",
+      "anyDeviceOption": "Aplicativos compatíveis com WalletConnect"
+    }
+  },
+  "payment": {
+    "step2": "Passo 2",
+    "title": "Selecionar Método de Pagamento",
+    "subtitle": "Escolha entre as seguintes opções disponíveis:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "Insira a quantidade de",
+    "toBuy": "que deseja comprar.",
+    "amountYouPay": "Valor que você paga em USDT",
+    "youReceive": "Você recebe BFX",
+    "bonus": "+ NFT de Iniciante"
+  },
+  "paymentCardTwo": {
+    "selectText1": "Selecione sua",
+    "selectText2": "moeda ou opção de cartão preferida.",
+    "buyWithCard": "Comprar com Cartão"
+  },
+  "paymentCardThree": {
+    "click": "Clique em",
+    "buyNow": "Comprar Agora",
+    "amountYouPay": "Valor que você paga em USDT",
+    "youReceive": "Você recebe BFX",
+    "bonus": "+ NFT de Iniciante",
+    "buyBtn": "Comprar BFX"
+  },
+  "stepThreeTransaction": {
+    "step": "Passo 3",
+    "title": "Confirmar Transação",
+    "instructions": {
+      "0": "Após clicar em “Comprar Agora”, um endereço de carteira único será gerado.",
+      "1": "Envie o valor exato da criptomoeda escolhida para esse endereço.",
+      "2": "Aprove a transação através da sua carteira (MetaMask, Trust Wallet, etc.)."
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "Passo 4",
+    "title": "Visualizar Seus Tokens BFX",
+    "subtitle": "Assim que seu pagamento for confirmado:",
+    "list": {
+      "0": "As recompensas diárias de staking de BFX serão adicionadas ao seu painel.",
+      "1": "Pagamentos em USDT (ERC-20) são enviados para sua carteira toda segunda-feira.",
+      "2": "Você pode visualizar todas as recompensas e transações através do seu painel BlockchainFX."
+    }
+  },
+  "stepFiveClaim": {
+    "step": "Passo 5",
+    "title": "Reivindicar",
+    "subtitle": "Após o término da pré-venda:",
+    "list": {
+      "0": "Seus tokens $BFX poderão ser reivindicados no seu painel com um único clique."
+    },
+    "thankYou": "Obrigado por fazer parte da jornada BFX."
+  },
+  "stepSixLaunch": {
+    "step": "Passo 6",
+    "title": "Lançamento",
+    "exchangesTitle": "$BFX Lança em Várias Exchanges de Alto Nível",
+    "description1": "$BFX será oficialmente lançado em várias exchanges de alto nível após a conclusão da pré-venda.",
+    "description2": "Mantenha-se atualizado através do nosso site e canais sociais para anúncios de listagem.",
+    "button": "Comprar BFX Agora"
+  },
+  "how_footer": {
+    "disclaimer": "A criptomoeda pode não ser regulamentada na sua jurisdição, e seu valor pode flutuar, resultando em ganhos ou perdas potenciais. Quaisquer lucros podem estar sujeitos a impostos sobre ganhos de capital ou outros tributos, dependendo das leis locais. O conteúdo desta plataforma não constitui uma oferta, recomendação ou aconselhamento financeiro para comprar, vender ou participar de transações com criptomoedas. Você é o único responsável por avaliar se uma transação está alinhada com seus objetivos pessoais, situação financeira e tolerância ao risco. Recomendamos fortemente consultar profissionais jurídicos, fiscais ou financeiros licenciados e de confiança antes de tomar qualquer decisão.<br/><br/>Negociar criptomoedas envolve riscos significativos, incluindo a possibilidade de perda parcial ou total dos seus fundos. Uma pesquisa detalhada é essencial. A BlockchainFX não garante qualquer desempenho, resultado ou retorno de capital para nenhuma criptomoeda mencionada nesta plataforma. Ao usar esta plataforma, você concorda com nossos Termos de Serviço, Política de Privacidade, Política de Cookies e quaisquer acordos de venda de tokens aplicáveis. O conteúdo da plataforma não é destinado ao uso em jurisdições onde sua distribuição ou uso viole leis ou regulamentos locais.",
+    "copyright": "Copyright 2025. Todos os Direitos Reservados.",
+    "cookie_management": "Gerenciamento de Cookies"
+  }
 }
