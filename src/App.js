@@ -10,7 +10,6 @@ import {
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Toaster } from "react-hot-toast";
-
 import { useTranslation } from "react-i18next";
 import Home from "./Home";
 import Navbar from "./compunents/Navbar";
@@ -53,27 +52,54 @@ function HowToBuyPageLayout({ isMobile }) {
   );
 }
 
+// function LangGuard({ children }) {
+//   const { lang } = useParams();
+//    const location = useLocation();
+//   const supportedLangs = [
+//     "vi",
+//     "de",
+//     "nl",
+//     "ja",
+//     "tr",
+//     "ko",
+//     "it",
+//     "no",
+//     "zh",
+//     "ru",
+//     "fr",
+//     "pt",
+//     "es",
+//     "ar",
+//   ];
+//   if (!supportedLangs.includes(lang)) {
+//     if (location.pathname.startsWith("/how-to-buy")) {
+//       return <Navigate to="/how-to-buy" replace />;
+//     }
+//     return <Navigate to="/" replace />;
+//   }
+//   return children;
+// }
+
 function LangGuard({ children }) {
   const { lang } = useParams();
+  const location = useLocation();
   const supportedLangs = [
-    "vi",
-    "de",
-    "nl",
-    "ja",
-    "tr",
-    "ko",
-    "it",
-    "no",
-    "zh",
-    "ru",
-    "fr",
-    "pt",
-    "es",
-    "ar",
+    "vi", "de", "nl", "ja", "tr", "ko", "it", "no", "zh", "ru", "fr", "pt", "es", "ar",
   ];
-  if (!supportedLangs.includes(lang)) {
+
+  if (location.pathname.startsWith("/how-to-buy")) {
+    const parts = location.pathname.split("/").filter(Boolean);
+    const lastSegment = parts[1]; 
+    if (lastSegment && supportedLangs.includes(lastSegment)) {
+      return children; 
+    }
+    return <Navigate to="/how-to-buy" replace />;
+  }
+
+  if (lang && !supportedLangs.includes(lang)) {
     return <Navigate to="/" replace />;
   }
+
   return children;
 }
 
@@ -83,40 +109,70 @@ function App() {
   const { i18n } = useTranslation();
   const location = useLocation();
 
+  
   useEffect(() => {
     const setLanguageFromURL = async () => {
       const parts = location.pathname.split("/").filter(Boolean);
       let currentLang = "en";
 
       if (parts.length > 0) {
-        const urlLang = parts[0].toLowerCase();
-        const supportedLangs = [
-          "vi",
-          "de",
-          "nl",
-          "ja",
-          "tr",
-          "ko",
-          "it",
-          "no",
-          "zh",
-          "ru",
-          "fr",
-          "pt",
-          "es",
-          "ar",
-        ];
-        if (supportedLangs.includes(urlLang)) {
-          currentLang = urlLang;
+        if (parts[0] === "how-to-buy" && parts[1]) {
+          currentLang = parts[1].toLowerCase();
+        } else {
+          const urlLang = parts[0].toLowerCase();
+          const supportedLangs = [
+            "vi", "de", "nl", "ja", "tr", "ko", "it", "no",
+            "zh", "ru", "fr", "pt", "es", "ar",
+          ];
+          if (supportedLangs.includes(urlLang)) {
+            currentLang = urlLang;
+          }
         }
       }
 
-      await i18n.changeLanguage(currentLang);
+      if (i18n.language !== currentLang) {
+        await i18n.changeLanguage(currentLang);
+      }
       setLanguageLoaded(true);
     };
 
     setLanguageFromURL();
   }, [location.pathname, i18n]);
+
+  // useEffect(() => {
+  //   const setLanguageFromURL = async () => {
+  //     const parts = location.pathname.split("/").filter(Boolean);
+  //     let currentLang = "en";
+
+  //     if (parts.length > 0) {
+  //       const urlLang = parts[0].toLowerCase();
+  //       const supportedLangs = [
+  //         "vi",
+  //         "de",
+  //         "nl",
+  //         "ja",
+  //         "tr",
+  //         "ko",
+  //         "it",
+  //         "no",
+  //         "zh",
+  //         "ru",
+  //         "fr",
+  //         "pt",
+  //         "es",
+  //         "ar",
+  //       ];
+  //       if (supportedLangs.includes(urlLang)) {
+  //         currentLang = urlLang;
+  //       }
+  //     }
+
+  //     await i18n.changeLanguage(currentLang);
+  //     setLanguageLoaded(true);
+  //   };
+
+  //   setLanguageFromURL();
+  // }, [location.pathname, i18n]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -147,10 +203,20 @@ function App() {
           <Route path="/win-500" element={<Win500 />} />
         </Route>
 
+    
         <Route element={<HowToBuyPageLayout isMobile={isMobile} />}>
           <Route
             path="how-to-buy"
             element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />}
+          />
+
+          <Route
+            path="how-to-buy/:lang"
+            element={
+              <LangGuard>
+                {isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />}
+              </LangGuard>
+            }
           />
         </Route>
 

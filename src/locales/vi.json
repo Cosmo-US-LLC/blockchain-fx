@@ -1017,5 +1017,95 @@
   "master": "Bậc thầy",
   "expert": "Chuyên gia"
 },
+  "how_to_buy_hero": {
+    "title": "Cách Mua",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "Làm theo hướng dẫn từng bước đơn giản này để sở hữu token $BFX của bạn và mở khóa phần thưởng crypto hàng ngày. Dù bạn thanh toán bằng crypto hay thẻ, mọi thứ bạn cần đều được trình bày dưới đây.",
+    "coin_alt": "BFX Coin"
+  },
+  "stepOneWallet": {
+    "step1": "Bước 1",
+    "setupTitle": "Tạo Ví",
+    "setupDescription": "Trước khi mua BFX, hãy đảm bảo bạn đang sử dụng ví crypto phi tập trung. Điều này đảm bảo token của bạn được liên kết chính xác với địa chỉ ví và phần thưởng của bạn được kích hoạt.",
+    "noteLabel": "Lưu ý:",
+    "noteDescription": "Không sử dụng ví từ sàn tập trung (ví dụ: Binance, ứng dụng chính của Coinbase) — chúng sẽ không hiển thị token hoặc phần thưởng của bạn.",
+    "table": {
+      "platform": "Nền tảng",
+      "walletOption": "Tùy chọn Ví",
+      "desktop": "Máy tính",
+      "desktopOption": "MetaMask (tiện ích Chrome hoặc Firefox)",
+      "mobile": "Di động",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "Mọi thiết bị",
+      "anyDeviceOption": "Ứng dụng tương thích WalletConnect"
+    }
+  },
+  "payment": {
+    "step2": "Bước 2",
+    "title": "Chọn Phương Thức Thanh Toán",
+    "subtitle": "Chọn từ các tùy chọn được hỗ trợ sau đây:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "Nhập số lượng",
+    "toBuy": "bạn muốn mua.",
+    "amountYouPay": "Số USDT bạn thanh toán",
+    "youReceive": "Bạn nhận được BFX",
+    "bonus": "+ NFT Tân thủ"
+  },
+  "paymentCardTwo": {
+    "selectText1": "Chọn",
+    "selectText2": "loại tiền tệ hoặc thẻ bạn muốn.",
+    "buyWithCard": "Mua bằng Thẻ"
+  },
+  "paymentCardThree": {
+    "click": "Nhấn",
+    "buyNow": "Mua Ngay",
+    "amountYouPay": "Số USDT bạn thanh toán",
+    "youReceive": "Bạn nhận được BFX",
+    "bonus": "+ NFT Tân thủ",
+    "buyBtn": "Mua BFX"
+  },
+  "stepThreeTransaction": {
+    "step": "BƯỚC 3",
+    "title": "Xác Nhận Giao Dịch",
+    "instructions": {
+      "0": "Sau khi nhấn “Mua Ngay”, một địa chỉ ví duy nhất sẽ được tạo.",
+      "1": "Gửi chính xác số crypto bạn đã chọn đến địa chỉ đó.",
+      "2": "Xác nhận giao dịch qua ví của bạn (MetaMask, Trust Wallet, v.v.)."
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "BƯỚC 4",
+    "title": "Xem Coin BFX Của Bạn",
+    "subtitle": "Khi thanh toán của bạn được xác nhận:",
+    "list": {
+      "0": "Phần thưởng staking BFX hàng ngày sẽ được thêm vào bảng điều khiển của bạn.",
+      "1": "Thanh toán USDT (ERC-20) sẽ được gửi đến ví của bạn mỗi thứ Hai.",
+      "2": "Bạn có thể xem tất cả phần thưởng và giao dịch qua bảng điều khiển BlockchainFX."
+    }
+  },
+  "stepFiveClaim": {
+    "step": "BƯỚC 5",
+    "title": "Nhận Token",
+    "subtitle": "Sau khi kết thúc đợt presale:",
+    "list": {
+      "0": "Token $BFX của bạn sẽ có thể được nhận trong bảng điều khiển chỉ với một cú nhấp chuột."
+    },
+    "thankYou": "Cảm ơn bạn đã là một phần trong hành trình BFX."
+  },
+  "stepSixLaunch": {
+    "step": "BƯỚC 6",
+    "title": "Ra Mắt",
+    "exchangesTitle": "$BFX Ra Mắt Trên Nhiều Sàn Hàng Đầu",
+    "description1": "$BFX sẽ chính thức ra mắt trên nhiều sàn giao dịch hàng đầu sau khi đợt presale kết thúc.",
+    "description2": "Theo dõi cập nhật trên website và các kênh mạng xã hội của chúng tôi để biết thông báo niêm yết.",
+    "button": "Mua BFX Ngay"
+  },
+  "how_footer": {
+    "disclaimer": "Tiền mã hóa có thể không được quản lý trong khu vực pháp lý của bạn và giá trị của nó có thể biến động, dẫn đến lãi hoặc lỗ tiềm ẩn. Bất kỳ khoản lợi nhuận nào cũng có thể phải chịu thuế lãi vốn hoặc các loại thuế khác, tùy theo luật địa phương của bạn. Nội dung trên nền tảng này không cấu thành lời đề nghị, khuyến nghị hoặc tư vấn tài chính để mua, bán hoặc tham gia bất kỳ giao dịch tiền mã hóa nào. Bạn hoàn toàn chịu trách nhiệm đánh giá xem giao dịch có phù hợp với mục tiêu cá nhân, hoàn cảnh tài chính và khả năng chấp nhận rủi ro của bạn hay không. Chúng tôi khuyến nghị mạnh mẽ bạn nên tham khảo ý kiến từ các chuyên gia pháp lý, thuế hoặc tài chính được cấp phép và đáng tin cậy trước khi đưa ra bất kỳ quyết định nào.<br/><br/>Giao dịch tiền mã hóa tiềm ẩn nhiều rủi ro, bao gồm khả năng mất một phần hoặc toàn bộ số tiền của bạn. Việc nghiên cứu kỹ lưỡng là rất quan trọng. BlockchainFX không đảm bảo bất kỳ hiệu suất, kết quả hoặc hoàn vốn nào đối với bất kỳ loại tiền mã hóa nào được đề cập trên nền tảng này. Bằng cách sử dụng nền tảng này, bạn đồng ý với Điều khoản Dịch vụ, Chính sách Bảo mật, Chính sách Cookie và bất kỳ thỏa thuận bán token nào áp dụng. Nội dung của nền tảng không nhằm được sử dụng tại các khu vực pháp lý nơi việc phân phối hoặc sử dụng vi phạm luật hoặc quy định địa phương.",
+    "copyright": "Bản quyền 2025. Giữ toàn bộ quyền.",
+    "cookie_management": "Quản lý Cookie"
+  },
   "lineBreak": "<br />"
 }

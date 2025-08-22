@@ -1,5 +1,6 @@
 "use client";
 import { Link } from "react-router-dom";
+import { useTranslation, Trans } from "react-i18next";
 
 const footer = {
   description:
@@ -52,6 +53,7 @@ const footer = {
 };
 
 function HowToBuyFooter() {
+  const { t } = useTranslation();
   const handleScroll = (event, targetId, offset) => {
     event.preventDefault();
 
@@ -74,18 +76,17 @@ function HowToBuyFooter() {
 
       <div className="w-[100%] 2xl:block xl:block lg:block md:block sm:hidden hidden space-y-[40px] max-w-[1200px]  pt-[10px] mx-auto pb-[50px] ">
         <div className="border-b border-white/10 py-[46px]">
-          <p className="text-[14px] font-[400] text-gray-300 leading-[171%]">
-            {footer.disclaimer}
+          <p className="text-[14px] font-[400] text-gray-300 leading-[171%]" dangerouslySetInnerHTML={{ __html: t("how_footer.disclaimer") }}>
           </p>
         </div>
         <div className="flex items-center justify-between">
           <p className=" text-[16px] text-[#fff] leading-[150%]">
-            {footer.copyright}
+            {t("how_footer.copyright")}
           </p>
           <div className="space-x-5">
             <Link to="/cookie-management" className="text-blue-600 ">
               <p className="text-[#fff] text-[16px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#fff] transition duration-300 inline-block">
-                {footer.cookie_management}
+                {t("how_footer.cookie_management")}
               </p>
             </Link>
           </div>
@@ -98,13 +99,12 @@ function HowToBuyFooter() {
 
       <div className="w-[90%] 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-[35px] py-[24px] mx-auto ">
         <div className="border-t border-b border-[#FFF] border-opacity-10 py-[18px]">
-          <p className="text-[10px] font-[400] text-gray-300 leading-[190%]">
-            {footer.disclaimer}
+          <p className="text-[10px] font-[400] text-gray-300 leading-[190%]" dangerouslySetInnerHTML={{ __html: t("how_footer.disclaimer") }}>
           </p>
         </div>
         <div>
           <p className="text-[10px] text-center text-[#fff] leading-[100%] mb-8">
-            {footer.copyright}
+            {t("how_footer.copyright")}
           </p>
         </div>
       </div>

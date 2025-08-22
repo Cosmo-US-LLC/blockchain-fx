@@ -66,7 +66,7 @@ function NavbarMobile() {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
-  const parts = location.pathname.split("/").filter(Boolean);
+const parts = location.pathname.split("/").filter(Boolean);
   const isHome =
     parts.length === 0 ||
     (parts.length === 1 &&
@@ -74,51 +74,58 @@ function NavbarMobile() {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
-  // const handleSelectLanguage = (lang) => {
-  //   setSelectedLang(lang);
-  //   setIsOpen(false);
-  //   setIsMobileMenuOpen(false);
-  // };
-
   useEffect(() => {
-    const setLanguageFromURL = async () => {
-      const parts = location.pathname.split("/").filter(Boolean);
-      let currentLang = "en"; // default
+  const setLanguageFromURL = () => {
+    const parts = location.pathname.split("/").filter(Boolean);
+    let currentLang = "en";
 
-      if (parts.length > 0) {
+    if (parts.length > 0) {
+      if (parts[0] === "how-to-buy" && parts[1]) {
+        currentLang = parts[1].toLowerCase();
+      } else {
         const urlLang = parts[0].toLowerCase();
         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
           currentLang = urlLang;
         }
       }
+    }
 
+    if (i18n.language !== currentLang) {
       const found = flags.find(
         (f) => f.abbreviation.toLowerCase() === currentLang
       );
       if (found) {
         setSelectedLang(found);
-        await i18n.changeLanguage(currentLang);
+        i18n.changeLanguage(currentLang);
       }
-    };
-
-    setLanguageFromURL();
-  }, [location.pathname]);
-
-  const handleSelectLanguage = async (lang) => {
-    setSelectedLang(lang);
-    await i18n.changeLanguage(lang.abbreviation.toLowerCase());
-    setIsOpen(false);
-
-    const currentPath = location.pathname.split("/").filter(Boolean);
-    const pagePath =
-      currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
-
-    if (lang.abbreviation.toLowerCase() === "en") {
-      navigate(`${pagePath || "/"}`);
-    } else {
-      navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
     }
   };
+
+  setLanguageFromURL();
+}, [location.pathname, i18n, flags]);
+
+const handleSelectLanguage = (lang) => {
+  const abbr = lang.abbreviation.toLowerCase();
+  setSelectedLang(lang);  // updates the selected language
+  i18n.changeLanguage(abbr); 
+  setIsOpen(false);
+
+  // update URL
+  const parts = location.pathname.split("/").filter(Boolean);
+  let newPath = "/";
+
+  if (parts[0] === "how-to-buy") {
+    newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
+  } else {
+    const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
+    newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
+  }
+
+  if (newPath !== location.pathname) {
+    navigate(newPath);
+  }
+};
+
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -263,10 +270,10 @@ function NavbarMobile() {
         </div>
       </div>
     </div>
-      <div className="fixed bottom-[20%] bg-[#030f16] right-2 border-[1px] border-[#E6AF0320]  h-[40px] w-[100px] flex items-center justify-center rounded-[8px] z-[999]">
+      <div   ref={dropdownRef} className="fixed bottom-[20%] bg-[#030f16] right-2 border-[1px] border-[#E6AF0320]  h-[40px] w-[100px] flex items-center justify-center rounded-[8px] z-[99]">
                   <div
-                ref={dropdownRef}
-                className="relative flex items-center justify-start space-x-2"
+              
+                className="relative flex items-center justify-start space-x-2 z-[999] "
               >
                 <img
                   className="w-[20px]"

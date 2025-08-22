@@ -1,4 +1,6 @@
+
 import React from "react";
+import { useTranslation } from "react-i18next";
 import goldenShadow from "../../assets/hoyToBuy/viewCoin/viewClaimGoldenShadow.png";
 import walletImage from "../../assets/hoyToBuy/wallet/metamask.svg";
 import coinbase from "../../assets/hoyToBuy/wallet/coinbase.svg";
@@ -7,6 +9,8 @@ import phantom from "../../assets/HowToBuySec/phantomD.svg";
 import walletconnect from "../../assets/hoyToBuy/wallet/walletconnect.svg";
 
 const StepOneWalletSetupSection = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="py-12 bg-[#000]">
       <div className="max-w-[1200px] w-full mx-auto">
@@ -19,21 +23,18 @@ const StepOneWalletSetupSection = () => {
           <div className="flex flex-row items-center gap-[100px]">
             <div className="flex flex-col w-[452px]">
               <h3 className="mb-2 text-[30px] font-semibold text-[#E5AE00] uppercase">
-                Step 1
+                {t("stepOneWallet.step1")}
               </h3>
               <h2 className="mb-4 text-[48px] text-[#FFF] font-semibold leading-[57.6px] tracking-[-3.36px]">
-                Set up a Wallet
+                {t("stepOneWallet.setupTitle")}
               </h2>
               <p className="text-[#9F9F9F] mb-4 test-[16px] leading-[28px] tracking-[-0.4px]">
-                Before you purchase BFX, make sure you're using a decentralised
-                crypto wallet. This ensures your tokens are properly linked to
-                your wallet address and your rewards are activated.
+                {t("stepOneWallet.setupDescription")}
               </p>
               <p className=" mb-4 test-[16px] leading-[28px] tracking-[-0.4px] font-semibold text-[#E5AE00]">
-                Note:{" "}
+                {t("stepOneWallet.noteLabel")}{" "}
                 <span className="text-[#9F9F9F] test-[14px] leading-[28px] tracking-[-0.4px]">
-                  Do not use centralized exchange wallets (e.g., Binance,
-                  Coinbase main app) — they won’t display your tokens or rewards
+                  {t("stepOneWallet.noteDescription")}
                 </span>
               </p>
             </div>
@@ -43,36 +44,36 @@ const StepOneWalletSetupSection = () => {
                 <thead className="bg-[#1A1A1A] text-white">
                   <tr>
                     <th className="py-2 px-4 border border-[#333] text-[18px] leading-[24px] tracking-[-0.36px]">
-                      Platform
+                      {t("stepOneWallet.table.platform")}
                     </th>
                     <th className="py-2 px-4 border border-[#333] text-[18px] leading-[24px] tracking-[-0.36px]">
-                      Wallet Option
+                      {t("stepOneWallet.table.walletOption")}
                     </th>
                   </tr>
                 </thead>
                 <tbody className="text-[#CCCCCC]">
                   <tr className="border border-[#333]">
                     <td className="px-4 py-2 border border-[#333] text-[16px] leading-[24px] tracking-[-0.36px]">
-                      Desktop
+                      {t("stepOneWallet.table.desktop")}
                     </td>
                     <td className="px-4 py-2 border border-[#333] text-[16px] leading-[24px] tracking-[-0.36px]">
-                      MetaMask (Chrome or Firefox extension)
+                      {t("stepOneWallet.table.desktopOption")}
                     </td>
                   </tr>
                   <tr className="border border-[#333]">
                     <td className="px-4 py-2 border border-[#333] text-[16px] leading-[24px] tracking-[-0.36px]">
-                      Mobile
+                      {t("stepOneWallet.table.mobile")}
                     </td>
                     <td className="px-4 py-2 border border-[#333] text-[16px] leading-[24px] tracking-[-0.36px]">
-                      Trust Wallet, Coinbase Wallet, Metamask
+                      {t("stepOneWallet.table.mobileOption")}
                     </td>
                   </tr>
                   <tr>
                     <td className="px-4 py-2 border border-[#333] text-[16px] leading-[24px] tracking-[-0.36px]">
-                      Any Device
+                      {t("stepOneWallet.table.anyDevice")}
                     </td>
                     <td className="px-4 py-2 border border-[#333] text-[16px] leading-[24px] tracking-[-0.36px]">
-                      WalletConnect-compatible apps
+                      {t("stepOneWallet.table.anyDeviceOption")}
                     </td>
                   </tr>
                 </tbody>
@@ -102,3 +103,4 @@ const StepOneWalletSetupSection = () => {
 };
 
 export default StepOneWalletSetupSection;
+

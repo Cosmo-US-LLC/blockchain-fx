@@ -1,8 +1,9 @@
 import React from "react";
 import qrImage from "../../assets/hoyToBuy/confirm-transaction/deposit_eth.webp";
 import goldenShadow from "../../assets/hoyToBuy/mobile/ellipes-bg.png";
-
+import { useTranslation } from "react-i18next";
 function StepThreeTransactionSectionMobile() {
+  const { t } = useTranslation();
   return (
     <div className="py-10 px-6 bg-[#000] relative top-[-3px]">
       <div className="relative w-full flex flex-col gap-10 px-4 py-6 border-[2px] border-[#E6AF0320] rounded-[16px] overflow-hidden">
@@ -14,23 +15,15 @@ function StepThreeTransactionSectionMobile() {
 
         <div className="z-20 flex flex-col text-left text-white">
           <p className="text-[25px] font-[700] leading-[30px] tracking-[-1.25px] text-[#E5AE00] uppercase mb-2">
-            Step 3
+          {t("stepThreeTransaction.step")}
           </p>
           <h2 className="text-[30px] font-[700] leading-[36px] tracking-[-1.5px] mb-4">
-            Confirm Transaction
+            {t("stepThreeTransaction.title")}
           </h2>
           <ol className="list-decimal pl-4 text-[#9F9F9F] text-[14px] font-[400] leading-[26px] space-y-4">
-            <li>
-              After clicking “Buy Now”, a unique wallet address will be
-              generated.
-            </li>
-            <li>
-              Send the exact amount of your chosen crypto to that address.
-            </li>
-            <li>
-              Approve the transaction through your wallet (MetaMask, Trust
-              Wallet, etc.).
-            </li>
+          <li>{t("stepThreeTransaction.instructions.0")}</li>
+              <li>{t("stepThreeTransaction.instructions.1")}</li>
+              <li>{t("stepThreeTransaction.instructions.2")}</li>
           </ol>
         </div>
 

@@ -991,6 +991,97 @@
   "elite": "Elite",
   "master": "Master",
   "expert": "Expert"
-}
+},
+"how_to_buy_hero": {
+  "title": "How To Buy",
+  "blockchain_fx": "BlockchainFX",
+  "bfx_token": "($BFX)",
+  "description": "Follow this simple step-by-step guide to secure your $BFX tokens and unlock daily crypto rewards. Whether you're paying with crypto or card, everything you need is outlined below.",
+  "coin_alt": "BFX Coin"
+},
+ "stepOneWallet": {
+    "step1": "Step 1",
+    "setupTitle": "Set up a Wallet",
+    "setupDescription": "Before you purchase BFX, make sure you're using a decentralised crypto wallet. This ensures your tokens are properly linked to your wallet address and your rewards are activated.",
+    "noteLabel": "Note:",
+    "noteDescription": "Do not use centralized exchange wallets (e.g., Binance, Coinbase main app) — they won’t display your tokens or rewards",
+    "table": {
+      "platform": "Platform",
+      "walletOption": "Wallet Option",
+      "desktop": "Desktop",
+      "desktopOption": "MetaMask (Chrome or Firefox extension)",
+      "mobile": "Mobile",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "Any Device",
+      "anyDeviceOption": "WalletConnect-compatible apps"
+    }
+  },
+   "payment": {
+    "step2": "Step 2",
+    "title": "Select Payment Method",
+    "subtitle": "Choose from the following supported options:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "Enter the amount of",
+    "toBuy": "you want to buy.",
+    "amountYouPay": "Amount You Pay in USDT",
+    "youReceive": "You Receive BFX",
+    "bonus": "+ Novice NFT"
+  },
+   "paymentCardTwo": {
+    "selectText1": "Select your preferred",
+    "selectText2": "currency or card option.",
+    "buyWithCard": "Buy with Card"
+  },
+   "paymentCardThree": {
+    "click": "Click",
+    "buyNow": "Buy Now",
+    "amountYouPay": "Amount You Pay in USDT",
+    "youReceive": "You Receive BFX",
+    "bonus": "+ Novice NFT",
+    "buyBtn": "Buy BFX"
+  },
+  "stepThreeTransaction": {
+    "step": "STEP 3",
+    "title": "Confirm Transaction",
+    "instructions": {
+      "0": "After clicking “Buy Now”, a unique wallet address will be generated.",
+      "1": "Send the exact amount of your chosen crypto to that address.",
+      "2": "Approve the transaction through your wallet (MetaMask, Trust Wallet, etc.)."
+    }
+  },
+   "stepFourViewCoins": {
+    "step": "STEP 4",
+    "title": "View Your BFX Coins",
+    "subtitle": "Once your payment is confirmed:",
+    "list": {
+      "0": "Daily BFX staking rewards will be added to your dashboard.",
+      "1": "USDT (ERC-20) payouts are sent to your wallet every Monday.",
+      "2": "You can view all rewards and transactions via your BlockchainFX dashboard."
+    }
+  },
+  "stepFiveClaim": {
+    "step": "STEP 5",
+    "title": "Claim",
+    "subtitle": "After the presale ends:",
+    "list": {
+      "0": "Your $BFX tokens will be claimable in your dashboard with one click."
+    },
+    "thankYou": "Thank you for being part of the BFX journey."
+  },
+   "stepSixLaunch": {
+    "step": "STEP 6",
+    "title": "Launch",
+    "exchangesTitle": "$BFX Launches On Multiple Top-Tier Exchanges",
+    "description1": "$BFX will officially launch on multiple top-tier exchanges after the presale concludes.",
+    "description2": "Stay updated via our website and social channels for listing announcements.",
+    "button": "Buy BFX Now"
+  },
+   "how_footer": {
+    "disclaimer": "Cryptocurrency may be unregulated in your jurisdiction, and its value can fluctuate, leading to potential gains or losses. Any profits might be subject to capital gains or other taxes, depending on your local laws. The content on this platform does not constitute an offer, recommendation, or financial advice to buy, sell, or engage in any cryptocurrency transactions. You are solely responsible for assessing whether a transaction aligns with your personal goals, financial circumstances, and risk tolerance. We strongly recommend consulting trusted and licensed legal, tax, or financial professionals before making any decisions.<br/><br/>Trading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. BlockchainFX does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.",
+    "copyright": "Copyright 2025. All Rights Reserved.",
+    "cookie_management": "Cookie Management"
+  }
+
 }
   
