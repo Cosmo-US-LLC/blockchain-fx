@@ -221,10 +221,8 @@ useEffect(() => {
 
     if (parts.length > 0) {
       if (parts[0] === "how-to-buy" && parts[1]) {
-        // /how-to-buy/ja
         currentLang = parts[1].toLowerCase();
       } else {
-        // /ja/... or just /ja
         const urlLang = parts[0].toLowerCase();
         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
           currentLang = urlLang;
@@ -232,18 +230,17 @@ useEffect(() => {
       }
     }
 
-    if (i18n.language !== currentLang) {
-      let found = flags.find(
-        (f) => f.abbreviation.toLowerCase() === currentLang
-      );
+    let found = flags.find(
+      (f) => f.abbreviation.toLowerCase() === currentLang
+    );
 
-      // ✅ fallback for English
-      if (!found && currentLang === "en") {
-        found = flags.find((f) => f.abbreviation.toLowerCase() === "en");
-      }
+    if (!found) {
+      found = flags.find((f) => f.abbreviation.toLowerCase() === "en");
+    }
 
-      if (found) {
-        setSelectedLang(found);
+    if (found) {
+      setSelectedLang(found);   // ✅ always update dropdown
+      if (i18n.language !== currentLang) {
         i18n.changeLanguage(currentLang);
       }
     }
@@ -251,8 +248,6 @@ useEffect(() => {
 
   setLanguageFromURL();
 }, [location.pathname, i18n, flags]);
-
-
 const handleSelectLanguage = (lang) => {
   const abbr = lang.abbreviation.toLowerCase();
 
