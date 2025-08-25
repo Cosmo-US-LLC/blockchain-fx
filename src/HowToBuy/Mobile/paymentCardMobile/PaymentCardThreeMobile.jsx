@@ -9,7 +9,8 @@ function PaymentCardThreeMobile() {
     <div className="bg-[#0F0F0F] border border-[#3F3F3F] rounded-xl px-2 py-3 flex items-center gap-2 w-full">
       <div className="flex-1">
         <p className="text-[#9F9F9F] text-[10px] font-[400] leading-[12px]">
-                   {t("paymentCardThree.click")}
+                   {t("paymentCardThree.click")}{" "}
+          <span className="">"{t("paymentCardThree.buyNow")}"</span>.
         </p>
       </div>
       <div className="flex flex-col gap-2">
