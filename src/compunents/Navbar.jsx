@@ -239,7 +239,7 @@ useEffect(() => {
     }
 
     if (found) {
-      setSelectedLang(found);   // ✅ always update dropdown
+      setSelectedLang(found); 
       if (i18n.language !== currentLang) {
         i18n.changeLanguage(currentLang);
       }
@@ -248,6 +248,7 @@ useEffect(() => {
 
   setLanguageFromURL();
 }, [location.pathname, i18n, flags]);
+
 const handleSelectLanguage = (lang) => {
   const abbr = lang.abbreviation.toLowerCase();
 
@@ -268,7 +269,7 @@ const handleSelectLanguage = (lang) => {
   if (newPath !== location.pathname) {
     navigate(newPath);
   }
-};
+};s
 
   useEffect(() => {
     const handleClickOutside = (event) => {
