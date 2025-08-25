@@ -9,7 +9,7 @@ function PaymentCardThree() {
       <div className="flex-1 pl-4">
         <p className="text-[#9F9F9F] text-[18px] leading-[28px]">
           {t("paymentCardThree.click")}{" "}
-          <span className="font-medium">{t("paymentCardThree.buyNow")}</span>.
+          <span className="font-medium">"{t("paymentCardThree.buyNow")}"</span>.
         </p>
       </div>
 

@@ -12,7 +12,7 @@ function StepSixLaunchSection() {
 
       
           <div className="w-[460px] backdrop-blur-md border border-[#545454] rounded-[12px] relative z-30 p-5">
-            <p className="mb-4 text-[16px] font-medium text-center capitalize text-[#808080]">
+            <p className="mb-4 text-[16px] font-semibold text-center capitalize text-[#808080]">
               {t("stepSixLaunch.exchangesTitle")}
             </p>
 
@@ -42,7 +42,7 @@ function StepSixLaunchSection() {
           </div>
 
           <div className="w-[330px] text-white">
-            <p className="text-[30px] font-[30px] text-[#E5AE00]">{t("stepSixLaunch.step")}</p>
+            <p className="text-[30px] font-[30px] font-semibold text-[#E5AE00]">{t("stepSixLaunch.step")}</p>
             <h2 className="mb-4 text-[48px] font-[600] leading-[57.6px] tracking-[-3.36px]">
               {t("stepSixLaunch.title")}
             </h2>
