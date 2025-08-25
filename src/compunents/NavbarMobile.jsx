@@ -74,7 +74,7 @@ const parts = location.pathname.split("/").filter(Boolean);
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
-  useEffect(() => {
+useEffect(() => {
   const setLanguageFromURL = () => {
     const parts = location.pathname.split("/").filter(Boolean);
     let currentLang = "en";
@@ -90,12 +90,17 @@ const parts = location.pathname.split("/").filter(Boolean);
       }
     }
 
-    if (i18n.language !== currentLang) {
-      const found = flags.find(
-        (f) => f.abbreviation.toLowerCase() === currentLang
-      );
-      if (found) {
-        setSelectedLang(found);
+    let found = flags.find(
+      (f) => f.abbreviation.toLowerCase() === currentLang
+    );
+
+    if (!found) {
+      found = flags.find((f) => f.abbreviation.toLowerCase() === "en");
+    }
+
+    if (found) {
+      setSelectedLang(found);  
+      if (i18n.language !== currentLang) {
         i18n.changeLanguage(currentLang);
       }
     }
@@ -103,6 +108,7 @@ const parts = location.pathname.split("/").filter(Boolean);
 
   setLanguageFromURL();
 }, [location.pathname, i18n, flags]);
+
 
 const handleSelectLanguage = (lang) => {
   const abbr = lang.abbreviation.toLowerCase();
