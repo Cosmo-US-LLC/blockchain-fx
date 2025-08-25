@@ -158,6 +158,62 @@ function Navbar() {
   // };
 
 
+// useEffect(() => {
+//   const setLanguageFromURL = () => {
+//     const parts = location.pathname.split("/").filter(Boolean);
+//     let currentLang = "en";
+
+//     if (parts.length > 0) {
+//       if (parts[0] === "how-to-buy" && parts[1]) {
+//         // /how-to-buy/ja
+//         currentLang = parts[1].toLowerCase();
+//       } else {
+//         // /ja/... or just /ja
+//         const urlLang = parts[0].toLowerCase();
+//         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+//           currentLang = urlLang;
+//         }
+//       }
+//     }
+
+//     if (i18n.language !== currentLang) {
+//       const found = flags.find(
+//         (f) => f.abbreviation.toLowerCase() === currentLang
+//       );
+//       if (found) {
+//         setSelectedLang(found);
+//         i18n.changeLanguage(currentLang);
+//       }
+//     }
+//   };
+
+//   setLanguageFromURL();
+// }, [location.pathname, i18n, flags]);
+
+// const handleSelectLanguage = (lang) => {
+//   const abbr = lang.abbreviation.toLowerCase();
+//   setSelectedLang(lang);
+//   i18n.changeLanguage(abbr); // no await
+//   setIsOpen(false);
+
+//   const parts = location.pathname.split("/").filter(Boolean);
+//   let newPath = "/";
+
+//   if (parts[0] === "how-to-buy") {
+//     // special case: keep how-to-buy
+//     newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
+//   } else {
+//     // general case
+//     const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
+//     newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
+//   }
+
+//   if (newPath !== location.pathname) {
+//     navigate(newPath);
+//   }
+// };
+
+
 useEffect(() => {
   const setLanguageFromURL = () => {
     const parts = location.pathname.split("/").filter(Boolean);
@@ -177,9 +233,15 @@ useEffect(() => {
     }
 
     if (i18n.language !== currentLang) {
-      const found = flags.find(
+      let found = flags.find(
         (f) => f.abbreviation.toLowerCase() === currentLang
       );
+
+      // ✅ fallback for English
+      if (!found && currentLang === "en") {
+        found = flags.find((f) => f.abbreviation.toLowerCase() === "en");
+      }
+
       if (found) {
         setSelectedLang(found);
         i18n.changeLanguage(currentLang);
@@ -190,20 +252,20 @@ useEffect(() => {
   setLanguageFromURL();
 }, [location.pathname, i18n, flags]);
 
+
 const handleSelectLanguage = (lang) => {
   const abbr = lang.abbreviation.toLowerCase();
+
   setSelectedLang(lang);
-  i18n.changeLanguage(abbr); // no await
+  i18n.changeLanguage(abbr);
   setIsOpen(false);
 
   const parts = location.pathname.split("/").filter(Boolean);
   let newPath = "/";
 
   if (parts[0] === "how-to-buy") {
-    // special case: keep how-to-buy
     newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
   } else {
-    // general case
     const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
     newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
   }

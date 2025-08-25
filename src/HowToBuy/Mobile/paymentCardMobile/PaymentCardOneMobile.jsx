@@ -37,7 +37,7 @@ function PaymentCardOneMobile() {
               <span className="text-[#8D8D8D] text-[6px] font-[400] leading-[6px]">
                 {t("paymentCardOne.youReceive")}
               </span>
-              <span className="text-[#00FFA3] text-[6px] font-medium">
+              <span className="text-[#00FFA3] text-[6px] font-medium leading-[98%]">
                 {t("paymentCardOne.bonus")}
               </span>
             </div>
