@@ -270,7 +270,7 @@ const handleSelectLanguage = (lang) => {
         </div>
       </div>
     </div>
-      <div   ref={dropdownRef} className="fixed bottom-[20%] bg-[#030f16] right-2 border-[1px] border-[#E6AF0320]  h-[40px] w-[100px] flex items-center justify-center rounded-[8px] z-[99]">
+      <div   ref={dropdownRef} className="fixed bottom-[15%] bg-[#030f16] right-2 border-[1px] border-[#E6AF0320]  h-[40px] w-[100px] flex items-center justify-center rounded-[8px] z-[9999]">
                   <div
               
                 className="relative flex items-center justify-start space-x-2 z-[999] "
