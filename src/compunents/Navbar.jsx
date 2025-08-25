@@ -269,7 +269,7 @@ const handleSelectLanguage = (lang) => {
   if (newPath !== location.pathname) {
     navigate(newPath);
   }
-};s
+};
 
   useEffect(() => {
     const handleClickOutside = (event) => {

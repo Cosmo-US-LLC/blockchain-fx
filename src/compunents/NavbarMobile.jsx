@@ -99,7 +99,8 @@ useEffect(() => {
     }
 
     if (found) {
-      setSelectedLang(found);  
+      setSelectedLang(found);
+
       if (i18n.language !== currentLang) {
         i18n.changeLanguage(currentLang);
       }
