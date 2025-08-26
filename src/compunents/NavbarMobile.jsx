@@ -277,7 +277,7 @@ const handleSelectLanguage = (lang) => {
         </div>
       </div>
     </div>
-      <div   ref={dropdownRef} className="fixed bottom-[15%] bg-[#030f16] right-2 border-[1px] border-[#E6AF0320]  h-[40px] w-[100px] flex items-center justify-center rounded-[8px] z-[9999]">
+      <div   ref={dropdownRef} className="fixed bottom-[10%] bg-[#030f16] right-2 border-[1px] border-[#E6AF0320]  h-[40px] w-[100px] flex items-center justify-center rounded-[8px] z-[9999]">
                   <div
               
                 className="relative flex items-center justify-start space-x-2 z-[999] "
@@ -302,7 +302,7 @@ const handleSelectLanguage = (lang) => {
 
               </div>
                 {isOpen && (
-                  <div className="absolute border-[1px] border-[#E6AF0320] z-[9999] px-[10px] !top-[38px] h-[93px] overflow-scroll left-0  pb-2 rounded-[8px]  bg-[#020B10] shadow-lg">
+                  <div className="absolute border-[1px] border-[#E6AF0320] z-[9999] px-[10px] !bottom-[38px] h-[93px] overflow-scroll left-0  pb-2 rounded-[8px]  bg-[#020B10] shadow-lg">
                     {/* <h3 className="text-[14px] text-[#fff] font-[700] mb-1">
                       Languages
                     </h3> */}
