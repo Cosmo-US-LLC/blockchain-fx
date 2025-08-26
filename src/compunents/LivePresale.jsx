@@ -6,14 +6,15 @@ import { useTranslation } from "react-i18next";
 function LivePresale() {
   const { t } = useTranslation();
 
-  const targetDate = new Date();
-  targetDate.setDate(targetDate.getDate() + 10);
-
-  const [timeLeft, setTimeLeft] = useState(getTimeRemaining());
+  const targetDate = new Date("2025-09-01T16:00:00+04:00");
 
   function getTimeRemaining() {
     const now = new Date().getTime();
     const difference = targetDate.getTime() - now;
+
+    if (difference <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
 
     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
     const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
@@ -23,13 +24,8 @@ function LivePresale() {
     return { days, hours, minutes, seconds };
   }
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTimeLeft(getTimeRemaining());
-    }, 1000);
+  const [timeLeft, setTimeLeft] = useState(getTimeRemaining());
 
-    return () => clearInterval(interval);
-  }, []);
   useEffect(() => {
     const interval = setInterval(() => {
       setTimeLeft(getTimeRemaining());
