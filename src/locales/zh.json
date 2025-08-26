@@ -993,10 +993,11 @@
   "you_receive_bfx": "您将获得 $BFX",
   "nft": "NFT",
   "unlock_nft": "解锁",
-  "limited_time_offer": "限时优惠",
-  "use_bonus_code": "使用优惠码",
-  "bonus_code": "Bonus Code",
-  "to_get_bonus": "可额外获得 20%",
+   "limited_time_offer": "夏末优惠",
+    "use_bonus_code": "使用优惠码",
+    "bonus_code_num": "AUG35",
+    "bonus_code": "优惠码",
+    "to_get_bonus": "即可额外获得35%",
   "more_bfx_coins": "更多 $BFX 代币！",
   "referral_link": "10% 推荐链接",
   "transaction_successful": "交易成功",
@@ -1014,5 +1015,95 @@
   "elite": "精英",
   "master": "大师",
   "expert": "专家"
-}
+},
+"how_to_buy_hero": {
+    "title": "购买指南",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "请按照这个简单的分步指南来获取您的 $BFX 代币，并解锁每日加密奖励。无论您使用加密货币还是银行卡支付，所需信息均已列出。",
+    "coin_alt": "BFX 代币"
+  },
+  "stepOneWallet": {
+    "step1": "步骤 1",
+    "setupTitle": "设置钱包",
+    "setupDescription": "在购买 BFX 之前，请确保您使用的是去中心化加密钱包。这可以确保您的代币正确绑定到您的钱包地址，并激活奖励。",
+    "noteLabel": "注意：",
+    "noteDescription": "不要使用中心化交易所钱包（例如：Binance、Coinbase 主应用）——它们不会显示您的代币或奖励。",
+    "table": {
+      "platform": "平台",
+      "walletOption": "钱包选项",
+      "desktop": "桌面",
+      "desktopOption": "MetaMask（Chrome 或 Firefox 扩展）",
+      "mobile": "移动端",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "任何设备",
+      "anyDeviceOption": "支持 WalletConnect 的应用"
+    }
+  },
+  "payment": {
+    "step2": "步骤 2",
+    "title": "选择支付方式",
+    "subtitle": "从以下支持的选项中选择："
+  },
+  "paymentCardOne": {
+    "enterAmount": "输入数量",
+    "toBuy": "您想购买的数量。",
+    "amountYouPay": "您支付的 USDT 数量",
+    "youReceive": "您将获得 BFX",
+    "bonus": "+ 新手 NFT"
+  },
+  "paymentCardTwo": {
+    "selectText1": "选择您偏好的",
+    "selectText2": "货币或卡选项。",
+    "buyWithCard": "用卡购买"
+  },
+  "paymentCardThree": {
+    "click": "点击",
+    "buyNow": "立即购买",
+    "amountYouPay": "您支付的 USDT 数量",
+    "youReceive": "您将获得 BFX",
+    "bonus": "+ 新手 NFT",
+    "buyBtn": "购买 BFX"
+  },
+  "stepThreeTransaction": {
+    "step": "步骤 3",
+    "title": "确认交易",
+    "instructions": {
+      "0": "点击“立即购买”后，将生成唯一钱包地址。",
+      "1": "将您选择的加密货币准确发送到该地址。",
+      "2": "通过您的钱包（MetaMask、Trust Wallet 等）批准交易。"
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "步骤 4",
+    "title": "查看您的 BFX 代币",
+    "subtitle": "支付确认后：",
+    "list": {
+      "0": "每日 BFX 质押奖励将添加到您的仪表盘。",
+      "1": "USDT（ERC-20）付款每周一发送到您的钱包。",
+      "2": "您可以通过 BlockchainFX 仪表盘查看所有奖励和交易记录。"
+    }
+  },
+  "stepFiveClaim": {
+    "step": "步骤 5",
+    "title": "领取",
+    "subtitle": "预售结束后：",
+    "list": {
+      "0": "您的 $BFX 代币可在仪表盘上一键领取。"
+    },
+    "thankYou": "感谢您成为 BFX 旅程的一部分。"
+  },
+  "stepSixLaunch": {
+    "step": "步骤 6",
+    "title": "上线",
+    "exchangesTitle": "$BFX 在多家顶级交易所上线",
+    "description1": "预售结束后，$BFX 将在多家顶级交易所正式上线。",
+    "description2": "请通过我们的网站和社交渠道获取上线公告的最新信息。",
+    "button": "立即购买 BFX"
+  },
+  "how_footer": {
+    "disclaimer": "加密货币在您的司法辖区可能不受监管，其价值可能波动，导致潜在收益或损失。任何利润可能需缴纳资本利得税或其他税费，取决于当地法律。本平台内容不构成购买、出售或参与任何加密货币交易的要约、推荐或财务建议。您需自行评估交易是否符合您的个人目标、财务状况及风险承受能力。我们强烈建议在做出任何决策前咨询值得信赖并持牌的法律、税务或金融专业人士。<br/><br/>加密货币交易存在重大风险，包括可能部分或全部资金损失。深入研究至关重要。BlockchainFX 不保证本平台提及的任何加密货币的表现、结果或资本回报。使用本平台即表示您同意我们的服务条款、隐私政策、Cookie 政策及任何适用的代币销售协议。本平台内容不适用于在其分发或使用可能违反当地法律或法规的司法辖区使用。",
+    "copyright": "版权所有 2025。保留所有权利。",
+    "cookie_management": "Cookie 管理"
+  }
 }

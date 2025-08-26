@@ -815,10 +815,11 @@
   "you_receive_bfx": "Alacağınız $BFX",
   "nft": "NFT",
   "unlock_nft": "Kilidi Aç",
-  "limited_time_offer": "Sınırlı Süreli Teklif",
-  "use_bonus_code": "Bonus Kodu Kullan",
-  "bonus_code": "Bonus Code",
-  "to_get_bonus": "Ekstra %20 Almak İçin",
+ "limited_time_offer": "Yaz Sonu Teklifi",
+    "use_bonus_code": "Bonus Kodunu Kullan",
+    "bonus_code_num": "AUG35",
+    "bonus_code": "Bonus Kodu",
+    "to_get_bonus": "Ekstra %35 almak için",
   "more_bfx_coins": "$BFX Coin!",
   "referral_link": "%10 Referans Bağlantısı",
   "transaction_successful": "İşlem Başarılı",
@@ -836,5 +837,95 @@
   "elite": "Seçkin",
   "master": "Usta",
   "expert": "Uzman"
-}
+},
+"how_to_buy_hero": {
+    "title": "Nasıl Satın Alınır",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "Bu basit adım adım kılavuzu izleyerek $BFX tokenlerinizi güvence altına alın ve günlük kripto ödüllerinin kilidini açın. Kripto veya kart ile ödeme yapıyor olun, ihtiyacınız olan her şey aşağıda açıklanmıştır.",
+    "coin_alt": "BFX Coin"
+  },
+  "stepOneWallet": {
+    "step1": "Adım 1",
+    "setupTitle": "Bir Cüzdan Kurun",
+    "setupDescription": "BFX satın almadan önce, merkeziyetsiz bir kripto cüzdanı kullandığınızdan emin olun. Bu, tokenlerinizin doğru şekilde cüzdan adresinize bağlanmasını ve ödüllerinizin etkinleştirilmesini sağlar.",
+    "noteLabel": "Not:",
+    "noteDescription": "Merkezi borsa cüzdanlarını kullanmayın (ör. Binance, Coinbase ana uygulaması) — tokenlerinizi veya ödüllerinizi göstermeyecektir.",
+    "table": {
+      "platform": "Platform",
+      "walletOption": "Cüzdan Seçeneği",
+      "desktop": "Masaüstü",
+      "desktopOption": "MetaMask (Chrome veya Firefox eklentisi)",
+      "mobile": "Mobil",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "Herhangi Bir Cihaz",
+      "anyDeviceOption": "WalletConnect uyumlu uygulamalar"
+    }
+  },
+  "payment": {
+    "step2": "Adım 2",
+    "title": "Ödeme Yöntemini Seçin",
+    "subtitle": "Aşağıdaki desteklenen seçeneklerden birini seçin:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "Miktarı girin",
+    "toBuy": "satın almak istediğiniz.",
+    "amountYouPay": "Ödeyeceğiniz Tutar (USDT)",
+    "youReceive": "Alacağınız BFX",
+    "bonus": "+ Başlangıç NFT’si"
+  },
+  "paymentCardTwo": {
+    "selectText1": "Tercih ettiğiniz",
+    "selectText2": "para birimini veya kart seçeneğini seçin.",
+    "buyWithCard": "Kart ile Satın Al"
+  },
+  "paymentCardThree": {
+    "click": "Tıklayın",
+    "buyNow": "Hemen Satın Al",
+    "amountYouPay": "Ödeyeceğiniz Tutar (USDT)",
+    "youReceive": "Alacağınız BFX",
+    "bonus": "+ Başlangıç NFT’si",
+    "buyBtn": "BFX Satın Al"
+  },
+  "stepThreeTransaction": {
+    "step": "Adım 3",
+    "title": "İşlemi Onaylayın",
+    "instructions": {
+      "0": "“Hemen Satın Al”a tıkladıktan sonra benzersiz bir cüzdan adresi oluşturulacaktır.",
+      "1": "Seçtiğiniz kriptonun tam miktarını bu adrese gönderin.",
+      "2": "İşlemi cüzdanınız (MetaMask, Trust Wallet vb.) üzerinden onaylayın."
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "Adım 4",
+    "title": "BFX Coinlerinizi Görüntüleyin",
+    "subtitle": "Ödemeniz onaylandıktan sonra:",
+    "list": {
+      "0": "Günlük BFX staking ödülleri panelinize eklenecektir.",
+      "1": "USDT (ERC-20) ödemeleri her Pazartesi cüzdanınıza gönderilir.",
+      "2": "Tüm ödüllerinizi ve işlemlerinizi BlockchainFX panelinizden görüntüleyebilirsiniz."
+    }
+  },
+  "stepFiveClaim": {
+    "step": "Adım 5",
+    "title": "Talep Et",
+    "subtitle": "Ön satış sona erdikten sonra:",
+    "list": {
+      "0": "$BFX tokenleriniz panelinizde tek tıkla talep edilebilir olacaktır."
+    },
+    "thankYou": "BFX yolculuğunun bir parçası olduğunuz için teşekkür ederiz."
+  },
+  "stepSixLaunch": {
+    "step": "Adım 6",
+    "title": "Lansman",
+    "exchangesTitle": "$BFX Birden Fazla Üst Düzey Borsada Listeleniyor",
+    "description1": "$BFX, ön satışın tamamlanmasının ardından resmi olarak birçok üst düzey borsada listelenecektir.",
+    "description2": "Listeleme duyuruları için web sitemizden ve sosyal kanallarımızdan güncellemeleri takip edin.",
+    "button": "BFX’i Hemen Satın Al"
+  },
+  "how_footer": {
+    "disclaimer": "Kripto para birimleri sizin yargı bölgenizde düzenlemeye tabi olmayabilir ve değeri dalgalanarak kazanç veya kayıplara yol açabilir. Herhangi bir kâr, yerel yasalarınıza bağlı olarak sermaye kazancı veya diğer vergilere tabi olabilir. Bu platformdaki içerik, herhangi bir kripto para birimini satın alma, satma veya işlemlere katılma konusunda teklif, tavsiye veya finansal danışmanlık niteliğinde değildir. Bir işlemin kişisel hedefleriniz, mali durumunuz ve risk toleransınızla uyumlu olup olmadığını değerlendirmek tamamen sizin sorumluluğunuzdadır. Herhangi bir karar vermeden önce güvenilir ve lisanslı hukuk, vergi veya finans uzmanlarına danışmanızı önemle tavsiye ederiz.<br/><br/>Kripto para ticareti, fonlarınızın kısmi veya tamamen kaybolması ihtimali de dahil olmak üzere önemli riskler taşır. Kapsamlı araştırma yapmak kritik önem taşır. BlockchainFX, bu platformda adı geçen herhangi bir kripto para için performans, sonuç veya sermaye iadesi garantisi vermez. Bu platformu kullanarak Hizmet Şartlarımızı, Gizlilik Politikamızı, Çerez Politikasını ve geçerli token satış sözleşmelerini kabul etmiş olursunuz. Platform içeriği, dağıtımının veya kullanımının yerel yasa veya düzenlemeleri ihlal ettiği yargı bölgelerinde kullanılmak üzere tasarlanmamıştır.",
+    "copyright": "Telif Hakkı 2025. Tüm Hakları Saklıdır.",
+    "cookie_management": "Çerez Yönetimi"
+  }
 }

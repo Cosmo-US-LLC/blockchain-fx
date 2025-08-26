@@ -1,6 +1,7 @@
 import React from "react";
 import PaymentCardOne from "./PaymentCardOne";
 import PaymentCardTwo from "./PaymentCardTwo";
+import { useTranslation } from "react-i18next";
 import PaymentCardThree from "./PaymentCardThree";
 import goldenShadow from "../../../assets/hoyToBuy/claim/claim-left-top-shadow.png";
 import icon1 from "../../../assets/hoyToBuy/payment/stepTwoCards/icon1.svg";
@@ -19,6 +20,7 @@ import craditCard from "../../../assets/hoyToBuy/payment/stepTwoCards/craditCard
 import visa from "../../../assets/hoyToBuy/payment/stepTwoCards/visa.svg";
 
 function StepTwoPaymentCard() {
+   const { t } = useTranslation();
   return (
     <div className="py-12 bg-[#000]">
       <div className="max-w-[1200px] relative w-full mx-auto">
@@ -28,13 +30,15 @@ function StepTwoPaymentCard() {
             alt=""
             className="absolute top-0 left-0 z-10 h-auto"
           />
-          <div className="z-30 flex flex-col items-center justify-center text-white ">
-            <p className="text-[30px] font-semibold text-[#E5AE00]">STEP 2</p>
+           <div className="z-30 flex flex-col items-center justify-center text-white ">
+            <p className="text-[30px] font-semibold text-[#E5AE00] uppercase">
+              {t("payment.step2")}
+            </p>
             <h2 className="mb-2 text-[48px] font-[600] leading-[57.6px] tracking-[-3.36px]">
-              Select Payment Method
+              {t("payment.title")}
             </h2>
             <p className="text-[16px] text-[#9F9F9F] leading-[24px] tracking-[-0.32px]">
-              Choose from the following supported options:
+              {t("payment.subtitle")}
             </p>
           </div>
           <div className="z-30 flex flex-wrap items-center justify-center gap-4">

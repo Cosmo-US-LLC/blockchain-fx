@@ -116,45 +116,160 @@ function Navbar() {
   //   }
   // };
 
-  useEffect(() => {
-    const setLanguageFromURL = async () => {
-      const parts = location.pathname.split("/").filter(Boolean);
-      let currentLang = "en"; // default
+
+  // useEffect(() => {
+  //   const setLanguageFromURL = async () => {
+  //     const parts = location.pathname.split("/").filter(Boolean);
+  //     let currentLang = "en"; // default
   
-      if (parts.length > 0) {
+  //     if (parts.length > 0) {
+  //       const urlLang = parts[0].toLowerCase();
+  //       if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+  //         currentLang = urlLang;
+  //       }
+  //     }
+  
+  //     const found = flags.find(
+  //       (f) => f.abbreviation.toLowerCase() === currentLang
+  //     );
+  //     if (found) {
+  //       setSelectedLang(found);
+  //       await i18n.changeLanguage(currentLang);
+  //     }
+  //   };
+  
+  //   setLanguageFromURL();
+  // }, [location.pathname]);
+
+  // const handleSelectLanguage = async (lang) => {
+  //   setSelectedLang(lang);
+  //   await i18n.changeLanguage(lang.abbreviation.toLowerCase());
+  //   setIsOpen(false);
+  
+  //   const currentPath = location.pathname.split("/").filter(Boolean);
+  //   const pagePath =
+  //     currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
+  
+  //   if (lang.abbreviation.toLowerCase() === "en") {
+  //     navigate(`${pagePath || "/"}`);
+  //   } else {
+  //     navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
+  //   }
+  // };
+
+
+// useEffect(() => {
+//   const setLanguageFromURL = () => {
+//     const parts = location.pathname.split("/").filter(Boolean);
+//     let currentLang = "en";
+
+//     if (parts.length > 0) {
+//       if (parts[0] === "how-to-buy" && parts[1]) {
+//         // /how-to-buy/ja
+//         currentLang = parts[1].toLowerCase();
+//       } else {
+//         // /ja/... or just /ja
+//         const urlLang = parts[0].toLowerCase();
+//         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+//           currentLang = urlLang;
+//         }
+//       }
+//     }
+
+//     if (i18n.language !== currentLang) {
+//       const found = flags.find(
+//         (f) => f.abbreviation.toLowerCase() === currentLang
+//       );
+//       if (found) {
+//         setSelectedLang(found);
+//         i18n.changeLanguage(currentLang);
+//       }
+//     }
+//   };
+
+//   setLanguageFromURL();
+// }, [location.pathname, i18n, flags]);
+
+// const handleSelectLanguage = (lang) => {
+//   const abbr = lang.abbreviation.toLowerCase();
+//   setSelectedLang(lang);
+//   i18n.changeLanguage(abbr); // no await
+//   setIsOpen(false);
+
+//   const parts = location.pathname.split("/").filter(Boolean);
+//   let newPath = "/";
+
+//   if (parts[0] === "how-to-buy") {
+//     // special case: keep how-to-buy
+//     newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
+//   } else {
+//     // general case
+//     const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
+//     newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
+//   }
+
+//   if (newPath !== location.pathname) {
+//     navigate(newPath);
+//   }
+// };
+
+
+useEffect(() => {
+  const setLanguageFromURL = () => {
+    const parts = location.pathname.split("/").filter(Boolean);
+    let currentLang = "en";
+
+    if (parts.length > 0) {
+      if (parts[0] === "how-to-buy" && parts[1]) {
+        currentLang = parts[1].toLowerCase();
+      } else {
         const urlLang = parts[0].toLowerCase();
         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
           currentLang = urlLang;
         }
       }
-  
-      const found = flags.find(
-        (f) => f.abbreviation.toLowerCase() === currentLang
-      );
-      if (found) {
-        setSelectedLang(found);
-        await i18n.changeLanguage(currentLang);
-      }
-    };
-  
-    setLanguageFromURL();
-  }, [location.pathname]);
+    }
 
-  const handleSelectLanguage = async (lang) => {
-    setSelectedLang(lang);
-    await i18n.changeLanguage(lang.abbreviation.toLowerCase());
-    setIsOpen(false);
-  
-    const currentPath = location.pathname.split("/").filter(Boolean);
-    const pagePath =
-      currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
-  
-    if (lang.abbreviation.toLowerCase() === "en") {
-      navigate(`${pagePath || "/"}`);
-    } else {
-      navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
+    let found = flags.find(
+      (f) => f.abbreviation.toLowerCase() === currentLang
+    );
+
+    if (!found) {
+      found = flags.find((f) => f.abbreviation.toLowerCase() === "en");
+    }
+
+    if (found) {
+      setSelectedLang(found); 
+      if (i18n.language !== currentLang) {
+        i18n.changeLanguage(currentLang);
+      }
     }
   };
+
+  setLanguageFromURL();
+}, [location.pathname, i18n, flags]);
+
+const handleSelectLanguage = (lang) => {
+  const abbr = lang.abbreviation.toLowerCase();
+
+  setSelectedLang(lang);
+  i18n.changeLanguage(abbr);
+  setIsOpen(false);
+
+  const parts = location.pathname.split("/").filter(Boolean);
+  let newPath = "/";
+
+  if (parts[0] === "how-to-buy") {
+    newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
+  } else {
+    const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
+    newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
+  }
+
+  if (newPath !== location.pathname) {
+    navigate(newPath);
+  }
+};
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -194,7 +309,7 @@ function Navbar() {
       <LivePresale />
       <div
         className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          isHome ? "top-9" : "top-0"
+          isHome ? "top-[3rem]" : "top-0"
         }`}
       >
         

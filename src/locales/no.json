@@ -950,10 +950,11 @@
   "you_receive_bfx": "Du mottar $BFX",
   "nft": "NFT",
   "unlock_nft": "Lås opp",
-  "limited_time_offer": "Tidsbegrenset tilbud",
-  "use_bonus_code": "Bruk bonuskode",
-  "bonus_code": "Bonus Code",
-  "to_get_bonus": "For å få 20% ekstra",
+    "limited_time_offer": "Slutten av sommertilbud",
+    "use_bonus_code": "Bruk bonuskode",
+    "bonus_code_num": "AUG35",
+    "bonus_code": "Bonuskode",
+    "to_get_bonus": "For å få 35% mer",
   "more_bfx_coins": "Flere $BFX-mynter!",
   "referral_link": "10 % henvisningslenke",
   "transaction_successful": "Transaksjonen var vellykket",
@@ -971,5 +972,95 @@
   "elite": "Elite",
   "master": "Mester",
   "expert": "Ekspert"
-}
+},
+ "how_to_buy_hero": {
+    "title": "Hvordan Kjøpe",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "Følg denne enkle steg-for-steg guiden for å sikre dine $BFX-tokens og låse opp daglige kryptobelønninger. Enten du betaler med krypto eller kort, finner du alt du trenger nedenfor.",
+    "coin_alt": "BFX Mynt"
+  },
+  "stepOneWallet": {
+    "step1": "Trinn 1",
+    "setupTitle": "Opprett en Lommebok",
+    "setupDescription": "Før du kjøper BFX, må du sørge for at du bruker en desentralisert kryptolommebok. Dette sikrer at tokenene dine er riktig knyttet til lommebokadressen din og at belønningene aktiveres.",
+    "noteLabel": "Merk:",
+    "noteDescription": "Ikke bruk sentraliserte børslommebøker (f.eks. Binance, Coinbase hovedapp) — de vil ikke vise tokenene eller belønningene dine",
+    "table": {
+      "platform": "Plattform",
+      "walletOption": "Lommebokalternativ",
+      "desktop": "Datamaskin",
+      "desktopOption": "MetaMask (Chrome eller Firefox-utvidelse)",
+      "mobile": "Mobil",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "Alle enheter",
+      "anyDeviceOption": "WalletConnect-kompatible apper"
+    }
+  },
+  "payment": {
+    "step2": "Trinn 2",
+    "title": "Velg Betalingsmetode",
+    "subtitle": "Velg blant de følgende støttede alternativene:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "Skriv inn beløpet på",
+    "toBuy": "du vil kjøpe.",
+    "amountYouPay": "Beløpet du betaler i USDT",
+    "youReceive": "Du mottar BFX",
+    "bonus": "+ Nybegynner NFT"
+  },
+  "paymentCardTwo": {
+    "selectText1": "Velg din foretrukne",
+    "selectText2": "valuta eller kortalternativ.",
+    "buyWithCard": "Kjøp med kort"
+  },
+  "paymentCardThree": {
+    "click": "Klikk",
+    "buyNow": "Kjøp Nå",
+    "amountYouPay": "Beløpet du betaler i USDT",
+    "youReceive": "Du mottar BFX",
+    "bonus": "+ Nybegynner NFT",
+    "buyBtn": "Kjøp BFX"
+  },
+  "stepThreeTransaction": {
+    "step": "Trinn 3",
+    "title": "Bekreft Transaksjon",
+    "instructions": {
+      "0": "Etter å ha klikket «Kjøp Nå», vil en unik lommebokadresse bli generert.",
+      "1": "Send det nøyaktige beløpet av din valgte krypto til den adressen.",
+      "2": "Godkjenn transaksjonen via lommeboken din (MetaMask, Trust Wallet, etc.)."
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "Trinn 4",
+    "title": "Se Dine BFX Mynter",
+    "subtitle": "Når betalingen din er bekreftet:",
+    "list": {
+      "0": "Daglige BFX staking-belønninger legges til i dashbordet ditt.",
+      "1": "USDT (ERC-20) utbetalinger sendes til lommeboken din hver mandag.",
+      "2": "Du kan se alle belønninger og transaksjoner via BlockchainFX-dashbordet ditt."
+    }
+  },
+  "stepFiveClaim": {
+    "step": "Trinn 5",
+    "title": "Krev",
+    "subtitle": "Etter forhåndssalget avsluttes:",
+    "list": {
+      "0": "Dine $BFX-tokens kan kreves på dashbordet ditt med ett klikk."
+    },
+    "thankYou": "Takk for at du er en del av BFX-reisen."
+  },
+  "stepSixLaunch": {
+    "step": "Trinn 6",
+    "title": "Lansering",
+    "exchangesTitle": "$BFX Lanseres På Flere Toppbørser",
+    "description1": "$BFX vil offisielt lanseres på flere toppbørser etter at forhåndssalget avsluttes.",
+    "description2": "Hold deg oppdatert via nettstedet vårt og sosiale kanaler for noteringsannonser.",
+    "button": "Kjøp BFX Nå"
+  },
+  "how_footer": {
+    "disclaimer": "Kryptovaluta kan være uregulert i din jurisdiksjon, og verdien kan svinge, noe som kan føre til gevinster eller tap. Eventuelle gevinster kan være underlagt skatt på kapitalgevinster eller andre skatter, avhengig av dine lokale lover. Innholdet på denne plattformen utgjør ikke et tilbud, en anbefaling eller finansiell rådgivning om å kjøpe, selge eller delta i kryptovalutatransaksjoner. Du er alene ansvarlig for å vurdere om en transaksjon samsvarer med dine personlige mål, økonomiske forhold og risikotoleranse. Vi anbefaler på det sterkeste å konsultere pålitelige og lisensierte juridiske, skattemessige eller finansielle fagpersoner før du tar beslutninger.<br/><br/>Handel med kryptovaluta innebærer betydelige risikoer, inkludert muligheten for delvis eller totalt tap av midler. Grundig research er avgjørende. BlockchainFX gir ingen garantier for ytelse, resultat eller tilbakebetaling av kapital for noen kryptovaluta som er nevnt på denne plattformen. Ved å bruke denne plattformen godtar du våre Vilkår for bruk, Personvernerklæring, Informasjonskapselpolicy og eventuelle gjeldende tokensalgsavtaler. Innholdet på plattformen er ikke ment å brukes i jurisdiksjoner der distribusjon eller bruk ville bryte lokale lover eller forskrifter.",
+    "copyright": "Opphavsrett 2025. Alle rettigheter reservert.",
+    "cookie_management": "Informasjonskapseladministrasjon"
+  }
 }

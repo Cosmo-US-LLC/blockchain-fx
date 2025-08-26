@@ -942,10 +942,11 @@
   "you_receive_bfx": "$BFX を受け取る",
   "nft": "NFT",
   "unlock_nft": "アンロック",
-  "limited_time_offer": "期間限定オファー",
-  "use_bonus_code": "ボーナスコードを使用",
-  "bonus_code": "Bonus Code",
-  "to_get_bonus": "20% 追加でもらうには",
+ "limited_time_offer": "夏の終わりの特別オファー",
+    "use_bonus_code": "ボーナスコードを使用",
+    "bonus_code_num": "AUG35",
+    "bonus_code": "ボーナスコード",
+    "to_get_bonus": "35％追加で獲得",
   "more_bfx_coins": "さらに $BFX コイン！",
   "referral_link": "10% 紹介リンク",
   "transaction_successful": "取引が成功しました",
@@ -963,5 +964,95 @@
   "elite": "エリート",
   "master": "マスター",
   "expert": "エキスパート"
-}
+},
+"how_to_buy_hero": {
+  "title": "購入方法",
+  "blockchain_fx": "BlockchainFX",
+  "bfx_token": "($BFX)",
+  "description": "このシンプルなステップバイステップガイドに従って、$BFXトークンを確保し、毎日の暗号報酬を獲得しましょう。暗号通貨またはカードで支払う場合でも、必要な情報はすべて以下に記載されています。",
+  "coin_alt": "BFX コイン"
+},
+"stepOneWallet": {
+  "step1": "ステップ 1",
+  "setupTitle": "ウォレットを設定",
+  "setupDescription": "BFXを購入する前に、分散型暗号ウォレットを使用していることを確認してください。これにより、トークンが正しくウォレットアドレスにリンクされ、報酬が有効化されます。",
+  "noteLabel": "注意:",
+  "noteDescription": "中央集権型取引所ウォレット（例: Binance、Coinbaseメインアプリ）は使用しないでください。— トークンや報酬は表示されません。",
+  "table": {
+    "platform": "プラットフォーム",
+    "walletOption": "ウォレットオプション",
+    "desktop": "デスクトップ",
+    "desktopOption": "MetaMask (Chrome または Firefox 拡張機能)",
+    "mobile": "モバイル",
+    "mobileOption": "Trust Wallet、Coinbase Wallet、Metamask",
+    "anyDevice": "任意のデバイス",
+    "anyDeviceOption": "WalletConnect対応アプリ"
+  }
+},
+"payment": {
+  "step2": "ステップ 2",
+  "title": "支払い方法を選択",
+  "subtitle": "次のサポートされているオプションから選んでください:"
+},
+"paymentCardOne": {
+  "enterAmount": "購入したい",
+  "toBuy": "の数量を入力してください。",
+  "amountYouPay": "USDTで支払う金額",
+  "youReceive": "受け取るBFX",
+  "bonus": "+ 初心者NFT"
+},
+"paymentCardTwo": {
+  "selectText1": "希望する",
+  "selectText2": "通貨またはカードオプションを選択してください。",
+  "buyWithCard": "カードで購入"
+},
+"paymentCardThree": {
+  "click": "クリック",
+  "buyNow": "今すぐ購入",
+  "amountYouPay": "USDTで支払う金額",
+  "youReceive": "受け取るBFX",
+  "bonus": "+ 初心者NFT",
+  "buyBtn": "BFXを購入"
+},
+"stepThreeTransaction": {
+  "step": "ステップ 3",
+  "title": "取引を確認",
+  "instructions": {
+    "0": "「今すぐ購入」をクリックすると、ユニークなウォレットアドレスが生成されます。",
+    "1": "選択した暗号通貨の正確な金額をそのアドレスに送信してください。",
+    "2": "ウォレット（MetaMask、Trust Walletなど）から取引を承認してください。"
+  }
+},
+"stepFourViewCoins": {
+  "step": "ステップ 4",
+  "title": "BFXコインを表示",
+  "subtitle": "支払いが確認された後:",
+  "list": {
+    "0": "毎日のBFXステーキング報酬がダッシュボードに追加されます。",
+    "1": "USDT（ERC-20）の支払いは毎週月曜日にウォレットへ送信されます。",
+    "2": "すべての報酬と取引はBlockchainFXダッシュボードで確認できます。"
+  }
+},
+"stepFiveClaim": {
+  "step": "ステップ 5",
+  "title": "請求",
+  "subtitle": "プレセール終了後:",
+  "list": {
+    "0": "あなたの$BFXトークンはダッシュボードからワンクリックで請求可能になります。"
+  },
+  "thankYou": "BFXの旅の一員となっていただきありがとうございます。"
+},
+"stepSixLaunch": {
+  "step": "ステップ 6",
+  "title": "ローンチ",
+  "exchangesTitle": "$BFXは複数のトップティア取引所に上場",
+  "description1": "プレセール終了後、$BFXは正式に複数のトップティア取引所に上場します。",
+  "description2": "上場発表については、当社のウェブサイトおよびソーシャルチャネルで最新情報をご確認ください。",
+  "button": "今すぐBFXを購入"
+},
+"how_footer": {
+    "disclaimer": "暗号通貨はお住まいの地域で規制されていない場合があり、その価値は変動し、利益または損失をもたらす可能性があります。利益は、現地の法律に応じてキャピタルゲイン税やその他の税金の対象となる場合があります。本プラットフォームのコンテンツは、暗号通貨の売買や取引への参加を推奨、提供、または金融アドバイスするものではありません。取引があなたの個人的な目標、財務状況、リスク許容度に適合するかどうかを判断する責任はあなた自身にあります。意思決定を行う前に、信頼できる有資格の法律、税務、または金融の専門家に相談することを強く推奨します。<br/><br/>暗号通貨の取引には大きなリスクが伴い、資金の一部または全部を失う可能性があります。徹底的なリサーチが重要です。BlockchainFX は、このプラットフォームに記載された暗号通貨に関して、成果、結果、または資本の返還を保証しません。本プラットフォームを使用することで、利用規約、プライバシーポリシー、クッキーポリシー、および関連するトークン販売契約に同意したものとみなされます。本プラットフォームのコンテンツは、その配布や使用が現地の法律や規制に違反する地域での使用を意図したものではありません。",
+    "copyright": "著作権 2025. 無断転載禁止。",
+    "cookie_management": "クッキー管理"
+  }
 }
