@@ -10,7 +10,8 @@
   "connect_wallet": "Connect Wallet"
   },
   "live_presale_section": {
-    "title": "BFX Presale is Live",
+    "title": "End of Summer Bonus:",
+    "subtitle": "Get 35% extra BFX with code AUG35",
     "buy_button": "Buy BFX"
   },
   "hero": {
@@ -969,11 +970,11 @@
     "you_receive_bfx": "You Receive $BFX",
     "nft": "NFT",
     "unlock_nft": "Unlock",
-    "limited_time_offer": "Limited Time Offer",
+    "limited_time_offer": "End of Summer Offer",
     "use_bonus_code": "Use Bonus Code",
-    "bonus_code_num": "BFX20",
+    "bonus_code_num": "AUG35",
     "bonus_code": "Bonus Code",
-    "to_get_bonus": "To Get 20% More",
+    "to_get_bonus": "To Get 35% More",
     "more_bfx_coins": "$BFX Coins!",
     "referral_link": "10% Referral Link",
     "transaction_successful": "Transaction Successful",

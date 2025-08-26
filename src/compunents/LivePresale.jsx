@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import live_cards from "../assets/presale-v3/live_cards.svg";
 import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
 import { useTranslation } from "react-i18next";
@@ -6,11 +6,44 @@ import { useTranslation } from "react-i18next";
 function LivePresale() {
   const { t } = useTranslation();
 
+  const targetDate = new Date();
+  targetDate.setDate(targetDate.getDate() + 10);
+
+  const [timeLeft, setTimeLeft] = useState(getTimeRemaining());
+
+  function getTimeRemaining() {
+    const now = new Date().getTime();
+    const difference = targetDate.getTime() - now;
+
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((difference / 1000 / 60) % 60);
+    const seconds = Math.floor((difference / 1000) % 60);
+
+    return { days, hours, minutes, seconds };
+  }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimeLeft(getTimeRemaining());
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimeLeft(getTimeRemaining());
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
       if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
         const offset = 80;
         window.scrollTo({
           top: elementPosition - offset,
@@ -22,28 +55,80 @@ function LivePresale() {
 
   return (
     <div
-      className="flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
+      className="flex items-center sm:flex-col flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row w-[100%] justify-center 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 2xl:h-[56px] xl:h-[56px] lg:h-[56px] md:h-[56px] sm:h-[98px] h-[98px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
-        background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
+        background:
+          "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
       }}
     >
-      <div className="max-w-[900px] mx-auto w-[100%] flex flex-row justify-center 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[15px] space-x-[15px] items-center px-2">
-        <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] leading-[110%]">
-          {t("live_presale_section.title")}
+      <div className="2xl:hidden xl:hidden lg:hidden pb-2 md:hidden sm:flex flex space-x-2 text-center">
+        <div>
+          <p className="text-[14px] font-bold">
+            {timeLeft.days.toString().padStart(2, "0")}
+          </p>
+          <p className="text-[8px]">Days</p>
+        </div>
+        <p className="text-[14px] font-bold">:</p>
+        <div>
+          <p className="text-[14px] font-bold">
+            {timeLeft.hours.toString().padStart(2, "0")}
+          </p>
+          <p className="text-[8px]">Hours</p>
+        </div>
+        <p className="text-[14px] font-bold">:</p>
+        <div>
+          <p className="text-[14px] font-bold">
+            {timeLeft.minutes.toString().padStart(2, "0")}
+          </p>
+          <p className="text-[8px]">Minutes</p>
+        </div>
+        <p className="text-[14px] font-bold">:</p>
+        <div>
+          <p className="text-[14px] font-bold">
+            {timeLeft.seconds.toString().padStart(2, "0")}
+          </p>
+          <p className="text-[8px]">Seconds</p>
+        </div>
+      </div>
+      <div className="max-w-[1200px] mx-auto w-[100%] 2xl:pt-0 xl:pt-0 lg:pt-0 md:pt-0 sm:pt-2 pt-2 2xl:border-t-[0px] xl:border-t-[0px] lg:border-t-[0px] md:border-t-[0px] sm:border-t-[1px] border-t-[1px] border-[#000] flex flex-row 2xl:justify-between xl:justify-between lg:justify-between md:justify-between sm:justify-center justify-center  2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[15px] space-x-[15px] items-center px-2">
+        <p className="font-[700] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[10px] text-[10px] leading-[110%]">
+          {t("live_presale_section.title")}{" "}
+          <span className="font-[600]">
+            {t("live_presale_section.subtitle")}
+          </span>
         </p>
-        <img
-          src={live_cards}
-          alt="live_cards"
-          className="block 2xl:hidden xl:hidden lg:hidden md:hidden sm:block"
-        />
-        <img
-          src={live_cards_des}
-          alt="live_cards"
-          className="hidden 2xl:block xl:block lg:block md:block sm:hidden"
-        />
+        <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden space-x-6 text-center w-[40%] ">
+          <div>
+            <p className="text-[14px] font-bold">
+              {timeLeft.days.toString().padStart(2, "0")}
+            </p>
+            <p className="text-[8px]">Days</p>
+          </div>
+          <p className="text-[14px] font-bold">:</p>
+          <div>
+            <p className="text-[14px] font-bold">
+              {timeLeft.hours.toString().padStart(2, "0")}
+            </p>
+            <p className="text-[8px]">Hours</p>
+          </div>
+          <p className="text-[14px] font-bold">:</p>
+          <div>
+            <p className="text-[14px] font-bold">
+              {timeLeft.minutes.toString().padStart(2, "0")}
+            </p>
+            <p className="text-[8px]">Minutes</p>
+          </div>
+          <p className="text-[14px] font-bold">:</p>
+          <div>
+            <p className="text-[14px] font-bold">
+              {timeLeft.seconds.toString().padStart(2, "0")}
+            </p>
+            <p className="text-[8px]">Seconds</p>
+          </div>
+        </div>
         <button
           onClick={handleScroll}
-          className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] border border-1 border-[black] rounded-[3px] h-[25px] px-[6px] md:px-[10px]"
+          className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] bg-[#000] text-[#fff] rounded-[3px] h-[25px] px-[6px] md:px-[10px]"
         >
           {t("live_presale_section.buy_button")}
         </button>
