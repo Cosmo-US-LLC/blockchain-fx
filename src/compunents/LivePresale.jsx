@@ -58,7 +58,7 @@ function LivePresale() {
       }}
     >
      <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex px-2 max-w-[350px] mx-auto">
-       <p className="font-[700] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[10px] text-[10px] leading-[110%] ">
+       <p className="font-[700] text-[11px] leading-[110%] ">
         {t("live_presale_section.title")}{" "}
         <span
           className="font-[600]"
@@ -69,7 +69,7 @@ function LivePresale() {
       </p>
      </div>
       <div className="max-w-[1200px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden mx-auto w-[100%] space-x-2 border-[#000] flex flex-row justify-center  items-center px-2">
-        <p className="font-[700] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[10px] text-[10px] leading-[110%] ">
+        <p className="font-[700]  text-[16px] leading-[110%] ">
           {t("live_presale_section.title")}{" "}
           <span
             className="font-[600]"
@@ -78,7 +78,7 @@ function LivePresale() {
             }}
           ></span>
         </p>
-        <div className="flex space-x-2 text-center">
+        <div className="flex items-center space-x-2 pb-1 text-center">
           <div className="flex items-end space-x-1">
             <p className="text-[18.329px] font-bold leading-[80%]">
               {timeLeft.days.toString().padStart(2, "0")}
@@ -109,39 +109,39 @@ function LivePresale() {
         </div>
         <button
           onClick={handleScroll}
-          className="2xl:text-[12px] 2xl:flex xl:flex lg:flex md:flex items-center justify-center sm:hidden hidden xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] border-[1px] border-[#000] text-[#000] rounded-[3px] h-[28px] px-[6px] md:px-[10px]"
+          className="2xl:text-[12px] 2xl:flex xl:flex lg:flex md:flex items-center justify-center sm:hidden hidden  text-[16px] font-[700] border-[1px] border-[#000] text-[#000] rounded-[3px] h-[28px] px-[6px] md:px-[10px]"
         >
           {t("live_presale_section.buy_button")}
         </button>
       </div>
-      <div className="pt-2 max-w-[350px] mx-auto 2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex  w-[100%] space-x-2 border-[#000]  justify-between  items-center px-2">
-        <div className="flex space-x-2 text-center">
+      <div className="pt-[8px] max-w-[350px] mx-auto 2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex  w-[100%] space-x-2 border-[#000]  justify-between  items-center px-2">
+        <div className="flex space-x-[4px] text-center">
           <div className="flex items-end space-x-1">
             <p className="text-[14px] font-bold leading-[80%]">
               {timeLeft.days.toString().padStart(2, "0")}
             </p>
-            <p className="text-[8px] leading-[100%]">Days</p>
+            <p className="text-[10px] leading-[100%]">Days</p>
           </div>
           <p className="text-[14px] font-bold leading-[100%]">:</p>
           <div className="flex items-end space-x-1">
             <p className="text-[14px] font-bold leading-[80%]">
               {timeLeft.hours.toString().padStart(2, "0")}
             </p>
-            <p className="text-[8px] leading-[100%]">Hours</p>
+            <p className="text-[10px] leading-[100%]">Hours</p>
           </div>
           <p className="text-[14px] font-bold leading-[100%]">:</p>
           <div className="flex items-end space-x-1">
             <p className="text-[14px] font-bold leading-[80%]">
               {timeLeft.minutes.toString().padStart(2, "0")}
             </p>
-            <p className="text-[8px] leading-[100%]">Minutes</p>
+            <p className="text-[10px] leading-[100%]">Minutes</p>
           </div>
           <p className="text-[14px] font-bold leading-[100%]">:</p>
           <div className="flex items-end space-x-1">
             <p className="text-[14px] font-bold leading-[80%]">
               {timeLeft.seconds.toString().padStart(2, "0")}
             </p>
-            <p className="text-[8px] leading-[100%]">Seconds</p>
+            <p className="text-[10px] leading-[100%]">Seconds</p>
           </div>
         </div>
         <button
