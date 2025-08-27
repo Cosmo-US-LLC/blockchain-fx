@@ -233,3 +233,14 @@ p {
 .demobr br{
   display: none;
 }
+
+
+.bg_banner {
+  background: radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%);
+}
+
+@media (max-width: 768px) {
+  .bg_banner {
+    background: #FCD149;
+  }
+}
