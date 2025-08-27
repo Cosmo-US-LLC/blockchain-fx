@@ -34,7 +34,7 @@ const cardReviews = [
   [true, true, true, true, false],
   [true, true, true, true, false],
 ];
-const cardIcons = [tick, tick, tick, cross, cross]; // adjust as needed per card/point
+const cardIcons = [tick, tick, tick, cross, cross]; 
 
 function MobilePremiumSec() {
   const { t } = useTranslation();
@@ -43,14 +43,13 @@ function MobilePremiumSec() {
     [true, true, true, false, false],
     [true, true, true, true, false],
     [true, true, true, true, false],
-    [true, true, true, false, false],
-    [true, true, true, true, false],
-    [true, true, true, true, false],
-    [true, true, true, true, false],
+    [true, true, true, true, true],
+    [true, true, true, true, true],
+    [true, true, true, true, true],
+    [true, true, true, true, true],
   ];
   const cardsmobRaw = t("premium_section.cards", { returnObjects: true });
   const cardsmob = cardsmobRaw.map((card, idx) => {
-    // Map points to objects with text, icon, and tooltip
     const points = card.points.map((text, pIdx) => ({
       text,
       icon: cardReviews[idx][pIdx] ? tick : cross,

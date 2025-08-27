@@ -57,7 +57,7 @@ function LivePresale() {
        <p className="font-[700] text-[11px] leading-[110%] ">
         {t("live_presale_section.title")}{" "}
         <span
-          className="font-[600] "
+          className="font-[700] "
           dangerouslySetInnerHTML={{
             __html: t("live_presale_section.subtitle"),
           }}
