@@ -68,17 +68,17 @@ function LivePresale() {
         ></span>
       </p>
      </div>
-      <div className="max-w-[1200px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden mx-auto w-[100%] space-x-3 border-[#000] flex flex-row justify-center  items-center px-2">
+      <div className="max-w-[1200px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden mx-auto w-[100%] space-x-3 border-[#000] flex flex-row justify-between  items-center px-2">
         <p className="font-[700]  text-[16px] leading-[110%] ">
           {t("live_presale_section.title")}{" "}
           <span
-            className="font-[600] pl-2"
+            className="font-[600] pl-[2px]"
             dangerouslySetInnerHTML={{
               __html: t("live_presale_section.subtitle"),
             }}
           ></span>
         </p>
-        <div className="flex items-center space-x-2 pb-1 pr-1 text-center">
+        <div className="flex items-center space-x-2 pb-1 text-center">
           <div className="flex items-end space-x-1">
             <p className="text-[18.329px] font-bold leading-[80%]">
               {timeLeft.days.toString().padStart(2, "0")}
