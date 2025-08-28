@@ -233,3 +233,14 @@ p {
 .demobr br{
   display: none;
 }
+
+
+.bg_banner {
+  background: #FCD149;
+}
+
+@media (max-width: 768px) {
+  .bg_banner {
+    background: #FCD149;
+  }
+}
