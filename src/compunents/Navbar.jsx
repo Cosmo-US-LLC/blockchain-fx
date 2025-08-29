@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import i18n from "../i18n";
 
-import logo from "../assets/navbar/logo.png";
+import logo from "../assets/navbar/desk_logo.png";
 // import flag from "../assets/navbar/flg.svg";
 import flag15 from "../assets/navbar/ar.png";
 import arwdwn from "../assets/navbar/arw.png";
