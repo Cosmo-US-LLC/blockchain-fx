@@ -152,7 +152,7 @@ agree as follows:
               currency.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              1.9. <span className="font-[600]">Price:</span> TThe Token Distribution Event price ranges between 0.01 and 0.0495 USD per BFX, depending on the stage of the event. The final launch price of BFX is set at 0.05 USD per token.
+              1.9. <span className="font-[600]">Price:</span> The Token Distribution Event price ranges between 0.01 and 0.0495 USD per BFX, depending on the stage of the event. The final launch price of BFX is set at 0.05 USD per token.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
               1.10. <span className="font-[600]">Prohibited Participant:</span>  A person or entity from a jurisdiction where participation or the use
