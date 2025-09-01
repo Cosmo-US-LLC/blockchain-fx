@@ -9,8 +9,8 @@
     "dashboard": "Bảng điều khiển",
     "connect_wallet": "Kết nối ví"
   },
-  "live_presale_section": {
-    "title": "Đợt mở bán BFX đang diễn ra",
+    "live_presale_section": {
+    "title": "Bán trước BFX đang diễn ra",
     "buy_button": "Mua BFX"
   },
   "hero": {
@@ -995,12 +995,12 @@
   "you_receive_bfx": "Bạn nhận được $BFX",
   "nft": "NFT",
   "unlock_nft": "Mở khóa",
-   "limited_time_offer": "Ưu đãi cuối mùa hè",
-    "use_bonus_code": "Sử dụng mã khuyến mãi",
-    "bonus_code_num": "AUG35",
-    "bonus_code": "Mã khuyến mãi",
-    "to_get_bonus": "Để nhận thêm 35%",
-  "more_bfx_coins": "Đồng $BFX!",
+   "limited_time_offer": "Ưu đãi có thời hạn",
+  "use_bonus_code": "Sử dụng mã thưởng",
+  "bonus_code_num": "BFX20",
+  "bonus_code": "Mã thưởng",
+  "to_get_bonus": "để nhận thêm 20%",
+  "more_bfx_coins": "Xu $BFX!",
   "referral_link": "Liên kết giới thiệu 10%",
   "transaction_successful": "Giao dịch thành công",
   "transaction_successful_message": "Giao dịch đã thành công. Vui lòng đợi một phút và làm mới tab giao dịch để xem token của bạn.",

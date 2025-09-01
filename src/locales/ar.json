@@ -10,8 +10,8 @@
     "connect_wallet": "ربط المحفظة"
   },
   "live_presale_section": {
-    "title": "البيع المسبق لـ BFX متاح الآن",
-    "buy_button": "شراء BFX"
+    "title": "الطرح المسبق لـ BFX متاح الآن",
+    "buy_button": "اشترِ BFX"
   },
   "hero": {
     "title": "أول منصة تداول للعملات الرقمية <br />",
@@ -898,12 +898,12 @@
   "you_receive_bfx": "ستستلم $BFX",
   "nft": "NFT",
   "unlock_nft": "فتح",
-   "limited_time_offer": "عرض نهاية الصيف",
-    "use_bonus_code": "استخدم رمز المكافأة",
-    "bonus_code_num": "AUG35",
-    "bonus_code": "رمز المكافأة",
-    "to_get_bonus": "للحصول على 35% إضافية",
-  "more_bfx_coins": "عملات $BFX إضافية!",
+  "limited_time_offer": "عرض لفترة محدودة",
+  "use_bonus_code": "استخدم رمز المكافأة",
+  "bonus_code_num": "BFX20",
+  "bonus_code": "رمز المكافأة",
+  "to_get_bonus": "للحصول على 20% إضافية",
+  "more_bfx_coins": "عملات $BFX!",
   "referral_link": "رابط إحالة 10%",
   "transaction_successful": "تمت المعاملة بنجاح",
   "transaction_successful_message": "تمت المعاملة بنجاح. يرجى الانتظار دقيقة وتحديث علامة تبويب المعاملات لعرض رموزك.",

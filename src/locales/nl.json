@@ -10,8 +10,8 @@
     "connect_wallet": "Wallet verbinden"
   },
   "live_presale_section": {
-    "title": "BFX Voorverkoop is Live",
-    "buy_button": "Koop BFX"
+    "title": "BFX-voorverkoop is live",
+    "buy_button": "BFX kopen"
   },
   "hero": {
     "title": "De eerste Crypto <br /> Trading",
@@ -932,12 +932,12 @@
     "you_receive_bfx": "Je ontvangt $BFX",
     "nft": "NFT",
     "unlock_nft": "Ontgrendelen",
-    "limited_time_offer": "Einde van zomer aanbieding",
-    "use_bonus_code": "Gebruik bonuscode",
-    "bonus_code_num": "AUG35",
-    "bonus_code": "Bonuscode",
-    "to_get_bonus": "Om 35% extra te krijgen",
-    "more_bfx_coins": "$BFX Coins!",
+    "limited_time_offer": "Tijdelijk aanbod",
+  "use_bonus_code": "Gebruik bonuscode",
+  "bonus_code_num": "BFX20",
+  "bonus_code": "Bonuscode",
+  "to_get_bonus": "om 20% extra te krijgen",
+  "more_bfx_coins": "$BFX Munten!",
     "referral_link": "10% Referral Link",
     "transaction_successful": "Transactie geslaagd",
     "transaction_successful_message": "De transactie is geslaagd. Wacht een minuut en ververs het transactietabblad om je tokens te zien.",
