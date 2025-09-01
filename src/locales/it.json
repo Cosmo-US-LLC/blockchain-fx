@@ -10,7 +10,7 @@
     "connect_wallet": "Collega Portafoglio"
   },
   "live_presale_section": {
-    "title": "La prevendita di BFX è attiva",
+    "title": "La prevendita BFX è attiva",
     "buy_button": "Acquista BFX"
   },
   "hero": {
@@ -976,12 +976,12 @@
     "you_receive_bfx": "Ricevi $BFX",
     "nft": "NFT",
     "unlock_nft": "Sblocca",
-      "limited_time_offer": "Offerta di fine estate",
-    "use_bonus_code": "Usa il codice bonus",
-    "bonus_code_num": "AUG35",
-    "bonus_code": "Codice bonus",
-    "to_get_bonus": "Per ottenere il 35% in più",
-    "more_bfx_coins": "$BFX Coins!",
+     "limited_time_offer": "Offerta a tempo limitato",
+  "use_bonus_code": "Usa il codice bonus",
+  "bonus_code_num": "BFX20",
+  "bonus_code": "Codice bonus",
+  "to_get_bonus": "per ottenere il 20% in più",
+  "more_bfx_coins": "Monete $BFX!",
     "referral_link": "Link di riferimento 10%",
     "transaction_successful": "Transazione riuscita",
     "transaction_successful_message": "La transazione è andata a buon fine. Attendi un minuto e aggiorna la scheda delle transazioni per vedere i tuoi token.",

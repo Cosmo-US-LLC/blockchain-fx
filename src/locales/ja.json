@@ -10,7 +10,7 @@
     "connect_wallet": "ウォレット接続"
   },
   "live_presale_section": {
-    "title": "BFXプレセール開催中",
+    "title": "BFXプレセールが開始されました",
     "buy_button": "BFXを購入"
   },
   "hero": {
@@ -942,12 +942,12 @@
   "you_receive_bfx": "$BFX を受け取る",
   "nft": "NFT",
   "unlock_nft": "アンロック",
- "limited_time_offer": "夏の終わりの特別オファー",
-    "use_bonus_code": "ボーナスコードを使用",
-    "bonus_code_num": "AUG35",
-    "bonus_code": "ボーナスコード",
-    "to_get_bonus": "35％追加で獲得",
-  "more_bfx_coins": "さらに $BFX コイン！",
+ "limited_time_offer": "期間限定オファー",
+  "use_bonus_code": "ボーナスコードを使用",
+  "bonus_code_num": "BFX20",
+  "bonus_code": "ボーナスコード",
+  "to_get_bonus": "追加で20%を獲得",
+  "more_bfx_coins": "$BFX コイン!",
   "referral_link": "10% 紹介リンク",
   "transaction_successful": "取引が成功しました",
   "transaction_successful_message": "取引は成功しました。1分待ってからトランザクションタブを更新してトークンをご確認ください。",

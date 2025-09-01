@@ -9,9 +9,9 @@
     "dashboard": "仪表盘",
     "connect_wallet": "连接钱包"
   },
-  "live_presale_section": {
-    "title": "BFX预售正在进行中",
-    "buy_button": "购买BFX"
+    "live_presale_section": {
+    "title": "BFX 预售已开启",
+    "buy_button": "购买 BFX"
   },
   "hero": {
     "title": "首个加密货币<br />交易",
@@ -993,12 +993,12 @@
   "you_receive_bfx": "您将获得 $BFX",
   "nft": "NFT",
   "unlock_nft": "解锁",
-   "limited_time_offer": "夏末优惠",
-    "use_bonus_code": "使用优惠码",
-    "bonus_code_num": "AUG35",
-    "bonus_code": "优惠码",
-    "to_get_bonus": "即可额外获得35%",
-  "more_bfx_coins": "更多 $BFX 代币！",
+   "limited_time_offer": "限时优惠",
+  "use_bonus_code": "使用优惠码",
+  "bonus_code_num": "BFX20",
+  "bonus_code": "优惠码",
+  "to_get_bonus": "即可多得20%",
+  "more_bfx_coins": "$BFX 代币!",
   "referral_link": "10% 推荐链接",
   "transaction_successful": "交易成功",
   "transaction_successful_message": "交易已成功。请等待一分钟并刷新交易标签页以查看您的代币。",

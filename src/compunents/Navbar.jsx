@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import i18n from "../i18n";
 
-import logo from "../assets/navbar/logo.png";
+import logo from "../assets/navbar/desk_logo.png";
 // import flag from "../assets/navbar/flg.svg";
 import flag15 from "../assets/navbar/ar.png";
 import arwdwn from "../assets/navbar/arw.png";
@@ -309,7 +309,7 @@ const handleSelectLanguage = (lang) => {
       <LivePresale />
       <div
         className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          isHome ? "top-[3rem]" : "top-0"
+          isHome ? "top-[2.2rem]" : "top-0"
         }`}
       >
         

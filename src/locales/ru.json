@@ -9,8 +9,8 @@
     "dashboard": "Панель управления",
     "connect_wallet": "Подключить кошелек"
   },
-  "live_presale_section": {
-    "title": "Предпродажа BFX запущена",
+   "live_presale_section": {
+    "title": "Предпродажа BFX уже началась",
     "buy_button": "Купить BFX"
   },
   "hero": {
@@ -992,12 +992,12 @@
   "usd": "USD",
   "you_receive_bfx": "Вы получите $BFX",
   "nft": "NFT",
- "limited_time_offer": "Предложение к концу лета",
-    "use_bonus_code": "Используйте бонус-код",
-    "bonus_code_num": "AUG35",
-    "bonus_code": "Бонус-код",
-    "to_get_bonus": "Чтобы получить на 35% больше",
-  "more_bfx_coins": "монет $BFX!",
+ "limited_time_offer": "Ограниченное предложение",
+  "use_bonus_code": "Используйте бонусный код",
+  "bonus_code_num": "BFX20",
+  "bonus_code": "Бонусный код",
+  "to_get_bonus": "чтобы получить на 20% больше",
+  "more_bfx_coins": "Монеты $BFX!",
   "referral_link": "Реферальная ссылка на 10%",
   "transaction_successful": "Транзакция успешна",
   "transaction_successful_message": "Транзакция прошла успешно. Пожалуйста, подождите минуту и обновите вкладку транзакций, чтобы увидеть свои токены.",

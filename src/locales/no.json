@@ -30,7 +30,7 @@
     "featured_in": "Fremhevet i:"
   },
   "live_presale_section": {
-    "title": "BFX forhåndssalg er live",
+    "title": "BFX-forsalget er live",
     "buy_button": "Kjøp BFX"
   },
   "experts": {
@@ -950,12 +950,12 @@
   "you_receive_bfx": "Du mottar $BFX",
   "nft": "NFT",
   "unlock_nft": "Lås opp",
-    "limited_time_offer": "Slutten av sommertilbud",
-    "use_bonus_code": "Bruk bonuskode",
-    "bonus_code_num": "AUG35",
-    "bonus_code": "Bonuskode",
-    "to_get_bonus": "For å få 35% mer",
-  "more_bfx_coins": "Flere $BFX-mynter!",
+  "limited_time_offer": "Tidsbegrenset tilbud",
+  "use_bonus_code": "Bruk bonuskode",
+  "bonus_code_num": "BFX20",
+  "bonus_code": "Bonuskode",
+  "to_get_bonus": "for å få 20% mer",
+  "more_bfx_coins": "$BFX-mynter!",
   "referral_link": "10 % henvisningslenke",
   "transaction_successful": "Transaksjonen var vellykket",
   "transaction_successful_message": "Transaksjonen var vellykket. Vennligst vent et minutt og oppdater transaksjonsfanen for å se tokenene dine.",
