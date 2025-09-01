@@ -309,7 +309,7 @@ const handleSelectLanguage = (lang) => {
       <LivePresale />
       <div
         className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          isHome ? "top-[3rem]" : "top-0"
+          isHome ? "top-[2.2rem]" : "top-0"
         }`}
       >
         
