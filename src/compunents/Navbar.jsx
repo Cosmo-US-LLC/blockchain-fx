@@ -309,12 +309,12 @@ const handleSelectLanguage = (lang) => {
       <LivePresale />
       <div
         className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          isHome ? "top-[2.2rem]" : "top-0"
+          isHome ? "top-[2.4rem]" : "top-0"
         }`}
       >
         
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
-          <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
+          <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-1 xl:space-x-1 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
             <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
               <img
                 src={menu}
@@ -323,7 +323,7 @@ const handleSelectLanguage = (lang) => {
                 alt=""
               />
             </div>
-            <div className="2xl:max-w-[174px] xl:max-w-[174px] lg:max-w-[174px] md:max-w-[174px] sm:max-w-[145px] max-w-[145px]">
+            <div className="2xl:max-w-[163px] xl:max-w-[163px] lg:max-w-[163px] md:max-w-[163px] sm:max-w-[145px] max-w-[145px]">
               <Link
                 to="/"
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
@@ -332,7 +332,7 @@ const handleSelectLanguage = (lang) => {
               </Link>
             </div>
           </div>
-          <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
+          <div className="space-x-[20px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
               onClick={(e) => handleScroll(e, "pioneering", 40)}
