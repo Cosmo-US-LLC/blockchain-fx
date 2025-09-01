@@ -571,8 +571,8 @@ const BuyTab = ({ onTabChange}) => {
             background:"rgba(245, 245, 245, 0.00)"
           }}
           >
-              <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[9px] text-[9px] 2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[222px] max-w-[222px] mx-auto font-[500]  text-white text-center ">
-                {t('buy_tab.limited_time_offer')}: {t('buy_tab.use_bonus_code')} <span className="text-[#2FD942] !font-[700]">{t('buy_tab.bonus_code_num')}</span> {t('buy_tab.to_get_bonus')} {t('buy_tab.more_bfx_coins')}
+              <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[9px] text-[9px] 2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[195px] max-w-[195px] mx-auto font-[500]  text-white text-center ">
+                <span className="font-[700]">{t('buy_tab.limited_time_offer')}:</span> {t('buy_tab.use_bonus_code')} <span className="text-[#2FD942] !font-[700]">{t('buy_tab.bonus_code_num')}</span> {t('buy_tab.to_get_bonus')} {t('buy_tab.more_bfx_coins')}
               </h3>
           </div>
 
