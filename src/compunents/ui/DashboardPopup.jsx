@@ -350,7 +350,7 @@ const DashboardPopup = ({ onClose }) => {
                         alt=""
                       />
                       <p className="text-[14px] text-[#D2D2D2] font-[600] text-center">
-                        Bonus BFX
+                         NFT Bonus
                       </p>
                     </div>
                     <p className="text-[14px] text-[#fff] font-[700] text-center">
