@@ -121,7 +121,7 @@ function RoadmapSection() {
     },
     {
       title: t("Roadmap_section.Expansion"),
-      items: [
+      items: [ 
         t("Roadmap_section.Multiple CEX Listing"),
         t("Roadmap_section.Achieving-10000-BFX-Holders"),
         t("Roadmap_section.Reach $100M Daily Trading Volume")
