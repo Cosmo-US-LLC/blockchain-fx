@@ -24,64 +24,118 @@ function RoadmapSection() {
     },
   ];
 
+  // const slideData = [
+  //   {
+  //     title: t("Roadmap_section.Preparation"),
+  //     status: t("Roadmap_section.Completed"),
+  //     items: [
+  //       t("Roadmap_section.Idea + concept"),
+  //       t("Roadmap_section.Raise Seed Funds"),
+  //       t("Roadmap_section.Onboard Team & Advisors"),
+  //       t("Roadmap_section.Trading Platform Beta Preparation"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Execution"),
+  //     status: t("Roadmap_section.Completed"),
+  //     items: [
+  //       t("Roadmap_section.Website, Tokenomics etc."),
+  //       t("Roadmap_section.Create $BFX Token"),
+  //       t("Roadmap_section.Launch $BFX Pre-Sale"),
+  //       t("Roadmap_section.Certik Token Audit"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Launch"),
+  //     status: t("Roadmap_section.On-going"),
+  //     items: [
+  //       t("Roadmap_section.Launch an Affiliate Program"),
+  //       t("Roadmap_section.Sell Out the Pre-Sale"),
+  //       t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
+  //       t("Roadmap_section.Achieving 10000 BFX Holders"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Performance"),
+  //     items: [
+  //       t("Roadmap_section.Multiple CEX Listing"),
+  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+  //       t("Roadmap_section.Reach $100M Daily Trading Volume"),
+  //       t("Roadmap_section.Add Leaderboards & VIP accounts"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Expansion"),
+  //     items: [
+  //       t("Roadmap_section.Multiple CEX Listing"),
+  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+  //       t("Roadmap_section.Reach $100M Daily Trading Volume"),
+  //       t("Roadmap_section.Add Leaderboards & VIP accounts"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Global Reach"),
+  //     items: [
+  //       t("Roadmap_section.US License"),
+  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+  //       t("Roadmap_section.Global Marketing Campaigns"),
+  //       t("Roadmap_section.Major Global Partnerships"),
+  //     ],
+  //   },
+  // ];
   const slideData = [
     {
-      title: t("Roadmap_section.Preparation"),
+      title: t("Roadmap_section.Genesis"),
       status: t("Roadmap_section.Completed"),
       items: [
         t("Roadmap_section.Idea + concept"),
         t("Roadmap_section.Raise Seed Funds"),
-        t("Roadmap_section.Onboard Team & Advisors"),
-        t("Roadmap_section.Trading Platform Beta Preparation"),
-      ],
+        t("Roadmap_section.Onboard Team & Advisors")
+      ]
     },
     {
-      title: t("Roadmap_section.Execution"),
+      title: t("Roadmap_section.Foundations"),
       status: t("Roadmap_section.Completed"),
       items: [
+        t("Roadmap_section.Trading Platform Beta Preparation"),
         t("Roadmap_section.Website, Tokenomics etc."),
-        t("Roadmap_section.Create $BFX Token"),
-        t("Roadmap_section.Launch $BFX Pre-Sale"),
-        t("Roadmap_section.Certik Token Audit"),
-      ],
+        t("Roadmap_section.Create $BFX Token")
+      ]
     },
     {
-      title: t("Roadmap_section.Launch"),
+      title: t("Roadmap_section.Takeoff"),
       status: t("Roadmap_section.On-going"),
       items: [
-        t("Roadmap_section.Launch an Affiliate Program"),
-        t("Roadmap_section.Sell Out the Pre-Sale"),
-        t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
-        t("Roadmap_section.Achieving 10000 BFX Holders"),
-      ],
+        t("Roadmap_section.Launch $BFX Pre-Sale"),
+        t("Roadmap_section.Certik Token Audit"),
+        t("Roadmap_section.Launch an Affiliate Program")
+      ]
     },
     {
-      title: t("Roadmap_section.Performance"),
+      title: t("Roadmap_section.Scale"),
       items: [
-        t("Roadmap_section.Multiple CEX Listing"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-        t("Roadmap_section.Reach $100M Daily Trading Volume"),
-        t("Roadmap_section.Add Leaderboards & VIP accounts"),
-      ],
+        t("Roadmap_section.Sell Out the Pre-Sale"),
+        t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
+        t("Roadmap_section.Achieving 10000 BFX Holders")
+      ]
     },
     {
       title: t("Roadmap_section.Expansion"),
       items: [
         t("Roadmap_section.Multiple CEX Listing"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-        t("Roadmap_section.Reach $100M Daily Trading Volume"),
-        t("Roadmap_section.Add Leaderboards & VIP accounts"),
-      ],
+        t("Roadmap_section.Achieving 100000 BFX Holders"),
+        t("Roadmap_section.Reach $100M Daily Trading Volume")
+      ]
     },
     {
       title: t("Roadmap_section.Global Reach"),
       items: [
+        t("Roadmap_section.Add Leaderboards & VIP accounts"),
         t("Roadmap_section.US License"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
         t("Roadmap_section.Global Marketing Campaigns"),
-        t("Roadmap_section.Major Global Partnerships"),
-      ],
-    },
+        t("Roadmap_section.Major Global Partnerships")
+      ]
+    }
   ];
 
   const NextArrow = ({ onClick }) => (
