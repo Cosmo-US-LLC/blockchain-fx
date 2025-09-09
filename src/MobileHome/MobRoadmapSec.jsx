@@ -51,7 +51,7 @@ function MobRoadmapSec() {
         t("Roadmap_section.Achieving-10000-BFX-Holders"),
         t("Roadmap_section.Reach $100M Daily Trading Volume")
       ],
-    },
+    },   
     {
       title: t("Roadmap_section.Global Reach"),
       points: [
