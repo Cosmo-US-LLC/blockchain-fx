@@ -43,7 +43,7 @@ function MobRoadmapSec() {
         t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
         t("Roadmap_section.Achieving-10000-BFX-Holders")
       ]
-    },
+    },   
     {
       title: t("Roadmap_section.Expansion"),
       points: [
