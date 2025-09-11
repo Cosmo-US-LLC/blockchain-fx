@@ -104,7 +104,7 @@ function RoadmapSection() {
     },
     {
       title: t("Roadmap_section.Takeoff"),
-      status: t("Roadmap_section.On-going"),
+      status: t("Roadmap_section.Completed"),
       items: [
         t("Roadmap_section.Launch $BFX Pre-Sale"),
         t("Roadmap_section.Certik Token Audit"),
@@ -131,7 +131,7 @@ function RoadmapSection() {
       title: t("Roadmap_section.Global Reach"),
       items: [
         t("Roadmap_section.Add Leaderboards & VIP accounts"),
-        t("Roadmap_section.US License"),
+        // t("Roadmap_section.US License"),
         t("Roadmap_section.Global Marketing Campaigns"),
         t("Roadmap_section.Major Global Partnerships")
       ]
@@ -284,7 +284,8 @@ function RoadmapSection() {
                   {slide.items.map((item, itemIndex) => {
                     const isSlideOne = index === 0;
                     const isSlideTwo = index === 1;
-                    const showTick = isSlideOne || isSlideTwo;
+                    const isSlidethree = index === 2;
+                    const showTick = isSlideOne || isSlideTwo || isSlidethree;
 
                     return (
                       <li key={itemIndex} className="flex items-center mb-2">
