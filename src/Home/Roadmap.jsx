@@ -16,68 +16,130 @@ function RoadmapSection() {
   const cardGroups = [
     {
       slides: [0, 1, 2],
-      phases: [t("Roadmap_section.Genesis"), t("Roadmap_section.Foundations"), t("Roadmap_section.Takeoff")],
+      phases: [
+        t("Roadmap_section.Genesis"),
+        t("Roadmap_section.Foundations"),
+        t("Roadmap_section.Takeoff"),
+      ],
     },
     {
       slides: [3, 4, 5],
-      phases: [t("Roadmap_section.Scale"), t("Roadmap_section.Expansion"), t("Roadmap_section.Global Reach")],
+      phases: [
+        t("Roadmap_section.Scale"),
+        t("Roadmap_section.Expansion"),
+        t("Roadmap_section.Global Reach"),
+      ],
     },
   ];
 
+  // const slideData = [
+  //   {
+  //     title: t("Roadmap_section.Preparation"),
+  //     status: t("Roadmap_section.Completed"),
+  //     items: [
+  //       t("Roadmap_section.Idea + concept"),
+  //       t("Roadmap_section.Raise Seed Funds"),
+  //       t("Roadmap_section.Onboard Team & Advisors"),
+  //       t("Roadmap_section.Trading Platform Beta Preparation"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Execution"),
+  //     status: t("Roadmap_section.Completed"),
+  //     items: [
+  //       t("Roadmap_section.Website, Tokenomics etc."),
+  //       t("Roadmap_section.Create $BFX Token"),
+  //       t("Roadmap_section.Launch $BFX Pre-Sale"),
+  //       t("Roadmap_section.Certik Token Audit"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Launch"),
+  //     status: t("Roadmap_section.On-going"),
+  //     items: [
+  //       t("Roadmap_section.Launch an Affiliate Program"),
+  //       t("Roadmap_section.Sell Out the Pre-Sale"),
+  //       t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
+  //       t("Roadmap_section.Achieving 10000 BFX Holders"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Performance"),
+  //     items: [
+  //       t("Roadmap_section.Multiple CEX Listing"),
+  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+  //       t("Roadmap_section.Reach $100M Daily Trading Volume"),
+  //       t("Roadmap_section.Add Leaderboards & VIP accounts"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Expansion"),
+  //     items: [
+  //       t("Roadmap_section.Multiple CEX Listing"),
+  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+  //       t("Roadmap_section.Reach $100M Daily Trading Volume"),
+  //       t("Roadmap_section.Add Leaderboards & VIP accounts"),
+  //     ],
+  //   },
+  //   {
+  //     title: t("Roadmap_section.Global Reach"),
+  //     items: [
+  //       t("Roadmap_section.US License"),
+  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+  //       t("Roadmap_section.Global Marketing Campaigns"),
+  //       t("Roadmap_section.Major Global Partnerships"),
+  //     ],
+  //   },
+  // ];
   const slideData = [
     {
-      title: t("Roadmap_section.Preparation"),
+      title: t("Roadmap_section.Genesis"),
       status: t("Roadmap_section.Completed"),
       items: [
         t("Roadmap_section.Idea + concept"),
         t("Roadmap_section.Raise Seed Funds"),
         t("Roadmap_section.Onboard Team & Advisors"),
-        t("Roadmap_section.Trading Platform Beta Preparation"),
       ],
     },
     {
-      title: t("Roadmap_section.Execution"),
+      title: t("Roadmap_section.Foundations"),
       status: t("Roadmap_section.Completed"),
       items: [
+        t("Roadmap_section.Trading Platform Beta Preparation"),
         t("Roadmap_section.Website, Tokenomics etc."),
         t("Roadmap_section.Create $BFX Token"),
+      ],
+    },
+    {
+      title: t("Roadmap_section.Takeoff"),
+      status: t("Roadmap_section.Completed"),
+      items: [
         t("Roadmap_section.Launch $BFX Pre-Sale"),
         t("Roadmap_section.Certik Token Audit"),
+        t("Roadmap_section.Launch an Affiliate Program"),
       ],
     },
     {
-      title: t("Roadmap_section.Launch"),
-      status: t("Roadmap_section.On-going"),
+      title: t("Roadmap_section.Scale"),
       items: [
-        t("Roadmap_section.Launch an Affiliate Program"),
         t("Roadmap_section.Sell Out the Pre-Sale"),
         t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
-        t("Roadmap_section.Achieving 10000 BFX Holders"),
-      ],
-    },
-    {
-      title: t("Roadmap_section.Performance"),
-      items: [
-        t("Roadmap_section.Multiple CEX Listing"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-        t("Roadmap_section.Reach $100M Daily Trading Volume"),
-        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+        t("Roadmap_section.Achieving-10000-BFX-Holders"),
       ],
     },
     {
       title: t("Roadmap_section.Expansion"),
       items: [
         t("Roadmap_section.Multiple CEX Listing"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Achieving-10000-BFX-Holders"),
         t("Roadmap_section.Reach $100M Daily Trading Volume"),
-        t("Roadmap_section.Add Leaderboards & VIP accounts"),
       ],
     },
     {
       title: t("Roadmap_section.Global Reach"),
       items: [
-        t("Roadmap_section.US License"),
-        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
+        t("Roadmap_section.Add Leaderboards & VIP accounts"),
+        // t("Roadmap_section.US License"),
         t("Roadmap_section.Global Marketing Campaigns"),
         t("Roadmap_section.Major Global Partnerships"),
       ],
@@ -89,7 +151,11 @@ function RoadmapSection() {
       className="absolute right-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
       onClick={onClick}
     >
-      <img src={rightArrow} alt={t("Roadmap_section.next")} className="h-10 w-10" />
+      <img
+        src={rightArrow}
+        alt={t("Roadmap_section.next")}
+        className="h-10 w-10"
+      />
     </div>
   );
 
@@ -98,7 +164,11 @@ function RoadmapSection() {
       className="absolute left-[-20px] top-1/2 -translate-y-1/2 cursor-pointer z-10 hover:opacity-80 transition-opacity"
       onClick={onClick}
     >
-      <img src={leftArrow} alt={"Roadmap_section.previous"} className="h-10 w-10 rotate-[180deg]" />
+      <img
+        src={leftArrow}
+        alt={"Roadmap_section.previous"}
+        className="h-10 w-10 rotate-[180deg]"
+      />
     </div>
   );
 
@@ -168,19 +238,21 @@ function RoadmapSection() {
               <div
                 key={index}
                 className=""
-                style={{
-                  // width: isLast ? "100%" : "auto",
-                  // left: isLast
-                  //   ? "calc(100% - 330px)"
-                  //   : `${
-                  //       (index / (cardGroups[currentGroup].phases.length - 1)) *
-                  //       100
-                  //     }%`,
-                  // transform: "translateX(-50%)",
-                  // top: "-35px",
-                  // marginLeft: isFirst ? "260px" : "",
-                  // marginRight: isLast ? "100px" : "0",
-                }}
+                style={
+                  {
+                    // width: isLast ? "100%" : "auto",
+                    // left: isLast
+                    //   ? "calc(100% - 330px)"
+                    //   : `${
+                    //       (index / (cardGroups[currentGroup].phases.length - 1)) *
+                    //       100
+                    //     }%`,
+                    // transform: "translateX(-50%)",
+                    // top: "-35px",
+                    // marginLeft: isFirst ? "260px" : "",
+                    // marginRight: isLast ? "100px" : "0",
+                  }
+                }
               >
                 <p className="text-white text-[24px]">{text}</p>
               </div>
@@ -188,7 +260,6 @@ function RoadmapSection() {
           })}
         </div>
         <img className="w-full" src={line} alt="Roadmap Line" />
-
       </div>
 
       <div className="max-w-[1280px] mx-auto mt-20 relative px-12">
@@ -230,13 +301,21 @@ function RoadmapSection() {
                   {slide.items.map((item, itemIndex) => {
                     const isSlideOne = index === 0;
                     const isSlideTwo = index === 1;
-                    const showTick = isSlideOne || isSlideTwo;
+                    const isSlideThree = index === 2;
+                    const isAfterThree = index >= 3;
+                    const hideTick =
+                      (isSlideThree && itemIndex === 2) || isAfterThree;
 
                     return (
-                      <li key={itemIndex} className="flex items-center mb-2">
-                        {showTick && (
+                      <li
+                        key={itemIndex}
+                        className="flex items-center mb-2"
+                      >
+                        <div className="">
+                        {!hideTick && (
                           <img className="w-4 h-4 mr-2" src={tick} alt="tick" />
                         )}
+                        </div>
                         {item}
                       </li>
                     );
