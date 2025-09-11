@@ -46,6 +46,28 @@ document.addEventListener("wagmi-loaded", async () => {
   const { config } = await getConfig();
   watchAccount(config, {
     onChange: (account) => {
+      // Send the connected event
+      if (account.isConnected) {
+        try {
+          let connectedWallets = JSON.parse(
+            window.localStorage.getItem("userConnectedWallets") ?? "[]"
+          );
+          if (!Array.isArray(connectedWallets)) connectedWallets = [];
+          const hasAlreadySent = connectedWallets.find(
+            (wallet) => wallet.toLowerCase() === account.address.toLowerCase()
+          );
+          if (!hasAlreadySent) {
+            window.dataLayer.push({ event: "wallet_connect" });
+            connectedWallets.push(account.address.toLowerCase());
+            window.localStorage.setItem(
+              "userConnectedWallets",
+              JSON.stringify(connectedWallets)
+            );
+          }
+        } catch (err) {
+          console.warn(err);
+        }
+      }
       const address = account.address;
       if (!address) return $userState.set({ ...defaultUserState });
       api.getUser(address).then((res) => $userState.setKey("user", res.data));
