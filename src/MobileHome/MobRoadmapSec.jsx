@@ -41,17 +41,17 @@ function MobRoadmapSec() {
       points: [
         t("Roadmap_section.Sell Out the Pre-Sale"),
         t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
-        t("Roadmap_section.Achieving-10000-BFX-Holders")
+        t("Roadmap_section.Achieving-10000-BFX-Holders"),
       ],
-    },   
+    },
     {
       title: t("Roadmap_section.Expansion"),
       points: [
         t("Roadmap_section.Multiple CEX Listing"),
         t("Roadmap_section.Achieving-10000-BFX-Holders"),
-        t("Roadmap_section.Reach $100M Daily Trading Volume")
+        t("Roadmap_section.Reach $100M Daily Trading Volume"),
       ],
-    },   
+    },
     {
       title: t("Roadmap_section.Global Reach"),
       points: [
@@ -152,29 +152,38 @@ function MobRoadmapSec() {
                     </div>
                   </div>
                   <div className="bg-[#030F16] border border-white border-opacity-10 max-w-[340px] mx-auto border-t-0 rounded-[8px] rounded-t-none pl-[30px] pr-[15px] py-[20px] space-y-6 w-[100%]">
-                    {step.points.map((point, idx) => (
-                      <div
-                        key={`point-${id}-${idx}`}
-                        className="flex items-start justify-start text-left gap-3 text-[#D6D6D6] text-[16px] leading-[144.529%] font-[400] -tracking-[0.64px]"
-                      >
-                        {id < 3 && (
-                          <div className="w-5">
-                            <svg
-                              width="20"
-                              height="21"
-                              viewBox="0 0 20 21"
-                              fill="none"
-                            >
-                              <path
-                                d="M9.9974 2.47559C5.40573 2.47559 1.66406 6.21725 1.66406 10.8089C1.66406 15.4006 5.40573 19.1423 9.9974 19.1423C14.5891 19.1423 18.3307 15.4006 18.3307 10.8089C18.3307 6.21725 14.5891 2.47559 9.9974 2.47559ZM13.9807 8.89225L9.25573 13.6173C9.13906 13.7339 8.98073 13.8006 8.81406 13.8006C8.6474 13.8006 8.48906 13.7339 8.3724 13.6173L6.01406 11.2589C5.7724 11.0173 5.7724 10.6173 6.01406 10.3756C6.25573 10.1339 6.65573 10.1339 6.8974 10.3756L8.81406 12.2923L13.0974 8.00892C13.3391 7.76725 13.7391 7.76725 13.9807 8.00892C14.2224 8.25059 14.2224 8.64225 13.9807 8.89225Z"
-                                fill="#E5AF02"
-                              />
-                            </svg>
-                          </div>
-                        )}
-                        {point}
-                      </div>
-                    ))}
+                    {step.points.map((point, idx) => {
+                      const isStepOne = id === 0;
+                      const isStepTwo = id === 1;
+                      const isStepThree = id === 2;
+                      const isAfterThree = id >= 3;
+                      const hideTick =
+                        (isStepThree && idx === 2) || isAfterThree;
+
+                      return (
+                        <div
+                          key={`point-${id}-${idx}`}
+                          className="flex items-start justify-start text-left gap-3 text-[#D6D6D6] text-[16px] leading-[144.529%] font-[400] -tracking-[0.64px]"
+                        >
+                          {!hideTick && (
+                            <div className="w-5">
+                              <svg
+                                width="20"
+                                height="21"
+                                viewBox="0 0 20 21"
+                                fill="none"
+                              >
+                                <path
+                                  d="M9.9974 2.47559C5.40573 2.47559 1.66406 6.21725 1.66406 10.8089C1.66406 15.4006 5.40573 19.1423 9.9974 19.1423C14.5891 19.1423 18.3307 15.4006 18.3307 10.8089C18.3307 6.21725 14.5891 2.47559 9.9974 2.47559ZM13.9807 8.89225L9.25573 13.6173C9.13906 13.7339 8.98073 13.8006 8.81406 13.8006C8.6474 13.8006 8.48906 13.7339 8.3724 13.6173L6.01406 11.2589C5.7724 11.0173 5.7724 10.6173 6.01406 10.3756C6.25573 10.1339 6.65573 10.1339 6.8974 10.3756L8.81406 12.2923L13.0974 8.00892C13.3391 7.76725 13.7391 7.76725 13.9807 8.00892C14.2224 8.25059 14.2224 8.64225 13.9807 8.89225Z"
+                                  fill="#E5AF02"
+                                />
+                              </svg>
+                            </div>
+                          )}
+                          {point}
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               </SwiperSlide>
