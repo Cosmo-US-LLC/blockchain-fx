@@ -29,7 +29,7 @@ function MobRoadmapSec() {
     },
     {
       title: t("Roadmap_section.Takeoff"),
-      status: t("Roadmap_section.On-going"),
+      status: t("Roadmap_section.Completed"),
       points: [
         t("Roadmap_section.Launch $BFX Pre-Sale"),
         t("Roadmap_section.Certik Token Audit"),
@@ -56,7 +56,7 @@ function MobRoadmapSec() {
       title: t("Roadmap_section.Global Reach"),
       points: [
         t("Roadmap_section.Add Leaderboards & VIP accounts"),
-        t("Roadmap_section.US License"),
+        // t("Roadmap_section.US License"),
         t("Roadmap_section.Global Marketing Campaigns"),
         t("Roadmap_section.Major Global Partnerships"),
       ],
@@ -92,7 +92,7 @@ function MobRoadmapSec() {
                     <div className="flex items-center justify-between">
                       <h2 className="text-[#fff] text-[24px] leading-[144.529%] font-[600] flex justify-start items-center gap-3">
                         {step.title}
-                        {id < 2 && (
+                        {id < 3 && (
                           <div className="w-5">
                             <svg
                               width="20"
@@ -157,7 +157,7 @@ function MobRoadmapSec() {
                         key={`point-${id}-${idx}`}
                         className="flex items-start justify-start text-left gap-3 text-[#D6D6D6] text-[16px] leading-[144.529%] font-[400] -tracking-[0.64px]"
                       >
-                        {id < 2 && (
+                        {id < 3 && (
                           <div className="w-5">
                             <svg
                               width="20"

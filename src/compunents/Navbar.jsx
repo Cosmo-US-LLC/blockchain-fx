@@ -61,6 +61,9 @@ function Navbar() {
   const location = useLocation();
   const [languageChanged, setLanguageChanged] = useState(false);
 
+  const pdfUrl =
+    "https://blockchainfx.com/BFX-Whitepaper.pdf?_gl=1*97cvu6*_gcl_au*MTEzODkzMzY0LjE3NTQzOTA1ODE.";
+
   // const isHome = location.pathname === '/';
   const parts = location.pathname.split("/").filter(Boolean);
   const isHome =
@@ -116,19 +119,18 @@ function Navbar() {
   //   }
   // };
 
-
   // useEffect(() => {
   //   const setLanguageFromURL = async () => {
   //     const parts = location.pathname.split("/").filter(Boolean);
   //     let currentLang = "en"; // default
-  
+
   //     if (parts.length > 0) {
   //       const urlLang = parts[0].toLowerCase();
   //       if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
   //         currentLang = urlLang;
   //       }
   //     }
-  
+
   //     const found = flags.find(
   //       (f) => f.abbreviation.toLowerCase() === currentLang
   //     );
@@ -137,7 +139,7 @@ function Navbar() {
   //       await i18n.changeLanguage(currentLang);
   //     }
   //   };
-  
+
   //   setLanguageFromURL();
   // }, [location.pathname]);
 
@@ -145,11 +147,11 @@ function Navbar() {
   //   setSelectedLang(lang);
   //   await i18n.changeLanguage(lang.abbreviation.toLowerCase());
   //   setIsOpen(false);
-  
+
   //   const currentPath = location.pathname.split("/").filter(Boolean);
   //   const pagePath =
   //     currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
-  
+
   //   if (lang.abbreviation.toLowerCase() === "en") {
   //     navigate(`${pagePath || "/"}`);
   //   } else {
@@ -157,119 +159,117 @@ function Navbar() {
   //   }
   // };
 
+  // useEffect(() => {
+  //   const setLanguageFromURL = () => {
+  //     const parts = location.pathname.split("/").filter(Boolean);
+  //     let currentLang = "en";
 
-// useEffect(() => {
-//   const setLanguageFromURL = () => {
-//     const parts = location.pathname.split("/").filter(Boolean);
-//     let currentLang = "en";
+  //     if (parts.length > 0) {
+  //       if (parts[0] === "how-to-buy" && parts[1]) {
+  //         // /how-to-buy/ja
+  //         currentLang = parts[1].toLowerCase();
+  //       } else {
+  //         // /ja/... or just /ja
+  //         const urlLang = parts[0].toLowerCase();
+  //         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+  //           currentLang = urlLang;
+  //         }
+  //       }
+  //     }
 
-//     if (parts.length > 0) {
-//       if (parts[0] === "how-to-buy" && parts[1]) {
-//         // /how-to-buy/ja
-//         currentLang = parts[1].toLowerCase();
-//       } else {
-//         // /ja/... or just /ja
-//         const urlLang = parts[0].toLowerCase();
-//         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
-//           currentLang = urlLang;
-//         }
-//       }
-//     }
+  //     if (i18n.language !== currentLang) {
+  //       const found = flags.find(
+  //         (f) => f.abbreviation.toLowerCase() === currentLang
+  //       );
+  //       if (found) {
+  //         setSelectedLang(found);
+  //         i18n.changeLanguage(currentLang);
+  //       }
+  //     }
+  //   };
 
-//     if (i18n.language !== currentLang) {
-//       const found = flags.find(
-//         (f) => f.abbreviation.toLowerCase() === currentLang
-//       );
-//       if (found) {
-//         setSelectedLang(found);
-//         i18n.changeLanguage(currentLang);
-//       }
-//     }
-//   };
+  //   setLanguageFromURL();
+  // }, [location.pathname, i18n, flags]);
 
-//   setLanguageFromURL();
-// }, [location.pathname, i18n, flags]);
+  // const handleSelectLanguage = (lang) => {
+  //   const abbr = lang.abbreviation.toLowerCase();
+  //   setSelectedLang(lang);
+  //   i18n.changeLanguage(abbr); // no await
+  //   setIsOpen(false);
 
-// const handleSelectLanguage = (lang) => {
-//   const abbr = lang.abbreviation.toLowerCase();
-//   setSelectedLang(lang);
-//   i18n.changeLanguage(abbr); // no await
-//   setIsOpen(false);
+  //   const parts = location.pathname.split("/").filter(Boolean);
+  //   let newPath = "/";
 
-//   const parts = location.pathname.split("/").filter(Boolean);
-//   let newPath = "/";
+  //   if (parts[0] === "how-to-buy") {
+  //     // special case: keep how-to-buy
+  //     newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
+  //   } else {
+  //     // general case
+  //     const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
+  //     newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
+  //   }
 
-//   if (parts[0] === "how-to-buy") {
-//     // special case: keep how-to-buy
-//     newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
-//   } else {
-//     // general case
-//     const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
-//     newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
-//   }
+  //   if (newPath !== location.pathname) {
+  //     navigate(newPath);
+  //   }
+  // };
 
-//   if (newPath !== location.pathname) {
-//     navigate(newPath);
-//   }
-// };
+  useEffect(() => {
+    const setLanguageFromURL = () => {
+      const parts = location.pathname.split("/").filter(Boolean);
+      let currentLang = "en";
 
-
-useEffect(() => {
-  const setLanguageFromURL = () => {
-    const parts = location.pathname.split("/").filter(Boolean);
-    let currentLang = "en";
-
-    if (parts.length > 0) {
-      if (parts[0] === "how-to-buy" && parts[1]) {
-        currentLang = parts[1].toLowerCase();
-      } else {
-        const urlLang = parts[0].toLowerCase();
-        if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
-          currentLang = urlLang;
+      if (parts.length > 0) {
+        if (parts[0] === "how-to-buy" && parts[1]) {
+          currentLang = parts[1].toLowerCase();
+        } else {
+          const urlLang = parts[0].toLowerCase();
+          if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
+            currentLang = urlLang;
+          }
         }
       }
-    }
 
-    let found = flags.find(
-      (f) => f.abbreviation.toLowerCase() === currentLang
-    );
+      let found = flags.find(
+        (f) => f.abbreviation.toLowerCase() === currentLang
+      );
 
-    if (!found) {
-      found = flags.find((f) => f.abbreviation.toLowerCase() === "en");
-    }
-
-    if (found) {
-      setSelectedLang(found); 
-      if (i18n.language !== currentLang) {
-        i18n.changeLanguage(currentLang);
+      if (!found) {
+        found = flags.find((f) => f.abbreviation.toLowerCase() === "en");
       }
+
+      if (found) {
+        setSelectedLang(found);
+        if (i18n.language !== currentLang) {
+          i18n.changeLanguage(currentLang);
+        }
+      }
+    };
+
+    setLanguageFromURL();
+  }, [location.pathname, i18n, flags]);
+
+  const handleSelectLanguage = (lang) => {
+    const abbr = lang.abbreviation.toLowerCase();
+
+    setSelectedLang(lang);
+    i18n.changeLanguage(abbr);
+    setIsOpen(false);
+
+    const parts = location.pathname.split("/").filter(Boolean);
+    let newPath = "/";
+
+    if (parts[0] === "how-to-buy") {
+      newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
+    } else {
+      const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
+      newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
+    }
+
+    if (newPath !== location.pathname) {
+      navigate(newPath);
     }
   };
-
-  setLanguageFromURL();
-}, [location.pathname, i18n, flags]);
-
-const handleSelectLanguage = (lang) => {
-  const abbr = lang.abbreviation.toLowerCase();
-
-  setSelectedLang(lang);
-  i18n.changeLanguage(abbr);
-  setIsOpen(false);
-
-  const parts = location.pathname.split("/").filter(Boolean);
-  let newPath = "/";
-
-  if (parts[0] === "how-to-buy") {
-    newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
-  } else {
-    const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
-    newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
-  }
-
-  if (newPath !== location.pathname) {
-    navigate(newPath);
-  }
-};
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -312,7 +312,6 @@ const handleSelectLanguage = (lang) => {
           isHome ? "top-[2.3rem]" : "top-0"
         }`}
       >
-        
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
           <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-1 xl:space-x-1 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
             <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
@@ -347,13 +346,24 @@ const handleSelectLanguage = (lang) => {
             >
               {t("navbar.howToBuy")}
             </a>
-            <a
-              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "whitepaper", 60)}
-              href=""
-            >
-              {t("navbar.whitepaper")}
-            </a>
+            {location.pathname === "/how-to-buy" ? (
+              <a
+                className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+                href={pdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("navbar.whitepaper")}
+              </a>
+            ) : (
+              <a
+                className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+                onClick={(e) => handleScroll(e, "whitepaper", 60)}
+                href="#"
+              >
+                {t("navbar.whitepaper")}
+              </a>
+            )}
             <Link
               to="/referral"
               target="_blank"
