@@ -7,8 +7,8 @@ const CookiePolicyPopup = () => {
   if (!showPopup) return null;
 
   return (
-    <div className="  flex items-center justify-center  z-[999]">
-      <div className=" fixed bg-[#060606] bottom-10 right-10  text-white py-[47px] px-[38px] rounded-[24px] max-w-[360px] w-full shadow-lg">
+    <div className="  flex items-center justify-center ">
+      <div className=" fixed bg-[#060606] bottom-10 right-10 z-[999] text-white py-[47px] px-[38px] rounded-[24px] max-w-[360px] w-full shadow-lg">
         <p className="leading-[140%] tracking-[-0.32px] text-[#FFF] mb-4 font-[16px]">
           Cookies help us deliver the best experience on our website. By using
           our website, you agree to the use of cookies.{" "}
