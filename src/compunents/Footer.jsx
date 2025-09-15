@@ -95,13 +95,13 @@ function Footer() {
                     </p>
                   </Link>
 
-                   <Link to="/cookie_policy" className="text-blue-600 ">
-                    <p className="text-[#fff] text-[16px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent transition duration-300 ">
+                   <Link to="/cookies-policy" className="text-blue-600 ">
+                    <p className="text-[#fff] text-[16px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
                       {t('footer.docs.cookie_policy')}
                     </p>
                   </Link>
                   <Link to="/terms-of-service" className="text-blue-600 ">
-                    <p className="text-[#fff] text-[16px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent transition duration-300 ">
+                    <p className="text-[#fff] text-[16px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
                       {t('footer.docs.terms_of_service')}
                     </p>
                   </Link>
