@@ -41,6 +41,7 @@ import InsideSec from './InsideSec';
 import CryptoExchangeSec from './CryptoExchangeSec';
 import CommunitySec from './CommunitySec';
 import BiggestBuy from './BiggestBuy';
+import CookiePolicyPopup from '../compunents/CookiePolicyPopup';
 
 
 function Home() {
@@ -79,6 +80,7 @@ function Home() {
          <TraderReviewsSec /> 
          <FaqSec />
         <TheUltimateSec />
+        <CookiePolicyPopup />
         {/*<LivePresale /> */}
       </div>
     );
