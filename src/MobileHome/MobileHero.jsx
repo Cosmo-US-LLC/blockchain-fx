@@ -214,7 +214,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr4}
               alt="Featured"
             />
@@ -225,7 +225,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr3}
               alt="Featured"
             />
@@ -248,7 +248,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr2}
               alt="Featured"
             />
@@ -261,7 +261,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr5}
               alt="Featured"
             />
@@ -272,7 +272,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr6}
               alt="Featured"
             />
@@ -283,7 +283,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr7}
               alt="Featured"
             />
@@ -296,7 +296,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="h-[20px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="h-[20px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr8}
               alt="Featured"
             />

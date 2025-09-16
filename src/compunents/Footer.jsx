@@ -248,7 +248,7 @@ function Footer() {
                     {t('footer.docs.privacy_policy')}
                   </p>
                 </Link>
-                <Link to="/cookie_policy" className="text-blue-600 ">
+                <Link to="cookies-policy" className="text-blue-600 ">
                     <p className="text-[#fff] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent transition duration-300 ">
                       {t('footer.docs.cookie_policy')}
                     </p>
