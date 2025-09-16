@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import HowToBuyHero from "./HowToBuyHero";
 import StepSixLaunchSection from "./StepSixLaunchSection";
 import StepFiveClaimSection from "./StepFiveClaimSection";
@@ -9,6 +9,9 @@ import StepOneWalletSetupSection from "./StepOneWalletSetupSection";
 import HowToBuyFooter from "../../compunents/HowToBuyFooter";
 
 function  HowToBuyDesktop() {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       <HowToBuyHero />

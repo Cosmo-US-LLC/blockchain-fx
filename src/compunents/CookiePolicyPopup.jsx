@@ -8,18 +8,18 @@ const CookiePolicyPopup = () => {
 
   return (
     <div className="  flex items-center justify-center ">
-      <div className=" fixed bg-[#060606] bottom-10 right-10 z-[999] text-white py-[47px] px-[38px] rounded-[24px] max-w-[360px] w-full shadow-lg">
-        <p className="leading-[140%] tracking-[-0.32px] text-[#FFF] mb-4 font-[16px]">
+      <div className=" fixed bg-[#060606] bottom-3 right-3 z-[999] text-white py-[22px] px-[20px] rounded-[14px] max-w-[260px] w-full shadow-lg">
+        <p className="leading-[140%] tracking-[-0.32px] text-[#FFF] mb-4 text-[14px]">
           Cookies help us deliver the best experience on our website. By using
           our website, you agree to the use of cookies.{" "}
-          <a href="#" className="underline">
-            Find out how we use cookies.
-          </a>
+          <span >
+           more info <a className="underline" href="https://glittery-queijadas-f23af3.netlify.app/cookies-policy " target="_blank" rel="noopener noreferrer">here.</a>
+          </span>
         </p>
 
         <button
           onClick={() => setShowPopup(false)}
-          className="w-full text-black font-semibold py-3 rounded-[8px] mb-3 hover:opacity-90 transition"
+          className="w-full text-black font-semibold text-[14px] py-2 rounded-[8px] mb-3 hover:opacity-90 transition"
           style={{ background: 'linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)' }}
         >
           Accept Cookies & Continue
@@ -27,7 +27,7 @@ const CookiePolicyPopup = () => {
 
         <button
           onClick={() => setShowPopup(false)}
-          className="w-full border border-[#E6B005] text-[#E6B005] font-semibold py-3 rounded-[8px] mb-3 hover:bg-yellow-500/10 transition"
+          className="w-full border border-[#E6B005] text-[14px] text-[#E6B005] font-semibold py-2 rounded-[8px] hover:bg-yellow-500/10 transition"
         >
           Reject Additional Cookies
         </button>

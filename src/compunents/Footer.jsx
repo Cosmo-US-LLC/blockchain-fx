@@ -90,7 +90,7 @@ function Footer() {
                   {t('footer.docs.title')}
                   <br />
                    <Link to="/privacy-policy" className="text-blue-600 ">
-                    <p className="text-[#fff] text-[16px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
+                    <p className="text-[#fff] text-[16px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
                       {t('footer.docs.privacy_policy')}
                     </p>
                   </Link>
@@ -217,20 +217,23 @@ function Footer() {
                   {t('footer.quick_links.roadmap')}
                 </a>{" "}
                 <br />
-                   <a
-                    className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent  transition duration-300 "
-                    href=""
-                    onClick={(e) => handleScroll(e, "referral", 60)}
+                   
+                   <Link to="/referral" className="text-blue-600 ">
+                  <p
+                    className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   >
                     {t('footer.quick_links.referral')}
-                  </a>
-                  <a
-                    className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent  transition duration-300 "
-                    href=""
-                    onClick={(e) => handleScroll(e, "Win_$500,000", 60)}
+                  </p>
+                </Link>
+                  <br />
+                   <Link to="/win-500" className="text-blue-600 ">
+                   <p
+                    className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   >
                     {t('footer.quick_links.Win_$500,000')}
-                  </a>
+                  </p>
+                </Link>
+                 
               </li>
             </ul>
           </div>
@@ -254,9 +257,6 @@ function Footer() {
                     {t('footer.docs.terms_of_service')}
                   </p>
                 </Link>
-                <br />
-               
-                <br />
                 <Link to="/token-sale" className="text-blue-600 ">
                   <p className="text-[#fff] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     {t('footer.docs.token_sale')}
