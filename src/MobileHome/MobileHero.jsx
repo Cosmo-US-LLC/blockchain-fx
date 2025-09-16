@@ -278,7 +278,7 @@ function MobileHero() {
             />
           </a>
           <a
-            href="mexc.com/news/heres-why-blockchainfx-is-one-of-the-best-cryptos-to-buy/66441"
+            href="https://www.mexc.com/news/heres-why-blockchainfx-is-one-of-the-best-cryptos-to-buy/66441"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -296,7 +296,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="h-[20px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
               src={herobnr8}
               alt="Featured"
             />
@@ -307,7 +307,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
               src={herobnr9}
               alt="Featured"
             />
