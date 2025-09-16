@@ -40,7 +40,7 @@ function Footer() {
               <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
                 <img src={logo || "/placeholder.svg"} alt="" />
               </Link>
-              <p className="text-[#fff]  text-[16px] max-w-[280px] font-[400] leading-[166.667%]">{t('footer.description')}</p>
+              <p className="text-[#fff]  text-[16px] max-w-[260px] font-[400] leading-[166.667%]">{t('footer.description')}</p>
             </div>
             <div className="max-w-[190px] w-[100%] pt-[15px]">
               <ul>
@@ -67,13 +67,21 @@ function Footer() {
                   >
                     {t('footer.quick_links.roadmap')}
                   </a>
-                  <a
-                    className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent  transition duration-300 "
-                    href=""
-                    onClick={(e) => handleScroll(e, "allocation", 60)}
+                     <Link to="/referral" className="text-blue-600 ">
+                  <p
+                     className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent  transition duration-300 "
                   >
-                    {t('footer.quick_links.token_allocation')}
-                  </a>
+                    {t('footer.quick_links.referral')}
+                  </p>
+                </Link>
+                   <Link to="/win-500" className="text-blue-600 ">
+                   <p
+                    className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent  transition duration-300 "
+                  >
+                    {t('footer.quick_links.Win_$500,000')}
+                  </p>
+                </Link>
+                  
                 </li>
               </ul>
             </div>
@@ -82,16 +90,23 @@ function Footer() {
                 <li className="text-white text-[20px] list-disc font-[600] leading-[120%] min-w-[140px]">
                   {t('footer.docs.title')}
                   <br />
-                  <Link to="/terms-of-service" className="text-blue-600 ">
-                    <p className="text-[#fff] text-[16px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent transition duration-300 ">
-                      {t('footer.docs.terms_of_service')}
-                    </p>
-                  </Link>
-                  <Link to="/privacy-policy" className="text-blue-600 ">
-                    <p className="text-[#fff] text-[16px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
+                   <Link to="/privacy-policy" className="text-blue-600 ">
+                    <p className="text-[#fff] text-[16px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
                       {t('footer.docs.privacy_policy')}
                     </p>
                   </Link>
+
+                   <Link to="/cookies-policy" className="text-blue-600 ">
+                    <p className="text-[#fff] text-[16px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
+                      {t('footer.docs.cookie_policy')}
+                    </p>
+                  </Link>
+                  <Link to="/terms-of-service" className="text-blue-600 ">
+                    <p className="text-[#fff] text-[16px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
+                      {t('footer.docs.terms_of_service')}
+                    </p>
+                  </Link>
+                 
                   <Link to="/token-sale" className="text-blue-600 ">
                     <p className="text-[#fff] text-[16px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent  transition duration-300 ">
                       {t('footer.docs.token_sale')}
@@ -203,13 +218,23 @@ function Footer() {
                   {t('footer.quick_links.roadmap')}
                 </a>{" "}
                 <br />
-                <a
-                  className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
-                  href=""
-                  onClick={(e) => handleScroll(e, "allocation", 60)}
-                >
-                  {t('footer.quick_links.token_allocation')}
-                </a>
+                   
+                   <Link to="/referral" className="text-blue-600 ">
+                  <p
+                    className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                  >
+                    {t('footer.quick_links.referral')}
+                  </p>
+                </Link>
+                  <br />
+                   <Link to="/win-500" className="text-blue-600 ">
+                   <p
+                    className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                  >
+                    {t('footer.quick_links.Win_$500,000')}
+                  </p>
+                </Link>
+                 
               </li>
             </ul>
           </div>
@@ -218,18 +243,21 @@ function Footer() {
               <li className="text-[#fff] text-[16px] font-[600] leading-[108.333%]">
                 {t('footer.docs.title')}
                 <br />
+                 <Link to="/privacy-policy" className="text-blue-600 ">
+                  <p className="text-[#fff] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+                    {t('footer.docs.privacy_policy')}
+                  </p>
+                </Link>
+                <Link to="cookies-policy" className="text-blue-600 ">
+                    <p className="text-[#fff] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent transition duration-300 ">
+                      {t('footer.docs.cookie_policy')}
+                    </p>
+                  </Link>
                 <Link to="/terms-of-service" className="text-blue-600 ">
                   <p className="text-[#fff] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     {t('footer.docs.terms_of_service')}
                   </p>
                 </Link>
-                <br />
-                <Link to="/privacy-policy" className="text-blue-600 ">
-                  <p className="text-[#fff] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    {t('footer.docs.privacy_policy')}
-                  </p>
-                </Link>
-                <br />
                 <Link to="/token-sale" className="text-blue-600 ">
                   <p className="text-[#fff] text-[13px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     {t('footer.docs.token_sale')}

@@ -109,6 +109,17 @@ export const buyWithCrypto = async (args) => {
           value: paymentTokenNum * parseNum(args.paymentToken.price),
           currency: "USD",
         });
+        window.dataLayer.push({ ecommerce: null });
+        window.dataLayer.push({
+          event: "purchase",
+          ecommerce: {
+            transaction_id: transactionHash, //unique (hash) transaction number
+            currency: "USD", //convert crypto currencies to USD
+            value:
+              parseNum(args.paymentToken.price) *
+              parseNum(args.paymentTokenNum), //value (equivalent in USD for crypto values)
+          },
+        });
         return {
           type: "sent",
         };

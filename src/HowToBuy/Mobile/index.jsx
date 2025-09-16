@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import HowToBuyHeroMobile from "./HowToBuyHeroMobile";
 import StepOneWalletSetupSectionMobile from "./StepOneWalletSetupSectionMobile";
 import StepThreeTransactionSectionMobile from "./StepThreeTransactionSectionMobile";
@@ -8,6 +8,10 @@ import StepSixLaunchSectionMobile from "./StepSixLaunchSectionMobile";
 import StepTwoPaymentCardMobile from "./paymentCardMobile"
 
 function HowToBuyMobile() {
+
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="bg-[#000]">
       <HowToBuyHeroMobile />

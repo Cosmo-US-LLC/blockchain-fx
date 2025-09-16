@@ -13,6 +13,11 @@ import herobnr1 from "../assets/herosection/bnrhero (2).webp";
 import herobnr2 from "../assets/herosection/bnrhero (3).svg";
 import herobnr3 from "../assets/herosection/bnrhero (2).svg";
 import herobnr4 from "../assets/herosection/bnrhero (1).svg";
+import herobnr5 from "../assets/herosection/bnrhero (9).svg";
+import herobnr6 from "../assets/herosection/bnrhero (7).svg";
+import herobnr7 from "../assets/herosection/bnrhero (10).svg";
+import herobnr8 from "../assets/herosection/bnrhero (8).svg";
+import herobnr9 from "../assets/herosection/bnrhero (6).svg";
 
 function MobileHero() {
   const { t } = useTranslation();
@@ -197,18 +202,19 @@ function MobileHero() {
           </div>
         </div>
       </div>
-      <div className="gap-2 border-[1px] w-[90%] mx-auto mt-[30px] border-[#262626] h-[72px]  flex flex-col items-center p-2 rounded-[6px] ">
+      <div className="gap-2 border-[1px] w-[90%] mx-auto mt-[30px] border-[#262626] flex flex-col items-center p-2 rounded-[6px] ">
         <p className="font-[600] relative z-[99] text-[15px] text-center text-[white]">
           {t("featured_sec.featured_in")}
         </p>
-        <div className="flex items-center justify-center space-x-2">
-          <a
+        <div className="grid gap-3">
+         <div className="flex space-x-2 justify-center items-center">
+           <a
             href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr4}
               alt="Featured"
             />
@@ -219,7 +225,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr3}
               alt="Featured"
             />
@@ -242,11 +248,71 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr2}
               alt="Featured"
             />
           </a>
+         </div>
+         <div className="flex space-x-3 justify-center items-center">
+           <a
+            href="https://hackernoon.com/best-crypto-to-buy-now-why-blockchainfxs-$0019-presale-could-outpace-sei-and-pengu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+              src={herobnr5}
+              alt="Featured"
+            />
+          </a>
+          <a
+            href="https://finbold.com/blockchainfx-raises-7-24m-in-presale-as-first-multi-asset-super-app-connecting-crypto-stocks-and-forex-goes-live-in-beta/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+              src={herobnr6}
+              alt="Featured"
+            />
+          </a>
+          <a
+            href="https://www.mexc.com/news/heres-why-blockchainfx-is-one-of-the-best-cryptos-to-buy/66441"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+              src={herobnr7}
+              alt="Featured"
+            />
+          </a>
+         </div>
+        <div className="flex space-x-3 justify-center items-center">
+            <a
+            href="https://www.bitget.com/news/detail/12560604943063" target="_blank" rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="h-[20px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+              src={herobnr8}
+              alt="Featured"
+            />
+          </a>
+            <a
+            href="https://cointelegraph.com/press-releases/blockchainfx-raises-7-24m-in-presale-as-multi-asset-app-for-crypto-stocks-forex-launches-beta"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              src={herobnr9}
+              alt="Featured"
+            />
+          </a>
+        </div>
         </div>
       </div>
     </div>

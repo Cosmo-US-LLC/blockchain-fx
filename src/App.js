@@ -25,6 +25,7 @@ import HowToBuyDesktop from "./HowToBuy/Desktop";
 import HowToBuyMobile from "./HowToBuy/Mobile";
 import HowToBuyFooter from "./compunents/HowToBuyFooter";
 import Win500 from "./Win500";
+import CookiesPolicy from "./CookiesPolicy";
 
 function Layout({ isMobile }) {
   const { i18n } = useTranslation();
@@ -202,6 +203,7 @@ function App() {
           <Route path="/token-sale" element={<TokenSale />} />
           <Route path="/cookie-management" element={<CookieManagement />} />
           <Route path="/win-500" element={<Win500 />} />
+          <Route path="/cookies-policy" element={<CookiesPolicy />} />
         </Route>
 
     
@@ -236,6 +238,7 @@ function App() {
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="token-sale" element={<TokenSale />} />
           <Route path="cookie-management" element={<CookieManagement />} />
+          <Route path="cookies-policy" element={<CookiesPolicy />} />
           <Route path="win-500" element={<Win500 />} />
         </Route>
       </Routes>
