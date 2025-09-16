@@ -45,22 +45,22 @@ function FeaturedSec() {
             </div>
              <div className="flex flex-col items-center">
               <a href="https://finbold.com/blockchainfx-raises-7-24m-in-presale-as-first-multi-asset-super-app-connecting-crypto-stocks-and-forex-goes-live-in-beta/" target="_blank" rel="noopener noreferrer">
-                <img loading="lazy" src={herobnr6} className=" h-[18px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
+                <img loading="lazy" src={herobnr6} className=" h-[16px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
               </a>
             </div>
              <div className="flex flex-col items-center">
-              <a href="mexc.com/news/heres-why-blockchainfx-is-one-of-the-best-cryptos-to-buy/66441" target="_blank" rel="noopener noreferrer">
-                <img loading="lazy" src={herobnr7} className=" h-[18px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
+              <a href="https://www.mexc.com/news/heres-why-blockchainfx-is-one-of-the-best-cryptos-to-buy/66441" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr7} className=" h-[16px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
               </a>
             </div>
              <div className="flex flex-col items-center">
               <a href="https://www.bitget.com/news/detail/12560604943063" target="_blank" rel="noopener noreferrer">
-                <img loading="lazy" src={herobnr8} className="h-[22px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
+                <img loading="lazy" src={herobnr8} className="h-[20px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
               </a>
             </div>
              <div className="flex flex-col items-center">
               <a href="https://cointelegraph.com/press-releases/blockchainfx-raises-7-24m-in-presale-as-multi-asset-app-for-crypto-stocks-forex-launches-beta" target="_blank" rel="noopener noreferrer">
-                <img loading="lazy" src={herobnr9} className="h-[22px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
+                <img loading="lazy" src={herobnr9} className="h-[20px] mix-blend-luminosity opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal" alt="Featured" />
               </a>
             </div>
           

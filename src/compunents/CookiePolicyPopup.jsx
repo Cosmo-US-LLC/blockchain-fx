@@ -13,7 +13,7 @@ const CookiePolicyPopup = () => {
           Cookies help us deliver the best experience on our website. By using
           our website, you agree to the use of cookies.{" "}
           <span >
-           more info <a className="underline" href="https://glittery-queijadas-f23af3.netlify.app/cookies-policy " target="_blank" rel="noopener noreferrer">here.</a>
+           More info <a className="underline" href="https://glittery-queijadas-f23af3.netlify.app/cookies-policy " target="_blank" rel="noopener noreferrer">here.</a>
           </span>
         </p>
 

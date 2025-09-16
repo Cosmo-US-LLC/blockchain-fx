@@ -67,20 +67,21 @@ function Footer() {
                   >
                     {t('footer.quick_links.roadmap')}
                   </a>
-                    <a
-                    className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent  transition duration-300 "
-                    href=""
-                    onClick={(e) => handleScroll(e, "referral", 60)}
+                     <Link to="/referral" className="text-blue-600 ">
+                  <p
+                     className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent  transition duration-300 "
                   >
                     {t('footer.quick_links.referral')}
-                  </a>
-                  <a
+                  </p>
+                </Link>
+                   <Link to="/win-500" className="text-blue-600 ">
+                   <p
                     className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent  transition duration-300 "
-                    href=""
-                    onClick={(e) => handleScroll(e, "Win_$500,000", 60)}
                   >
                     {t('footer.quick_links.Win_$500,000')}
-                  </a>
+                  </p>
+                </Link>
+                  
                 </li>
               </ul>
             </div>
