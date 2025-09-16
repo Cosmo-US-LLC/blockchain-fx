@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import GleamWidget from "../compunents/GleamWidget";
 
 function Win500() {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="pt-12 bg-[#020b10] px-4">
       <h1 className="text-[#E5AE00] font-extrabold text-[40px] pb-[20px] max-w-4xl mx-auto text-center">
