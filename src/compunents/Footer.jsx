@@ -188,7 +188,7 @@ function Footer() {
           </Link>
           <p className="text-[#fff] text-[14px]  w-[300px] font-[400] leading-[200%]">{t('footer.description')}</p>
         </div>
-        <div className="space-y-6">
+        <div className="space-y-[35px]">
           <div className="max-w-[150px] w-[100%] ">
             <ul>
               <li className="text-[#fff] text-[16px] font-[600] leading-[108.333%] ">
@@ -277,7 +277,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex justify-between">
-          <div className="max-w-[285px] space-y-[25px] pt-[3px] w-[100%] ">
+          <div className="max-w-[285px] space-y-[25px] w-[100%] ">
             <h4 className="text-[#fff] text-[16px] font-[600] leading-[108.333%]">{t('footer.socials.title')}</h4>
             <div className="flex space-x-6">
               {/* <a

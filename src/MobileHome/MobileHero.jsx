@@ -309,7 +309,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="h-[20px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+              className="h-[26px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr8}
               alt="Featured"
             />
