@@ -18,6 +18,8 @@ import herobnr6 from "../assets/herosection/bnrhero (7).svg";
 import herobnr7 from "../assets/herosection/bnrhero (10).svg";
 import herobnr8 from "../assets/herosection/bnrhero (8).svg";
 import herobnr9 from "../assets/herosection/bnrhero (6).svg";
+import herobnr10 from "../assets/herosection/bnrhero (11).svg";
+import herobnr11 from "../assets/herosection/bnrhero (12).svg";
 
 function MobileHero() {
   const { t } = useTranslation();
@@ -256,6 +258,17 @@ function MobileHero() {
          </div>
          <div className="flex space-x-3 justify-center items-center">
            <a
+            href="https://www.kucoin.com/news/flash/blockchainfx-presale-exceeds-7m-promises-over-2x-returns-by-launch"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+              src={herobnr10}
+              alt="Featured"
+            />
+          </a>
+           <a
             href="https://hackernoon.com/best-crypto-to-buy-now-why-blockchainfxs-$0019-presale-could-outpace-sei-and-pengu"
             target="_blank"
             rel="noopener noreferrer"
@@ -296,7 +309,7 @@ function MobileHero() {
             rel="noopener noreferrer"
           >
             <img
-              className="h-[20px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+              className="h-[26px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr8}
               alt="Featured"
             />
@@ -309,6 +322,17 @@ function MobileHero() {
             <img
               className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
               src={herobnr9}
+              alt="Featured"
+            />
+          </a>
+           <a
+            href="https://decrypt.co/339250/blockchainfx-raises-7-24m-in-presale-as-first-multi-asset-super-app-connecting-crypto-stocks-and-forex-goes-live-in-beta"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
+              src={herobnr11}
               alt="Featured"
             />
           </a>

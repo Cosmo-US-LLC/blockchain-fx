@@ -1,8 +1,21 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 const CookiePolicyPopup = () => {
- const [showPopup, setShowPopup] = useState(true);
+   const [showPopup, setShowPopup] = useState(true); 
+
+  useEffect(() => {
+    const handleClick = () => {
+      setShowPopup(false); 
+      document.removeEventListener("click", handleClick); 
+    };
+
+    document.addEventListener("click", handleClick);
+
+    return () => {
+      document.removeEventListener("click", handleClick);
+    };
+  }, []);
 
   if (!showPopup) return null;
 
