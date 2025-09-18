@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 
 
 const CookiePolicyPopup = () => {
- const [showPopup, setShowPopup] = useState(false);
+   const [showPopup, setShowPopup] = useState(true); 
 
   useEffect(() => {
     const handleClick = () => {
-      setShowPopup(true); 
-      document.removeEventListener("click", handleClick);
+      setShowPopup(false); 
+      document.removeEventListener("click", handleClick); 
     };
 
     document.addEventListener("click", handleClick);
