@@ -1,7 +1,16 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { setCanonical } from "../utils/setCanonical";
+
+
 
 function CookiesPolicy() {
+
+ useEffect(() => {
+    setCanonical("https://blockchainfx.com/cookies-policy");
+  }, []);
+
+
   const { pathname } = useLocation();
 
   useEffect(() => {

@@ -1,7 +1,14 @@
 import React, {useEffect} from "react";
 import GleamWidget from "../compunents/GleamWidget";
+import { setCanonical } from "../utils/setCanonical";
+
+
 
 function Win500() {
+ useEffect(() => {
+    setCanonical("https://blockchainfx.com/win-500");
+  }, []);
+
   useEffect(() => {
       window.scrollTo(0, 0);
     }, []);

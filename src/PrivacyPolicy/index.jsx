@@ -1,7 +1,14 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+import { setCanonical } from "../utils/setCanonical";
+
 function PrivacyPolicy() {
+
+useEffect(() => {
+    setCanonical("https://blockchainfx.com/privacy-policy");
+  }, []);
+
   const { pathname } = useLocation();
 
   useEffect(() => {

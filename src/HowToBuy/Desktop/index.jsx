@@ -1,4 +1,7 @@
 import React, {useEffect} from "react";
+
+import { setCanonical } from "../../utils/setCanonical";
+
 import HowToBuyHero from "./HowToBuyHero";
 import StepSixLaunchSection from "./StepSixLaunchSection";
 import StepFiveClaimSection from "./StepFiveClaimSection";
@@ -9,6 +12,11 @@ import StepOneWalletSetupSection from "./StepOneWalletSetupSection";
 import HowToBuyFooter from "../../compunents/HowToBuyFooter";
 
 function  HowToBuyDesktop() {
+
+ useEffect(() => {
+    setCanonical("https://blockchainfx.com/how-to-buy");
+  }, []);
+
   useEffect(() => {
       window.scrollTo(0, 0);
     }, []);

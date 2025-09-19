@@ -1,7 +1,15 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+import { setCanonical } from "../utils/setCanonical";
+
+
 function TermsofService() {
+
+useEffect(() => {
+    setCanonical("https://blockchainfx.com/terms-of-service");
+  }, []);
+
     const { pathname } = useLocation();
 
     useEffect(() => {

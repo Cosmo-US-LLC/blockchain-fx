@@ -177,8 +177,9 @@ function MobileHero() {
               </div>
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={check} alt="" />
-                <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]">
-                  {t("hero.featuremob3")}
+                <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]"
+                dangerouslySetInnerHTML={{ __html: t("hero.featuremob3") }}
+                >
                 </p>
               </div>
             </div>
