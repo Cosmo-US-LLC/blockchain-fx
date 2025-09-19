@@ -262,13 +262,13 @@ function RoadmapSection() {
         <div className=" border-b border-b-gray-800 w-full">
           <div className="max-w-[1080px] mb-[-10px] mx-auto w-[100%] relative flex justify-between items-center">
             <div className="w-[30%] flex justify-center top-10">
-              <div className="bg-[#e6ae00] w-[18px] h-[18px] rounded-full"></div>
+              <div className="bg-[#e6ae00] ml-5 w-[18px] h-[18px] rounded-full"></div>
             </div>
              <div className="w-[30%] flex justify-center top-10">
               <div className="bg-[#e6ae00] w-[18px] h-[18px] rounded-full"></div>
             </div>
              <div className="w-[30%] flex justify-center top-10">
-              <div className="bg-[#e6ae00] w-[18px] h-[18px] rounded-full"></div>
+              <div className="bg-[#e6ae00] mr-1 w-[18px] h-[18px] rounded-full"></div>
             </div>
           </div>
         </div>
