@@ -1,4 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
+
+import { setCanonical } from "../utils/setCanonical";
+
 import WalletSec from "../Home/WalletSec";
 import MobExclusiveSec from "./MobExclusiveSec";
 import MobFaqSec from "./MobFaqSec";
@@ -39,6 +42,9 @@ import CommunitymobSec from "./CommunitymobSec";
 import BiggestbuyMobSec from "./BiggestbuyMobSec";
 
 function MobileHome() {
+  useEffect(() => {
+    setCanonical("https://blockchainfx.com/");
+  }, []);
   return (
     <div className="bg-[#020B10] w-[100%]">
       <MobileHero />

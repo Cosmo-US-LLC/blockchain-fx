@@ -1,4 +1,7 @@
 import React, {useEffect} from "react";
+
+import { setCanonical } from "../../utils/setCanonical";
+
 import HowToBuyHeroMobile from "./HowToBuyHeroMobile";
 import StepOneWalletSetupSectionMobile from "./StepOneWalletSetupSectionMobile";
 import StepThreeTransactionSectionMobile from "./StepThreeTransactionSectionMobile";
@@ -8,6 +11,10 @@ import StepSixLaunchSectionMobile from "./StepSixLaunchSectionMobile";
 import StepTwoPaymentCardMobile from "./paymentCardMobile"
 
 function HowToBuyMobile() {
+
+useEffect(() => {
+    setCanonical("https://blockchainfx.com/how-to-buy");
+  }, []);
 
   useEffect(() => {
       window.scrollTo(0, 0);

@@ -1,7 +1,15 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+import { setCanonical } from "../utils/setCanonical";
+
 function TokenSale() {
+
+useEffect(() => {
+    setCanonical("https://blockchainfx.com/token-sale");
+  }, []);
+
+
   const { pathname } = useLocation();
 
   useEffect(() => {
