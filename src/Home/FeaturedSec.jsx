@@ -6,7 +6,7 @@ import herobnr4 from "../assets/herosection/bnrhero (11).svg";
 import herobnr5 from "../assets/herosection/bnrhero (6).svg";
 import herobnr6 from "../assets/herosection/bnrhero (9).svg";
 import herobnr7 from "../assets/herosection/bnrhero (7).svg";
-import herobnr8 from "../assets/herosection/bnrhero (3).svg";
+import herobnr8 from "../assets/herosection/full-okx-logo 1.svg";
 // import herobnr9 from "../assets/herosection/bnrhero (11).svg";
 // import herobnr10 from "../assets/herosection/bnrhero (9).svg";
 // import herobnr11 from "../assets/herosection/bnrhero (4).svg";
@@ -56,7 +56,7 @@ function FeaturedSec() {
               </a>
             </div>
              <div className="flex flex-col items-center">
-              <a href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.okx.com/learn/cardano-blockchainfx-presale-opportunity " target="_blank" rel="noopener noreferrer">
                 <img loading="lazy" src={herobnr8} className="h-[20px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
               </a>
             </div>
