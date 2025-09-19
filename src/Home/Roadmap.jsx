@@ -230,14 +230,14 @@ function RoadmapSection() {
       </h3>
 
       <div className="relative w-full mx-auto">
-        <div className="flex justify-around px-4 w-[90%] mx-auto">
+        <div className="flex justify-between px-4 max-w-[1080px] mx-auto w-[100%] mx-auto">
           {cardGroups[currentGroup].phases.map((text, index) => {
             const isFirst = index === 0;
             const isLast = index === cardGroups[currentGroup].phases.length - 1;
             return (
               <div
                 key={index}
-                className=""
+                className="w-[30%] flex justify-center "
                 style={
                   {
                     // width: isLast ? "100%" : "auto",
@@ -259,7 +259,20 @@ function RoadmapSection() {
             );
           })}
         </div>
-        <img className="w-full" src={line} alt="Roadmap Line" />
+        <div className=" border-b border-b-gray-800 w-full">
+          <div className="max-w-[1080px] mb-[-10px] mx-auto w-[100%] relative flex justify-between items-center">
+            <div className="w-[30%] flex justify-center top-10">
+              <div className="bg-[#e6ae00] ml-5 w-[18px] h-[18px] rounded-full"></div>
+            </div>
+             <div className="w-[30%] flex justify-center top-10">
+              <div className="bg-[#e6ae00] w-[18px] h-[18px] rounded-full"></div>
+            </div>
+             <div className="w-[30%] flex justify-center top-10">
+              <div className="bg-[#e6ae00] mr-1 w-[18px] h-[18px] rounded-full"></div>
+            </div>
+          </div>
+        </div>
+        {/* <img className="w-full" src={line} alt="Roadmap Line" /> */}
       </div>
 
       <div className="max-w-[1280px] mx-auto mt-20 relative px-12">
