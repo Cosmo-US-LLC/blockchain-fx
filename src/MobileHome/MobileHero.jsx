@@ -15,7 +15,7 @@ import herobnr3 from "../assets/herosection/bnrhero (2).svg";
 import herobnr4 from "../assets/herosection/bnrhero (1).svg";
 import herobnr5 from "../assets/herosection/bnrhero (9).svg";
 import herobnr6 from "../assets/herosection/bnrhero (7).svg";
-import herobnr7 from "../assets/herosection/bnrhero (10).svg";
+import herobnr7 from "../assets/herosection/full-okx-logo 1.svg";
 import herobnr8 from "../assets/herosection/bnrhero (8).svg";
 import herobnr9 from "../assets/herosection/bnrhero (6).svg";
 import herobnr10 from "../assets/herosection/bnrhero (11).svg";
@@ -291,12 +291,12 @@ function MobileHero() {
             />
           </a>
           <a
-            href="https://www.mexc.com/news/heres-why-blockchainfx-is-one-of-the-best-cryptos-to-buy/66441"
+            href="https://www.okx.com/learn/cardano-blockchainfx-presale-opportunity "
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+              className="brightness-0 invert-[.70] h-[20px] hover:brightness-100 hover:invert-0 object-cover"
               src={herobnr7}
               alt="Featured"
             />
