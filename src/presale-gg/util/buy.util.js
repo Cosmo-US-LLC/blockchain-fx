@@ -4,7 +4,7 @@
  */
 
 import toast from "react-hot-toast";
-import { parseNum, ceilToDP } from "./number.util";
+import { parseNum, ceilToDP, formatDollar } from "./number.util";
 import {
   getAbi,
   getChainIdFromLabel,
@@ -20,6 +20,7 @@ import { api } from "../api";
 import logo from "../../assets/wallet/logo-small.png";
 import logoFilled from "../../assets/wallet/logo-small-filled.png";
 import { CARD_IS_SANDBOX, CARD_PARTNER_ID } from "../constants";
+import { waitForTransactionReceipt } from "@wagmi/core";
 
 export const walletBuyTokens = new Set([
   "ETH-ERC-20",
@@ -33,7 +34,47 @@ export const walletBuyTokens = new Set([
 ]);
 
 /**
+ * @typedef {import("../api/api.types.d.ts").API.TransactionHistoryItem} TransactionHistoryItem
  * @typedef {{type: "created", transaction: Transaction}, {type: "sent"}} TransactionFinishedReturn
+ */
+
+/**
+ * 
+ * @param {string} walletAddress 
+ * @param {number} createdAt 
+ * @param {{signal?: AbortSignal}} [args]
+ * @returns {Promise<TransactionHistoryItem>} 
+ */
+export const waitForNextTransaction = (
+  walletAddress,
+  createdAt,
+  args
+) => {
+  return new Promise((resolve, reject) => {
+    const confirm = (transaction) => {
+      clearInterval(checkInterval)
+      resolve(transaction)
+    }
+    const checkInterval = setInterval(async () => {
+      if (args?.signal?.aborted) {
+        reject()
+        return clearInterval(checkInterval)
+      }
+      try {
+        const res = await api.getTransactionHistory(walletAddress, 0, 1)
+        const transaction = res.data[0]
+        if (!transaction) return
+        if (new Date(transaction.created_at).getTime() < createdAt) return
+        if (transaction.status === 'completed') {
+          confirm(transaction)
+        }
+      } catch (_) {}
+    }, 5000)
+  })
+}
+
+/**
+ * @typedef {{type: 'sending' | 'finalizing'} | {type: 'confirming', transactionHash: string} | {type: 'finished', transaction: TransactionHistoryItem} | {type: 'errored', error: unknown}} BuyState
  */
 
 /**
@@ -41,112 +82,119 @@ export const walletBuyTokens = new Set([
  * @param {PaymentToken} args.paymentToken
  * @param {string} args.paymentTokenNum
  * @param {string} args.walletAddress
+ * @param {(state: BuyState) => void} [args.onStateChanged]
  * @returns {Promise<TransactionFinishedReturn>}
  */
 export const buyWithCrypto = async (args) => {
-  const apiData = $apiState.get();
-  if (apiData.presaleEnded) return toast.error("Presale has ended");
+  const apiData = $apiState.get()
+  if (apiData.presaleEnded) {
+    toast.error('Presale has ended')
+    return null
+  }
 
   const minimum =
     Math.ceil(
-      (parseNum(args.paymentToken.nowpayments_minimum) /
-        parseNum(args.paymentToken.price)) *
+      (parseNum(args.paymentToken.nowpayments_minimum) / parseNum(args.paymentToken.price)) *
         10 ** 6
     ) /
-    10 ** 6;
+    10 ** 6
 
-  const paymentTokenNum = parseNum(args.paymentTokenNum);
-  if (paymentTokenNum < minimum)
-    return toast.error(
-      `Must pay more than ${minimum} ${args.paymentToken.symbol.toUpperCase()}`
-    );
+  const paymentTokenNum = parseNum(args.paymentTokenNum)
+  if (paymentTokenNum < minimum) {
+    if (args.showPaymentsAsUsd)
+      toast.error(`Must pay more than ${formatDollar(minimum * parseNum(args.paymentToken.price))}`)
+    else toast.error(`Must pay more than ${minimum} ${args.paymentToken.symbol.toUpperCase()}`)
+    return null
+  }
+
+  if (paymentTokenNum <= 0) {
+    toast.error(`Must pay more than 0 ${args.paymentToken.symbol.toUpperCase()}`)
+    return null
+  }
 
   const walletTransfer = walletBuyTokens.has(
-    args.paymentToken.symbol.toUpperCase() +
-      "-" +
-      args.paymentToken.chain.toUpperCase()
-  );
+    args.paymentToken.symbol.toUpperCase() + '-' + args.paymentToken.chain.toUpperCase()
+  )
   if (walletTransfer) {
-    return await toast.promise(
-      (async () => {
-        const { config } = await getConfig();
+    try {
+      args.onStateChanged?.({ type: 'sending' })
+      const { config } = await getConfig()
 
-        const chainId = getChainIdFromLabel(args.paymentToken.chain);
-        if (!chainId)
-          return toast.error(
-            `Invalid chain id for chain ${args.paymentToken.chain}`
-          );
-
-        const abi = getAbi(chainId);
-        if (!abi) return toast.error(`Invalid ABI for chain id ${chainId}`);
-
-        const native = isCurrencyNative(args.paymentToken.symbol, chainId);
-        const contractAddress = getContractAddress(
-          chainId,
-          args.paymentToken.symbol
-        );
-        const decimals = getDecimals(chainId, args.paymentToken.symbol);
-
-        if (!native && !contractAddress)
-          return toast.error(
-            `Invalid contract address for token ${args.paymentToken.symbol}`
-          );
-        toast("Confirm in your wallet");
-        const transactionHash = await sendGenericTransaction(config, {
-          to: apiData.info.main_payment_wallet_address,
-          value: paymentTokenNum,
-          abi,
-          chainId,
-          contractAddress,
-          decimals,
-          native,
-        });
-        api.createTransactionMetadata(
-          args.walletAddress ?? "",
-          transactionHash
-        );
-        window.fbq?.("track", "Purchase", {
-          value: paymentTokenNum * parseNum(args.paymentToken.price),
-          currency: "USD",
-        });
-        window.dataLayer.push({ ecommerce: null });
-        window.dataLayer.push({
-          event: "purchase",
-          ecommerce: {
-            transaction_id: transactionHash, //unique (hash) transaction number
-            currency: "USD", //convert crypto currencies to USD
-            value:
-              parseNum(args.paymentToken.price) *
-              parseNum(args.paymentTokenNum), //value (equivalent in USD for crypto values)
-          },
-        });
-        return {
-          type: "sent",
-        };
-      })(),
-      {
-        loading: "Pending transaction",
-        error: (err) => api.getApiErrorMessage(err, "Transaction failed"),
-        success: "Successfully confirmed transaction",
+      const chainId = getChainIdFromLabel(args.paymentToken.chain)
+      if (!chainId) {
+        toast.error(`Invalid chain id for chain ${args.paymentToken.chain}`)
+        return null
       }
-    );
+
+      const abi = getAbi(chainId)
+      if (!abi) {
+        toast.error(`Invalid ABI for chain id ${chainId}`)
+        return null
+      }
+
+      const native = isCurrencyNative(args.paymentToken.symbol, chainId)
+      const contractAddress = getContractAddress(chainId, args.paymentToken.symbol)
+      const decimals = getDecimals(chainId, args.paymentToken.symbol)
+
+      if (!native && !contractAddress) {
+        toast.error(`Invalid contract address for token ${args.paymentToken.symbol}`)
+        return null
+      }
+
+      let toAddress = apiData.info?.main_payment_wallet_address
+      if (args.forceNowPayments) {
+        const res = await api.createTransaction({
+          payment_token_id: args.paymentToken.id,
+          usd_amount:
+            args.usdAmount ?? (paymentTokenNum * parseNum(args.paymentToken.price)).toString(),
+          wallet_address: args.walletAddress,
+          token_amount: paymentTokenNum.toString(),
+          product_id: args.productId
+        })
+        toAddress = res.data.pay_address
+      }
+      const createdAt = Date.now()
+      toast('Confirm in your wallet')
+
+      const transactionHash = await sendGenericTransaction(config, {
+        to: toAddress,
+        value: paymentTokenNum,
+        abi,
+        chainId,
+        contractAddress,
+        decimals,
+        native
+      })
+      args.onStateChanged?.({ type: 'confirming', transactionHash })
+      await waitForTransactionReceipt(config, { hash: transactionHash })
+      api.createTransactionMetadata(args.walletAddress ?? '', transactionHash)
+      args.onStateChanged?.({ type: 'finalizing' })
+      const transaction = await waitForNextTransaction(args.walletAddress, createdAt)
+      args.onStateChanged?.({ type: 'finished', transaction })
+      return {
+        type: 'sent'
+      }
+    } catch (err) {
+      console.error('ERRORED', err)
+      args.onStateChanged?.({ type: 'errored', error: err })
+      throw err
+    }
   } else {
     try {
       const res = await api.createTransaction({
         payment_token_id: args.paymentToken.id,
-        usd_amount: (
-          paymentTokenNum * parseNum(args.paymentToken.price)
-        ).toString(),
+        usd_amount: (paymentTokenNum * parseNum(args.paymentToken.price)).toString(),
         wallet_address: args.walletAddress,
         token_amount: paymentTokenNum.toString(),
-      });
+        product_id: args.productId
+      })
       return {
-        type: "created",
-        transaction: res.data,
-      };
+        type: 'created',
+        transaction: res.data
+      }
     } catch (err) {
-      toast.error(api.getApiErrorMessage(err, "Error creating transaction"));
-      throw err;
+      toast.error(api.getApiErrorMessage(err, 'Error creating transaction'))
+      throw err
     }
   }
 };
@@ -155,7 +203,7 @@ export const buyWithCrypto = async (args) => {
  * @param {object} args
  * @param {walletAddress} args.walletAddress
  * @param {number} args.usd
- * @param {(tokensBought: number | undefined) => void} [args.onSuccess]
+ * @param {(tokensBought: number | undefined, transaction: TransactionHistoryItem | undefined) => void} [args.onSuccess]
  * @param {() => void} [args.onClosed]
  * @param {() => void} [args.onClosedEarly]
  * @param {() => void} [args.onError]
@@ -176,10 +224,10 @@ export const buyWithCard = async (args) => {
     let errorCalled = false;
     let cancelledCalled = false;
 
-    const onSuccess = (tokensBought) => {
+    const onSuccess = (tokensBought, transaction) => {
       if (successCalled || errorCalled || cancelledCalled) return;
       successCalled = true;
-      args.onSuccess?.(tokensBought);
+      args.onSuccess?.(tokensBought, transaction);
     };
 
     const onError = () => {
@@ -203,7 +251,7 @@ export const buyWithCard = async (args) => {
           if (!transaction) return;
           if (transaction.status === "completed") {
             if (successCalled) return;
-            onSuccess(parseNum(transaction.tokens_bought));
+            onSuccess(parseNum(transaction.tokens_bought), transaction)
             widget.close();
           }
         } catch (_) {}

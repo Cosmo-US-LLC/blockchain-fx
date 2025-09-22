@@ -28,7 +28,6 @@ import Win500 from "./Win500";
 import CookiesPolicy from "./CookiesPolicy";
 
 function Layout({ isMobile }) {
-  const { i18n } = useTranslation();
   return (
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
@@ -41,7 +40,6 @@ function Layout({ isMobile }) {
 }
 
 function HowToBuyPageLayout({ isMobile }) {
-  const { i18n } = useTranslation();
   return (
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
@@ -53,49 +51,11 @@ function HowToBuyPageLayout({ isMobile }) {
   );
 }
 
-// function LangGuard({ children }) {
-//   const { lang } = useParams();
-//    const location = useLocation();
-//   const supportedLangs = [
-//     "vi",
-//     "de",
-//     "nl",
-//     "ja",
-//     "tr",
-//     "ko",
-//     "it",
-//     "no",
-//     "zh",
-//     "ru",
-//     "fr",
-//     "pt",
-//     "es",
-//     "ar",
-//   ];
-//   if (!supportedLangs.includes(lang)) {
-//     if (location.pathname.startsWith("/how-to-buy")) {
-//       return <Navigate to="/how-to-buy" replace />;
-//     }
-//     return <Navigate to="/" replace />;
-//   }
-//   return children;
-// }
-
 function LangGuard({ children }) {
   const { lang } = useParams();
-  const location = useLocation();
   const supportedLangs = [
     "vi", "de", "nl", "ja", "tr", "ko", "it", "no", "zh", "ru", "fr", "pt", "es", "ar",
   ];
-
-  if (location.pathname.startsWith("/how-to-buy")) {
-    const parts = location.pathname.split("/").filter(Boolean);
-    const lastSegment = parts[1]; 
-    if (lastSegment && supportedLangs.includes(lastSegment)) {
-      return children; 
-    }
-    return <Navigate to="/how-to-buy" replace />;
-  }
 
   if (lang && !supportedLangs.includes(lang)) {
     return <Navigate to="/" replace />;
@@ -110,25 +70,18 @@ function App() {
   const { i18n } = useTranslation();
   const location = useLocation();
 
-  
   useEffect(() => {
     const setLanguageFromURL = async () => {
       const parts = location.pathname.split("/").filter(Boolean);
       let currentLang = "en";
 
-      if (parts.length > 0) {
-        if (parts[0] === "how-to-buy" && parts[1]) {
-          currentLang = parts[1].toLowerCase();
-        } else {
-          const urlLang = parts[0].toLowerCase();
-          const supportedLangs = [
-            "vi", "de", "nl", "ja", "tr", "ko", "it", "no",
-            "zh", "ru", "fr", "pt", "es", "ar",
-          ];
-          if (supportedLangs.includes(urlLang)) {
-            currentLang = urlLang;
-          }
-        }
+      const supportedLangs = [
+        "vi","de","nl","ja","tr","ko","it","no",
+        "zh","ru","fr","pt","es","ar",
+      ];
+
+      if (parts.length > 0 && supportedLangs.includes(parts[0])) {
+        currentLang = parts[0].toLowerCase();
       }
 
       if (i18n.language !== currentLang) {
@@ -140,40 +93,59 @@ function App() {
     setLanguageFromURL();
   }, [location.pathname, i18n]);
 
-  // useEffect(() => {
-  //   const setLanguageFromURL = async () => {
-  //     const parts = location.pathname.split("/").filter(Boolean);
-  //     let currentLang = "en";
+  useEffect(() => {
+    if (!languageLoaded) return;
 
-  //     if (parts.length > 0) {
-  //       const urlLang = parts[0].toLowerCase();
-  //       const supportedLangs = [
-  //         "vi",
-  //         "de",
-  //         "nl",
-  //         "ja",
-  //         "tr",
-  //         "ko",
-  //         "it",
-  //         "no",
-  //         "zh",
-  //         "ru",
-  //         "fr",
-  //         "pt",
-  //         "es",
-  //         "ar",
-  //       ];
-  //       if (supportedLangs.includes(urlLang)) {
-  //         currentLang = urlLang;
-  //       }
-  //     }
+    const baseUrl = "https://blockchainfx.com";
+    const parts = location.pathname.split("/").filter(Boolean);
 
-  //     await i18n.changeLanguage(currentLang);
-  //     setLanguageLoaded(true);
-  //   };
+    const supportedLangs = [
+      "en","vi","de","nl","ja","tr","ko","it","no",
+      "zh","ru","fr","pt","es","ar",
+    ];
 
-  //   setLanguageFromURL();
-  // }, [location.pathname, i18n]);
+    const currentLang = supportedLangs.includes(parts[0]) ? parts[0] : "en";
+    const pagePath = supportedLangs.includes(parts[0])
+      ? `/${parts.slice(1).join("/")}`
+      : location.pathname;
+
+    const canonical =
+      currentLang === "en"
+        ? `${baseUrl}${pagePath}`
+        : `${baseUrl}/${currentLang}${pagePath}`;
+
+    // Remove old canonical/hreflang
+    document
+      .querySelectorAll("link[rel='canonical'], link[rel='alternate']")
+      .forEach((el) => el.remove());
+
+    // Add canonical
+    const canonicalTag = document.createElement("link");
+    canonicalTag.setAttribute("rel", "canonical");
+    canonicalTag.setAttribute("href", canonical);
+    document.head.appendChild(canonicalTag);
+
+    // Add hreflang for each language
+    supportedLangs.forEach((lang) => {
+      const href =
+        lang === "en"
+          ? `${baseUrl}${pagePath}`
+          : `${baseUrl}/${lang}${pagePath}`;
+
+      const link = document.createElement("link");
+      link.setAttribute("rel", "alternate");
+      link.setAttribute("hreflang", lang);
+      link.setAttribute("href", href);
+      document.head.appendChild(link);
+    });
+
+    // Add x-default
+    const xDefault = document.createElement("link");
+    xDefault.setAttribute("rel", "alternate");
+    xDefault.setAttribute("hreflang", "x-default");
+    xDefault.setAttribute("href", `${baseUrl}${pagePath}`);
+    document.head.appendChild(xDefault);
+  }, [location.pathname, i18n.language, languageLoaded]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -188,15 +160,14 @@ function App() {
   if (!languageLoaded) {
     return null;
   }
-
   return (
     <div className="bg-[#fff]">
       <ToastContainer />
       <Toaster position="bottom-center" />
       <Routes>
+        {/* Default layout (no lang prefix) */}
         <Route element={<Layout isMobile={isMobile} />}>
           <Route path="/" element={isMobile ? <MobileHome /> : <Home />} />
-          <Route path="/how-to-buy" element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />} />
           <Route path="/terms-of-service" element={<TermsofService />} />
           <Route path="/referral" element={<RefferalProgram />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
@@ -206,15 +177,22 @@ function App() {
           <Route path="/cookies-policy" element={<CookiesPolicy />} />
         </Route>
 
-    
+        {/* How-to-buy (with redirect based on current language) */}
         <Route element={<HowToBuyPageLayout isMobile={isMobile} />}>
+          {/* If English → stay, otherwise → redirect to /:lang/how-to-buy */}
           <Route
-            path="how-to-buy"
-            element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />}
+            path="/how-to-buy"
+            element={
+              i18n.language !== "en" ? (
+                <Navigate to={`/${i18n.language}/how-to-buy`} replace />
+              ) : (
+                isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />
+              )
+            }
           />
-
+          {/* Language version */}
           <Route
-            path="how-to-buy/:lang"
+            path=":lang/how-to-buy"
             element={
               <LangGuard>
                 {isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />}
@@ -223,6 +201,7 @@ function App() {
           />
         </Route>
 
+        {/* Language-prefixed pages */}
         <Route
           path="/:lang"
           element={
@@ -232,7 +211,6 @@ function App() {
           }
         >
           <Route index element={isMobile ? <MobileHome /> : <Home />} />
-          <Route path="how-to-buy" element={isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />} />
           <Route path="terms-of-service" element={<TermsofService />} />
           <Route path="referral" element={<RefferalProgram />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />

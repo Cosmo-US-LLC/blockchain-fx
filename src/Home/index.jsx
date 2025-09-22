@@ -1,4 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+
+import { setCanonical } from "../utils/setCanonical";
+
 import Herosection from './Herosection';
 import WalletSec from './WalletSec';
 // import TradeOverSec from './TradeOverSec';
@@ -45,6 +48,9 @@ import CookiePolicyPopup from '../compunents/CookiePolicyPopup';
 
 
 function Home() {
+   useEffect(() => {
+    setCanonical("https://blockchainfx.com/");
+  }, []);
     return (
       <div className="">
         <Herosection />

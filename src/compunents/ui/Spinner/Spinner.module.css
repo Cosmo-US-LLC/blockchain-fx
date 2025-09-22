@@ -1,0 +1,41 @@
+.spinner-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  animation: spinner-rotate linear 1.4s infinite;
+  display: inline-block;
+}
+
+@keyframes spinner-rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.spinner-container circle {
+  stroke-dasharray: 80px, 200px;
+  stroke-dashoffset: 0;
+  animation: spinner-indicator 1.4s infinite ease-in-out;
+  stroke: currentColor;
+}
+
+@keyframes spinner-indicator {
+  0% {
+    stroke-dasharray: 1px, 200px;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -15px;
+  }
+  100% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -125px;
+  }
+}

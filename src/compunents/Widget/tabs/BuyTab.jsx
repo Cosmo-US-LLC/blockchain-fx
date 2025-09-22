@@ -21,6 +21,7 @@ import {
   groupTokens,
   parseNum,
   roundToDP,
+  waitForNextTransaction,
 } from "../../../presale-gg/util";
 import { tokenImageMap } from "../../../presale-gg/assets/img/tokens";
 
@@ -40,10 +41,13 @@ import {
 import DisclaimerModal from "../../../compunents/ui/modals/DisclaimerModal";
 import Modal from "../../../compunents/ui/modals/Modal";
 import ContactModal from "../../../compunents/ui/modals/ContactModal";
-import { userLevelUp } from "../../../presale-gg/stores/user.store";
+import { refetchUserData, userLevelUp } from "../../../presale-gg/stores/user.store";
 import { api } from "../../../presale-gg/api";
 import confetti from "canvas-confetti";
 import { showConnectWalletModal } from "../../../presale-gg/stores/modal.store";
+import WalletTransferModal from "../../ui/modals/WalletTransferModal/WalletTransferModal";
+
+/** @typedef {import("../../../presale-gg/api/api.types").API.Transaction} Transaction */
 
 const BuyTab = ({ onTabChange}) => {
   const { t } = useTranslation();
@@ -113,8 +117,16 @@ const BuyTab = ({ onTabChange}) => {
   const [receiveTokenNumStr, setReceiveTokenNumStr] = useState("0");
 
   const [transactionLoading, setTransactionLoading] = useState(false);
+  /** @type {[Transaction, (newTransaction: Transaction) => void]} */
   const [createdTransaction, setCreatedTransaction] = useState(null);
   const [transactionModalOpen, setTransactionModalOpen] = useState(false);
+
+  const [buyState, setBuyState] = useState('confirming')
+  const [boughtTransaction, setBoughtTransaction] = useState(null)
+  const [boughtTransactionHash, setBoughtTransactionHash] = useState(null)
+  const [boughtPaymentToken, setBoughtPaymentToken] = useState(null)
+  const [boughtPaymentAmountStr, setBoughtPaymentAmountStr] = useState("0")
+  const [boughtModalOpen, setBoughtModalOpen] = useState(true)
 
   const [contactModalOpen, setContactModalOpen] = useState(false);
   const [disclaimerModalOpen, setDisclaimerModalOpen] = useState(false);
@@ -123,15 +135,6 @@ const BuyTab = ({ onTabChange}) => {
   const [pendingModalOpen, setPendingModalOpen] = useState(false);
   const [successBoughtModalOpen, setSuccessBoughtModalOpen] = useState(false);
   const [successBoughtTokens, setSuccessBoughtTokens] = useState(0);
-  const [openContactOnTransactionClose, setOpenContactOnTransactionClose] =
-    useState(false);
-
-  useEffect(() => {
-    if (!transactionModalOpen && openContactOnTransactionClose) {
-      setOpenContactOnTransactionClose(false);
-      setContactModalOpen(true);
-    }
-  }, [openContactOnTransactionClose, transactionModalOpen]);
 
   const accountData = useAccount();
   const buy = async () => {
@@ -145,19 +148,41 @@ const BuyTab = ({ onTabChange}) => {
       if (selectedToken.symbol.toLowerCase() === "card") {
         setDisclaimerModalOpen(true);
       } else {
+        setBuyState(null)
+        setBoughtTransaction(null)
+        setBoughtTransactionHash(null)
+        setBoughtPaymentToken(selectedToken)
+        setBoughtPaymentAmountStr(paymentTokenNumStr)
+        setTimeout(() => setBoughtModalOpen(true), 50)
         const res = await buyWithCrypto({
           paymentToken: selectedToken,
-          paymentTokenNum: parseNum(paymentTokenNumStr),
+          paymentTokenNum: paymentTokenNumStr,
           walletAddress: account,
+          onStateChanged: (state) => {
+            setBuyState(state.type)
+            if (state.type === 'confirming') setBoughtTransactionHash(state.transactionHash)
+            else if (state.type === 'finished') {
+              setBoughtTransaction(state.transaction)
+              window.dataLayer = window.dataLayer || []
+              window.dataLayer.push({
+                event: "purchase",
+                ecommerce: {
+                  value: parseNum(paymentTokenNumStr) * parseNum(selectedToken.price),
+                  currency: 'USD',
+                  transaction_id: state.transaction.id
+                }
+              })
+            }
+          },
         });
+        if (!res) return setTransactionLoading(false)
         if (res.type === "created") {
           setCreatedTransaction(res.transaction);
           setTimeout(() => {
             setTransactionModalOpen(true);
-            setOpenContactOnTransactionClose(true);
           }, 30);
         } else {
-          setContactModalOpen(true);
+          refetchUserData()
         }
       }
     } catch (err) {
@@ -171,21 +196,42 @@ const BuyTab = ({ onTabChange}) => {
     try {
       const account = accountData.address;
       if (!account) return toast.error(t('buy_tab.you_must_connect_wallet'));
+      const usd = parseNum(paymentTokenNumStr)
+      const minCreatedAt = Date.now()
       await buyWithCard({
-        usd: parseNum(paymentTokenNumStr),
+        usd,
         walletAddress: account,
         onClosedEarly: () => {
           setPendingModalOpen(true);
           setContactModalOpen(true);
         },
         onError: () => setErroredModalOpen(true),
-        onSuccess: (tokens) => {
-          if (tokens !== undefined) {
-            setSuccessBoughtModalOpen(true);
-            setSuccessBoughtTokens(tokens);
+        onSuccess: async (tokens, transaction) => {
+          if (tokens !== undefined && transaction !== undefined) {
+            setSuccessBoughtModalOpen(true)
+            window.dataLayer = window.dataLayer || []
+            window.dataLayer.push({
+              event: "purchase",
+              ecommerce: {
+                value: usd,
+                currency: 'USD',
+                transaction_id: transaction.id
+              }
+            })
           } else {
-            setSuccessModalOpen(true);
+            setSuccessModalOpen(true)
+            const transaction = await waitForNextTransaction(account, minCreatedAt)
+            window.dataLayer = window.dataLayer || []
+            window.dataLayer.push({
+              event: "purchase",
+              ecommerce: {
+                value: usd,
+                currency: 'USD',
+                transaction_id: transaction.id
+              }
+            })
           }
+          refetchUserData()
           setContactModalOpen(true);
         },
       });
@@ -284,7 +330,7 @@ const BuyTab = ({ onTabChange}) => {
           <div className="pt-3">
             <div className="flex justify-between items-center pb-1">
               <span className="text-[#fff] text-[9.74px] font-[400] leading-[100%]">
-                {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
+                {formatNumber(stageFrac * 100, 0, 2)}% of this presale stage sold — Buy now before price goes up.
               </span>
             </div>
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
@@ -623,7 +669,10 @@ const BuyTab = ({ onTabChange}) => {
         <TransactionModal
           transaction={createdTransaction}
           open={transactionModalOpen}
-          onClose={() => setTransactionModalOpen(false)}
+          onClose={() => {
+            setTransactionModalOpen(false)
+            setContactModalOpen(true)
+          }}
         />
       )}
       <DisclaimerModal
@@ -684,6 +733,20 @@ const BuyTab = ({ onTabChange}) => {
         open={contactModalOpen}
         onClose={() => setContactModalOpen(false)}
       />
+      {boughtPaymentAmountStr !== null && boughtPaymentToken !== null && buyState !== null && (
+        <WalletTransferModal
+          open={boughtModalOpen}
+          onClose={() => {
+            setBoughtModalOpen(false)
+            setContactModalOpen(true)
+          }}
+          payCurrency={boughtPaymentToken}
+          payAmount={boughtPaymentAmountStr}
+          state={buyState}
+          transactionHash={boughtTransactionHash}
+          transaction={boughtTransaction}
+        />
+      )}
     </>
   );
 };

@@ -77,143 +77,6 @@ function Navbar() {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
-  // const handleSelectLanguage = (lang) => {
-  //   setSelectedLang(lang);
-  //   i18n.changeLanguage(lang.abbreviation.toLowerCase());
-  //   setIsOpen(false);
-  // };
-
-  // useEffect(() => {
-  //   const parts = location.pathname.split("/").filter(Boolean);
-  //   let currentLang = "en"; // default
-
-  //   if (parts.length > 0) {
-  //     const urlLang = parts[0].toLowerCase();
-  //     if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
-  //       currentLang = urlLang;
-  //     }
-  //   }
-
-  //   const found = flags.find(
-  //     (f) => f.abbreviation.toLowerCase() === currentLang
-  //   );
-  //   if (found) {
-  //     setSelectedLang(found);
-  //     i18n.changeLanguage(currentLang); // also set language properly on URL change
-  //   }
-  // }, [location.pathname]);
-
-  // const handleSelectLanguage = (lang) => {
-  //   setSelectedLang(lang);
-  //   i18n.changeLanguage(lang.abbreviation.toLowerCase());
-  //   setIsOpen(false);
-
-  //   const currentPath = location.pathname.split("/").filter(Boolean);
-  //   const pagePath =
-  //     currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
-
-  //   if (lang.abbreviation.toLowerCase() === "en") {
-  //     navigate(`${pagePath || "/"}`);
-  //   } else {
-  //     navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   const setLanguageFromURL = async () => {
-  //     const parts = location.pathname.split("/").filter(Boolean);
-  //     let currentLang = "en"; // default
-
-  //     if (parts.length > 0) {
-  //       const urlLang = parts[0].toLowerCase();
-  //       if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
-  //         currentLang = urlLang;
-  //       }
-  //     }
-
-  //     const found = flags.find(
-  //       (f) => f.abbreviation.toLowerCase() === currentLang
-  //     );
-  //     if (found) {
-  //       setSelectedLang(found);
-  //       await i18n.changeLanguage(currentLang);
-  //     }
-  //   };
-
-  //   setLanguageFromURL();
-  // }, [location.pathname]);
-
-  // const handleSelectLanguage = async (lang) => {
-  //   setSelectedLang(lang);
-  //   await i18n.changeLanguage(lang.abbreviation.toLowerCase());
-  //   setIsOpen(false);
-
-  //   const currentPath = location.pathname.split("/").filter(Boolean);
-  //   const pagePath =
-  //     currentPath.length > 1 ? `/${currentPath.slice(1).join("/")}` : "";
-
-  //   if (lang.abbreviation.toLowerCase() === "en") {
-  //     navigate(`${pagePath || "/"}`);
-  //   } else {
-  //     navigate(`/${lang.abbreviation.toLowerCase()}${pagePath}`);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   const setLanguageFromURL = () => {
-  //     const parts = location.pathname.split("/").filter(Boolean);
-  //     let currentLang = "en";
-
-  //     if (parts.length > 0) {
-  //       if (parts[0] === "how-to-buy" && parts[1]) {
-  //         // /how-to-buy/ja
-  //         currentLang = parts[1].toLowerCase();
-  //       } else {
-  //         // /ja/... or just /ja
-  //         const urlLang = parts[0].toLowerCase();
-  //         if (flags.some((f) => f.abbreviation.toLowerCase() === urlLang)) {
-  //           currentLang = urlLang;
-  //         }
-  //       }
-  //     }
-
-  //     if (i18n.language !== currentLang) {
-  //       const found = flags.find(
-  //         (f) => f.abbreviation.toLowerCase() === currentLang
-  //       );
-  //       if (found) {
-  //         setSelectedLang(found);
-  //         i18n.changeLanguage(currentLang);
-  //       }
-  //     }
-  //   };
-
-  //   setLanguageFromURL();
-  // }, [location.pathname, i18n, flags]);
-
-  // const handleSelectLanguage = (lang) => {
-  //   const abbr = lang.abbreviation.toLowerCase();
-  //   setSelectedLang(lang);
-  //   i18n.changeLanguage(abbr); // no await
-  //   setIsOpen(false);
-
-  //   const parts = location.pathname.split("/").filter(Boolean);
-  //   let newPath = "/";
-
-  //   if (parts[0] === "how-to-buy") {
-  //     // special case: keep how-to-buy
-  //     newPath = abbr === "en" ? "/how-to-buy" : `/how-to-buy/${abbr}`;
-  //   } else {
-  //     // general case
-  //     const pagePath = parts.length > 1 ? `/${parts.slice(1).join("/")}` : "";
-  //     newPath = abbr === "en" ? `${pagePath || "/"}` : `/${abbr}${pagePath}`;
-  //   }
-
-  //   if (newPath !== location.pathname) {
-  //     navigate(newPath);
-  //   }
-  // };
-
   useEffect(() => {
     const setLanguageFromURL = () => {
       const parts = location.pathname.split("/").filter(Boolean);
@@ -324,10 +187,18 @@ function Navbar() {
             </div>
             <div className="2xl:max-w-[163px] xl:max-w-[163px] lg:max-w-[163px] md:max-w-[163px] sm:max-w-[145px] max-w-[145px]">
               <Link
-                to="/"
+                to={
+                  selectedLang.abbreviation.toLowerCase() === "en"
+                    ? "/"
+                    : `/${selectedLang.abbreviation.toLowerCase()}`
+                }
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
-                <img className="cursor-pointer" src={logo} alt="" />
+                <img
+                  className="cursor-pointer"
+                  src={logo}
+                  alt="BlockchainFX Logo"
+                />
               </Link>
             </div>
           </div>
@@ -339,14 +210,19 @@ function Navbar() {
             >
               {t("navbar.whatIsBlockchainFX")}
             </a>
-            <a
+
+            <Link
+              to={
+                selectedLang.abbreviation.toLowerCase() === "en"
+                  ? "/how-to-buy"
+                  : `/${selectedLang.abbreviation.toLowerCase()}/how-to-buy`
+              }
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              // onClick={(e) => handleScroll(e, "how-to-buy", 40)}
-              href="/how-to-buy"
             >
               {t("navbar.howToBuy")}
-            </a>
-            {location.pathname === "/how-to-buy" ? (
+            </Link>
+
+            {location.pathname.includes("how-to-buy") ? (
               <a
                 className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
                 href={pdfUrl}
@@ -364,128 +240,29 @@ function Navbar() {
                 {t("navbar.whitepaper")}
               </a>
             )}
+
             <Link
-              to="/referral"
-              target="_blank"
+              to={
+                selectedLang.abbreviation.toLowerCase() === "en"
+                  ? "/referral"
+                  : `/${selectedLang.abbreviation.toLowerCase()}/referral`
+              }
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             >
               {t("navbar.referral")}
             </Link>
-            {/* <a
+
+            <Link
+              to={
+                selectedLang.abbreviation.toLowerCase() === "en"
+                  ? "/win-500"
+                  : `/${selectedLang.abbreviation.toLowerCase()}/win-500`
+              }
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "reviews", 90)}
-              href=""
-            >
-              {t("navbar.reviews")}
-            </a> */}
-            <a
-              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              // onClick={(e) => handleScroll(e, "reviews", 90)}
-              href="/win-500"
             >
               Win $500k
-            </a>
+            </Link>
           </div>
-
-          {/* mobile menu */}
-
-          {isMobileMenuOpen && (
-            <div className="absolute top-[100%] min-h-[100vh] left-0 w-full bg-white shadow-md z-50 p-6">
-              <a
-                className="block text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                href=""
-                onClick={(e) => handleScroll(e, "what-is-bfx-coin", 60)}
-              >
-                What is BlockchainFX?
-              </a>{" "}
-              <br />
-              <br />
-              <a
-                className="block text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                href=""
-                onClick={(e) => handleScroll(e, "Wallet", 60)}
-              >
-                How to Buy
-              </a>{" "}
-              <br />
-              <br />
-              <a
-                className="block text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                href=""
-                onClick={(e) => handleScroll(e, "whitepaper", 90)}
-              >
-                Whitepaper
-              </a>{" "}
-              <br />
-              <br />
-              <Link
-                to="/referral"
-                target="_blank"
-                className="block text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-              >
-                Referral
-              </Link>
-              <br />
-              <br />
-              <a
-                className="block text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                href="#"
-                onClick={(e) => handleScroll(e, "reviews", 90)}
-              >
-                Reviews
-              </a>{" "}
-              <br />
-              <br />
-              <div
-                ref={dropdownRef}
-                className="flex relative  justify-start items-center space-x-2"
-              >
-                <img
-                  className="w-[20px]"
-                  src={selectedLang.flag}
-                  alt={selectedLang.name}
-                />
-                <span className="text-[#000] text-[16px] font-[600]">
-                  {selectedLang.abbreviation}
-                </span>
-
-                <img
-                  src={arwdwn}
-                  alt="Dropdown Arrow"
-                  onClick={toggleDropdown}
-                  className={`cursor-pointer transform transition-transform ${
-                    isOpen ? "rotate-180" : "rotate-0"
-                  }`}
-                />
-
-                {isOpen && (
-                  <div className="absolute !top-[30px] w-[300px] pb-2 rounded-[8px] px-[10px] bg-white shadow-lg">
-                    <h3 className="text-[14px] text-[#444] font-[700] mb-1">
-                      Languages
-                    </h3>
-                    <div className="grid grid-cols-2">
-                      {flags.map((lang, index) => (
-                        <div
-                          key={index}
-                          className="flex items-center space-x-1 cursor-pointer hover:bg-gray-100 p-1 rounded"
-                          onClick={() => handleSelectLanguage(lang)}
-                        >
-                          <img
-                            src={lang.flag}
-                            alt={lang.name}
-                            className="w-[14px] h-[14px]"
-                          />
-                          <span className="text-[12.599px] font-[500] text-[#444]">
-                            {lang.name}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
 
           {/* menu end */}
 
