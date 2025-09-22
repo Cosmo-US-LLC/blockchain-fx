@@ -184,7 +184,11 @@ function NavbarMobile() {
               </div>
               <div className="">
                 <Link
-                  to="/"
+                  to={
+                    selectedLang.abbreviation.toLowerCase() === "en"
+                      ? "/"
+                      : `/${selectedLang.abbreviation.toLowerCase()}`
+                  }
                   onClick={() =>
                     window.scrollTo({ top: 0, behavior: "smooth" })
                   }
@@ -208,17 +212,21 @@ function NavbarMobile() {
                   onClick={(e) => handleScroll(e, "pioneering", 60)}
                 >
                   {t("navbar.whatIsBlockchainFX")}
-                </a>{" "}
-                <br />
-                <a
+                </a>
+
+                <Link
+                  to={
+                    selectedLang.abbreviation.toLowerCase() === "en"
+                      ? "/how-to-buy"
+                      : `/${selectedLang.abbreviation.toLowerCase()}/how-to-buy`
+                  }
                   className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                  href="/how-to-buy"
-                  // onClick={(e) => handleScroll(e, "how-to-buy", 90)}
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {t("navbar.howToBuy")}
-                </a>{" "}
-                <br />
-                {location.pathname === "/how-to-buy" ? (
+                </Link>
+
+                {location.pathname.includes("how-to-buy") ? (
                   <a
                     className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                     href={pdfUrl}
@@ -229,41 +237,48 @@ function NavbarMobile() {
                   </a>
                 ) : (
                   <a
-                   className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                    className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                     onClick={(e) => handleScroll(e, "whitepaper", 60)}
                     href="#"
                   >
                     {t("navbar.whitepaper")}
                   </a>
                 )}
-               
-                <br />
+
                 <Link
-                  to="/referral"
-                  target="_blank"
+                  to={
+                    selectedLang.abbreviation.toLowerCase() === "en"
+                      ? "/referral"
+                      : `/${selectedLang.abbreviation.toLowerCase()}/referral`
+                  }
                   className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {t("navbar.referral")}
                 </Link>
-                <br />
+
                 <a
                   className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                   href="#"
                   onClick={(e) => handleScroll(e, "reviews", 90)}
                 >
                   {t("navbar.reviews")}
-                </a>{" "}
-                <br />
-                <a
+                </a>
+
+                <Link
+                  to={
+                    selectedLang.abbreviation.toLowerCase() === "en"
+                      ? "/win-500"
+                      : `/${selectedLang.abbreviation.toLowerCase()}/win-500`
+                  }
                   className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
-                  href="/win-500"
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Win $500k
-                </a>
+                </Link>
               </div>
             )}
 
-            {/* menu end */}
             <div>
               <button
                 onClick={() => {

@@ -26,7 +26,7 @@ function FeaturedSec() {
               </a>
             </div>
               <div className="flex flex-col items-center">
-              <a href="https://www.binance.com/en/square/post/21135762162242" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.binance.com/en/square/post/29811397309321" target="_blank" rel="noopener noreferrer">
                 <img loading="lazy" src={herobnr2} className=" h-[22px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
               </a>
             </div>
@@ -36,7 +36,7 @@ function FeaturedSec() {
               </a>
             </div>
             <div className="flex flex-col items-center">
-              <a href="https://www.kucoin.com/news/flash/blockchainfx-presale-exceeds-7m-promises-over-2x-returns-by-launch " target="_blank" rel="noopener noreferrer">
+              <a href="https://www.kucoin.com/news/flash/blockchainfx-presale-attracts-10-000-buyers-surpassing-bitcoin-hyper-and-little-pepe" target="_blank" rel="noopener noreferrer">
                 <img loading="lazy" src={herobnr4} className="h-[22px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
               </a>
             </div>
