@@ -22,6 +22,7 @@ export const Modal = (props) => {
         "fixed top-0 left-0 w-full h-full flex items-center justify-center transition-opacity z-[1000]",
         { "opacity-0 pointer-events-none": !props.open },
       )}
+      style={props.style}
     >
       <div
         onClick={() => props.onClose()}

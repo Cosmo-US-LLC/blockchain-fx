@@ -155,6 +155,14 @@ export const refetchUserStakeData = async () => {
   $userState.setKey("userStakeData", res.data);
 };
 
+export const refetchUserData = async () => {
+  const { config } = await getConfig();
+  const { address, isConnected } = getAccount(config);
+  if (!address || !isConnected) throw new Error("Please connect your wallet");
+  const res = await api.getUser(address);
+  $userState.setKey("user", res.data);
+}
+
 /**
  * @param {string | number} tokens
  * @param {object} [options]
