@@ -8,7 +8,7 @@ import chart from "../assets/TokenAllocationSec/chart_w.png";
 function MobTokenDetailsSec() {
   const { t } = useTranslation(); // Get the translation function
 
-  const address = "0xd0d801eea2c2422df3e626b82ebbb618f4cc445e";
+  const address = "0x87ad29bc7a161d7ca644eb1db221d962e2d383d2";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(address);

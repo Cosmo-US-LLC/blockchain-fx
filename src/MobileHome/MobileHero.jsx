@@ -223,7 +223,7 @@ function MobileHero() {
             />
           </a>
           <a
-            href="https://www.binance.com/en/square/post/21135762162242"
+            href="https://www.binance.com/en/square/post/29811397309321"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -259,7 +259,7 @@ function MobileHero() {
          </div>
          <div className="flex space-x-3 justify-center items-center">
            <a
-            href="https://www.kucoin.com/news/flash/blockchainfx-presale-exceeds-7m-promises-over-2x-returns-by-launch"
+            href="https://www.kucoin.com/news/flash/blockchainfx-presale-attracts-10-000-buyers-surpassing-bitcoin-hyper-and-little-pepe"
             target="_blank"
             rel="noopener noreferrer"
           >
