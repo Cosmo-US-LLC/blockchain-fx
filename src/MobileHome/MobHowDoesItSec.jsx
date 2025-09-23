@@ -1,107 +1,101 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import arw from "../assets/PremiumSec/arw.svg";
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
-import cardicn1 from "../assets/HowDoesItSec/icns (1).svg";
-import cardicn2 from "../assets/HowDoesItSec/icns (2).svg";
-import cardicn3 from "../assets/HowDoesItSec/icns (3).svg";
-import cardicn4 from "../assets/HowDoesItSec/icns (4).svg";
-import cardicn5 from "../assets/HowDoesItSec/icns (5).svg";
-import cardicn6 from "../assets/HowDoesItSec/icns (6).svg";
-
-const cardItems = [
-  {
-    icon:cardicn1,
-    title: "01. Trading Platform",
-    description:
-      "BlockchainFX is a multi-asset trading platform that offers a wide range of trading options.",
-  },
-  {
-    icon:cardicn2,
-    title: "02. Fee Distribution",
-    description:
-      "70% of trading fees are used to incentivize the BFX community and drive the ecosystem’s growth.",
-  },
-  {
-    icon:cardicn3,
-    title: "03. Daily Revenue (50%)",
-    description:
-      "50% of all fees collected will be shared with BFX holders and automatically airdropped every 24 hours.",
-  },
-  {
-    icon:cardicn4,
-    title: "04. Buybacks (20%)",
-    description:
-      "20% of fees will be used for daily BFX buybacks, increasing demand and boosting the $BFX price.",
-  },
-  {
-    icon:cardicn5,
-    title: "05. Burn",
-    description:
-      "Half of all buybacks will be automatically burned, gradually reducing the supply of $BFX.",
-  },
-  {
-    icon:cardicn6,
-    title: "06. Hyper Growth",
-    description: "The deflationary model and automatic buyback system fuel the potential for exponential growth of $BFX.",
-  },
-];
+import cardicn1 from "../assets/HowDoesItSec/cardicon (3).webp";
+import cardicn2 from "../assets/HowDoesItSec/cardicon (2).webp";
+import cardicn3 from "../assets/HowDoesItSec/cardicon (1).webp";
+import ellipse2 from "../assets/HowDoesItSec/Ellipse 3 (3).png";
+import cardicn6 from "../assets/HowDoesItSec/icns (6) copy.svg";
+import howtomob from "../assets/HowDoesItSec/howtomob.webp";
 
 function MobHowDoesItSec() {
-  return (
-    <div className="pt-[24px] pb-[24px]">
-      <div className="max-w-[1400px] w-[100%] mx-auto relative">
-        <div>
-          <h3 className="text-[30px] capitalize leading-[100%] text-[#181A20] text-center font-[700]">
-            How Does It Work?
-          </h3>
-        </div>
-        <div className=" pt-[30px] w-[90%] mx-auto ">
-          <div className="w-[100%]">
-            <div className="relative px-[28px]">
-              <button className="swiper-button-prev-how rotate-[182deg] absolute z-10 !left-[-3%] top-[46%] transform -translate-y-1/2 !w-[37.545px] !h-[37.545px]">
-                <img className="" src={arw} alt="" />
-              </button>
-              <button className="swiper-button-next-how  !w-[37.545px] !h-[37.545px] absolute z-10 !right-[-3%] top-[46%] transform -translate-y-1/2">
-                <img className="" src={arw} alt="" />
-              </button>
+  const [swiperIndex, setSwiperIndex] = useState(0);
+  const { t } = useTranslation();
 
-              <Swiper
-                slidesPerView={1}
-                spaceBetween={20}
-                navigation={{
-                  nextEl: ".swiper-button-next-how ",
-                  prevEl: ".swiper-button-prev-how ",
+  const cardItems = [
+    {
+      icon: cardicn1,
+      title: t("how_does_it_sec.cards.staking_rewards.title"),
+      description: t("how_does_it_sec.cards.staking_rewards.description"),
+    },
+    {
+      icon: cardicn2,
+      title: t("how_does_it_sec.cards.buybacks.title"),
+      description: t("how_does_it_sec.cards.buybacks.description"),
+    },
+    {
+      icon: cardicn3,
+      title: t("how_does_it_sec.cards.burn.title"),
+      description: t("how_does_it_sec.cards.burn.description"),
+    },
+  ];
+
+  const handleSlideChange = (swiper) => {
+    setSwiperIndex(swiper.activeIndex);
+  };
+
+  return (
+    <div
+      className="pt-[40px] pb-[24px] bg-[#020B10] space-y-[35px]"
+      id="MobileDemo"
+    >
+      <div
+        className="w-[90%] space-y-[25px] px-[20px] py-[30px] bg-[#010E11] rounded-[24px]  mx-auto  overflow-hidden relative"
+        style={{
+          border: "1px solid rgba(230, 175, 3, 0.12)",
+        }}
+      >
+        {/* <img
+          src={ellipse2}
+          className="absolute w-[100%] h-[512px] left-0 top-[0%]"
+          alt="ellipse2"
+        /> */}
+        <div>
+          <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize text-[white] text-center">
+            {t("how_does_it_sec.title")}
+          </h3>
+          <p className="mt-4 font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
+            <span className="" dangerouslySetInnerHTML={{ __html: t("how_does_it_sec.subtitle") }} />
+          </p>
+        </div>
+        <div className="flex justify-center">
+          <img src={howtomob} className="object-cover" alt="" />
+        </div>
+      </div>
+      <div className="w-[90%] mx-auto">
+        <div className="w-[100%]">
+          <div className="relative grid grid-col-1 gap-y-[20px]">
+            {cardItems.map((item, index) => (
+              <div
+                style={{
+                  border: "1px solid rgba(230, 175, 3, 0.12)",
                 }}
-                modules={[Navigation]}
-                loop={false}
-                className="mySwiper"
+                className="px-[20px] h-[280px]   rounded-[16px] "
               >
-                {cardItems.map((item) => (
-                  <SwiperSlide key={item.id}>
-                    <div
-                      key={item.id}
-                      className="px-[20px] max-h-[340px] flex space-y-[20px] flex-col justify-centetr py-[32px] min-h-[284px] bg-[#F2F2F2] rounded-[8px] border "
-                    >
-                      <div className="flex justify-center">
-                        <img src={item.icon} alt="" />
-                      </div>
-                      <div className="pt-[10px]">
-                        <h3 className="text-[20px] text-center text-[#000] font-[700] leading-[115%]">
-                          {item.title}
-                        </h3>
-                      </div>
-                      <h4 className="text-[15px]  text-center text-[#000] font-[400] leading-[153.333%]">
-                        {item.description}
-                      </h4>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+                <div className="flex flex-row items-center justify-between">
+                  <div className="flex justify-center">
+                    <img src={item.icon} className="h-[60px]" alt="" />
+                  </div>
+                  <p className="text-[#FFFFFF33] text-[56px] font-[600]">
+                    0{index + 1}.
+                  </p>
+                </div>
+
+                <div className="pt-8">
+                  <h3 className="text-[23px] tracking-[-1.2px] text-left text-[white] font-[600] leading-[120%]">
+                    {item.title}
+                  </h3>
+                </div>
+                <h4 className="mt-2 text-[16px] max-w-[325px] text-left text-[#fff] font-[400] leading-[153.333%]">
+                  {item.description}
+                </h4>
+              </div>
+            ))}
           </div>
         </div>
       </div>

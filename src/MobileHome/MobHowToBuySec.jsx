@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
-import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
-import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
-import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
+import oneicon1 from "../assets/OneAppSec/oneicon (1) copy.svg";
+import oneicon2 from "../assets/OneAppSec/oneicon (4) copy.svg";
+import oneicon3 from "../assets/OneAppSec/oneicon (2) copy.svg";
+import oneicon4 from "../assets/OneAppSec/oneicon (3) copy.svg";
 import iconapon from "../assets/HowToBuySec/ei_arrow-up.svg";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
 import imghow from "../assets/HowToBuySec/Frame 1410125732.webp";

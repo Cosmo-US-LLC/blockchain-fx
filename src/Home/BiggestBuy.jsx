@@ -1,0 +1,301 @@
+import React, { useState, useEffect } from "react";
+import ernvet1 from "../assets/BiggestBuy/biggest_bg.png";
+import { useTranslation } from "react-i18next";
+
+export default function BiggestBuy() {
+  const { t } = useTranslation();
+  const [showMore, setShowMore] = useState(false);
+    const [tableData, setTableData] = useState([]);
+  const visibleData = showMore ? tableData : tableData.slice(0, 5);
+
+
+  // const tableData = [
+  //   {
+  //     rank: "1st",
+  //     wallet: "0x589...18e1",
+  //     date: "2025-05-02",
+  //     txCount: 3,
+  //     totalBuy: "$124,590.58",
+  //     nft: "Legend",
+  //     prize: "$50,000",
+  //   },
+  //   {
+  //     rank: "2nd",
+  //     wallet: "0xa28...b37d",
+  //     date: "2025-04-11",
+  //     txCount: 2,
+  //     totalBuy: "$79,810.35",
+  //     nft: "Elite",
+  //     prize: "$20,000",
+  //   },
+  //   {
+  //     rank: "3rd",
+  //     wallet: "0xc6e...6f8e",
+  //     date: "2025-04-07",
+  //     txCount: 5,
+  //     totalBuy: "$52,192.16",
+  //     nft: "Elite",
+  //     prize: "$10,000",
+  //   },
+  //   {
+  //     rank: "4th",
+  //     wallet: "0x71C...9c9B",
+  //     date: "2023-04-14",
+  //     txCount: 13,
+  //     totalBuy: "$35,143.44",
+  //     nft: "Master",
+  //     prize: "$5,000",
+  //   },
+  //   {
+  //     rank: "5th",
+  //     wallet: "0x5ae...76de",
+  //     date: "2023-04-19",
+  //     txCount: 4,
+  //     totalBuy: "$27,440.38",
+  //     nft: "Expert",
+  //     prize: "$3,000",
+  //   },
+  //   {
+  //     rank: "6th",
+  //     wallet: "0xa3f...1b9c",
+  //     date: "2025-05-06",
+  //     txCount: 9,
+  //     totalBuy: "$24,710.55",
+  //     nft: "Expert",
+  //     prize: "$2,500",
+  //   },
+  //   {
+  //     rank: "7th",
+  //     wallet: "0x9be...3c1a",
+  //     date: "2025-04-23",
+  //     txCount: 3,
+  //     totalBuy: "$21,845.72",
+  //     nft: "Expert",
+  //     prize: "$2,000",
+  //   },
+  //   {
+  //     rank: "8th",
+  //     wallet: "0x7cd...5aa3",
+  //     date: "2025-04-22",
+  //     txCount: 11,
+  //     totalBuy: "$19,302.48",
+  //     nft: "Expert",
+  //     prize: "$1,800",
+  //   },
+  //   {
+  //     rank: "9th",
+  //     wallet: "0xd14...8f6",
+  //     date: "2025-04-11",
+  //     txCount: 2,
+  //     totalBuy: "$17,894.11",
+  //     nft: "Expert",
+  //     prize: "$1,500",
+  //   },
+  //   {
+  //     rank: "10th",
+  //     wallet: "0xb89...c24e",
+  //     date: "2025-03-30",
+  //     txCount: 6,
+  //     totalBuy: "$15,732.00",
+  //     nft: "Expert",
+  //     prize: "$1,000",
+  //   },
+  // ];
+
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 80;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
+
+
+
+ 
+useEffect(() => {
+  async function fetchTopBuyers() {
+    try {
+      const res = await fetch(
+        "https://api.presale.gg/v1/projects/blockchainfx/top-buyers"
+      );
+      const data = await res.json();
+
+      const prizeList = [
+        50000,
+        20000,
+        10000,
+        5000,
+        3000,
+        2500,
+        2000,
+        1800,
+        1500,
+        1000
+      ];
+
+      const formatted = data
+        .slice(0, 10) 
+        .map((item, idx) => {
+          const totalBuyValue = Number(item.total_usd_spent);
+
+          const getNFTLevel = (value) => {
+            if (value >= 100000) return "Legend";
+            if (value >= 50000) return "Elite";
+            if (value >= 25000) return "Master";
+            if (value >= 10000) return "Expert";
+            if (value >= 5000) return "Pro";
+            if (value >= 2500) return "Advance";
+            if (value >= 1000) return "Novice";
+            return "-";
+          };
+
+          return {
+            rank: `${idx + 1}${getOrdinalSuffix(idx + 1)}`,
+            wallet: shortenWallet(item.wallet_address),
+            date: formatDate(item.date_joined),
+            txCount: item.transaction_count,
+            totalBuy: `$${totalBuyValue.toLocaleString()}`,
+            nft: getNFTLevel(totalBuyValue),
+            prize:
+              prizeList[idx] !== undefined
+                ? `$${prizeList[idx].toLocaleString()}`
+                : "-"
+          };
+        });
+
+      setTableData(formatted);
+    } catch (error) {
+      console.error("Error fetching buyers:", error);
+    }
+  }
+
+  fetchTopBuyers();
+}, []);
+
+ 
+   function shortenWallet(wallet) {
+    if (!wallet) return "";
+    return `${wallet.slice(0, 4)}...${wallet.slice(-4)}`;
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return "";
+    const d = new Date(dateStr);
+    return d.toISOString().split("T")[0];
+  }
+
+  function getOrdinalSuffix(n) {
+    const s = ["th", "st", "nd", "rd"],
+      v = n % 100;
+    return s[(v - 20) % 10] || s[v] || s[0];
+  }
+
+  return (
+    <div className="flex items-center justify-center bg-[#020B10] pt-[50px] pb-[50px] px-[80px]">
+      <div className="px-6 py-[30px] w-full max-w-[1200px] overflow-hidden relative min-h-[550px]  rounded-[16px] bg-[#030F16] border-[1px] border-[#575757]">
+        <div className="flex flex-col justify-center items-center relative z-10 space-y-[29px] mb-[25px]">
+          <h4 className="text-[40px] font-[800] text-white leading-[120%]">
+            {t("biggest_buy.title")}
+          </h4>
+          <p className="text-[18px] text-white !text-center font-[400] leading-[150%] w-[980px]">
+            {t("biggest_buy.description")}
+          </p>
+        </div>
+
+        {/* Table */}
+        <div className="relative z-10 overflow-x-auto">
+          <table className="w-full text-white table-auto">
+            <thead>
+              <tr className="text-[#E5AE00] font-[700] text-left">
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.rank")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.wallet")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.date")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.tx_count")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.total_buy")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.nft")}</th>
+                <th className="px-4 py-2 text-center">{t("biggest_buy.table.prize")}</th>
+              </tr>
+            </thead>
+            <tbody className="">
+              {visibleData.map((item, index) => {
+                const bgColor =
+                  index === 0
+                    ? "bg-[#BB9E08]"
+                    : index === 1
+                    ? "bg-[#99958C]"
+                    : index === 2
+                    ? "bg-[#A46A2A]"
+                    : "";
+
+                const textColor = index < 3 ? "text-[#FFF9AD] " : "";
+
+                return (
+                  <>
+                    <tr
+                      key={index}
+                      className={`!rounded-[30px]  ${bgColor} ${textColor}`}
+                    >
+                      <td className="px-4 py-2 text-center  rounded-l-[30px]">
+                       {item.rank}
+                      </td>
+                      <td className="px-4 py-2  text-center">{item.wallet}</td>
+                      <td className="px-4 py-2  text-center">{item.date}</td>
+                      <td className="px-4 py-2  text-center">{item.txCount}</td>
+                      <td className="px-4 py-2  text-center">{item.totalBuy}</td>
+                      <td className="px-4 py-2  text-center">{t(`nft.${item.nft.toLowerCase()}`)}</td>
+                      <td className="px-4 py-2  text-center  rounded-r-[30px]">
+                        {item.prize}
+                      </td>
+                    </tr>
+                    <tr className="h-[8px]"></tr>
+                  </>
+                );
+              })}
+            </tbody>
+              </table>
+        </div>
+
+        {/* Load More Button */}
+        <div className="flex justify-center items-center mt-[20px] relative z-10">
+          <button
+            onClick={() => setShowMore(!showMore)}
+            className="hover:text-white hover:bg-[#E5AE00] px-[15px] text-[#E5AE00] bg-transparent text-[16px] font-[400] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px]  inline-flex items-center h-[38px]"
+          >
+            {showMore ? t("biggest_buy.view_less") : t("biggest_buy.load_more")}
+          </button>
+        </div>
+
+        <div className="flex items-center justify-center">
+          <p className="text-[13px] text-white font-[400] relative z-10 mt-[15px]">
+            {t("biggest_buy.note")}
+          </p>
+        </div>
+
+        {/* buybfx Button */}
+        {/* <div className="flex justify-center items-center mt-[20px] relative z-10">
+          <button
+            onClick={handleScroll}
+            style={{
+              background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+            }}
+            className="text-{#000} px-[12px]  text-[14px] font-[600] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
+          >
+            Buy BFX
+          </button>
+        </div> */}
+
+        {/* <div className="absolute top-[0%] left-[0%]">
+          <img src={ernvet1} className="" alt="BlockchainFX" />
+        </div> */}
+      </div>
+    </div>
+  );
+}

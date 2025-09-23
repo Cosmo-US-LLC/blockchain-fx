@@ -1,0 +1,107 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
+import ellipse2 from "../assets/BlockchainFXDemo/Ellipse 3 (3).png";
+import liveVideo from "../assets/BlockchainFXDemo/bfx-demo.mp4";
+
+function DemoSec() {
+  const { t } = useTranslation();
+
+  const handleScroll = () => {
+    setTimeout(() => {
+      const element = document.getElementById("Wallet");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
+  
+   const handleScrollToDemo = () => {
+    setTimeout(() => {
+      const element = document.getElementById("hero");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 20;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
+  const handleScrollreview = () => {
+    setTimeout(() => {
+      const element = document.getElementById("hero");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 20;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
+
+  return (
+   <div className="bg-[#020B10] py-[30px] " >
+    <div className="mx-auto w-[90%] overflow-hidden bg-[#020B10] rounded-[24px]"
+    style={{
+      border: "1.5px solid #E5E7EB",
+     
+    }}>
+    <div
+      
+      className="relative mx-auto "
+    >
+      <img src={ellipse2} className="absolute w-[100%] top-[-49%]" alt="ellipse2" />
+      <div className="w-[100%] mx-auto space-y-[24px] px-3">
+        <h3 className="mt-8 text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[white]">
+          {t("blockchainfx_demo.title")}
+        </h3>
+        <p className="text-[16px] text-center font-[400] text-[#fff] demobr">
+          <span className="mobilepara" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.description") }} />
+        </p>
+        <video
+          width="640"
+          height="660"
+          playsInline
+          muted
+          loop
+          autoPlay
+          controls
+        >
+          <source src={liveVideo} type="video/mp4" />
+        </video>
+      </div>
+      <div className="flex w-full items-center justify-center space-x-2 mt-8 mb-[30px]">
+        <button
+          onClick={handleScroll}
+          style={{
+            background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+          }}
+          className="self-center text-[13px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[110px]"
+        >
+          {t("blockchainfx_demo.buy_button")}
+        </button>
+        <button
+          onClick={handleScrollreview}
+          className="self-center text-[13px] border border-[#E6B005] text-[#E6B005] font-[700] rounded-[10px] h-[50px] w-[180px]"
+        >
+          {t("blockchainfx_demo.watch_live_button")}
+        </button>
+      </div>
+    </div>
+    </div>
+   </div>
+  );
+}
+
+export default DemoSec;

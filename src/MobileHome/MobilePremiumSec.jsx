@@ -1,150 +1,95 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import Iicon from "../assets/Gateway/i.svg";
+import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 import starticn from "../assets/PremiumSec/start.svg";
 import arw from "../assets/PremiumSec/arw.svg";
+import qArw from "../assets/PremiumSec/qArw.webp";
 import faq1 from "../assets/PremiumSec/faq (1).svg";
 import faq2 from "../assets/PremiumSec/faq (2).svg";
 import line from "../assets/PremiumSec/line.png";
-import cardimg1 from "../assets/PremiumSec/cardimg (1).webp";
-import cardimg2 from "../assets/PremiumSec/cardimg (2).webp";
-import cardimg3 from "../assets/PremiumSec/cardimg (3).webp";
-import cardimg4 from "../assets/PremiumSec/cardimg (4).webp";
-import cardimg5 from "../assets/PremiumSec/cardimg (5).webp";
-import cardimg6 from "../assets/PremiumSec/cardimg (6).webp";
-import cardimg7 from "../assets/PremiumSec/cardimg (7).webp";
+import cardimg1 from "../assets/PremiumSec/card1.webp";
+import cardimg2 from "../assets/PremiumSec/card2.webp";
+import cardimg3 from "../assets/PremiumSec/card3.webp";
+import cardimg4 from "../assets/PremiumSec/card4.webp";
+import cardimg5 from "../assets/PremiumSec/card5.webp";
+import cardimg6 from "../assets/PremiumSec/card6.webp";
+import cardimg7 from "../assets/PremiumSec/card7.webp";
+import tick from "../assets/PremiumSec/true.png";
+import cross from "../assets/PremiumSec/false.png";
 
-const cardsmob = [
-  {
-    id: 1,
-    img: cardimg1,
-    title: "Novice",
-    price: "$1,000",
-    reviews: [true, false, false, false, false],
-    points: ["Early Access", "10% BFX Bonus"],
-    buttonLabel: "Buy $BFX • $1,000",
-  },
-  {
-    id: 2,
-    img: cardimg2,
-    title: "Advanced",
-    price: "$2,500",
-    reviews: [true, true, false, false, false],
-    points: ["Early Access", "20% BFX Bonus", "$500 Trading Credits"],
-    buttonLabel: "Buy $BFX • $2,500",
-  },
-  {
-    id: 3,
-    img: cardimg3,
-    title: "Pro",
-    price: "$5,000",
-    reviews: [true, true, true, false, false],
-    points: ["Early Access", "30% BFX Bonus", "$1000 Trading Credits"],
-    buttonLabel: "Buy $BFX • $5,000",
-  },
-  {
-    id: 4,
-    img: cardimg4,
-    title: "Expert",
-    price: "$10,000+",
-
-    reviews: [true, true, true, true, false],
-    points: [
-      "Early Access",
-      "40% BFX Bonus",
-      "Daily USDT Rewards",
-      "$2000 Bonus Trading Credits",
-    ],
-    buttonLabel: "Buy $BFX • $10,000",
-  },
-  {
-    id: 5,
-    img: cardimg5,
-    title: "Master",
-    price: "$25,000+",
-
-    reviews: [true, true, true, true, true],
-    points: [
-      "Early Access",
-      "50% BFX Bonus",
-      "Daily USDT Rewards",
-      "$5000 Bonus Trading Credits",
-    ],
-    buttonLabel: "Buy $BFX • $25,000",
-  },
-  {
-    id: 6,
-    img: cardimg6,
-    title: "Elite",
-    price: "$50,000+",
-
-    reviews: [true, true, true, true, true, true],
-    points: [
-      "Early Access",
-      "60% BFX Bonus",
-      "Daily USDT Rewards",
-      "$10,000 Bonus Trading Credits",
-    ],
-    buttonLabel: "Buy $BFX • $50,000",
-  },
-  {
-    id: 7,
-    img: cardimg7,
-    title: "Legend",
-    price: "$100,000+",
-    reviews: [true, true, true, true, true, true, true],
-    points: [
-      "Early Access",
-      "80% BFX Bonus",
-      "Daily USDT Rewards",
-      "$25,000 Bonus Trading Credits",
-      "Personalised Portfolio Management",
-    ],
-    buttonLabel: "Buy $BFX • $100,000",
-  },
+const cardImages = [cardimg1, cardimg2, cardimg3, cardimg4, cardimg5, cardimg6, cardimg7];
+const cardReviews = [
+  [true, true, true, false, false],
+  [true, true, true, true, false],
+  [true, true, true, true, false],
+  [true, true, true, false, false],
+  [true, true, true, true, false],
+  [true, true, true, true, false],
+  [true, true, true, true, false],
 ];
-const Bundles = [
-  {
-    id: 1,
-    question: "When will I get my Founder’s Club NFT?",
-    answer:
-      "<li>You’ll receive your Founder's Club NFT automatically after purchasing the required amount of $BFX.</li> <li>The NFT will appear in your personal dashboard and can be claimed once the presale ends.</li> <li>To access the dashboard, connect the same wallet by clicking 'Connect Wallet' in the top right corner.</li>",
-  },
-  {
-    id: 2,
-    question: "When will I get my Bonuses?",
-    answer:
-      "<li>Your BFX bonuses will be instantly added to your dashboard.</li> <li>To access your dashboard, click the 'Connect Wallet' button</li>",
-  },
-  {
-    id: 3,
-    question: "Can I get an NFT with multiple purchases?",
-    answer:
-      "<li>Yes, you can buy $BFX in smaller amounts to reach the total required.</li> <li>For example, buying $200 worth of $BFX five times will earn you the Novice NFT (valued at $1,000).</li>",
-  },
-  {
-    id: 4,
-    question: "Can I upgrade my NFT?",
-    tooltip: true,
-    answer:
-      "<li>Yes, you can upgrade multiple times during the presale.</li><li>You'll receive rewards and the NFT for the highest level you achieve.</li> <li> After the presale ends, upgrades will no longer be possible.</li>",
-  },
-];
+const cardIcons = [tick, tick, tick, cross, cross]; 
 
 function MobilePremiumSec() {
+  const { t } = useTranslation();
+  const cardImages = [cardimg1, cardimg2, cardimg3, cardimg4, cardimg5, cardimg6, cardimg7];
+  const cardReviews = [
+    [true, true, true, false, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, true],
+    [true, true, true, true, true],
+    [true, true, true, true, true],
+    [true, true, true, true, true],
+  ];
+  const cardsmobRaw = t("premium_section.cards", { returnObjects: true });
+  const cardsmob = cardsmobRaw.map((card, idx) => {
+    const points = card.points.map((text, pIdx) => ({
+      text,
+      icon: cardReviews[idx][pIdx] ? tick : cross,
+      tooltip: card.cardPointsTooltips ? card.cardPointsTooltips[pIdx] : undefined,
+    }));
+    return {
+      ...card,
+      img: cardImages[idx],
+      reviews: cardReviews[idx],
+      points,
+    };
+  });
+
+  // Prepare FAQ data from translations for future use
+  const faq = t("premium_section.faq.questions", { returnObjects: true });
+  const faqTooltipText = t("premium_section.faq.tooltip_text", { returnObjects: true });
+
   const [openBundles, setOpenBundles] = useState(0);
   const [showTooltip, setShowTooltip] = useState(false);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const [mainSwiper, setMainSwiper] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
+    const location = useLocation();
+    const isHome = location.pathname === "/";
+
+  const tierAmounts = [
+    "$1,000",
+    "$2,500",
+    "$5,000",
+    "$10,000",
+    "$25,000",
+    "$50,000",
+    "$100,000",
+  ];
 
   const toggleBundles = (id) => {
     setOpenBundles(id === openBundles ? null : id);
   };
+  const cards = t("MobilePremiumSec.cards", { returnObjects: true });
 
   const handleScroll = () => {
     setTimeout(() => {
@@ -161,28 +106,43 @@ function MobilePremiumSec() {
     }, 200);
   };
   return (
-    <div className="pt-[24px] pb-[24px]" id="premium">
-      <div className="w-[90%] space-y-[20px] mx-auto relative">
+    <div className="pt-[10px] pb-[34px] px-6 bg-[#020B10]" id="premium">
+      <div className="relative flex flex-col gap-12 p-[20px] rounded-[16px] bg-[#010E11] border-[1px] border-[#3D3D3D]">
         <div className="space-y-[12px]">
-          <h3 className="text-[30px] leading-[100%] text-[#000] text-center font-bold">
-            Limited Founder's <br /> Club Membership
+          <h3 className=" text-[#FFF] text-center text-[30px] font-[600] leading-[120%] tracking-[-1.5px]">
+            <span dangerouslySetInnerHTML={{ __html: t("premium_section.title") }} />
           </h3>
-          <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-            Buy $BFX during the pre-sale and get Founder's Club NFTs starting at
-            only $1,000!  Enjoy early access, exclusive memberships, bonus $BFX,
-            daily staking rewards in BFX and USDT, plus extra trading credits.
-            Available only during the pre-sale!
+          <p className=" mx-auto font-inter text-[16px] text-[#fff] font-medium leading-[25px] text-center ">
+            <span className="mobilepara" dangerouslySetInnerHTML={{ __html: t("premium_section.description") }} />
           </p>
         </div>
-        <div className="w-[100%] mx-auto ">
-          <div className="relative">
-            <button className="swiper-button-prev-1 rotate-[182deg] absolute z-10 !left-[0%] top-[50%] transform -translate-y-1/2">
-              <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
-            </button>
-            <button className="swiper-button-next-1  absolute z-10 !right-[0%] top-[50%] transform -translate-y-1/2">
-              <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
-            </button>
+        <div className="w-[90%] mx-auto">
+          <div className="flex justify-between pb-2 items-centers">
+            <h4 className="text-[14px] font-[700] text-[#fff]">
+              {t("premium_section.how_much_spend")}
+            </h4>
+            <h4 className="text-[14px] font-[700] text-[#fff]">
+              {tierAmounts[activeIndex]}
+            </h4>
+          </div>
+          <input
+            type="range"
+            min={0}
+            max={cardsmob.length - 1}
+            value={activeIndex}
+            onChange={(e) => {
+              const newIndex = Number(e.target.value);
+              setActiveIndex(newIndex);
+              if (mainSwiper) {
+                mainSwiper.slideTo(newIndex);
+              }
+            }}
+            className="w-[100%] accent-[#E5AE00] cursor-pointer"
+          />
+        </div>
 
+        <div className="w-[100%] mx-auto ">
+          <div className="relative preswiper">
             <Swiper
               speed={800}
               slidesPerView={1}
@@ -193,68 +153,110 @@ function MobilePremiumSec() {
                 nextEl: ".swiper-button-next-1",
                 prevEl: ".swiper-button-prev-1",
               }}
-              modules={[Navigation]}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Navigation, Pagination]}
               loop={false}
-              className="mySwiper"
+              className="mySwiper !min-h-[640px]"
             >
-              {cardsmob.map((card) => (
-                <SwiperSlide key={card.id}>
+              {cardsmob.map((card, index) => (
+                <SwiperSlide key={card.title}>
                   <div
                     style={{
-                      background: "rgba(241, 241, 241, 0.36)",
+                      background: "#030F16",
+                      borderColor: "rgba(230, 175, 3, 0.12)",
                     }}
-                    className="p-[15px] rounded-[4px] max-w-[261px] mx-auto flex flex-col justify-between border border-[#9D9D9D] !min-h-[500px] max-h-[500px] h-[100%]"
+                    className={`p-[15px] rounded-[8px] flex w-[100%] mx-auto flex-col justify-between ${
+                      activeIndex === index
+                        ? "border-black"
+                        : "rgba(230, 175, 3, 0.12)"
+                    } border !min-h-[590px] max-h-[590px] h-[100%]`}
                   >
                     <div>
                       <img
                         src={card.img}
-                        className="rounded-[4px]"
+                        loading="lazy"
+                        className="rounded-[8px] w-[100%] max-h-[190px]"
                         alt={card.title}
                       />
 
-                      <div className="flex justify-between pt-[15px] pb-[10px]">
+                      <div className="flex space-x-3 items-start py-[14px]">
                         <div>
-                          <h3 className="text-[#000] flex flex-col justify-end text-[16px] font-[600] leading-[115%]">
-                            {card.title} <br />
-                            <span className="text-[#7C7C7C] text-start text-[15px] font-[600]">
+                          <h3 className="text-[#ffff] flex flex-col justify-end font-[600] ">
+                            <span  className={`leading-[100%] ${isHome ? "text-[30px]" : "text-[24px]"}`}>
+                              {card.title}
+                            </span>
+                            <span className="text-[#fff] text-start pt-[10px] text-[18.286px] font-[600]">
                               {card.price}
                             </span>
                           </h3>
                         </div>
-
-                        <ul className="flex justify-center items-center">
-                          {card.reviews.map((isStarFilled, index) =>
-                            isStarFilled ? (
-                              <li key={index}>
-                                <img
-                                  src={starticn}
-                                  className="h-[18px]"
-                                  alt="rating star"
-                                />
-                              </li>
-                            ) : null
-                          )}
-                        </ul>
+                        <h3
+                          className="text-[#fff] text-center border rounded-[16px] px-[26px] py-[6px] text-[16.27px] font-[600]"
+                          style={{
+                            border: "1px solid rgba(255, 255, 255, 0.10)",
+                          }}
+                        >
+                          NFT
+                        </h3>
                       </div>
 
-                      <ul className="text-left mt-[12px]">
-                        {card.points.map((point, index) => (
-                          <li
-                            key={index}
-                            className="mb-2 rounded-[8px] px-[5px] h-[31px] flex items-center text-[#181A20] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
+                      <ul className="text-left">
+                        {card.points.map((point, pIndex) => (
+                          <div
+                            className="flex mb-1 px-[8px] h-[40.719px] rounded-[8px] justify-between items-center"
                             style={{
                               background: "rgba(124, 124, 124, 0.07)",
                             }}
+                            key={pIndex}
                           >
-                            {point}
-                          </li>
+                            <li
+                              className=" flex items-center text-[#fff] text-[14px] font-[400] leading-[127.778%] tracking-[-0.32px]"
+                            >
+                              <img
+                                src={point.icon}
+                                alt=""
+                                className="w-5 h-5 mr-3"
+                              />
+                              {point.text}
+                            </li>
+                            <div className="relative inline-block group">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 22 22"
+                                fill="none"
+                                className="cursor-pointer"
+                              >
+                                <path
+                                  d="M10.5 0C16.023 0 20.5 4.477 20.5 10C20.5 15.523 16.023 20 10.5 20C4.977 20 0.5 15.523 0.5 10C0.5 4.477 4.977 0 10.5 0ZM10.5 1.395C8.21781 1.395 6.0291 2.3016 4.41535 3.91535C2.8016 5.5291 1.895 7.71781 1.895 10C1.895 12.2822 2.8016 14.4709 4.41535 16.0847C6.0291 17.6984 8.21781 18.605 10.5 18.605C12.7822 18.605 14.9709 17.6984 16.5847 16.0847C18.1984 14.4709 19.105 12.2822 19.105 10C19.105 7.71781 18.1984 5.5291 16.5847 3.91535C14.9709 2.3016 12.7822 1.395 10.5 1.395ZM10.355 7.21C10.74 7.21 11.052 7.523 11.052 7.908V15.466C11.0452 15.6464 10.9687 15.8172 10.8386 15.9424C10.7086 16.0676 10.535 16.1376 10.3545 16.1376C10.174 16.1376 10.0004 16.0676 9.87037 15.9424C9.74031 15.8172 9.66383 15.6464 9.657 15.466V7.907C9.657 7.522 9.969 7.21 10.355 7.21ZM10.383 4.419C10.6297 4.419 10.8662 4.51698 11.0406 4.69139C11.215 4.8658 11.313 5.10235 11.313 5.349C11.313 5.59565 11.215 5.8322 11.0406 6.00661C10.8662 6.18102 10.6297 6.279 10.383 6.279C10.1363 6.279 9.8998 6.18102 9.72539 6.00661C9.55098 5.8322 9.453 5.59565 9.453 5.349C9.453 5.10235 9.55098 4.8658 9.72539 4.69139C9.8998 4.51698 10.1363 4.419 10.383 4.419Z"
+                                  fill="white"
+                                />
+                              </svg>
+                              {point.tooltip && (
+                                <div className="absolute left-[-80px] min-w-[200px] -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-[#020B10] border border-gray-700 text-white text-xs rounded px-2 py-1 z-[9999] ">
+                                  {point.tooltip}
+                                </div>
+                              )}
+                            </div>
+                          </div>
                         ))}
                       </ul>
                     </div>
-                    <div className="flex justify-start">
+                    <div className="flex justify-start pt-[15px]">
                       <button
-                        className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[40px]"
                         onClick={handleScroll}
+                        onMouseEnter={() => setHoveredIndex(index)}
+                        onMouseLeave={() => setHoveredIndex(null)}
+                        style={{
+                          background:
+                            hoveredIndex === index
+                              ? "transparent"
+                              : "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                        }}
+                        className="text-black px-[12px] hover:text-[#E5AE00] hover:!bg-transparent text-[14.629px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[100%] h-[49px]"
                       >
                         {card.buttonLabel}
                       </button>
@@ -263,158 +265,6 @@ function MobilePremiumSec() {
                 </SwiperSlide>
               ))}
             </Swiper>
-          </div>
-        </div>
-        <div className="w-[80%] mx-auto">
-          <div className="relative">
-            <button className="swiper-button-prev2 rotate-[182deg] absolute z-10 !left-[-11%] !top-[50%] transform -translate-y-1/2">
-              <img className="w-[28.545px] h-[28.545px]" src={arw} alt="" />
-            </button>
-            <button className="swiper-button-next2  absolute z-10 !right-[-11%] !top-[50%] transform -translate-y-1/2">
-              <img className="w-[28.545px] h-[28.545px]" src={arw} alt="" />
-            </button>
-
-            <Swiper
-              slidesPerView={4}
-              speed={500}
-              spaceBetween={20}
-              navigation={{
-                nextEl: ".swiper-button-next2",
-                prevEl: ".swiper-button-prev2",
-              }}
-              modules={[Navigation]}
-              loop={false}
-              className="mySwiper"
-            >
-              {[
-                "Novice",
-                "Advanced",
-                "Pro",
-                "Expert",
-                "Master",
-                "Elite",
-                "Legend",
-              ].map((tier, index) => (
-                <SwiperSlide key={index}>
-                  <div
-                    onClick={() => {
-                      if (mainSwiper) {
-                        mainSwiper.slideTo(index);
-                      } else {
-                      }
-                    }}
-                    className={`w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px] relative z-[90] cursor-pointer ${
-                      activeIndex === index
-                        ? "border"
-                        : "border border-[#F5F5F5]"
-                    }`}
-                  >
-                    <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                      {tier}
-                    </h4>
-                    <p className="text-[#7C7C7C] font-[400] text-[9px] text-center">
-                      {
-                        [
-                          "$1,000+",
-                          "$2,500+",
-                          "$5,000+",
-                          "$10,000+",
-                          "$25,000+",
-                          "$50,000+",
-                          "$100,000+",
-                        ][index]
-                      }
-                    </p>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </div>
-        <div className="w-[90%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[12px]  py-[20px] space-y-[20px]">
-          <div>
-            <h3 className="text-[24px] text-center font-[700] text-[#181A20] tracking-[-1px]">
-              Questions About <br /> The Founder’s Club
-            </h3>
-          </div>
-
-          <div>
-            {Bundles.map((item, index) => (
-              <div
-                key={item.id}
-                className={`py-[14px] ${
-                  index !== Bundles.length - 1 ? "border-b border-[#000]" : ""
-                }`}
-              >
-                <div
-                  className="flex justify-between items-center cursor-pointer"
-                  onClick={() => toggleBundles(item.id)}
-                >
-                  <h3
-                    className={`text-[12px] font-[600] leading-[170.05% ] ${
-                      openBundles === item.id ? "text-[#E5AE00]" : "text-black"
-                    }`}
-                  >
-                    {item.question}
-                  </h3>
-                  <span className="">
-                    {openBundles === item.id ? (
-                      <>
-                        <img className="h-[20px] w-[20px]" src={faq1} alt="" />
-                      </>
-                    ) : (
-                      <>
-                        <img className="h-[20px] w-[20px]" src={faq2} alt="" />
-                      </>
-                    )}
-                  </span>
-                </div>
-                {openBundles === item.id && (
-                  <div className="relative">
-                    <p className="relative mt-2 text-[15px] text-[#181A20] font-[400] tracking-[-0.32px] inline-flex items-center">
-                      <span
-                      className="pr-3 leading-[130%] space-y-[10px]"
-                        dangerouslySetInnerHTML={{ __html: item.answer }}
-                      ></span>
-
-                      {item.tooltip && (
-                        <span className="absolute top-[5%] right-[0%]">
-                          <div
-                            className="cursor-pointer relative"
-                            onMouseEnter={() => setShowTooltip(true)}
-                            onMouseLeave={() => setShowTooltip(false)}
-                          >
-                            <img
-                              className="w-[11.7px]"
-                              src={Iicon}
-                              alt="Info Icon"
-                            />
-                            {showTooltip && (
-                              <div className="absolute top-full left-[-140px] transform -translate-x-1/2 mt-2 z-[99] bg-[#808080] w-[300px] text-start leading-[110%] text-[#fff] text-[10px] font-[400] rounded-md p-[10px] shadow-lg whitespace-nowrap">
-                                <span className="absolute top-[8px] left-[4px]">
-                                  .
-                                </span>{" "}
-                                For example, buying $1,000 of $BFX gives you the
-                                Novice NFT. <br />
-                                <span className="absolute top-[18px] left-[4px]">
-                                  .
-                                </span>{" "}
-                                Spend $1,500 more to upgrade to Advanced. <br />
-                                <span className="absolute top-[29px] left-[4px]">
-                                  .
-                                </span>{" "}
-                                You can keep upgrading until you reach the final
-                                Legend NFT.
-                              </div>
-                            )}
-                          </div>
-                        </span>
-                      )}
-                    </p>
-                  </div>
-                )}
-              </div>
-            ))}
           </div>
         </div>
       </div>

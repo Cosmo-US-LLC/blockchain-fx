@@ -5,50 +5,54 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2).svg";
-import oneimg from "../assets/OneAppSec/imgonecec.png";
+import dailyimg from "../assets/OneAppSec/dailyimg.webp";
+import { useTranslation } from "react-i18next";
 
 const items = [
   {
     icon: oneicon1,
-    title: "Any Device",
-    description:
-      "Users can trade from any device, whether it's a PC, Mac, iOS, or Android.",
+    title: "one_app_sec.items.own_bfx.title",
+    description: "one_app_sec.items.own_bfx.description",
   },
   {
     icon: oneicon2,
-    title: "Technical Tools",
-    description: "Advanced technical tools designed to enhance market analysis and decision-making.",
+    title: "one_app_sec.items.stake_bfx.title",
+    description: "one_app_sec.items.stake_bfx.description",
   },
   {
     icon: oneicon3,
-    title: "Risk Management",
-    description: "Comprehensive risk management features to minimize risks.",
+    title: "one_app_sec.items.dashboard.title",
+    description: "one_app_sec.items.dashboard.description",
   },
   {
     icon: oneicon4,
-    title: "Multiple Charts",
-    description: "Traders can use multiple charts at the same time for better market insights.",
+    title: "one_app_sec.items.staking_rewards.title",
+    description: "one_app_sec.items.staking_rewards.description",
   },
 ];
 
 function OneAppSec() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const { t } = useTranslation();
 
   const handleToggle = (index) => {
     setActiveIndex(index === activeIndex ? -1 : index);
   };
 
   return (
-    <div className="py-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx-coin">
-     <div className="max-w-[1300px] w-[100%] mx-auto relative">
-     <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
-        <div className="w-[50%] max-w-[473px] space-y-[20px]">
-          <h3 className="text-[30px] capitalize font-[700] leading-normal text-[#181A20] tracking-[-1px] text-start">
-            Everything In One App
+    <div className="py-[50px] bg-[#020B10] overflow-hidden" >
+      <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px] border-[1px] border-[#6f6f6f] rounded-[27px] px-[30px] py-[35px]"
+      >
+        <div className="w-[43%] max-w-[473px] space-y-[20px]">
+         <div className="space-y-[10px]">
+          <h4 className="px-3 h-[29px] inline-flex items-center w-auto text-[14px] text-[#030F16] bg-[#E9C03D] rounded-[7px] font-[700]"> <span className="text-[40px] !mb-[22px] mr-[3px] leading-[0px] animate-blink">.</span> {t("one_app_sec.badge")}</h4>
+         <h3 className="text-[40px] capitalize font-[700] leading-normal text-[#fff] tracking-[-1px] text-start">
+          {t("one_app_sec.title")}
           </h3>
-          <p className="text-[14px] text-[#181A20] font-[400] leading-[150%] leading-[-0.32px] text-start">
-          A lightning-fast and innovative trading solution
+          <p className="text-[20px]  text-[#fff] font-[400] leading-[150%] leading-[-0.32px] text-start">
+          {t("one_app_sec.subtitle")}
           </p>
+         </div>
           <div className="">
             {items.map((item, index) => (
               <div
@@ -68,20 +72,20 @@ function OneAppSec() {
                       />
                     </div>
                     <div className="w-[80%]">
-                      <div className="flex justify-between items-center">
-                        <h3 className="text-[18px] leading-[142.44%] font-[600] text-[#000]">
-                          {item.title}
+                      <div className="flex items-center justify-between">
+                        <h3 className="text-[22px] leading-[142.44%] font-[600] text-[#fff]">
+                          {t(item.title)}
                         </h3>
                         <div>
                           <img
                             src={index === activeIndex ? iconcls : iconapon}
                             alt={index === activeIndex ? "Collapse" : "Expand"}
-                            className="w-[18px] h-[18px]"
+                            className=""
                           />
                         </div>
                       </div>
                       <p
-                        className={`mt-[12px] text-[14px] leading-[161.598%] font-[400] text-[#000] max-w-[248px] overflow-hidden transition-all duration-300 ${
+                        className={`mt-[12px] text-[18px] leading-[161.598%] font-[400] text-[#fff] max-w-[248px] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"
@@ -90,7 +94,7 @@ function OneAppSec() {
                           transition: "max-height 0.3s ease, opacity 0.3s ease",
                         }}
                       >
-                        {item.description}
+                        {t(item.description)}
                       </p>
                     </div>
                   </div>
@@ -99,17 +103,11 @@ function OneAppSec() {
             ))}
           </div>
         </div>
-        <div className="w-[58%] overflow-visible">
-          <div className="w-[142%] h-[100%]" style={{
-            backgroundImage:`url(${oneimg})`,
-            backgroundPosition: 'left',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-          }}>
-          </div>
+        <div className="w-[55%] space-y-[25px] overflow-visible">
+          <img src={dailyimg} className="object-cover" alt="" />
+          <p className="text-[13px] text-center pl-[32px] leading-[150.598%] font-[400] text-[#fff]">{t("one_app_sec.note")}</p>
         </div>
       </div>
-     </div>
     </div>
   );
 }

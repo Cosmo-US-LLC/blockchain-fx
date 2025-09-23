@@ -1,76 +1,82 @@
-import React from 'react';
-import MobileHero from './MobileHero';
-import MobileWalletSec from './MobileWalletSec';
-import MobileTradeOverSec from './MobileTradeOverSec';
-import MobNextGenerationSec from './MobNextGenerationSec';
-import MobileOneAppSec from './MobileOneAppSec';
-import MobileEarnOnSec from './MobileEarnOnSec';
-import MobHowDoesItSec from './MobHowDoesItSec';
-import MobExclusiveSec from './MobExclusiveSec';
-import MobilePremiumSec from './MobilePremiumSec';
-import MobHowToBuySec from './MobHowToBuySec';
-import MobileLessThanSec from './MobileLessThanSec';
-import MobStandoutSec from './MobStandoutSec';
-import MobHyperGrowthSec from './MobHyperGrowthSec';
-import MobileGatewaySec from './MobileGatewaySec';
-import MobileWallStreetSec from './MobileWallStreetSec';
-import MobTadeLikeSec from './MobTadeLikeSec';
-import MobTopAssetsSec from './MobTopAssetsSec';
-import MobLiveNewSec from './MobLiveNewSec';
-import MobSecurityBuiltSec from './MobSecurityBuiltSec';
-import MobStreamlinedSec from './MobStreamlinedSec';
-import MobWhatIsSec from './MobWhatIsSec';
-import MobTokenAllocationSec from './MobTokenAllocationSec';
-import MobTokenDetailsSec from './MobTokenDetailsSec';
-import MobRoadmapSec from './MobRoadmapSec';
-import MobOurAwardSec from './MobOurAwardSec';
-import MobExpertsworkingSec from './MobExpertsworkingSec';
-import MobPressMediaSec from './MobPressMediaSec';
-import MobTraderReviewsSec from './MobTraderReviewsSec';
-import MobFaqSec from './MobFaqSec';
-import MobTheUltimateSec from './MobTheUltimateSec';
-import SwapSectionMob from './SwapSectionMob';
-import Whitepaper from '../Home/Whitepaper';
-import WhitepaperMob from './WhitepaperMob';
+import React, {useEffect} from "react";
+
+import { setCanonical } from "../utils/setCanonical";
+
+import WalletSec from "../Home/WalletSec";
+import MobExclusiveSec from "./MobExclusiveSec";
+import MobFaqSec from "./MobFaqSec";
+import MobHowDoesItSec from "./MobHowDoesItSec";
+import MobHyperGrowthSec from "./MobHyperGrowthSec";
+import MobileEarnOnSec from "./MobileEarnOnSec";
+import MobileGatewaySec from "./MobileGatewaySec";
+import MobileHero from "./MobileHero";
+import MobileLessThanSec from "./MobileLessThanSec";
+import MobileOneAppSec from "./MobileOneAppSec";
+import MobilePremiumSec from "./MobilePremiumSec";
+import MobileTradeOverSec from "./MobileTradeOverSec";
+import MobileWallStreetSec from "./MobileWallStreetSec";
+import MobRoadmapSec from "./MobRoadmapSec";
+import MobSecurityBuiltSec from "./MobSecurityBuiltSec";
+import MobStandoutSec from "./MobStandoutSec";
+import MobTadeLikeSec from "./MobTadeLikeSec";
+import MobTheUltimateSec from "./MobTheUltimateSec";
+import MobTokenAllocationSec from "./MobTokenAllocationSec";
+import MobTokenDetailsSec from "./MobTokenDetailsSec";
+import MobTraderReviewsSec from "./MobTraderReviewsSec";
+import MobWhatIsSec from "./MobWhatIsSec";
+import SwapSectionMob from "./SwapSectionMob";
+import WhitepaperMob from "./WhitepaperMob";
+import MobileWalletSec from "./MobileWalletSec";
+import YoutubeSec from "./YoutubeSec";
+import DemoSec from "./DemoSec";
+import CreditCardMob from "./CreditCardMob";
+import MobPressMediaSec from "./MobPressMediaSec";
+
+import MobOurAwardSec from "./MobOurAwardSec";
+import LivePresale from "../compunents/LivePresale";
+import KYCVerifiedMob from "./KYCVerifiedMob";
+import InsideSecmob from "./InsideSecmob";
+import CryptoExchangemobSec from "./CryptoExchangemobSec";
+import GatewaySecMobile from "./GatewaySecMobile";
+import CommunitymobSec from "./CommunitymobSec";
+import BiggestbuyMobSec from "./BiggestbuyMobSec";
 
 function MobileHome() {
-    return (
-      <div className="">
-        <MobileHero />
-        <MobileWalletSec />
-        <MobNextGenerationSec />
-        <MobileTradeOverSec />
-        <MobileOneAppSec />
-        <MobileEarnOnSec />
-        <MobHowDoesItSec />
-        <MobExclusiveSec />
-        <MobilePremiumSec />
-        {/* <MobHowToBuySec /> */}
-        <MobileLessThanSec />
-        <MobileGatewaySec />
-        <MobHyperGrowthSec />
-        <MobStandoutSec />
-        <MobileWallStreetSec />
-        <MobTadeLikeSec />
-        {/* <MobTopAssetsSec /> */}
-        <SwapSectionMob />
-        <MobLiveNewSec />
-        {/* <MobStreamlinedSec /> */}
-        <WhitepaperMob />
-        <MobWhatIsSec />
-        <MobTokenAllocationSec />
-        <MobTokenDetailsSec />
-        <MobSecurityBuiltSec />
-        <MobRoadmapSec />
-        {/* <MobOurAwardSec /> */}
-        {/* <MobExpertsworkingSec /> */}
-        {/* <MobPressMediaSec /> */}
-        <MobTraderReviewsSec />
-        <MobFaqSec />
-        <MobTheUltimateSec />
-      </div>
-    );
-  }
-  
-  export default MobileHome;
-  
+  useEffect(() => {
+    setCanonical("https://blockchainfx.com/");
+  }, []);
+  return (
+    <div className="bg-[#020B10] w-[100%]">
+      <MobileHero />
+      {/* <InsideSecmob /> */}
+      <MobileWalletSec />
+      <KYCVerifiedMob />
+      <YoutubeSec />
+      <CryptoExchangemobSec />
+      <DemoSec />
+      <SwapSectionMob />
+      <MobileOneAppSec />
+      {/* <CommunitymobSec /> */}
+      <MobHowDoesItSec />
+      <CreditCardMob />
+      <MobExclusiveSec />
+      <MobilePremiumSec />
+      <BiggestbuyMobSec />
+      <MobileLessThanSec />
+      <MobileGatewaySec />
+      <MobStandoutSec />
+      <WhitepaperMob />
+      <MobTokenDetailsSec />
+      <MobRoadmapSec />
+      <MobOurAwardSec />
+      <MobPressMediaSec />
+      <MobTraderReviewsSec />
+      <MobFaqSec />
+      <MobTheUltimateSec />
+      <LivePresale />
+     
+    </div>
+  );
+}
+
+export default MobileHome;

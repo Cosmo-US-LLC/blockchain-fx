@@ -1,5 +1,5 @@
 import whitepaper from "../assets/Whitepaper/instantSwap.gif";
-
+import swapbg from "../assets/Swap/swapbg2.png"
 export default function SwapSection() {
   const handleScroll = () => {
     setTimeout(() => {
@@ -17,9 +17,12 @@ export default function SwapSection() {
 
   return (
     <>
-      <div className="w-full flex items-center justify-center py-[50px] px-[60px]">
-        <div className="p-6 max-w-[1080px] min-h-[454px] border border-1 border-[#B0B0B0] flex flex-row items-center rounded-[13px]">
-          <div className="w-[50%]">
+      <div className=" bg-[#020B10]  pt-[30px] pb-[30px] px-[80px] ">
+        <div className="px-6 max-w-[1200px] mx-auto w-full pt-[100px] pb-[30px] space-y-[40px]  rounded-[13px] bg-no-repeat bg-cover bg-center"
+              style={{ backgroundImage: `url(${swapbg})` }}>
+        
+        <div className="flex flex-row items-center">
+        <div className="w-[50%]">
             <div className="w-full p-2">
               <img
                 src={whitepaper}
@@ -29,24 +32,33 @@ export default function SwapSection() {
             </div>
           </div>
           <div className="w-[50%] space-y-4 pl-4">
-            <div className="w-full p-2 flex flex-col justify-start">
-              <h3 className="text-[30px] font-bold leading-[48px] mb-4">
-                Swap Between Assets{" "}
-              </h3>
-              <p className="text-[14px]">
-              Experience limitless trading opportunities, like swapping gold for BTC or ETH for Nvidia stock, all in one place. Traditionally, converting crypto into other assets required separate exchanges, extra fees, and long wait times. BlockchainFX streamlines it, making trading faster and easier than ever.
-              </p>
+            <div className="w-full p-2 flex flex-col justify-start text-white">
+            <h3 className="text-[40px] font-[800] leading-[52px] mb-4 text-[#fff]">
+            More Than 500 Assets 
+            </h3>
+              <p className="text-[18px] text-[#fff] font-[400] leading-[27px] w-[450px]">
+              BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes. No delays, no extra fees, no switching platforms. Just fast and real-time trading.           </p>
             </div>
 
-            <div className="w-full p-2 flex justify-start">
-              <button
-                onClick={handleScroll}
-                className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]"
-              >
-                Buy $BFX
-              </button>
-            </div>
+          
           </div>
+        </div>
+        <div 
+            style={{
+              border:"0.835px solid #262626"
+            }}
+            className="w-full rounded-[13px] flex justify-center max-w-[1150px] w-[100%] mx-auto py-[20px] px-[20px] space-x-[15px]">
+              <h4 className="text-[20px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">Users can trade on BlockchainFX:</h4>
+              <h4 className="text-[20px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">Crypto</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Stocks</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Forex</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Commodities</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">ETFs</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Options</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Futures</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">Indices</h4>
+              <h4 className="text-[20px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">CFDs</h4>
+            </div>
         </div>
       </div>
     </>

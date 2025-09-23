@@ -1,81 +1,361 @@
-import React from "react";
-
+import React, { useRef, useState, useEffect } from "react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import graph from "../assets/LessThanSec/Frame 1410125779 (1).png";
+import arw from "../assets/PremiumSec/preawr (1).svg";
+import icon1 from "../assets/Gateway/gticons (4).svg";
+import icon2 from "../assets/Gateway/gticons (3).svg";
+import icon3 from "../assets/Gateway/gticons (2).svg";
+import icon4 from "../assets/Gateway/gticons (1).svg";
+import cardicon1 from "../assets/Gateway/tblicn (2).svg";
+import Iicon from "../assets/Gateway/i.svg";
+import cardicon2 from "../assets/Gateway/tblicn (1).svg";
+import graphyp from "../assets/HyperGrowth/Graph.png";
+import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
+import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
+import { useTranslation } from "react-i18next";
 
 function LessThanSec() {
+  const swiperRef = useRef(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [showTooltip, setShowTooltip] = useState(false);
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.pagination.render();
+      swiperRef.current.swiper.pagination.update();
+    }
+  }, []);
+
   return (
-    <div className="pt-[50px] pb-[50px] bg-[#fff]">
-      <div className="max-w-[1200px] space-y-[50px] w-[100%] mx-auto ">
-        <div className="space-y-[18px]">
-          <h3 className="text-[30px] capitalize font-[700] text-center leading-[58px] text-[#181A20] tracking-[-1px]">
-          Bridging Crypto and Finance
-          </h3>
-          <p className="text-[14px] font-[400] w-[890px] mx-auto text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            Crypto makes up only 0.87% of global trading volume in 2024,
-            averaging $84.3 billion daily. Meanwhile, the Forex market alone
-            handles $7.5 trillion per day. This gap presents a major opportunity
-            for $BFX to connect crypto users with the world’s largest financial
-            markets.
-          </p>
+    <div className="pt-[50px] pb-[50px] bg-[#020B10]">
+        <div
+              className="max-w-[1200px] py-[50px] relative overflow-hidden space-y-[50px] rounded-[16px] w-[100%] mx-auto"
+              style={{
+                background: "#030F16",
+              }}
+            >
+              <div className="space-y-[18px] relative z-[99]">
+                <h3 className="text-[40px] font-[700] text-center leading-[58px] text-[#fff] tracking-[-1px]">
+                  {t("less_than_section.title")}
+                </h3>
+                <p className="text-[18px] font-[400] w-[750px] mx-auto text-center leading-[130%] text-[#fff] tracking-[-0.32px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.description") }} />
+              </div>
+              <div className="space-y-[60px] relative z-[99]">
+                <div className="relative">
+                  <div className="flex justify-center">
+                    <img
+                      src={graph}
+                      alt="graph"
+                      loading="lazy"
+                      className="h-[321px] w-[321px]"
+                    />
+                  </div>
+                  <p className="text-[#fff] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.bonds")}
+                  </p>
+                  <p className="text-[#fff] absolute top-[8%] max-w-[230px] leading-[110%] left-[19%] text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.stocks")}
+                  </p>
+                  <p className="text-[#fff] absolute top-[21%] max-w-[260px] leading-[110%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.commodities")}
+                  </p>
+                   <p className="text-[#fff] absolute top-[33%] leading-[110%] left-[16%] max-w-[240px] text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.etfs")}
+                  </p>
+                  <p className="text-[#F3D885] py-1 px-2 border leading-[120%] border-[#F6CE69] max-w-[360px] absolute top-[50%] left-[5%] rounded-[5px]  text-[26px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.crypto")}
+                  </p>
+                  <p className="text-[#fff] absolute bottom-[5%] right-[23%] max-w-[200px]  text-[15px] font-[700] tracking-[-0.787px]">
+                    {t("less_than_section.chart.forex")}
+                  </p>
+                </div>
+                <div className="max-w-[887px] pt-[0px] flex justify-between items-center mx-auto w-[100%]">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-[30px] h-[30px] bg-[#E9AD2F] rounded-[4px]"></div>
+                    <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
+                      {t("less_than_section.legend.forex")}
+                    </p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-[30px] h-[30px] bg-[#DCDCDC] rounded-[4px]"></div>
+                    <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
+                      {t("less_than_section.legend.bonds")}
+                    </p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-[30px] h-[30px] bg-[#B6B6B6] rounded-[4px]"></div>
+                    <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
+                      {t("less_than_section.legend.us_stock")}
+                    </p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-[30px] h-[30px] bg-[#7DBB6C] rounded-[4px]"></div>
+                    <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
+                      {t("less_than_section.legend.commodities")}
+                    </p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-[30px] h-[30px] bg-[#D39219] rounded-[4px]"></div>
+                    <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
+                      {t("less_than_section.legend.etfs")}
+                    </p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-[30px] h-[30px] bg-[#A36E00] rounded-[4px]"></div>
+                    <p className="text-[#fff] text-[18px] font-[700] tracking-[-1px]">
+                      {t("less_than_section.legend.crypto")}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute top-[-8%] left-[-5%]">
+                <img src={ernvet2} className=" " alt="" />
+              </div>
+              <div className="absolute bottom-[0%] right-[0%]">
+                <img src={ernvet1} className="" alt="" />
+              </div>
+            </div>
+      {/* <div className="relative max-w-[1200px] mx-auto">
+        <div className="w-[40%] flex justify-end items-end space-x-2">
+          <button className="swiper-button-prev-slide-swp w-[42.545px] h-[42.545px] rounded-[50px] a absolute z-[99] left-10 top-[50%]">
+            {"<"}
+          </button>
+          <button className="swiper-button-next-slide-swp rounded-[50px] right-10 top-[50%] absolute z-[99]  w-[42.545px] h-[42.545px]">
+            {">"}
+          </button>
         </div>
-        <div className="space-y-[60px]">
-          {/* <h4 className="text-[20px] space-y-[50px] font-[700] text-center leading-[130%] text-[#181A20] tracking-[-1px]">
-            Average Daily Trading Volume in 2024
-          </h4> */}
-          <div className="relative">
-            <div className="flex justify-center">
-              <img src={graph} alt="" className="h-[321px] w-[321px]" />
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={20}
+          loop={false}
+          navigation={{
+            nextEl: ".swiper-button-next-slide-swp",
+            prevEl: ".swiper-button-prev-slide-swp",
+            enabled: true,
+          }}
+          pagination={{
+            el: ".custom-pagination",
+            clickable: true,
+            renderBullet: (index, className) => {
+              return `<span class="${className} custom-bullet bg-yellow-800 p-1 rounded-full "></span>`;
+            },
+          }}
+          onSwiper={(swiper) => (swiperRef.current = swiper)}
+          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+          modules={[Navigation, Pagination]}
+          className="mySwiper"
+        >
+         
+          <SwiperSlide>
+          
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div
+              className="max-w-[1200px] rounded-[16px] pt-[50px] pb-[70px] relative overflow-hidden space-y-[40px] w-[100%] mx-auto"
+              style={{
+                background: "#030F16",
+                borderColor: "rgba(230, 175, 3, 0.12)",
+              }}
+            >
+              <div className="space-y-[14px]">
+                <h3 className="text-[40px] capitalize font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
+                  {t("less_than_section.gateway.title")}
+                </h3>
+                <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[130%] text-[#fff] tracking-[-0.32px]">
+                  {t("less_than_section.gateway.description")}
+                </p>
+              </div>
+              <div className="max-w-[1025px] relative z-[99] mx-auto flex justify-between items-center">
+                <div className="max-w-[267px] w-[100%]">
+                  <ul className="max-w-[267px] w-[100%]">
+                    <li className="h-[83px]"></li>
+                    <li className="flex space-x-3 px-[18px] items-center h-[65px]">
+                      <div className="w-[65px]">
+                        <img src={icon1} alt="" className="w-[37px]" />
+                      </div>
+                      <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
+                        {t("less_than_section.costs.title")}
+                      </span>
+                    </li>
+                    <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+                      <div className="w-[65px]">
+                        <img src={icon2} alt="" className="w-[36px]" />
+                      </div>
+                      <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
+                        {t("less_than_section.time.title")}
+                      </span>
+                    </li>
+                    <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+                      <div className="w-[65px]">
+                        <img src={icon3} alt="" className="w-[36px]" />
+                      </div>
+                      <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
+                        {t("less_than_section.team.title")}
+                      </span>
+                    </li>
+                    <li className="flex space-x-3 px-[18px] items-center h-[65px] border-t border-[#C2C2C2]">
+                      <div className="w-[65px]">
+                        <img src={icon4} alt="" className="w-[39px]" />
+                      </div>
+                      <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
+                        {t("less_than_section.work_scope.title")}
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  className="max-w-[355px] min-h-[455px] rounded-[11px] py-[23px] px-[16px] w-[100%]"
+                  style={{
+                    background: "#030F16",
+                    border: "1px solid #2B2B2B",
+                  }}
+                >
+                  <div className="flex justify-start pl-[19px] space-x-4 items-center">
+                    <img
+                      src={cardicon1}
+                      alt=""
+                      className="w-[56.7px] h-[56.7px]"
+                    />
+                    <h4 className="text-[#CBCBCB] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
+                      {t("less_than_section.comparison.new_platform")}
+                    </h4>
+                  </div>
+                  <ul>
+                    <li className="py-[20px] flex items-center space-x-2 border-b border-[#C2C2C2]">
+                      <span className="text-[#fff] text-[16px] font-[500]">
+                        {t("less_than_section.costs.description")}
+                      </span>
+                      <div
+                        className="relative"
+                        onMouseEnter={() => setShowTooltip(true)}
+                        onMouseLeave={() => setShowTooltip(false)}
+                      >
+                        <img
+                          className="w-[11.7px]"
+                          src={Iicon}
+                          alt="Info Icon"
+                        />
+                        {showTooltip && (
+                          <div className="absolute left-0 top-6 bg-[#808080] w-[210px] text-center leading-[110%] text-[#ffff] text-[10px] font-[400] rounded-md p-[6px] shadow-lg">
+                            {t("less_than_section.work_scope.description")}
+                          </div>
+                        )}
+                      </div>
+                    </li>
+                    <li className="text-[#fff] text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
+                      {t("less_than_section.time.description")}
+                    </li>
+                    <li className="text-[#fff] text-[16px] font-[500] flex items-center h-[65px] border-b border-[#C2C2C2]">
+                      {t("less_than_section.team.description")}
+                    </li>
+                    <li className="text-[#fff] text-[16px] font-[500] py-[18px] tracking-[-0.8px]">
+                      {t("less_than_section.work_scope.description")}
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  className="max-w-[355px] min-h-[455px] rounded-[11px] py-[23px] px-[16px] w-[100%]"
+                  style={{
+                    background: "#030F16",
+                    border: "1px solid #2B2B2B",
+                  }}
+                >
+                  <div className="flex justify-start space-x-4 items-center">
+                    <img
+                      src={cardicon2}
+                      alt=""
+                      className="w-[56.7px] h-[56.7px]"
+                    />
+                    <h4 className="text-[#CBCBCB] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
+                      {t("less_than_section.comparison.blockchainfx")}
+                    </h4>
+                  </div>
+                  <ul>
+                    <li className="text-[#fff] text-[16px] h-[61.5px] font-[500] py-[27px] h-[66px] border-b border-[#C2C2C2]">
+                      {t("less_than_section.comparison.costs_option")}
+                    </li>
+                    <li className="text-[#fff] text-[16px] h-[65.5px] font-[500] py-[27px] h-[65px] border-b border-[#C2C2C2]">
+                      {t("less_than_section.comparison.time_option")}
+                    </li>
+                    <li className="text-[#fff] text-[16px] font-[500] py-[23px] h-[65px] border-b border-[#C2C2C2]">
+                      {t("less_than_section.comparison.team_option")}
+                    </li>
+                    <li className="text-[#fff] text-[16px] font-[500] py-[27px]">
+                      {t("less_than_section.comparison.work_option")}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="absolute top-[-8%] left-[-5%]">
+                <img src={ernvet2} className=" " alt="" />
+              </div>
+              <div className="absolute bottom-[0%] right-[0%]">
+                <img src={ernvet1} className="" alt="" />
+              </div>
             </div>
-            <p className="text-[#6F6F6F] -top-3 left-[28%] absolute text-[15px] font-[700] tracking-[-0.787px]">
-              Bonds: $1.1 Trillion (11.42%)
-            </p>
-            <p className="text-[#6F6F6F] absolute top-[8%] left-[20%] text-[15px] font-[700] tracking-[-0.787px]">
-              U.S. Stocks: $700 Billion (7.27%)
-            </p>
-            <p className="text-[#6F6F6F] absolute top-[21%] left-[17%] text-[15px] font-[700] tracking-[-0.787px]">
-              Commodities: $250 Billion (2.59%)
-            </p>
-            <p className="text-[#6F6F6F] absolute top-[35%] left-[19%]  text-[15px] font-[700] tracking-[-0.787px]">
-              Crypto: $89 Billion (0.87%)
-            </p>
-            <p className="text-[#6F6F6F] absolute bottom-[5%] right-[23%]  text-[15px] font-[700] tracking-[-0.787px]">
-              Forex: $7.5 Trillion (77.85%)
-            </p>
-          </div>
-          <div className="max-w-[887px] pt-[0px] flex justify-between items-center mx-auto w-[100%]">
-            <div className="flex items-center space-x-2">
-              <div className="w-[30px] h-[30px] bg-[#E9AD2F] rounded-[4px]"></div>
-              <p className="text-[#181A20] text-[16.7px] font-[700] tracking-[-1px] ">
-                Forex
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="max-w-[1200px] relative overflow-hidden bg-[#030F16] py-[50px] rounded-[16px] space-y-[35px] w-[100%] mx-auto">
+              <div className="space-y-[14px]">
+                <h3 className="text-[40px] font-[700] text-center leading-[114%] text-[#fff] tracking-[-1px]">
+                  {t("less_than_section.growth.title")}
+                </h3>
+                <p className="text-[18px] font-[400] max-w-[890px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
+                  {t("less_than_section.growth.description")}
+                </p>
+              </div>
+              <div
+                className="space-y-[53px] bg-[#030F16] rounded-[10.672px] p-[53.32px] w-[667px] h-[413px] mx-auto"
+                style={{
+                  border: "1px solid #2B2B2B",
+                }}
+              >
+                <div className="flex items-center justify-between">
+                  <h4 className="text-[#fff] font-[500] text-[19.7px]">
+                    {t("less_than_section.growth.forecasting")}
+                  </h4>
+                  <div className="flex space-x-3 items-center">
+                    <hr className="h-[0px] w-[20px] border-[2px] border-[#E5AE00]" />
+                    <p className="text-[13.659px] text-[#949494] font-[500]">
+                      {t("less_than_section.growth.blockchainfx")}
+                    </p>
+                  </div>
+                  <div className="flex space-x-3 items-center">
+                    <hr className="h-[0px] w-[20px] border-[2px] border-[#CE2A96]" />
+                    <p className="text-[13.659px] text-[#949494] font-[500]">
+                      {t("less_than_section.growth.regular_platform")}
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src={graphyp}
+                    loading="lazy"
+                    alt="Trading"
+                    className=""
+                  />
+                </div>
+              </div>
+              <p className="text-[18px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[21px] text-[#fff] tracking-[-0.32px]">
+                {t("less_than_section.growth.source_note")}
               </p>
+              <div className="absolute top-[-8%] left-[-5%]">
+                <img src={ernvet2} className=" " alt="" />
+              </div>
+              <div className="absolute bottom-[0%] right-[0%]">
+                <img src={ernvet1} className="" alt="" />
+              </div>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-[30px] h-[30px] bg-[#DCDCDC] rounded-[4px]"></div>
-              <p className="text-[#181A20] text-[16.7px] font-[700] tracking-[-1px] ">
-                Bonds
-              </p>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-[30px] h-[30px] bg-[#B6B6B6] rounded-[4px]"></div>
-              <p className="text-[#181A20] text-[16.7px] font-[700] tracking-[-1px] ">
-                US Stock
-              </p>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-[30px] h-[30px] bg-[#7DBB6C] rounded-[4px]"></div>
-              <p className="text-[#181A20] text-[16.7px] font-[700] tracking-[-1px] ">
-                Commodities
-              </p>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-[30px] h-[30px] bg-[#A36E00] rounded-[4px]"></div>
-              <p className="text-[#181A20] text-[16.7px] font-[700] tracking-[-1px] ">
-                Crypto
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+          </SwiperSlide>
+        </Swiper>
+        <div className="custom-pagination flex justify-center p-2 gap-3 mt-4"></div>
+      </div> */}
     </div>
   );
 }

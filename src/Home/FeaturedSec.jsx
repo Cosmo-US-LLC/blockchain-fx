@@ -1,21 +1,66 @@
-import React from "react";
-import herobnr1 from "../assets/herosection/bnrhero (5).svg";
-import herobnr2 from "../assets/herosection/bnrhero (4).svg";
-import herobnr3 from "../assets/herosection/bnrhero (3).svg";
-import herobnr4 from "../assets/herosection/bnrhero (2).svg";
-import herobnr5 from "../assets/herosection/bnrhero (1).webp";
+import { useTranslation } from "react-i18next";
+import herobnr1 from "../assets/herosection/bnrhero (1).svg";
+import herobnr2 from "../assets/herosection/bnrhero (2).svg";
+import herobnr3 from "../assets/herosection/bnrhero (8).svg";
+import herobnr4 from "../assets/herosection/bnrhero (11).svg";
+import herobnr5 from "../assets/herosection/bnrhero (6).svg";
+import herobnr6 from "../assets/herosection/bnrhero (9).svg";
+import herobnr7 from "../assets/herosection/bnrhero (7).svg";
+import herobnr8 from "../assets/herosection/full-okx-logo 1.svg";
+// import herobnr9 from "../assets/herosection/bnrhero (11).svg";
+// import herobnr10 from "../assets/herosection/bnrhero (9).svg";
+// import herobnr11 from "../assets/herosection/bnrhero (4).svg";
 
 function FeaturedSec() {
+  const { t } = useTranslation();
+
   return (
-    <div className="h-[113px] flex items-center">
-      <div className="max-w-[940px]  w-[100%] mx-auto ">
-        <div className="">
-          <div className="flex justify-center items-center h-[73.47] space-x-[44px] border rounded-[20px] py-[20px]">
-            <img src={herobnr1}  alt="" />
-            <img src={herobnr2} className="h-[24.21px]" alt="" />
-            <img src={herobnr3} className="h-[33.39px]" alt="" />
-            <img src={herobnr4} className="h-[29.86px]" alt="" />
-            <img src={herobnr5} className="max-w-[225px] h-[21.56px]" alt="" />
+    <div className="pt-[35px] bg-[#020B10]">
+      <div className="">
+        <div className="w-[100%] mx-auto">
+          <div className="bg-[#020B10] flex relative z-[99] justify-center items-center h-[73.47] space-x-[25px] border border-[#262626] rounded-[13.357px] py-[25px] max-w-[1200px] w-[100%] mx-auto">
+            <h3 className="text-[16.697px] font-[600] text-[#fff] tracking-[-0.267px]">{t("featured_sec.featured_in")}</h3>
+            <div className="flex flex-col items-center">
+              <a href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr1} className="h-[22px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
+              </a>
+            </div>
+              <div className="flex flex-col items-center">
+              <a href="https://www.binance.com/en/square/post/29811397309321" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr2} className=" h-[22px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
+              </a>
+            </div>
+            <div className="flex flex-col items-center">
+              <a href="https://www.bitget.com/news/detail/12560604943063" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr3} className="h-[22px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
+              </a>
+            </div>
+            <div className="flex flex-col items-center">
+              <a href="https://www.kucoin.com/news/flash/blockchainfx-presale-attracts-10-000-buyers-surpassing-bitcoin-hyper-and-little-pepe" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr4} className="h-[22px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
+              </a>
+            </div>
+             <div className="flex flex-col items-center">
+              <a href="https://cointelegraph.com/press-releases/blockchainfx-raises-7-24m-in-presale-as-multi-asset-app-for-crypto-stocks-forex-launches-beta" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr5} className="h-[30px]  brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
+              </a>
+            </div>
+             <div className="flex flex-col items-center">
+              <a href="https://hackernoon.com/best-crypto-to-buy-now-why-blockchainfxs-$0019-presale-could-outpace-sei-and-pengu" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr6} className=" h-[20px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
+              </a>
+            </div>
+             <div className="flex flex-col items-center">
+              <a href="https://finbold.com/blockchainfx-raises-7-24m-in-presale-as-first-multi-asset-super-app-connecting-crypto-stocks-and-forex-goes-live-in-beta/" target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr7} className=" h-[16px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
+              </a>
+            </div>
+             <div className="flex flex-col items-center">
+              <a href="https://www.okx.com/learn/cardano-blockchainfx-presale-opportunity " target="_blank" rel="noopener noreferrer">
+                <img loading="lazy" src={herobnr8} className="h-[20px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
+              </a>
+            </div>
+           
           </div>
         </div>
       </div>

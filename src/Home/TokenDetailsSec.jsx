@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import copy from "../assets/TokenAllocationSec/fa-solid_copy.svg";
 
 function TokenDetailsSec() {
-  const address = "0xCa1e5c23E3eEB1CB5dd1257FbB304FaB1227e094";
+  const address = "0x87ad29bc7a161d7ca644eb1db221d962e2d383d2";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(address);

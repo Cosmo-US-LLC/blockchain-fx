@@ -1,74 +1,91 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-import howimg from "../assets/HowDoesItSec/hiwimg.png";
+import howtoimg from "../assets/HowDoesItSec/howtoimg.webp";
 
+import ernvet2 from "../assets/CryptoExchangeSec/vec (2).png";
+import icn1 from "../assets/HowDoesItSec/icns (1).svg";
+import icn2 from "../assets/HowDoesItSec/icns (3).svg";
+import icn3 from "../assets/HowDoesItSec/icns (2).svg";
+import icn4 from "../assets/HowDoesItSec/icns (3).svg";
+import icn5 from "../assets/HowDoesItSec/icns (2).svg";
+import icn6 from "../assets/HowDoesItSec/icns (1).svg";
 
 const cardItems = [
-    {
-      id: "01",
-      title: "Trading Platform",
-      description: "BlockchainFX is a multi-asset trading platform that offers a wide range of trading options.",
-    },
-    {
-      id: "02",
-      title: "Fee Distribution",
-      description: "70% of trading fees are used to incentivize the BFX community and drive the ecosystem’s growth.",
-    },
-    {
-      id: "03",
-      title: " Daily Revenue (50%)",
-      description: "50% of all fees collected will be shared with BFX holders and automatically airdropped every 24 hours.",
-    },
-    {
-      id: "04",
-      title: "Buybacks (20%)",
-      description: "20% of fees will be used for daily BFX buybacks, increasing demand and boosting the $BFX price.",
-    },
-    {
-      id: "05",
-      title: "Burn",
-      description: "Half of all buybacks will be automatically burned, gradually reducing the supply of $BFX.",
-    },
-    {
-      id: "06",
-      title: "Hyper Growth",
-      description: "The deflationary model and automatic buyback system fuel the potential for exponential growth of $BFX.",
-    },
-  ];
+  {
+    id: "01.",
+    img: icn1,
+    title: "how_does_it_sec.cards.staking_rewards.title",
+    description: "how_does_it_sec.cards.staking_rewards.description",
+  },
+  {
+    id: "02.",
+    img: icn2,
+    title: "how_does_it_sec.cards.buybacks.title",
+    description: "how_does_it_sec.cards.buybacks.description",
+  },
+  {
+    id: "03.",
+    img: icn3,
+    title: "how_does_it_sec.cards.burn.title",
+    description: "how_does_it_sec.cards.burn.description",
+  },
+];
 
 function HowDoesItSec() {
-  
+  const { t } = useTranslation();
+
   return (
-    <div className="py-[50px]">
-     <div className="max-w-[1200px] w-[100%] mx-auto relative">
-        <div>
-            <h3 className="text-[30px] capitalize leading-normal tracking-[-1px] text-[#181A20] text-center font-[700]">How does it work?</h3>
+    <div className="py-[50px] bg-[#020B10]" id="HowDoesItSec">
+      <div className="max-w-[1200px] space-y-[40px] p-[50px] border rounded-[24px] border-[#575757] w-[100%] mx-auto relative overflow-hidden">
+        <div className="space-y-[5px]">
+          <h3 className="text-[40px] capitalize leading-normal tracking-[-1px] text-[#fff] text-center font-[700]">
+            {t("how_does_it_sec.title")}
+          </h3>
+          <p className="text-[18px] text-[#fff] trackin-[-0.18px] text-center font-[400]">
+            <span dangerouslySetInnerHTML={{ __html: t("how_does_it_sec.subtitle_des") }} />
+          </p>
         </div>
-     <div className="max-w-[900px] pt-[34px]  space-x-[3rem] flex justify-between w-[100%] mx-auto ">
-        <div className="w-[57%] grid grid-cols-2 gap-x-[19px] gap-y-[19px]">
-            {/* <div className="max-w-[289px] px-[24px] pt-[24px] pb-[34px] min-h-[284px] bg-[#F9FAFB] rounded-[8px] border border-[#F9FAFB]">
-                <p className="text-[20px] text-[#000] font-[700]">01.</p>
-                <h3 className="text-[20px] text-[#000] font-[700] leading-[115%]">Trading Platform</h3>
-                <h4 className="text-[18px] text-[#000] font-[400] leading-[111.111%]">BlockchainFX is a multi-asset trading platform that offers a wide range of trading options.</h4>
-            </div> */}
-              {cardItems.map((item) => (
-        <div
-          key={item.id}
-          className="max-w-[243px] px-[19px] flex flex-col justify-centetr pt-[20px] pb-[24px] max-h-[223.384px] min-h-[210.384px] bg-[#F2F2F2] rounded-[8px] border border-[#F9FAFB] "
-        >
-          <p className="text-[19.011px] pb-[23px] text-[#000] font-[700]">{item.id}.</p>
-         <div className="min-h-[30px] flex justify-center items-center">
-         <h3 className="text-[16px] text-center text-[#000] font-[700] leading-[109.316%]">{item.title}</h3>
-         </div>
-          <h4 className="text-[14px]  text-center text-[#000] font-[400] leading-[135.796%]">{item.description}</h4>
+        <div className="max-w-[1002px] relative z-[99] w-[100%] mx-auto">
+          <img src={howtoimg} className="object-cover" alt="" />
         </div>
-      ))}
-        </div>
-        <div className="w-[50%] max-w-[303px] flex justify-end max-w-[521px]">
-        <img src={howimg} alt="" />
+        <div className="absolute bottom-[-8%] z-[9] right-[0%]">
+          <img src={ernvet2} className="" alt="BlockchainFX" />
         </div>
       </div>
-     </div>
+      <div className="max-w-[1200px] pt-[50px] w-[100%] mx-auto ">
+        <div className="grid grid-cols-3 relative z-[99] gap-x-[19px] gap-y-[19px]">
+          {cardItems.map((item) => (
+            <div
+              key={item.id}
+              className=" px-[19px] w-[100%] flex flex-col justify-centetr pt-[20px] pb-[24px]  min-h-[220.384px] bg-[#030F16] rounded-[16px]"
+              style={{
+                border: "1px solid rgba(230, 175, 3, 0.12)",
+              }}
+            >
+              <div className="flex justify-between pb-[23px] items-center">
+                <img src={item.img} className="object-cover" alt="" />
+                <p
+                  className="text-[56.8px]  leading-[130%] font-[600]"
+                  style={{
+                    color: "rgba(255, 255, 255, 0.20)",
+                  }}
+                >
+                  {item.id}
+                </p>
+              </div>
+              <div className="min-h-[30px] flex justify-start pb-[10px] items-center">
+                <h3 className="text-[24px] text-[#fff] font-[600] leading-[109.316%]">
+                  {t(item.title)}
+                </h3>
+              </div>
+              <h4 className="text-[14px]  text-[#fff] font-[400] leading-[135.796%]">
+                {t(item.description)}
+              </h4>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

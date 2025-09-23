@@ -1,81 +1,177 @@
 import React from "react";
-import stars from "../assets/herosection/stars.webp";
+import check from "../assets/herosection/check.svg";
+import { useTranslation } from "react-i18next";
+
 // import heroVideo from "../assets/herosection/heroVideo.mp4";
-import heroVideo from "../assets/herosection/heroVideo.webm";
+import heroimg from "../assets/herosection/herof.webp";
+import uersrev from "../assets/herosection/Avatar group.png";
+import stars from "../assets/herosection/stars.png";
+import arwgrn from "../assets/herosection/arwgrn.svg";
+import heroicns1 from "../assets/herosection/herosvg (1).svg";
+import heroicns2 from "../assets/herosection/herosvg (2).svg";
+import heroicns3 from "../assets/herosection/herosvg (3).svg";
 
 function Herosection() {
+  const { t } = useTranslation();
+
   const handleScroll = () => {
     setTimeout(() => {
       const element = document.getElementById("Wallet");
       if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
         const offset = 50;
         window.scrollTo({
           top: elementPosition - offset,
-          behavior: "smooth"
+          behavior: "smooth",
         });
       }
-    }, 200); 
+    }, 200);
   };
 
+  const handleScrollToDemo = () => {
+    setTimeout(() => {
+      const element = document.getElementById("HowDoesItSec");
+      if (element) {
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 50;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      }
+    }, 200);
+  };
 
   return (
-    <div className="pt-[50px] pb-[20px] bg-[#FFF]">
-      <div className="max-w-[1200px]  w-[100%] mx-auto ">
-        <div className="">
-          <div className="space-y-[10px]">
-            <h4 className="text-[18px]  leading-[144.444%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
-              Blockchain Meets Global Financial Markets
-            </h4>
-            <h2 className=" text-[45px] font-[700] leading-[120%] tracking-[-1px] text-[#000] text-center">
-            The First Crypto Trading Super App
-            </h2>
-            <p className="text-[14px] max-w-[840px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
-            BlockchainFX is the only crypto-native trading platform that offers instant access to the world’s largest financial markets. Users can trade crypto, forex, stocks, ETFs, futures, options, bonds, indices, CFDs and more, all in one place. This ecosystem enables $BFX token holders to earn up to 25,000 USDT daily, receiving rewards every time someone trades on BlockchainFX.
-            </p>
-          </div>
-          <div
-          className="flex justify-center pt-[20px] pb-[0px] items-center space-x-[17px]">
-            <button 
-             onClick={handleScroll}
-            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[138px] w-[100%] h-[39px]">
-              Buy $BFX
-            </button>
-            <a href="https://vip.blockchainfx.com/whitepaper.pdf" target="_blank" className="!w-[138px]" rel="noopener noreferrer">
-            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] !w-[100%] h-[39px]">
-            Whitepaper
-            </button>
-              </a>
-          </div>
-          <div className="flex items-center justify-center pt-[20px] space-x-3">
-            <div className="flex space-x-2 items-center">
-            <img className="w-[84px]" src={stars} alt="" />
-              <p className="text-[#3E3E3E] font-[400] text-[14px]">4.79/5 </p>
+    <div className="pt-[55px] pb-[20px] bg-[#020B10]" id="hero">
+      <div className="max-w-[1200px] relative w-[100%] mx-auto ">
+        <div className="flex justify-between gap-[2rem]">
+          <div className="space-y-[22px] max-w-[638px] w-[100%]">
+            <h1 className="text-[60px] font-[700] font-inter leading-[100%] tracking-[-1px] text-[#fff] ">
+              <span
+                dangerouslySetInnerHTML={{ __html: t("hero.title")}}
+              /> <span
+                style={{
+                  background:
+                    "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
+                  backgroundClip: "text",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              > {t("hero.title_highlight")}
+              </span>
+            </h1>
+            <p className="text-[#fff] max-w-[550px] py-[10px] w-[100%] font-[400] font-inter leading-[133.333%] text-[18px]"
+               dangerouslySetInnerHTML={{ __html: t("hero.subtitle") }}
+            />
+
+            <div className="space-y-[10px] max-w-[530px] border-[0.5px] border-[#C0C0C0] py-[15px] pl-[21px] rounded-[13px]">
+              <div className="flex items-center space-x-2">
+                <img src={check} alt="" />
+                <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
+                  {t("hero.feature1")}
+                </p>
+              </div>
+              <div className="flex items-center space-x-2">
+                <img src={check} alt="" />
+                <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
+                  {t("hero.feature2")}
+                </p>
+              </div>
+              <div className="flex items-center space-x-2">
+                <img src={check} alt="" />
+                <p className="text-[#fff] capitalize font-[400] leading-[150%] text-[16px]">
+                  {t("hero.feature3")}
+                </p>
+              </div>
             </div>
-            <p className="text-[#000] font-[400] text-[14px]">Rated by Users</p>
           </div>
-          <div className="flex justify-center max-w-[619px] mx-auto">
-            {/* <img src={herogif} className="max-h-[550px]" alt="" /> */}
-            <video
-              width={500}
-              height={410}
-              className="max-h-[410px]"
-              muted
-              autoPlay="autoplay"
-              preload="auto"
-              playsInline
-              loop
+          <div className="max-w-[650px] w-[100%] space-y-[27px]">
+            <div className="flex justify-center">
+              {/* Embed Wistia Player */}
+              <script src="https://fast.wistia.com/player.js" async></script>
+              <script
+                src="https://fast.wistia.com/embed/w8ynmofaw4.js"
+                async
+                type="module"
+              ></script>
+              <style>
+                {`
+              wistia-player[media-id='w8ynmofaw4']:not(:defined) { 
+                background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/w8ynmofaw4/swatch'); 
+                display: block; 
+                filter: blur(5px); 
+                padding-top:56.25%; 
+              }
+            `}
+              </style>
+              <wistia-player
+                media-id="w8ynmofaw4"
+                aspect="1.7777777777777777"
+                style={{
+                  width: "100%",
+                  maxWidth: "730px",
+                  height: "auto",
+                  maxHeight: "410px",
+                }}
+              ></wistia-player>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-between items-center">
+          <div className="flex justify-start pt-[20px] min-w-[350px] mt-3 pb-[0px] items-center space-x-[17px]">
+            <button
+              onClick={handleScroll}
+              style={{
+                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
+              className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px]"
             >
-              <source src={heroVideo} type="video/webm" />
-            </video>
+              {t("hero.buy_button")}
+            </button>
+
+            <button
+              onClick={handleScrollToDemo}
+              className="hover:text-[#000] hover:bg-[#E5AE00] px-[18px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005]  rounded-[8px] !w-fit h-[50px]"
+            >
+              {t("hero.how_it_works_button")}
+            </button>
           </div>
-          {/* <div className="flex justify-center items-center h-[73.47] space-x-[52px] border rounded-[20px] py-[20px]">
-            <img src={herobnr1} alt="" />
-            <img src={herobnr2} alt="" />
-            <img src={herobnr3} alt="" />
-            <img src={herobnr4} alt="" />
-            <img src={herobnr5} className="max-w-[225px] h-[25.82px]" alt="" />
-          </div> */}
+          <div className="flex mt-[-15px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">
+            <div>
+              <h3 className="text-[#fff] mb-[18px] font-inter leading-[185%] font-[400] text-center text-[16px]">
+                {t("hero.audited_by")}
+              </h3>
+              <div className="flex justify-center items-center space-x-[15px]">
+                <img src={heroicns1} alt="" />
+                <img src={heroicns2} alt="" />
+                <img src={heroicns3} alt="" />
+              </div>
+            </div>
+            <div className="flex items-center justify-center space-x-4">
+              <div className="">
+                <p className="text-[#fff] text-center mb-2 font-inter font-[400] text-[16px]">
+                  {t("hero.verified_ratings")}
+                </p>
+                <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
+                 <div
+                className="flex items-center mt-3 justify-center space-x-[10px] rounded-[10px]"
+              >
+                <p className="text-[#fff] font-[400] text-[17.7px] leading-[100%]">
+                  {t("hero.rating")}
+                </p>
+                <img
+                  className="w-[82px] h-[15px]"
+                  loading="lazy"
+                  src={stars}
+                  alt="star"
+                />
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
