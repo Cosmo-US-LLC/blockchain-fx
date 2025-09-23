@@ -330,7 +330,7 @@ const BuyTab = ({ onTabChange}) => {
           <div className="pt-3">
             <div className="flex justify-between items-center pb-1">
               <span className="text-[#fff] text-[9.74px] font-[400] leading-[100%]">
-                {formatNumber(stageFrac * 100, 0, 2)}% of this presale stage sold — Buy now before price goes up.
+                {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
               </span>
             </div>
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
