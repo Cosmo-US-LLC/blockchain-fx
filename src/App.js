@@ -54,7 +54,20 @@ function HowToBuyPageLayout({ isMobile }) {
 function LangGuard({ children }) {
   const { lang } = useParams();
   const supportedLangs = [
-    "vi", "de", "nl", "ja", "tr", "ko", "it", "no", "zh", "ru", "fr", "pt", "es", "ar",
+    "vi",
+    "de",
+    "nl",
+    "ja",
+    "tr",
+    "ko",
+    "it",
+    "no",
+    "zh",
+    "ru",
+    "fr",
+    "pt",
+    "es",
+    "ar",
   ];
 
   if (lang && !supportedLangs.includes(lang)) {
@@ -70,14 +83,70 @@ function App() {
   const { i18n } = useTranslation();
   const location = useLocation();
 
+
+   useEffect(() => {
+    const breadcrumbMap = {
+      "/how-to-buy": "How To Buy",
+      "/token-sale": "Token Sale",
+      "/referral": "Referral",
+      "/win-500": "Win 500",
+      "/privacy-policy": "Privacy Policy",
+      "/cookie-management": "Cookie Policy",
+      "/terms-of-service": "Terms of Service",
+    };
+
+    const pageName = breadcrumbMap[location.pathname];
+    if (!pageName) return;
+
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://blockchainfx.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: pageName,
+          item: `https://blockchainfx.com${location.pathname}`,
+        },
+      ],
+    };
+    const old = document.getElementById("breadcrumb-schema");
+    if (old) old.remove();
+
+    const script = document.createElement("script");
+    script.id = "breadcrumb-schema";
+    script.type = "application/ld+json";
+    script.textContent = JSON.stringify(schema);
+    document.head.appendChild(script);
+  }, [location]);
+
+
   useEffect(() => {
     const setLanguageFromURL = async () => {
       const parts = location.pathname.split("/").filter(Boolean);
       let currentLang = "en";
 
       const supportedLangs = [
-        "vi","de","nl","ja","tr","ko","it","no",
-        "zh","ru","fr","pt","es","ar",
+        "vi",
+        "de",
+        "nl",
+        "ja",
+        "tr",
+        "ko",
+        "it",
+        "no",
+        "zh",
+        "ru",
+        "fr",
+        "pt",
+        "es",
+        "ar",
       ];
 
       if (parts.length > 0 && supportedLangs.includes(parts[0])) {
@@ -100,14 +169,31 @@ function App() {
     const parts = location.pathname.split("/").filter(Boolean);
 
     const supportedLangs = [
-      "en","vi","de","nl","ja","tr","ko","it","no",
-      "zh","ru","fr","pt","es","ar",
+      "en",
+      "vi",
+      "de",
+      "nl",
+      "ja",
+      "tr",
+      "ko",
+      "it",
+      "no",
+      "zh",
+      "ru",
+      "fr",
+      "pt",
+      "es",
+      "ar",
     ];
 
     const currentLang = supportedLangs.includes(parts[0]) ? parts[0] : "en";
-    const pagePath = supportedLangs.includes(parts[0])
+
+    let pagePath = supportedLangs.includes(parts[0])
       ? `/${parts.slice(1).join("/")}`
       : location.pathname;
+
+    // ✅ Normalize root path so "/" becomes ""
+    if (pagePath === "/") pagePath = "";
 
     const canonical =
       currentLang === "en"
@@ -139,7 +225,6 @@ function App() {
       document.head.appendChild(link);
     });
 
-    // Add x-default
     const xDefault = document.createElement("link");
     xDefault.setAttribute("rel", "alternate");
     xDefault.setAttribute("hreflang", "x-default");
@@ -185,8 +270,10 @@ function App() {
             element={
               i18n.language !== "en" ? (
                 <Navigate to={`/${i18n.language}/how-to-buy`} replace />
+              ) : isMobile ? (
+                <HowToBuyMobile />
               ) : (
-                isMobile ? <HowToBuyMobile /> : <HowToBuyDesktop />
+                <HowToBuyDesktop />
               )
             }
           />
