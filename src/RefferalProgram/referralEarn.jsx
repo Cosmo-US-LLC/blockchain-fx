@@ -6,9 +6,9 @@ function EarnWithReferral() {
     <div className="pt-[0px] sm:pt-[55px] pb-[20px] bg-[#020B10]">
       <div className="max-w-[1200px] relative w-[100%] mx-auto">
         <div className="space-y-[10px]">
-          <h1 className="text-[28px] sm:text-[40px] pt-[15px] font-[600] leading-[120%] tracking-[-1px] text-[#fff] text-center font-inter">
+          <h2 className="text-[28px] sm:text-[40px] pt-[15px] font-[600] leading-[120%] tracking-[-1px] text-[#fff] text-center font-inter">
             EARN WITH REFERRALS
-          </h1>
+          </h2>
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-stretch space-x-[0px] sm:space-x-[40px] pt-[40px] px-[4%] sm:px-[0%] w-[100%] h-full">
           <div className="w-[100%] sm:w-[50%]">

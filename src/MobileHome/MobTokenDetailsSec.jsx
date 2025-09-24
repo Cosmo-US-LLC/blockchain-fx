@@ -117,13 +117,25 @@ function MobTokenDetailsSec() {
           </div>
         </div>
 
+  <div className="w-[100%] mx-auto space-x-[2rem] flex justify-between items-center">
+          <div className="bg-[#030F16] border px-[12px] rounded-[6px] w-[100%] pt-[12px] pb-[12px] border-white border-opacity-10">
+            <h4 className="text-[#fff] text-[12px] font-[400]">
+              {t("token_allocation_section.Presale_Details.label")}{" "}
+              {/* Use translation */}
+            </h4>
+            <h3 className="text-white opacity-70 flex break-all items-center text-[12px] font-[700]">
+              {t("token_allocation_section.Presale_Details.value")}{" "}
+            </h3>
+          </div>
+        </div>
+
         <div className="w-[100%] mx-auto space-x-[2rem] flex justify-between items-center">
           <div className="bg-[#030F16] border px-[12px] rounded-[6px] w-[100%] pt-[12px] pb-[12px] border-white border-opacity-10">
             <h4 className="text-[#fff] text-[12px] font-[400]">
               {t("token_allocation_section.contract_address.label")}{" "}
               {/* Use translation */}
             </h4>
-            <h3 className="text-white opacity-70 flex break-all items-center text-[12px] font-[700]">
+            <h3 className="text-white opacity-70 flex break-all items-center text-[11px] font-[700]">
               {address}{" "}
               <img
                 src={copy}
@@ -134,6 +146,7 @@ function MobTokenDetailsSec() {
             </h3>
           </div>
         </div>
+      
       </div>
     </div>
   );

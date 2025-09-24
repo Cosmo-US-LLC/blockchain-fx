@@ -33,12 +33,14 @@ function LivePresale() {
         </p>
         <img
           src={live_cards}
+          loading="lazy"
           alt="live_cards"
           className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block"
         />
         <img
           src={live_cards_des}
           alt="live_cards"
+          loading="lazy"
           className="2xl:block xl:block lg:block md:block sm:hidden hidden"
         />
         <button

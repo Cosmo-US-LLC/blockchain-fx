@@ -170,7 +170,8 @@ function Navbar() {
   return (
     <div className={` relative ${isHome ? "mb-[90px]" : "!mb-[50px]"}`}>
       <LivePresale />
-      <div
+      <nav
+        aria-label="Breadcrumb"
         className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
           isHome ? "top-[2.3rem]" : "top-0"
         }`}
@@ -338,7 +339,7 @@ function Navbar() {
             )}
           </div>
         </div>
-      </div>
+      </nav>
     </div>
   );
 }

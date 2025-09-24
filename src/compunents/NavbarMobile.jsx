@@ -169,7 +169,9 @@ function NavbarMobile() {
   const modalData = useModalState();
 
   return (
-    <div>
+    <nav
+    aria-label="Breadcrumb"
+    >
       <div className="relative h-[64px]">
         <div className="fixed w-[100%] bg-[#020B10] z-[999] border-b-[1px] border-[#262626]">
           <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
@@ -355,7 +357,7 @@ function NavbarMobile() {
           </div>
         )}
       </div>
-    </div>
+    </nav>
   );
 }
 
