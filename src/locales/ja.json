@@ -28,7 +28,7 @@
     "audited_by": "監査・承認済み",
     "verified_ratings": "認証済み評価",
     "rating": "4.87/5",
-    "presale_stage_almost_sold_out": "$BFXプレセールステージはまもなく完売します"
+    "presale_stage_almost_sold_out": "BFXプレセールステージは急速に売り切れています"
   },
   "featured_sec": {
     "featured_in": "掲載メディア："
@@ -669,7 +669,7 @@
   },
   "crypto_exchange_sec": {
     "title": "革新的な暗号資産取引所",
-    "description": "BlockchainFXは、ユーザーがどこでも何でも取引できるオールインワンの分散型プラットフォームで、資産を完全にコントロールしながら取引できます。<br /><br />現在はベータ版で『2025年最優秀新暗号資産取引アプリ』を受賞。BFXプレセールにより、今や誰もが次世代グローバル取引プラットフォームの一員になれます。",
+    "description": "BlockchainFXは、ユーザーがどこでも何でも取引できるオ, ルインワンの分散型プラットフォームで、資産を完全にコントロールしながら取引できます。<br /><br />現在はベータ版で『2025年最優秀新暗号資産取引アプリ』を受賞。BFXプレセールにより、今や誰もが次世代グローバル取引プラットフォームの一員になれます。",
     "buy_button": "BFXを購入",
     "watch_live_button": "ライブ取引を見る"
   },
@@ -910,7 +910,7 @@
     }
   },
   "MobileHero": {
-    "presale_stage_almost_sold_out": "$BFX 先行販売ほぼ完売",
+    "presale_stage_almost_sold_out": "BFXプレセールステージは急速に売り切れています",
     "title": "世界初の暗号資産 <br /> トレーディング",
     "title_highlight": "スーパーアプリ",
     "subtitle": "BlockchainFXは、DeFiと従来の金融市場をつなぐ次世代型の暗号資産取引所です。株式、FX、ETFなど、幅広い資産にアクセスできる唯一のWeb3プラットフォームです。",
