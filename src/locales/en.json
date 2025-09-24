@@ -28,7 +28,7 @@
     "audited_by": "Audited and Approved by",
     "verified_ratings": "Verified Ratings",
     "rating": "4.87/5",
-    "presale_stage_almost_sold_out": "$BFX Presale Stage is ALMOST Sold Out"
+    "presale_stage_almost_sold_out": "BFX PRESALE STAGE IS SELLING OUT FAST "
   },
   "featured_sec": {
     "featured_in": "Featured In:"
@@ -469,7 +469,16 @@
       "value": "3.5B"
     },
     "contract_address": {
-      "label": "Token Contract Address"
+      "label": "Presale Details:",
+      "value": "1.75B BFX tokens will be sold during the pre-sale."
+    },
+    "Presale_Price": {
+      "label": "Presale Price:",
+      "value": "$0.025"
+    },
+    "Exchange_Listing": {
+      "label": "Exchange Listing Price:",
+      "value": "$0.05"
     }
   },
   "lineBreak": "<br />",
@@ -927,7 +936,7 @@
   },
   "crypto_exchange_sec": {
     "title": "Pioneering Crypto Exchange",
-    "description": "BlockchainFX is redefining the future of trading with an all-in-one decentralised platform where users can trade anything, anywhere —while maintaining full control of their assets.<br /><br />Currently in beta and awarded 'Best New Crypto Trading App of 2025', BlockchainFX has already received outstanding feedback from early users. With the $BFX presale, holders can now be part of the next major global trading platform.",
+    "description": "BlockchainFX is redefining the future of trading with an all-in-one decentralised platform where users can trade anything, anywhere, while maintaining full control of their assets.<br /><br />Currently in beta and awarded 'Best New Crypto Trading App of 2025', BlockchainFX has already received outstanding feedback from early users. With the $BFX presale, holders can now be part of the next major global trading platform.",
     "buy_button": "Buy BFX",
     "watch_live_button": "Watch Live Trading Here"
   },

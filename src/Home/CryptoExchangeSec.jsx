@@ -47,7 +47,7 @@ function CryptoExchangeSec() {
             <h4 className="text-[40px] text-[#fff] font-[600]">
               {t("crypto_exchange_sec.title")}
             </h4>
-            <p className="text-[#fff] text-[18px] leading-[185%] max-w-[543px] w-[100%] font-[500]">
+            <p className="text-[#fff] text-[18px] leading-[185%] max-w-[535px] w-[100%] font-[500]">
               <span dangerouslySetInnerHTML={{ __html: t("crypto_exchange_sec.description") }} />
             </p>
             <div className="flex justify-start pt-[20px] relative z-[99] pb-[0px] items-center space-x-[17px]">
