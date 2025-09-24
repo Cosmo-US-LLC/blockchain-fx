@@ -76,25 +76,10 @@ function TokenAllocationSec() {
   </div>
 
   {/* Third Row (Contract Address - kept different as per original) */}
-  <div className="w-[100%] mx-auto flex justify-between items-center">
-    <div className="border px-[17px] space-y-[12px] rounded-[10px]  w-[100%] pt-[14px] bg-[#030F16] pb-[16px] border-[#000]">
-      <h4 className="text-white/70 text-[14px] font-[400]"> {t("token_allocation_section.contract_address.label")}</h4>
-      <h3 className="text-white flex leading-[90%] text-[16px] font-[500]">
-         {address}{" "}
-                      <img
-                        src={copy}
-                        className="h-[18px] ml-2 cursor-pointer"
-                        alt="Copy Icon"
-                        onClick={copyToClipboard}
-                      />
-      </h3>
-    </div>
-  </div>
-
-   <div className="w-[100%] mx-auto space-x-[21px]  flex justify-between items-center">
+  <div className="w-[100%] mx-auto space-x-[21px]  flex justify-between items-center">
     <div className="border px-[17px] space-y-[12px] rounded-[10px] max-w-[400px] w-[100%] pt-[14px] bg-[#030F16] pb-[16px] border-[#000]">
       <h4 className="text-white/70  text-[14px] font-[400]">{t("token_allocation_section.Presale_Details.label")}</h4>
-      <h3 className="text-white flex max-w-[320px] w-[100%] leading-[110%] text-[16px] font-[500]">
+      <h3 className="text-white flex max-w-[260px] w-[100%] leading-[110%] text-[16px] font-[500]">
         {t("token_allocation_section.Presale_Details.value")}
       </h3>
     </div>
@@ -111,6 +96,23 @@ function TokenAllocationSec() {
       </h3>
     </div>
   </div>
+
+
+  <div className="w-[100%] mx-auto flex justify-between items-center">
+    <div className="border px-[17px] space-y-[12px] rounded-[10px]  w-[100%] pt-[14px] bg-[#030F16] pb-[16px] border-[#000]">
+      <h4 className="text-white/70 text-[14px] font-[400]"> {t("token_allocation_section.contract_address.label")}</h4>
+      <h3 className="text-white flex leading-[90%] text-[16px] font-[500]">
+         {address}{" "}
+                      <img
+                        src={copy}
+                        className="h-[18px] ml-2 cursor-pointer"
+                        alt="Copy Icon"
+                        onClick={copyToClipboard}
+                      />
+      </h3>
+    </div>
+  </div>
+
 </div>
     </div>
   );

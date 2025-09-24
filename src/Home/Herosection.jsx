@@ -145,9 +145,9 @@ function Herosection() {
                 {t("hero.audited_by")}
               </h3>
               <div className="flex justify-center items-center space-x-[15px]">
-                <img src={heroicns1} alt="" />
-                <img src={heroicns2} alt="" />
-                <img src={heroicns3} alt="" />
+                <img src={heroicns1} alt="certik" />
+                <img src={heroicns2} alt="coinsult" />
+                <img src={heroicns3} alt="solidproof" />
               </div>
             </div>
             <div className="flex items-center justify-center space-x-4">
