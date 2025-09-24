@@ -73,7 +73,6 @@ const BuyTab = ({ onTabChange}) => {
     const group = groupedTokens.find((list) => list.currencies.includes(token)) ?? null
     setSelectedToken(token);
     setSelectedTokenGroup(group.groupId)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [apiData.paymentTokens]);
 
   const prevTokenRef = useRef(selectedToken)
@@ -329,8 +328,10 @@ const BuyTab = ({ onTabChange}) => {
           </h3>
           <div className="pt-3">
             <div className="flex justify-between items-center pb-1">
-              <span className="text-[#fff] text-[9.74px] font-[400] leading-[100%]">
-                {formatNumber(stageFrac * 100, 0, 2)}% of this presale stage sold — Buy now before price goes up.
+              <span className="text-[#fff] text-[11.74px] font-[400] leading-[100%]">
+                {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised 
+
+
               </span>
             </div>
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">

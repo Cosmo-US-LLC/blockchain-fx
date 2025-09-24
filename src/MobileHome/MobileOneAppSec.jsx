@@ -112,7 +112,7 @@ function MobileOneAppSec() {
           <div className="w-[100%] flex justify-center !mt-10">
             <img src={oneimg} className="object-cover" alt="" />
           </div>
-          <div>
+          <div className="max-w-[320px] w-[100%] mx-auto">
             <p className="text-[12px] px-2 leading-[130%] text-[#fff] text-center font-[400]">
               {t("one_app_sec.note")}
             </p>
