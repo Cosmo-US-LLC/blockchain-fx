@@ -1,96 +1,77 @@
-import React, {useEffect} from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 
-import { setCanonical } from "../utils/setCanonical";
-
+// Components that should load immediately (above the fold)
 import Herosection from './Herosection';
-import WalletSec from './WalletSec';
-// import TradeOverSec from './TradeOverSec';
-import OneAppSec from './OneAppSec';
-import HowDoesItSec from './HowDoesItSec';
-import ExclusiveBenefitsSec from './ExclusiveBenefitsSec';
-import PremiumSec from './PremiumSec';
-import LessThanSec from './LessThanSec';
-import StandoutSec from './StandoutSec';
-// import HyperGrowthSec from './HyperGrowthSec';
-import GatewaySec from './GatewaySec';
-// import WallStreetSec from './WallStreetSec';
-// import TradeLikeSec from './TradeLikeSec';
-// import TopAssetsSec from './TopAssetsSec';
-// import SecurityBuiltSec from './SecurityBuiltSec';
-// import StreamlinedSec from './StreamlinedSec';
-// import WhatIsSec from './WhatIsSec';
-import TokenAllocationSec from './TokenAllocationSec';
-import TokenDetailsSec from './TokenDetailsSec';
-import RoadmapSec from './RoadmapSec';
-import OurAwardSec from './OurAwardSec';
-import PressMediaSec from './PressMediaSec';
-import TraderReviewsSec from './TraderReviewsSec';
-import FaqSec from './FAQSec';
-import TheUltimateSec from './TheUltimateSec';
 import FeaturedSec from './FeaturedSec';
-import Whitepaper from './Whitepaper';
-import SwapSection from './SwapSection';
-import Roadmap from './Roadmap';
-import MultiAward from './MultiAward';
+import WalletSec from './WalletSec';
 
+// Lazy loaded components
+const KYCVerified = lazy(() => import('./KYCVerified'));
+const ExpertSaysSec = lazy(() => import('./ExpertSaysSec'));
+const CryptoExchangeSec = lazy(() => import('./CryptoExchangeSec'));
+const BlockchainFXDemo = lazy(() => import('./BlockchainFXDemo'));
+const OneAppSec = lazy(() => import('./OneAppSec'));
+const HowDoesItSec = lazy(() => import('./HowDoesItSec'));
+const CreditCard = lazy(() => import('./CreditCard'));
+const ExclusiveBenefitsSec = lazy(() => import('./ExclusiveBenefitsSec'));
+const PremiumSec = lazy(() => import('./PremiumSec'));
+const BiggestBuy = lazy(() => import('./BiggestBuy'));
+const LessThanSec = lazy(() => import('./LessThanSec'));
+const GatewaySec = lazy(() => import('./GatewaySec'));
+const StandoutSec = lazy(() => import('./StandoutSec'));
+const Whitepaper = lazy(() => import('./Whitepaper'));
+const TokenAllocationSec = lazy(() => import('./TokenAllocationSec'));
+const Roadmap = lazy(() => import('./Roadmap'));
+const MultiAward = lazy(() => import('./MultiAward'));
+const PressMediaSec = lazy(() => import('./PressMediaSec'));
+const TraderReviewsSec = lazy(() => import('./TraderReviewsSec'));
+const FaqSec = lazy(() => import('./FAQSec'));
+const TheUltimateSec = lazy(() => import('./TheUltimateSec'));
+const CookiePolicyPopup = lazy(() => import('../compunents/CookiePolicyPopup'));
 
-
-import ExpertSaysSec from './ExpertSaysSec';
-import BlockchainFXDemo from './BlockchainFXDemo';
-import CreditCard from './CreditCard';
-import KYCVerified from './KYCVerified';
-// import LivePresale from '../compunents/LivePresale';
-import InsideSec from './InsideSec';
-import CryptoExchangeSec from './CryptoExchangeSec';
-import CommunitySec from './CommunitySec';
-import BiggestBuy from './BiggestBuy';
-import CookiePolicyPopup from '../compunents/CookiePolicyPopup';
-
+// Loading fallback component
+const LoadingFallback = () => (
+  <div className="bg-[#020B10] w-[100%]">
+    <div className="w-full h-32 flex items-center justify-center">
+    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-100 "></div>
+  </div>
+  </div>
+);
 
 function Home() {
-   useEffect(() => {
-    setCanonical("https://blockchainfx.com/");
-  }, []);
-    return (
-      <div className="">
-        <Herosection />
-        <FeaturedSec />
-        {/* <InsideSec /> */}
-        <WalletSec />
+ 
+  return (
+    <div className="">
+      <Herosection />
+      <FeaturedSec />
+
+      <Suspense fallback={<LoadingFallback />}>
+      <WalletSec />
         <KYCVerified />
         <ExpertSaysSec />
         <CryptoExchangeSec />
         <BlockchainFXDemo />
-         {/* <SwapSection /> */}
-        {/* <TradeOverSec/> */}
         <OneAppSec />
-        {/* <CommunitySec /> */}
         <HowDoesItSec />
         <CreditCard />
-        <ExclusiveBenefitsSec/>
+        <ExclusiveBenefitsSec />
         <PremiumSec />
-        <BiggestBuy/>
+        <BiggestBuy />
         <LessThanSec />
         <GatewaySec />
-        {/* <HyperGrowthSec />  */}
-        <StandoutSec/> 
-
-       
-        {/* <WhatIsSec /> */}
-        {/* <SecurityBuiltSec /> */}
-        <Whitepaper/> 
-         <TokenAllocationSec /> 
-         <Roadmap/> 
-         <MultiAward/> 
-         <PressMediaSec /> 
-         <TraderReviewsSec /> 
-         <FaqSec />
+        <StandoutSec />
+        <Whitepaper />
+        <TokenAllocationSec />
+        <Roadmap />
+        <MultiAward />
+        <PressMediaSec />
+        <TraderReviewsSec />
+        <FaqSec />
         <TheUltimateSec />
         <CookiePolicyPopup />
-        {/*<LivePresale /> */}
-      </div>
-    );
-  }
-  
-  export default Home;
-  
+      </Suspense>
+    </div>
+  );
+}
+
+export default Home;

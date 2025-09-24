@@ -128,9 +128,9 @@ function TopBFXReferral() {
           <div className="w-[100%] sm:w-[50%] px-[4%] 2xl:px-[4%] lg:px-[3%] md:px-[0%] h-full min-h-full">
             <div className="pt-[25px] pb-[10px] sm:pb-[20px] bg-[#020B10]">
               <div className="space-y-[10px]">
-                <h1 className=" text-[28px] sm:text-[40px] pt-[15px] font-[600] leading-[120%] tracking-[-1px] text-[#fff] text-center font-inter">
+                <h2 className=" text-[28px] sm:text-[40px] pt-[15px] font-[600] leading-[120%] tracking-[-1px] text-[#fff] text-center font-inter">
                   TOP BFX REFERRERS
-                </h1>
+                </h2>
               </div>
             </div>
             <div>

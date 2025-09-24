@@ -48,7 +48,7 @@ function MobRoadmapSec() {
       title: t("Roadmap_section.Expansion"),
       points: [
         t("Roadmap_section.Multiple CEX Listing"),
-        t("Roadmap_section.Achieving-10000-BFX-Holders"),
+        t("Roadmap_section.Achieving-100,000-BFX-Holders"),
         t("Roadmap_section.Reach $100M Daily Trading Volume"),
       ],
     },

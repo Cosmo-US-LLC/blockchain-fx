@@ -468,16 +468,19 @@
       "label": "Total Supply",
       "value": "3.5B"
     },
-    "contract_address": {
-      "label": "Presale Details:",
+     "contract_address": {
+      "label": "Token Contract Address"
+    },
+    "Presale_Details": {
+      "label": "Presale Details",
       "value": "1.75B BFX tokens will be sold during the pre-sale."
     },
     "Presale_Price": {
-      "label": "Presale Price:",
+      "label": "Presale Price",
       "value": "$0.025"
     },
     "Exchange_Listing": {
-      "label": "Exchange Listing Price:",
+      "label": "Exchange Listing Price",
       "value": "$0.05"
     }
   },
@@ -530,7 +533,7 @@
   "Launch $BFX on Uniswap and CEX": "Launch $BFX on Uniswap and CEX",
   "Achieving-10000-BFX-Holders": "Achieving 10,000 BFX Holders",
   "Multiple CEX Listing": "Multiple CEX Listing",
-  "Achieving-100,000-BFX-Holders": "Achieving 10,000 BFX Holders",
+  "Achieving-100,000-BFX-Holders": "Achieving 100,000 BFX Holders",
   "Reach $100M Daily Trading Volume": "Reach $100M Daily Trading Volume",
   "Add Leaderboards & VIP accounts": "Add Leaderboards & VIP accounts",
   "US License": "US License",
