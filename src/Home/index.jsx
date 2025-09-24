@@ -42,11 +42,9 @@ function Home() {
  
   return (
     <div className="">
-      {/* Critical components that load immediately */}
       <Herosection />
       <FeaturedSec />
 
-      {/* Lazy loaded components */}
       <Suspense fallback={<LoadingFallback />}>
       <WalletSec />
         <KYCVerified />
