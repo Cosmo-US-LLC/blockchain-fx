@@ -394,12 +394,12 @@
     },
     "chart_title": "Average Daily Trading Volume in 2024",
     "chart": {
-      "bonds": "Bonds: $1.1 Trillion (11.64%)",
-      "stocks": "U.S. Stocks: $700 Billion (7.15%)",
-      "commodities": "Commodities: $250 Billion (2.55%)",
-      "etfs": "ETFs: $150B (1.53%)",
-      "crypto": "Crypto: $89 Billion (0.87%)",
-      "forex": "Forex: $7.5 Trillion (76.62%)"
+      "bonds": "Bonds: <br/> $1.1 Trillion (11.64%)",
+      "stocks": "U.S. Stocks: <br/> $700 Billion (7.15%)",
+      "commodities": "Commodities: <br/> $250 Billion (2.55%)",
+      "etfs": "ETFs: <br/> $150B (1.53%)",
+      "crypto": "Crypto: <br/> $89 Billion (0.87%)",
+      "forex": "Forex: <br/> $7.5 Trillion (76.62%)"
     },
     "legend": {
       "forex": "Forex",
