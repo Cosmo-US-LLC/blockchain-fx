@@ -27,7 +27,7 @@ function MobPressMediaSec() {
             >
               <div className="space-y-[32px]">
                 <div className="flex items-center justify-center h-[30px]">
-                  <img src={mediaIcons[index]} className="h-[30px]" alt="" />
+                  <img src={mediaIcons[index]} className="h-[30px]" alt="BlockchainFX article" />
                 </div>
                 <p className="text-[#fff] text-[15px] italic text-center leading-[144.529%] font-[400]">
                   {article.description}

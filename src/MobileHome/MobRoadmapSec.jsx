@@ -193,14 +193,14 @@ function MobRoadmapSec() {
             <img
               className="w-[43px] h-[43px] rounded-full bg-black"
               src={swpbtn}
-              alt=""
+              alt="prev button"
             />
           </button>
           <button className="swiper-button-next-press absolute z-10 -right-[5%] !top-[53%] transform -translate-y-1/2">
             <img
               className="w-[43px] h-[43px] rounded-full bg-black"
               src={swpbtn}
-              alt=""
+              alt="next button"
             />
           </button>
         </div>

@@ -27,6 +27,14 @@
       property="og:title"
       content="BlockchainFX | Global Crypto Exchange | Presale is Live"
     />
+    <meta
+      property="og:description"
+      content="BlockchainFX is the only crypto-native trading platform that offers instant access to the world’s largest financial markets. Users can trade crypto, forex, stocks, ETFs, futures, options, bonds, indices, CFDs, and more, all in one place."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/favicon.png" />
+    <meta property="og:url" content="https://blockchainfx.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="BlockchainFX" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -84,21 +92,31 @@
       // Meta pixel
     </script>
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "BlockchainFX",
-  "url": "https://blockchainfx.com/",
-  "logo": "https://blockchainfx.com/assets/logo.png",
-  "sameAs": [
-    "https://www.facebook.com/blockchainfx",
-    "https://twitter.com/blockchainfx",
-    "https://www.linkedin.com/company/blockchainfx",
-    "https://www.instagram.com/blockchainfx"
-  ]
-}
-</script>
-
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "BlockchainFX",
+        "url": "https://blockchainfx.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blockchainfx.com/assets/logo.png",
+          "width": 250,
+          "height": 60
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://blockchainfx.com/assets/og-image.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "sameAs": [
+          "https://www.facebook.com/blockchainfx",
+          "https://twitter.com/blockchainfx",
+          "https://www.linkedin.com/company/blockchainfx",
+          "https://www.instagram.com/blockchainfx"
+        ]
+      }
+    </script>
   </head>
   <body>
     <noscript

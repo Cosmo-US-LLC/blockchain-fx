@@ -70,7 +70,7 @@ function Footer() {
           <div className="flex justify-between w-[70%]">
             <div className="max-w-[315px] space-y-[10px] w-[100%]">
               <Link to={getLangPath("/")} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-                <img src={logo || "/placeholder.svg"} alt="footer logo" />
+                <img src={logo || "/placeholder.svg"} alt="blockchainfx logo" />
               </Link>
               <p className="text-[#fff]  text-[16px] max-w-[260px] font-[400] leading-[166.667%]">
                 {t("footer.description")}
@@ -184,9 +184,9 @@ function Footer() {
         </div>
 
         <div className="flex justify-center space-x-[35px] pt-[25px] items-center">
-          <img className="h-[38px]" src={icnft1 || "/placeholder.svg"} alt="" />
-          <img className="h-[38px]" src={icnft2 || "/placeholder.svg"} alt="" />
-          <img className="h-[38px]" src={icnft3 || "/placeholder.svg"} alt="" />
+          <img className="h-[38px]" src={icnft1 || "/placeholder.svg"} alt="certik" />
+          <img className="h-[38px]" src={icnft2 || "/placeholder.svg"} alt="solidproof" />
+          <img className="h-[38px]" src={icnft3 || "/placeholder.svg"} alt="coinsult" />
         </div>
         <div className="border-t border-b border-white/10 py-[46px]">
           <div className="text-[14px] font-[400] text-[#fff] leading-[171%]" dangerouslySetInnerHTML={{ __html: t("footer.disclaimer") }}></div>
@@ -210,7 +210,7 @@ function Footer() {
          <div className="w-[90%] 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-[35px] py-[24px] mx-auto ">
         <div className=" space-y-[10px] w-[100%]">
           <Link to={getLangPath("/")} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-            <img src={logo || "/placeholder.svg"} alt="footer logo" />
+            <img src={logo || "/placeholder.svg"} alt="blockchainfx logo" />
           </Link>
           <p className="text-[#fff] text-[14px]  w-[300px] font-[400] leading-[200%]">{t("footer.description")}</p>
         </div>
@@ -320,9 +320,9 @@ function Footer() {
 
         {/* bottom */}
         <div className="flex justify-start space-x-[20px] pt-[10px] items-center">
-          <img className="h-[22px]" src={icnft1 || "/placeholder.svg"} alt="" />
-          <img className="h-[22px] object-cover" src={icnft2 || "/placeholder.svg"} alt="" />
-          <img className="h-[22px]" src={icnft3 || "/placeholder.svg"} alt="" />
+          <img className="h-[22px]" src={icnft1 || "/placeholder.svg"} alt="certik" />
+          <img className="h-[22px] object-cover" src={icnft2 || "/placeholder.svg"} alt="solidproof" />
+          <img className="h-[22px]" src={icnft3 || "/placeholder.svg"} alt="coinsult" />
         </div>
         <div className="border-t border-b border-[#FFF] border-opacity-10 py-[18px]">
           <div className="text-[10px] font-[400] text-[#fff] leading-[190%]" dangerouslySetInnerHTML={{ __html: t("footer.disclaimer") }} />

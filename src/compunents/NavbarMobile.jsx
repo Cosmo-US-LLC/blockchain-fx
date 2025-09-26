@@ -181,7 +181,7 @@ function NavbarMobile() {
                   src={menu}
                   onClick={toggleMobileMenu}
                   className="cursor-pointer"
-                  alt=""
+                  alt="menu"
                 />
               </div>
               <div className="">
@@ -196,7 +196,7 @@ function NavbarMobile() {
                   }
                 >
                   <div className="flex flex-row items-center gap-2">
-                    <img className="cursor-pointer" src={logo} alt="" />
+                    <img className="cursor-pointer" src={logo} alt="blockchainfx logo" />
                     <p className="font-[700] text-[17px] text-[white]">
                       BlockchainFX
                     </p>

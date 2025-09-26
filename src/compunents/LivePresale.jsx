@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import live_cards from "../assets/presale-v3/live_cards.svg";
-import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
 import { useTranslation } from "react-i18next";
 
 function LivePresale() {
