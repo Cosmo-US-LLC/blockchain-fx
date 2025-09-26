@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import line from "../assets/Roadmap/line.png";
 import tick from "../assets/TraderReviewsSec/teenyicons_tick-circle-solid.svg";
 import rightArrow from "../assets/Roadmap/rightarrow.png";
 import leftArrow from "../assets/Roadmap/rightarrow.png";
@@ -32,65 +31,6 @@ function RoadmapSection() {
     },
   ];
 
-  // const slideData = [
-  //   {
-  //     title: t("Roadmap_section.Preparation"),
-  //     status: t("Roadmap_section.Completed"),
-  //     items: [
-  //       t("Roadmap_section.Idea + concept"),
-  //       t("Roadmap_section.Raise Seed Funds"),
-  //       t("Roadmap_section.Onboard Team & Advisors"),
-  //       t("Roadmap_section.Trading Platform Beta Preparation"),
-  //     ],
-  //   },
-  //   {
-  //     title: t("Roadmap_section.Execution"),
-  //     status: t("Roadmap_section.Completed"),
-  //     items: [
-  //       t("Roadmap_section.Website, Tokenomics etc."),
-  //       t("Roadmap_section.Create $BFX Token"),
-  //       t("Roadmap_section.Launch $BFX Pre-Sale"),
-  //       t("Roadmap_section.Certik Token Audit"),
-  //     ],
-  //   },
-  //   {
-  //     title: t("Roadmap_section.Launch"),
-  //     status: t("Roadmap_section.On-going"),
-  //     items: [
-  //       t("Roadmap_section.Launch an Affiliate Program"),
-  //       t("Roadmap_section.Sell Out the Pre-Sale"),
-  //       t("Roadmap_section.Launch $BFX on Uniswap and CEX"),
-  //       t("Roadmap_section.Achieving 10000 BFX Holders"),
-  //     ],
-  //   },
-  //   {
-  //     title: t("Roadmap_section.Performance"),
-  //     items: [
-  //       t("Roadmap_section.Multiple CEX Listing"),
-  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-  //       t("Roadmap_section.Reach $100M Daily Trading Volume"),
-  //       t("Roadmap_section.Add Leaderboards & VIP accounts"),
-  //     ],
-  //   },
-  //   {
-  //     title: t("Roadmap_section.Expansion"),
-  //     items: [
-  //       t("Roadmap_section.Multiple CEX Listing"),
-  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-  //       t("Roadmap_section.Reach $100M Daily Trading Volume"),
-  //       t("Roadmap_section.Add Leaderboards & VIP accounts"),
-  //     ],
-  //   },
-  //   {
-  //     title: t("Roadmap_section.Global Reach"),
-  //     items: [
-  //       t("Roadmap_section.US License"),
-  //       t("Roadmap_section.Achieving-100,000-BFX-Holders"),
-  //       t("Roadmap_section.Global Marketing Campaigns"),
-  //       t("Roadmap_section.Major Global Partnerships"),
-  //     ],
-  //   },
-  // ];
   const slideData = [
     {
       title: t("Roadmap_section.Genesis"),
@@ -139,7 +79,7 @@ function RoadmapSection() {
       title: t("Roadmap_section.Global Reach"),
       items: [
         t("Roadmap_section.Add Leaderboards & VIP accounts"),
-        // t("Roadmap_section.US License"),
+       
         t("Roadmap_section.Global Marketing Campaigns"),
         t("Roadmap_section.Major Global Partnerships"),
       ],
@@ -153,7 +93,7 @@ function RoadmapSection() {
     >
       <img
         src={rightArrow}
-        alt={t("Roadmap_section.next")}
+        alt="right icon"
         className="h-10 w-10"
       />
     </div>
@@ -166,7 +106,7 @@ function RoadmapSection() {
     >
       <img
         src={leftArrow}
-        alt={"Roadmap_section.previous"}
+        alt="left icons"
         className="h-10 w-10 rotate-[180deg]"
       />
     </div>
@@ -272,7 +212,6 @@ function RoadmapSection() {
             </div>
           </div>
         </div>
-        {/* <img className="w-full" src={line} alt="Roadmap Line" /> */}
       </div>
 
       <div className="max-w-[1280px] mx-auto mt-20 relative px-12">

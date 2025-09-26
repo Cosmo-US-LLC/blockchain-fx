@@ -1,5 +1,4 @@
 import React from "react";
-// import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import copy from "../assets/TokenAllocationSec/Icon.svg";
@@ -38,7 +37,7 @@ function TokenAllocationSec() {
       <div className="max-w-[696px] relative space-y-[40px] w-[100%] mx-auto ">
         
        <div className="w-[100%] mx-auto ">
-        <img src={chart} loading="lazy" className="" alt="" />
+        <img src={chart} loading="lazy" className="" alt="BlockchainFX chart" />
        </div>
       </div>
     </div>

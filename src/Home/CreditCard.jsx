@@ -57,7 +57,7 @@ function CreditCard() {
             border:"1.5px solid rgba(255, 255, 255, 0.30)"
            }}
            >
-            <img src={card} className="max-w-[482.923px] mx-auto" alt="" />
+            <img src={card} className="max-w-[482.923px] mx-auto" alt="BFX Credit Card" />
            </div>
             <div>
               <p className="text-[10px] text-center max-w-[816px] text-[#fff] mx-auto tracking-[-0.32px] leading-[230%] font-[400]">
@@ -67,10 +67,10 @@ function CreditCard() {
           </div>
         </div>
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={ernvet2} alt="" />
+          <img src={ernvet2} alt="BlockchainFX" />
         </div>
         <div className="absolute bottom-[0%] right-[0%]">
-          <img src={ernvet1} alt="" />
+          <img src={ernvet1} alt="BlockchainFX" />
         </div>
       </div>
     </div>

@@ -39,7 +39,7 @@ function KYCVerifiedMob() {
                   <img
                     src={item.img}
                     className="h-[28px] object-cover"
-                    alt=""
+                    alt="security verified"
                   />
                   <p
                     style={{

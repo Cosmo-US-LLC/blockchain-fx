@@ -27,13 +27,12 @@ function TheUltimateSec() {
         <div className="max-w-[717px] min-h-[544px] max-h-[544px] flex items-center justify-center w-[100%] mx-auto">
           <div className="">
             <div className="flex justify-center pb-[20px]">
-              <img src={logo} className="h-[44.54px]" alt="" />
+              <img src={logo} className="h-[44.54px]" alt="BlockchainFX logo" />
             </div>
             <h3 className="text-[50px] text-[#fff] font-[600] text-center leading-[130%] text-[#181A20] tracking-[-3px]"
               dangerouslySetInnerHTML={{ __html: t("the_ultimate_section.title") }}
             />
-            {/* If you want to add a description, uncomment below: */}
-            {/* <p className="text-[18px] text-[#fff] text-center mt-4">{t("the_ultimate_section.description")}</p> */}
+         
             <div className="flex justify-center items-center pt-[35px] space-x-[17px]">
               <button
                 onClick={handleScroll}

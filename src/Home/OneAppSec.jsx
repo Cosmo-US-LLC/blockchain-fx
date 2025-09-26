@@ -67,7 +67,7 @@ function OneAppSec() {
                     <div>
                       <img
                         src={item.icon}
-                        alt={item.title}
+                        alt={t(item.title)}
                         className="w-[75.387px] h-[75.387px]"
                       />
                     </div>
@@ -104,7 +104,7 @@ function OneAppSec() {
           </div>
         </div>
         <div className="w-[55%] space-y-[25px] overflow-visible">
-          <img src={dailyimg} className="object-cover" alt="" />
+          <img src={dailyimg} className="object-cover" alt="BlockchainFX" />
           <p className="text-[13px] text-center pl-[32px] leading-[150.598%] font-[400] text-[#fff]">{t("one_app_sec.note")}</p>
         </div>
       </div>

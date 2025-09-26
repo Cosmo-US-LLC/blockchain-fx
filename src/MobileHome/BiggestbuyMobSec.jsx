@@ -7,21 +7,6 @@ function BiggestbuyMobSec() {
   const [tableData, setTableData] = useState([]);
   
 
-   const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition =
-          element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 80;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth",
-        });
-      }
-    }, 200);
-  };
-
     const shortenWallet = (wallet) =>
     wallet ? `${wallet.slice(0, 4)}...${wallet.slice(-4)}` : "-";
 
@@ -82,7 +67,7 @@ useEffect(() => {
             {t("biggest_buy.description")}
           </p>
         </div>
-         {/* Rankings Table */}
+        
         <div className="bg-[#030F16] w-[90%] mt-[30px] space-y-[15px] mx-auto border-[1px] border-[#fff] px-[10px] py-[20px] rounded-[24px]">
           <div className="flex justify-between items-center px-[15px] pt[15px]">
             <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[16%]">{t("biggest_buy.table.rank")}</h3>
@@ -91,13 +76,12 @@ useEffect(() => {
             <h3 className="text-[#F9C333] text-[9px] text-center font-[600] w-[20%]">{t("biggest_buy.table.prize")}</h3>
           </div>
 
-          {/* Table Rows */}
           {visibleData.map((item, index) => (
             <div key={index}  className={`flex justify-between items-center px-[15px] py-[15px] 
               ${index === 0 ? 'bg-[#BB9E08]' : ''}
                 ${index === 1 ? 'bg-[#99958C]' : ''} 
-                ${index === 2 ? 'bg-[#A46A2A]' : ''} {/* Grey background for second row only */}
-                ${index >= 3 ? '' : ''}  {/* No background for rows starting from 4th onward */}
+                ${index === 2 ? 'bg-[#A46A2A]' : ''} 
+                ${index >= 3 ? '' : ''}  
                 rounded-[24px]`}>
               <h3 className="text-[#FFF89C] text-[9px] text-center font-[600] w-[10%]">{item.rank}</h3>
               <h3 className="text-[#FFF89C] text-[9px] text-center font-[600] w-[30%]">{item.wallet}</h3>
@@ -114,19 +98,7 @@ useEffect(() => {
           </button>
         </div>
         </div>
-         {/* <div className="flex justify-center items-center mt-[20px] relative z-10">
-          <button
-            onClick={handleScroll}
-            style={{
-              background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-            }}
-            className="text-{#000} px-[12px]  text-[14px] font-[600] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[39px]"
-          >
-            Buy BFX
-          </button>
-        </div> */}
-
-        {/* Toggle Button */}
+      
       
       </div>
     </div>

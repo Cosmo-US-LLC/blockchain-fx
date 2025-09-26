@@ -45,12 +45,6 @@ const CookiePolicyPopup = () => {
           Reject Additional Cookies
         </button>
 
-        {/* Manage Cookies */}
-        {/* <button
-          className="block w-full text-sm underline text-center"
-        >
-          Manage Cookies
-        </button> */}
       </div>
     </div>
   );

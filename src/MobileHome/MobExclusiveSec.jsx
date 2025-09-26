@@ -54,7 +54,7 @@ function MobExclusiveSec() {
                 }}
               >
                 <div className="max-h-[127px] flex justify-center items-center">
-                  <img src={item.img} className="max-h-[120px] " alt="" />
+                  <img src={item.img} className="max-h-[120px] " alt="BlockchainFX benefits" />
                 </div>
                 <h3
                   className="text-[20px] text-center  text-[#FFF] font-[600] tracking-[-1.672px] leading-[120%] mobilepara"

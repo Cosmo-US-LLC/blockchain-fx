@@ -53,7 +53,7 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide1.text")}"
                 </p>
-                <img src={stars} alt="" />
+                <img src={stars} alt="reviews" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide1.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide1.role")}</p>
@@ -86,7 +86,7 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide2.text")}"
                 </p>
-                <img src={stars} alt="" />
+                <img src={stars} alt="reviews" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide2.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide2.role")}</p>
@@ -120,7 +120,7 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide3.text")}"
                 </p>
-                <img src={stars} alt="" />
+                <img src={stars} alt="reviews" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide3.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide3.role")}</p>
@@ -154,7 +154,7 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide4.text")}"
                 </p>
-                <img src={stars} alt="" />
+                <img src={stars} alt="reviews" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide4.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide4.role")}</p>

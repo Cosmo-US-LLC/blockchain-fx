@@ -60,7 +60,7 @@ function ExclusiveBenefitsSec() {
                 }}
               >
                 <div className="max-h-[116px] h-[100%] flex justify-center items-center">
-                  <img src={item.img} className="max-h-[116px] h-[100%]" alt={item.alt} />
+                  <img src={item.img} className="max-h-[116px] h-[100%]" alt="BlockchainFX benefits" />
                 </div>
                 <h3
                   className="text-[22px] text-center text-[#fff] font-[600] leading-[115%]"

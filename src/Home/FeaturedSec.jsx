@@ -7,9 +7,6 @@ import herobnr5 from "../assets/herosection/bnrhero (6).svg";
 import herobnr6 from "../assets/herosection/bnrhero (9).svg";
 import herobnr7 from "../assets/herosection/bnrhero (7).svg";
 import herobnr8 from "../assets/herosection/full-okx-logo 1.svg";
-// import herobnr9 from "../assets/herosection/bnrhero (11).svg";
-// import herobnr10 from "../assets/herosection/bnrhero (9).svg";
-// import herobnr11 from "../assets/herosection/bnrhero (4).svg";
 
 function FeaturedSec() {
   const { t } = useTranslation();
