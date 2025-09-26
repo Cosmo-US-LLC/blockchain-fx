@@ -1,11 +1,11 @@
 import { QRCodeCanvas } from '@akamfoad/qrcode'
 import clsx from 'clsx'
 import Modal from './Modal'
-import { ReactComponent as CheckCircleIcon } from '../../../assets/icons/check-circle.svg'
-import { ReactComponent as ClockIcon } from '../../../assets/icons/clock.svg'
-import { ReactComponent as ErrorIcon } from '../../../assets/icons/error.svg'
-import { useEffect, useMemo, useRef, useState } from 'react'
-import { useAccount } from "../../../presale-gg/web3/hooks"
+import { ReactComponent as CheckCircleIcon } from '../../../assets/icons/check-circle.svg';
+import { ReactComponent as ClockIcon } from '../../../assets/icons/clock.svg';
+import { ReactComponent as ErrorIcon } from '../../../assets/icons/error.svg';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { useAccount } from "../../../presale-gg/web3/hooks";
 import copyImg from "../../../assets/navbar/wallet/copy-left.png";
 import iicon from "../../../assets/navbar/wallet/information-circle-contained-filled.png";
 import { capitalize, copyText, parseNum, waitForNextTransaction, zeroPad } from '../../../presale-gg/util'
