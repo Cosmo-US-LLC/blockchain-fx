@@ -100,7 +100,6 @@ function StandoutSec() {
         className="max-w-[1200px] py-[50px] relative overflow-hidden bg-[#030F16] rounded-[16px] space-y-[26px] w-[100%] flex flex-col mx-auto"
         style={{
           border: "1px solid #2B2B2B",
-          // box-shadow: 0px 5.336px 26.68px 0px rgba(169, 169, 169, 0.30);
         }}
       >
         <div className="space-y-[14px]">
@@ -226,10 +225,10 @@ function StandoutSec() {
           </div>
         </div>
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={ernvet2} className=" " alt="" />
+          <img src={ernvet2} className=" " alt="BlockchainFX" />
         </div>
         <div className="absolute bottom-[0%] right-[0%]">
-          <img src={ernvet1} className="" alt="" />
+          <img src={ernvet1} className="" alt="BlockchainFX" />
         </div>
       </div>
     </div>

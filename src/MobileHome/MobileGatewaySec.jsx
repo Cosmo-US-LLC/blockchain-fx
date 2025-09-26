@@ -27,12 +27,12 @@ function MobileGatewaySec() {
             <img
               src={ellipse || "/placeholder.svg"}
               className="absolute top-[0%] left-[0%]"
-              alt=""
+              alt="BlockchainFX"
             />
             <img
               src={ellipse2 || "/placeholder.svg"}
               className="max-w-[400px] h-[450px] absolute bottom-[0%] right-[0%]"
-              alt=""
+              alt="BlockchainFX"
             />
             <div className="space-y-[20px] relative z-[9]">
               <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[#FFF] "
@@ -49,13 +49,13 @@ function MobileGatewaySec() {
             >
               <div className="flex items-start space-x-[3rem] justify-center">
                 <div className="flex space-y-[14px] flex-col items-center justify-start">
-                  <img className="w-[54px] h-[54px]" src={cardicon1 || "/placeholder.svg"} alt="" />
+                  <img className="w-[54px] h-[54px]" src={cardicon1 || "/placeholder.svg"} alt="Other Crypto Exchanges" />
                   <h3 className="text-[#fff] text-center text-[18px] font-[600] leading-[105%] tracking-[-1.219]">
                     {t("gateway_section.other_exchanges.title")}
                   </h3>
                 </div>
                 <div className="flex space-y-[20px] flex-col items-center justify-start">
-                  <img className="w-[54px] h-[54px]" src={cardicon2 || "/placeholder.svg"} alt="" />
+                  <img className="w-[54px] h-[54px]" src={cardicon2 || "/placeholder.svg"} alt="BlockchainFX" />
                   <h3 className="text-[#fff] text-center text-[18px] font-[600] leading-[105%] tracking-[-1.219]">
                     {t("gateway_section.blockchainfx.title")}
                   </h3>
@@ -64,21 +64,21 @@ function MobileGatewaySec() {
               <div className="space-y-[20px]">
                 <div className="rounded-[16px] border border-[#2B2B2B]">
                   <div className="flex justify-center py-[10px] items-center flex-col">
-                    <img className="w-[23px] h-[20.815px]" src={icon1 || "/placeholder.svg"} alt="" />
-                    <h4 className="text-[#FFF] font-[700] text-[14px] leading-[105%]">
+                    <img className="w-[23px] h-[20.815px]" src={icon1 || "/placeholder.svg"} alt= {t("gateway_section.features.fees")} />
+                    <h4 className="text-[#FFF] font-[700]  text-[14px] leading-[105%]">
                       {t("gateway_section.features.fees")}
                     </h4>
                   </div>
                   <div className="flex border-t border-[#2B2B2B]">
                     <div className="w-[50%] py-[3px] border-r border-[#2B2B2B]">
-                      <div className="flex items-center justify-center space-x-2">
-                        <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
+                      <div className="flex items-center max-w-[140px] mx-auto justify-center space-x-2">
+                        <h4 className="text-[#fff]  font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                           {t("gateway_section.other_exchanges.high_fees")}
                         </h4>
                       </div>
                     </div>
                     <div className="w-[50%] py-[3px]">
-                      <div className="flex items-center justify-center">
+                      <div className="flex items-center max-w-[110px] mx-auto justify-center">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                           {t("gateway_section.blockchainfx.shares_profits")}
                         </h4>
@@ -88,7 +88,7 @@ function MobileGatewaySec() {
                 </div>
                 <div className="rounded-[16px] border border-[#2B2B2B]">
                   <div className="flex justify-center py-[10px] items-center flex-col">
-                    <img className="w-[23px] h-[20.815px]" src={icon2 || "/placeholder.svg"} alt="" />
+                    <img className="w-[23px] h-[20.815px]" src={icon2 || "/placeholder.svg"} alt={t("gateway_section.features.asset_variety")} />
                     <h4 className="text-[#FFF] font-[700] text-[14px] leading-[105%]">
                       {t("gateway_section.features.asset_variety")}
                     </h4>
@@ -112,7 +112,7 @@ function MobileGatewaySec() {
                 </div>
                 <div className="rounded-[16px] border border-[#2B2B2B]">
                   <div className="flex justify-center py-[10px] items-center flex-col">
-                    <img className="w-[23px] h-[20.815px]" src={icon3 || "/placeholder.svg"} alt="" />
+                    <img className="w-[23px] h-[20.815px]" src={icon3 || "/placeholder.svg"} alt={t("gateway_section.features.user_experience")} />
                     <h4 className="text-[#FFF] font-[700] text-[14px] leading-[105%]">
                       {t("gateway_section.features.user_experience")}
                     </h4>
@@ -136,7 +136,7 @@ function MobileGatewaySec() {
                 </div>
                 <div className="rounded-[16px] border border-[#2B2B2B]">
                   <div className="flex justify-center py-[10px] items-center flex-col">
-                    <img className="w-[23px] h-[20.815px]" src={icon4 || "/placeholder.svg"} alt="" />
+                    <img className="w-[23px] h-[20.815px]" src={icon4 || "/placeholder.svg"} alt={t("gateway_section.features.community")} />
                     <h4 className="text-[#FFF] font-[700] text-[14px] leading-[105%]">
                       {t("gateway_section.features.community")}
                     </h4>

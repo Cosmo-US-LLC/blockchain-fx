@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import card from "../assets/CreditCard/card.webp";
 import ellipse from "../assets/EarnOnSec/Ellipse 3.png";
@@ -7,35 +7,7 @@ import googlelepay from "../assets/CreditCard/btnsvg (1).png";
 
 function CreditCardMob() {
   const { t } = useTranslation();
-  const videoRef = useRef(null);
 
-  useEffect(() => {
-    const video = videoRef.current;
-
-    if (video) {
-      video.muted = true;
-      video.setAttribute("playsInline", "");
-      video.setAttribute("muted", "");
-      video.play().catch((error) => {
-        console.log("Autoplay failed. Error:", error);
-      });
-    }
-  }, []);
-
-  const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition =
-          element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 80;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth",
-        });
-      }
-    }, 200);
-  };
 
   return (
     <div className="pt-[10px] pb-[34px] px-6 bg-[#020B10]">
@@ -48,7 +20,7 @@ function CreditCardMob() {
         <img
           src={ellipse}
           className="absolute top-[0%] w-[500px] h-[520px] left-[0%]"
-          alt=""
+          alt="BlockchainFX"
         />
         <h3 className=" text-left capitalize text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#FACE43]">
           {t("creditCard.title")}
@@ -103,7 +75,7 @@ function CreditCardMob() {
           }}
           className="w-[100%] rounded-[16px] items-center py-[20px] flex justify-center"
         >
-          <img src={card} className="mx-auto max-w-[258px]" alt="" />
+          <img src={card} className="mx-auto max-w-[258px]" alt="BlockchainFX credit Card" />
         </div>
         <p className="text-[12px] text-[#FFF] max-w-[315px] mx-auto font-[400] text-center leading-[175%] tracking-[-0.32px]">
           {t("creditCard.shippingNote")}

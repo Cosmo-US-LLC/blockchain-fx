@@ -35,7 +35,7 @@ function CryptoExchangemobSec() {
             </p>
           </div>
           <div className="flex justify-center mr-3">
-            <img src={crpimg} className="" alt="" />
+            <img src={crpimg} className="crypto exchange" alt="" />
           </div>
           <div className="flex justify-center  relative z-[99] pb-[0px] items-center space-x-[17px]">
             <button

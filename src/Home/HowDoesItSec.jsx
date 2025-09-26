@@ -47,7 +47,7 @@ function HowDoesItSec() {
           </p>
         </div>
         <div className="max-w-[1002px] relative z-[99] w-[100%] mx-auto">
-          <img src={howtoimg} className="object-cover" alt="" />
+          <img src={howtoimg} className="object-cover" alt="how it works" />
         </div>
         <div className="absolute bottom-[-8%] z-[9] right-[0%]">
           <img src={ernvet2} className="" alt="BlockchainFX" />
@@ -64,7 +64,7 @@ function HowDoesItSec() {
               }}
             >
               <div className="flex justify-between pb-[23px] items-center">
-                <img src={item.img} className="object-cover" alt="" />
+                <img src={item.img} className="object-cover" alt={t(item.title)} />
                 <p
                   className="text-[56.8px]  leading-[130%] font-[600]"
                   style={{

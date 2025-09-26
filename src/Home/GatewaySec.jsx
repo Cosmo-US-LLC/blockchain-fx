@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 
 import icon1 from "../assets/Gateway/gticons (4).svg";
@@ -6,19 +6,16 @@ import icon2 from "../assets/Gateway/gticons (3).svg";
 import icon3 from "../assets/Gateway/gticons (2).svg";
 import icon4 from "../assets/Gateway/gticons (1).svg";
 import cardicon1 from "../assets/Gateway/tblicn (2).svg";
-import Iicon from "../assets/Gateway/i.svg";
 import cardicon2 from "../assets/Gateway/tblicn (1).svg";
 import ernvet1 from "../assets/EarnOnSec/Ellipse 4.png";
 import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 function GatewaySec() {
-  const [showTooltip, setShowTooltip] = useState(false);
   const { t } = useTranslation();
 
   return (
     <div className="pt-[50px] pb-[30px] bg-[#020B10]">
       <div className="max-w-[1200px] rounded-[16px] py-[80px] relative overflow-hidden space-y-[40px] w-[100%] mx-auto "
        style={{
-            // background: "#030F16",
             background:"#030F16",
           }}
       >
@@ -33,7 +30,7 @@ function GatewaySec() {
               <li className="h-[83px]"></li>
               <li className="flex space-x-3 px-[18px] items-center min-h-[65px]">
                 <div className="w-[65px]">
-                  <img src={icon1} alt="" className="w-[37px]" />
+                  <img src={icon1} alt="Fees" className="w-[37px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
                   {t("gateway_section.features.fees")}
@@ -41,7 +38,7 @@ function GatewaySec() {
               </li>
               <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
-                  <img src={icon2} alt="" className="w-[36px]" />
+                  <img src={icon2} alt="Asset Variety" className="w-[36px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
                   {t("gateway_section.features.asset_variety")}
@@ -49,7 +46,7 @@ function GatewaySec() {
               </li>
               <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
-                  <img src={icon3} alt="" className="w-[36px]" />
+                  <img src={icon3} alt="User Experience" className="w-[36px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
                   {t("gateway_section.features.user_experience")}
@@ -57,7 +54,7 @@ function GatewaySec() {
               </li>
               <li className="flex space-x-3 px-[18px] items-center min-h-[65px] border-t border-[#C2C2C2]">
                 <div className="w-[65px]">
-                  <img src={icon4} alt="" className="w-[39px]" />
+                  <img src={icon4} alt="Community" className="w-[39px]" />
                 </div>
                 <span className="text-[#B5B5B5] text-[20px] font-[700] tracking-[-1px]">
                   {t("gateway_section.features.community")}
@@ -73,7 +70,7 @@ function GatewaySec() {
             }}
           >
             <div className="flex justify-start pl-[19px] space-x-4 items-center">
-              <img src={cardicon1} alt="" className="w-[56.7px] h-[56.7px]" />
+              <img src={cardicon1} alt="Other Exchanges" className="w-[56.7px] h-[56.7px]" />
               <h4 className="text-[#CBCBCB] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
                 {t("gateway_section.other_exchanges.title")}
               </h4>
@@ -103,7 +100,7 @@ function GatewaySec() {
             }}
           >
             <div className="flex justify-start space-x-4 items-center ">
-              <img src={cardicon2} alt="" className="w-[56.7px] h-[56.7px]" />
+              <img src={cardicon2} alt="BlockchainFX" className="w-[56.7px] h-[56.7px]" />
               <h4 className="text-[white] text-[20.862px] font-[700] tacking-[-1px] leading-[100%]">
                 {t("gateway_section.blockchainfx.title")}
               </h4>
@@ -125,10 +122,10 @@ function GatewaySec() {
           </div>
         </div>
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={ernvet2} className=" " alt="" />
+          <img src={ernvet2} className=" " alt="BlockchainFX" />
         </div>
         <div className="absolute bottom-[0%] right-[0%]">
-          <img src={ernvet1} className="" alt="" />
+          <img src={ernvet1} className="" alt="BlockchainFX" />
         </div>
       </div>
     </div>

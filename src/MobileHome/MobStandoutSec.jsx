@@ -37,7 +37,8 @@ function MobStandoutSec() {
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="h-[91px] w-[70%]"></div>
               <div className="h-[91px] border-l border-t border-[#e6af03]  justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img className="h-[41.126px] w-[41.126px]" src={coin1} alt="" />
+                <img className="h-[41.126px] w-[41.126px]" src={coin1} alt="BlockchainFX
+" />
                 <h3 className="text-[#545454] leading-[8.902px] font-[700] text-[8.902px]">
                   {t("standout_section.table.blockchainfx")}
                 </h3>
@@ -86,7 +87,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
               </div>
             </div>
             <div className="flex border border-[#343434] border-r-[#e6af03]">
@@ -96,7 +97,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
               </div>
             </div>
             <div className="flex border border-[#343434] border-r-[#e6af03]">
@@ -106,7 +107,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]     justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
               </div>
             </div>
             <div className="flex border border-[#343434] border-r-[#e6af03]">
@@ -116,7 +117,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className=" border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
               </div>
             </div>
             <div className="flex border border-[#343434] border-r-[#e6af03]">
@@ -126,19 +127,10 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className="  border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
               </div>
             </div>
-            {/* <div className="flex border border-[#343434] border-r-[#e6af03]">
-              <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start    px-[10px]">
-                <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
-                  {t("standout_section.table.indices")}
-                </h3>
-              </div>
-              <div className="   border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
-              </div>
-            </div> */}
+            
             <div className="flex border border-[#343434] border-r-[#e6af03]">
               <div className="w-[70%] py-[14px] h-[49px]  justify-center flex flex-col items-start   px-[10px]">
                 <h3 className="text-[15px] text-[#FFF] font-[500] leading-[120%]">
@@ -146,7 +138,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className="  border-l border-[#e6af03]    justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
               </div>
             </div>
             <div className="flex border border-[#343434] border-r-[#e6af03]">
@@ -156,7 +148,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className="   border-l border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
               </div>
             </div>
             <div className="flex border border-[#343434] border-r-[#e6af03]">
@@ -166,7 +158,7 @@ function MobStandoutSec() {
                 </h3>
               </div>
               <div className="   border-l border-b border-[#e6af03]   justify-center flex flex-col items-center space-y-[6px] w-[30%]">
-                <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
               </div>
             </div>
           </div>
@@ -189,7 +181,7 @@ function MobStandoutSec() {
                       <img
                         className="h-[41.126px] w-[41.126px]"
                         src={coin2}
-                        alt=""
+                        alt="bitget"
                       />
                       <h3 className="text-[#545454] leading-[8.902px] font-[700] text-[8.902px]">
                         {t("standout_section.table.bitget")}
@@ -219,42 +211,42 @@ function MobStandoutSec() {
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]  flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center py-[14px] h-[49px] px-[10px]   flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                 </div>
@@ -266,7 +258,7 @@ function MobStandoutSec() {
                       <img
                         className="h-[41.126px] w-[41.126px]"
                         src={coin3}
-                        alt=""
+                        alt="Hyperliquid"
                       />
                       <h3 className="text-[#545454] leading-[8.902px] font-[700] text-[8.902px]">
                         Hyperliquid
@@ -296,42 +288,42 @@ function MobStandoutSec() {
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className=" py-[14px] h-[49px] px-[10px]    justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="  py-[14px] h-[49px] px-[10px]   justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="   py-[14px] h-[49px] px-[10px]     justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="  py-[14px] h-[49px] px-[10px]     justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="   py-[14px] h-[49px] px-[10px]   justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="   py-[14px] h-[49px] px-[10px]    justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="py-[14px] h-[49px] px-[10px]   justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="py-[14px] h-[49px] px-[10px]   justify-center flex flex-col items-center space-y-[6px] w-[100%]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                 </div>
@@ -343,7 +335,7 @@ function MobStandoutSec() {
                       <img
                         className="h-[41.126px] w-[41.126px] object-cover"
                         src={coin4}
-                        alt=""
+                        alt="Uniswap"
                       />
                       <h3 className="text-[#545454]  leading-[8.902px] font-[700] text-[8.902px]">
                         Uniswap{" "}
@@ -373,53 +365,53 @@ function MobStandoutSec() {
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center  flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check1} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check1} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center   flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center   flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center   flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center     flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                  
                   <div className="flex border border-[#343434]">
                     <div className="justify-center   flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                   <div className="flex border border-[#343434]">
                     <div className="justify-center flex flex-col items-center space-y-[6px] w-[100%] h-[49px]">
-                      <img src={check2} className="h-[15px] w-[15px]" alt="" />
+                      <img src={check2} className="h-[15px] w-[15px]" alt="tick" />
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
             </Swiper>
             <button className="swiper-button-prev !absolute z-10 !left-[-110%] !top-[103%] transform -translate-y-1/2 !w-[40px] !h-[40px]">
-              <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
+              <img className="w-[37.545px] h-[37.545px]" src={arw} alt="BlockchainFX" />
             </button>
             <button className="swiper-button-next rotate-[180deg] !absolute z-10 !right-[110%] !top-[103%] transform -translate-y-1/2 !w-[40px] !h-[40px]">
-              <img className="w-[37.545px] h-[37.545px]" src={arw} alt="" />
+              <img className="w-[37.545px] h-[37.545px]" src={arw} alt="BlockchainFX" />
             </button>
           </div>
         </div>

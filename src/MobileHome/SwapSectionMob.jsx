@@ -1,21 +1,8 @@
 import whitepaper from "../assets/Whitepaper/instantSwap.gif";
-import swapbg from "../assets/Swap/mobbg.png"
 import { useTranslation } from "react-i18next";
 export default function SwapSectionMob() {
   const { t } = useTranslation();
-  const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 50;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth"
-        });
-      }
-    }, 200); 
-  };
+ 
 
   return (
     <>

@@ -41,7 +41,7 @@ function CryptoExchangeSec() {
       <div className="max-w-[1200px] relative overflow-hidden flex justify-between items-center gap-[2rem] w-[100%] mx-auto border-[1px] border-[#575757] bg-[#030F16]  relative rounded-[24px]">
         <div className="flex relative z-[99]  pr-[96px] items-center gap-[5rem] z-[99]">
           <div className="w-[44%]">
-            <img src={crpimg} className="max-h-[619.965px]" alt="" />
+            <img src={crpimg} className="max-h-[619.965px]" alt="crypto exchange" />
           </div>
           <div className="w-[56%] space-y-[20px] py-[60px]">
             <h4 className="text-[40px] text-[#fff] font-[600]">

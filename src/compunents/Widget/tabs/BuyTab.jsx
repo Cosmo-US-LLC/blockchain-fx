@@ -411,16 +411,10 @@ const BuyTab = ({ onTabChange}) => {
           ))}
         </div>
         <div className="flex space-x-1 justify-center items-center">
-          <img className="w-[153px] h-[22px] object-cover" src={comcoin} alt="" />
+          <img className="w-[153px] h-[22px] object-cover" src={comcoin} alt="other_cryptos" />
           <p className="text-[9.673px] text-[#fff] font-[400]">{t('buy_tab.other_cryptos')}</p>
         </div>
-        {/* <div className="flex justify-center items-center py-[0px] space-x-[15px]">
-          <hr className="h-[1px] flex-1" />
-          <span className="text-[#fff] mx-4 text-[9.618px] font-[700] leading-[75%]">
-            1 $BFX = ${formatNumber(parseNum(apiData.stage?.token_price))}
-          </span>
-          <hr className="h-[1px] flex-1" />
-        </div> */}
+      
         <div
           className="2xl:px-[24px] xl:px-[24px] lg:px-[24px] md:px-[24px] sm:px-[20px] px-[12px] py-[10px] rounded-[17.596px]"
           style={{
@@ -483,7 +477,7 @@ const BuyTab = ({ onTabChange}) => {
                     <img
                       className="w-[15.813px] h-[15.813px] object-cover"
                       src={tokenImageMap[selectedToken.symbol.toLowerCase()]}
-                      alt=""
+                      alt="token"
                     />
                     <div className="flex flex-col">
                       <span className="text-[#fff] !overflow-hidden !text-clip text-[11.888px] font-[700]">
@@ -562,7 +556,7 @@ const BuyTab = ({ onTabChange}) => {
                 <img
                   className="w-[15.8px] h-[15.8px] object-cover"
                   src={bfxicn}
-                  alt=""
+                  alt="blockchainfx"
                 />
                 <span className="text-[#fff] text-[11px] font-[700] leading-[50px]">
                   BFX
@@ -639,7 +633,7 @@ const BuyTab = ({ onTabChange}) => {
               setCodeInputVisible((code) => (code === "bonus" ? null : "bonus"))
             }
           >
-            <img className="mr-1" src={bonus} alt="" />
+            <img className="mr-1" src={bonus} alt="bonus code" />
             {t('buy_tab.bonus_code')}
           </button>
           <button
@@ -655,7 +649,7 @@ const BuyTab = ({ onTabChange}) => {
               )
             }
           >
-            <img className="mr-1" src={Ref} alt="" />
+            <img className="mr-1" src={Ref} alt="referral" />
             {t('buy_tab.referral_link')}
           </button>
         </div>

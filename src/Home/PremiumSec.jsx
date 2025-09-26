@@ -4,7 +4,6 @@ import "swiper/css/navigation";
 import { useLocation } from "react-router-dom";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Iicon from "../assets/Gateway/i.svg";
 import cardimg1 from "../assets/PremiumSec/cardimg (1).webp";
 import cardimg2 from "../assets/PremiumSec/cardimg (2).webp";
 import cardimg3 from "../assets/PremiumSec/cardimg (3).webp";
@@ -12,11 +11,9 @@ import cardimg4 from "../assets/PremiumSec/cardimg (4).webp";
 import cardimg5 from "../assets/PremiumSec/cardimg (5).webp";
 import cardimg6 from "../assets/PremiumSec/cardimg (6).webp";
 import cardimg7 from "../assets/PremiumSec/cardimg (7).webp";
-import faq1 from "../assets/PremiumSec/faq (1).svg";
 import arw from "../assets/PremiumSec/preawr (1).svg";
 import tick from "../assets/PremiumSec/true.png";
 import cross from "../assets/PremiumSec/false.png";
-import { MdOutlineAirplaneTicket } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
 
@@ -36,10 +33,8 @@ function PremiumSec() {
   const { t } = useTranslation();
   const location = useLocation();
   const isHome = location.pathname === "/";
-  const [openBundles, setOpenBundles] = useState(0);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const [showTooltip, setShowTooltip] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const swiperRef = useRef(null);
 
@@ -49,9 +44,7 @@ function PremiumSec() {
       setActiveIndex(index);
     }
   };
-  const toggleBundles = (id) => {
-    setOpenBundles(id === openBundles ? null : id);
-  };
+
 
   const handleScroll = () => {
     setTimeout(() => {
@@ -68,7 +61,6 @@ function PremiumSec() {
     }, 200);
   };
 
-  // Get translated cards array
   const translatedCards = t("premium_section.cards", { returnObjects: true });
 
   return (
@@ -86,10 +78,10 @@ function PremiumSec() {
 
           <div className="w-[20%] flex justify-end items-end space-x-2">
             <button className="transform -translate-y-1/2 swiper-button-prev-swp a">
-              <img className="w-[42.545px] h-[42.545px]" src={arw} alt="" />
+              <img className="w-[42.545px] h-[42.545px]" src={arw} alt="BlockchainFX" />
             </button>
             <button className="swiper-button-next-swp rotate-[182deg]  transform -translate-y-1/2">
-              <img className="w-[42.545px] h-[42.545px]" src={arw} alt="" />
+              <img className="w-[42.545px] h-[42.545px]" src={arw} alt="BlockchainFX" />
             </button>
           </div>
         </div>
@@ -135,13 +127,7 @@ function PremiumSec() {
                           <h3 className="text-[#ffff] flex flex-col justify-end font-[600] ">
                             <span
                               className={`leading-[100%] ${isHome ? "text-[40px]" : "text-[30px]"}`}
-                              // style={{
-                              //   background:
-                              //     "linear-gradient(90deg, #FFF 0%, #030F16 100%)",
-                              //   backgroundClip: "text",
-                              //   WebkitBackgroundClip: "text",
-                              //   WebkitTextFillColor: "transparent",
-                              // }}
+                            
                             >
                               {card.title}
                             </span>
@@ -151,15 +137,6 @@ function PremiumSec() {
                           </h3>
                         </div>
 
-                        {/* <ul className="flex justify-center">
-                          {card.reviews.map((isStarFilled, index) =>
-                            isStarFilled ? (
-                              <li key={index}>
-                                <img src={starticn} alt="rating star" />
-                              </li>
-                            ) : null
-                          )}
-                        </ul> */}
                         <h3
                           className="text-[#fff] text-center border rounded-[16px] px-[26px] py-[6px] text-[16.27px] font-[600]"
                           style={{
@@ -184,7 +161,7 @@ function PremiumSec() {
                             >
                               <img
                                 src={cardPointsIcons[index][pointIdx]}
-                                alt=""
+                                alt="points icon"
                                 className="w-5 h-5 mr-3"
                               />
                               {t(`premium_section.cards.${index}.points.${pointIdx}`)}
