@@ -22,12 +22,12 @@ function MobOurAwardSec() {
           <div
             className=" w-[100%] flex justify-center items-center"
           >
-           <img src={card_1} className="object-cover" alt="" />
+           <img src={card_1} className="object-cover" alt="multi award" />
           </div>
           <div
             className=" w-[100%] flex justify-center items-center"
           >
-           <img src={card_2} className="object-cover" alt="" />
+           <img src={card_2} className="object-cover" alt="multi award" />
           </div>
         </div>
       </div>

@@ -183,7 +183,7 @@ function Navbar() {
                 src={menu}
                 onClick={toggleMobileMenu}
                 className="cursor-pointer"
-                alt=""
+                alt="menu"
               />
             </div>
             <div className="2xl:max-w-[163px] xl:max-w-[163px] lg:max-w-[163px] md:max-w-[163px] sm:max-w-[145px] max-w-[145px]">

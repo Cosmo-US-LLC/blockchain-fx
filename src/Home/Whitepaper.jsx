@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import whitepaperbook from "../assets/Whitepaper/whitesvg.svg";
+import whitepaperbook from "../assets/Whitepaper/whitepaper.webp";
 import ernvet1 from "../assets/CryptoExchangeSec/vec (1).png";
 
 export default function Whitepaper() {

@@ -7,10 +7,6 @@ import { useTranslation } from "react-i18next";
 
 // Import assets
 import swpbtn from "../assets/PremiumSec/arw.svg";
-import swpbtn2 from "../assets/PremiumSec/arw2.svg";
-import tradimg from "../assets/TraderReviewsSec/tradimg.png";
-import user from "../assets/TraderReviewsSec/image.png";
-import fram from "../assets/TraderReviewsSec/fram.png";
 import user1 from "../assets/TraderReviewsSec/rew (5).png";
 import user2 from "../assets/TraderReviewsSec/rew (4).png";
 import user3 from "../assets/TraderReviewsSec/rew (3).png";
@@ -18,8 +14,6 @@ import user4 from "../assets/TraderReviewsSec/rew (2).png";
 import user5 from "../assets/TraderReviewsSec/rew (1).png";
 import usern from "../assets/TraderReviewsSec/user.png";
 import tick from "../assets/TraderReviewsSec/teenyicons_tick-circle-solid.svg";
-import swpbtnl from "../assets/TraderReviewsSec/arwr.svg";
-import swpbtnr from "../assets/TraderReviewsSec/arw.svg";
 
 function MobTraderReviewsSec() {
   const { t } = useTranslation();
@@ -85,14 +79,14 @@ function MobTraderReviewsSec() {
                   <img
                     className="w-[40.545px] h-[40.545px]"
                     src={swpbtn}
-                    alt=""
+                    alt="prev button"
                   />
                 </button>
                 <button className="swiper-button-next-3 !w-[40px] !h-[40px] absolute z-10 !right-[-2%] !top-[45%]">
                   <img
                     className="w-[40.545px] h-[40.545px]"
                     src={swpbtn}
-                    alt=""
+                    alt="next button"
                   />
                 </button>
               </div>
@@ -118,14 +112,14 @@ function MobTraderReviewsSec() {
                         <img
                           src={userImages[review.user.image]}
                           className="w-[30px] h-[30px]"
-                          alt=""
+                          alt="review"
                         />
                         <div>
                           <div className="flex items-center space-x-2">
                             <h3 className="text-[12px] text-[#fff] font-[600] leading-[140%]">
                               {review.user.name}
                             </h3>
-                            <img src={tick} alt="" />
+                            <img src={tick} alt="tick" />
                           </div>
                           <h4 className="text-[#6A6A6A] text-[9px] font-[600] leading-[140%]">
                             {review.user.followers.split("•")[0]}

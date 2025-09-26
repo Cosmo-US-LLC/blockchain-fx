@@ -26,7 +26,7 @@ function MobTheUltimateSec() {
       <div className="flex items-center justify-center bgtheyltmob h-[400px] w-full bg-no-repeat !bg-center rounded-xl   ">
       <div className=" pb-[50px] pt-[26px] space-y-[15px]">
             <div className="flex justify-center ">
-            <img src={logo} className="h-[45.77px]" alt="" />
+            <img src={logo} className="h-[45.77px]" alt="blockchainfx logo" />
             </div>
             <h3 className="text-[33.401px] manrope text-[#fff] font-[700] text-center leading-[117.143%] text-[#181A20] tracking-[-1px]" 
             dangerouslySetInnerHTML={{ __html: t("the_ultimate_section.title") }}
