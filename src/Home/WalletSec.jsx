@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import info from "../assets/wallet/i.svg";
-// import bfxicn from "../assets/wallet/bfx.webp";
 import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
 import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
 import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
@@ -8,7 +6,6 @@ import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/HowToBuySec/ei_arrow-up.svg";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
 import swpicon from "../assets/wallet/swp.svg";
-// import cer from "../assets/wallet/cer.svg";
 import { useApiState } from "../presale-gg/stores/api.store";
 import Widget from "../compunents/Widget";
 import { useTranslation } from "react-i18next";
@@ -56,14 +53,7 @@ const WalletSec = () => {
             <h3 className="text-[40px] font-[700] text-[#fff] tracking-[-1px]">
               {t("wallet_section.title")}
             </h3>
-            {/* {!apiData.presaleEnded && (
-            <div className="w-[58px] text-[14px] font-[600] text-[#fff] rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
-              <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
-                .
-              </span>
-              Live
-            </div>
-          )} */}
+         
             <div
               className="w-[58px] h-[22px] flex justify-center items-start rounded-[7px] text-[14px] font-[600] text-[#fff]"
               style={{
@@ -208,7 +198,7 @@ const WalletSec = () => {
                       <img
                         src={swpicon}
                         className="w-[14.813px] h-[14.813px]"
-                        alt=""
+                        alt="UNISWAP"
                       />
                       <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
                         {t("wallet_section.uniswap")}
@@ -272,21 +262,7 @@ const WalletSec = () => {
             </div>
           </div>
         </div>
-        {/* <div
-          className="px-[28px] pt-[10px] pb-[10px] border border-[#B0B0B0] w-[100%] mx-auto "
-          style={{
-            background: "rgba(237, 237, 237, 0.40)",
-          }}
-        >
-          <div className="flex justify-center items-center gap-[10px] flex-wrap">
-            <h4 className="text-center text-[#808080] text-[13.1px] leading-[1.2] font-[600]">
-              Audited by the Leading Blockchain Security Company
-            </h4>
-            <div className="w-[113.97px]">
-              <img src={cer} className="" alt="" />
-            </div>
-          </div>
-        </div> */}
+       
       </div>
     </div>
   );

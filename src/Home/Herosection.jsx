@@ -69,19 +69,19 @@ function Herosection() {
 
             <div className="space-y-[10px] max-w-[530px] border-[0.5px] border-[#C0C0C0] py-[15px] pl-[21px] rounded-[13px]">
               <div className="flex items-center space-x-2">
-                <img src={check} alt="" />
+                <img src={check} alt="tick icon" />
                 <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
                   {t("hero.feature1")}
                 </p>
               </div>
               <div className="flex items-center space-x-2">
-                <img src={check} alt="" />
+                <img src={check} alt="tick icon" />
                 <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
                   {t("hero.feature2")}
                 </p>
               </div>
               <div className="flex items-center space-x-2">
-                <img src={check} alt="" />
+                <img src={check} alt="tick icon" />
                 <p className="text-[#fff] capitalize font-[400] leading-[150%] text-[16px]">
                   {t("hero.feature3")}
                 </p>

@@ -1,19 +1,12 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import Iicon from "../assets/Gateway/i.svg";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import starticn from "../assets/PremiumSec/start.svg";
-import arw from "../assets/PremiumSec/arw.svg";
-import qArw from "../assets/PremiumSec/qArw.webp";
-import faq1 from "../assets/PremiumSec/faq (1).svg";
-import faq2 from "../assets/PremiumSec/faq (2).svg";
-import line from "../assets/PremiumSec/line.png";
 import cardimg1 from "../assets/PremiumSec/card1.webp";
 import cardimg2 from "../assets/PremiumSec/card2.webp";
 import cardimg3 from "../assets/PremiumSec/card3.webp";
@@ -24,17 +17,6 @@ import cardimg7 from "../assets/PremiumSec/card7.webp";
 import tick from "../assets/PremiumSec/true.png";
 import cross from "../assets/PremiumSec/false.png";
 
-const cardImages = [cardimg1, cardimg2, cardimg3, cardimg4, cardimg5, cardimg6, cardimg7];
-const cardReviews = [
-  [true, true, true, false, false],
-  [true, true, true, true, false],
-  [true, true, true, true, false],
-  [true, true, true, false, false],
-  [true, true, true, true, false],
-  [true, true, true, true, false],
-  [true, true, true, true, false],
-];
-const cardIcons = [tick, tick, tick, cross, cross]; 
 
 function MobilePremiumSec() {
   const { t } = useTranslation();
@@ -63,12 +45,7 @@ function MobilePremiumSec() {
     };
   });
 
-  // Prepare FAQ data from translations for future use
-  const faq = t("premium_section.faq.questions", { returnObjects: true });
-  const faqTooltipText = t("premium_section.faq.tooltip_text", { returnObjects: true });
 
-  const [openBundles, setOpenBundles] = useState(0);
-  const [showTooltip, setShowTooltip] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const [mainSwiper, setMainSwiper] = useState(null);
@@ -86,10 +63,7 @@ function MobilePremiumSec() {
     "$100,000",
   ];
 
-  const toggleBundles = (id) => {
-    setOpenBundles(id === openBundles ? null : id);
-  };
-  const cards = t("MobilePremiumSec.cards", { returnObjects: true });
+ 
 
   const handleScroll = () => {
     setTimeout(() => {
@@ -216,7 +190,7 @@ function MobilePremiumSec() {
                             >
                               <img
                                 src={point.icon}
-                                alt=""
+                                alt="point icon"
                                 className="w-5 h-5 mr-3"
                               />
                               {point.text}

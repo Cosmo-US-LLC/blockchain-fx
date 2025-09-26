@@ -153,7 +153,7 @@ const MobileWalletSec = () => {
                       <img
                         src={swpicon}
                         className="w-[14.813px] h-[14.813px]"
-                        alt=""
+                        alt="uniswap"
                       />
                       <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
                         {t("wallet_section.uniswap")}

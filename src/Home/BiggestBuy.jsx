@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import ernvet1 from "../assets/BiggestBuy/biggest_bg.png";
 import { useTranslation } from "react-i18next";
 
 export default function BiggestBuy() {
@@ -9,117 +8,6 @@ export default function BiggestBuy() {
   const visibleData = showMore ? tableData : tableData.slice(0, 5);
 
 
-  // const tableData = [
-  //   {
-  //     rank: "1st",
-  //     wallet: "0x589...18e1",
-  //     date: "2025-05-02",
-  //     txCount: 3,
-  //     totalBuy: "$124,590.58",
-  //     nft: "Legend",
-  //     prize: "$50,000",
-  //   },
-  //   {
-  //     rank: "2nd",
-  //     wallet: "0xa28...b37d",
-  //     date: "2025-04-11",
-  //     txCount: 2,
-  //     totalBuy: "$79,810.35",
-  //     nft: "Elite",
-  //     prize: "$20,000",
-  //   },
-  //   {
-  //     rank: "3rd",
-  //     wallet: "0xc6e...6f8e",
-  //     date: "2025-04-07",
-  //     txCount: 5,
-  //     totalBuy: "$52,192.16",
-  //     nft: "Elite",
-  //     prize: "$10,000",
-  //   },
-  //   {
-  //     rank: "4th",
-  //     wallet: "0x71C...9c9B",
-  //     date: "2023-04-14",
-  //     txCount: 13,
-  //     totalBuy: "$35,143.44",
-  //     nft: "Master",
-  //     prize: "$5,000",
-  //   },
-  //   {
-  //     rank: "5th",
-  //     wallet: "0x5ae...76de",
-  //     date: "2023-04-19",
-  //     txCount: 4,
-  //     totalBuy: "$27,440.38",
-  //     nft: "Expert",
-  //     prize: "$3,000",
-  //   },
-  //   {
-  //     rank: "6th",
-  //     wallet: "0xa3f...1b9c",
-  //     date: "2025-05-06",
-  //     txCount: 9,
-  //     totalBuy: "$24,710.55",
-  //     nft: "Expert",
-  //     prize: "$2,500",
-  //   },
-  //   {
-  //     rank: "7th",
-  //     wallet: "0x9be...3c1a",
-  //     date: "2025-04-23",
-  //     txCount: 3,
-  //     totalBuy: "$21,845.72",
-  //     nft: "Expert",
-  //     prize: "$2,000",
-  //   },
-  //   {
-  //     rank: "8th",
-  //     wallet: "0x7cd...5aa3",
-  //     date: "2025-04-22",
-  //     txCount: 11,
-  //     totalBuy: "$19,302.48",
-  //     nft: "Expert",
-  //     prize: "$1,800",
-  //   },
-  //   {
-  //     rank: "9th",
-  //     wallet: "0xd14...8f6",
-  //     date: "2025-04-11",
-  //     txCount: 2,
-  //     totalBuy: "$17,894.11",
-  //     nft: "Expert",
-  //     prize: "$1,500",
-  //   },
-  //   {
-  //     rank: "10th",
-  //     wallet: "0xb89...c24e",
-  //     date: "2025-03-30",
-  //     txCount: 6,
-  //     totalBuy: "$15,732.00",
-  //     nft: "Expert",
-  //     prize: "$1,000",
-  //   },
-  // ];
-
-  const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition =
-          element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 80;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth",
-        });
-      }
-    }, 200);
-  };
-
-
-
- 
 useEffect(() => {
   async function fetchTopBuyers() {
     try {
@@ -279,22 +167,6 @@ useEffect(() => {
           </p>
         </div>
 
-        {/* buybfx Button */}
-        {/* <div className="flex justify-center items-center mt-[20px] relative z-10">
-          <button
-            onClick={handleScroll}
-            style={{
-              background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-            }}
-            className="text-{#000} px-[12px]  text-[14px] font-[600] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[140px] h-[40px]"
-          >
-            Buy BFX
-          </button>
-        </div> */}
-
-        {/* <div className="absolute top-[0%] left-[0%]">
-          <img src={ernvet1} className="" alt="BlockchainFX" />
-        </div> */}
       </div>
     </div>
   );

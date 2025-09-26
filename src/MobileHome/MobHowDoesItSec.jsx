@@ -1,16 +1,10 @@
 import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+
 import { useTranslation } from "react-i18next";
 
 import cardicn1 from "../assets/HowDoesItSec/cardicon (3).webp";
 import cardicn2 from "../assets/HowDoesItSec/cardicon (2).webp";
 import cardicn3 from "../assets/HowDoesItSec/cardicon (1).webp";
-import ellipse2 from "../assets/HowDoesItSec/Ellipse 3 (3).png";
-import cardicn6 from "../assets/HowDoesItSec/icns (6) copy.svg";
 import howtomob from "../assets/HowDoesItSec/howtomob.webp";
 
 function MobHowDoesItSec() {
@@ -50,11 +44,7 @@ function MobHowDoesItSec() {
           border: "1px solid rgba(230, 175, 3, 0.12)",
         }}
       >
-        {/* <img
-          src={ellipse2}
-          className="absolute w-[100%] h-[512px] left-0 top-[0%]"
-          alt="ellipse2"
-        /> */}
+      
         <div>
           <h3 className="text-[30px] font-[600] leading-[120%] tracking-[-1.5px] capitalize text-[white] text-center">
             {t("how_does_it_sec.title")}
@@ -64,7 +54,7 @@ function MobHowDoesItSec() {
           </p>
         </div>
         <div className="flex justify-center">
-          <img src={howtomob} className="object-cover" alt="" />
+          <img src={howtomob} className="object-cover" alt="how to buy" />
         </div>
       </div>
       <div className="w-[90%] mx-auto">
@@ -79,7 +69,7 @@ function MobHowDoesItSec() {
               >
                 <div className="flex flex-row items-center justify-between">
                   <div className="flex justify-center">
-                    <img src={item.icon} className="h-[60px]" alt="" />
+                    <img src={item.icon} className="h-[60px]" alt={item.title} />
                   </div>
                   <p className="text-[#FFFFFF33] text-[56px] font-[600]">
                     0{index + 1}.

@@ -1,49 +1,14 @@
-import React, { useRef, useState, useEffect } from "react";
-import "swiper/css";
-import "swiper/css/navigation";
+import React from "react";
+
 import { useTranslation } from "react-i18next";
-import { Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
 import graph from "../assets/LessThanSec/Frame 1410125779 (1).png";
 import ellipse from "../assets/EarnOnSec/Ellipse 3.png";
-import ellipse2 from "../assets/EarnOnSec/Ellipse 4.png";
 
-import graphyp from "../assets/HyperGrowth/Graph.png";
-import icon1 from "../assets/Gateway/gticons (4).svg";
-import icon2 from "../assets/Gateway/gticons (3).svg";
-import icon3 from "../assets/Gateway/gticons (2).svg";
-import icon4 from "../assets/Gateway/gticons (1).svg";
-import cardicon1 from "../assets/Gateway/tblicn (2).svg";
-import Iicon from "../assets/Gateway/i.svg";
-import arw from "../assets/PremiumSec/preawr (1).svg";
-import cardicon2 from "../assets/Gateway/tblicn (1).svg";
 
 function MobileLessThanSec() {
   const { t } = useTranslation(); 
-   const [showTooltip, setShowTooltip] = useState(false);
-    const swiperRef = useRef(null);
-       const [activeIndex, setActiveIndex] = useState(0);
-      
-     useEffect(() => {
-       if (swiperRef.current && swiperRef.current.swiper) {
-         swiperRef.current.swiper.pagination.render();
-         swiperRef.current.swiper.pagination.update();
-       }
-     }, []);
+  
 
-     const handleScroll = () => {
-      setTimeout(() => {
-        const element = document.getElementById("Wallet");
-        if (element) {
-          const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-          const offset = 80;
-          window.scrollTo({
-            top: elementPosition - offset,
-            behavior: "smooth"
-          });
-        }
-      }, 200); 
-    };
   return (
     <div className="pt-[24px] pb-[24px] bg-[#020B10] overflow-hidden">
     <div className="relative max-w-[1200px] mx-auto">
@@ -51,7 +16,7 @@ function MobileLessThanSec() {
             <img
               src={ellipse || "/placeholder.svg"}
               className="max-w-[400px] h-[450px] absolute top-[0%] left-[0%]"
-              alt=""
+              alt="BlockchainFX"
             />
 
             <div className="space-y-[20px]">
@@ -67,16 +32,10 @@ function MobileLessThanSec() {
                 {t("less_than_section.chart_title")}
               </h4>
               <div>
-                {/* <h4 className="text-[15px] space-y-[70px] font-[600] text-center leading-[130%] text-[#fff] tracking-[-0.617px]">
-                  {t("less_than_section.costs.title")}
-                </h4>
-                <p className="text-[#fff] text-center text-[16px] font-medium">
-                  {t("less_than_section.costs.description")}
-                </p> */}
               </div>
               <div className="relative mt-10">
                 <div className="flex justify-end">
-                  <img src={graph || "/placeholder.svg"} className="max-w-[200px] max-h-[200px]" alt="" />
+                  <img src={graph || "/placeholder.svg"} className="max-w-[200px] max-h-[200px]" alt="BlockchainFX graph" />
                 </div>
                 <p className="text-[#fff] top-[-24%] left-[41%] absolute leading-[110%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.bonds") }}>
                 </p>

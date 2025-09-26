@@ -5,7 +5,6 @@ import stakeTab from "./tabs/StakeTab";
 import transactionHistoryTab from "./tabs/TransactionHistoryTab";
 import { useAccount } from "../../presale-gg/web3";
 
-// import comcoin from "../../assets/wallet/comcoin.webp";
 import tabicn1 from "../../assets/wallet/tabicn (3).svg";
 import tabicn2 from "../../assets/wallet/tabicn (2).svg";
 import tabicn3 from "../../assets/wallet/tabicn (1).svg";
@@ -47,7 +46,7 @@ const Widget = () => {
               : "bg-[transparent] text-[#fff] "
           )}
         >
-          <img className="mr-1" src={tabicn1} alt="" />
+          <img className="mr-1" src={tabicn1} alt="buy bfx" />
           Buy
         </button>
 
@@ -71,7 +70,7 @@ const Widget = () => {
           }
           disabled={!accountData?.address && needsWalletConnected.has("stake")}
         >
-          <img className="mr-1" src={tabicn2} alt="" />
+          <img className="mr-1" src={tabicn2} alt="Stake" />
           Stake
         </button>
 
@@ -97,7 +96,7 @@ const Widget = () => {
     !accountData?.address && needsWalletConnected.has("transaction-history")
   }
 >
-  <img className="mr-1" src={tabicn3} alt="" />
+  <img className="mr-1" src={tabicn3} alt="History" />
   History
 </button>
       </div>

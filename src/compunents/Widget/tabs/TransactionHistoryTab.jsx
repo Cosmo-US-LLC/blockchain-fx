@@ -74,7 +74,7 @@ const TransactionHistoryTab = () => {
           >
             <div className="min-w-[8rem] flex gap-1 flex-[1.5] items-center">
               <p className="leading-[1.2] w-12 flex-none text-[#fff] text-end">{formatLargeNumber(parseNum(trx.payment_token_amount))}</p>
-              <img className="w-4 h-4" src={tokenNameMap[trx.payment_token_name.toLowerCase()]} alt="" />
+              <img className="w-4 h-4" src={tokenNameMap[trx.payment_token_name.toLowerCase()]} alt="token" />
               <p className="leading-[1.2] text-[#fff]">{trx.payment_token_name}</p>
             </div>
             <p className="leading-[1.2] flex-1 text-[#fff]">{trx.tokens_bought === null ? capitalize(getStatus(trx)) : `+${formatLargeNumber(parseNum(trx.tokens_bought))} BFX`}</p>

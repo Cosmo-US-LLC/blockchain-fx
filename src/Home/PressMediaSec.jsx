@@ -22,7 +22,8 @@ function PressMediaSec() {
             <div key={idx} className={`bg-[#030F16] max-w-[400px] rounded-[8px] px-[17.6px] py-[37px] w-[100%]`} style={{ border: "1px solid rgba(230, 175, 3, 0.12)" }}>
               <div className="space-y-[25px]">
                 <div className="flex items-center justify-center h-[30px]">
-                  <img src={idx === 0 ? medai1 : idx === 1 ? media2 : media3} className="h-[44px]" alt="" />
+                  <img src={idx === 0 ? medai1 : idx === 1 ? media2 : media3} className="h-[44px]" 
+                  alt="BlockchainFX article" />
                 </div>
                 <p className="text-[15px] text-[#fff] text-center leading-[187.5%] font-[400]">
                   {article.description}
