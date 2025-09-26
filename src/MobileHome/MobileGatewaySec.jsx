@@ -78,7 +78,7 @@ function MobileGatewaySec() {
                       </div>
                     </div>
                     <div className="w-[50%] py-[3px]">
-                      <div className="flex items-center max-w-[140px] mx-auto justify-center">
+                      <div className="flex items-center max-w-[110px] mx-auto justify-center">
                         <h4 className="text-[#fff] font-[500] text-[13px] text-center tracking-[-1px] leading-[120%]">
                           {t("gateway_section.blockchainfx.shares_profits")}
                         </h4>
