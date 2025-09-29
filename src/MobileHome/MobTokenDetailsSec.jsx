@@ -117,7 +117,7 @@ function MobTokenDetailsSec() {
               {t("token_allocation_section.contract_address.label")}{" "}
               {/* Use translation */}
             </h4>
-            <h3 className="text-white opacity-70 flex break-all items-center text-[12px] font-[700]">
+            <h3 className="text-white opacity-70 flex break-all items-center text-[11px] font-[700]">
               {address}{" "}
               <img
                 src={copy}
