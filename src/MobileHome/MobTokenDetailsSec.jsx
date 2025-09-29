@@ -123,7 +123,7 @@ function MobTokenDetailsSec() {
               {t("token_allocation_section.Presale_Details.label")}{" "}
               {/* Use translation */}
             </h4>
-            <h3 className="text-[#fff] text-[15px]  flex break-all items-center  font-[700]">
+            <h3 className="text-[#fff] text-[15px]  flex break-all items-center  font-[400]">
               {t("token_allocation_section.Presale_Details.value")}{" "}
             </h3>
           </div>
@@ -135,7 +135,7 @@ function MobTokenDetailsSec() {
               {t("token_allocation_section.contract_address.label")}{" "}
               {/* Use translation */}
             </h4>
-            <h3 className="text-[#fff] text-[12px]  flex break-all items-center  font-[700]">
+            <h3 className="text-[#fff] text-[12px]  flex break-all items-center  font-[400]">
               {address}{" "}
               <img
                 src={copy}
