@@ -222,10 +222,17 @@ p {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: #ffff ;
 }
+
+.multiAwardbr{
+ display: none !important;
+}
 @media (max-width: 768px) {
   .mobilepara br {
     display: none !important;
   }
+  .multiAwardbr{
+ display: block !important;
+}
   .demobr br{
   display: block;
 }

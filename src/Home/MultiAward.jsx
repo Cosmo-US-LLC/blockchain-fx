@@ -13,7 +13,7 @@ export default function MultiAward() {
           <h3 className="text-[30px] text-white font-[600] leading-[120%] tracking-[-2.1px]">
             {t("multiAward.heading")}
           </h3>
-          <p className="text-[48px] text-white font-[600] leading-[120%] tracking-[-3.36px]"
+          <p className="text-[48px] text-white font-[600] leading-[120%] multiAwardbr tracking-[-3.36px]"
              dangerouslySetInnerHTML={{ __html: t("multiAward.subheading") }} />
         </div>
         <div className="px-[240px] space-x-[18px] flex items-center justify-center">
