@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react';
 
 
 const CookiePolicyPopup = () => {
-   const [showPopup, setShowPopup] = useState(true); 
+  const popShow = localStorage?.getItem("cookie")
+   const [showPopup, setShowPopup] = useState(popShow == "true" ? false : true); 
 
   useEffect(() => {
     const handleClick = () => {
       setShowPopup(false); 
+      localStorage?.setItem("cookie", true)
       document.removeEventListener("click", handleClick); 
     };
 
