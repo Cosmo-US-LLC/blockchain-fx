@@ -22,12 +22,12 @@ function MobOurAwardSec() {
           <div
             className=" w-[100%] flex justify-center items-center"
           >
-           <img src={card_1} className="object-cover" alt="multi award" />
+           <img src={card_1} className="object-cover" alt="Blockchain FX awarded ‘Best New Trading Platform 2025’ by TheCoinRise, shown with a crystal trophy and gold laurels." />
           </div>
           <div
             className=" w-[100%] flex justify-center items-center"
           >
-           <img src={card_2} className="object-cover" alt="multi award" />
+           <img src={card_2} className="object-cover" alt="Blockchain FX receives ‘Fastest Growing Trading Broker 2025’ award from AltcoinDaily, with a diamond-shaped glass trophy." />
           </div>
         </div>
       </div>
