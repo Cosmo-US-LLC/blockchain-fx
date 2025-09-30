@@ -21,20 +21,7 @@ function DemoSec() {
     }, 200);
   };
   
-   const handleScrollToDemo = () => {
-    setTimeout(() => {
-      const element = document.getElementById("hero");
-      if (element) {
-        const elementPosition =
-          element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 20;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth",
-        });
-      }
-    }, 200);
-  };
+
   const handleScrollreview = () => {
     setTimeout(() => {
       const element = document.getElementById("hero");
@@ -61,7 +48,7 @@ function DemoSec() {
       
       className="relative mx-auto "
     >
-      <img src={ellipse2} className="absolute w-[100%] top-[-49%]" alt="BlockchainFX" />
+      <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/BlockchainFXDemo/Ellipse%203%20(3).png'} className="absolute w-[100%] top-[-49%]" alt="BlockchainFX" />
       <div className="w-[100%] mx-auto space-y-[24px] px-3">
         <h3 className="mt-8 text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center text-[white]">
           {t("blockchainfx_demo.title")}
@@ -78,7 +65,7 @@ function DemoSec() {
           autoPlay
           controls
         >
-          <source src={liveVideo} type="video/mp4" />
+          <source src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/BlockchainFXDemo/bfx-demo.mp4'} type="video/mp4" />
         </video>
       </div>
       <div className="flex w-full items-center justify-center space-x-2 mt-8 mb-[30px]">

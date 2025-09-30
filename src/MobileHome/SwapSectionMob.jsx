@@ -24,7 +24,7 @@ export default function SwapSectionMob() {
           <div className="w-[100%] flex justify-center">
             <div className="w-full p-2">
               <img
-                src={whitepaper}
+                src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/BlockchainFXDemo/instantSwap.gif'}
                 className="w-[453px] h-auto"
                 alt="whitepaper"
               />

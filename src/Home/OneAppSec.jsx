@@ -10,22 +10,22 @@ import { useTranslation } from "react-i18next";
 
 const items = [
   {
-    icon: oneicon1,
+    icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/oneicon%20(1).svg",
     title: "one_app_sec.items.own_bfx.title",
     description: "one_app_sec.items.own_bfx.description",
   },
   {
-    icon: oneicon2,
+    icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/oneicon%20(4).svg",
     title: "one_app_sec.items.stake_bfx.title",
     description: "one_app_sec.items.stake_bfx.description",
   },
   {
-    icon: oneicon3,
+    icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/oneicon%20(2).svg",
     title: "one_app_sec.items.dashboard.title",
     description: "one_app_sec.items.dashboard.description",
   },
   {
-    icon: oneicon4,
+    icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/oneicon%20(3).svg",
     title: "one_app_sec.items.staking_rewards.title",
     description: "one_app_sec.items.staking_rewards.description",
   },
@@ -78,7 +78,7 @@ function OneAppSec() {
                         </h3>
                         <div>
                           <img
-                            src={index === activeIndex ? iconcls : iconapon}
+                            src={index === activeIndex ? "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/iconopen%20(2).svg" : "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/iconopen%20(1).svg"}
                             alt={index === activeIndex ? "Collapse" : "Expand"}
                             className=""
                           />
@@ -104,7 +104,7 @@ function OneAppSec() {
           </div>
         </div>
         <div className="w-[55%] space-y-[25px] overflow-visible">
-          <img src={dailyimg} className="object-cover" alt="BlockchainFX" />
+          <img src={"https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/dailyimg.webp"} className="object-cover" alt="BlockchainFX" />
           <p className="text-[13px] text-center pl-[32px] leading-[150.598%] font-[400] text-[#fff]">{t("one_app_sec.note")}</p>
         </div>
       </div>

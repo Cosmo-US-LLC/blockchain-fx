@@ -12,7 +12,7 @@ function KYCVerifiedMob() {
       img: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/kycicn%20(3).svg",
     },
     {
-      img: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/kycicn%20(1).svg",
+      img: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/fycicn%20(1).webp",
     },
     {
       img: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/image_588254259.webp",
