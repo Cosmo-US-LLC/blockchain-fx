@@ -185,7 +185,7 @@ function Footer() {
 
         <div className="flex justify-center space-x-[35px] pt-[25px] items-center">
           <img className="h-[38px]" src={icnft1 || "/placeholder.svg"} alt="certik" />
-          <img className="h-[38px]" src={icnft2 || "/placeholder.svg"} alt="solidproof" />
+          <img className="h-[38px]" src={icnft2 || "/placeholder.svg"} alt="SolidProof logo shield icon and text" />
           <img className="h-[38px]" src={icnft3 || "/placeholder.svg"} alt="coinsult" />
         </div>
         <div className="border-t border-b border-white/10 py-[46px]">
@@ -321,7 +321,7 @@ function Footer() {
         {/* bottom */}
         <div className="flex justify-start space-x-[20px] pt-[10px] items-center">
           <img className="h-[22px]" src={icnft1 || "/placeholder.svg"} alt="certik" />
-          <img className="h-[22px] object-cover" src={icnft2 || "/placeholder.svg"} alt="solidproof" />
+          <img className="h-[22px] object-cover" src={icnft2 || "/placeholder.svg"} alt="SolidProof logo shield icon and text" />
           <img className="h-[22px]" src={icnft3 || "/placeholder.svg"} alt="coinsult" />
         </div>
         <div className="border-t border-b border-[#FFF] border-opacity-10 py-[18px]">
