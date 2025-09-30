@@ -2,11 +2,8 @@ import React from "react";
 import check from "../assets/herosection/check.svg";
 import { useTranslation } from "react-i18next";
 
-// import heroVideo from "../assets/herosection/heroVideo.mp4";
-import heroimg from "../assets/herosection/herof.webp";
 import uersrev from "../assets/herosection/Avatar group.png";
 import stars from "../assets/herosection/stars.png";
-import arwgrn from "../assets/herosection/arwgrn.svg";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
 import heroicns2 from "../assets/herosection/herosvg (2).svg";
 import heroicns3 from "../assets/herosection/herosvg (3).svg";
@@ -69,19 +66,19 @@ function Herosection() {
 
             <div className="space-y-[10px] max-w-[530px] border-[0.5px] border-[#C0C0C0] py-[15px] pl-[21px] rounded-[13px]">
               <div className="flex items-center space-x-2">
-                <img src={check} alt="tick icon" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="tick icon" />
                 <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
                   {t("hero.feature1")}
                 </p>
               </div>
               <div className="flex items-center space-x-2">
-                <img src={check} alt="tick icon" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="tick icon" />
                 <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
                   {t("hero.feature2")}
                 </p>
               </div>
               <div className="flex items-center space-x-2">
-                <img src={check} alt="tick icon" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="tick icon" />
                 <p className="text-[#fff] capitalize font-[400] leading-[150%] text-[16px]">
                   {t("hero.feature3")}
                 </p>
@@ -145,9 +142,9 @@ function Herosection() {
                 {t("hero.audited_by")}
               </h3>
               <div className="flex justify-center items-center space-x-[15px]">
-                <img src={heroicns1} alt="certik" />
-                <img src={heroicns2} alt="coinsult" />
-                <img src={heroicns3} alt="solidproof" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(1).svg'} alt="certik" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(2).svg'} alt="coinsult" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
               </div>
             </div>
             <div className="flex items-center justify-center space-x-4">
@@ -155,7 +152,7 @@ function Herosection() {
                 <p className="text-[#fff] text-center mb-2 font-inter font-[400] text-[16px]">
                   {t("hero.verified_ratings")}
                 </p>
-                <img src={uersrev} className="object-cover" loading="lazy" alt="reviews" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/Avatar%20group.png'} className="object-cover" loading="lazy" alt="reviews" />
                  <div
                 className="flex items-center mt-3 justify-center space-x-[10px] rounded-[10px]"
               >
@@ -165,7 +162,7 @@ function Herosection() {
                 <img
                   className="w-[82px] h-[15px]"
                   loading="lazy"
-                  src={stars}
+                  src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/stars.png'}
                   alt="star"
                 />
               </div>

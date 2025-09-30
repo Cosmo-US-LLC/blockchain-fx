@@ -17,8 +17,8 @@ export default function MultiAward() {
              dangerouslySetInnerHTML={{ __html: t("multiAward.subheading") }} />
         </div>
         <div className="px-[240px] space-x-[18px] flex items-center justify-center">
-          <img className="object-cover" src={multi1} alt="Award 1" />
-          <img className="object-cover" src={multi2} alt="Award 2" />
+          <img className="object-cover" src={multi1} alt="Blockchain FX awarded ‘Best New Trading Platform 2025’ by TheCoinRise, shown with a crystal trophy and gold laurels." />
+          <img className="object-cover" src={multi2} alt="Blockchain FX receives ‘Fastest Growing Trading Broker 2025’ award from AltcoinDaily, with a diamond-shaped glass trophy." />
         </div>
       </div>
     </div>
