@@ -122,8 +122,8 @@ function MobileHero() {
             </div>
             <div className="flex justify-center items-center space-x-[20px]">
               <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(1).svg'} alt="certik" />
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(3).svg'} alt="coinsult" />
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(2).svg'} alt="SolidProof logo shield icon and text" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(2).svg'} alt="coinsult" />
             </div>
             <div className="!mt-[8px]">
               <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">
