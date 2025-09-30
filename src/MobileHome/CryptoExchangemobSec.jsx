@@ -35,7 +35,7 @@ function CryptoExchangemobSec() {
             </p>
           </div>
           <div className="flex justify-center mr-3">
-            <img src={crpimg} className="crypto exchange" alt="BlockchainFX mobile trading app with portfolio overview and crypto coins in the background." />
+            <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/CryptoExchange/crpimg.webp'} className="crypto exchange" alt="BlockchainFX mobile trading app with portfolio overview and crypto coins in the background." />
           </div>
           <div className="flex justify-center  relative z-[99] pb-[0px] items-center space-x-[17px]">
             <button
@@ -50,10 +50,10 @@ function CryptoExchangemobSec() {
           </div>
         </div>
         <div className="absolute top-[-1%] left-[0%]">
-          <img src={ernvet1} className="" alt="BlockchainFX" />
+          <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/CryptoExchange/vec%20(1).png'} className="" alt="BlockchainFX" />
         </div>
         <div className="absolute bottom-[-85%]  right-[0%]">
-          <img src={ernvet2} className="" alt="BlockchainFX" />
+          <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/CryptoExchange/vec%20(2).png'} className="" alt="BlockchainFX" />
         </div>
       </div>
     </div>
