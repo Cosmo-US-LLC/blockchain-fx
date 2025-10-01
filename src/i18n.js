@@ -16,7 +16,7 @@ import fr from "./locales/fr.json";
 import pt from "./locales/pt.json";
 import es from "./locales/es.json";
 import ar from "./locales/ar.json";
-import fi from "./locales/fi.json";
+// import fi from "./locales/fi.json";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -34,8 +34,8 @@ i18n.use(initReactI18next).init({
     fr: { translation: fr },
     pt: { translation: pt },
     es: { translation: es },
-    ar: { translation: ar },
-    fi: { translation: fi }
+    ar: { translation: ar }
+    // fi: { translation: fi }
   },
   lng: "en", // Default language
   fallbackLng: "en",
