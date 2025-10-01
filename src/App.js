@@ -91,7 +91,9 @@ function MetaManager() {
     let description =
       "Join BlockchainFX, the soon-to-be-incepted crypto exchange (CEX) offering 500+ assets — crypto, stocks, gold, forex & more in one platform.";
 
-    if (location.pathname === "/how-to-buy") {
+    const path = location.pathname.replace(/^\/[a-z]{2}(?=\/)/, "");
+
+    if (path === "/how-to-buy") {
       title =
         "How to Buy Crypto Presale | BFX Token Guide | BlockchainFX";
       description =
@@ -110,7 +112,6 @@ function MetaManager() {
       el.setAttribute("content", content);
     };
 
-    // Update or create meta tags dynamically
     updateMeta("name", "description", description);
     updateMeta("property", "og:title", title);
     updateMeta("property", "og:description", description);

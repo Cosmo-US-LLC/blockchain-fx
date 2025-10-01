@@ -9,10 +9,22 @@ const breadcrumbMap = {
 
 export default function Breadcrumb() {
   const location = useLocation();
-  const pageName = breadcrumbMap[location.pathname];
-  const blackBgPages = ["/how-to-buy"];
 
-  const isBlackBg = blackBgPages.includes(location.pathname);
+  const supportedLangs = [
+    "vi", "de", "nl", "ja", "tr", "ko", "it", "no", "zh", "ru", "fr",
+    "pt", "es", "ar"
+  ];
+  const parts = location.pathname.split("/").filter(Boolean);
+  let normalizedPath = location.pathname;
+
+  if (parts.length > 1 && supportedLangs.includes(parts[0])) {
+    normalizedPath = "/" + parts.slice(1).join("/");
+  }
+
+  const pageName = breadcrumbMap[normalizedPath];
+  const blackBgPages = ["/how-to-buy"];
+  const isBlackBg = blackBgPages.includes(normalizedPath);
+
   if (!pageName) return null;
 
   return (
