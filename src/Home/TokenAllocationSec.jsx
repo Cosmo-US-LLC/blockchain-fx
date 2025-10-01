@@ -5,9 +5,14 @@ import copy from "../assets/TokenAllocationSec/Icon.svg";
 import chart from "../assets/TokenAllocationSec/chart.png";
 import { useTranslation } from "react-i18next";
 
+import { formatNumber } from "../presale-gg/util";
+import { useApiState } from "../presale-gg/stores/api.store";   
+
 function TokenAllocationSec() {
   const { t } = useTranslation();
+const apiData = useApiState();
 
+ 
   const address = "0x87ad29bc7a161d7ca644eb1db221d962e2d383d2";
 
   const copyToClipboard = () => {
@@ -85,7 +90,7 @@ function TokenAllocationSec() {
      <div className="border px-[17px] space-y-[12px] rounded-[10px] max-w-[400px] w-[100%] pt-[14px] bg-[#030F16] pb-[16px] min-h-[100px] border-[#000]">
       <h4 className="text-white/70 text-[14px] font-[400]">{t("token_allocation_section.Presale_Price.label")}</h4>
       <h3 className="text-white flex leading-[90%] text-[16px] font-[500]">
-        {t("token_allocation_section.Presale_Price.value")}
+         <span> ${formatNumber(apiData?.stage?.token_price)}</span>
       </h3>
     </div>
      <div className="border px-[17px] space-y-[12px] rounded-[10px] max-w-[400px] w-[100%] pt-[14px] bg-[#030F16] pb-[16px] min-h-[100px] border-[#000]">

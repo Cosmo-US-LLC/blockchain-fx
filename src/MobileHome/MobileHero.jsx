@@ -121,9 +121,9 @@ function MobileHero() {
               />
             </div>
             <div className="flex justify-center items-center space-x-[20px]">
-              <img src={heroicns1} alt="certik" />
-              <img src={heroicns2} alt="coinsult" />
-              <img src={heroicns3} alt="solidproof" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(1).svg'} alt="certik" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(2).svg'} alt="coinsult" />
             </div>
             <div className="!mt-[8px]">
               <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">
@@ -133,7 +133,7 @@ function MobileHero() {
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
                 <img
-                  src={uersrev}
+                  src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/Avatar%20group.webp'}
                   className="object-cover h-[43px]"
                   loading="lazy"
                   alt="reviews"
@@ -152,7 +152,7 @@ function MobileHero() {
                 <img
                   className="w-[82px]"
                   loading="lazy"
-                  src={stars}
+                  src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/stars%20(2).webp'}
                   alt="star"
                 />
                 <p className="text-[#fff] font-[400] text-[17.702px]">
@@ -162,19 +162,19 @@ function MobileHero() {
             </div>
             <div className="flex flex-col gap-2 border border-[#C0C0C0] !mt-[20px] py-5 px-3 rounded-[13px]">
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
-                <img src={check} alt="BlockchainFX" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="BlockchainFX" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   {t("hero.featuremob1")}
                 </p>
               </div>
               <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
-                <img src={check} alt="BlockchainFX" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="BlockchainFX" />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   {t("hero.featuremob2")}
                 </p>
               </div>
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
-                <img src={check} alt="BlockchainFX" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="BlockchainFX" />
                 <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]"
                 dangerouslySetInnerHTML={{ __html: t("hero.featuremob3") }}
                 >
@@ -216,7 +216,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={herobnr4}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(1).svg'}
               alt="Featured"
             />
           </a>
@@ -227,7 +227,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={herobnr3}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(2).svg'}
               alt="Featured"
             />
           </a>
@@ -239,7 +239,7 @@ function MobileHero() {
           >
             <img
               className="mix-blend-luminosity w-[100%] h-[100%] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
-              src={herobnr1}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/bnrhero%20(2).webp'}
               alt="Featured"
             />
           </a>
@@ -250,7 +250,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={herobnr2}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/bnrhero%20(3).svg'}
               alt="Featured"
             />
           </a>
@@ -263,7 +263,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={herobnr10}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/bnrhero%20(11).svg'}
               alt="Featured"
             />
           </a>
@@ -274,7 +274,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={herobnr5}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/bnrhero%20(9).svg'}
               alt="Featured"
             />
           </a>
@@ -285,7 +285,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={herobnr6}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/bnrhero%20(7).svg'}
               alt="Featured"
             />
           </a>
@@ -296,7 +296,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] h-[14px] w-[92px] hover:brightness-100 hover:invert-0 object-cover"
-              src={herobnr7}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/full-okx-logo%201.svg'}
               alt="Featured"
             />
           </a>
@@ -309,7 +309,7 @@ function MobileHero() {
           >
             <img
               className="h-[26px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={herobnr8}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/bnrhero%20(8).svg'}
               alt="Featured"
             />
           </a>
@@ -320,7 +320,7 @@ function MobileHero() {
           >
             <img
               className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
-              src={herobnr9}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/bnrhero%20(6).svg'}
               alt="Featured"
             />
           </a>
@@ -331,7 +331,7 @@ function MobileHero() {
           >
             <img
               className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
-              src={herobnr11}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/bnrhero%20(12).svg'}
               alt="Featured"
             />
           </a>

@@ -20,7 +20,7 @@ function HerosectionReferral() {
     );
   };
   return (
-    <div className="pt-[55px] pb-[20px] bg-[#020B10]">
+    <div className="2xl:pt-[55px] xl:pt-[55px] lg:pt-[55px] md:pt-[55px] sm:pt-[17px] pt-[17px] pb-[20px] bg-[#020B10]">
       <div className="max-w-[1200px] relative w-[100%] mx-auto ">
         <div className="">
           <div className="space-y-[10px]">

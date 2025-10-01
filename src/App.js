@@ -26,12 +26,14 @@ import HowToBuyMobile from "./HowToBuy/Mobile";
 import HowToBuyFooter from "./compunents/HowToBuyFooter";
 import Win500 from "./Win500";
 import CookiesPolicy from "./CookiesPolicy";
+import Breadcrumb from "./compunents/Breadcrumb";
 
 function Layout({ isMobile }) {
   return (
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
       <main>
+         {/* <Breadcrumb /> */}
         <Outlet />
       </main>
       <Footer />
@@ -44,6 +46,7 @@ function HowToBuyPageLayout({ isMobile }) {
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
       <main>
+        {/* <Breadcrumb /> */}
         <Outlet />
       </main>
       <HowToBuyFooter />
@@ -68,6 +71,7 @@ function LangGuard({ children }) {
     "pt",
     "es",
     "ar",
+    // "fi",
   ];
 
   if (lang && !supportedLangs.includes(lang)) {
@@ -76,6 +80,48 @@ function LangGuard({ children }) {
 
   return children;
 }
+
+
+function MetaManager() {
+  const location = useLocation();
+
+  useEffect(() => {
+    let title =
+      "BlockchainFX | Decentralized Crypto & Multi-Asset Exchange";
+    let description =
+      "Join BlockchainFX, the soon-to-be-incepted crypto exchange (CEX) offering 500+ assets — crypto, stocks, gold, forex & more in one platform.";
+
+    const path = location.pathname.replace(/^\/[a-z]{2}(?=\/)/, "");
+
+    if (path === "/how-to-buy") {
+      title =
+        "How to Buy Crypto Presale | BFX Token Guide | BlockchainFX";
+      description =
+        "Learn how to buy BFX token in our step-by-step guide. Get in at presale stage before the $0.05 launch. Earn daily USDT rewards by joining early.";
+    }
+
+    document.title = title;
+
+    const updateMeta = (attrName, attrValue, content) => {
+      let el = document.querySelector(`meta[${attrName}='${attrValue}']`);
+      if (!el) {
+        el = document.createElement("meta");
+        el.setAttribute(attrName, attrValue);
+        document.head.appendChild(el);
+      }
+      el.setAttribute("content", content);
+    };
+
+    updateMeta("name", "description", description);
+    updateMeta("property", "og:title", title);
+    updateMeta("property", "og:description", description);
+    updateMeta("property", "og:url", `https://blockchainfx.com${location.pathname}`);
+  }, [location.pathname]);
+
+  return null;
+}
+
+
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
@@ -147,6 +193,7 @@ function App() {
         "pt",
         "es",
         "ar",
+        // "fi",
       ];
 
       if (parts.length > 0 && supportedLangs.includes(parts[0])) {
@@ -184,6 +231,7 @@ function App() {
       "pt",
       "es",
       "ar",
+      // "fi",
     ];
 
     const currentLang = supportedLangs.includes(parts[0]) ? parts[0] : "en";
@@ -205,13 +253,11 @@ function App() {
       .querySelectorAll("link[rel='canonical'], link[rel='alternate']")
       .forEach((el) => el.remove());
 
-    // Add canonical
     const canonicalTag = document.createElement("link");
     canonicalTag.setAttribute("rel", "canonical");
     canonicalTag.setAttribute("href", canonical);
     document.head.appendChild(canonicalTag);
 
-    // Add hreflang for each language
     supportedLangs.forEach((lang) => {
       const href =
         lang === "en"
@@ -232,6 +278,7 @@ function App() {
     document.head.appendChild(xDefault);
   }, [location.pathname, i18n.language, languageLoaded]);
 
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
@@ -245,10 +292,12 @@ function App() {
   if (!languageLoaded) {
     return null;
   }
+
   return (
     <div className="bg-[#fff]">
       <ToastContainer />
       <Toaster position="bottom-center" />
+      <MetaManager />
       <Routes>
         {/* Default layout (no lang prefix) */}
         <Route element={<Layout isMobile={isMobile} />}>
