@@ -26,12 +26,14 @@ import HowToBuyMobile from "./HowToBuy/Mobile";
 import HowToBuyFooter from "./compunents/HowToBuyFooter";
 import Win500 from "./Win500";
 import CookiesPolicy from "./CookiesPolicy";
+import Breadcrumb from "./compunents/Breadcrumb";
 
 function Layout({ isMobile }) {
   return (
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
       <main>
+         <Breadcrumb />
         <Outlet />
       </main>
       <Footer />
@@ -44,6 +46,7 @@ function HowToBuyPageLayout({ isMobile }) {
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
       <main>
+        <Breadcrumb />
         <Outlet />
       </main>
       <HowToBuyFooter />
@@ -68,6 +71,7 @@ function LangGuard({ children }) {
     "pt",
     "es",
     "ar",
+    "fi",
   ];
 
   if (lang && !supportedLangs.includes(lang)) {
@@ -188,6 +192,7 @@ function App() {
         "pt",
         "es",
         "ar",
+        "fi",
       ];
 
       if (parts.length > 0 && supportedLangs.includes(parts[0])) {
@@ -225,6 +230,7 @@ function App() {
       "pt",
       "es",
       "ar",
+      "fi",
     ];
 
     const currentLang = supportedLangs.includes(parts[0]) ? parts[0] : "en";

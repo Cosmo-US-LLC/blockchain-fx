@@ -23,6 +23,7 @@ import flag12 from "../assets/navbar/flg (12).svg";
 import flag13 from "../assets/navbar/flg (13).svg";
 import flag14 from "../assets/navbar/flg (14).svg";
 import flag15 from "../assets/navbar/ar.png";
+import flag16 from "../assets/navbar/fi.png";
 
 import WalletPopup from "./ui/WalletPopup";
 import DashboardPopup from "./ui/DashboardPopup";
@@ -49,6 +50,7 @@ const flags = [
   { flag: flag12, abbreviation: "FR", name: "French" },
   { flag: flag13, abbreviation: "PT", name: "Portuguese" },
   { flag: flag14, abbreviation: "ES", name: "Spanish" },
+  { flag: flag16, abbreviation: "FI", name: "Finnish" },
 ];
 
 function NavbarMobile() {
