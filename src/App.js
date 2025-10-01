@@ -33,7 +33,7 @@ function Layout({ isMobile }) {
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
       <main>
-         <Breadcrumb />
+         {/* <Breadcrumb /> */}
         <Outlet />
       </main>
       <Footer />
@@ -46,7 +46,7 @@ function HowToBuyPageLayout({ isMobile }) {
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
       <main>
-        <Breadcrumb />
+        {/* <Breadcrumb /> */}
         <Outlet />
       </main>
       <HowToBuyFooter />
