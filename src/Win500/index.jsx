@@ -9,7 +9,7 @@ function Win500() {
       window.scrollTo(0, 0);
     }, []);
   return (
-    <div className="pt-12 bg-[#020b10] px-4">
+    <div className=" 2xl:pt-12 xl:pt-12 lg:pt-12 md:pt-12 sm:pt-[17px] pt-[17px] bg-[#020b10] px-4">
       <h1 className="text-[#E5AE00] font-extrabold text-[40px] pb-[20px] max-w-4xl mx-auto text-center">
         JOIN OUR $500K GIVEAWAY!
       </h1>
