@@ -1,8 +1,8 @@
 import whitepaper from "../assets/Whitepaper/instantSwap.gif";
 import { useTranslation } from "react-i18next";
 export default function SwapSectionMob() {
-  const { t } = useTranslation();
- 
+  const { t, i18n } = useTranslation();
+ const textSize = i18n.language === "fi" ? "text-[12px]" : "text-[16.124px]";
 
   return (
     <>
@@ -42,17 +42,19 @@ export default function SwapSectionMob() {
               </div>
               <div className="space-y-[10px]">
                 <div className="flex justify-center space-x-3">
-                  <h4 className="text-[16.124px] text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_crypto")}</h4>
-                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_stocks")}</h4>
-                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_forex")}</h4>
-                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_commodities")}</h4>
+                  <h4 
+                   className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}
+                  >{t("blockchainfx_demo.asset_crypto")}</h4>
+                  <h4  className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}>{t("blockchainfx_demo.asset_stocks")}</h4>
+                  <h4  className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}>{t("blockchainfx_demo.asset_forex")}</h4>
+                  <h4  className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}>{t("blockchainfx_demo.asset_commodities")}</h4>
                 </div>
                 <div className="flex justify-center space-x-4 gap-y-3 flex-wrap">
-                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_etfs")}</h4>
-                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_options")}</h4>
-                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_futures")}</h4>
-                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_indices")}</h4>
-                  <h4 className="text-[16.124px] text-[#fff] font-[500] leading-[116.878%] tracking-[-0.267px]">{t("blockchainfx_demo.asset_cfds")}</h4>
+                  <h4  className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}>{t("blockchainfx_demo.asset_etfs")}</h4>
+                  <h4  className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}>{t("blockchainfx_demo.asset_options")}</h4>
+                  <h4  className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}>{t("blockchainfx_demo.asset_futures")}</h4>
+                  <h4  className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}>{t("blockchainfx_demo.asset_indices")}</h4>
+                  <h4  className={`${textSize} text-[#fff] font-[600] leading-[116.878%] tracking-[-0.267px]`}>{t("blockchainfx_demo.asset_cfds")}</h4>
                 </div>
               </div>
             </div>
