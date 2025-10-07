@@ -7,7 +7,7 @@ import i18n from "../i18n";
 import logo from "../assets/navbar/desk_logo.png";
 // import flag from "../assets/navbar/flg.svg";
 import flag15 from "../assets/navbar/ar.png";
-import flag16 from "../assets/navbar/fi.png";
+import flag16 from "../assets/navbar/fi.svg";
 import arwdwn from "../assets/navbar/arw.png";
 import flag1 from "../assets/navbar/flg (1).svg";
 import flag10 from "../assets/navbar/flg (10).svg";
@@ -47,8 +47,8 @@ const flags = [
   { flag: flag11, abbreviation: "RU", name: "Russian" },
   { flag: flag12, abbreviation: "FR", name: "French" },
   { flag: flag13, abbreviation: "PT", name: "Portuguese" },
-  { flag: flag14, abbreviation: "ES", name: "Spanish" }
-  // { flag: flag16, abbreviation: "FI", name: "Finnish" },
+  { flag: flag14, abbreviation: "ES", name: "Spanish" },
+  { flag: flag16, abbreviation: "FI", name: "Finnish" }
 ];
 
 function Navbar() {
