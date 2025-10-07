@@ -500,8 +500,8 @@
   }
 },
 "gateway_section": {
-  "title": "Ensimmäinen kryptopörssi <br/> joka maksaa haltijoilleen",
-  "description": "Sen sijaan, että käyttäjiä rasitettaisiin korkeilla maksuilla, BlockchainFX vähentää niitä jopa 70 %. Puolet kaikista maksuista <br/> maksetaan $BFX-haltijoille päivittäisinä staking-palkkioina. Alusta asettaa yhteisön keskiöön, <br/>varmistaen, että käyttäjät palkitaan projektin menestyksen jokaisessa vaiheessa.",
+  "title": "Ensimmäinen kryptopörssi  joka maksaa haltijoilleen",
+  "description": "Sen sijaan, että käyttäjiä rasitettaisiin korkeilla maksuilla, BlockchainFX vähentää niitä jopa 70 %. Puolet kaikista maksuista  maksetaan $BFX-haltijoille päivittäisinä staking-palkkioina. Alusta asettaa yhteisön keskiöön, varmistaen, että käyttäjät palkitaan projektin menestyksen jokaisessa vaiheessa.",
   "features": {
     "fees": "Maksut",
     "asset_variety": "Varallisuuserien monipuolisuus",
@@ -525,7 +525,7 @@
 },
 "standout_section": {
   "title": "Erottuvat ominaisuudet",
-  "description": "Pörssien kryptovaluutat ovat historiallisesti menestyneet hyvin aktiivisen käyttäjäkunnan, <br/> alustan tuottojen ja jatkuvan markkinoinnin ansiosta. BFX, ensimmäinen token monivaraisten kaupankäyntialustojen joukossa, <br/> tarjoaa ainutlaatuisia ominaisuuksia, jotka tuovat todellista arvoa markkinoille.",
+  "description": "Pörssien kryptovaluutat ovat historiallisesti menestyneet hyvin aktiivisen käyttäjäkunnan, <br/> alustan tuottojen ja jatkuvan markkinoinnin ansiosta. BFX, ensimmäinen token monivaraisten kaupankäyntialustojen joukossa,  tarjoaa ainutlaatuisia ominaisuuksia, jotka tuovat todellista arvoa markkinoille.",
   "table": {
     "token_name": "Tokenin nimi",
     "ranked": "Sijoitus",
