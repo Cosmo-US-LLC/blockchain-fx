@@ -433,10 +433,7 @@ const BuyTab = ({ onTabChange}) => {
           <div className="  px-1 flex justify-between items-center">
             <div className="w-[80%]">
           <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
-            {t('buy_tab.you_pay_in')}
-            {selectedToken?.symbol.toUpperCase() === "CARD"
-              ? "USD"
-              : selectedToken?.symbol.toUpperCase()}
+            {t('buy_tab.you_pay_in')} {selectedToken?.symbol.toUpperCase() === "CARD" ? "USD" : selectedToken?.symbol.toUpperCase()}
             :
           </label>
               <input
