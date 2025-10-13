@@ -27,6 +27,7 @@ import HowToBuyFooter from "./compunents/HowToBuyFooter";
 import Win500 from "./Win500";
 import CookiesPolicy from "./CookiesPolicy";
 import Breadcrumb from "./compunents/Breadcrumb";
+import ClickIDTracker from "./compunents/ClickIDTracker";
 
 function Layout({ isMobile }) {
   return (
@@ -295,6 +296,7 @@ function App() {
 
   return (
     <div className="bg-[#fff]">
+       <ClickIDTracker />
       <ToastContainer />
       <Toaster position="bottom-center" />
       <MetaManager />
