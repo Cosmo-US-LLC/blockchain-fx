@@ -1,0 +1,1137 @@
+{
+  "navbar": {
+    "whatIsBlockchainFX": "Hvad er BlockchainFX?",
+    "howToBuy": "Sådan køber du",
+    "whitepaper": "Hvidbog",
+    "referral": "Henvisning",
+    "reviews": "Anmeldelser",
+    "languages": "Sprog",
+    "dashboard": "Dashboard",
+    "connect_wallet": "Forbind Wallet"
+  },
+
+  "live_presale_section": {
+    "title": "BFX-forsalget er live",
+    "buy_button": "Køb BFX"
+  },
+  "hero": {
+    "title": "Den første krypto <br /> handel",
+    "title_highlight": "Super App",
+    "subtitle": "BlockchainFX er en næste generations krypto-børs, der forbinder DeFi<br /> med de traditionelle finansmarkeder. Det er den eneste Web3-platform, der giver adgang til aktier, forex, ETF'er og mere.",
+    "feature1": "Den første krypto-børs der forbinder blockchain og finans",
+    "feature2": "Bitcoin, Ethereum, guld, Tesla og over 500+ flere aktiver",
+    "feature3": "Udnævnt til 'Den bedste nye krypto-handelsapp i 2025'",
+    "featuremob1": "Den første børs der forbinder blockchain og traditionel finans på tværs af 500+ aktiver",
+    "featuremob2": "Bitcoin, Ethereum, guld, aktier, forex, ETF'er, optioner, futures – alt samlet ét sted",
+    "featuremob3": "BlockchainFX er blevet udnævnt til <br /> 'Den bedste nye krypto-handelsapp i 2025'",
+    "buy_button": "Køb $BFX",
+    "how_it_works_button": "Hvordan fungerer det?",
+    "audited_by": "Revideret og godkendt af",
+    "verified_ratings": "Verificerede vurderinger",
+    "rating": "4.87/5",
+    "presale_stage_almost_sold_out": "BFX FORSALGSFASEN SÆLGER HURTIGT UD"
+  },
+  "featured_sec": {
+    "featured_in": "Fremhævet i:"
+  },
+  "KYCVerified": {
+    "security_verified_title": "Sikkerhed verificeret af brancheeksperter",
+    "completed": "Fuldført",
+    "card_items": [
+      {
+        "title": "Ekstern revision af Coinsult",
+        "description": "BlockchainFX er blevet fuldt revideret af Coinsult,<br /> et betroet revisionsfirma fra Holland, <br />og bekræftet til at være 100% sikkert."
+      },
+      {
+        "title": "Ekstern revision af CertiK",
+        "description": "CertiK, verdens førende blockchain-sikkerhedsfirma, har revideret BlockchainFX og bekræftet <br /> at det opfylder de højeste sikkerhedsstandarder."
+      },
+      {
+        "title": "Team KYC verificeret af Solidproof",
+        "description": "BlockchainFX-teamet er blevet succesfuldt verificeret af Solidproof, et velrenommeret revisionsfirma fra Tyskland."
+      }
+    ]
+  },
+  "experts": {
+    "heading": "Hvad eksperterne siger om BFX",
+    "slide1": {
+      "text": "Forestil dig at komme ind i Coinbase eller Binance på dag ét – det er præcis, hvad BFX tilbyder lige nu i sin presale.",
+      "name": "Clay Bro",
+      "role": "Krypto Youtuber, 136K Følgere"
+    },
+    "slide2": {
+      "text": "Hold BFX og tjen daglige USDT-belønninger fra handelsgebyrer, selv når du ikke handler. Det er ikke bare en token, det er din nøgle til passiv staking-indkomst.",
+      "name": "Crypto Volt",
+      "role": "Krypto Youtuber, 179K Følgere"
+    },
+    "slide3": {
+      "text": "Forex, indekser, aktier, ETF'er, endda optioner — du kan handle dem alle på ét sted. Det er den første platform af sin slags.",
+      "name": "Crypto Dealer",
+      "role": "Youtuber, 102K Følgere"
+    },
+    "slide4": {
+      "text": "Hver gang nogen handler på denne platform, tjener du — jo mere BFX du holder, jo højere bliver dine belønninger.",
+      "name": "Crypto Pandas",
+      "role": "Youtuber, 22,7K Følgere"
+    }
+  },
+  "blockchainfx_demo": {
+    "title": "BlockchainFX Demo",
+    "description": "På blot få sekunder kan brugere <br/> handle BTC, Tesla, Guld, Pepe, ETF'er,<br/> CFD'er og meget mere – helt problemfrit<br/> på én kraftfuld platform.",
+    "buy_button": "Køb BFX",
+    "watch_live_button": "Se live-handel her",
+    "assets_title": "Mere end 500 aktiver",
+    "assets_description": "BlockchainFX er den første børs, der lader Web3-brugere øjeblikkeligt skifte mellem krypto og traditionelle aktivklasser. Ingen forsinkelser, ingen ekstra gebyrer, intet skift af platforme. Bare hurtig og handel i realtid.",
+    "asset_list_title": "Brugere kan handle på BlockchainFX:",
+    "asset_crypto": "Krypto",
+    "asset_stocks": "Aktier",
+    "asset_forex": "Valuta (Forex)",
+    "asset_commodities": "Råvarer",
+    "asset_etfs": "ETF'er",
+    "asset_options": "Optioner",
+    "asset_futures": "Futures",
+    "asset_indices": "Indeks",
+    "asset_cfds": "CFD'er og mere."
+  },
+  "creditCard": {
+    "title": "BFX Visa-kort",
+    "item1": "Ubegrænset forbrug",
+    "item2": "Metal- eller 18 karat guldkort",
+    "item3": "Op til $100.000 pr. transaktion",
+    "item4": "Op til $10.000 månedligt i hæveautomater",
+    "item5": "Brug BFX og USDT-belønninger til betalinger",
+    "item6": "Accepteres over hele verden (online & i butikker)",
+    "item7": "Fyld op med BFX og 20+ kryptovalutaer",
+    "item8": "BFX Visa-kort er kun tilgængeligt i presale",
+    "compatibleWith": "Kompatibel med",
+    "shippingNote": "Forsendelse starter, når BFX-presale slutter, da alle kort sendes ud samtidigt. Hvert medlem af BFX Founder's Club vil modtage en sikker formular efter presale til at indsende deres forsendelsesoplysninger. Kort leveres globalt via DHL eller FedEx Express."
+  },
+  "whitepaper": {
+    "heading": "BFX Whitepaper",
+    "description": "Udforsk whitepaperet for at lære, hvordan BFX driver et næste-generations handelsøkosystem. Opdag dets nøglefunktioner og fordele, og se, hvordan BlockchainFX bygger bro mellem blockchain og traditionel finans ved at skabe kryptobranchens første handels-superapp.",
+    "buyButton": "Køb $BFX",
+    "accessButton": "Få adgang til Whitepaper"
+  },
+  "wallet_section": {
+    "title": "BFX Presale",
+    "description": "BFX er verdens første kryptovaluta, der er bakket op af en global multi-asset handelsplatform, <br /> hvor indehavere modtager USDT-belønninger, hver gang nogen handler — selv under presale.",
+    "presale_ended": "Presale afsluttet",
+    "uniswap": "UNISWAP",
+    "how_to_buy": "Sådan køber du",
+    "step_1_title": "1. Vælg en betalingsmetode",
+    "step_1_description": "<li>Forbind din kryptopung</li><li>Vælg din foretrukne betalingsmetode</li><li>Indtast det antal BFX, du vil købe</li>",
+    "step_2_title": "2. Bekræft transaktionen",
+    "step_2_description": "<li>Klik på 'Køb nu' og bekræft transaktionen</li>",
+    "step_3_title": "3. Begynd at tjene i dag",
+    "step_3_description": "<p>Tjen BFX og USDT-belønninger fra dag ét!</p> <br/><li>Staking-belønninger udbetales hver 24. time og tilføjes automatisk til din pung.</li>",
+    "step_4_title": "4. Claim",
+    "step_4_description": "<p>Tillykke! Du vil kunne claime dine tokens med ét klik på denne hjemmeside, når presale slutter. <br/><br/> Tak fordi du er en del af BFX-rejsen!</p>",
+    "launch_title": "5. Lancering",
+    "exchanges": "$BFX lanceres på flere top-tier børser",
+    "launch_description": "$BFX lanceres på flere top-tier børser",
+    "buttonBuy": "Køb nu",
+    "buttonBuybfx": "Køb BFX"
+  },
+  "next_generation_section": {
+    "title": "Næste Generations Handelsoplevelse",
+    "team_experience": "25 års <br /> erfaring",
+    "assets": "500+ <br /> aktiver",
+    "tight_spreads": "Ultra <br /> stramme spreads",
+    "live_chat": "24/7 Live <br /> Chat-support",
+    "register": "Registrer <br /> på få sekunder",
+    "one_click": "Én-klik <br /> handel",
+    "leverage": "Handel med <br /> gearing",
+    "charts": "Op til 9 <br /> diagrammer",
+    "indicators": "100+ <br /> indikatorer",
+    "tournaments": "Månedlige <br /> turneringer"
+  },
+  "trade_over_section": {
+    "title": "Mere end 500 forskellige aktiver",
+    "crypto": {
+      "title": "Krypto",
+      "description": "Bitcoin, Ethereum, Solana, Pepe og flere."
+    },
+    "stocks": {
+      "title": "Aktier",
+      "description": "Apple, Tesla, Nvidia, Netflix, Coca Cola og flere."
+    },
+    "forex": {
+      "title": "Forex",
+      "description": "USD, EUR, JPY, GBP, AUD og flere."
+    },
+    "commodities": {
+      "title": "Råvarer",
+      "description": "Guld, Sølv, Olie, Sukker og flere."
+    },
+    "indices": {
+      "title": "Indeks",
+      "description": "Dow Jones, S&P 500, Nasdaq og flere."
+    }
+  },
+  "one_app_section": {
+    "title": "Alt i én app",
+    "description": "En lynhurtig og innovativ handelsløsning",
+    "any_device": {
+      "title": "Alle enheder",
+      "description": "Brugere kan handle fra enhver enhed, uanset om det er PC, Mac, iOS eller Android."
+    },
+    "technical_tools": {
+      "title": "Tekniske værktøjer",
+      "description": "Avancerede tekniske værktøjer designet til at forbedre markedsanalyse og beslutningstagning."
+    },
+    "risk_management": {
+      "title": "Risikostyring",
+      "description": "Omfattende risikostyringsfunktioner for at minimere risici."
+    },
+    "multiple_charts": {
+      "title": "Flere diagrammer",
+      "description": "Traders kan bruge flere diagrammer samtidig for bedre markedsindsigt."
+    }
+  },
+  "one_app_sec": {
+    "badge": "Live nu (Beta-fase)",
+    "title": "Daglige staking-belønninger",
+    "subtitle": "Kom ind nu og begynd at tjene hver dag",
+    "note": "Forbind din wallet og klik i øverste højre hjørne for at se dit personlige dashboard",
+    "items": {
+      "own_bfx": {
+        "title": "Ej BFX",
+        "description": "Køb BFX under presale på blot få sekunder."
+      },
+      "stake_bfx": {
+        "title": "Stake dine BFX",
+        "description": "Gå til presale-dashboardet, klik på 'Stake', vælg beløbet og bekræft."
+      },
+      "dashboard": {
+        "title": "Personligt Dashboard",
+        "description": "Forbind din wallet og klik på 'Dashboard' øverst til højre for at se din BFX-saldo."
+      },
+      "staking_rewards": {
+        "title": "Staking-belønninger",
+        "description": "Dine BFX- og USDT-belønninger vil vises på dashboardet 24 timer efter, du staker dine coins."
+      }
+    }
+  },
+  "earn_on_section": {
+    "title": "Tjen dagligt med BFX",
+    "description": "BFX-indehavere tjener daglige staking-belønninger i USDT og BFX, drevet af BlockchainFX-handelsgebyrer. Hver gang nogen handler på appen, bliver indehaverne belønnet. Jo mere BFX en person har, jo mere tjener de — op til maksimalt 25.000 USDT pr. dag.",
+    "button": "Køb $BFX"
+  },
+  "how_does_it_sec": {
+    "title": "Hvordan virker det?",
+    "subtitle": "BlockchainFX er en global børs, hvor brugere kan handle krypto, aktier, forex, ETF'er og mere. Hver gang nogen handler, går 70% af handelsgebyrerne til $BFX staking-poolen, tilbagekøb og token-forbrændinger.<br/><br/> Staking-belønninger er baseret på, hvor meget BFX et community-medlem har, og er begrænset til 25.000 USDT pr. dag.",
+    "subtitle_des": "BlockchainFX er en global børs, hvor brugere kan handle krypto, aktier, forex, ETF'er og mere. <br/> Hver gang nogen handler, går 70% af handelsgebyrerne til $BFX staking-poolen, tilbagekøb og token-forbrændinger.<br/> Staking-belønninger er baseret på, hvor meget BFX et community-medlem har, og er begrænset til 25.000 USDT pr. dag.",
+    "cards": {
+      "staking_rewards": {
+        "title": "BFX & USDT Staking-belønninger",
+        "description": "50% af alle indsamlede gebyrer distribueres automatisk til BFX-indehavere, der staker deres coins."
+      },
+      "buybacks": {
+        "title": "Daglige tilbagekøb",
+        "description": "20% af gebyrerne bruges til at tilbagekøbe $BFX dagligt, hvilket hjælper med at øge efterspørgslen og understøtte prisen."
+      },
+      "burn": {
+        "title": "Forbrænd BFX Coins",
+        "description": "Halvdelen af de tilbagekøbte tokens brændes permanent, hvilket gradvist reducerer udbuddet af $BFX."
+      }
+    }
+  },
+  "premium_section": {
+    "title": "Få særlige bonusser fra $1.000",
+    "description": "Køb $BFX under presale og bliv medlem af Founder's Club fra kun $1.000.<br />Få dit eksklusive NFT, BFX Visa-kort, bonus-tokens, daglige USDT staking-belønninger,<br /> og gratis handelscredits. Udelukkende tilgængelig under presale.",
+    "how_much_spend": "Hvor meget vil du bruge",
+    "cards": [
+      {
+        "title": "Begynder",
+        "price": "$1,000",
+        "points": [
+          "BFX Visa-kort",
+          "10% BFX Bonus",
+          "BFX Staking-belønninger",
+          "Daglige USDT-belønninger",
+          "Handelscredits op til $25k"
+        ],
+        "buttonLabel": "Køb $BFX • $1,000",
+        "cardPointsTooltips": [
+          "Få dit BFX Visa-kort (virtuelt og fysisk), accepteret online og i butikker verden over.",
+          "Køb dette NFT og få ekstra BFX coins tilføjet til din wallet.",
+          "Modtag BFX staking-belønninger hver gang nogen handler på BlockchainFX.",
+          "Få USDT-belønninger, udbetalt som en procentdel af dine samlede BFX staking-indtjeninger.",
+          "Modtag handelscredits efter presale til brug på BlockchainFX."
+        ]
+      },
+      {
+        "title": "Avanceret",
+        "price": "$2,500",
+        "points": [
+          "BFX Visa-kort",
+          "20% BFX Bonus",
+          "BFX Staking-belønninger",
+          "$500 Handelscredits",
+          "Daglige USDT-belønninger"
+        ],
+        "buttonLabel": "Køb $BFX • $2,500",
+        "cardPointsTooltips": [
+          "Få dit BFX Visa-kort (virtuelt og fysisk), accepteret online og i butikker verden over.",
+          "Køb dette NFT og få ekstra BFX coins tilføjet til din wallet.",
+          "Modtag BFX staking-belønninger hver gang nogen handler på BlockchainFX.",
+          "Modtag handelscredits efter presale til brug på BlockchainFX.",
+          "Få USDT-belønninger, udbetalt som en procentdel af dine samlede BFX staking-indtjeninger."
+        ]
+      },
+      {
+        "title": "Pro",
+        "price": "$5,000",
+        "points": [
+          "Metal BFX Visa-kort",
+          "30% BFX Bonus",
+          "BFX Staking-belønninger",
+          "$1000 Handelscredits",
+          "Daglige USDT-belønninger"
+        ],
+        "buttonLabel": "Køb $BFX • $5,000",
+        "cardPointsTooltips": [
+          "Få dit BFX Visa-kort (virtuelt og fysisk), accepteret online og i butikker verden over.",
+          "Køb dette NFT og få ekstra BFX coins tilføjet til din wallet.",
+          "Modtag BFX staking-belønninger hver gang nogen handler på BlockchainFX.",
+          "Modtag handelscredits efter presale til brug på BlockchainFX.",
+          "Få USDT-belønninger, udbetalt som en procentdel af dine samlede BFX staking-indtjeninger."
+        ]
+      },
+      {
+        "title": "Ekspert",
+        "price": "$10,000",
+        "points": [
+          "Metal BFX Visa-kort",
+          "40% BFX Bonus",
+          "BFX Staking-belønninger",
+          "10% USDT-belønninger",
+          "$2000 Handelscredits"
+        ],
+        "buttonLabel": "Køb $BFX • $10,000",
+        "cardPointsTooltips": [
+          "Få dit BFX Visa-kort (virtuelt og fysisk), accepteret online og i butikker verden over.",
+          "Køb dette NFT og få ekstra BFX coins tilføjet til din wallet.",
+          "Modtag BFX staking-belønninger hver gang nogen handler på BlockchainFX.",
+          "Få USDT-belønninger, udbetalt som en procentdel af dine samlede BFX staking-indtjeninger.",
+          "Modtag handelscredits efter presale til brug på BlockchainFX."
+        ]
+      },
+      {
+        "title": "Master",
+        "price": "$25,000",
+        "points": [
+          "Metal BFX Visa-kort",
+          "50% BFX Bonus",
+          "BFX Staking-belønninger",
+          "15% USDT-belønninger",
+          "$5000 Handelscredits"
+        ],
+        "buttonLabel": "Køb $BFX • $25,000",
+        "cardPointsTooltips": [
+          "Få dit Metal BFX Visa-kort (virtuelt og fysisk), accepteret online og i butikker verden over.",
+          "Køb dette NFT og få ekstra BFX coins tilføjet til din wallet.",
+          "Modtag BFX staking-belønninger hver gang nogen handler på BlockchainFX.",
+          "Få USDT-belønninger, udbetalt som en procentdel af dine samlede BFX staking-indtjeninger.",
+          "Modtag handelscredits efter presale til brug på BlockchainFX."
+        ]
+      },
+      {
+        "title": "Elite",
+        "price": "$50,000",
+        "points": [
+          "Metal BFX Visa-kort",
+          "60% BFX Bonus",
+          "BFX Staking-belønninger",
+          "20% USDT-belønninger",
+          "$10000 Handelscredits"
+        ],
+        "buttonLabel": "Køb $BFX • $50,000",
+        "cardPointsTooltips": [
+          "Få dit Metal BFX Visa-kort (virtuelt og fysisk), accepteret online og i butikker verden over.",
+          "Køb dette NFT og få ekstra BFX coins tilføjet til din wallet.",
+          "Modtag BFX staking-belønninger hver gang nogen handler på BlockchainFX.",
+          "Få USDT-belønninger, udbetalt som en procentdel af dine samlede BFX staking-indtjeninger.",
+          "Modtag handelscredits efter presale til brug på BlockchainFX."
+        ]
+      },
+      {
+        "title": "Legende",
+        "price": "$100,000",
+        "points": [
+          "18 Karat BFX Visa-kort",
+          "80% BFX Bonus",
+          "BFX Staking-belønninger",
+          "30% USDT-belønninger",
+          "$25000 Handelscredits"
+        ],
+        "buttonLabel": "Køb $BFX • $100,000",
+        "cardPointsTooltips": [
+          "Få dit 18 Karat BFX Visa-kort (virtuelt og fysisk), accepteret online og i butikker verden over.",
+          "Køb dette NFT og få ekstra BFX coins tilføjet til din wallet.",
+          "Modtag BFX staking-belønninger hver gang nogen handler på BlockchainFX.",
+          "Få USDT-belønninger, udbetalt som en procentdel af dine samlede BFX staking-indtjeninger.",
+          "Modtag handelscredits efter presale til brug på BlockchainFX."
+        ]
+      }
+    ],
+    "nft_label": "NFT",
+    "faq": {
+      "title": "Spørgsmål om Founder's Club",
+      "questions": [
+        {
+          "question": "Hvornår får jeg mit Founder's Club NFT?",
+          "answer": "<li>Du modtager dit Founder's Club NFT automatisk efter køb af det krævede beløb $BFX.</li> <li>NFT'et vises i dit personlige dashboard og kan gøres krav på, når presale er slut.</li> <li>For at få adgang til dashboardet, forbind den samme wallet ved at klikke på 'Connect Wallet' øverst til højre.</li>"
+        },
+        {
+          "question": "Hvornår får jeg mine bonusser?",
+          "answer": "<li>Dine BFX-bonusser bliver straks tilføjet til dit dashboard</li><li>For at få adgang til dit dashboard, klik på 'Connect Wallet'-knappen</li>"
+        },
+        {
+          "question": "Kan jeg få et NFT med flere køb?",
+          "answer": "<li>Ja, du kan købe $BFX i mindre beløb for at nå det samlede krav.</li><li>For eksempel giver køb af $200 fem gange dig Novice NFT (til en værdi af $1.000).</li>"
+        },
+        {
+          "question": "Kan jeg opgradere mit NFT?",
+          "tooltip": true,
+          "answer": "<li>Ja, du kan opgradere flere gange under presale.</li> <li>Du vil modtage belønninger og NFT'et for det højeste niveau, du opnår.</li> <li>Efter presale slutter, vil opgraderinger ikke længere være mulige.</li>"
+        }
+      ],
+      "tooltip_text": {
+        "line1": "For eksempel giver køb af $1.000 BFX dig Novice NFT.",
+        "line2": "Brug yderligere $1.500 for at opgradere til Avanceret.",
+        "line3": "Du kan fortsætte med at opgradere, indtil du når det sidste Legende NFT."
+      }
+    }
+  },
+  "exclusive_benefits_section": {
+    "title": "Fordele ved at købe BFX under presale",
+    "items": {
+      "benefit_1": {
+        "title": "Laveste tokenpris<br/> før lancering",
+        "description": "At købe under presale giver dig en markant lavere pris sammenlignet med BFX-lanceringsprisen."
+      },
+      "benefit_2": {
+        "title": "Begrænset udgave<br/> BFX Visa-kort",
+        "description": "Få et metal- eller 18 karat guld BFX Visa-kreditkort med ubegrænset forbrug og top-ups, anvendeligt over hele verden."
+      },
+      "benefit_3": {
+        "title": "Eksklusive bonus<br/> handelscredits",
+        "description": "Få op til $25.000 i gratis handelscredits til at kickstarte din handel på BlockchainFX – helt uden betingelser."
+      },
+      "benefit_4": {
+        "title": "Daglige USDT <br/> staking-belønninger",
+        "description": "Begynd at tjene USDT og BFX-belønninger i dag ved at deltage i BFX-presale. Jo tidligere du køber, jo mere kan du tjene over tid."
+      }
+    }
+  },
+  "less_than_section": {
+    "title": "Bro mellem krypto og finans",
+    "description": "Krypto udgør kun 0,87% af den globale handelsvolumen i 2024 med et gennemsnit på $84,3 milliarder dagligt. Samtidig håndterer valutamarkedet alene $7,5 billioner om dagen. Dette gab giver en stor mulighed for BFX til at forbinde kryptobrugere med verdens største finansielle markeder.",
+    "costs": {
+      "title": "Omkostninger",
+      "description": "Op til $2 millioner"
+    },
+    "chart_title": "Gennemsnitlig daglig handelsvolumen i 2024",
+    "chart": {
+      "bonds": "Obligationer: <br/> $1,1 Billion (11,64%)",
+      "stocks": "U.S. Aktier: <br/> $700 Milliarder (7,15%)",
+      "commodities": "Råvarer: <br/> $250 Milliarder (2,55%)",
+      "etfs": "ETF'er: <br/> $150 Milliarder (1,53%)",
+      "crypto": "Krypto: <br/> $89 Milliarder (0,87%)",
+      "forex": "Forex: <br/> $7,5 Billioner (76,62%)"
+    },
+    "legend": {
+      "forex": "Forex",
+      "bonds": "Obligationer",
+      "us_stock": "U.S. Aktier",
+      "commodities": "Råvarer",
+      "etfs": "ETF'er",
+      "crypto": "Krypto"
+    }
+  },
+  "standout_section": {
+    "title": "Unikke funktioner",
+    "description": "Kryptovalutaer fra børser har historisk set klaret sig godt på grund af deres aktive brugerbase, platformindtægter og løbende markedsføring. BFX, den første token fra en multi-asset handelsplatform,<br/> tilbyder unikke funktioner, der giver reel værdi til markedet.",
+    "table": {
+      "token_name": "Token-navn",
+      "ranked": "Rangering",
+      "marketcap": "Markedsværdi",
+      "trade_crypto": "Handel med krypto",
+      "leverage_trading": "Leverage-handel",
+      "risk_management": "Risikostyring",
+      "forex": "Forex",
+      "commodities": "Råvarer",
+      "cfds": "CFD'er",
+      "etfs": "ETF'er",
+      "usdt_rewards": "USDT-belønninger",
+      "blockchainfx": "BlockchainFX",
+      "bitget": "Bitget",
+      "hyperliquid": "Hyperliquid",
+      "uniswap": "Uniswap"
+    }
+  },
+  "what_is_section": {
+    "title": "Hvad gør BFX anderledes?",
+    "description": "BFX er BlockchainFX’s native coin, der giver en unik mulighed for at blive en del af en hurtigt voksende global handelsplatform med ambitionen om at blive et af verdens førende handelsnetværk.",
+    "features": {
+      "early_access": "Tidlig adgang",
+      "daily_staking_rewards": "Daglige staking-belønninger",
+      "lower_trading_fees": "70% lavere handelsgebyrer",
+      "trading_credits": "Handelscredits"
+    }
+  },
+  "token_allocation_section": {
+    "title": "Token Detaljer",
+    "description": "Tokenfordelingen er struktureret, så de tidlige støtter belønnes mest",
+    "token_name": {
+      "label": "Token-navn",
+      "value": "BlockchainFX"
+    },
+    "launch_on": {
+      "label": "Lancering på",
+      "value": "Uniswap og CEX"
+    },
+    "token_type": {
+      "label": "Token-type",
+      "value": "Ethereum"
+    },
+    "token_symbol": {
+      "label": "Token-symbol",
+      "value": "BFX"
+    },
+    "decimal": {
+      "label": "Decimal",
+      "value": "18"
+    },
+    "total_supply": {
+      "label": "Samlet udbud",
+      "value": "3.5B"
+    },
+    "contract_address": {
+      "label": "Token-kontraktadresse"
+    },
+    "Presale_Details": {
+      "label": "Presale detaljer",
+      "value": "1,75B BFX-tokens vil blive solgt under presale."
+    },
+    "Presale_Price": {
+      "label": "Presale pris",
+      "value": "$0.025"
+    },
+    "Exchange_Listing": {
+      "label": "Børsnoteringspris",
+      "value": "$0.05"
+    }
+  },
+  "lineBreak": "<br />",
+
+  "press_media_section": {
+    "title": "Presse & Medier",
+    "articles": [
+      {
+        "description": "BlockchainFX er hurtigt ved at blive den foretrukne handelsplatform i 2025, med adgang til 500+ aktiver og belønnende fordele for brugere.",
+        "link": "https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/",
+        "link_text": "Læs artikel"
+      },
+      {
+        "description": "BlockchainFX er klar til at revolutionere handelslandskabet som den første alt-i-en crypto-handelsplatform.",
+        "link": "https://www.binance.com/en/square/post/21135762162242",
+        "link_text": "Læs artikel"
+      },
+      {
+        "description": "BlockchainFX er den første handelsapp, der giver brugere mulighed for at tjene daglig passiv USDT-indkomst direkte fra handelsgebyrer.",
+        "link": "https://techbullion.com/blockchainfx-the-first-ever-platform-where-you-can-trade-bitcoin-btc-apple-aapl-instantly/",
+        "link_text": "Læs artikel"
+      }
+    ]
+  },
+  "Roadmap_section": {
+    "Roadmap": "Køreplan",
+    "From Fintech Startup to Global Market Leader": "Fra fintech-startup til global markedsleder",
+    "Genesis": "Genesis",
+    "Foundations": "Fundamenter",
+    "Takeoff": "Takeoff",
+    "Scale": "Skalering",
+    "Expansion": "Udvidelse",
+    "Global Reach": "Global rækkevidde",
+    "Preparation": "Forberedelse",
+    "Completed": "Afsluttet",
+    "Execution": "Udførelse",
+    "Launch": "Lancering",
+    "On-going": "I gang",
+    "Performance": "Ydeevne",
+    "Idea + concept": "Idé + koncept",
+    "Raise Seed Funds": "Rejs seed-kapital",
+    "Onboard Team & Advisors": "Tilføj team & rådgivere",
+    "Trading Platform Beta Preparation": "Lancér beta-handelsplatform",
+    "Website, Tokenomics etc.": "Website, tokenomics m.m.",
+    "Create $BFX Token": "Opret $BFX-token",
+    "Launch $BFX Pre-Sale": "Lancér $BFX-presale",
+    "Certik Token Audit": "Certik-audit afsluttet",
+    "Launch an Affiliate Program": "Lancér affiliate-program",
+    "Sell Out the Pre-Sale": "Udsolgt presale",
+    "Launch $BFX on Uniswap and CEX": "Lancér $BFX på Uniswap og CEX",
+    "Achieving-10000-BFX-Holders": "Opnå 10.000 BFX-indehavere",
+    "Multiple CEX Listing": "Flere CEX-noteringer",
+    "Achieving-100,000-BFX-Holders": "Opnå 100.000 BFX-indehavere",
+    "Reach $100M Daily Trading Volume": "Nå $100M daglig handelsvolumen",
+    "Add Leaderboards & VIP accounts": "Tilføj ranglister & VIP-konti",
+    "US License": "US-licens",
+    "Global Marketing Campaigns": "Ansøg om amerikansk handelslicens",
+    "Major Global Partnerships": "Store globale partnerskaber",
+    "next": "Næste",
+    "previous": "Forrige"
+  },
+  "multiAward": {
+    "heading": "Prisvindende handelsplatform",
+    "subheading": "Vores priser <br /> taler for sig selv",
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "Bedste handels- <br /> platform <br /> 2025",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "Hurtigst voksende  <br /> handelsmægler <br /> 2025"
+  },
+  "trader_reviews_section": {
+    "title": "Hvad tradere siger om <span>BlockchainFX</span>",
+    "ratings": {
+      "average": "4,87 ud af 5",
+      "verified_ratings": "1000+ verificerede vurderinger",
+      "rating_bars": [
+        { "rating": 5, "percentage": 86 },
+        { "rating": 4, "percentage": 8 },
+        { "rating": 3, "percentage": 3 },
+        { "rating": 2, "percentage": 2 },
+        { "rating": 1, "percentage": 1 }
+      ]
+    },
+    "reviews": [
+      {
+        "text": "Endelig en platform, der gør det rigtigt! Jeg handlede CFD’er, købte APPLE-aktier, solgte dem for GBY og fik nogle $PEPE – alt sammen på 30 minutter. Kan varmt anbefales til både begyndere og proffer!",
+        "user": {
+          "name": "Lacoste.btc",
+          "followers": "@Lacostebtc 35.1K følgere",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075",
+          "image": "usern",
+          "reviewLink": "Se X-anmeldelse"
+        }
+      },
+      {
+        "text": "At handle på 9 forskellige vinduer og have adgang til dusinvis af analyseværktøjer og risikostyring giver mig en langsigtet fordel i forhold til konkurrenterne.",
+        "user": {
+          "name": "Mr 𝕏",
+          "followers": "@MrX_Crypto • 472K følgere",
+          "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
+          "image": "user1",
+          "reviewLink": "Se X-anmeldelse"
+        }
+      },
+      {
+        "text": "BlockchainFX giver dig uendelige handelsmuligheder. Det giver mening, da markeder er forbundet. Endelig behøver man ikke spilde tid på at skifte mellem mæglere.",
+        "user": {
+          "name": "Silvina Escudero",
+          "followers": "@silvinaescudero • 863K følgere",
+          "link": "https://x.com/silvinaescudero/status/1900845896302027108",
+          "image": "user2",
+          "reviewLink": "Se X-anmeldelse"
+        }
+      },
+      {
+        "text": "Det bedste ved BlockchainFX? Den dybe likviditet på tværs af alle aktiver. Jeg har aldrig haft problemer med at udfylde store ordrer, selv med niche-cryptopar. Præcis hvad seriøse tradere har brug for – hastighed, pålidelighed og et bredt udvalg af markeder samlet ét sted.",
+        "user": {
+          "name": "DefiAva🦋",
+          "followers": "@defi_avaxx • 30.3K følgere",
+          "link": "https://x.com/defi_avaxx/status/1900847259874627732",
+          "image": "user3",
+          "reviewLink": "Se X-anmeldelse"
+        }
+      },
+      {
+        "text": "BlockchainFX har fuldstændigt løftet mit trading-game. Den er super intuitiv, giver adgang til flere markeder samtidig og tilbyder lynhurtige transaktioner. En kæmpe sejr for krypto!",
+        "user": {
+          "name": "Honey.Eth",
+          "followers": "@HoneyEth_ • 121.8K følgere",
+          "link": "https://x.com/HoneyEth_/status/1900870121477820837",
+          "image": "user4",
+          "reviewLink": "Se X-anmeldelse"
+        }
+      },
+      {
+        "text": "Præcis det, vi havde brug for. En handelsmægler designet til at bygge bro mellem krypto, forex, ETF’er og aktier – med reel markedsadgang og dyb likviditet.",
+        "user": {
+          "name": "Crypto Bri",
+          "followers": "@cryptobri_ • 79.6K følgere",
+          "link": "https://x.com/cryptobri_/status/1901419367289512075",
+          "image": "user5",
+          "reviewLink": "Se X-anmeldelse"
+        }
+      }
+    ],
+    "assets": {
+      "user_images": [
+        "rew (5).png",
+        "rew (4).png",
+        "rew (3).png",
+        "rew (2).png",
+        "rew (1).png",
+        "user.png"
+      ],
+      "icons": {
+        "tick": "teenyicons_tick-circle-solid.svg",
+        "swiper_left": "arwr.svg",
+        "swiper_right": "arw.svg"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Ofte Stillede Spørgsmål",
+    "description": "Find svar på nogle af de mest almindelige spørgsmål.",
+    "faqs": [
+      {
+        "question": "Hvad er BlockchainFX?",
+        "answer": "BlockchainFX er en international multi-aktiv handelsplatform, der tilbyder et bredt udvalg af handelsmuligheder, herunder Forex, Krypto, ETF’er og mere, med avancerede tekniske værktøjer og risikostyringsfunktioner."
+      },
+      {
+        "question": "Hvad er BFX?",
+        "answer": "BFX er den oprindelige token for BlockchainFX-platformen, som giver tidlig adgang, staking-belønninger i BFX og USDT samt adgang til premium-funktioner og deltagelse i platformens økosystem."
+      },
+      {
+        "question": "Hvad er et krypto-presale?",
+        "answer": "Et krypto-presale er en tidlig mulighed for at købe en ny kryptovaluta eller token, inden den bliver offentligt tilgængelig – typisk til en væsentligt lavere pris end den officielle lanceringspris på børserne."
+      },
+      {
+        "question": "Hvad er målet med presale?",
+        "answer": "Formålet med community-begivenheden er at sælge alle presale-allokerede tokens for at fremskynde platformens vækst og globale ekspansion. Midlerne fra presale vil blive brugt strategisk til produktudvikling, markedsføring i stor skala og at sikre topnoteringer på førende børser for BFX. <br/> Vores mål er at nå 100.000 aktive daglige tradere og generere millionhandel i volumen inden den officielle lancering. Samtidig opbygger vi et stærkt og engageret community, belønner tidlige støtter med rabatterede tokens og skaber massiv opmærksomhed før BFX-lanceringen."
+      },
+      {
+        "question": "Hvor kan jeg se mine tokens?",
+        "answer": "Du kan se dine tokens i din dashboard-wallet. Klik blot på 'Connect Wallet' øverst til højre og forbind den wallet, du brugte ved købet, for at se din BFX-saldo."
+      },
+      {
+        "question": "Er mine tokens sikre?",
+        "answer": "Sikkerheden for dine tokens under presale er 100% garanteret gennem vores smart contract."
+      },
+      {
+        "question": "Hvordan hæver jeg mine BFX?",
+        "answer": "Dine tokens vil automatisk blive overført til din wallet efter presale slutter. Du behøver ikke at gøre noget."
+      }
+    ]
+  },
+  "the_ultimate_section": {
+    "title": "Den Ultimative <br/> Handelsplatform",
+    "description": "Oplev den bedste handelsplatform med avancerede funktioner og brugervenlig grænseflade.",
+    "buy_bfx": "Køb $BFX",
+    "need_support": "Brug for hjælp?"
+  },
+  "footer": {
+    "description": "Bliv en del af det næste generations handelssystem og slut dig til den hurtigt voksende BFX-bevægelse.",
+    "quick_links": {
+      "title": "Hurtige Links",
+      "how_to_buy": "Hvordan køber man?",
+      "what_is_bfx": "Hvad er BFX?",
+      "roadmap": "Roadmap",
+      "referral": "Henvisning",
+      "Win_$500,000": "Vind $500.000"
+    },
+    "docs": {
+      "title": "Dokumenter",
+      "privacy_policy": "Privatlivspolitik",
+      "terms_of_service": "Servicevilkår",
+      "cookie_policy": "Cookiepolitik",
+      "token_sale": "Tokensalgs-aftale",
+      "support": "Live 24/7 Support"
+    },
+    "socials": {
+      "title": "Deltag på vores sociale medier"
+    },
+    "contact": {
+      "email_label": "Kontakt E-mail:",
+      "email": "Support@blockchainfx.com"
+    },
+    "disclaimer": "Kryptovaluta kan være ureguleret i din jurisdiktion, og dens værdi kan svinge, hvilket kan føre til potentielle gevinster eller tab. Eventuelle overskud kan være underlagt kapitalgevinstskat eller andre afgifter afhængigt af din lokale lovgivning. Indholdet på denne platform udgør ikke et tilbud, en anbefaling eller finansiel rådgivning til at købe, sælge eller deltage i kryptovalutatransaktioner. Du er alene ansvarlig for at vurdere, om en transaktion passer til dine personlige mål, økonomiske forhold og risikotolerance. Vi anbefaler stærkt at konsultere betroede og licenserede juridiske, skattemæssige eller finansielle rådgivere, før du træffer nogen beslutninger.<br/><br/> Handel med kryptovaluta indebærer betydelige risici, herunder muligheden for delvist eller totalt tab af dine midler. Grundig research er afgørende. BlockchainFX garanterer ikke for nogen præstation, resultater eller tilbagebetaling af kapital for nogen kryptovaluta nævnt på denne platform. Ved at bruge denne platform accepterer du vores Servicevilkår, Privatlivspolitik, Cookiepolitik og gældende tokensalgs-aftaler. Indholdet på platformen er ikke beregnet til brug i jurisdiktioner, hvor distribution eller brug ville være i strid med lokal lovgivning.",
+    "copyright": "Copyright 2025. Alle rettigheder forbeholdes.",
+    "cookie_management": "Cookiehåndtering"
+  },
+  "MobilePremiumSec": {
+    "subtitle": "Begrænset Founder's <br /> Club Medlemskab",
+    "description": "Køb BFX under presale og bliv Founder's Club-medlem fra kun $1.000. Få dit eksklusive NFT, BFX Visa-kort, bonustokens, daglige USDT staking-belønninger og gratis trading credits.",
+    "tiers": {
+      "novice": "Begynder",
+      "advanced": "Avanceret",
+      "pro": "Pro",
+      "expert": "Ekspert",
+      "master": "Mester",
+      "elite": "Elite",
+      "legend": "Legende"
+    },
+    "cards": {
+      "novice": {
+        "title": "Begynder",
+        "price": "$1,000",
+        "points": {
+          "earlyAccess": "Tidlig Adgang",
+          "bfxBonus": "10% BFX Bonus",
+          "visaCard": "BFX Visa-kort"
+        },
+        "buttonLabel": "Køb $BFX • $1,000"
+      },
+      "advanced": {
+        "title": "Avanceret",
+        "price": "$2,500",
+        "points": {
+          "earlyAccess": "Tidlig Adgang",
+          "bfxBonus": "20% BFX Bonus",
+          "visaCard": "Metal BFX Visa-kort",
+          "tradingCredits": "$500 Trading Credits"
+        },
+        "buttonLabel": "Køb $BFX • $2,500"
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "$5,000",
+        "points": {
+          "earlyAccess": "Tidlig Adgang",
+          "bfxBonus": "30% BFX Bonus",
+          "visaCard": "Metal BFX Visa-kort",
+          "tradingCredits": "$1000 Trading Credits"
+        },
+        "buttonLabel": "Køb $BFX • $5,000"
+      },
+      "expert": {
+        "title": "Ekspert",
+        "price": "$10,000+",
+        "points": {
+          "earlyAccess": "Tidlig Adgang",
+          "bfxBonus": "40% BFX Bonus",
+          "usdtRewards": "Daglige USDT-belønninger",
+          "visaCard": "Metal BFX Visa-kort",
+          "tradingCredits": "$2000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Køb $BFX • $10,000"
+      },
+      "master": {
+        "title": "Mester",
+        "price": "$25,000+",
+        "points": {
+          "earlyAccess": "Tidlig Adgang",
+          "bfxBonus": "50% BFX Bonus",
+          "usdtRewards": "Daglige USDT-belønninger",
+          "visaCard": "Metal BFX Visa-kort",
+          "tradingCredits": "$5000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Køb $BFX • $25,000"
+      },
+      "elite": {
+        "title": "Elite",
+        "price": "$50,000+",
+        "points": {
+          "earlyAccess": "Tidlig Adgang",
+          "bfxBonus": "60% BFX Bonus",
+          "usdtRewards": "20% USDT-belønninger",
+          "visaCard": "Metal BFX Visa-kort",
+          "tradingCredits": "$10,000 Bonus Trading Credits"
+        },
+        "buttonLabel": "Køb $BFX • $50,000"
+      },
+      "legend": {
+        "title": "Legende",
+        "price": "$100,000+",
+        "points": {
+          "earlyAccess": "Tidlig Adgang",
+          "bfxBonus": "80% BFX Bonus",
+          "usdtRewards": "30% USDT-belønninger",
+          "visaCard": "18 Karat BFX Visa-kort",
+          "tradingCredits": "$25,000 Trading Credits"
+        },
+        "buttonLabel": "Køb $BFX • $100,000"
+      }
+    }
+  },
+  "FoundersClubFAQ": {
+    "title": "Spørgsmål Om <br /> Founder's Club",
+    "questions": {
+      "nft_timing": {
+        "question": "Hvornår får jeg mit Founder's Club NFT?",
+        "answer": "<li>Du modtager dit Founder's Club NFT automatisk efter køb af det krævede beløb af $BFX.</li> <li>NFT’en vil vises i dit personlige dashboard og kan gøres krav på, når presale slutter.</li> <li>For at få adgang til dashboardet skal du forbinde den samme wallet ved at klikke på 'Connect Wallet' øverst til højre.</li>"
+      },
+      "bonuses_timing": {
+        "question": "Hvornår får jeg mine bonusser?",
+        "answer": "<li>Dine BFX-bonusser bliver straks tilføjet til dit dashboard.</li> <li>For at få adgang til dashboardet skal du klikke på knappen 'Connect Wallet'</li>"
+      },
+      "multiple_purchases": {
+        "question": "Kan jeg få et NFT med flere køb?",
+        "answer": "<li>Ja, du kan købe $BFX i mindre beløb for at nå det samlede krav.</li> <li>For eksempel vil køb af $200 i $BFX fem gange give dig Novice NFT’en (værdi $1.000).</li>"
+      },
+      "upgrade_nft": {
+        "question": "Kan jeg opgradere mit NFT?",
+        "answer": "<li>Ja, du kan opgradere flere gange under presale.</li><li>Du modtager belønninger og NFT’en for det højeste niveau, du når.</li> <li>Efter presale slutter, vil opgraderinger ikke længere være mulige.</li>"
+      }
+    },
+    "tooltip": {
+      "upgrade_info": "For eksempel, køb af $1.000 i $BFX giver dig Novice NFT. <br /> Brug $1.500 mere for at opgradere til Avanceret. <br /> Du kan fortsætte med at opgradere, indtil du når den endelige Legend NFT."
+    }
+  },
+  "MobileLessThanSec": {
+    "slide1": {
+      "title": "Bro mellem Krypto og Finans",
+      "description1": "Krypto udgør kun 0,87% af den globale handelsvolumen i 2024, med et gennemsnit på $84,3 milliarder dagligt.",
+      "description2": "I mellemtiden håndterer Forex-markedet alene $7,5 billioner om dagen. Denne forskel giver en stor mulighed for $BFX til at forbinde krypto-brugere med verdens største finansielle markeder.",
+      "chartTitle": "Gennemsnitlig Daglig Handelsvolumen i 2024",
+      "chart": {
+        "bonds": "Obligationer:",
+        "bondsValue": "$1,1 billion (11,42%)",
+        "stocks": "U.S. Aktier:",
+        "stocksValue": "$700 milliarder (7,27%)",
+        "commodities": "Råvarer:",
+        "commoditiesValue": "$250 milliarder (2,59%)",
+        "crypto": "Krypto:",
+        "cryptoValue": "$89 milliarder (0,87%)",
+        "forex": "Forex:",
+        "forexValue": "$7,5 billioner (77,85%)"
+      },
+      "legend": {
+        "forex": "Forex",
+        "bonds": "Obligationer",
+        "usStock": "US Aktier",
+        "commodities": "Råvarer",
+        "crypto": "Krypto"
+      }
+    },
+    "slide2": {
+      "title": "Porten Til Globale Markeder",
+      "description": "At lancere en ny handelsplatform kræver masser af tid og ressourcer. Til gengæld tager det få sekunder at købe $BFX og giver dig indtjening, hver gang nogen handler.",
+      "comparison": {
+        "newPlatform": "Ny Handelsplatform",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "Omkostning",
+          "platform": "Op til $2 millioner",
+          "bfx": "Op til dig",
+          "tooltip": "Dette er budgettet, der kun kræves for at lancere platformen i visse jurisdiktioner, eksklusive personale og markedsføring."
+        },
+        "time": {
+          "title": "Tid",
+          "platform": "Op til 3 år",
+          "bfx": "Køb $BFX på 2 klik"
+        },
+        "team": {
+          "title": "Team",
+          "platform": "Erfarent flersproget team, der arbejder i skift, 24/7, 365 dage om året.",
+          "bfx": "Intet team påkrævet"
+        },
+        "workScope": {
+          "title": "Arbejdsområde",
+          "platform": "Kapitalbehov, Markedsføring & Branding, Likviditetsudbydere, Risikostyringsteam, Kundesupport, Teknologi-infrastruktur, Partnerskaber, Udvikling, Ansættelse og ledelse af personale og mere.",
+          "bfx": "Intet arbejde kræves"
+        }
+      }
+    },
+    "slide3": {
+      "title": "Designet Til Eksponentiel Vækst",
+      "description": "BlockchainFX er en community-drevet handelsplatform, der belønner BFX-indehavere dagligt. Efterhånden som platformen vokser, vokser tokenet også — hvilket skaber en stærk cyklus af vækst og engagement. Studier* viser, at incitamentsdrevne fællesskaber kan vokse markant hurtigere end andre, og BFX er designet til at maksimere dette potentiale.",
+      "chart": {
+        "title": "Vækstprognose",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "Almindelig Handelsplatform"
+      },
+      "source": "(*Kilde: Harvard Business Review, When Community Becomes Your Competitive Advantage, 2020)",
+      "buttonText": "Køb $BFX"
+    }
+  },
+  "biggest_buy": {
+    "title": "Største Buy-In Konkurrence",
+    "description": "De 10 største BFX-presale-købere vil modtage en andel af en præmiepulje på 100.000 USD i $BFX. Denne konkurrence er vores måde at takke dem på, der bidrog mest og spillede en stor rolle i væksten af BlockchainFX-økosystemet.",
+    "table": {
+      "rank": "Rang",
+      "wallet": "Wallet",
+      "date": "Dato",
+      "tx_count": "Antal TX",
+      "total_buy": "Samlet Køb",
+      "nft": "NFT",
+      "prize": "Præmie"
+    },
+    "load_more": "Indlæs Mere",
+    "view_less": "Vis Mindre",
+    "note": "Listen opdateres ugentligt og er baseret på transaktioner foretaget under BFX-presale."
+  },
+  "community_section": {
+    "title": "Hvad $BFX-Community'et Siger",
+    "reviews": [
+      {
+        "name": "DANI",
+        "date": "Verificeret Køb 04/02/25",
+        "description": "Tilmeldte mig deres venteliste og fik tidlig beta-adgang til trading-appen i december. Det føltes som Binance på steroider, og jeg vidste bare, at det ville eksplodere, så jeg købte ind 5–6 gange de sidste uger. Har allerede tjent $3,75k USDT fra staking, og mønten er ikke engang lanceret endnu. Stor respekt!"
+      },
+      {
+        "name": "ERIKS",
+        "date": "Verificeret Køb 03/31/25",
+        "description": "Jeg kom ind super tidligt, da BFX lancerede deres første staking-pool, næsten ingen var med, så belønningerne blev delt mellem kun få af os. Tjente over $8,5k fra staking og fik $2k USDT airdroppet. Lod resten stå uberørt. Ærligt talt, jeg er stadig i chok… det her er ren alpha."
+      },
+      {
+        "name": "S.Z",
+        "date": "Verificeret Køb 04/17/25",
+        "description": "Jeg tjener allerede solide belønninger bare fra staking, men det jeg virkelig satser på, er hvad $BFX kan gøre efter presale. Hvorfor betale gebyrer på platforme som Coinbase, når du kan få betaling her og endda handle aktier? Alle vil skifte. BFX bliver det næste store. Det er en no-brainer."
+      }
+    ]
+  },
+  "crypto_exchange_sec": {
+    "title": "Banebrydende Krypto Børs",
+    "description": "BlockchainFX redefinerer fremtiden for handel med en alt-i-en decentraliseret platform, hvor brugere kan handle alt, hvor som helst, mens de bevarer fuld kontrol over deres aktiver.<br /><br />Platformen er i øjeblikket i beta og er blevet kåret til 'Bedste Nye Krypto-Handelsapp 2025'. BlockchainFX har allerede modtaget fremragende feedback fra de første brugere. Med $BFX-presale kan indehavere nu blive en del af den næste store globale handelsplatform.",
+    "buy_button": "Køb BFX",
+    "watch_live_button": "Se Live Handel Her"
+  },
+  "gateway_section": {
+    "title": "Den Første Krypto Børs <br/> Der Betaler Sine Indehavere",
+    "description": "I stedet for at dræne brugerne med høje gebyrer, reducerer BlockchainFX dem med op til 70%. Halvdelen af alle gebyrer <br/> udbetales til $BFX-indehavere som daglige staking-belønninger. Platformen sætter fællesskabet i centrum <br/> og sikrer, at brugerne bliver belønnet i alle projektets faser.",
+    "features": {
+      "fees": "Gebyrer",
+      "asset_variety": "Aktiv-Variation",
+      "user_experience": "Brugeroplevelse",
+      "community": "Fællesskab"
+    },
+    "other_exchanges": {
+      "title": "Andre Krypto Børser",
+      "high_fees": "Høje gebyrer uden belønning til brugerne",
+      "crypto_only": "Kun krypto-til-krypto handel",
+      "account_restrictions": "Tilfældige kontobegrænsninger og frysninger",
+      "users_excluded": "Brugerne ses udelukkende som profitgeneratorer for børsen og er helt udelukket fra dens vækst og succes."
+    },
+    "blockchainfx": {
+      "title": "BlockchainFX",
+      "shares_profits": "Deler overskud med fællesskabet",
+      "swap_instantly": "Byt øjeblikkeligt mellem krypto, aktier, forex, råvarer, ETF’er & mere",
+      "withdraw_anytime": "Hæv din krypto når som helst, ingen bindinger",
+      "community_earns": "Fællesskabet tjener, vokser og bygger platformen sammen med BlockchainFX."
+    }
+  },
+  "buy_tab": {
+    "you_must_connect_wallet": "Du skal først forbinde din wallet",
+    "presale_ended": "Presale er afsluttet",
+    "loading": "Indlæser...",
+    "error_ranking_up": "Fejl ved opgradering",
+    "successfully_unlocked": "Låst op med succes",
+    "participants": "Deltagere",
+    "card": "Kort",
+    "other_cryptos": "+ Andre Kryptovalutaer",
+    "presale_price": "Presale Pris",
+    "launch_price": "Launch Pris",
+    "you_pay_in": "Du Betaler i",
+    "usd": "USD",
+    "you_receive_bfx": "Du Modtager $BFX",
+    "nft": "NFT",
+    "unlock_nft": "Lås Op",
+    "limited_time_offer": "Begrænset Tids Tilbud",
+    "use_bonus_code": "Brug Bonuskode",
+    "bonus_code_num": "BFX20",
+    "bonus_code": "Bonuskode",
+    "to_get_bonus": "For At Få 20% Mere",
+    "more_bfx_coins": "$BFX Mønter!",
+    "referral_link": "10% Henvisningslink",
+    "transaction_successful": "Transaktion Gennemført",
+    "transaction_successful_message": "Transaktionen var vellykket. Vent et minut og opdater fanen for transaktioner for at se dine tokens.",
+    "transaction_successful_bought_message": "Transaktionen var vellykket. Du købte",
+    "check_transaction_tab": "Tjek din transaktionsfane for flere detaljer",
+    "transaction_errored": "Transaktion Fejlede",
+    "transaction_errored_message": "Transaktionen var ikke vellykket. Prøv igen.",
+    "transaction_pending": "Transaktion Afventer",
+    "transaction_pending_message": "Transaktionen afventer. Vent et minut og opdater fanen for transaktioner for at se dine tokens.",
+    "buy_bfx": "Køb BFX"
+  },
+  "nft": {
+    "legend": "Legend",
+    "elite": "Elite",
+    "master": "Master",
+    "expert": "Ekspert"
+  },
+  "how_to_buy_hero": {
+    "title": "Sådan Køber Du",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "Følg denne enkle trin-for-trin guide for at sikre dig dine $BFX-tokens og låse daglige kryptobelønninger op. Uanset om du betaler med krypto eller kort, finder du alt, hvad du behøver, nedenfor.",
+    "coin_alt": "BFX Mønt"
+  },
+  "stepOneWallet": {
+    "step1": "Trin 1",
+    "setupTitle": "Opsæt en Wallet",
+    "setupDescription": "Før du køber BFX, skal du sikre dig, at du bruger en decentraliseret krypto-wallet. Dette sikrer, at dine tokens er korrekt knyttet til din wallet-adresse, og at dine belønninger aktiveres.",
+    "noteLabel": "Bemærk:",
+    "noteDescription": "Brug ikke wallets fra centraliserede børser (f.eks. Binance, Coinbase hovedapp) — de vil ikke vise dine tokens eller belønninger",
+    "table": {
+      "platform": "Platform",
+      "walletOption": "Wallet Mulighed",
+      "desktop": "Desktop",
+      "desktopOption": "MetaMask (Chrome eller Firefox udvidelse)",
+      "mobile": "Mobil",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "Enhver Enhed",
+      "anyDeviceOption": "WalletConnect-kompatible apps"
+    }
+  },
+  "payment": {
+    "step2": "Trin 2",
+    "title": "Vælg Betalingsmetode",
+    "subtitle": "Vælg mellem følgende understøttede muligheder:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "Indtast beløbet af",
+    "toBuy": "du ønsker at købe.",
+    "amountYouPay": "Beløb du betaler i USDT",
+    "youReceive": "Du Modtager BFX",
+    "bonus": "+ Novice NFT"
+  },
+  "paymentCardTwo": {
+    "selectText1": "Vælg din foretrukne",
+    "selectText2": "valuta eller kortmulighed.",
+    "buyWithCard": "Køb med Kort"
+  },
+  "paymentCardThree": {
+    "click": "Klik",
+    "buyNow": "Køb Nu",
+    "amountYouPay": "Beløb du betaler i USDT",
+    "youReceive": "Du Modtager BFX",
+    "bonus": "+ Novice NFT",
+    "buyBtn": "Køb BFX"
+  },
+  "stepThreeTransaction": {
+    "step": "TRIN 3",
+    "title": "Bekræft Transaktion",
+    "instructions": {
+      "0": "Efter at have klikket på “Køb Nu”, vil en unik wallet-adresse blive genereret.",
+      "1": "Send det nøjagtige beløb af din valgte krypto til den adresse.",
+      "2": "Godkend transaktionen via din wallet (MetaMask, Trust Wallet, osv.)."
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "TRIN 4",
+    "title": "Se Dine BFX Mønter",
+    "subtitle": "Når din betaling er bekræftet:",
+    "list": {
+      "0": "Daglige BFX staking-belønninger bliver tilføjet til dit dashboard.",
+      "1": "USDT (ERC-20) udbetalinger sendes til din wallet hver mandag.",
+      "2": "Du kan se alle belønninger og transaktioner via dit BlockchainFX-dashboard."
+    }
+  },
+  "stepFiveClaim": {
+    "step": "TRIN 5",
+    "title": "Claim",
+    "subtitle": "Efter presale afsluttes:",
+    "list": {
+      "0": "Dine $BFX-tokens vil kunne hentes i dit dashboard med ét klik."
+    },
+    "thankYou": "Tak fordi du er en del af BFX-rejsen."
+  },
+  "stepSixLaunch": {
+    "step": "TRIN 6",
+    "title": "Lancering",
+    "exchangesTitle": "$BFX Lancering På Flere Top-Tier Børser",
+    "description1": "$BFX vil officielt blive lanceret på flere top-tier børser, når presale afsluttes.",
+    "description2": "Hold dig opdateret via vores hjemmeside og sociale kanaler for noteringsmeddelelser.",
+    "button": "Køb BFX Nu"
+  },
+  "how_footer": {
+    "disclaimer": "Kryptovaluta kan være ureguleret i din jurisdiktion, og dens værdi kan svinge, hvilket kan føre til potentielle gevinster eller tab. Eventuelle overskud kan være underlagt kapitalgevinstskat eller andre skatter afhængigt af dine lokale love. Indholdet på denne platform udgør ikke et tilbud, en anbefaling eller finansiel rådgivning om at købe, sælge eller deltage i kryptotransaktioner. Du er alene ansvarlig for at vurdere, om en transaktion passer til dine personlige mål, økonomiske forhold og risikotolerance. Vi anbefaler stærkt at konsultere betroede og licenserede juridiske, skattemæssige eller finansielle rådgivere, før du træffer beslutninger.<br/><br/>Handel med kryptovaluta indebærer betydelige risici, herunder muligheden for delvist eller totalt tab af dine midler. Grundig research er afgørende. BlockchainFX garanterer ikke nogen præstation, resultat eller tilbagebetaling af kapital for nogen kryptovaluta nævnt på denne platform. Ved at bruge denne platform accepterer du vores Vilkår for Tjenester, Privatlivspolitik, Cookiepolitik og eventuelle gældende tokensalgs-aftaler. Platformens indhold er ikke beregnet til brug i jurisdiktioner, hvor distribution eller anvendelse ville være i strid med lokale love eller regler.",
+    "copyright": "Copyright 2025. Alle Rettigheder Forbeholdes.",
+    "cookie_management": "Cookiehåndtering"
+  }
+}
