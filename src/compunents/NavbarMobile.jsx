@@ -50,7 +50,8 @@ const flags = [
   { flag: flag12, abbreviation: "FR", name: "French" },
   { flag: flag13, abbreviation: "PT", name: "Portuguese" },
   { flag: flag14, abbreviation: "ES", name: "Spanish" },
-  { flag: flag16, abbreviation: "FI", name: "Finnish" }
+  { flag: flag16, abbreviation: "FI", name: "Finnish" },
+  { flag: flag14, abbreviation: "DA", name: "Danish" }
 ];
 
 function NavbarMobile() {

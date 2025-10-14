@@ -73,6 +73,8 @@ function LangGuard({ children }) {
     "es",
     "ar",
     "fi",
+    "da",
+    "th",
   ];
 
   if (lang && !supportedLangs.includes(lang)) {
@@ -195,6 +197,8 @@ function App() {
         "es",
         "ar",
         "fi",
+        "da",
+        "th",
       ];
 
       if (parts.length > 0 && supportedLangs.includes(parts[0])) {
@@ -233,6 +237,8 @@ function App() {
       "es",
       "ar",
       "fi",
+      "da",
+      "th",
     ];
 
     const currentLang = supportedLangs.includes(parts[0]) ? parts[0] : "en";
