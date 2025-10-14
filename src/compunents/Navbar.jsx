@@ -22,6 +22,8 @@ import flag5 from "../assets/navbar/flg (5).svg";
 import flag6 from "../assets/navbar/flg (6).svg";
 import flag8 from "../assets/navbar/flg (8).svg";
 import flag9 from "../assets/navbar/flg (9).svg";
+import danishFlag from "../assets/navbar/danishFlag.svg";
+import thaiFlag from "../assets/navbar/thaiFlag.svg";
 import menu from "../assets/navbar/menu.svg";
 import {
   hideConnectWalletModal,
@@ -48,7 +50,9 @@ const flags = [
   { flag: flag12, abbreviation: "FR", name: "French" },
   { flag: flag13, abbreviation: "PT", name: "Portuguese" },
   { flag: flag14, abbreviation: "ES", name: "Spanish" },
-  { flag: flag16, abbreviation: "FI", name: "Finnish" }
+  { flag: flag16, abbreviation: "FI", name: "Finnish" },
+  { flag: danishFlag, abbreviation: "DA", name: "Danish" },
+  { flag: thaiFlag, abbreviation: "TH", name: "Thai" }
 ];
 
 function Navbar() {
@@ -179,8 +183,8 @@ function Navbar() {
         }`}
       >
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
-          <div className="2xl:block xl:block lg:block md:block sm:flex flex items-center 2xl:space-x-1 xl:space-x-1 lg:space-x-0 md:space-x-0 sm:space-x-3 space-x-3">
-            <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
+          <div className="flex items-center space-x-3 2xl:block xl:block lg:block md:block sm:flex 2xl:space-x-1 xl:space-x-1 lg:space-x-0 md:space-x-0 sm:space-x-3">
+            <div className="block 2xl:hidden xl:hidden lg:hidden md:hidden sm:block">
               <img
                 src={menu}
                 onClick={toggleMobileMenu}
