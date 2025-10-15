@@ -31,6 +31,16 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://blockchainfx.com/da</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.9</priority>
+  </url>
+    <url>
+    <loc>https://blockchainfx.com/th</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://blockchainfx.com/ar</loc>
     <lastmod>2025-09-29</lastmod>
     <priority>0.9</priority>
@@ -541,13 +551,43 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://blockchainfx.com/da/cookies-policy</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blockchainfx.com/th/cookies-policy</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blockchainfx.com/de/cookie-management</loc>
     <lastmod>2025-09-29</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://blockchainfx.com/da/cookie-management</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://blockchainfx.com/th/cookie-management</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blockchainfx.com/de/token-sale</loc>
     <lastmod>2025-09-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://blockchainfx.com/da/token-sale</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blockchainfx.com/th/token-sale</loc>
+    <lastmod>2025-10-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -556,13 +596,43 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://blockchainfx.com/da/referral</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://blockchainfx.com/th/referral</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blockchainfx.com/de/privacy-policy</loc>
     <lastmod>2025-09-29</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://blockchainfx.com/da/privacy-policy</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://blockchainfx.com/th/privacy-policy</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blockchainfx.com/de/terms-of-service</loc>
     <lastmod>2025-09-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blockchainfx.com/da/terms-of-service</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://blockchainfx.com/th/terms-of-service</loc>
+    <lastmod>2025-10-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -583,6 +653,16 @@
   <url>
     <loc>https://blockchainfx.com/de/how-to-buy</loc>
     <lastmod>2025-09-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blockchainfx.com/da/how-to-buy</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://blockchainfx.com/th/how-to-buy</loc>
+    <lastmod>2025-10-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -693,6 +773,16 @@
   <url>
     <loc>https://blockchainfx.com/de/win-500</loc>
     <lastmod>2025-09-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blockchainfx.com/da/win-500</loc>
+    <lastmod>2025-10-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://blockchainfx.com/th/win-500</loc>
+    <lastmod>2025-10-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>

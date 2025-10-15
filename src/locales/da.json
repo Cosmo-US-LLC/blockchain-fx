@@ -17,7 +17,7 @@
   "hero": {
     "title": "Den første krypto <br /> handel",
     "title_highlight": "Super App",
-    "subtitle": "BlockchainFX er en næste generations krypto-børs, der forbinder DeFi<br /> med de traditionelle finansmarkeder. Det er den eneste Web3-platform, der giver adgang til aktier, forex, ETF'er og mere.",
+    "subtitle": "BlockchainFX er en næste generations krypto-børs, der forbinder DeFi med de traditionelle finansmarkeder. Det er den eneste Web3-platform, der giver adgang til aktier, forex, ETF'er og mere.",
     "feature1": "Den første krypto-børs der forbinder blockchain og finans",
     "feature2": "Bitcoin, Ethereum, guld, Tesla og over 500+ flere aktiver",
     "feature3": "Udnævnt til 'Den bedste nye krypto-handelsapp i 2025'",
@@ -44,7 +44,7 @@
       },
       {
         "title": "Ekstern revision af CertiK",
-        "description": "CertiK, verdens førende blockchain-sikkerhedsfirma, har revideret BlockchainFX og bekræftet <br /> at det opfylder de højeste sikkerhedsstandarder."
+        "description": "CertiK, verdens førende blockchain-sikkerhedsfirma, har revideret BlockchainFX og bekræftet at det opfylder de højeste sikkerhedsstandarder."
       },
       {
         "title": "Team KYC verificeret af Solidproof",
@@ -983,7 +983,7 @@
   },
   "gateway_section": {
     "title": "Den Første Krypto Børs <br/> Der Betaler Sine Indehavere",
-    "description": "I stedet for at dræne brugerne med høje gebyrer, reducerer BlockchainFX dem med op til 70%. Halvdelen af alle gebyrer <br/> udbetales til $BFX-indehavere som daglige staking-belønninger. Platformen sætter fællesskabet i centrum <br/> og sikrer, at brugerne bliver belønnet i alle projektets faser.",
+    "description": "I stedet for at dræne brugerne med høje gebyrer, reducerer BlockchainFX dem med op til 70%. Halvdelen af alle gebyrer udbetales til $BFX-indehavere som daglige staking-belønninger. Platformen sætter fællesskabet i centrum og sikrer, at brugerne bliver belønnet i alle projektets faser.",
     "features": {
       "fees": "Gebyrer",
       "asset_variety": "Aktiv-Variation",
