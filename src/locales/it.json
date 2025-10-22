@@ -11,7 +11,12 @@
   },
   "live_presale_section": {
     "title": "La prevendita BFX è attiva",
-    "buy_button": "Acquista BFX"
+    "buy_button": "Acquista BFX",
+    "Huge_title": "Grande annuncio della svolta BFX",
+    "day": "Giorno",
+    "Hours": "Ore",
+    "Minutes": "Minuti",
+    "Seconds": "Secondi"
   },
   "hero": {
     "title": "La Prima <br /> Cripto Trading",

@@ -9,9 +9,14 @@
     "dashboard": "Panel de control",
     "connect_wallet": "Conectar billetera"
   },
-  "live_presale_section": {
-    "title": "La preventa de BFX está activa",
-    "buy_button": "Comprar BFX"
+   "live_presale_section": {
+    "title": "La preventa de BFX está en vivo",
+    "buy_button": "Comprar BFX",
+    "Huge_title": "Gran anuncio de avance de BFX",
+    "day": "Día",
+    "Hours": "Horas",
+    "Minutes": "Minutos",
+    "Seconds": "Segundos"
   },
   "featured_sec": {
     "featured_in": "Destacado en:"

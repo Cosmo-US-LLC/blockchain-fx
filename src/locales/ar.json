@@ -10,8 +10,13 @@
     "connect_wallet": "ربط المحفظة"
   },
   "live_presale_section": {
-    "title": "الطرح المسبق لـ BFX متاح الآن",
-    "buy_button": "اشترِ BFX"
+    "title": "مبيعات BFX المسبقة مباشرة",
+    "buy_button": "اشترِ BFX",
+    "Huge_title": "إعلان انطلاقة ضخمة لـ BFX",
+    "day": "يوم",
+    "Hours": "ساعات",
+    "Minutes": "دقائق",
+    "Seconds": "ثواني"
   },
   "hero": {
     "title": "أول منصة تداول للعملات الرقمية <br />",

@@ -9,9 +9,14 @@
     "dashboard": "Dashboard",
     "connect_wallet": "Wallet verbinden"
   },
-  "live_presale_section": {
-    "title": "BFX-voorverkoop is live",
-    "buy_button": "BFX kopen"
+   "live_presale_section": {
+    "title": "BFX voorverkoop is live",
+    "buy_button": "Koop BFX",
+    "Huge_title": "Grote BFX doorbraak aankondiging",
+    "day": "Dag",
+    "Hours": "Uren",
+    "Minutes": "Minuten",
+    "Seconds": "Seconden"
   },
   "hero": {
     "title": "De eerste Crypto <br /> Trading",
