@@ -10,8 +10,13 @@
     "connect_wallet": "连接钱包"
   },
     "live_presale_section": {
-    "title": "BFX 预售已开启",
-    "buy_button": "购买 BFX"
+    "title": "BFX预售正在进行中",
+    "buy_button": "购买 BFX",
+    "Huge_title": "BFX重大突破公告",
+    "day": "天",
+    "Hours": "小时",
+    "Minutes": "分钟",
+    "Seconds": "秒"
   },
   "hero": {
     "title": "首个加密货币<br />交易",

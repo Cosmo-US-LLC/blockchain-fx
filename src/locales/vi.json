@@ -10,8 +10,13 @@
     "connect_wallet": "Kết nối ví"
   },
     "live_presale_section": {
-    "title": "Bán trước BFX đang diễn ra",
-    "buy_button": "Mua BFX"
+    "title": "Đợt bán trước BFX đang diễn ra",
+    "buy_button": "Mua BFX",
+    "Huge_title": "Thông báo đột phá lớn của BFX",
+    "day": "Ngày",
+    "Hours": "Giờ",
+    "Minutes": "Phút",
+    "Seconds": "Giây"
   },
   "hero": {
     "title": "Nền tảng giao dịch Crypto đầu tiên <br />",

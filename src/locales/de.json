@@ -10,8 +10,13 @@
     "connect_wallet": "Wallet verbinden"
   },
    "live_presale_section": {
-    "title": "BFX-Vorverkauf ist live",
-    "buy_button": "BFX kaufen"
+    "title": "BFX Presale läuft",
+    "buy_button": "BFX kaufen",
+    "Huge_title": "Große BFX Durchbruch-Ankündigung",
+    "day": "Tag",
+    "Hours": "Stunden",
+    "Minutes": "Minuten",
+    "Seconds": "Sekunden"
   },
   "hero": {
     "title": "Das erste Krypto-<br />Trading",

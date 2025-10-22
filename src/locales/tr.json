@@ -10,8 +10,13 @@
     "connect_wallet": "Cüzdanı Bağla"
   },
   "live_presale_section": {
-    "title": "BFX Ön Satışı Başladı",
-    "buy_button": "BFX Satın Al"
+    "title": "BFX Ön Satış Canlı",
+    "buy_button": "BFX Satın Al",
+    "Huge_title": "BFX Büyük Atılım Duyurusu",
+    "day": "Gün",
+    "Hours": "Saat",
+    "Minutes": "Dakika",
+    "Seconds": "Saniye"
   },
   "hero": {
     "title": "İlk Kripto <br /> Alım Satım",

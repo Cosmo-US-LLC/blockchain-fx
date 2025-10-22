@@ -10,8 +10,13 @@
     "connect_wallet": "ウォレット接続"
   },
   "live_presale_section": {
-    "title": "BFXプレセールが開始されました",
-    "buy_button": "BFXを購入"
+    "title": "BFXプレセールがライブ中",
+    "buy_button": "BFXを購入",
+    "Huge_title": "BFXの大きなブレークスルー発表",
+    "day": "日",
+    "Hours": "時間",
+    "Minutes": "分",
+    "Seconds": "秒"
   },
   "hero": {
     "title": "世界初の暗号資産 <br /> トレーディング",

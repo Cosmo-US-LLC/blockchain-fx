@@ -9,9 +9,14 @@
     "dashboard": "Панель управления",
     "connect_wallet": "Подключить кошелек"
   },
-   "live_presale_section": {
-    "title": "Предпродажа BFX уже началась",
-    "buy_button": "Купить BFX"
+     "live_presale_section": {
+    "title": "Предпродажа BFX в прямом эфире",
+    "buy_button": "Купить BFX",
+    "Huge_title": "Огромное объявление прорыва BFX",
+    "day": "День",
+    "Hours": "Часы",
+    "Minutes": "Минуты",
+    "Seconds": "Секунды"
   },
   "hero": {
     "title": "Первая крипто <br /> торговля",

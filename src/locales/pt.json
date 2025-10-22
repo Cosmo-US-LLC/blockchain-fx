@@ -10,8 +10,13 @@
     "connect_wallet": "Conectar Carteira"
   },
    "live_presale_section": {
-    "title": "A pré-venda de BFX está ativa",
-    "buy_button": "Comprar BFX"
+    "title": "Pré-venda BFX ao vivo",
+    "buy_button": "Comprar BFX",
+    "Huge_title": "Grande anúncio de avanço BFX",
+    "day": "Dia",
+    "Hours": "Horas",
+    "Minutes": "Minutos",
+    "Seconds": "Segundos"
   },
   "hero": {
     "title": "O Primeiro Trading de Cripto ",

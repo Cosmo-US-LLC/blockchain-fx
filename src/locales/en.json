@@ -11,7 +11,12 @@
   },
   "live_presale_section": {
     "title": "BFX Presale is Live",
-    "buy_button": "Buy BFX"
+    "buy_button": "Buy BFX",
+    "Huge_title": "Huge BFX Breakthrough Announcement",
+    "day": "Day",
+    "Hours":"Hours",
+    "Minutes":"Minutes",
+    "Seconds":"Seconds"
   },
   "hero": {
     "title": "The First Crypto <br /> Trading",

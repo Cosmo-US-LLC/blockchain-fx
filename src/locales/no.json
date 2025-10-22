@@ -29,9 +29,14 @@
   "featured_sec": {
     "featured_in": "Fremhevet i:"
   },
-  "live_presale_section": {
-    "title": "BFX-forsalget er live",
-    "buy_button": "Kjøp BFX"
+   "live_presale_section": {
+    "title": "BFX forhåndssalg er live",
+    "buy_button": "Kjøp BFX",
+    "Huge_title": "Stor BFX gjennombruddsannonsering",
+    "day": "Dag",
+    "Hours": "Timer",
+    "Minutes": "Minutter",
+    "Seconds": "Sekunder"
   },
   "experts": {
     "heading": "Hva ekspertene sier om BFX",
