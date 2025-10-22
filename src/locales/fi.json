@@ -10,8 +10,13 @@
     "connect_wallet": "Yhdistä lompakko"
   },
   "live_presale_section": {
-    "title": "BFX Ennakkokauppa on käynnissä",
-    "buy_button": "Osta BFX"
+    "title": "BFX ennakkomyynti on käynnissä",
+    "buy_button": "Osta BFX",
+    "Huge_title": "Suuri BFX-läpimurtoilmoitus",
+    "day": "Päivä",
+    "Hours": "Tuntia",
+    "Minutes": "Minuuttia",
+    "Seconds": "Sekuntia"
   },
   "hero": {
     "title": "Ensimmäinen krypto <br /> Kaupankäynti",

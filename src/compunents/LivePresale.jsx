@@ -74,20 +74,20 @@ function LivePresale() {
       >
          <div className="max-w-[780px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">Huge BFX Breakthrough Announcement</span>
+            <span className="font-[800]">{t("live_presale_section.Huge_title")}</span>
           </p>
 
           <div className="flex items-center space-x-2 ">
             <div>
               <h3 className="text-[16px] font-[600]">
                 {timeLeft.days}{" "}
-                <span className="text-[14px] font-[400]">Days</span> :{" "}
+                <span className="text-[14px] font-[400]">{t("live_presale_section.day")}</span> :{" "}
                 {timeLeft.hours}{" "}
-                <span className="text-[14px] font-[400]">Hours</span> :{" "}
+                <span className="text-[14px] font-[400]">{t("live_presale_section.Hours")}</span> :{" "}
                 {timeLeft.minutes}{" "}
-                <span className="text-[14px] font-[400]">Minutes</span> :{" "}
+                <span className="text-[14px] font-[400]">{t("live_presale_section.Minutes")}</span> :{" "}
                 {timeLeft.seconds}{" "}
-                <span className="text-[14px] font-[400]">Seconds</span>
+                <span className="text-[14px] font-[400]">{t("live_presale_section.Seconds")}</span>
               </h3>
             </div>
 
@@ -107,25 +107,25 @@ function LivePresale() {
           background: "#FCD149",
         }}
       >
-        <div className="max-w-[900px] mx-auto w-[100%] flex flex-col justify-center  items-center px-2">
+        <div className="max-w-[900px] mx-auto w-[100%] flex flex-col justify-center  items-center">
           
             <div>
               <h3 className="text-[14px] font-[600]">
                 {timeLeft.days}{" "}
-                <span className="text-[12px] font-[400]">Days</span> :{" "}
+                <span className="text-[12px] font-[400]"> {t("live_presale_section.day")}</span> :{" "}
                 {timeLeft.hours}{" "}
-                <span className="text-[12px] font-[400]">Hours</span> :{" "}
+                <span className="text-[12px] font-[400]">{t("live_presale_section.Hours")}</span> :{" "}
                 {timeLeft.minutes}{" "}
-                <span className="text-[12px] font-[400]">Minutes</span> :{" "}
+                <span className="text-[12px] font-[400]">{t("live_presale_section.Minutes")}</span> :{" "}
                 {timeLeft.seconds}{" "}
-                <span className="text-[12px] font-[400]">Seconds</span>
+                <span className="text-[12px] font-[400]">{t("live_presale_section.Seconds")}</span>
               </h3>
             </div>
 
-          <div className="flex w-[100%] justify-center items-center space-x-2 border-t border-[#000] pt-2 mt-2">
+          <div className="flex w-[100%] justify-center items-center space-x-2 border-t-[1px] border-[#000] pt-2 mt-2">
           
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">Huge BFX Breakthrough Announcement</span>
+            <span className="font-[800]">{t("live_presale_section.Huge_title")}</span>
           </p>
             <button
               onClick={handleScroll}

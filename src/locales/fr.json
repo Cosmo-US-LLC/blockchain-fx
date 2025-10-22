@@ -10,8 +10,13 @@
     "connect_wallet": "Connecter le portefeuille"
   },
    "live_presale_section": {
-    "title": "La prévente BFX est en cours",
-    "buy_button": "Acheter BFX"
+    "title": "La pré-vente BFX est en direct",
+    "buy_button": "Acheter BFX",
+    "Huge_title": "Grande annonce de percée BFX",
+    "day": "Jour",
+    "Hours": "Heures",
+    "Minutes": "Minutes",
+    "Seconds": "Secondes"
   },
   "hero": {
     "title": "La première application <br /> de trading crypto",

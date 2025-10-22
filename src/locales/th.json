@@ -10,8 +10,13 @@
     "connect_wallet": "เชื่อมต่อกระเป๋าเงิน"
   },
   "live_presale_section": {
-    "title": "การขายล่วงหน้า BFX เปิดแล้ว",
-    "buy_button": "ซื้อ BFX"
+    "title": "การพรีเซล BFX กำลังถ่ายทอดสด",
+    "buy_button": "ซื้อ BFX",
+    "Huge_title": "ประกาศความก้าวหน้าครั้งใหญ่ของ BFX",
+    "day": "วัน",
+    "Hours": "ชั่วโมง",
+    "Minutes": "นาที",
+    "Seconds": "วินาที"
   },
   "hero": {
     "title": "แพลตฟอร์มคริปโต <br /> แรก",

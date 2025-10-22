@@ -10,9 +10,14 @@
     "connect_wallet": "Forbind Wallet"
   },
 
-  "live_presale_section": {
-    "title": "BFX-forsalget er live",
-    "buy_button": "Køb BFX"
+    "live_presale_section": {
+    "title": "BFX forhånds­salget er live",
+    "buy_button": "Køb BFX",
+    "Huge_title": "Stor BFX gennembruds­meddelelse",
+    "day": "Dag",
+    "Hours": "Timer",
+    "Minutes": "Minutter",
+    "Seconds": "Sekunder"
   },
   "hero": {
     "title": "Den første krypto <br /> handel",
