@@ -9,8 +9,11 @@
     "dashboard": "Dashboard",
     "connect_wallet": "Wallet verbinden"
   },
-   "live_presale_section": {
+ "live_presale_section": {
     "title": "BFX voorverkoop is live",
+    "Halloween_title": "Halloween-bonus:",
+    "get_more": "Ontvang 40% meer BFX met de code",
+    "code_CANDY40": "CANDY40",
     "buy_button": "Koop BFX",
     "Huge_title": "Grote BFX doorbraak aankondiging",
     "day": "Dag",
@@ -937,11 +940,11 @@
     "you_receive_bfx": "Je ontvangt $BFX",
     "nft": "NFT",
     "unlock_nft": "Ontgrendelen",
-    "limited_time_offer": "Tijdelijk aanbod",
-  "use_bonus_code": "Gebruik bonuscode",
-  "bonus_code_num": "BFX20",
+    "limited_time_offer": "Halloween-special:",
+  "use_bonus_code": "Gebruik de code",
+  "bonus_code_num": "CANDY40",
   "bonus_code": "Bonuscode",
-  "to_get_bonus": "om 20% extra te krijgen",
+  "to_get_bonus": "om 40% meer BFX te krijgen voor een beperkte tijd.",
   "more_bfx_coins": "$BFX Munten!",
     "referral_link": "10% Referral Link",
     "transaction_successful": "Transactie geslaagd",

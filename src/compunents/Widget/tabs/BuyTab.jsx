@@ -610,7 +610,8 @@ const BuyTab = ({ onTabChange}) => {
           }}
           >
               <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[9px] text-[9px] 2xl:max-w-[240px] xl:max-w-[240px] lg:max-w-[240px] md:max-w-[240px] sm:max-w-[215px] max-w-[215px] mx-auto font-[500]  text-white text-center ">
-                <span className="font-[700]">{t('buy_tab.limited_time_offer')}:</span> {t('buy_tab.use_bonus_code')} <span className="text-[#2FD942] !font-[700]">{t('buy_tab.bonus_code_num')}</span> <br /> {t('buy_tab.to_get_bonus')} {t('buy_tab.more_bfx_coins')}
+                <span className="font-[700]">{t('buy_tab.limited_time_offer')} </span> {t('buy_tab.use_bonus_code')} <span className="text-[#2FD942] !font-[700]">{t('buy_tab.bonus_code_num')}</span> <br /> {t('buy_tab.to_get_bonus')}
+                 {/* {t('buy_tab.more_bfx_coins')} */}
               </h3>
           </div>
 
