@@ -9,8 +9,11 @@
     "dashboard": "Painel de Controle",
     "connect_wallet": "Conectar Carteira"
   },
-   "live_presale_section": {
+     "live_presale_section": {
     "title": "Pré-venda BFX ao vivo",
+    "Halloween_title": "Bônus de Halloween:",
+    "get_more": "Ganhe 40% mais BFX com o código",
+    "code_CANDY40": "CANDY40",
     "buy_button": "Comprar BFX",
     "Huge_title": "Grande anúncio de avanço BFX",
     "day": "Dia",

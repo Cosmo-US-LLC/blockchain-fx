@@ -9,8 +9,11 @@
     "dashboard": "Панель управления",
     "connect_wallet": "Подключить кошелек"
   },
-     "live_presale_section": {
-    "title": "Предпродажа BFX в прямом эфире",
+   "live_presale_section": {
+    "title": "Предпродажа BFX уже началась",
+    "Halloween_title": "Бонус на Хэллоуин:",
+    "get_more": "Получите на 40% больше BFX с кодом",
+    "code_CANDY40": "CANDY40",
     "buy_button": "Купить BFX",
     "Huge_title": "Огромное объявление прорыва BFX",
     "day": "День",

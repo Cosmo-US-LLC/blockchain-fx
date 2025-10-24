@@ -5,63 +5,63 @@ import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
 
 
 function LivePresale() {
-  const { t } = useTranslation();
+ const { t } = useTranslation();
 
- const [timeLeft, setTimeLeft] = useState({
-    days: "00",
-    hours: "00",
-    minutes: "00",
-    seconds: "00",
-  });
+const [timeLeft, setTimeLeft] = useState({
+  days: "00",
+  hours: "00",
+  minutes: "00",
+  seconds: "00",
+});
 
-  useEffect(() => {
-    const targetDate = new Date("2025-11-10T14:00:00Z");
+useEffect(() => {
+  const targetDate = new Date("2025-11-03T18:00:00Z");
 
-    const interval = setInterval(() => {
-      const now = new Date();
-      const difference = targetDate - now;
+  const interval = setInterval(() => {
+    const now = new Date();
+    const difference = targetDate - now;
 
-      if (difference <= 0) {
-        clearInterval(interval);
-        setTimeLeft({
-          days: "00",
-          hours: "00",
-          minutes: "00",
-          seconds: "00",
-        });
-        return;
-      }
-
-      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((difference / (1000 * 60)) % 60);
-      const seconds = Math.floor((difference / 1000) % 60);
-
+    if (difference <= 0) {
+      clearInterval(interval);
       setTimeLeft({
-        days: String(days).padStart(2, "0"),
-        hours: String(hours).padStart(2, "0"),
-        minutes: String(minutes).padStart(2, "0"),
-        seconds: String(seconds).padStart(2, "0"),
+        days: "00",
+        hours: "00",
+        minutes: "00",
+        seconds: "00",
       });
-    }, 1000);
+      return;
+    }
 
-    return () => clearInterval(interval);
-  }, []);
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((difference / (1000 * 60)) % 60);
+    const seconds = Math.floor((difference / 1000) % 60);
 
-  const handleScroll = () => {
-    setTimeout(() => {
-      const element = document.getElementById("Wallet");
-      if (element) {
-        const elementPosition =
-          element.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 80;
-        window.scrollTo({
-          top: elementPosition - offset,
-          behavior: "smooth",
-        });
-      }
-    }, 200);
-  };
+    setTimeLeft({
+      days: String(days).padStart(2, "0"),
+      hours: String(hours).padStart(2, "0"),
+      minutes: String(minutes).padStart(2, "0"),
+      seconds: String(seconds).padStart(2, "0"),
+    });
+  }, 1000);
+
+  return () => clearInterval(interval);
+}, []);
+
+const handleScroll = () => {
+  setTimeout(() => {
+    const element = document.getElementById("Wallet");
+    if (element) {
+      const elementPosition =
+        element.getBoundingClientRect().top + window.pageYOffset;
+      const offset = 80;
+      window.scrollTo({
+        top: elementPosition - offset,
+        behavior: "smooth",
+      });
+    }
+  }, 200);
+};
 
   return (
     <>
@@ -72,9 +72,9 @@ function LivePresale() {
             "#FCD149",
         }}
       >
-         <div className="max-w-[780px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
+         <div className="max-w-[910px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.Huge_title")}</span>
+            <span className="font-[800]">{t("live_presale_section.Halloween_title")}</span> {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span>
           </p>
 
           <div className="flex items-center space-x-2 ">
@@ -125,7 +125,7 @@ function LivePresale() {
           <div className="flex w-[100%] justify-center items-center space-x-2 border-t-[1px] border-[#000] pt-2 mt-2">
           
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.Huge_title")}</span>
+             <span className="font-[800]">{t("live_presale_section.Halloween_title")}</span> {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span>
           </p>
             <button
               onClick={handleScroll}

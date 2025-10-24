@@ -9,10 +9,13 @@
     "dashboard": "Kontrol Paneli",
     "connect_wallet": "Cüzdanı Bağla"
   },
-  "live_presale_section": {
+   "live_presale_section": {
     "title": "BFX Ön Satış Canlı",
+    "Halloween_title": "Cadılar Bayramı Bonusu:",
+    "get_more": "Kodu kullanarak %40 daha fazla BFX kazanın",
+    "code_CANDY40": "CANDY40",
     "buy_button": "BFX Satın Al",
-    "Huge_title": "BFX Büyük Atılım Duyurusu",
+    "Huge_title": "Büyük BFX Atılım Duyurusu",
     "day": "Gün",
     "Hours": "Saat",
     "Minutes": "Dakika",

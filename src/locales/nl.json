@@ -9,8 +9,11 @@
     "dashboard": "Dashboard",
     "connect_wallet": "Wallet verbinden"
   },
-   "live_presale_section": {
+ "live_presale_section": {
     "title": "BFX voorverkoop is live",
+    "Halloween_title": "Halloween-bonus:",
+    "get_more": "Ontvang 40% meer BFX met de code",
+    "code_CANDY40": "CANDY40",
     "buy_button": "Koop BFX",
     "Huge_title": "Grote BFX doorbraak aankondiging",
     "day": "Dag",
