@@ -9,8 +9,11 @@
     "dashboard": "Dashboard",
     "connect_wallet": "Collega Portafoglio"
   },
-  "live_presale_section": {
+ "live_presale_section": {
     "title": "La prevendita BFX è attiva",
+    "Halloween_title": "Bonus di Halloween:",
+    "get_more": "Ottieni il 40% di BFX in più con il codice",
+    "code_CANDY40": "CANDY40",
     "buy_button": "Acquista BFX",
     "Huge_title": "Grande annuncio della svolta BFX",
     "day": "Giorno",

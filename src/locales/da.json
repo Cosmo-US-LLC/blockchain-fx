@@ -11,9 +11,12 @@
   },
 
     "live_presale_section": {
-    "title": "BFX forhånds­salget er live",
+    "title": "BFX forhåndssalg er live",
+    "Halloween_title": "Halloween-bonus:",
+    "get_more": "Få 40 % mere BFX med koden",
+    "code_CANDY40": "CANDY40",
     "buy_button": "Køb BFX",
-    "Huge_title": "Stor BFX gennembruds­meddelelse",
+    "Huge_title": "Stor BFX gennembrudsmeddelelse",
     "day": "Dag",
     "Hours": "Timer",
     "Minutes": "Minutter",

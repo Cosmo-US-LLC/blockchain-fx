@@ -9,8 +9,11 @@
     "dashboard": "Tableau de bord",
     "connect_wallet": "Connecter le portefeuille"
   },
-   "live_presale_section": {
-    "title": "La pré-vente BFX est en direct",
+    "live_presale_section": {
+    "title": "La prévente BFX est en direct",
+    "Halloween_title": "Bonus d’Halloween :",
+    "get_more": "Obtenez 40 % de BFX en plus avec le code",
+    "code_CANDY40": "CANDY40",
     "buy_button": "Acheter BFX",
     "Huge_title": "Grande annonce de percée BFX",
     "day": "Jour",

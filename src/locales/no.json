@@ -29,8 +29,11 @@
   "featured_sec": {
     "featured_in": "Fremhevet i:"
   },
-   "live_presale_section": {
+  "live_presale_section": {
     "title": "BFX forhåndssalg er live",
+    "Halloween_title": "Halloween-bonus:",
+    "get_more": "Få 40 % mer BFX med koden",
+    "code_CANDY40": "CANDY40",
     "buy_button": "Kjøp BFX",
     "Huge_title": "Stor BFX gjennombruddsannonsering",
     "day": "Dag",
