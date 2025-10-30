@@ -150,7 +150,7 @@ const faqs = [
   },
   {
     "question": "How to claim your BFX?",
-    "answer": "Your BFX tokens can be claimed within seconds on BlockchainFX.com once the presale ends."
+    "answer": "Your BFX tokens can be claimed within seconds on <a href=\"https://BlockchainFX.com\" target=\"\">BlockchainFX.com</a> once the presale ends."
   }
 ]
 

@@ -3,6 +3,38 @@ import { useTranslation } from "react-i18next";
 
 import faqicn1 from "../assets/faqs/image (3).svg";
 import faqicn2 from "../assets/faqs/image (4).svg";
+
+const faqData = [
+  {
+    "question": "What is BlockchainFX?",
+    "answer": "BlockchainFX is an international multi-asset trading platform offering a wide range of trading opportunities, including Forex, Crypto, ETFs, and more, with advanced technical tools and risk management features."
+  },
+  {
+    "question": "What is BFX?",
+    "answer": "BFX is the native token of the BlockchainFX platform, enabling early access, staking rewards in BFX and USDT, and providing access to premium features, as well as participation in the platform's ecosystem."
+  },
+  {
+    "question": "What is a crypto presale?",
+    "answer": "A crypto pre-sale is an early opportunity to purchase a new cryptocurrency or token before it becomes publicly available, typically at a significantly lower price than the official launch price on exchanges."
+  },
+  {
+    "question": "What is the goal of the presale?",
+    "answer": "The community event is dedicated to selling all pre-sale allocated tokens to accelerate platform growth and expansion. These funds will be strategically allocated to development, marketing, and securing top-tier exchange listings for BFX. <br/><br/>Our goal is to reach 100,000 active daily traders and generate multi-million dollar daily trading volume before the official launch. At the same time, we're building a strong, loyal, and engaged community, rewarding early supporters with discounted tokens, and maximizing awareness for the BFX launch."
+  },
+  {
+    "question": "Where can I see my tokens?",
+    "answer": "You can view your tokens in your dashboard wallet. Simply click 'Connect Wallet' in the top right corner and connect the wallet you used for the purchase to see your BFX balance."
+  },
+  {
+    "question": "Are my tokens safe?",
+    "answer": "The safety of your tokens during the presale is 100% guaranteed through our smart contract, where all data is securely stored. Tokens are allocated to each buyer and can only be accessed with their wallet. BFX tokens cannot be transferred during the presale and can only be claimed once the presale ends."
+  },
+  {
+    "question": "How to claim your BFX?",
+    "answer": "Your BFX tokens can be claimed within seconds on <a href=\"https://BlockchainFX.com\" target=\"\">BlockchainFX.com</a> once the presale ends."
+  }
+]
+
 const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   const createMarkup = () => ({ __html: answer });
   const contentStyles = {
@@ -45,7 +77,7 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
         </h4>
       </div>
       <div style={contentStyles}>
-        <ul className="w-[90%] pt-[20px] pl-[20px] list-disc list-outside text-[#fff]">
+        <ul className="w-[100%] pt-[20px] pl-[20px] list-disc list-outside text-[#fff]">
           <li>
             <span
               className="pb-[10px] text-[15px] leading-[150%] font-[400]"
@@ -61,7 +93,7 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
 const MobFaqSec = () => {
   const { t } = useTranslation();
 
-  const faqData = t("faq_section.faqs", { returnObjects: true });
+  // const faqData = t("faq_section.faqs", { returnObjects: true });
 
   const [openItems, setOpenItems] = useState([]);
 
