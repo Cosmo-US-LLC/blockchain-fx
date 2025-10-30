@@ -45,7 +45,7 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
         </h4>
       </div>
       <div style={contentStyles}>
-        <ul className="w-[90%] pt-[20px] pl-[20px] list-disc list-outside text-[#fff]">
+        <ul className="w-[100%] pt-[20px] pl-[20px] list-disc list-outside text-[#fff]">
           <li>
             <span
               className="pb-[10px] text-[15px] leading-[150%] font-[400]"

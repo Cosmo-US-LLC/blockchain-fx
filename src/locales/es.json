@@ -685,11 +685,11 @@
       },
       {
         "question": "¿Están seguros mis tokens?",
-        "answer": "La seguridad de tus tokens durante la preventa está 100% garantizada a través de nuestro smart contract."
+        "answer": "La seguridad de tus tokens durante la preventa está 100 % garantizada mediante nuestro contrato inteligente, donde todos los datos se almacenan de forma segura. Los tokens se asignan a cada comprador y solo se pueden acceder con su billetera. Los tokens BFX no se pueden transferir durante la preventa y solo se pueden reclamar una vez que finalice."
       },
       {
         "question": "¿Cómo reclamar tu BFX?",
-        "answer": "Tus tokens se transferirán automáticamente a tu billetera una vez finalice la preventa. No necesitas hacer nada."
+        "answer": "Puedes reclamar tus tokens BFX en segundos en <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> una vez que termine la preventa."
       }
     ]
   },

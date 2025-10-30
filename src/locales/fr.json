@@ -669,11 +669,11 @@
     },
     {
       "question": "Er mine tokens trygge?",
-      "answer": "Sikkerheten til dine tokens under forsalg er 100 % garantert gjennom vår smarte kontrakt."
+      "answer": "La sécurité de vos tokens pendant la prévente est garantie à 100 % grâce à notre contrat intelligent, où toutes les données sont stockées en toute sécurité. Les tokens sont attribués à chaque acheteur et ne sont accessibles qu’avec leur portefeuille. Les tokens BFX ne peuvent pas être transférés pendant la prévente et ne peuvent être réclamés qu’une fois celle-ci terminée."
     },
     {
       "question": "Hvordan kreve dine BFX?",
-      "answer": "Tokenene dine vil bli overført til lommeboken din automatisk etter at forsalget er avsluttet. Du trenger ikke å gjøre noe."
+      "answer": "Vos tokens BFX peuvent être réclamés en quelques secondes sur <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> une fois la prévente terminée."
     }
   ]
 },

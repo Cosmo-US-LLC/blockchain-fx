@@ -779,11 +779,11 @@
       },
       {
         "question": "Ovatko tokenini turvassa?",
-        "answer": "Tokeniesi turvallisuus esimyynnin aikana on 100% taattu älysopimuksemme kautta."
+        "answer": "Tokeniesi turvallisuus ennakkomyynnin aikana on 100 % taattu älysopimuksemme kautta, jossa kaikki tiedot tallennetaan turvallisesti. Tokenit jaetaan jokaiselle ostajalle ja niitä voi käyttää vain heidän lompakollaan. BFX-tokeneita ei voi siirtää ennakkomyynnin aikana, ja niitä voi lunastaa vasta sen päätyttyä."
       },
       {
         "question": "Kuinka lunastan BFX:ni?",
-        "answer": "Tokenisi siirretään automaattisesti lompakkoosi esimyynnin jälkeen. Sinun ei tarvitse tehdä mitään."
+        "answer": "Voit lunastaa BFX-tokenisi muutamassa sekunnissa sivustolla <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>, kun ennakkomyynti päättyy."
       }
     ]
   },

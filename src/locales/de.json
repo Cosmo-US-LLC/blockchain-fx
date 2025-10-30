@@ -659,11 +659,11 @@
       },
       {
         "question": "Sind meine Token sicher?",
-        "answer": "Die Sicherheit Ihrer Token während des Vorverkaufs ist durch unseren Smart Contract zu 100% garantiert."
+        "answer": "Die Sicherheit Ihrer Token während des Vorverkaufs ist durch unseren Smart Contract zu 100 % garantiert, in dem alle Daten sicher gespeichert werden. Token werden jedem Käufer zugewiesen und können nur mit seiner Wallet abgerufen werden. BFX-Token können während des Vorverkaufs nicht übertragen werden und können erst nach dessen Ende beansprucht werden."
       },
       {
         "question": "Wie kann ich meine BFX beanspruchen?",
-        "answer": "Ihre Token werden nach Ende des Vorverkaufs automatisch an Ihre Wallet übertragen. Sie müssen nichts weiter tun."
+        "answer": "Ihre BFX-Token können innerhalb von Sekunden auf <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> beansprucht werden, sobald der Vorverkauf beendet ist."
       }
     ]
   },
