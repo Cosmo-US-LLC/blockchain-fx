@@ -694,7 +694,7 @@
       },
       {
         "question": "如何领取BFX？",
-        "answer": "预售结束后，您可以在<a href=\"https://BlockchainFX.com\" target=\"\">BlockchainFX.com</a>上几秒钟内领取您的BFX代币。"
+        "answer": "预售结束后，您可以在<a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>上几秒钟内领取您的BFX代币。"
       }
     ]
   },

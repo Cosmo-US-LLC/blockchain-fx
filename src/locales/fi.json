@@ -783,7 +783,7 @@
       },
       {
         "question": "Kuinka lunastan BFX:ni?",
-        "answer": "Voit lunastaa BFX-tokenisi muutamassa sekunnissa sivustolla <a href=\"https://BlockchainFX.com\" target=\"\">BlockchainFX.com</a>, kun ennakkomyynti päättyy."
+        "answer": "Voit lunastaa BFX-tokenisi muutamassa sekunnissa sivustolla <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>, kun ennakkomyynti päättyy."
       }
     ]
   },

@@ -689,7 +689,7 @@
       },
       {
         "question": "¿Cómo reclamar tu BFX?",
-        "answer": "Puedes reclamar tus tokens BFX en segundos en <a href=\"https://BlockchainFX.com\" target=\"\">BlockchainFX.com</a> una vez que termine la preventa."
+        "answer": "Puedes reclamar tus tokens BFX en segundos en <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> una vez que termine la preventa."
       }
     ]
   },
