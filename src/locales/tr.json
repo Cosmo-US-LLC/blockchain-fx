@@ -685,11 +685,11 @@
       },
       {
         "question": "Tokenlarım güvende mi?",
-        "answer": "Ön satış sırasında tokenlarınızın güvenliği, akıllı kontratımız sayesinde %100 garanti altındadır."
+        "answer": "Ön satış sırasında tokenlerinizin güvenliği, tüm verilerin güvenli bir şekilde saklandığı akıllı sözleşmemiz aracılığıyla %100 garanti altındadır. Tokenler her alıcıya tahsis edilir ve yalnızca cüzdanlarıyla erişilebilir. BFX tokenleri ön satış sırasında transfer edilemez ve yalnızca ön satış sona erdiğinde talep edilebilir."
       },
       {
         "question": "BFX'inizi nasıl talep edersiniz?",
-        "answer": "Tokenlarınız, ön satış sona erdikten sonra otomatik olarak cüzdanınıza aktarılacaktır. Hiçbir şey yapmanıza gerek yok."
+        "answer": "BFX tokenlerinizi ön satış sona erdikten sonra birkaç saniye içinde BlockchainFX.com üzerinden talep edebilirsiniz."
       }
     ]
   },

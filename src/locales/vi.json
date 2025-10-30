@@ -556,11 +556,11 @@
       },
       {
         "question": "Token của tôi có an toàn không?",
-        "answer": "Token của bạn trong đợt mở bán được đảm bảo an toàn 100% nhờ hợp đồng thông minh của chúng tôi."
+        "answer": "Sự an toàn của token trong giai đoạn mở bán trước được đảm bảo 100% thông qua hợp đồng thông minh của chúng tôi, nơi tất cả dữ liệu được lưu trữ an toàn. Token được phân bổ cho từng người mua và chỉ có thể được truy cập bằng ví của họ. Token BFX không thể được chuyển trong giai đoạn mở bán và chỉ có thể được nhận khi giai đoạn này kết thúc."
       },
       {
         "question": "Làm thế nào để nhận BFX?",
-        "answer": "Token sẽ tự động chuyển về ví của bạn sau khi đợt mở bán kết thúc. Bạn không cần làm gì thêm."
+        "answer": "Token BFX của bạn có thể được nhận trong vài giây tại BlockchainFX.com sau khi giai đoạn mở bán kết thúc."
       }
     ]
   },

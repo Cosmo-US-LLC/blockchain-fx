@@ -542,11 +542,11 @@
       },
       {
         "question": "Er mine tokens trygge?",
-        "answer": "Sikkerheten til dine tokens under forhåndssalget er 100 % garantert gjennom vår smartkontrakt."
+        "answer": "Sikkerheten til tokenene dine under forhåndssalget er 100 % garantert gjennom vår smarte kontrakt, der all data lagres sikkert. Tokenene blir tildelt hver kjøper og kan bare nås med deres lommebok. BFX-tokener kan ikke overføres under forhåndssalget og kan bare kreves etter at forhåndssalget er avsluttet."
       },
       {
         "question": "Hvordan krever jeg BFX?",
-        "answer": "Tokenene dine vil bli overført til lommeboken din automatisk etter at forhåndssalget er avsluttet. Du trenger ikke å gjøre noe."
+        "answer": "BFX-tokenene dine kan kreves på noen sekunder på BlockchainFX.com når forhåndssalget er avsluttet."
       }
     ]
   },

@@ -673,11 +673,11 @@
       },
       {
         "question": "I miei token sono al sicuro?",
-        "answer": "La sicurezza dei tuoi token durante la prevendita è garantita al 100% tramite il nostro smart contract."
+        "answer": "La sicurezza dei tuoi token durante la prevendita è garantita al 100% tramite il nostro smart contract, dove tutti i dati sono conservati in modo sicuro. I token vengono assegnati a ciascun acquirente e sono accessibili solo tramite il loro portafoglio. I token BFX non possono essere trasferiti durante la prevendita e possono essere richiesti solo al termine della stessa."
       },
       {
         "question": "Come posso richiedere i miei BFX?",
-        "answer": "I tuoi token verranno trasferiti automaticamente nel tuo wallet al termine della prevendita. Non dovrai fare nulla."
+        "answer": "Puoi richiedere i tuoi token BFX in pochi secondi su BlockchainFX.com una volta terminata la prevendita."
       }
     ]
   },
