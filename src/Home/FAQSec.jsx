@@ -146,11 +146,11 @@ const faqs = [
   },
   {
     "question": "Are my tokens safe?",
-    "answer": "The safety of your tokens during the pre-sale is 100% guaranteed through our smart contract."
+    "answer": "The safety of your tokens during the presale is 100% guaranteed through our smart contract, where all data is securely stored. Tokens are allocated to each buyer and can only be accessed with their wallet. BFX tokens cannot be transferred during the presale and can only be claimed once the presale ends."
   },
   {
     "question": "How to claim your BFX?",
-    "answer": "Your tokens will be transferred to your wallet automatically after the presale ends. You don't need to do anything."
+    "answer": "Your BFX tokens can be claimed within seconds on BlockchainFX.com once the presale ends."
   }
 ]
 
