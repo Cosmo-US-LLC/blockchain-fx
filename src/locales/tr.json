@@ -689,7 +689,7 @@
       },
       {
         "question": "BFX'inizi nasıl talep edersiniz?",
-        "answer": "BFX tokenlerinizi ön satış sona erdikten sonra birkaç saniye içinde BlockchainFX.com üzerinden talep edebilirsiniz."
+        "answer": "BFX tokenlerinizi ön satış sona erdikten sonra birkaç saniye içinde <a href=\"https://BlockchainFX.com\" target=\"\">BlockchainFX.com</a> üzerinden talep edebilirsiniz."
       }
     ]
   },
