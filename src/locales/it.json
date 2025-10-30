@@ -677,7 +677,7 @@
       },
       {
         "question": "Come posso richiedere i miei BFX?",
-        "answer": "Puoi richiedere i tuoi token BFX in pochi secondi su <a href=\"https://BlockchainFX.com\" target=\"\">BlockchainFX.com</a> una volta terminata la prevendita."
+        "answer": "Puoi richiedere i tuoi token BFX in pochi secondi su <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> una volta terminata la prevendita."
       }
     ]
   },

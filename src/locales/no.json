@@ -546,7 +546,7 @@
       },
       {
         "question": "Hvordan krever jeg BFX?",
-        "answer": "BFX-tokenene dine kan kreves på noen sekunder på <a href=\"https://BlockchainFX.com\" target=\"\">BlockchainFX.com</a> når forhåndssalget er avsluttet."
+        "answer": "BFX-tokenene dine kan kreves på noen sekunder på <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> når forhåndssalget er avsluttet."
       }
     ]
   },
