@@ -16,22 +16,22 @@ function MobileOneAppSec() {
 
   const items = [
     {
-      icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/oneicon%20(1).svg",
+      icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp2/oneicon%20(1).svg",
       title: t("one_app_sec.items.own_bfx.title"),
       description: t("one_app_sec.items.own_bfx.description"),
     },
     {
-      icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/oneicon%20(4).svg",
+      icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp2/oneicon%20(4).svg",
       title: t("one_app_sec.items.stake_bfx.title"),
       description: t("one_app_sec.items.stake_bfx.description"),
     },
     {
-      icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/oneicon%20(2).svg",
+      icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp2/oneicon%20(2).svg",
       title: t("one_app_sec.items.dashboard.title"),
       description: t("one_app_sec.items.dashboard.description"),
     },
     {
-      icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/oneicon%20(3).svg",
+      icon: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp2/oneicon%20(3).svg",
       title: t("one_app_sec.items.staking_rewards.title"),
       description: t("one_app_sec.items.staking_rewards.description"),
     },
@@ -87,7 +87,7 @@ function MobileOneAppSec() {
 
                   <div className="">
                     <img
-                      src={activeIndex === index ? "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/iconopen%20(2).svg" : "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/iconopen%20(1).svg"}
+                      src={activeIndex === index ? "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp2/iconopen%20(2).svg" : "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp2/iconopen%20(1).svg"}
                       alt={activeIndex === index ? "Collapse" : "Expand"}
                       className="w-[37] h-[37px]"
                     />
@@ -110,7 +110,7 @@ function MobileOneAppSec() {
           </div>
 
           <div className="w-[100%] flex justify-center !mt-10">
-            <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp/dailyimgmob.png'} className="object-cover" alt="Blockchainfx one app" />
+            <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/OneApp2/dailyimgmob.png'} className="object-cover" alt="Blockchainfx one app" />
           </div>
           <div className="max-w-[320px] w-[100%] mx-auto">
             <p className="text-[12px] px-2 leading-[130%] text-[#fff] text-center font-[400]">
