@@ -52,7 +52,7 @@ export default function YoutubeSec() {
       border: "1px solid #030F16",
     }}
     >
-      <img className="absolute" src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays/eclipse.svg'} alt="eclipse" />
+      <img className="absolute" src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/eclipse.svg'} alt="eclipse" />
     <div
         className="max-w-[413.763px] py-[20px] mx-auto w-[100%] px-4"
       >
@@ -99,7 +99,7 @@ export default function YoutubeSec() {
           <p className="text-[white] font-[500] text-[18px] text-left">
             "{t(`experts.slide${videoData[videoIndex].slide}.text`)}"
           </p>
-          <img className="mt-3" src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays/Stars.svg'} alt="stars" />
+          <img className="mt-3" src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/Stars.svg'} alt="stars" />
           <p className="text-[#D8D8D8] font-[600] text-[15px] mt-2">
             {t(`experts.slide${videoData[videoIndex].slide}.name`)}
           </p>
