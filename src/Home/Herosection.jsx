@@ -66,19 +66,19 @@ function Herosection() {
 
             <div className="space-y-[10px] max-w-[530px] border-[0.5px] border-[#C0C0C0] py-[15px] pl-[21px] rounded-[13px]">
               <div className="flex items-center space-x-2">
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="tick icon" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg'} alt="tick icon" />
                 <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
                   {t("hero.feature1")}
                 </p>
               </div>
               <div className="flex items-center space-x-2">
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="tick icon" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg'} alt="tick icon" />
                 <p className="text-[#fff] font-[400] capitalize leading-[150%] text-[16px]">
                   {t("hero.feature2")}
                 </p>
               </div>
               <div className="flex items-center space-x-2">
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/check.svg'} alt="tick icon" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg'} alt="tick icon" />
                 <p className="text-[#fff] capitalize font-[400] leading-[150%] text-[16px]">
                   {t("hero.feature3")}
                 </p>
@@ -142,9 +142,9 @@ function Herosection() {
                 {t("hero.audited_by")}
               </h3>
               <div className="flex justify-center items-center space-x-[15px]">
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(1).svg'} alt="certik" />
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(2).svg'} alt="coinsult" />
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg'} alt="certik" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg'} alt="coinsult" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
               </div>
             </div>
             <div className="flex items-center justify-center space-x-4">
@@ -152,7 +152,7 @@ function Herosection() {
                 <p className="text-[#fff] text-center mb-2 font-inter font-[400] text-[16px]">
                   {t("hero.verified_ratings")}
                 </p>
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/Avatar%20group.png'} className="object-cover" loading="lazy" alt="reviews" />
+                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/Avatar%20group.png'} className="object-cover" loading="lazy" alt="reviews" />
                  <div
                 className="flex items-center mt-3 justify-center space-x-[10px] rounded-[10px]"
               >
@@ -162,7 +162,7 @@ function Herosection() {
                 <img
                   className="w-[82px] h-[15px]"
                   loading="lazy"
-                  src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/Hero%20section/stars.png'}
+                  src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/stars.png'}
                   alt="star"
                 />
               </div>
