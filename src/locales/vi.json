@@ -12,6 +12,7 @@
     "live_presale_section": {
     "title": "Đợt bán trước BFX đang diễn ra",
     "Halloween_title": "Ưu đãi Halloween:",
+    "Breakthrough_title": "Thông báo đột phá lớn của BFX",
     "get_more": "Nhận thêm 40% BFX với mã",
     "code_CANDY40": "CANDY40",
     "buy_button": "Mua BFX",
@@ -1003,6 +1004,10 @@
   "you_receive_bfx": "Bạn nhận được $BFX",
   "nft": "NFT",
   "unlock_nft": "Mở khóa",
+  "limited_time_offer_1": "Ưu đãi có thời hạn:",
+  "use_bonus_code_1": "Sử dụng mã thưởng",
+  "code_1": "BFX20",
+  "to_get": "Nhận thêm 20% đồng $BFX!",
   "limited_time_offer": "Ưu đãi đặc biệt Halloween:",
   "use_bonus_code": "Sử dụng mã",
   "bonus_code_num": "CANDY40",

@@ -12,6 +12,7 @@
      "live_presale_section": {
     "title": "BFX预售正在进行中",
     "Halloween_title": "万圣节奖励：",
+    "Breakthrough_title": "BFX重大突破公告",
     "get_more": "使用代码可获得额外40% BFX",
     "code_CANDY40": "CANDY40",
     "buy_button": "购买 BFX",
@@ -1001,6 +1002,10 @@
   "you_receive_bfx": "您将获得 $BFX",
   "nft": "NFT",
   "unlock_nft": "解锁",
+  "limited_time_offer_1": "限时优惠：",
+  "use_bonus_code_1": "使用奖励代码",
+  "code_1": "BFX20",
+  "to_get": "可获得额外20%的$BFX币！",
    "limited_time_offer": "万圣节特别优惠：",
   "use_bonus_code": "使用代码",
   "bonus_code_num": "CANDY40",

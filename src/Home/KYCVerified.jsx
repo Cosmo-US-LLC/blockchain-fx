@@ -10,7 +10,7 @@ function KYCVerified() {
 
   const cardItems = [
     {
-      img: 'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/kycicn%20(3).svg',
+      img: 'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg',
       title: t("KYCVerified.card_items.0.title"),
       description: t("KYCVerified.card_items.0.description"),
     },

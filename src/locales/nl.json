@@ -12,6 +12,7 @@
  "live_presale_section": {
     "title": "BFX voorverkoop is live",
     "Halloween_title": "Halloween-bonus:",
+    "Breakthrough_title": "Grote BFX-doorbraak aankondiging",
     "get_more": "Ontvang 40% meer BFX met de code",
     "code_CANDY40": "CANDY40",
     "buy_button": "Koop BFX",
@@ -940,6 +941,10 @@
     "you_receive_bfx": "Je ontvangt $BFX",
     "nft": "NFT",
     "unlock_nft": "Ontgrendelen",
+     "limited_time_offer_1": "Aanbieding voor beperkte tijd:",
+  "use_bonus_code_1": "Gebruik bonuscode",
+  "code_1": "BFX20",
+  "to_get": "Ontvang 20% meer $BFX-munten!",
     "limited_time_offer": "Halloween-special:",
   "use_bonus_code": "Gebruik de code",
   "bonus_code_num": "CANDY40",

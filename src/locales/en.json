@@ -12,6 +12,7 @@
   "live_presale_section": {
     "title": "BFX Presale is Live",
      "Halloween_title":"Halloween Bonus:",
+     "Breakthrough_title":"Huge BFX Breakthrough Announcement",
     "get_more":"Get 40% more BFX with code",
     "code_CANDY40":"CANDY40",
     "buy_button": "Buy BFX",
@@ -991,6 +992,10 @@
     "you_receive_bfx": "You Receive $BFX",
     "nft": "NFT",
     "unlock_nft": "Unlock",
+    "limited_time_offer_1":"Limited time Offer:",
+    "use_bonus_code_1":"Use Bonus Code",
+    "code_1":"BFX20",
+    "to_get":"To Get 20% More $BFX Coins!",
     "limited_time_offer": "Halloween Special:",
     "use_bonus_code": "Use code",
     "bonus_code_num": "CANDY40",
