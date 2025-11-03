@@ -12,6 +12,7 @@
   "live_presale_section": {
     "title": "البيع المسبق لـ BFX مباشر الآن",
     "Halloween_title": "مكافأة الهالوين:",
+     "Breakthrough_title": "إعلان اختراق كبير",
     "get_more": "احصل على 40٪ أكثر من BFX باستخدام الرمز",
     "code_CANDY40": "CANDY40",
     "buy_button": "اشترِ BFX",
@@ -906,6 +907,10 @@
   "you_receive_bfx": "ستستلم $BFX",
   "nft": "NFT",
   "unlock_nft": "فتح",
+  "limited_time_offer_1": "عرض لفترة محدودة:",
+  "use_bonus_code_1": "استخدم رمز المكافأة",
+  "code_1": "BFX20",
+  "to_get": "للحصول على 20٪ المزيد من عملات $BFX!",
   "limited_time_offer": "عرض خاص للهالوين:",
   "use_bonus_code": "استخدم الرمز",
   "bonus_code_num": "CANDY40",
