@@ -125,7 +125,8 @@ const handleScroll = () => {
           <div className="flex w-[100%] justify-center items-center space-x-2 border-t-[1px] border-[#000] pt-2 mt-2">
           
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-             <span className="font-[800]">{t("live_presale_section.Halloween_title")}</span> {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span>
+             <span className="font-[800]">{t("live_presale_section.Breakthrough_title")}</span> 
+             {/* {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span> */}
           </p>
             <button
               onClick={handleScroll}
