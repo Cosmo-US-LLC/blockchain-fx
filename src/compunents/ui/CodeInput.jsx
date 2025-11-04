@@ -66,7 +66,7 @@ export const BonusCodeInput = (props) => {
     <CodeInput
       defaultValue={props.defaultValue}
       label="Bonus Code"
-      appliedText={userData.appliedBonusCode ? `Applied Code +${userData.appliedBonusCode.percentage}%` : null}
+      appliedText={userData.appliedBonusCode ? userData.appliedBonusCode.message : null}
       onReset={() => resetUserBonusCode()}
       onClick={async (code) => {
         await toast.promise(userApplyBonusCode(code), {

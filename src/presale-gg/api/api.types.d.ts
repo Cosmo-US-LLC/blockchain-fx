@@ -151,6 +151,8 @@ export namespace API {
 
   export type BonusCode = {
     percentage: number;
+    message: string;
+    min_spend: number;
   };
 
   export type UserRankData = {
