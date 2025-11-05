@@ -216,7 +216,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg'}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(1).svg'}
               alt="Featured"
             />
           </a>
@@ -227,7 +227,7 @@ function MobileHero() {
           >
             <img
               className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg'}
+              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(2).svg'}
               alt="Featured"
             />
           </a>
