@@ -257,7 +257,7 @@ function MobileHero() {
          </div>
          <div className="flex space-x-3 justify-center items-center">
            <a
-            href="https://www.kucoin.com/news/flash/blockchainfx-presale-attracts-10-000-buyers-surpassing-bitcoin-hyper-and-little-pepe"
+            href="https://www.kucoin.com/news/flash/blockchainfx-presale-surpasses-10m-as-it-aims-to-outperform-sui-and-hyperliquid"
             target="_blank"
             rel="noopener noreferrer"
           >
