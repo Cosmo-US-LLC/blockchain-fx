@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import AOFA from "../assets/herosection/AOFA.webp"
 import uersrev from "../assets/herosection/Avatar group.webp";
 import stars from "../assets/herosection/stars (2).webp";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
@@ -192,7 +193,6 @@ function MobileHero() {
               >
                 {t("hero.buy_button")}
               </button>
-
               <button
                 onClick={handleScrollToDemo}
                 className="hover:text-[#000] hover:bg-[#E5AE00] px-[15px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px] !w-fit h-[50px]"
@@ -200,6 +200,10 @@ function MobileHero() {
                 {t("hero.how_it_works_button")}
               </button>
             </div>
+              <div className="flex justify-center items-center">
+                  <img className="max-w-[150px]" src={AOFA} alt="" />
+                              <a href="http://" target="_blank" rel="noopener noreferrer" className="text-[#fff] text-[10px] font-[400] font-[Inter] underline">Verify License</a>
+              </div>
           </div>
         </div>
       </div>
