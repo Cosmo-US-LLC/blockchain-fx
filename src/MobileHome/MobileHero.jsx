@@ -200,9 +200,9 @@ function MobileHero() {
                 {t("hero.how_it_works_button")}
               </button>
             </div>
-              <div className="flex justify-center items-center">
-                  <img className="max-w-[150px]" src={AOFA} alt="" />
-                              <a href="http://" target="_blank" rel="noopener noreferrer" className="text-[#fff] text-[10px] font-[400] font-[Inter] underline">Verify License</a>
+              <div className="flex justify-center flex-col items-center">
+                  <img className="max-w-[154px]" src={AOFA} alt="" />
+                              {/* <a href="http://" target="_blank" rel="noopener noreferrer" className="ml-8 text-[#fff] text-[10px] font-[400] font-[Inter] underline">Verify License</a> */}
               </div>
           </div>
         </div>
