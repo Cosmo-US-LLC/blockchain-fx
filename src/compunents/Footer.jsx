@@ -236,15 +236,15 @@ function Footer() {
           ></div>
         </div>
         <div className="flex items-center justify-between">
-          <p className=" text-[16px] text-[#fff] leading-[150%]">
+          <p className="w-[30%] text-[16px] text-[#fff] leading-[150%]">
             {t("footer.copyright")}
           </p>
-          <div className="">
+          <div className="w-[30%] flex justify-center items-center">
             <img className="max-w-[150px]" src={AOFA} alt="" />
           </div>
-          <div className="space-x-5">
+          <div className="space-x-5 w-[30%] flex justify-end">
             <Link to={getLangPath("/cookie-management")}>
-              <p className="text-[#fff] text-[16px] pt-[20px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#fff] transition duration-300 inline-block">
+              <p className="text-[#fff] text-[16px]  block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#fff] transition duration-300 inline-block">
                 {t("footer.cookie_management")}
               </p>
             </Link>
