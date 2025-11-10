@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import AOFA from "../assets/herosection/AOFA.webp"
+import AOFA from "../assets/herosection/AOFA.webp";
 import uersrev from "../assets/herosection/Avatar group.webp";
 import stars from "../assets/herosection/stars (2).webp";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
@@ -90,10 +90,9 @@ function MobileHero() {
               </h4>
             </div>
             <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] tracking-[-2px] leading-[120%] font-inter text-[#fff] ">
-            <span
-                dangerouslySetInnerHTML={{ __html: t("hero.title")}}
-              /> <span 
-              className="pr-[8px]"
+              <span dangerouslySetInnerHTML={{ __html: t("hero.title") }} />{" "}
+              <span
+                className="pr-[8px]"
                 style={{
                   background:
                     "linear-gradient(91deg, #E5AE01 24.64%, #FFE182 97%)",
@@ -101,12 +100,14 @@ function MobileHero() {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                 }}
-              >{t("hero.title_highlight")}</span>
+              >
+                {t("hero.title_highlight")}
+              </span>
             </h1>
-            <p className="text-[#fff] mb-4 mobilepara text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]"
-            dangerouslySetInnerHTML={{ __html: t("hero.subtitle") }}
+            <p
+              className="text-[#fff] mb-4 mobilepara text-center font-[500] leading-[157%] tracking-[-0.14px] text-[16px]"
+              dangerouslySetInnerHTML={{ __html: t("hero.subtitle") }}
             />
-             
           </div>
           <div className="max-w-[450px] space-y-[27px]">
             <div className="relative flex justify-center">
@@ -121,18 +122,29 @@ function MobileHero() {
                 style={{ borderRadius: "12px" }}
               />
             </div>
-           
-          
+
             <div className="!mt-[15px] space-x-3 flex justify-center items-center">
               <p className="text-[15px] text-[#fff] leading-[185%] text-center font-[400]">
                 {t("hero.Licensed")}
               </p>
-               <a href="https://blockchainfx.com/license.pdf" target="_blank" rel="noopener noreferrer" className=""><img className="max-w-[130px]" src={AOFA} alt="" /></a>
+              <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex min-w-[130px] flex-col items-end">
+                <img className="max-w-[130px]" src={AOFA} alt="" />
+                <a
+                  href="https://blockchainfx.com/license.pdf"
+                  className="text-[10px] mr-[12px] underline text-[#fff] "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Verify license
+                </a>
+              </div>
             </div>
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
                 <img
-                  src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/Avatar%20group.webp'}
+                  src={
+                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/Avatar%20group.webp"
+                  }
                   className="object-cover h-[43px]"
                   loading="lazy"
                   alt="reviews"
@@ -151,7 +163,9 @@ function MobileHero() {
                 <img
                   className="w-[82px]"
                   loading="lazy"
-                  src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/stars%20(2).webp'}
+                  src={
+                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/stars%20(2).webp"
+                  }
                   alt="star"
                 />
                 <p className="text-[#fff] font-[400] text-[17.702px]">
@@ -164,31 +178,61 @@ function MobileHero() {
                 {t("hero.audited_by")}
               </p>
             </div>
-              <div className="!mt-[12px]  flex justify-center items-center space-x-[20px]">
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg'} alt="certik" />
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg'} alt="coinsult" />
+            <div className="!mt-[12px]  flex justify-center items-center space-x-[20px]">
+              <img
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg"
+                }
+                alt="certik"
+              />
+              <img
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg"
+                }
+                alt="SolidProof logo shield icon and text"
+              />
+              <img
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg"
+                }
+                alt="coinsult"
+              />
             </div>
-            
+
             <div className="flex flex-col gap-2 border border-[#C0C0C0] !mt-[20px] py-5 px-3 rounded-[13px]">
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg'} alt="BlockchainFX" />
+                <img
+                  src={
+                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                  }
+                  alt="BlockchainFX"
+                />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   {t("hero.featuremob1")}
                 </p>
               </div>
               <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg'} alt="BlockchainFX" />
+                <img
+                  src={
+                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                  }
+                  alt="BlockchainFX"
+                />
                 <p className="text-[#fff] font-[400] capitalize leading-[157%] text-[13px]">
                   {t("hero.featuremob2")}
                 </p>
               </div>
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg'} alt="BlockchainFX" />
-                <p className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]"
-                dangerouslySetInnerHTML={{ __html: t("hero.featuremob3") }}
-                >
-                </p>
+                <img
+                  src={
+                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                  }
+                  alt="BlockchainFX"
+                />
+                <p
+                  className="text-[#fff] capitalize font-[400] leading-[157%] text-[13px]"
+                  dangerouslySetInnerHTML={{ __html: t("hero.featuremob3") }}
+                ></p>
               </div>
             </div>
             <div className="flex justify-center pb-[0px] items-center space-x-[17px]">
@@ -209,7 +253,6 @@ function MobileHero() {
                 {t("hero.how_it_works_button")}
               </button>
             </div>
-             
           </div>
         </div>
       </div>
@@ -218,134 +261,158 @@ function MobileHero() {
           {t("featured_sec.featured_in")}
         </p>
         <div className="grid gap-3">
-         <div className="flex space-x-2 justify-center items-center">
-           <a
-            href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(1).svg'}
-              alt="Featured"
-            />
-          </a>
-          <a
-            href="https://www.binance.com/en/square/post/29811397309321"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(2).svg'}
-              alt="Featured"
-            />
-          </a>
-          <a
-            href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="min-w-[90px] max-w-[90px]"
-          >
-            <img
-              className="mix-blend-luminosity w-[100%] h-[100%] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(2).webp'}
-              alt="Featured"
-            />
-          </a>
-          <a
-            href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(3).svg'}
-              alt="Featured"
-            />
-          </a>
-         </div>
-         <div className="flex space-x-3 justify-center items-center">
-           <a
-            href="https://www.kucoin.com/news/flash/blockchainfx-presale-surpasses-10m-as-it-aims-to-outperform-sui-and-hyperliquid"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(11).svg'}
-              alt="Featured"
-            />
-          </a>
-           <a
-            href="https://hackernoon.com/best-crypto-to-buy-now-why-blockchainfxs-$0019-presale-could-outpace-sei-and-pengu"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(9).svg'}
-              alt="Featured"
-            />
-          </a>
-          <a
-            href="https://finbold.com/blockchainfx-raises-7-24m-in-presale-as-first-multi-asset-super-app-connecting-crypto-stocks-and-forex-goes-live-in-beta/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(7).svg'}
-              alt="Featured"
-            />
-          </a>
-          <a
-            href="https://www.okx.com/learn/cardano-blockchainfx-presale-opportunity "
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="brightness-0 invert-[.70] h-[14px] w-[92px] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/full-okx-logo%201.svg'}
-              alt="Featured"
-            />
-          </a>
-         </div>
-        <div className="flex space-x-3 justify-center items-center">
+          <div className="flex space-x-2 justify-center items-center">
             <a
-            href="https://www.bitget.com/news/detail/12560604943063" target="_blank" rel="noopener noreferrer"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="h-[26px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(8).svg'}
-              alt="Featured"
-            />
-          </a>
+              href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(1).svg"
+                }
+                alt="Featured"
+              />
+            </a>
             <a
-            href="https://cointelegraph.com/press-releases/blockchainfx-raises-7-24m-in-presale-as-multi-asset-app-for-crypto-stocks-forex-launches-beta"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(6).svg'}
-              alt="Featured"
-            />
-          </a>
-           <a
-            href="https://decrypt.co/339250/blockchainfx-raises-7-24m-in-presale-as-first-multi-asset-super-app-connecting-crypto-stocks-and-forex-goes-live-in-beta"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
-              src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(12).svg'}
-              alt="Featured"
-            />
-          </a>
-        </div>
+              href="https://www.binance.com/en/square/post/29811397309321"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(2).svg"
+                }
+                alt="Featured"
+              />
+            </a>
+            <a
+              href="https://blockonomi.com/shiba-inu-shib-pepe-coin-pepe-blockchainfx-bfx-which-one-will-bring-the-highest-roi-during-the-peak-of-the-bull-run/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="min-w-[90px] max-w-[90px]"
+            >
+              <img
+                className="mix-blend-luminosity w-[100%] h-[100%] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(2).webp"
+                }
+                alt="Featured"
+              />
+            </a>
+            <a
+              href="https://coinpedia.org/sponsored/new-crypto-presales-to-invest-in-march-2025/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(3).svg"
+                }
+                alt="Featured"
+              />
+            </a>
+          </div>
+          <div className="flex space-x-3 justify-center items-center">
+            <a
+              href="https://www.kucoin.com/news/flash/blockchainfx-presale-surpasses-10m-as-it-aims-to-outperform-sui-and-hyperliquid"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(11).svg"
+                }
+                alt="Featured"
+              />
+            </a>
+            <a
+              href="https://hackernoon.com/best-crypto-to-buy-now-why-blockchainfxs-$0019-presale-could-outpace-sei-and-pengu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(9).svg"
+                }
+                alt="Featured"
+              />
+            </a>
+            <a
+              href="https://finbold.com/blockchainfx-raises-7-24m-in-presale-as-first-multi-asset-super-app-connecting-crypto-stocks-and-forex-goes-live-in-beta/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(7).svg"
+                }
+                alt="Featured"
+              />
+            </a>
+            <a
+              href="https://www.okx.com/learn/cardano-blockchainfx-presale-opportunity "
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="brightness-0 invert-[.70] h-[14px] w-[92px] hover:brightness-100 hover:invert-0 object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/full-okx-logo%201.svg"
+                }
+                alt="Featured"
+              />
+            </a>
+          </div>
+          <div className="flex space-x-3 justify-center items-center">
+            <a
+              href="https://www.bitget.com/news/detail/12560604943063"
+              target="_blank"
+              rel="noopener noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="h-[26px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(8).svg"
+                }
+                alt="Featured"
+              />
+            </a>
+            <a
+              href="https://cointelegraph.com/press-releases/blockchainfx-raises-7-24m-in-presale-as-multi-asset-app-for-crypto-stocks-forex-launches-beta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(6).svg"
+                }
+                alt="Featured"
+              />
+            </a>
+            <a
+              href="https://decrypt.co/339250/blockchainfx-raises-7-24m-in-presale-as-first-multi-asset-super-app-connecting-crypto-stocks-and-forex-goes-live-in-beta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
+                src={
+                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(12).svg"
+                }
+                alt="Featured"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
