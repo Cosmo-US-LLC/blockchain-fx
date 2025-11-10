@@ -121,15 +121,13 @@ function MobileHero() {
                 style={{ borderRadius: "12px" }}
               />
             </div>
-            <div className="flex justify-center items-center space-x-[20px]">
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg'} alt="certik" />
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg'} alt="coinsult" />
-            </div>
-            <div className="!mt-[8px]">
-              <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">
-                {t("hero.audited_by")}
+           
+          
+            <div className="!mt-[15px] space-x-3 flex justify-center items-center">
+              <p className="text-[15px] text-[#fff] leading-[185%] text-center font-[400]">
+                {t("hero.Licensed")}
               </p>
+               <img className="max-w-[130px]" src={AOFA} alt="" />
             </div>
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
@@ -161,6 +159,17 @@ function MobileHero() {
                 </p>
               </div>
             </div>
+            <div className="flex justify-center items-center">
+              <p className="text-[15px] text-[#fff] leading-[185%] text-center font-[400]">
+                {t("hero.audited_by")}
+              </p>
+            </div>
+              <div className="!mt-[12px]  flex justify-center items-center space-x-[20px]">
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg'} alt="certik" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg'} alt="coinsult" />
+            </div>
+            
             <div className="flex flex-col gap-2 border border-[#C0C0C0] !mt-[20px] py-5 px-3 rounded-[13px]">
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg'} alt="BlockchainFX" />
@@ -200,10 +209,7 @@ function MobileHero() {
                 {t("hero.how_it_works_button")}
               </button>
             </div>
-              <div className="flex justify-center flex-col items-center">
-                  <img className="max-w-[154px]" src={AOFA} alt="" />
-                              {/* <a href="http://" target="_blank" rel="noopener noreferrer" className="ml-8 text-[#fff] text-[10px] font-[400] font-[Inter] underline">Verify License</a> */}
-              </div>
+             
           </div>
         </div>
       </div>

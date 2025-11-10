@@ -153,7 +153,7 @@ function Herosection() {
             >
               {t("hero.how_it_works_button")}
             </button>
-            <div className="min-w-[200px] flex flex-col items-end">
+            <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden min-w-[200px]  flex-col items-end">
               <img className="max-w-[160px]" src={AOFA} alt="" />
               {/* <a href="http://" target="_blank" rel="noopener noreferrer" className="text-[#fff] text-[10px] font-[400] font-[Inter] underline mr-4">Verify License</a> */}
             </div>
