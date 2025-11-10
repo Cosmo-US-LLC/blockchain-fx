@@ -1,7 +1,7 @@
 "use client";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import AOFA from "../assets/herosection/AOFA.webp"
+import AOFA from "../assets/herosection/AOFA.webp";
 import logo from "../assets/footer/logo.svg";
 import socil1 from "../assets/footer/Vector (2).svg";
 import socil2 from "../assets/footer/Vector (3).svg";
@@ -204,6 +204,9 @@ function Footer() {
               </h4>
               <h3 className="text-[#fff] text-[16px] font-[400] leading-[108.333%]">
                 {t("footer.contact.email")}
+              </h3>
+              <h3 className="text-[#fff] text-[16px] pt-3 font-[400] leading-[108.333%]">
+                License 16172
               </h3>
             </div>
           </div>
@@ -418,13 +421,16 @@ function Footer() {
             dangerouslySetInnerHTML={{ __html: t("footer.disclaimer") }}
           />
         </div>
+        <div className="space-y-3">
           <div className="flex justify-center items-center">
             <img className="max-w-[150px]" src={AOFA} alt="" />
           </div>
-        <div>
-          <p className="text-[10px] text-center text-[#fff] leading-[100%] mb-8">
-            {t("footer.copyright")}
-          </p>
+          <h3 className="text-[#fff] text-center text-[15px] font-[400]">License 16172</h3>
+          <div>
+            <p className="text-[10px] text-center text-[#fff] leading-[100%] mb-8">
+              {t("footer.copyright")}
+            </p>
+          </div>
         </div>
       </div>
       {/* mobile version end */}
