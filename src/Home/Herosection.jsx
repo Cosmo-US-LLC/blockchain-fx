@@ -154,8 +154,7 @@ function Herosection() {
               {t("hero.how_it_works_button")}
             </button>
             <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden min-w-[200px]  flex-col items-end">
-              <img className="max-w-[160px]" src={AOFA} alt="" />
-              {/* <a href="http://" target="_blank" rel="noopener noreferrer" className="text-[#fff] text-[10px] font-[400] font-[Inter] underline mr-4">Verify License</a> */}
+              <a href="https://blockchainfx.com/license.pdf" target="_blank" rel="noopener noreferrer" className=""><img className="max-w-[160px]" src={AOFA} alt="" /></a>
             </div>
           </div>
           <div className="flex mt-[-15px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">

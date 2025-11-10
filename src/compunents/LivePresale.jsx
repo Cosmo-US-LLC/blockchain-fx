@@ -109,20 +109,7 @@ const handleScroll = () => {
       >
         <div className="max-w-[900px] mx-auto w-[100%] flex flex-col justify-center  items-center">
           
-            <div>
-              <h3 className="text-[14px] font-[600]">
-                {timeLeft.days}{" "}
-                <span className="text-[12px] font-[400]"> {t("live_presale_section.day")}</span> :{" "}
-                {timeLeft.hours}{" "}
-                <span className="text-[12px] font-[400]">{t("live_presale_section.Hours")}</span> :{" "}
-                {timeLeft.minutes}{" "}
-                <span className="text-[12px] font-[400]">{t("live_presale_section.Minutes")}</span> :{" "}
-                {timeLeft.seconds}{" "}
-                <span className="text-[12px] font-[400]">{t("live_presale_section.Seconds")}</span>
-              </h3>
-            </div>
-
-          <div className="flex w-[100%] justify-center items-center space-x-2 border-t-[1px] border-[#000] pt-2 mt-2">
+          <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
           
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[8px] text-[8px] text-center">
              <span className="font-[800]">{t("live_presale_section.Breakthrough_title")}</span> {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span>
@@ -134,6 +121,18 @@ const handleScroll = () => {
               {t("live_presale_section.buy_button")}
             </button>
           </div>
+             <div>
+              <h3 className="text-[14px] font-[600]">
+                {timeLeft.days}{" "}
+                <span className="text-[12px] font-[400]"> {t("live_presale_section.day")}</span> :{" "}
+                {timeLeft.hours}{" "}
+                <span className="text-[12px] font-[400]">{t("live_presale_section.Hours")}</span> :{" "}
+                {timeLeft.minutes}{" "}
+                <span className="text-[12px] font-[400]">{t("live_presale_section.Minutes")}</span> :{" "}
+                {timeLeft.seconds}{" "}
+                <span className="text-[12px] font-[400]">{t("live_presale_section.Seconds")}</span>
+              </h3>
+            </div>
         </div>
       </div>
       {/* <div
