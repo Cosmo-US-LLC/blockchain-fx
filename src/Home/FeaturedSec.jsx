@@ -1,12 +1,5 @@
 import { useTranslation } from "react-i18next";
-import herobnr1 from "../assets/herosection/bnrhero (1).svg";
-import herobnr2 from "../assets/herosection/bnrhero (2).svg";
-import herobnr3 from "../assets/herosection/bnrhero (8).svg";
-import herobnr4 from "../assets/herosection/bnrhero (11).svg";
-import herobnr5 from "../assets/herosection/bnrhero (6).svg";
-import herobnr6 from "../assets/herosection/bnrhero (9).svg";
-import herobnr7 from "../assets/herosection/bnrhero (7).svg";
-import herobnr8 from "../assets/herosection/full-okx-logo 1.svg";
+
 
 function FeaturedSec() {
   const { t } = useTranslation();
@@ -33,7 +26,7 @@ function FeaturedSec() {
               </a>
             </div>
             <div className="flex flex-col items-center">
-              <a href="https://www.kucoin.com/news/flash/blockchainfx-presale-attracts-10-000-buyers-surpassing-bitcoin-hyper-and-little-pepe" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.kucoin.com/news/flash/blockchainfx-presale-surpasses-10m-as-it-aims-to-outperform-sui-and-hyperliquid" target="_blank" rel="noopener noreferrer">
                 <img loading="lazy" src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(11).svg'} className="h-[22px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0" alt="Featured" />
               </a>
             </div>

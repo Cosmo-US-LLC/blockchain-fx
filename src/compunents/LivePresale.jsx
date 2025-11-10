@@ -15,7 +15,8 @@ const [timeLeft, setTimeLeft] = useState({
 });
 
 useEffect(() => {
-  const targetDate = new Date(Date.UTC(2025, 10, 10, 14, 0, 0)); 
+  const targetDate = new Date(Date.UTC(2025, 10, 20, 18, 0, 0)); 
+
   const interval = setInterval(() => {
     const now = new Date();
     const difference = targetDate.getTime() - now.getTime();
@@ -71,10 +72,9 @@ const handleScroll = () => {
             "#FCD149",
         }}
       >
-         <div className="max-w-[780px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
+         <div className="max-w-[1080px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.Breakthrough_title")}</span> 
-            {/* {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span> */}
+            <span className="font-[800]">{t("live_presale_section.Breakthrough_title")}</span> {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span>
           </p>
 
           <div className="flex items-center space-x-2 ">
@@ -109,7 +109,19 @@ const handleScroll = () => {
       >
         <div className="max-w-[900px] mx-auto w-[100%] flex flex-col justify-center  items-center">
           
-            <div>
+          <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
+          
+            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[8px] text-[8px] text-center">
+             <span className="font-[800]">{t("live_presale_section.Breakthrough_title")}</span> {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span>
+          </p>
+            <button
+              onClick={handleScroll}
+              className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff]  bg-[black] rounded-[3px] h-[22px] px-[6px] md:px-[10px]"
+            >
+              {t("live_presale_section.buy_button")}
+            </button>
+          </div>
+             <div>
               <h3 className="text-[14px] font-[600]">
                 {timeLeft.days}{" "}
                 <span className="text-[12px] font-[400]"> {t("live_presale_section.day")}</span> :{" "}
@@ -121,20 +133,6 @@ const handleScroll = () => {
                 <span className="text-[12px] font-[400]">{t("live_presale_section.Seconds")}</span>
               </h3>
             </div>
-
-          <div className="flex w-[100%] justify-center items-center space-x-2 border-t-[1px] border-[#000] pt-2 mt-2">
-          
-            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-             <span className="font-[800]">{t("live_presale_section.Breakthrough_title")}</span> 
-             {/* {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span> */}
-          </p>
-            <button
-              onClick={handleScroll}
-              className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff]  bg-[black] rounded-[3px] h-[22px] px-[6px] md:px-[10px]"
-            >
-              {t("live_presale_section.buy_button")}
-            </button>
-          </div>
         </div>
       </div>
       {/* <div

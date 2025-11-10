@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import AOFA from "../assets/herosection/AOFA.webp"
 import uersrev from "../assets/herosection/Avatar group.webp";
 import stars from "../assets/herosection/stars (2).webp";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
@@ -120,15 +121,13 @@ function MobileHero() {
                 style={{ borderRadius: "12px" }}
               />
             </div>
-            <div className="flex justify-center items-center space-x-[20px]">
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg'} alt="certik" />
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
-              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg'} alt="coinsult" />
-            </div>
-            <div className="!mt-[8px]">
-              <p className="text-[16px] text-[#fff] leading-[185%] text-center font-[400]">
-                {t("hero.audited_by")}
+           
+          
+            <div className="!mt-[15px] space-x-3 flex justify-center items-center">
+              <p className="text-[15px] text-[#fff] leading-[185%] text-center font-[400]">
+                {t("hero.Licensed")}
               </p>
+               <a href="https://blockchainfx.com/license.pdf" target="_blank" rel="noopener noreferrer" className=""><img className="max-w-[130px]" src={AOFA} alt="" /></a>
             </div>
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
@@ -160,6 +159,17 @@ function MobileHero() {
                 </p>
               </div>
             </div>
+            <div className="flex justify-center items-center">
+              <p className="text-[15px] text-[#fff] leading-[185%] text-center font-[400]">
+                {t("hero.audited_by")}
+              </p>
+            </div>
+              <div className="!mt-[12px]  flex justify-center items-center space-x-[20px]">
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg'} alt="certik" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg'} alt="SolidProof logo shield icon and text" />
+              <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg'} alt="coinsult" />
+            </div>
+            
             <div className="flex flex-col gap-2 border border-[#C0C0C0] !mt-[20px] py-5 px-3 rounded-[13px]">
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg'} alt="BlockchainFX" />
@@ -192,7 +202,6 @@ function MobileHero() {
               >
                 {t("hero.buy_button")}
               </button>
-
               <button
                 onClick={handleScrollToDemo}
                 className="hover:text-[#000] hover:bg-[#E5AE00] px-[15px] text-[#E6B005] bg-transparent text-[16px] font-[500] border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px] !w-fit h-[50px]"
@@ -200,6 +209,7 @@ function MobileHero() {
                 {t("hero.how_it_works_button")}
               </button>
             </div>
+             
           </div>
         </div>
       </div>
@@ -257,7 +267,7 @@ function MobileHero() {
          </div>
          <div className="flex space-x-3 justify-center items-center">
            <a
-            href="https://www.kucoin.com/news/flash/blockchainfx-presale-attracts-10-000-buyers-surpassing-bitcoin-hyper-and-little-pepe"
+            href="https://www.kucoin.com/news/flash/blockchainfx-presale-surpasses-10m-as-it-aims-to-outperform-sui-and-hyperliquid"
             target="_blank"
             rel="noopener noreferrer"
           >
