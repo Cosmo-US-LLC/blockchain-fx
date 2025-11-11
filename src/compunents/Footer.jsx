@@ -425,7 +425,7 @@ function Footer() {
           <div className="flex justify-center items-center">
             <img className="max-w-[150px]" src={AOFA} alt="" />
           </div>
-          <h3 className="text-[#fff] text-center text-[15px] font-[400]">License 16172</h3>
+          <h3 className="text-[#fff] text-center text-[15px] font-[400]">License: 16172</h3>
           <div>
             <p className="text-[10px] text-center text-[#fff] leading-[100%] mb-8">
               {t("footer.copyright")}
