@@ -35,17 +35,17 @@ function MobileLessThanSec() {
               </div>
               <div className="relative mt-10">
                 <div className="flex justify-end">
-                  <img src={graph || "/placeholder.svg"} className="max-w-[200px] max-h-[200px]" alt="BlockchainFX graph" />
+                  <img src={graph || "/placeholder.svg"} className="max-w-[190px] max-h-[190px]" alt="BlockchainFX graph" />
                 </div>
                 <p className="text-[#fff] top-[-24%] left-[41%] absolute leading-[110%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.bonds") }}>
                 </p>
                 <p className="text-[#fff] leading-[110%] absolute top-[-12%] left-[14%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.stocks") }}>
                 </p>
-                <p className="text-[#fff] leading-[110%] absolute top-[16%] left-[5%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.commodities") }}>
+                <p className="text-[#fff] leading-[110%] absolute top-[16%] left-[5%] text-[12px] w-[110px] font-[500] tracking-[-0.787px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.commodities") }}>
                 </p>
                 <p className="text-[#fff] leading-[110%] absolute top-[42%] left-[3%] text-[12px] w-[100px] font-[500] tracking-[-0.787px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.etfs") }}>
                 </p>
-                <p className="text-[#F3D885] p-1 border border-[#E5AE00] rounded-[5px] leading-[110%] absolute top-[62%] left-[0%] text-[12px] w-[98px] font-[900] tracking-[-0.383px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.crypto") }}>
+                <p className="text-[#F3D885] p-1 border border-[#E5AE00] rounded-[5px] leading-[110%] absolute top-[62%] left-[-2%] text-[12px] w-[122px] font-[900] tracking-[-0.383px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.crypto") }}>
                 </p>
                 <p className="text-[#fff] leading-[110%] absolute bottom-[-19%] right-[13%] text-[12px] font-[500] tracking-[-0.787px]" dangerouslySetInnerHTML={{ __html: t("less_than_section.chart.forex") }}>
                 </p>
