@@ -9,12 +9,12 @@
     "dashboard": "Kontrol Paneli",
     "connect_wallet": "Cüzdanı Bağla"
   },
-   "live_presale_section": {
+  "live_presale_section": {
     "title": "BFX Ön Satışı Başladı",
     "Halloween_title": "Cadılar Bayramı Bonusu:",
-      "Breakthrough_title": "BFX ticaret lisansı aldı:",
-  "get_more": "Kod ile %50 daha fazla al",
-  "code_CANDY40": "License50",
+    "Breakthrough_title": "BFX ticaret lisansı aldı:",
+    "get_more": "Kod ile %50 daha fazla al",
+    "code_CANDY40": "License50",
     "buy_button": "BFX Satın Al",
     "Huge_title": "BFX’te Büyük Gelişme Duyurusu",
     "day": "Gün",
@@ -25,15 +25,14 @@
   "hero": {
     "title": "İlk Kripto <br /> Alım Satım",
     "title_highlight": "Süper Uygulama",
-   "subtitle": "BlockchainFX, DeFi ile geleneksel finansı birleştiren lisanslı yeni nesil bir kripto borsasıdır. Kullanıcıların 500'den fazla gerçek ve dijital varlıkta işlem yapabileceği ilk platformdur.",
-     "subtitle_des": "BlockchainFX, DeFi'yi geleneksel finans piyasalarıyla birleştiren lisanslı yeni nesil bir kripto borsasıdır. Hisse senetleri, döviz, ETF'ler ve daha fazlasına erişim sunan tek Web3 platformudur.",
-
-  "Licensed": "Lisanslı ve düzenlenmiştir:",
+    "subtitle": "BlockchainFX, DeFi ile geleneksel finansı birleştiren lisanslı yeni nesil bir kripto borsasıdır. Kullanıcıların 500'den fazla gerçek ve dijital varlıkta işlem yapabileceği ilk platformdur.",
+    "subtitle_des": "BlockchainFX, DeFi'yi geleneksel finans piyasalarıyla birleştiren lisanslı yeni nesil bir kripto borsasıdır. Hisse senetleri, döviz, ETF'ler ve daha fazlasına erişim sunan tek Web3 platformudur.",
+    "Licensed": "Lisanslı ve düzenlenmiştir:",
     "feature2": "Bitcoin, Ethereum, altın, Tesla ve 500+ fazla varlık",
     "feature3": "2025'in 'En İyi Yeni Kripto Alım Satım Uygulaması' ödüllü",
-     "featuremob1": "500'den fazla varlıkla Blockchain ile geleneksel finansı birleştiren ilk borsa",
-  "featuremob2": "Bitcoin, Ethereum, Altın, Hisse Senetleri, Forex, ETF'ler, Opsiyonlar, Vadeli İşlemler — hepsi tek bir yerde",
-  "featuremob3": "BlockchainFX, '2025’in En İyi Yeni Kripto Ticaret Uygulaması' ödülünü kazandı",
+    "featuremob1": "500'den fazla varlıkla Blockchain ile geleneksel finansı birleştiren ilk borsa",
+    "featuremob2": "Bitcoin, Ethereum, Altın, Hisse Senetleri, Forex, ETF'ler, Opsiyonlar, Vadeli İşlemler — hepsi tek bir yerde",
+    "featuremob3": "BlockchainFX, '2025’in En İyi Yeni Kripto Ticaret Uygulaması' ödülünü kazandı",
     "buy_button": "$BFX Satın Al",
     "how_it_works_button": "Nasıl çalışır?",
     "audited_by": "Denetleyen ve Onaylayan",
@@ -230,7 +229,7 @@
   "how_does_it_sec": {
     "title": "Nasıl Çalışır?",
     "subtitle": "BlockchainFX, kullanıcıların kripto, hisse senedi, forex, ETF ve daha fazlasını alıp satabildiği küresel bir borsadır. Birisi her işlem yaptığında, işlem ücretlerinin %70'i $BFX staking havuzuna, geri alımlara ve token yakımlarına gider. Staking ödülleri, bir topluluk üyesinin sahip olduğu BFX miktarına göre belirlenir ve günlük 25.000 USDT ile sınırlıdır.",
-     "subtitle_des": "BlockchainFX, kullanıcıların kripto, hisse senedi, forex, ETF ve daha fazlasını alıp satabildiği küresel bir borsadır. Birisi her işlem yaptığında, işlem ücretlerinin %70'i $BFX staking havuzuna, geri alımlara ve token yakımlarına gider. Staking ödülleri, bir topluluk üyesinin sahip olduğu BFX miktarına göre belirlenir ve günlük 25.000 USDT ile sınırlıdır.",
+    "subtitle_des": "BlockchainFX, kullanıcıların kripto, hisse senedi, forex, ETF ve daha fazlasını alıp satabildiği küresel bir borsadır. Birisi her işlem yaptığında, işlem ücretlerinin %70'i $BFX staking havuzuna, geri alımlara ve token yakımlarına gider. Staking ödülleri, bir topluluk üyesinin sahip olduğu BFX miktarına göre belirlenir ve günlük 25.000 USDT ile sınırlıdır.",
     "cards": {
       "staking_rewards": {
         "title": "BFX & USDT Staking Ödülleri",
@@ -253,7 +252,13 @@
       {
         "title": "Acemi",
         "price": "$1,000",
-        "points": ["BFX Visa Kartı", "%10 BFX Bonusu", "BFX Staking Ödülleri", "Günlük USDT Ödülleri", "$25k'ya kadar Alım Satım Kredisi"],
+        "points": [
+          "BFX Visa Kartı",
+          "%10 BFX Bonusu",
+          "BFX Staking Ödülleri",
+          "Günlük USDT Ödülleri",
+          "$25k'ya kadar Alım Satım Kredisi"
+        ],
         "buttonLabel": "$BFX Satın Al • $1,000",
         "cardPointsTooltips": [
           "BFX Visa Kartınızı (sanal ve fiziksel) alın, dünya çapında online ve mağazalarda kabul edilir.",
@@ -266,7 +271,13 @@
       {
         "title": "İleri",
         "price": "$2,500",
-        "points": ["BFX Visa Kartı", "%20 BFX Bonusu", "BFX Staking Ödülleri", "$500 Alım Satım Kredisi", "Günlük USDT Ödülleri"],
+        "points": [
+          "BFX Visa Kartı",
+          "%20 BFX Bonusu",
+          "BFX Staking Ödülleri",
+          "$500 Alım Satım Kredisi",
+          "Günlük USDT Ödülleri"
+        ],
         "buttonLabel": "$BFX Satın Al • $2,500",
         "cardPointsTooltips": [
           "BFX Visa Kartınızı (sanal ve fiziksel) alın, dünya çapında online ve mağazalarda kabul edilir.",
@@ -279,7 +290,13 @@
       {
         "title": "Pro",
         "price": "$5,000",
-        "points": ["Metal BFX Visa Kartı", "%30 BFX Bonusu", "BFX Staking Ödülleri", "$1000 Alım Satım Kredisi", "Günlük USDT Ödülleri"],
+        "points": [
+          "Metal BFX Visa Kartı",
+          "%30 BFX Bonusu",
+          "BFX Staking Ödülleri",
+          "$1000 Alım Satım Kredisi",
+          "Günlük USDT Ödülleri"
+        ],
         "buttonLabel": "$BFX Satın Al • $5,000",
         "cardPointsTooltips": [
           "BFX Visa Kartınızı (sanal ve fiziksel) alın, dünya çapında online ve mağazalarda kabul edilir.",
@@ -292,7 +309,13 @@
       {
         "title": "Uzman",
         "price": "$10,000",
-        "points": ["Metal BFX Visa Kartı", "%40 BFX Bonusu", "BFX Staking Ödülleri", "%10 USDT Ödülleri", "$2000 Alım Satım Kredisi"],
+        "points": [
+          "Metal BFX Visa Kartı",
+          "%40 BFX Bonusu",
+          "BFX Staking Ödülleri",
+          "%10 USDT Ödülleri",
+          "$2000 Alım Satım Kredisi"
+        ],
         "buttonLabel": "$BFX Satın Al • $10,000",
         "cardPointsTooltips": [
           "BFX Visa Kartınızı (sanal ve fiziksel) alın, dünya çapında online ve mağazalarda kabul edilir.",
@@ -305,7 +328,13 @@
       {
         "title": "Usta",
         "price": "$25,000",
-        "points": ["Metal BFX Visa Kartı", "%50 BFX Bonusu", "BFX Staking Ödülleri", "%15 USDT Ödülleri", "$5000 Alım Satım Kredisi"],
+        "points": [
+          "Metal BFX Visa Kartı",
+          "%50 BFX Bonusu",
+          "BFX Staking Ödülleri",
+          "%15 USDT Ödülleri",
+          "$5000 Alım Satım Kredisi"
+        ],
         "buttonLabel": "$BFX Satın Al • $25,000",
         "cardPointsTooltips": [
           "Metal BFX Visa Kartınızı (sanal ve fiziksel) alın, dünya çapında online ve mağazalarda kabul edilir.",
@@ -318,7 +347,13 @@
       {
         "title": "Elit",
         "price": "$50,000",
-        "points": ["Metal BFX Visa Kartı", "%60 BFX Bonusu", "BFX Staking Ödülleri", "%20 USDT Ödülleri", "$10,000 Alım Satım Kredisi"],
+        "points": [
+          "Metal BFX Visa Kartı",
+          "%60 BFX Bonusu",
+          "BFX Staking Ödülleri",
+          "%20 USDT Ödülleri",
+          "$10,000 Alım Satım Kredisi"
+        ],
         "buttonLabel": "$BFX Satın Al • $50,000",
         "cardPointsTooltips": [
           "Metal BFX Visa Kartınızı (sanal ve fiziksel) alın, dünya çapında online ve mağazalarda kabul edilir.",
@@ -331,7 +366,13 @@
       {
         "title": "Efsane",
         "price": "$100,000",
-        "points": ["18 Ayar BFX Visa Kartı", "%80 BFX Bonusu", "BFX Staking Ödülleri", "%30 USDT Ödülleri", "$25,000 Alım Satım Kredisi"],
+        "points": [
+          "18 Ayar BFX Visa Kartı",
+          "%80 BFX Bonusu",
+          "BFX Staking Ödülleri",
+          "%30 USDT Ödülleri",
+          "$25,000 Alım Satım Kredisi"
+        ],
         "buttonLabel": "$BFX Satın Al • $100,000",
         "cardPointsTooltips": [
           "18 Ayar BFX Visa Kartınızı (sanal ve fiziksel) alın, dünya çapında online ve mağazalarda kabul edilir.",
@@ -395,7 +436,7 @@
   "less_than_section": {
     "title": "Kripto ve Finans Arasında Köprü",
     "description": "Kripto, 2024'te küresel işlem hacminin yalnızca %0,87'sini oluşturuyor ve günlük ortalama 84,3 milyar dolar işlem görüyor. Öte yandan, sadece Forex piyasası günlük 7,5 trilyon dolar işlem hacmine sahip. Bu fark, BFX için kripto kullanıcılarını dünyanın en büyük finansal piyasalarıyla buluşturmak adına büyük bir fırsat sunuyor.",
-     "chart_title": "2024 Yılında Ortalama Günlük İşlem Hacmi",
+    "chart_title": "2024 Yılında Ortalama Günlük İşlem Hacmi",
     "costs": {
       "title": "Maliyetler",
       "description": "$2 Milyona Kadar"
@@ -577,11 +618,26 @@
       "average": "5 üzerinden 4.87",
       "verified_ratings": "1000+ Doğrulanmış Puan",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -680,7 +736,7 @@
       },
       {
         "question": "Ön satışın amacı nedir?",
-       "answer": "Topluluk etkinliği, platform büyümesini ve küresel genişlemeyi hızlandırmak amacıyla tüm ön satış tahsisli tokenlerin satılmasına odaklanmaktadır. Ön satış sırasında toplanan fonlar, ürün geliştirme, geniş çaplı pazarlama ve BFX için üst düzey borsa listelemelerini güvence altına almak için stratejik olarak kullanılacaktır. Amacımız, resmi lansmandan önce 100.000 aktif günlük yatırımcıya ulaşmak ve milyonlarca dolarlık işlem hacmi oluşturmaktır. Aynı zamanda, güçlü ve bağlı bir topluluk inşa ediyor, erken destekçilere indirimli tokenler veriyor ve BFX lansmanı öncesinde büyük farkındalık yaratıyoruz."
+        "answer": "Topluluk etkinliği, platform büyümesini ve küresel genişlemeyi hızlandırmak amacıyla tüm ön satış tahsisli tokenlerin satılmasına odaklanmaktadır. Ön satış sırasında toplanan fonlar, ürün geliştirme, geniş çaplı pazarlama ve BFX için üst düzey borsa listelemelerini güvence altına almak için stratejik olarak kullanılacaktır. Amacımız, resmi lansmandan önce 100.000 aktif günlük yatırımcıya ulaşmak ve milyonlarca dolarlık işlem hacmi oluşturmaktır. Aynı zamanda, güçlü ve bağlı bir topluluk inşa ediyor, erken destekçilere indirimli tokenler veriyor ve BFX lansmanı öncesinde büyük farkındalık yaratıyoruz."
       },
       {
         "question": "Tokenlarımı nerede görebilirim?",
@@ -691,17 +747,21 @@
         "answer": "Ön satış sırasında tokenlerinizin güvenliği, tüm verilerin güvenli bir şekilde saklandığı akıllı sözleşmemiz aracılığıyla %100 garanti altındadır. Tokenler her alıcıya tahsis edilir ve yalnızca cüzdanlarıyla erişilebilir. BFX tokenleri ön satış sırasında transfer edilemez ve yalnızca ön satış sona erdiğinde talep edilebilir."
       },
       {
+        "question": "Bir vesting dönemi var mı?",
+        "answer": "Hayır, presale sonrası satın aldığınız tüm BFX tokenlerini <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> üzerinden anında talep edebilirsiniz. Bu tokenler için bir vesting dönemi yoktur. <br/> Ancak, projeyi korumak ve mümkün olan en iyi lansmanı sağlamak için bonus tokenler, referans ödülleri ve staking ödülleri 90 günlük bir vesting dönemine tabidir. Bu vested tokenler, vesting dönemi tamamlandıktan sonra talep edilebilir."
+      },
+      {
         "question": "BFX'inizi nasıl talep edersiniz?",
         "answer": "BFX tokenlerinizi ön satış sona erdikten sonra birkaç saniye içinde <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> üzerinden talep edebilirsiniz."
       }
     ]
   },
-"the_ultimate_section": {
-  "title": "En İyi <br/> Ticaret Platformu",
-  "description": "Gelişmiş özelliklere ve kullanıcı dostu arayüze sahip en iyi ticaret platformunu deneyimleyin.",
-  "buy_bfx": "$BFX Satın Al",
-  "need_support": "Desteğe mi ihtiyacınız var?"
-},
+  "the_ultimate_section": {
+    "title": "En İyi <br/> Ticaret Platformu",
+    "description": "Gelişmiş özelliklere ve kullanıcı dostu arayüze sahip en iyi ticaret platformunu deneyimleyin.",
+    "buy_bfx": "$BFX Satın Al",
+    "need_support": "Desteğe mi ihtiyacınız var?"
+  },
   "footer": {
     "description": "Yeni nesil ticaret ekosisteminin bir parçası olun ve hızla büyüyen BFX hareketine katılın.",
     "quick_links": {
@@ -765,95 +825,95 @@
     }
   },
   "biggest_buy": {
-  "title": "En Büyük Alım Yarışması",
-  "description": "BFX ön satışında en çok alım yapan ilk 10 kişi, 100.000 USD değerindeki ödül havuzundan $BFX olarak pay alacaktır. Bu yarışma, en fazla katkıyı sağlayarak BlockchainFX ekosisteminin büyümesinde önemli rol oynayanlara teşekkür etme şeklimizdir.",
-  "table": {
-    "rank": "Sıralama",
-    "wallet": "Cüzdan",
-    "date": "Tarih",
-    "tx_count": "İşlem Sayısı",
-    "total_buy": "Toplam Alım",
+    "title": "En Büyük Alım Yarışması",
+    "description": "BFX ön satışında en çok alım yapan ilk 10 kişi, 100.000 USD değerindeki ödül havuzundan $BFX olarak pay alacaktır. Bu yarışma, en fazla katkıyı sağlayarak BlockchainFX ekosisteminin büyümesinde önemli rol oynayanlara teşekkür etme şeklimizdir.",
+    "table": {
+      "rank": "Sıralama",
+      "wallet": "Cüzdan",
+      "date": "Tarih",
+      "tx_count": "İşlem Sayısı",
+      "total_buy": "Toplam Alım",
+      "nft": "NFT",
+      "prize": "Ödül"
+    },
+    "load_more": "Daha Fazla Yükle",
+    "view_less": "Daha Az Göster",
+    "note": "Liste haftalık olarak güncellenir ve BFX ön satışındaki işlemlere dayalıdır."
+  },
+  "gateway_section": {
+    "title": "Yatırımcılarına Ödeme Yapan İlk Kripto Borsası",
+    "description": "BlockchainFX, kullanıcıları yüksek ücretlerle sömürmek yerine bu ücretleri %70'e kadar azaltır. Tüm ücretlerin yarısı, $BFX sahiplerine günlük stake ödülleri olarak ödenir. Platform, topluluğu merkeze koyar ve projenin başarısının her aşamasında kullanıcıların ödüllendirilmesini sağlar.",
+    "features": {
+      "fees": "Ücretler",
+      "asset_variety": "Varlık Çeşitliliği",
+      "user_experience": "Kullanıcı Deneyimi",
+      "community": "Topluluk"
+    },
+    "other_exchanges": {
+      "title": "Diğer Kripto Borsaları",
+      "high_fees": "Kullanıcılara ödül sunmayan yüksek ücretler",
+      "crypto_only": "Sadece kripto-kripto işlemlerine izin verir",
+      "account_restrictions": "Rastgele hesap kısıtlamaları ve dondurmalar",
+      "users_excluded": "Kullanıcılar yalnızca kâr aracı olarak görülür ve borsanın büyüme ve başarısından tamamen dışlanırlar."
+    },
+    "blockchainfx": {
+      "title": "BlockchainFX",
+      "shares_profits": "Kârını toplulukla paylaşır",
+      "swap_instantly": "Kripto, hisse senedi, döviz, emtia, ETF ve daha fazlası arasında anında takas yapın",
+      "withdraw_anytime": "Kriptonuzu istediğiniz zaman çekin, kilitlenme yok",
+      "community_earns": "Topluluk kazanır, büyür ve BlockchainFX ile birlikte platformu inşa eder."
+    }
+  },
+  "crypto_exchange_sec": {
+    "title": "Öncü Kripto Borsası",
+    "description": "BlockchainFX, her şeyin tek bir çatı altında olduğu merkeziyetsiz platformuyla ticaretin geleceğini yeniden tanımlıyor. Kullanıcılar her yerde, her şeyi tam varlık kontrolüyle alıp satabilir.<br /><br />Şu anda beta sürümünde olan ve '2025’in En İyi Yeni Kripto Ticaret Uygulaması' ödülünü alan BlockchainFX, erken kullanıcılarından şimdiden olağanüstü geri bildirimler aldı. $BFX ön satışı ile birlikte yatırımcılar artık bir sonraki büyük küresel ticaret platformunun parçası olma fırsatına sahip.",
+    "buy_button": "BFX Satın Al",
+    "watch_live_button": "Canlı Ticareti Buradan İzle"
+  },
+  "buy_tab": {
+    "you_must_connect_wallet": "Önce cüzdanınızı bağlamalısınız",
+    "presale_ended": "Ön satış sona erdi",
+    "loading": "Yükleniyor...",
+    "error_ranking_up": "Sıralama yükseltilirken hata oluştu",
+    "successfully_unlocked": "Başarıyla açıldı",
+    "participants": "Katılımcılar",
+    "card": "Kart",
+    "other_cryptos": "+ Diğer Kripto Paralar",
+    "presale_price": "Ön Satış Fiyatı",
+    "launch_price": "Lansman Fiyatı",
+    "you_pay_in": "Ödediğiniz Tutar",
+    "usd": "USD",
+    "you_receive_bfx": "Alacağınız $BFX",
     "nft": "NFT",
-    "prize": "Ödül"
+    "unlock_nft": "Kilidi Aç",
+    "limited_time_offer_1": "Özel Teklif:",
+    "use_bonus_code_1": "Bonus Kodunu Kullan",
+    "code_1": "License50",
+    "to_get": "%50 Daha Fazla $BFX Token Almak İçin.",
+    "limited_time_offer": "Cadılar Bayramı Özel Teklifi:",
+    "use_bonus_code": "Kodu kullanın",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "Bonus Kodu",
+    "to_get_bonus": "sınırlı bir süre için %40 daha fazla BFX almak için.",
+    "more_bfx_coins": "$BFX Coin!",
+    "referral_link": "%10 Referans Bağlantısı",
+    "transaction_successful": "İşlem Başarılı",
+    "transaction_successful_message": "İşlem başarıyla gerçekleşti. Token’larınızı görmek için bir dakika bekleyip işlemler sekmesini yenileyin.",
+    "transaction_successful_bought_message": "İşlem başarıyla tamamlandı. Satın aldınız:",
+    "check_transaction_tab": "Detaylar için işlemler sekmesini kontrol edin",
+    "transaction_errored": "İşlem Hatası",
+    "transaction_errored_message": "İşlem başarısız oldu. Lütfen tekrar deneyin.",
+    "transaction_pending": "İşlem Beklemede",
+    "transaction_pending_message": "İşlem beklemede. Token’larınızı görmek için bir dakika bekleyip işlemler sekmesini yenileyin.",
+    "buy_bfx": "BFX Satın Al"
   },
-  "load_more": "Daha Fazla Yükle",
-  "view_less": "Daha Az Göster",
-  "note": "Liste haftalık olarak güncellenir ve BFX ön satışındaki işlemlere dayalıdır."
-},
-"gateway_section": {
-  "title": "Yatırımcılarına Ödeme Yapan İlk Kripto Borsası",
-  "description": "BlockchainFX, kullanıcıları yüksek ücretlerle sömürmek yerine bu ücretleri %70'e kadar azaltır. Tüm ücretlerin yarısı, $BFX sahiplerine günlük stake ödülleri olarak ödenir. Platform, topluluğu merkeze koyar ve projenin başarısının her aşamasında kullanıcıların ödüllendirilmesini sağlar.",
-  "features": {
-    "fees": "Ücretler",
-    "asset_variety": "Varlık Çeşitliliği",
-    "user_experience": "Kullanıcı Deneyimi",
-    "community": "Topluluk"
+  "nft": {
+    "legend": "Efsane",
+    "elite": "Seçkin",
+    "master": "Usta",
+    "expert": "Uzman"
   },
-  "other_exchanges": {
-    "title": "Diğer Kripto Borsaları",
-    "high_fees": "Kullanıcılara ödül sunmayan yüksek ücretler",
-    "crypto_only": "Sadece kripto-kripto işlemlerine izin verir",
-    "account_restrictions": "Rastgele hesap kısıtlamaları ve dondurmalar",
-    "users_excluded": "Kullanıcılar yalnızca kâr aracı olarak görülür ve borsanın büyüme ve başarısından tamamen dışlanırlar."
-  },
-  "blockchainfx": {
-    "title": "BlockchainFX",
-    "shares_profits": "Kârını toplulukla paylaşır",
-    "swap_instantly": "Kripto, hisse senedi, döviz, emtia, ETF ve daha fazlası arasında anında takas yapın",
-    "withdraw_anytime": "Kriptonuzu istediğiniz zaman çekin, kilitlenme yok",
-    "community_earns": "Topluluk kazanır, büyür ve BlockchainFX ile birlikte platformu inşa eder."
-  }
-},
-"crypto_exchange_sec": {
-  "title": "Öncü Kripto Borsası",
-  "description": "BlockchainFX, her şeyin tek bir çatı altında olduğu merkeziyetsiz platformuyla ticaretin geleceğini yeniden tanımlıyor. Kullanıcılar her yerde, her şeyi tam varlık kontrolüyle alıp satabilir.<br /><br />Şu anda beta sürümünde olan ve '2025’in En İyi Yeni Kripto Ticaret Uygulaması' ödülünü alan BlockchainFX, erken kullanıcılarından şimdiden olağanüstü geri bildirimler aldı. $BFX ön satışı ile birlikte yatırımcılar artık bir sonraki büyük küresel ticaret platformunun parçası olma fırsatına sahip.",
-  "buy_button": "BFX Satın Al",
-  "watch_live_button": "Canlı Ticareti Buradan İzle"
-},
-"buy_tab": {
-  "you_must_connect_wallet": "Önce cüzdanınızı bağlamalısınız",
-  "presale_ended": "Ön satış sona erdi",
-  "loading": "Yükleniyor...",
-  "error_ranking_up": "Sıralama yükseltilirken hata oluştu",
-  "successfully_unlocked": "Başarıyla açıldı",
-  "participants": "Katılımcılar",
-  "card": "Kart",
-  "other_cryptos": "+ Diğer Kripto Paralar",
-  "presale_price": "Ön Satış Fiyatı",
-  "launch_price": "Lansman Fiyatı",
-  "you_pay_in": "Ödediğiniz Tutar",
-  "usd": "USD",
-  "you_receive_bfx": "Alacağınız $BFX",
-  "nft": "NFT",
-  "unlock_nft": "Kilidi Aç",
-  "limited_time_offer_1": "Özel Teklif:",
-  "use_bonus_code_1": "Bonus Kodunu Kullan",
-  "code_1": "License50",
-  "to_get": "%50 Daha Fazla $BFX Token Almak İçin.",
-   "limited_time_offer": "Cadılar Bayramı Özel Teklifi:",
-  "use_bonus_code": "Kodu kullanın",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "Bonus Kodu",
-  "to_get_bonus": "sınırlı bir süre için %40 daha fazla BFX almak için.",
-  "more_bfx_coins": "$BFX Coin!",
-  "referral_link": "%10 Referans Bağlantısı",
-  "transaction_successful": "İşlem Başarılı",
-  "transaction_successful_message": "İşlem başarıyla gerçekleşti. Token’larınızı görmek için bir dakika bekleyip işlemler sekmesini yenileyin.",
-  "transaction_successful_bought_message": "İşlem başarıyla tamamlandı. Satın aldınız:",
-  "check_transaction_tab": "Detaylar için işlemler sekmesini kontrol edin",
-  "transaction_errored": "İşlem Hatası",
-  "transaction_errored_message": "İşlem başarısız oldu. Lütfen tekrar deneyin.",
-  "transaction_pending": "İşlem Beklemede",
-  "transaction_pending_message": "İşlem beklemede. Token’larınızı görmek için bir dakika bekleyip işlemler sekmesini yenileyin.",
-  "buy_bfx": "BFX Satın Al"
-},
-"nft": {
-  "legend": "Efsane",
-  "elite": "Seçkin",
-  "master": "Usta",
-  "expert": "Uzman"
-},
-"how_to_buy_hero": {
+  "how_to_buy_hero": {
     "title": "Nasıl Satın Alınır",
     "blockchain_fx": "BlockchainFX",
     "bfx_token": "($BFX)",

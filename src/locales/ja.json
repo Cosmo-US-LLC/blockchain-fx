@@ -632,6 +632,10 @@
         "answer": "プレセール中のトークンの安全性は、すべてのデータが安全に保存されているスマートコントラクトによって100％保証されています。トークンは各購入者に割り当てられ、ウォレットでのみアクセス可能です。BFXトークンはプレセール中に転送できず、プレセール終了後にのみ請求できます。"
       },
       {
+  "question": "ベスティング期間はありますか？",
+  "answer": "いいえ、プレセール後に購入したすべてのBFXトークンを <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> で即時請求できます。これらのトークンにはベスティング期間はありません。<br/>ただし、プロジェクトを保護し、最良のローンチを実現するために、ボーナストークン、紹介報酬、およびステーキング報酬には90日間のベスティング期間が適用されます。これらのベストされたトークンは、ベスティング期間終了後に請求可能となります。"
+},
+      {
         "question": "BFXの請求方法は？",
         "answer": "プレセール終了後、<a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>で数秒以内にBFXトークンを請求できます。"
       }

@@ -9,12 +9,12 @@
     "dashboard": "Hallintapaneeli",
     "connect_wallet": "Yhdistä lompakko"
   },
-     "live_presale_section": {
+  "live_presale_section": {
     "title": "BFX ennakkomyynti on käynnissä",
     "Halloween_title": "Halloween-bonus:",
     "Breakthrough_title": "BFX varmisti kaupankäyntiluvan:",
-  "get_more": "Saat 50% enemmän koodilla",
-  "code_CANDY40": "License50",
+    "get_more": "Saat 50% enemmän koodilla",
+    "code_CANDY40": "License50",
     "buy_button": "Osta BFX",
     "Huge_title": "Suuri BFX-läpimurtoilmoitus",
     "day": "Päivä",
@@ -26,9 +26,8 @@
     "title": "Ensimmäinen krypto <br /> Kaupankäynti",
     "title_highlight": "Super App",
     "subtitle": "BlockchainFX on lisensoitu uuden sukupolven kryptopörssi, joka yhdistää DeFin<br /> perinteiseen rahoitukseen. Se on ensimmäinen alusta, jossa käyttäjät voivat käydä kauppaa yli 500 todellisella ja digitaalisella omaisuudella.",
-      "subtitle_des": "BlockchainFX on lisensoitu uuden sukupolven kryptopörssi, joka yhdistää DeFin perinteisiin rahoitusmarkkinoihin. Se on ainoa Web3-alusta, joka tarjoaa pääsyn osakkeisiin, valuuttamarkkinoille, ETF:iin ja muuhun.",
-
-  "Licensed": "Lisensoitu ja säännelty taholta",
+    "subtitle_des": "BlockchainFX on lisensoitu uuden sukupolven kryptopörssi, joka yhdistää DeFin perinteisiin rahoitusmarkkinoihin. Se on ainoa Web3-alusta, joka tarjoaa pääsyn osakkeisiin, valuuttamarkkinoille, ETF:iin ja muuhun.",
+    "Licensed": "Lisensoitu ja säännelty taholta",
     "feature1": "Ensimmäinen kryptopörssi, joka yhdistää lohkoketjun ja rahoituksen",
     "feature2": "Bitcoin, Ethereum, kulta, Tesla ja yli 500 muuta omaisuuserää",
     "feature3": "Palkittu 'Vuoden 2025 paras uusi kryptokauppa-appi'",
@@ -104,7 +103,7 @@
     "asset_indices": "Indeksit",
     "asset_cfds": "CFD:t ja enemmän."
   },
-   "creditCard": {
+  "creditCard": {
     "title": "BFX Visa -kortti",
     "item1": "Rajoittamaton kulutus",
     "item2": "Metalli- tai 18 karaatin kultakortti",
@@ -124,11 +123,11 @@
     "accessButton": "Avaa Whitepaper"
   },
   "crypto_exchange_sec": {
-  "title": "Uraauurtava kryptopörssi",
-  "description": "BlockchainFX määrittelee kaupankäynnin tulevaisuuden uudelleen kaiken kattavalla hajautetulla alustalla, jossa käyttäjät voivat käydä kauppaa millä tahansa, missä tahansa, säilyttäen täyden hallinnan omaisuudestaan.<br /><br />Tällä hetkellä beetavaiheessa oleva ja palkittu 'Vuoden 2025 paras uusi kryptokaupankäyntisovellus' on jo saanut erinomaista palautetta varhaisilta käyttäjiltä. $BFX-esimyynnin myötä haltijat voivat nyt olla osa seuraavaa suurta globaalia kaupankäyntialustaa.",
-  "buy_button": "Osta BFX",
-  "watch_live_button": "Katso live-kaupankäyntiä täältä"
-},
+    "title": "Uraauurtava kryptopörssi",
+    "description": "BlockchainFX määrittelee kaupankäynnin tulevaisuuden uudelleen kaiken kattavalla hajautetulla alustalla, jossa käyttäjät voivat käydä kauppaa millä tahansa, missä tahansa, säilyttäen täyden hallinnan omaisuudestaan.<br /><br />Tällä hetkellä beetavaiheessa oleva ja palkittu 'Vuoden 2025 paras uusi kryptokaupankäyntisovellus' on jo saanut erinomaista palautetta varhaisilta käyttäjiltä. $BFX-esimyynnin myötä haltijat voivat nyt olla osa seuraavaa suurta globaalia kaupankäyntialustaa.",
+    "buy_button": "Osta BFX",
+    "watch_live_button": "Katso live-kaupankäyntiä täältä"
+  },
   "wallet_section": {
     "title": "BFX Ennakkomyynti",
     "description": "BFX on maailman ensimmäinen kryptovaluutta, jota tukee globaali monivaraisten omaisuuksien kaupankäyntialusta, <br /> jossa haltijat saavat USDT-palkintoja aina, kun joku käy kauppaa — jopa ennakkomyynnin aikana.",
@@ -253,7 +252,6 @@
       }
     }
   },
-
   "premium_section": {
     "title": "Saa Erikoisbonuksia Alkaen $1,000",
     "description": "Osta $BFX esimyynnin aikana ja liity Founder's Clubiin alkaen vain $1,000.<br />Saat eksklusiivisen NFT:n, BFX Visa -kortin, bonus-tokeneita, päivittäiset USDT staking -palkkiot,<br /> ja ilmaisia kaupankäyntikrediittejä. Saatavilla vain esimyynnin aikana.",
@@ -262,7 +260,13 @@
       {
         "title": "Aloittelija",
         "price": "$1,000",
-        "points": ["BFX Visa -kortti", "10% BFX Bonus", "BFX Staking -palkkiot", "Päivittäiset USDT-palkkiot", "Kaupankäyntikrediittejä jopa $25k"],
+        "points": [
+          "BFX Visa -kortti",
+          "10% BFX Bonus",
+          "BFX Staking -palkkiot",
+          "Päivittäiset USDT-palkkiot",
+          "Kaupankäyntikrediittejä jopa $25k"
+        ],
         "buttonLabel": "Osta $BFX • $1,000",
         "cardPointsTooltips": [
           "Saat BFX Visa -korttisi (virtuaalinen ja fyysinen), hyväksytty verkossa ja kaupoissa maailmanlaajuisesti.",
@@ -275,7 +279,13 @@
       {
         "title": "Kehittynyt",
         "price": "$2,500",
-        "points": ["BFX Visa -kortti", "20% BFX Bonus", "BFX Staking -palkkiot", "$500 kaupankäyntikrediitit", "Päivittäiset USDT-palkkiot"],
+        "points": [
+          "BFX Visa -kortti",
+          "20% BFX Bonus",
+          "BFX Staking -palkkiot",
+          "$500 kaupankäyntikrediitit",
+          "Päivittäiset USDT-palkkiot"
+        ],
         "buttonLabel": "Osta $BFX • $2,500",
         "cardPointsTooltips": [
           "Saat BFX Visa -korttisi (virtuaalinen ja fyysinen), hyväksytty verkossa ja kaupoissa maailmanlaajuisesti.",
@@ -288,7 +298,13 @@
       {
         "title": "Pro",
         "price": "$5,000",
-        "points": ["Metallinen BFX Visa -kortti", "30% BFX Bonus", "BFX Staking -palkkiot", "$1000 kaupankäyntikrediitit", "Päivittäiset USDT-palkkiot"],
+        "points": [
+          "Metallinen BFX Visa -kortti",
+          "30% BFX Bonus",
+          "BFX Staking -palkkiot",
+          "$1000 kaupankäyntikrediitit",
+          "Päivittäiset USDT-palkkiot"
+        ],
         "buttonLabel": "Osta $BFX • $5,000",
         "cardPointsTooltips": [
           "Saat BFX Visa -korttisi (virtuaalinen ja fyysinen), hyväksytty verkossa ja kaupoissa maailmanlaajuisesti.",
@@ -301,7 +317,13 @@
       {
         "title": "Asiantuntija",
         "price": "$10,000",
-        "points": ["Metallinen BFX Visa -kortti", "40% BFX Bonus", "BFX Staking -palkkiot", "10% USDT-palkkiot", "$2000 kaupankäyntikrediitit"],
+        "points": [
+          "Metallinen BFX Visa -kortti",
+          "40% BFX Bonus",
+          "BFX Staking -palkkiot",
+          "10% USDT-palkkiot",
+          "$2000 kaupankäyntikrediitit"
+        ],
         "buttonLabel": "Osta $BFX • $10,000",
         "cardPointsTooltips": [
           "Saat BFX Visa -korttisi (virtuaalinen ja fyysinen), hyväksytty verkossa ja kaupoissa maailmanlaajuisesti.",
@@ -314,7 +336,13 @@
       {
         "title": "Mestari",
         "price": "$25,000",
-        "points": ["Metallinen BFX Visa -kortti", "50% BFX Bonus", "BFX Staking -palkkiot", "15% USDT-palkkiot", "$5000 kaupankäyntikrediitit"],
+        "points": [
+          "Metallinen BFX Visa -kortti",
+          "50% BFX Bonus",
+          "BFX Staking -palkkiot",
+          "15% USDT-palkkiot",
+          "$5000 kaupankäyntikrediitit"
+        ],
         "buttonLabel": "Osta $BFX • $25,000",
         "cardPointsTooltips": [
           "Saat metallisen BFX Visa -kortin (virtuaalinen ja fyysinen), hyväksytty verkossa ja kaupoissa maailmanlaajuisesti.",
@@ -327,7 +355,13 @@
       {
         "title": "Eliitti",
         "price": "$50,000",
-        "points": ["Metallinen BFX Visa -kortti", "60% BFX Bonus", "BFX Staking -palkkiot", "20% USDT-palkkiot", "$10000 kaupankäyntikrediitit"],
+        "points": [
+          "Metallinen BFX Visa -kortti",
+          "60% BFX Bonus",
+          "BFX Staking -palkkiot",
+          "20% USDT-palkkiot",
+          "$10000 kaupankäyntikrediitit"
+        ],
         "buttonLabel": "Osta $BFX • $50,000",
         "cardPointsTooltips": [
           "Saat metallisen BFX Visa -kortin (virtuaalinen ja fyysinen), hyväksytty verkossa ja kaupoissa maailmanlaajuisesti.",
@@ -340,7 +374,13 @@
       {
         "title": "Legenda",
         "price": "$100,000",
-        "points": ["18 karaatin BFX Visa -kortti", "80% BFX Bonus", "BFX Staking -palkkiot", "30% USDT-palkkiot", "$25000 kaupankäyntikrediitit"],
+        "points": [
+          "18 karaatin BFX Visa -kortti",
+          "80% BFX Bonus",
+          "BFX Staking -palkkiot",
+          "30% USDT-palkkiot",
+          "$25000 kaupankäyntikrediitit"
+        ],
         "buttonLabel": "Osta $BFX • $100,000",
         "cardPointsTooltips": [
           "Saat 18 karaatin BFX Visa -kortin (virtuaalinen ja fyysinen), hyväksytty verkossa ja kaupoissa maailmanlaajuisesti.",
@@ -381,183 +421,181 @@
     }
   },
   "exclusive_benefits_section": {
-  "title": "BFX:n ostamisen edut esimyynnin aikana",
-  "items": {
-    "benefit_1": {
-      "title": "Alhaisin token-hinta<br/> ennen lanseerausta",
-      "description": "Ostamalla esimyynnin aikana voit varmistaa huomattavasti alhaisemman hinnan verrattuna BFX:n lanseeraushintaan."
-    },
-    "benefit_2": {
-      "title": "Rajoitetun erän<br/> BFX Visa -kortit",
-      "description": "Saat metallisen tai 18 karaatin kultaisen BFX Visa -luottokortin, jossa on rajaton käyttö ja täydennykset, käytettävissä maailmanlaajuisesti."
-    },
-    "benefit_3": {
-      "title": "Eksklusiiviset bonus<br/> kaupankäyntihyvitykset",
-      "description": "Saat jopa 25 000 dollarin arvosta ilmaisia kaupankäyntihyvityksiä aloittaaksesi kaupankäynnin BlockchainFX:ssä ilman ehtoja."
-    },
-    "benefit_4": {
-      "title": "Päivittäiset USDT-<br/> panostuspalkkiot",
-      "description": "Ala ansaita USDT- ja BFX-palkkioita jo tänään liittymällä BFX-esimyyntiin. Mitä aikaisemmin ostat, sitä enemmän voit ansaita ajan myötä."
+    "title": "BFX:n ostamisen edut esimyynnin aikana",
+    "items": {
+      "benefit_1": {
+        "title": "Alhaisin token-hinta<br/> ennen lanseerausta",
+        "description": "Ostamalla esimyynnin aikana voit varmistaa huomattavasti alhaisemman hinnan verrattuna BFX:n lanseeraushintaan."
+      },
+      "benefit_2": {
+        "title": "Rajoitetun erän<br/> BFX Visa -kortit",
+        "description": "Saat metallisen tai 18 karaatin kultaisen BFX Visa -luottokortin, jossa on rajaton käyttö ja täydennykset, käytettävissä maailmanlaajuisesti."
+      },
+      "benefit_3": {
+        "title": "Eksklusiiviset bonus<br/> kaupankäyntihyvitykset",
+        "description": "Saat jopa 25 000 dollarin arvosta ilmaisia kaupankäyntihyvityksiä aloittaaksesi kaupankäynnin BlockchainFX:ssä ilman ehtoja."
+      },
+      "benefit_4": {
+        "title": "Päivittäiset USDT-<br/> panostuspalkkiot",
+        "description": "Ala ansaita USDT- ja BFX-palkkioita jo tänään liittymällä BFX-esimyyntiin. Mitä aikaisemmin ostat, sitä enemmän voit ansaita ajan myötä."
+      }
     }
-  }
-},
-"biggest_buy": {
-  "title": "Suurin osto -kilpailu",
-  "description": "Kymmenen suurinta BFX-esimyynnin ostajaa saavat osuuden 100 000 USD:n palkintopotista $BFX-tokeneina. Tämä kilpailu on tapamme kiittää niitä, jotka ovat antaneet suurimman panoksen ja näytelleet tärkeää roolia BlockchainFX-ekosysteemin kasvussa.",
-  "table": {
-    "rank": "Sijoitus",
-    "wallet": "Lompakko",
-    "date": "Päivämäärä",
-    "tx_count": "TX-määrä",
-    "total_buy": "Kokonaisosto",
-    "nft": "NFT",
-    "prize": "Palkinto"
   },
-  "load_more": "Lataa lisää",
-  "view_less": "Näytä vähemmän",
-  "note": "Lista päivitetään viikoittain ja perustuu BFX-esimyynnin aikana tehtyihin tapahtumiin."
-},
-"less_than_section": {
-  "title": "Sillanrakentaja krypton ja rahoituksen välillä",
-  "description": "Krypto kattaa vain 0,87 % maailmanlaajuisesta kaupankäyntivolyymista vuonna 2024, keskimäärin 84,3 miljardia dollaria päivässä. Samaan aikaan pelkästään valuuttamarkkinat käsittelevät 7,5 biljoonaa dollaria päivässä. Tämä ero tarjoaa valtavan mahdollisuuden BFX:lle yhdistää kryptokäyttäjät maailman suurimpiin rahoitusmarkkinoihin.",
-  "costs": {
-    "title": "Kustannukset",
-    "description": "Jopa 2 miljoonaa dollaria"
+  "biggest_buy": {
+    "title": "Suurin osto -kilpailu",
+    "description": "Kymmenen suurinta BFX-esimyynnin ostajaa saavat osuuden 100 000 USD:n palkintopotista $BFX-tokeneina. Tämä kilpailu on tapamme kiittää niitä, jotka ovat antaneet suurimman panoksen ja näytelleet tärkeää roolia BlockchainFX-ekosysteemin kasvussa.",
+    "table": {
+      "rank": "Sijoitus",
+      "wallet": "Lompakko",
+      "date": "Päivämäärä",
+      "tx_count": "TX-määrä",
+      "total_buy": "Kokonaisosto",
+      "nft": "NFT",
+      "prize": "Palkinto"
+    },
+    "load_more": "Lataa lisää",
+    "view_less": "Näytä vähemmän",
+    "note": "Lista päivitetään viikoittain ja perustuu BFX-esimyynnin aikana tehtyihin tapahtumiin."
   },
-  "chart_title": "Keskimääräinen päivittäinen kaupankäyntivolyymi vuonna 2024",
-  "chart": {
-    "bonds": "Joukkovelkakirjat: <br/> 1,1 biljoonaa $ (11,64 %)",
-    "stocks": "Yhdysvaltain osakkeet: <br/> 700 miljardia $ (7,15 %)",
-    "commodities": "Raaka-aineet: <br/> 250 miljardia $ (2,55 %)",
-    "etfs": "ETF:t: <br/> 150 miljardia $ (1,53 %)",
-    "crypto": "Krypto: <br/> 89 miljardia $ (0,87 %)",
-    "forex": "Forex: <br/> 7,5 biljoonaa $ (76,62 %)"
-  },
-  "legend": {
-    "forex": "Forex",
-    "bonds": "Joukkovelkakirjat",
-    "us_stock": "Yhdysvaltain osakkeet",
-    "commodities": "Raaka-aineet",
-    "etfs": "ETF:t",
-    "crypto": "Krypto"
-  }
-},
-"MobileLessThanSec": {
-  "slide1": {
+  "less_than_section": {
     "title": "Sillanrakentaja krypton ja rahoituksen välillä",
-    "description1": "Krypto kattaa vain 0,87 % maailmanlaajuisesta kaupankäyntivolyymista vuonna 2024, keskimäärin 84,3 miljardia dollaria päivässä.",
-    "description2": "Samaan aikaan pelkästään valuuttamarkkinat käsittelevät 7,5 biljoonaa dollaria päivässä. Tämä ero tarjoaa valtavan mahdollisuuden $BFX:lle yhdistää kryptokäyttäjät maailman suurimpiin rahoitusmarkkinoihin.",
-    "chartTitle": "Keskimääräinen päivittäinen kaupankäyntivolyymi vuonna 2024",
+    "description": "Krypto kattaa vain 0,87 % maailmanlaajuisesta kaupankäyntivolyymista vuonna 2024, keskimäärin 84,3 miljardia dollaria päivässä. Samaan aikaan pelkästään valuuttamarkkinat käsittelevät 7,5 biljoonaa dollaria päivässä. Tämä ero tarjoaa valtavan mahdollisuuden BFX:lle yhdistää kryptokäyttäjät maailman suurimpiin rahoitusmarkkinoihin.",
+    "costs": {
+      "title": "Kustannukset",
+      "description": "Jopa 2 miljoonaa dollaria"
+    },
+    "chart_title": "Keskimääräinen päivittäinen kaupankäyntivolyymi vuonna 2024",
     "chart": {
-      "bonds": "Joukkovelkakirjat:",
-      "bondsValue": "1,1 biljoona $ (11,42 %)",
-      "stocks": "Yhdysvaltain osakkeet:",
-      "stocksValue": "700 miljardia $ (7,27 %)",
-      "commodities": "Raaka-aineet:",
-      "commoditiesValue": "250 miljardia $ (2,59 %)",
-      "crypto": "Krypto:",
-      "cryptoValue": "89 miljardia $ (0,87 %)",
-      "forex": "Forex:",
-      "forexValue": "7,5 biljoonaa $ (77,85 %)"
+      "bonds": "Joukkovelkakirjat: <br/> 1,1 biljoonaa $ (11,64 %)",
+      "stocks": "Yhdysvaltain osakkeet: <br/> 700 miljardia $ (7,15 %)",
+      "commodities": "Raaka-aineet: <br/> 250 miljardia $ (2,55 %)",
+      "etfs": "ETF:t: <br/> 150 miljardia $ (1,53 %)",
+      "crypto": "Krypto: <br/> 89 miljardia $ (0,87 %)",
+      "forex": "Forex: <br/> 7,5 biljoonaa $ (76,62 %)"
     },
     "legend": {
       "forex": "Forex",
       "bonds": "Joukkovelkakirjat",
-      "usStock": "Yhdysvaltain osakkeet",
+      "us_stock": "Yhdysvaltain osakkeet",
       "commodities": "Raaka-aineet",
+      "etfs": "ETF:t",
       "crypto": "Krypto"
     }
   },
-  "slide2": {
-    "title": "Portti globaaleille markkinoille",
-    "description": "Uuden kaupankäyntialustan käynnistäminen vie paljon aikaa ja resursseja. Toisaalta $BFX:n ostaminen vie vain sekunteja ja antaa sinulle mahdollisuuden ansaita aina, kun joku tekee kaupan.",
-    "comparison": {
-      "newPlatform": "Uusi kaupankäyntialusta",
-      "blockchainFX": "BlockchainFX"
-    },
-    "table": {
-      "cost": {
-        "title": "Kustannukset",
-        "platform": "Jopa 2 miljoonaa dollaria",
-        "bfx": "Riippuu sinusta",
-        "tooltip": "Tämä on budjetti, jota tarvitaan vain alustan lanseeraamiseen tietyillä lainkäyttöalueilla, ei sisällä henkilöstöä tai markkinointia."
+  "MobileLessThanSec": {
+    "slide1": {
+      "title": "Sillanrakentaja krypton ja rahoituksen välillä",
+      "description1": "Krypto kattaa vain 0,87 % maailmanlaajuisesta kaupankäyntivolyymista vuonna 2024, keskimäärin 84,3 miljardia dollaria päivässä.",
+      "description2": "Samaan aikaan pelkästään valuuttamarkkinat käsittelevät 7,5 biljoonaa dollaria päivässä. Tämä ero tarjoaa valtavan mahdollisuuden $BFX:lle yhdistää kryptokäyttäjät maailman suurimpiin rahoitusmarkkinoihin.",
+      "chartTitle": "Keskimääräinen päivittäinen kaupankäyntivolyymi vuonna 2024",
+      "chart": {
+        "bonds": "Joukkovelkakirjat:",
+        "bondsValue": "1,1 biljoona $ (11,42 %)",
+        "stocks": "Yhdysvaltain osakkeet:",
+        "stocksValue": "700 miljardia $ (7,27 %)",
+        "commodities": "Raaka-aineet:",
+        "commoditiesValue": "250 miljardia $ (2,59 %)",
+        "crypto": "Krypto:",
+        "cryptoValue": "89 miljardia $ (0,87 %)",
+        "forex": "Forex:",
+        "forexValue": "7,5 biljoonaa $ (77,85 %)"
       },
-      "time": {
-        "title": "Aika",
-        "platform": "Jopa 3 vuotta",
-        "bfx": "Osta $BFX kahdella klikkauksella"
-      },
-      "team": {
-        "title": "Tiimi",
-        "platform": "Kokenut monikielinen tiimi työskentelee vuoroissa 24/7, 365 päivää vuodessa.",
-        "bfx": "Ei tiimiä vaadita"
-      },
-      "workScope": {
-        "title": "Työn laajuus",
-        "platform": "Pääomavaatimukset, markkinointi ja brändäys, likviditeetin tarjoajat, riskienhallintatiimi, asiakastuki, teknologia-infrastruktuuri, kumppanuudet, kehitys, henkilöstön palkkaaminen ja hallinta ja paljon muuta.",
-        "bfx": "Ei työtä vaadita"
+      "legend": {
+        "forex": "Forex",
+        "bonds": "Joukkovelkakirjat",
+        "usStock": "Yhdysvaltain osakkeet",
+        "commodities": "Raaka-aineet",
+        "crypto": "Krypto"
       }
+    },
+    "slide2": {
+      "title": "Portti globaaleille markkinoille",
+      "description": "Uuden kaupankäyntialustan käynnistäminen vie paljon aikaa ja resursseja. Toisaalta $BFX:n ostaminen vie vain sekunteja ja antaa sinulle mahdollisuuden ansaita aina, kun joku tekee kaupan.",
+      "comparison": {
+        "newPlatform": "Uusi kaupankäyntialusta",
+        "blockchainFX": "BlockchainFX"
+      },
+      "table": {
+        "cost": {
+          "title": "Kustannukset",
+          "platform": "Jopa 2 miljoonaa dollaria",
+          "bfx": "Riippuu sinusta",
+          "tooltip": "Tämä on budjetti, jota tarvitaan vain alustan lanseeraamiseen tietyillä lainkäyttöalueilla, ei sisällä henkilöstöä tai markkinointia."
+        },
+        "time": {
+          "title": "Aika",
+          "platform": "Jopa 3 vuotta",
+          "bfx": "Osta $BFX kahdella klikkauksella"
+        },
+        "team": {
+          "title": "Tiimi",
+          "platform": "Kokenut monikielinen tiimi työskentelee vuoroissa 24/7, 365 päivää vuodessa.",
+          "bfx": "Ei tiimiä vaadita"
+        },
+        "workScope": {
+          "title": "Työn laajuus",
+          "platform": "Pääomavaatimukset, markkinointi ja brändäys, likviditeetin tarjoajat, riskienhallintatiimi, asiakastuki, teknologia-infrastruktuuri, kumppanuudet, kehitys, henkilöstön palkkaaminen ja hallinta ja paljon muuta.",
+          "bfx": "Ei työtä vaadita"
+        }
+      }
+    },
+    "slide3": {
+      "title": "Suunniteltu eksponentiaaliseen kasvuun",
+      "description": "BlockchainFX on yhteisölähtöinen kaupankäyntialusta, joka palkitsee BFX-haltijat päivittäin. Kun alusta kasvaa, myös tokenin arvo kasvaa — luoden vahvan kasvun ja sitoutumisen kierteen. Tutkimukset* osoittavat, että kannustetut yhteisöt voivat kasvaa huomattavasti nopeammin kuin muut, ja BFX on suunniteltu maksimoimaan tämä potentiaali.",
+      "chart": {
+        "title": "Kasvuennuste",
+        "blockchainFX": "BlockchainFX",
+        "regularPlatform": "Tavallinen kaupankäyntialusta"
+      },
+      "source": "(*Lähde: Harvard Business Review, 'When Community Becomes Your Competitive Advantage', 2020)",
+      "buttonText": "Osta $BFX"
     }
   },
-  "slide3": {
-    "title": "Suunniteltu eksponentiaaliseen kasvuun",
-    "description": "BlockchainFX on yhteisölähtöinen kaupankäyntialusta, joka palkitsee BFX-haltijat päivittäin. Kun alusta kasvaa, myös tokenin arvo kasvaa — luoden vahvan kasvun ja sitoutumisen kierteen. Tutkimukset* osoittavat, että kannustetut yhteisöt voivat kasvaa huomattavasti nopeammin kuin muut, ja BFX on suunniteltu maksimoimaan tämä potentiaali.",
-    "chart": {
-      "title": "Kasvuennuste",
-      "blockchainFX": "BlockchainFX",
-      "regularPlatform": "Tavallinen kaupankäyntialusta"
+  "gateway_section": {
+    "title": "Ensimmäinen kryptopörssi  joka maksaa haltijoilleen",
+    "description": "Sen sijaan, että käyttäjiä rasitettaisiin korkeilla maksuilla, BlockchainFX vähentää niitä jopa 70 %. Puolet kaikista maksuista  maksetaan $BFX-haltijoille päivittäisinä staking-palkkioina. Alusta asettaa yhteisön keskiöön, varmistaen, että käyttäjät palkitaan projektin menestyksen jokaisessa vaiheessa.",
+    "features": {
+      "fees": "Maksut",
+      "asset_variety": "Varallisuuserien monipuolisuus",
+      "user_experience": "Käyttäjäkokemus",
+      "community": "Yhteisö"
     },
-    "source": "(*Lähde: Harvard Business Review, 'When Community Becomes Your Competitive Advantage', 2020)",
-    "buttonText": "Osta $BFX"
-  }
-},
-"gateway_section": {
-  "title": "Ensimmäinen kryptopörssi  joka maksaa haltijoilleen",
-  "description": "Sen sijaan, että käyttäjiä rasitettaisiin korkeilla maksuilla, BlockchainFX vähentää niitä jopa 70 %. Puolet kaikista maksuista  maksetaan $BFX-haltijoille päivittäisinä staking-palkkioina. Alusta asettaa yhteisön keskiöön, varmistaen, että käyttäjät palkitaan projektin menestyksen jokaisessa vaiheessa.",
-  "features": {
-    "fees": "Maksut",
-    "asset_variety": "Varallisuuserien monipuolisuus",
-    "user_experience": "Käyttäjäkokemus",
-    "community": "Yhteisö"
+    "other_exchanges": {
+      "title": "Muut kryptopörssit",
+      "high_fees": "Korkeat maksut ilman palkkioita käyttäjille",
+      "crypto_only": "Vain krypto–krypto -kaupankäynti",
+      "account_restrictions": "Satunnaiset tilirajoitukset ja jäädytykset",
+      "users_excluded": "Käyttäjiä pidetään vain pörssin voitonlähteenä, eikä heitä oteta mukaan sen kasvuun tai menestykseen."
+    },
+    "blockchainfx": {
+      "title": "BlockchainFX",
+      "shares_profits": "Jakaa voitot yhteisön kanssa",
+      "swap_instantly": "Vaihda välittömästi kryptojen, osakkeiden, valuuttamarkkinoiden, hyödykkeiden, ETF:ien ja muiden välillä",
+      "withdraw_anytime": "Nosta kryptosi milloin tahansa, ei lukituksia",
+      "community_earns": "Yhteisö ansaitsee, kasvaa ja rakentaa alustaa yhdessä BlockchainFX:n kanssa."
+    }
   },
-  "other_exchanges": {
-    "title": "Muut kryptopörssit",
-    "high_fees": "Korkeat maksut ilman palkkioita käyttäjille",
-    "crypto_only": "Vain krypto–krypto -kaupankäynti",
-    "account_restrictions": "Satunnaiset tilirajoitukset ja jäädytykset",
-    "users_excluded": "Käyttäjiä pidetään vain pörssin voitonlähteenä, eikä heitä oteta mukaan sen kasvuun tai menestykseen."
+  "standout_section": {
+    "title": "Erottuvat ominaisuudet",
+    "description": "Pörssien kryptovaluutat ovat historiallisesti menestyneet hyvin aktiivisen käyttäjäkunnan, <br/> alustan tuottojen ja jatkuvan markkinoinnin ansiosta. BFX, ensimmäinen token monivaraisten kaupankäyntialustojen joukossa,  tarjoaa ainutlaatuisia ominaisuuksia, jotka tuovat todellista arvoa markkinoille.",
+    "table": {
+      "token_name": "Tokenin nimi",
+      "ranked": "Sijoitus",
+      "marketcap": "Markkina-arvo",
+      "trade_crypto": "Käy kauppaa kryptovaluutoilla",
+      "leverage_trading": "Vipukauppa",
+      "risk_management": "Riskienhallinta",
+      "forex": "Valuuttamarkkinat",
+      "commodities": "Hyödykkeet",
+      "cfds": "CFD:t",
+      "etfs": "ETF:t",
+      "usdt_rewards": "USDT-palkkiot",
+      "blockchainfx": "BlockchainFX",
+      "bitget": "Bitget",
+      "hyperliquid": "Hyperliquid",
+      "uniswap": "Uniswap"
+    }
   },
-  "blockchainfx": {
-    "title": "BlockchainFX",
-    "shares_profits": "Jakaa voitot yhteisön kanssa",
-    "swap_instantly": "Vaihda välittömästi kryptojen, osakkeiden, valuuttamarkkinoiden, hyödykkeiden, ETF:ien ja muiden välillä",
-    "withdraw_anytime": "Nosta kryptosi milloin tahansa, ei lukituksia",
-    "community_earns": "Yhteisö ansaitsee, kasvaa ja rakentaa alustaa yhdessä BlockchainFX:n kanssa."
-  }
-},
-"standout_section": {
-  "title": "Erottuvat ominaisuudet",
-  "description": "Pörssien kryptovaluutat ovat historiallisesti menestyneet hyvin aktiivisen käyttäjäkunnan, <br/> alustan tuottojen ja jatkuvan markkinoinnin ansiosta. BFX, ensimmäinen token monivaraisten kaupankäyntialustojen joukossa,  tarjoaa ainutlaatuisia ominaisuuksia, jotka tuovat todellista arvoa markkinoille.",
-  "table": {
-    "token_name": "Tokenin nimi",
-    "ranked": "Sijoitus",
-    "marketcap": "Markkina-arvo",
-    "trade_crypto": "Käy kauppaa kryptovaluutoilla",
-    "leverage_trading": "Vipukauppa",
-    "risk_management": "Riskienhallinta",
-    "forex": "Valuuttamarkkinat",
-    "commodities": "Hyödykkeet",
-    "cfds": "CFD:t",
-    "etfs": "ETF:t",
-    "usdt_rewards": "USDT-palkkiot",
-    "blockchainfx": "BlockchainFX",
-    "bitget": "Bitget",
-    "hyperliquid": "Hyperliquid",
-    "uniswap": "Uniswap"
-  }
-},
-
-
   "token_allocation_section": {
     "title": "Tokenin Tiedot",
     "description": "Tokenien jakorakenne on suunniteltu palkitsemaan eniten aikaisia tukijoita",
@@ -672,11 +710,26 @@
       "average": "4.87 viidestä",
       "verified_ratings": "1000+ Vahvistettua Arviota",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -775,8 +828,8 @@
       },
       {
         "question": "Mikä on esimyynnin tavoite?",
-         "answer": "Yhteisötapahtuma keskittyy myymään kaikki ennakkomyynnissä varatut tokenit, jotta alustan kasvu ja maailmanlaajuinen laajentuminen nopeutuvat. Ennakkomyynnin aikana kerätyt varat käytetään strategisesti tuotekehitykseen, laajamittaiseen markkinointiin ja BFX:n listaamiseen huipputason pörsseihin. Tavoitteemme on saavuttaa 100 000 aktiivista päivittäistä kauppiasta ja tuottaa monimiljoonainen kaupankäyntivolyymi ennen virallista lanseerausta. Samalla rakennamme vahvaa ja sitoutunutta yhteisöä, palkitsemme varhaisia tukijoita alennetuilla tokeneilla ja lisäämme tietoisuutta ennen BFX:n julkaisua."
-},
+        "answer": "Yhteisötapahtuma keskittyy myymään kaikki ennakkomyynnissä varatut tokenit, jotta alustan kasvu ja maailmanlaajuinen laajentuminen nopeutuvat. Ennakkomyynnin aikana kerätyt varat käytetään strategisesti tuotekehitykseen, laajamittaiseen markkinointiin ja BFX:n listaamiseen huipputason pörsseihin. Tavoitteemme on saavuttaa 100 000 aktiivista päivittäistä kauppiasta ja tuottaa monimiljoonainen kaupankäyntivolyymi ennen virallista lanseerausta. Samalla rakennamme vahvaa ja sitoutunutta yhteisöä, palkitsemme varhaisia tukijoita alennetuilla tokeneilla ja lisäämme tietoisuutta ennen BFX:n julkaisua."
+      },
       {
         "question": "Mistä näen tokenini?",
         "answer": "Voit nähdä tokenisi hallintapaneelin lompakossa. Klikkaa vain 'Connect Wallet' oikeassa yläkulmassa."
@@ -784,6 +837,10 @@
       {
         "question": "Ovatko tokenini turvassa?",
         "answer": "Tokeniesi turvallisuus ennakkomyynnin aikana on 100 % taattu älysopimuksemme kautta, jossa kaikki tiedot tallennetaan turvallisesti. Tokenit jaetaan jokaiselle ostajalle ja niitä voi käyttää vain heidän lompakollaan. BFX-tokeneita ei voi siirtää ennakkomyynnin aikana, ja niitä voi lunastaa vasta sen päätyttyä."
+      },
+      {
+        "question": "Onko olemassa vesting‑jaksoa?",
+        "answer": "Ei – voit vaatia kaikki ostamasi BFX‑tokenit heti esimyynnin jälkeen osoitteessa <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Näille tokeneille ei ole vesting‑jaksoa. <br/> Projektin turvaamiseksi ja parhaan mahdollisen lanseerauksen takaamiseksi bonus‑tokenit, suosittelupalkkiot ja staking‑palkkiot ovat kuitenkin 90 päivän vesting‑jakson alaisia. Näitä vestattuja tokeneita voi hakea vesting‑jakson päätyttyä."
       },
       {
         "question": "Kuinka lunastan BFX:ni?",
@@ -797,36 +854,35 @@
     "buy_bfx": "Osta $BFX",
     "need_support": "Tarvitsetko Tukea?"
   },
- 
- "footer": {
-  "description": "Ole osa seuraavan sukupolven kaupankäyntiekosysteemiä ja liity nopeasti kasvavaan BFX-liikkeeseen.",
-  "quick_links": {
-    "title": "Pikalinkit",
-    "how_to_buy": "Kuinka ostaa?",
-    "what_is_bfx": "Mikä on BFX?",
-    "roadmap": "Tiekartta",
-    "referral": "Suositusohjelma",
-    "Win_$500,000": "Voita 500 000 $"
+  "footer": {
+    "description": "Ole osa seuraavan sukupolven kaupankäyntiekosysteemiä ja liity nopeasti kasvavaan BFX-liikkeeseen.",
+    "quick_links": {
+      "title": "Pikalinkit",
+      "how_to_buy": "Kuinka ostaa?",
+      "what_is_bfx": "Mikä on BFX?",
+      "roadmap": "Tiekartta",
+      "referral": "Suositusohjelma",
+      "Win_$500,000": "Voita 500 000 $"
+    },
+    "docs": {
+      "title": "Asiakirjat",
+      "privacy_policy": "Tietosuojakäytäntö",
+      "terms_of_service": "Käyttöehdot",
+      "cookie_policy": "Evästekäytäntö",
+      "token_sale": "Tokenien myyntisopimus",
+      "support": "24/7 Live-tuki"
+    },
+    "socials": {
+      "title": "Liity yhteisöömme"
+    },
+    "contact": {
+      "email_label": "Yhteyssähköposti:",
+      "email": "Support@blockchainfx.com"
+    },
+    "disclaimer": "Kryptovaluutat voivat olla sääntelemättömiä lainkäyttöalueellasi, ja niiden arvo voi vaihdella, mikä voi johtaa voittoihin tai tappioihin. Mahdolliset voitot voivat olla pääomatuloveron tai muiden verojen alaisia paikallisten lakien mukaisesti. Tämän alustan sisältö ei muodosta tarjousta, suositusta tai taloudellista neuvontaa kryptovaluuttojen ostamiseen, myymiseen tai niillä käymiseen. Olet itse vastuussa sen arvioimisesta, sopiiko tapahtuma henkilökohtaisiin tavoitteisiisi, taloudelliseen tilanteeseesi ja riskinsietokykyysi. Suosittelemme vahvasti ottamaan yhteyttä luotettuihin ja lisensoituisiin oikeudellisiin, verotuksellisiin tai taloudellisiin asiantuntijoihin ennen päätösten tekemistä.<br/> <br/> Kryptovaluutoilla käytävä kauppa sisältää merkittäviä riskejä, mukaan lukien mahdollisen osittaisen tai täydellisen varojen menetyksen. Huolellinen tutkimus on välttämätöntä. BlockchainFX ei takaa minkään kryptovaluutan tuottoa, suorituskykyä tai pääoman palautusta, joka mainitaan tällä alustalla. Käyttämällä tätä alustaa hyväksyt käyttöehtomme, tietosuojakäytäntömme, evästekäytäntömme ja mahdolliset tokenien myyntisopimukset. Alustan sisältöä ei ole tarkoitettu käytettäväksi lainkäyttöalueilla, joilla sen jakelu tai käyttö rikkoisi paikallisia lakeja tai määräyksiä.",
+    "copyright": "Tekijänoikeus 2025. Kaikki oikeudet pidätetään.",
+    "cookie_management": "Evästeiden hallinta"
   },
-  "docs": {
-    "title": "Asiakirjat",
-    "privacy_policy": "Tietosuojakäytäntö",
-    "terms_of_service": "Käyttöehdot",
-    "cookie_policy": "Evästekäytäntö",
-    "token_sale": "Tokenien myyntisopimus",
-    "support": "24/7 Live-tuki"
-  },
-  "socials": {
-    "title": "Liity yhteisöömme"
-  },
-  "contact": {
-    "email_label": "Yhteyssähköposti:",
-    "email": "Support@blockchainfx.com"
-  },
-  "disclaimer": "Kryptovaluutat voivat olla sääntelemättömiä lainkäyttöalueellasi, ja niiden arvo voi vaihdella, mikä voi johtaa voittoihin tai tappioihin. Mahdolliset voitot voivat olla pääomatuloveron tai muiden verojen alaisia paikallisten lakien mukaisesti. Tämän alustan sisältö ei muodosta tarjousta, suositusta tai taloudellista neuvontaa kryptovaluuttojen ostamiseen, myymiseen tai niillä käymiseen. Olet itse vastuussa sen arvioimisesta, sopiiko tapahtuma henkilökohtaisiin tavoitteisiisi, taloudelliseen tilanteeseesi ja riskinsietokykyysi. Suosittelemme vahvasti ottamaan yhteyttä luotettuihin ja lisensoituisiin oikeudellisiin, verotuksellisiin tai taloudellisiin asiantuntijoihin ennen päätösten tekemistä.<br/> <br/> Kryptovaluutoilla käytävä kauppa sisältää merkittäviä riskejä, mukaan lukien mahdollisen osittaisen tai täydellisen varojen menetyksen. Huolellinen tutkimus on välttämätöntä. BlockchainFX ei takaa minkään kryptovaluutan tuottoa, suorituskykyä tai pääoman palautusta, joka mainitaan tällä alustalla. Käyttämällä tätä alustaa hyväksyt käyttöehtomme, tietosuojakäytäntömme, evästekäytäntömme ja mahdolliset tokenien myyntisopimukset. Alustan sisältöä ei ole tarkoitettu käytettäväksi lainkäyttöalueilla, joilla sen jakelu tai käyttö rikkoisi paikallisia lakeja tai määräyksiä.",
-  "copyright": "Tekijänoikeus 2025. Kaikki oikeudet pidätetään.",
-  "cookie_management": "Evästeiden hallinta"
-},
   "MobilePremiumSec": {
     "subtitle": "Rajoitettu Founder's <br /> Club -jäsenyys",
     "description": "Osta BFX ennakkomyynnin aikana ja liity Founder's Clubin jäseneksi alkaen vain 1 000 dollarista. Saat eksklusiivisen NFT:n, BFX Visa -kortin, bonustokeneita, päivittäiset USDT-staking-palkkiot ja ilmaisia kaupankäyntihyvityksiä.",
@@ -946,7 +1002,7 @@
       "upgrade_info": "Esimerkiksi ostamalla $1,000 arvosta $BFX:ää saat Aloittelija NFT:n. <br /> Käytä $1,500 lisää päivitykseen Kehittyneeseen. <br /> Voit jatkaa päivityksiä, kunnes saavutat lopullisen Legenda NFT:n."
     }
   },
-   "buy_tab": {
+  "buy_tab": {
     "you_must_connect_wallet": "Sinun täytyy yhdistää lompakkosi ensin",
     "presale_ended": "Esimyynti on päättynyt",
     "loading": "Ladataan...",
@@ -963,14 +1019,14 @@
     "nft": "NFT",
     "unlock_nft": "Avaa",
     "limited_time_offer_1": "Erikoistarjous:",
-  "use_bonus_code_1": "Käytä bonuskoodia",
-  "code_1": "License50",
-  "to_get": "Saat 50 % enemmän $BFX-tokeneita.",
+    "use_bonus_code_1": "Käytä bonuskoodia",
+    "code_1": "License50",
+    "to_get": "Saat 50 % enemmän $BFX-tokeneita.",
     "limited_time_offer": "Halloween-erikoistarjous:",
-  "use_bonus_code": "Käytä koodia",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "Bonus-koodi",
-  "to_get_bonus": "saadaksesi 40 % enemmän BFX:ää rajoitetun ajan.",
+    "use_bonus_code": "Käytä koodia",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "Bonus-koodi",
+    "to_get_bonus": "saadaksesi 40 % enemmän BFX:ää rajoitetun ajan.",
     "more_bfx_coins": "$BFX -kolikoita!",
     "referral_link": "10 % Suosituslinkki",
     "transaction_successful": "Tapahtuma onnistui",
@@ -1038,7 +1094,7 @@
     "bonus": "+ Aloittelija NFT",
     "buyBtn": "Osta BFX"
   },
-   "stepThreeTransaction": {
+  "stepThreeTransaction": {
     "step": "VAIHE 3",
     "title": "Vahvista tapahtuma",
     "instructions": {
@@ -1079,5 +1135,4 @@
     "copyright": "Tekijänoikeus 2025. Kaikki oikeudet pidätetään.",
     "cookie_management": "Evästeiden hallinta"
   }
-  
 }

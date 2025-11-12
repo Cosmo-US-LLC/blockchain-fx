@@ -9,12 +9,12 @@
     "dashboard": "Dashboard",
     "connect_wallet": "Wallet verbinden"
   },
- "live_presale_section": {
+  "live_presale_section": {
     "title": "BFX-voorverkoop is live",
     "Halloween_title": "Halloween Bonus:",
-     "Breakthrough_title": "BFX heeft een handelslicentie veiliggesteld:",
-  "get_more": "Krijg 50% meer met code",
-  "code_CANDY40": "License50",
+    "Breakthrough_title": "BFX heeft een handelslicentie veiliggesteld:",
+    "get_more": "Krijg 50% meer met code",
+    "code_CANDY40": "License50",
     "buy_button": "Koop BFX",
     "Huge_title": "Grote BFX Doorbraak Aankondiging",
     "day": "Dag",
@@ -26,15 +26,14 @@
     "title": "De eerste Crypto <br /> Trading",
     "title_highlight": "Super App",
     "subtitle": "BlockchainFX is een gelicentieerde next-gen crypto-exchange die DeFi<br /> met traditionele financiën verbindt. Het is het eerste platform waar gebruikers kunnen handelen in meer dan 500 echte en digitale activa.",
-      "subtitle_des": "BlockchainFX is een gelicentieerde crypto-exchange van de volgende generatie die DeFi verbindt met traditionele financiële markten. Het is het enige Web3-platform dat toegang biedt tot aandelen, forex, ETF's en meer.",
-
-  "Licensed": "Gelicentieerd en gereguleerd door",
+    "subtitle_des": "BlockchainFX is een gelicentieerde crypto-exchange van de volgende generatie die DeFi verbindt met traditionele financiële markten. Het is het enige Web3-platform dat toegang biedt tot aandelen, forex, ETF's en meer.",
+    "Licensed": "Gelicentieerd en gereguleerd door",
     "feature1": "De eerste crypto exchange die blockchain en financiën overbrugt",
     "feature2": "Bitcoin, Ethereum, goud, Tesla en meer dan 500+ andere activa",
     "feature3": "Bekroond als 'De beste nieuwe crypto trading app van 2025'",
     "featuremob1": "De eerste beurs die blockchain en traditionele financiën verbindt over 500+ activa",
-  "featuremob2": "Bitcoin, Ethereum, Goud, Aandelen, Forex, ETF's, Opties, Futures – alles op één plek",
-  "featuremob3": "BlockchainFX is bekroond als 'De beste nieuwe crypto-handelsapp van 2025'",
+    "featuremob2": "Bitcoin, Ethereum, Goud, Aandelen, Forex, ETF's, Opties, Futures – alles op één plek",
+    "featuremob3": "BlockchainFX is bekroond als 'De beste nieuwe crypto-handelsapp van 2025'",
     "buy_button": "Koop $BFX",
     "how_it_works_button": "Hoe werkt het?",
     "audited_by": "Gecontroleerd en goedgekeurd door",
@@ -105,18 +104,18 @@
     "asset_cfds": "CFD's en meer."
   },
   "creditCard": {
-  "title": "BFX Visa-kaart",
-  "item1": "Onbeperkt uitgeven",
-  "item2": "Metalen of 18-karaats gouden kaart",
-  "item3": "Tot $100.000 per transactie",
-  "item4": "Tot $10.000 maandelijkse geldopnames bij geldautomaten",
-  "item5": "Gebruik BFX- en USDT-beloningen voor betalingen",
-  "item6": "Wereldwijd geaccepteerd (online en in winkels)",
-  "item7": "Opladen met BFX en meer dan 20 cryptovaluta",
-  "item8": "BFX Visa-kaart alleen beschikbaar tijdens de presale",
-  "compatibleWith": "Compatibel met",
-  "shippingNote": "De verzending begint zodra de BFX-presale is afgelopen, aangezien alle kaarten gelijktijdig worden verstuurd. Elk lid van de BFX Founder's Club ontvangt na de presale een beveiligd formulier om hun verzendgegevens in te dienen. Kaarten worden wereldwijd geleverd via DHL of FedEx Express."
-},
+    "title": "BFX Visa-kaart",
+    "item1": "Onbeperkt uitgeven",
+    "item2": "Metalen of 18-karaats gouden kaart",
+    "item3": "Tot $100.000 per transactie",
+    "item4": "Tot $10.000 maandelijkse geldopnames bij geldautomaten",
+    "item5": "Gebruik BFX- en USDT-beloningen voor betalingen",
+    "item6": "Wereldwijd geaccepteerd (online en in winkels)",
+    "item7": "Opladen met BFX en meer dan 20 cryptovaluta",
+    "item8": "BFX Visa-kaart alleen beschikbaar tijdens de presale",
+    "compatibleWith": "Compatibel met",
+    "shippingNote": "De verzending begint zodra de BFX-presale is afgelopen, aangezien alle kaarten gelijktijdig worden verstuurd. Elk lid van de BFX Founder's Club ontvangt na de presale een beveiligd formulier om hun verzendgegevens in te dienen. Kaarten worden wereldwijd geleverd via DHL of FedEx Express."
+  },
   "whitepaper": {
     "heading": "BFX Whitepaper",
     "description": "Bekijk het whitepaper om te leren hoe BFX een next-gen handels-ecosysteem aandrijft. Ontdek de belangrijkste functies en voordelen, en zie hoe BlockchainFX de kloof overbrugt tussen blockchain en traditionele financiën door de eerste trading super app van de crypto-industrie te creëren.",
@@ -231,7 +230,7 @@
   "how_does_it_sec": {
     "title": "Hoe werkt het?",
     "subtitle": "BlockchainFX is een wereldwijde exchange waar gebruikers crypto, aandelen, forex, ETF's en meer kunnen verhandelen. Elke keer dat iemand handelt, gaat 70% van de handelskosten naar de $BFX staking pool, buybacks en token burns. Staking-beloningen zijn gebaseerd op hoeveel BFX een communitylid bezit en zijn beperkt tot $25.000 USDT per dag.",
-     "subtitle_des": "BlockchainFX is een wereldwijde exchange waar gebruikers crypto, aandelen, forex, ETF's en meer kunnen verhandelen. Elke keer dat iemand handelt, gaat 70% van de handelskosten naar de $BFX staking pool, buybacks en token burns. Staking-beloningen zijn gebaseerd op hoeveel BFX een communitylid bezit en zijn beperkt tot $25.000 USDT per dag.",
+    "subtitle_des": "BlockchainFX is een wereldwijde exchange waar gebruikers crypto, aandelen, forex, ETF's en meer kunnen verhandelen. Elke keer dat iemand handelt, gaat 70% van de handelskosten naar de $BFX staking pool, buybacks en token burns. Staking-beloningen zijn gebaseerd op hoeveel BFX een communitylid bezit en zijn beperkt tot $25.000 USDT per dag.",
     "cards": {
       "staking_rewards": {
         "title": "BFX & USDT staking-beloningen",
@@ -254,7 +253,13 @@
       {
         "title": "Beginner",
         "price": "$1.000",
-        "points": ["BFX Visa Card", "10% BFX Bonus", "BFX Staking Beloningen", "Dagelijkse USDT Beloningen", "Handelscredits tot $25k"],
+        "points": [
+          "BFX Visa Card",
+          "10% BFX Bonus",
+          "BFX Staking Beloningen",
+          "Dagelijkse USDT Beloningen",
+          "Handelscredits tot $25k"
+        ],
         "buttonLabel": "Koop $BFX • $1.000",
         "cardPointsTooltips": [
           "Ontvang je BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -267,7 +272,13 @@
       {
         "title": "Gevorderd",
         "price": "$2.500",
-        "points": ["BFX Visa Card", "20% BFX Bonus", "BFX Staking Beloningen", "$500 Handelscredits", "Dagelijkse USDT Beloningen"],
+        "points": [
+          "BFX Visa Card",
+          "20% BFX Bonus",
+          "BFX Staking Beloningen",
+          "$500 Handelscredits",
+          "Dagelijkse USDT Beloningen"
+        ],
         "buttonLabel": "Koop $BFX • $2.500",
         "cardPointsTooltips": [
           "Ontvang je BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -280,7 +291,13 @@
       {
         "title": "Pro",
         "price": "$5.000",
-        "points": ["Metalen BFX Visa Card", "30% BFX Bonus", "BFX Staking Beloningen", "$1.000 Handelscredits", "Dagelijkse USDT Beloningen"],
+        "points": [
+          "Metalen BFX Visa Card",
+          "30% BFX Bonus",
+          "BFX Staking Beloningen",
+          "$1.000 Handelscredits",
+          "Dagelijkse USDT Beloningen"
+        ],
         "buttonLabel": "Koop $BFX • $5.000",
         "cardPointsTooltips": [
           "Ontvang je BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -293,7 +310,13 @@
       {
         "title": "Expert",
         "price": "$10.000",
-        "points": ["Metalen BFX Visa Card", "40% BFX Bonus", "BFX Staking Beloningen", "10% USDT Beloningen", "$2.000 Handelscredits"],
+        "points": [
+          "Metalen BFX Visa Card",
+          "40% BFX Bonus",
+          "BFX Staking Beloningen",
+          "10% USDT Beloningen",
+          "$2.000 Handelscredits"
+        ],
         "buttonLabel": "Koop $BFX • $10.000",
         "cardPointsTooltips": [
           "Ontvang je BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -306,7 +329,13 @@
       {
         "title": "Master",
         "price": "$25.000",
-        "points": ["Metalen BFX Visa Card", "50% BFX Bonus", "BFX Staking Beloningen", "15% USDT Beloningen", "$5.000 Handelscredits"],
+        "points": [
+          "Metalen BFX Visa Card",
+          "50% BFX Bonus",
+          "BFX Staking Beloningen",
+          "15% USDT Beloningen",
+          "$5.000 Handelscredits"
+        ],
         "buttonLabel": "Koop $BFX • $25.000",
         "cardPointsTooltips": [
           "Ontvang je Metalen BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -319,7 +348,13 @@
       {
         "title": "Elite",
         "price": "$50.000",
-        "points": ["Metalen BFX Visa Card", "60% BFX Bonus", "BFX Staking Beloningen", "20% USDT Beloningen", "$10.000 Handelscredits"],
+        "points": [
+          "Metalen BFX Visa Card",
+          "60% BFX Bonus",
+          "BFX Staking Beloningen",
+          "20% USDT Beloningen",
+          "$10.000 Handelscredits"
+        ],
         "buttonLabel": "Koop $BFX • $50.000",
         "cardPointsTooltips": [
           "Ontvang je Metalen BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -332,7 +367,13 @@
       {
         "title": "Legende",
         "price": "$100.000",
-        "points": ["18-karaats BFX Visa Card", "80% BFX Bonus", "BFX Staking Beloningen", "30% USDT Beloningen", "$25.000 Handelscredits"],
+        "points": [
+          "18-karaats BFX Visa Card",
+          "80% BFX Bonus",
+          "BFX Staking Beloningen",
+          "30% USDT Beloningen",
+          "$25.000 Handelscredits"
+        ],
         "buttonLabel": "Koop $BFX • $100.000",
         "cardPointsTooltips": [
           "Ontvang je 18-karaats BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -393,31 +434,31 @@
       }
     }
   },
- "less_than_section": {
-   "title": "Crypto en Financiën Verbinden",
-  "description": "Crypto vertegenwoordigt slechts 0,87% van het wereldwijde handelsvolume in 2024, met een dagelijks gemiddelde van $84,3 miljard. Ondertussen verwerkt de Forex-markt alleen al $7,5 biljoen per dag. Deze kloof biedt een grote kans voor BFX om cryptogebruikers te verbinden met 's werelds grootste financiële markten.",
-  "costs": {
-    "title": "Kosten",
-    "description": "Tot $2 miljoen"
+  "less_than_section": {
+    "title": "Crypto en Financiën Verbinden",
+    "description": "Crypto vertegenwoordigt slechts 0,87% van het wereldwijde handelsvolume in 2024, met een dagelijks gemiddelde van $84,3 miljard. Ondertussen verwerkt de Forex-markt alleen al $7,5 biljoen per dag. Deze kloof biedt een grote kans voor BFX om cryptogebruikers te verbinden met 's werelds grootste financiële markten.",
+    "costs": {
+      "title": "Kosten",
+      "description": "Tot $2 miljoen"
+    },
+    "chart_title": "Gemiddeld Dagelijks Handelsvolume in 2024",
+    "chart": {
+      "bonds": "Obligaties: $1,1 biljoen (11,64%)",
+      "stocks": "Amerikaanse aandelen: $700 miljard (7,15%)",
+      "commodities": "Grondstoffen: $250 miljard (2,55%)",
+      "etfs": "ETF's: $150 miljard (1,53%)",
+      "crypto": "Crypto: $89 miljard (0,87%)",
+      "forex": "Forex: $7,5 biljoen (76,62%)"
+    },
+    "legend": {
+      "forex": "Forex",
+      "bonds": "Obligaties",
+      "us_stock": "Amerikaanse aandelen",
+      "commodities": "Grondstoffen",
+      "etfs": "ETF's",
+      "crypto": "Crypto"
+    }
   },
-  "chart_title": "Gemiddeld Dagelijks Handelsvolume in 2024",
-  "chart": {
-    "bonds": "Obligaties: $1,1 biljoen (11,64%)",
-    "stocks": "Amerikaanse aandelen: $700 miljard (7,15%)",
-    "commodities": "Grondstoffen: $250 miljard (2,55%)",
-    "etfs": "ETF's: $150 miljard (1,53%)",
-    "crypto": "Crypto: $89 miljard (0,87%)",
-    "forex": "Forex: $7,5 biljoen (76,62%)"
-  },
-  "legend": {
-    "forex": "Forex",
-    "bonds": "Obligaties",
-    "us_stock": "Amerikaanse aandelen",
-    "commodities": "Grondstoffen",
-    "etfs": "ETF's",
-    "crypto": "Crypto"
-  }
-},
   "standout_section": {
     "title": "Opvallende kenmerken",
     "description": "Cryptocurrencies van exchanges hebben historisch gezien goed gepresteerd dankzij hun actieve gebruikersbasis, platforminkomsten en voortdurende marketing. BFX, de eerste token van een multi-asset handelsplatform, biedt unieke kenmerken die echte waarde aan de markt toevoegen.",
@@ -555,11 +596,26 @@
       "average": "4,87 van de 5",
       "verified_ratings": "1000+ Geverifieerde Beoordelingen",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -658,7 +714,7 @@
       },
       {
         "question": "Wat is het doel van de voorverkoop?",
-      "answer": "Het community-evenement richt zich op de verkoop van alle tokens die zijn toegewezen aan de presale om de groei van het platform en de wereldwijde uitbreiding te versnellen. Tijdens de presale worden de ingezamelde fondsen strategisch gebruikt voor productontwikkeling, grootschalige marketing en het veiligstellen van topbeurzen voor BFX. Ons doel is om 100.000 actieve dagelijkse handelaren te bereiken en een handelsvolume van meerdere miljoenen dollars te genereren vóór de officiële lancering. Tegelijkertijd bouwen we een sterke en betrokken community op, belonen vroege supporters met kortingstokens en vergroten we de bekendheid voorafgaand aan de BFX-lancering."
+        "answer": "Het community-evenement richt zich op de verkoop van alle tokens die zijn toegewezen aan de presale om de groei van het platform en de wereldwijde uitbreiding te versnellen. Tijdens de presale worden de ingezamelde fondsen strategisch gebruikt voor productontwikkeling, grootschalige marketing en het veiligstellen van topbeurzen voor BFX. Ons doel is om 100.000 actieve dagelijkse handelaren te bereiken en een handelsvolume van meerdere miljoenen dollars te genereren vóór de officiële lancering. Tegelijkertijd bouwen we een sterke en betrokken community op, belonen vroege supporters met kortingstokens en vergroten we de bekendheid voorafgaand aan de BFX-lancering."
       },
       {
         "question": "Waar kan ik mijn tokens zien?",
@@ -667,6 +723,10 @@
       {
         "question": "Zijn mijn tokens veilig?",
         "answer": "De veiligheid van uw tokens tijdens de voorverkoop is 100% gegarandeerd via ons smart contract, waar alle gegevens veilig zijn opgeslagen. Tokens worden toegewezen aan elke koper en kunnen alleen worden geopend met hun wallet. BFX-tokens kunnen niet worden overgedragen tijdens de voorverkoop en kunnen pas worden geclaimd zodra de voorverkoop is afgelopen."
+      },
+      {
+        "question": "Is er een vestingperiode?",
+        "answer": "Nee, je kunt al je aangekochte BFX-tokens direct na de presale claimen op <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Er is geen vestingperiode voor deze tokens. <br/> Om het project te beschermen en de best mogelijke lancering te garanderen, zijn bonus-tokens, verwijzingsbeloningen en staking-beloningen echter onderworpen aan een vestingperiode van 90 dagen. Deze vesting-tokens kunnen worden geclaimd zodra de vestingperiode is voltooid."
       },
       {
         "question": "Hoe claim ik mijn BFX?",
@@ -708,7 +768,13 @@
       {
         "title": "Beginner",
         "price": "$1.000",
-        "points": ["BFX Visa Card", "10% BFX Bonus", "BFX Staking Beloningen", "Dagelijkse USDT Beloningen", "Handelscredits tot $25k"],
+        "points": [
+          "BFX Visa Card",
+          "10% BFX Bonus",
+          "BFX Staking Beloningen",
+          "Dagelijkse USDT Beloningen",
+          "Handelscredits tot $25k"
+        ],
         "buttonLabel": "Koop $BFX • $1.000",
         "cardPointsTooltips": [
           "Ontvang je BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -721,7 +787,13 @@
       {
         "title": "Gevorderd",
         "price": "$2.500",
-        "points": ["BFX Visa Card", "20% BFX Bonus", "BFX Staking Beloningen", "$500 Handelscredits", "Dagelijkse USDT Beloningen"],
+        "points": [
+          "BFX Visa Card",
+          "20% BFX Bonus",
+          "BFX Staking Beloningen",
+          "$500 Handelscredits",
+          "Dagelijkse USDT Beloningen"
+        ],
         "buttonLabel": "Koop $BFX • $2.500",
         "cardPointsTooltips": [
           "Ontvang je BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -734,7 +806,13 @@
       {
         "title": "Pro",
         "price": "$5.000",
-        "points": ["Metalen BFX Visa Card", "30% BFX Bonus", "BFX Staking Beloningen", "$1.000 Handelscredits", "Dagelijkse USDT Beloningen"],
+        "points": [
+          "Metalen BFX Visa Card",
+          "30% BFX Bonus",
+          "BFX Staking Beloningen",
+          "$1.000 Handelscredits",
+          "Dagelijkse USDT Beloningen"
+        ],
         "buttonLabel": "Koop $BFX • $5.000",
         "cardPointsTooltips": [
           "Ontvang je BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -747,7 +825,13 @@
       {
         "title": "Expert",
         "price": "$10.000",
-        "points": ["Metalen BFX Visa Card", "40% BFX Bonus", "BFX Staking Beloningen", "10% USDT Beloningen", "$2.000 Handelscredits"],
+        "points": [
+          "Metalen BFX Visa Card",
+          "40% BFX Bonus",
+          "BFX Staking Beloningen",
+          "10% USDT Beloningen",
+          "$2.000 Handelscredits"
+        ],
         "buttonLabel": "Koop $BFX • $10.000",
         "cardPointsTooltips": [
           "Ontvang je BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -760,7 +844,13 @@
       {
         "title": "Master",
         "price": "$25.000",
-        "points": ["Metalen BFX Visa Card", "50% BFX Bonus", "BFX Staking Beloningen", "15% USDT Beloningen", "$5.000 Handelscredits"],
+        "points": [
+          "Metalen BFX Visa Card",
+          "50% BFX Bonus",
+          "BFX Staking Beloningen",
+          "15% USDT Beloningen",
+          "$5.000 Handelscredits"
+        ],
         "buttonLabel": "Koop $BFX • $25.000",
         "cardPointsTooltips": [
           "Ontvang je Metalen BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -773,7 +863,13 @@
       {
         "title": "Elite",
         "price": "$50.000",
-        "points": ["Metalen BFX Visa Card", "60% BFX Bonus", "BFX Staking Beloningen", "20% USDT Beloningen", "$10.000 Handelscredits"],
+        "points": [
+          "Metalen BFX Visa Card",
+          "60% BFX Bonus",
+          "BFX Staking Beloningen",
+          "20% USDT Beloningen",
+          "$10.000 Handelscredits"
+        ],
         "buttonLabel": "Koop $BFX • $50.000",
         "cardPointsTooltips": [
           "Ontvang je Metalen BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -786,7 +882,13 @@
       {
         "title": "Legende",
         "price": "$100.000",
-        "points": ["18-karaats BFX Visa Card", "80% BFX Bonus", "BFX Staking Beloningen", "30% USDT Beloningen", "$25.000 Handelscredits"],
+        "points": [
+          "18-karaats BFX Visa Card",
+          "80% BFX Bonus",
+          "BFX Staking Beloningen",
+          "30% USDT Beloningen",
+          "$25.000 Handelscredits"
+        ],
         "buttonLabel": "Koop $BFX • $100.000",
         "cardPointsTooltips": [
           "Ontvang je 18-karaats BFX Visa Card (virtueel en fysiek), geaccepteerd online en in winkels wereldwijd.",
@@ -923,11 +1025,11 @@
     }
   },
   "the_ultimate_section": {
-  "title": "Het Ultieme <br/> Handelsplatform",
-  "description": "Ervaar het beste handelsplatform met geavanceerde functies en een gebruiksvriendelijke interface.",
-  "buy_bfx": "Koop $BFX",
-  "need_support": "Hulp nodig?"
-},
+    "title": "Het Ultieme <br/> Handelsplatform",
+    "description": "Ervaar het beste handelsplatform met geavanceerde functies en een gebruiksvriendelijke interface.",
+    "buy_bfx": "Koop $BFX",
+    "need_support": "Hulp nodig?"
+  },
   "buy_tab": {
     "you_must_connect_wallet": "Je moet eerst je wallet verbinden",
     "presale_ended": "De voorverkoop is afgelopen",
@@ -944,16 +1046,16 @@
     "you_receive_bfx": "Je ontvangt $BFX",
     "nft": "NFT",
     "unlock_nft": "Ontgrendelen",
-     "limited_time_offer_1": "Speciale aanbieding:",
-  "use_bonus_code_1": "Gebruik bonuscode",
-  "code_1": "License50",
-  "to_get": "Om 50% meer $BFX-tokens te krijgen.",
+    "limited_time_offer_1": "Speciale aanbieding:",
+    "use_bonus_code_1": "Gebruik bonuscode",
+    "code_1": "License50",
+    "to_get": "Om 50% meer $BFX-tokens te krijgen.",
     "limited_time_offer": "Halloween-special:",
-  "use_bonus_code": "Gebruik de code",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "Bonuscode",
-  "to_get_bonus": "om 40% meer BFX te krijgen voor een beperkte tijd.",
-  "more_bfx_coins": "$BFX Munten!",
+    "use_bonus_code": "Gebruik de code",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "Bonuscode",
+    "to_get_bonus": "om 40% meer BFX te krijgen voor een beperkte tijd.",
+    "more_bfx_coins": "$BFX Munten!",
     "referral_link": "10% Referral Link",
     "transaction_successful": "Transactie geslaagd",
     "transaction_successful_message": "De transactie is geslaagd. Wacht een minuut en ververs het transactietabblad om je tokens te zien.",
@@ -966,12 +1068,12 @@
     "buy_bfx": "Koop BFX"
   },
   "nft": {
-  "legend": "Legende",
-  "elite": "Elite",
-  "master": "Meester",
-  "expert": "Expert"
-},
- "how_to_buy_hero": {
+    "legend": "Legende",
+    "elite": "Elite",
+    "master": "Meester",
+    "expert": "Expert"
+  },
+  "how_to_buy_hero": {
     "title": "Hoe te kopen",
     "blockchain_fx": "BlockchainFX",
     "bfx_token": "($BFX)",

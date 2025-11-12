@@ -206,7 +206,7 @@ function Footer() {
                 {t("footer.contact.email")}
               </h3>
               <h3 className="text-[#fff] text-[16px] pt-3 font-[400] leading-[108.333%]">
-                License 16172
+                License: 16172
               </h3>
             </div>
           </div>

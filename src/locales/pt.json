@@ -9,12 +9,12 @@
     "dashboard": "Painel de Controle",
     "connect_wallet": "Conectar Carteira"
   },
-    "live_presale_section": {
+  "live_presale_section": {
     "title": "Pré-venda BFX ao vivo",
     "Halloween_title": "Bônus de Halloween:",
     "Breakthrough_title": "BFX garantiu uma licença de negociação:",
-  "get_more": "Receba 50% mais com o código",
-  "code_CANDY40": "License50",
+    "get_more": "Receba 50% mais com o código",
+    "code_CANDY40": "License50",
     "buy_button": "Comprar BFX",
     "Huge_title": "Grande Anúncio de Avanço BFX",
     "day": "Dia",
@@ -25,16 +25,15 @@
   "hero": {
     "title": "O Primeiro Trading de Cripto ",
     "title_highlight": "Super App",
-   "subtitle": "A BlockchainFX é uma exchange de criptomoedas de nova geração licenciada que conecta DeFi<br /> às finanças tradicionais. É a primeira plataforma onde os usuários podem negociar mais de 500 ativos reais e digitais.",
-     "subtitle_des": "A BlockchainFX é uma exchange de criptomoedas de nova geração licenciada que conecta o DeFi aos mercados financeiros tradicionais. É a única plataforma Web3 que oferece acesso a ações, forex, ETFs e muito mais.",
-
-  "Licensed": "Licenciado e regulamentado por",
+    "subtitle": "A BlockchainFX é uma exchange de criptomoedas de nova geração licenciada que conecta DeFi<br /> às finanças tradicionais. É a primeira plataforma onde os usuários podem negociar mais de 500 ativos reais e digitais.",
+    "subtitle_des": "A BlockchainFX é uma exchange de criptomoedas de nova geração licenciada que conecta o DeFi aos mercados financeiros tradicionais. É a única plataforma Web3 que oferece acesso a ações, forex, ETFs e muito mais.",
+    "Licensed": "Licenciado e regulamentado por",
     "feature1": "A Primeira Exchange de Cripto Unindo Blockchain e Finanças",
     "feature2": "Bitcoin, Ethereum, ouro, Tesla e mais de 500+ ativos",
     "feature3": "Premiado como 'O Melhor Novo App de Trading Cripto de 2025'",
     "featuremob1": "A primeira exchange que conecta blockchain e finanças tradicionais com mais de 500 ativos",
-  "featuremob2": "Bitcoin, Ethereum, Ouro, Ações, Forex, ETFs, Opções, Futuros – tudo em um só lugar",
-  "featuremob3": "BlockchainFX foi premiado como 'O melhor novo aplicativo de negociação de criptomoedas de 2025'",
+    "featuremob2": "Bitcoin, Ethereum, Ouro, Ações, Forex, ETFs, Opções, Futuros – tudo em um só lugar",
+    "featuremob3": "BlockchainFX foi premiado como 'O melhor novo aplicativo de negociação de criptomoedas de 2025'",
     "buy_button": "Comprar $BFX",
     "how_it_works_button": "Como funciona?",
     "audited_by": "Auditado e Aprovado por",
@@ -324,7 +323,11 @@
       {
         "question": "Meus tokens estão seguros?",
         "answer": "A segurança dos seus tokens durante a pré-venda é 100% garantida por meio do nosso contrato inteligente, onde todos os dados são armazenados com segurança. Os tokens são atribuídos a cada comprador e só podem ser acessados com sua carteira. Os tokens BFX não podem ser transferidos durante a pré-venda e só podem ser reivindicados após o término da pré-venda."
-},
+      },
+      {
+        "question": "Existe um período de vesting?",
+        "answer": "Não, você pode resgatar todos os tokens BFX que comprou imediatamente após a pré-venda em <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Não há período de vesting para esses tokens. <br/> No entanto, para proteger o projeto e garantir o melhor lançamento possível, tokens de bônus, recompensas de indicação e recompensas de staking estão sujeitos a um período de vesting de 90 dias. Esses tokens vested poderão ser resgatados após a conclusão do período de vesting."
+      },
       {
         "question": "Como reivindicar seu BFX?",
         "answer": "Seus tokens BFX podem ser reivindicados em segundos no <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> após o término da pré-venda."
@@ -480,11 +483,26 @@
       "average": "4,87 de 5",
       "verified_ratings": "1000+ Avaliações Verificadas",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -545,7 +563,6 @@
       }
     }
   },
- 
   "the_ultimate_section": {
     "title": "A Plataforma de Negociação <br/> Definitiva",
     "description": "Experimente a melhor plataforma de negociação com recursos avançados e interface amigável.",
@@ -759,7 +776,13 @@
       {
         "title": "Iniciante",
         "price": "$1.000",
-        "points": ["Cartão Visa BFX", "10% Bônus BFX", "Recompensas de Staking BFX", "Recompensas Diárias em USDT", "Créditos de Negociação de até $25k"],
+        "points": [
+          "Cartão Visa BFX",
+          "10% Bônus BFX",
+          "Recompensas de Staking BFX",
+          "Recompensas Diárias em USDT",
+          "Créditos de Negociação de até $25k"
+        ],
         "buttonLabel": "Comprar $BFX • $1.000",
         "cardPointsTooltips": [
           "Receba seu Cartão Visa BFX (virtual e físico), aceito online e em lojas no mundo todo.",
@@ -772,7 +795,13 @@
       {
         "title": "Avançado",
         "price": "$2.500",
-        "points": ["Cartão Visa BFX", "20% Bônus BFX", "Recompensas de Staking BFX", "$500 Créditos de Negociação", "Recompensas Diárias em USDT"],
+        "points": [
+          "Cartão Visa BFX",
+          "20% Bônus BFX",
+          "Recompensas de Staking BFX",
+          "$500 Créditos de Negociação",
+          "Recompensas Diárias em USDT"
+        ],
         "buttonLabel": "Comprar $BFX • $2.500",
         "cardPointsTooltips": [
           "Receba seu Cartão Visa BFX (virtual e físico), aceito online e em lojas no mundo todo.",
@@ -785,7 +814,13 @@
       {
         "title": "Pro",
         "price": "$5.000",
-        "points": ["Cartão Visa BFX de Metal", "30% Bônus BFX", "Recompensas de Staking BFX", "$1.000 Créditos de Negociação", "Recompensas Diárias em USDT"],
+        "points": [
+          "Cartão Visa BFX de Metal",
+          "30% Bônus BFX",
+          "Recompensas de Staking BFX",
+          "$1.000 Créditos de Negociação",
+          "Recompensas Diárias em USDT"
+        ],
         "buttonLabel": "Comprar $BFX • $5.000",
         "cardPointsTooltips": [
           "Receba seu Cartão Visa BFX (virtual e físico), aceito online e em lojas no mundo todo.",
@@ -798,7 +833,13 @@
       {
         "title": "Especialista",
         "price": "$10.000",
-        "points": ["Cartão Visa BFX de Metal", "40% Bônus BFX", "Recompensas de Staking BFX", "10% Recompensas em USDT", "$2.000 Créditos de Negociação"],
+        "points": [
+          "Cartão Visa BFX de Metal",
+          "40% Bônus BFX",
+          "Recompensas de Staking BFX",
+          "10% Recompensas em USDT",
+          "$2.000 Créditos de Negociação"
+        ],
         "buttonLabel": "Comprar $BFX • $10.000",
         "cardPointsTooltips": [
           "Receba seu Cartão Visa BFX (virtual e físico), aceito online e em lojas no mundo todo.",
@@ -811,7 +852,13 @@
       {
         "title": "Mestre",
         "price": "$25.000",
-        "points": ["Cartão Visa BFX de Metal", "50% Bônus BFX", "Recompensas de Staking BFX", "15% Recompensas em USDT", "$5.000 Créditos de Negociação"],
+        "points": [
+          "Cartão Visa BFX de Metal",
+          "50% Bônus BFX",
+          "Recompensas de Staking BFX",
+          "15% Recompensas em USDT",
+          "$5.000 Créditos de Negociação"
+        ],
         "buttonLabel": "Comprar $BFX • $25.000",
         "cardPointsTooltips": [
           "Receba seu Cartão Visa BFX de Metal (virtual e físico), aceito online e em lojas no mundo todo.",
@@ -824,7 +871,13 @@
       {
         "title": "Elite",
         "price": "$50.000",
-        "points": ["Cartão Visa BFX de Metal", "60% Bônus BFX", "Recompensas de Staking BFX", "20% Recompensas em USDT", "$10.000 Créditos de Negociação"],
+        "points": [
+          "Cartão Visa BFX de Metal",
+          "60% Bônus BFX",
+          "Recompensas de Staking BFX",
+          "20% Recompensas em USDT",
+          "$10.000 Créditos de Negociação"
+        ],
         "buttonLabel": "Comprar $BFX • $50.000",
         "cardPointsTooltips": [
           "Receba seu Cartão Visa BFX de Metal (virtual e físico), aceito online e em lojas no mundo todo.",
@@ -837,7 +890,13 @@
       {
         "title": "Lenda",
         "price": "$100.000",
-        "points": ["Cartão Visa BFX 18K", "80% Bônus BFX", "Recompensas de Staking BFX", "30% Recompensas em USDT", "$25.000 Créditos de Negociação"],
+        "points": [
+          "Cartão Visa BFX 18K",
+          "80% Bônus BFX",
+          "Recompensas de Staking BFX",
+          "30% Recompensas em USDT",
+          "$25.000 Créditos de Negociação"
+        ],
         "buttonLabel": "Comprar $BFX • $100.000",
         "cardPointsTooltips": [
           "Receba seu Cartão Visa BFX 18K (virtual e físico), aceito online e em lojas no mundo todo.",
@@ -897,31 +956,31 @@
       }
     }
   },
- "less_than_section": {
+  "less_than_section": {
     "title": "Conectando Cripto e Finanças",
- "description": "As criptomoedas representam apenas 0,87% do volume global de negociações em 2024, com uma média diária de US$ 84,3 bilhões. Enquanto isso, o mercado Forex movimenta sozinho US$ 7,5 trilhões por dia. Essa diferença representa uma grande oportunidade para a BFX conectar usuários de cripto com os maiores mercados financeiros do mundo.",
-  "costs": {
-    "title": "Custos",
-    "description": "Até $2 Milhões"
+    "description": "As criptomoedas representam apenas 0,87% do volume global de negociações em 2024, com uma média diária de US$ 84,3 bilhões. Enquanto isso, o mercado Forex movimenta sozinho US$ 7,5 trilhões por dia. Essa diferença representa uma grande oportunidade para a BFX conectar usuários de cripto com os maiores mercados financeiros do mundo.",
+    "costs": {
+      "title": "Custos",
+      "description": "Até $2 Milhões"
+    },
+    "chart_title": "Volume Médio Diário de Negociação em 2024",
+    "chart": {
+      "bonds": "Títulos: $1,1 Trilhão (11,64%)",
+      "stocks": "Ações dos EUA: $700 Bilhões (7,15%)",
+      "commodities": "Commodities: $250 Bilhões (2,55%)",
+      "etfs": "ETFs: $150B (1,53%)",
+      "crypto": "Cripto: $89 Bilhões (0,87%)",
+      "forex": "Forex: $7,5 Trilhões (76,62%)"
+    },
+    "legend": {
+      "forex": "Forex",
+      "bonds": "Títulos",
+      "us_stock": "Ações dos EUA",
+      "commodities": "Commodities",
+      "etfs": "ETFs",
+      "crypto": "Cripto"
+    }
   },
-  "chart_title": "Volume Médio Diário de Negociação em 2024",
-  "chart": {
-    "bonds": "Títulos: $1,1 Trilhão (11,64%)",
-    "stocks": "Ações dos EUA: $700 Bilhões (7,15%)",
-    "commodities": "Commodities: $250 Bilhões (2,55%)",
-    "etfs": "ETFs: $150B (1,53%)",
-    "crypto": "Cripto: $89 Bilhões (0,87%)",
-    "forex": "Forex: $7,5 Trilhões (76,62%)"
-  },
-  "legend": {
-    "forex": "Forex",
-    "bonds": "Títulos",
-    "us_stock": "Ações dos EUA",
-    "commodities": "Commodities",
-    "etfs": "ETFs",
-    "crypto": "Cripto"
-  }
-},
   "buy_tab": {
     "you_must_connect_wallet": "Você precisa conectar sua carteira primeiro",
     "presale_ended": "A pré-venda terminou",
@@ -938,16 +997,16 @@
     "you_receive_bfx": "Você recebe $BFX",
     "nft": "NFT",
     "unlock_nft": "Desbloquear",
-     "limited_time_offer_1": "Oferta especial:",
-  "use_bonus_code_1": "Use o código de bônus",
-  "code_1": "License50",
-  "to_get": "Para obter 50% mais tokens $BFX.",
+    "limited_time_offer_1": "Oferta especial:",
+    "use_bonus_code_1": "Use o código de bônus",
+    "code_1": "License50",
+    "to_get": "Para obter 50% mais tokens $BFX.",
     "limited_time_offer": "Oferta especial de Halloween:",
-  "use_bonus_code": "Use o código",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "Código bônus",
-  "to_get_bonus": "para ganhar 40% mais BFX por tempo limitado.",
-  "more_bfx_coins": "Moedas $BFX!",
+    "use_bonus_code": "Use o código",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "Código bônus",
+    "to_get_bonus": "para ganhar 40% mais BFX por tempo limitado.",
+    "more_bfx_coins": "Moedas $BFX!",
     "referral_link": "Link de indicação 10%",
     "transaction_successful": "Transação bem-sucedida",
     "transaction_successful_message": "A transação foi bem-sucedida. Aguarde um minuto e atualize a aba de transações para ver seus tokens.",
@@ -960,12 +1019,12 @@
     "buy_bfx": "Comprar BFX"
   },
   "nft": {
-  "legend": "Lenda",
-  "elite": "Elite",
-  "master": "Mestre",
-  "expert": "Especialista"
-},
- "how_to_buy_hero": {
+    "legend": "Lenda",
+    "elite": "Elite",
+    "master": "Mestre",
+    "expert": "Especialista"
+  },
+  "how_to_buy_hero": {
     "title": "Como Comprar",
     "blockchain_fx": "BlockchainFX",
     "bfx_token": "($BFX)",

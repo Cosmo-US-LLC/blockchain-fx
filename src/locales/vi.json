@@ -9,12 +9,12 @@
     "dashboard": "Bảng điều khiển",
     "connect_wallet": "Kết nối ví"
   },
-    "live_presale_section": {
+  "live_presale_section": {
     "title": "Bán trước BFX đang diễn ra",
     "Halloween_title": "Thưởng Halloween:",
     "Breakthrough_title": "BFX đã được cấp giấy phép giao dịch:",
-  "get_more": "Nhận thêm 50% với mã",
-  "code_CANDY40": "License50",
+    "get_more": "Nhận thêm 50% với mã",
+    "code_CANDY40": "License50",
     "buy_button": "Mua BFX",
     "Huge_title": "Thông báo đột phá lớn của BFX",
     "day": "Ngày",
@@ -25,15 +25,15 @@
   "hero": {
     "title": "Nền tảng giao dịch Crypto đầu tiên <br />",
     "title_highlight": "Siêu Ứng Dụng",
-      "subtitle": "BlockchainFX là một sàn giao dịch tiền điện tử thế hệ mới được cấp phép, kết nối DeFi<br /> với tài chính truyền thống. Đây là nền tảng đầu tiên nơi người dùng có thể giao dịch hơn 500 tài sản thực và kỹ thuật số.",
-        "subtitle_des": "BlockchainFX là một sàn giao dịch tiền điện tử thế hệ mới được cấp phép, kết nối DeFi với các thị trường tài chính truyền thống. Đây là nền tảng Web3 duy nhất cung cấp quyền truy cập vào cổ phiếu, ngoại hối, quỹ ETF và nhiều hơn nữa.",
-  "Licensed": "Được cấp phép và quản lý bởi",
+    "subtitle": "BlockchainFX là một sàn giao dịch tiền điện tử thế hệ mới được cấp phép, kết nối DeFi<br /> với tài chính truyền thống. Đây là nền tảng đầu tiên nơi người dùng có thể giao dịch hơn 500 tài sản thực và kỹ thuật số.",
+    "subtitle_des": "BlockchainFX là một sàn giao dịch tiền điện tử thế hệ mới được cấp phép, kết nối DeFi với các thị trường tài chính truyền thống. Đây là nền tảng Web3 duy nhất cung cấp quyền truy cập vào cổ phiếu, ngoại hối, quỹ ETF và nhiều hơn nữa.",
+    "Licensed": "Được cấp phép và quản lý bởi",
     "feature1": "Sàn giao dịch Crypto đầu tiên kết nối Blockchain và Tài chính",
     "feature2": "Bitcoin, Ethereum, vàng, Tesla và hơn 500+ tài sản khác",
     "feature3": "Được vinh danh là 'Ứng dụng giao dịch Crypto mới tốt nhất năm 2025'",
     "featuremob1": "Sàn giao dịch đầu tiên kết nối Blockchain và Tài chính truyền thống với hơn 500 tài sản",
-  "featuremob2": "Bitcoin, Ethereum, Vàng, Cổ phiếu, Forex, ETF, Quyền chọn, Hợp đồng tương lai – tất cả trong một nền tảng",
-  "featuremob3": "BlockchainFX đã được trao giải là 'Ứng dụng giao dịch tiền điện tử mới tốt nhất năm 2025'",
+    "featuremob2": "Bitcoin, Ethereum, Vàng, Cổ phiếu, Forex, ETF, Quyền chọn, Hợp đồng tương lai – tất cả trong một nền tảng",
+    "featuremob3": "BlockchainFX đã được trao giải là 'Ứng dụng giao dịch tiền điện tử mới tốt nhất năm 2025'",
     "buy_button": "Mua $BFX",
     "how_it_works_button": "Cách hoạt động?",
     "audited_by": "Được kiểm toán và phê duyệt bởi",
@@ -85,24 +85,24 @@
       "role": "Youtuber, 22.7K người theo dõi"
     }
   },
- "blockchainfx_demo": {
-  "title": "Bản Demo BlockchainFX",
-  "description": "Chỉ trong vài giây, người dùng có thể giao dịch BTC, Tesla, Vàng, Pepe, ETF, CFD và nhiều hơn nữa — tất cả đều mượt mà <br />trên một nền tảng mạnh mẽ duy nhất.",
-  "buy_button": "Mua BFX",
-  "watch_live_button": "Xem Giao Dịch Trực Tiếp Tại Đây",
-  "assets_title": "Hơn 500 Tài Sản",
-  "assets_description": "BlockchainFX là sàn giao dịch duy nhất cho phép người dùng Web3 chuyển đổi ngay lập tức giữa tiền điện tử và các loại tài sản truyền thống.<br />Không chậm trễ, không phí ẩn, không cần chuyển sàn. Chỉ có giao dịch nhanh và theo thời gian thực.",
-  "asset_list_title": "Người dùng có thể giao dịch trên BlockchainFX:",
-  "asset_crypto": "Tiền điện tử",
-  "asset_stocks": "Cổ phiếu",
-  "asset_forex": "Ngoại hối",
-  "asset_commodities": "Hàng hóa",
-  "asset_etfs": "ETF",
-  "asset_options": "Quyền chọn",
-  "asset_futures": "Hợp đồng tương lai",
-  "asset_indices": "Chỉ số",
-  "asset_cfds": "CFD và nhiều hơn nữa."
-},
+  "blockchainfx_demo": {
+    "title": "Bản Demo BlockchainFX",
+    "description": "Chỉ trong vài giây, người dùng có thể giao dịch BTC, Tesla, Vàng, Pepe, ETF, CFD và nhiều hơn nữa — tất cả đều mượt mà <br />trên một nền tảng mạnh mẽ duy nhất.",
+    "buy_button": "Mua BFX",
+    "watch_live_button": "Xem Giao Dịch Trực Tiếp Tại Đây",
+    "assets_title": "Hơn 500 Tài Sản",
+    "assets_description": "BlockchainFX là sàn giao dịch duy nhất cho phép người dùng Web3 chuyển đổi ngay lập tức giữa tiền điện tử và các loại tài sản truyền thống.<br />Không chậm trễ, không phí ẩn, không cần chuyển sàn. Chỉ có giao dịch nhanh và theo thời gian thực.",
+    "asset_list_title": "Người dùng có thể giao dịch trên BlockchainFX:",
+    "asset_crypto": "Tiền điện tử",
+    "asset_stocks": "Cổ phiếu",
+    "asset_forex": "Ngoại hối",
+    "asset_commodities": "Hàng hóa",
+    "asset_etfs": "ETF",
+    "asset_options": "Quyền chọn",
+    "asset_futures": "Hợp đồng tương lai",
+    "asset_indices": "Chỉ số",
+    "asset_cfds": "CFD và nhiều hơn nữa."
+  },
   "creditCard": {
     "title": "Thẻ Visa BFX",
     "item1": "Chi tiêu không giới hạn",
@@ -230,7 +230,7 @@
   "how_does_it_sec": {
     "title": "Cách hoạt động?",
     "subtitle": "BlockchainFX là sàn giao dịch toàn cầu nơi người dùng có thể giao dịch crypto, cổ phiếu, forex, ETF và nhiều hơn nữa.<br />Mỗi khi có giao dịch, 70% phí giao dịch sẽ được chuyển vào pool staking $BFX, mua lại token và đốt token.<br />Phần thưởng staking dựa trên số lượng BFX mà thành viên cộng đồng nắm giữ và giới hạn ở mức 25.000 USDT mỗi ngày.",
-     "subtitle_des": "BlockchainFX là sàn giao dịch toàn cầu nơi người dùng có thể giao dịch crypto, cổ phiếu, forex, ETF và nhiều hơn nữa.<br />Mỗi khi có giao dịch, 70% phí giao dịch sẽ được chuyển vào pool staking $BFX, mua lại token và đốt token.<br />Phần thưởng staking dựa trên số lượng BFX mà thành viên cộng đồng nắm giữ và giới hạn ở mức 25.000 USDT mỗi ngày.",
+    "subtitle_des": "BlockchainFX là sàn giao dịch toàn cầu nơi người dùng có thể giao dịch crypto, cổ phiếu, forex, ETF và nhiều hơn nữa.<br />Mỗi khi có giao dịch, 70% phí giao dịch sẽ được chuyển vào pool staking $BFX, mua lại token và đốt token.<br />Phần thưởng staking dựa trên số lượng BFX mà thành viên cộng đồng nắm giữ và giới hạn ở mức 25.000 USDT mỗi ngày.",
     "cards": {
       "staking_rewards": {
         "title": "Thưởng staking BFX & USDT",
@@ -254,7 +254,13 @@
       {
         "title": "Người Mới",
         "price": "$1,000",
-        "points": ["Thẻ Visa BFX", "Thưởng 10% BFX", "Phần Thưởng Staking BFX", "Phần Thưởng USDT Hàng Ngày", "Tín Dụng Giao Dịch Lên Tới $25k"],
+        "points": [
+          "Thẻ Visa BFX",
+          "Thưởng 10% BFX",
+          "Phần Thưởng Staking BFX",
+          "Phần Thưởng USDT Hàng Ngày",
+          "Tín Dụng Giao Dịch Lên Tới $25k"
+        ],
         "buttonLabel": "Mua $BFX • $1,000",
         "cardPointsTooltips": [
           "Nhận Thẻ Visa BFX (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
@@ -267,7 +273,13 @@
       {
         "title": "Nâng Cao",
         "price": "$2,500",
-        "points": ["Thẻ Visa BFX", "Thưởng 20% BFX", "Phần Thưởng Staking BFX", "Tín Dụng Giao Dịch $500", "Phần Thưởng USDT Hàng Ngày"],
+        "points": [
+          "Thẻ Visa BFX",
+          "Thưởng 20% BFX",
+          "Phần Thưởng Staking BFX",
+          "Tín Dụng Giao Dịch $500",
+          "Phần Thưởng USDT Hàng Ngày"
+        ],
         "buttonLabel": "Mua $BFX • $2,500",
         "cardPointsTooltips": [
           "Nhận Thẻ Visa BFX (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
@@ -280,7 +292,13 @@
       {
         "title": "Chuyên Nghiệp",
         "price": "$5,000",
-        "points": ["Thẻ Visa BFX Kim Loại", "Thưởng 30% BFX", "Phần Thưởng Staking BFX", "Tín Dụng Giao Dịch $1000", "Phần Thưởng USDT Hàng Ngày"],
+        "points": [
+          "Thẻ Visa BFX Kim Loại",
+          "Thưởng 30% BFX",
+          "Phần Thưởng Staking BFX",
+          "Tín Dụng Giao Dịch $1000",
+          "Phần Thưởng USDT Hàng Ngày"
+        ],
         "buttonLabel": "Mua $BFX • $5,000",
         "cardPointsTooltips": [
           "Nhận Thẻ Visa BFX (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
@@ -293,7 +311,13 @@
       {
         "title": "Chuyên Gia",
         "price": "$10,000",
-        "points": ["Thẻ Visa BFX Kim Loại", "Thưởng 40% BFX", "Phần Thưởng Staking BFX", "Thưởng 10% USDT", "Tín Dụng Giao Dịch $2000"],
+        "points": [
+          "Thẻ Visa BFX Kim Loại",
+          "Thưởng 40% BFX",
+          "Phần Thưởng Staking BFX",
+          "Thưởng 10% USDT",
+          "Tín Dụng Giao Dịch $2000"
+        ],
         "buttonLabel": "Mua $BFX • $10,000",
         "cardPointsTooltips": [
           "Nhận Thẻ Visa BFX (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
@@ -306,7 +330,13 @@
       {
         "title": "Bậc Thầy",
         "price": "$25,000",
-        "points": ["Thẻ Visa BFX Kim Loại", "Thưởng 50% BFX", "Phần Thưởng Staking BFX", "Thưởng 15% USDT", "Tín Dụng Giao Dịch $5000"],
+        "points": [
+          "Thẻ Visa BFX Kim Loại",
+          "Thưởng 50% BFX",
+          "Phần Thưởng Staking BFX",
+          "Thưởng 15% USDT",
+          "Tín Dụng Giao Dịch $5000"
+        ],
         "buttonLabel": "Mua $BFX • $25,000",
         "cardPointsTooltips": [
           "Nhận Thẻ Visa BFX Kim Loại (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
@@ -319,7 +349,13 @@
       {
         "title": "Tinh Anh",
         "price": "$50,000",
-        "points": ["Thẻ Visa BFX Kim Loại", "Thưởng 60% BFX", "Phần Thưởng Staking BFX", "Thưởng 20% USDT", "Tín Dụng Giao Dịch $10000"],
+        "points": [
+          "Thẻ Visa BFX Kim Loại",
+          "Thưởng 60% BFX",
+          "Phần Thưởng Staking BFX",
+          "Thưởng 20% USDT",
+          "Tín Dụng Giao Dịch $10000"
+        ],
         "buttonLabel": "Mua $BFX • $50,000",
         "cardPointsTooltips": [
           "Nhận Thẻ Visa BFX Kim Loại (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
@@ -332,7 +368,13 @@
       {
         "title": "Huyền Thoại",
         "price": "$100,000",
-        "points": ["Thẻ Visa BFX 18 Karat", "Thưởng 80% BFX", "Phần Thưởng Staking BFX", "Thưởng 30% USDT", "Tín Dụng Giao Dịch $25000"],
+        "points": [
+          "Thẻ Visa BFX 18 Karat",
+          "Thưởng 80% BFX",
+          "Phần Thưởng Staking BFX",
+          "Thưởng 30% USDT",
+          "Tín Dụng Giao Dịch $25000"
+        ],
         "buttonLabel": "Mua $BFX • $100,000",
         "cardPointsTooltips": [
           "Nhận Thẻ Visa BFX 18 Karat (ảo và vật lý), được chấp nhận trực tuyến và tại các cửa hàng toàn cầu.",
@@ -552,7 +594,7 @@
       {
         "question": "Mục tiêu của đợt mở bán là gì?",
         "answer": "Sự kiện cộng đồng tập trung vào việc bán tất cả các token được phân bổ trong giai đoạn presale để thúc đẩy tăng trưởng nền tảng và mở rộng toàn cầu. Trong thời gian presale, số tiền huy động được sẽ được sử dụng chiến lược cho phát triển sản phẩm, marketing quy mô lớn và niêm yết BFX trên các sàn giao dịch hàng đầu. Mục tiêu của chúng tôi là đạt 100.000 nhà giao dịch hoạt động hàng ngày và tạo ra khối lượng giao dịch hàng triệu đô la trước khi ra mắt chính thức. Đồng thời, chúng tôi xây dựng một cộng đồng mạnh mẽ và gắn kết, thưởng cho những người ủng hộ sớm bằng token giảm giá và tăng cường nhận thức trước khi ra mắt BFX."
-},
+      },
       {
         "question": "Tôi xem token của mình ở đâu?",
         "answer": "Bạn có thể xem token trong ví trên bảng điều khiển. Chỉ cần nhấn 'Kết nối ví' ở góc trên bên phải và kết nối ví đã dùng để mua để xem số dư BFX."
@@ -560,6 +602,10 @@
       {
         "question": "Token của tôi có an toàn không?",
         "answer": "Sự an toàn của token trong giai đoạn mở bán trước được đảm bảo 100% thông qua hợp đồng thông minh của chúng tôi, nơi tất cả dữ liệu được lưu trữ an toàn. Token được phân bổ cho từng người mua và chỉ có thể được truy cập bằng ví của họ. Token BFX không thể được chuyển trong giai đoạn mở bán và chỉ có thể được nhận khi giai đoạn này kết thúc."
+      },
+      {
+        "question": "Có thời gian vesting không?",
+        "answer": "Không, bạn có thể yêu cầu tất cả các token BFX đã mua ngay lập tức sau đợt presale tại <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Không có thời gian vesting cho các token này. <br/> Tuy nhiên, để bảo vệ dự án và đảm bảo việc ra mắt tốt nhất, các token thưởng, phần thưởng giới thiệu và phần thưởng staking sẽ chịu thời gian vesting 90 ngày. Các token này sẽ có thể yêu cầu sau khi thời gian vesting kết thúc."
       },
       {
         "question": "Làm thế nào để nhận BFX?",
@@ -618,11 +664,26 @@
       "average": "4,87 trên 5",
       "verified_ratings": "Hơn 1000 đánh giá xác thực",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -991,48 +1052,48 @@
     }
   },
   "buy_tab": {
-  "you_must_connect_wallet": "Bạn phải kết nối ví trước",
-  "presale_ended": "Đợt bán trước đã kết thúc",
-  "loading": "Đang tải...",
-  "error_ranking_up": "Lỗi khi xếp hạng",
-  "successfully_unlocked": "Đã mở khóa thành công",
-  "participants": "Người tham gia",
-  "card": "Thẻ",
-  "other_cryptos": "+ Tiền điện tử khác",
-  "presale_price": "Giá bán trước",
-  "launch_price": "Giá khi ra mắt",
-  "you_pay_in": "Bạn thanh toán bằng",
-  "usd": "USD",
-  "you_receive_bfx": "Bạn nhận được $BFX",
-  "nft": "NFT",
-  "unlock_nft": "Mở khóa",
-   "limited_time_offer_1": "Ưu đãi đặc biệt:",
-  "use_bonus_code_1": "Sử dụng mã thưởng",
-  "code_1": "License50",
-  "to_get": "Để nhận thêm 50% token $BFX.",
-  "limited_time_offer": "Ưu đãi đặc biệt Halloween:",
-  "use_bonus_code": "Sử dụng mã",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "Mã thưởng",
-  "to_get_bonus": "để nhận thêm 40% BFX trong thời gian có hạn.",
-  "more_bfx_coins": "Xu $BFX!",
-  "referral_link": "Liên kết giới thiệu 10%",
-  "transaction_successful": "Giao dịch thành công",
-  "transaction_successful_message": "Giao dịch đã thành công. Vui lòng đợi một phút và làm mới tab giao dịch để xem token của bạn.",
-  "transaction_successful_bought_message": "Giao dịch đã thành công. Bạn đã mua",
-  "check_transaction_tab": "Kiểm tra tab giao dịch để biết thêm chi tiết",
-  "transaction_errored": "Giao dịch lỗi",
-  "transaction_errored_message": "Giao dịch không thành công. Vui lòng thử lại.",
-  "transaction_pending": "Giao dịch đang chờ xử lý",
-  "transaction_pending_message": "Giao dịch đang chờ xử lý. Vui lòng đợi một phút và làm mới tab giao dịch để xem token của bạn.",
-  "buy_bfx": "Mua BFX"
-},
-"nft": {
-  "legend": "Huyền thoại",
-  "elite": "Tinh hoa",
-  "master": "Bậc thầy",
-  "expert": "Chuyên gia"
-},
+    "you_must_connect_wallet": "Bạn phải kết nối ví trước",
+    "presale_ended": "Đợt bán trước đã kết thúc",
+    "loading": "Đang tải...",
+    "error_ranking_up": "Lỗi khi xếp hạng",
+    "successfully_unlocked": "Đã mở khóa thành công",
+    "participants": "Người tham gia",
+    "card": "Thẻ",
+    "other_cryptos": "+ Tiền điện tử khác",
+    "presale_price": "Giá bán trước",
+    "launch_price": "Giá khi ra mắt",
+    "you_pay_in": "Bạn thanh toán bằng",
+    "usd": "USD",
+    "you_receive_bfx": "Bạn nhận được $BFX",
+    "nft": "NFT",
+    "unlock_nft": "Mở khóa",
+    "limited_time_offer_1": "Ưu đãi đặc biệt:",
+    "use_bonus_code_1": "Sử dụng mã thưởng",
+    "code_1": "License50",
+    "to_get": "Để nhận thêm 50% token $BFX.",
+    "limited_time_offer": "Ưu đãi đặc biệt Halloween:",
+    "use_bonus_code": "Sử dụng mã",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "Mã thưởng",
+    "to_get_bonus": "để nhận thêm 40% BFX trong thời gian có hạn.",
+    "more_bfx_coins": "Xu $BFX!",
+    "referral_link": "Liên kết giới thiệu 10%",
+    "transaction_successful": "Giao dịch thành công",
+    "transaction_successful_message": "Giao dịch đã thành công. Vui lòng đợi một phút và làm mới tab giao dịch để xem token của bạn.",
+    "transaction_successful_bought_message": "Giao dịch đã thành công. Bạn đã mua",
+    "check_transaction_tab": "Kiểm tra tab giao dịch để biết thêm chi tiết",
+    "transaction_errored": "Giao dịch lỗi",
+    "transaction_errored_message": "Giao dịch không thành công. Vui lòng thử lại.",
+    "transaction_pending": "Giao dịch đang chờ xử lý",
+    "transaction_pending_message": "Giao dịch đang chờ xử lý. Vui lòng đợi một phút và làm mới tab giao dịch để xem token của bạn.",
+    "buy_bfx": "Mua BFX"
+  },
+  "nft": {
+    "legend": "Huyền thoại",
+    "elite": "Tinh hoa",
+    "master": "Bậc thầy",
+    "expert": "Chuyên gia"
+  },
   "how_to_buy_hero": {
     "title": "Cách Mua",
     "blockchain_fx": "BlockchainFX",

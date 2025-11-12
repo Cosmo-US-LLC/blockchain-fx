@@ -682,6 +682,10 @@
         "question": "Are my tokens safe?",
         "answer": "The safety of your tokens during the presale is 100% guaranteed through our smart contract, where all data is securely stored. Tokens are allocated to each buyer and can only be accessed with their wallet. BFX tokens cannot be transferred during the presale and can only be claimed once the presale ends."
       },
+       {
+        "question": "Is there a vesting period?",
+        "answer": "No, you can claim all your purchased BFX tokens instantly after the presale <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> There is no vesting period for these tokens. <br/> However, to safeguard the project and ensure the best possible launch, bonus tokens, referral rewards, and staking rewards are subject to a 90-day vesting period. These vested tokens will be claimable once the vesting period is completed."
+      },
       {
         "question": "How to claim your BFX?",
         "answer": "Your BFX tokens can be claimed within seconds on <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> once the presale ends."
