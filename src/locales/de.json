@@ -9,12 +9,12 @@
     "dashboard": "Dashboard",
     "connect_wallet": "Wallet verbinden"
   },
-   "live_presale_section": {
+  "live_presale_section": {
     "title": "BFX-Vorverkauf ist live",
     "Halloween_title": "Halloween-Bonus:",
     "Breakthrough_title": "BFX hat eine Handelslizenz gesichert:",
-  "get_more": "Erhalte 50% mehr mit dem Code",
-  "code_CANDY40": "License50",
+    "get_more": "Erhalte 50% mehr mit dem Code",
+    "code_CANDY40": "License50",
     "buy_button": "BFX kaufen",
     "Huge_title": "Große BFX-Durchbruch-Ankündigung",
     "day": "Tag",
@@ -26,14 +26,14 @@
     "title": "Das erste Krypto-<br />Trading",
     "title_highlight": "Super-App",
     "subtitle": "BlockchainFX ist eine lizenzierte Krypto-Börse der nächsten Generation, die DeFi<br /> mit der traditionellen Finanzwelt verbindet. Es ist die erste Plattform, auf der Benutzer über 500 reale und digitale Vermögenswerte handeln können.",
-      "subtitle_des": "BlockchainFX ist eine lizenzierte Krypto-Börse der nächsten Generation, die DeFi mit den traditionellen Finanzmärkten verbindet. Es ist die einzige Web3-Plattform, die Zugang zu Aktien, Devisen, ETFs und mehr bietet.",
-  "Licensed": "Lizenziert und reguliert von",
+    "subtitle_des": "BlockchainFX ist eine lizenzierte Krypto-Börse der nächsten Generation, die DeFi mit den traditionellen Finanzmärkten verbindet. Es ist die einzige Web3-Plattform, die Zugang zu Aktien, Devisen, ETFs und mehr bietet.",
+    "Licensed": "Lizenziert und reguliert von",
     "feature1": "Die erste Krypto-Börse, die Blockchain und Finanzen verbindet",
     "feature2": "Bitcoin, Ethereum, Gold, Tesla und über 500 weitere Assets",
     "feature3": "Ausgezeichnet als 'Die beste neue Krypto-Trading-App 2025'",
     "featuremob1": "Die erste Börse, die Blockchain und traditionelle Finanzen über 500+ Vermögenswerte verbindet",
-  "featuremob2": "Bitcoin, Ethereum, Gold, Aktien, Forex, ETFs, Optionen, Futures – alles an einem Ort",
-  "featuremob3": "BlockchainFX wurde als 'Die beste neue Krypto-Handels-App des Jahres 2025' ausgezeichnet",
+    "featuremob2": "Bitcoin, Ethereum, Gold, Aktien, Forex, ETFs, Optionen, Futures – alles an einem Ort",
+    "featuremob3": "BlockchainFX wurde als 'Die beste neue Krypto-Handels-App des Jahres 2025' ausgezeichnet",
     "buy_button": "$BFX kaufen",
     "how_it_works_button": "Wie funktioniert es?",
     "audited_by": "Geprüft und genehmigt von",
@@ -227,11 +227,10 @@
     "description": "BFX-Inhaber verdienen tägliche Staking-Belohnungen in USDT und BFX, finanziert durch BlockchainFX-Handelsgebühren. Jedes Mal, wenn jemand in der App handelt, werden die Inhaber belohnt. Je mehr BFX eine Person hält, desto mehr verdient sie – bis zu maximal 25.000 USDT pro Tag.",
     "button": "$BFX kaufen"
   },
-  
   "how_does_it_sec": {
     "title": "Wie funktioniert es?",
     "subtitle": "BlockchainFX ist eine globale Börse, auf der Nutzer Krypto, Aktien, Forex, ETFs und mehr handeln können. Jedes Mal, wenn jemand handelt, gehen 70% der Handelsgebühren in den $BFX-Staking-Pool, Rückkäufe und Token-Burns.<br /><br />Staking-Belohnungen basieren darauf, wie viel BFX ein Community-Mitglied hält und sind auf 25.000 USDT pro Tag begrenzt.",
-     "subtitle_des": "BlockchainFX ist eine globale Börse, auf der Nutzer Krypto, Aktien, Forex, ETFs und mehr handeln können.<br />Jedes Mal, wenn jemand handelt, gehen 70% der Handelsgebühren in den $BFX-Staking-Pool, Rückkäufe und Token-Burns.<br />Staking-Belohnungen basieren darauf, wie viel BFX ein Community-Mitglied hält und sind auf 25.000 USDT pro Tag begrenzt.",
+    "subtitle_des": "BlockchainFX ist eine globale Börse, auf der Nutzer Krypto, Aktien, Forex, ETFs und mehr handeln können.<br />Jedes Mal, wenn jemand handelt, gehen 70% der Handelsgebühren in den $BFX-Staking-Pool, Rückkäufe und Token-Burns.<br />Staking-Belohnungen basieren darauf, wie viel BFX ein Community-Mitglied hält und sind auf 25.000 USDT pro Tag begrenzt.",
     "cards": {
       "staking_rewards": {
         "title": "BFX- & USDT-Staking-Belohnungen",
@@ -254,7 +253,13 @@
       {
         "title": "Anfänger",
         "price": "1.000 $",
-        "points": ["BFX Visa Karte", "10% BFX Bonus", "BFX Staking-Belohnungen", "Tägliche USDT-Belohnungen", "Trading-Guthaben bis zu 25.000 $"] ,
+        "points": [
+          "BFX Visa Karte",
+          "10% BFX Bonus",
+          "BFX Staking-Belohnungen",
+          "Tägliche USDT-Belohnungen",
+          "Trading-Guthaben bis zu 25.000 $"
+        ],
         "buttonLabel": "$BFX kaufen • 1.000 $",
         "cardPointsTooltips": [
           "Erhalten Sie Ihre BFX Visa Karte (virtuell und physisch), weltweit online und in Geschäften akzeptiert.",
@@ -267,7 +272,13 @@
       {
         "title": "Fortgeschritten",
         "price": "2.500 $",
-        "points": ["BFX Visa Karte", "20% BFX Bonus", "BFX Staking-Belohnungen", "500 $ Trading-Guthaben", "Tägliche USDT-Belohnungen"],
+        "points": [
+          "BFX Visa Karte",
+          "20% BFX Bonus",
+          "BFX Staking-Belohnungen",
+          "500 $ Trading-Guthaben",
+          "Tägliche USDT-Belohnungen"
+        ],
         "buttonLabel": "$BFX kaufen • 2.500 $",
         "cardPointsTooltips": [
           "Erhalten Sie Ihre BFX Visa Karte (virtuell und physisch), weltweit online und in Geschäften akzeptiert.",
@@ -280,7 +291,13 @@
       {
         "title": "Profi",
         "price": "5.000 $",
-        "points": ["Metall BFX Visa Karte", "30% BFX Bonus", "BFX Staking-Belohnungen", "1.000 $ Trading-Guthaben", "Tägliche USDT-Belohnungen"],
+        "points": [
+          "Metall BFX Visa Karte",
+          "30% BFX Bonus",
+          "BFX Staking-Belohnungen",
+          "1.000 $ Trading-Guthaben",
+          "Tägliche USDT-Belohnungen"
+        ],
         "buttonLabel": "$BFX kaufen • 5.000 $",
         "cardPointsTooltips": [
           "Erhalten Sie Ihre BFX Visa Karte (virtuell und physisch), weltweit online und in Geschäften akzeptiert.",
@@ -293,7 +310,13 @@
       {
         "title": "Experte",
         "price": "10.000 $",
-        "points": ["Metall BFX Visa Karte", "40% BFX Bonus", "BFX Staking-Belohnungen", "10% USDT-Belohnungen", "2.000 $ Trading-Guthaben"],
+        "points": [
+          "Metall BFX Visa Karte",
+          "40% BFX Bonus",
+          "BFX Staking-Belohnungen",
+          "10% USDT-Belohnungen",
+          "2.000 $ Trading-Guthaben"
+        ],
         "buttonLabel": "$BFX kaufen • 10.000 $",
         "cardPointsTooltips": [
           "Erhalten Sie Ihre BFX Visa Karte (virtuell und physisch), weltweit online und in Geschäften akzeptiert.",
@@ -306,7 +329,13 @@
       {
         "title": "Meister",
         "price": "25.000 $",
-        "points": ["Metall BFX Visa Karte", "50% BFX Bonus", "BFX Staking-Belohnungen", "15% USDT-Belohnungen", "5.000 $ Trading-Guthaben"],
+        "points": [
+          "Metall BFX Visa Karte",
+          "50% BFX Bonus",
+          "BFX Staking-Belohnungen",
+          "15% USDT-Belohnungen",
+          "5.000 $ Trading-Guthaben"
+        ],
         "buttonLabel": "$BFX kaufen • 25.000 $",
         "cardPointsTooltips": [
           "Erhalten Sie Ihre Metall BFX Visa Karte (virtuell und physisch), weltweit online und in Geschäften akzeptiert.",
@@ -319,7 +348,13 @@
       {
         "title": "Elite",
         "price": "50.000 $",
-        "points": ["Metall BFX Visa Karte", "60% BFX Bonus", "BFX Staking-Belohnungen", "20% USDT-Belohnungen", "10.000 $ Trading-Guthaben"],
+        "points": [
+          "Metall BFX Visa Karte",
+          "60% BFX Bonus",
+          "BFX Staking-Belohnungen",
+          "20% USDT-Belohnungen",
+          "10.000 $ Trading-Guthaben"
+        ],
         "buttonLabel": "$BFX kaufen • 50.000 $",
         "cardPointsTooltips": [
           "Erhalten Sie Ihre Metall BFX Visa Karte (virtuell und physisch), weltweit online und in Geschäften akzeptiert.",
@@ -332,7 +367,13 @@
       {
         "title": "Legende",
         "price": "100.000 $",
-        "points": ["18 Karat BFX Visa Karte", "80% BFX Bonus", "BFX Staking-Belohnungen", "30% USDT-Belohnungen", "25.000 $ Trading-Guthaben"],
+        "points": [
+          "18 Karat BFX Visa Karte",
+          "80% BFX Bonus",
+          "BFX Staking-Belohnungen",
+          "30% USDT-Belohnungen",
+          "25.000 $ Trading-Guthaben"
+        ],
         "buttonLabel": "$BFX kaufen • 100.000 $",
         "cardPointsTooltips": [
           "Erhalten Sie Ihre 18 Karat BFX Visa Karte (virtuell und physisch), weltweit online und in Geschäften akzeptiert.",
@@ -372,52 +413,52 @@
       }
     }
   },
-"exclusive_benefits_section": {
-  "title": "Vorteile des Kaufs von BFX während des Vorverkaufs",
-  "items": {
-    "benefit_1": {
-      "title": "Niedrigster Token-Preis <br/>vor dem Start",
-      "description": "Ein Kauf während des Vorverkaufs ermöglicht es dir, einen deutlich niedrigeren Preis im Vergleich zum Startpreis von BFX zu sichern."
-    },
-    "benefit_2": {
-      "title": "Limitierte Auflage <br/>BFX Visa-Karten",
-      "description": "Erhalte eine Metall- oder 18-Karat-Gold-BFX-Visa-Kreditkarte mit unbegrenztem Ausgabenlimit und weltweiter Nutzbarkeit."
-    },
-    "benefit_3": {
-      "title": "Exklusive Bonus-<br/>Trading-Guthaben",
-      "description": "Erhalte bis zu $25.000 an kostenlosen Trading-Guthaben, um ohne Bedingungen auf BlockchainFX zu starten."
-    },
-    "benefit_4": {
-      "title": "Tägliche USDT-<br/>Staking-Belohnungen",
-      "description": "Beginne noch heute mit dem Verdienen von USDT- und BFX-Belohnungen durch die Teilnahme am BFX-Vorverkauf. Je früher du kaufst, desto mehr kannst du langfristig verdienen."
+  "exclusive_benefits_section": {
+    "title": "Vorteile des Kaufs von BFX während des Vorverkaufs",
+    "items": {
+      "benefit_1": {
+        "title": "Niedrigster Token-Preis <br/>vor dem Start",
+        "description": "Ein Kauf während des Vorverkaufs ermöglicht es dir, einen deutlich niedrigeren Preis im Vergleich zum Startpreis von BFX zu sichern."
+      },
+      "benefit_2": {
+        "title": "Limitierte Auflage <br/>BFX Visa-Karten",
+        "description": "Erhalte eine Metall- oder 18-Karat-Gold-BFX-Visa-Kreditkarte mit unbegrenztem Ausgabenlimit und weltweiter Nutzbarkeit."
+      },
+      "benefit_3": {
+        "title": "Exklusive Bonus-<br/>Trading-Guthaben",
+        "description": "Erhalte bis zu $25.000 an kostenlosen Trading-Guthaben, um ohne Bedingungen auf BlockchainFX zu starten."
+      },
+      "benefit_4": {
+        "title": "Tägliche USDT-<br/>Staking-Belohnungen",
+        "description": "Beginne noch heute mit dem Verdienen von USDT- und BFX-Belohnungen durch die Teilnahme am BFX-Vorverkauf. Je früher du kaufst, desto mehr kannst du langfristig verdienen."
+      }
     }
-  }
-},
+  },
   "less_than_section": {
-  "title": "Brücke zwischen Krypto und Finanzen",
-  "description": "Kryptowährungen machen im Jahr 2024 nur 0,87 % des weltweiten Handelsvolumens aus, mit einem täglichen Durchschnitt von 84,3 Milliarden US-Dollar. Der Devisenmarkt allein wickelt hingegen täglich 7,5 Billionen US-Dollar ab. Diese Lücke stellt eine große Chance für BFX dar, Krypto-Nutzer mit den größten Finanzmärkten der Welt zu verbinden.",
-  "costs": {
-    "title": "Kosten",
-    "description": "Bis zu 2 Millionen USD"
+    "title": "Brücke zwischen Krypto und Finanzen",
+    "description": "Kryptowährungen machen im Jahr 2024 nur 0,87 % des weltweiten Handelsvolumens aus, mit einem täglichen Durchschnitt von 84,3 Milliarden US-Dollar. Der Devisenmarkt allein wickelt hingegen täglich 7,5 Billionen US-Dollar ab. Diese Lücke stellt eine große Chance für BFX dar, Krypto-Nutzer mit den größten Finanzmärkten der Welt zu verbinden.",
+    "costs": {
+      "title": "Kosten",
+      "description": "Bis zu 2 Millionen USD"
+    },
+    "chart_title": "Durchschnittliches tägliches Handelsvolumen im Jahr 2024",
+    "chart": {
+      "bonds": "Anleihen: 1,1 Billion USD (11,64%)",
+      "stocks": "US-Aktien: 700 Milliarden USD (7,15%)",
+      "commodities": "Rohstoffe: 250 Milliarden USD (2,55%)",
+      "etfs": "ETFs: 150 Milliarden USD (1,53%)",
+      "crypto": "Krypto: 89 Milliarden USD (0,87%)",
+      "forex": "Forex: 7,5 Billionen USD (76,62%)"
+    },
+    "legend": {
+      "forex": "Forex",
+      "bonds": "Anleihen",
+      "us_stock": "US-Aktien",
+      "commodities": "Rohstoffe",
+      "etfs": "ETFs",
+      "crypto": "Krypto"
+    }
   },
-  "chart_title": "Durchschnittliches tägliches Handelsvolumen im Jahr 2024",
-  "chart": {
-    "bonds": "Anleihen: 1,1 Billion USD (11,64%)",
-    "stocks": "US-Aktien: 700 Milliarden USD (7,15%)",
-    "commodities": "Rohstoffe: 250 Milliarden USD (2,55%)",
-    "etfs": "ETFs: 150 Milliarden USD (1,53%)",
-    "crypto": "Krypto: 89 Milliarden USD (0,87%)",
-    "forex": "Forex: 7,5 Billionen USD (76,62%)"
-  },
-  "legend": {
-    "forex": "Forex",
-    "bonds": "Anleihen",
-    "us_stock": "US-Aktien",
-    "commodities": "Rohstoffe",
-    "etfs": "ETFs",
-    "crypto": "Krypto"
-  }
-},
   "standout_section": {
     "title": "Herausragende Funktionen",
     "description": "Kryptowährungen von Börsen haben sich historisch gut entwickelt, dank ihrer aktiven Nutzerbasis, Plattformumsätze und laufenden Marketingmaßnahmen. BFX, der erste Token einer Multi-Asset-Handelsplattform, bietet einzigartige Funktionen, die echten Mehrwert auf den Markt bringen.",
@@ -551,11 +592,26 @@
       "average": "4,87 von 5",
       "verified_ratings": "1000+ verifizierte Bewertungen",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -654,8 +710,8 @@
       },
       {
         "question": "Was ist das Ziel des Vorverkaufs?",
-       "answer": "Die Community-Veranstaltung konzentriert sich darauf, alle für den Vorverkauf zugewiesenen Token zu verkaufen, um das Plattformwachstum und die globale Expansion zu beschleunigen. Während des Vorverkaufs werden die gesammelten Mittel strategisch für die Produktentwicklung, groß angelegte Marketingkampagnen und die Sicherung von Top-Börsenlistungen für BFX verwendet. Unser Ziel ist es, 100.000 aktive tägliche Händler zu erreichen und ein Handelsvolumen in Millionenhöhe zu generieren, bevor der offizielle Start erfolgt. Gleichzeitig bauen wir eine starke und engagierte Community auf, belohnen frühe Unterstützer mit vergünstigten Token und schaffen ein hohes Maß an Aufmerksamkeit vor dem BFX-Start."
-},
+        "answer": "Die Community-Veranstaltung konzentriert sich darauf, alle für den Vorverkauf zugewiesenen Token zu verkaufen, um das Plattformwachstum und die globale Expansion zu beschleunigen. Während des Vorverkaufs werden die gesammelten Mittel strategisch für die Produktentwicklung, groß angelegte Marketingkampagnen und die Sicherung von Top-Börsenlistungen für BFX verwendet. Unser Ziel ist es, 100.000 aktive tägliche Händler zu erreichen und ein Handelsvolumen in Millionenhöhe zu generieren, bevor der offizielle Start erfolgt. Gleichzeitig bauen wir eine starke und engagierte Community auf, belohnen frühe Unterstützer mit vergünstigten Token und schaffen ein hohes Maß an Aufmerksamkeit vor dem BFX-Start."
+      },
       {
         "question": "Wo kann ich meine Token sehen?",
         "answer": "Sie können Ihre Token in Ihrer Dashboard-Wallet sehen. Klicken Sie einfach oben rechts auf 'Wallet verbinden' und verbinden Sie die Wallet, die Sie für den Kauf verwendet haben, um Ihr BFX-Guthaben zu sehen."
@@ -663,6 +719,10 @@
       {
         "question": "Sind meine Token sicher?",
         "answer": "Die Sicherheit Ihrer Token während des Vorverkaufs ist durch unseren Smart Contract zu 100 % garantiert, in dem alle Daten sicher gespeichert werden. Token werden jedem Käufer zugewiesen und können nur mit seiner Wallet abgerufen werden. BFX-Token können während des Vorverkaufs nicht übertragen werden und können erst nach dessen Ende beansprucht werden."
+      },
+      {
+        "question": "Gibt es eine Vesting‑Periode?",
+        "answer": "Nein – du kannst alle deine gekauften BFX‑Token sofort nach dem Presale auf <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> beanspruchen. Es gibt keine Vesting‑Periode für diese Token. <br/> Allerdings unterliegen Bonus‑Token, Empfehlungs‑Belohnungen und Staking‑Belohnungen zum Schutz des Projekts und zur Sicherstellung des bestmöglichen Starts einer Vesting‑Periode von 90 Tagen. Diese vesteten Token werden nach Abschluss der Vesting‑Periode beanspruchbar sein."
       },
       {
         "question": "Wie kann ich meine BFX beanspruchen?",
@@ -958,137 +1018,136 @@
     }
   },
   "buy_tab": {
-  "you_must_connect_wallet": "Du musst zuerst deine Wallet verbinden",
-  "presale_ended": "Der Vorverkauf ist beendet",
-  "loading": "Lädt...",
-  "error_ranking_up": "Fehler beim Hochstufen",
-  "successfully_unlocked": "Erfolgreich freigeschaltet",
-  "participants": "Teilnehmer",
-  "card": "Karte",
-  "other_cryptos": "+ Andere Kryptowährungen",
-  "presale_price": "Vorverkaufspreis",
-  "launch_price": "Startpreis",
-  "you_pay_in": "Du bezahlst in",
-  "usd": "USD",
-  "you_receive_bfx": "Du erhältst $BFX",
-  "nft": "NFT",
-  "unlock_nft": "Freischalten",
-  "limited_time_offer_1": "Sonderangebot:",
-  "use_bonus_code_1": "Verwende den Bonuscode",
-  "code_1": "License50",
-  "to_get": "Erhalte 50% mehr $BFX Token.",
- "limited_time_offer": "Halloween-Sonderangebot:",
-  "use_bonus_code": "Verwende den Code",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "Bonuscode",
-  "to_get_bonus": "um 40 % mehr BFX für begrenzte Zeit zu erhalten.",
-  "more_bfx_coins": "$BFX Coins!",
-  "referral_link": "10% Empfehlungslink",
-  "transaction_successful": "Transaktion erfolgreich",
-  "transaction_successful_message": "Die Transaktion war erfolgreich. Bitte warte eine Minute und aktualisiere den Transaktions-Tab, um deine Token zu sehen.",
-  "transaction_successful_bought_message": "Die Transaktion war erfolgreich. Du hast gekauft",
-  "check_transaction_tab": "Überprüfe deinen Transaktions-Tab für weitere Details",
-  "transaction_errored": "Transaktion fehlgeschlagen",
-  "transaction_errored_message": "Die Transaktion war nicht erfolgreich. Bitte versuche es erneut.",
-  "transaction_pending": "Transaktion ausstehend",
-  "transaction_pending_message": "Die Transaktion ist ausstehend. Bitte warte eine Minute und aktualisiere den Transaktions-Tab, um deine Token zu sehen.",
-  "buy_bfx": "BFX kaufen"
-},
-"nft": {
-  "legend": "Legende",
-  "elite": "Elite",
-  "master": "Meister",
-  "expert": "Experte"
-},
-"how_to_buy_hero": {
-  "title": "So kaufst du",
-  "blockchain_fx": "BlockchainFX",
-  "bfx_token": "($BFX)",
-  "description": "Folge dieser einfachen Schritt-für-Schritt-Anleitung, um dir deine $BFX-Token zu sichern und tägliche Krypto-Belohnungen freizuschalten. Egal ob du mit Krypto oder Karte zahlst – alles, was du brauchst, findest du unten.",
-  "coin_alt": "BFX-Münze"
-},
-"stepOneWallet": {
-  "step1": "Schritt 1",
-  "setupTitle": "Wallet einrichten",
-  "setupDescription": "Bevor du BFX kaufst, stelle sicher, dass du eine dezentrale Krypto-Wallet verwendest. Dadurch wird sichergestellt, dass deine Token korrekt mit deiner Wallet-Adresse verknüpft sind und deine Belohnungen aktiviert werden.",
-  "noteLabel": "Hinweis:",
-  "noteDescription": "Verwende keine zentralisierten Exchange-Wallets (z. B. Binance, Coinbase-Haupt-App) — dort werden deine Token oder Belohnungen nicht angezeigt.",
-  "table": {
-    "platform": "Plattform",
-    "walletOption": "Wallet-Option",
-    "desktop": "Desktop",
-    "desktopOption": "MetaMask (Chrome- oder Firefox-Erweiterung)",
-    "mobile": "Mobil",
-    "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
-    "anyDevice": "Beliebiges Gerät",
-    "anyDeviceOption": "WalletConnect-kompatible Apps"
-  }
-},
-"payment": {
-  "step2": "Schritt 2",
-  "title": "Zahlungsmethode auswählen",
-  "subtitle": "Wähle aus den folgenden unterstützten Optionen:"
-},
-"paymentCardOne": {
-  "enterAmount": "Gib den Betrag an",
-  "toBuy": "den du kaufen möchtest.",
-  "amountYouPay": "Betrag, den du in USDT zahlst",
-  "youReceive": "Du erhältst BFX",
-  "bonus": "+ Anfänger-NFT"
-},
-"paymentCardTwo": {
-  "selectText1": "Wähle deine bevorzugte",
-  "selectText2": "Währung oder Kartenoption.",
-  "buyWithCard": "Mit Karte kaufen"
-},
-"paymentCardThree": {
-  "click": "Klicke auf",
-  "buyNow": "Jetzt kaufen",
-  "amountYouPay": "Betrag, den du in USDT zahlst",
-  "youReceive": "Du erhältst BFX",
-  "bonus": "+ Anfänger-NFT",
-  "buyBtn": "BFX kaufen"
-},
-"stepThreeTransaction": {
-  "step": "Schritt 3",
-  "title": "Transaktion bestätigen",
-  "instructions": {
-    "0": "Nach dem Klick auf „Jetzt kaufen“ wird eine eindeutige Wallet-Adresse generiert.",
-    "1": "Sende den exakten Betrag deiner gewählten Kryptowährung an diese Adresse.",
-    "2": "Bestätige die Transaktion über deine Wallet (MetaMask, Trust Wallet usw.)."
-  }
-},
-"stepFourViewCoins": {
-  "step": "Schritt 4",
-  "title": "Deine BFX-Coins ansehen",
-  "subtitle": "Sobald deine Zahlung bestätigt ist:",
-  "list": {
-    "0": "Tägliche BFX-Staking-Belohnungen werden deinem Dashboard hinzugefügt.",
-    "1": "USDT (ERC-20)-Auszahlungen werden jeden Montag an deine Wallet gesendet.",
-    "2": "Alle Belohnungen und Transaktionen kannst du in deinem BlockchainFX-Dashboard einsehen."
-  }
-},
-"stepFiveClaim": {
-  "step": "Schritt 5",
-  "title": "Beanspruchen",
-  "subtitle": "Nach dem Ende des Vorverkaufs:",
-  "list": {
-    "0": "Deine $BFX-Token können mit einem Klick in deinem Dashboard beansprucht werden."
+    "you_must_connect_wallet": "Du musst zuerst deine Wallet verbinden",
+    "presale_ended": "Der Vorverkauf ist beendet",
+    "loading": "Lädt...",
+    "error_ranking_up": "Fehler beim Hochstufen",
+    "successfully_unlocked": "Erfolgreich freigeschaltet",
+    "participants": "Teilnehmer",
+    "card": "Karte",
+    "other_cryptos": "+ Andere Kryptowährungen",
+    "presale_price": "Vorverkaufspreis",
+    "launch_price": "Startpreis",
+    "you_pay_in": "Du bezahlst in",
+    "usd": "USD",
+    "you_receive_bfx": "Du erhältst $BFX",
+    "nft": "NFT",
+    "unlock_nft": "Freischalten",
+    "limited_time_offer_1": "Sonderangebot:",
+    "use_bonus_code_1": "Verwende den Bonuscode",
+    "code_1": "License50",
+    "to_get": "Erhalte 50% mehr $BFX Token.",
+    "limited_time_offer": "Halloween-Sonderangebot:",
+    "use_bonus_code": "Verwende den Code",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "Bonuscode",
+    "to_get_bonus": "um 40 % mehr BFX für begrenzte Zeit zu erhalten.",
+    "more_bfx_coins": "$BFX Coins!",
+    "referral_link": "10% Empfehlungslink",
+    "transaction_successful": "Transaktion erfolgreich",
+    "transaction_successful_message": "Die Transaktion war erfolgreich. Bitte warte eine Minute und aktualisiere den Transaktions-Tab, um deine Token zu sehen.",
+    "transaction_successful_bought_message": "Die Transaktion war erfolgreich. Du hast gekauft",
+    "check_transaction_tab": "Überprüfe deinen Transaktions-Tab für weitere Details",
+    "transaction_errored": "Transaktion fehlgeschlagen",
+    "transaction_errored_message": "Die Transaktion war nicht erfolgreich. Bitte versuche es erneut.",
+    "transaction_pending": "Transaktion ausstehend",
+    "transaction_pending_message": "Die Transaktion ist ausstehend. Bitte warte eine Minute und aktualisiere den Transaktions-Tab, um deine Token zu sehen.",
+    "buy_bfx": "BFX kaufen"
   },
-  "thankYou": "Danke, dass du Teil der BFX-Reise bist."
-},
-"stepSixLaunch": {
-  "step": "Schritt 6",
-  "title": "Start",
-  "exchangesTitle": "$BFX startet auf mehreren Top-Börsen",
-  "description1": "$BFX wird nach dem Vorverkauf offiziell auf mehreren Top-Börsen gelistet.",
-  "description2": "Bleib über unsere Website und Social-Media-Kanäle über die Börsenankündigungen auf dem Laufenden.",
-  "button": "Jetzt BFX kaufen"
-},
- "how_footer": {
+  "nft": {
+    "legend": "Legende",
+    "elite": "Elite",
+    "master": "Meister",
+    "expert": "Experte"
+  },
+  "how_to_buy_hero": {
+    "title": "So kaufst du",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "Folge dieser einfachen Schritt-für-Schritt-Anleitung, um dir deine $BFX-Token zu sichern und tägliche Krypto-Belohnungen freizuschalten. Egal ob du mit Krypto oder Karte zahlst – alles, was du brauchst, findest du unten.",
+    "coin_alt": "BFX-Münze"
+  },
+  "stepOneWallet": {
+    "step1": "Schritt 1",
+    "setupTitle": "Wallet einrichten",
+    "setupDescription": "Bevor du BFX kaufst, stelle sicher, dass du eine dezentrale Krypto-Wallet verwendest. Dadurch wird sichergestellt, dass deine Token korrekt mit deiner Wallet-Adresse verknüpft sind und deine Belohnungen aktiviert werden.",
+    "noteLabel": "Hinweis:",
+    "noteDescription": "Verwende keine zentralisierten Exchange-Wallets (z. B. Binance, Coinbase-Haupt-App) — dort werden deine Token oder Belohnungen nicht angezeigt.",
+    "table": {
+      "platform": "Plattform",
+      "walletOption": "Wallet-Option",
+      "desktop": "Desktop",
+      "desktopOption": "MetaMask (Chrome- oder Firefox-Erweiterung)",
+      "mobile": "Mobil",
+      "mobileOption": "Trust Wallet, Coinbase Wallet, Metamask",
+      "anyDevice": "Beliebiges Gerät",
+      "anyDeviceOption": "WalletConnect-kompatible Apps"
+    }
+  },
+  "payment": {
+    "step2": "Schritt 2",
+    "title": "Zahlungsmethode auswählen",
+    "subtitle": "Wähle aus den folgenden unterstützten Optionen:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "Gib den Betrag an",
+    "toBuy": "den du kaufen möchtest.",
+    "amountYouPay": "Betrag, den du in USDT zahlst",
+    "youReceive": "Du erhältst BFX",
+    "bonus": "+ Anfänger-NFT"
+  },
+  "paymentCardTwo": {
+    "selectText1": "Wähle deine bevorzugte",
+    "selectText2": "Währung oder Kartenoption.",
+    "buyWithCard": "Mit Karte kaufen"
+  },
+  "paymentCardThree": {
+    "click": "Klicke auf",
+    "buyNow": "Jetzt kaufen",
+    "amountYouPay": "Betrag, den du in USDT zahlst",
+    "youReceive": "Du erhältst BFX",
+    "bonus": "+ Anfänger-NFT",
+    "buyBtn": "BFX kaufen"
+  },
+  "stepThreeTransaction": {
+    "step": "Schritt 3",
+    "title": "Transaktion bestätigen",
+    "instructions": {
+      "0": "Nach dem Klick auf „Jetzt kaufen“ wird eine eindeutige Wallet-Adresse generiert.",
+      "1": "Sende den exakten Betrag deiner gewählten Kryptowährung an diese Adresse.",
+      "2": "Bestätige die Transaktion über deine Wallet (MetaMask, Trust Wallet usw.)."
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "Schritt 4",
+    "title": "Deine BFX-Coins ansehen",
+    "subtitle": "Sobald deine Zahlung bestätigt ist:",
+    "list": {
+      "0": "Tägliche BFX-Staking-Belohnungen werden deinem Dashboard hinzugefügt.",
+      "1": "USDT (ERC-20)-Auszahlungen werden jeden Montag an deine Wallet gesendet.",
+      "2": "Alle Belohnungen und Transaktionen kannst du in deinem BlockchainFX-Dashboard einsehen."
+    }
+  },
+  "stepFiveClaim": {
+    "step": "Schritt 5",
+    "title": "Beanspruchen",
+    "subtitle": "Nach dem Ende des Vorverkaufs:",
+    "list": {
+      "0": "Deine $BFX-Token können mit einem Klick in deinem Dashboard beansprucht werden."
+    },
+    "thankYou": "Danke, dass du Teil der BFX-Reise bist."
+  },
+  "stepSixLaunch": {
+    "step": "Schritt 6",
+    "title": "Start",
+    "exchangesTitle": "$BFX startet auf mehreren Top-Börsen",
+    "description1": "$BFX wird nach dem Vorverkauf offiziell auf mehreren Top-Börsen gelistet.",
+    "description2": "Bleib über unsere Website und Social-Media-Kanäle über die Börsenankündigungen auf dem Laufenden.",
+    "button": "Jetzt BFX kaufen"
+  },
+  "how_footer": {
     "disclaimer": "Kryptowährungen können in Ihrer Gerichtsbarkeit unreguliert sein, und ihr Wert kann schwanken, was zu potenziellen Gewinnen oder Verlusten führen kann. Jegliche Gewinne können der Kapitalertragssteuer oder anderen Steuern unterliegen, abhängig von Ihren lokalen Gesetzen. Die Inhalte auf dieser Plattform stellen weder ein Angebot, eine Empfehlung noch eine Finanzberatung zum Kauf, Verkauf oder zur Teilnahme an Kryptowährungstransaktionen dar. Sie sind allein dafür verantwortlich zu beurteilen, ob eine Transaktion mit Ihren persönlichen Zielen, finanziellen Umständen und Ihrer Risikobereitschaft übereinstimmt. Wir empfehlen dringend, vertrauenswürdige und lizenzierte Rechts-, Steuer- oder Finanzfachleute zu konsultieren, bevor Sie Entscheidungen treffen.<br/><br/>Der Handel mit Kryptowährungen birgt erhebliche Risiken, einschließlich des möglichen teilweisen oder vollständigen Verlusts Ihrer Gelder. Gründliche Recherche ist entscheidend. BlockchainFX übernimmt keine Garantie für Leistung, Ergebnis oder Kapitalrendite einer auf dieser Plattform erwähnten Kryptowährung. Durch die Nutzung dieser Plattform stimmen Sie unseren Nutzungsbedingungen, der Datenschutzrichtlinie, der Cookie-Richtlinie und allen geltenden Token-Verkaufsvereinbarungen zu. Der Inhalt der Plattform ist nicht für die Nutzung in Gerichtsbarkeiten bestimmt, in denen seine Verbreitung oder Nutzung gegen lokale Gesetze oder Vorschriften verstoßen würde.",
     "copyright": "Urheberrecht 2025. Alle Rechte vorbehalten.",
     "cookie_management": "Cookie-Verwaltung"
   }
-
 }

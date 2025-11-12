@@ -1,8 +1,8 @@
 {
-    "navbar": {
+  "navbar": {
     "whatIsBlockchainFX": "Hva er BlockchainFX?",
     "howToBuy": "Hvordan kjøpe",
-      "whitepaper": "Hvitbok",
+    "whitepaper": "Hvitbok",
     "referral": "Henvisning",
     "reviews": "Anmeldelser",
     "languages": "Språk",
@@ -12,16 +12,15 @@
   "hero": {
     "title": "Den første krypto-<br />handels",
     "title_highlight": "Superapp",
-     "subtitle": "BlockchainFX er en lisensiert kryptobørs av neste generasjon som kobler DeFi<br /> med tradisjonell finans. Det er den første plattformen der brukere kan handle over 500 virkelige og digitale eiendeler.",
-       "subtitle_des": "BlockchainFX er en lisensiert kryptobørs av neste generasjon som kobler DeFi med tradisjonelle finansmarkeder. Det er den eneste Web3-plattformen som gir tilgang til aksjer, valuta, ETF-er og mer.",
-
-  "Licensed": "Lisensiert og regulert av",
+    "subtitle": "BlockchainFX er en lisensiert kryptobørs av neste generasjon som kobler DeFi<br /> med tradisjonell finans. Det er den første plattformen der brukere kan handle over 500 virkelige og digitale eiendeler.",
+    "subtitle_des": "BlockchainFX er en lisensiert kryptobørs av neste generasjon som kobler DeFi med tradisjonelle finansmarkeder. Det er den eneste Web3-plattformen som gir tilgang til aksjer, valuta, ETF-er og mer.",
+    "Licensed": "Lisensiert og regulert av",
     "feature1": "Den første kryptobørsen som bygger bro mellom blockchain og finans",
     "feature2": "Bitcoin, Ethereum, gull, Tesla og over 500+ flere eiendeler",
     "feature3": "Kåret til 'Beste nye krypto-handelsapp i 2025'",
-     "featuremob1": "Den første børsen som bygger bro mellom blockchain og tradisjonell finans over 500+ eiendeler",
-  "featuremob2": "Bitcoin, Ethereum, Gull, Aksjer, Forex, ETF-er, Opsjoner, Futures – alt på ett sted",
-  "featuremob3": "BlockchainFX har blitt kåret til 'Den beste nye krypto-handelsappen i 2025'",
+    "featuremob1": "Den første børsen som bygger bro mellom blockchain og tradisjonell finans over 500+ eiendeler",
+    "featuremob2": "Bitcoin, Ethereum, Gull, Aksjer, Forex, ETF-er, Opsjoner, Futures – alt på ett sted",
+    "featuremob3": "BlockchainFX har blitt kåret til 'Den beste nye krypto-handelsappen i 2025'",
     "buy_button": "Kjøp $BFX",
     "how_it_works_button": "Hvordan fungerer det?",
     "audited_by": "Revidert og godkjent av",
@@ -32,12 +31,12 @@
   "featured_sec": {
     "featured_in": "Fremhevet i:"
   },
-   "live_presale_section": {
+  "live_presale_section": {
     "title": "BFX-forsalget er live",
     "Halloween_title": "Halloween-bonus:",
-     "Breakthrough_title": "BFX har sikret en handelslisens:",
-  "get_more": "Få 50% mer med kode",
-  "code_CANDY40": "License50",
+    "Breakthrough_title": "BFX har sikret en handelslisens:",
+    "get_more": "Få 50% mer med kode",
+    "code_CANDY40": "License50",
     "buy_button": "Kjøp BFX",
     "Huge_title": "Stor BFX Gjennombruddsnyhet",
     "day": "Dag",
@@ -211,7 +210,7 @@
   "how_does_it_sec": {
     "title": "Hvordan fungerer det?",
     "subtitle": "BlockchainFX er en global børs hvor brukere kan handle krypto, aksjer, valuta, ETF-er og mer.<br />Hver gang noen handler, går 70 % av handelsgebyrene til $BFX staking-pool, tilbakekjøp og token-brenning.<br />Staking-belønninger er basert på hvor mye BFX et fellesskapsmedlem har og er begrenset til $25 000 USDT per dag.",
-     "subtitle_des": "BlockchainFX er en global børs hvor brukere kan handle krypto, aksjer, valuta, ETF-er og mer. Hver gang noen handler, går 70 % av handelsgebyrene til $BFX staking-pool, tilbakekjøp og token-brenning. Staking-belønninger er basert på hvor mye BFX et fellesskapsmedlem har og er begrenset til $25 000 USDT per dag.",
+    "subtitle_des": "BlockchainFX er en global børs hvor brukere kan handle krypto, aksjer, valuta, ETF-er og mer. Hver gang noen handler, går 70 % av handelsgebyrene til $BFX staking-pool, tilbakekjøp og token-brenning. Staking-belønninger er basert på hvor mye BFX et fellesskapsmedlem har og er begrenset til $25 000 USDT per dag.",
     "cards": {
       "staking_rewards": {
         "title": "BFX- og USDT-staking-belønninger",
@@ -230,11 +229,17 @@
   "premium_section": {
     "title": "Få spesielle bonuser fra $1 000",
     "description": "Kjøp BFX under forhåndssalget og bli med i Founder's Club fra bare $1 000.<br />Få din eksklusive NFT, BFX Visa-kort, bonustokener, daglige USDT staking-belønninger,<br />og gratis handelskreditter. Kun tilgjengelig under forhåndssalget.",
-      "cards": [
-        {
-          "title": "Nybegynner",
-          "price": "$1 000",
-        "points": ["BFX Visa-kort", "10 % BFX-bonus", "BFX staking-belønninger", "Daglige USDT-belønninger", "Handelskreditter opptil $25k"],
+    "cards": [
+      {
+        "title": "Nybegynner",
+        "price": "$1 000",
+        "points": [
+          "BFX Visa-kort",
+          "10 % BFX-bonus",
+          "BFX staking-belønninger",
+          "Daglige USDT-belønninger",
+          "Handelskreditter opptil $25k"
+        ],
         "buttonLabel": "Kjøp $BFX • $1 000",
         "cardPointsTooltips": [
           "Få ditt BFX Visa-kort (virtuelt og fysisk), akseptert online og i butikker over hele verden.",
@@ -246,8 +251,14 @@
       },
       {
         "title": "Viderekommen",
-          "price": "$2 500",
-        "points": ["BFX Visa-kort", "20 % BFX-bonus", "BFX staking-belønninger", "$500 handelskreditter", "Daglige USDT-belønninger"],
+        "price": "$2 500",
+        "points": [
+          "BFX Visa-kort",
+          "20 % BFX-bonus",
+          "BFX staking-belønninger",
+          "$500 handelskreditter",
+          "Daglige USDT-belønninger"
+        ],
         "buttonLabel": "Kjøp $BFX • $2 500",
         "cardPointsTooltips": [
           "Få ditt BFX Visa-kort (virtuelt og fysisk), akseptert online og i butikker over hele verden.",
@@ -259,8 +270,14 @@
       },
       {
         "title": "Proff",
-          "price": "$5 000",
-        "points": ["Metall BFX Visa-kort", "30 % BFX-bonus", "BFX staking-belønninger", "$1 000 handelskreditter", "Daglige USDT-belønninger"],
+        "price": "$5 000",
+        "points": [
+          "Metall BFX Visa-kort",
+          "30 % BFX-bonus",
+          "BFX staking-belønninger",
+          "$1 000 handelskreditter",
+          "Daglige USDT-belønninger"
+        ],
         "buttonLabel": "Kjøp $BFX • $5 000",
         "cardPointsTooltips": [
           "Få ditt BFX Visa-kort (virtuelt og fysisk), akseptert online og i butikker over hele verden.",
@@ -269,11 +286,17 @@
           "Motta handelskreditter etter forhåndssalget for bruk på BlockchainFX.",
           "Få USDT-belønninger, utbetalt som en prosentandel av dine totale BFX staking-inntekter."
         ]
-        },
-        {
-          "title": "Ekspert",
+      },
+      {
+        "title": "Ekspert",
         "price": "$10 000",
-        "points": ["Metall BFX Visa-kort", "40 % BFX-bonus", "BFX staking-belønninger", "10 % USDT-belønning", "$2 000 handelskreditter"],
+        "points": [
+          "Metall BFX Visa-kort",
+          "40 % BFX-bonus",
+          "BFX staking-belønninger",
+          "10 % USDT-belønning",
+          "$2 000 handelskreditter"
+        ],
         "buttonLabel": "Kjøp $BFX • $10 000",
         "cardPointsTooltips": [
           "Få ditt BFX Visa-kort (virtuelt og fysisk), akseptert online og i butikker over hele verden.",
@@ -282,11 +305,17 @@
           "Få USDT-belønninger, utbetalt som en prosentandel av dine totale BFX staking-inntekter.",
           "Motta handelskreditter etter forhåndssalget for bruk på BlockchainFX."
         ]
-        },
-        {
-          "title": "Mester",
+      },
+      {
+        "title": "Mester",
         "price": "$25 000",
-        "points": ["Metall BFX Visa-kort", "50 % BFX-bonus", "BFX staking-belønninger", "15 % USDT-belønning", "$5 000 handelskreditter"],
+        "points": [
+          "Metall BFX Visa-kort",
+          "50 % BFX-bonus",
+          "BFX staking-belønninger",
+          "15 % USDT-belønning",
+          "$5 000 handelskreditter"
+        ],
         "buttonLabel": "Kjøp $BFX • $25 000",
         "cardPointsTooltips": [
           "Få ditt Metall BFX Visa-kort (virtuelt og fysisk), akseptert online og i butikker over hele verden.",
@@ -295,11 +324,17 @@
           "Få USDT-belønninger, utbetalt som en prosentandel av dine totale BFX staking-inntekter.",
           "Motta handelskreditter etter forhåndssalget for bruk på BlockchainFX."
         ]
-        },
-        {
-          "title": "Elite",
+      },
+      {
+        "title": "Elite",
         "price": "$50 000",
-        "points": ["Metall BFX Visa-kort", "60 % BFX-bonus", "BFX staking-belønninger", "20 % USDT-belønning", "$10 000 handelskreditter"],
+        "points": [
+          "Metall BFX Visa-kort",
+          "60 % BFX-bonus",
+          "BFX staking-belønninger",
+          "20 % USDT-belønning",
+          "$10 000 handelskreditter"
+        ],
         "buttonLabel": "Kjøp $BFX • $50 000",
         "cardPointsTooltips": [
           "Få ditt Metall BFX Visa-kort (virtuelt og fysisk), akseptert online og i butikker over hele verden.",
@@ -308,11 +343,17 @@
           "Få USDT-belønninger, utbetalt som en prosentandel av dine totale BFX staking-inntekter.",
           "Motta handelskreditter etter forhåndssalget for bruk på BlockchainFX."
         ]
-        },
-        {
-          "title": "Legende",
+      },
+      {
+        "title": "Legende",
         "price": "$100 000",
-        "points": ["18 karat BFX Visa-kort", "80 % BFX-bonus", "BFX staking-belønninger", "30 % USDT-belønning", "$25 000 handelskreditter"],
+        "points": [
+          "18 karat BFX Visa-kort",
+          "80 % BFX-bonus",
+          "BFX staking-belønninger",
+          "30 % USDT-belønning",
+          "$25 000 handelskreditter"
+        ],
         "buttonLabel": "Kjøp $BFX • $100 000",
         "cardPointsTooltips": [
           "Få ditt 18 karat BFX Visa-kort (virtuelt og fysisk), akseptert online og i butikker over hele verden.",
@@ -493,33 +534,33 @@
     },
     "chart_title": "Diagramtittel"
   },
- "footer": {
-  "description": "Bli en del av det neste generasjons handelssystemet og bli med i den raskt voksende BFX-bevegelsen.",
-  "quick_links": {
-    "title": "Hurtiglenker",
-    "how_to_buy": "Hvordan kjøpe?",
-    "what_is_bfx": "Hva er BFX?",
-    "roadmap": "Veikart",
-    "token_allocation": "Tokenfordeling"
+  "footer": {
+    "description": "Bli en del av det neste generasjons handelssystemet og bli med i den raskt voksende BFX-bevegelsen.",
+    "quick_links": {
+      "title": "Hurtiglenker",
+      "how_to_buy": "Hvordan kjøpe?",
+      "what_is_bfx": "Hva er BFX?",
+      "roadmap": "Veikart",
+      "token_allocation": "Tokenfordeling"
+    },
+    "docs": {
+      "title": "Dokumenter",
+      "terms_of_service": "Vilkår for bruk",
+      "privacy_policy": "Personvernerklæring",
+      "token_sale": "Token-salgsavtale",
+      "support": "Live 24/7 Support"
+    },
+    "socials": {
+      "title": "Følg oss på sosiale medier"
+    },
+    "contact": {
+      "email_label": "Kontakt e-post:",
+      "email": "Support@blockchainfx.com"
+    },
+    "disclaimer": "Kryptovaluta kan være uregulert i din jurisdiksjon, og verdien kan svinge, noe som kan føre til gevinster eller tap. Eventuelle gevinster kan være underlagt kapitalgevinstskatt eller andre skatter, avhengig av lokale lover. Innholdet på denne plattformen utgjør ikke et tilbud, en anbefaling eller finansiell rådgivning om å kjøpe, selge eller delta i kryptovalutatransaksjoner. Du er selv ansvarlig for å vurdere om en transaksjon passer dine personlige mål, økonomiske situasjon og risikotoleranse. Vi anbefaler på det sterkeste å konsultere pålitelige og autoriserte juridiske, skattemessige eller finansielle rådgivere før du tar noen beslutninger.\n\nHandel med kryptovaluta innebærer betydelig risiko, inkludert muligheten for delvis eller totalt tap av midler. Grundige undersøkelser er avgjørende. BlockchainFX garanterer ikke noen form for avkastning, resultat eller tilbakebetaling av kapital for noen kryptovaluta nevnt på denne plattformen. Ved å bruke denne plattformen godtar du våre Vilkår for bruk, Personvernerklæring, Retningslinjer for informasjonskapsler og eventuelle gjeldende token-salgsavtaler. Innholdet på plattformen er ikke ment for bruk i jurisdiksjoner der distribusjon eller bruk ville være i strid med lokale lover eller forskrifter.",
+    "copyright": "Opphavsrett © 2025. Alle rettigheter forbeholdt.",
+    "cookie_management": "Administrasjon av informasjonskapsler"
   },
-  "docs": {
-    "title": "Dokumenter",
-    "terms_of_service": "Vilkår for bruk",
-    "privacy_policy": "Personvernerklæring",
-    "token_sale": "Token-salgsavtale",
-    "support": "Live 24/7 Support"
-  },
-  "socials": {
-    "title": "Følg oss på sosiale medier"
-  },
-  "contact": {
-    "email_label": "Kontakt e-post:",
-    "email": "Support@blockchainfx.com"
-  },
-  "disclaimer": "Kryptovaluta kan være uregulert i din jurisdiksjon, og verdien kan svinge, noe som kan føre til gevinster eller tap. Eventuelle gevinster kan være underlagt kapitalgevinstskatt eller andre skatter, avhengig av lokale lover. Innholdet på denne plattformen utgjør ikke et tilbud, en anbefaling eller finansiell rådgivning om å kjøpe, selge eller delta i kryptovalutatransaksjoner. Du er selv ansvarlig for å vurdere om en transaksjon passer dine personlige mål, økonomiske situasjon og risikotoleranse. Vi anbefaler på det sterkeste å konsultere pålitelige og autoriserte juridiske, skattemessige eller finansielle rådgivere før du tar noen beslutninger.\n\nHandel med kryptovaluta innebærer betydelig risiko, inkludert muligheten for delvis eller totalt tap av midler. Grundige undersøkelser er avgjørende. BlockchainFX garanterer ikke noen form for avkastning, resultat eller tilbakebetaling av kapital for noen kryptovaluta nevnt på denne plattformen. Ved å bruke denne plattformen godtar du våre Vilkår for bruk, Personvernerklæring, Retningslinjer for informasjonskapsler og eventuelle gjeldende token-salgsavtaler. Innholdet på plattformen er ikke ment for bruk i jurisdiksjoner der distribusjon eller bruk ville være i strid med lokale lover eller forskrifter.",
-  "copyright": "Opphavsrett © 2025. Alle rettigheter forbeholdt.",
-  "cookie_management": "Administrasjon av informasjonskapsler"
-},
   "faq_section": {
     "title": "Ofte stilte spørsmål",
     "description": "Finn svar på noen av de vanligste spørsmålene.",
@@ -547,6 +588,10 @@
       {
         "question": "Er mine tokens trygge?",
         "answer": "Sikkerheten til tokenene dine under forhåndssalget er 100 % garantert gjennom vår smarte kontrakt, der all data lagres sikkert. Tokenene blir tildelt hver kjøper og kan bare nås med deres lommebok. BFX-tokener kan ikke overføres under forhåndssalget og kan bare kreves etter at forhåndssalget er avsluttet."
+      },
+      {
+        "question": "Er det en opptjeningsperiode (vestingperiode)?",
+        "answer": "Nei, du kan kreve alle dine kjøpte BFX-tokens umiddelbart etter forhåndssalget på <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Det er ingen vesting-periode for disse tokenene. <br/> For å beskytte prosjektet og sikre best mulig lansering, er bonus-tokens, henvisningsbelønninger og staking-belønninger underlagt en 90-dagers vesting-periode. Disse vestede tokenene kan kreves når vesting-perioden er fullført."
       },
       {
         "question": "Hvordan krever jeg BFX?",
@@ -697,11 +742,26 @@
       "average": "4,87 av 5",
       "verified_ratings": "1000+ verifiserte vurderinger",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -718,7 +778,7 @@
       {
         "text": "Å handle på 9 forskjellige vinduer og ha tilgang til dusinvis av analyseverktøy og risikostyring gir meg et langsiktig fortrinn over konkurrentene på andre plattformer.",
         "user": {
-        "name": "Mr 𝕏",
+          "name": "Mr 𝕏",
           "followers": "@MrX_Crypto • 472K følgere",
           "link": "https://x.com/MrX_Crypto/status/1900845071240515647",
           "image": "user1",
@@ -728,7 +788,7 @@
       {
         "text": "BlockchainFX gir deg uendelige handelsmuligheter. Det gir mening siden markedene er sammenkoblet. Endelig slipper man å kaste bort tid på å bytte mellom meglere.",
         "user": {
-        "name": "Silvina Escudero",
+          "name": "Silvina Escudero",
           "followers": "@silvinaescudero • 863K følgere",
           "link": "https://x.com/silvinaescudero/status/1900845896302027108",
           "image": "user2",
@@ -738,7 +798,7 @@
       {
         "text": "Det beste med BlockchainFX? Den dype likviditeten på alle eiendeler. Jeg har aldri hatt problemer med å fylle store ordre, selv med nisje-kryptopar. Dette er akkurat det seriøse tradere trenger – fart, pålitelighet og et bredt utvalg markeder på ett sted.",
         "user": {
-        "name": "DefiAva🦋",
+          "name": "DefiAva🦋",
           "followers": "@defi_avaxx • 30,3K følgere",
           "link": "https://x.com/defi_avaxx/status/1900847259874627732",
           "image": "user3",
@@ -748,7 +808,7 @@
       {
         "text": "BlockchainFX har virkelig løftet tradingen min. Den er superintuitiv, lar deg handle på flere markeder samtidig og tilbyr lynraske transaksjoner. En stor seier for krypto!",
         "user": {
-        "name": "Honey.Eth",
+          "name": "Honey.Eth",
           "followers": "@HoneyEth_ • 121,8K følgere",
           "link": "https://x.com/HoneyEth_/status/1900870121477820837",
           "image": "user4",
@@ -758,7 +818,7 @@
       {
         "text": "Akkurat det vi trengte. En megler designet for å bygge bro mellom krypto, forex, ETF-er og aksjer, og gir deg ekte tilgang til markedene med dyp likviditet.",
         "user": {
-        "name": "Crypto Bri",
+          "name": "Crypto Bri",
           "followers": "@cryptobri_ • 79,6K følgere",
           "link": "https://x.com/cryptobri_/status/1901419367289512075",
           "image": "user5",
@@ -947,49 +1007,49 @@
     }
   },
   "buy_tab": {
-  "you_must_connect_wallet": "Du må koble til lommeboken først",
-  "presale_ended": "Forsalget er avsluttet",
-  "loading": "Laster...",
-  "error_ranking_up": "Feil ved rangering",
-  "successfully_unlocked": "Låst opp vellykket",
-  "participants": "Deltakere",
-  "card": "Kort",
-  "other_cryptos": "+ Andre kryptovalutaer",
-  "presale_price": "Pris under forsalg",
-  "launch_price": "Lanseringspris",
-  "you_pay_in": "Du betaler i",
-  "usd": "USD",
-  "you_receive_bfx": "Du mottar $BFX",
-  "nft": "NFT",
-  "unlock_nft": "Lås opp",
-  "limited_time_offer_1": "Spesialtilbud:",
-  "use_bonus_code_1": "Bruk bonuskode",
-  "code_1": "License50",
-  "to_get": "For å få 50% flere $BFX-tokens.",
-   "limited_time_offer": "Halloween-tilbud:",
-  "use_bonus_code": "Bruk koden",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "Bonus-kode",
-  "to_get_bonus": "for å få 40 % mer BFX i en begrenset periode.",
-  "more_bfx_coins": "$BFX-mynter!",
-  "referral_link": "10 % henvisningslenke",
-  "transaction_successful": "Transaksjonen var vellykket",
-  "transaction_successful_message": "Transaksjonen var vellykket. Vennligst vent et minutt og oppdater transaksjonsfanen for å se tokenene dine.",
-  "transaction_successful_bought_message": "Transaksjonen var vellykket. Du kjøpte",
-  "check_transaction_tab": "Sjekk transaksjonsfanen for mer informasjon",
-  "transaction_errored": "Feil i transaksjon",
-  "transaction_errored_message": "Transaksjonen var ikke vellykket. Prøv igjen.",
-  "transaction_pending": "Transaksjon venter",
-  "transaction_pending_message": "Transaksjonen venter. Vennligst vent et minutt og oppdater transaksjonsfanen for å se tokenene dine.",
-  "buy_bfx": "Kjøp BFX"
-},
-"nft": {
-  "legend": "Legende",
-  "elite": "Elite",
-  "master": "Mester",
-  "expert": "Ekspert"
-},
- "how_to_buy_hero": {
+    "you_must_connect_wallet": "Du må koble til lommeboken først",
+    "presale_ended": "Forsalget er avsluttet",
+    "loading": "Laster...",
+    "error_ranking_up": "Feil ved rangering",
+    "successfully_unlocked": "Låst opp vellykket",
+    "participants": "Deltakere",
+    "card": "Kort",
+    "other_cryptos": "+ Andre kryptovalutaer",
+    "presale_price": "Pris under forsalg",
+    "launch_price": "Lanseringspris",
+    "you_pay_in": "Du betaler i",
+    "usd": "USD",
+    "you_receive_bfx": "Du mottar $BFX",
+    "nft": "NFT",
+    "unlock_nft": "Lås opp",
+    "limited_time_offer_1": "Spesialtilbud:",
+    "use_bonus_code_1": "Bruk bonuskode",
+    "code_1": "License50",
+    "to_get": "For å få 50% flere $BFX-tokens.",
+    "limited_time_offer": "Halloween-tilbud:",
+    "use_bonus_code": "Bruk koden",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "Bonus-kode",
+    "to_get_bonus": "for å få 40 % mer BFX i en begrenset periode.",
+    "more_bfx_coins": "$BFX-mynter!",
+    "referral_link": "10 % henvisningslenke",
+    "transaction_successful": "Transaksjonen var vellykket",
+    "transaction_successful_message": "Transaksjonen var vellykket. Vennligst vent et minutt og oppdater transaksjonsfanen for å se tokenene dine.",
+    "transaction_successful_bought_message": "Transaksjonen var vellykket. Du kjøpte",
+    "check_transaction_tab": "Sjekk transaksjonsfanen for mer informasjon",
+    "transaction_errored": "Feil i transaksjon",
+    "transaction_errored_message": "Transaksjonen var ikke vellykket. Prøv igjen.",
+    "transaction_pending": "Transaksjon venter",
+    "transaction_pending_message": "Transaksjonen venter. Vennligst vent et minutt og oppdater transaksjonsfanen for å se tokenene dine.",
+    "buy_bfx": "Kjøp BFX"
+  },
+  "nft": {
+    "legend": "Legende",
+    "elite": "Elite",
+    "master": "Mester",
+    "expert": "Ekspert"
+  },
+  "how_to_buy_hero": {
     "title": "Hvordan Kjøpe",
     "blockchain_fx": "BlockchainFX",
     "bfx_token": "($BFX)",
