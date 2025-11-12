@@ -9,13 +9,12 @@
     "dashboard": "Dashboard",
     "connect_wallet": "Forbind Wallet"
   },
-
-   "live_presale_section": {
+  "live_presale_section": {
     "title": "BFX-forsalg er live",
     "Halloween_title": "Halloween Bonus:",
     "Breakthrough_title": "BFX har sikret en handelslicens:",
-  "get_more": "Få 50% mere med koden",
-  "code_CANDY40": "License50",
+    "get_more": "Få 50% mere med koden",
+    "code_CANDY40": "License50",
     "buy_button": "Køb BFX",
     "Huge_title": "Stor BFX Gennembrudsmeddelelse",
     "day": "Dag",
@@ -27,7 +26,8 @@
     "title": "Den første krypto <br /> handel",
     "title_highlight": "Super App",
     "subtitle": "BlockchainFX er en licenseret næste generations kryptobørs, der forbinder DeFi<br /> med traditionel finans. Det er den første platform, hvor brugere kan handle med over 500 virkelige og digitale aktiver.",
-  "Licensed": "Licenseret og reguleret af",
+    "subtitle_des": "BlockchainFX er en licenseret næste generations kryptobørs, der forbinder DeFi med traditionelle finansielle markeder. Det er den eneste Web3-platform, der tilbyder adgang til aktier, forex, ETF'er og mere.",
+    "Licensed": "Licenseret og reguleret af",
     "feature1": "Den første krypto-børs der forbinder blockchain og finans",
     "feature2": "Bitcoin, Ethereum, guld, Tesla og over 500+ flere aktiver",
     "feature3": "Udnævnt til 'Den bedste nye krypto-handelsapp i 2025'",
@@ -535,7 +535,6 @@
     }
   },
   "lineBreak": "<br />",
-
   "press_media_section": {
     "title": "Presse & Medier",
     "articles": [
@@ -607,11 +606,26 @@
       "average": "4,87 ud af 5",
       "verified_ratings": "1000+ verificerede vurderinger",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -719,6 +733,10 @@
       {
         "question": "Er mine tokens sikre?",
         "answer": "Sikkerheden af dine tokens under forsalg er 100 % garanteret gennem vores smarte kontrakt, hvor alle data gemmes sikkert. Tokens tildeles hver køber og kan kun tilgås med deres wallet. BFX-tokens kan ikke overføres under forsalg og kan kun kræves, når forsalg er slut."
+      },
+      {
+        "question": "Er der en tildelingsperiode?",
+        "answer": "Nej - du kan kræve alle dine købte BFX-tokens med det samme efter præsalget på <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Der er ingen vesting-periode for disse tokens. <br/> For at sikre projektet og garantere den bedst mulige lancering er bonus-tokens, henvisningsbelønninger og staking-belønninger dog underlagt en vesting-periode på 90 dage. Disse vestede tokens kan kræves, når vesting-perioden er afsluttet."
       },
       {
         "question": "Hvordan hæver jeg mine BFX?",
@@ -1031,15 +1049,15 @@
     "you_receive_bfx": "Du Modtager $BFX",
     "nft": "NFT",
     "unlock_nft": "Lås Op",
-      "limited_time_offer_1": "Særtilbud:",
-  "use_bonus_code_1": "Brug bonuskode",
-  "code_1": "License50",
-  "to_get": "For at få 50% flere $BFX-tokens.",
-     "limited_time_offer": "Halloween-specialtilbud:",
-  "use_bonus_code": "Brug koden",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "Bonuskode",
-  "to_get_bonus": "for at få 40 % mere BFX i en begrænset periode.",
+    "limited_time_offer_1": "Særtilbud:",
+    "use_bonus_code_1": "Brug bonuskode",
+    "code_1": "License50",
+    "to_get": "For at få 50% flere $BFX-tokens.",
+    "limited_time_offer": "Halloween-specialtilbud:",
+    "use_bonus_code": "Brug koden",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "Bonuskode",
+    "to_get_bonus": "for at få 40 % mere BFX i en begrænset periode.",
     "more_bfx_coins": "$BFX Mønter!",
     "referral_link": "10% Henvisningslink",
     "transaction_successful": "Transaktion Gennemført",

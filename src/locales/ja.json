@@ -26,6 +26,8 @@
     "title": "世界初の暗号資産 <br /> トレーディング",
     "title_highlight": "スーパーアプリ",
    "subtitle": "BlockchainFXは、DeFiと従来の金融をつなぐ認可済みの次世代暗号通貨取引所です。ユーザーが500以上の実世界およびデジタル資産を取引できる初のプラットフォームです。",
+     "subtitle_des": "BlockchainFXは、DeFiと従来の金融市場をつなぐライセンス取得済みの次世代暗号取引所です。株式、外国為替、ETFなどにアクセスできる唯一のWeb3プラットフォームです。",
+
   "Licensed": "認可および規制機関：",
     "feature1": "ブロックチェーンと金融をつなぐ世界初の取引所",
     "feature2": "ビットコイン、イーサリアム、ゴールド、テスラなど500種類以上の資産",
@@ -629,6 +631,10 @@
         "question": "トークンの安全性は？",
         "answer": "プレセール中のトークンの安全性は、すべてのデータが安全に保存されているスマートコントラクトによって100％保証されています。トークンは各購入者に割り当てられ、ウォレットでのみアクセス可能です。BFXトークンはプレセール中に転送できず、プレセール終了後にのみ請求できます。"
       },
+      {
+  "question": "ベスティング期間はありますか？",
+  "answer": "いいえ、プレセール後に購入したすべてのBFXトークンを <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> で即時請求できます。これらのトークンにはベスティング期間はありません。<br/>ただし、プロジェクトを保護し、最良のローンチを実現するために、ボーナストークン、紹介報酬、およびステーキング報酬には90日間のベスティング期間が適用されます。これらのベストされたトークンは、ベスティング期間終了後に請求可能となります。"
+},
       {
         "question": "BFXの請求方法は？",
         "answer": "プレセール終了後、<a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>で数秒以内にBFXトークンを請求できます。"

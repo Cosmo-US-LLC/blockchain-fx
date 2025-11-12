@@ -9,12 +9,12 @@
     "dashboard": "仪表盘",
     "connect_wallet": "连接钱包"
   },
-     "live_presale_section": {
+  "live_presale_section": {
     "title": "BFX预售已上线",
     "Halloween_title": "万圣节奖励：",
     "Breakthrough_title": "BFX 获得了交易许可证：",
-  "get_more": "使用代码可获得 50% 更多",
-  "code_CANDY40": "License50",
+    "get_more": "使用代码可获得 50% 更多",
+    "code_CANDY40": "License50",
     "buy_button": "购买 BFX",
     "Huge_title": "BFX重大突破公告",
     "day": "天",
@@ -25,14 +25,15 @@
   "hero": {
     "title": "首个加密货币<br />交易",
     "title_highlight": "超级应用",
-     "subtitle": "BlockchainFX 是一家获得许可的下一代加密货币交易所，将 DeFi<br /> 与传统金融相结合。它是第一个让用户可以交易 500 多种真实和数字资产的平台。",
-  "Licensed": "由以下机构许可和监管",
+    "subtitle": "BlockchainFX 是一家获得许可的下一代加密货币交易所，将 DeFi<br /> 与传统金融相结合。它是第一个让用户可以交易 500 多种真实和数字资产的平台。",
+    "subtitle_des": "BlockchainFX 是一家获得许可的下一代加密货币交易所，将 DeFi 与传统金融市场相结合。它是唯一一个提供股票、外汇、ETF 等访问的 Web3 平台。",
+    "Licensed": "由以下机构许可和监管",
     "feature1": "首个连接区块链与金融的加密货币交易所",
     "feature2": "比特币、以太坊、黄金、特斯拉及500+资产",
     "feature3": "荣获2025年‘最佳新加密交易应用’奖",
     "featuremob1": "首个将区块链与传统金融连接的交易所，覆盖500+资产",
-  "featuremob2": "比特币、以太坊、黄金、股票、外汇、ETF、期权、期货，尽在一个平台",
-  "featuremob3": "BlockchainFX 被评为 '2025年最佳新加密货币交易应用'",
+    "featuremob2": "比特币、以太坊、黄金、股票、外汇、ETF、期权、期货，尽在一个平台",
+    "featuremob3": "BlockchainFX 被评为 '2025年最佳新加密货币交易应用'",
     "buy_button": "购买$BFX",
     "how_it_works_button": "如何运作？",
     "audited_by": "审计与认证：",
@@ -251,7 +252,13 @@
       {
         "title": "新手",
         "price": "$1,000",
-        "points": ["BFX Visa卡", "10% BFX奖励", "BFX质押奖励", "每日USDT奖励", "最高$25,000交易额度"],
+        "points": [
+          "BFX Visa卡",
+          "10% BFX奖励",
+          "BFX质押奖励",
+          "每日USDT奖励",
+          "最高$25,000交易额度"
+        ],
         "buttonLabel": "购买$BFX • $1,000",
         "cardPointsTooltips": [
           "获得BFX Visa卡（虚拟与实体），全球线上线下通用。",
@@ -264,7 +271,13 @@
       {
         "title": "进阶",
         "price": "$2,500",
-        "points": ["BFX Visa卡", "20% BFX奖励", "BFX质押奖励", "$500交易额度", "每日USDT奖励"],
+        "points": [
+          "BFX Visa卡",
+          "20% BFX奖励",
+          "BFX质押奖励",
+          "$500交易额度",
+          "每日USDT奖励"
+        ],
         "buttonLabel": "购买$BFX • $2,500",
         "cardPointsTooltips": [
           "获得BFX Visa卡（虚拟与实体），全球线上线下通用。",
@@ -277,7 +290,13 @@
       {
         "title": "专业",
         "price": "$5,000",
-        "points": ["金属BFX Visa卡", "30% BFX奖励", "BFX质押奖励", "$1000交易额度", "每日USDT奖励"],
+        "points": [
+          "金属BFX Visa卡",
+          "30% BFX奖励",
+          "BFX质押奖励",
+          "$1000交易额度",
+          "每日USDT奖励"
+        ],
         "buttonLabel": "购买$BFX • $5,000",
         "cardPointsTooltips": [
           "获得BFX Visa卡（虚拟与实体），全球线上线下通用。",
@@ -290,7 +309,13 @@
       {
         "title": "专家",
         "price": "$10,000",
-        "points": ["金属BFX Visa卡", "40% BFX奖励", "BFX质押奖励", "10% USDT奖励", "$2000交易额度"],
+        "points": [
+          "金属BFX Visa卡",
+          "40% BFX奖励",
+          "BFX质押奖励",
+          "10% USDT奖励",
+          "$2000交易额度"
+        ],
         "buttonLabel": "购买$BFX • $10,000",
         "cardPointsTooltips": [
           "获得BFX Visa卡（虚拟与实体），全球线上线下通用。",
@@ -303,7 +328,13 @@
       {
         "title": "大师",
         "price": "$25,000",
-        "points": ["金属BFX Visa卡", "50% BFX奖励", "BFX质押奖励", "15% USDT奖励", "$5000交易额度"],
+        "points": [
+          "金属BFX Visa卡",
+          "50% BFX奖励",
+          "BFX质押奖励",
+          "15% USDT奖励",
+          "$5000交易额度"
+        ],
         "buttonLabel": "购买$BFX • $25,000",
         "cardPointsTooltips": [
           "获得金属BFX Visa卡（虚拟与实体），全球线上线下通用。",
@@ -316,7 +347,13 @@
       {
         "title": "精英",
         "price": "$50,000",
-        "points": ["金属BFX Visa卡", "60% BFX奖励", "BFX质押奖励", "20% USDT奖励", "$10000交易额度"],
+        "points": [
+          "金属BFX Visa卡",
+          "60% BFX奖励",
+          "BFX质押奖励",
+          "20% USDT奖励",
+          "$10000交易额度"
+        ],
         "buttonLabel": "购买$BFX • $50,000",
         "cardPointsTooltips": [
           "获得金属BFX Visa卡（虚拟与实体），全球线上线下通用。",
@@ -329,7 +366,13 @@
       {
         "title": "传奇",
         "price": "$100,000",
-        "points": ["18K金BFX Visa卡", "80% BFX奖励", "BFX质押奖励", "30% USDT奖励", "$25000交易额度"],
+        "points": [
+          "18K金BFX Visa卡",
+          "80% BFX奖励",
+          "BFX质押奖励",
+          "30% USDT奖励",
+          "$25000交易额度"
+        ],
         "buttonLabel": "购买$BFX • $100,000",
         "cardPointsTooltips": [
           "获得18K金BFX Visa卡（虚拟与实体），全球线上线下通用。",
@@ -393,7 +436,7 @@
   "less_than_section": {
     "title": "连接加密货币与金融",
     "description": "截至2024年，加密货币仅占全球交易量的0.87%，日均交易额为843亿美元。与此同时，外汇市场每天交易高达7.5万亿美元。这一差距为BFX提供了一个巨大的机会，将加密用户与世界最大金融市场连接起来。",
-     "chart_title": "2024年日均交易量",
+    "chart_title": "2024年日均交易量",
     "costs": {
       "title": "成本",
       "description": "高达200万美元"
@@ -581,11 +624,26 @@
       "average": "4.87分（满分5分）",
       "verified_ratings": "1000+条已验证评分",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -684,7 +742,7 @@
       },
       {
         "question": "预售的目标是什么？",
-       "answer": "社区活动专注于出售所有预售分配的代币，以加速平台增长和全球扩张。在预售期间，筹集的资金将被战略性地用于产品开发、大规模营销以及为 BFX 争取顶级交易所上市。我们的目标是在正式发布前达到 100,000 名活跃的每日交易者，并实现数百万美元的交易量。同时，我们正在建立一个强大且积极参与的社区，为早期支持者提供折扣代币，并在 BFX 发布前提升广泛认知度。"
+        "answer": "社区活动专注于出售所有预售分配的代币，以加速平台增长和全球扩张。在预售期间，筹集的资金将被战略性地用于产品开发、大规模营销以及为 BFX 争取顶级交易所上市。我们的目标是在正式发布前达到 100,000 名活跃的每日交易者，并实现数百万美元的交易量。同时，我们正在建立一个强大且积极参与的社区，为早期支持者提供折扣代币，并在 BFX 发布前提升广泛认知度。"
       },
       {
         "question": "在哪里可以看到我的代币？",
@@ -693,6 +751,10 @@
       {
         "question": "我的代币安全吗？",
         "answer": "在预售期间，您的代币安全性通过我们的智能合约得到100%的保障，所有数据均被安全存储。代币分配给每位购买者，只能通过他们的钱包访问。BFX代币在预售期间无法转移，只能在预售结束后领取。"
+      },
+      {
+        "question": "是否存在归属期（vesting）？",
+        "answer": "不，您可以在预售后立即领取您购买的所有 BFX 代币，访问 <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>。这些代币没有归属期。<br/> 但是，为了保护项目并确保最佳启动，奖励代币、推荐奖励和质押奖励都将受到 90 天归属期的限制。这些归属的代币将在归属期结束后可领取。"
       },
       {
         "question": "如何领取BFX？",
@@ -988,49 +1050,49 @@
     }
   },
   "buy_tab": {
-  "you_must_connect_wallet": "您必须先连接您的钱包",
-  "presale_ended": "预售已结束",
-  "loading": "加载中...",
-  "error_ranking_up": "升级时出错",
-  "successfully_unlocked": "解锁成功",
-  "participants": "参与者",
-  "card": "卡片",
-  "other_cryptos": "+ 其他加密货币",
-  "presale_price": "预售价格",
-  "launch_price": "启动价格",
-  "you_pay_in": "您支付的币种",
-  "usd": "美元",
-  "you_receive_bfx": "您将获得 $BFX",
-  "nft": "NFT",
-  "unlock_nft": "解锁",
-  "limited_time_offer_1": "特别优惠：",
-  "use_bonus_code_1": "使用奖励代码",
-  "code_1": "License50",
-  "to_get": "可获得 50% 更多的 $BFX 代币。",
-   "limited_time_offer": "万圣节特别优惠：",
-  "use_bonus_code": "使用代码",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "优惠代码",
-  "to_get_bonus": "限时获得额外40% 的BFX。",
-  "more_bfx_coins": "$BFX 代币!",
-  "referral_link": "10% 推荐链接",
-  "transaction_successful": "交易成功",
-  "transaction_successful_message": "交易已成功。请等待一分钟并刷新交易标签页以查看您的代币。",
-  "transaction_successful_bought_message": "交易已成功。您购买了",
-  "check_transaction_tab": "请查看交易标签页以获取更多信息",
-  "transaction_errored": "交易出错",
-  "transaction_errored_message": "交易未成功，请重试。",
-  "transaction_pending": "交易等待中",
-  "transaction_pending_message": "交易正在处理中。请等待一分钟并刷新交易标签页以查看您的代币。",
-  "buy_bfx": "购买 BFX"
-},
-"nft": {
-  "legend": "传奇",
-  "elite": "精英",
-  "master": "大师",
-  "expert": "专家"
-},
-"how_to_buy_hero": {
+    "you_must_connect_wallet": "您必须先连接您的钱包",
+    "presale_ended": "预售已结束",
+    "loading": "加载中...",
+    "error_ranking_up": "升级时出错",
+    "successfully_unlocked": "解锁成功",
+    "participants": "参与者",
+    "card": "卡片",
+    "other_cryptos": "+ 其他加密货币",
+    "presale_price": "预售价格",
+    "launch_price": "启动价格",
+    "you_pay_in": "您支付的币种",
+    "usd": "美元",
+    "you_receive_bfx": "您将获得 $BFX",
+    "nft": "NFT",
+    "unlock_nft": "解锁",
+    "limited_time_offer_1": "特别优惠：",
+    "use_bonus_code_1": "使用奖励代码",
+    "code_1": "License50",
+    "to_get": "可获得 50% 更多的 $BFX 代币。",
+    "limited_time_offer": "万圣节特别优惠：",
+    "use_bonus_code": "使用代码",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "优惠代码",
+    "to_get_bonus": "限时获得额外40% 的BFX。",
+    "more_bfx_coins": "$BFX 代币!",
+    "referral_link": "10% 推荐链接",
+    "transaction_successful": "交易成功",
+    "transaction_successful_message": "交易已成功。请等待一分钟并刷新交易标签页以查看您的代币。",
+    "transaction_successful_bought_message": "交易已成功。您购买了",
+    "check_transaction_tab": "请查看交易标签页以获取更多信息",
+    "transaction_errored": "交易出错",
+    "transaction_errored_message": "交易未成功，请重试。",
+    "transaction_pending": "交易等待中",
+    "transaction_pending_message": "交易正在处理中。请等待一分钟并刷新交易标签页以查看您的代币。",
+    "buy_bfx": "购买 BFX"
+  },
+  "nft": {
+    "legend": "传奇",
+    "elite": "精英",
+    "master": "大师",
+    "expert": "专家"
+  },
+  "how_to_buy_hero": {
     "title": "购买指南",
     "blockchain_fx": "BlockchainFX",
     "bfx_token": "($BFX)",
