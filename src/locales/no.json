@@ -591,7 +591,7 @@
       },
       {
         "question": "Er det en opptjeningsperiode (vestingperiode)?",
-        "answer": "Nei, du kan kreve alle dine kjøpte BFX-tokens umiddelbart etter forhåndssalget på <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Det er ingen vesting-periode for disse tokenene. <br/> For å beskytte prosjektet og sikre best mulig lansering, er bonus-tokens, henvisningsbelønninger og staking-belønninger underlagt en 90-dagers vesting-periode. Disse vestede tokenene kan kreves når vesting-perioden er fullført."
+        "answer": "Nei, du kan kreve alle kjøpte BFX-tokens umiddelbart etter forhåndssalget på <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Det er ingen bindingstid for disse tokenene. <br/><br/> For å beskytte prosjektet og sikre best mulig lansering, er bonustokens, henvisningsbelønninger og stakingbelønninger underlagt en bindingstid på 90 dager. Disse tokenene kan kreves når perioden er fullført."
       },
       {
         "question": "Hvordan krever jeg BFX?",
