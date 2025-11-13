@@ -25,7 +25,6 @@ import {
 } from "../../../presale-gg/util";
 import { tokenImageMap } from "../../../presale-gg/assets/img/tokens";
 
-import { LISTING_PRICE } from "../../../presale-gg/constants";
 import TokenSelectDropdown from "../../../compunents/ui/TokenSelectDropdown";
 import {
   useAccount,
@@ -41,7 +40,7 @@ import {
 import DisclaimerModal from "../../../compunents/ui/modals/DisclaimerModal";
 import Modal from "../../../compunents/ui/modals/Modal";
 import ContactModal from "../../../compunents/ui/modals/ContactModal";
-import { refetchUserData, userLevelUp } from "../../../presale-gg/stores/user.store";
+import { refetchUserData, refetchUserProfit, userLevelUp } from "../../../presale-gg/stores/user.store";
 import { api } from "../../../presale-gg/api";
 import confetti from "canvas-confetti";
 import { showConnectWalletModal } from "../../../presale-gg/stores/modal.store";
@@ -182,6 +181,7 @@ const BuyTab = ({ onTabChange}) => {
           }, 30);
         } else {
           refetchUserData()
+          refetchUserProfit()
         }
       }
     } catch (err) {
@@ -231,6 +231,7 @@ const BuyTab = ({ onTabChange}) => {
             })
           }
           refetchUserData()
+          refetchUserProfit()
           setContactModalOpen(true);
         },
       });

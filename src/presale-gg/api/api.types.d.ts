@@ -176,4 +176,8 @@ export namespace API {
     referral_payout_percentage: number;
     min_referral_spend: number;
   };
+
+  export type UserProfitData = {
+    profit: string;
+  };
 }

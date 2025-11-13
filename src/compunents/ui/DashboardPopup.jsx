@@ -281,8 +281,7 @@ const DashboardPopup = ({ onClose }) => {
               <p className="text-center pl-2 text-[#02953B] text-[14px]">
                 +
                 {formatDollar(
-                  parseNum(userData.user?.total_tokens) *
-                    (LISTING_PRICE - parseNum(apiData.stage?.token_price))
+                  parseNum(userData.profit?.profit)
                 )}{" "}
                 {/* <span
                   className="p-[2px] rounded-[1px]"

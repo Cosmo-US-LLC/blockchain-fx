@@ -14,6 +14,7 @@ import { useStore } from "@nanostores/react";
  * @typedef {import("../api/api.types").API.UserRankData} UserRankData
  * @typedef {import("../api/api.types").API.ReferralBonuses} ReferralBonuses
  * @typedef {import("../api/api.types").API.BonusTransactionHistoryItem} BonusTransactionHistoryItem
+ * @typedef {import("../api/api.types").API.UserProfitData} UserProfitData
  *
  * @typedef {object} UserStoreValue
  * @property {User | null} UserStoreValue.user
@@ -24,6 +25,7 @@ import { useStore } from "@nanostores/react";
  * @property {UserRankData | null} UserStoreValue.rankData
  * @property {ReferralBonuses | null} UserStoreValue.referralBonuses
  * @property {BonusTransactionHistoryItem[] | null} UserStoreValue.bonusTransactions
+ * @property {UserProfitData | null} UserStoreValue.profit
  */
 
 /** @type {UserStoreValue} */
@@ -36,6 +38,7 @@ export const defaultUserState = {
   rankData: null,
   referralBonuses: null,
   bonusTransactions: null,
+  profit: null
 };
 
 /** @type {import("nanostores").PreinitializedMapStore<UserStoreValue>} */
@@ -72,6 +75,7 @@ document.addEventListener("wagmi-loaded", async () => {
       }
 
       api.getUser(address).then((res) => $userState.setKey("user", res.data));
+      api.getUserProfit(address).then((res) => $userState.setKey("profit", res.data))
       api
         .getUserRanks(address)
         .then((res) => $userState.setKey("rankData", res.data));
@@ -161,6 +165,14 @@ export const refetchUserData = async () => {
   if (!address || !isConnected) throw new Error("Please connect your wallet");
   const res = await api.getUser(address);
   $userState.setKey("user", res.data);
+}
+
+export const refetchUserProfit = async () => {
+  const { config } = await getConfig();
+  const { address, isConnected } = getAccount(config);
+  if (!address || !isConnected) throw new Error("Please connect your wallet");
+  const res = await api.getUserProfit(address);
+  $userState.setKey("profit", res.data);
 }
 
 /**
