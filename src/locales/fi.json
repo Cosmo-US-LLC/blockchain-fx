@@ -20,13 +20,14 @@
     "day": "Päivä",
     "Hours": "Tunnit",
     "Minutes": "Minuutit",
-    "Seconds": "Sekunnit"
+    "Seconds": "Sekunnit",
+    "Huge_bfx_title_fi": "Suuri BFX-ilmoitus"
   },
   "hero": {
     "title": "Ensimmäinen krypto <br /> Kaupankäynti",
     "title_highlight": "Super App",
     "subtitle": "BlockchainFX on lisensoitu uuden sukupolven kryptopörssi, joka yhdistää DeFin<br /> perinteiseen rahoitukseen. Se on ensimmäinen alusta, jossa käyttäjät voivat käydä kauppaa yli 500 todellisella ja digitaalisella omaisuudella.",
-    "subtitle_des": "BlockchainFX on lisensoitu uuden sukupolven kryptopörssi, joka yhdistää DeFin perinteisiin rahoitusmarkkinoihin. Se on ainoa Web3-alusta, joka tarjoaa pääsyn osakkeisiin, valuuttamarkkinoille, ETF:iin ja muuhun.",
+    "subtitle_des": "BlockchainFX on uuden sukupolven kryptopörssi, joka yhdistää DeFin perinteisiin rahoitusmarkkinoihin. Se on ainoa Web3-alusta, joka tarjoaa pääsyn osakkeisiin, valuuttoihin, ETF-rahastoihin ja muuhun.",
     "Licensed": "Lisensoitu ja säännelty taholta",
     "feature1": "Ensimmäinen kryptopörssi, joka yhdistää lohkoketjun ja rahoituksen",
     "feature2": "Bitcoin, Ethereum, kulta, Tesla ja yli 500 muuta omaisuuserää",
@@ -1019,6 +1020,8 @@
     "nft": "NFT",
     "unlock_nft": "Avaa",
     "limited_time_offer_1": "Erikoistarjous:",
+    "limit_bonus_time": "Rajoitetun ajan tarjous",
+  "use_bonus_limit": "Saat 20 % enemmän $BFX-kolikoita!",
     "use_bonus_code_1": "Käytä bonuskoodia",
     "code_1": "License50",
     "to_get": "Saat 50 % enemmän $BFX-tokeneita.",

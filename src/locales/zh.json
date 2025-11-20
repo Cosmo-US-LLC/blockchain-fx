@@ -20,13 +20,14 @@
     "day": "天",
     "Hours": "小时",
     "Minutes": "分钟",
-    "Seconds": "秒"
+    "Seconds": "秒",
+    "Huge_bfx_title": "重磅 BFX 公告"
   },
   "hero": {
     "title": "首个加密货币<br />交易",
     "title_highlight": "超级应用",
     "subtitle": "BlockchainFX 是一家获得许可的下一代加密货币交易所，将 DeFi<br /> 与传统金融相结合。它是第一个让用户可以交易 500 多种真实和数字资产的平台。",
-    "subtitle_des": "BlockchainFX 是一家获得许可的下一代加密货币交易所，将 DeFi 与传统金融市场相结合。它是唯一一个提供股票、外汇、ETF 等访问的 Web3 平台。",
+    "subtitle_des": "BlockchainFX 是一个连接 DeFi 和传统金融市场的下一代加密货币交易所。它是唯一提供股票、外汇、ETF 等访问权限的 Web3 平台。",
     "Licensed": "由以下机构许可和监管",
     "feature1": "首个连接区块链与金融的加密货币交易所",
     "feature2": "比特币、以太坊、黄金、特斯拉及500+资产",
@@ -1066,6 +1067,8 @@
     "nft": "NFT",
     "unlock_nft": "解锁",
     "limited_time_offer_1": "特别优惠：",
+     "limit_bonus_time": "限时优惠",
+  "use_bonus_limit": "获取多20%的 $BFX 代币！",
     "use_bonus_code_1": "使用奖励代码",
     "code_1": "License50",
     "to_get": "可获得 50% 更多的 $BFX 代币。",

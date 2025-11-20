@@ -15,7 +15,8 @@ const [timeLeft, setTimeLeft] = useState({
 });
 
 useEffect(() => {
-  const targetDate = new Date(Date.UTC(2025, 10, 20, 18, 0, 0)); 
+  // Monday Nov 25, 2025 - 6 PM Dubai time
+  const targetDate = new Date(Date.UTC(2025, 10, 25, 14, 0, 0));
 
   const interval = setInterval(() => {
     const now = new Date();
@@ -72,9 +73,10 @@ const handleScroll = () => {
             "#FCD149",
         }}
       >
-         <div className="max-w-[1080px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
+         <div className="max-w-[680px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.Breakthrough_title")}</span> {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span>
+            <span className="font-[800]">{t("live_presale_section.Huge_bfx_title")}</span> 
+            {/* {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span> */}
           </p>
 
           <div className="flex items-center space-x-2 ">
@@ -111,8 +113,9 @@ const handleScroll = () => {
           
           <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
           
-            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px] text-center">
-             <span className="font-[800]">{t("live_presale_section.Breakthrough_title")}</span> {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span>
+            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
+             <span className="font-[800]">{t("live_presale_section.Huge_bfx_title")}</span>
+              {/* {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span> */}
           </p>
             
           </div>

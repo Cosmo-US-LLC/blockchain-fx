@@ -20,13 +20,14 @@
     "day": "Giorno",
     "Hours": "Ore",
     "Minutes": "Minuti",
-    "Seconds": "Secondi"
+    "Seconds": "Secondi",
+    "Huge_bfx_title": "Grande annuncio BFX"
   },
   "hero": {
     "title": "La Prima <br /> Cripto Trading",
     "title_highlight": "Super App",
     "subtitle": "BlockchainFX è un exchange di criptovalute di nuova generazione con licenza che collega DeFi<br /> alla finanza tradizionale. È la prima piattaforma in cui gli utenti possono negoziare oltre 500 asset reali e digitali.",
-    "subtitle_des": "BlockchainFX è un exchange di criptovalute di nuova generazione con licenza, che collega la DeFi ai mercati finanziari tradizionali. È l’unica piattaforma Web3 che offre accesso ad azioni, forex, ETF e altro.",
+    "subtitle_des": "BlockchainFX è una piattaforma di scambio di criptovalute di nuova generazione che collega la DeFi ai mercati finanziari tradizionali. È l’unica piattaforma Web3 che offre accesso ad azioni, forex, ETF e altro ancora.",
     "Licensed": "Autorizzato e regolamentato da",
     "feature1": "La prima piattaforma di scambio cripto che unisce Blockchain e Finanza",
     "feature2": "Bitcoin, Ethereum, oro, Tesla e oltre 500+ altri asset",
@@ -1049,6 +1050,8 @@
     "nft": "NFT",
     "unlock_nft": "Sblocca",
     "limited_time_offer_1": "Offerta speciale:",
+     "limit_bonus_time": "Offerta a tempo limitato",
+  "use_bonus_limit": "Ottieni il 20% in più di $BFX Coins!",
     "use_bonus_code_1": "Usa il codice bonus",
     "code_1": "License50",
     "to_get": "Per ottenere il 50% in più di token $BFX.",

@@ -20,13 +20,14 @@
     "day": "日",
     "Hours": "時間",
     "Minutes": "分",
-    "Seconds": "秒"
+    "Seconds": "秒",
+     "Huge_bfx_title": "BFXの重大発表"
   },
   "hero": {
     "title": "世界初の暗号資産 <br /> トレーディング",
     "title_highlight": "スーパーアプリ",
    "subtitle": "BlockchainFXは、DeFiと従来の金融をつなぐ認可済みの次世代暗号通貨取引所です。ユーザーが500以上の実世界およびデジタル資産を取引できる初のプラットフォームです。",
-     "subtitle_des": "BlockchainFXは、DeFiと従来の金融市場をつなぐライセンス取得済みの次世代暗号取引所です。株式、外国為替、ETFなどにアクセスできる唯一のWeb3プラットフォームです。",
+    "subtitle_des": "BlockchainFXは、DeFiと従来の金融市場をつなぐ次世代型暗号通貨取引所です。株式、為替、ETFなどへのアクセスを提供する唯一のWeb3プラットフォームです。",
 
   "Licensed": "認可および規制機関：",
     "feature1": "ブロックチェーンと金融をつなぐ世界初の取引所",
@@ -959,6 +960,8 @@
   "nft": "NFT",
   "unlock_nft": "アンロック",
    "limited_time_offer_1": "特別オファー：",
+   "limit_bonus_time": "期間限定オファー",
+  "use_bonus_limit": "BFXコインを20%多く獲得！",
   "use_bonus_code_1": "ボーナスコードを使用",
   "code_1": "License50",
   "to_get": "50％多くの $BFX トークンを取得。",
