@@ -182,7 +182,7 @@ function Footer() {
             <h4 className="text-white text-[20px] font-[600]">
               {t("footer.socials.title")}
             </h4>
-            <div className="flex space-x-6 pt-[10px] pb-[20px]">
+            <div className="flex space-x-6 pt-[10px] pb-[15px]">
               <a
                 href="https://t.me/blockchainfx_chat"
                 target="_blank"
@@ -205,9 +205,9 @@ function Footer() {
               <h3 className="text-[#fff] text-[16px] font-[400] leading-[108.333%]">
                 {t("footer.contact.email")}
               </h3>
-              <h3 className="text-[#fff] text-[16px] pt-3 font-[400] leading-[108.333%]">
+              {/* <h3 className="text-[#fff] text-[16px] pt-3 font-[400] leading-[108.333%]">
                 License: 16172
-              </h3>
+              </h3> */}
             </div>
           </div>
         </div>
