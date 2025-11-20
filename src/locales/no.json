@@ -13,7 +13,7 @@
     "title": "Den første krypto-<br />handels",
     "title_highlight": "Superapp",
     "subtitle": "BlockchainFX er en lisensiert kryptobørs av neste generasjon som kobler DeFi<br /> med tradisjonell finans. Det er den første plattformen der brukere kan handle over 500 virkelige og digitale eiendeler.",
-    "subtitle_des": "BlockchainFX er en lisensiert kryptobørs av neste generasjon som kobler DeFi med tradisjonelle finansmarkeder. Det er den eneste Web3-plattformen som gir tilgang til aksjer, valuta, ETF-er og mer.",
+    "subtitle_des": "BlockchainFX er en kryptobørs av neste generasjon som kobler DeFi med tradisjonelle finansmarkeder. Det er den eneste Web3-plattformen som tilbyr tilgang til aksjer, forex, ETF-er og mer.",
     "Licensed": "Lisensiert og regulert av",
     "feature1": "Den første kryptobørsen som bygger bro mellom blockchain og finans",
     "feature2": "Bitcoin, Ethereum, gull, Tesla og over 500+ flere eiendeler",
@@ -42,7 +42,8 @@
     "day": "Dag",
     "Hours": "Timer",
     "Minutes": "Minutter",
-    "Seconds": "Sekunder"
+    "Seconds": "Sekunder",
+    "Huge_bfx_title": "Stor BFX-kunngjøring"
   },
   "experts": {
     "heading": "Hva ekspertene sier om BFX",
@@ -1023,6 +1024,8 @@
     "nft": "NFT",
     "unlock_nft": "Lås opp",
     "limited_time_offer_1": "Spesialtilbud:",
+    "limit_bonus_time": "Tidsbegrenset tilbud",
+  "use_bonus_limit": "Få 20% flere $BFX Coins!",
     "use_bonus_code_1": "Bruk bonuskode",
     "code_1": "License50",
     "to_get": "For å få 50% flere $BFX-tokens.",

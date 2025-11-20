@@ -239,9 +239,9 @@ function Footer() {
           <p className="w-[30%] text-[16px] text-[#fff] leading-[150%]">
             {t("footer.copyright")}
           </p>
-          <div className="w-[30%] flex justify-center items-center">
+          {/* <div className="w-[30%] flex justify-center items-center">
             <img className="max-w-[150px]" src={AOFA} alt="" />
-          </div>
+          </div> */}
           <div className="space-x-5 w-[30%] flex justify-end">
             <Link to={getLangPath("/cookie-management")}>
               <p className="text-[#fff] text-[16px]  block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#fff] transition duration-300 inline-block">
@@ -422,10 +422,10 @@ function Footer() {
           />
         </div>
         <div className="space-y-3">
-          <div className="flex justify-center items-center">
+          {/* <div className="flex justify-center items-center">
             <img className="max-w-[150px]" src={AOFA} alt="" />
           </div>
-          <h3 className="text-[#fff] text-center text-[15px] font-[400]">License: 16172</h3>
+          <h3 className="text-[#fff] text-center text-[15px] font-[400]">License: 16172</h3> */}
           <div>
             <p className="text-[10px] text-center text-[#fff] leading-[100%] mb-8">
               {t("footer.copyright")}

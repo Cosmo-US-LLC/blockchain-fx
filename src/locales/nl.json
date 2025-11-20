@@ -20,13 +20,14 @@
     "day": "Dag",
     "Hours": "Uren",
     "Minutes": "Minuten",
-    "Seconds": "Seconden"
+    "Seconds": "Seconden",
+    "Huge_bfx_title": "Grote BFX-aankondiging"
   },
   "hero": {
     "title": "De eerste Crypto <br /> Trading",
     "title_highlight": "Super App",
     "subtitle": "BlockchainFX is een gelicentieerde next-gen crypto-exchange die DeFi<br /> met traditionele financiën verbindt. Het is het eerste platform waar gebruikers kunnen handelen in meer dan 500 echte en digitale activa.",
-    "subtitle_des": "BlockchainFX is een gelicentieerde crypto-exchange van de volgende generatie die DeFi verbindt met traditionele financiële markten. Het is het enige Web3-platform dat toegang biedt tot aandelen, forex, ETF's en meer.",
+    "subtitle_des": "BlockchainFX is een cryptobeurs van de nieuwe generatie die DeFi verbindt met traditionele financiële markten. Het is het enige Web3-platform dat toegang biedt tot aandelen, forex, ETF's en meer.",
     "Licensed": "Gelicentieerd en gereguleerd door",
     "feature1": "De eerste crypto exchange die blockchain en financiën overbrugt",
     "feature2": "Bitcoin, Ethereum, goud, Tesla en meer dan 500+ andere activa",
@@ -1047,6 +1048,8 @@
     "nft": "NFT",
     "unlock_nft": "Ontgrendelen",
     "limited_time_offer_1": "Speciale aanbieding:",
+    "limit_bonus_time": "Aanbieding voor beperkte tijd",
+  "use_bonus_limit": "Ontvang 20% meer $BFX Coins!",
     "use_bonus_code_1": "Gebruik bonuscode",
     "code_1": "License50",
     "to_get": "Om 50% meer $BFX-tokens te krijgen.",
