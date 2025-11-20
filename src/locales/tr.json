@@ -20,13 +20,14 @@
     "day": "Gün",
     "Hours": "Saat",
     "Minutes": "Dakika",
-    "Seconds": "Saniye"
+    "Seconds": "Saniye",
+    "Huge_bfx_title": "Büyük BFX Duyurusu"
   },
   "hero": {
     "title": "İlk Kripto <br /> Alım Satım",
     "title_highlight": "Süper Uygulama",
     "subtitle": "BlockchainFX, DeFi ile geleneksel finansı birleştiren lisanslı yeni nesil bir kripto borsasıdır. Kullanıcıların 500'den fazla gerçek ve dijital varlıkta işlem yapabileceği ilk platformdur.",
-    "subtitle_des": "BlockchainFX, DeFi'yi geleneksel finans piyasalarıyla birleştiren lisanslı yeni nesil bir kripto borsasıdır. Hisse senetleri, döviz, ETF'ler ve daha fazlasına erişim sunan tek Web3 platformudur.",
+    "subtitle_des": "BlockchainFX, DeFi'yi geleneksel finans piyasalarıyla birleştiren yeni nesil bir kripto borsasıdır. Hisse senetleri, forex, ETF'ler ve daha fazlasına erişim sunan tek Web3 platformudur.",
     "Licensed": "Lisanslı ve düzenlenmiştir:",
     "feature2": "Bitcoin, Ethereum, altın, Tesla ve 500+ fazla varlık",
     "feature3": "2025'in 'En İyi Yeni Kripto Alım Satım Uygulaması' ödüllü",
@@ -887,6 +888,8 @@
     "nft": "NFT",
     "unlock_nft": "Kilidi Aç",
     "limited_time_offer_1": "Özel Teklif:",
+    "limit_bonus_time": "Sınırlı Süreli Teklif",
+  "use_bonus_limit": "%20 daha fazla $BFX Coin kazan!",
     "use_bonus_code_1": "Bonus Kodunu Kullan",
     "code_1": "License50",
     "to_get": "%50 Daha Fazla $BFX Token Almak İçin.",
