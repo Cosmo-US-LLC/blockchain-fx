@@ -14,39 +14,40 @@ function LivePresale() {
     seconds: "00",
   });
 
-  useEffect(() => {
-    const targetDate = new Date(Date.UTC(2025, 10, 25, 14, 0, 0));
+useEffect(() => {
+  // End Date: Saturday at 10 PM Dubai → 18:00 UTC
+  const targetDate = new Date(Date.UTC(2025, 10, 29, 18, 0, 0));
 
-    const interval = setInterval(() => {
-      const now = new Date();
-      const difference = targetDate.getTime() - now.getTime();
+  const interval = setInterval(() => {
+    const now = new Date();
+    const difference = targetDate.getTime() - now.getTime();
 
-      if (difference <= 0) {
-        clearInterval(interval);
-        setTimeLeft({
-          days: "00",
-          hours: "00",
-          minutes: "00",
-          seconds: "00",
-        });
-        return;
-      }
-
-      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((difference / (1000 * 60)) % 60);
-      const seconds = Math.floor((difference / 1000) % 60);
-
+    if (difference <= 0) {
+      clearInterval(interval);
       setTimeLeft({
-        days: String(days).padStart(2, "0"),
-        hours: String(hours).padStart(2, "0"),
-        minutes: String(minutes).padStart(2, "0"),
-        seconds: String(seconds).padStart(2, "0"),
+        days: "00",
+        hours: "00",
+        minutes: "00",
+        seconds: "00",
       });
-    }, 1000);
+      return;
+    }
 
-    return () => clearInterval(interval);
-  }, []);
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((difference / (1000 * 60)) % 60);
+    const seconds = Math.floor((difference / 1000) % 60);
+
+    setTimeLeft({
+      days: String(days).padStart(2, "0"),
+      hours: String(hours).padStart(2, "0"),
+      minutes: String(minutes).padStart(2, "0"),
+      seconds: String(seconds).padStart(2, "0"),
+    });
+  }, 1000);
+
+  return () => clearInterval(interval);
+}, []);
 
 const handleScroll = () => {
   setTimeout(() => {
