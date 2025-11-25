@@ -610,7 +610,7 @@ const BuyTab = ({ onTabChange}) => {
           }}
           >
               <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] 2xl:max-w-[220px] xl:max-w-[220px] lg:max-w-[220px] md:max-w-[220px] sm:max-w-[235px] max-w-[235px] mx-auto font-[500]  text-white text-center ">
-                <span className="font-[700]">{t('buy_tab.limit_bonus_time')}: </span> {t('buy_tab.use_bonus_code_1')} <span className="text-[#2FD942] !font-[700]">BFX20</span> {t('buy_tab.use_bonus_limit')}
+                <span className="font-[700]">{t('buy_tab.black_friday_offer')}: </span> {t('buy_tab.use_bonus_code_1')} <span className="text-[#2FD942] !font-[700]">BF70</span> {t('buy_tab.black_friday_offer_des')}
                  {/* {t('buy_tab.more_bfx_coins')} */}
               </h3>
           </div>

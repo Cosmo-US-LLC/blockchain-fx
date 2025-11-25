@@ -5,49 +5,48 @@ import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
 
 
 function LivePresale() {
- const { t } = useTranslation();
+  const { t } = useTranslation();
 
-const [timeLeft, setTimeLeft] = useState({
-  days: "00",
-  hours: "00",
-  minutes: "00",
-  seconds: "00",
-});
+  const [timeLeft, setTimeLeft] = useState({
+    days: "00",
+    hours: "00",
+    minutes: "00",
+    seconds: "00",
+  });
 
-useEffect(() => {
-  // Monday Nov 25, 2025 - 6 PM Dubai time
-  const targetDate = new Date(Date.UTC(2025, 10, 25, 14, 0, 0));
+  useEffect(() => {
+    const targetDate = new Date(Date.UTC(2025, 10, 25, 14, 0, 0));
 
-  const interval = setInterval(() => {
-    const now = new Date();
-    const difference = targetDate.getTime() - now.getTime();
+    const interval = setInterval(() => {
+      const now = new Date();
+      const difference = targetDate.getTime() - now.getTime();
 
-    if (difference <= 0) {
-      clearInterval(interval);
+      if (difference <= 0) {
+        clearInterval(interval);
+        setTimeLeft({
+          days: "00",
+          hours: "00",
+          minutes: "00",
+          seconds: "00",
+        });
+        return;
+      }
+
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((difference / (1000 * 60)) % 60);
+      const seconds = Math.floor((difference / 1000) % 60);
+
       setTimeLeft({
-        days: "00",
-        hours: "00",
-        minutes: "00",
-        seconds: "00",
+        days: String(days).padStart(2, "0"),
+        hours: String(hours).padStart(2, "0"),
+        minutes: String(minutes).padStart(2, "0"),
+        seconds: String(seconds).padStart(2, "0"),
       });
-      return;
-    }
+    }, 1000);
 
-    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((difference / (1000 * 60)) % 60);
-    const seconds = Math.floor((difference / 1000) % 60);
-
-    setTimeLeft({
-      days: String(days).padStart(2, "0"),
-      hours: String(hours).padStart(2, "0"),
-      minutes: String(minutes).padStart(2, "0"),
-      seconds: String(seconds).padStart(2, "0"),
-    });
-  }, 1000);
-
-  return () => clearInterval(interval);
-}, []);
+    return () => clearInterval(interval);
+  }, []);
 
 const handleScroll = () => {
   setTimeout(() => {
@@ -73,10 +72,9 @@ const handleScroll = () => {
             "#FCD149",
         }}
       >
-         <div className="max-w-[680px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
+         <div className="max-w-[1080px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.Huge_bfx_title")}</span> 
-            {/* {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span> */}
+            <span className="font-[800]">{t("live_presale_section.black_friday")}</span>: {t("live_presale_section.black_friday_des")} <span className="font-[800]">{t("live_presale_section.black_friday_code")}</span>
           </p>
 
           <div className="flex items-center space-x-2 ">
@@ -114,8 +112,7 @@ const handleScroll = () => {
           <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
           
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
-             <span className="font-[800]">{t("live_presale_section.Huge_bfx_title")}</span>
-              {/* {t("live_presale_section.get_more")} <span className="font-[800]">{t("live_presale_section.code_CANDY40")}</span> */}
+             <span className="font-[800]">{t("live_presale_section.black_friday")}:</span> {t("live_presale_section.black_friday_des")} <span className="font-[800]">{t("live_presale_section.black_friday_code")}</span>
           </p>
             
           </div>
