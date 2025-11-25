@@ -127,7 +127,7 @@ function MobileHero() {
               <p className="text-[15px] text-[#fff] leading-[185%] text-center font-[400]">
                 {t("hero.Licensed")}
               </p>
-              {/* <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex min-w-[130px] flex-col items-end">
+              <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex min-w-[130px] flex-col items-end">
                 <img className="max-w-[130px]" src={AOFA} alt="" />
                 <a
                   href="https://blockchainfx.com/license.pdf"
@@ -137,7 +137,7 @@ function MobileHero() {
                 >
                   Verify license
                 </a>
-              </div> */}
+              </div>
             </div>
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
