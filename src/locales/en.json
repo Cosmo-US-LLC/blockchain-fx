@@ -27,7 +27,7 @@
     "title": "The First Crypto <br /> Trading",
     "title_highlight": "Super App",
     "subtitle": "BlockchainFX is a licensed next-gen crypto exchange that bridges DeFi with traditional finance. It’s the first platform where users can trade across 500+ real-world and digital assets.",
-     "subtitle_des": "BlockchainFX is a next-gen crypto exchange that connects DeFi with traditional financial markets. It’s the only Web3 platform offering access to stocks, forex, ETFs, and more.",
+     "subtitle_des": "BlockchainFX is a licensed next-gen crypto exchange that connects DeFi with traditional financial markets. It’s the only Web3 platform offering access to stocks, forex, ETFs, and more.",
      "Licensed": "Licensed & Regulated by",
     "feature1": "The First crypto Exchange Bridging Blockchain and Finance",
     "feature2": "Bitcoin, Ethereum, gold, Tesla, and over 500+ more assets",
@@ -233,7 +233,7 @@
  "how_does_it_sec": {
     "title": "How It Works?",
     "subtitle": "BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.<br/><br/> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.",
-     "subtitle_des": "BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. <br/> Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.<br/> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.",
+     "subtitle_des": "BlockchainFX is a  global exchange where users can trade crypto, stocks, forex, ETFs, and more. <br/> Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.<br/> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.",
     "cards": {
       "staking_rewards": {
         "title": "BFX & USDT Staking Rewards",
