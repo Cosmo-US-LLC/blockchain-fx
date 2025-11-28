@@ -15,8 +15,9 @@ function LivePresale() {
   });
 
 useEffect(() => {
-  // End Date: Saturday at 10 PM Dubai → 18:00 UTC
-  const targetDate = new Date(Date.UTC(2025, 10, 29, 18, 0, 0));
+  // Target: Dec 2, 2025 at 6 PM UTC
+  const targetDate = new Date(Date.UTC(2025, 11, 2, 18, 0, 0));
+  // Month 11 = December
 
   const interval = setInterval(() => {
     const now = new Date();
@@ -75,7 +76,7 @@ const handleScroll = () => {
       >
          <div className="max-w-[1080px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.black_friday")}</span>: {t("live_presale_section.black_friday_des")} <span className="font-[800]">{t("live_presale_section.black_friday_code")}</span>
+            <span className="font-[800]">{t("buy_tab.cyber_offer")}</span>: {t("buy_tab.cyber_get")} <span className="font-[800]">CYBER50</span>
           </p>
 
           <div className="flex items-center space-x-2 ">
@@ -113,7 +114,7 @@ const handleScroll = () => {
           <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
           
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
-             <span className="font-[800]">{t("live_presale_section.black_friday")}:</span> {t("live_presale_section.black_friday_des")} <span className="font-[800]">{t("live_presale_section.black_friday_code")}</span>
+             <span className="font-[800]">{t("buy_tab.cyber_offer")}:</span> {t("buy_tab.cyber_get")} <span className="font-[800]">CYBER50</span>
           </p>
             
           </div>
