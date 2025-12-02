@@ -143,7 +143,7 @@ function MobileHero() {
               <div className="flex flex-col items-center">
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/Avatar%20group.webp"
+                    "assets/blockchainfx/HeroSection2/Avatar%20group.webp"
                   }
                   className="object-cover h-[43px]"
                   loading="lazy"
@@ -164,7 +164,7 @@ function MobileHero() {
                   className="w-[82px]"
                   loading="lazy"
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/stars%20(2).webp"
+                    "assets/blockchainfx/HeroSection2/stars%20(2).webp"
                   }
                   alt="star"
                 />
@@ -181,19 +181,19 @@ function MobileHero() {
             <div className="!mt-[12px]  flex justify-center items-center space-x-[20px]">
               <img
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg"
+                  "assets/blockchainfx/HeroSection2/herosvg%20(1).svg"
                 }
                 alt="certik"
               />
               <img
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg"
+                  "assets/blockchainfx/HeroSection2/herosvg%20(3).svg"
                 }
                 alt="SolidProof logo shield icon and text"
               />
               <img
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg"
+                  "assets/blockchainfx/HeroSection2/herosvg%20(2).svg"
                 }
                 alt="coinsult"
               />
@@ -203,7 +203,7 @@ function MobileHero() {
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                    "assets/blockchainfx/HeroSection2/check.svg"
                   }
                   alt="BlockchainFX"
                 />
@@ -214,7 +214,7 @@ function MobileHero() {
               <div className="flex items-center space-x-3 max-w-[300px] w-[100%]">
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                    "assets/blockchainfx/HeroSection2/check.svg"
                   }
                   alt="BlockchainFX"
                 />
@@ -225,7 +225,7 @@ function MobileHero() {
               <div className="flex items-center space-x-3 max-w-[320px] w-[100%]">
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                    "assets/blockchainfx/HeroSection2/check.svg"
                   }
                   alt="BlockchainFX"
                 />
@@ -270,7 +270,7 @@ function MobileHero() {
               <img
                 className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(1).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(1).svg"
                 }
                 alt="Featured"
               />
@@ -283,7 +283,7 @@ function MobileHero() {
               <img
                 className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(2).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(2).svg"
                 }
                 alt="Featured"
               />
@@ -297,7 +297,7 @@ function MobileHero() {
               <img
                 className="mix-blend-luminosity w-[100%] h-[100%] opacity-[0.5] hover:opacity-[1] hover:mix-blend-normal object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(2).webp"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(2).webp"
                 }
                 alt="Featured"
               />
@@ -310,7 +310,7 @@ function MobileHero() {
               <img
                 className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(3).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(3).svg"
                 }
                 alt="Featured"
               />
@@ -325,7 +325,7 @@ function MobileHero() {
               <img
                 className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(11).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(11).svg"
                 }
                 alt="Featured"
               />
@@ -338,7 +338,7 @@ function MobileHero() {
               <img
                 className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(9).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(9).svg"
                 }
                 alt="Featured"
               />
@@ -351,7 +351,7 @@ function MobileHero() {
               <img
                 className="brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(7).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(7).svg"
                 }
                 alt="Featured"
               />
@@ -364,7 +364,7 @@ function MobileHero() {
               <img
                 className="brightness-0 invert-[.70] h-[14px] w-[92px] hover:brightness-100 hover:invert-0 object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/full-okx-logo%201.svg"
+                  "assets/blockchainfx/HeroSection2/full-okx-logo%201.svg"
                 }
                 alt="Featured"
               />
@@ -381,7 +381,7 @@ function MobileHero() {
               <img
                 className="h-[26px] brightness-0 invert-[.70] hover:brightness-100 hover:invert-0 object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(8).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(8).svg"
                 }
                 alt="Featured"
               />
@@ -394,7 +394,7 @@ function MobileHero() {
               <img
                 className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(6).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(6).svg"
                 }
                 alt="Featured"
               />
@@ -407,7 +407,7 @@ function MobileHero() {
               <img
                 className="mix-blend-luminosity opacity-[0.5] h-[20px] hover:opacity-[1] hover:mix-blend-normal object-cover"
                 src={
-                  "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/bnrhero%20(12).svg"
+                  "assets/blockchainfx/HeroSection2/bnrhero%20(12).svg"
                 }
                 alt="Featured"
               />

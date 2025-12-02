@@ -82,12 +82,12 @@ function BlockchainFXDemo() {
                 muted
                 loop
               >
-                <source src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/BlockchainFXDemo/bfx-demo.mp4'} type="video/mp4" />
+                <source src={'assets/blockchainfx/BlockchainFXDemo/bfx-demo.mp4'} type="video/mp4" />
               </video>
             </div>
           </div>
           <div className="absolute top-[-0%] left-[-1%]">
-            <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/BlockchainFXDemo/ellipse2.png'} alt="BlockchainFX" />
+            <img src={'assets/blockchainfx/BlockchainFXDemo/ellipse2.png'} alt="BlockchainFX" />
           </div>
         </div>
         <div className="w-[100%] pt-[50px] pb-[30px]">
@@ -95,7 +95,7 @@ function BlockchainFXDemo() {
             <div className="w-[50%]">
               <div className="w-full">
                 <img
-                  src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/BlockchainFXDemo/instantSwap.gif'}
+                  src={'assets/blockchainfx/BlockchainFXDemo/instantSwap.gif'}
                   className="w-[453px] h-auto"
                   alt="whitepaper"
                 />

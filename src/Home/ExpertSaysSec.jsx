@@ -53,7 +53,7 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide1.text")}"
                 </p>
-               <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
+               <img src={'assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide1.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide1.role")}</p>
@@ -86,7 +86,7 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide2.text")}"
                 </p>
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
+                <img src={'assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide2.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide2.role")}</p>
@@ -120,7 +120,7 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide3.text")}"
                 </p>
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
+                <img src={'assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide3.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide3.role")}</p>
@@ -154,7 +154,7 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide4.text")}"
                 </p>
-                <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
+                <img src={'assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
                 <div>
                   <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide4.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide4.role")}</p>
@@ -180,26 +180,26 @@ function ExpertSaysSec() {
         <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
           <button ref={prevRef}>
             {activeSlide === 0 ? (
-              <img className="h-[34px] w-[34px]" src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/expawr%20(1).svg'} alt="inactive" />
+              <img className="h-[34px] w-[34px]" src={'assets/blockchainfx/ExpertSays2/expawr%20(1).svg'} alt="inactive" />
             ) : (
-              <img className="h-[34px] w-[34px] rotate-[180deg]" src={"https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/expawr%20(2).svg"} alt="active" />
+              <img className="h-[34px] w-[34px] rotate-[180deg]" src={"assets/blockchainfx/ExpertSays2/expawr%20(2).svg"} alt="active" />
             )}
           </button>
 
           <button ref={nextRef}>
             {activeSlide === 3 ? (
-              <img className="h-[34px] w-[34px] rotate-[180deg]" src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/expawr%20(1).svg'} alt="inactive" />
+              <img className="h-[34px] w-[34px] rotate-[180deg]" src={'assets/blockchainfx/ExpertSays2/expawr%20(1).svg'} alt="inactive" />
             ) : (
-              <img className="h-[34px] w-[34px]" src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/ExpertSays2/expawr%20(2).svg'} alt="active" />
+              <img className="h-[34px] w-[34px]" src={'assets/blockchainfx/ExpertSays2/expawr%20(2).svg'} alt="active" />
             )}
           </button>
         </div>
 
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/LessThan/Ellipse%203.png'} alt="left" />
+          <img src={'assets/blockchainfx/LessThan/Ellipse%203.png'} alt="left" />
         </div>
         <div className="absolute bottom-[0%] right-[0%]">
-          <img src={'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/LessThan/Ellipse%204.png'} alt="right" />
+          <img src={'assets/blockchainfx/LessThan/Ellipse%204.png'} alt="right" />
         </div>
       </div>
     </div>

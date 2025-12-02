@@ -10,17 +10,17 @@ function KYCVerified() {
 
   const cardItems = [
     {
-      img: 'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg',
+      img: 'assets/blockchainfx/HeroSection2/herosvg%20(2).svg',
       title: t("KYCVerified.card_items.0.title"),
       description: t("KYCVerified.card_items.0.description"),
     },
     {
-      img: 'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/fycicn%20(1).webp',
+      img: 'assets/blockchainfx/KYCVerified/fycicn%20(1).webp',
       title: t("KYCVerified.card_items.1.title"),
       description: t("KYCVerified.card_items.1.description"),
     },
     {
-      img: 'https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/image_588254259.webp',
+      img: 'assets/blockchainfx/KYCVerified/image_588254259.webp',
       title: t("KYCVerified.card_items.2.title"),
       description: t("KYCVerified.card_items.2.description"),
     },
