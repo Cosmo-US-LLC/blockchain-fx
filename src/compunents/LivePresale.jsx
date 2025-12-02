@@ -67,7 +67,7 @@ const handleScroll = () => {
 
   return (
     <>
-      <div
+      {/* <div
         className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden  items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999] "
         style={{
           background:
@@ -101,8 +101,8 @@ const handleScroll = () => {
               {t("live_presale_section.buy_button")}
             </button>
         </div>
-      </div>
-
+      </div> */}
+{/* 
       <div
         className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0  xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999] py-2"
         style={{
@@ -138,8 +138,8 @@ const handleScroll = () => {
             </div>
             
         </div>
-      </div>
-      {/* <div
+      </div> */}
+      <div
       className="flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
         background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
@@ -166,7 +166,7 @@ const handleScroll = () => {
           {t("live_presale_section.buy_button")}
         </button>
       </div>
-    </div> */}
+    </div>
     </>
   );
 }

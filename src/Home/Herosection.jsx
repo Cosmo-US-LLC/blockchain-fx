@@ -71,7 +71,7 @@ function Herosection() {
               <div className="flex items-center space-x-2">
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                    "assets/blockchainfx/HeroSection2/check.svg"
                   }
                   alt="tick icon"
                 />
@@ -82,7 +82,7 @@ function Herosection() {
               <div className="flex items-center space-x-2">
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                    "assets/blockchainfx/HeroSection2/check.svg"
                   }
                   alt="tick icon"
                 />
@@ -93,7 +93,7 @@ function Herosection() {
               <div className="flex items-center space-x-2">
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/check.svg"
+                    "assets/blockchainfx/HeroSection2/check.svg"
                   }
                   alt="tick icon"
                 />
@@ -166,19 +166,19 @@ function Herosection() {
               <div className="flex justify-center items-center space-x-[15px]">
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(1).svg"
+                    "assets/blockchainfx/HeroSection2/herosvg%20(1).svg"
                   }
                   alt="certik"
                 />
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg"
+                    "assets/blockchainfx/HeroSection2/herosvg%20(2).svg"
                   }
                   alt="coinsult"
                 />
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(3).svg"
+                    "assets/blockchainfx/HeroSection2/herosvg%20(3).svg"
                   }
                   alt="SolidProof logo shield icon and text"
                 />
@@ -191,7 +191,7 @@ function Herosection() {
                 </p>
                 <img
                   src={
-                    "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/Avatar%20group.png"
+                    "assets/blockchainfx/HeroSection2/Avatar%20group.png"
                   }
                   className="object-cover"
                   loading="lazy"
@@ -205,7 +205,7 @@ function Herosection() {
                     className="w-[82px] h-[15px]"
                     loading="lazy"
                     src={
-                      "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/stars.png"
+                      "assets/blockchainfx/HeroSection2/stars.png"
                     }
                     alt="star"
                   />
