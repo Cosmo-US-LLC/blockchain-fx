@@ -9,13 +9,13 @@ function KYCVerifiedMob() {
 
   const cardItems = [
     {
-      img: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/HeroSection2/herosvg%20(2).svg",
+      img: "assets/blockchainfx/HeroSection2/herosvg%20(2).svg",
     },
     {
-      img: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/fycicn%20(1).webp",
+      img: "assets/blockchainfx/KYCVerified/fycicn%20(1).webp",
     },
     {
-      img: "https://bfx-cdn.fra1.cdn.digitaloceanspaces.com/assets/blockchainfx/KYCVerified/image_588254259.webp",
+      img: "assets/blockchainfx/KYCVerified/image_588254259.webp",
     },
   ];
 
