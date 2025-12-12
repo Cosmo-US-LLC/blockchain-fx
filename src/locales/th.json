@@ -24,7 +24,9 @@
     "Hours": "ชั่วโมง",
     "Minutes": "นาที",
     "Seconds": "วินาที",
-     "Huge_bfx_title": "ประกาศครั้งใหญ่จาก BFX"
+     "Huge_bfx_title": "ประกาศครั้งใหญ่จาก BFX",
+     "Special_XMAS_Offer": "ข้อเสนอพิเศษวันคริสต์มาส",
+  "Special_XMAS_Offer_des": "รับ BFX เพิ่มขึ้น 50% ด้วยโค้ด"
   },
   "hero": {
     "title": "แพลตฟอร์มคริปโต <br /> แรก",
@@ -1055,6 +1057,8 @@
     "unlock_nft": "ปลดล็อก",
     "limited_time_offer_1": "ข้อเสนอพิเศษ:",
      "limit_bonus_time": "ข้อเสนอจำกัดเวลา",
+     "Special_XMAS_Offer": "ข้อเสนอพิเศษวันคริสต์มาส",
+  "Special_XMAS_Offer_des": "เพื่อรับเหรียญ BFX เพิ่มขึ้น 50%!",
       "black_friday_offer": "ข้อเสนอแบล็กฟรายเดย์",
        "cyber_offer": "ข้อเสนอไซเบอร์มันเดย์",
   "cyber_offer_get": "เพื่อรับโทเค็น $BFX เพิ่มขึ้น 50%.",

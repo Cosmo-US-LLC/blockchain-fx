@@ -24,7 +24,9 @@
     "Hours": "Timer",
     "Minutes": "Minutter",
     "Seconds": "Sekunder",
-    "Huge_bfx_title": "Kæmpe BFX-annoncering"
+    "Huge_bfx_title": "Kæmpe BFX-annoncering",
+    "Special_XMAS_Offer": "Særligt juletilbud",
+  "Special_XMAS_Offer_des": "Få 50% mere BFX med koden"
   },
   "hero": {
     "title": "Den første krypto <br /> handel",
@@ -1055,6 +1057,8 @@
     "unlock_nft": "Lås Op",
     "limited_time_offer_1": "Særtilbud:",
     "limit_bonus_time": "Begrænset tids tilbud",
+    "Special_XMAS_Offer": "Særligt juletilbud",
+  "Special_XMAS_Offer_des": "for at få 50% flere BFX-mønter!",
      "black_friday_offer": "Black Friday-tilbud",
      "cyber_offer": "Cyber Monday-tilbud",
   "cyber_offer_get": "For at få 50% flere $BFX-tokens.",

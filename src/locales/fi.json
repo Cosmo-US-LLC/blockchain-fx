@@ -24,7 +24,9 @@
     "Hours": "Tunnit",
     "Minutes": "Minuutit",
     "Seconds": "Sekunnit",
-    "Huge_bfx_title_fi": "Suuri BFX-ilmoitus"
+    "Huge_bfx_title_fi": "Suuri BFX-ilmoitus",
+      "Special_XMAS_Offer": "Erikoistarjous jouluksi",
+  "Special_XMAS_Offer_des": "Saat 50% enemmän BFX:ää koodilla"
   },
   "hero": {
     "title": "Ensimmäinen krypto <br /> Kaupankäynti",
@@ -1024,6 +1026,8 @@
     "unlock_nft": "Avaa",
     "limited_time_offer_1": "Erikoistarjous:",
     "limit_bonus_time": "Rajoitetun ajan tarjous",
+    "Special_XMAS_Offer": "Erikoistarjous jouluksi",
+  "Special_XMAS_Offer_des": "saadaksesi 50% enemmän BFX-kolikoita!",
   "use_bonus_limit": "Saat 20 % enemmän $BFX-kolikoita!",
    "black_friday_offer": "Black Friday -tarjous",
      "cyber_offer": "Cyber Monday -tarjous",
