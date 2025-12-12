@@ -24,7 +24,9 @@
     "Hours": "Horas",
     "Minutes": "Minutos",
     "Seconds": "Segundos",
-    "Huge_bfx_title": "Gran anuncio de BFX"
+    "Huge_bfx_title": "Gran anuncio de BFX",
+    "Special_XMAS_Offer": "Oferta Especial de Navidad",
+  "Special_XMAS_Offer_des": "Obtén 50% más BFX con el código"
   },
   "featured_sec": {
     "featured_in": "Destacado en:"
@@ -813,6 +815,8 @@
     "unlock_nft": "Desbloquear",
     "limited_time_offer_1": "Oferta especial:",
       "limit_bonus_time": "Oferta por tiempo limitado",
+      "Special_XMAS_Offer": "Oferta Especial de Navidad",
+  "Special_XMAS_Offer_des": "para obtener un 50% más de monedas BFX!",
   "use_bonus_limit": "¡Obtén un 20% más de monedas $BFX!",
   "black_friday_offer": "Oferta de Black Friday",
    "cyber_offer": "Oferta de Cyber Monday",
