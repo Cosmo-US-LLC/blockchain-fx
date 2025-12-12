@@ -27,7 +27,9 @@
     "Hours": "Heures",
     "Minutes": "Minutes",
     "Seconds": "Secondes",
-    "Huge_bfx_title": "Énorme annonce BFX"
+    "Huge_bfx_title": "Énorme annonce BFX",
+     "Special_XMAS_Offer": "Offre spéciale Noël",
+  "Special_XMAS_Offer_des": "Obtenez 50% de BFX en plus avec le code"
   },
   "hero": {
     "title": "La première application <br /> de trading crypto",
@@ -993,6 +995,8 @@
     "unlock_nft": "Déverrouiller",
     "limited_time_offer_1": "Offre spéciale :",
     "limit_bonus_time": "Offre limitée dans le temps",
+    "Special_XMAS_Offer": "Offre spéciale Noël",
+  "Special_XMAS_Offer_des": "pour obtenir 50% de pièces BFX en plus !",
   "use_bonus_limit": "Obtenez 20 % de pièces $BFX en plus !",
     "use_bonus_code_1": "Utilisez le code bonus",
     "code_1": "License50",

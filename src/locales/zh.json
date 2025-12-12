@@ -24,7 +24,9 @@
     "Hours": "小时",
     "Minutes": "分钟",
     "Seconds": "秒",
-    "Huge_bfx_title": "重磅 BFX 公告"
+    "Huge_bfx_title": "重磅 BFX 公告",
+      "Special_XMAS_Offer": "圣诞特别优惠",
+  "Special_XMAS_Offer_des": "使用此代码可获得50%更多BFX"
   },
   "hero": {
     "title": "首个加密货币<br />交易",
@@ -1071,6 +1073,8 @@
     "unlock_nft": "解锁",
     "limited_time_offer_1": "特别优惠：",
      "limit_bonus_time": "限时优惠",
+      "Special_XMAS_Offer": "圣诞特别优惠",
+  "Special_XMAS_Offer_des": "可获得50%更多BFX币！",
       "black_friday_offer": "黑色星期五优惠",
       "cyber_offer": "网络星期一优惠",
   "cyber_offer_get": "可获得50%更多的$BFX代币。",

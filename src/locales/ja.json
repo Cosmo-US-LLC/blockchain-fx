@@ -12,6 +12,8 @@
    "live_presale_section": {
     "title": "BFXのプレセールが開催中",
     "black_friday": "ブラックフライデーオファー",
+    "Special_XMAS_Offer": "特別クリスマスオファー",
+  "Special_XMAS_Offer_des": "コードを使ってBFXを50％追加で獲得",
   "black_friday_des": "コードを使ってBFXを70％追加で獲得",
   "black_friday_code": "BF70",
     "Halloween_title": "ハロウィンボーナス：",
@@ -964,6 +966,8 @@
   "unlock_nft": "アンロック",
    "limited_time_offer_1": "特別オファー：",
    "limit_bonus_time": "期間限定オファー",
+     "Special_XMAS_Offer": "特別クリスマスオファー",
+  "Special_XMAS_Offer_des": "BFXコインを50％多く受け取るために！",
      "black_friday_offer": "ブラックフライデーオファー",
       "cyber_offer": "サイバーマンデーオファー",
   "cyber_offer_get": "BFXトークンを50％多く受け取るために。",

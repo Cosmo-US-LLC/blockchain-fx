@@ -24,7 +24,9 @@
     "Hours": "Horas",
     "Minutes": "Minutos",
     "Seconds": "Segundos",
-    "Huge_bfx_title": "Grande anúncio da BFX"
+    "Huge_bfx_title": "Grande anúncio da BFX",
+    "Special_XMAS_Offer": "Oferta Especial de Natal",
+  "Special_XMAS_Offer_des": "Ganhe 50% mais BFX com o código"
   },
   "hero": {
     "title": "O Primeiro Trading de Cripto ",
@@ -1003,6 +1005,8 @@
     "unlock_nft": "Desbloquear",
     "limited_time_offer_1": "Oferta especial:",
     "limit_bonus_time": "Oferta por tempo limitado",
+     "Special_XMAS_Offer": "Oferta Especial de Natal",
+  "Special_XMAS_Offer_des": "para ganhar 50% mais moedas BFX!",
      "black_friday_offer": "Oferta de Black Friday",
       "cyber_offer": "Oferta de Cyber Monday",
   "cyber_offer_get": "Para obter 50% mais tokens $BFX.",
