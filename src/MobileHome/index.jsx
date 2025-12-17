@@ -2,6 +2,7 @@ import React, { useEffect, lazy, Suspense } from "react";
 import { setCanonical } from "../utils/setCanonical";
 
 import MobileHero from "./MobileHero";
+import LaunchPopup from "../compunents/LaunchPopup";
 
 const MobileWalletSec = lazy(() => import("./MobileWalletSec"));
 const KYCVerifiedMob = lazy(() => import("./KYCVerifiedMob"));
@@ -41,6 +42,7 @@ function MobileHome() {
 
   return (
     <div className="bg-[#020B10] w-full">
+      <LaunchPopup />
       <MobileHero />
 
       <Suspense fallback={<LoadingFallback />}>
