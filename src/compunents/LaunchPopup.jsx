@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 
 const LaunchPopup = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const lastShown = localStorage.getItem('bfx_launch_popup_last_shown');
