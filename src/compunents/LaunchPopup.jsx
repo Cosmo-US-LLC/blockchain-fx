@@ -4,26 +4,10 @@ import React, { useState, useEffect } from 'react';
 const LaunchPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    const lastShown = localStorage.getItem('bfx_launch_popup_last_shown');
-    const today = new Date().toDateString();
+useEffect(() => {
+  setIsOpen(true);
+}, []);
 
-    if (lastShown !== today) {
-      setIsOpen(true);
-      localStorage.setItem('bfx_launch_popup_last_shown', today);
-    }
-  }, []);
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, [isOpen]);
 
   if (!isOpen) return null;
 
