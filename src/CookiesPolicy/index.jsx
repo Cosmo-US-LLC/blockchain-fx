@@ -50,7 +50,7 @@ function CookiesPolicy() {
              <span className="font-[500]">Cookies</span> means small files that are placed on Your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
-              <span className="font-[500]">Website</span> refers to BlockchainFX, accessible from <a href={`${process.env.SITE_URL}/referral`} className="underline text-[#D99A26]">https://blockchainfx.com/</a>
+              <span className="font-[500]">Website</span> refers to BlockchainFX, accessible from <a href="https://presale.blockfx.com/" className="underline text-[#D99A26]">https://blockchainfx.com/</a>
               </li>
               <li className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
                <span className="font-[500]">You</span> means the individual accessing or using the Website, or a company, or any legal entity on behalf of which such individual is accessing or using the Website, as applicable.
