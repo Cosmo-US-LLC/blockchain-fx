@@ -51,7 +51,7 @@ export default function WhitepaperMob() {
           <button
             onClick={() =>
               window.open(
-                "https://blockchainfx.com/BFX-Whitepaper.pdf?_gl=1*6ya1sw*_gcl_au*Mzg3MTA3OTg2LjE3NDY2MDM5MTA.",
+                "/BFX-Whitepaper.pdf?_gl=1*6ya1sw*_gcl_au*Mzg3MTA3OTg2LjE3NDY2MDM5MTA.",
                 "_blank"
               )
             }

@@ -68,7 +68,7 @@ function Navbar() {
   const [languageChanged, setLanguageChanged] = useState(false);
 
   const pdfUrl =
-    "https://blockchainfx.com/BFX-Whitepaper.pdf?_gl=1*97cvu6*_gcl_au*MTEzODkzMzY0LjE3NTQzOTA1ODE.";
+    "/BFX-Whitepaper.pdf?_gl=1*97cvu6*_gcl_au*MTEzODkzMzY0LjE3NTQzOTA1ODE.";
 
   // const isHome = location.pathname === '/';
   const parts = location.pathname.split("/").filter(Boolean);
