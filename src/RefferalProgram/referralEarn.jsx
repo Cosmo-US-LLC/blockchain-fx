@@ -20,7 +20,14 @@ function EarnWithReferral() {
               </div>
               <div>
                 <p className="text-[15px] sm:text-[16px] font-[400] leading-[120%] tracking-[-1px] text-[#fff] py-[16px] sm:py-[24px] px-[16px] sm:px-[24px] font-inter">
-                  Go to BlockchainFX.com/referral and connect your wallet.{" "}
+                  Go to{" "}
+                  <a
+                    href="https://presale.blockfx.com/referral"
+                    className="underline text-[#D99A26]"
+                  >
+                    BlockchainFX.com/referral
+                  </a>{" "}
+                  and connect your wallet.{" "}
                 </p>
               </div>
             </div>

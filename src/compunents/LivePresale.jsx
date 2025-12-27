@@ -65,7 +65,7 @@ const handleScroll = () => {
 
   return (
     <>
-     <div
+     {/* <div
         className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden  items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999] "
         style={{
           background:
@@ -136,8 +136,8 @@ const handleScroll = () => {
             </div>
             
         </div>
-      </div> 
-     {/*
+      </div>  */}
+    
      <div
       className="flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
@@ -166,7 +166,7 @@ const handleScroll = () => {
         </button>
       </div>
     </div>
-     */} 
+   
     </>
   );
 }

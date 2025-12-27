@@ -130,7 +130,7 @@ function MobileHero() {
               <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex min-w-[130px] flex-col items-end">
                 <img className="max-w-[130px]" src={AOFA} alt="" />
                 <a
-                  href="https://blockchainfx.com/license.pdf"
+                  href="/license.pdf"
                   className="text-[10px] mr-[12px] underline text-[#fff] "
                   target="_blank"
                   rel="noopener noreferrer"

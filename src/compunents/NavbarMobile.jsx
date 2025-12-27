@@ -73,7 +73,7 @@ function NavbarMobile() {
   };
 
   const pdfUrl =
-    "https://blockchainfx.com/BFX-Whitepaper.pdf?_gl=1*97cvu6*_gcl_au*MTEzODkzMzY0LjE3NTQzOTA1ODE.";
+    "/BFX-Whitepaper.pdf?_gl=1*97cvu6*_gcl_au*MTEzODkzMzY0LjE3NTQzOTA1ODE.";
 
   const parts = location.pathname.split("/").filter(Boolean);
   const isHome =
