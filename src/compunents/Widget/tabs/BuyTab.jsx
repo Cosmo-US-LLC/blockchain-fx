@@ -40,7 +40,12 @@ import {
 import DisclaimerModal from "../../../compunents/ui/modals/DisclaimerModal";
 import Modal from "../../../compunents/ui/modals/Modal";
 import ContactModal from "../../../compunents/ui/modals/ContactModal";
-import { refetchUserData, refetchUserProfit, userLevelUp } from "../../../presale-gg/stores/user.store";
+
+import {
+  refetchUserData,
+  refetchUserProfit,
+  userLevelUp,
+} from "../../../presale-gg/stores/user.store";
 import { api } from "../../../presale-gg/api";
 import confetti from "canvas-confetti";
 import { showConnectWalletModal } from "../../../presale-gg/stores/modal.store";
@@ -48,9 +53,9 @@ import WalletTransferModal from "../../ui/modals/WalletTransferModal/WalletTrans
 
 /** @typedef {import("../../../presale-gg/api/api.types").API.Transaction} Transaction */
 
-const BuyTab = ({ onTabChange}) => {
+const BuyTab = ({ onTabChange }) => {
   const { t } = useTranslation();
-  const needsWalletConnected = new Set(['stake', 'history']);
+  const needsWalletConnected = new Set(["stake", "history"]);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
   const [selectedToken, setSelectedToken] = useState(null);
@@ -64,31 +69,45 @@ const BuyTab = ({ onTabChange}) => {
 
   useEffect(() => {
     if (selectedToken || !apiData.paymentTokens?.length) return;
-    const token = apiData.paymentTokens.find(
-      (token) =>
-        token.symbol.toUpperCase() === "ETH" &&
-        token.chain.toUpperCase() === "ERC-20"
-    ) ?? apiData.paymentTokens[0]
-    const group = groupedTokens.find((list) => list.currencies.includes(token)) ?? null
+    const token =
+      apiData.paymentTokens.find(
+        (token) =>
+          token.symbol.toUpperCase() === "ETH" &&
+          token.chain.toUpperCase() === "ERC-20"
+      ) ?? apiData.paymentTokens[0];
+    const group =
+      groupedTokens.find((list) => list.currencies.includes(token)) ?? null;
     setSelectedToken(token);
-    setSelectedTokenGroup(group.groupId)
+    setSelectedTokenGroup(group.groupId);
   }, [apiData.paymentTokens]);
 
-  const prevTokenRef = useRef(selectedToken)
+  const prevTokenRef = useRef(selectedToken);
   useEffect(() => {
-    if (!selectedToken) return
-    let paymentTokenNum = parseNum(paymentTokenNumStr)
-    if (paymentTokenNum === 1 && selectedToken.symbol.toLowerCase() === "card") {
-      paymentTokenNum = 100
-      setPaymentTokenNumStr("100")
-    } else if (paymentTokenNum === 100 && prevTokenRef.current?.symbol?.toLowerCase() === "card") {
-      paymentTokenNum = 1
-      setPaymentTokenNumStr("1")
+    if (!selectedToken) return;
+    let paymentTokenNum = parseNum(paymentTokenNumStr);
+    if (
+      paymentTokenNum === 1 &&
+      selectedToken.symbol.toLowerCase() === "card"
+    ) {
+      paymentTokenNum = 100;
+      setPaymentTokenNumStr("100");
+    } else if (
+      paymentTokenNum === 100 &&
+      prevTokenRef.current?.symbol?.toLowerCase() === "card"
+    ) {
+      paymentTokenNum = 1;
+      setPaymentTokenNumStr("1");
     }
-    setReceiveTokenNumStr(roundToDP(paymentTokenNum * parseNum(selectedToken.price) / parseNum(apiData.stage?.token_price ?? 1), 2))
-    prevTokenRef.current = selectedToken
+    setReceiveTokenNumStr(
+      roundToDP(
+        (paymentTokenNum * parseNum(selectedToken.price)) /
+          parseNum(apiData.stage?.token_price ?? 1),
+        2
+      )
+    );
+    prevTokenRef.current = selectedToken;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedToken])
+  }, [selectedToken]);
 
   const handleScroll = (event, targetId, offset) => {
     event.preventDefault();
@@ -119,12 +138,12 @@ const BuyTab = ({ onTabChange}) => {
   const [createdTransaction, setCreatedTransaction] = useState(null);
   const [transactionModalOpen, setTransactionModalOpen] = useState(false);
 
-  const [buyState, setBuyState] = useState('confirming')
-  const [boughtTransaction, setBoughtTransaction] = useState(null)
-  const [boughtTransactionHash, setBoughtTransactionHash] = useState(null)
-  const [boughtPaymentToken, setBoughtPaymentToken] = useState(null)
-  const [boughtPaymentAmountStr, setBoughtPaymentAmountStr] = useState("0")
-  const [boughtModalOpen, setBoughtModalOpen] = useState(true)
+  const [buyState, setBuyState] = useState("confirming");
+  const [boughtTransaction, setBoughtTransaction] = useState(null);
+  const [boughtTransactionHash, setBoughtTransactionHash] = useState(null);
+  const [boughtPaymentToken, setBoughtPaymentToken] = useState(null);
+  const [boughtPaymentAmountStr, setBoughtPaymentAmountStr] = useState("0");
+  const [boughtModalOpen, setBoughtModalOpen] = useState(true);
 
   const [contactModalOpen, setContactModalOpen] = useState(false);
   const [disclaimerModalOpen, setDisclaimerModalOpen] = useState(false);
@@ -137,8 +156,8 @@ const BuyTab = ({ onTabChange}) => {
   const accountData = useAccount();
   const buy = async () => {
     const account = accountData.address;
-    if (!account) return toast.error(t('buy_tab.you_must_connect_wallet'));
-    if (apiData.presaleEnded) return toast.error(t('buy_tab.presale_ended'));
+    if (!account) return toast.error(t("buy_tab.you_must_connect_wallet"));
+    if (apiData.presaleEnded) return toast.error(t("buy_tab.presale_ended"));
     if (transactionLoading) return;
     setTransactionLoading(true);
     if (!selectedToken) return;
@@ -146,46 +165,50 @@ const BuyTab = ({ onTabChange}) => {
       if (selectedToken.symbol.toLowerCase() === "card") {
         setDisclaimerModalOpen(true);
       } else {
-        setBuyState(null)
-        setBoughtTransaction(null)
-        setBoughtTransactionHash(null)
-        setBoughtPaymentToken(selectedToken)
-        setBoughtPaymentAmountStr(paymentTokenNumStr)
-        setTimeout(() => setBoughtModalOpen(true), 50)
+        setBuyState(null);
+        setBoughtTransaction(null);
+        setBoughtTransactionHash(null);
+        setBoughtPaymentToken(selectedToken);
+        setBoughtPaymentAmountStr(paymentTokenNumStr);
+        setTimeout(() => setBoughtModalOpen(true), 50);
         const res = await buyWithCrypto({
           paymentToken: selectedToken,
           paymentTokenNum: paymentTokenNumStr,
           walletAddress: account,
           onStateChanged: (state) => {
-            setBuyState(state.type)
-            if (state.type === 'confirming') setBoughtTransactionHash(state.transactionHash)
-            else if (state.type === 'finished') {
-              setBoughtTransaction(state.transaction)
-              window.dataLayer = window.dataLayer || []
+            setBuyState(state.type);
+            if (state.type === "confirming")
+              setBoughtTransactionHash(state.transactionHash);
+            else if (state.type === "finished") {
+              setBoughtTransaction(state.transaction);
+              window.dataLayer = window.dataLayer || [];
               window.dataLayer.push({
                 event: "purchase",
                 ecommerce: {
-                  value: parseNum(paymentTokenNumStr) * parseNum(selectedToken.price),
-                  currency: 'USD',
-                  transaction_id: state.transaction.id
-                }
-              })
+                  value:
+                    parseNum(paymentTokenNumStr) *
+                    parseNum(selectedToken.price),
+                  currency: "USD",
+                  transaction_id: state.transaction.id,
+                },
+              });
             }
           },
         });
-        if (!res) return setTransactionLoading(false)
+        if (!res) return setTransactionLoading(false);
         if (res.type === "created") {
           setCreatedTransaction(res.transaction);
           setTimeout(() => {
             setTransactionModalOpen(true);
           }, 30);
         } else {
-          refetchUserData()
-          refetchUserProfit()
+          refetchUserData();
+          refetchUserData();
+          refetchUserProfit();
         }
       }
     } catch (err) {
-      console.error(err)
+      console.error(err);
     }
     setTransactionLoading(false);
   };
@@ -194,9 +217,9 @@ const BuyTab = ({ onTabChange}) => {
     setTransactionLoading(true);
     try {
       const account = accountData.address;
-      if (!account) return toast.error(t('buy_tab.you_must_connect_wallet'));
-      const usd = parseNum(paymentTokenNumStr)
-      const minCreatedAt = Date.now()
+      if (!account) return toast.error(t("buy_tab.you_must_connect_wallet"));
+      const usd = parseNum(paymentTokenNumStr);
+      const minCreatedAt = Date.now();
       await buyWithCard({
         usd,
         walletAddress: account,
@@ -207,31 +230,35 @@ const BuyTab = ({ onTabChange}) => {
         onError: () => setErroredModalOpen(true),
         onSuccess: async (tokens, transaction) => {
           if (tokens !== undefined && transaction !== undefined) {
-            setSuccessBoughtModalOpen(true)
-            window.dataLayer = window.dataLayer || []
+            setSuccessBoughtModalOpen(true);
+            window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
               event: "purchase",
               ecommerce: {
                 value: usd,
-                currency: 'USD',
-                transaction_id: transaction.id
-              }
-            })
+                currency: "USD",
+                transaction_id: transaction.id,
+              },
+            });
           } else {
-            setSuccessModalOpen(true)
-            const transaction = await waitForNextTransaction(account, minCreatedAt)
-            window.dataLayer = window.dataLayer || []
+            setSuccessModalOpen(true);
+            const transaction = await waitForNextTransaction(
+              account,
+              minCreatedAt
+            );
+            window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
               event: "purchase",
               ecommerce: {
                 value: usd,
-                currency: 'USD',
-                transaction_id: transaction.id
-              }
-            })
+                currency: "USD",
+                transaction_id: transaction.id,
+              },
+            });
           }
-          refetchUserData()
-          refetchUserProfit()
+          refetchUserData();
+          refetchUserData();
+          refetchUserProfit();
           setContactModalOpen(true);
         },
       });
@@ -272,32 +299,66 @@ const BuyTab = ({ onTabChange}) => {
 
   useEffect(() => handleCodes, [handleCodes]);
 
-  const { usdToNextRank, currentRank, currentLevel, nextRank, usdPerLevel, usdToNextLevel, ranks, ranksLoaded } = useUserRankData();
+  const {
+    usdToNextRank,
+    currentRank,
+    currentLevel,
+    nextRank,
+    usdPerLevel,
+    usdToNextLevel,
+    ranks,
+    ranksLoaded,
+  } = useUserRankData();
 
   const wouldReceiveRank = useMemo(() => {
-    const paymentUsd = parseNum(paymentTokenNumStr) * parseNum(selectedToken?.price)
-    const levelIncrease = (paymentUsd + (usdPerLevel - usdToNextLevel)) / usdPerLevel
-    const wouldBeLevel = currentLevel + levelIncrease
-    const wouldReceiveRank = [...ranks].sort((a, b) => b.level - a.level).find((rank) => wouldBeLevel >= rank.level) ?? null
-    if (wouldReceiveRank?.rank === currentRank?.rank) return null
-    return wouldReceiveRank
-  }, [currentLevel, usdPerLevel, paymentTokenNumStr, selectedToken?.price, ranks, usdToNextLevel, currentRank])
+    const paymentUsd =
+      parseNum(paymentTokenNumStr) * parseNum(selectedToken?.price);
+    const levelIncrease =
+      (paymentUsd + (usdPerLevel - usdToNextLevel)) / usdPerLevel;
+    const wouldBeLevel = currentLevel + levelIncrease;
+    const wouldReceiveRank =
+      [...ranks]
+        .sort((a, b) => b.level - a.level)
+        .find((rank) => wouldBeLevel >= rank.level) ?? null;
+    if (wouldReceiveRank?.rank === currentRank?.rank) return null;
+    return wouldReceiveRank;
+  }, [
+    currentLevel,
+    usdPerLevel,
+    paymentTokenNumStr,
+    selectedToken?.price,
+    ranks,
+    usdToNextLevel,
+    currentRank,
+  ]);
 
   const wouldReceiveOrCurrentRank = useMemo(() => {
-    return wouldReceiveRank ?? currentRank
-  }, [wouldReceiveRank, currentRank])
+    return wouldReceiveRank ?? currentRank;
+  }, [wouldReceiveRank, currentRank]);
 
   const wouldReceiveNextRank = useMemo(() => {
-    const index = ranks.findIndex((rank) => rank.rank === wouldReceiveOrCurrentRank?.rank)
-    if (index === ranks.length - 1) return null
-    return ranks[index + 1]
-  }, [wouldReceiveOrCurrentRank, ranks])
+    const index = ranks.findIndex(
+      (rank) => rank.rank === wouldReceiveOrCurrentRank?.rank
+    );
+    if (index === ranks.length - 1) return null;
+    return ranks[index + 1];
+  }, [wouldReceiveOrCurrentRank, ranks]);
 
   const usdToNextWouldReceiveRank = useMemo(() => {
-    const currentUsd = currentLevel * usdPerLevel + (usdPerLevel - usdToNextLevel)
-    const wouldBeUsd = currentUsd + parseNum(paymentTokenNumStr) * parseNum(selectedToken?.price)
-    return ((wouldReceiveNextRank?.level ?? 0) * usdPerLevel) - wouldBeUsd
-  }, [wouldReceiveNextRank, currentLevel, usdPerLevel, paymentTokenNumStr, selectedToken, usdToNextLevel])
+    const currentUsd =
+      currentLevel * usdPerLevel + (usdPerLevel - usdToNextLevel);
+    const wouldBeUsd =
+      currentUsd +
+      parseNum(paymentTokenNumStr) * parseNum(selectedToken?.price);
+    return (wouldReceiveNextRank?.level ?? 0) * usdPerLevel - wouldBeUsd;
+  }, [
+    wouldReceiveNextRank,
+    currentLevel,
+    usdPerLevel,
+    paymentTokenNumStr,
+    selectedToken,
+    usdToNextLevel,
+  ]);
 
   const [levelUpLoading, setLevelUpLoading] = useState(false);
   const levelUp = async () => {
@@ -317,7 +378,6 @@ const BuyTab = ({ onTabChange}) => {
   return (
     <>
       <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full isolate">
-       
         <div
           className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
           style={{
@@ -330,16 +390,17 @@ const BuyTab = ({ onTabChange}) => {
           <div className="pt-3">
             <div className="flex justify-between items-center pb-1">
               <span className="text-[#fff] text-[11.74px] font-[400] leading-[100%]">
-                {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised 
-
-
+                {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
               </span>
             </div>
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
               <div
                 className=" h-[10px] rounded-[20px]"
-                style={{ width: `${stageFrac * 100 - 3}%`,background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)", }}
-               
+                style={{
+                  width: `${stageFrac * 100 - 3}%`,
+                  background:
+                    "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                }}
               />
             </div>
             <div>
@@ -348,11 +409,11 @@ const BuyTab = ({ onTabChange}) => {
               </p>
             </div>
           </div>
-        <div className="space-y-[10px]">
-        <h5 className="text-[#fff] text-[13px] text-center font-[400] leading-[100%]">
-            {formatNumber(apiData.info?.transactions, 0, 0)} Participants
-          </h5>
-        </div>
+          <div className="space-y-[10px]">
+            <h5 className="text-[#fff] text-[13px] text-center font-[400] leading-[100%]">
+              {formatNumber(apiData.info?.transactions, 0, 0)} Participants
+            </h5>
+          </div>
         </div>
         {/* <div
           className="px-[24px] py-[10px] rounded-[14.596px]"
@@ -367,12 +428,15 @@ const BuyTab = ({ onTabChange}) => {
         </div> */}
         <div className="text-[#fff] rounded-[8px] overflow-hidden">
           <TokenSelectDropdown
-           getClassName={(active) =>
-            clsx(
-              "flex items-center !justify-center rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
-              { "!bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)]": active }
-            )
-          }
+            getClassName={(active) =>
+              clsx(
+                "flex items-center !justify-center rounded-[8px] px-[8px] py-[5px] gap-[6px] cursor-pointer transition-all h-8 bg-[#ededed]",
+                {
+                  "!bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)]":
+                    active,
+                }
+              )
+            }
             tokenList={{
               currencies:
                 apiData.paymentTokens
@@ -390,10 +454,9 @@ const BuyTab = ({ onTabChange}) => {
                 price: 1,
               },
             }}
-
             onChange={(token, group) => {
-              setSelectedToken(token)
-              setSelectedTokenGroup(group)
+              setSelectedToken(token);
+              setSelectedTokenGroup(group);
             }}
             selectedTokenId={selectedToken?.id}
           />
@@ -404,18 +467,28 @@ const BuyTab = ({ onTabChange}) => {
               key={i}
               tokenList={tokenGroup}
               onChange={(newToken) => {
-                setSelectedToken(newToken)
-                setSelectedTokenGroup(tokenGroup.groupId)
+                setSelectedToken(newToken);
+                setSelectedTokenGroup(tokenGroup.groupId);
               }}
-              selectedTokenId={(!selectedTokenGroup || (tokenGroup.groupId === selectedTokenGroup)) ? selectedToken?.id ?? null : null}
+              selectedTokenId={
+                !selectedTokenGroup || tokenGroup.groupId === selectedTokenGroup
+                  ? selectedToken?.id ?? null
+                  : null
+              }
             />
           ))}
         </div>
-        <div className="flex space-x-1 justify-center items-center">
-          <img className="w-[153px] h-[22px] object-cover" src={comcoin} alt="other_cryptos" />
-          <p className="text-[9.673px] text-[#fff] font-[400]">{t('buy_tab.other_cryptos')}</p>
+        <div className="flex justify-center items-center space-x-1">
+          <img
+            className="w-[153px] h-[22px] object-cover"
+            src={comcoin}
+            alt="other_cryptos"
+          />
+          <p className="text-[9.673px] text-[#fff] font-[400]">
+            {t("buy_tab.other_cryptos")}
+          </p>
         </div>
-      
+
         <div
           className="2xl:px-[24px] xl:px-[24px] lg:px-[24px] md:px-[24px] sm:px-[20px] px-[12px] py-[10px] rounded-[17.596px]"
           style={{
@@ -423,20 +496,29 @@ const BuyTab = ({ onTabChange}) => {
           }}
         >
           <h4 className="text-center text-[#fff] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[12px] text-[10px] leading-normal font-[700]">
-          {t('buy_tab.presale_price')} = <span className="text-[#FBD914]">${formatNumber(apiData.stage?.token_price)}</span> <span className="px-1">|</span> {t('buy_tab.launch_price')} = <span className="text-[#FBD914]">$0.05</span>
+            {t("buy_tab.presale_price")} ={" "}
+            <span className="text-[#FBD914]">
+              ${formatNumber(apiData.stage?.token_price)}
+            </span>{" "}
+            <span className="px-1">|</span> {t("buy_tab.launch_price")} ={" "}
+            <span className="text-[#FBD914]">$0.05</span>
           </h4>
         </div>
-        <div className="px-2 pb-2 rounded-[8px]"
-         style={{
-          background: "rgba(255, 255, 255, 0.09)",
-        }}
+        <div
+          className="px-2 pb-2 rounded-[8px]"
+          style={{
+            background: "rgba(255, 255, 255, 0.09)",
+          }}
         >
-          <div className="  px-1 flex justify-between items-center">
+          <div className="flex justify-between items-center px-1">
             <div className="w-[80%]">
-          <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
-            {t('buy_tab.you_pay_in')} {selectedToken?.symbol.toUpperCase() === "CARD" ? "USD" : selectedToken?.symbol.toUpperCase()}
-            :
-          </label>
+              <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
+                {t("buy_tab.you_pay_in")}{" "}
+                {selectedToken?.symbol.toUpperCase() === "CARD"
+                  ? "USD"
+                  : selectedToken?.symbol.toUpperCase()}
+                :
+              </label>
               <input
                 type="text"
                 className="h-[17.281px] w-[100%] text-[#fff] text-[14.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#000] placeholder:opacity-50"
@@ -497,27 +579,31 @@ const BuyTab = ({ onTabChange}) => {
             </div>
           </div>
         </div>
-        <div className="px-2 pb-2 rounded-[8px]"
-         style={{
-          background: "rgba(255, 255, 255, 0.09)",
-          backdropFilter:"blur(12.145808219909668px)"
-        }}>
-         
-          <div className=" px-1 flex justify-between items-center">
+        <div
+          className="px-2 pb-2 rounded-[8px]"
+          style={{
+            background: "rgba(255, 255, 255, 0.09)",
+            backdropFilter: "blur(12.145808219909668px)",
+          }}
+        >
+          <div className="flex justify-between items-center px-1">
             {/* <div className="relative max-w-[75px] "></div> */}
             <div className="w-[80%] ">
-            <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
-            {t('buy_tab.you_receive_bfx')}
-            {wouldReceiveRank && <>
-              {" "}+{" "}
-              <span
-                onClick={(e) => handleScroll(e, "premium", 90)}
-                className="cursor-pointer text-[#299A00] underline"
-              >
-                {wouldReceiveRank.rank} NFT
-              </span>
-            </>}
-          </label>
+              <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
+                {t("buy_tab.you_receive_bfx")}
+                {wouldReceiveRank && (
+                  <>
+                    {" "}
+                    +{" "}
+                    <span
+                      onClick={(e) => handleScroll(e, "premium", 90)}
+                      className="cursor-pointer text-[#299A00] underline"
+                    >
+                      {wouldReceiveRank.rank} NFT
+                    </span>
+                  </>
+                )}
+              </label>
               <input
                 type="text"
                 className="h-[17.281px] w-[80%] text-[14.85px] font-[700] outline-none bg-[transparent] placeholder:text-[#FBD914] text-[#fff] placeholder:opacity-50"
@@ -566,17 +652,22 @@ const BuyTab = ({ onTabChange}) => {
         <div>
           <button
             onClick={() => {
-              if (accountData.isConnected) buy()
-              else showConnectWalletModal()
+              if (accountData.isConnected) buy();
+              else showConnectWalletModal();
             }}
             className="text-[#000] bg-[linear-gradient(90deg,_#E5AE00_0%,_#FFD551_100%)] px-[12px] rounded-[33px]  text-[11.85px] font-[800] border border-[#E5AE00]  hover:opacity-[0.8] w-[100%] h-[39.094px]"
           >
-            {transactionLoading ? "Loading..." : (apiData.presaleEnded ? "Presale Ended" : (!accountData.isConnected ? t("wallet_section.buttonBuybfx") : t("wallet_section.buttonBuy")))}
+            {transactionLoading
+              ? "Loading..."
+              : apiData.presaleEnded
+              ? "Presale Ended"
+              : !accountData.isConnected
+              ? t("wallet_section.buttonBuybfx")
+              : t("wallet_section.buttonBuy")}
           </button>
         </div>
-        {
-          (usdToNextRank > 0 || !nextRank) ? (
-           <>
+        {usdToNextRank > 0 || !nextRank ? (
+          <>
             {/* <div
               className="px-[24px] py-[5px] space-y-[5px] border border-[#939393]"
               style={{
@@ -594,29 +685,34 @@ const BuyTab = ({ onTabChange}) => {
                   : "That is the highest bonus level"}
               </h4>
             </div> */}
-           </>
-          ) : (
-            <button
-              onClick={levelUp}
-              className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
-            >
-              Unlock {nextRank.rank} NFT
-            </button>
-          )}
-
-          <div className="px-[5px] 2xl:space-y-[5px] xl:space-y-[5px] lg:space-y-[5px] md:space-y-[5px] sm:space-y-[0px] space-y-[0px] py-2 rounded border-[#111] w-[100%]  "
-          style={{
-            border:"0.645px solid #3B3B3B",
-            background:"rgba(245, 245, 245, 0.00)"
-          }}
+          </>
+        ) : (
+          <button
+            onClick={levelUp}
+            className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#000] w-[100%] h-[32.094px]"
           >
-              <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] 2xl:max-w-[235px] xl:max-w-[235px] lg:max-w-[235px] md:max-w-[235px] sm:max-w-[235px] max-w-[235px] mx-auto font-[500]  text-white text-center ">
-                <span className="font-[700]">{t('buy_tab.Special_XMAS_Offer')}: </span> {t('buy_tab.use_bonus_code_1')} <span className="text-[#2FD942] !font-[700]">XMAS50 </span> {t('buy_tab.Special_XMAS_Offer_des')}
-                 {/* {t('buy_tab.more_bfx_coins')} */}
-              </h3> 
-                {/* <p className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] font-[700] text-center text-[#fff]">(This is the biggest offer we will ever have!)</p> */}
-          </div>
+            Unlock {nextRank.rank} NFT
+          </button>
+        )}
 
+        <div
+          className="px-[5px] 2xl:space-y-[5px] xl:space-y-[5px] lg:space-y-[5px] md:space-y-[5px] sm:space-y-[0px] space-y-[0px] py-2 rounded border-[#111] w-[100%]  "
+          style={{
+            border: "0.645px solid #3B3B3B",
+            background: "rgba(245, 245, 245, 0.00)",
+          }}
+        >
+          <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] 2xl:max-w-[235px] xl:max-w-[235px] lg:max-w-[235px] md:max-w-[235px] sm:max-w-[235px] max-w-[235px] mx-auto font-[500]  text-white text-center ">
+            <span className="font-[700]">
+              {t("buy_tab.New_Year_Promo_title")}:{" "}
+            </span>{" "}
+            {t("buy_tab.use_bonus_code_1")}{" "}
+            <span className="text-[#2FD942] !font-[700]">NY60 </span> <br />
+            {t("buy_tab.New_Year_Promo_dec")}
+            {/* {t('buy_tab.more_bfx_coins')} */}
+          </h3>
+          {/* <p className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] font-[700] text-center text-[#fff]">(This is the biggest offer we will ever have!)</p> */}
+        </div>
 
         <div
           className="flex justify-center items-center space-x-[24px]"
@@ -625,23 +721,23 @@ const BuyTab = ({ onTabChange}) => {
           <button
             className="text-[8.888px] px-3 py-1 flex items-center justify-center text-[#fff] font-[700] cursor-pointer"
             style={{
-              borderRadius:"75.392px",
-              background:"#414141",
-              boxShadow:"0px 3.016px 3.016px 0px rgba(0, 0, 0, 0.25)"
+              borderRadius: "75.392px",
+              background: "#414141",
+              boxShadow: "0px 3.016px 3.016px 0px rgba(0, 0, 0, 0.25)",
             }}
             onClick={() =>
               setCodeInputVisible((code) => (code === "bonus" ? null : "bonus"))
             }
           >
             <img className="mr-1" src={bonus} alt="bonus code" />
-            {t('buy_tab.bonus_code')}
+            {t("buy_tab.bonus_code")}
           </button>
           <button
             className="text-[8.888px] px-3 py-1 flex items-center justify-center text-[#fff] font-[700] cursor-pointer"
             style={{
-              borderRadius:"75.392px",
-              background:"#414141",
-              boxShadow:"0px 3.016px 3.016px 0px rgba(0, 0, 0, 0.25)"
+              borderRadius: "75.392px",
+              background: "#414141",
+              boxShadow: "0px 3.016px 3.016px 0px rgba(0, 0, 0, 0.25)",
             }}
             onClick={() =>
               setCodeInputVisible((code) =>
@@ -650,7 +746,7 @@ const BuyTab = ({ onTabChange}) => {
             }
           >
             <img className="mr-1" src={Ref} alt="referral" />
-            {t('buy_tab.referral_link')}
+            {t("buy_tab.referral_link")}
           </button>
         </div>
         {codeInputVisible === "bonus" && (
@@ -665,8 +761,8 @@ const BuyTab = ({ onTabChange}) => {
           transaction={createdTransaction}
           open={transactionModalOpen}
           onClose={() => {
-            setTransactionModalOpen(false)
-            setContactModalOpen(true)
+            setTransactionModalOpen(false);
+            setContactModalOpen(true);
           }}
         />
       )}
@@ -728,20 +824,22 @@ const BuyTab = ({ onTabChange}) => {
         open={contactModalOpen}
         onClose={() => setContactModalOpen(false)}
       />
-      {boughtPaymentAmountStr !== null && boughtPaymentToken !== null && buyState !== null && (
-        <WalletTransferModal
-          open={boughtModalOpen}
-          onClose={() => {
-            setBoughtModalOpen(false)
-            setContactModalOpen(true)
-          }}
-          payCurrency={boughtPaymentToken}
-          payAmount={boughtPaymentAmountStr}
-          state={buyState}
-          transactionHash={boughtTransactionHash}
-          transaction={boughtTransaction}
-        />
-      )}
+      {boughtPaymentAmountStr !== null &&
+        boughtPaymentToken !== null &&
+        buyState !== null && (
+          <WalletTransferModal
+            open={boughtModalOpen}
+            onClose={() => {
+              setBoughtModalOpen(false);
+              setContactModalOpen(true);
+            }}
+            payCurrency={boughtPaymentToken}
+            payAmount={boughtPaymentAmountStr}
+            state={buyState}
+            transactionHash={boughtTransactionHash}
+            transaction={boughtTransaction}
+          />
+        )}
     </>
   );
 };
@@ -753,4 +851,3 @@ const buyTabData = {
 };
 
 export default buyTabData;
-

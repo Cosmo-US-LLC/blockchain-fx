@@ -34,7 +34,7 @@ function Layout({ isMobile }) {
     <>
       {isMobile ? <NavbarMobile /> : <Navbar />}
       <main>
-         {/* <Breadcrumb /> */}
+        {/* <Breadcrumb /> */}
         <Outlet />
       </main>
       <Footer />
@@ -84,21 +84,18 @@ function LangGuard({ children }) {
   return children;
 }
 
-
 function MetaManager() {
   const location = useLocation();
 
   useEffect(() => {
-    let title =
-      "BlockchainFX | Decentralized Crypto & Multi-Asset Exchange";
+    let title = "BlockchainFX | Decentralized Crypto & Multi-Asset Exchange";
     let description =
       "Join BlockchainFX, the soon-to-be-incepted crypto exchange (CEX) offering 500+ assets — crypto, stocks, gold, forex & more in one platform.";
 
     const path = location.pathname.replace(/^\/[a-z]{2}(?=\/)/, "");
 
     if (path === "/how-to-buy") {
-      title =
-        "How to Buy Crypto Presale | BFX Token Guide | BlockchainFX";
+      title = "How to Buy Crypto Presale | BFX Token Guide | BlockchainFX";
       description =
         "Learn how to buy BFX token in our step-by-step guide. Get in at presale stage before the $0.05 launch. Earn daily USDT rewards by joining early.";
     }
@@ -118,13 +115,15 @@ function MetaManager() {
     updateMeta("name", "description", description);
     updateMeta("property", "og:title", title);
     updateMeta("property", "og:description", description);
-    updateMeta("property", "og:url", `https://blockchainfx.com${location.pathname}`);
+    updateMeta(
+      "property",
+      "og:url",
+      `https://blockchainfx.com${location.pathname}`
+    );
   }, [location.pathname]);
 
   return null;
 }
-
-
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
@@ -132,8 +131,7 @@ function App() {
   const { i18n } = useTranslation();
   const location = useLocation();
 
-
-   useEffect(() => {
+  useEffect(() => {
     const breadcrumbMap = {
       "/how-to-buy": "How To Buy",
       "/token-sale": "Token Sale",
@@ -174,7 +172,6 @@ function App() {
     script.textContent = JSON.stringify(schema);
     document.head.appendChild(script);
   }, [location]);
-
 
   useEffect(() => {
     const setLanguageFromURL = async () => {
@@ -285,7 +282,6 @@ function App() {
     document.head.appendChild(xDefault);
   }, [location.pathname, i18n.language, languageLoaded]);
 
-
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
@@ -302,7 +298,7 @@ function App() {
 
   return (
     <div className="bg-[#fff]">
-       <ClickIDTracker />
+      <ClickIDTracker />
       <ToastContainer />
       <Toaster position="bottom-center" />
       <MetaManager />

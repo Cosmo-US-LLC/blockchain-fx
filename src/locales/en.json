@@ -7,33 +7,35 @@
     "reviews": "Reviews",
     "languages": "Languages",
     "dashboard": "Dashboard",
-  "connect_wallet": "Connect Wallet"
+    "connect_wallet": "Connect Wallet"
   },
   "live_presale_section": {
     "title": "BFX Presale is Live",
-     "Halloween_title":"Halloween Bonus:",
-     "Breakthrough_title":"BFX secured a trading license:",
-    "get_more":"Get 50% more with code",
-    "code_CANDY40":"License50",
+    "Halloween_title": "Halloween Bonus:",
+    "Breakthrough_title": "BFX secured a trading license:",
+    "get_more": "Get 50% more with code",
+    "code_CANDY40": "License50",
     "buy_button": "Buy BFX",
     "Huge_title": "Huge BFX Breakthrough Announcement",
-    "Huge_bfx_title":"Huge BFX Announcement",
-    "Special_XMAS_Offer":"Special XMAS Offer",
-    "Special_XMAS_Offer_des":"Get 50% more BFX with code",
-    "black_friday":"Black Friday Offer",
-    "black_friday_des":"Get 70% More BFX with code",
-    "black_friday_code":"BF70",
+    "Huge_bfx_title": "Huge BFX Announcement",
+    "Special_XMAS_Offer": "Special XMAS Offer",
+    "Special_XMAS_Offer_des": "Get 50% more BFX with code",
+    "New_Year_Promo_title": "New Year's Promo",
+    "New_Year_Promo_dec": "Get 60% more BFX with code",
+    "black_friday": "Black Friday Offer",
+    "black_friday_des": "Get 70% More BFX with code",
+    "black_friday_code": "BF70",
     "day": "Day",
-    "Hours":"Hours",
-    "Minutes":"Minutes",
-    "Seconds":"Seconds"
+    "Hours": "Hours",
+    "Minutes": "Minutes",
+    "Seconds": "Seconds"
   },
   "hero": {
     "title": "The First Crypto <br /> Trading",
     "title_highlight": "Super App",
     "subtitle": "BlockchainFX is a licensed next-gen crypto exchange that bridges DeFi with traditional finance. It’s the first platform where users can trade across 500+ real-world and digital assets.",
-     "subtitle_des": "BlockchainFX is a licensed next-gen crypto exchange that connects DeFi with traditional financial markets. It’s the only Web3 platform offering access to stocks, forex, ETFs, and more.",
-     "Licensed": "Licensed & Regulated by",
+    "subtitle_des": "BlockchainFX is a licensed next-gen crypto exchange that connects DeFi with traditional financial markets. It’s the only Web3 platform offering access to stocks, forex, ETFs, and more.",
+    "Licensed": "Licensed & Regulated by",
     "feature1": "The First crypto Exchange Bridging Blockchain and Finance",
     "feature2": "Bitcoin, Ethereum, gold, Tesla, and over 500+ more assets",
     "feature3": "Awarded as 'The Best New Crypto Trading App of 2025'",
@@ -68,48 +70,48 @@
       }
     ]
   },
-    "experts": {
-      "heading": "What Experts Say About BFX",
-      "slide1": {
-        "text": "Imagine getting into Coinbase, or Binance at day one, that's exactly what BFX is offering right now in its presale.",
-        "name": "Clay Bro",
-        "role": "Crypto Youtuber, 136K Followers"
-      },
-      "slide2": {
-        "text": "Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it's not just a token, it's your key to passive staking income.",
-        "name": "Crypto Volt",
-        "role": "Crypto Youtuber, 179K Followers"
-      },
-      "slide3": {
-        "text": "Forex, indices, stocks, ETFs, even options — you can trade them all in one place. It's the first platform of its kind.",
-        "name": "Crypto Dealer",
-        "role": "Youtuber, 102K Followers"
-      },
-      "slide4": {
-        "text": "Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be",
-        "name": "Crypto Pandas",
-        "role": "Youtuber, 22.7K Followers"
-      }
+  "experts": {
+    "heading": "What Experts Say About BFX",
+    "slide1": {
+      "text": "Imagine getting into Coinbase, or Binance at day one, that's exactly what BFX is offering right now in its presale.",
+      "name": "Clay Bro",
+      "role": "Crypto Youtuber, 136K Followers"
     },
-      "blockchainfx_demo": {
-        "title": "BlockchainFX Demo",
-        "description": "In just a few seconds, users can <br/> trade BTC, Tesla, Gold, Pepe, ETFs,<br/> CFDs, and more all seamlessly<br/> on one powerful platform.",
-        "buy_button": "Buy BFX",
-        "watch_live_button": "Watch Live Trading Here",
-        "assets_title": "More Than 500 Assets",
-        "assets_description": "BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes. No delays, no extra fees, no switching platforms. Just fast and real-time trading.",
-        "asset_list_title": "Users can trade on BlockchainFX:",
-        "asset_crypto": "Crypto",
-        "asset_stocks": "Stocks",
-        "asset_forex": "Forex",
-        "asset_commodities": "Commodities",
-        "asset_etfs": "ETFs",
-        "asset_options": "Options",
-        "asset_futures": "Futures",
-        "asset_indices": "Indices",
-        "asset_cfds": "CFDs and more."
-      },
-      "creditCard": {
+    "slide2": {
+      "text": "Hold BFX and earn daily USDT rewards from trading fees, even when you're not trading, it's not just a token, it's your key to passive staking income.",
+      "name": "Crypto Volt",
+      "role": "Crypto Youtuber, 179K Followers"
+    },
+    "slide3": {
+      "text": "Forex, indices, stocks, ETFs, even options — you can trade them all in one place. It's the first platform of its kind.",
+      "name": "Crypto Dealer",
+      "role": "Youtuber, 102K Followers"
+    },
+    "slide4": {
+      "text": "Every time someone trades on this platform, you will earn — the more BFX you hold, the higher your rewards will be",
+      "name": "Crypto Pandas",
+      "role": "Youtuber, 22.7K Followers"
+    }
+  },
+  "blockchainfx_demo": {
+    "title": "BlockchainFX Demo",
+    "description": "In just a few seconds, users can <br/> trade BTC, Tesla, Gold, Pepe, ETFs,<br/> CFDs, and more all seamlessly<br/> on one powerful platform.",
+    "buy_button": "Buy BFX",
+    "watch_live_button": "Watch Live Trading Here",
+    "assets_title": "More Than 500 Assets",
+    "assets_description": "BlockchainFX is the first exchange that lets Web3 users instantly swap between crypto and traditional asset classes. No delays, no extra fees, no switching platforms. Just fast and real-time trading.",
+    "asset_list_title": "Users can trade on BlockchainFX:",
+    "asset_crypto": "Crypto",
+    "asset_stocks": "Stocks",
+    "asset_forex": "Forex",
+    "asset_commodities": "Commodities",
+    "asset_etfs": "ETFs",
+    "asset_options": "Options",
+    "asset_futures": "Futures",
+    "asset_indices": "Indices",
+    "asset_cfds": "CFDs and more."
+  },
+  "creditCard": {
     "title": "BFX Visa Card",
     "item1": "Unlimited Spending",
     "item2": "Metal or 18 Karat Gold Card",
@@ -128,7 +130,7 @@
     "buyButton": "Buy $BFX",
     "accessButton": "Access Whitepaper"
   },
-    
+
   "wallet_section": {
     "title": "BFX Presale",
     "description": "BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, <br /> where holders receive USDT rewards anytime someone trades — even during the presale.",
@@ -144,11 +146,10 @@
     "step_4_title": "4. Claim",
     "step_4_description": "<p>Congratulations! You'll be able to claim your tokens with one click on this website once the presale ends. <br/><br/> Thanks for being part of the BFX journey!</p>",
     "launch_title": "5. Launch ",
-    "exchanges":"$BFX Launches On Multiple Top-Tier Exchanges",
+    "exchanges": "$BFX Launches On Multiple Top-Tier Exchanges",
     "launch_description": "$BFX Launches On Multiple Top-Tier Exchanges",
-    "buttonBuy":"Buy Now",
-    "buttonBuybfx":"Buy BFX"
-    
+    "buttonBuy": "Buy Now",
+    "buttonBuybfx": "Buy BFX"
   },
   "next_generation_section": {
     "title": "Next Generation Trading Experience",
@@ -233,12 +234,12 @@
   "earn_on_section": {
     "title": "Earn Daily With BFX",
     "description": "BFX holders earn daily staking rewards in USDT and BFX, powered by BlockchainFX trading fees. Every time someone trades on the app, holders get rewarded. The more BFX a person holds, the more they earn — up to a maximum of 25,000 USDT per day.",
-    "button":"Buy $BFX"
+    "button": "Buy $BFX"
   },
- "how_does_it_sec": {
+  "how_does_it_sec": {
     "title": "How It Works?",
     "subtitle": "BlockchainFX is a global exchange where users can trade crypto, stocks, forex, ETFs, and more. Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.<br/><br/> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.",
-     "subtitle_des": "BlockchainFX is a  global exchange where users can trade crypto, stocks, forex, ETFs, and more. <br/> Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.<br/> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.",
+    "subtitle_des": "BlockchainFX is a  global exchange where users can trade crypto, stocks, forex, ETFs, and more. <br/> Every time someone trades, 70% of the trading fees go toward the $BFX staking pool, buybacks, and token burns.<br/> Staking rewards are based on how much BFX a community member holds and are capped at $25,000 USDT per day.",
     "cards": {
       "staking_rewards": {
         "title": "BFX & USDT Staking Rewards",
@@ -254,8 +255,8 @@
       }
     }
   },
- 
- "premium_section": {
+
+  "premium_section": {
     "title": "Get Special Bonuses Starting From $1,000",
     "description": "Buy $BFX during the presale and join the Founder's Club starting from just $1,000.<br />Get your exclusive NFT, BFX Visa Card, bonus tokens, daily USDT staking rewards,<br /> and free trading credits. Exclusively available during the presale.",
     "how_much_spend": "How much do you want to spend",
@@ -263,7 +264,13 @@
       {
         "title": "Novice",
         "price": "$1,000",
-        "points": ["BFX Visa Card", "10% BFX Bonus", "BFX Staking Rewards", "Daily USDT Rewards", "Trading Credits of up to $25k"],
+        "points": [
+          "BFX Visa Card",
+          "10% BFX Bonus",
+          "BFX Staking Rewards",
+          "Daily USDT Rewards",
+          "Trading Credits of up to $25k"
+        ],
         "buttonLabel": "Buy $BFX • $1,000",
         "cardPointsTooltips": [
           "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
@@ -276,7 +283,13 @@
       {
         "title": "Advanced",
         "price": "$2,500",
-        "points": ["BFX Visa Card", "20% BFX Bonus", "BFX Staking Rewards", "$500 Trading Credits", "Daily USDT Rewards"],
+        "points": [
+          "BFX Visa Card",
+          "20% BFX Bonus",
+          "BFX Staking Rewards",
+          "$500 Trading Credits",
+          "Daily USDT Rewards"
+        ],
         "buttonLabel": "Buy $BFX • $2,500",
         "cardPointsTooltips": [
           "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
@@ -289,7 +302,13 @@
       {
         "title": "Pro",
         "price": "$5,000",
-        "points": ["Metal BFX Visa Card", "30% BFX Bonus", "BFX Staking Rewards", "$1000 Trading Credits", "Daily USDT Rewards"],
+        "points": [
+          "Metal BFX Visa Card",
+          "30% BFX Bonus",
+          "BFX Staking Rewards",
+          "$1000 Trading Credits",
+          "Daily USDT Rewards"
+        ],
         "buttonLabel": "Buy $BFX • $5,000",
         "cardPointsTooltips": [
           "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
@@ -302,7 +321,13 @@
       {
         "title": "Expert",
         "price": "$10,000",
-        "points": ["Metal BFX Visa Card", "40% BFX Bonus", "BFX Staking Rewards", "10% USDT Rewards", "$2000 Trading Credits"],
+        "points": [
+          "Metal BFX Visa Card",
+          "40% BFX Bonus",
+          "BFX Staking Rewards",
+          "10% USDT Rewards",
+          "$2000 Trading Credits"
+        ],
         "buttonLabel": "Buy $BFX • $10,000",
         "cardPointsTooltips": [
           "Get your BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
@@ -315,7 +340,13 @@
       {
         "title": "Master",
         "price": "$25,000",
-        "points": ["Metal BFX Visa Card", "50% BFX Bonus", "BFX Staking Rewards", "15% USDT Rewards", "$5000 Trading Credits"],
+        "points": [
+          "Metal BFX Visa Card",
+          "50% BFX Bonus",
+          "BFX Staking Rewards",
+          "15% USDT Rewards",
+          "$5000 Trading Credits"
+        ],
         "buttonLabel": "Buy $BFX • $25,000",
         "cardPointsTooltips": [
           "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
@@ -328,7 +359,13 @@
       {
         "title": "Elite",
         "price": "$50,000",
-        "points": ["Metal BFX Visa Card", "60% BFX Bonus", "BFX Staking Rewards", "20% USDT Rewards", "$10000 Trading Credits"],
+        "points": [
+          "Metal BFX Visa Card",
+          "60% BFX Bonus",
+          "BFX Staking Rewards",
+          "20% USDT Rewards",
+          "$10000 Trading Credits"
+        ],
         "buttonLabel": "Buy $BFX • $50,000",
         "cardPointsTooltips": [
           "Get your Metal BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
@@ -341,7 +378,13 @@
       {
         "title": "Legend",
         "price": "$100,000",
-        "points": ["18 Karat BFX Visa Card", "80% BFX Bonus", "BFX Staking Rewards", "30% USDT Rewards", "$25000 Trading Credits"],
+        "points": [
+          "18 Karat BFX Visa Card",
+          "80% BFX Bonus",
+          "BFX Staking Rewards",
+          "30% USDT Rewards",
+          "$25000 Trading Credits"
+        ],
         "buttonLabel": "Buy $BFX • $100,000",
         "cardPointsTooltips": [
           "Get your 18 Karat BFX Visa Card (virtual and physical), accepted online and in stores worldwide.",
@@ -485,7 +528,7 @@
       "label": "Total Supply",
       "value": "3.5B"
     },
-     "contract_address": {
+    "contract_address": {
       "label": "Token Contract Address"
     },
     "Presale_Details": {
@@ -502,7 +545,7 @@
     }
   },
   "lineBreak": "<br />",
- "press_media_section": {
+  "press_media_section": {
     "title": "Press & Media",
     "articles": [
       {
@@ -523,50 +566,49 @@
     ]
   },
   "Roadmap_section": {
-  "Roadmap": "Roadmap",
-  "From Fintech Startup to Global Market Leader": "From Fintech Startup to Global Market Leader",
-  "Genesis": "Genesis",
-  "Foundations": "Foundations",
-  "Takeoff": "Takeoff",
-  "Scale": "Scale",
-  "Expansion": "Expansion",
-  "Global Reach": "Global Reach",
-  "Preparation": "Preparation",
-  "Completed": "Completed",
-  "Execution": "Execution",
-  "Launch": "Launch",
-  "On-going": "On-going",
-  "Performance": "Performance",
-  "Idea + concept": "Idea + concept",
-  "Raise Seed Funds": "Raise Seed Funds",
-  "Onboard Team & Advisors": "Onboard Team & Advisors",
-  "Trading Platform Beta Preparation": "Launch Beta Trading Platform",
-  "Website, Tokenomics etc.": "Website, Tokenomics etc.",
-  "Create $BFX Token": "Create $BFX Token",
-  "Launch $BFX Pre-Sale": "Launch $BFX Pre-Sale",
-  "Certik Token Audit": "Certik Audit Completed",
-  "Launch an Affiliate Program": "Launch an Affiliate Program",
-  "Sell Out the Pre-Sale": "Sell Out the Pre-Sale",
-  "Launch $BFX on Uniswap and CEX": "Launch $BFX on Uniswap and CEX",
-  "Achieving-10000-BFX-Holders": "Achieving 10,000 BFX Holders",
-  "Multiple CEX Listing": "Multiple CEX Listing",
-  "Achieving-100,000-BFX-Holders": "Achieving 100,000 BFX Holders",
-  "Reach $100M Daily Trading Volume": "Reach $100M Daily Trading Volume",
-  "Add Leaderboards & VIP accounts": "Add Leaderboards & VIP accounts",
-  "US License": "US License",
-  "Global Marketing Campaigns": "Apply for US Trading License",
-  "Major Global Partnerships": "Major Global Partnerships",
-  "next": "Next",
-  "previous": "Previous"
-},
+    "Roadmap": "Roadmap",
+    "From Fintech Startup to Global Market Leader": "From Fintech Startup to Global Market Leader",
+    "Genesis": "Genesis",
+    "Foundations": "Foundations",
+    "Takeoff": "Takeoff",
+    "Scale": "Scale",
+    "Expansion": "Expansion",
+    "Global Reach": "Global Reach",
+    "Preparation": "Preparation",
+    "Completed": "Completed",
+    "Execution": "Execution",
+    "Launch": "Launch",
+    "On-going": "On-going",
+    "Performance": "Performance",
+    "Idea + concept": "Idea + concept",
+    "Raise Seed Funds": "Raise Seed Funds",
+    "Onboard Team & Advisors": "Onboard Team & Advisors",
+    "Trading Platform Beta Preparation": "Launch Beta Trading Platform",
+    "Website, Tokenomics etc.": "Website, Tokenomics etc.",
+    "Create $BFX Token": "Create $BFX Token",
+    "Launch $BFX Pre-Sale": "Launch $BFX Pre-Sale",
+    "Certik Token Audit": "Certik Audit Completed",
+    "Launch an Affiliate Program": "Launch an Affiliate Program",
+    "Sell Out the Pre-Sale": "Sell Out the Pre-Sale",
+    "Launch $BFX on Uniswap and CEX": "Launch $BFX on Uniswap and CEX",
+    "Achieving-10000-BFX-Holders": "Achieving 10,000 BFX Holders",
+    "Multiple CEX Listing": "Multiple CEX Listing",
+    "Achieving-100,000-BFX-Holders": "Achieving 100,000 BFX Holders",
+    "Reach $100M Daily Trading Volume": "Reach $100M Daily Trading Volume",
+    "Add Leaderboards & VIP accounts": "Add Leaderboards & VIP accounts",
+    "US License": "US License",
+    "Global Marketing Campaigns": "Apply for US Trading License",
+    "Major Global Partnerships": "Major Global Partnerships",
+    "next": "Next",
+    "previous": "Previous"
+  },
   "multiAward": {
     "heading": "Multi-Awarded Trading Platform",
     "subheading": "Our Awards <br /> Speak For Themselves",
-    "theCoinRise":"TheCoinRisE",
-    "theCoinRise_desp":"Best Trading <br /> Platform <br /> 2025",
-    "altcoinDaily":"AltcoinDaily",
-    "altcoinDaily_desp":"Fastest Growing  <br /> Trading Broker <br /> 2025"
-
+    "theCoinRise": "TheCoinRisE",
+    "theCoinRise_desp": "Best Trading <br /> Platform <br /> 2025",
+    "altcoinDaily": "AltcoinDaily",
+    "altcoinDaily_desp": "Fastest Growing  <br /> Trading Broker <br /> 2025"
   },
   "trader_reviews_section": {
     "title": "What Traders Say About <span>BlockchainFX</span>",
@@ -688,7 +730,7 @@
         "question": "Are my tokens safe?",
         "answer": "The safety of your tokens during the presale is 100% guaranteed through our smart contract, where all data is securely stored. Tokens are allocated to each buyer and can only be accessed with their wallet. BFX tokens cannot be transferred during the presale and can only be claimed once the presale ends."
       },
-       {
+      {
         "question": "Is there a vesting period?",
         "answer": "No, you can claim all your purchased BFX tokens instantly after the presale on <a href=\"/\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. There is no vesting period for these tokens. <br/><br/> However, to safeguard the project and ensure the best possible launch, bonus tokens, referral rewards, and staking rewards are subject to a 90-day vesting period. These vested tokens will be claimable once the vesting period is completed."
       },
@@ -734,7 +776,7 @@
     "cookie_management": "Cookie Management"
   },
 
- "MobilePremiumSec": {
+  "MobilePremiumSec": {
     "subtitle": "Limited Founder's <br /> Club Membership",
     "description": "Buy BFX during the presale and become a Founder's Club Member starting from just $1,000. Get your exclusive NFT, BFX Visa Card, Bonus Tokens, Daily USDT Staking Rewards, and Free Trading Credits.",
     "tiers": {
@@ -1004,20 +1046,22 @@
     "you_receive_bfx": "You Receive $BFX",
     "nft": "NFT",
     "unlock_nft": "Unlock",
-    "limited_time_offer_1":"Special Offer:",
-    "use_bonus_code_1":"Use Bonus Code",
-    "code_1":"License50",
-    "limit_bonus_time":"Limited Time Offer",
-    "Special_XMAS_Offer":"Special XMAS Offer",
-    "Special_XMAS_Offer_des":"to get 50% more BFX coins!",
-    "black_friday_offer":"Black Friday Offer",
-    "cyber_offer":" Cyber Monday Offer",
-    "cyber_offer_get":"To Get 50% More $BFX Tokens.",
-    "cyber_get":"Get 50% more BFX with code",
-    "black_code":"BF70",
-    "black_friday_offer_des":"To Get 70% More $BFX Tokens.",
-    "use_bonus_limit":"To Get 20% More $BFX Coins!",
-    "to_get":"To Get 50% More $BFX Tokens.",
+    "limited_time_offer_1": "Special Offer:",
+    "use_bonus_code_1": "Use Code",
+    "code_1": "License50",
+    "limit_bonus_time": "Limited Time Offer",
+    "Special_XMAS_Offer": "Special XMAS Offer",
+    "Special_XMAS_Offer_des": "to get 50% more BFX coins!",
+    "New_Year_Promo_title": "Special New Year's Offer",
+    "New_Year_Promo_dec": "to Get 60% more BFX coins!",
+    "black_friday_offer": "Black Friday Offer",
+    "cyber_offer": " Cyber Monday Offer",
+    "cyber_offer_get": "To Get 50% More $BFX Tokens.",
+    "cyber_get": "Get 50% more BFX with code",
+    "black_code": "BF70",
+    "black_friday_offer_des": "To Get 70% More $BFX Tokens.",
+    "use_bonus_limit": "To Get 20% More $BFX Coins!",
+    "to_get": "To Get 50% More $BFX Tokens.",
     "limited_time_offer": "Halloween Special:",
     "use_bonus_code": "Use code",
     "bonus_code_num": "CANDY40",
@@ -1036,19 +1080,19 @@
     "buy_bfx": "Buy BFX"
   },
   "nft": {
-  "legend": "Legend",
-  "elite": "Elite",
-  "master": "Master",
-  "expert": "Expert"
-},
-"how_to_buy_hero": {
-  "title": "How To Buy",
-  "blockchain_fx": "BlockchainFX",
-  "bfx_token": "($BFX)",
-  "description": "Follow this simple step-by-step guide to secure your $BFX tokens and unlock daily crypto rewards. Whether you're paying with crypto or card, everything you need is outlined below.",
-  "coin_alt": "BFX Coin"
-},
- "stepOneWallet": {
+    "legend": "Legend",
+    "elite": "Elite",
+    "master": "Master",
+    "expert": "Expert"
+  },
+  "how_to_buy_hero": {
+    "title": "How To Buy",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "Follow this simple step-by-step guide to secure your $BFX tokens and unlock daily crypto rewards. Whether you're paying with crypto or card, everything you need is outlined below.",
+    "coin_alt": "BFX Coin"
+  },
+  "stepOneWallet": {
     "step1": "Step 1",
     "setupTitle": "Set up a Wallet",
     "setupDescription": "Before you purchase BFX, make sure you're using a decentralised crypto wallet. This ensures your tokens are properly linked to your wallet address and your rewards are activated.",
@@ -1065,7 +1109,7 @@
       "anyDeviceOption": "WalletConnect-compatible apps"
     }
   },
-   "payment": {
+  "payment": {
     "step2": "Step 2",
     "title": "Select Payment Method",
     "subtitle": "Choose from the following supported options:"
@@ -1077,12 +1121,12 @@
     "youReceive": "You Receive BFX",
     "bonus": "+ Novice NFT"
   },
-   "paymentCardTwo": {
+  "paymentCardTwo": {
     "selectText1": "Select your preferred",
     "selectText2": "currency or card option.",
     "buyWithCard": "Buy with Card"
   },
-   "paymentCardThree": {
+  "paymentCardThree": {
     "click": "Click",
     "buyNow": "Buy Now",
     "amountYouPay": "Amount You Pay in USDT",
@@ -1099,7 +1143,7 @@
       "2": "Approve the transaction through your wallet (MetaMask, Trust Wallet, etc.)."
     }
   },
-   "stepFourViewCoins": {
+  "stepFourViewCoins": {
     "step": "STEP 4",
     "title": "View Your BFX Coins",
     "subtitle": "Once your payment is confirmed:",
@@ -1118,7 +1162,7 @@
     },
     "thankYou": "Thank you for being part of the BFX journey."
   },
-   "stepSixLaunch": {
+  "stepSixLaunch": {
     "step": "STEP 6",
     "title": "Launch",
     "exchangesTitle": "$BFX Launches On Multiple Top-Tier Exchanges",
@@ -1126,11 +1170,9 @@
     "description2": "Stay updated via our website and social channels for listing announcements.",
     "button": "Buy BFX Now"
   },
-   "how_footer": {
+  "how_footer": {
     "disclaimer": "Cryptocurrency may be unregulated in your jurisdiction, and its value can fluctuate, leading to potential gains or losses. Any profits might be subject to capital gains or other taxes, depending on your local laws. The content on this platform does not constitute an offer, recommendation, or financial advice to buy, sell, or engage in any cryptocurrency transactions. You are solely responsible for assessing whether a transaction aligns with your personal goals, financial circumstances, and risk tolerance. We strongly recommend consulting trusted and licensed legal, tax, or financial professionals before making any decisions.<br/><br/>Trading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. BlockchainFX does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.",
     "copyright": "Copyright 2025. All Rights Reserved.",
     "cookie_management": "Cookie Management"
   }
-
 }
-  
