@@ -75,7 +75,7 @@ function LivePresale() {
             <span className="font-[800]">
               {t("live_presale_section.New_Year_Promo_title")}
             </span>
-            : {t("live_presale_section.Special_XMAS_Offer_des")}{" "}
+            : {t("live_presale_section.New_Year_Promo_dec")}{" "}
             <span className="font-[800]">NY60 </span>
           </p>
 
