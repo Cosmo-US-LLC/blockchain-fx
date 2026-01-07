@@ -71,9 +71,9 @@ const handleScroll = () => {
           background: "#FCD149",
         }}
       >
-        <div className="max-w-[1080px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
+        <div className="max-w-[680px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.Big_BFX_Release")}</span>
+            <span className="font-[800]">{t("live_presale_section.Big_BFX_Release")}:</span>
             {/* : {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">XMAS50 </span> */}
           </p>
 
