@@ -65,13 +65,13 @@ const handleScroll = () => {
 
   return (
     <>
-     <div
+     {/* <div
         className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden  items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999] "
         style={{
           background: "#FCD149",
         }}
-      >
-        <div className="max-w-[1060px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
+      > */}
+        {/* <div className="max-w-[1060px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
             <span className="font-[800]">{t("live_presale_section.BFX_App_Launch")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">APP50</span>
           </p>
@@ -148,9 +148,9 @@ const handleScroll = () => {
             </button>
           </div>
         </div>
-      </div> 
+      </div>  */}
     
-     {/* <div
+     <div
       className="flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
         background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
@@ -177,7 +177,7 @@ const handleScroll = () => {
           {t("live_presale_section.buy_button")}
         </button>
       </div>
-    </div> */}
+    </div>
    
     </>
   );

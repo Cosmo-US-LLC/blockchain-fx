@@ -5,7 +5,7 @@ const LaunchPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
 
 useEffect(() => {
-  setIsOpen(true);
+  // setIsOpen(true);
 }, []);
 
 
