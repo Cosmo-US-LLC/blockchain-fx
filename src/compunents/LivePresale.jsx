@@ -157,7 +157,8 @@ const handleScroll = () => {
         // background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
       }}
     >
-      <div className="max-w-[900px] mx-auto w-[100%] flex flex-row justify-evenly 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[15px] space-x-[15px] items-center px-0">
+      <div className="max-w-[1100px] mx-auto w-[100%] flex flex-row justify-between 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[15px] space-x-[15px] items-center px-0">
+        <div></div>
         <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px]">
           {/* {t("live_presale_section.title")} */}
           The <strong>BFX App</strong> is now live in 100+ countries at <strong>BlockFX.com</strong>
