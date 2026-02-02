@@ -158,7 +158,7 @@ const handleScroll = () => {
       }}
     >
       <div className="2xl:max-w-[1100px] xl:max-w-[1100px] lg:max-w-[1100px] md:max-w-[1100px] sm:max-w-[1100px] max-w-[360px] mx-auto 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] flex flex-row justify-between 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[10px] space-x-[5px] items-center px-2">
-        {/* <div></div> */}
+        <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div>
         <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px]">
           {/* {t("live_presale_section.title")} */}
           The <strong>BFX App</strong> is now live in 100+ countries at <strong>BlockFX.com</strong>
