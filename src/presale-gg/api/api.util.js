@@ -370,6 +370,14 @@ export const getReferralBonuses = (walletAddress) => {
 };
 
 /**
+ * @param {string} walletAddress 
+ * @returns {Promise<AxiosResponse<import("./api.types.d.ts").API.UserProfitData>>}
+ */
+export const getUserProfit = (walletAddress) => {
+  return apiFetch(`/projects/${project}/wallet/${walletAddress}/profit`)
+}
+
+/**
  *
  * @param {unknown} e
  * @param {string} [defaultMsg]

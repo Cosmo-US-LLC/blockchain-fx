@@ -765,11 +765,11 @@
       },
       {
         "question": "是否存在归属期（vesting）？",
-        "answer": "不，您可以在预售结束后立即在 <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> 领取您购买的所有 BFX 代币。这些代币没有锁定期。<br/><br/> 然而，为了保护项目并确保最佳上线效果，奖励代币、推荐奖励和质押奖励将有90天的锁定期。这些代币将在锁定期结束后可领取。"
+        "answer": "不，您可以在预售结束后立即在 <a href=\"/\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> 领取您购买的所有 BFX 代币。这些代币没有锁定期。<br/><br/> 然而，为了保护项目并确保最佳上线效果，奖励代币、推荐奖励和质押奖励将有90天的锁定期。这些代币将在锁定期结束后可领取。"
       },
       {
         "question": "如何领取BFX？",
-        "answer": "预售结束后，您可以在<a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>上几秒钟内领取您的BFX代币。"
+        "answer": "预售结束后，您可以在<a href=\"/\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>上几秒钟内领取您的BFX代币。"
       }
     ]
   },

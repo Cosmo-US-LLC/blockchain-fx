@@ -851,11 +851,11 @@
       },
       {
         "question": "Onko olemassa vesting‑jaksoa?",
-        "answer": "Ei, voit lunastaa kaikki ostamasi BFX-tokenit heti ennakkomyynnin jälkeen osoitteessa <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Näillä tokeneilla ei ole lukitusjaksoa. <br/><br/> Kuitenkin projektin suojelemiseksi ja parhaan mahdollisen lanseerauksen varmistamiseksi bonustokenit, suosituspalkinnot ja staking-palkinnot ovat 90 päivän lukitusajan alaisia. Nämä tokenit voidaan lunastaa lukitusajan päätyttyä."
+        "answer": "Ei, voit lunastaa kaikki ostamasi BFX-tokenit heti ennakkomyynnin jälkeen osoitteessa <a href=\"/\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>. Näillä tokeneilla ei ole lukitusjaksoa. <br/><br/> Kuitenkin projektin suojelemiseksi ja parhaan mahdollisen lanseerauksen varmistamiseksi bonustokenit, suosituspalkinnot ja staking-palkinnot ovat 90 päivän lukitusajan alaisia. Nämä tokenit voidaan lunastaa lukitusajan päätyttyä."
       },
       {
         "question": "Kuinka lunastan BFX:ni?",
-        "answer": "Voit lunastaa BFX-tokenisi muutamassa sekunnissa sivustolla <a href=\"https://BlockchainFX.com\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>, kun ennakkomyynti päättyy."
+        "answer": "Voit lunastaa BFX-tokenisi muutamassa sekunnissa sivustolla <a href=\"/\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>, kun ennakkomyynti päättyy."
       }
     ]
   },

@@ -9,7 +9,7 @@ import { useAccount } from "../../../presale-gg/web3/hooks"
 import copyImg from "../../../assets/navbar/wallet/copy-left.png";
 import iicon from "../../../assets/navbar/wallet/information-circle-contained-filled.png";
 import { capitalize, copyText, parseNum, waitForNextTransaction, zeroPad } from '../../../presale-gg/util'
-import { refetchUserData } from '../../../presale-gg/stores/user.store'
+import { refetchUserData, refetchUserProfit } from '../../../presale-gg/stores/user.store'
 /**
  * @typedef {import("../../../presale-gg/api/api.types").API.Transaction} NowPaymentsTransaction
  * @typedef {import("./Modal").ModalProps} ModalProps
@@ -56,6 +56,7 @@ export const TransactionModal = ({ transaction, ...others }) => {
     waitForNextTransaction(accountData.address, createdAt.current, {
       signal: abortController.signal
     }).then((trx) => {
+      refetchUserProfit()
       refetchUserData().finally(() => {
         if (abortController.signal.aborted) return
         setStatus('paid')
