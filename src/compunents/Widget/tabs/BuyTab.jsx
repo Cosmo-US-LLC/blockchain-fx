@@ -703,7 +703,7 @@ const BuyTab = ({ onTabChange }) => {
           }}
           >
               <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] 2xl:max-w-[220px] xl:max-w-[220px] lg:max-w-[220px] md:max-w-[220px] sm:max-w-[220px] max-w-[220px] mx-auto font-[500]  text-white text-center ">
-                <span className="font-[700]">{t('live_presale_section.Special_App')}: </span> {t('buy_tab.use_bonus_code_1')} <span className="text-[#2FD942] !font-[700]">APP50 </span> {t('live_presale_section.use_bonus_limit')}
+                <span className="font-[700]">{t('live_presale_section.Special_App')}: </span> {t('buy_tab.use_bonus_code_1')} <span className="text-[#2FD942] !font-[700]">BFX20 </span> {t('live_presale_section.use_bonus_limit')}
                  {/* {t('buy_tab.more_bfx_coins')} */}
               </h3> 
                 {/* <p className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] font-[700] text-center text-[#fff]">(This is the biggest offer we will ever have!)</p> */}
