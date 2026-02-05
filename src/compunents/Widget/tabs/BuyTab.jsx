@@ -705,7 +705,7 @@ const BuyTab = ({ onTabChange }) => {
               <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] 2xl:max-w-[300px] xl:max-w-[300px] lg:max-w-[300px] md:max-w-[300px] sm:max-w-[300px] max-w-[300px] mx-auto font-[500]  text-white text-center ">
                 {/* <span className="font-[700]">
                   {t('live_presale_section.Special_App')}: </span> {t('buy_tab.use_bonus_code_1')}  */}
-                  Valentine’s Special 💝 Get 50% More BFX with Code <span className="text-[#2FD942] !font-[700]">LOVE50 </span> 
+                  Special Valentine's Day Offer: <br/> Get 50% More BFX with Code <span className="text-[#2FD942] !font-[700]">LOVE50 </span> 
                   {/* {t('live_presale_section.use_bonus_limit')} */}
                  {/* {t('buy_tab.more_bfx_coins')} */}
               </h3> 
