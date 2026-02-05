@@ -211,14 +211,14 @@ const handleScroll = () => {
         // background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
       }}
     >
-      <div className="2xl:max-w-[1100px] xl:max-w-[1100px] lg:max-w-[1100px] md:max-w-[1100px] sm:max-w-[1100px] max-w-[100%] mx-auto 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] flex flex-col justify-between 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[10px] space-x-[5px] items-center ">
+      <div className="2xl:max-w-[1100px] xl:max-w-[1100px] lg:max-w-[1100px] md:max-w-[1100px] sm:max-w-[1100px] max-w-[100%] mx-auto 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] flex flex-col justify-between 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[0px] space-x-[0px] items-center ">
         {/* <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div> */}
         <p className="font-[600] 2xl:text-[16px] pb-1 xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px]">
           {/* {t("live_presale_section.title")} */}
           The Valentine's Special 💝 Get 50% More BFX with Code <strong>LOVE50</strong> 
         </p>
-       <div className="flex items-center justify-center space-x-2 pt-1 border-t-[1px] border-[#000] w-[100%]">
-           <div className="flex items-center space-x-2">
+       <div className="flex items-center justify-center space-x-3 pt-1 border-t-[1px] border-[#000] w-[100%]">
+           <div className="flex items-center ">
             <div>
               <h3 className="text-[14px] font-[600]">
                 {timeLeft.days}{" "}
