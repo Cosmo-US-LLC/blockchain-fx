@@ -162,7 +162,7 @@ const handleScroll = () => {
         {/* <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div> */}
         <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px]">
           {/* {t("live_presale_section.title")} */}
-          The Valentine's Special 💝 Get 50% More BFX with Code <strong>LOVE50</strong> 
+          The Valentine's Special: Get 50% More BFX with Code <strong>LOVE50</strong> 
         </p>
           <div className="flex items-center space-x-2">
             <div>
@@ -215,7 +215,7 @@ const handleScroll = () => {
         {/* <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div> */}
         <p className="font-[600] 2xl:text-[16px] pb-1 xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px]">
           {/* {t("live_presale_section.title")} */}
-          The Valentine's Special 💝 Get 50% More BFX with Code <strong>LOVE50</strong> 
+          The Valentine's Special: Get 50% More BFX with Code <strong>LOVE50</strong> 
         </p>
        <div className="flex items-center justify-center space-x-3 pt-1 border-t-[1px] border-[#000] w-[100%]">
            <div className="flex items-center ">
