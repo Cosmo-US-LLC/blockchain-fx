@@ -151,17 +151,16 @@ const handleScroll = () => {
         </div>
       </div>  */}
     
-     <div
+     {/* <div
       className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
         background: "#FCD149",
-        // background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
       }}
     >
       <div className="2xl:max-w-[1100px] xl:max-w-[1100px] lg:max-w-[1100px] md:max-w-[1100px] sm:max-w-[1100px] max-w-[360px] mx-auto 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] flex flex-row justify-between 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[10px] space-x-[5px] items-center px-2">
-        {/* <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div> */}
+        <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div>
         <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px]">
-          {/* {t("live_presale_section.title")} */}
+          {t("live_presale_section.title")}
           The Valentine's Special: Get 50% More BFX with Code <strong>LOVE50</strong> 
         </p>
           <div className="flex items-center space-x-2">
@@ -186,7 +185,7 @@ const handleScroll = () => {
               </h3>
             </div>
           </div>
-        {/* <img
+        <img
           src={live_cards}
           alt="live_cards"
           className="block 2xl:hidden xl:hidden lg:hidden md:hidden sm:block"
@@ -195,7 +194,7 @@ const handleScroll = () => {
           src={live_cards_des}
           alt="live_cards"
           className="hidden 2xl:block xl:block lg:block md:block sm:hidden"
-        /> */}
+        />
         <button
           onClick={handleScroll}
           className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] bg-[black] text-white rounded-[3px] h-[25px] px-[6px] md:px-[10px]"
@@ -203,18 +202,18 @@ const handleScroll = () => {
           {t("live_presale_section.buy_button")}
         </button>
       </div>
-    </div>
-      <div
+    </div> */}
+      {/* <div
       className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex flex-col justify-center items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[60px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
         background: "#FCD149",
-        // background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
+        
       }}
     >
       <div className="2xl:max-w-[1100px] xl:max-w-[1100px] lg:max-w-[1100px] md:max-w-[1100px] sm:max-w-[1100px] max-w-[100%] mx-auto 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] flex flex-col justify-between 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[0px] space-x-[0px] items-center ">
-        {/* <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div> */}
+        <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div>
         <p className="font-[600] 2xl:text-[16px] pb-1 xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px]">
-          {/* {t("live_presale_section.title")} */}
+          {t("live_presale_section.title")}
           The Valentine's Special: Get 50% More BFX with Code <strong>LOVE50</strong> 
         </p>
        <div className="flex items-center justify-center space-x-3 pt-1 border-t-[1px] border-[#000] w-[100%]">
@@ -248,16 +247,16 @@ const handleScroll = () => {
         </button>
        </div>
       </div>
-    </div>
+    </div> */}
 
-     {/* <div
+     <div
       className="flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
-        background: "radial-gradient(50% 50% at 50% 50%, #FFEBAC 0%, #FCD149 100%)",
+        background: "#FCD149",
       }}
     >
       <div className="max-w-[900px] mx-auto w-[100%] flex flex-row justify-center 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[15px] space-x-[15px] items-center px-2">
-        <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px]">
+        <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[10px]">
           {t("live_presale_section.title")}
         </p>
         <img
@@ -277,7 +276,7 @@ const handleScroll = () => {
           {t("live_presale_section.buy_button")}
         </button>
       </div>
-    </div> */}
+    </div>
    
     </>
   );
