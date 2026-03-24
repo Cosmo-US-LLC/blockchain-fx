@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -12,8 +12,6 @@ import ernvet2 from "../assets/EarnOnSec/Ellipse 3.png";
 
 function ExpertSaysSec() {
   const { t } = useTranslation();
-  const prevRef = useRef(null);
-  const nextRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
@@ -25,20 +23,10 @@ function ExpertSaysSec() {
           slidesPerView={1}
           loop={false}
           navigation={{
-            prevEl: prevRef.current,
-            nextEl: nextRef.current,
+            prevEl: ".experts-swiper-prev",
+            nextEl: ".experts-swiper-next",
           }}
           onSlideChange={(swiper) => setActiveSlide(swiper.activeIndex)}
-          onSwiper={(swiper) => {
-            (swiper.params.navigation && swiper.navigation && (
-              setTimeout(() => {
-                swiper.params.navigation.prevEl = prevRef.current;
-                swiper.params.navigation.nextEl = nextRef.current;
-                swiper.navigation.init();
-                swiper.navigation.update();
-              })
-            ))
-          }}
           className="w-full relative z-[99]"
         >
           {/* Slide 1 */}
@@ -53,9 +41,9 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide1.text")}"
                 </p>
-               <img src={'assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
+               <img src={stars} alt="reviews" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide1.name")}</h3>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">- {t("experts.slide1.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide1.role")}</p>
                 </div>
               </div>
@@ -86,9 +74,9 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide2.text")}"
                 </p>
-                <img src={'assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
+                <img src={stars} alt="reviews" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide2.name")}</h3>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">- {t("experts.slide2.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide2.role")}</p>
                 </div>
               </div>
@@ -120,9 +108,9 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide3.text")}"
                 </p>
-                <img src={'assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
+                <img src={stars} alt="reviews" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide3.name")}</h3>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">- {t("experts.slide3.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide3.role")}</p>
                 </div>
               </div>
@@ -154,9 +142,9 @@ function ExpertSaysSec() {
                 <p className="text-[#fff] text-[24px] font-[500] max-w-[400px]">
                   "{t("experts.slide4.text")}"
                 </p>
-                <img src={'assets/blockchainfx/ExpertSays2/Stars.png'} alt="reviews" />
+                <img src={stars} alt="reviews" />
                 <div>
-                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">— {t("experts.slide4.name")}</h3>
+                  <h3 className="text-[#D8D8D8] text-[18px] font-[600]">- {t("experts.slide4.name")}</h3>
                   <p className="text-[#898989] text-[16px] font-[400]">{t("experts.slide4.role")}</p>
                 </div>
               </div>
@@ -178,28 +166,28 @@ function ExpertSaysSec() {
         </Swiper>
 
         <div className="flex gap-3 mt-3 z-[99] absolute bottom-[8%]">
-          <button ref={prevRef}>
+          <button type="button" className="experts-swiper-prev">
             {activeSlide === 0 ? (
-              <img className="h-[34px] w-[34px]" src={'assets/blockchainfx/ExpertSays2/expawr%20(1).svg'} alt="inactive" />
+              <img className="h-[34px] w-[34px]" src={expawr2} alt="inactive" />
             ) : (
-              <img className="h-[34px] w-[34px] rotate-[180deg]" src={"assets/blockchainfx/ExpertSays2/expawr%20(2).svg"} alt="active" />
+              <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr1} alt="active" />
             )}
           </button>
 
-          <button ref={nextRef}>
+          <button type="button" className="experts-swiper-next">
             {activeSlide === 3 ? (
-              <img className="h-[34px] w-[34px] rotate-[180deg]" src={'assets/blockchainfx/ExpertSays2/expawr%20(1).svg'} alt="inactive" />
+              <img className="h-[34px] w-[34px] rotate-[180deg]" src={expawr2} alt="inactive" />
             ) : (
-              <img className="h-[34px] w-[34px]" src={'assets/blockchainfx/ExpertSays2/expawr%20(2).svg'} alt="active" />
+              <img className="h-[34px] w-[34px]" src={expawr1} alt="active" />
             )}
           </button>
         </div>
 
         <div className="absolute top-[-8%] left-[-5%]">
-          <img src={'assets/blockchainfx/LessThan/Ellipse%203.png'} alt="left" />
+          <img src={ernvet2} alt="left" />
         </div>
         <div className="absolute bottom-[0%] right-[0%]">
-          <img src={'assets/blockchainfx/LessThan/Ellipse%204.png'} alt="right" />
+          <img src={ernvet1} alt="right" />
         </div>
       </div>
     </div>
