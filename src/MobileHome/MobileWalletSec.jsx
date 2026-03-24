@@ -20,7 +20,11 @@ const MobileWalletSec = () => {
     { icon: oneicon4 },
   ];
   return (
-    <div className="pt-[42px] pb-[35px] bg-[#020B10]" id="Wallet">
+    <div
+      className="pt-[42px] pb-[35px] bg-[#020B10]"
+      id="Wallet"
+      data-scroll-target="bfx-presale"
+    >
       <div className="space-y-[20px] px-[24px] py-[20px] bg-[#020B10] max-w-[955px] w-[90%] mx-auto border border-[#262626] rounded-[8px]">
         <div className="flex items-center justify-center space-x-3">
           <h3 className="text-[30px] font-[700] leading-[120%] tracking-[-1.5px] text-white">

@@ -12,7 +12,7 @@
   "live_presale_section": {
     "title": "Prevendita BFX attiva",
      "black_friday": "Offerta Black Friday",
-     "BFX_App_Launch": "Lancio dell'app BFX",
+     "BFX_App_Launch": "Fase finale della prevendita BFX",
   "Special_App": "Offerta speciale per il lancio dell'app",
   "use_bonus_limit": "Per ottenere il 20% in più di monete $BFX!",
   "black_friday_des": "Ottieni il 70% in più di BFX con il codice",
@@ -1080,6 +1080,8 @@
     "to_get_bonus": "per ottenere il 40% di BFX in più per un periodo limitato.",
     "more_bfx_coins": "Monete $BFX!",
     "referral_link": "Link di riferimento 10%",
+    "wallet_offer_line_1": "Offerta speciale di lancio: Usa il <bonus>codice bonus <highlight>{{code}}</highlight></bonus>",
+    "wallet_offer_line_2": "Per ottenere oggi il 50% in più di token BFX!",
     "transaction_successful": "Transazione riuscita",
     "transaction_successful_message": "La transazione è andata a buon fine. Attendi un minuto e aggiorna la scheda delle transazioni per vedere i tuoi token.",
     "transaction_successful_bought_message": "La transazione è andata a buon fine. Hai acquistato",

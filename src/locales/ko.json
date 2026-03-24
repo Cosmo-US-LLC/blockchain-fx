@@ -6,6 +6,20 @@
       "roadmap": "로드맵",
       "reviews": "리뷰"
     },
+    "live_presale_section": {
+      "title": "BFX 프리세일 진행 중",
+      "BFX_App_Launch": "BFX 프리세일 최종 단계",
+      "Special_XMAS_Offer_des": "코드로 BFX 50% 추가 받기",
+      "buy_button": "BFX 구매",
+      "day": "일",
+      "Hours": "시간",
+      "Minutes": "분",
+      "Seconds": "초"
+    },
+    "buy_tab": {
+      "wallet_offer_line_1": "특별 출시 혜택: <bonus>보너스 코드 <highlight>{{code}}</highlight></bonus> 사용",
+      "wallet_offer_line_2": "오늘 BFX 토큰 50% 추가 받기!"
+    },
     "hero_section": {
       "hero_title": "최초의 암호화폐 <br /> 거래 슈퍼 앱",
       "hero_subtitle": "블록체인이 글로벌 금융 시장과 만나다",

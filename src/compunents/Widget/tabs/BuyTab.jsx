@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
 // import info from "../../../assets/wallet/i.svg";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import bfxicn from "../../../assets/wallet/bfx.webp";
 import bonus from "../../../assets/wallet/bonus.png";
 import Ref from "../../../assets/wallet/ref.png";
@@ -55,6 +55,7 @@ import WalletTransferModal from "../../ui/modals/WalletTransferModal/WalletTrans
 
 const BuyTab = ({ onTabChange }) => {
   const { t } = useTranslation();
+  const launchBonusCode = "LAUNCH50";
   const needsWalletConnected = new Set(["stake", "history"]);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
@@ -702,13 +703,19 @@ const BuyTab = ({ onTabChange }) => {
             background: "rgba(245, 245, 245, 0.00)",
           }}
           >
-              <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] 2xl:max-w-[220px] xl:max-w-[220px] lg:max-w-[220px] md:max-w-[220px] sm:max-w-[220px] max-w-[220px] mx-auto font-[500]  text-white text-center ">
-                {/* <span className="font-[700]">
-                  {t('live_presale_section.Special_App')}: </span> {t('buy_tab.use_bonus_code_1')}  */}
-                  Limited Time Offer: Use Bonus Code <span className="text-[#2FD942] !font-[700]">BFX20 </span> To Get 20% More $BFX!
-                  {/* {t('live_presale_section.use_bonus_limit')} */}
-                 {/* {t('buy_tab.more_bfx_coins')} */}
-              </h3> 
+              <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] w-full max-w-full mx-auto font-[500] text-white text-center px-2">
+                <span className="block whitespace-nowrap">
+                  <Trans
+                    i18nKey="buy_tab.wallet_offer_line_1"
+                    values={{ code: launchBonusCode }}
+                    components={{
+                      bonus: <span className="whitespace-nowrap" />,
+                      highlight: <span className="text-[#2FD942] !font-[700]" />,
+                    }}
+                  />
+                </span>
+                <span className="block">{t("buy_tab.wallet_offer_line_2")}</span>
+              </h3>
                 {/* <p className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] font-[700] text-center text-[#fff]">(This is the biggest offer we will ever have!)</p> */}
           </div>
 

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import live_cards from "../assets/presale-v3/live_cards.svg";
-import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
+// import live_cards from "../assets/presale-v3/live_cards.svg";
+// import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
 
 function LivePresale() {
   const { t } = useTranslation();
+  const promoCode = "LAUNCH50";
 
 const [timeLeft, setTimeLeft] = useState({
   days: "00",
@@ -14,8 +15,8 @@ const [timeLeft, setTimeLeft] = useState({
 });
 
 useEffect(() => {
-  // 16 February 2026, 6:00 PM UTC
-  const targetDate = new Date(Date.UTC(2026, 1, 16, 18, 0, 0));
+  // 13 April 2026, 2:00 PM UTC / 6:00 PM Dubai time
+  const targetDate = new Date(Date.UTC(2026, 3, 13, 14, 0, 0));
 
   const interval = setInterval(() => {
     const now = new Date();
@@ -66,15 +67,15 @@ const handleScroll = () => {
 
   return (
     <>
-     {/* <div
+      <div
         className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden  items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999] "
         style={{
           background: "#FCD149",
         }}
-      > */}
-        {/* <div className="max-w-[1060px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
+      >
+        <div className="max-w-[1060px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.BFX_App_Launch")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">APP50</span>
+            <span className="font-[800]">{t("live_presale_section.BFX_App_Launch")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
           </p>
 
           <div className="flex items-center space-x-2">
@@ -117,7 +118,7 @@ const handleScroll = () => {
         <div className="max-w-[900px] mx-auto w-[100%] flex flex-col justify-center  items-center">
           <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
-             <span className="font-[800]">{t("live_presale_section.BFX_App_Launch")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">APP50</span>
+             <span className="font-[800]">{t("live_presale_section.BFX_App_Launch")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
           </p>
             
           </div>
@@ -149,7 +150,7 @@ const handleScroll = () => {
             </button>
           </div>
         </div>
-      </div>  */}
+      </div>
     
      {/* <div
       className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
@@ -249,7 +250,7 @@ const handleScroll = () => {
       </div>
     </div> */}
 
-     <div
+     {/* <div
       className="flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
         background: "#FCD149",
@@ -276,7 +277,7 @@ const handleScroll = () => {
           {t("live_presale_section.buy_button")}
         </button>
       </div>
-    </div>
+    </div> */}
    
     </>
   );
