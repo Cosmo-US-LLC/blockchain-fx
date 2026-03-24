@@ -49,17 +49,22 @@ const LaunchPopup = () => {
     setIsOpen(false);
   };
 
+  const getPresaleSection = () =>
+    document.querySelector("[data-scroll-target='bfx-presale']") ||
+    document.getElementById("Wallet") ||
+    document.getElementById("how-to-buy");
+
   const handleBuyNow = () => {
     closePopup();
 
     window.setTimeout(() => {
-      const walletSection = document.getElementById("Wallet");
+      const walletSection = getPresaleSection();
 
       if (!walletSection) {
         return;
       }
 
-      const offset = window.innerWidth < 768 ? 24 : 50;
+      const offset = window.innerWidth < 700 ? 96 : 118;
       const top =
         walletSection.getBoundingClientRect().top + window.pageYOffset - offset;
 
@@ -67,7 +72,7 @@ const LaunchPopup = () => {
         top,
         behavior: "smooth",
       });
-    }, 120);
+    }, 180);
   };
 
   if (!isOpen) return null;
@@ -81,13 +86,13 @@ const LaunchPopup = () => {
       aria-label="Final presale stage popup"
     >
       <div
-        className="relative w-full max-w-[320px] min-h-[566px] overflow-hidden rounded-[16px] border border-[#E5AE00] text-white shadow-[0_30px_80px_rgba(0,0,0,0.55)] md:max-w-[902px] md:min-h-[474px] md:rounded-[26px] md:border-2"
+        className="relative w-full max-w-[320px] min-h-[490px] overflow-hidden rounded-[16px] border border-[#E5AE00] text-white shadow-[0_30px_80px_rgba(0,0,0,0.55)] md:max-w-[902px] md:min-h-[474px] md:rounded-[26px] md:border-2"
         onClick={(event) => event.stopPropagation()}
         style={overlayStyle}
       >
         <div className="absolute inset-0 overflow-hidden">
           <div
-            className="pointer-events-none absolute bottom-0 left-1/2 h-[320px] w-[206px] -translate-x-1/2 overflow-hidden opacity-[0.98] md:hidden"
+            className="pointer-events-none absolute bottom-0 left-1/2 h-[262px] w-[206px] -translate-x-1/2 overflow-hidden opacity-[0.98] md:hidden"
             style={{
               backgroundImage: `url(${popupHeroImage})`,
               backgroundRepeat: "no-repeat",
@@ -138,18 +143,18 @@ const LaunchPopup = () => {
           </svg>
         </button>
 
-        <div className="relative z-10 flex min-h-[566px] flex-col items-center px-[22px] pb-[224px] pt-[52px] text-center md:min-h-[474px] md:max-w-[460px] md:items-start md:justify-center md:px-[46px] md:pb-0 md:pt-0 md:text-left">
+        <div className="relative z-10 flex min-h-[490px] flex-col items-center px-[22px] pb-[224px] pt-[52px] text-center md:min-h-[474px] md:max-w-[460px] md:items-start md:justify-center md:px-[46px] md:pb-0 md:pt-0 md:text-left">
           <div className="max-w-[280px] md:max-w-[460px]">
-            <p className="mb-2 font-[Onest] text-[12px] font-[800] uppercase leading-none tracking-[-0.02em] md:mb-2 md:text-[16px]">
+            <p className="mb-2 font-[Onest] text-[16px] font-[800] uppercase leading-none tracking-[-0.02em] md:mb-2 md:whitespace-nowrap md:text-[24px]">
               Last Chance Before Launch
             </p>
-            <h2 className="mb-4 whitespace-nowrap font-[Onest] text-[18px] font-[900] uppercase leading-none tracking-[-0.05em] text-[#E5AE00] md:mb-5 md:text-[40px]">
+            <h2 className="mb-4 whitespace-nowrap font-[Onest] text-[24px] font-[900] uppercase leading-none tracking-[-0.05em] text-[#E5AE00] md:mb-5 md:text-[34px]">
               Final Presale Stage
             </h2>
-            <p className="mb-4 font-[Onest] text-[33px] font-[900] uppercase leading-[0.88] tracking-[-0.06em] md:mb-5 md:text-[58px]">
+            <p className="mb-4 font-[Onest] text-[45px] font-[900] uppercase leading-[0.88] tracking-[-0.06em] md:mb-5 md:text-[68px]">
               $15M Goal
             </p>
-            <p className="mb-6 font-[Onest] text-[11px] font-[800] uppercase leading-none tracking-[-0.02em] md:mb-7 md:text-[16px]">
+            <p className="mb-6 font-[Onest] text-[14px] font-[800] uppercase leading-none tracking-[-0.02em] md:mb-7 md:text-[20px]">
               BFX Is About To Launch!
             </p>
             <div className="flex justify-center md:justify-start">
