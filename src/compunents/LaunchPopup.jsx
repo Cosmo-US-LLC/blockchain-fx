@@ -143,7 +143,7 @@ const LaunchPopup = () => {
           </svg>
         </button>
 
-        <div className="relative z-10 flex min-h-[490px] flex-col items-center px-[22px] pb-[224px] pt-[52px] text-center md:min-h-[474px] md:max-w-[460px] md:items-start md:justify-center md:px-[46px] md:pb-0 md:pt-0 md:text-left">
+        <div className="relative z-10 flex min-h-[470px] flex-col items-center px-[22px] pb-[224px] pt-[30px] text-center md:min-h-[474px] md:max-w-[460px] md:items-start md:justify-center md:px-[46px] md:pb-0 md:pt-0 md:text-left">
           <div className="max-w-[280px] md:max-w-[460px]">
             <p className="mb-2 font-[Onest] text-[16px] font-[800] uppercase leading-none tracking-[-0.02em] md:mb-2 md:whitespace-nowrap md:text-[24px]">
               Last Chance Before Launch
