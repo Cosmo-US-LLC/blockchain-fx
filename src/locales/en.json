@@ -1068,7 +1068,7 @@
     "use_bonus_limit": "To Get 20% More $BFX Coins!",
     "to_get": "To Get 50% More $BFX Tokens.",
     "limited_time_offer": "Halloween Special:",
-    "use_bonus_code": "Use code",
+    "use_bonus_code": "Limited Time Offer: Use Bonus Code <highlight>{{code}}</highlight>",
     "bonus_code_num": "CANDY40",
     "bonus_code": "Bonus Code",
     "to_get_bonus": "to get 40% more BFX for a limited time.",
