@@ -1,53 +1,53 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-// import live_cards from "../assets/presale-v3/live_cards.svg";
-// import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
+import live_cards from "../assets/presale-v3/live_cards.svg";
+import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
 
 function LivePresale() {
   const { t } = useTranslation();
-  const promoCode = "LAUNCH50";
+  // const promoCode = "LAUNCH50";
 
-const [timeLeft, setTimeLeft] = useState({
-  days: "00",
-  hours: "00",
-  minutes: "00",
-  seconds: "00",
-});
+// const [timeLeft, setTimeLeft] = useState({
+//   days: "00",
+//   hours: "00",
+//   minutes: "00",
+//   seconds: "00",
+// });
 
-useEffect(() => {
-  // 13 April 2026, 2:00 PM UTC / 6:00 PM Dubai time
-  const targetDate = new Date(Date.UTC(2026, 3, 13, 14, 0, 0));
+// useEffect(() => {
+//   // 13 April 2026, 2:00 PM UTC / 6:00 PM Dubai time
+//   const targetDate = new Date(Date.UTC(2026, 3, 13, 14, 0, 0));
 
-  const interval = setInterval(() => {
-    const now = new Date();
-    const difference = targetDate.getTime() - now.getTime();
+//   const interval = setInterval(() => {
+//     const now = new Date();
+//     const difference = targetDate.getTime() - now.getTime();
 
-    if (difference <= 0) {
-      clearInterval(interval);
-      setTimeLeft({
-        days: "00",
-        hours: "00",
-        minutes: "00",
-        seconds: "00",
-      });
-      return;
-    }
+//     if (difference <= 0) {
+//       clearInterval(interval);
+//       setTimeLeft({
+//         days: "00",
+//         hours: "00",
+//         minutes: "00",
+//         seconds: "00",
+//       });
+//       return;
+//     }
 
-    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((difference / (1000 * 60)) % 60);
-    const seconds = Math.floor((difference / 1000) % 60);
+//     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+//     const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+//     const minutes = Math.floor((difference / (1000 * 60)) % 60);
+//     const seconds = Math.floor((difference / 1000) % 60);
 
-    setTimeLeft({
-      days: String(days).padStart(2, "0"),
-      hours: String(hours).padStart(2, "0"),
-      minutes: String(minutes).padStart(2, "0"),
-      seconds: String(seconds).padStart(2, "0"),
-    });
-  }, 1000);
+//     setTimeLeft({
+//       days: String(days).padStart(2, "0"),
+//       hours: String(hours).padStart(2, "0"),
+//       minutes: String(minutes).padStart(2, "0"),
+//       seconds: String(seconds).padStart(2, "0"),
+//     });
+//   }, 1000);
 
-  return () => clearInterval(interval);
-}, []);
+//   return () => clearInterval(interval);
+// }, []);
 
 
 const handleScroll = () => {
@@ -67,7 +67,7 @@ const handleScroll = () => {
 
   return (
     <>
-      <div
+      {/* <div
         className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden  items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999] "
         style={{
           background: "#FCD149",
@@ -150,7 +150,7 @@ const handleScroll = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     
      {/* <div
       className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
@@ -159,7 +159,7 @@ const handleScroll = () => {
       }}
     >
       <div className="2xl:max-w-[1100px] xl:max-w-[1100px] lg:max-w-[1100px] md:max-w-[1100px] sm:max-w-[1100px] max-w-[360px] mx-auto 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] flex flex-row justify-between 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[10px] space-x-[5px] items-center px-2">
-        <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div>
+        <div className="hidden 2xl:block xl:block lg:block md:block sm:hidden"></div>
         <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px]">
           {t("live_presale_section.title")}
           The Valentine's Special: Get 50% More BFX with Code <strong>LOVE50</strong> 
@@ -212,7 +212,7 @@ const handleScroll = () => {
       }}
     >
       <div className="2xl:max-w-[1100px] xl:max-w-[1100px] lg:max-w-[1100px] md:max-w-[1100px] sm:max-w-[1100px] max-w-[100%] mx-auto 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] flex flex-col justify-between 2xl:space-x-[30px] xl:space-x-[30px] lg:space-x-[30px] md:space-x-[30px] sm:space-x-[0px] space-x-[0px] items-center ">
-        <div className="2xl:block xl:block lg:block md:block sm:hidden hidden"></div>
+        <div className="hidden 2xl:block xl:block lg:block md:block sm:hidden"></div>
         <p className="font-[600] 2xl:text-[16px] pb-1 xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[10px] text-[10px]">
           {t("live_presale_section.title")}
           The Valentine's Special: Get 50% More BFX with Code <strong>LOVE50</strong> 
@@ -250,7 +250,7 @@ const handleScroll = () => {
       </div>
     </div> */}
 
-     {/* <div
+     <div
       className="flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
         background: "#FCD149",
@@ -277,7 +277,7 @@ const handleScroll = () => {
           {t("live_presale_section.buy_button")}
         </button>
       </div>
-    </div> */}
+    </div>
    
     </>
   );

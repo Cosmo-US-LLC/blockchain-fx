@@ -55,7 +55,7 @@ import WalletTransferModal from "../../ui/modals/WalletTransferModal/WalletTrans
 
 const BuyTab = ({ onTabChange }) => {
   const { t } = useTranslation();
-  const launchBonusCode = "LAUNCH50";
+  const BonusCode = "BFX20";
   const needsWalletConnected = new Set(["stake", "history"]);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
@@ -389,7 +389,7 @@ const BuyTab = ({ onTabChange }) => {
             {formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
           </h3>
           <div className="pt-3">
-            <div className="flex justify-between items-center pb-1">
+            <div className="flex items-center justify-between pb-1">
               <span className="text-[#fff] text-[11.74px] font-[400] leading-[100%]">
                 {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
               </span>
@@ -479,7 +479,7 @@ const BuyTab = ({ onTabChange }) => {
             />
           ))}
         </div>
-        <div className="flex justify-center items-center space-x-1">
+        <div className="flex items-center justify-center space-x-1">
           <img
             className="w-[153px] h-[22px] object-cover"
             src={comcoin}
@@ -511,7 +511,7 @@ const BuyTab = ({ onTabChange }) => {
             background: "rgba(255, 255, 255, 0.09)",
           }}
         >
-          <div className="flex justify-between items-center px-1">
+          <div className="flex items-center justify-between px-1">
             <div className="w-[80%]">
               <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
                 {t("buy_tab.you_pay_in")}{" "}
@@ -587,7 +587,7 @@ const BuyTab = ({ onTabChange }) => {
             backdropFilter: "blur(12.145808219909668px)",
           }}
         >
-          <div className="flex justify-between items-center px-1">
+          <div className="flex items-center justify-between px-1">
             {/* <div className="relative max-w-[75px] "></div> */}
             <div className="w-[80%] ">
               <label className="text-[#8D8D8D] text-[8.888px] font-[700] leading-[5.888px]">
@@ -706,15 +706,15 @@ const BuyTab = ({ onTabChange }) => {
               <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] w-full max-w-full mx-auto font-[500] text-white text-center px-2">
                 <span className="block whitespace-nowrap">
                   <Trans
-                    i18nKey="buy_tab.wallet_offer_line_1"
-                    values={{ code: launchBonusCode }}
+                    i18nKey="buy_tab.use_bonus_code"
+                    values={{ code: BonusCode }}
                     components={{
                       bonus: <span className="whitespace-nowrap" />,
                       highlight: <span className="text-[#2FD942] !font-[700]" />,
                     }}
                   />
                 </span>
-                <span className="block">{t("buy_tab.wallet_offer_line_2")}</span>
+                <span className="block">{t("buy_tab.use_bonus_limit")}</span>
               </h3>
                 {/* <p className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] font-[700] text-center text-[#fff]">(This is the biggest offer we will ever have!)</p> */}
           </div>
