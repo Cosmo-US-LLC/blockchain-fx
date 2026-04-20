@@ -25,13 +25,14 @@
     "Huge_title": "Gran anuncio de avance de BFX",
     "Huge_BFX_Trading": "Gran lanzamiento de la app de trading BFX",
      "Big_BFX_Release": "Gran lanzamiento de BFX",
+     "First_Exchange_Listing_Reveal": "Revelación de la primera cotización en bolsa",
     "day": "Día",
     "Hours": "Horas",
     "Minutes": "Minutos",
     "Seconds": "Segundos",
     "Huge_bfx_title": "Gran anuncio de BFX",
     "Special_XMAS_Offer": "Oferta Especial de Navidad",
-  "Special_XMAS_Offer_des": "Obtén 50% más BFX con el código"
+  "Special_XMAS_Offer_des": "Obtén 60% más BFX con el código"
   },
   "featured_sec": {
     "featured_in": "Destacado en:"
@@ -821,7 +822,8 @@
     "limited_time_offer_1": "Oferta especial:",
       "limit_bonus_time": "Oferta por tiempo limitado",
       "Special_XMAS_Offer": "Oferta Especial de Navidad",
-  "Special_XMAS_Offer_des": "para obtener un 50% más de monedas BFX!",
+  "Special_XMAS_Offer_des": "para obtener un 60% más de monedas $BFX!",
+   "First_Exchange_Listing_Reveal": "Revelación de la primera cotización en bolsa: Usa el código de bono <highlight>{{code}}</highlight>",
   "use_bonus_limit": "¡Obtén un 20% más de monedas $BFX!",
   "black_friday_offer": "Oferta de Black Friday",
    "cyber_offer": "Oferta de Cyber Monday",

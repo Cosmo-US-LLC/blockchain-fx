@@ -25,13 +25,14 @@
     "Huge_title": "Огромное объявление о прорыве BFX",
      "Huge_BFX_Trading": "Крупный запуск торгового приложения BFX",
     "Big_BFX_Release": "Крупный релиз BFX",
+    "First_Exchange_Listing_Reveal": "Раскрытие первого листинга на бирже",
     "day": "День",
     "Hours": "Часы",
     "Minutes": "Минуты",
     "Seconds": "Секунды",
     "Huge_bfx_title": "Большое объявление от BFX",
     "Special_XMAS_Offer": "Специальное рождественское предложение",
-  "Special_XMAS_Offer_des": "Получите на 50% больше BFX по коду"
+  "Special_XMAS_Offer_des": "Получите на 60% больше BFX по коду"
   },
   "hero": {
     "title": "Первая крипто <br /> торговля",
@@ -1078,7 +1079,8 @@
     "limited_time_offer_1": "Специальное предложение:",
      "limit_bonus_time": "Ограниченное по времени предложение",
      "Special_XMAS_Offer": "Специальное рождественское предложение",
-  "Special_XMAS_Offer_des": "чтобы получить на 50% больше монет BFX!",
+  "Special_XMAS_Offer_des": "чтобы получить на 60% больше монет $BFX!",
+  "First_Exchange_Listing_Reveal": "Раскрытие первого листинга на бирже: Используйте бонусный код <highlight>{{code}}</highlight>",
        "black_friday_offer": "Предложение на Чёрную Пятницу",
        "cyber_offer": "Предложение на Киберпонедельник",
   "cyber_offer_get": "Чтобы получить на 50% больше токенов $BFX.",
