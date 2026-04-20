@@ -25,13 +25,14 @@
     "Huge_title": "Stor BFX Gennembrudsmeddelelse",
     "Huge_BFX_Trading": "Stor lancering af BFX-handelsappen",
     "Big_BFX_Release": "Stor BFX-lancering",
+    "First_Exchange_Listing_Reveal": "Første afsløring af børsnotering",
     "day": "Dag",
     "Hours": "Timer",
     "Minutes": "Minutter",
     "Seconds": "Sekunder",
     "Huge_bfx_title": "Kæmpe BFX-annoncering",
     "Special_XMAS_Offer": "Særligt juletilbud",
-  "Special_XMAS_Offer_des": "Få 50% mere BFX med koden"
+  "Special_XMAS_Offer_des": "Få 60% mere BFX med koden"
   },
   "hero": {
     "title": "Den første krypto <br /> handel",
@@ -1063,7 +1064,8 @@
     "limited_time_offer_1": "Særtilbud:",
     "limit_bonus_time": "Begrænset tids tilbud",
     "Special_XMAS_Offer": "Særligt juletilbud",
-  "Special_XMAS_Offer_des": "for at få 50% flere BFX-mønter!",
+  "Special_XMAS_Offer_des": "for at få 60% flere $BFX-mønter!",
+  "First_Exchange_Listing_Reveal": "Afsløring af første børsnotering: Brug bonuskode <highlight>{{code}}</highlight>",
      "black_friday_offer": "Black Friday-tilbud",
      "cyber_offer": "Cyber Monday-tilbud",
   "cyber_offer_get": "For at få 50% flere $BFX-tokens.",

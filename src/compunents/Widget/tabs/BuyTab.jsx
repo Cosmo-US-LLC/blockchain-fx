@@ -55,7 +55,8 @@ import WalletTransferModal from "../../ui/modals/WalletTransferModal/WalletTrans
 
 const BuyTab = ({ onTabChange }) => {
   const { t } = useTranslation();
-  const BonusCode = "BFX20";
+  // const BonusCode = "BFX20";
+  const BonusCode = "CEX60 ";
   const needsWalletConnected = new Set(["stake", "history"]);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
@@ -706,7 +707,7 @@ const BuyTab = ({ onTabChange }) => {
               <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] w-full max-w-full mx-auto font-[500] text-white text-center px-2">
                 <span className="block whitespace-nowrap">
                   <Trans
-                    i18nKey="buy_tab.use_bonus_code"
+                    i18nKey="buy_tab.First_Exchange_Listing_Reveal"
                     values={{ code: BonusCode }}
                     components={{
                       bonus: <span className="whitespace-nowrap" />,
@@ -714,7 +715,7 @@ const BuyTab = ({ onTabChange }) => {
                     }}
                   />
                 </span>
-                <span className="block">{t("buy_tab.use_bonus_limit")}</span>
+                <span className="block">{t("buy_tab.Special_XMAS_Offer_des")}</span>
               </h3>
                 {/* <p className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] font-[700] text-center text-[#fff]">(This is the biggest offer we will ever have!)</p> */}
           </div>

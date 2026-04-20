@@ -25,13 +25,14 @@
     "Huge_title": "Grande Annuncio di Svolta BFX",
     "Huge_BFX_Trading": "Grande lancio dell’app di trading BFX",
     "Big_BFX_Release": "Grande rilascio di BFX",
+    "First_Exchange_Listing_Reveal": "Rivelazione della prima quotazione in borsa",
     "day": "Giorno",
     "Hours": "Ore",
     "Minutes": "Minuti",
     "Seconds": "Secondi",
     "Huge_bfx_title": "Grande annuncio BFX",
     "Special_XMAS_Offer": "Offerta Speciale di Natale",
-  "Special_XMAS_Offer_des": "Ottieni il 50% in più di BFX con il codice"
+  "Special_XMAS_Offer_des": "Ottieni il 60% in più di BFX con il codice"
   },
   "hero": {
     "title": "La Prima <br /> Cripto Trading",
@@ -1062,7 +1063,8 @@
     "limited_time_offer_1": "Offerta speciale:",
      "limit_bonus_time": "Offerta a tempo limitato",
       "Special_XMAS_Offer": "Offerta Speciale di Natale",
-  "Special_XMAS_Offer_des": "per ottenere il 50% in più di monete BFX!",
+  "Special_XMAS_Offer_des": "per ottenere il 60% in più di monete $BFX!",
+  "First_Exchange_Listing_Reveal": "Rivelazione della prima quotazione in borsa: Usa il codice bonus <highlight>{{code}}</highlight>",
       "black_friday_offer": "Offerta Black Friday",
       "cyber_offer": "Offerta Cyber Monday",
   "cyber_offer_get": "Per ottenere il 50% in più di token $BFX.",

@@ -47,13 +47,14 @@
     "Huge_title": "Stor BFX Gjennombruddsnyhet",
     "Huge_BFX_Trading": "Stor lansering av BFX-handelsappen",
     "Big_BFX_Release": "Stor BFX-lansering",
+    "First_Exchange_Listing_Reveal": "Første avsløring av børsnotering",
     "day": "Dag",
     "Hours": "Timer",
     "Minutes": "Minutter",
     "Seconds": "Sekunder",
     "Huge_bfx_title": "Stor BFX-kunngjøring",
      "Special_XMAS_Offer": "Spesialtilbud til jul",
-  "Special_XMAS_Offer_des": "Få 50% mer BFX med koden"
+  "Special_XMAS_Offer_des": "Få 60% mer BFX med koden"
   },
   "experts": {
     "heading": "Hva ekspertene sier om BFX",
@@ -1036,7 +1037,8 @@
     "limited_time_offer_1": "Spesialtilbud:",
     "limit_bonus_time": "Tidsbegrenset tilbud",
      "Special_XMAS_Offer": "Spesialtilbud til jul",
-  "Special_XMAS_Offer_des": "for å få 50% flere BFX-mynter!",
+  "Special_XMAS_Offer_des": "for å få 60% flere $BFX-mynter!",
+  "First_Exchange_Listing_Reveal": "Avsløring av første børsnotering: Bruk bonuskode <highlight>{{code}}</highlight>",
     "black_friday_offer": "Black Friday-tilbud",
      "cyber_offer": "Cyber Monday-tilbud",
   "cyber_offer_get": "For å få 50% flere $BFX-tokens.",

@@ -5,49 +5,49 @@ import live_cards_des from "../assets/presale-v3/live_cards_des.svg";
 
 function LivePresale() {
   const { t } = useTranslation();
-  // const promoCode = "LAUNCH50";
+  const promoCode = "CEX60";
 
-// const [timeLeft, setTimeLeft] = useState({
-//   days: "00",
-//   hours: "00",
-//   minutes: "00",
-//   seconds: "00",
-// });
+const [timeLeft, setTimeLeft] = useState({
+  days: "00",
+  hours: "00",
+  minutes: "00",
+  seconds: "00",
+});
 
-// useEffect(() => {
-//   // 13 April 2026, 2:00 PM UTC / 6:00 PM Dubai time
-//   const targetDate = new Date(Date.UTC(2026, 3, 13, 14, 0, 0));
+useEffect(() => {
+  // 1 June 2026, 6:00 PM Dubai time (UTC+4) = 2:00 PM UTC
+  const targetDate = new Date(Date.UTC(2026, 5, 1, 14, 0, 0));
 
-//   const interval = setInterval(() => {
-//     const now = new Date();
-//     const difference = targetDate.getTime() - now.getTime();
+  const interval = setInterval(() => {
+    const now = new Date();
+    const difference = targetDate.getTime() - now.getTime();
 
-//     if (difference <= 0) {
-//       clearInterval(interval);
-//       setTimeLeft({
-//         days: "00",
-//         hours: "00",
-//         minutes: "00",
-//         seconds: "00",
-//       });
-//       return;
-//     }
+    if (difference <= 0) {
+      clearInterval(interval);
+      setTimeLeft({
+        days: "00",
+        hours: "00",
+        minutes: "00",
+        seconds: "00",
+      });
+      return;
+    }
 
-//     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-//     const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-//     const minutes = Math.floor((difference / (1000 * 60)) % 60);
-//     const seconds = Math.floor((difference / 1000) % 60);
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((difference / (1000 * 60)) % 60);
+    const seconds = Math.floor((difference / 1000) % 60);
 
-//     setTimeLeft({
-//       days: String(days).padStart(2, "0"),
-//       hours: String(hours).padStart(2, "0"),
-//       minutes: String(minutes).padStart(2, "0"),
-//       seconds: String(seconds).padStart(2, "0"),
-//     });
-//   }, 1000);
+    setTimeLeft({
+      days: String(days).padStart(2, "0"),
+      hours: String(hours).padStart(2, "0"),
+      minutes: String(minutes).padStart(2, "0"),
+      seconds: String(seconds).padStart(2, "0"),
+    });
+  }, 1000);
 
-//   return () => clearInterval(interval);
-// }, []);
+  return () => clearInterval(interval);
+}, []);
 
 
 const handleScroll = () => {
@@ -67,7 +67,7 @@ const handleScroll = () => {
 
   return (
     <>
-      {/* <div
+     <div
         className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden  items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999] "
         style={{
           background: "#FCD149",
@@ -75,7 +75,7 @@ const handleScroll = () => {
       >
         <div className="max-w-[1060px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px]  items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">{t("live_presale_section.BFX_App_Launch")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
+            <span className="font-[800]">{t("live_presale_section.First_Exchange_Listing_Reveal")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
           </p>
 
           <div className="flex items-center space-x-2">
@@ -109,7 +109,7 @@ const handleScroll = () => {
         </div>
       </div>
 
-      <div
+       <div
         className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0  xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999] py-2"
         style={{
           background: "#FCD149",
@@ -118,7 +118,7 @@ const handleScroll = () => {
         <div className="max-w-[900px] mx-auto w-[100%] flex flex-col justify-center  items-center">
           <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
-             <span className="font-[800]">{t("live_presale_section.BFX_App_Launch")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
+             <span className="font-[800]">{t("live_presale_section.First_Exchange_Listing_Reveal")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
           </p>
             
           </div>
@@ -150,7 +150,7 @@ const handleScroll = () => {
             </button>
           </div>
         </div>
-      </div> */}
+      </div> 
     
      {/* <div
       className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
@@ -249,8 +249,8 @@ const handleScroll = () => {
        </div>
       </div>
     </div> */}
-
-     <div
+        # Original Banner 
+     {/* <div
       className="flex items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"
       style={{
         background: "#FCD149",
@@ -277,7 +277,7 @@ const handleScroll = () => {
           {t("live_presale_section.buy_button")}
         </button>
       </div>
-    </div>
+    </div> */}
    
     </>
   );
