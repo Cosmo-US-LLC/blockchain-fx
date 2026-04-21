@@ -5,6 +5,7 @@
   "dependencies": {
     "@akamfoad/qrcode": "^0.3.2",
     "@coinbase/wallet-sdk": "4.0.3",
+    "@craco/craco": "^7.1.0",
     "@metamask/sdk": "^0.32.1",
     "@nanostores/react": "^0.8.4",
     "@reown/appkit": "1.5.3",
@@ -36,10 +37,10 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "start": "craco start",
+    "build": "craco build",
     "es-build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
-    "test": "react-scripts test",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
