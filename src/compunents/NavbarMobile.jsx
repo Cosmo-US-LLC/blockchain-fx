@@ -316,7 +316,7 @@ function NavbarMobile() {
       </div>
       <div
         ref={dropdownRef}
-        className="fixed bottom-[17%] bg-[#030f16] right-2 border-[1px] border-[#E6AF0320]  h-[40px] w-[100px] flex items-center justify-center rounded-[8px] z-[9999]"
+        className="fixed bottom-[12%] bg-[#030f16] right-2 border-[1px] border-[#E6AF0320]  h-[40px] w-[100px] flex items-center justify-center rounded-[8px] z-[9999]"
       >
         <div className="relative flex items-center justify-start space-x-2 z-[999] ">
           <img
