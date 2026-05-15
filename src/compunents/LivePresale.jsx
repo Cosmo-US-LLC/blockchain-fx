@@ -73,12 +73,12 @@ const handleScroll = () => {
           background: "#FCD149",
         }}
       >
-        <div className="max-w-[1060px] mx-auto w-[100%] flex flex-row justify-center space-x-[20px]  items-center px-2">
+        <div className="max-w-[1060px] mx-auto w-[100%] flex flex-row justify-between space-x-[20px] items-center px-2">
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
             <span className="font-[800]">{t("live_presale_section.First_Exchange_Listing_Reveal")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
           </p>
 
-          {/* <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2">
             <div>
               <h3 className="text-[16px] font-[600]">
                 {timeLeft.days}{" "}
@@ -99,7 +99,7 @@ const handleScroll = () => {
                 </span>
               </h3>
             </div>
-          </div> */}
+          </div>
           <button
             onClick={handleScroll}
             className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700]  text-[#fff]  bg-[black] rounded-[3px] h-[25px] px-[6px] md:px-[10px]"
@@ -117,16 +117,16 @@ const handleScroll = () => {
       >
         <div className="max-w-[900px] mx-auto w-[100%] flex flex-col justify-center  items-center">
           <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
-            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
-              <span className="font-[800]">{t("live_presale_section.First_Exchange_Listing_Reveal")}</span>
+            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center px-4">
+              <span className="font-[800]">{t("live_presale_section.First_Exchange_Listing_Reveal")}: </span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
             </p>
             
           </div>
           <div className="flex justify-center space-x-2">
-            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
+            {/* <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
               <span>{t("live_presale_section.Special_XMAS_Offer_des")}</span>  <span className="font-[800]">{promoCode}</span>
-            </p>
-            {/* <h3 className="text-[14px] font-[600]">
+            </p> */}
+            <h3 className="text-[14px] font-[600]">
               {timeLeft.days}{" "}
               <span className="text-[12px] font-[400]">
                 {" "}
@@ -144,7 +144,7 @@ const handleScroll = () => {
               <span className="text-[12px] font-[400]">
                 {t("live_presale_section.Seconds")}
               </span>
-            </h3> */}
+            </h3>
             <button
               onClick={handleScroll}
               className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff]  bg-[black] rounded-[3px] h-[22px] px-[6px] md:px-[10px]"
