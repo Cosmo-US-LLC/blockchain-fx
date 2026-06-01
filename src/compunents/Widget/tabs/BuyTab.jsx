@@ -56,7 +56,7 @@ import WalletTransferModal from "../../ui/modals/WalletTransferModal/WalletTrans
 const BuyTab = ({ onTabChange }) => {
   const { t } = useTranslation();
   // const BonusCode = "BFX20";
-  const BonusCode = "CEX60 ";
+  const BonusCode = "FINAL70";
   const needsWalletConnected = new Set(["stake", "history"]);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
