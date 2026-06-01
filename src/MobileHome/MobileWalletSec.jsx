@@ -6,7 +6,7 @@ import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
 import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
 import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
-import swpicon from "../assets/wallet/swp.svg";
+import ExchangeListingsBar from "../compunents/ExchangeListingsBar";
 import Widget from "../compunents/Widget";
 import { useApiState } from "../presale-gg/stores/api.store"; // Adjust if path differs
 const MobileWalletSec = () => {
@@ -142,82 +142,7 @@ const MobileWalletSec = () => {
               <h4 className="text-white text-[14px] py-[5px] font-[600] px-1">
               5. Launch
               </h4>
-              <div className="max-w-[414px] px-[10px] pt-[14px] pb-[16px] border border-[#3B3B3B] w-full mx-auto">
-                <div className="flex flex-col gap-[12px]">
-                  <h4 className="text-start text-[#808080] text-[10px] font-[600]">
-                  {t("wallet_section.exchanges")}
-                  </h4>
-                  <div className="flex justify-center gap-[8px]">
-                    <div
-                      className="px-[4px] flex max-w-[120px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                      }}
-                    >
-                      <img
-                        src={swpicon}
-                        className="w-[14.813px] h-[14.813px]"
-                        alt="uniswap"
-                      />
-                      <h4 className="text-[6.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        {t("wallet_section.uniswap")}
-                      </h4>
-                    </div>
-                    <div
-                      className="px-[4px] flex max-w-[50px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                        filter: "blur(6.5px",
-                        opacity: "0.73",
-                      }}
-                    >
-                      <div className="w-[14.813px] h-[14.813px] bg-[#F0B90B] rounded-full"></div>
-                      <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        {t("wallet_section.uniswap")}
-                      </h4>
-                    </div>
-                    <div
-                      className="px-[4px] flex max-w-[50px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                        filter: "blur(6.5px",
-                        opacity: "0.73",
-                      }}
-                    >
-                      <div className="w-[14.813px] h-[14.813px] bg-[#0052FE] rounded-full"></div>
-                      <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        {t("wallet_section.uniswap")}
-                      </h4>
-                    </div>
-                    <div
-                      className="px-[4px] flex max-w-[50px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                        filter: "blur(6.5px",
-                        opacity: "0.73",
-                      }}
-                    >
-                      <div className="w-[14.813px] h-[14.813px] bg-[#00F0FF] rounded-full"></div>
-                      <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        {t("wallet_section.uniswap")}
-                      </h4>
-                    </div>
-                    <div
-                      className="px-[4px] flex max-w-[50px] h-[20px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                        filter: "blur(6.5px",
-                        opacity: "0.73",
-                      }}
-                    >
-                      <div className="w-[14.813px] h-[14.813px] bg-[#7635F5] rounded-full"></div>
-                      <h4 className="text-[3.913px] text-[#545454] font-[700] leading-[120.286%]">
-                        {t("wallet_section.uniswap")}
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <ExchangeListingsBar className="mx-auto w-full" />
             </div>
           </div>
         </div>

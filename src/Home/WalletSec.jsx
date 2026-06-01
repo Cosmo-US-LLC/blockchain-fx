@@ -5,9 +5,9 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/HowToBuySec/ei_arrow-up.svg";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
-import swpicon from "../assets/wallet/swp.svg";
 import { useApiState } from "../presale-gg/stores/api.store";
 import Widget from "../compunents/Widget";
+import ExchangeListingsBar from "../compunents/ExchangeListingsBar";
 import { useTranslation } from "react-i18next";
 
 /**
@@ -187,82 +187,7 @@ const WalletSec = () => {
               <h4 className="text-[#fff] text-[14px] font-[600] px-1">
                 {t("wallet_section.launch_title")}
               </h4>
-              <div className="max-w-[414px] px-[6px] pt-[14px] pb-[16px] border border-[#545454] w-[100%] mx-auto ">
-                <div className="flex flex-col gap-[10px]">
-                  <h4 className="text-start text-[#808080] text-[9.875px] leading-[75%] font-[600]">
-                    {t("wallet_section.exchanges")}
-                  </h4>
-                  <div className="flex justify-center gap-[8px] flex-wrap">
-                    <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                      }}
-                    >
-                      <img
-                        src={swpicon}
-                        className="w-[14.813px] h-[14.813px]"
-                        alt="UNISWAP"
-                      />
-                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
-                        {t("wallet_section.uniswap")}
-                      </h4>
-                    </div>
-                    <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                        filter: "blur(6.5px",
-                        opacity: "0.73",
-                      }}
-                    >
-                      <div className="w-[14.813px] h-[14.813px] bg-[#F0B90B] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
-                        UNISWAP
-                      </h4>
-                    </div>
-                    <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                        filter: "blur(6.5px",
-                        opacity: "0.73",
-                      }}
-                    >
-                      <div className="w-[14.813px] h-[14.813px] bg-[#0052FE] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
-                        UNISWAP
-                      </h4>
-                    </div>
-                    <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                        filter: "blur(6.5px",
-                        opacity: "0.73",
-                      }}
-                    >
-                      <div className="w-[14.813px] h-[14.813px] bg-[#00F0FF] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
-                        UNISWAP
-                      </h4>
-                    </div>
-                    <div
-                      className="px-[4px] flex max-w-[129px] h-[24px] rounded-[4.444px] justify-center items-center space-x-[4px] border border-[#ABABAB]"
-                      style={{
-                        background: "rgba(176, 176, 176, 0.17)",
-                        filter: "blur(6.5px",
-                        opacity: "0.73",
-                      }}
-                    >
-                      <div className="w-[14.813px] h-[14.813px] bg-[#7635F5] rounded-full"></div>
-                      <h4 className="text-[6.913px] text-[#fff] font-[700] leading-[120.286%]">
-                        UNISWAP
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <ExchangeListingsBar className="mx-auto w-full" />
             </div>
           </div>
         </div>

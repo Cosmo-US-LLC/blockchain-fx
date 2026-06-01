@@ -9,44 +9,43 @@
     "dashboard": "ダッシュボード",
     "connect_wallet": "ウォレット接続"
   },
-   "live_presale_section": {
+  "live_presale_section": {
     "title": "BFXのプレセールが開催中",
     "black_friday": "ブラックフライデーオファー",
     "Special_XMAS_Offer": "特別クリスマスオファー",
-  "Special_XMAS_Offer_des": "コードを使ってBFXを60％追加で獲得",
-  "black_friday_des": "コードを使ってBFXを70％追加で獲得",
-  "black_friday_code": "BF70",
-  "BFX_App_Launch": "BFXプレセール最終段階",
-  "Special_App": "アプリローンチ特別オファー",
-  "use_bonus_limit": "$BFXコインを20％多く獲得！",
+    "Special_XMAS_Offer_des": "コードでBFXを70％追加で獲得",
+    "black_friday_des": "コードを使ってBFXを70％追加で獲得",
+    "black_friday_code": "BF70",
+    "BFX_App_Launch": "BFXプレセール最終段階",
+    "Special_App": "アプリローンチ特別オファー",
+    "use_bonus_limit": "$BFXコインを20％多く獲得！",
     "Halloween_title": "ハロウィンボーナス：",
     "Breakthrough_title": "BFX が取引ライセンスを取得：",
-  "get_more": "コードで50%多く受け取る",
-  "code_CANDY40": "License50",
+    "get_more": "コードで50%多く受け取る",
+    "code_CANDY40": "License50",
     "buy_button": "BFXを購入",
     "Huge_title": "BFXの大きなブレークスルー発表",
     "Huge_BFX_Trading": "BFX取引アプリの大型ローンチ",
     "Big_BFX_Release": "大型BFXリリース",
-    "First_Exchange_Listing_Reveal": "初の取引所上場公開",
+    "First_Exchange_Listing_Reveal": "最終プレセール段階",
     "day": "日",
     "Hours": "時間",
     "Minutes": "分",
     "Seconds": "秒",
-     "Huge_bfx_title": "BFXの重大発表"
+    "Huge_bfx_title": "BFXの重大発表"
   },
   "hero": {
     "title": "世界初の暗号資産 <br /> トレーディング",
     "title_highlight": "スーパーアプリ",
-   "subtitle": "BlockchainFXは、DeFiと従来の金融をつなぐ認可済みの次世代暗号通貨取引所です。ユーザーが500以上の実世界およびデジタル資産を取引できる初のプラットフォームです。",
+    "subtitle": "BlockchainFXは、DeFiと従来の金融をつなぐ認可済みの次世代暗号通貨取引所です。ユーザーが500以上の実世界およびデジタル資産を取引できる初のプラットフォームです。",
     "subtitle_des": "BlockchainFXは、DeFiと従来の金融市場をつなぐ次世代型暗号通貨取引所です。株式、為替、ETFなどへのアクセスを提供する唯一のWeb3プラットフォームです。",
-
-  "Licensed": "認可および規制機関：",
+    "Licensed": "認可および規制機関：",
     "feature1": "ブロックチェーンと金融をつなぐ世界初の取引所",
     "feature2": "ビットコイン、イーサリアム、ゴールド、テスラなど500種類以上の資産",
     "feature3": "2025年『ベスト新暗号資産トレーディングアプリ』受賞",
     "featuremob1": "500以上の資産にわたり、ブロックチェーンと伝統的金融をつなぐ初の取引所",
-"featuremob2": "ビットコイン、イーサリアム、ゴールド、株式、FX、ETF、オプション、先物をすべて1つの場所で",
-"featuremob3": "BlockchainFXは『2025年の最高の新しい暗号通貨取引アプリ』として表彰されました",
+    "featuremob2": "ビットコイン、イーサリアム、ゴールド、株式、FX、ETF、オプション、先物をすべて1つの場所で",
+    "featuremob3": "BlockchainFXは『2025年の最高の新しい暗号通貨取引アプリ』として表彰されました",
     "buy_button": "$BFXを購入",
     "how_it_works_button": "仕組みを見る",
     "audited_by": "監査・承認済み",
@@ -266,7 +265,13 @@
       {
         "title": "ビギナー",
         "price": "$1,000",
-        "points": ["BFX Visaカード", "10% BFXボーナス", "BFXステーキング報酬", "毎日USDT報酬", "最大$25kの取引クレジット"],
+        "points": [
+          "BFX Visaカード",
+          "10% BFXボーナス",
+          "BFXステーキング報酬",
+          "毎日USDT報酬",
+          "最大$25kの取引クレジット"
+        ],
         "buttonLabel": "BFXを購入 • $1,000",
         "cardPointsTooltips": [
           "BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
@@ -279,7 +284,13 @@
       {
         "title": "アドバンス",
         "price": "$2,500",
-        "points": ["BFX Visaカード", "20% BFXボーナス", "BFXステーキング報酬", "$500取引クレジット", "毎日USDT報酬"],
+        "points": [
+          "BFX Visaカード",
+          "20% BFXボーナス",
+          "BFXステーキング報酬",
+          "$500取引クレジット",
+          "毎日USDT報酬"
+        ],
         "buttonLabel": "BFXを購入 • $2,500",
         "cardPointsTooltips": [
           "BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
@@ -292,7 +303,13 @@
       {
         "title": "プロ",
         "price": "$5,000",
-        "points": ["メタルBFX Visaカード", "30% BFXボーナス", "BFXステーキング報酬", "$1,000取引クレジット", "毎日USDT報酬"],
+        "points": [
+          "メタルBFX Visaカード",
+          "30% BFXボーナス",
+          "BFXステーキング報酬",
+          "$1,000取引クレジット",
+          "毎日USDT報酬"
+        ],
         "buttonLabel": "BFXを購入 • $5,000",
         "cardPointsTooltips": [
           "BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
@@ -305,7 +322,13 @@
       {
         "title": "エキスパート",
         "price": "$10,000",
-        "points": ["メタルBFX Visaカード", "40% BFXボーナス", "BFXステーキング報酬", "10% USDT報酬", "$2,000取引クレジット"],
+        "points": [
+          "メタルBFX Visaカード",
+          "40% BFXボーナス",
+          "BFXステーキング報酬",
+          "10% USDT報酬",
+          "$2,000取引クレジット"
+        ],
         "buttonLabel": "BFXを購入 • $10,000",
         "cardPointsTooltips": [
           "BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
@@ -318,7 +341,13 @@
       {
         "title": "マスター",
         "price": "$25,000",
-        "points": ["メタルBFX Visaカード", "50% BFXボーナス", "BFXステーキング報酬", "15% USDT報酬", "$5,000取引クレジット"],
+        "points": [
+          "メタルBFX Visaカード",
+          "50% BFXボーナス",
+          "BFXステーキング報酬",
+          "15% USDT報酬",
+          "$5,000取引クレジット"
+        ],
         "buttonLabel": "BFXを購入 • $25,000",
         "cardPointsTooltips": [
           "メタルBFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
@@ -331,7 +360,13 @@
       {
         "title": "エリート",
         "price": "$50,000",
-        "points": ["メタルBFX Visaカード", "60% BFXボーナス", "BFXステーキング報酬", "20% USDT報酬", "$10,000取引クレジット"],
+        "points": [
+          "メタルBFX Visaカード",
+          "60% BFXボーナス",
+          "BFXステーキング報酬",
+          "20% USDT報酬",
+          "$10,000取引クレジット"
+        ],
         "buttonLabel": "BFXを購入 • $50,000",
         "cardPointsTooltips": [
           "メタルBFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
@@ -344,7 +379,13 @@
       {
         "title": "レジェンド",
         "price": "$100,000",
-        "points": ["18金BFX Visaカード", "80% BFXボーナス", "BFXステーキング報酬", "30% USDT報酬", "$25,000取引クレジット"],
+        "points": [
+          "18金BFX Visaカード",
+          "80% BFXボーナス",
+          "BFXステーキング報酬",
+          "30% USDT報酬",
+          "$25,000取引クレジット"
+        ],
         "buttonLabel": "BFXを購入 • $100,000",
         "cardPointsTooltips": [
           "18金BFX Visaカード（バーチャル・物理）、世界中のオンライン・店舗で利用可能。",
@@ -406,8 +447,8 @@
     }
   },
   "less_than_section": {
-     "title": "暗号資産と金融の橋渡し",
-   "description": "暗号通貨は2024年の世界の取引量のうちわずか0.87％を占め、1日平均843億ドルです。一方、外国為替市場は1日あたり7.5兆ドルを扱っています。このギャップは、BFXが暗号通貨ユーザーを世界最大の金融市場とつなぐ大きなチャンスを意味します。",
+    "title": "暗号資産と金融の橋渡し",
+    "description": "暗号通貨は2024年の世界の取引量のうちわずか0.87％を占め、1日平均843億ドルです。一方、外国為替市場は1日あたり7.5兆ドルを扱っています。このギャップは、BFXが暗号通貨ユーザーを世界最大の金融市場とつなぐ大きなチャンスを意味します。",
     "costs": {
       "title": "コスト",
       "description": "最大200万ドル"
@@ -575,11 +616,26 @@
       "average": "5点満点中4.87",
       "verified_ratings": "1000件以上の認証済み評価",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -644,9 +700,9 @@
         "answer": "プレセール中のトークンの安全性は、すべてのデータが安全に保存されているスマートコントラクトによって100％保証されています。トークンは各購入者に割り当てられ、ウォレットでのみアクセス可能です。BFXトークンはプレセール中に転送できず、プレセール終了後にのみ請求できます。"
       },
       {
-  "question": "ベスティング期間はありますか？",
-  "answer": "いいえ、プレセール後すぐに、購入したすべてのBFXトークンを <a href=\"/\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> で即座に請求できます。これらのトークンにはベスティング期間はありません。<br/><br/> ただし、プロジェクトを保護し、可能な限り最良のローンチを確実にするために、ボーナストークン、紹介報酬、ステーキング報酬は90日間のベスティング期間の対象となります。これらのトークンは期間終了後に請求可能になります。"
-},
+        "question": "ベスティング期間はありますか？",
+        "answer": "いいえ、プレセール後すぐに、購入したすべてのBFXトークンを <a href=\"/\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a> で即座に請求できます。これらのトークンにはベスティング期間はありません。<br/><br/> ただし、プロジェクトを保護し、可能な限り最良のローンチを確実にするために、ボーナストークン、紹介報酬、ステーキング報酬は90日間のベスティング期間の対象となります。これらのトークンは期間終了後に請求可能になります。"
+      },
       {
         "question": "BFXの請求方法は？",
         "answer": "プレセール終了後、<a href=\"/\" target=\"\" style=\"color:#E5AE00; text-decoration:underline; text-decoration-color:#E5AE00;\">BlockchainFX.com</a>で数秒以内にBFXトークンを請求できます。"
@@ -945,9 +1001,9 @@
     "feature1": "ブロックチェーンと金融をつなぐ世界初の取引所",
     "feature2": "ビットコイン、イーサリアム、ゴールド、テスラなど500種類以上の資産",
     "feature3": "2025年『ベスト新暗号資産トレーディングアプリ』受賞",
-     "featuremob1": "ブロックチェーンと伝統的な金融を500以上の資産で結ぶ初の取引所",
-  "featuremob2": "ビットコイン、イーサリアム、金、株式、外国為替、ETF、オプション、先物、すべて一箇所に集約",
-  "featuremob3": "2025年の最高の新しい暗号通貨取引アプリ",
+    "featuremob1": "ブロックチェーンと伝統的な金融を500以上の資産で結ぶ初の取引所",
+    "featuremob2": "ビットコイン、イーサリアム、金、株式、外国為替、ETF、オプション、先物、すべて一箇所に集約",
+    "featuremob3": "2025年の最高の新しい暗号通貨取引アプリ",
     "buy_button": "$BFXを購入",
     "how_it_works_button": "仕組みを見る",
     "audited_by": "監査・承認済み",
@@ -955,148 +1011,148 @@
     "rating": "4.87/5"
   },
   "buy_tab": {
-  "you_must_connect_wallet": "最初にウォレットを接続する必要があります",
-  "presale_ended": "プレセールは終了しました",
-  "loading": "読み込み中...",
-  "error_ranking_up": "ランクアップ中にエラーが発生しました",
-  "successfully_unlocked": "正常にアンロックされました",
-  "participants": "参加者",
-  "card": "カード",
-  "other_cryptos": "+ その他の暗号通貨",
-  "presale_price": "プレセール価格",
-  "launch_price": "ローンチ価格",
-  "you_pay_in": "支払い通貨",
-  "usd": "米ドル (USD)",
-  "you_receive_bfx": "$BFX を受け取る",
-  "nft": "NFT",
-  "unlock_nft": "アンロック",
-   "limited_time_offer_1": "特別オファー：",
-   "limit_bonus_time": "期間限定オファー",
-     "Special_XMAS_Offer": "特別クリスマスオファー",
-  "Special_XMAS_Offer_des": "$BFXコインを60％多く受け取るために！",
-  "First_Exchange_Listing_Reveal": "初の取引所上場公開：ボーナスコードを使用 <highlight>{{code}}</highlight>",
-     "black_friday_offer": "ブラックフライデーオファー",
-      "cyber_offer": "サイバーマンデーオファー",
-  "cyber_offer_get": "BFXトークンを50％多く受け取るために。",
-  "cyber_get": "コードを使ってBFXを50％追加で獲得",
-  "black_code": "BF70",
-  "black_friday_offer_des": "BFXトークンを70％多く受け取るために。",
-  "use_bonus_limit": "BFXコインを20%多く獲得！",
-  "use_bonus_code_1": "ボーナスコードを使用",
-  "code_1": "License50",
-  "to_get": "50％多くの $BFX トークンを取得。",
- "limited_time_offer": "ハロウィンスペシャル：",
-  "use_bonus_code_old": "コードを使用",
-  "use_bonus_code": "期間限定オファー：ボーナスコード <highlight>{{code}}</highlight> を使用",
-  "bonus_code_num": "CANDY40",
-  "bonus_code": "ボーナスコード",
-  "to_get_bonus": "期間限定で40％多くのBFXを獲得。",
-  "more_bfx_coins": "$BFX コイン!",
-  "referral_link": "10% 紹介リンク",
-  "wallet_offer_line_1": "特別ローンチオファー：<bonus>ボーナスコード <highlight>{{code}}</highlight></bonus> を使用",
-  "wallet_offer_line_2": "本日BFXトークンを50％多く獲得！",
-  "transaction_successful": "取引が成功しました",
-  "transaction_successful_message": "取引は成功しました。1分待ってからトランザクションタブを更新してトークンをご確認ください。",
-  "transaction_successful_bought_message": "取引は成功しました。購入内容：",
-  "check_transaction_tab": "詳細はトランザクションタブをご確認ください",
-  "transaction_errored": "取引エラー",
-  "transaction_errored_message": "取引が失敗しました。もう一度お試しください。",
-  "transaction_pending": "取引保留中",
-  "transaction_pending_message": "取引は保留中です。1分待ってからトランザクションタブを更新してトークンをご確認ください。",
-  "buy_bfx": "BFX を購入"
-},
-"nft": {
-  "legend": "レジェンド",
-  "elite": "エリート",
-  "master": "マスター",
-  "expert": "エキスパート"
-},
-"how_to_buy_hero": {
-  "title": "購入方法",
-  "blockchain_fx": "BlockchainFX",
-  "bfx_token": "($BFX)",
-  "description": "このシンプルなステップバイステップガイドに従って、$BFXトークンを確保し、毎日の暗号報酬を獲得しましょう。暗号通貨またはカードで支払う場合でも、必要な情報はすべて以下に記載されています。",
-  "coin_alt": "BFX コイン"
-},
-"stepOneWallet": {
-  "step1": "ステップ 1",
-  "setupTitle": "ウォレットを設定",
-  "setupDescription": "BFXを購入する前に、分散型暗号ウォレットを使用していることを確認してください。これにより、トークンが正しくウォレットアドレスにリンクされ、報酬が有効化されます。",
-  "noteLabel": "注意:",
-  "noteDescription": "中央集権型取引所ウォレット（例: Binance、Coinbaseメインアプリ）は使用しないでください。— トークンや報酬は表示されません。",
-  "table": {
-    "platform": "プラットフォーム",
-    "walletOption": "ウォレットオプション",
-    "desktop": "デスクトップ",
-    "desktopOption": "MetaMask (Chrome または Firefox 拡張機能)",
-    "mobile": "モバイル",
-    "mobileOption": "Trust Wallet、Coinbase Wallet、Metamask",
-    "anyDevice": "任意のデバイス",
-    "anyDeviceOption": "WalletConnect対応アプリ"
-  }
-},
-"payment": {
-  "step2": "ステップ 2",
-  "title": "支払い方法を選択",
-  "subtitle": "次のサポートされているオプションから選んでください:"
-},
-"paymentCardOne": {
-  "enterAmount": "購入したい",
-  "toBuy": "の数量を入力してください。",
-  "amountYouPay": "USDTで支払う金額",
-  "youReceive": "受け取るBFX",
-  "bonus": "+ 初心者NFT"
-},
-"paymentCardTwo": {
-  "selectText1": "希望する",
-  "selectText2": "通貨またはカードオプションを選択してください。",
-  "buyWithCard": "カードで購入"
-},
-"paymentCardThree": {
-  "click": "クリック",
-  "buyNow": "今すぐ購入",
-  "amountYouPay": "USDTで支払う金額",
-  "youReceive": "受け取るBFX",
-  "bonus": "+ 初心者NFT",
-  "buyBtn": "BFXを購入"
-},
-"stepThreeTransaction": {
-  "step": "ステップ 3",
-  "title": "取引を確認",
-  "instructions": {
-    "0": "「今すぐ購入」をクリックすると、ユニークなウォレットアドレスが生成されます。",
-    "1": "選択した暗号通貨の正確な金額をそのアドレスに送信してください。",
-    "2": "ウォレット（MetaMask、Trust Walletなど）から取引を承認してください。"
-  }
-},
-"stepFourViewCoins": {
-  "step": "ステップ 4",
-  "title": "BFXコインを表示",
-  "subtitle": "支払いが確認された後:",
-  "list": {
-    "0": "毎日のBFXステーキング報酬がダッシュボードに追加されます。",
-    "1": "USDT（ERC-20）の支払いは毎週月曜日にウォレットへ送信されます。",
-    "2": "すべての報酬と取引はBlockchainFXダッシュボードで確認できます。"
-  }
-},
-"stepFiveClaim": {
-  "step": "ステップ 5",
-  "title": "請求",
-  "subtitle": "プレセール終了後:",
-  "list": {
-    "0": "あなたの$BFXトークンはダッシュボードからワンクリックで請求可能になります。"
+    "you_must_connect_wallet": "最初にウォレットを接続する必要があります",
+    "presale_ended": "プレセールは終了しました",
+    "loading": "読み込み中...",
+    "error_ranking_up": "ランクアップ中にエラーが発生しました",
+    "successfully_unlocked": "正常にアンロックされました",
+    "participants": "参加者",
+    "card": "カード",
+    "other_cryptos": "+ その他の暗号通貨",
+    "presale_price": "プレセール価格",
+    "launch_price": "ローンチ価格",
+    "you_pay_in": "支払い通貨",
+    "usd": "米ドル (USD)",
+    "you_receive_bfx": "$BFX を受け取る",
+    "nft": "NFT",
+    "unlock_nft": "アンロック",
+    "limited_time_offer_1": "特別オファー：",
+    "limit_bonus_time": "期間限定オファー",
+    "Special_XMAS_Offer": "特別クリスマスオファー",
+    "Special_XMAS_Offer_des": "$BFXコインを70％多く受け取るために！",
+    "First_Exchange_Listing_Reveal": "最終プレセール段階：ボーナスコードを使用 <highlight>{{code}}</highlight>",
+    "black_friday_offer": "ブラックフライデーオファー",
+    "cyber_offer": "サイバーマンデーオファー",
+    "cyber_offer_get": "BFXトークンを50％多く受け取るために。",
+    "cyber_get": "コードを使ってBFXを50％追加で獲得",
+    "black_code": "BF70",
+    "black_friday_offer_des": "BFXトークンを70％多く受け取るために。",
+    "use_bonus_limit": "BFXコインを20%多く獲得！",
+    "use_bonus_code_1": "ボーナスコードを使用",
+    "code_1": "License50",
+    "to_get": "50％多くの $BFX トークンを取得。",
+    "limited_time_offer": "ハロウィンスペシャル：",
+    "use_bonus_code_old": "コードを使用",
+    "use_bonus_code": "期間限定オファー：ボーナスコード <highlight>{{code}}</highlight> を使用",
+    "bonus_code_num": "CANDY40",
+    "bonus_code": "ボーナスコード",
+    "to_get_bonus": "期間限定で40％多くのBFXを獲得。",
+    "more_bfx_coins": "$BFX コイン!",
+    "referral_link": "10% 紹介リンク",
+    "wallet_offer_line_1": "特別ローンチオファー：<bonus>ボーナスコード <highlight>{{code}}</highlight></bonus> を使用",
+    "wallet_offer_line_2": "本日BFXトークンを50％多く獲得！",
+    "transaction_successful": "取引が成功しました",
+    "transaction_successful_message": "取引は成功しました。1分待ってからトランザクションタブを更新してトークンをご確認ください。",
+    "transaction_successful_bought_message": "取引は成功しました。購入内容：",
+    "check_transaction_tab": "詳細はトランザクションタブをご確認ください",
+    "transaction_errored": "取引エラー",
+    "transaction_errored_message": "取引が失敗しました。もう一度お試しください。",
+    "transaction_pending": "取引保留中",
+    "transaction_pending_message": "取引は保留中です。1分待ってからトランザクションタブを更新してトークンをご確認ください。",
+    "buy_bfx": "BFX を購入"
   },
-  "thankYou": "BFXの旅の一員となっていただきありがとうございます。"
-},
-"stepSixLaunch": {
-  "step": "ステップ 6",
-  "title": "ローンチ",
-  "exchangesTitle": "$BFXは複数のトップティア取引所に上場",
-  "description1": "プレセール終了後、$BFXは正式に複数のトップティア取引所に上場します。",
-  "description2": "上場発表については、当社のウェブサイトおよびソーシャルチャネルで最新情報をご確認ください。",
-  "button": "今すぐBFXを購入"
-},
-"how_footer": {
+  "nft": {
+    "legend": "レジェンド",
+    "elite": "エリート",
+    "master": "マスター",
+    "expert": "エキスパート"
+  },
+  "how_to_buy_hero": {
+    "title": "購入方法",
+    "blockchain_fx": "BlockchainFX",
+    "bfx_token": "($BFX)",
+    "description": "このシンプルなステップバイステップガイドに従って、$BFXトークンを確保し、毎日の暗号報酬を獲得しましょう。暗号通貨またはカードで支払う場合でも、必要な情報はすべて以下に記載されています。",
+    "coin_alt": "BFX コイン"
+  },
+  "stepOneWallet": {
+    "step1": "ステップ 1",
+    "setupTitle": "ウォレットを設定",
+    "setupDescription": "BFXを購入する前に、分散型暗号ウォレットを使用していることを確認してください。これにより、トークンが正しくウォレットアドレスにリンクされ、報酬が有効化されます。",
+    "noteLabel": "注意:",
+    "noteDescription": "中央集権型取引所ウォレット（例: Binance、Coinbaseメインアプリ）は使用しないでください。— トークンや報酬は表示されません。",
+    "table": {
+      "platform": "プラットフォーム",
+      "walletOption": "ウォレットオプション",
+      "desktop": "デスクトップ",
+      "desktopOption": "MetaMask (Chrome または Firefox 拡張機能)",
+      "mobile": "モバイル",
+      "mobileOption": "Trust Wallet、Coinbase Wallet、Metamask",
+      "anyDevice": "任意のデバイス",
+      "anyDeviceOption": "WalletConnect対応アプリ"
+    }
+  },
+  "payment": {
+    "step2": "ステップ 2",
+    "title": "支払い方法を選択",
+    "subtitle": "次のサポートされているオプションから選んでください:"
+  },
+  "paymentCardOne": {
+    "enterAmount": "購入したい",
+    "toBuy": "の数量を入力してください。",
+    "amountYouPay": "USDTで支払う金額",
+    "youReceive": "受け取るBFX",
+    "bonus": "+ 初心者NFT"
+  },
+  "paymentCardTwo": {
+    "selectText1": "希望する",
+    "selectText2": "通貨またはカードオプションを選択してください。",
+    "buyWithCard": "カードで購入"
+  },
+  "paymentCardThree": {
+    "click": "クリック",
+    "buyNow": "今すぐ購入",
+    "amountYouPay": "USDTで支払う金額",
+    "youReceive": "受け取るBFX",
+    "bonus": "+ 初心者NFT",
+    "buyBtn": "BFXを購入"
+  },
+  "stepThreeTransaction": {
+    "step": "ステップ 3",
+    "title": "取引を確認",
+    "instructions": {
+      "0": "「今すぐ購入」をクリックすると、ユニークなウォレットアドレスが生成されます。",
+      "1": "選択した暗号通貨の正確な金額をそのアドレスに送信してください。",
+      "2": "ウォレット（MetaMask、Trust Walletなど）から取引を承認してください。"
+    }
+  },
+  "stepFourViewCoins": {
+    "step": "ステップ 4",
+    "title": "BFXコインを表示",
+    "subtitle": "支払いが確認された後:",
+    "list": {
+      "0": "毎日のBFXステーキング報酬がダッシュボードに追加されます。",
+      "1": "USDT（ERC-20）の支払いは毎週月曜日にウォレットへ送信されます。",
+      "2": "すべての報酬と取引はBlockchainFXダッシュボードで確認できます。"
+    }
+  },
+  "stepFiveClaim": {
+    "step": "ステップ 5",
+    "title": "請求",
+    "subtitle": "プレセール終了後:",
+    "list": {
+      "0": "あなたの$BFXトークンはダッシュボードからワンクリックで請求可能になります。"
+    },
+    "thankYou": "BFXの旅の一員となっていただきありがとうございます。"
+  },
+  "stepSixLaunch": {
+    "step": "ステップ 6",
+    "title": "ローンチ",
+    "exchangesTitle": "$BFXは複数のトップティア取引所に上場",
+    "description1": "プレセール終了後、$BFXは正式に複数のトップティア取引所に上場します。",
+    "description2": "上場発表については、当社のウェブサイトおよびソーシャルチャネルで最新情報をご確認ください。",
+    "button": "今すぐBFXを購入"
+  },
+  "how_footer": {
     "disclaimer": "暗号通貨はお住まいの地域で規制されていない場合があり、その価値は変動し、利益または損失をもたらす可能性があります。利益は、現地の法律に応じてキャピタルゲイン税やその他の税金の対象となる場合があります。本プラットフォームのコンテンツは、暗号通貨の売買や取引への参加を推奨、提供、または金融アドバイスするものではありません。取引があなたの個人的な目標、財務状況、リスク許容度に適合するかどうかを判断する責任はあなた自身にあります。意思決定を行う前に、信頼できる有資格の法律、税務、または金融の専門家に相談することを強く推奨します。<br/><br/>暗号通貨の取引には大きなリスクが伴い、資金の一部または全部を失う可能性があります。徹底的なリサーチが重要です。BlockchainFX は、このプラットフォームに記載された暗号通貨に関して、成果、結果、または資本の返還を保証しません。本プラットフォームを使用することで、利用規約、プライバシーポリシー、クッキーポリシー、および関連するトークン販売契約に同意したものとみなされます。本プラットフォームのコンテンツは、その配布や使用が現地の法律や規制に違反する地域での使用を意図したものではありません。",
     "copyright": "著作権 2025. 無断転載禁止。",
     "cookie_management": "クッキー管理"

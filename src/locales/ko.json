@@ -1,117 +1,134 @@
 {
-    "navbar": {
-      "what_is_bfx": "BlockchainFX란?",
-      "whitelist": "화이트리스트",
-      "whitepaper": "백서",
-      "roadmap": "로드맵",
-      "reviews": "리뷰"
-    },
-    "live_presale_section": {
-      "title": "BFX 프리세일 진행 중",
-      "BFX_App_Launch": "BFX 프리세일 최종 단계",
-      "Special_XMAS_Offer_des": "코드로 BFX 50% 추가 받기",
-      "buy_button": "BFX 구매",
-      "day": "일",
-      "Hours": "시간",
-      "Minutes": "분",
-      "Seconds": "초"
-    },
-    "buy_tab": {
-      "wallet_offer_line_1": "특별 출시 혜택: <bonus>보너스 코드 <highlight>{{code}}</highlight></bonus> 사용",
-      "wallet_offer_line_2": "오늘 BFX 토큰 50% 추가 받기!"
-    },
-    "hero_section": {
-      "hero_title": "최초의 암호화폐 <br /> 거래 슈퍼 앱",
-      "hero_subtitle": "블록체인이 글로벌 금융 시장과 만나다",
-        "subtitle_des": "BlockchainFX는 DeFi와 전통 금융시장을 연결하는 라이선스가 있는 차세대 암호화폐 거래소입니다. 주식, 외환, ETF 등 다양한 자산에 접근할 수 있는 유일한 Web3 플랫폼입니다.",
-
-      "hero_description": "BlockchainFX는 세계 최대 금융 시장에 즉시 접근할 수 있는 유일한 암호화폐 거래 플랫폼입니다. 사용자는 암호화폐, 외환, 주식, ETF, 선물, 옵션, 채권, 지수, CFD 등을 한 곳에서 거래할 수 있습니다. 커뮤니티 중심의 생태계로, BFX 토큰 보유자는 앱에서 거래가 발생할 때마다 USDT 수수료를 얻습니다.",
-      "join_whitelist": "지금 화이트리스트 가입",
-      "whitepaper": "백서",
-      "rated_by_users": "사용자 평가"
-    },
-    "timer_banner": {
-      "presale_starts_in": "BFX 사전 판매 시작까지",
-      "days": "일",
-      "hours": "시간",
-      "minutes": "분",
-      "seconds": "초",
-      "join_whitelist": "화이트리스트에 지금 참여하세요"
-    },
-    "joinwhitelistsec": {
-      "join_whitelist": "화이트리스트 가입",
-      "early_access": "BFX 사전 판매 조기 접근권",
-      "description": "시드 라운드에서 75만 달러를 모금하고 베타 트레이딩 앱을 출시한 후, 커뮤니티는 이제 BFX 사전 판매에 참여할 기회를 얻었습니다.",
-      "how_to_participate": "참여 방법?",
-      "step1": "화이트리스트에 가입하면 BFX를 공개 사전 판매 전에 15분 먼저 구매할 수 있습니다.",
-      "step2": "아래 버튼을 클릭하여 화이트리스트에 등록하세요.",
-      "step3": "지갑 주소와 구매 금액을 입력하세요.",
-      "step4": "사전 판매가 시작될 때 동일한 지갑을 사용하세요.",
-      "step5": "선착순입니다.",
-      "payment_method": "결제 방법: ETH, BNB 및 USDT",
-      "claim": "수령: 사전 판매 종료 후 토큰이 자동으로 귀하의 지갑으로 전송됩니다. 추가 조치는 필요 없습니다.",
-      "date": "날짜: 3월 30일 일요일 오후 5시 UTC",
-      "goal": "목표: $250,000",
-      "launches_on": "$BFX는 여러 주요 거래소에서 출시됩니다.",
-      "join_now": "지금 화이트리스트 가입"
-    },
-    "BlockchainFXsec": {
-      "live_demo": "라이브 BlockchainFX 데모",
-      "btn": "지금 화이트리스트에 가입하세요"
-    },
-    "NextGeneration":{
-      "nextGenTitle": "차세대 거래 경험",
-      "teamExperience": "25년 <br /> 경험을 가진 팀",
-      "assets": "500+ <br /> 자산",
-      "spreads": "초저 <br /> 스프레드",
-      "chatSupport": "24/7 라이브 <br /> 채팅 지원",
-      "register": "1분 안에 <br /> 가입",
-      "oneClickTrading": "원클릭 <br /> 거래",
-      "leverageTrading": "레버리지 <br /> 거래",
-      "charts": "최대 9개 <br /> 차트",
-      "indicators": "100+ <br /> 지표",
-      "tournaments": "월간 <br /> 토너먼트",
-      "joinWhitelist": "화이트리스트 <br /> 가입",
-      "betaTrading": "베타 거래"
-    },
-    "TradeOverSec": {
+  "navbar": {
+    "what_is_bfx": "BlockchainFX란?",
+    "whitelist": "화이트리스트",
+    "whitepaper": "백서",
+    "roadmap": "로드맵",
+    "reviews": "리뷰"
+  },
+  "live_presale_section": {
+    "title": "BFX 프리세일 진행 중",
+    "BFX_App_Launch": "BFX 프리세일 최종 단계",
+    "Special_XMAS_Offer_des": "코드로 BFX 70% 추가 받기",
+    "buy_button": "BFX 구매",
+    "day": "일",
+    "Hours": "시간",
+    "Minutes": "분",
+    "Seconds": "초",
+    "First_Exchange_Listing_Reveal": "최종 프리세일 단계"
+  },
+  "buy_tab": {
+    "wallet_offer_line_1": "특별 출시 혜택: <bonus>보너스 코드 <highlight>{{code}}</highlight></bonus> 사용",
+    "wallet_offer_line_2": "오늘 BFX 토큰 50% 추가 받기!",
+    "Special_XMAS_Offer_des": "70% 더 많은 $BFX 코인을 받으려면!",
+    "First_Exchange_Listing_Reveal": "최종 프리세일 단계: 보너스 코드 <highlight>{{code}}</highlight> 사용"
+  },
+  "hero_section": {
+    "hero_title": "최초의 암호화폐 <br /> 거래 슈퍼 앱",
+    "hero_subtitle": "블록체인이 글로벌 금융 시장과 만나다",
+    "subtitle_des": "BlockchainFX는 DeFi와 전통 금융시장을 연결하는 라이선스가 있는 차세대 암호화폐 거래소입니다. 주식, 외환, ETF 등 다양한 자산에 접근할 수 있는 유일한 Web3 플랫폼입니다.",
+    "hero_description": "BlockchainFX는 세계 최대 금융 시장에 즉시 접근할 수 있는 유일한 암호화폐 거래 플랫폼입니다. 사용자는 암호화폐, 외환, 주식, ETF, 선물, 옵션, 채권, 지수, CFD 등을 한 곳에서 거래할 수 있습니다. 커뮤니티 중심의 생태계로, BFX 토큰 보유자는 앱에서 거래가 발생할 때마다 USDT 수수료를 얻습니다.",
+    "join_whitelist": "지금 화이트리스트 가입",
+    "whitepaper": "백서",
+    "rated_by_users": "사용자 평가"
+  },
+  "timer_banner": {
+    "presale_starts_in": "BFX 사전 판매 시작까지",
+    "days": "일",
+    "hours": "시간",
+    "minutes": "분",
+    "seconds": "초",
+    "join_whitelist": "화이트리스트에 지금 참여하세요"
+  },
+  "joinwhitelistsec": {
+    "join_whitelist": "화이트리스트 가입",
+    "early_access": "BFX 사전 판매 조기 접근권",
+    "description": "시드 라운드에서 75만 달러를 모금하고 베타 트레이딩 앱을 출시한 후, 커뮤니티는 이제 BFX 사전 판매에 참여할 기회를 얻었습니다.",
+    "how_to_participate": "참여 방법?",
+    "step1": "화이트리스트에 가입하면 BFX를 공개 사전 판매 전에 15분 먼저 구매할 수 있습니다.",
+    "step2": "아래 버튼을 클릭하여 화이트리스트에 등록하세요.",
+    "step3": "지갑 주소와 구매 금액을 입력하세요.",
+    "step4": "사전 판매가 시작될 때 동일한 지갑을 사용하세요.",
+    "step5": "선착순입니다.",
+    "payment_method": "결제 방법: ETH, BNB 및 USDT",
+    "claim": "수령: 사전 판매 종료 후 토큰이 자동으로 귀하의 지갑으로 전송됩니다. 추가 조치는 필요 없습니다.",
+    "date": "날짜: 3월 30일 일요일 오후 5시 UTC",
+    "goal": "목표: $250,000",
+    "launches_on": "$BFX는 여러 주요 거래소에서 출시됩니다.",
+    "join_now": "지금 화이트리스트 가입"
+  },
+  "BlockchainFXsec": {
+    "live_demo": "라이브 BlockchainFX 데모",
+    "btn": "지금 화이트리스트에 가입하세요"
+  },
+  "NextGeneration": {
+    "nextGenTitle": "차세대 거래 경험",
+    "teamExperience": "25년 <br /> 경험을 가진 팀",
+    "assets": "500+ <br /> 자산",
+    "spreads": "초저 <br /> 스프레드",
+    "chatSupport": "24/7 라이브 <br /> 채팅 지원",
+    "register": "1분 안에 <br /> 가입",
+    "oneClickTrading": "원클릭 <br /> 거래",
+    "leverageTrading": "레버리지 <br /> 거래",
+    "charts": "최대 9개 <br /> 차트",
+    "indicators": "100+ <br /> 지표",
+    "tournaments": "월간 <br /> 토너먼트",
+    "joinWhitelist": "화이트리스트 <br /> 가입",
+    "betaTrading": "베타 거래"
+  },
+  "TradeOverSec": {
     "title": "500개 이상의 다양한 자산",
     "categories": [
-      { "title": "암호화폐", "subtitle": "BTC, ETH, SOL, PEPE, DOGE, TRUMP 등을 레버리지 및 고급 거래 도구로 거래하세요." },
-      { "title": "주식", "subtitle": "Apple, Tesla, Nvidia, Netflix, Coca Cola 등. 원하는 주식을 몇 초 만에 구매하세요." },
-      { "title": "외환", "subtitle": "USD, EUR, JPY, GBP, AUD 등. 역동적인 외환 시장에서 60개 이상의 통화 쌍을 거래하세요." },
-      { "title": "원자재", "subtitle": "금, 은, 석유, 설탕 등 다양한 귀중한 원자재로 포트폴리오를 다양화하세요." },
-      { "title": "지수", "subtitle": "다우존스, S&P 500, 나스닥, DAX, CAC 등 인기 있는 지수를 거래하세요." }
+      {
+        "title": "암호화폐",
+        "subtitle": "BTC, ETH, SOL, PEPE, DOGE, TRUMP 등을 레버리지 및 고급 거래 도구로 거래하세요."
+      },
+      {
+        "title": "주식",
+        "subtitle": "Apple, Tesla, Nvidia, Netflix, Coca Cola 등. 원하는 주식을 몇 초 만에 구매하세요."
+      },
+      {
+        "title": "외환",
+        "subtitle": "USD, EUR, JPY, GBP, AUD 등. 역동적인 외환 시장에서 60개 이상의 통화 쌍을 거래하세요."
+      },
+      {
+        "title": "원자재",
+        "subtitle": "금, 은, 석유, 설탕 등 다양한 귀중한 원자재로 포트폴리오를 다양화하세요."
+      },
+      {
+        "title": "지수",
+        "subtitle": "다우존스, S&P 500, 나스닥, DAX, CAC 등 인기 있는 지수를 거래하세요."
+      }
     ]
   },
   "OneAppSec": {
-      "title": "하나의 앱에서 모든 것",
-      "subtitle": "번개처럼 빠르고 혁신적인 거래 솔루션",
-      "items": [
-        {
-          "title": "모든 장치",
-          "description": "사용자는 PC, Mac, iOS 또는 Android 등 모든 장치에서 거래할 수 있습니다."
-        },
-        {
-          "title": "기술 도구",
-          "description": "시장 분석과 의사 결정을 향상시키는 고급 기술 도구."
-        },
-        {
-          "title": "위험 관리",
-          "description": "위험을 최소화하기 위한 종합적인 위험 관리 기능."
-        },
-        {
-          "title": "다중 차트",
-          "description": "트레이더는 더 나은 시장 통찰력을 위해 여러 개의 차트를 동시에 사용할 수 있습니다."
-        }
-      ]
-    },
-   "EarnOnSec": {
-        "title": "BFX로 매일 수익 창출",
-        "description": "BFX는 거래 수수료 수익을 기반으로 USDT 보상을 매일 분배하는 최초의 암호화폐입니다. BlockchainFX에서 누군가 거래할 때마다 수익을 얻을 수 있습니다. 보유한 BFX가 많을수록 보상이 증가하며, 하루 최대 25,000 USDT까지 가능합니다.",
-        "button": "대기 목록에 가입"
+    "title": "하나의 앱에서 모든 것",
+    "subtitle": "번개처럼 빠르고 혁신적인 거래 솔루션",
+    "items": [
+      {
+        "title": "모든 장치",
+        "description": "사용자는 PC, Mac, iOS 또는 Android 등 모든 장치에서 거래할 수 있습니다."
       },
-      "HowDoesItSec": {
+      {
+        "title": "기술 도구",
+        "description": "시장 분석과 의사 결정을 향상시키는 고급 기술 도구."
+      },
+      {
+        "title": "위험 관리",
+        "description": "위험을 최소화하기 위한 종합적인 위험 관리 기능."
+      },
+      {
+        "title": "다중 차트",
+        "description": "트레이더는 더 나은 시장 통찰력을 위해 여러 개의 차트를 동시에 사용할 수 있습니다."
+      }
+    ]
+  },
+  "EarnOnSec": {
+    "title": "BFX로 매일 수익 창출",
+    "description": "BFX는 거래 수수료 수익을 기반으로 USDT 보상을 매일 분배하는 최초의 암호화폐입니다. BlockchainFX에서 누군가 거래할 때마다 수익을 얻을 수 있습니다. 보유한 BFX가 많을수록 보상이 증가하며, 하루 최대 25,000 USDT까지 가능합니다.",
+    "button": "대기 목록에 가입"
+  },
+  "HowDoesItSec": {
     "title": "어떻게 작동하나요?",
     "items": [
       {
@@ -176,73 +193,111 @@
     "compatible": "호환 가능",
     "shipping": "BFX 선판매 종료 후 모든 카드가 동시에 발송되므로 배송이 시작됩니다. 모든 BFX 창립자 클럽 회원은 선판매 후 배송 정보를 제출할 수 있는 보안 양식을 받게 됩니다. 카드는 DHL 또는 FedEx Express를 통해 전 세계로 배송됩니다."
   },
-    "PremiumSec": {
-      "title": "한정 창립자 클럽 멤버십",
-      "subtitle": "사전 판매 기간 동안 $BFX를 구매하고 단 $1,000부터 시작하는 창립자 클럽 NFT를 받으세요! 조기 접근, 독점 멤버십, $BFX 보너스, BFX 및 USDT로 일일 스테이킹 보상, 그리고 추가 거래 크레딧을 즐기세요.",
-      "cards": [
-        {
-          "title": "초보자",
-          "price": "$1,000",
-          "points": ["조기 접근", "10% BFX 보너스", "BFX 비자 카드"],
-          "buttonLabel": "화이트리스트 참여"
-        },
-        {
-          "title": "고급",
-          "price": "$2,500",
-          "points": ["조기 접근", "20% BFX 보너스", "메탈 BFX 비자 카드", "$500 거래 크레딧"],
-          "buttonLabel": "화이트리스트 참여"
-        },
-        {
-          "title": "프로",
-          "price": "$5,000",
-          "points": ["조기 접근", "30% BFX 보너스", "메탈 BFX 비자 카드", "$1000 거래 크레딧"],
-          "buttonLabel": "화이트리스트 참여"
-        },
-        {
-          "title": "전문가",
-          "price": "$10,000+",
-          "points": ["조기 접근", "40% BFX 보너스", "메탈 BFX 비자 카드", "10% USDT 보상", "$2000 거래 크레딧"],
-          "buttonLabel": "화이트리스트 참여"
-        },
-        {
-          "title": "마스터",
-          "price": "$25,000+",
-          "points": ["조기 접근", "50% BFX 보너스", "메탈 BFX 비자 카드", "15% USDT 보상", "$5000 거래 크레딧"],
-          "buttonLabel": "화이트리스트 참여"
-        },
-        {
-          "title": "엘리트",
-          "price": "$50,000+",
-          "points": ["조기 접근", "60% BFX 보너스", "메탈 BFX 비자 카드", "20% USDT 보상", "$10,000 거래 크레딧"],
-          "buttonLabel": "화이트리스트 참여"
-        },
-        {
-          "title": "레전드",
-          "price": "$100,000+",
-          "points": ["조기 접근", "80% BFX 보너스", "18 캐럿 BFX 비자 카드", "30% USDT 보상", "$25,000 거래 크레딧"],
-          "buttonLabel": "화이트리스트 참여"
-        }
-      ],
-      "faq": [
-        {
-          "question": "창립자 클럽 NFT는 언제 받을 수 있나요?",
-          "answer": "<li>필요한 양의 $BFX를 구매한 후 자동으로 창립자 클럽 NFT를 받게 됩니다.</li> <li>NFT는 개인 대시보드에 표시되며 사전 판매가 종료되면 청구할 수 있습니다.</li> <li>대시보드에 접근하려면 오른쪽 상단의 '지갑 연결'을 클릭하여 동일한 지갑을 연결하세요.</li>"
-        },
-        {
-          "question": "보너스는 언제 받을 수 있나요?",
-          "answer": "<li>BFX 보너스는 즉시 대시보드에 추가됩니다</li><li>대시보드에 접근하려면 '지갑 연결' 버튼을 클릭하세요</li>"
-        },
-        {
-          "question": "여러 번 구매로 NFT를 받을 수 있나요?",
-          "answer": "<li>네, 필요한 총액에 도달하기 위해 $BFX를 더 작은 금액으로 구매할 수 있습니다. </li><li>예를 들어, $200 상당의 $BFX를 다섯 번 구매하면 초보자 NFT(가치 $1,000)를 얻게 됩니다.</li>"
-        },
-        {
-          "question": "NFT를 업그레이드할 수 있나요?",
-          "answer": "<li>네, 사전 판매 기간 동안 여러 번 업그레이드할 수 있습니다.</li> <li>달성한 가장 높은 레벨에 대한 보상과 NFT를 받게 됩니다.</li> <li>사전 판매가 종료된 후에는 업그레이드가 더 이상 가능하지 않습니다.</li>"
-        }
-      ]
-    },
-    "LessThanSec": {
+  "PremiumSec": {
+    "title": "한정 창립자 클럽 멤버십",
+    "subtitle": "사전 판매 기간 동안 $BFX를 구매하고 단 $1,000부터 시작하는 창립자 클럽 NFT를 받으세요! 조기 접근, 독점 멤버십, $BFX 보너스, BFX 및 USDT로 일일 스테이킹 보상, 그리고 추가 거래 크레딧을 즐기세요.",
+    "cards": [
+      {
+        "title": "초보자",
+        "price": "$1,000",
+        "points": [
+          "조기 접근",
+          "10% BFX 보너스",
+          "BFX 비자 카드"
+        ],
+        "buttonLabel": "화이트리스트 참여"
+      },
+      {
+        "title": "고급",
+        "price": "$2,500",
+        "points": [
+          "조기 접근",
+          "20% BFX 보너스",
+          "메탈 BFX 비자 카드",
+          "$500 거래 크레딧"
+        ],
+        "buttonLabel": "화이트리스트 참여"
+      },
+      {
+        "title": "프로",
+        "price": "$5,000",
+        "points": [
+          "조기 접근",
+          "30% BFX 보너스",
+          "메탈 BFX 비자 카드",
+          "$1000 거래 크레딧"
+        ],
+        "buttonLabel": "화이트리스트 참여"
+      },
+      {
+        "title": "전문가",
+        "price": "$10,000+",
+        "points": [
+          "조기 접근",
+          "40% BFX 보너스",
+          "메탈 BFX 비자 카드",
+          "10% USDT 보상",
+          "$2000 거래 크레딧"
+        ],
+        "buttonLabel": "화이트리스트 참여"
+      },
+      {
+        "title": "마스터",
+        "price": "$25,000+",
+        "points": [
+          "조기 접근",
+          "50% BFX 보너스",
+          "메탈 BFX 비자 카드",
+          "15% USDT 보상",
+          "$5000 거래 크레딧"
+        ],
+        "buttonLabel": "화이트리스트 참여"
+      },
+      {
+        "title": "엘리트",
+        "price": "$50,000+",
+        "points": [
+          "조기 접근",
+          "60% BFX 보너스",
+          "메탈 BFX 비자 카드",
+          "20% USDT 보상",
+          "$10,000 거래 크레딧"
+        ],
+        "buttonLabel": "화이트리스트 참여"
+      },
+      {
+        "title": "레전드",
+        "price": "$100,000+",
+        "points": [
+          "조기 접근",
+          "80% BFX 보너스",
+          "18 캐럿 BFX 비자 카드",
+          "30% USDT 보상",
+          "$25,000 거래 크레딧"
+        ],
+        "buttonLabel": "화이트리스트 참여"
+      }
+    ],
+    "faq": [
+      {
+        "question": "창립자 클럽 NFT는 언제 받을 수 있나요?",
+        "answer": "<li>필요한 양의 $BFX를 구매한 후 자동으로 창립자 클럽 NFT를 받게 됩니다.</li> <li>NFT는 개인 대시보드에 표시되며 사전 판매가 종료되면 청구할 수 있습니다.</li> <li>대시보드에 접근하려면 오른쪽 상단의 '지갑 연결'을 클릭하여 동일한 지갑을 연결하세요.</li>"
+      },
+      {
+        "question": "보너스는 언제 받을 수 있나요?",
+        "answer": "<li>BFX 보너스는 즉시 대시보드에 추가됩니다</li><li>대시보드에 접근하려면 '지갑 연결' 버튼을 클릭하세요</li>"
+      },
+      {
+        "question": "여러 번 구매로 NFT를 받을 수 있나요?",
+        "answer": "<li>네, 필요한 총액에 도달하기 위해 $BFX를 더 작은 금액으로 구매할 수 있습니다. </li><li>예를 들어, $200 상당의 $BFX를 다섯 번 구매하면 초보자 NFT(가치 $1,000)를 얻게 됩니다.</li>"
+      },
+      {
+        "question": "NFT를 업그레이드할 수 있나요?",
+        "answer": "<li>네, 사전 판매 기간 동안 여러 번 업그레이드할 수 있습니다.</li> <li>달성한 가장 높은 레벨에 대한 보상과 NFT를 받게 됩니다.</li> <li>사전 판매가 종료된 후에는 업그레이드가 더 이상 가능하지 않습니다.</li>"
+      }
+    ]
+  },
+  "LessThanSec": {
     "title": "암호화폐와 금융의 연결",
     "description": "2024년 암호화폐는 하루 평균 843억 달러로 전 세계 거래량의 0.87%에 불과합니다. 반면, 외환 시장만 하루 7.5조 달러를 처리합니다. 이러한 격차는 $BFX가 암호화폐 사용자를 세계 최대 금융 시장과 연결할 수 있는 큰 기회를 제공합니다.",
     "graphAlt": "거래량 비교 차트",
@@ -668,5 +723,4 @@
     "copyright": "Copyright 2025. All Rights Reserved.",
     "cookie_management": "쿠키 관리"
   }
-      
-  }
+}
