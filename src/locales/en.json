@@ -31,10 +31,13 @@
     "black_friday": "Black Friday Offer",
     "black_friday_des": "Get 70% More BFX with code",
     "black_friday_code": "BF70",
-    "day": "Day",
+    "day": "Days",
     "Hours": "Hours",
     "Minutes": "Minutes",
-    "Seconds": "Seconds"
+    "Seconds": "Seconds",
+    "last_chance_launch_reveal": "Last Chance to Buy BFX: Official Launch Date Revealed In",
+    "last_chance_to_buy_prefix": "Last Chance to Buy BFX:",
+    "official_launch_date_revealed_in": "Official Launch Date Revealed In"
   },
   "hero": {
     "title": "The First Crypto <br /> Trading",
@@ -1043,6 +1046,7 @@
     "error_ranking_up": "Error ranking up",
     "successfully_unlocked": "Successfully unlocked",
     "participants": "Participants",
+    "last_chance_to_buy": "Last chance to buy",
     "card": "Card",
     "other_cryptos": "+ Other Cryptos",
     "presale_price": "Presale Price",
@@ -1071,6 +1075,7 @@
     "limited_time_offer": "Halloween Special:",
     "use_bonus_code": "Limited Time Offer: Use Bonus Code <highlight>{{code}}</highlight>",
     "First_Exchange_Listing_Reveal": "Final Presale Stage: Use Bonus Code <highlight>{{code}}</highlight>",
+    "presale_phase_ended_last_chance": "Presale Phase Ended: Use code <highlight>{{code}}</highlight><br />for your last chance to buy BFX before launch!",
     "bonus_code_num": "CANDY40",
     "bonus_code": "Bonus Code",
     "to_get_bonus": "to get 40% more BFX for a limited time.",

@@ -15,13 +15,18 @@
     "Hours": "시간",
     "Minutes": "분",
     "Seconds": "초",
+    "last_chance_launch_reveal": "BFX 구매 마지막 기회: 공식 출시일 공개까지",
+    "last_chance_to_buy_prefix": "BFX 구매 마지막 기회:",
+    "official_launch_date_revealed_in": "공식 출시일 공개까지",
     "First_Exchange_Listing_Reveal": "최종 프리세일 단계"
   },
   "buy_tab": {
     "wallet_offer_line_1": "특별 출시 혜택: <bonus>보너스 코드 <highlight>{{code}}</highlight></bonus> 사용",
     "wallet_offer_line_2": "오늘 BFX 토큰 50% 추가 받기!",
     "Special_XMAS_Offer_des": "70% 더 많은 $BFX 코인을 받으려면!",
-    "First_Exchange_Listing_Reveal": "최종 프리세일 단계: 보너스 코드 <highlight>{{code}}</highlight> 사용"
+    "First_Exchange_Listing_Reveal": "최종 프리세일 단계: 보너스 코드 <highlight>{{code}}</highlight> 사용",
+    "presale_phase_ended_last_chance": "프리세일 단계 종료: 코드 <highlight>{{code}}</highlight><br />를 사용하여 출시 전 BFX를 구매할 마지막 기회를 잡으세요!",
+    "last_chance_to_buy": "지금이 마지막 구매 기회입니다"
   },
   "hero_section": {
     "hero_title": "최초의 암호화폐 <br /> 거래 슈퍼 앱",

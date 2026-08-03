@@ -32,6 +32,9 @@
     "Hours": "時間",
     "Minutes": "分",
     "Seconds": "秒",
+    "last_chance_launch_reveal": "BFXを購入する最後のチャンス：公式ローンチ日発表まで",
+    "last_chance_to_buy_prefix": "BFXを購入する最後のチャンス：",
+    "official_launch_date_revealed_in": "公式ローンチ日発表まで",
     "Huge_bfx_title": "BFXの重大発表"
   },
   "hero": {
@@ -1017,6 +1020,7 @@
     "error_ranking_up": "ランクアップ中にエラーが発生しました",
     "successfully_unlocked": "正常にアンロックされました",
     "participants": "参加者",
+    "last_chance_to_buy": "今すぐ購入する最後のチャンス",
     "card": "カード",
     "other_cryptos": "+ その他の暗号通貨",
     "presale_price": "プレセール価格",
@@ -1031,6 +1035,7 @@
     "Special_XMAS_Offer": "特別クリスマスオファー",
     "Special_XMAS_Offer_des": "$BFXコインを70％多く受け取るために！",
     "First_Exchange_Listing_Reveal": "最終プレセール段階：ボーナスコードを使用 <highlight>{{code}}</highlight>",
+    "presale_phase_ended_last_chance": "プレセール終了：コード <highlight>{{code}}</highlight><br />を使って、ローンチ前にBFXを購入する最後のチャンスです！",
     "black_friday_offer": "ブラックフライデーオファー",
     "cyber_offer": "サイバーマンデーオファー",
     "cyber_offer_get": "BFXトークンを50％多く受け取るために。",

@@ -32,6 +32,9 @@
     "Hours": "Saat",
     "Minutes": "Dakika",
     "Seconds": "Saniye",
+    "last_chance_launch_reveal": "BFX Satın Almak İçin Son Şans: Resmi Lansman Tarihi Açıklanmasına Kalan Süre",
+    "last_chance_to_buy_prefix": "BFX Satın Almak İçin Son Şans:",
+    "official_launch_date_revealed_in": "Resmi Lansman Tarihi Açıklanmasına Kalan Süre",
     "Huge_bfx_title": "Büyük BFX Duyurusu"
   },
   "hero": {
@@ -889,6 +892,7 @@
     "error_ranking_up": "Sıralama yükseltilirken hata oluştu",
     "successfully_unlocked": "Başarıyla açıldı",
     "participants": "Katılımcılar",
+    "last_chance_to_buy": "Satın almak için son şans",
     "card": "Kart",
     "other_cryptos": "+ Diğer Kripto Paralar",
     "presale_price": "Ön Satış Fiyatı",
@@ -903,6 +907,7 @@
     "Special_XMAS_Offer": "Özel Noel Teklifi",
     "Special_XMAS_Offer_des": "%70 daha fazla $BFX coin almak için!",
     "First_Exchange_Listing_Reveal": "Son Presale Aşaması: Bonus kodunu kullanın <highlight>{{code}}</highlight>",
+    "presale_phase_ended_last_chance": "Presale Aşaması Sona Erdi: <highlight>{{code}}</highlight> kodunu kullanın<br />lansmandan önce BFX satın almak için son şansınız!",
     "black_friday_offer": "Kara Cuma Teklifi",
     "cyber_offer": "Siber Pazartesi Teklifi",
     "cyber_offer_get": " %50 daha fazla $BFX token almak için.",

@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from "react";
-import popupHeroImage from "../assets/Popup/freepik_a_highly_detailed_3d_render_of_a_transparent_glass_67547_1_2x.webp";
-import uniswapIcon from "../assets/wallet/swp.svg";
-import lbankLogo from "../assets/Popup/lbank-logo.svg";
+import rocketLaunchDesktop from "../assets/Popup/rocket-launch-desktop.webp";
+import rocketLaunchMobile from "../assets/Popup/rocket-launch-mobile.webp";
 import closeIcon from "../assets/Popup/close-icon.svg";
-
-const exchangeButtonStyle = {
-  background: "rgba(176, 176, 176, 0.17)",
-};
 
 const LaunchPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,32 +38,6 @@ const LaunchPopup = () => {
     setIsOpen(false);
   };
 
-  const getPresaleSection = () =>
-    document.querySelector("[data-scroll-target='bfx-presale']") ||
-    document.getElementById("Wallet") ||
-    document.getElementById("how-to-buy");
-
-  const handleBuyNow = () => {
-    closePopup();
-
-    window.setTimeout(() => {
-      const walletSection = getPresaleSection();
-
-      if (!walletSection) {
-        return;
-      }
-
-      const offset = window.innerWidth < 700 ? 96 : 118;
-      const top =
-        walletSection.getBoundingClientRect().top + window.pageYOffset - offset;
-
-      window.scrollTo({
-        top,
-        behavior: "smooth",
-      });
-    }, 180);
-  };
-
   if (!isOpen) return null;
 
   return (
@@ -77,7 +46,7 @@ const LaunchPopup = () => {
       onClick={closePopup}
       role="dialog"
       aria-modal="true"
-      aria-label="Final presale stage popup"
+      aria-label="Presale phase ended popup"
     >
       <div
         className="relative w-full max-w-[330px] min-h-[549px] overflow-hidden rounded-[12px] border-2 border-[#E5AE00] bg-black text-white shadow-[0_30px_80px_rgba(0,0,0,0.55)] md:max-w-[902px] md:min-h-[474px] md:rounded-[24px]"
@@ -85,28 +54,36 @@ const LaunchPopup = () => {
       >
         <div className="pointer-events-none absolute left-1/2 top-[-16px] h-[500px] w-[800px] -translate-x-1/2 bg-[rgba(217,154,38,0.85)] mix-blend-color md:hidden" />
 
-        <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div
-            className="absolute inset-0 md:hidden"
-            style={{
-              WebkitMaskImage:
-                "linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 36%, rgba(0,0,0,0.75) 46%, black 54%, black 100%)",
-              maskImage:
-                "linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 36%, rgba(0,0,0,0.75) 46%, black 54%, black 100%)",
-            }}
-          >
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute left-[-198px] top-[-36px] h-[602px] w-[553px] md:hidden">
             <img
-              src={popupHeroImage}
+              src={rocketLaunchMobile}
               alt=""
-              className="absolute left-[-360px] top-[170px] h-[450px] w-[700px] max-w-none opacity-[0.97]"
+              className="absolute inset-0 h-full w-full max-w-none object-cover opacity-[0.97]"
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage:
+                  "linear-gradient(80.4518108900653deg, rgb(0,0,0) 15.344%, rgba(0,0,0,0) 52.009%)",
+              }}
             />
           </div>
-          <img
-            src={popupHeroImage}
-            alt=""
-            className="absolute left-[-2px] top-[-51px] hidden h-[572px] w-[903px] max-w-none opacity-[0.97] md:block"
-          />
-          <div className="absolute inset-0 hidden bg-[linear-gradient(74deg,#000_15.34%,rgba(0,0,0,0)_52%)] md:block" />
+
+          <div className="absolute left-[-2px] top-[-51px] hidden h-[572px] w-[903px] md:block">
+            <img
+              src={rocketLaunchDesktop}
+              alt=""
+              className="absolute inset-0 h-full w-full max-w-none object-cover opacity-[0.97]"
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage:
+                  "linear-gradient(73.8768283870228deg, rgb(0,0,0) 15.344%, rgba(0,0,0,0) 52.009%)",
+              }}
+            />
+          </div>
         </div>
 
         <button
@@ -114,65 +91,42 @@ const LaunchPopup = () => {
           className="absolute right-[11px] top-[9px] z-20 transition hover:opacity-70 md:right-[25px] md:top-[21px]"
           aria-label="Close popup"
         >
-          <img src={closeIcon} alt="" className="h-6 w-6" />
+          <img src={closeIcon} alt="" className="w-6 h-6" />
         </button>
 
         <div className="relative z-10 flex min-h-[549px] flex-col items-center px-[24px] pt-[39px] text-center md:min-h-[474px] md:items-start md:justify-center md:px-[51px] md:py-[60px] md:text-left">
-          <div className="flex w-full max-w-[282px] flex-col items-center md:max-w-[456px] md:items-start">
-            <p className="font-[Onest] text-[16.5px] font-black uppercase leading-[1.05] tracking-[-0.02em] text-white md:mb-2 md:text-[24px]">
-              LAST CHANCE BEFORE LAUNCH
+          <div className="flex w-full max-w-[282px] flex-col items-center gap-[10px] md:max-w-[456px] md:items-start md:gap-[12px]">
+            <p className="font-[Onest] text-[17px] font-black uppercase leading-[1.05] tracking-[-0.02em] text-white underline underline-offset-2 md:text-[23.874px]">
+              PRESALE PHASE ENDED!
             </p>
 
-            <div className="mt-[7px] flex flex-wrap items-center justify-center gap-x-2 gap-y-2 md:mb-4 md:mt-0 md:justify-start">
-              <p className="font-[Onest] text-[23px] font-black uppercase leading-[1.05] text-[#E5AE00] md:text-[34px]">
-                FINAL PRESALE STAGE
-              </p>
-            </div>
+            <p className="font-[Onest] text-[18px] font-black uppercase leading-[0.98] text-[#E5AE00] md:w-[398px] md:text-[29px]">
+              <span className="md:hidden">LAST CHANCE TO BUY BEFORE LAUNCH</span>
+              <span className="hidden md:inline">LAST CHANCE TO BUY</span>
+            </p>
 
-            <h2 className="mt-[12px] font-[Onest] text-[33px] font-black uppercase leading-[0.86] tracking-[-0.04em] text-white md:mb-5 md:mt-0 md:text-[56px]">
-              LBANK Listing confirmed!
-            </h2>
+            <p className="font-[Onest] font-black uppercase leading-[0.9] text-white md:leading-[0.86]">
+              <span className="block text-[20px] md:inline md:text-[42.3px]">
+                BFX LAUNCH DATE{" "}
+              </span>
+              <span className="block text-[26px] md:inline md:text-[56px]">
+                REVEALED ON
+              </span>
+            </p>
 
-            <div className="mt-[12px] flex flex-col items-center gap-[11px] md:mt-0 md:items-start md:gap-[20px]">
-              <p className="font-[Onest] text-[16.5px] font-bold uppercase leading-[1.4] text-white md:text-[20px]">
-                BFX Is About To Launch!
-              </p>
-
-              <div className="flex items-center justify-center gap-[8.5px] md:justify-start md:gap-3 md:mt-6">
-                <button
-                  onClick={handleBuyNow}
-                  className="flex h-[37px] w-fit items-center rounded-[7px] border-[1.5px] border-[#ABABAB] px-[8px] py-[4px] transition hover:opacity-90 md:h-[52px] md:min-w-fit md:rounded-[10px] md:border-2 md:px-4"
-                  style={exchangeButtonStyle}
-                >
-                  <span className="flex h-[23px] w-[23px] shrink-0 items-center justify-center overflow-hidden rounded-full md:h-[32px] md:w-[32px]">
-                    <img
-                      src={uniswapIcon}
-                      alt=""
-                      className="h-full w-full object-cover"
-                    />
-                  </span>
-                  <span className="ml-[6px] font-[Inter] text-[11px] font-bold uppercase leading-none text-white md:ml-2 md:text-[15px]">
-                    Uniswap
-                  </span>
-                </button>
-
-                <button
-                  onClick={handleBuyNow}
-                  className="flex h-[37px] w-[84px] items-center rounded-[7px] border-[1.5px] border-[#ABABAB] px-[8px] transition hover:opacity-90 md:h-[52px] md:min-w-fit md:rounded-[10px] md:border-2 md:px-4"
-                  style={exchangeButtonStyle}
-                >
-                  <span className="flex h-[23px] w-[23px] shrink-0 items-center justify-center rounded-full bg-[#F0B90B] md:h-[32px] md:w-[32px]">
-                    <img
-                      src={lbankLogo}
-                      alt=""
-                      className="h-[13px] w-[10px] md:h-[18px] md:w-[14px]"
-                    />
-                  </span>
-                  <span className="ml-[6px] font-[Inter] text-[11px] font-bold uppercase leading-none text-white md:ml-2 md:text-[15px]">
-                    Lbank
-                  </span>
-                </button>
+            <div className="mt-[6px] flex flex-col items-center gap-[8.229px] md:mt-0 md:items-start md:gap-[16px]">
+              <div className="flex w-[240px] items-center justify-center rounded-[10.851px] border-[2.444px] border-[#E5AE00] bg-[#E5AE00] px-[46.884px] py-[7.814px] md:w-[411px] md:rounded-[15.824px] md:border-[3.564px] md:px-[68.372px] md:py-[11.395px]">
+                <p className="whitespace-nowrap font-[Inter] text-[16.863px] font-bold leading-[20.285px] text-black md:text-[24.592px] md:leading-[29.582px]">
+                  10th AUGUST | 3 PM UTC
+                </p>
               </div>
+
+              <p className="w-[152px] text-center text-[12px] font-bold uppercase leading-none text-white md:w-[419px] md:text-left md:text-[16px] md:leading-[1.2]">
+                <span className="md:hidden">GET READY FOR LIFTOFF</span>
+                <span className="hidden md:inline">
+                  THE COUNTDOWN IS ON, GET READY FOR LIFTOFF
+                </span>
+              </p>
             </div>
           </div>
         </div>
