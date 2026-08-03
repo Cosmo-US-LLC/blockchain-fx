@@ -1073,7 +1073,7 @@
     "Special_XMAS_Offer": "ข้อเสนอพิเศษวันคริสต์มาส",
     "Special_XMAS_Offer_des": "เพื่อรับเหรียญ $BFX เพิ่มขึ้น 70%!",
     "First_Exchange_Listing_Reveal": "ขั้นตอนพรีเซลขั้นสุดท้าย: ใช้โค้ดโบนัส <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "ระยะพรีเซลสิ้นสุดแล้ว: ใช้โค้ด <highlight>{{code}}</highlight><br />เพื่อโอกาสสุดท้ายในการซื้อ BFX ก่อนเปิดตัว!",
+    "presale_phase_ended_last_chance": "<bold>ระยะพรีเซลสิ้นสุดแล้ว:</bold> ใช้โค้ด <highlight>{{code}}</highlight><br />เพื่อโอกาสสุดท้ายในการซื้อ BFX ก่อนเปิดตัว!",
     "black_friday_offer": "ข้อเสนอแบล็กฟรายเดย์",
     "cyber_offer": "ข้อเสนอไซเบอร์มันเดย์",
     "cyber_offer_get": "เพื่อรับโทเค็น $BFX เพิ่มขึ้น 50%.",

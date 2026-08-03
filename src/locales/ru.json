@@ -1088,7 +1088,7 @@
     "Special_XMAS_Offer": "Специальное рождественское предложение",
     "Special_XMAS_Offer_des": "чтобы получить на 70% больше монет $BFX!",
     "First_Exchange_Listing_Reveal": "Финальный этап пресейла: Используйте бонусный код <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "Этап пресейла завершён: используйте код <highlight>{{code}}</highlight><br />— это ваш последний шанс купить BFX перед запуском!",
+    "presale_phase_ended_last_chance": "<bold>Этап пресейла завершён:</bold> используйте код <highlight>{{code}}</highlight><br />— это ваш последний шанс купить BFX перед запуском!",
     "black_friday_offer": "Предложение на Чёрную Пятницу",
     "cyber_offer": "Предложение на Киберпонедельник",
     "cyber_offer_get": "Чтобы получить на 50% больше токенов $BFX.",

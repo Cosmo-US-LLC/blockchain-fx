@@ -831,7 +831,7 @@
     "Special_XMAS_Offer": "Oferta Especial de Navidad",
     "Special_XMAS_Offer_des": "para obtener un 70% más de monedas $BFX!",
     "First_Exchange_Listing_Reveal": "Etapa final de preventa: Usa el código de bono <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "Fase de preventa finalizada: Usa el código <highlight>{{code}}</highlight><br />para tu última oportunidad de comprar BFX antes del lanzamiento!",
+    "presale_phase_ended_last_chance": "<bold>Fase de preventa finalizada:</bold> Usa el código <highlight>{{code}}</highlight><br />para tu última oportunidad de comprar BFX antes del lanzamiento!",
     "use_bonus_limit": "¡Obtén un 20% más de monedas $BFX!",
     "black_friday_offer": "Oferta de Black Friday",
     "cyber_offer": "Oferta de Cyber Monday",

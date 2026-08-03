@@ -1089,7 +1089,7 @@
     "Special_XMAS_Offer": "圣诞特别优惠",
     "Special_XMAS_Offer_des": "可获得70%更多$BFX币！",
     "First_Exchange_Listing_Reveal": "最终预售阶段：使用奖励码 <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "预售阶段已结束：使用代码 <highlight>{{code}}</highlight><br />把握上线前购买BFX的最后机会！",
+    "presale_phase_ended_last_chance": "<bold>预售阶段已结束：</bold>使用代码 <highlight>{{code}}</highlight><br />把握上线前购买BFX的最后机会！",
     "black_friday_offer": "黑色星期五优惠",
     "cyber_offer": "网络星期一优惠",
     "cyber_offer_get": "可获得50%更多的$BFX代币。",

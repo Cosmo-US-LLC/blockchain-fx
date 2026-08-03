@@ -1078,7 +1078,7 @@
     "limited_time_offer": "Halloween Special:",
     "use_bonus_code": "Limited Time Offer: Use Bonus Code <highlight>{{code}}</highlight>",
     "First_Exchange_Listing_Reveal": "Final Presale Stage: Use Bonus Code <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "Presale Phase Ended: Use code <highlight>{{code}}</highlight><br />for your last chance to buy BFX before launch!",
+    "presale_phase_ended_last_chance": "<bold>Presale Phase Ended:</bold> Use code <highlight>{{code}}</highlight><br />for your last chance to buy BFX before launch!",
     "bonus_code_num": "CANDY40",
     "bonus_code": "Bonus Code",
     "to_get_bonus": "to get 40% more BFX for a limited time.",

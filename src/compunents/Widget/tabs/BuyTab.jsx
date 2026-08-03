@@ -134,9 +134,7 @@ const BuyTab = ({ onTabChange }) => {
 
   const PRESALE_GOAL_USD = 15000000;
   const presaleGoalExceededPercent =
-    ((parseNum(apiData.stage?.cumulative_usd_raised) - PRESALE_GOAL_USD) /
-      PRESALE_GOAL_USD) *
-    100;
+    (parseNum(apiData.stage?.cumulative_usd_raised) / PRESALE_GOAL_USD) * 100;
 
   const [isLastChanceInfoOpen, setIsLastChanceInfoOpen] = useState(false);
   const lastChanceInfoRef = useRef(null);
@@ -802,6 +800,7 @@ const BuyTab = ({ onTabChange }) => {
                     values={{ code: BonusCode }}
                     components={{
                       highlight: <span className="text-[#2FD942] !font-[700]" />,
+                      bold: <span className="font-[700]" />,
                       br: <br />,
                     }}
                   />

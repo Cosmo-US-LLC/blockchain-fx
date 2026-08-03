@@ -25,7 +25,7 @@
     "wallet_offer_line_2": "오늘 BFX 토큰 50% 추가 받기!",
     "Special_XMAS_Offer_des": "70% 더 많은 $BFX 코인을 받으려면!",
     "First_Exchange_Listing_Reveal": "최종 프리세일 단계: 보너스 코드 <highlight>{{code}}</highlight> 사용",
-    "presale_phase_ended_last_chance": "프리세일 단계 종료: 코드 <highlight>{{code}}</highlight><br />를 사용하여 출시 전 BFX를 구매할 마지막 기회를 잡으세요!",
+    "presale_phase_ended_last_chance": "<bold>프리세일 단계 종료:</bold> 코드 <highlight>{{code}}</highlight><br />를 사용하여 출시 전 BFX를 구매할 마지막 기회를 잡으세요!",
     "last_chance_to_buy": "지금이 BFX를 구매할 마지막 기회입니다",
     "presale_goal_exceeded": "프리세일 목표 초과 달성",
     "last_chance_info_label": "자세히 보기",
