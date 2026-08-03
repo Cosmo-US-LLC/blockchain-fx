@@ -1076,7 +1076,7 @@
     "Special_XMAS_Offer": "Speciale Kerstaanbieding",
     "Special_XMAS_Offer_des": "om 70% meer $BFX-munten te krijgen!",
     "First_Exchange_Listing_Reveal": "Laatste Presale-fase: Gebruik bonuscode <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "Presale-fase beëindigd: Gebruik code <highlight>{{code}}</highlight><br />voor je laatste kans om BFX te kopen vóór de lancering!",
+    "presale_phase_ended_last_chance": "<bold>Presale-fase beëindigd:</bold> Gebruik code <highlight>{{code}}</highlight><br />voor je laatste kans om BFX te kopen vóór de lancering!",
     "use_bonus_limit": "Ontvang 20% meer $BFX Coins!",
     "use_bonus_code_1": "Gebruik bonuscode",
     "code_1": "License50",

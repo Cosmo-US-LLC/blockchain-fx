@@ -1046,7 +1046,7 @@
     "Special_XMAS_Offer": "Spesialtilbud til jul",
     "Special_XMAS_Offer_des": "for å få 70% flere $BFX-mynter!",
     "First_Exchange_Listing_Reveal": "Siste forhåndssalgsfase: Bruk bonuskode <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "Forhåndssalgsfasen er avsluttet: Bruk koden <highlight>{{code}}</highlight><br />for din siste sjanse til å kjøpe BFX før lansering!",
+    "presale_phase_ended_last_chance": "<bold>Forhåndssalgsfasen er avsluttet:</bold> Bruk koden <highlight>{{code}}</highlight><br />for din siste sjanse til å kjøpe BFX før lansering!",
     "black_friday_offer": "Black Friday-tilbud",
     "cyber_offer": "Cyber Monday-tilbud",
     "cyber_offer_get": "For å få 50% flere $BFX-tokens.",

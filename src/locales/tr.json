@@ -910,7 +910,7 @@
     "Special_XMAS_Offer": "Özel Noel Teklifi",
     "Special_XMAS_Offer_des": "%70 daha fazla $BFX coin almak için!",
     "First_Exchange_Listing_Reveal": "Son Presale Aşaması: Bonus kodunu kullanın <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "Presale Aşaması Sona Erdi: <highlight>{{code}}</highlight> kodunu kullanın<br />lansmandan önce BFX satın almak için son şansınız!",
+    "presale_phase_ended_last_chance": "<bold>Presale Aşaması Sona Erdi:</bold> <highlight>{{code}}</highlight> kodunu kullanın<br />lansmandan önce BFX satın almak için son şansınız!",
     "black_friday_offer": "Kara Cuma Teklifi",
     "cyber_offer": "Siber Pazartesi Teklifi",
     "cyber_offer_get": " %50 daha fazla $BFX token almak için.",

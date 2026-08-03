@@ -1011,7 +1011,7 @@
     "Special_XMAS_Offer": "Offre spéciale Noël",
     "Special_XMAS_Offer_des": "pour obtenir 70% de pièces $BFX en plus !",
     "First_Exchange_Listing_Reveal": "Dernière phase de prévente : Utilisez le code bonus <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "Phase de prévente terminée : Utilisez le code <highlight>{{code}}</highlight><br />pour votre dernière chance d'acheter du BFX avant le lancement !",
+    "presale_phase_ended_last_chance": "<bold>Phase de prévente terminée :</bold> Utilisez le code <highlight>{{code}}</highlight><br />pour votre dernière chance d'acheter du BFX avant le lancement !",
     "use_bonus_limit": "Obtenez 20 % de pièces $BFX en plus !",
     "use_bonus_code_1": "Utilisez le code bonus",
     "code_1": "License50",

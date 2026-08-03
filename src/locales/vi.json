@@ -1090,7 +1090,7 @@
     "Special_XMAS_Offer": "Ưu đãi Giáng Sinh Đặc Biệt",
     "Special_XMAS_Offer_des": "Để nhận thêm 70% đồng $BFX!",
     "First_Exchange_Listing_Reveal": "Giai Đoạn Presale Cuối Cùng: Sử dụng mã thưởng <highlight>{{code}}</highlight>",
-    "presale_phase_ended_last_chance": "Giai Đoạn Presale Đã Kết Thúc: Sử dụng mã <highlight>{{code}}</highlight><br />cho cơ hội cuối cùng để mua BFX trước khi ra mắt!",
+    "presale_phase_ended_last_chance": "<bold>Giai Đoạn Presale Đã Kết Thúc:</bold> Sử dụng mã <highlight>{{code}}</highlight><br />cho cơ hội cuối cùng để mua BFX trước khi ra mắt!",
     "black_friday_offer": "Ưu đãi Black Friday",
     "cyber_offer": "Ưu đãi Cyber Monday",
     "cyber_offer_get": "Để nhận thêm 50% token $BFX.",
