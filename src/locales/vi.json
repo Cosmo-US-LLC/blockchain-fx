@@ -32,7 +32,10 @@
     "day": "Ngày",
     "Hours": "Giờ",
     "Minutes": "Phút",
-    "Seconds": "Giây"
+    "Seconds": "Giây",
+    "last_chance_launch_reveal": "Cơ Hội Cuối Cùng Để Mua BFX: Ngày Ra Mắt Chính Thức Sẽ Được Tiết Lộ Sau",
+    "last_chance_to_buy_prefix": "Cơ Hội Cuối Cùng Để Mua BFX:",
+    "official_launch_date_revealed_in": "Ngày Ra Mắt Chính Thức Sẽ Được Tiết Lộ Sau"
   },
   "hero": {
     "title": "Nền tảng giao dịch Crypto đầu tiên <br />",
@@ -1070,6 +1073,7 @@
     "error_ranking_up": "Lỗi khi xếp hạng",
     "successfully_unlocked": "Đã mở khóa thành công",
     "participants": "Người tham gia",
+    "last_chance_to_buy": "Cơ hội cuối cùng để mua",
     "card": "Thẻ",
     "other_cryptos": "+ Tiền điện tử khác",
     "presale_price": "Giá bán trước",
@@ -1083,6 +1087,7 @@
     "Special_XMAS_Offer": "Ưu đãi Giáng Sinh Đặc Biệt",
     "Special_XMAS_Offer_des": "Để nhận thêm 70% đồng $BFX!",
     "First_Exchange_Listing_Reveal": "Giai Đoạn Presale Cuối Cùng: Sử dụng mã thưởng <highlight>{{code}}</highlight>",
+    "presale_phase_ended_last_chance": "Giai Đoạn Presale Đã Kết Thúc: Sử dụng mã <highlight>{{code}}</highlight><br />cho cơ hội cuối cùng để mua BFX trước khi ra mắt!",
     "black_friday_offer": "Ưu đãi Black Friday",
     "cyber_offer": "Ưu đãi Cyber Monday",
     "cyber_offer_get": "Để nhận thêm 50% token $BFX.",

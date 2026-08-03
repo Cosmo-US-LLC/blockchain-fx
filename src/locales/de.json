@@ -32,7 +32,10 @@
     "day": "Tag",
     "Hours": "Stunden",
     "Minutes": "Minuten",
-    "Seconds": "Sekunden"
+    "Seconds": "Sekunden",
+    "last_chance_launch_reveal": "Letzte Chance, BFX zu kaufen: Offizielles Launch-Datum enthüllt in",
+    "last_chance_to_buy_prefix": "Letzte Chance, BFX zu kaufen:",
+    "official_launch_date_revealed_in": "Offizielles Launch-Datum enthüllt in"
   },
   "hero": {
     "title": "Das erste Krypto-<br />Trading",
@@ -1036,6 +1039,7 @@
     "error_ranking_up": "Fehler beim Hochstufen",
     "successfully_unlocked": "Erfolgreich freigeschaltet",
     "participants": "Teilnehmer",
+    "last_chance_to_buy": "Letzte Chance zu kaufen",
     "card": "Karte",
     "other_cryptos": "+ Andere Kryptowährungen",
     "presale_price": "Vorverkaufspreis",
@@ -1050,6 +1054,7 @@
     "Special_XMAS_Offer": "Spezialangebot zu Weihnachten",
     "Special_XMAS_Offer_des": "Um 70% mehr $BFX-Coins zu erhalten!",
     "First_Exchange_Listing_Reveal": "Letzte Presale-Phase: Verwenden Sie den Bonuscode <highlight>{{code}}</highlight>",
+    "presale_phase_ended_last_chance": "Presale-Phase beendet: Nutze den Code <highlight>{{code}}</highlight><br />für deine letzte Chance, BFX vor dem Launch zu kaufen!",
     "black_friday_offer": "Black Friday Angebot",
     "cyber_offer": "Cyber Monday Angebot",
     "cyber_offer_get": "Um 50% mehr $BFX Token zu erhalten.",

@@ -15,8 +15,11 @@ const [timeLeft, setTimeLeft] = useState({
 });
 
 useEffect(() => {
+  // Original target date, commented out per request
   // 1 June 2026, 6:00 PM Dubai time (UTC+4) = 2:00 PM UTC
-  const targetDate = new Date(Date.UTC(2026, 5, 1, 14, 0, 0));
+  // const targetDate = new Date(Date.UTC(2026, 5, 1, 14, 0, 0));
+  // Monday, 10th August 2026, 3:00 PM UTC
+  const targetDate = new Date(Date.UTC(2026, 7, 10, 15, 0, 0));
 
   const interval = setInterval(() => {
     const now = new Date();
@@ -74,11 +77,12 @@ const handleScroll = () => {
         }}
       >
         <div className="max-w-[1060px] mx-auto w-[100%] flex flex-row justify-center space-x-[20px] items-center px-2">
+          {/* Original implementation, commented out per request to show the last-chance / launch-date-reveal countdown banner
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
             <span className="font-[800]">{t("live_presale_section.First_Exchange_Listing_Reveal")}:</span> {t("live_presale_section.Special_XMAS_Offer_des")} <span className="font-[800]">{promoCode}</span>
           </p>
 
-          {/* <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2">
             <div>
               <h3 className="text-[16px] font-[600]">
                 {timeLeft.days}{" "}
@@ -99,7 +103,38 @@ const handleScroll = () => {
                 </span>
               </h3>
             </div>
-          </div> */}
+          </div>
+          */}
+          <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
+            {/* Original single bold implementation, commented out per request to make "Official Launch Date Revealed In" unbold
+            <span className="font-[800]">{t("live_presale_section.last_chance_launch_reveal")}</span>
+            */}
+            <span className="font-[800]">{t("live_presale_section.last_chance_to_buy_prefix")}</span>{" "}
+            <span className="font-[600]">{t("live_presale_section.official_launch_date_revealed_in")}</span>
+          </p>
+
+          <div className="flex items-center space-x-2">
+            <div>
+              <h3 className="text-[16px] font-[600]">
+                {timeLeft.days}{" "}
+                <span className="text-[14px] font-[400]">
+                  {t("live_presale_section.day")}
+                </span>{" "}
+                : {timeLeft.hours}{" "}
+                <span className="text-[14px] font-[400]">
+                  {t("live_presale_section.Hours")}
+                </span>{" "}
+                : {timeLeft.minutes}{" "}
+                <span className="text-[14px] font-[400]">
+                  {t("live_presale_section.Minutes")}
+                </span>{" "}
+                : {timeLeft.seconds}{" "}
+                <span className="text-[14px] font-[400]">
+                  {t("live_presale_section.Seconds")}
+                </span>
+              </h3>
+            </div>
+          </div>
           <button
             onClick={handleScroll}
             className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700]  text-[#fff]  bg-[black] rounded-[3px] h-[25px] px-[6px] md:px-[10px]"
@@ -116,17 +151,18 @@ const handleScroll = () => {
         }}
       >
         <div className="max-w-[900px] mx-auto w-[100%] flex flex-col justify-center  items-center">
+          {/* Original implementation, commented out per request to show the last-chance / launch-date-reveal countdown banner
           <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center px-4">
               <span className="font-[800]">{t("live_presale_section.First_Exchange_Listing_Reveal")}</span>
             </p>
-            
+
           </div>
-          <div className="flex justify-center flex-row items-center">
-            {/* <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
+          <div className="flex flex-row items-center justify-center">
+            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center">
               <span>{t("live_presale_section.Special_XMAS_Offer_des")}</span>  <span className="font-[800]">{promoCode}</span>
-            </p> */}
-            {/* <h3 className="text-[14px] font-[600]">
+            </p>
+            <h3 className="text-[14px] font-[600]">
               {timeLeft.days}{" "}
               <span className="text-[12px] font-[400]">
                 {" "}
@@ -144,10 +180,10 @@ const handleScroll = () => {
               <span className="text-[12px] font-[400]">
                 {t("live_presale_section.Seconds")}
               </span>
-            </h3> */}
+            </h3>
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center px-4">
               {t("live_presale_section.Special_XMAS_Offer_des")} {" "}
-              <span className="font-[800]">{promoCode}</span> 
+              <span className="font-[800]">{promoCode}</span>
             </p>
             <button
               onClick={handleScroll}
@@ -156,8 +192,117 @@ const handleScroll = () => {
               {t("live_presale_section.buy_button")}
             </button>
           </div>
+          */}
+          {/* First attempt at moving the CTA up (inline flex row), commented out per request — text wrapping to 2 lines pushed the button out of alignment
+          <div className="flex w-[100%] justify-center items-center space-x-2 border-b-[1px] border-[#000] pb-2 mb-2">
+            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center px-4">
+              <span className="font-[800]">{t("live_presale_section.last_chance_to_buy_prefix")}</span>{" "}
+              <span className="font-[600]">{t("live_presale_section.official_launch_date_revealed_in")}</span>
+            </p>
+            <button
+              onClick={handleScroll}
+              className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[22px] px-[6px] md:px-[10px] shrink-0"
+            >
+              {t("live_presale_section.buy_button")}
+            </button>
+          </div>
+          */}
+          {/* Second attempt (absolute-positioned button), commented out per request — at wider mobile widths the single-line text ran under the button and got clipped instead of wrapping
+          <div className="relative w-[100%] border-b-[1px] border-[#000] pb-2 mb-2 px-11">
+            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center leading-[1.3]">
+              <span className="font-[800]">{t("live_presale_section.last_chance_to_buy_prefix")}</span>{" "}
+              <span className="font-[600]">{t("live_presale_section.official_launch_date_revealed_in")}</span>
+            </p>
+            <button
+              onClick={handleScroll}
+              className="absolute top-0 right-1 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[22px] px-[6px] md:px-[10px] shrink-0"
+            >
+              {t("live_presale_section.buy_button")}
+            </button>
+          </div>
+          */}
+          {/* Third attempt (CTA on the title row via spacer+button flex), commented out per request to move the CTA below the timer instead
+          <div className="flex w-[100%] items-start justify-between gap-1 border-b-[1px] border-[#000] pb-2 mb-2 px-2">
+            <div className="w-[54px] shrink-0" aria-hidden="true" />
+            <p className="flex-1 font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center leading-[1.3]">
+              <span className="font-[800]">{t("live_presale_section.last_chance_to_buy_prefix")}</span>{" "}
+              <span className="font-[600]">{t("live_presale_section.official_launch_date_revealed_in")}</span>
+            </p>
+            <button
+              onClick={handleScroll}
+              className="w-[54px] shrink-0 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[22px] px-[6px] md:px-[10px]"
+            >
+              {t("live_presale_section.buy_button")}
+            </button>
+          </div>
+          */}
+          <div className="flex w-[100%] items-center justify-center border-b-[1px] border-[#000] pb-2 mb-2 px-2">
+            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center leading-[1.3]">
+              {/* Original single bold implementation, commented out per request to make "Official Launch Date Revealed In" unbold
+              <span className="font-[800]">{t("live_presale_section.last_chance_launch_reveal")}</span>
+              */}
+              <span className="font-[800]">{t("live_presale_section.last_chance_to_buy_prefix")}</span>{" "}
+              <span className="font-[600]">{t("live_presale_section.official_launch_date_revealed_in")}</span>
+            </p>
+          </div>
+          {/* Fourth attempt (CTA on its own row below the timer), commented out per request to put it back inline, next to the timer
+          <div className="flex flex-col items-center justify-center gap-2">
+            <h3 className="text-[14px] font-[600]">
+              {timeLeft.days}{" "}
+              <span className="text-[12px] font-[400]">
+                {" "}
+                {t("live_presale_section.day")}
+              </span>{" "}
+              : {timeLeft.hours}{" "}
+              <span className="text-[12px] font-[400]">
+                {t("live_presale_section.Hours")}
+              </span>{" "}
+              : {timeLeft.minutes}{" "}
+              <span className="text-[12px] font-[400]">
+                {t("live_presale_section.Minutes")}
+              </span>{" "}
+              : {timeLeft.seconds}{" "}
+              <span className="text-[12px] font-[400]">
+                {t("live_presale_section.Seconds")}
+              </span>
+            </h3>
+            <button
+              onClick={handleScroll}
+              className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[22px] px-[10px]"
+            >
+              {t("live_presale_section.buy_button")}
+            </button>
+          </div>
+          */}
+          <div className="flex flex-row items-center justify-center gap-2">
+            <h3 className="text-[14px] font-[600]">
+              {timeLeft.days}{" "}
+              <span className="text-[12px] font-[400]">
+                {" "}
+                {t("live_presale_section.day")}
+              </span>{" "}
+              : {timeLeft.hours}{" "}
+              <span className="text-[12px] font-[400]">
+                {t("live_presale_section.Hours")}
+              </span>{" "}
+              : {timeLeft.minutes}{" "}
+              <span className="text-[12px] font-[400]">
+                {t("live_presale_section.Minutes")}
+              </span>{" "}
+              : {timeLeft.seconds}{" "}
+              <span className="text-[12px] font-[400]">
+                {t("live_presale_section.Seconds")}
+              </span>
+            </h3>
+            <button
+              onClick={handleScroll}
+              className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[22px] px-[10px] shrink-0"
+            >
+              {t("live_presale_section.buy_button")}
+            </button>
+          </div>
         </div>
-      </div> 
+      </div>
     
      {/* <div
       className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center w-[100%] 2xl:mb-12 xl:mb-12 lg:mb-12 md:mb-12 sm:mb-0 mb-0 fixed 2xl:bottom-unset xl:bottom-unset lg:bottom-unset md:bottom-unset sm:bottom-0 bottom-0 2xl:top-0 h-[38px] xl:top-0 lg:top-0 md:top-0 sm:top-unset top-unset left-0 right-0 z-[999]"

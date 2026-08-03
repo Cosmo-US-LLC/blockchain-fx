@@ -38,6 +38,9 @@
     "Hours": "Uren",
     "Minutes": "Minuten",
     "Seconds": "Seconden",
+    "last_chance_launch_reveal": "Laatste kans om BFX te kopen: Officiële lanceringsdatum onthuld over",
+    "last_chance_to_buy_prefix": "Laatste kans om BFX te kopen:",
+    "official_launch_date_revealed_in": "Officiële lanceringsdatum onthuld over",
     "Huge_bfx_title": "Grote BFX-aankondiging"
   },
   "hero": {
@@ -1055,6 +1058,7 @@
     "error_ranking_up": "Fout bij het verhogen van niveau",
     "successfully_unlocked": "Succesvol ontgrendeld",
     "participants": "Deelnemers",
+    "last_chance_to_buy": "Laatste kans om te kopen",
     "card": "Kaart",
     "other_cryptos": "+ Andere Crypto's",
     "presale_price": "Voorverkoopprijs",
@@ -1069,6 +1073,7 @@
     "Special_XMAS_Offer": "Speciale Kerstaanbieding",
     "Special_XMAS_Offer_des": "om 70% meer $BFX-munten te krijgen!",
     "First_Exchange_Listing_Reveal": "Laatste Presale-fase: Gebruik bonuscode <highlight>{{code}}</highlight>",
+    "presale_phase_ended_last_chance": "Presale-fase beëindigd: Gebruik code <highlight>{{code}}</highlight><br />voor je laatste kans om BFX te kopen vóór de lancering!",
     "use_bonus_limit": "Ontvang 20% meer $BFX Coins!",
     "use_bonus_code_1": "Gebruik bonuscode",
     "code_1": "License50",

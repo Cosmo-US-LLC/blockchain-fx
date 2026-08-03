@@ -56,7 +56,8 @@ import WalletTransferModal from "../../ui/modals/WalletTransferModal/WalletTrans
 const BuyTab = ({ onTabChange }) => {
   const { t } = useTranslation();
   // const BonusCode = "BFX20";
-  const BonusCode = "FINAL70";
+  // const BonusCode = "FINAL70";
+  const BonusCode = "LAUNCH80";
   const needsWalletConnected = new Set(["stake", "history"]);
   const apiData = useApiState();
   /** @type {[PaymentToken | null, (newVal: PaymentToken | null) => void]} */
@@ -391,11 +392,17 @@ const BuyTab = ({ onTabChange }) => {
           </h3>
           <div className="pt-3">
             <div className="flex items-center justify-between pb-1">
+              {/* Original dynamic softcap percentage text, commented out per request
               <span className="text-[#fff] text-[11.74px] font-[400] leading-[100%]">
                 {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
               </span>
+              */}
+              <span className="text-[#fff] text-[12px] font-[400] leading-[100%]">
+                {t("buy_tab.last_chance_to_buy")}
+              </span>
             </div>
             <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
+              {/* Original dynamic progress bar width, commented out per request to show a full bar
               <div
                 className=" h-[10px] rounded-[20px]"
                 style={{
@@ -404,10 +411,24 @@ const BuyTab = ({ onTabChange }) => {
                     "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                 }}
               />
+              */}
+              <div
+                className=" h-[10px] rounded-[20px]"
+                style={{
+                  width: "100%",
+                  background:
+                    "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                }}
+              />
             </div>
             <div>
+              {/* Original dynamic softcap target price, commented out per request to hardcode $15,000,000
               <p className="text-[#fff] text-end text-[9.74px] font-[400] leading-[150%]">
                 {formatDollar(apiData.stage?.next_stage_target_usd, true, 0, 0)}
+              </p>
+              */}
+              <p className="text-[#fff] text-end text-[9.74px] font-[400] leading-[150%]">
+                $15,000,000
               </p>
             </div>
           </div>
@@ -705,6 +726,7 @@ const BuyTab = ({ onTabChange }) => {
           }}
           >
               <h3 className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[10px] w-full max-w-full mx-auto font-[500] text-white text-center px-2">
+                {/* Original implementation, commented out per request to show the presale-ended / last-chance message
                 <span className="block whitespace-nowrap">
                   <Trans
                     i18nKey="buy_tab.First_Exchange_Listing_Reveal"
@@ -716,6 +738,17 @@ const BuyTab = ({ onTabChange }) => {
                   />
                 </span>
                 <span className="block">{t("buy_tab.Special_XMAS_Offer_des")}</span>
+                */}
+                <span className="block">
+                  <Trans
+                    i18nKey="buy_tab.presale_phase_ended_last_chance"
+                    values={{ code: BonusCode }}
+                    components={{
+                      highlight: <span className="text-[#2FD942] !font-[700]" />,
+                      br: <br />,
+                    }}
+                  />
+                </span>
               </h3>
                 {/* <p className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] font-[700] text-center text-[#fff]">(This is the biggest offer we will ever have!)</p> */}
           </div>
