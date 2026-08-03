@@ -132,6 +132,34 @@ const BuyTab = ({ onTabChange }) => {
     (apiData.stage?.cumulative_usd_raised ?? 0) /
     (apiData.stage?.next_stage_target_usd ?? 1);
 
+  const PRESALE_GOAL_USD = 15000000;
+  const presaleGoalExceededPercent =
+    ((parseNum(apiData.stage?.cumulative_usd_raised) - PRESALE_GOAL_USD) /
+      PRESALE_GOAL_USD) *
+    100;
+
+  const [isLastChanceInfoOpen, setIsLastChanceInfoOpen] = useState(false);
+  const lastChanceInfoRef = useRef(null);
+  const supportsHoverRef = useRef(
+    typeof window !== "undefined" &&
+      window.matchMedia?.("(hover: hover)").matches
+  );
+
+  useEffect(() => {
+    if (!isLastChanceInfoOpen) return;
+    const handleClickOutside = (event) => {
+      if (
+        lastChanceInfoRef.current &&
+        !lastChanceInfoRef.current.contains(event.target)
+      ) {
+        setIsLastChanceInfoOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () =>
+      document.removeEventListener("mousedown", handleClickOutside);
+  }, [isLastChanceInfoOpen]);
+
   const partialNumRegexp = /^(\d*|(\d+\.?\d*))$/;
   const [paymentTokenNumStr, setPaymentTokenNumStr] = useState("1");
   const [receiveTokenNumStr, setReceiveTokenNumStr] = useState("0");
@@ -400,9 +428,34 @@ const BuyTab = ({ onTabChange }) => {
               <span className="text-[#fff] text-[12px] font-[400] leading-[100%]">
                 {t("buy_tab.last_chance_to_buy")}
               </span>
+              <div
+                className="relative"
+                ref={lastChanceInfoRef}
+                onMouseEnter={() =>
+                  supportsHoverRef.current && setIsLastChanceInfoOpen(true)
+                }
+                onMouseLeave={() =>
+                  supportsHoverRef.current && setIsLastChanceInfoOpen(false)
+                }
+              >
+                <button
+                  type="button"
+                  onClick={() => setIsLastChanceInfoOpen((open) => !open)}
+                  className="flex h-[16px] w-[16px] items-center justify-center rounded-full border border-[#8D8D8D] text-[#8D8D8D] text-[10px] font-[700] leading-none hover:border-[#FBD914] hover:text-[#FBD914] transition-colors"
+                  aria-label={t("buy_tab.last_chance_info_label")}
+                  aria-expanded={isLastChanceInfoOpen}
+                >
+                  i
+                </button>
+                {isLastChanceInfoOpen && (
+                  <div className="absolute right-0 top-[22px] z-30 w-[220px] rounded-[8px] border border-[#FBD914] bg-[#111] p-[10px] text-left text-[10.5px] leading-[1.4] text-[#fff] shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+                    {t("buy_tab.last_chance_info_text")}
+                  </div>
+                )}
+              </div>
             </div>
-            <div className="bg-gray-800 w-[100%] h-[10px] rounded-[20px]">
-              {/* Original dynamic progress bar width, commented out per request to show a full bar
+            <div className="relative bg-gray-800 w-[100%] h-[16px] rounded-[20px] overflow-hidden">
+              {/* Original dynamic progress bar width (10px tall, no overlay), commented out per request to make the bar bigger and show the goal-exceeded percentage
               <div
                 className=" h-[10px] rounded-[20px]"
                 style={{
@@ -413,13 +466,17 @@ const BuyTab = ({ onTabChange }) => {
               />
               */}
               <div
-                className=" h-[10px] rounded-[20px]"
+                className="h-[16px] rounded-[20px]"
                 style={{
                   width: "100%",
                   background:
                     "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
                 }}
               />
+              <span className="absolute inset-0 flex items-center justify-center whitespace-nowrap text-[8.5px] font-[700] text-black">
+                {formatNumber(presaleGoalExceededPercent, 0, 2)}%{" "}
+                {t("buy_tab.presale_goal_exceeded")}
+              </span>
             </div>
             <div>
               {/* Original dynamic softcap target price, commented out per request to hardcode $15,000,000

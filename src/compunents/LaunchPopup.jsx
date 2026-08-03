@@ -101,8 +101,8 @@ const LaunchPopup = () => {
             </p>
 
             <p className="font-[Onest] text-[18px] font-black uppercase leading-[0.98] text-[#E5AE00] md:w-[398px] md:text-[29px]">
-              <span className="md:hidden">LAST CHANCE TO BUY BEFORE LAUNCH</span>
-              <span className="hidden md:inline">LAST CHANCE TO BUY</span>
+              <span className="md:hidden">LAST CHANCE TO BUY <br /> BFX BEFORE LAUNCH</span>
+              <span className="hidden md:inline">LAST CHANCE TO BUY BFX</span>
             </p>
 
             <p className="font-[Onest] font-black uppercase leading-[0.9] text-white md:leading-[0.86]">

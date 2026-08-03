@@ -26,7 +26,10 @@
     "Special_XMAS_Offer_des": "70% 더 많은 $BFX 코인을 받으려면!",
     "First_Exchange_Listing_Reveal": "최종 프리세일 단계: 보너스 코드 <highlight>{{code}}</highlight> 사용",
     "presale_phase_ended_last_chance": "프리세일 단계 종료: 코드 <highlight>{{code}}</highlight><br />를 사용하여 출시 전 BFX를 구매할 마지막 기회를 잡으세요!",
-    "last_chance_to_buy": "지금이 마지막 구매 기회입니다"
+    "last_chance_to_buy": "지금이 BFX를 구매할 마지막 기회입니다",
+    "presale_goal_exceeded": "프리세일 목표 초과 달성",
+    "last_chance_info_label": "자세히 보기",
+    "last_chance_info_text": "프리세일은 1,500만 달러 목표를 달성한 후 공식적으로 종료되었으며, BFX는 이제 출시 단계에 진입합니다. 이는 출시 전에 BFX를 구매하거나 멤버십을 업그레이드할 수 있는 마지막 기회입니다."
   },
   "hero_section": {
     "hero_title": "최초의 암호화폐 <br /> 거래 슈퍼 앱",
