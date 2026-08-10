@@ -107,10 +107,10 @@ const LaunchPopup = () => {
 
             <p className="font-[Onest] font-black uppercase leading-[0.9] text-white md:leading-[0.86]">
               <span className="block text-[20px] md:inline md:text-[42.3px]">
-                BFX LAUNCH DATE{" "}
+                BFX OFFICIALLY{" "}
               </span>
               <span className="block text-[26px] md:inline md:text-[56px]">
-                REVEALED ON
+                LAUNCHES ON
               </span>
             </p>
 
