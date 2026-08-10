@@ -18,8 +18,8 @@ useEffect(() => {
   // Original target date, commented out per request
   // 1 June 2026, 6:00 PM Dubai time (UTC+4) = 2:00 PM UTC
   // const targetDate = new Date(Date.UTC(2026, 5, 1, 14, 0, 0));
-  // Monday, 10th August 2026, 3:00 PM UTC
-  const targetDate = new Date(Date.UTC(2026, 7, 10, 15, 0, 0));
+  // Monday, 31st August 2026, 3:00 PM UTC
+  const targetDate = new Date(Date.UTC(2026, 7, 31, 15, 0, 0));
 
   const interval = setInterval(() => {
     const now = new Date();
