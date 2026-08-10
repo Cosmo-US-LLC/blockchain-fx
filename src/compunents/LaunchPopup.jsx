@@ -117,7 +117,7 @@ const LaunchPopup = () => {
             <div className="mt-[6px] flex flex-col items-center gap-[8.229px] md:mt-0 md:items-start md:gap-[16px]">
               <div className="flex w-[240px] items-center justify-center rounded-[10.851px] border-[2.444px] border-[#E5AE00] bg-[#E5AE00] px-[46.884px] py-[7.814px] md:w-[411px] md:rounded-[15.824px] md:border-[3.564px] md:px-[68.372px] md:py-[11.395px]">
                 <p className="whitespace-nowrap font-[Inter] text-[16.863px] font-bold leading-[20.285px] text-black md:text-[24.592px] md:leading-[29.582px]">
-                  10th AUGUST | 3 PM UTC
+                  31st AUGUST | 3 PM UTC
                 </p>
               </div>
 
