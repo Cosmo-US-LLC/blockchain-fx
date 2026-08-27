@@ -45,7 +45,7 @@ export const postLeads = async (args) => {
  * @returns {Promise<AxiosResponse<API.Stage | null>>}
  */
 export const getActiveStage = () => {
-  return apiFetch(`/projects/${project}/stages/current`);
+  return Promise.resolve({ data: null });
 };
 
 /**
@@ -157,7 +157,7 @@ export const createTransaction = (args) => {
         token_amount: args.token_amount,
         ...getUtmArgs(),
       },
-    }
+    },
   );
 };
 
@@ -180,7 +180,7 @@ export const createCardTransaction = (args) => {
         usd_amount: args.usd_amount,
         ...getUtmArgs(),
       },
-    }
+    },
   );
 };
 
@@ -231,7 +231,7 @@ export const createTransactionMetadata = (address, transactionHash) => {
         transaction_hash: transactionHash,
         ...getUtmArgs(),
       },
-    }
+    },
   );
 };
 
@@ -337,7 +337,7 @@ export const applyBonusCode = (address, code, accessToken) => {
       headers: {
         Authorization: `Bearer ${accessToken}`,
       },
-    }
+    },
   );
 };
 
@@ -365,17 +365,17 @@ export const levelUpUser = (address) => {
  */
 export const getReferralBonuses = (walletAddress) => {
   return apiFetch(
-    `/projects/${project}/wallet/${walletAddress}/referrals/bonuses`
+    `/projects/${project}/wallet/${walletAddress}/referrals/bonuses`,
   );
 };
 
 /**
- * @param {string} walletAddress 
+ * @param {string} walletAddress
  * @returns {Promise<AxiosResponse<import("./api.types.d.ts").API.UserProfitData>>}
  */
 export const getUserProfit = (walletAddress) => {
-  return apiFetch(`/projects/${project}/wallet/${walletAddress}/profit`)
-}
+  return apiFetch(`/projects/${project}/wallet/${walletAddress}/profit`);
+};
 
 /**
  *
