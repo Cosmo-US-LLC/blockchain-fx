@@ -40,7 +40,7 @@ function MobTheUltimateSec() {
              className="text-{#000} px-[15px]  text-[12px] font-[700] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-fit h-[31px]"
             onClick={handleScroll}
             >
-             {t("the_ultimate_section.buy_bfx")}
+             {t("claim_widget.label")}
             </button>
             <button
              onClick={() =>

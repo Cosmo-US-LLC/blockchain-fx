@@ -1,8 +1,6 @@
-import React, { useEffect, lazy, Suspense } from "react";
-import { setCanonical } from "../utils/setCanonical";
+import React, { lazy, Suspense } from "react";
 
 import MobileHero from "./MobileHero";
-import LaunchPopup from "../compunents/LaunchPopup";
 
 const MobileWalletSec = lazy(() => import("./MobileWalletSec"));
 const KYCVerifiedMob = lazy(() => import("./KYCVerifiedMob"));
@@ -27,7 +25,6 @@ const MobPressMediaSec = lazy(() => import("./MobPressMediaSec"));
 const MobTraderReviewsSec = lazy(() => import("./MobTraderReviewsSec"));
 const MobFaqSec = lazy(() => import("./MobFaqSec"));
 const MobTheUltimateSec = lazy(() => import("./MobTheUltimateSec"));
-const LivePresale = lazy(() => import("../compunents/LivePresale"));
 
 // Loading fallback
 const LoadingFallback = () => (
@@ -42,7 +39,6 @@ function MobileHome() {
 
   return (
     <div className="bg-[#020B10] w-full">
-      <LaunchPopup />
       <MobileHero />
 
       <Suspense fallback={<LoadingFallback />}>
@@ -69,7 +65,6 @@ function MobileHome() {
         <MobTraderReviewsSec />
         <MobFaqSec />
         <MobTheUltimateSec />
-        <LivePresale />
       </Suspense>
     </div>
   );

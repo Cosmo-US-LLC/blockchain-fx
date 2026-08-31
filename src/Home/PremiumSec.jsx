@@ -203,7 +203,7 @@ function PremiumSec() {
                         }}
                         className="text-black px-[12px] hover:border-[#E6B005] hover:opacity-[0.8] text-[15.27px] font-[800] border border-[#E5AE00]  rounded-[8px] w-[100%] h-[49px]"
                       >
-                        {card.buttonLabel}
+                        {t("claim_widget.label")}
                       </button>
                     </div>
                   </div>

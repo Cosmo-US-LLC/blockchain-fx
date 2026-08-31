@@ -34,9 +34,9 @@ function StepSixLaunchSectionMobile() {
           <p className="text-[14px] font-[400] leading-[20px] tracking-[-0.32px] text-[#9F9F9F] mb-6">
            {t("stepSixLaunch.description2")}
           </p>
-          <a href="/" className="w-fit z-50">
+          <a href="/#Wallet" className="w-fit z-50">
             <button className="px-2 py-2 max-w-[150px] font-[500] text-black transition bg-[#E5AE00] rounded-md">
-             {t("stepSixLaunch.button")}
+             {t("claim_widget.label")}
             </button>
           </a>
         </div>

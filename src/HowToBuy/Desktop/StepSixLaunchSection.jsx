@@ -53,9 +53,9 @@ function StepSixLaunchSection() {
               {t("stepSixLaunch.description2")}
             </p>
 
-            <a href="/" className="w-fit">
+            <a href="/#Wallet" className="w-fit">
               <button className="px-6 py-3 font-semibold text-black transition bg-yellow-400 rounded-md hover:bg-yellow-500">
-                {t("stepSixLaunch.button")}
+                {t("claim_widget.label")}
               </button>
             </a>
           </div>

@@ -51,7 +51,7 @@ export default function Whitepaper() {
               }}
               className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px]"
             >
-              {t("whitepaper.buyButton")}
+              {t("claim_widget.label")}
             </button>
             <a href="/BFX-Whitepaper.pdf" target="_blank" rel="noopener noreferrer">
               <button className="hover:text-black hover:bg-[#E5AE00] px-[18px] text-[#E5AE00] bg-transparent text-[16px] font-[700] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-fit h-[50px]">

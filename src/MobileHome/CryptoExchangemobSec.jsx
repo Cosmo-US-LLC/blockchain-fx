@@ -45,7 +45,7 @@ function CryptoExchangemobSec() {
               }}
               className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[138px] w-[100%] h-[50px]"
             >
-              {t("crypto_exchange_sec.buy_button")}
+              {t("claim_widget.label")}
             </button>
           </div>
         </div>

@@ -232,7 +232,7 @@ function MobilePremiumSec() {
                         }}
                         className="text-black px-[12px] hover:text-[#E5AE00] hover:!bg-transparent text-[14.629px] font-[800] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-[100%] h-[49px]"
                       >
-                        {card.buttonLabel}
+                        {t("claim_widget.label")}
                       </button>
                     </div>
                   </div>

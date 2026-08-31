@@ -2,64 +2,44 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
 import iconapon from "../assets/presale-v3/ei_arrow-up.svg";
-import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
-import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
-import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
-import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
+import ClaimWidget from "../compunents/ClaimWidget";
 import ExchangeListingsBar from "../compunents/ExchangeListingsBar";
-import Widget from "../compunents/Widget";
-import { useApiState } from "../presale-gg/stores/api.store"; // Adjust if path differs
+
+const claimSteps = [1, 2, 3, 4];
+
 const MobileWalletSec = () => {
   const { t } = useTranslation();
-  const apiData = useApiState();
-  const [selectedHowToBuyStep, setSelectedHowToBuyStep] = useState(0);
-  const items = [
-    { icon: oneicon1 },
-    { icon: oneicon2 },
-    { icon: oneicon3 },
-    { icon: oneicon4 },
-  ];
+  const [selectedClaimStep, setSelectedClaimStep] = useState(0);
+
   return (
-    <div
-      className="pt-[42px] pb-[35px] bg-[#020B10]"
+    <section
+      className="bg-[#020B10] pb-[35px] pt-[42px]"
       id="Wallet"
-      data-scroll-target="bfx-presale"
+      data-scroll-target="bfx-claim"
     >
-      <div className="space-y-[20px] px-[24px] py-[20px] bg-[#020B10] max-w-[955px] w-[90%] mx-auto border border-[#262626] rounded-[8px]">
-        <div className="flex items-center justify-center space-x-3">
-          <h3 className="text-[30px] font-[700] leading-[120%] tracking-[-1.5px] text-white">
-            {t("wallet_section.title")}
-          </h3>
-          {!apiData.presaleEnded && (
-            <div className="w-[58px] text-[14px] font-[600] text-white rounded-[7px] bg-[#E9C03D] h-[22px] flex justify-center items-start">
-              <span className="text-[38px] leading-[9%] !-mt-[1px] pr-[2px] animate-blink">
-                .
-              </span>
-              Live
-            </div>
-          )}
-        </div>
-        <p
-          className="mobilepara text-white font-[400] text-[16px] max-w-[345px] mx-auto text-center font-inter pb-8"
-          style={{ lineHeight: "160%", letterSpacing: "-2%" }}
-           dangerouslySetInnerHTML={{ __html: t("wallet_section.description") }}
-         >
-       </p>
-        {apiData.presaleEnded && (
-          <div
-            className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3]"
-            style={{ background: "rgba(237, 237, 237, 0.40)" }}
-          >
-            <h4 className="text-center text-[#444] text-[24px] font-[700]">
-              {t("wallet_section.presale_ended")}
-            </h4>
+      <div className="mx-auto w-[90%] max-w-[955px] space-y-[20px] rounded-[8px] border border-[#262626] bg-[#020B10] px-[24px] py-[20px]">
+        <header className="text-center">
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <h2 className="text-[30px] font-[700] leading-[120%] tracking-[-1.5px] text-white">
+              {t("claim_section.title")}
+            </h2>
+            <span
+              className="inline-flex min-h-[22px] items-center rounded-[7px] bg-[#E9C03D] px-2.5 text-[10px] font-[700] uppercase tracking-[0.04em] text-[#020B10]"
+            >
+              {t("claim_section.status_live")}
+            </span>
           </div>
-        )}
+          <p className="mobilepara mx-auto mt-3 max-w-[345px] pb-6 text-center font-inter text-[16px] font-[400] leading-[160%] text-white">
+            {t("claim_section.description_live")}
+          </p>
+        </header>
+
         <div className="flex flex-col justify-between gap-8 md:flex-row">
-          <Widget />
+          <ClaimWidget />
+
           <div
-          id="how-to-buy"
-            className="max-w-[413.763px] space-y-[10px] relative rounded-[20px] px-[10px] pt-[22px] pb-[11px] border border-white w-full mx-auto"
+            id="how-to-claim"
+            className="relative mx-auto w-full max-w-[413.763px] space-y-[10px] rounded-[20px] border border-white px-[10px] pb-[11px] pt-[22px]"
             style={{
               background:
                 "linear-gradient(211.91deg, rgba(100, 100, 100, 0.5) 0.66%, rgba(20, 20, 20, 0.75) 49.48%, rgba(40, 40, 40, 0.5) 103.45%)",
@@ -67,87 +47,76 @@ const MobileWalletSec = () => {
               WebkitBackdropFilter: "blur(19px)",
             }}
           >
-            <div className="absolute top-0 left-0 w-full -translate-y-1/2">
-              <div className="bg-[#020B10] h-[30px] flex items-center rounded-[6px] mx-auto w-[102px] border border-white">
-                <h3 className="text-[10px] text-white text-center w-full font-[700]">
-                  {t("wallet_section.how_to_buy")}
+            <div className="absolute left-0 top-0 w-full -translate-y-1/2">
+              <div className="mx-auto flex h-[30px] w-[112px] items-center rounded-[6px] border border-white bg-[#020B10]">
+                <h3 className="w-full text-center text-[10px] font-[700] text-white">
+                  {t("claim_section.how_to_claim")}
                 </h3>
               </div>
             </div>
+
             <div>
-              {items.map((item, index) => (
-                <div
-                  key={index}
-                  className="py-[15px] px-1 border-b transition-all duration-300"
-                >
+              {claimSteps.map((step, index) => {
+                const isOpen = selectedClaimStep === index;
+                const panelId = `mobile-claim-step-${step}`;
+
+                return (
                   <div
-                    className="flex items-center justify-between cursor-pointer"
-                    onClick={() =>
-                      setSelectedHowToBuyStep(
-                        selectedHowToBuyStep === index ? null : index
-                      )
-                    }
+                    key={step}
+                    className="border-b border-[#545454] px-1 py-[5px] last:border-none"
                   >
-                    <div className="flex items-center justify-between w-full space-x-4">
-                      <div className="flex flex-col w-full">
-                        <div className="flex items-center justify-between">
-                          <h3
-                            className={`text-[14px] capitalize font-[600] ${
-                              index === selectedHowToBuyStep ? "" : "text-white"
-                            }`}
-                            style={
-                              index === selectedHowToBuyStep
-                                ? {
-                                    color:"#E5AE00",
-                                  }
-                                : {}
-                            }
-                          >
-                            {t(`wallet_section.step_${index + 1}_title`)}
-                          </h3>
-                          <img
-                            src={
-                              index === selectedHowToBuyStep
-                                ? iconcls
-                                : iconapon
-                            }
-                            alt={
-                              index === selectedHowToBuyStep
-                                ? "collapse"
-                                : "expand"
-                            }
-                            width={24}
-                            height={24}
-                          />
-                        </div>
-                        <div
-                          className={`transition-all duration-300 space-y-[5px] ${
-                            index === selectedHowToBuyStep
-                              ? "max-h-[200px] opacity-100 mt-[8px] text-[12px] font-[400] text-white overflow-hidden block"
-                              : "max-h-0 hidden opacity-0"
-                          }`}
-                          style={{
-                            transition:
-                              "max-height 0.3s ease, opacity 0.3s ease",
-                          }}
-                          dangerouslySetInnerHTML={{ __html: t(`wallet_section.step_${index + 1}_description`) }}
-                        />
+                    <button
+                      type="button"
+                      className="flex min-h-[44px] w-full items-center justify-between gap-4 rounded-[4px] text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#E5AE01]"
+                      onClick={() =>
+                        setSelectedClaimStep(isOpen ? null : index)
+                      }
+                      aria-expanded={isOpen}
+                      aria-controls={panelId}
+                    >
+                      <span
+                        className={`text-[14px] font-[600] ${
+                          isOpen ? "text-[#F3C742]" : "text-white"
+                        }`}
+                      >
+                        {t(`claim_section.step_${step}_title`)}
+                      </span>
+                      <img
+                        src={isOpen ? iconcls : iconapon}
+                        alt=""
+                        aria-hidden="true"
+                        className="h-[24px] w-[24px] shrink-0"
+                      />
+                    </button>
+                    <div
+                      id={panelId}
+                      className={`grid transition-all duration-300 motion-reduce:transition-none ${
+                        isOpen
+                          ? "mt-[8px] grid-rows-[1fr] opacity-100"
+                          : "grid-rows-[0fr] opacity-0"
+                      }`}
+                      aria-hidden={!isOpen}
+                    >
+                      <div className="min-h-0 overflow-hidden text-[12px] font-[400] leading-[1.55] text-white">
+                        {t(`claim_section.step_${step}_description`)}
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
-            <div className="space-y-[14px]">
-              <h4 className="text-white text-[14px] py-[5px] font-[600] px-1">
-              5. Launch
+
+            <div className="space-y-[14px] border-t border-[#545454] pt-4">
+              <h4 className="px-1 py-[5px] text-[14px] font-[600] text-white">
+                {t("claim_section.exchange_title")}
               </h4>
               <ExchangeListingsBar className="mx-auto w-full" />
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
+
 export default MobileWalletSec;

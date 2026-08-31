@@ -35,7 +35,6 @@ import {
   showConnectWalletModal,
   useModalState,
 } from "../presale-gg/stores/modal.store";
-import LivePresale from "./LivePresale";
 
 const flags = [
   { flag: flag1, abbreviation: "EN", name: "English" },

@@ -46,7 +46,7 @@ export default function WhitepaperMob() {
             onClick={handleScroll}
             className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]"
           >
-            {t("whitepaper.buyButton")} {/* Use translation */}
+            {t("claim_widget.label")}
           </button>
           <button
             onClick={() =>

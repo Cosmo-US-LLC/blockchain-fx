@@ -1,10 +1,9 @@
-import React, { useEffect, lazy, Suspense } from 'react';
+import React, { lazy, Suspense } from 'react';
 
 // Components that should load immediately (above the fold)
 import Herosection from './Herosection';
 import FeaturedSec from './FeaturedSec';
 import WalletSec from './WalletSec';
-import LaunchPopup from '../compunents/LaunchPopup';
 
 // Lazy loaded components
 const KYCVerified = lazy(() => import('./KYCVerified'));
@@ -43,9 +42,6 @@ function Home() {
  
   return (
     <div className="">
-      <Suspense fallback={null}>
-        <LaunchPopup />
-      </Suspense>
       <Herosection />
       <FeaturedSec />
 

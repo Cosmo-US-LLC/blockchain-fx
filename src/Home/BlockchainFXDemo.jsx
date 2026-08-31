@@ -60,7 +60,7 @@ function BlockchainFXDemo() {
                   }}
                   className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px]"
                 >
-                  {t("blockchainfx_demo.buy_button")}
+                  {t("claim_widget.label")}
                 </button>
 
                 <button

@@ -76,7 +76,7 @@ function DemoSec() {
           }}
           className="self-center text-[13px] font-[700] border border-[black] rounded-[10px] h-[50px] w-[110px]"
         >
-          {t("blockchainfx_demo.buy_button")}
+          {t("claim_widget.label")}
         </button>
         <button
           onClick={handleScrollreview}

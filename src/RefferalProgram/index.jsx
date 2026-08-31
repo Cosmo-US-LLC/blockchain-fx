@@ -4,7 +4,6 @@ import React, {useEffect} from 'react';
 import HerosectionReferral from './Herosectionreferral';
 import TopBFXReferral from './topbfxReferral';
 import EarnWithReferral from './referralEarn';
-import LivePresale from '../compunents/LivePresale';
 
 
 
@@ -17,7 +16,6 @@ useEffect(() => {
 
     return (
       <div className="">
-        {/* <LivePresale /> */}
         <HerosectionReferral />
         <TopBFXReferral />
         <EarnWithReferral />
@@ -27,4 +25,3 @@ useEffect(() => {
   }
   
   export default RefferalProgram;
-  

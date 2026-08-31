@@ -38,7 +38,7 @@ function TheUltimateSec() {
                 onClick={handleScroll}
                 className="text-white bg-[#E5AE00] hover:text-[#FFF] px-[30px] hover:bg-transparent text-[16px] font-[700] border border-[#E5AE00] hover:border-[#fff] rounded-[8px] w-fit h-[50px]"
               >
-                {t("the_ultimate_section.buy_bfx")}
+                {t("claim_widget.label")}
               </button>
               <button
                 onClick={() =>

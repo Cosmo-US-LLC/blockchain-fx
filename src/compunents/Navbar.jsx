@@ -33,7 +33,6 @@ import {
 import { useAccount } from "../presale-gg/web3/hooks";
 import DashboardPopup from "./ui/DashboardPopup";
 import WalletPopup from "./ui/WalletPopup";
-import LivePresale from "./LivePresale";
 
 const flags = [
   { flag: flag1, abbreviation: "EN", name: "English" },
@@ -69,13 +68,6 @@ function Navbar() {
 
   const pdfUrl =
     "/BFX-Whitepaper.pdf?_gl=1*97cvu6*_gcl_au*MTEzODkzMzY0LjE3NTQzOTA1ODE.";
-
-  // const isHome = location.pathname === '/';
-  const parts = location.pathname.split("/").filter(Boolean);
-  const isHome =
-    parts.length === 0 ||
-    (parts.length === 1 &&
-      flags.some((f) => f.abbreviation.toLowerCase() === parts[0]));
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
@@ -174,13 +166,10 @@ function Navbar() {
   const modalData = useModalState();
 
   return (
-    <div className={` relative ${isHome ? "mb-[90px]" : "!mb-[50px]"}`}>
-      <LivePresale />
+    <div className="relative mb-[50px]">
       <nav
         aria-label="Breadcrumb"
-        className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          isHome ? "top-[2.3rem]" : "top-0"
-        }`}
+        className="fixed top-0 z-[999] w-[100%] bg-[#020B10] px-2"
       >
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-3 2xl:block xl:block lg:block md:block sm:flex 2xl:space-x-1 xl:space-x-1 lg:space-x-0 md:space-x-0 sm:space-x-3">
