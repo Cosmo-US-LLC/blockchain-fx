@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useRef, useEffect } from "react"
 import { userStakeTokens, userUnstakeTokens, useUserState } from "../../../presale-gg/stores/user.store"
 import { formatNumber, parseNum } from "../../../presale-gg/util"
 import toast from "react-hot-toast"
@@ -28,19 +28,41 @@ const StakeTab = () => {
     setStakeLoading(false)
   }
 
-  const unstake = async () => {
-    if (stakeLoading || unstakeLoading) return
-    if (!tokensStr || parseNum(tokensStr) === 0) return toast.error("Invalid token amount entered")
-    setUnstakeLoading(true)
-    try {
-      await toast.promise(userUnstakeTokens(tokensStr), {
-        loading: "Unstaking tokens",
-        success: "Successfully unstaked tokens",
-        error: (err) => api.getApiErrorMessage(err, "Error unstaking tokens")
-      })
-    } catch (_) {}
-    setUnstakeLoading(false)
-  }
+  // Original unstake handler, disabled per request until the 90-day post-launch vesting period ends
+  // const unstake = async () => {
+  //   if (stakeLoading || unstakeLoading) return
+  //   if (!tokensStr || parseNum(tokensStr) === 0) return toast.error("Invalid token amount entered")
+  //   setUnstakeLoading(true)
+  //   try {
+  //     await toast.promise(userUnstakeTokens(tokensStr), {
+  //       loading: "Unstaking tokens",
+  //       success: "Successfully unstaked tokens",
+  //       error: (err) => api.getApiErrorMessage(err, "Error unstaking tokens")
+  //     })
+  //   } catch (_) {}
+  //   setUnstakeLoading(false)
+  // }
+
+  const [isUnstakeInfoOpen, setIsUnstakeInfoOpen] = useState(false)
+  const unstakeInfoRef = useRef(null)
+  const supportsHoverRef = useRef(
+    typeof window !== "undefined" &&
+      window.matchMedia?.("(hover: hover)").matches
+  )
+
+  useEffect(() => {
+    if (!isUnstakeInfoOpen) return
+    const handleClickOutside = (event) => {
+      if (
+        unstakeInfoRef.current &&
+        !unstakeInfoRef.current.contains(event.target)
+      ) {
+        setIsUnstakeInfoOpen(false)
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [isUnstakeInfoOpen])
 
 	return (
     <div className="gap-[10px] flex-1 justify-between flex flex-col relative w-full min-h-[300px] 2xl:max-h-[380px] xl:max-h-[380px] lg:max-h-[380px] md:max-h-[100%] sm:max-h-[100%] max-h-[100%]">
@@ -142,12 +164,29 @@ const StakeTab = () => {
         >
           Stake
         </button>
-        <button
-          className="text-white bg-[#E5AE00] px-[12px] hover:text-white hover:bg-transparent text-[11.85px] font-[800] border border-[#E5AE00]  hover:border-[#E5AE00] w-[100%] h-[32.094px]"
-          onClick={unstake}
+        <div
+          className="relative w-[100%]"
+          ref={unstakeInfoRef}
+          onMouseEnter={() =>
+            supportsHoverRef.current && setIsUnstakeInfoOpen(true)
+          }
+          onMouseLeave={() =>
+            supportsHoverRef.current && setIsUnstakeInfoOpen(false)
+          }
         >
-          Unstake
-        </button>
+          <button
+            type="button"
+            className="text-white bg-[#E5AE00] opacity-60 cursor-not-allowed px-[12px] text-[11.85px] font-[800] border border-[#E5AE00] w-[100%] h-[32.094px]"
+            onClick={() => setIsUnstakeInfoOpen((open) => !open)}
+          >
+            Unstake
+          </button>
+          {isUnstakeInfoOpen && (
+            <div className="absolute bottom-[calc(100%+8px)] right-0 max-w-[calc(100vw-40px)] z-30 w-[220px] rounded-[8px] border border-[#FBD914] bg-[#111] p-[10px] text-center text-[10.5px] leading-[1.4] text-[#fff] shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+              Unstaking is locked until the 90-day vesting period after launch has ended.
+            </div>
+          )}
+        </div>
       </div>
     </div>
 	)

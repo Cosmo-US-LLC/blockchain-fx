@@ -18,7 +18,7 @@ const SwapSectionMob = lazy(() => import("./SwapSectionMob"));
 // const BiggestbuyMobSec = lazy(() => import("./BiggestbuyMobSec"));
 const MobileLessThanSec = lazy(() => import("./MobileLessThanSec"));
 // const MobileGatewaySec = lazy(() => import("./MobileGatewaySec"));
-const MobStandoutSec = lazy(() => import("./MobStandoutSec"));
+// const MobStandoutSec = lazy(() => import("./MobStandoutSec"));
 const WhitepaperMob = lazy(() => import("./WhitepaperMob"));
 // const MobTokenDetailsSec = lazy(() => import("./MobTokenDetailsSec"));
 // const MobRoadmapSec = lazy(() => import("./MobRoadmapSec"));
@@ -71,7 +71,9 @@ function MobileHome() {
         {/* "The First Crypto Exchange That Pays Its Holders" comparison section hidden from the site per request; keep the markup for easy restoration
         <MobileGatewaySec />
         */}
+        {/* "Standout Features" comparison table hidden from the site per request; keep the markup for easy restoration
         <MobStandoutSec />
+        */}
         <WhitepaperMob />
         {/*
         <MobTokenDetailsSec />

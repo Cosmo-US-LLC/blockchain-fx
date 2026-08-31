@@ -91,6 +91,8 @@ function Footer() {
               </p>
             </div>
 
+            {/* "Quick Links" footer column hidden from the site per request; kept behind `false &&` (contains nested comments) for easy restoration */}
+            {false && (
             <div className="max-w-[190px] w-[100%] pt-[15px]">
               <ul>
                 <li className="text-white text-[20px] font-[600] leading-[120%]  list-disc  min-w-[130px]">
@@ -138,10 +140,11 @@ function Footer() {
                 </li>
               </ul>
             </div>
+            )}
 
             <div className="max-w-[190px] w-[100%] pt-[15px]">
               <ul className=" w-[100%]">
-                <li className="text-white text-[20px] list-disc font-[600] leading-[120%] min-w-[140px]">
+                <li className="text-white text-[20px] font-[600] leading-[120%] min-w-[140px]">
                   {t("footer.docs.title")}
                   <br />
                   <Link to={getLangPath("/privacy-policy")}>
@@ -274,6 +277,8 @@ function Footer() {
         </div>
 
         <div className="space-y-[35px]">
+          {/* "Quick Links" footer column hidden from the site per request; kept behind `false &&` (contains nested comments) for easy restoration */}
+          {false && (
           <div className="max-w-[150px] w-[100%] ">
             <ul>
               <li className="text-[#fff] text-[16px] font-[600] leading-[108.333%] ">
@@ -321,6 +326,7 @@ function Footer() {
               </li>
             </ul>
           </div>
+          )}
 
           <div className="max-w-[200px] w-[100%] ">
             <ul className=" w-[100%]">
