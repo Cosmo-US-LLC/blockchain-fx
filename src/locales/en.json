@@ -16,11 +16,11 @@
     "get_more": "Get 60% More BFX with code",
     "code_CANDY40": "License50",
     "buy_button": "Buy BFX",
-    "Big_BFX_Release":"Big BFX Release",
-    "Huge_BFX_Trading":"Huge BFX Trading App Launch",
-    "BFX_App_Launch":"Final BFX Presale Stage",
+    "Big_BFX_Release": "Big BFX Release",
+    "Huge_BFX_Trading": "Huge BFX Trading App Launch",
+    "BFX_App_Launch": "Final BFX Presale Stage",
     "First_Exchange_Listing_Reveal": "Final Presale Stage",
-    "Special_App":"Limited Time Offer",
+    "Special_App": "Limited Time Offer",
     "use_bonus_limit": "To Get 20% More $BFX Coins!",
     "Huge_title": "Huge BFX Breakthrough Announcement",
     "Huge_bfx_title": "Huge BFX Announcement",
@@ -139,7 +139,6 @@
     "buyButton": "Buy $BFX",
     "accessButton": "Access Whitepaper"
   },
-
   "wallet_section": {
     "title": "BFX Presale",
     "description": "BFX is the world's first cryptocurrency backed by a global multi-asset trading platform, <br /> where holders receive USDT rewards anytime someone trades, even during the presale.",
@@ -264,7 +263,6 @@
       }
     }
   },
-
   "premium_section": {
     "title": "Get Special Bonuses Starting From $1,000",
     "description": "Buy $BFX during the presale and join the Founder's Club starting from just $1,000.<br />Get your exclusive NFT, BFX Visa Card, bonus tokens, daily USDT staking rewards,<br /> and free trading credits. Exclusively available during the presale.",
@@ -625,11 +623,26 @@
       "average": "4.87 out of 5",
       "verified_ratings": "1000+ Verified Ratings",
       "rating_bars": [
-        { "rating": 5, "percentage": 86 },
-        { "rating": 4, "percentage": 8 },
-        { "rating": 3, "percentage": 3 },
-        { "rating": 2, "percentage": 2 },
-        { "rating": 1, "percentage": 1 }
+        {
+          "rating": 5,
+          "percentage": 86
+        },
+        {
+          "rating": 4,
+          "percentage": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 3
+        },
+        {
+          "rating": 2,
+          "percentage": 2
+        },
+        {
+          "rating": 1,
+          "percentage": 1
+        }
       ]
     },
     "reviews": [
@@ -710,7 +723,6 @@
       }
     }
   },
-
   "faq_section": {
     "title": "FAQs",
     "description": "Find answers to some of the most common questions.",
@@ -726,10 +738,6 @@
       {
         "question": "What is a crypto presale?",
         "answer": "A crypto pre-sale is an early opportunity to purchase a new cryptocurrency or token before it becomes publicly available, typically at a significantly lower price than the official launch price on exchanges."
-      },
-      {
-        "question": "What is the goal of the presale?",
-        "answer": "The community event is focused on selling all presale-allocated tokens to accelerate platform growth and global expansion. During the presale, the raised funds will be strategically used for product development, large-scale marketing, and securing top-tier exchange listings for BFX. <br/><br/> Our goal is to reach 100,000 active daily traders and generate multi-million-dollar trading volume before the official launch. At the same time, we’re building a strong and engaged community, rewarding early supporters with discounted tokens and driving massive awareness ahead of the BFX launch."
       },
       {
         "question": "Where can I see my tokens?",
@@ -784,7 +792,6 @@
     "copyright": "Copyright 2025. All Rights Reserved.",
     "cookie_management": "Cookie Management"
   },
-
   "MobilePremiumSec": {
     "subtitle": "Limited Founder's <br /> Club Membership",
     "description": "Buy BFX during the presale and become a Founder's Club Member starting from just $1,000. Get your exclusive NFT, BFX Visa Card, Bonus Tokens, Daily USDT Staking Rewards, and Free Trading Credits.",

@@ -43,6 +43,7 @@ function HerosectionReferral() {
                 </button>
               </div>
             )}
+            {/* "Copy 10% Referral Link" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
             {accountData.isConnected && (
               <button
               className="text-[#000] bg-[#E5AE00] rounded-[10px] flex items-center justify-center px-[10px] hover:opacity-[0.7] max-w-[200px] mx-auto  text-[10.886px] font-[800] border border-[#E5AE00]  w-[100%] h-[39px]"
@@ -52,6 +53,7 @@ function HerosectionReferral() {
               <img src={copy} className="ml-2" alt="" />
             </button>
             )}
+            */}
           </div>
         </div>
       </div>

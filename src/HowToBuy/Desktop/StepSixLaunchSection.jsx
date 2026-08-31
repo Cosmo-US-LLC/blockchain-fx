@@ -53,11 +53,13 @@ function StepSixLaunchSection() {
               {t("stepSixLaunch.description2")}
             </p>
 
+            {/* "Buy BFX Now" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
             <a href="/" className="w-fit">
               <button className="px-6 py-3 font-semibold text-black transition bg-yellow-400 rounded-md hover:bg-yellow-500">
                 {t("stepSixLaunch.button")}
               </button>
             </a>
+            */}
           </div>
         </div>
       </div>

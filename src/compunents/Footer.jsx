@@ -103,21 +103,24 @@ function Footer() {
                     </p>
                   </Link>
 
-                  {/* What is BFX? -> scroll or navigate+scroll */}
+                  {/* "What is BFX?" and "Roadmap" quick-link CTAs hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration */}
+                  {false && (
                   <button
                     onClick={() => handleSectionClick("pioneering", 90)}
                     className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent transition duration-300 text-left"
                   >
                     {t("footer.quick_links.what_is_bfx")}
                   </button>
+                  )}
 
-                  {/* Roadmap -> scroll or navigate+scroll */}
+                  {false && (
                   <button
                     onClick={() => handleSectionClick("roadmap", 90)}
                     className="text-[#fff] block text-[16px] pt-[10px] font-[400] leading-[108.333%] border border-transparent transition duration-300 text-left"
                   >
                     {t("footer.quick_links.roadmap")}
                   </button>
+                  )}
 
                   {/* Referral */}
                   <Link to={getLangPath("/referral")}>
@@ -284,21 +287,24 @@ function Footer() {
                 </Link>
                 <br />
 
+                {/* "What is BFX?" and "Roadmap" quick-link CTAs hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration */}
+                {false && (
                 <button
                   onClick={() => handleSectionClick("pioneering", 90)}
                   className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] hover:border-b-[#E5AE00] transition duration-300 inline-block text-left"
                 >
                   {t("footer.quick_links.what_is_bfx")}
                 </button>
-                <br />
+                )}
 
+                {false && (
                 <button
                   onClick={() => handleSectionClick("roadmap", 90)}
                   className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] hover:border-b-[#E5AE00] transition duration-300 inline-block text-left"
                 >
                   {t("footer.quick_links.roadmap")}
                 </button>
-                <br />
+                )}
 
                 <Link to={getLangPath("/referral")}>
                   <p className="text-[#fff] block text-[13px] pt-[20px] font-[400] leading-[108.333%] hover:border-b-[#E5AE00] transition duration-300 inline-block">

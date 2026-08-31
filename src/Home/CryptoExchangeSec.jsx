@@ -50,6 +50,7 @@ function CryptoExchangeSec() {
             <p className="text-[#fff] text-[18px] leading-[185%] max-w-[535px] w-[100%] font-[500]">
               <span dangerouslySetInnerHTML={{ __html: t("crypto_exchange_sec.description") }} />
             </p>
+            {/* "Buy $BFX" and "Watch Live" CTAs hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
             <div className="flex justify-start pt-[20px] relative z-[99] pb-[0px] items-center space-x-[17px]">
               <button
                 onClick={handleScroll}
@@ -68,6 +69,7 @@ function CryptoExchangeSec() {
                 {t("crypto_exchange_sec.watch_live_button")}
               </button>
             </div>
+            */}
           </div>
         </div>
         <div className="absolute top-[-1%] left-[0%]">

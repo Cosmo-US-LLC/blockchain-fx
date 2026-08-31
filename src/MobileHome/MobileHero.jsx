@@ -235,6 +235,7 @@ function MobileHero() {
                 ></p>
               </div>
             </div>
+            {/* "Buy $BFX" and "How it works?" CTAs hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
             <div className="flex justify-center pb-[0px] items-center space-x-[17px]">
               <button
                 onClick={handleScroll}
@@ -253,6 +254,7 @@ function MobileHero() {
                 {t("hero.how_it_works_button")}
               </button>
             </div>
+            */}
           </div>
         </div>
       </div>

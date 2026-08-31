@@ -45,8 +45,8 @@ function DemoSec() {
      
     }}>
     <div
-      
-      className="relative mx-auto "
+
+      className="relative mx-auto pb-8"
     >
       <img src={'assets/blockchainfx/BlockchainFXDemo/Ellipse%203%20(3).png'} className="absolute w-[100%] top-[-49%]" alt="BlockchainFX" />
       <div className="w-[100%] mx-auto space-y-[24px] px-3">
@@ -68,6 +68,7 @@ function DemoSec() {
           <source src={'assets/blockchainfx/BlockchainFXDemo/bfx-demo.mp4'} type="video/mp4" />
         </video>
       </div>
+      {/* "Buy $BFX" and "Watch Live" CTAs hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
       <div className="flex w-full items-center justify-center space-x-2 mt-8 mb-[30px]">
         <button
           onClick={handleScroll}
@@ -85,6 +86,7 @@ function DemoSec() {
           {t("blockchainfx_demo.watch_live_button")}
         </button>
       </div>
+      */}
     </div>
     </div>
    </div>

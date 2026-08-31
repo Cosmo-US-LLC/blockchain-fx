@@ -42,12 +42,15 @@ export default function WhitepaperMob() {
         </div>
 
         <div className="flex items-center justify-center gap-3">
+          {/* "Buy $BFX" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs, "Need Support?" and "Access Whitepaper" kept); kept behind `false &&` since it contains a nested comment */}
+          {false && (
           <button
             onClick={handleScroll}
             className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]"
           >
             {t("whitepaper.buyButton")} {/* Use translation */}
           </button>
+          )}
           <button
             onClick={() =>
               window.open(

@@ -2,7 +2,7 @@ import { map } from "nanostores";
 import { api } from "../api";
 import toast from "react-hot-toast";
 import { getAccount, signMessage, watchAccount } from "@wagmi/core";
-import { getConfig } from "../web3";
+import { getConfig } from "../web3/config";
 import { useStore } from "@nanostores/react";
 
 /**

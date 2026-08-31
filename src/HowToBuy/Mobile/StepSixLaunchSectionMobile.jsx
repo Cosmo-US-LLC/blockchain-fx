@@ -34,11 +34,13 @@ function StepSixLaunchSectionMobile() {
           <p className="text-[14px] font-[400] leading-[20px] tracking-[-0.32px] text-[#9F9F9F] mb-6">
            {t("stepSixLaunch.description2")}
           </p>
+          {/* "Buy BFX Now" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
           <a href="/" className="w-fit z-50">
             <button className="px-2 py-2 max-w-[150px] font-[500] text-black transition bg-[#E5AE00] rounded-md">
              {t("stepSixLaunch.button")}
             </button>
           </a>
+          */}
         </div>
 
         <div className="backdrop-blur-md border border-[#545454] rounded-[12px] relative z-20 p-4  ">

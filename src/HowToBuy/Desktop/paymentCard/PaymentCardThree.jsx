@@ -48,9 +48,11 @@ function PaymentCardThree() {
           </div>
         </div>
 
+        {/* "Buy BFX" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
         <button className="mt-1 w-full bg-[#F5C71A] hover:bg-yellow-400 text-black font-[700] py-2 rounded-lg transition">
           {t("paymentCardThree.buyBtn")}
         </button>
+        */}
       </div>
     </div>
   );

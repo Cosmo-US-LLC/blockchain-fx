@@ -45,6 +45,7 @@ const MobileWalletSec = () => {
            dangerouslySetInnerHTML={{ __html: t("wallet_section.description") }}
          >
        </p>
+        {/* "Presale Ended" bar hidden from the site per request; keep the markup for easy restoration
         {apiData.presaleEnded && (
           <div
             className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3]"
@@ -55,6 +56,7 @@ const MobileWalletSec = () => {
             </h4>
           </div>
         )}
+        */}
         <div className="flex flex-col justify-between gap-8 md:flex-row">
           <Widget />
           <div

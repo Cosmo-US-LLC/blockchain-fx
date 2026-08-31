@@ -45,6 +45,9 @@ import { api } from "../../presale-gg/api";
 import confetti from "canvas-confetti";
 import { getConfig } from "../../presale-gg/web3";
 import { disconnect } from "@wagmi/core";
+import stakeTabData from "../Widget/tabs/StakeTab";
+
+const StakeTab = stakeTabData.component;
 
 const cards = [
   {
@@ -260,6 +263,8 @@ const DashboardPopup = ({ onClose }) => {
                 {accountData.address}
               </p>
             </div>
+            {/* "Total Portfolio on BFX Launch" box hidden from the site per request; kept behind `false &&` (not a JSX comment, since it contains a nested one) for easy restoration */}
+            {false && (
             <div
             style={{
               background: "#000",
@@ -296,6 +301,15 @@ const DashboardPopup = ({ onClose }) => {
                 </span> */}
               </p>
               {/* <p className="text-[14px] text-[#fff] text-center font-[500]">February 5, 2025</p> */}
+            </div>
+            )}
+            <div
+              className="rounded-[8px] p-[10px]"
+              style={{
+                background: "rgba(255, 255, 255, 0.09)",
+              }}
+            >
+              <StakeTab />
             </div>
             <div
               className="py-[7px] rounded-[8px]"

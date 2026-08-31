@@ -34,12 +34,14 @@ function TheUltimateSec() {
             />
          
             <div className="flex justify-center items-center pt-[35px] space-x-[17px]">
+              {/* "Buy $BFX" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs and "Need Support?" kept); keep the markup for easy restoration
               <button
                 onClick={handleScroll}
                 className="text-white bg-[#E5AE00] hover:text-[#FFF] px-[30px] hover:bg-transparent text-[16px] font-[700] border border-[#E5AE00] hover:border-[#fff] rounded-[8px] w-fit h-[50px]"
               >
                 {t("the_ultimate_section.buy_bfx")}
               </button>
+              */}
               <button
                 onClick={() =>
                   window.open("https://t.me/blockchainfx_chat", "_blank")

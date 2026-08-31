@@ -81,6 +81,7 @@ const WalletSec = () => {
           </p>
         </div>
 
+        {/* "Presale Ended" bar hidden from the site per request; keep the markup for easy restoration
         {apiData.presaleEnded && (
           <div
             className="px-[24px] py-[8px] space-y-[5px] border border-[#D3D3D3] <md:max-w-[413.763px] <md:mx-auto"
@@ -93,6 +94,7 @@ const WalletSec = () => {
             </h4>
           </div>
         )}
+        */}
         <div className="flex justify-center gap-4 <md:flex-col">
           <Widget />
           <div
