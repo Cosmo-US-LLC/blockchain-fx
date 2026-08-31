@@ -46,7 +46,7 @@ function DemoSec() {
     }}>
     <div
 
-      className="relative mx-auto pb-8"
+      className="relative mx-auto"
     >
       <img src={'assets/blockchainfx/BlockchainFXDemo/Ellipse%203%20(3).png'} className="absolute w-[100%] top-[-49%]" alt="BlockchainFX" />
       <div className="w-[100%] mx-auto space-y-[24px] px-3">
@@ -87,6 +87,19 @@ function DemoSec() {
         </button>
       </div>
       */}
+      <div className="flex w-full items-center justify-center mt-8 mb-[30px]">
+        <a
+          href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+          }}
+          className="self-center text-[13px] font-[700] border border-[black] rounded-[10px] h-[50px] px-[15px] flex items-center justify-center"
+        >
+          Buy on Uniswap
+        </a>
+      </div>
     </div>
     </div>
    </div>

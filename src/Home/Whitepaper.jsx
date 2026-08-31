@@ -55,6 +55,17 @@ export default function Whitepaper() {
               {t("whitepaper.buyButton")}
             </button>
             */}
+            <a
+              href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
+              className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px]  w-fit h-[50px] flex items-center justify-center"
+            >
+              Buy on Uniswap
+            </a>
             <a href="/BFX-Whitepaper.pdf" target="_blank" rel="noopener noreferrer">
               <button className="hover:text-black hover:bg-[#E5AE00] px-[18px] text-[#E5AE00] bg-transparent text-[16px] font-[700] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-fit h-[50px]">
                 {t("whitepaper.accessButton")}

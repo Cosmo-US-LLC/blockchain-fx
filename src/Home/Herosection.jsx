@@ -166,6 +166,17 @@ function Herosection() {
               {t("hero.how_it_works_button")}
             </button>
             */}
+            <a
+              href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                background: "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
+              className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] w-fit h-[50px] flex items-center justify-center mr-[17px]"
+            >
+              Buy on Uniswap
+            </a>
             <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden flex-col items-center">
               <img className="max-w-[160px]" src={AOFA} alt="" />
               <a href="/license.pdf" className="text-[12px] underline text-[#fff] " target="_blank" rel="noopener noreferrer">Verify license</a>

@@ -70,6 +70,20 @@ function CryptoExchangeSec() {
               </button>
             </div>
             */}
+            <div className="flex justify-start pt-[20px] relative z-[99] pb-[0px] items-center">
+              <a
+                href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background:
+                    "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                }}
+                className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] w-fit h-[50px] flex items-center justify-center"
+              >
+                Buy on Uniswap
+              </a>
+            </div>
           </div>
         </div>
         <div className="absolute top-[-1%] left-[0%]">
