@@ -18,7 +18,7 @@ const BlockchainFXDemo = lazy(() => import('./BlockchainFXDemo'));
 // const PremiumSec = lazy(() => import('./PremiumSec'));
 // const BiggestBuy = lazy(() => import('./BiggestBuy'));
 const LessThanSec = lazy(() => import('./LessThanSec'));
-const GatewaySec = lazy(() => import('./GatewaySec'));
+// const GatewaySec = lazy(() => import('./GatewaySec'));
 const StandoutSec = lazy(() => import('./StandoutSec'));
 const Whitepaper = lazy(() => import('./Whitepaper'));
 // const TokenAllocationSec = lazy(() => import('./TokenAllocationSec'));
@@ -71,7 +71,9 @@ function Home() {
         <BiggestBuy />
         */}
         <LessThanSec />
+        {/* "The First Crypto Exchange That Pays Its Holders" comparison section hidden from the site per request; keep the markup for easy restoration
         <GatewaySec />
+        */}
         <StandoutSec />
         <Whitepaper />
         {/*
