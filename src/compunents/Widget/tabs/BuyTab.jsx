@@ -408,90 +408,92 @@ const BuyTab = ({ onTabChange }) => {
     <>
       <div className="gap-[10px] justify-between flex flex-col relative w-full min-h-full isolate">
         <div
-          className="px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px]"
+          className="flex flex-col px-[30px] py-[13px] space-y-[5px] border border-[#FBD914] rounded-[11px] h-[8.5rem] items-center justify-center"
           style={{
             background: "#000",
           }}
         >
           <h3 className="text-center text-[#fff] text-[32.476px] leading-[100%] font-[700]  whitespace-nowrap">
-            {formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
+            {apiData.presaleEnded ? t("wallet_section.presale_ended") : formatDollar(parseNum(apiData.stage?.cumulative_usd_raised))}
           </h3>
-          <div className="pt-3">
-            <div className="flex items-center justify-between pb-1">
-              {/* Original dynamic softcap percentage text, commented out per request
-              <span className="text-[#fff] text-[11.74px] font-[400] leading-[100%]">
-                {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
-              </span>
-              */}
-              <span className="text-[#fff] text-[12px] font-[400] leading-[100%]">
-                {t("buy_tab.last_chance_to_buy")}
-              </span>
-              <div
-                className="relative"
-                ref={lastChanceInfoRef}
-                onMouseEnter={() =>
-                  supportsHoverRef.current && setIsLastChanceInfoOpen(true)
-                }
-                onMouseLeave={() =>
-                  supportsHoverRef.current && setIsLastChanceInfoOpen(false)
-                }
-              >
-                <button
-                  type="button"
-                  onClick={() => setIsLastChanceInfoOpen((open) => !open)}
-                  className="flex h-[16px] w-[16px] items-center justify-center rounded-full border border-[#8D8D8D] text-[#8D8D8D] text-[10px] font-[700] leading-none hover:border-[#FBD914] hover:text-[#FBD914] transition-colors"
-                  aria-label={t("buy_tab.last_chance_info_label")}
-                  aria-expanded={isLastChanceInfoOpen}
+          {!apiData.presaleEnded && <>
+            <div className="pt-3">
+              <div className="flex items-center justify-between pb-1">
+                {/* Original dynamic softcap percentage text, commented out per request
+                <span className="text-[#fff] text-[11.74px] font-[400] leading-[100%]">
+                  {formatNumber(stageFrac * 100, 0, 2)}% of softcap raised
+                </span>
+                */}
+                <span className="text-[#fff] text-[12px] font-[400] leading-[100%]">
+                  {t("buy_tab.last_chance_to_buy")}
+                </span>
+                <div
+                  className="relative"
+                  ref={lastChanceInfoRef}
+                  onMouseEnter={() =>
+                    supportsHoverRef.current && setIsLastChanceInfoOpen(true)
+                  }
+                  onMouseLeave={() =>
+                    supportsHoverRef.current && setIsLastChanceInfoOpen(false)
+                  }
                 >
-                  i
-                </button>
-                {isLastChanceInfoOpen && (
-                  <div className="absolute right-0 top-[22px] z-30 w-[220px] rounded-[8px] border border-[#FBD914] bg-[#111] p-[10px] text-left text-[10.5px] leading-[1.4] text-[#fff] shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
-                    {t("buy_tab.last_chance_info_text")}
-                  </div>
-                )}
+                  <button
+                    type="button"
+                    onClick={() => setIsLastChanceInfoOpen((open) => !open)}
+                    className="flex h-[16px] w-[16px] items-center justify-center rounded-full border border-[#8D8D8D] text-[#8D8D8D] text-[10px] font-[700] leading-none hover:border-[#FBD914] hover:text-[#FBD914] transition-colors"
+                    aria-label={t("buy_tab.last_chance_info_label")}
+                    aria-expanded={isLastChanceInfoOpen}
+                  >
+                    i
+                  </button>
+                  {isLastChanceInfoOpen && (
+                    <div className="absolute right-0 top-[22px] z-30 w-[220px] rounded-[8px] border border-[#FBD914] bg-[#111] p-[10px] text-left text-[10.5px] leading-[1.4] text-[#fff] shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+                      {t("buy_tab.last_chance_info_text")}
+                    </div>
+                  )}
+                </div>
+              </div>
+              <div className="relative bg-gray-800 w-[100%] h-[16px] rounded-[20px] overflow-hidden">
+                {/* Original dynamic progress bar width (10px tall, no overlay), commented out per request to make the bar bigger and show the goal-exceeded percentage
+                <div
+                  className=" h-[10px] rounded-[20px]"
+                  style={{
+                    width: `${stageFrac * 100 - 3}%`,
+                    background:
+                      "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                  }}
+                />
+                */}
+                <div
+                  className="h-[16px] rounded-[20px]"
+                  style={{
+                    width: "100%",
+                    background:
+                      "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+                  }}
+                />
+                <span className="absolute inset-0 flex items-center justify-center whitespace-nowrap text-[8.5px] font-[700] text-black">
+                  {formatNumber(presaleGoalExceededPercent, 0, 2)}%{" "}
+                  {t("buy_tab.presale_goal_exceeded")}
+                </span>
+              </div>
+              <div>
+                {/* Original dynamic softcap target price, commented out per request to hardcode $15,000,000
+                <p className="text-[#fff] text-end text-[9.74px] font-[400] leading-[150%]">
+                  {formatDollar(apiData.stage?.next_stage_target_usd, true, 0, 0)}
+                </p>
+                */}
+                <p className="text-[#fff] text-end text-[9.74px] font-[400] leading-[150%]">
+                  $15,000,000
+                </p>
               </div>
             </div>
-            <div className="relative bg-gray-800 w-[100%] h-[16px] rounded-[20px] overflow-hidden">
-              {/* Original dynamic progress bar width (10px tall, no overlay), commented out per request to make the bar bigger and show the goal-exceeded percentage
-              <div
-                className=" h-[10px] rounded-[20px]"
-                style={{
-                  width: `${stageFrac * 100 - 3}%`,
-                  background:
-                    "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-                }}
-              />
-              */}
-              <div
-                className="h-[16px] rounded-[20px]"
-                style={{
-                  width: "100%",
-                  background:
-                    "linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
-                }}
-              />
-              <span className="absolute inset-0 flex items-center justify-center whitespace-nowrap text-[8.5px] font-[700] text-black">
-                {formatNumber(presaleGoalExceededPercent, 0, 2)}%{" "}
-                {t("buy_tab.presale_goal_exceeded")}
-              </span>
+            <div className="space-y-[10px]">
+              <h5 className="text-[#fff] text-[13px] text-center font-[400] leading-[100%]">
+                {formatNumber(apiData.info?.transactions, 0, 0)} Participants
+              </h5>
             </div>
-            <div>
-              {/* Original dynamic softcap target price, commented out per request to hardcode $15,000,000
-              <p className="text-[#fff] text-end text-[9.74px] font-[400] leading-[150%]">
-                {formatDollar(apiData.stage?.next_stage_target_usd, true, 0, 0)}
-              </p>
-              */}
-              <p className="text-[#fff] text-end text-[9.74px] font-[400] leading-[150%]">
-                $15,000,000
-              </p>
-            </div>
-          </div>
-          <div className="space-y-[10px]">
-            <h5 className="text-[#fff] text-[13px] text-center font-[400] leading-[100%]">
-              {formatNumber(apiData.info?.transactions, 0, 0)} Participants
-            </h5>
-          </div>
+		    </>}
         </div>
         {/* <div
           className="px-[24px] py-[10px] rounded-[14.596px]"
@@ -574,12 +576,14 @@ const BuyTab = ({ onTabChange }) => {
           }}
         >
           <h4 className="text-center text-[#fff] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[12px] text-[10px] leading-normal font-[700]">
-            {t("buy_tab.presale_price")} ={" "}
-            <span className="text-[#FBD914]">
-              ${formatNumber(apiData.stage?.token_price)}
-            </span>{" "}
-            <span className="px-1">|</span> {t("buy_tab.launch_price")} ={" "}
-            <span className="text-[#FBD914]">$0.05</span>
+            {apiData.presaleEnded ? t("buy_tab.presale_ended") : <>
+              {t("buy_tab.presale_price")} ={" "}
+              <span className="text-[#FBD914]">
+                ${formatNumber(apiData.stage?.token_price)}
+              </span>{" "}
+              <span className="px-1">|</span> {t("buy_tab.launch_price")} ={" "}
+              <span className="text-[#FBD914]">$0.05</span>
+            </>}
           </h4>
         </div>
         <div
@@ -773,6 +777,7 @@ const BuyTab = ({ onTabChange }) => {
           </button>
         )}
 
+        {!apiData.presaleEnded && (
         <div
           className="px-[5px] 2xl:space-y-[5px] xl:space-y-[5px] lg:space-y-[5px] md:space-y-[5px] sm:space-y-[0px] space-y-[0px] py-2 rounded border-[#111] w-[100%]  "
           style={{
@@ -795,20 +800,20 @@ const BuyTab = ({ onTabChange }) => {
                 <span className="block">{t("buy_tab.Special_XMAS_Offer_des")}</span>
                 */}
                 <span className="block">
-                  <Trans
-                    i18nKey="buy_tab.presale_phase_ended_last_chance"
-                    values={{ code: BonusCode }}
-                    components={{
-                      highlight: <span className="text-[#2FD942] !font-[700]" />,
-                      bold: <span className="font-[700]" />,
-                      br: <br />,
-                    }}
-                  />
+                    <Trans
+                      i18nKey="buy_tab.presale_phase_ended_last_chance"
+                      values={{ code: BonusCode }}
+                      components={{
+                        highlight: <span className="text-[#2FD942] !font-[700]" />,
+                        bold: <span className="font-[700]" />,
+                        br: <br />,
+                      }}
+                    />
                 </span>
               </h3>
                 {/* <p className="2xl:text-[10px] xl:text-[10px] lg:text-[10px] md:text-[10px] sm:text-[11px] text-[11px] font-[700] text-center text-[#fff]">(This is the biggest offer we will ever have!)</p> */}
           </div>
-
+        )}
 
         <div
           className="flex justify-center items-center space-x-[24px]"
