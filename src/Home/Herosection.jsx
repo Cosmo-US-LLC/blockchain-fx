@@ -105,7 +105,7 @@ function Herosection() {
           </div>
           <div className="max-w-[650px] w-[100%] space-y-[27px]">
             <div className="flex justify-center">
-              {/* Embed Wistia Player */}
+              {/* Wistia video player, replaced with a static image per request; keep the markup for easy restoration
               <script src="https://fast.wistia.com/player.js" async></script>
               <script
                 src="https://fast.wistia.com/embed/w8ynmofaw4.js"
@@ -114,11 +114,11 @@ function Herosection() {
               ></script>
               <style>
                 {`
-              wistia-player[media-id='w8ynmofaw4']:not(:defined) { 
-                background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/w8ynmofaw4/swatch'); 
-                display: block; 
-                filter: blur(5px); 
-                padding-top:56.25%; 
+              wistia-player[media-id='w8ynmofaw4']:not(:defined) {
+                background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/w8ynmofaw4/swatch');
+                display: block;
+                filter: blur(5px);
+                padding-top:56.25%;
               }
             `}
               </style>
@@ -132,6 +132,17 @@ function Herosection() {
                   maxHeight: "410px",
                 }}
               ></wistia-player>
+              */}
+              <img
+                src="assets/blockchainfx/HeroSection/BFX-is-live.webp"
+                alt="BlockchainFX is live"
+                style={{
+                  width: "100%",
+                  maxWidth: "730px",
+                  height: "auto",
+                  maxHeight: "410px",
+                }}
+              />
             </div>
           </div>
         </div>

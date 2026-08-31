@@ -61,6 +61,7 @@ function MobileHero() {
             {/* <h4 className="text-[9px] mb-1 leading-[24px] font-[600] text-[#E5AE00] tracking-[-0.4px] uppercase">
                      Crypto Exchange Launches Coin with an Integrated Reward System
                    </h4> */}
+            {/* "BFX Presale Stage Is Selling Out Fast" capsule hidden on mobile per request; keep the markup for easy restoration
             <div
               className=" border border-white border-opacity-20 flex space-x-[10px] max-w-[480px] w-[100%] mx-auto  justify-center items-center rounded-full px-2"
               style={{
@@ -89,6 +90,7 @@ function MobileHero() {
                 {t("hero.presale_stage_almost_sold_out")}
               </h4>
             </div>
+            */}
             <h1 className="text-[35px] mb-4 mt-4 text-center font-[700] tracking-[-2px] leading-[120%] font-inter text-[#fff] ">
               <span dangerouslySetInnerHTML={{ __html: t("hero.title") }} />{" "}
               <span
@@ -111,6 +113,7 @@ function MobileHero() {
           </div>
           <div className="max-w-[450px] space-y-[27px]">
             <div className="relative flex justify-center">
+              {/* Wistia video iframe, replaced with a static image per request; keep the markup for easy restoration
               <iframe
                 width="100%"
                 height="200px"
@@ -120,6 +123,13 @@ function MobileHero() {
                 allowFullScreen
                 title="YouTube video"
                 style={{ borderRadius: "12px" }}
+              />
+              */}
+              <img
+                src="assets/blockchainfx/HeroSection/BFX-is-live.webp"
+                alt="BlockchainFX is live"
+                width="100%"
+                style={{ borderRadius: "12px", width: "100%", height: "auto" }}
               />
             </div>
 

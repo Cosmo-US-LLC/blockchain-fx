@@ -273,6 +273,7 @@ function NavbarMobile() {
                   {t("navbar.reviews")}
                 </a>
 
+                {/* "Win $500k" nav link hidden from the site per request; keep the markup for easy restoration
                 <Link
                   to={
                     selectedLang.abbreviation.toLowerCase() === "en"
@@ -284,6 +285,7 @@ function NavbarMobile() {
                 >
                   Win $500k
                 </Link>
+                */}
               </div>
             )}
 

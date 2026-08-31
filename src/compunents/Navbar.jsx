@@ -271,6 +271,7 @@ function Navbar() {
               {t("navbar.referral")}
             </Link>
 
+            {/* "Win $500k" nav link hidden from the site per request; keep the markup for easy restoration
             <Link
               to={
                 selectedLang.abbreviation.toLowerCase() === "en"
@@ -281,6 +282,7 @@ function Navbar() {
             >
               Win $500k
             </Link>
+            */}
           </div>
 
           {/* menu end */}

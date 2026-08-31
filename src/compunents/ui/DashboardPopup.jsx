@@ -311,6 +311,7 @@ const DashboardPopup = ({ onClose }) => {
             >
               <StakeTab />
             </div>
+            {/* "BFX Listing Price" line removed from the dashboard popup per request; keep the markup for easy restoration
             <div
               className="py-[7px] rounded-[8px]"
               style={{
@@ -321,6 +322,7 @@ const DashboardPopup = ({ onClose }) => {
                 BFX Listing Price = {formatDollar(LISTING_PRICE)}
               </p>
             </div>
+            */}
             <div className="flex justify-between gap-[10px] <md:flex-col">
               <div className="flex-1 space-y-[8px] w-0 <md:w-auto">
                 <div
@@ -434,6 +436,7 @@ const DashboardPopup = ({ onClose }) => {
                     </p>
                   </div>
                 </div>
+                {/* "Referral Bonus" row and "Copy 10% Referral Link" button removed from the dashboard popup per request; keep the markup for easy restoration
                 <div
                   className="px-[14px]  2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-between items-center rounded-[10px] h-[64px]"
                   style={{
@@ -459,6 +462,7 @@ const DashboardPopup = ({ onClose }) => {
                     <img src={copy} className="ml-2" alt="" />
                   </button>
                 </div>
+                */}
               </div>
               <div className="flex-1 space-y-[8px] w-0 <md:w-auto">
                 <div
@@ -519,6 +523,7 @@ const DashboardPopup = ({ onClose }) => {
                     </Swiper>
                   </div>
                 </div>
+                {/* "$X left to reach the next NFT level" progress card removed from the dashboard popup per request; keep the markup for easy restoration
                 <div
                   className="py-[4.5px] px-[7px] rounded-[10px] h-[64px] flex flex-col justify-center"
                   style={{
@@ -565,22 +570,23 @@ const DashboardPopup = ({ onClose }) => {
                     </button>
                   )}
                 </div>
-                <div className="w-[100%]">
-                  <button
-                    onClick={async () => {
-                      onClose();
-                      const { config } = await getConfig()
-                      // Have to do twice to prevent disconnect sometimes not working
-                      disconnect(config)
-                      setTimeout(() => disconnect(config), 20)
-                    }}
-                    className="text-[#000] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] hover:opacity-[0.7]  text-[10.886px] font-[800] border border-[#E5AE00] ] w-[100%]  h-[31px]"
-                  >
-                    Disconnect
-                    <img src={disicn} className="ml-1" alt="" />
-                  </button>
-                </div>
+                */}
               </div>
+            </div>
+            <div className="w-[100%]">
+              <button
+                onClick={async () => {
+                  onClose();
+                  const { config } = await getConfig()
+                  // Have to do twice to prevent disconnect sometimes not working
+                  disconnect(config)
+                  setTimeout(() => disconnect(config), 20)
+                }}
+                className="text-[#000] flex justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] hover:opacity-[0.7] text-[10.886px] font-[800] border border-[#E5AE00] w-[100%] h-[31px]"
+              >
+                Disconnect
+                <img src={disicn} className="ml-1" alt="" />
+              </button>
             </div>
             <div
               className="py-[9px] 2xl:!mt-[9px] xl:!mt-[9px] lg:!mt-[9px]  md:!mt-[9px] sm!mt-[0px] !mt-[0px]   rounded-[10px]  w-[100%] mx-auto "
@@ -597,6 +603,7 @@ const DashboardPopup = ({ onClose }) => {
                 </div>
               </div>
             </div>
+            {/* Mobile-only "Referral Bonus" row, "Copy 10% Referral Link" and duplicate "Disconnect" buttons removed per request — a single full-width Disconnect button above now covers all breakpoints; keep the markup for easy restoration
             <div className="space-y-[8px] 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
             <div
                   className="px-[14px] 2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex justify-between items-center rounded-[10px] h-[64px]"
@@ -637,6 +644,7 @@ const DashboardPopup = ({ onClose }) => {
                   </button>
                 </div>
             </div>
+            */}
           </div>
         </div>
       </div>
