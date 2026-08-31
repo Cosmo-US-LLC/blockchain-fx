@@ -215,6 +215,24 @@ const DashboardPopup = ({ onClose }) => {
     swiper.slideTo(currentRankIndex)
   }, [swiper, currentRankIndex])
 
+  const [isClaimInfoOpen, setIsClaimInfoOpen] = useState(false)
+  const claimInfoRef = useRef(null)
+  const supportsHoverRef = useRef(
+    typeof window !== "undefined" &&
+      window.matchMedia?.("(hover: hover)").matches
+  )
+
+  useEffect(() => {
+    if (!isClaimInfoOpen) return
+    const handleClickOutside = (event) => {
+      if (claimInfoRef.current && !claimInfoRef.current.contains(event.target)) {
+        setIsClaimInfoOpen(false)
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [isClaimInfoOpen])
+
   const bfxRewards = useMemo(() => {
     const bonusTransactionsRewards = userData.bonusTransactions?.reduce((acc, curr) => acc + parseNum(curr.bonus_token_amount), 0) ?? 0
     return bonusTransactionsRewards + parseNum(userData.userStakeData?.total_earnings)
@@ -573,7 +591,30 @@ const DashboardPopup = ({ onClose }) => {
                 */}
               </div>
             </div>
-            <div className="w-[100%]">
+            <div className="flex gap-[10px] w-[100%]">
+              <div
+                className="relative w-[100%]"
+                ref={claimInfoRef}
+                onMouseEnter={() =>
+                  supportsHoverRef.current && setIsClaimInfoOpen(true)
+                }
+                onMouseLeave={() =>
+                  supportsHoverRef.current && setIsClaimInfoOpen(false)
+                }
+              >
+                <button
+                  type="button"
+                  onClick={() => setIsClaimInfoOpen((open) => !open)}
+                  className="text-[#000] opacity-60 cursor-not-allowed flex justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] text-[10.886px] font-[800] border border-[#E5AE00] w-[100%] h-[31px]"
+                >
+                  Claim Tokens
+                </button>
+                {isClaimInfoOpen && (
+                  <div className="absolute bottom-[calc(100%+8px)] left-0 max-w-[calc(100vw-40px)] z-30 w-[220px] rounded-[8px] border border-[#FBD914] bg-[#111] p-[10px] text-center text-[10.5px] leading-[1.4] text-[#fff] shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+                    BFX is live on Uniswap, and claiming opens once the LP is ready.
+                  </div>
+                )}
+              </div>
               <button
                 onClick={async () => {
                   onClose();
