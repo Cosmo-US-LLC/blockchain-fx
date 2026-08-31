@@ -20,7 +20,6 @@ import {
   CLAIM_TOKEN_DECIMALS,
   CLAIM_TOKEN_SYMBOL,
 } from "../../claim/config";
-import claims from "../../data/claims.json";
 import claimAbi from "../../presale-gg/abi/claim.json";
 import { showConnectWalletModal } from "../../presale-gg/stores/modal.store";
 import { useAccount } from "../../presale-gg/web3";
@@ -50,9 +49,7 @@ const ClaimWidget = ({ className }) => {
 
   const claimIsConfigured =
     ADDRESS_PATTERN.test(CLAIM_CONTRACT_ADDRESS) &&
-    !ZERO_ADDRESS_PATTERN.test(CLAIM_CONTRACT_ADDRESS) &&
-    Array.isArray(claims) &&
-    claims.length > 0;
+    !ZERO_ADDRESS_PATTERN.test(CLAIM_CONTRACT_ADDRESS);
 
   const getUserClaimData = useCallback(async () => {
     setReadError(false);
@@ -69,6 +66,7 @@ const ClaimWidget = ({ className }) => {
     setHasClaimed(undefined);
 
     try {
+      const { default: claims } = await import("../../data/claims.json");
       const claim = claims.find(
         (entry) => entry.address.toLowerCase() === address.toLowerCase()
       );
