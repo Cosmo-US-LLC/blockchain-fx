@@ -8,12 +8,12 @@ import { parseNum, ceilToDP, formatDollar } from "./number.util";
 import {
   getAbi,
   getChainIdFromLabel,
-  getConfig,
   getContractAddress,
   getDecimals,
   isCurrencyNative,
   sendGenericTransaction,
-} from "../web3";
+} from "../web3/util";
+import { getConfig } from "../web3/config";
 import { $apiState } from "../stores/api.store";
 import { api } from "../api";
 

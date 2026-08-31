@@ -30,11 +30,13 @@ function PaymentCardTwoMobile() {
       </div>
 
       <div className="flex flex-col gap-2 w-[180px]">
+        {/* "Buy with Card" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
         <button className="bg-[#1C1C1C] w-[180px]  rounded-lg px-4 py-1 flex items-center gap-2 text-white text-[6px] font-[600] justify-center hover:bg-[#2A2A2A] transition">
           <img src={visaIcon} alt="Visa" className="w-5 h-5" />
           <img src={mastercardIcon} alt="Mastercard" className="w-5 h-5" />
          {t("paymentCardTwo.buyWithCard")}
         </button>
+        */}
         <div className="flex flex-wrap justify-start gap-1">
           {currencyOptions.map((item, idx) => (
             <div

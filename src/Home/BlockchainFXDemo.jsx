@@ -51,6 +51,7 @@ function BlockchainFXDemo() {
               <p className="text-[#fff] text-[18px] font-[500] ">
                 <span className="demobr" dangerouslySetInnerHTML={{ __html: t("blockchainfx_demo.description") }} />
               </p>
+              {/* "Buy $BFX" and "Watch Live" CTAs hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
               <div className="flex justify-start pt-[20px] pb-[0px] items-center space-x-[17px]">
                 <button
                   onClick={handleScroll}
@@ -70,6 +71,7 @@ function BlockchainFXDemo() {
                   {t("blockchainfx_demo.watch_live_button")}
                 </button>
               </div>
+              */}
             </div>
             <div className="w-[50%]">
               <video

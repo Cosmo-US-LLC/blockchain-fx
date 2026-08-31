@@ -136,7 +136,8 @@ function Herosection() {
           </div>
         </div>
         <div className="flex justify-between items-center">
-          <div className="flex justify-start pt-[20px] min-w-[350px] mt-3 pb-[0px] items-center space-x-[17px]">
+          <div className="flex justify-start pt-[20px] mt-3 pb-[0px] items-center">
+            {/* "Buy $BFX" and "How it works?" CTAs hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
             <button
               onClick={handleScroll}
               style={{
@@ -153,9 +154,10 @@ function Herosection() {
             >
               {t("hero.how_it_works_button")}
             </button>
-            <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden min-w-[200px]  flex-col items-end">
+            */}
+            <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden flex-col items-center">
               <img className="max-w-[160px]" src={AOFA} alt="" />
-              <a href="/license.pdf" className="text-[12px] mr-[15px] underline text-[#fff] " target="_blank" rel="noopener noreferrer">Verify license</a>
+              <a href="/license.pdf" className="text-[12px] underline text-[#fff] " target="_blank" rel="noopener noreferrer">Verify license</a>
             </div>
           </div>
           <div className="flex mt-[-15px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">

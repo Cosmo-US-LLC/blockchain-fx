@@ -33,6 +33,7 @@ function MobTheUltimateSec() {
             >
             </h3>
             <div className="flex justify-center pt-[10px] items-center  space-x-[8px]">
+            {/* "Buy $BFX" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs and "Need Support?" kept); keep the markup for easy restoration
             <button
             style={{
               background:"linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
@@ -42,6 +43,7 @@ function MobTheUltimateSec() {
             >
              {t("the_ultimate_section.buy_bfx")}
             </button>
+            */}
             <button
              onClick={() =>
                   window.open("https://t.me/blockchainfx_chat", "_blank")

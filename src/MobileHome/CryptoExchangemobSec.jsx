@@ -37,6 +37,7 @@ function CryptoExchangemobSec() {
           <div className="flex justify-center mr-3">
             <img src={'assets/blockchainfx/CryptoExchange/crpimg.webp'} className="crypto exchange" alt="BlockchainFX mobile trading app with portfolio overview and crypto coins in the background." />
           </div>
+          {/* "Buy $BFX" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
           <div className="flex justify-center  relative z-[99] pb-[0px] items-center space-x-[17px]">
             <button
               onClick={handleScroll}
@@ -48,6 +49,7 @@ function CryptoExchangemobSec() {
               {t("crypto_exchange_sec.buy_button")}
             </button>
           </div>
+          */}
         </div>
         <div className="absolute top-[-1%] left-[0%]">
           <img src={'assets/blockchainfx/CryptoExchange/vec%20(1).png'} className="" alt="BlockchainFX" />

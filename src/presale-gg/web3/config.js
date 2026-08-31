@@ -2,7 +2,7 @@ import walletConnectImg from "../assets/img/wallet-connect.svg";
 import metamaskImg from "../assets/img/metamask.svg";
 import coinbaseImg from "../assets/img/coinbase.svg";
 import phantomWalletImg from "../assets/img/phantom.svg";
-import { getIsMobile } from "../util";
+import { getIsMobile } from "../util/data.util";
 
 /**
  * @typedef {"metamask" | "walletconnect" | "coinbase"} SupportedConnection

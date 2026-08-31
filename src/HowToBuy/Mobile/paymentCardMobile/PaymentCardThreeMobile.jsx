@@ -53,9 +53,11 @@ function PaymentCardThreeMobile() {
           </div>
         </div>
 
+        {/* "Buy BFX" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
         <button className="w-full text-[10px] font-[700] leading-[13px] bg-[#E5AE00] text-black py-1 rounded-lg transition">
  {t("paymentCardThree.buyBtn")}
         </button>
+        */}
       </div>
     </div>
   );

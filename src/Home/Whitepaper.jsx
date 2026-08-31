@@ -44,6 +44,7 @@ export default function Whitepaper() {
           </div>
 
           <div className="w-full p-2 flex space-x-3 justify-start">
+            {/* "Buy $BFX" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs, "Need Support?" and "Access Whitepaper" kept); keep the markup for easy restoration
             <button
               onClick={handleScroll}
               style={{
@@ -53,6 +54,7 @@ export default function Whitepaper() {
             >
               {t("whitepaper.buyButton")}
             </button>
+            */}
             <a href="/BFX-Whitepaper.pdf" target="_blank" rel="noopener noreferrer">
               <button className="hover:text-black hover:bg-[#E5AE00] px-[18px] text-[#E5AE00] bg-transparent text-[16px] font-[700] border hover:border-[#E5AE00] border-[#E5AE00] rounded-[8px] w-fit h-[50px]">
                 {t("whitepaper.accessButton")}
