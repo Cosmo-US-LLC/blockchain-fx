@@ -44,6 +44,17 @@ function MobTheUltimateSec() {
              {t("the_ultimate_section.buy_bfx")}
             </button>
             */}
+            <a
+              href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                background:"linear-gradient(90deg, #E5AE00 0%, #FFD551 100%)",
+              }}
+              className="text-[#000] px-[15px] text-[12px] font-[700] border border-[#E5AE00] hover:border-[#E5AE00] rounded-[8px] w-fit h-[31px] flex items-center justify-center"
+            >
+              Buy on Uniswap
+            </a>
             <button
              onClick={() =>
                   window.open("https://t.me/blockchainfx_chat", "_blank")
