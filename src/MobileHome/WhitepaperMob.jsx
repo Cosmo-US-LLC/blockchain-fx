@@ -54,6 +54,17 @@ export default function WhitepaperMob() {
           <button
             onClick={() =>
               window.open(
+                "https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f",
+                "_blank"
+              )
+            }
+            className="rounded-[10px] w-[137px] h-[50px] font-[700] py-1 bg-gradient-to-r from-[#E5AE00] to-[#FFD551]"
+          >
+            Buy on Uniswap
+          </button>
+          <button
+            onClick={() =>
+              window.open(
                 "/BFX-Whitepaper.pdf?_gl=1*6ya1sw*_gcl_au*Mzg3MTA3OTg2LjE3NDY2MDM5MTA.",
                 "_blank"
               )
