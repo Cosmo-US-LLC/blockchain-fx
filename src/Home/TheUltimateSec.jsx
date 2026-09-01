@@ -43,7 +43,7 @@ function TheUltimateSec() {
               </button>
               */}
               <a
-                href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
+                href="https://app.uniswap.org/explore/auctions/ethereum/0x11C3543D43Bb34168D150E7415970418a4aaC06C"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-[#E5AE00] hover:text-[#FFF] px-[30px] hover:bg-transparent text-[16px] font-[700] border border-[#E5AE00] hover:border-[#fff] rounded-[8px] w-fit h-[50px] flex items-center justify-center"

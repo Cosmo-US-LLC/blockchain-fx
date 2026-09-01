@@ -56,7 +56,7 @@ export default function Whitepaper() {
             </button>
             */}
             <a
-              href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
+              href="https://app.uniswap.org/explore/auctions/ethereum/0x11C3543D43Bb34168D150E7415970418a4aaC06C"
               target="_blank"
               rel="noopener noreferrer"
               style={{
