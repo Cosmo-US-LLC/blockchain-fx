@@ -54,7 +54,7 @@ export default function WhitepaperMob() {
           <button
             onClick={() =>
               window.open(
-                "https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f",
+                "https://app.uniswap.org/explore/auctions/ethereum/0x11C3543D43Bb34168D150E7415970418a4aaC06C",
                 "_blank"
               )
             }
