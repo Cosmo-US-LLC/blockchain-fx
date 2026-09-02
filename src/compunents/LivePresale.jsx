@@ -105,10 +105,8 @@ const handleScroll = () => {
             </div>
           </div>
           */}
+          {/* "Last Chance to Buy" countdown banner, replaced per request with the "live on Uniswap" banner now that BFX has launched
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            {/* Original single bold implementation, commented out per request to make "Official Launch Date Revealed In" unbold
-            <span className="font-[800]">{t("live_presale_section.last_chance_launch_reveal")}</span>
-            */}
             <span className="font-[800]">{t("live_presale_section.last_chance_to_buy_prefix")}</span>{" "}
             <span className="font-[600]">{t("live_presale_section.official_launch_date_revealed_in")}</span>
           </p>
@@ -141,6 +139,19 @@ const handleScroll = () => {
           >
             {t("live_presale_section.buy_button")}
           </button>
+          */}
+          <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
+            <span className="font-[800]">BFX is live on Uniswap:</span>{" "}
+            <span className="font-[600]">Already 20x from launch</span>
+          </p>
+          <a
+            href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[25px] px-[6px] md:px-[10px] flex items-center justify-center shrink-0"
+          >
+            Buy BFX
+          </a>
         </div>
       </div>
 
@@ -236,44 +247,15 @@ const handleScroll = () => {
             </button>
           </div>
           */}
+          {/* "Last Chance to Buy" title/countdown/button rows, replaced per request with the "live on Uniswap" banner now that BFX has launched; kept behind `false &&` since it contains a nested comment */}
+          {false && (
+          <>
           <div className="flex w-[100%] items-center justify-center border-b-[1px] border-[#000] pb-2 mb-2 px-2">
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center leading-[1.3]">
-              {/* Original single bold implementation, commented out per request to make "Official Launch Date Revealed In" unbold
-              <span className="font-[800]">{t("live_presale_section.last_chance_launch_reveal")}</span>
-              */}
               <span className="font-[800]">{t("live_presale_section.last_chance_to_buy_prefix")}</span>{" "}
               <span className="font-[600]">{t("live_presale_section.official_launch_date_revealed_in")}</span>
             </p>
           </div>
-          {/* Fourth attempt (CTA on its own row below the timer), commented out per request to put it back inline, next to the timer
-          <div className="flex flex-col items-center justify-center gap-2">
-            <h3 className="text-[14px] font-[600]">
-              {timeLeft.days}{" "}
-              <span className="text-[12px] font-[400]">
-                {" "}
-                {t("live_presale_section.day")}
-              </span>{" "}
-              : {timeLeft.hours}{" "}
-              <span className="text-[12px] font-[400]">
-                {t("live_presale_section.Hours")}
-              </span>{" "}
-              : {timeLeft.minutes}{" "}
-              <span className="text-[12px] font-[400]">
-                {t("live_presale_section.Minutes")}
-              </span>{" "}
-              : {timeLeft.seconds}{" "}
-              <span className="text-[12px] font-[400]">
-                {t("live_presale_section.Seconds")}
-              </span>
-            </h3>
-            <button
-              onClick={handleScroll}
-              className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[22px] px-[10px]"
-            >
-              {t("live_presale_section.buy_button")}
-            </button>
-          </div>
-          */}
           <div className="flex flex-row items-center justify-center gap-2">
             <h3 className="text-[14px] font-[600]">
               {timeLeft.days}{" "}
@@ -300,6 +282,22 @@ const handleScroll = () => {
             >
               {t("live_presale_section.buy_button")}
             </button>
+          </div>
+          </>
+          )}
+          <div className="flex w-[100%] items-center justify-center gap-2 px-2">
+            <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center leading-[1.3]">
+              <span className="font-[800]">BFX is live on Uniswap:</span>{" "}
+              <span className="font-[600]">Already 20x from launch</span>
+            </p>
+            <a
+              href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[22px] px-[10px] flex items-center justify-center shrink-0"
+            >
+              Buy BFX
+            </a>
           </div>
         </div>
       </div>

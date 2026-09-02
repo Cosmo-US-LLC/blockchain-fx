@@ -27,7 +27,7 @@ const MobPressMediaSec = lazy(() => import("./MobPressMediaSec"));
 const MobTraderReviewsSec = lazy(() => import("./MobTraderReviewsSec"));
 // const MobFaqSec = lazy(() => import("./MobFaqSec"));
 const MobTheUltimateSec = lazy(() => import("./MobTheUltimateSec"));
-// const LivePresale = lazy(() => import("../compunents/LivePresale"));
+const LivePresale = lazy(() => import("../compunents/LivePresale"));
 
 // Loading fallback
 const LoadingFallback = () => (
@@ -86,9 +86,7 @@ function MobileHome() {
         <MobFaqSec />
         */}
         <MobTheUltimateSec />
-        {/* LivePresale countdown banner removed from the site per request; keep the import/markup for easy restoration
         <LivePresale />
-        */}
       </Suspense>
     </div>
   );

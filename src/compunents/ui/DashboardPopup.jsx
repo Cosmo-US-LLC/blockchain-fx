@@ -321,14 +321,6 @@ const DashboardPopup = ({ onClose }) => {
               {/* <p className="text-[14px] text-[#fff] text-center font-[500]">February 5, 2025</p> */}
             </div>
             )}
-            <div
-              className="rounded-[8px] p-[10px]"
-              style={{
-                background: "rgba(255, 255, 255, 0.09)",
-              }}
-            >
-              <StakeTab />
-            </div>
             {/* "BFX Listing Price" line removed from the dashboard popup per request; keep the markup for easy restoration
             <div
               className="py-[7px] rounded-[8px]"
@@ -628,6 +620,14 @@ const DashboardPopup = ({ onClose }) => {
                 Disconnect
                 <img src={disicn} className="ml-1" alt="" />
               </button>
+            </div>
+            <div
+              className="rounded-[8px] p-[10px]"
+              style={{
+                background: "rgba(255, 255, 255, 0.09)",
+              }}
+            >
+              <StakeTab />
             </div>
             <div
               className="py-[9px] 2xl:!mt-[9px] xl:!mt-[9px] lg:!mt-[9px]  md:!mt-[9px] sm!mt-[0px] !mt-[0px]   rounded-[10px]  w-[100%] mx-auto "
