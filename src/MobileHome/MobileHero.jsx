@@ -267,7 +267,7 @@ function MobileHero() {
             */}
             <div className="flex justify-center pb-[0px] items-center">
               <a
-                href="https://app.uniswap.org/explore/auctions/ethereum/0x11C3543D43Bb34168D150E7415970418a4aaC06C"
+                href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
