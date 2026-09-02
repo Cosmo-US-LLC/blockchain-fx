@@ -50,7 +50,7 @@ function CryptoExchangemobSec() {
             </button>
           </div>
           */}
-          <div className="flex justify-center relative z-[99] pb-[0px] items-center">
+          <div className="flex justify-center relative z-[99] pb-[0px] items-center flex-wrap gap-3">
             <a
               href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
               target="_blank"
@@ -61,6 +61,14 @@ function CryptoExchangemobSec() {
               className="text-[#000] px-[12px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] max-w-[180px] w-[100%] h-[50px] flex items-center justify-center"
             >
               Buy on Uniswap
+            </a>
+            <a
+              href="https://trade.blockfx.com/traderoom"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#000] hover:bg-[#E5AE00] px-[14px] text-[#E6B005] bg-transparent text-[14px] font-[700] whitespace-nowrap border hover:border-[#E5AE00] border-[#E6B005] rounded-[8px] w-fit h-[50px] flex items-center justify-center"
+            >
+              Visit the BFX Trading App
             </a>
           </div>
         </div>

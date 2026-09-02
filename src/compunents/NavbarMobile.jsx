@@ -253,6 +253,7 @@ function NavbarMobile() {
                   </a>
                 )}
 
+                {/* "Referral" nav link hidden from the site per request; keep the markup for easy restoration
                 <Link
                   to={
                     selectedLang.abbreviation.toLowerCase() === "en"
@@ -264,6 +265,7 @@ function NavbarMobile() {
                 >
                   {t("navbar.referral")}
                 </Link>
+                */}
 
                 <a
                   className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"

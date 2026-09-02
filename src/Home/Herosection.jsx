@@ -2,6 +2,7 @@ import React from "react";
 import check from "../assets/herosection/check.svg";
 import { useTranslation } from "react-i18next";
 import AOFA from "../assets/herosection/AOFA.webp";
+import CoinGeckoLogo from "../assets/herosection/CoinGecko-logo.webp";
 
 import uersrev from "../assets/herosection/Avatar group.png";
 import stars from "../assets/herosection/stars.png";
@@ -146,7 +147,7 @@ function Herosection() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex items-center justify-between">
           <div className="flex justify-start pt-[20px] mt-3 pb-[0px] items-center">
             {/* "Buy $BFX" and "How it works?" CTAs hidden site-wide per request (Dashboard/Connect Wallet CTAs kept); keep the markup for easy restoration
             <button
@@ -177,10 +178,22 @@ function Herosection() {
             >
               Buy on Uniswap
             </a>
-            <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden flex-col items-center">
+            <div className="flex-col items-center hidden 2xl:flex xl:flex lg:flex md:flex sm:hidden">
               <img className="max-w-[160px]" src={AOFA} alt="" />
               <a href="/license.pdf" className="text-[12px] underline text-[#fff] " target="_blank" rel="noopener noreferrer">Verify license</a>
             </div>
+            <a
+              href="https://www.coingecko.com/en/coins/blockchain-fx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center ml-[17px] transition-transform duration-300 ease-out hover:-translate-y-[2px] hover:scale-[1.06] focus-visible:-translate-y-[2px] focus-visible:scale-[1.06] outline-none"
+            >
+              <img
+                className="max-w-[190px] transition-[filter,opacity] duration-300 ease-out opacity-90 drop-shadow-[0_0_0_rgba(229,174,0,0)] hover:opacity-100 hover:drop-shadow-[0_4px_14px_rgba(229,174,0,0.45)]"
+                src={CoinGeckoLogo}
+                alt="CoinGecko"
+              />
+            </a>
           </div>
           <div className="flex mt-[-15px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">
             <div>

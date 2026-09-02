@@ -33,7 +33,7 @@ import {
 import { useAccount } from "../presale-gg/web3/hooks";
 import DashboardPopup from "./ui/DashboardPopup";
 import WalletPopup from "./ui/WalletPopup";
-// import LivePresale from "./LivePresale";
+import LivePresale from "./LivePresale";
 
 const flags = [
   { flag: flag1, abbreviation: "EN", name: "English" },
@@ -176,22 +176,14 @@ function Navbar() {
   return (
     <div
       className={` relative ${
-        /* Original margin reserved space for the LivePresale banner, commented out per request to remove the banner site-wide
         isHome ? "mb-[90px]" : "!mb-[50px]"
-        */
-        "!mb-[50px]"
       }`}
     >
-      {/* LivePresale countdown banner removed from the site per request; keep the import/markup for easy restoration
       <LivePresale />
-      */}
       <nav
         aria-label="Breadcrumb"
         className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          /* Original top offset reserved space for the LivePresale banner, commented out per request
           isHome ? "top-[2.3rem]" : "top-0"
-          */
-          "top-0"
         }`}
       >
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
@@ -260,6 +252,7 @@ function Navbar() {
               </a>
             )}
 
+            {/* "Referral" nav link hidden from the site per request; keep the markup for easy restoration
             <Link
               to={
                 selectedLang.abbreviation.toLowerCase() === "en"
@@ -270,6 +263,7 @@ function Navbar() {
             >
               {t("navbar.referral")}
             </Link>
+            */}
 
             {/* "Win $500k" nav link hidden from the site per request; keep the markup for easy restoration
             <Link

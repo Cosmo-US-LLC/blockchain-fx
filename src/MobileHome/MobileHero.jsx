@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import AOFA from "../assets/herosection/AOFA.webp";
+import CoinGeckoLogo from "../assets/herosection/CoinGecko-logo.webp";
 import uersrev from "../assets/herosection/Avatar group.webp";
 import stars from "../assets/herosection/stars (2).webp";
 import heroicns1 from "../assets/herosection/herosvg (1).svg";
@@ -148,6 +149,20 @@ function MobileHero() {
                   Verify license
                 </a>
               </div>
+            </div>
+            <div className="flex items-center justify-center !mt-[10px]">
+              <a
+                href="https://www.coingecko.com/en/coins/blockchain-fx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center transition-transform duration-200 ease-out active:scale-[0.94]"
+              >
+                <img
+                  className="max-w-[160px] transition-[filter,opacity] duration-200 ease-out opacity-90 active:opacity-100 active:drop-shadow-[0_4px_14px_rgba(229,174,0,0.45)]"
+                  src={CoinGeckoLogo}
+                  alt="CoinGecko"
+                />
+              </a>
             </div>
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
