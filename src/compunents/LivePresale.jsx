@@ -14,6 +14,34 @@ const [timeLeft, setTimeLeft] = useState({
   seconds: "00",
 });
 
+const [bfxPrice, setBfxPrice] = useState("5.20");
+
+useEffect(() => {
+  const TOKEN_ADDRESS = "0x87ad29bc7a161d7ca644eb1db221d962e2d383d2";
+  const PRICE_URL = `https://api.geckoterminal.com/api/v2/simple/networks/eth/token_price/${TOKEN_ADDRESS}`;
+
+  const fetchBFXPrice = async () => {
+    try {
+      const res = await fetch(PRICE_URL);
+      if (!res.ok) throw new Error("Network response was not ok");
+      const json = await res.json();
+      const price = parseFloat(
+        json.data.attributes.token_prices[TOKEN_ADDRESS]
+      );
+      if (!Number.isNaN(price)) {
+        setBfxPrice(price.toFixed(2));
+      }
+    } catch (err) {
+      console.error("Failed to fetch BFX price:", err);
+    }
+  };
+
+  fetchBFXPrice();
+  const priceInterval = setInterval(fetchBFXPrice, 30000);
+
+  return () => clearInterval(priceInterval);
+}, []);
+
 useEffect(() => {
   // Original target date, commented out per request
   // 1 June 2026, 6:00 PM Dubai time (UTC+4) = 2:00 PM UTC
@@ -141,8 +169,10 @@ const handleScroll = () => {
           </button>
           */}
           <p className="font-[600] leading-[100%] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] text-[11px] text-center">
-            <span className="font-[800]">BFX is live on Uniswap:</span>{" "}
-            <span className="font-[600]">Already 20x from launch</span>
+            <span className="font-[800]">
+              BFX is now trading live on Uniswap at ${bfxPrice},
+            </span>{" "}
+            <span className="font-[800]">Already 103x from launch.</span>
           </p>
           <a
             href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
@@ -150,7 +180,7 @@ const handleScroll = () => {
             rel="noopener noreferrer"
             className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[25px] px-[6px] md:px-[10px] flex items-center justify-center shrink-0"
           >
-            Buy BFX
+            Buy before CEX listings
           </a>
         </div>
       </div>
@@ -287,8 +317,10 @@ const handleScroll = () => {
           )}
           <div className="flex w-[100%] items-center justify-center gap-2 px-2">
             <p className="font-[600] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[12px] text-[12px] text-center leading-[1.3]">
-              <span className="font-[800]">BFX is live on Uniswap:</span>{" "}
-              <span className="font-[600]">Already 20x from launch</span>
+              <span className="font-[800]">
+                BFX is now trading live on Uniswap at ${bfxPrice},
+              </span>{" "}
+              <span className="font-[800]">Already 103x from launch.</span>
             </p>
             <a
               href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
@@ -296,7 +328,7 @@ const handleScroll = () => {
               rel="noopener noreferrer"
               className="2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[10px] sm:text-[9px] text-[8px] font-[700] text-[#fff] bg-[black] rounded-[3px] h-[22px] px-[10px] flex items-center justify-center shrink-0"
             >
-              Buy BFX
+              Buy before CEX listings
             </a>
           </div>
         </div>

@@ -141,7 +141,7 @@ function Herosection() {
                   width: "100%",
                   maxWidth: "730px",
                   height: "auto",
-                  maxHeight: "410px",
+                  maxHeight: "380px",
                 }}
               />
             </div>
@@ -195,7 +195,7 @@ function Herosection() {
               />
             </a>
           </div>
-          <div className="flex mt-[-15px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">
+          <div className="flex mt-[5px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">
             <div>
               <h3 className="text-[#fff] mb-[18px] font-inter leading-[185%] font-[400] text-center text-[16px]">
                 {t("hero.audited_by")}
