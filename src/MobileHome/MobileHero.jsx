@@ -127,7 +127,7 @@ function MobileHero() {
               />
               */}
               <img
-                src="assets/blockchainfx/HeroSection/BFX-is-live.webp"
+                src="assets/blockchainfx/HeroSection/BFX-AllTimeHigh.webp"
                 alt="BlockchainFX is live"
                 width="100%"
                 style={{ borderRadius: "12px", width: "100%", height: "auto" }}
@@ -198,7 +198,7 @@ function MobileHero() {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
               <p className="text-[15px] text-[#fff] leading-[185%] text-center font-[400]">
                 {t("hero.audited_by")}
               </p>
@@ -302,7 +302,7 @@ function MobileHero() {
           {t("featured_sec.featured_in")}
         </p>
         <div className="grid gap-3">
-          <div className="flex space-x-2 justify-center items-center">
+          <div className="flex items-center justify-center space-x-2">
             <a
               href="https://coinmarketcap.com/community/articles/67d43c30c4a5810cf71d7406/"
               target="_blank"
@@ -357,7 +357,7 @@ function MobileHero() {
               />
             </a>
           </div>
-          <div className="flex space-x-3 justify-center items-center">
+          <div className="flex items-center justify-center space-x-3">
             <a
               href="https://www.kucoin.com/news/flash/blockchainfx-presale-surpasses-10m-as-it-aims-to-outperform-sui-and-hyperliquid"
               target="_blank"
@@ -411,7 +411,7 @@ function MobileHero() {
               />
             </a>
           </div>
-          <div className="flex space-x-3 justify-center items-center">
+          <div className="flex items-center justify-center space-x-3">
             <a
               href="https://www.bitget.com/news/detail/12560604943063"
               target="_blank"

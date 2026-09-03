@@ -15,6 +15,8 @@ const [timeLeft, setTimeLeft] = useState({
 });
 
 const [bfxPrice, setBfxPrice] = useState("5.20");
+const LAUNCH_PRICE = 0.05;
+const bfxMultiplier = Math.floor(parseFloat(bfxPrice) / LAUNCH_PRICE);
 
 useEffect(() => {
   const TOKEN_ADDRESS = "0x87ad29bc7a161d7ca644eb1db221d962e2d383d2";
@@ -172,7 +174,7 @@ const handleScroll = () => {
             <span className="font-[800]">
               BFX is now trading live on Uniswap at ${bfxPrice},
             </span>{" "}
-            <span className="font-[800]">Already 103x from launch.</span>
+            <span className="font-[800]">Already {bfxMultiplier}x from launch.</span>
           </p>
           <a
             href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
@@ -320,7 +322,7 @@ const handleScroll = () => {
               <span className="font-[800]">
                 BFX is now trading live on Uniswap at ${bfxPrice},
               </span>{" "}
-              <span className="font-[800]">Already 103x from launch.</span>
+              <span className="font-[800]">Already {bfxMultiplier}x from launch.</span>
             </p>
             <a
               href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
