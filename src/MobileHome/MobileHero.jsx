@@ -127,7 +127,7 @@ function MobileHero() {
               />
               */}
               <img
-                src="assets/blockchainfx/HeroSection/new-BFX-AllTimeHigh.webp"
+                src="assets/blockchainfx/HeroSection/BFX-AllTimeHigh-new.webp"
                 alt="BlockchainFX is live"
                 width="100%"
                 style={{ borderRadius: "12px", width: "100%", height: "auto" }}
