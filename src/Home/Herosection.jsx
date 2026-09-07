@@ -135,7 +135,7 @@ function Herosection() {
               ></wistia-player>
               */}
               <img
-                src="assets/blockchainfx/HeroSection/BFX-AllTimeHigh-1.webp"
+                src="assets/blockchainfx/HeroSection/BFX-is-on-Uniswap.webp"
                 alt="BlockchainFX All Time High"
                 style={{
                   width: "100%",
