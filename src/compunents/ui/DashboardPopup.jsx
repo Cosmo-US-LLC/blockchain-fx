@@ -583,29 +583,39 @@ const DashboardPopup = ({ onClose }) => {
                 */}
               </div>
             </div>
-            <div className="flex gap-[10px] w-[100%]">
-              <div
-                className="relative w-[100%]"
-                ref={claimInfoRef}
-                onMouseEnter={() =>
-                  supportsHoverRef.current && setIsClaimInfoOpen(true)
-                }
-                onMouseLeave={() =>
-                  supportsHoverRef.current && setIsClaimInfoOpen(false)
-                }
-              >
-                <button
-                  type="button"
-                  onClick={() => setIsClaimInfoOpen((open) => !open)}
-                  className="text-[#000] opacity-60 cursor-not-allowed flex justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] text-[10.886px] font-[800] border border-[#E5AE00] w-[100%] h-[31px]"
+            <div className="flex gap-[10px] w-[100%] <md:flex-col">
+              <div className="flex gap-[10px] w-[100%] min-w-0">
+                <div
+                  className="relative flex-1 min-w-0"
+                  ref={claimInfoRef}
+                  onMouseEnter={() =>
+                    supportsHoverRef.current && setIsClaimInfoOpen(true)
+                  }
+                  onMouseLeave={() =>
+                    supportsHoverRef.current && setIsClaimInfoOpen(false)
+                  }
                 >
-                  Claim Tokens
-                </button>
-                {isClaimInfoOpen && (
-                  <div className="absolute bottom-[calc(100%+8px)] left-0 max-w-[calc(100vw-40px)] z-30 w-[220px] rounded-[8px] border border-[#FBD914] bg-[#111] p-[10px] text-center text-[10.5px] leading-[1.4] text-[#fff] shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
-                    BFX is live on Uniswap, and claiming opens once the LP is ready.
-                  </div>
-                )}
+                  <button
+                    type="button"
+                    onClick={() => setIsClaimInfoOpen((open) => !open)}
+                    className="text-[#000] opacity-60 cursor-not-allowed flex justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] text-[10.886px] font-[800] border border-[#E5AE00] w-[100%] h-[31px] whitespace-nowrap"
+                  >
+                    Claim Tokens
+                  </button>
+                  {isClaimInfoOpen && (
+                    <div className="absolute bottom-[calc(100%+8px)] left-0 max-w-[calc(100vw-40px)] z-30 w-[220px] rounded-[8px] border border-[#FBD914] bg-[#111] p-[10px] text-center text-[10.5px] leading-[1.4] text-[#fff] shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+                      BFX is live on Uniswap, and claiming opens once the LP is ready.
+                    </div>
+                  )}
+                </div>
+                <a
+                  href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#000] flex-1 min-w-0 flex justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] hover:opacity-[0.7] text-[10.886px] font-[800] border border-[#E5AE00] h-[31px] whitespace-nowrap"
+                >
+                  See LP
+                </a>
               </div>
               <button
                 onClick={async () => {
