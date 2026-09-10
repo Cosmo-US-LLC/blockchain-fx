@@ -291,7 +291,7 @@ function MobileHero() {
                 }}
                 className="text-[#000] px-[20px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] w-fit h-[50px] flex items-center justify-center"
               >
-                Buy on Uniswap
+                ETH/BFX Launch
               </a>
             </div>
           </div>
