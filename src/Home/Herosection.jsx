@@ -176,7 +176,7 @@ function Herosection() {
               }}
               className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] w-fit h-[50px] flex items-center justify-center mr-[17px]"
             >
-              Buy on Uniswap
+              ETH/BFX Launch
             </a>
             <div className="flex-col items-center hidden 2xl:flex xl:flex lg:flex md:flex sm:hidden">
               <img className="max-w-[160px]" src={AOFA} alt="" />
