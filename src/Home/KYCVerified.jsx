@@ -27,7 +27,7 @@ function KYCVerified() {
   ];
 
   return (
-    <div className="bg-[#020B10]">
+    <div className="bg-[#020B10]" id="audits">
       <div className="max-w-[1200px] pt-[35px] w-[100%] mx-auto relative">
         <h3 className="text-[40px] text-[#fff] font-[600] leading-[155.556%] leading-[-1px] text-center">
           {t("KYCVerified.security_verified_title")}

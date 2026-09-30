@@ -12,7 +12,7 @@ function MobPressMediaSec() {
   const articles = t("press_media_section.articles", { returnObjects: true });
 
   return (
-    <div className="pt-[30px] bg-[#020B10] pb-[30px]">
+    <div className="pt-[30px] bg-[#020B10] pb-[30px]" id="press-media">
       <div className="relative space-y-[20px] w-[90%] mx-auto">
         <div className="space-y-[20px]">
           <h3 className="text-center text-[#fff] text-[30px] font-[600] leading-[120%] tracking-[-1.5px]">

@@ -214,12 +214,13 @@ function Navbar() {
           <div className="space-x-[20px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "pioneering", 40)}
+              onClick={(e) => handleScroll(e, "desktopDemo", 40)}
               href=""
             >
               {t("navbar.whatIsBlockchainFX")}
             </a>
 
+            {/* "How to Buy" nav link hidden per request; keep the markup for easy restoration
             <Link
               to={
                 selectedLang.abbreviation.toLowerCase() === "en"
@@ -230,6 +231,39 @@ function Navbar() {
             >
               {t("navbar.howToBuy")}
             </Link>
+            */}
+
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "audits", 70)}
+              href="#audits"
+            >
+              {t("navbar.audits")}
+            </a>
+
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "pioneering", 70)}
+              href="#pioneering"
+            >
+              {t("navbar.betaApp")}
+            </a>
+
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "press-media", 70)}
+              href="#press-media"
+            >
+              {t("navbar.pressMedia")}
+            </a>
+
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "reviews", 70)}
+              href="#reviews"
+            >
+              {t("navbar.reviews")}
+            </a>
 
             {/* {location.pathname.includes("how-to-buy") ? (
               <a

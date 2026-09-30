@@ -38,7 +38,7 @@ function DemoSec() {
   };
 
   return (
-   <div className="bg-[#020B10] py-[30px] " >
+   <div className="bg-[#020B10] py-[30px] " id="beta-app" >
     <div className="mx-auto w-[90%] overflow-hidden bg-[#020B10] rounded-[24px]"
     style={{
       border: "1.5px solid #E5E7EB",
