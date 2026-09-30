@@ -38,7 +38,7 @@ function DemoSec() {
   };
 
   return (
-   <div className="bg-[#020B10] py-[30px] " >
+   <div className="bg-[#020B10] py-[30px] " id="beta-app" >
     <div className="mx-auto w-[90%] overflow-hidden bg-[#020B10] rounded-[24px]"
     style={{
       border: "1.5px solid #E5E7EB",
@@ -87,7 +87,7 @@ function DemoSec() {
         </button>
       </div>
       */}
-      <div className="flex w-full items-center justify-center mt-8 mb-[30px]">
+      {/* <div className="flex w-full items-center justify-center mt-8 mb-[30px]">
         <a
           href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
           target="_blank"
@@ -99,7 +99,7 @@ function DemoSec() {
         >
           Buy on Uniswap
         </a>
-      </div>
+      </div> */}
     </div>
     </div>
    </div>

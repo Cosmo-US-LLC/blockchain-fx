@@ -72,7 +72,7 @@ function BlockchainFXDemo() {
                 </button>
               </div>
               */}
-              <div className="flex justify-start pt-[20px] pb-[0px] items-center">
+              {/* <div className="flex justify-start pt-[20px] pb-[0px] items-center">
                 <a
                   href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
                   target="_blank"
@@ -85,7 +85,7 @@ function BlockchainFXDemo() {
                 >
                   Buy on Uniswap
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="w-[50%]">
               <video

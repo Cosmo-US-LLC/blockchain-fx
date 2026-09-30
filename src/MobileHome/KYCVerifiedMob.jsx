@@ -20,7 +20,7 @@ function KYCVerifiedMob() {
   ];
 
   return (
-    <div className="pb-[50px] pt-[20px] bg-[#020B10]">
+    <div className="pb-[50px] pt-[20px] bg-[#020B10]" id="audits">
       <div className="w-[90%] mx-auto relative">
         <div className="w-[100%] mx-auto">
           <h3 className=" pb-[30px] text-[#fff] max-w-[300px] mx-auto text-[30px] font-[600] leading-[120%] tracking-[-1.5px] text-center">

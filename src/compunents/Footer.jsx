@@ -204,6 +204,8 @@ function Footer() {
                 <img src={socil3 || "/placeholder.svg"} alt="twitter" />
               </a>
             </div>
+            {/* Contact e-mail hidden per request; kept behind `false &&` since it contains a nested comment */}
+            {false && (
             <div className="space-y-[5px]">
               <h4 className="text-[#fff] text-[16px] font-[400] leading-[108.333%]">
                 {t("footer.contact.email_label")}
@@ -215,6 +217,7 @@ function Footer() {
                 License: 16172
               </h3> */}
             </div>
+            )}
             <div className="pt-[10px]">
               <h4 className="text-[#fff] text-[16px] font-[400] leading-[108.333%]">License: 16172</h4>
             </div>
@@ -401,14 +404,14 @@ function Footer() {
                 />
               </a>
             </div>
-            <div className="space-y-[10px]">
+            {/* <div className="space-y-[10px]">
               <h4 className="text-[#fff] text-[12px] font-[400]">
                 {t("footer.contact.email_label")}
               </h4>
               <h3 className="text-[#fff] text-[15px] font-[400]">
                 {t("footer.contact.email")}
               </h3>
-            </div>
+            </div> */}
           {/* <div>
               <h4 className="text-[#fff] text-[15px] font-[400]">License 16172</h4>
             </div> */}

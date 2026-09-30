@@ -150,7 +150,7 @@ function MobileHero() {
                 </a>
               </div>
             </div>
-            <div className="flex items-center justify-center !mt-[10px]">
+            {/* <div className="flex items-center justify-center !mt-[10px]">
               <a
                 href="https://www.coingecko.com/en/coins/blockchain-fx"
                 target="_blank"
@@ -163,7 +163,7 @@ function MobileHero() {
                   alt="CoinGecko"
                 />
               </a>
-            </div>
+            </div> */}
             <div className="flex items-center justify-center space-x-3 !mt-[20px]">
               <div className="flex flex-col items-center">
                 <img
@@ -280,7 +280,7 @@ function MobileHero() {
               </button>
             </div>
             */}
-            <div className="flex justify-center pb-[0px] items-center">
+            {/* <div className="flex justify-center pb-[0px] items-center">
               <a
                 href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
                 target="_blank"
@@ -293,7 +293,7 @@ function MobileHero() {
               >
                 ETH/BFX Launch
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

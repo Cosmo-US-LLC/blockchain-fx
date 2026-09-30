@@ -217,11 +217,12 @@ function NavbarMobile() {
                 <a
                   className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                   href=""
-                  onClick={(e) => handleScroll(e, "pioneering", 60)}
+                  onClick={(e) => handleScroll(e, "beta-app", 60)}
                 >
                   {t("navbar.whatIsBlockchainFX")}
                 </a>
 
+                {/* "How to Buy" nav link hidden per request; keep the markup for easy restoration
                 <Link
                   to={
                     selectedLang.abbreviation.toLowerCase() === "en"
@@ -233,8 +234,33 @@ function NavbarMobile() {
                 >
                   {t("navbar.howToBuy")}
                 </Link>
+                */}
 
-                {location.pathname.includes("how-to-buy") ? (
+                <a
+                  className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                  href="#audits"
+                  onClick={(e) => handleScroll(e, "audits", 90)}
+                >
+                  {t("navbar.audits")}
+                </a>
+
+                <a
+                  className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                  href="#pioneering"
+                  onClick={(e) => handleScroll(e, "pioneering", 90)}
+                >
+                  {t("navbar.betaApp")}
+                </a>
+
+                <a
+                  className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
+                  href="#press-media"
+                  onClick={(e) => handleScroll(e, "press-media", 90)}
+                >
+                  {t("navbar.pressMedia")}
+                </a>
+
+                {/* {location.pathname.includes("how-to-buy") ? (
                   <a
                     className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                     href={pdfUrl}
@@ -251,7 +277,7 @@ function NavbarMobile() {
                   >
                     {t("navbar.whitepaper")}
                   </a>
-                )}
+                )} */}
 
                 {/* "Referral" nav link hidden from the site per request; keep the markup for easy restoration
                 <Link

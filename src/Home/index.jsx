@@ -79,7 +79,7 @@ function Home() {
         {/* "Standout Features" comparison table hidden from the site per request; keep the markup for easy restoration
         <StandoutSec />
         */}
-        <Whitepaper />
+        {/* <Whitepaper /> */}
         {/*
         <TokenAllocationSec />
         <Roadmap />

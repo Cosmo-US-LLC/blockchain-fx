@@ -176,15 +176,13 @@ function Navbar() {
   return (
     <div
       className={` relative ${
-        isHome ? "mb-[90px]" : "!mb-[50px]"
+        isHome ? "mb-[53px]" : "!mb-[50px]"
       }`}
     >
-      <LivePresale />
+      {/* <LivePresale /> */}
       <nav
         aria-label="Breadcrumb"
-        className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          isHome ? "top-[2.3rem]" : "top-0"
-        }`}
+        className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 top-0`}
       >
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-3 2xl:block xl:block lg:block md:block sm:flex 2xl:space-x-1 xl:space-x-1 lg:space-x-0 md:space-x-0 sm:space-x-3">
@@ -216,12 +214,13 @@ function Navbar() {
           <div className="space-x-[20px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
             <a
               className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
-              onClick={(e) => handleScroll(e, "pioneering", 40)}
+              onClick={(e) => handleScroll(e, "desktopDemo", 40)}
               href=""
             >
               {t("navbar.whatIsBlockchainFX")}
             </a>
 
+            {/* "How to Buy" nav link hidden per request; keep the markup for easy restoration
             <Link
               to={
                 selectedLang.abbreviation.toLowerCase() === "en"
@@ -232,8 +231,41 @@ function Navbar() {
             >
               {t("navbar.howToBuy")}
             </Link>
+            */}
 
-            {location.pathname.includes("how-to-buy") ? (
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "audits", 70)}
+              href="#audits"
+            >
+              {t("navbar.audits")}
+            </a>
+
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "pioneering", 70)}
+              href="#pioneering"
+            >
+              {t("navbar.betaApp")}
+            </a>
+
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "press-media", 70)}
+              href="#press-media"
+            >
+              {t("navbar.pressMedia")}
+            </a>
+
+            <a
+              className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
+              onClick={(e) => handleScroll(e, "reviews", 70)}
+              href="#reviews"
+            >
+              {t("navbar.reviews")}
+            </a>
+
+            {/* {location.pathname.includes("how-to-buy") ? (
               <a
                 className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
                 href={pdfUrl}
@@ -250,7 +282,7 @@ function Navbar() {
               >
                 {t("navbar.whitepaper")}
               </a>
-            )}
+            )} */}
 
             {/* "Referral" nav link hidden from the site per request; keep the markup for easy restoration
             <Link

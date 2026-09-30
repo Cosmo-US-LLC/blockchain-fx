@@ -33,6 +33,8 @@ function TheUltimateSec() {
               dangerouslySetInnerHTML={{ __html: t("the_ultimate_section.title") }}
             />
          
+            {/* CTAs hidden per request; kept behind `false &&` since it contains a nested comment */}
+            {false && (
             <div className="flex justify-center items-center pt-[35px] space-x-[17px]">
               {/* "Buy $BFX" CTA hidden site-wide per request (Dashboard/Connect Wallet CTAs and "Need Support?" kept); keep the markup for easy restoration
               <button
@@ -59,6 +61,7 @@ function TheUltimateSec() {
                 {t("the_ultimate_section.need_support")}
               </button>
             </div>
+            )}
           </div>
         </div>
       </div>
