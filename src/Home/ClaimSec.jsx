@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import iconapon from "../assets/HowToBuySec/ei_arrow-up.svg";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
 import ClaimWidget from "../compunents/ClaimWidget";
-import ExchangeListingsBar from "../compunents/ExchangeListingsBar";
+// import ExchangeListingsBar from "../compunents/ExchangeListingsBar";
 
 const claimSteps = [1, 2, 3, 4];
 
@@ -42,7 +42,7 @@ const ClaimSec = () => {
 
           <div
             id="how-to-claim"
-            className="relative mx-auto w-full max-w-[450px] rounded-[26.227px] border border-white px-[25px] pb-[11px] pt-[8px]"
+            className="relative mx-auto flex w-full max-w-[450px] flex-col justify-center rounded-[26.227px] border border-white px-[25px] pb-[8px] pt-[8px]"
             style={{
               background:
                 "linear-gradient(212deg, rgb(207 207 207 / 25%) 0.66%, rgba(23, 23, 23, 0.68) 49.48%, rgb(30 30 30 / 22%) 103.45%)",
@@ -78,7 +78,7 @@ const ClaimSec = () => {
                       aria-controls={panelId}
                     >
                       <span
-                        className={`text-[14px] font-[600] ${
+                        className={`text-[16px] font-[600] ${
                           isOpen ? "text-[#F3C742]" : "text-white"
                         }`}
                       >
@@ -100,7 +100,7 @@ const ClaimSec = () => {
                       }`}
                       aria-hidden={!isOpen}
                     >
-                      <div className="min-h-0 overflow-hidden text-[11.688px] font-[400] leading-[1.55] text-white">
+                      <div className="min-h-0 overflow-hidden text-[14px] font-[400] leading-[1.55] text-white">
                         {t(`claim_section.step_${step}_description`)}
                       </div>
                     </div>
@@ -109,12 +109,12 @@ const ClaimSec = () => {
               })}
             </div>
 
-            <div className="!mt-0 space-y-[18px] border-t border-[#545454] pt-10">
+            {/* <div className="!mt-0 space-y-[18px] border-t border-[#545454] pt-10">
               <h4 className="px-1 text-[14px] font-[600] text-white">
                 {t("claim_section.exchange_title")}
               </h4>
               <ExchangeListingsBar className="mx-auto w-full" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

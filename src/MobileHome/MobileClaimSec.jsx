@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import iconcls from "../assets/HowToBuySec/ei_arrow-up (1).svg";
 import iconapon from "../assets/presale-v3/ei_arrow-up.svg";
 import ClaimWidget from "../compunents/ClaimWidget";
-import ExchangeListingsBar from "../compunents/ExchangeListingsBar";
+// import ExchangeListingsBar from "../compunents/ExchangeListingsBar";
 
 const claimSteps = [1, 2, 3, 4];
 
@@ -106,12 +106,12 @@ const MobileClaimSec = () => {
               })}
             </div>
 
-            <div className="space-y-[14px] border-t border-[#545454] pt-4">
+            {/* <div className="space-y-[14px] border-t border-[#545454] pt-4">
               <h4 className="px-1 py-[5px] text-[14px] font-[600] text-white">
                 {t("claim_section.exchange_title")}
               </h4>
               <ExchangeListingsBar className="mx-auto w-full" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
