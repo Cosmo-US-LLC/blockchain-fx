@@ -5,6 +5,7 @@ import MobileHero from "./MobileHero";
 // import LaunchPopup from "../compunents/LaunchPopup";
 
 // const MobileWalletSec = lazy(() => import("./MobileWalletSec"));
+const MobileClaimSec = lazy(() => import("./MobileClaimSec"));
 const KYCVerifiedMob = lazy(() => import("./KYCVerifiedMob"));
 // const YoutubeSec = lazy(() => import("./YoutubeSec"));
 const CryptoExchangemobSec = lazy(() => import("./CryptoExchangemobSec"));
@@ -51,6 +52,7 @@ function MobileHome() {
         {/* BFX Presale section hidden from the site per request; keep the markup for easy restoration
         <MobileWalletSec />
         */}
+        <MobileClaimSec />
         <KYCVerifiedMob />
         {/* "What Experts Say About BFX" section hidden from the site per request; keep the markup for easy restoration
         <YoutubeSec />
