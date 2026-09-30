@@ -2,7 +2,7 @@ import { createPublicClient, http } from "viem";
 import { bsc, mainnet } from "viem/chains";
 
 export const rpcMap = {
-	"1": "https://rpc.ankr.com/eth",
+	"1": "https://ethereum-rpc.publicnode.com",
 	"56": "https://bsc-dataseed1.binance.org/"
 }
 
