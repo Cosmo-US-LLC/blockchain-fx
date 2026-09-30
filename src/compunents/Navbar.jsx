@@ -176,15 +176,13 @@ function Navbar() {
   return (
     <div
       className={` relative ${
-        isHome ? "mb-[90px]" : "!mb-[50px]"
+        isHome ? "mb-[53px]" : "!mb-[50px]"
       }`}
     >
-      <LivePresale />
+      {/* <LivePresale /> */}
       <nav
         aria-label="Breadcrumb"
-        className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 ${
-          isHome ? "top-[2.3rem]" : "top-0"
-        }`}
+        className={`fixed w-[100%] bg-[#020B10] z-[999] px-2 top-0`}
       >
         <div className="2xl:h-[63px] xl:h-[63px] lg:h-[63px] md:h-[63px] sm:h-[64px] h-[64px] max-w-[1200px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-3 2xl:block xl:block lg:block md:block sm:flex 2xl:space-x-1 xl:space-x-1 lg:space-x-0 md:space-x-0 sm:space-x-3">
@@ -233,7 +231,7 @@ function Navbar() {
               {t("navbar.howToBuy")}
             </Link>
 
-            {location.pathname.includes("how-to-buy") ? (
+            {/* {location.pathname.includes("how-to-buy") ? (
               <a
                 className="text-[16px] font-[400] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
                 href={pdfUrl}
@@ -250,7 +248,7 @@ function Navbar() {
               >
                 {t("navbar.whitepaper")}
               </a>
-            )}
+            )} */}
 
             {/* "Referral" nav link hidden from the site per request; keep the markup for easy restoration
             <Link

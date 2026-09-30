@@ -234,7 +234,7 @@ function NavbarMobile() {
                   {t("navbar.howToBuy")}
                 </Link>
 
-                {location.pathname.includes("how-to-buy") ? (
+                {/* {location.pathname.includes("how-to-buy") ? (
                   <a
                     className="block text-[16px] font-[500] text-[#fff] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
                     href={pdfUrl}
@@ -251,7 +251,7 @@ function NavbarMobile() {
                   >
                     {t("navbar.whitepaper")}
                   </a>
-                )}
+                )} */}
 
                 {/* "Referral" nav link hidden from the site per request; keep the markup for easy restoration
                 <Link

@@ -76,7 +76,7 @@ function MobileHome() {
         {/* "Standout Features" comparison table hidden from the site per request; keep the markup for easy restoration
         <MobStandoutSec />
         */}
-        <WhitepaperMob />
+        {/* <WhitepaperMob /> */}
         {/*
         <MobTokenDetailsSec />
         <MobRoadmapSec />
@@ -88,7 +88,7 @@ function MobileHome() {
         <MobFaqSec />
         */}
         <MobTheUltimateSec />
-        <LivePresale />
+        {/* <LivePresale /> */}
       </Suspense>
     </div>
   );

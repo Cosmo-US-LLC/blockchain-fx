@@ -208,7 +208,7 @@ const ClaimWidget = ({ className }) => {
     title = copy("disconnected_title", "Check your BFX allocation");
     description = copy(
       "disconnected_description",
-      "Connect the wallet used during the presale to check your claim."
+      "Connect the same wallet you used to purchase BFX."
     );
     action = (
       <button

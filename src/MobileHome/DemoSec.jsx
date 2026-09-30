@@ -87,7 +87,7 @@ function DemoSec() {
         </button>
       </div>
       */}
-      <div className="flex w-full items-center justify-center mt-8 mb-[30px]">
+      {/* <div className="flex w-full items-center justify-center mt-8 mb-[30px]">
         <a
           href="https://app.uniswap.org/explore/tokens/ethereum/0x87aD29bc7A161d7cA644EB1DB221d962e2D383D2"
           target="_blank"
@@ -99,7 +99,7 @@ function DemoSec() {
         >
           Buy on Uniswap
         </a>
-      </div>
+      </div> */}
     </div>
     </div>
    </div>

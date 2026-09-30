@@ -167,7 +167,7 @@ function Herosection() {
               {t("hero.how_it_works_button")}
             </button>
             */}
-            <a
+            {/* <a
               href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
               target="_blank"
               rel="noopener noreferrer"
@@ -177,12 +177,12 @@ function Herosection() {
               className="text-[#000] px-[30px] hover:opacity-[0.8] text-[16px] font-[800] border border-[#E6B005] hover:border-[#E6B005] rounded-[8px] w-fit h-[50px] flex items-center justify-center mr-[17px]"
             >
               ETH/BFX Launch
-            </a>
+            </a> */}
             <div className="flex-col items-center hidden 2xl:flex xl:flex lg:flex md:flex sm:hidden">
               <img className="max-w-[160px]" src={AOFA} alt="" />
               <a href="/license.pdf" className="text-[12px] underline text-[#fff] " target="_blank" rel="noopener noreferrer">Verify license</a>
             </div>
-            <a
+            {/* <a
               href="https://www.coingecko.com/en/coins/blockchain-fx"
               target="_blank"
               rel="noopener noreferrer"
@@ -193,7 +193,7 @@ function Herosection() {
                 src={CoinGeckoLogo}
                 alt="CoinGecko"
               />
-            </a>
+            </a> */}
           </div>
           <div className="flex mt-[5px] items-start justify-between space-x-2 max-w-[580px] w-[100%]">
             <div>
