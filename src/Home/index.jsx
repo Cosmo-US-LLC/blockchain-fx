@@ -3,6 +3,7 @@ import React, { useEffect, lazy, Suspense } from 'react';
 // Components that should load immediately (above the fold)
 import Herosection from './Herosection';
 import FeaturedSec from './FeaturedSec';
+import ClaimSec from './ClaimSec';
 // import WalletSec from './WalletSec';
 // import LaunchPopup from '../compunents/LaunchPopup';
 
@@ -55,6 +56,7 @@ function Home() {
       {/* BFX Presale section hidden from the site per request; keep the markup for easy restoration
       <WalletSec />
       */}
+        <ClaimSec />
         <KYCVerified />
         {/* "What Experts Say About BFX" section hidden from the site per request; keep the markup for easy restoration
         <ExpertSaysSec />
