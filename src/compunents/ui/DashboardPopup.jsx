@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
+import { createPortal } from "react-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -46,6 +47,8 @@ import confetti from "canvas-confetti";
 import { getConfig } from "../../presale-gg/web3";
 import { disconnect } from "@wagmi/core";
 import stakeTabData from "../Widget/tabs/StakeTab";
+import ClaimWidget from "../ClaimWidget";
+import HowToClaimCard from "../HowToClaimCard";
 
 const StakeTab = stakeTabData.component;
 
@@ -157,10 +160,12 @@ const DashboardPopup = ({ onClose }) => {
   const userData = useUserState();
   const apiData = useApiState();
   const modalRef = useRef(null);
+  const claimModalRef = useRef(null);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (!modalRef.current) return;
+      if (claimModalRef.current?.contains(event.target)) return;
       if (
         modalRef.current.contains(event.target) ||
         modalRef.current.isEqualNode(event.target)
@@ -215,23 +220,7 @@ const DashboardPopup = ({ onClose }) => {
     swiper.slideTo(currentRankIndex)
   }, [swiper, currentRankIndex])
 
-  const [isClaimInfoOpen, setIsClaimInfoOpen] = useState(false)
-  const claimInfoRef = useRef(null)
-  const supportsHoverRef = useRef(
-    typeof window !== "undefined" &&
-      window.matchMedia?.("(hover: hover)").matches
-  )
-
-  useEffect(() => {
-    if (!isClaimInfoOpen) return
-    const handleClickOutside = (event) => {
-      if (claimInfoRef.current && !claimInfoRef.current.contains(event.target)) {
-        setIsClaimInfoOpen(false)
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside)
-    return () => document.removeEventListener("mousedown", handleClickOutside)
-  }, [isClaimInfoOpen])
+  const [isClaimOpen, setIsClaimOpen] = useState(false)
 
   const bfxRewards = useMemo(() => {
     const bonusTransactionsRewards = userData.bonusTransactions?.reduce((acc, curr) => acc + parseNum(curr.bonus_token_amount), 0) ?? 0
@@ -585,37 +574,23 @@ const DashboardPopup = ({ onClose }) => {
             </div>
             <div className="flex gap-[10px] w-[100%] <md:flex-col">
               <div className="flex gap-[10px] w-[100%] min-w-0">
-                <div
-                  className="relative flex-1 min-w-0"
-                  ref={claimInfoRef}
-                  onMouseEnter={() =>
-                    supportsHoverRef.current && setIsClaimInfoOpen(true)
-                  }
-                  onMouseLeave={() =>
-                    supportsHoverRef.current && setIsClaimInfoOpen(false)
-                  }
-                >
+                <div className="relative flex-1 min-w-0">
                   <button
                     type="button"
-                    onClick={() => setIsClaimInfoOpen((open) => !open)}
-                    className="text-[#000] opacity-60 cursor-not-allowed flex justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] text-[10.886px] font-[800] border border-[#E5AE00] w-[100%] h-[31px] whitespace-nowrap"
+                    onClick={() => setIsClaimOpen(true)}
+                    className="text-[#000] hover:opacity-[0.7] flex justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] text-[10.886px] font-[800] border border-[#E5AE00] w-[100%] h-[31px] whitespace-nowrap"
                   >
                     Claim Tokens
                   </button>
-                  {isClaimInfoOpen && (
-                    <div className="absolute bottom-[calc(100%+8px)] left-0 max-w-[calc(100vw-40px)] z-30 w-[220px] rounded-[8px] border border-[#FBD914] bg-[#111] p-[10px] text-center text-[10.5px] leading-[1.4] text-[#fff] shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
-                      BFX is live on Uniswap, and claiming opens once the LP is ready.
-                    </div>
-                  )}
                 </div>
-                <a
+                {/* <a
                   href="https://app.uniswap.org/explore/auctions/ethereum/0xdDB66737e2a2f3952765D51296E9112223Fb5a4f"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#000] flex-1 min-w-0 flex justify-center items-center bg-[#E5AE00] px-[10px] rounded-[10px] hover:opacity-[0.7] text-[10.886px] font-[800] border border-[#E5AE00] h-[31px] whitespace-nowrap"
                 >
                   See LP
-                </a>
+                </a> */}
               </div>
               <button
                 onClick={async () => {
@@ -699,6 +674,37 @@ const DashboardPopup = ({ onClose }) => {
           </div>
         </div>
       </div>
+      {isClaimOpen &&
+        createPortal(
+          <div
+            ref={claimModalRef}
+            className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 p-4 overflow-y-auto !z-[1000]"
+            onMouseDown={(event) => {
+              if (event.target === event.currentTarget) setIsClaimOpen(false);
+            }}
+          >
+            <div
+              className="relative w-full max-w-[1000px] my-auto rounded-[28.399px] px-[24px] pb-[24px] pt-[48px]"
+              style={{
+                border: "0.718px solid #A5A5A5",
+                background:
+                  "linear-gradient(212deg, rgb(107 107 107) 0.66%, rgb(23, 23, 23) 49.48%, rgb(30, 30, 30) 100.45%)",
+              }}
+            >
+              <img
+                src={cross}
+                alt="Close"
+                onClick={() => setIsClaimOpen(false)}
+                className="absolute top-[-8px] right-[-13px] z-[2] cursor-pointer"
+              />
+              <div className="flex flex-col items-stretch gap-6 md:flex-row md:gap-4">
+                <ClaimWidget />
+                <HowToClaimCard />
+              </div>
+            </div>
+          </div>,
+          document.body
+        )}
     </div>
   );
 };
